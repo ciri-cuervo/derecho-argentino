@@ -1,0 +1,272 @@
+RG ARCA 5848/2026 - Certificado de trabajo del art. 80 LCT, formulario F.984
+==============================================================================
+Jurisdiccion:     nacional
+Fuente:           https://servicios.infoleg.gob.ar/infolegInternet/anexos/425000-429999/425871/norma.htm
+Descargado:       2026-09-15
+SHA-256 (crudo):  0b1333c2381ac8d65ff57d3628350f6f662401fb784241fe8e61ffd9a7c05dd1
+Charset:          ISO-8859-1
+
+Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
+NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
+Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+el manifiesto `normas.json`.
+==============================================================================
+
+InfoLEG - Ministerio de Justicia y Derechos Humanos - Argentina
+
+AGENCIA DE RECAUDACIÓN Y CONTROL ADUANERO
+
+Resolución General 5848/2026
+
+RESOG-2026-5848-E-ARCA-ARCA -
+Seguridad Social. Ley N° 27.802. Artículo 80 de la Ley Nº 20.744 (t.o.
+1976 y sus modif.). Certificado de Trabajo. Su reglamentación.
+Resolución General N° 2.316. Su abrogación. Resoluciones Generales Nros
+3.676 y 5.250. Su modificación.
+
+Ciudad de Buenos Aires, 15/05/2026
+
+VISTO el Expediente Electrónico Nº EX-2026-00881135- -ARCA-DVNREC#SDGREC y
+
+CONSIDERANDO:
+
+Que el artículo 80 de la Ley de Contrato de Trabajo Nº 20.744, texto
+ordenado en 1976 y sus modificaciones, prevé -desde su redacción
+original- la obligación del empleador de entregar al trabajador, cuando
+el contrato de trabajo se extinga por cualquier causa, un certificado
+de trabajo que contenga diversos datos vinculados a la relación laboral.
+
+Que, en ese marco, mediante la Resolución General N° 2.316 se aprobó el
+sistema informático que permite a los empleadores generar y emitir el
+citado certificado, como así también el certificado de servicios y
+remuneraciones previsto en el inciso g) del artículo 12 de la Ley N°
+24.241 y sus modificaciones, con información proveniente de las bases
+informáticas del Organismo y de la Administración Nacional de la
+Seguridad Social.
+
+Que, a su vez, la Resolución General N° 3.676 reglamentó el acceso de
+los trabajadores a la información laboral obrante en las bases de datos
+de este Organismo a través del servicio “Trabajo en Blanco”, y
+contempló la posibilidad de obtener la “Constancia del trabajador”,
+relativa a su situación registral, y el “Certificado Digital de
+Ingresos Laborales (CDIL)”, correspondiente a las remuneraciones de los
+últimos SEIS (6) meses.
+
+Que, por su parte, la Resolución General N° 5.250 y su complementaria
+estableció en su Título III que el certificado de trabajo del artículo
+80 de la Ley de Contrato de Trabajo Nº 20.744, texto ordenado en 1976 y
+sus modificaciones, se emitirá exclusivamente a través del sistema
+informático aprobado por la referida Resolución General N° 2.316 y se
+otorgará mediante el formulario F. 984.
+
+Que la Ley de Modernización Laboral N° 27.802 introdujo modificaciones
+al artículo 80 de la mencionada ley, e incorporó la posibilidad de
+cumplir con la obligación de entrega de los certificados laborales a
+través de su puesta a disposición del trabajador en formato físico o
+digital y también cuando la información requerida se encuentre
+disponible para el trabajador a través del sitio “web” del organismo de
+la seguridad social o del sistema que establezca esta Agencia de
+Recaudación y Control Aduanero.
+
+Que, en virtud de la mencionada modificación normativa, corresponde
+instrumentar la emisión y puesta a disposición del trabajador del
+aludido certificado en formato digital, a través del sitio “web”
+institucional.
+
+Que, en función de lo expuesto, se estima conveniente ordenar y
+sistematizar la normativa vigente, a fin de facilitar su adecuada
+comprensión y aplicación por parte de los contribuyentes.
+
+Que, en ese orden, resulta aconsejable dejar sin efecto la Resolución
+General N° 2.316, realizar adecuaciones a la Resolución General N°
+3.676 y derogar el Título III de la Resolución General N° 5.250.
+
+Que han tomado la intervención que les compete la Dirección de
+Legislación y las Subdirecciones Generales de Asuntos Jurídicos,
+Recaudación, Institucional, Sistemas y Telecomunicaciones y Técnico
+Legal Impositiva, y la Dirección General Impositiva.
+
+Que la presente se dicta en ejercicio de las facultades conferidas por
+el artículo 7° del Decreto Nº 618 del 10 de julio de 1997, sus
+modificatorios y sus complementarios, por el Decreto N° 953 del 24 de
+octubre de 2024, y por el artículo 8° del Decreto N° 13 del 6 de enero
+de 2025 y su modificatorio.
+
+Por ello,
+
+EL DIRECTOR EJECUTIVO DE LA AGENCIA DE RECAUDACIÓN Y CONTROL ADUANERO
+
+RESUELVE
+
+A - PROCEDIMIENTO PARA LA CONFECCIÓN DE CERTIFICADOS DE TRABAJO DIGITALES
+
+ARTÍCULO 1°.- El certificado de trabajo previsto en el artículo 80 de
+la Ley de Contrato de Trabajo Nº 20.744, texto ordenado en 1976 y sus
+modificaciones, será confeccionado por el empleador a través del
+sistema “Simplificación Registral”, disponible en el sitio “web” de
+esta Agencia de Recaudación y Control Aduanero
+(https://www.arca.gob.ar) -al que se accede con “Clave Fiscal” con
+nivel de seguridad 2 o superior, obtenida conforme al procedimiento
+dispuesto por la Resolución General N° 5.048 y sus modificatorias-,
+mediante la generación del formulario F.984 “Certificado de Trabajo
+Artículo 80 - LCT” bajo los siguientes formatos alternativos:
+
+a) Formato digital: se emitirá de forma electrónica, siendo requisito
+suficiente para la identificación del empleador emisor del certificado,
+la validación de su identidad efectuada a través del ingreso al sistema
+con clave fiscal, sin necesidad de incorporar su firma digital en el
+documento emitido.
+
+El trabajador podrá acceder al certificado a través del servicio
+“Trabajo en Blanco” -disponible en el sitio “web” institucional-
+conforme lo establecido por la Resolución General N° 3.676.
+
+b) Formato físico: el certificado se emitirá mediante el sistema
+mencionado en el primer párrafo del presente artículo y se imprimirá
+por duplicado. Para su validez, deberá contar con las firmas del
+empleador -o de su apoderado legal- y del trabajador, destinándose el
+original a este último y el duplicado al empleador. Asimismo, deberá
+ponerse a disposición del trabajador en la sede de la empresa.
+
+ARTÍCULO 2°.- Para la confección del certificado citado en el artículo
+anterior, se utilizará la información proveniente de las bases de datos
+de este Organismo, respecto de:
+
+a) Las altas, bajas y/o modificaciones de las relaciones laborales registradas.
+
+b) Las liquidaciones de sueldos informadas.
+
+c) Las declaraciones juradas determinativas y nominativas de aportes y
+contribuciones con destino a los distintos subsistemas de la seguridad
+social.
+
+ARTÍCULO 3°.- En caso de que la certificación comprenda períodos
+anteriores al mes de julio de 1994, el certificado emitido por el
+sistema se complementará -por tales períodos- con otra constancia de
+iguales características y datos, confeccionada por el empleador de
+acuerdo con los registros que obren en el libro de sueldos y jornales
+que este último hubiere utilizado en los períodos involucrados.
+
+B - MODIFICACIONES A LA RESOLUCIÓN GENERAL N° 3.676
+
+ARTÍCULO 4°.- Modificar la Resolución General N° 3.676, de la siguiente manera:
+
+1. Sustituir el artículo 1°, por el siguiente:
+
+“ARTÍCULO 1°.- Los trabajadores en relación de dependencia comprendidos
+en el Sistema Integrado Previsional Argentino (SIPA) podrán efectuar,
+mediante el servicio “Trabajo en Blanco” disponible en el sitio “web”
+institucional (https://www.arca.gob.ar), las siguientes operaciones:
+
+a) Consultar su situación registral -alta, baja y/o modificaciones, de
+su relación laboral registrada por su/s empleador/es en el sistema
+“Simplificación Registral”- e imprimir la “Constancia del Trabajador”.
+
+b) Obtener el “Certificado Digital de Ingresos Laborales (CDIL)”, el
+cual detallará las remuneraciones declaradas por su/s empleador/es
+correspondientes a los últimos SEIS (6) períodos fiscales mensuales,
+contados a partir de aquel cuyo vencimiento para la presentación de la
+declaración jurada determinativa y nominativa de aportes y
+contribuciones con destino a la seguridad social (F. 931) haya tenido
+lugar en el mes inmediato anterior al de la fecha en que se efectúe la
+solicitud del certificado.
+
+El “Certificado Digital de Ingresos Laborales (CDIL)” contará con un
+código de respuesta rápida (QR), que posibilitará, mediante el uso de
+un dispositivo móvil, cotejar la validez del certificado, a través de
+un método alternativo al establecido en el artículo 5° de la presente,
+y acceder, entre otros, a los siguientes datos:
+
+1.- Con relación al certificado:
+
+1.1.- Número.
+
+1.2.- Fecha de emisión.
+
+2.- Respecto del Destinatario del certificado:
+
+2.1.- Nombre/s y Apellido/s, Denominación o Razón Social.
+
+3.- En lo que hace al trabajador solicitante del certificado:
+
+3.1.- Apellido/s y nombre/s.
+
+3.2.- Código Único de Identificación Laboral (CUIL).
+
+4.- Respecto de las remuneraciones que se certifican:
+
+4.1.- Remuneración bruta de los últimos SEIS (6) meses.
+
+4.2.- Aportes de Seguridad Social.
+
+4.3.- Aportes de Obra Social.
+
+4.4.- Importes totales.
+
+5.- Con relación al empleador:
+
+5.1.- Nombre/s y Apellido/s, Denominación o Razón Social.
+
+5.2.- Clave Única de Identificación Tributaria (CUIT).
+
+c) Obtener el “Certificado de Trabajo Artículo 80 - LCT” emitido digitalmente por su empleador.
+
+d) Acceder al “Buzón de Observaciones” con el objeto de consignar las
+posibles irregularidades observadas. Dicho buzón también se encuentra
+disponible en el servicio “Aportes en línea” del sitio “web”
+institucional (https://www.arca.gob.ar).”.
+
+2. Sustituir el artículo 2°, por el siguiente:
+
+“ARTÍCULO 2°.- A efectos de la obtención de la constancia y/o de los
+certificados mencionados en el artículo anterior, los trabajadores
+deberán acceder al servicio “Trabajo en Blanco” mediante alguna de las
+siguientes modalidades:
+
+a) Ingreso a través del sitio “web” de este Organismo
+(http://www.arca.gob.ar), consignando el Código Único de Identificación
+Laboral (CUIL) y la “Clave Fiscal” con nivel de seguridad 2 o superior,
+obtenida conforme al procedimiento dispuesto por la Resolución General
+N° 5.048 y sus modificatorias.
+
+b) Ingreso a través de la banca electrónica de la entidad bancaria con
+que opera habitualmente el trabajador o, en su caso, del banco en el
+cual se encuentra abierta la cuenta en la que el empleador le deposita
+su remuneración. Para ello, la entidad deberá estar homologada por este
+Organismo y el trabajador contar con la clave de acceso al servicio de
+banca electrónica (“Home Banking”) del respectivo banco.
+
+A fin de generar u obtener el “Certificado del Artículo 80 Ley 20.744”,
+los empleadores y los trabajadores podrán consultar el manual
+disponible en los micrositios “Simplificación Registral” y “Trabajo
+Registrado” del sitio “web” institucional (https://www.arca.gob.ar),
+respectivamente.
+
+C - DISPOSICIONES GENERALES
+
+ARTÍCULO 5°.- El Certificado de Servicios y Remuneraciones previsto en
+el inciso g) del artículo 12 de la Ley Nº 24.241 y sus modificaciones,
+se confeccionará a través del servicio informático provisto por la
+Administración Nacional de la Seguridad Social (ANSES), al que se podrá
+acceder a través del sistema “Simplificación Registral”, disponible en
+el sitio “web” de este Organismo (https://www.arca.gob.ar).
+
+Para la confección del mencionado certificado, se utilizarán los datos
+detallados en el artículo 2° de la presente resolución general, así
+como los obrantes en las bases de datos de la Administración Nacional
+de la Seguridad Social.
+
+ARTÍCULO 6°.- Toda referencia efectuada a la Administración Federal de
+Ingresos Públicos en la Resolución General N° 3.676 deberá entenderse
+realizada a la Agencia de Recaudación y Control Aduanero.
+
+ARTÍCULO 7°.- Abrogar la Resolución General N° 2.316 y derogar el Título III de la Resolución General N° 5.250.
+
+ARTÍCULO 8°.- Las disposiciones de esta resolución general entrarán en vigencia el día de su publicación en el Boletín Oficial.
+
+ARTÍCULO 9°.- Comuníquese, dese a la DIRECCIÓN NACIONAL DEL REGISTRO
+OFICIAL para su publicación en el Boletín Oficial y archívese.
+
+Andres Edgardo Vazquez
+
+e. 18/05/2026 N° 33037/26 v. 18/05/2026

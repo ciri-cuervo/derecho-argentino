@@ -104,7 +104,8 @@ actor de abonar la tasa de justicia"*.
 
 **Nacional — el fuero que nunca arrancó.** El Título III de la Ley 26.993 (arts. 41 y ss.) no
 fue derogado por el Decreto 55/2025 y sigue previendo ocho juzgados y una cámara, con
-competencia hasta 55 SMVM. No consta norma que los haya puesto en funcionamiento.
+competencia hasta 55 SMVM —el valor de cada tramo, en `laboral.md` 5.12 bis—. No consta
+norma que los haya puesto en funcionamiento.
 
     [VERIFICAR VIGENCIA: puesta en funcionamiento de la Justicia Nacional en las Relaciones de Consumo (Título III Ley 26.993) - no se localizó acordada ni acto que la declare operativa]
 

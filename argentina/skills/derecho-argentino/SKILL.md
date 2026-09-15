@@ -123,6 +123,7 @@ tono con que se contesta sobre el art. 245 LCT, es la forma más silenciosa de e
 | Sociedades: contra quién se demanda cuando el deudor es una sociedad, responsabilidad de socios, administradores y directores | `references/societario.md` |
 | Previsional: PBU, prestación compensatoria, retiro por invalidez y pensión por fallecimiento | `references/previsional.md` |
 | Tributario: prescripción del art. 56, la opción de recursos del art. 76, clausura y demanda contra el Fisco | `references/tributario.md` |
+| Derecho internacional privado: si hay tratado antes que Código, cómo se aplica un derecho extranjero, prórroga de jurisdicción y su forma tácita, jurisdicción exclusiva argentina, foro de necesidad, litispendencia internacional, exhortos y arraigo a extranjeros | `references/dipr.md` |
 | Leading cases de la Corte Suprema: carátula, cita de Fallos y fecha verificadas contra la sentencia bajada | `references/fallos-csjn.md` — índice; el holding escrito solo donde se leyó el documento |
 | Previsional, penal, contencioso administrativo, tributario, societario, concursal, tránsito, discapacidad, protección de datos, y las especialidades | Sin módulo propio, **pero el repo tiene perfil de área y hay que leerlo**: `references/otras-ramas.md` |
 | Otras materias y otras provincias | Sin perfil |
@@ -524,6 +525,7 @@ de la sección 2 en todos los casos.
 | El empleador o demandado es una sociedad y hay que decidir si se extiende la responsabilidad a socios o directores | `references/societario.md` |
 | Se reclama una jubilación, un retiro por invalidez o una pensión, o se impugna un dictamen de comisión médica previsional | `references/previsional.md` |
 | Hay que recurrir una determinación, una multa o una clausura de ARCA, o pedir repetición | `references/tributario.md` |
+| El caso tiene un elemento extranjero —parte domiciliada afuera, contrato con derecho o foro elegido, sentencia dictada en otro país, exhorto, pedido de arraigo— | `references/dipr.md` |
 | Hay que citar un fallo de la Corte Suprema, o confirmar que una cita de Fallos corresponde a la causa que se le atribuye | `references/fallos-csjn.md` |
 | Dónde verificar una norma, un fallo o un monto | `references/fuentes.md` |
 | Causa penal: qué código procesal rige y cronograma del CPPF por distrito, coerción, extinción y probation, nulidades, recursos, parte general, ejecución de la pena y leyes especiales | `references/penal.md` |

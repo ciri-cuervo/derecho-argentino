@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Compara lo que los módulos CITAN contra lo que fuentes/ tiene BAJADO.
+"""Compara lo que los módulos CITAN contra lo que normas.json DECLARA.
+
+Contra lo DECLARADO y no contra lo bajado, y la diferencia importa: una norma
+declarada sin texto -- las dos que no tienen URL oficial -- cuenta como cubierta
+acá. Que le falte el texto lo dicen `fuentes/MANIFIESTO.md` y `estado.py`, que
+es donde vive esa cuenta. Acá la pregunta es otra: qué norma se usa con
+articulado y ni siquiera está en el catálogo.
 
 POR QUE EXISTE
 
@@ -75,14 +81,38 @@ DECISIONES = pathlib.Path(__file__).resolve().parent / "cobertura-revisada.json"
 
 
 def declaradas() -> set[str]:
-    """Numeros de ley que el manifiesto ya conoce."""
+    """Numeros de ley que el manifiesto declara, leidos del SLUG.
+
+    El slug es el identificador; el titulo es prosa, y la prosa de un titulo nombra OTRAS
+    leyes: "Reglamentación de la Ley 25.326", "abrogado por la Ley 27.063", "Prorroga la
+    emergencia de la Ley 14.407". Sacando numeros del titulo, cada una de esas quedaba
+    declarada por aparecer mencionada en la entrada de otra, y este control dejaba de
+    reclamarlas. La Ley 24.430 era el caso vivo: no tiene entrada propia y figuraba como
+    declarada porque `cn-1994` la nombra en su titulo.
+
+    Es la regla general del repositorio: un dato de maquina no se infiere de la prosa.
+    """
     m = json.loads(NORMAS.read_text(encoding="utf-8"))["normas"]
     n = set()
     for entrada in m:
-        campo = f"{entrada.get('titulo','')} {entrada.get('slug','')}"
-        for x in re.findall(r"\b(\d{2}\.?\d{3})\b", campo):
+        for x in re.findall(r"\b(\d{2}\.?\d{3})\b", entrada.get("slug", "")):
             n.add(x.replace(".", ""))
     return n
+
+
+def clase_de_cita(ventana: str) -> str:
+    """Para qué se nombra la ley: `regla`, `reforma` o `solo_nombre`.
+
+    Es la decisión que hace que la lista sirva o que nadie la mire. Sin separar la reforma de
+    la fuente de la regla, la lista da tres veces más entradas y todas las que importan quedan
+    tapadas: la alarma que suena siempre.
+
+    Se mira una ventana de texto alrededor de la cita, así que se equivoca en los dos sentidos.
+    Va aparte de `main()` para poder fijar por test qué ventana clasifica cómo.
+    """
+    if not ARTICULO.search(ventana):
+        return "solo_nombre"
+    return "reforma" if REFORMA.search(ventana) else "regla"
 
 
 def decisiones() -> dict:
@@ -110,10 +140,10 @@ def main(argv: list[str]) -> int:
             if numero in tengo:
                 continue
             ventana = texto[max(0, m.start() - VENTANA):m.end() + VENTANA]
-            if not ARTICULO.search(ventana):
+            clase = clase_de_cita(ventana)
+            if clase == "solo_nombre":
                 solo_nombre[numero] += 1
-                continue
-            if REFORMA.search(ventana):
+            elif clase == "reforma":
                 reforma[numero] += 1
             else:
                 regla[numero] += 1

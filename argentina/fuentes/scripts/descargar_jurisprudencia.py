@@ -18,7 +18,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-from _comun import RAIZ, ATexto, bajar, decodificar, sha256
+from _comun import RAIZ, ATexto, bajar, decodificar, fragmento_div, sha256
 from descargar_normas import es_pdf_real
 
 def _clave(texto: str) -> str:
@@ -99,17 +99,31 @@ def main():
         # de una ficha devuelve HTML, y guardarlo como .pdf hace que después no se pueda leer
         # ni auditar: es el mismo error que ya había en el descargador de normas.
         aviso = None
+        guardado = crudo
         if not es_pdf_real(ctype, crudo[:5] == b"%PDF-"):
             destino = alterno
             avisados += 1
             print(f"  AVISO     {f['slug']:42} no es PDF ({ctype or 'sin content-type'}): "
                   f"se guarda como .html")
+            # De la página se guarda sólo la sentencia. El resto -menú, scripts, pie- es más de
+            # la mitad del archivo y se mueve cuando el portal se rediseña, sin que cambie una
+            # línea del fallo. Si el div no está se guarda entera y se dice: guardar menos en
+            # silencio es peor que guardar maqueta.
+            fragmento = fragmento_div(crudo, "contenido")
+            if fragmento:
+                guardado = fragmento
+                print(f"              -> solo <div class=\"contenido\">: "
+                      f"{len(fragmento):,} de {len(crudo):,} bytes")
+            else:
+                print(f"              -> AVISO: no encontré <div class=\"contenido\">, "
+                      f"se guarda la página entera")
             # Solo se puede cotejar la identidad cuando hay texto legible. Un PDF escaneado
-            # no la permite, y ahí el control queda en el ojo de quien lo lea.
+            # no la permite, y ahí el control queda en el ojo de quien lo lea. Se coteja sobre
+            # lo GUARDADO: que la carátula aparezca en el menú no probaría nada.
             parser = ATexto()
-            parser.feed(decodificar(crudo, None))
+            parser.feed(decodificar(guardado, None))
             aviso = confirmar_identidad(parser.texto(), f.get("caratula", ""))
-        destino.write_bytes(crudo)
+        destino.write_bytes(guardado)
         proc["fallos"][f["slug"]] = {
             "archivo": destino.name,
             "caratula": f["caratula"], "tribunal": f["tribunal"], "causa": f["causa"],
@@ -117,6 +131,10 @@ def main():
             "bytes": len(crudo), "content_type": ctype,
             "descargado": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         }
+        # `sha256` es el de la página tal como la sirvió el portal, para poder detectar que
+        # cambió. `sha256_guardado` es el del archivo que queda en disco, que es lo único que
+        # se puede cotejar sin salir a la red. Coinciden cuando se guardó todo.
+        proc["fallos"][f["slug"]]["sha256_guardado"] = sha256(guardado)
         if aviso:
             proc["fallos"][f["slug"]]["revisar"] = [aviso]
             print(f"  REVISAR   {f['slug']:42} {len(crudo):>9,} bytes")

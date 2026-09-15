@@ -13,6 +13,27 @@ Lleva versiones, no sesiones de trabajo. El detalle de cada cambio vive donde se
 | La doctrina de cada precedente | El módulo que la usa; el índice, en `references/fallos-csjn.md` |
 | Si el texto de un fallo se puede transcribir | `herramientas/lecturas-ocr.json` |
 
+## [1.1.0] — 2026-09-15
+
+Entra derecho nuevo: un módulo, **10 normas** bajadas y **6 fallos** leídos contra el documento.
+
+- **Derecho internacional privado**, módulo nuevo: capítulos 1 y 2 del Título IV, arts. 2594 a
+  2612. La parte especial está sin escribir y así queda declarado.
+- **Familia.** Procesos de familia cotejados artículo por artículo; compensación económica y
+  gestación por sustitución pasan a tener precedente propio, con lo que cada fallo **no** dice.
+- **Salario mínimo, vital y móvil** con sus ocho tramos en `laboral.md`, y los topes que se miden
+  en SMVM remiten ahí en vez de repetirlo.
+- **De dónde sale un fallo.** Lo que no viene del registro del tribunal lo declara en
+  `fallos.json`: sirve para leer una sentencia que ningún registro publica, no para citarla como
+  precedente.
+- La emergencia de la **Ley 14.407 de PBA** está vencida desde octubre de 2016: se verificó la
+  cadena de prórrogas.
+- **[`docs/COBERTURA.md`](docs/COBERTURA.md)**: qué ramas existen y cuáles cubre el repositorio,
+  para decidir por dónde crece. Es un mapa fechado, no un enunciado de alcance.
+
+**Los datos vienen congelados a septiembre de 2026.** `/derecho:estado` dice qué quedó vencido y
+`/derecho:actualizar` lo baja de las fuentes oficiales.
+
 ## [1.0.2] — 2026-09-15
 
 Actualizado: íconos y banners actualizados junto con los metadatos de Marketplace para ambos plugins: Claude y Codex.

@@ -1,0 +1,247 @@
+RG ARCA 5844/2026 - Implementación del Régimen de Incentivo a la Formalización Laboral (Título XX Ley 27.802)
+==============================================================================
+Jurisdiccion:     nacional
+Fuente:           https://servicios.infoleg.gob.ar/infolegInternet/anexos/425000-429999/425538/norma.htm
+Descargado:       2026-09-15
+SHA-256 (crudo):  6461c52d8c3b99a334743e714e9a18126b1371d2f71b4127f7e9687c94ccad9e
+Charset:          ISO-8859-1
+
+Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
+NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
+Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+el manifiesto `normas.json`.
+==============================================================================
+
+InfoLEG - Ministerio de Justicia y Derechos Humanos - Argentina
+
+AGENCIA DE RECAUDACIÓN Y CONTROL ADUANERO
+
+Resolución General 5844/2026
+
+RESOG-2026-5844-E-ARCA-ARCA -
+Seguridad Social. Ley N° 27.802. Título XX. Régimen de Incentivo a la
+Formalización Laboral (RIFL). Su implementación.
+
+Ciudad de Buenos Aires, 05/05/2026
+
+VISTO el Expediente Electrónico N° EX-2026-01193554- -ARCA-DVNREC#SDGREC y
+
+CONSIDERANDO:
+
+Que el Título XX de la Ley N° 27.802 de Modernización Laboral establece
+un Régimen de Incentivo a la Formalización Laboral (RIFL), destinado a
+todos aquellos empleadores a quienes les resulten de aplicación las
+disposiciones del Capítulo 3 del Título IV de la Ley N° 27.541 de
+Solidaridad Social y Reactivación Productiva en el Marco de la
+Emergencia Pública y sus modificaciones, de la Ley de Contrato de
+Trabajo N° 20.744 (t.o. 1976) y sus modificaciones, de la Ley N° 22.250
+y su modificación, y de la Ley N° 26.727 del Régimen de Trabajo Agrario
+y sus modificaciones.
+
+Que los empleadores comprendidos en dicho régimen gozarán de la
+reducción de las alícuotas de las contribuciones patronales con destino
+al Sistema Integrado Previsional Argentino (SIPA), al Fondo Nacional de
+Empleo, al Régimen de Asignaciones Familiares y al Instituto Nacional
+de Servicios Sociales para Jubilados y Pensionados (INSSJP), por el
+término de CUARENTA Y OCHO (48) meses, respecto de nuevas relaciones
+laborales.
+
+Que el goce del citado beneficio requiere que cada nuevo trabajador
+incorporado no haya contado con una relación laboral registrada al 10
+de diciembre de 2025, o, previo al mes del alta laboral, haya estado
+desempleado en los últimos SEIS (6) meses, o inscripto en el Régimen
+Simplificado para Pequeños Contribuyentes o en tanto su último empleo
+haya sido bajo relación de dependencia en el sector público nacional,
+provincial, municipal o de la Ciudad Autónoma de Buenos Aires.
+
+Que, asimismo, los sujetos que adquieran el carácter de empleadores a
+partir del 10 de diciembre de 2025, inclusive, podrán aplicar las
+condiciones del citado régimen hasta el máximo de trabajadores que
+establezca la reglamentación, el que no podrá superar el OCHENTA POR
+CIENTO (80%) de su nómina.
+
+Que la norma legal dispone que esta Agencia de Recaudación y Control
+Aduanero establecerá los términos y condiciones a los fines de la
+aplicación del tratamiento especial al momento de darse de alta una
+nueva relación laboral.
+
+Que mediante el Decreto N° 315 del 30 de abril de 2026 se reglamentaron
+diversos aspectos del citado Título y se facultó a este Organismo, en
+el ámbito de su competencia, a dictar las normas complementarias
+necesarias para la instrumentación del beneficio.
+
+Que, en consecuencia, corresponde establecer las formas, los plazos y
+las condiciones para ejercer la opción al régimen y usufructuar el
+mencionado beneficio de reducción de alícuotas, así como el
+procedimiento aplicable para el ingreso de las obligaciones derivadas
+de su incumplimiento.
+
+Que han tomado la intervención que les compete la Dirección de
+Legislación y las Subdirecciones Generales de Asuntos Jurídicos,
+Recaudación, Fiscalización, Institucional y Sistemas y
+Telecomunicaciones.
+
+Que la presente se dicta en ejercicio de las facultades conferidas por
+los artículos 161 y 163 de la Ley N° 27.802 de Modernización Laboral,
+por los artículos 6º, 7°, 9º, 10 y 12 del Decreto N° 315 del 30 de
+abril de 2026, por el artículo 7° del Decreto N° 618 del 10 de julio de
+1997, sus modificatorios y sus complementarios, por el Decreto N° 953
+del 24 de octubre de 2024, y por el artículo 8° del Decreto N° 13 del 6
+de enero de 2025 y su modificatorio.
+
+Por ello,
+
+EL DIRECTOR EJECUTIVO DE LA AGENCIA DE RECAUDACIÓN Y CONTROL ADUANERO
+
+RESUELVE:
+
+ALCANCE
+
+ARTÍCULO 1°.- Establecer el procedimiento, las formas, los plazos y
+demás condiciones para la aplicación de los beneficios del Régimen de
+Incentivo a la Formalización Laboral (RIFL), regulado en el Título XX
+de la Ley N° 27.802 de Modernización Laboral y reglamentado por el
+Decreto Nº 315 del 30 de abril de 2026.
+
+SUJETOS COMPRENDIDOS
+
+ARTÍCULO 2°.- Se encuentran alcanzados por dicho régimen los
+empleadores del sector privado comprendidos en el artículo 156 de la
+Ley N° 27.802, por cada nuevo trabajador incorporado entre el 1 de mayo
+de 2026 y el 30 de abril de 2027, ambas fechas inclusive, en tanto
+dicho trabajador encuadre en alguno de los supuestos enunciados en el
+artículo 157 de la citada ley, conforme el alcance que, respecto de
+dichos supuestos, establece el Decreto N° 315/26.
+
+Los empleadores no podrán hacer uso de los beneficios del Régimen
+respecto de aquellos trabajadores previamente declarados bajo el
+Régimen General de la Seguridad Social que, luego de producido el
+distracto laboral -cualquiera fuese su causa-, fueran reincorporados
+por el mismo empleador dentro de los DOCE (12) meses contados a partir
+de la fecha de desvinculación, conforme lo previsto en el primer
+párrafo del artículo 160 de la Ley Nº 27.802.
+
+ALÍCUOTAS APLICABLES
+
+ARTÍCULO 3°.- Las alícuotas de contribuciones patronales previstas en
+el artículo 159 de la Ley N° 27.802 serán aplicadas y distribuidas
+entre los diferentes subsistemas de la seguridad social, conforme lo
+dispuesto en el artículo 7° del Decreto N° 315/26, de acuerdo con el
+detalle obrante en el siguiente cuadro:
+
+ALÍCUOTAS CONTRIBUCIONES DE SEGURIDAD SOCIAL – RÉGIMEN DE INCENTIVO A LA FORMALIZACIÓN LABORAL
+
+Tipo de empleadorSistema Previsional Argentino (SIPA)Régimen de Asignaciones Familiares (AAFF)Fondo Nacional del Empleo (FNE)Instituto Nacional de Servicios Sociales para Jubilados y Pensionados (INSSJP)TOTAL
+
+%%%%%
+
+Ley 27541, art. 19 inc. A1,310,570,123,005,00
+
+Ley 27541, art. 19 inc. B1,310,570,123,005,00
+
+REGISTRACIÓN
+
+ARTÍCULO 4°.- A los efectos de ejercer la opción señalada en el
+artículo 162 de la Ley Nº 27.802, los empleadores deberán registrar a
+cada nuevo trabajador incorporado durante el período previsto en el
+artículo 1° del Decreto N° 315/26, mediante el servicio denominado
+“Simplificación Registral”, utilizando el siguiente código de modalidad
+de contratación:
+
+CÓDIGOMODALIDAD DE CONTRATACIÓN
+
+710Régimen de Incentivo para la Formalización Laboral - Ley 27.802
+
+UTILIZACIÓN DEL BENEFICIO
+
+ARTÍCULO 5°.- El beneficio de reducción de alícuotas previsto en el
+artículo 159 de la Ley N° 27.802 se aplicará a partir del período
+fiscal correspondiente al inicio de la nueva relación laboral y en los
+CUARENTA Y SIETE (47) períodos fiscales siguientes, en tanto se
+mantenga vigente la citada relación laboral.
+
+El goce del referido beneficio se encontrará supeditado a que en la
+declaración jurada determinativa y nominativa de aportes y
+contribuciones con destino a la seguridad social (F. 931), el empleador
+informe al trabajador bajo el perfil correspondiente al presente
+régimen, en cuyo caso se aplicarán las alícuotas detalladas en el
+artículo 3º -según el tipo de empleador-, sin perjuicio de las
+alícuotas adicionales previstas en regímenes previsionales
+diferenciales y/o especiales de la seguridad social.
+
+Cada empleador podrá hacer uso del beneficio previsto en el artículo 159 de la Ley N° 27.802 una única vez por trabajador.
+
+DECLARACIÓN JURADA, DETERMINACIÓN E INGRESO DE LOS APORTES Y LAS CONTRIBUCIONES
+
+ARTÍCULO 6°.- A los efectos de la determinación nominativa e ingreso de
+los aportes y contribuciones con destino a la seguridad social, en el
+sistema “Declaración en línea” regulado por la Resolución General N°
+3.960, sus modificatorias y complementarias, deberá utilizarse el
+código de modalidad de contratación indicado en el artículo 4º de la
+presente resolución general para identificar a los trabajadores
+alcanzados por la adecuación de las alícuotas de contribuciones
+patronales, independientemente de que sea a jornada completa o parcial.
+
+A dichos fines, este Organismo pondrá a disposición de los empleadores
+el release 7 de la versión 47 del mencionado sistema, el que permitirá
+aplicar las nuevas alícuotas de las contribuciones patronales en forma
+automática, y cuya información vinculada estará disponible en el
+micrositio “Declaración en línea” del sitio “web” institucional
+(https://www.arca.gob.ar/declaracionenlinea/).
+
+EXCLUSIÓN DEL RÉGIMEN
+
+ARTÍCULO 7°.- Resultarán excluidos del beneficio de reducción de
+alícuotas de las contribuciones patronales establecido en el artículo
+159 de la Ley N° 27.802, los empleadores que:
+
+a) Se encontraren incorporados en el “Registro Público de Empleadores
+con Sanciones Laborales” (REPSAL), durante el período en que
+permanezcan en él.
+
+b) Hubieren incurrido en prácticas de uso abusivo del beneficio
+establecido por el mencionado Título. Será considerada práctica de uso
+abusivo el hecho de producir sustituciones de personal bajo cualquier
+figura, o el cese como empleador y la constitución de una nueva figura
+como tal, ya sea a través de las mismas o distintas personas humanas o
+jurídicas.
+
+DECAIMIENTO DEL RÉGIMEN. EFECTOS
+
+ARTÍCULO 8°.- El incumplimiento de las obligaciones previstas en el
+Título XX de la Ley N° 27.802 o el acaecimiento de las situaciones
+indicadas en el artículo anterior -conforme lo previsto en el artículo
+160 de la citada ley-, producirán el decaimiento del beneficio de
+reducción de alícuotas de las contribuciones patronales debiendo el
+empleador presentar las declaraciones juradas rectificativas
+correspondientes y abonar las diferencias, sus intereses y las multas
+pertinentes por los períodos fiscales que correspondan.
+
+DISPOSICIONES GENERALES
+
+ARTÍCULO 9°.- La obligación de utilización del release 7 de la versión
+47 del sistema “Declaración en línea” comprende las presentaciones de
+declaraciones juradas correspondientes al período devengado mayo de
+2026 y siguientes, así como las presentaciones de declaraciones juradas
+-originales o rectificativas- correspondientes a períodos anteriores,
+que se efectúen a partir de la fecha de vigencia de la presente
+resolución general.
+
+ARTÍCULO 10.- Las disposiciones de la presente resolución general
+entrarán en vigencia el día de su publicación en el Boletín Oficial, y
+resultarán de aplicación para las declaraciones juradas
+correspondientes al período devengado mayo de 2026 y siguientes.
+
+Aquellas altas de trabajadores registradas en el sistema
+“Simplificación Registral”, entre el 1 de mayo de 2026 y la puesta en
+vigencia de la presente resolución general, se podrán rectificar -en
+caso de cumplir con las pautas y requisitos establecidos- habilitando
+el código de modalidad de contratación previsto en el artículo 4° de la
+presente.
+
+ARTÍCULO 11.- Comuníquese, dese a la DIRECCIÓN NACIONAL DEL REGISTRO
+OFICIAL para su publicación en el Boletín Oficial y archívese.
+
+Andres Edgardo Vazquez
+
+e. 06/05/2026 N° 29635/26 v. 06/05/2026

@@ -1,8 +1,8 @@
 {
   "_descripcion": "Veredictos de lectura sobre las marcas que revisar_texto() pone en una norma recien bajada. Lo consume scripts/descargar_normas.py.",
   "_criterio": "revisar_texto() reporta CANDIDATOS, no defectos probados: hay leyes legitimamente cortas y portales que envuelven un articulado sano. La marca se apaga leyendo el texto y anotando aca que se vio, con fecha. Sin esto la misma marca vuelve a sonar en cada descarga y deja de mirarse. La entrada se indexa por el texto EXACTO del problema. Si revisar_texto() cambia como lo redacta, o si la norma vuelve con un defecto distinto, el veredicto deja de aplicar y la marca vuelve a sonar. Es deliberado: un veredicto vale para lo que se leyo, no para el slug.",
-  "fijado": "2026-09-14",
-  "nota": "Dos veredictos: la 24.754, corta de verdad, y la 26.023, donde la ley aprobatoria y su anexo conviven en el mismo archivo y el detector leyo la remision sin ver la transcripcion.",
+  "fijado": "2026-09-15",
+  "nota": "Un veredicto por norma leida, sin contarlos aca: el numero lo da este archivo. La 24.754 es corta de verdad. La 26.023 y el Decreto 84/2026 son el mismo caso: la parte dispositiva remite a un anexo y el detector leyo la remision sin ver que la transcripcion viene abajo, en el mismo archivo.",
   "revisiones": {
     "ley-24754": [
       {
@@ -16,6 +16,13 @@
         "problema": "parece la ley APROBATORIA y no su contenido: solo 23 articulos y el texto remite a un anexo. Buscar una fuente que transcriba el anexo",
         "veredicto": "Falso positivo. El archivo trae las dos cosas: la ley aprobatoria -ARTICULO 1o y 2o- y despues la Convencion entera transcripta como anexo, del Articulo 1 al 23. Los 23 articulos que el detector leyo como sospechosos son los del convenio, no una remision vacia: el art. 1 de la ley dice que consta de 23 articulos 'cuya fotocopia autenticada forma parte de la presente ley', y esa fotocopia esta transcripta abajo. El art. 2 del convenio -Instrumentos internacionales aplicables-, que es el que penal.md 24.2.1 necesita para delimitar el ambito del juicio en ausencia, esta completo con su listado.",
         "fecha": "2026-09-14"
+      }
+    ],
+    "decreto-84-2026": [
+      {
+        "problema": "parece la ley APROBATORIA y no su contenido: solo 23 articulos y el texto remite a un anexo. Buscar una fuente que transcriba el anexo",
+        "veredicto": "Falso positivo. La parte dispositiva son 23 articulos y remite a anexos, pero InfoLEG los transcribe a continuacion: el ANEXO I -reglamentacion de la Ley 27.793, 21 articulos- arranca en el renglon 244 y el ANEXO II -Pension no Contributiva por Discapacidad para Proteccion Social- en el 467, los dos bajo la nota del BORA que dice que fueron extraidos de su edicion web. El archivo cierra con el IF-2026-12201515-APN-UGA#MS del ANEXO II, asi que no esta truncado. La medida cuenta los articulos de la parte dispositiva y no ve el anexo, que es lo correcto para el caso general.",
+        "fecha": "2026-09-15"
       }
     ]
   }

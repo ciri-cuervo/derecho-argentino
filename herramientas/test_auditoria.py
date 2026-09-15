@@ -102,5 +102,75 @@ class TestDependenciasExternas(unittest.TestCase):
         self.assertLess(exige, resume)
 
 
+class TestMedidaDeBasura(unittest.TestCase):
+    """La medida de basura de OCR, que decide si un documento se puede transcribir.
+
+    Se ejercita sobre texto y no sobre PDF a propósito: la regla que hay que fijar es que CERO
+    PALABRAS no es cero basura, y eso no depende de como se extrajo el texto. Un escaneo sin
+    capa de texto devuelve vacío, y la versión anterior lo informaba como 0% -- la lectura de
+    un documento impecable -- porque dividía por `max(len(tokens), 1)`. Pasaba por el mejor del
+    corpus justamente el que no se puede leer.
+    """
+
+    def setUp(self):
+        import calidad_ocr
+        self.ocr = calidad_ocr
+
+    def test_sin_palabras_no_hay_medida(self):
+        for vacio in ("", "   \n\t ", "123 456", "--- *** ---"):
+            with self.subTest(repr(vacio)):
+                self.assertIsNone(self.ocr.proporcion_sucia(vacio),
+                                  "sin palabras devolvió un número: se lee como documento limpio")
+
+    def test_texto_sano_mide_cero(self):
+        sano = ("Vistos los autos: Recurso de hecho deducido por la defensa. "
+                "Considerando que la cámara resolvió con arreglo al artículo 14.")
+        self.assertEqual(self.ocr.proporcion_sucia(sano), 0.0)
+
+    def test_basura_de_caracteres_se_mide_alto(self):
+        # Como se ve un tomo con la capa de texto arruinada: caracteres que no son del idioma.
+        roto = r"&n,n+`7n4NK\W.nG.nZ7K\7K4A.n57nG.n-.G. Considerando"
+        medido = self.ocr.proporcion_sucia(roto)
+        self.assertGreater(medido, self.ocr.UMBRAL_BASURA,
+                           f"midió {medido:.0%} sobre texto destruido")
+
+    def test_la_medida_es_de_CARACTERES_y_por_eso_no_alcanza(self):
+        """El límite de la medida, fijado a propósito para que nadie la "arregle" aflojándola.
+
+        `basura()` cuenta caracteres que no son del castellano. Una capa de OCR puede estar
+        destruida usando SÓLO caracteres válidos, y entonces mide 0%: este texto es de un tomo
+        que `lecturas-ocr.json` tiene registrado como `destruido`, y por acá pasa impecable.
+
+        No es un defecto a corregir: es la razón por la que el veredicto de los otros dos
+        defectos -- columnas y sustituciones -- se LEE y se registra, y no se estima. Cuatro
+        medidas se probaron y las cuatro fallaron sobre casos conocidos. Si algún día esta
+        aserción molesta, lo que hay que revisar es la medida nueva contra el corpus entero,
+        no este número.
+        """
+        destruido_pero_legible_al_regex = "Considerando: 1*) i BEi Que vei segtin vi surge Xi"
+        self.assertEqual(self.ocr.proporcion_sucia(destruido_pero_legible_al_regex), 0.0)
+
+    def test_las_letras_del_castellano_no_son_basura(self):
+        # Si la clase de letras pierde una, un documento sano se mide como roto y se manda a
+        # reocr sin necesidad. Ya pasó en otro control con la Ü.
+        limpio = "El cónyuge alegó antigüedad y daños en años anteriores según la ley"
+        self.assertEqual(self.ocr.proporcion_sucia(limpio), 0.0)
+
+    def test_la_puntuacion_del_castellano_tampoco(self):
+        limpio = '¿Corresponde? ¡Sí! —dijo— «con arreglo al art. 14», 3º párrafo.'
+        self.assertEqual(self.ocr.proporcion_sucia(limpio), 0.0)
+
+    def test_un_pdf_ilegible_no_se_informa_como_limpio(self):
+        """`basura()` sobre algo que `pdftotext` no puede leer devuelve None, no 0.0."""
+        import _externos
+        if _externos.falta("pdftotext"):
+            self.skipTest("sin poppler: la regla pura la fija test_sin_palabras_no_hay_medida")
+        import tempfile
+        with tempfile.TemporaryDirectory() as d:
+            falso = pathlib.Path(d) / "no-es-un-pdf.pdf"
+            falso.write_text("esto no es un PDF\n", encoding="utf-8")
+            self.assertIsNone(self.ocr.basura(falso))
+
+
 if __name__ == "__main__":
     unittest.main()

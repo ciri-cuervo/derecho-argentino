@@ -74,21 +74,43 @@ LECTURAS = RAIZ / "lecturas-ocr.json"
 CORPUS = RAIZ.parent / "argentina" / "fuentes" / "jurisprudencia"
 
 
-def basura(ruta: pathlib.Path) -> float:
+def proporcion_sucia(texto: str) -> float | None:
     """Proporción de tokens con algún carácter que no es del espaniol.
+
+    None cuando no hay ni una palabra: no hay medida. Antes esto daba 0.0,
+    porque el cociente se hacía contra `max(len(tokens), 1)`, y 0.0 es la
+    lectura de un documento impecable -- un escaneo sin capa de texto pasaba
+    por el mejor del corpus. Es el mismo modo de fallar que `_externos` existe
+    para tapar, verde con el instrumento apagado, un nivel mas abajo: por
+    documento en vez de por corrida. Quien llama tiene que poder distinguir
+    "medi y esta limpio" de "no pude medir".
+
+    Va aparte de `basura()` para que se pueda ejercitar sin poppler: la regla
+    de que cero palabras no es cero basura es lo que hay que fijar, y no
+    depende de como se extrajo el texto.
+    """
+    texto = re.sub(r"\s+", " ", texto.lower())
+    tokens = [t for t in texto.split() if any(c.isalpha() for c in t)]
+    if not tokens:
+        return None
+    sucios = sum(1 for t in tokens
+                 if any(c not in LETRAS and not c.isdigit() and c not in PUNTUACION
+                        for c in t))
+    return sucios / len(tokens)
+
+
+def basura(ruta: pathlib.Path) -> float | None:
+    """Lo mismo, sobre el texto que extrae `pdftotext`. None si no se pudo medir.
 
     Con -layout, que es como hay que extraer siempre: sin esa opción el
     extractor reordena las palabras de los PDF a dos columnas y un documento
     sano parece roto.
     """
-    crudo = subprocess.run(["pdftotext", "-q", "-layout", str(ruta), "-"],
-                           capture_output=True, text=True).stdout.lower()
-    texto = re.sub(r"\s+", " ", crudo)
-    tokens = [t for t in texto.split() if any(c.isalpha() for c in t)]
-    sucios = sum(1 for t in tokens
-                 if any(c not in LETRAS and not c.isdigit() and c not in PUNTUACION
-                        for c in t))
-    return sucios / max(len(tokens), 1)
+    hecho = subprocess.run(["pdftotext", "-q", "-layout", str(ruta), "-"],
+                           capture_output=True, text=True)
+    if hecho.returncode != 0:
+        return None
+    return proporcion_sucia(hecho.stdout)
 
 
 def main(argv: list[str]) -> int:
@@ -101,27 +123,44 @@ def main(argv: list[str]) -> int:
         print(f"sin PDF en {CORPUS}")
         return 1
 
-    filas, pendientes = [], []
+    filas, pendientes, sin_medir = [], [], []
     for p in pdfs:
         b = basura(p)
         leido = leidas.get(p.stem)
         if leido is None:
             pendientes.append(p.stem)
         estado = leido["estado"] if leido else "sin leer"
-        if b > UMBRAL_BASURA or estado not in ("limpio", "sin leer"):
+        if b is None:
+            # No se pudo extraer: no hay medida, y eso NO es un documento limpio.
+            # Entra como defecto siempre, porque lo que no se extrae no se transcribe.
+            sin_medir.append(p.stem)
+            filas.append((estado, b, p.stem, (leido or {}).get("nota", "")))
+        elif b > UMBRAL_BASURA or estado not in ("limpio", "sin leer"):
             filas.append((estado, b, p.stem, (leido or {}).get("nota", "")))
 
     if not solo_pendientes:
         print("  Documentos con defecto, medido o leído:\n")
-        for estado, b, slug, nota in sorted(filas):
-            med = f"basura {b:.0%}" if b > UMBRAL_BASURA else "  --  "
+        for estado, b, slug, nota in sorted(filas, key=lambda f: (f[0], f[1] is not None,
+                                                                 f[1] or 0, f[2])):
+            if b is None:
+                med = "SIN MEDIR"
+            elif b > UMBRAL_BASURA:
+                med = f"basura {b:.0%}"
+            else:
+                med = "  --  "
             print(f"  {estado:12} {med:12}  {slug}")
             if nota:
                 print(f"               {nota}")
         print()
 
     print(f"  {len(pdfs)} documentos | {len(filas)} con defecto | "
-          f"{len(pendientes)} sin leer")
+          f"{len(pendientes)} sin leer | {len(sin_medir)} sin medir")
+    if sin_medir:
+        print("\n  SIN MEDIR: `pdftotext` no devolvió palabras. Puede ser un escaneo sin capa")
+        print("  de texto -- va a reocr_jurisprudencia.py -- o un archivo que no es el PDF que")
+        print("  dice ser. No se cuenta como limpio:")
+        for s in sin_medir:
+            print(f"    {s}")
     if pendientes:
         print("\n  SIN LEER: que no figuren arriba no prueba que su texto este bien,")
         print("  solo que nadie lo miro. Leer y registrar en lecturas-ocr.json:")

@@ -83,6 +83,8 @@ python3 herramientas/test_pendientes.py
 python3 herramientas/test_reformas.py
 python3 herramientas/test_markdown.py
 python3 herramientas/test_cifras.py
+python3 herramientas/test_fuga.py
+python3 herramientas/test_cobertura.py
 python3 argentina/skills/derecho-argentino/scripts/estado.py
 python3 herramientas/fuga_textual.py argentina/skills/derecho-argentino/SKILL.md \
     argentina/skills/derecho-argentino/references/*.md argentina/evals/*/*.md
@@ -311,7 +313,7 @@ que nombra el error, citándolo textual.** `herramientas/frontera_kb.py` avisa c
 si el cambio es querido, se fija con `--fijar --nota '...'`.
 
 > **Los evals entran al detector, igual que los módulos.** Son capa 3 y se escriben con las
-> mismas reglas, así que el comando de arriba los incluye. Los 17 casos dan **cero prosa**: sus
+> mismas reglas, así que el comando de arriba los incluye. Los 18 casos dan **cero prosa**: sus
 > coincidencias con `kb/` son articulado y carátulas de fallos, que se mueven libres. Un caso
 > nuevo que copie prosa rompe el checklist, que es exactamente para lo que está.
 
@@ -355,6 +357,39 @@ Y antes de escribir sobre un instituto: leer el texto en `argentina/fuentes/norm
 consolidado con URL, fecha y hash. El vocabulario de marcadores válido es el de
 `references/marcadores.md`. Cuando se agrega o corrige contenido normativo, actualizar la tabla de
 estado de verificación de `references/changelog-normativo.md` con la fecha y la volatilidad.
+
+### Un monto se escribe sólo si la norma le pone ventana
+
+La pregunta no es si el monto es reciente, es **si tiene vencimiento escrito**. Los montos de la
+Res. SRT 39/2026 están en la tabla de `laboral.md` porque la resolución dice del 01/09/2026 al
+28/02/2027: pasada esa fecha el número se ve vencido solo, y el que lo lea sabe que dejó de regir.
+El SMVM, en cambio, se emite por marcador —`concursos.md` lo pide para el tope del pronto pago—
+porque ahí el número es un valor corriente sin fin escrito, y guardado envejecería en silencio
+pareciendo vigente.
+
+De ahí sale qué hacer al bajar una norma de montos: **leerla para ver si trae cronograma.** Si
+fija tramos con fechas, el monto entra a la tabla con su ventana y el marcador se retira. Si es un
+valor abierto, el marcador se queda y el veredicto se escribe. Un número sin ventana en un módulo
+es la forma más cara de equivocarse que tiene este repositorio, porque no se ve.
+
+### Dos puertas de entrada, dos detectores
+
+Una norma entra al repositorio por dos lados, y cada uno tiene su propia medida. **Citada con
+articulado** en un módulo: la reclama `cobertura_normativa.py`. **Nombrada en «Cambios recientes»**
+de `changelog-normativo.md`: la reclama `TestNormasDeCambiosRecientes`, en `test_scripts.py`.
+
+Hacían falta las dos porque la primera mira una ventana de texto alrededor de un articulado
+citado, y una resolución anotada en una lista de cambios recientes no cae ahí. Es justo donde el
+repositorio guarda lo más volátil —montos del semestre, reglamentaciones—, o sea lo que primero
+envejece: sin la segunda medida, esa sección podía quedar vieja sin que sonara nada.
+
+Las dos tienen la misma salida y la misma disciplina: **o la norma está declarada en
+`normas.json`, o alguien escribió por qué no** en `cobertura-revisada.json`. Lo que ninguna de las
+dos admite es el silencio.
+
+Al comparar números de norma, **la clave es exacta y no por subcadena.** Aplanados a dígitos,
+`5844/2026` contiene a `4/2026`: con subcadena, una norma borrada del manifiesto sigue pareciendo
+declarada porque otra sin relación la contiene. Un test de la clase fija ese caso.
 
 ## Qué queda pendiente
 

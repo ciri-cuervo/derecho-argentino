@@ -9,7 +9,7 @@
 # Derecho argentino · skill para agentes de IA
 
 <p align="center">
-  <a href="CHANGELOG.md"><img src="assets/marca/chapa-version.png" width="106" height="32" alt="Versión 1.0.2"></a>
+  <a href="CHANGELOG.md"><img src="assets/marca/chapa-version.png" width="106" height="32" alt="Versión 1.1.0"></a>
   <a href="LICENCIAS.md"><img src="assets/marca/chapa-licencia.png" width="168" height="32" alt="Licencias: contenido CC BY-SA 4.0, código MIT"></a>
   <img src="assets/marca/chapa-python.png" width="135" height="32" alt="Requiere Python 3">
   <img src="assets/marca/chapa-agentes.png" width="172" height="32" alt="Corre en Claude y Codex (ChatGPT)">
@@ -20,7 +20,7 @@ de fuente primaria y calculadoras deterministas. Trabaja tanto **desde una parte
 órgano jurisdiccional**.
 
 > [!NOTE]
-> **Está en desarrollo temprano.** Lo que hay son **30 módulos**, y cada uno lleva su propia
+> **Está en desarrollo temprano.** Lo que hay son **31 módulos**, y cada uno lleva su propia
 > **fecha de verificación contra fuente primaria**. Donde todavía no hay módulo auditado, la skill
 > abre el material heredado del repositorio y **avisa cada vez que ese material no pasó
 > auditoría** — no lo presenta como verificado. La cobertura crece módulo por módulo; lo que no
@@ -228,8 +228,8 @@ un juez, un empleado de un tribunal— ni régimen por defecto: en el fuero labo
 conviven la Ley 11.653 y la Ley 15.057 según la fecha de la audiencia de vista, y la skill
 pregunta esa fecha antes de citar un código procesal.
 
-**Fuente primaria offline.** `argentina/fuentes/` guarda el texto consolidado de **132 normas** y
-**64 fallos**, cada uno con su URL, su fecha de descarga y su hash SHA-256. `verificar_normas.py`
+**Fuente primaria offline.** `argentina/fuentes/` guarda el texto consolidado de **142 normas** y
+**70 fallos**, cada uno con su URL, su fecha de descarga y su hash SHA-256. `verificar_normas.py`
 vuelve a pedirlos y sale con código 1 si alguno cambió: es una alarma de reforma legislativa, no
 un backup.
 

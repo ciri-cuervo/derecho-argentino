@@ -211,11 +211,11 @@ ejecuta, con licencia de código.
 Atribución y **CompartirIgual**: se usa y se adapta libremente, **incluido el uso comercial**, y lo
 que se distribuya adaptado lleva la misma licencia.
 
-- `argentina/skills/derecho-argentino/SKILL.md` y los **30 módulos** de `references/`
+- `argentina/skills/derecho-argentino/SKILL.md` y los **31 módulos** de `references/`
 - `argentina/commands/` — los **8 comandos slash**, que son instrucciones y no programas
-- `argentina/evals/` — los **17 casos** de verificación con su rúbrica y su resultado esperado
+- `argentina/evals/` — los **18 casos** de verificación con su rúbrica y su resultado esperado
 - `argentina/fuentes/MANIFIESTO.md` y `argentina/fuentes/jurisprudencia/INDICE.md`
-- `README.md`, `CLAUDE.md`, los **4 documentos** de `docs/`, `CHANGELOG.md`,
+- `README.md`, `CLAUDE.md`, los **5 documentos** de `docs/`, `CHANGELOG.md`,
   `assets/marca/README.md` y este
   archivo
 - `assets/marca/` — el sello, el ícono, las chapitas y el separador, con sus fuentes SVG

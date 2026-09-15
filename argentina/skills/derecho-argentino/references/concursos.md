@@ -101,7 +101,9 @@ que el síndico detecte fondos, **se afecta el 3% mensual del ingreso bruto de l
 síndico arma un plan de pago proporcional a los créditos y sus privilegios, y **cada pago
 individual en cada distribución no puede exceder cuatro salarios mínimos vitales y móviles**.
 
-`[VERIFICAR MONTO ACTUALIZADO: salario mínimo vital y movil vigente - tope de cada pago individual del pronto pago, art. 16 Ley 24.522]`
+El SMVM de cada tramo está en `laboral.md` 5.12 bis, cotejado contra la Res. 4/2026. Se toma
+el vigente **a la fecha de la distribución**, no el de hoy: un plan de pago que cruza el
+comienzo de un tramo cambia de tope en el medio.
 
 > **El listado del art. 16 cita normas laborales derogadas, y hay que leerlo por tramo
 > temporal.** Enumera, entre otras, las indemnizaciones de los **arts. 1 y 2 de la Ley 25.323**,
