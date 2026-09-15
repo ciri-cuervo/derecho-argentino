@@ -274,7 +274,8 @@
       "sha256": "2c70f7c261d1d142b6f9255fa5f8ef4a1bea417487c1657309999d4dd140c795",
       "bytes": 115529,
       "content_type": "text/html; charset=utf-8",
-      "descargado": "2026-09-14T16:08:40+00:00"
+      "descargado": "2026-09-15T23:12:24+00:00",
+      "sha256_guardado": "b1872651a114cbbf3d91971a5f4b313ba63521817de5ba6aa9402e89a72f46d2"
     },
     "scba-vera-l124807-2021-05-11": {
       "archivo": "scba-vera-l124807-2021-05-11.pdf",
@@ -767,6 +768,80 @@
       "bytes": 436028,
       "content_type": "application/pdf",
       "descargado": "2026-09-14T16:12:16+00:00"
+    },
+    "ccsm3-emr-76208-2020-07-22": {
+      "archivo": "ccsm3-emr-76208-2020-07-22.html",
+      "caratula": "E., M. R. c/ L., M. F. s/ Acción de compensación económica",
+      "tribunal": "Camara de Apelacion en lo Civil y Comercial Sala III, San Martin",
+      "causa": "76208",
+      "fecha": "2020-07-22",
+      "url": "https://juba.scba.gov.ar/VerTextoCompleto.aspx?idFallo=175536",
+      "sha256": "d2f9058b02813d9d2887b4726df45accba3be054ae5df463a112c22f54b7c579",
+      "bytes": 74343,
+      "content_type": "text/html; charset=utf-8",
+      "descargado": "2026-09-15T20:08:56+00:00",
+      "sha256_guardado": "709c5431df87c4506db02876023d54bc09d0d467a6867445af22ed10f4faec88"
+    },
+    "scba-mlf-c124589-2022-03-21": {
+      "archivo": "scba-mlf-c124589-2022-03-21.html",
+      "caratula": "M.L.F. c/ C.M.E. s/ Acción de compensación económica",
+      "tribunal": "SCBA",
+      "causa": "C. 124.589",
+      "fecha": "2022-03-21",
+      "url": "https://juba.scba.gov.ar/VerTextoCompleto.aspx?idFallo=183805",
+      "sha256": "cbe70b154bb3c55e924f46a557b9ca59025421c8bc542023082fe94115ebae2f",
+      "bytes": 122626,
+      "content_type": "text/html; charset=utf-8",
+      "descargado": "2026-09-15T20:08:56+00:00",
+      "sha256_guardado": "c49fc45a5698034f40971626e3a7115021f3a361a96d7fae41a462e9415cb9bf"
+    },
+    "csjn-sin-civ86767-2024-10-22": {
+      "archivo": "csjn-sin-civ86767-2024-10-22.pdf",
+      "caratula": "S., I. N. c/ A., C. L. s/ impugnación de filiación",
+      "tribunal": "CSJN",
+      "causa": "CIV 86767/2015/1/RH1 y otro",
+      "fecha": "2024-10-22",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=8027721",
+      "sha256": "f31d4090db562c069e6c7a07dadad241f0e418c92c6a1f0ae44f38fc3832ed42",
+      "bytes": 630566,
+      "content_type": "application/pdf",
+      "descargado": "2026-09-15T20:27:01+00:00"
+    },
+    "jfam8lp-dje-80155-2020-04-27": {
+      "archivo": "jfam8lp-dje-80155-2020-04-27.pdf",
+      "caratula": "D., J. E. y otro/a s/ Autorización judicial",
+      "tribunal": "Juzgado de Familia N 8 de La Plata",
+      "causa": "80155/2019",
+      "fecha": "2020-04-27",
+      "url": "https://www.scba.gov.ar/includes/descarga.asp?id=45517&n=Ver%20sentencia%20(N%C2%B0%2080155).pdf",
+      "sha256": "80ee93c6f1fe0882eb358c91e278c40f07c06fe298bbc5612a091f39180aa1a5",
+      "bytes": 299308,
+      "content_type": "application/pdf",
+      "descargado": "2026-09-15T20:27:01+00:00"
+    },
+    "jfam4lm-gl-lm1573-2024-01-30": {
+      "archivo": "jfam4lm-gl-lm1573-2024-01-30.pdf",
+      "caratula": "G. L. c/ M. C. S. M. s/ Protección contra la violencia familiar (Ley 12.569)",
+      "tribunal": "Juzgado de Familia N 4 de La Matanza",
+      "causa": "LM-1573-2024",
+      "fecha": "2024-01-30",
+      "url": "https://repositorio.mpd.gov.ar/jspui/bitstream/123456789/4919/1/GLC%20Sentencia%20completa.pdf",
+      "sha256": "a1e93a1960d0739d08c2f31569cae673b5075f98388f479a382431a161c7cb06",
+      "bytes": 294189,
+      "content_type": "application/pdf",
+      "descargado": "2026-09-15T20:32:43+00:00"
+    },
+    "jpli-smmb-63-2024-11-20": {
+      "archivo": "jpli-smmb-63-2024-11-20.pdf",
+      "caratula": "S. M. M. B. c/ Y. E. D. s/ Protección contra la violencia familiar Ley 12.569",
+      "tribunal": "Juzgado de Paz Letrado de Ituzaingo",
+      "causa": "63",
+      "fecha": "2024-11-20",
+      "url": "https://repositorio.mpd.gov.ar/jspui/bitstream/123456789/5464/1/SMMB%20(Causa%20N%c2%b0%2063).pdf",
+      "sha256": "1e828efc0e5ab3a9099b1070d047b854eeb9e976a0c283b0174f2c202433f604",
+      "bytes": 149125,
+      "content_type": "application/pdf",
+      "descargado": "2026-09-15T20:32:43+00:00"
     }
   }
 }

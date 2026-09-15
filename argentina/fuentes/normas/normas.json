@@ -228,11 +228,47 @@
       "prioridad": 1
     },
     {
+      "slug": "decreto-1558-2001",
+      "titulo": "Decreto 1558/2001 - Reglamentación de la Ley 25.326 (texto actualizado)",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/70000-74999/70368/texact.htm",
+      "prioridad": 2,
+      "nota": "Texto ACTUALIZADO: el art. 29 fue sustituido por el Decreto 899/2017 y el art. 31 inc. 3 por el Decreto 1160/2010, y la Nota Infoleg registra el reemplazo de la Dirección Nacional de Protección de Datos Personales por la Agencia de Acceso a la Información Pública. Lo pide datos-personales.md 30, donde la autoridad de aplicación está marcada como a verificar.",
+      "url_alternativa": "https://www.argentina.gob.ar/normativa/nacional/70368/actualizacion"
+    },
+    {
+      "slug": "decreto-315-2026",
+      "titulo": "Decreto 315/2026 - Reglamentación del Título XX de la Ley 27.802 (Régimen de Incentivo a la Formalización Laboral)",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/425000-429999/425374/norma.htm",
+      "prioridad": 2,
+      "nota": "B.O. 04/05/2026. El changelog lo agrupaba con la RG ARCA 5844/2026, que lo implementa.",
+      "url_alternativa": "https://www.boletinoficial.gob.ar/detalleAviso/primera/341443/20260504"
+    },
+    {
       "slug": "decreto-407-2026",
       "titulo": "Decreto 407/2026 - Reglamentación de la Ley 27.802 (Modernización Laboral)",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/425000-429999/426270/norma.htm",
       "prioridad": 1
+    },
+    {
+      "slug": "decreto-408-2026",
+      "titulo": "Decreto 408/2026 - Reglamentación del Título II de la Ley 27.802 (Fondo de Asistencia Laboral)",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/425000-429999/426272/norma.htm",
+      "prioridad": 2,
+      "nota": "B.O. 01/06/2026.",
+      "url_alternativa": "https://www.boletinoficial.gob.ar/detalleAviso/primera/342622/20260601"
+    },
+    {
+      "slug": "decreto-409-2026",
+      "titulo": "Decreto 409/2026 - Régimen de Promoción del Empleo Registrado (Título XXII de la Ley 27.802)",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/425000-429999/426271/norma.htm",
+      "prioridad": 2,
+      "nota": "B.O. 01/06/2026. OJO con el id: una búsqueda de 'Decreto 409/2026' devuelve tambien el id 426580, que es la RG ARCA 5862/2026 sobre el mismo régimen y NO este decreto. El id 426271 sale de la ficha oficial verNorma.do?id=426271.",
+      "url_alternativa": "https://www.boletinoficial.gob.ar/detalleAviso/primera/342621/20260601"
     },
     {
       "slug": "decreto-467-1988",
@@ -279,6 +315,15 @@
       "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/217590/20190930",
       "prioridad": 1,
       "nota": "Es el texto VIGENTE del art. 12 LRT, no el de la Ley 27.348. El ap. 2 devenga solo RIPTE; la tasa activa BNA quedo para la mora de la ART (ap. 3)."
+    },
+    {
+      "slug": "decreto-84-2026",
+      "titulo": "Decreto 84/2026 - Reglamentación de la Ley 27.793 (Emergencia Nacional en Discapacidad)",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/420000-424999/422915/norma.htm",
+      "prioridad": 2,
+      "nota": "B.O. 04/02/2026. Es la reglamentación que salud-discapacidad.md 27 daba por faltante. Aprueba el texto como Anexo I, así que hay que confirmar que el anexo venga en el mismo documento y no en un IF aparte.",
+      "url_alternativa": "https://www.boletinoficial.gob.ar/detalleAviso/primera/337541/20260204"
     },
     {
       "slug": "dnu-70-2023",
@@ -759,6 +804,15 @@
       "prioridad": 1
     },
     {
+      "slug": "ley-27793",
+      "titulo": "Ley 27.793 - Emergencia Nacional en Discapacidad",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/415000-419999/417788/norma.htm",
+      "prioridad": 2,
+      "nota": "B.O. 22/09/2025. No tiene texto actualizado: la ficha sólo ofrece norma.htm. Sus arts. 10 y 11 modifican los arts. 2 y 3 de la Ley 22.431; el 14 incorpora el art. 7 bis y el 15 sustituye el art. 9 de la Ley 24.901. OJO: la ficha de InfoLEG registra sanción el 04/09/2025 y el cuerpo del texto cierra el 10/07/2025; esa discrepancia NO está verificada.",
+      "url_alternativa": "https://www.boletinoficial.gob.ar/detalleAviso/primera/331706/20250922"
+    },
+    {
       "slug": "ley-27798",
       "titulo": "Ley 27.798 - art. 62: excepción a los arts. 7 y 10 de la Ley 23.928 (prohibición de indexar)",
       "jurisdiccion": "nacional",
@@ -910,6 +964,15 @@
       "nota": "Sancionada el 18/10/2012: NO puede adherir a la Ley 27.736, que es de 2023 -asi estaba declarada, por error-. Su art. 1 inc. a adhiere e implementa la Ley 26.485. De ahi sale la pregunta que familia.md necesita: si esa adhesion es DINAMICA -a la 26.485 con sus modificaciones, incluida la cautelar digital que le agrego la 27.736- o ESTATICA, al texto de 2012. Leer el art. 1 antes de afirmar desde cuando rige en la provincia."
     },
     {
+      "slug": "pba-ley-14731",
+      "titulo": "Ley 14.731 PBA - Prorroga por dos años la emergencia de la Ley 14.407",
+      "jurisdiccion": "pba",
+      "url": "https://normas.gba.gob.ar/documentos/0ZYvQcEV.html",
+      "prioridad": 2,
+      "nota": "Sancionada 04/06/2015, promulgada 20/07/2015, B.O. 27600 del 18/08/2015. Dos articulos. El art. 1 prorroga 'a contar a partir de su vencimiento', no desde su propia sancion: por eso cubre el hueco entre el 18/10/2014 y su publicacion. La ficha oficial de la 14.407 lista sus normas relacionadas y esta es la UNICA prorroga; las otras dos son el Decreto 692/2013 y la Ley 12.764, que no prorrogan.",
+      "url_alternativa": "https://normas.gba.gob.ar/ar-b/ley/2015/14731/11201"
+    },
+    {
       "slug": "pba-ley-14967",
       "titulo": "Ley 14.967 - Honorarios de abogados y procuradores (PBA)",
       "jurisdiccion": "pba",
@@ -1017,6 +1080,15 @@
       "prioridad": 1
     },
     {
+      "slug": "res-cnepysmvym-4-2026",
+      "titulo": "Res. 4/2026 CNEPySMVyM - SMVM y prestación por desempleo, cronograma desde 1/9/2026",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/425000-429999/429565/norma.htm",
+      "prioridad": 1,
+      "nota": "Fija el SMVM por TRAMOS con fechas sucesivas, no un monto único. Verificar el cronograma completo antes de reemplazar el marcador de SMVM en concursos.md 104 y consumidor.md 107.",
+      "url_alternativa": "https://www.boletinoficial.gob.ar/detalleAviso/primera/346775/20260902"
+    },
+    {
       "slug": "res-srt-298-2017",
       "titulo": "Res. SRT 298/2017 - Procedimiento ante Comisiones Médicas (ficha con modificatorias)",
       "jurisdiccion": "nacional",
@@ -1039,6 +1111,24 @@
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/420000-424999/422829/norma.htm",
       "prioridad": 2,
       "nota": "BO 30/1/2026. Adecua al Decreto 549/2025 y deroga las Res. SRT 886/17 y 3/21."
+    },
+    {
+      "slug": "rg-arca-5844-2026",
+      "titulo": "RG ARCA 5844/2026 - Implementación del Régimen de Incentivo a la Formalización Laboral (Título XX Ley 27.802)",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/425000-429999/425538/norma.htm",
+      "prioridad": 2,
+      "nota": "B.O. 06/05/2026.",
+      "url_alternativa": "https://www.boletinoficial.gob.ar/detalleAviso/primera/341630/20260506"
+    },
+    {
+      "slug": "rg-arca-5848-2026",
+      "titulo": "RG ARCA 5848/2026 - Certificado de trabajo del art. 80 LCT, formulario F.984",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/425000-429999/425871/norma.htm",
+      "prioridad": 2,
+      "nota": "B.O. 18/05/2026. Abroga la RG 2.316 y modifica las RG 3.676 y 5.250. Fuentes secundarias la fechan el 19/05: InfoLEG y el aviso del B.O. dicen 18/05.",
+      "url_alternativa": "https://www.boletinoficial.gob.ar/detalleAviso/primera/342052/20260518"
     },
     {
       "slug": "scba-acuerdo-4000",

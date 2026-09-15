@@ -125,7 +125,23 @@ def cargar_base():
 # Excepción declarada en LICENCIAS.md: los textos canónicos de los marcadores vienen de
 # kb/marcadores-GLOSARIO.md y se transcriben exactos a propósito, porque son vocabulario
 # controlado del que dependen los scripts. Coincidir ahí es lo correcto, no una fuga.
-EXCEPCIONES = {"marcadores.md"}
+#
+# La excepción es la RUTA, no el nombre. Comparando por basename se eximia cualquier archivo
+# llamado marcadores.md en cualquier parte del arbol, y ya habia uno: el grader homonimo de
+# los evals, que quedaba sin medir sin que nadie lo pidiera. Es la alarma que no suena nunca,
+# y aparece sola en cuanto dos carpetas eligen el mismo nombre de archivo.
+EXCEPCIONES = {pathlib.Path("references/marcadores.md")}
+
+
+def es_excepcion(archivo: pathlib.Path) -> bool:
+    """True si la ruta TERMINA en una de las excepciones declaradas.
+
+    Se compara la cola de la ruta porque el archivo llega por linea de comandos y puede venir
+    relativo, absoluto o desde otro directorio; lo que no se acepta es que alcance con el
+    nombre suelto.
+    """
+    partes = archivo.parts
+    return any(partes[-len(e.parts):] == e.parts for e in EXCEPCIONES)
 
 # La frontera es la ruta, pero hay dos archivos bajo kb/ que NO son de la capa 2: los dos
 # README, escritos por nosotros para explicar que es ese directorio, con que licencia entra
@@ -159,7 +175,7 @@ def main(argv: list[str]) -> int:
     nuevas: set[str] = set()
     for ruta in argv:
         archivo = pathlib.Path(ruta)
-        if archivo.name in EXCEPCIONES:
+        if es_excepcion(archivo):
             print(f"{archivo}: excepcion declarada en LICENCIAS.md, no se mide")
             continue
         propias = secuencias(normalizar(archivo.read_text(encoding="utf-8")))

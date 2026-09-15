@@ -28,11 +28,12 @@ REGISTRO = Path(__file__).resolve().parent / "kb-procedencia.json"
 # es justo lo que este script existe para impedir.
 #
 #   La CLAVE va en forma POSIX. `str(Path)` da "perfiles\laboral-CLAUDE.md" en Windows y
-#   "perfiles/laboral-CLAUDE.md" en el resto: el registro no matchearia en 106 de 109.
+#   "perfiles/laboral-CLAUDE.md" en el resto: con la forma nativa el registro no matchearia
+#   casi ninguna entrada.
 #
 #   El HASH va sobre el texto con los saltos normalizados, no sobre los bytes crudos. Un
-#   checkout con CRLF cambia los 109 bytes sin que cambie una letra. Los 109 archivos de kb/
-#   son texto -108 .md y un .template-, así que normalizar no deja nada afuera. Un cambio
+#   checkout con CRLF les cambia el hash a todos sin que cambie una letra. Bajo kb/ es todo
+#   texto -los .md y un .template-, así que normalizar no deja nada afuera. Un cambio
 #   real de contenido sigue moviendo el hash; lo unico que deja de moverlo es el fin de línea.
 def huella(p: Path) -> str:
     texto = p.read_text(encoding="utf-8").replace("\r\n", "\n").replace("\r", "\n")

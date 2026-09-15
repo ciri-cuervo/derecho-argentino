@@ -1,14 +1,24 @@
 # Los fines de linea se normalizan a LF en el repositorio, en las tres plataformas.
 #
-# No es cosmetica. `herramientas/frontera_kb.py` es el guardarrail de la frontera de licencia:
-# fija el sha256 de los 109 archivos de argentina/kb/, que son capa 2 y de otro autor. Con un
-# checkout CRLF esos 109 hashes cambian sin que cambie una letra, y el script -que ademas
-# hashea el texto normalizado, por si esto falla- reportaria la capa 2 entera como alterada.
-# Una alarma que suena entera se calla con --fijar, y ahi se pierde la frontera.
-#
-# Lo mismo vale para el hash de texto de fuentes/: se calcula en memoria, pero el .txt en
-# disco tiene que ser el mismo archivo en las tres plataformas.
+# No es cosmetica: es la segunda capa del guardarrail de la frontera de licencia.
+# `herramientas/frontera_kb.py` fija el sha256 de los archivos de argentina/kb/, que son capa 2
+# y de otro autor, y ya normaliza los saltos antes de hashear, asi que un checkout CRLF no le
+# mueve los hashes. Esto lo sostiene si esa normalizacion se cae: una alarma que reporta la
+# capa 2 entera como alterada se calla con --fijar, y ahi se pierde la frontera.
 * text=auto eol=lf
+
+# EXCEPCION: lo que baja un descargador no se normaliza, porque su hash lo fija.
+#
+# `sha256_texto` se calcula sobre el texto tal como lo devolvio el portal, y varios portales
+# sirven CRLF. Convertirlo deja el archivo del repo distinto del que produjo el hash, y falla
+# donde no se ve: en la maquina que lo bajo pasa, porque el working tree conserva los CRLF, y
+# en un clon nuevo no. Lo cruza `TestCuerpoContraProcedencia`.
+#
+# `-text` y no `binary`: no se convierte en ningun sentido y siguen dando diff, que es como se
+# lee un cambio legislativo.
+argentina/fuentes/normas/*.txt              -text
+argentina/fuentes/jurisprudencia/*.html     -text
+argentina/fuentes/jurisprudencia/ocr/*.txt  -text
 
 # Binarios: que git no los toque.
 *.pdf   binary

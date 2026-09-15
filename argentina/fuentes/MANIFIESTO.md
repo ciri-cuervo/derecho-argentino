@@ -179,20 +179,21 @@ números y los compara contra lo que hay: si alguno deja de coincidir, los tests
 | Pieza | Estado |
 | --- | --- |
 | `ccyc-comentado/` | Completo, con índice de ruteo |
-| `normas/normas.json` | **138 entradas**, 136 con URL verificada |
-| `normas/*.txt` | **132 descargadas**; `procedencia.json` registra **137 textos con hash** |
-| `jurisprudencia/fallos.json` | **64 fallos**, todos con URL |
-| `jurisprudencia/*.pdf` | **63 descargados** |
+| `normas/normas.json` | **148 entradas**, 146 con URL verificada |
+| `normas/*.txt` | **142 descargadas**; `procedencia.json` registra **147 textos con hash** |
+| `jurisprudencia/fallos.json` | **70 fallos**, todos con URL |
+| `jurisprudencia/*.pdf` | **67 descargados**; los de JUBA vienen en `.html`, que es lo que ese sitio sirve |
 | `datos/jus-scba.csv` | **6 filas**, cargado hasta el 01/08/2026 |
 | `datos/inhabiles.json` | Cargado: 2026 completo para Nación y PBA; 2027 sólo la feria de enero |
 | `datos/serie-ipc.csv` | **Completa**: 117 períodos, 2016-12 a 2026-08 |
 | `datos/serie-ripte.csv` | **Completa**: 385 períodos, 1994-07 a 2026-07 |
 | `datos/serie-cer.csv` | **Completa**: 117 períodos, 2016-12 a 2026-08 |
 
-Los tres números de `normas/` cuentan cosas distintas y no tienen por qué coincidir: **138** es lo
-que la skill espera encontrar, **137** es lo que tiene texto bajado con hash registrado, y **132**
-son los `.txt` en disco, porque los **5** restantes son PDF. La única entrada declarada que no
-tiene texto es la Ley 13.478, por lo dicho arriba: está en el catálogo para que se vea que falta.
+Los tres números de `normas/` cuentan cosas distintas y no tienen por qué coincidir: **148** es lo
+que la skill espera encontrar, **147** es lo que tiene texto bajado con hash registrado, y **142**
+son los `.txt` en disco, porque los **5** restantes son PDF. Las únicas entradas declaradas sin
+texto son las dos sin URL oficial: la Ley 13.478, por lo dicho arriba, y la publicación de los
+once instrumentos del art. 75 inc. 22. Están en el catálogo para que se vea que faltan.
 
 ## Qué hacer con esto ya cargado
 

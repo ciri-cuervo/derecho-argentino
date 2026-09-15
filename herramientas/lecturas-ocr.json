@@ -7,15 +7,43 @@
     "sustituciones": "palabras validas pero equivocadas; se lee, no se copia sin cotejar",
     "destruido": "el OCR no devolvio texto sino caracteres sueltos"
   },
-  "fijado": "2026-09-14",
-  "nota": "Los 63 documentos de fuentes/jurisprudencia/ leidos uno por uno.",
+  "fijado": "2026-09-15",
+  "nota": "Los documentos de fuentes/jurisprudencia/ leidos uno por uno: hay una entrada por documento y no falta ninguno. Cuantos son lo dice calidad_ocr.py --pendientes, que los cuenta; escribir el numero aca lo deja vencido en la proxima descarga.",
   "lecturas": {
-    "csjn-fiorentino-fallos-306-1752": {
-      "estado": "destruido",
+    "camara-bahiablanca-castelli-141404-2014-08-28": {
+      "estado": "limpio",
+      "fecha": "2026-09-14",
+      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+    },
+    "csjn-acostaalejandroesteban-fallos-331-858": {
+      "estado": "limpio",
       "fecha": "2026-09-13",
-      "nota": "Considerando: 1*) i BEi Que vei segtin vi surge Xi de i los",
-      "recuperado": "ocr/csjn-fiorentino-fallos-306-1752.txt",
-      "recuperado_el": "2026-09-14"
+      "nota": "mayoria hace lugar y deja sin efecto; Highton y Petracchi en disidencia desestiman la queja: leer el dispositivo entero, no el ultimo"
+    },
+    "csjn-adduc-aysa-2021-10-14": {
+      "estado": "limpio",
+      "fecha": "2026-09-14",
+      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+    },
+    "csjn-aquinoisacio-fallos-327-3753": {
+      "estado": "limpio",
+      "fecha": "2026-09-13",
+      "nota": "holding en fallos-csjn.md 34.3"
+    },
+    "csjn-arancibiaclavelenrique-fallos-327-3312": {
+      "estado": "limpio",
+      "fecha": "2026-09-14",
+      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+    },
+    "csjn-arosteguipablomartin-fallos-331-570": {
+      "estado": "limpio",
+      "fecha": "2026-09-13",
+      "nota": "holding en fallos-csjn.md 34.3"
+    },
+    "csjn-arriolasebastianyotros-fallos-332-1963": {
+      "estado": "limpio",
+      "fecha": "2026-09-13",
+      "nota": "se transcribio el considerando 18 a penal.md 24.9"
     },
     "csjn-bazterrica-fallos-308-1392": {
       "estado": "destruido",
@@ -24,18 +52,51 @@
       "recuperado": "ocr/csjn-bazterrica-fallos-308-1392.txt",
       "recuperado_el": "2026-09-14"
     },
-    "csjn-montalvo-fallos-313-1333": {
+    "csjn-bianchiguillermooscar-fallos-325-1404": {
+      "estado": "limpio",
+      "fecha": "2026-09-14",
+      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+    },
+    "csjn-buffoni-fallos-337-329": {
+      "estado": "layout",
+      "fecha": "2026-09-14",
+      "nota": "se lee bien con `pdftotext -layout`; sin esa opcion el extractor por defecto le desordena las palabras y parece mezclado. leido entero con -layout: el holding esta en fallos-csjn.md 34.4"
+    },
+    "csjn-cambiasoperesdenealonc-fallos-330-3725": {
+      "estado": "limpio",
+      "fecha": "2026-09-14",
+      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+    },
+    "csjn-canales-fallos-342-697": {
+      "estado": "limpio",
+      "fecha": "2026-09-13",
+      "nota": "cuerpo limpio; solo la fecha manuscrita sale 'Z 44 AA4-44,j49 de 2045', que es por que la fecha se toma del registro"
+    },
+    "csjn-casalmatiaseugenioyotr-fallos-328-3399": {
+      "estado": "limpio",
+      "fecha": "2026-09-14",
+      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+    },
+    "csjn-cuellopatriciadorotea-fallos-330-3483": {
+      "estado": "limpio",
+      "fecha": "2026-09-13",
+      "nota": "holding en fallos-csjn.md 34.4"
+    },
+    "csjn-duarte-fallos-337-901": {
+      "estado": "layout",
+      "fecha": "2026-09-14",
+      "nota": "se lee bien con `pdftotext -layout`; sin esa opcion el extractor por defecto le desordena las palabras y parece mezclado. la fecha manuscrita sigue ilegible ('5 de, BfJP-Io de Zo/4'); el cuerpo se lee"
+    },
+    "csjn-estevezjoseluis-fallos-320-2105": {
+      "estado": "limpio",
+      "fecha": "2026-09-14",
+      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+    },
+    "csjn-fiorentino-fallos-306-1752": {
       "estado": "destruido",
       "fecha": "2026-09-13",
-      "nota": "Considerando: &n,n+`7n4NK\\W.nG.nZ7K\\7K4A.n57nG.n-.G.",
-      "recuperado": "ocr/csjn-montalvo-fallos-313-1333.txt",
-      "recuperado_el": "2026-09-14"
-    },
-    "csjn-santacoloma-fallos-308-1160": {
-      "estado": "sustituciones",
-      "fecha": "2026-09-13",
-      "nota": "'ta sentencia de Ja Sala IT de la Cemara Nacional de Apilaciones': la basura de caracteres es baja porque las sustituciones dejan palabras validas",
-      "recuperado": "ocr/csjn-santacoloma-fallos-308-1160.txt",
+      "nota": "Considerando: 1*) i BEi Que vei segtin vi surge Xi de i los",
+      "recuperado": "ocr/csjn-fiorentino-fallos-306-1752.txt",
       "recuperado_el": "2026-09-14"
     },
     "csjn-gongora-fallos-336-392": {
@@ -43,129 +104,15 @@
       "fecha": "2026-09-14",
       "nota": "se lee bien con `pdftotext -layout`; sin esa opcion el extractor por defecto le desordena las palabras y parece mezclado. de 2013. Sin -layout parecia mezclado y por eso se habia dicho que la epoca no manda: eso sigue siendo cierto por otras razones, pero este documento se lee"
     },
-    "csjn-buffoni-fallos-337-329": {
-      "estado": "layout",
-      "fecha": "2026-09-14",
-      "nota": "se lee bien con `pdftotext -layout`; sin esa opcion el extractor por defecto le desordena las palabras y parece mezclado. leido entero con -layout: el holding esta en fallos-csjn.md 34.4"
-    },
-    "csjn-duarte-fallos-337-901": {
-      "estado": "layout",
-      "fecha": "2026-09-14",
-      "nota": "se lee bien con `pdftotext -layout`; sin esa opcion el extractor por defecto le desordena las palabras y parece mezclado. la fecha manuscrita sigue ilegible ('5 de, BfJP-Io de Zo/4'); el cuerpo se lee"
-    },
-    "csjn-reintegro-de-hijo-fallos-336-849": {
-      "estado": "sustituciones",
-      "fecha": "2026-09-14",
-      "nota": "reclasificado de layout a sustituciones al leerlo para escribir el holding: -layout hace falta pero no alcanza. El cuerpo se lee, con la ñ convertida en ft ('Seftalo', 'niftas'), 'arto 13' por 'art. 13', 'nO 1' por 'n° 1', acentos perdidos ('surgia', 'habia') y espacios espurios ('obran tes'). En la caratula del encabezado el 'c/' sale como 'el' y el 'sI' por 's/', y la fecha del encabezado sigue ilegible ('.201.3'). Mismo patron que csjn-rodriguezpereyrajorgel, que esta clasificado sustituciones",
-      "recuperado": "ocr/csjn-reintegro-de-hijo-fallos-336-849.txt",
-      "recuperado_el": "2026-09-14"
-    },
-    "csjn-villamil-fallos-340-345": {
-      "estado": "layout",
-      "fecha": "2026-09-14",
-      "nota": "se lee bien con `pdftotext -layout`; sin esa opcion el extractor por defecto le desordena las palabras y parece mezclado. el encabezado sigue ilegible; el cuerpo se lee"
-    },
-    "csjn-rodriguezpereyrajorgel-fallos-335-2333": {
-      "estado": "sustituciones",
-      "fecha": "2026-09-13",
-      "nota": "se lee, con 'da~os', 'dafios', 'perjuiciosu'. De 2012: otra vez, la epoca no manda",
-      "recuperado": "ocr/csjn-rodriguezpereyrajorgel-fallos-335-2333.txt",
-      "recuperado_el": "2026-09-14"
-    },
-    "csjn-canales-fallos-342-697": {
+    "csjn-guarda-adoptabilidad-fallos-346-287": {
       "estado": "limpio",
-      "fecha": "2026-09-13",
-      "nota": "cuerpo limpio; solo la fecha manuscrita sale 'Z 44 AA4-44,j49 de 2045', que es por que la fecha se toma del registro"
+      "fecha": "2026-09-14",
+      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "csjn-homicidio-simple-fallos-342-2389": {
       "estado": "limpio",
       "fecha": "2026-09-13",
       "nota": "cuerpo limpio; la fecha sale '20 o¿e ic eke de 2O M'"
-    },
-    "csjn-arriolasebastianyotros-fallos-332-1963": {
-      "estado": "limpio",
-      "fecha": "2026-09-13",
-      "nota": "se transcribio el considerando 18 a penal.md 24.9"
-    },
-    "csjn-quarantajosecarlos-fallos-333-1674": {
-      "estado": "limpio",
-      "fecha": "2026-09-13",
-      "nota": "se transcribieron los considerandos 18, 22 y 23 a penal.md 24.5"
-    },
-    "csjn-acostaalejandroesteban-fallos-331-858": {
-      "estado": "limpio",
-      "fecha": "2026-09-13",
-      "nota": "mayoria hace lugar y deja sin efecto; Highton y Petracchi en disidencia desestiman la queja: leer el dispositivo entero, no el ultimo"
-    },
-    "csjn-aquinoisacio-fallos-327-3753": {
-      "estado": "limpio",
-      "fecha": "2026-09-13",
-      "nota": "holding en fallos-csjn.md 34.3"
-    },
-    "csjn-arosteguipablomartin-fallos-331-570": {
-      "estado": "limpio",
-      "fecha": "2026-09-13",
-      "nota": "holding en fallos-csjn.md 34.3"
-    },
-    "csjn-mosca-fallos-330-563": {
-      "estado": "limpio",
-      "fecha": "2026-09-13",
-      "nota": "holding en fallos-csjn.md 34.4"
-    },
-    "csjn-cuellopatriciadorotea-fallos-330-3483": {
-      "estado": "limpio",
-      "fecha": "2026-09-13",
-      "nota": "holding en fallos-csjn.md 34.4"
-    },
-    "csjn-wintekerbeatrizdelcarm-fallos-329-5514": {
-      "estado": "limpio",
-      "fecha": "2026-09-13",
-      "nota": "una sola pagina: es una decision de competencia y nada más"
-    },
-    "csjn-restitucion-internacional-fallos-347-1234": {
-      "estado": "limpio",
-      "fecha": "2026-09-13",
-      "nota": "el texto más limpio del conjunto; las comillas curvas hacian que una version del medidor lo marcara como basura"
-    },
-    "camara-bahiablanca-castelli-141404-2014-08-28": {
-      "estado": "limpio",
-      "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
-    },
-    "csjn-adduc-aysa-2021-10-14": {
-      "estado": "limpio",
-      "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
-    },
-    "csjn-arancibiaclavelenrique-fallos-327-3312": {
-      "estado": "limpio",
-      "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
-    },
-    "csjn-bianchiguillermooscar-fallos-325-1404": {
-      "estado": "limpio",
-      "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
-    },
-    "csjn-cambiasoperesdenealonc-fallos-330-3725": {
-      "estado": "limpio",
-      "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
-    },
-    "csjn-casalmatiaseugenioyotr-fallos-328-3399": {
-      "estado": "limpio",
-      "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
-    },
-    "csjn-estevezjoseluis-fallos-320-2105": {
-      "estado": "limpio",
-      "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
-    },
-    "csjn-guarda-adoptabilidad-fallos-346-287": {
-      "estado": "limpio",
-      "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "csjn-larrabeitiyanezanatole-fallos-330-4592": {
       "estado": "limpio",
@@ -182,6 +129,18 @@
       "fecha": "2026-09-14",
       "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
+    "csjn-montalvo-fallos-313-1333": {
+      "estado": "destruido",
+      "fecha": "2026-09-13",
+      "nota": "Considerando: &n,n+`7n4NK\\W.nG.nZ7K\\7K4A.n57nG.n-.G.",
+      "recuperado": "ocr/csjn-montalvo-fallos-313-1333.txt",
+      "recuperado_el": "2026-09-14"
+    },
+    "csjn-mosca-fallos-330-563": {
+      "estado": "limpio",
+      "fecha": "2026-09-13",
+      "nota": "holding en fallos-csjn.md 34.4"
+    },
     "csjn-napolierikaelizabethyo-fallos-321-3630": {
       "estado": "limpio",
       "fecha": "2026-09-14",
@@ -191,6 +150,18 @@
       "estado": "limpio",
       "fecha": "2026-09-14",
       "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+    },
+    "csjn-quarantajosecarlos-fallos-333-1674": {
+      "estado": "limpio",
+      "fecha": "2026-09-13",
+      "nota": "se transcribieron los considerandos 18, 22 y 23 a penal.md 24.5"
+    },
+    "csjn-reintegro-de-hijo-fallos-336-849": {
+      "estado": "sustituciones",
+      "fecha": "2026-09-14",
+      "nota": "reclasificado de layout a sustituciones al leerlo para escribir el holding: -layout hace falta pero no alcanza. El cuerpo se lee, con la ñ convertida en ft ('Seftalo', 'niftas'), 'arto 13' por 'art. 13', 'nO 1' por 'n° 1', acentos perdidos ('surgia', 'habia') y espacios espurios ('obran tes'). En la caratula del encabezado el 'c/' sale como 'el' y el 'sI' por 's/', y la fecha del encabezado sigue ilegible ('.201.3'). Mismo patron que csjn-rodriguezpereyrajorgel, que esta clasificado sustituciones",
+      "recuperado": "ocr/csjn-reintegro-de-hijo-fallos-336-849.txt",
+      "recuperado_el": "2026-09-14"
     },
     "csjn-restitucion-internacional-fallos-344-3078": {
       "estado": "limpio",
@@ -202,15 +173,39 @@
       "fecha": "2026-09-14",
       "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
+    "csjn-restitucion-internacional-fallos-347-1234": {
+      "estado": "limpio",
+      "fecha": "2026-09-13",
+      "nota": "el texto más limpio del conjunto; las comillas curvas hacian que una version del medidor lo marcara como basura"
+    },
     "csjn-reyes-aguilera-fallos-330-3853": {
       "estado": "limpio",
       "fecha": "2026-09-14",
       "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
+    "csjn-rodriguezpereyrajorgel-fallos-335-2333": {
+      "estado": "sustituciones",
+      "fecha": "2026-09-13",
+      "nota": "se lee, con 'da~os', 'dafios', 'perjuiciosu'. De 2012: otra vez, la epoca no manda",
+      "recuperado": "ocr/csjn-rodriguezpereyrajorgel-fallos-335-2333.txt",
+      "recuperado_el": "2026-09-14"
+    },
+    "csjn-santacoloma-fallos-308-1160": {
+      "estado": "sustituciones",
+      "fecha": "2026-09-13",
+      "nota": "'ta sentencia de Ja Sala IT de la Cemara Nacional de Apilaciones': la basura de caracteres es baja porque las sustituciones dejan palabras validas",
+      "recuperado": "ocr/csjn-santacoloma-fallos-308-1160.txt",
+      "recuperado_el": "2026-09-14"
+    },
     "csjn-simonjuliohectoryotros-fallos-328-2056": {
       "estado": "limpio",
       "fecha": "2026-09-14",
       "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+    },
+    "csjn-sin-civ86767-2024-10-22": {
+      "estado": "layout",
+      "fecha": "2026-09-15",
+      "nota": "PDF de la CSJN, 2161 renglones con -layout. Sin -layout la doble columna del membrete se mezcla con el cuerpo. Los cuatro votos se leen enteros y se transcribieron considerandos 13 y 14 del voto que abre en familia.md 18.10."
     },
     "csjn-vallejos-fallos-344-1785": {
       "estado": "limpio",
@@ -221,6 +216,31 @@
       "estado": "limpio",
       "fecha": "2026-09-14",
       "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+    },
+    "csjn-villamil-fallos-340-345": {
+      "estado": "layout",
+      "fecha": "2026-09-14",
+      "nota": "se lee bien con `pdftotext -layout`; sin esa opcion el extractor por defecto le desordena las palabras y parece mezclado. el encabezado sigue ilegible; el cuerpo se lee"
+    },
+    "csjn-wintekerbeatrizdelcarm-fallos-329-5514": {
+      "estado": "limpio",
+      "fecha": "2026-09-13",
+      "nota": "una sola pagina: es una decision de competencia y nada más"
+    },
+    "jfam4lm-gl-lm1573-2024-01-30": {
+      "estado": "limpio",
+      "fecha": "2026-09-15",
+      "nota": "PDF del repositorio del MPD, 336 renglones. Se transcribio el dispositivo completo, incluido el art. 7 inc. a de la Ley 12.569 en que funda la medida."
+    },
+    "jfam8lp-dje-80155-2020-04-27": {
+      "estado": "layout",
+      "fecha": "2026-09-15",
+      "nota": "PDF del indice de sentencias destacadas de la SCBA. Se lee entero. Trae los sellos de firma digital como caracteres sueltos entre parrafos -por ejemplo la secuencia que precede al FALLO-, que no son texto de la sentencia: no copiarlos."
+    },
+    "jpli-smmb-63-2024-11-20": {
+      "estado": "limpio",
+      "fecha": "2026-09-15",
+      "nota": "PDF del repositorio del MPD, 442 renglones. Se transcribio el encuadre normativo y el dispositivo. Trae sellos de firma digital como caracteres sueltos, igual que el de La Plata."
     },
     "scba-abraham-l108164-2013-11-13": {
       "estado": "limpio",

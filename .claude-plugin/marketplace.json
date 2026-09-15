@@ -10,7 +10,7 @@
       "name": "derecho",
       "displayName": "Derecho argentino",
       "source": "./argentina",
-      "version": "1.0.2",
+      "version": "1.1.0",
       "description": "Análisis, redacción y revisión jurídica bajo derecho argentino. Aporta la skill derecho-argentino, una capa offline de fuente primaria con procedencia por hash y calculadoras deterministas. En desarrollo: la cobertura auditada crece módulo por módulo.",
       "author": {
         "name": "ciri-cuervo",

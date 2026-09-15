@@ -80,7 +80,7 @@ degradación silenciosa.
 
     python3 -m unittest discover -s . -p 'test_*.py' -v
 
-**155 tests**, sin dependencias externas, en dos grupos.
+**181 tests**, sin dependencias externas, en dos grupos.
 
 **Aritmética.** Cómputo de antigüedad y tramos, cómputo de Pascua y feriados móviles, descuento
 de ferias y asuetos, suma de meses del art. 6 CCyCN, mínimo del art. 22 y monto en jus de la

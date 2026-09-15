@@ -1,7 +1,8 @@
 name: tests
 
-# El candado que no se puede saltear. El hook de herramientas/hooks/ corre lo mismo antes de
-# cada commit, pero es local, hay que instalarlo a mano y cede ante --no-verify; esto no.
+# El candado que no se puede saltear. El hook de herramientas/hooks/ adelanta una parte -- el
+# verificador de .md, y solo si el commit toca alguno --, pero es local, hay que instalarlo a
+# mano y cede ante --no-verify. Los suites completos corren aca.
 on:
   push:
   pull_request:
@@ -31,3 +32,7 @@ jobs:
         run: python3 herramientas/test_markdown.py
       - name: cifras de la documentacion
         run: python3 herramientas/test_cifras.py
+      - name: fuga textual desde la capa 2
+        run: python3 herramientas/test_fuga.py
+      - name: cobertura normativa
+        run: python3 herramientas/test_cobertura.py

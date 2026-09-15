@@ -147,6 +147,42 @@ def cuerpo_consolidado(ruta) -> str | None:
     return s[j + len(RAYA):].lstrip("\n")
 
 
+# Un fallo tomado de JUBA llega como pagina entera: el menu del sitio, los scripts y el pie
+# rodean a la sentencia, que vive en un solo <div class="contenido">. Guardar la pagina entera
+# deja mas de la mitad del archivo en maqueta, y esa maqueta cambia cuando el portal se
+# rediseña, sin que cambie una linea del fallo.
+_OCULTO = re.compile(rb"<!--.*?-->|<script\b.*?</script\s*>", re.S | re.I)
+_DIV = re.compile(rb"<div\b|</div\s*>", re.I)
+
+
+def fragmento_div(crudo: bytes, clase: str) -> bytes | None:
+    """El `<div class="<clase>">` con su cierre BALANCEADO, o None si no esta.
+
+    Devuelve BYTES, tajados del original: el archivo guardado tiene que ser un tramo textual
+    de lo que sirvio el portal, sin re-encodear ni tocar los fines de linea.
+
+    Se cuenta la profundidad y no se corta en el primer `</div>`, porque el div de contenido
+    trae divs adentro y cortar ahi trunca la sentencia. Y antes de contar se enmascaran los
+    comentarios y los <script>: los dos traen tokens `<div` que no abren nada, y con ellos en
+    el conteo el cierre cae en el lugar equivocado. Se enmascara con espacios de igual largo
+    para que los indices sigan valiendo sobre el original.
+
+    Si no encuentra el div devuelve None, y quien llama guarda la pagina entera. Guardar
+    silenciosamente menos de lo que se bajo seria lo peor: nadie se enteraria de que falta.
+    """
+    mascara = _OCULTO.sub(lambda m: b" " * len(m.group(0)), crudo)
+    patron = rb'<div\b[^>]*class="[^"]*\b' + re.escape(clase.encode()) + rb'\b[^"]*"[^>]*>'
+    abre = re.search(patron, mascara, re.I)
+    if not abre:
+        return None
+    profundidad = 1
+    for etiqueta in _DIV.finditer(mascara, abre.end()):
+        profundidad += 1 if etiqueta.group(0).lower().startswith(b"<div") else -1
+        if profundidad == 0:
+            return crudo[abre.start():etiqueta.end()]
+    return None                     # abre y no cierra: HTML roto, se guarda entero
+
+
 def bajar(url: str, timeout: int = 180, reintentos: int = 3, verboso: bool = False):
     """Devuelve (bytes_crudos, charset_declarado, content_type).
 

@@ -47,7 +47,7 @@ actualización.
 - El **art. 10 de la Ley 24.901** remite a este art. 3 y a las leyes provinciales análogas: la
   acreditación es la misma para las prestaciones básicas.
 
-`[VERIFICAR VIGENCIA: reglamentación de la Ley 27.793 y lineamientos de certificación de la Agencia Nacional de Discapacidad posteriores al 22/09/2025 - no estan cargados en fuentes/]`
+`[VERIFICAR VIGENCIA: lineamientos de certificación de la Agencia Nacional de Discapacidad posteriores al 22/09/2025 - no estan cargados en fuentes/. La reglamentación de la Ley 27.793 es el Decreto 84/2026 y su Anexo I sí está]`
 
 ### 27.2 Quién tiene que cubrir, y con qué alcance
 
