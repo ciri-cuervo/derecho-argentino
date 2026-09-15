@@ -203,7 +203,7 @@ def censar(reg: dict, veredictos: dict):
             if any(ini <= m.start() and m.end() <= fin for ini, fin in tramos):
                 continue
             # La clave va con el espacio aplanado. La prosa se envuelve, así que "dos módulos"
-            # puede quedar partido en dos renglones: sin aplanar, el veredicto se despegaria
+            # puede quedar partido en dos renglones: sin aplanar, el veredicto se despegaría
             # cada vez que alguien reacomoda un párrafo.
             clave = f"{archivo} | {re.sub(r'[ \t]*\n[ \t]*', ' ', m.group(0))}"
             if clave in veredictos:

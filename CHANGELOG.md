@@ -13,6 +13,10 @@ Lleva versiones, no sesiones de trabajo. El detalle de cada cambio vive donde se
 | La doctrina de cada precedente | El módulo que la usa; el índice, en `references/fallos-csjn.md` |
 | Si el texto de un fallo se puede transcribir | `herramientas/lecturas-ocr.json` |
 
+## [1.0.2] — 2026-09-15
+
+Actualizado: íconos y banners actualizados junto con los metadatos de Marketplace para ambos plugins: Claude y Codex.
+
 ## [1.0.1] — 2026-09-15
 
 Correcciones: no entran normas ni fallos nuevos y ningún cálculo cambia de resultado.

@@ -9,7 +9,7 @@
 # Derecho argentino · skill para agentes de IA
 
 <p align="center">
-  <a href="CHANGELOG.md"><img src="assets/marca/chapa-version.png" width="105" height="32" alt="Versión 1.0.1"></a>
+  <a href="CHANGELOG.md"><img src="assets/marca/chapa-version.png" width="106" height="32" alt="Versión 1.0.2"></a>
   <a href="LICENCIAS.md"><img src="assets/marca/chapa-licencia.png" width="168" height="32" alt="Licencias: contenido CC BY-SA 4.0, código MIT"></a>
   <img src="assets/marca/chapa-python.png" width="135" height="32" alt="Requiere Python 3">
   <img src="assets/marca/chapa-agentes.png" width="172" height="32" alt="Corre en Claude y Codex (ChatGPT)">
@@ -61,13 +61,13 @@ ciri-cuervo/derecho-argentino
 Linux—, instalalo y abrilo. La primera vez pide iniciar sesión.
 
 **2 · Agregá el marketplace.** En la barra lateral, **Personalizar** → pestaña **Plugins** →
-botón **Agregar** → *Agregar marketplace* → *Agregar desde un repositorio*, y pegá la dirección
-de arriba.
+botón **Agregar** → *Agregar marketplace* → *Agregar desde un repositorio*, y en *URL* pegá `ciri-cuervo/derecho-argentino`
+o la dirección web de este sitio.
 
 **3 · Instalá el plugin.** En la lista aparece **Derecho argentino**, bajo *Nuevo*. Click en el
 **+** de su tarjeta. Cuando el `+` se convierte en un tilde, quedó instalado.
 
-Queda disponible en las dos pestañas de la app, **Chat** y **Cowork**.
+Queda disponible en los dos modos de la app, **Chat y Cowork** y **Code**.
 
 #### <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/codex-oscuro.svg"><img src="assets/logos/codex-claro.svg" height="20" alt=""></picture> En la app de Codex / ChatGPT
 
@@ -75,8 +75,8 @@ Queda disponible en las dos pestañas de la app, **Chat** y **Cowork**.
 codificación, dentro de ChatGPT—, instalalo y abrilo. La primera vez pide iniciar sesión.
 
 **2 · Agregá el marketplace.** En **Complementos** → botón **Agregar** → *Agregar marketplace*.
-En *Origen*, la dirección de arriba; en *Referencia de Git*, `main`; *Rutas dispersas* se deja
-vacío.
+En *Origen* pegá `ciri-cuervo/derecho-argentino` o la dirección web de este sitio; en *Referencia de Git* y
+*Rutas dispersas* se dejá vacío.
 
 **3 · Instalá el plugin.** Este es el paso que no se adivina: el plugin **no aparece en la
 pestaña *Público*** junto a los conectores conocidos. Está en la pestaña **Personal**, bajo el

@@ -10,13 +10,15 @@
       "name": "derecho",
       "displayName": "Derecho argentino",
       "source": "./argentina",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "description": "Análisis, redacción y revisión jurídica bajo derecho argentino. Aporta la skill derecho-argentino, una capa offline de fuente primaria con procedencia por hash y calculadoras deterministas. En desarrollo: la cobertura auditada crece módulo por módulo.",
       "author": {
         "name": "ciri-cuervo",
         "url": "https://github.com/ciri-cuervo"
       },
       "license": "SEE LICENCIAS.md",
+      "homepage": "https://github.com/ciri-cuervo/derecho-argentino",
+      "repository": "https://github.com/ciri-cuervo/derecho-argentino",
       "category": "legal",
       "keywords": ["derecho", "argentina", "legal-es", "jurisprudencia", "ccycn", "lct"]
     }

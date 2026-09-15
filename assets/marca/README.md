@@ -26,10 +26,6 @@ python3 test_marca.py
 | `icono.png` · `.svg` · `icono-128.png` | Avatar de la organización, ícono del plugin. 512 y 128. |
 | `icono-oscuro.png` · `.svg` | El ícono para fondos oscuros. |
 | `social-preview.png` · `.svg` | *Settings → General → Social preview*. 1280 × 640, se sube a mano. |
-| `variante-fojas.png` · `.svg` | Alternativa descartada: el margen cosido del expediente. |
-| `variante-consola.png` · `.svg` | Alternativa descartada: el prompt de la terminal. |
-
-Las dos variantes quedan para comparar, no se usan en ningún lado.
 
 El banner, las chapitas y el separador van **sin fondo**, para que se apoyen sobre el color de la
 página en vez de quedar como un recuadro pegado encima —papel sobre el blanco de GitHub, o gris
