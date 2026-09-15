@@ -3,7 +3,7 @@ titulo: Alimentos en PBA tras la Ley 15.513 - etapa previa, provisorios y Canast
 area: familia
 perfil: derecho-argentino / references/familia.md
 fuero: Juzgado de Familia PBA
-problema: "riesgo de exigir la etapa previa ante el Consejero cuando en alimentos es optativa desde la Ley 15.513; riesgo de no fijar alimentos provisorios en el primer auto; riesgo de tratar la Canasta de Crianza como piso legal o modulo automatico cuando el art. 641 la hace facultativa, uno entre otros elementos y solo para menores de edad; riesgo de usarla para un adolescente, tramo que la canasta no cubre; riesgo de errar la retroactividad del art. 641; riesgo de resolver la competencia por el domicilio del demandado en vez del centro de vida"
+problema: "riesgo de exigir la etapa previa ante el Consejero cuando en alimentos es optativa desde la Ley 15.513; riesgo de no fijar alimentos provisorios en el primer auto; riesgo de tratar la Canasta de Crianza como piso legal o módulo automatico cuando el art. 641 la hace facultativa, uno entre otros elementos y solo para menores de edad; riesgo de usarla para un adolescente, tramo que la canasta no cubre; riesgo de errar la retroactividad del art. 641; riesgo de resolver la competencia por el domicilio del demandado en vez del centro de vida"
 ---
 
 # Caso · Demanda de alimentos

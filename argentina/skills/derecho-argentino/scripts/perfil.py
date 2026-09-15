@@ -9,13 +9,13 @@
 
 QUE ES Y QUE NO ES
 ------------------
-El perfil **no elige por el usuario**. La seccion 0.1 de la skill prohibe asumir el rol y el
+El perfil **no elige por el usuario**. La sección 0.1 de la skill prohíbe asumir el rol y el
 fuero, y esta herramienta no la deroga: lo que hace el perfil es **ordenar la pregunta** --
 poner primero las opciones probables-- y **fijar el modo de trabajo**, que si cambia
 legitimamente la profundidad y el andamiaje de la respuesta.
 
-La unica excepcion es `rol-fijo`, que el usuario tiene que pedir expresamente ("no me
-preguntes mas el rol"). Aun asi la skill enuncia el rol asumido en la primera linea, para que
+La única excepción es `rol-fijo`, que el usuario tiene que pedir expresamente ("no me
+preguntes más el rol"). Aun así la skill enuncia el rol asumido en la primera línea, para que
 corregirlo cueste una palabra.
 
 QUE NO SE GUARDA, NUNCA
@@ -36,9 +36,9 @@ from _raiz import archivo_config, leer_config
 VERSION_PERFIL = 1
 
 MODOS = {
-    "sede-judicial": "Se trabaja desde el organo: se verifica y se controla de oficio, no se produce el reclamo.",
+    "sede-judicial": "Se trabaja desde el órgano: se verifica y se controla de oficio, no se produce el reclamo.",
     "ejercicio-profesional": "Se trabaja para una parte: se produce la pieza y se cuidan las decisiones irreversibles.",
-    "estudio": "Uso academico o de formacion: se explica el razonamiento y se citan las normas de apoyo.",
+    "estudio": "Uso academico o de formación: se explica el razonamiento y se citan las normas de apoyo.",
 }
 
 ROLES = {
@@ -46,14 +46,14 @@ ROLES = {
     "empleado-tribunal": "Empleado o funcionario de un tribunal",
     "abogado-parte": "Abogado o abogada de parte",
     "ministerio-publico": "Ministerio Publico fiscal o de la defensa",
-    "asesor-perito": "Asesor, perito o cuerpo tecnico",
+    "asesor-perito": "Asesor, perito o cuerpo técnico",
     "estudiante": "Estudiante o docente",
     "otro": "Otro",
 }
 
 JURISDICCIONES = {
     "nacional": "Nacional y federal",
-    "caba": "Ciudad Autonoma de Buenos Aires",
+    "caba": "Ciudad Autónoma de Buenos Aires",
     "pba": "Provincia de Buenos Aires",
     "otra-provincia": "Otra provincia (sin perfil cargado)",
 }
@@ -116,7 +116,7 @@ def aplicar(perfil: dict, asignaciones):
             if v == "":
                 perfil[_clave(k)] = None
             elif v not in SIMPLES[k]:
-                errores.append(f"{k}: '{v}' no es una opcion. Validas: {', '.join(SIMPLES[k])}.")
+                errores.append(f"{k}: '{v}' no es una opción. Válidas: {', '.join(SIMPLES[k])}.")
             else:
                 perfil[_clave(k)] = v
         elif k in LISTAS:
@@ -138,9 +138,9 @@ def aplicar(perfil: dict, asignaciones):
 def describir(perfil: dict) -> str:
     if not any(perfil.get(k) for k in ("modo", "rol", "jurisdicciones", "fueros")):
         return ("  Perfil sin configurar.\n"
-                "  La skill va a preguntar rol, fuero y jurisdiccion en cada conversacion,\n"
+                "  La skill va a preguntar rol, fuero y jurisdicción en cada conversación,\n"
                 "  que es el comportamiento correcto por defecto.\n\n"
-                "  Para que ordene las opciones segun como trabajas:\n"
+                "  Para que ordene las opciones según como trabajás:\n"
                 "    python3 perfil.py --set modo=... --set jurisdicciones=... --set fueros=...")
     L = ["  Perfil de trabajo:"]
     m = perfil.get("modo")

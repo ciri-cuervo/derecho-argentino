@@ -23,7 +23,7 @@ entero antes de informar** — encontrada la primera cláusula inválida, el ref
 y es el error que deja la segunda adentro.
 
 | Paso | Qué se busca | Qué se hace con el hallazgo |
-|---|---|---|
+| --- | --- | --- |
 | **1 · Encuadre** | Tipo —adhesión, paritario, de consumo, laboral encubierto—, partes, objeto, ley aplicable | Decide todo lo demás: la misma cláusula es válida entre empresas e inválida frente a un consumidor |
 | **2 · Validez** | Cláusulas que la ley no deja en pie, del catálogo de 7.1 | **Recorrer el contrato completo** y listarlas todas, cada una con `[RED FLAG - NULIDAD ABSOLUTA: ...]`. No se proponen alternativas: se señala que no valen |
 | **3 · Riesgo alto** | Lo que es válido pero puede costar caro | `[RED FLAG - RIESGO ALTO: ...]` y desarrollar **con redacción alternativa concreta** |
@@ -53,7 +53,7 @@ Es la versión desarrollada de los niveles 2 a 4 de arriba: cada entrada dice **
 #### Nulidad absoluta o cláusula no escrita — `[RED FLAG - NULIDAD ABSOLUTA]`
 
 | Cláusula | Norma | Consecuencia exacta |
-|---|---|---|
+| --- | --- | --- |
 | **Renuncia anticipada a defensas** oponibles en juicio | Art. 944 | La renuncia de derechos se admite sólo si **no está prohibida y sólo afecta intereses privados**; el mismo artículo cierra: **no se admite la renuncia anticipada de las defensas** que puedan hacerse valer en juicio |
 | **Dispensa o limitación de responsabilidad** | Art. 1743 | Son **inválidas** las que eximen o limitan la obligación de indemnizar cuando **afectan derechos indisponibles, atentan contra la buena fe, las buenas costumbres o leyes imperativas, o son abusivas**; y también las que liberan anticipadamente, **total o parcialmente, del daño por dolo** del deudor o de quienes responde |
 | **Cláusulas abusivas en contrato de adhesión** | Art. 988 | **Se tienen por no escritas** las que desnaturalizan las obligaciones del predisponente, las que importan renuncia o restricción de derechos del adherente **o amplían los del predisponente que resultan de normas supletorias**, y las que **por su contenido, redacción o presentación no son razonablemente previsibles** |
@@ -117,7 +117,7 @@ auditoría contra fuente primaria** que sí pasó este módulo. Rige la preceden
 15: fuente primaria → esta skill → docs del Project → perfiles del repo.
 
 | Instituto | Dónde |
-|---|---|
+| --- | --- |
 | Catálogo de red-flags por nivel | **7.1** de este módulo. Absorbido: ya no se rutea al perfil |
 | Protocolo de revisión y orden de los pasos | **7** de este módulo. Absorbido: ya no se rutea al perfil |
 | Índices y tasas de referencia | **7.2** de este módulo, contra las series de `fuentes/datos/`. Absorbido: ya no se rutea al perfil |
@@ -127,7 +127,7 @@ auditoría contra fuente primaria** que sí pasó este módulo. Rige la preceden
 #### Contradicciones nominadas — el perfil dice lo contrario que este módulo
 
 | El perfil dice | Lo correcto |
-|---|---|
+| --- | --- |
 | `red-flags.md` § Nulidad absoluta, punto 3: *"Limitación de responsabilidad por dolo o culpa grave"* | **La culpa grave no está en el texto.** El art. 1743 CCyCN invalida las cláusulas que liberan anticipadamente del daño **por dolo** del deudor o de las personas por las que responde; la culpa grave no figura. Lo que sí invalida, por la otra vía del mismo artículo, es lo que afecta derechos indisponibles, la buena fe, las buenas costumbres o leyes imperativas, o resulta abusivo. Alegar "culpa grave" como causal autónoma es ofrecer una defensa: está en 7.1, cotejado contra `fuentes/normas/ccycn-26994.txt` |
 
 ### 7.2 Índices y tasas — dónde se saca el valor
@@ -138,7 +138,7 @@ se toma de `fuentes/datos/` —que trae `serie-ipc.csv`, `serie-cer.csv`, `serie
 un perfil.
 
 | Para | Serie | Dónde |
-|---|---|---|
+| --- | --- | --- |
 | Actualización de créditos en general | **IPC Nivel General INDEC** | `fuentes/datos/serie-ipc.csv` |
 | Obligaciones con cláusula CER | **CER** | `fuentes/datos/serie-cer.csv` |
 | Base de prestaciones de riesgos del trabajo | **RIPTE** | `fuentes/datos/serie-ripte.csv` — se publica con **dos meses de rezago**, y eso es normal, no desactualización |

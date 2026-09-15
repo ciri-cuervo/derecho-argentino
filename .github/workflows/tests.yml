@@ -15,7 +15,7 @@ jobs:
         with:
           python-version: "3.13"
 
-      # Los seis suites del checklist de docs/DESARROLLO.md, en el mismo orden.
+      # Los suites del checklist de docs/DESARROLLO.md, en el mismo orden.
       # test_scripts.py comprueba que esta lista y la del checklist digan lo mismo.
       - name: calculadoras y modulos
         run: python3 argentina/skills/derecho-argentino/scripts/test_scripts.py
@@ -29,3 +29,5 @@ jobs:
         run: python3 herramientas/test_reformas.py
       - name: documentacion
         run: python3 herramientas/test_markdown.py
+      - name: cifras de la documentacion
+        run: python3 herramientas/test_cifras.py

@@ -1,4 +1,4 @@
-# Auditorías contra fuente primaria
+# 📋 Auditorías contra fuente primaria
 
 Registro de las auditorías que este fork corre contra `argentina/fuentes/`: qué se leyó, contra
 qué texto, y qué se encontró. Es **capa 3a, CC BY-SA 4.0** — ver [`LICENCIAS.md`](../LICENCIAS.md).
@@ -10,7 +10,7 @@ es el historial de la base heredada, capa 2, y la frontera de licencia es la rut
 Lo que va en cada lugar:
 
 | Qué | Dónde |
-|---|---|
+| --- | --- |
 | Una auditoría de este fork contra fuente primaria | **Este archivo** |
 | El estado de verificación por bloque, con fecha y volatilidad | `references/changelog-normativo.md` |
 | Un cambio en la base heredada | `argentina/kb/CHANGELOG.md`, y sólo si se tocó `kb/` |
@@ -64,7 +64,6 @@ entran como doctrina destilada con remisión, nunca como texto.
 
 ---
 
-
 ### Septiembre 2026 - Auditoría contra fuente primaria: Ley 15.057, mediación PBA, intereses y art. 245
 
 Auditoría de verificación externa contra **InfoLEG**, el **Boletín Oficial** y
@@ -84,7 +83,7 @@ en el mismo sentido.
 1. **La Ley 11.653 está DEROGADA.** El **art. 88 de la Ley 15.057** derogó la Ley 11.653 y
    sus modificatorias. El código procesal laboral vigente de PBA es la **Ley 15.057**
    (modificada por la **Ley 15.557**), cuya operatividad dispuso la **Res. SC 1840/2024**
-   (3/7/2024), con aplicación inmediata a las causas en trámite en las que no se hubiera
+   (03/07/2024), con aplicación inmediata a las causas en trámite en las que no se hubiera
    celebrado la audiencia de vista de causa. La 11.653 conserva ultraactividad **solo en
    materia de recusación**. La estructura es de **Juzgados del Trabajo unipersonales** y
    **Cámaras de Apelación del Trabajo**, no de Tribunales del Trabajo colegiados. Art. 17:
@@ -105,7 +104,7 @@ en el mismo sentido.
 3. **Intereses laborales: numeración equivocada.** Los artículos del régimen son **de la
    Ley 27.802**, no de la LCT. **Art. 276 LCT** (texto art. 54 Ley 27.802): créditos nuevos,
    IPC Nivel General INDEC + 3% anual. **Art. 55 de la Ley 27.802** (norma autónoma):
-   juicios en trámite al 6/3/2026, tasa pasiva BCRA con piso del 67% y tope IPC+3%,
+   juicios en trámite al 06/03/2026, tasa pasiva BCRA con piso del 67% y tope IPC+3%,
    instrumentada por **Res. Directorio BCRA 45/2026**. **Art. 277 LCT** (texto art. 56
    Ley 27.802): depósito en cuenta sueldo, tope de costas y honorarios y pago en cuotas.
    Además: el **art. 54 LCT fue derogado por el art. 207 de la Ley 27.802**, y los **arts.
@@ -123,7 +122,7 @@ en el mismo sentido.
    eliminó "horas extras" de la exclusión y el pasaje que contraponía la base del preaviso a
    la del art. 245 sobre esa premisa. Se agregó la advertencia de que el **Título laboral del
    DNU 70/2023 estuvo judicialmente suspendido**, de modo que la exclusión de SAC en el tramo
-   30/12/2023 a 8/7/2024 **no está confirmada**, con marcador
+   30/12/2023 a 08/07/2024 **no está confirmada**, con marcador
    `[REVISIÓN NORMATIVA REQUERIDA: vigencia efectiva del Título laboral del DNU 70/2023 en el
    tramo del acto extintivo - verificar estado cautelar a esa fecha]`.
 
@@ -181,8 +180,8 @@ en el mismo sentido.
 
 **Estado judicial de la Ley 27.802 - hitos agregados a la cronología:**
 
-- **7/5/2026:** la CSJN rechazó el per saltum del Gobierno.
-- **8/7/2026:** la Sala IV de la Cámara Contencioso Administrativo Federal confirmó el
+- **07/05/2026:** la CSJN rechazó el per saltum del Gobierno.
+- **08/07/2026:** la Sala IV de la Cámara Contencioso Administrativo Federal confirmó el
   rechazo de una nueva cautelar de la CGT sobre 81 artículos.
 - El fondo sigue pendiente ante el **JCAF N°12 sin cautelar activa**.
 - **Advertencia:** esta cronología **se sostiene solo en fuentes secundarias**, sin fuente
@@ -191,11 +190,11 @@ en el mismo sentido.
 
 **Normas nuevas incorporadas a las alertas normativas:**
 
-- **Res. 4/2026 del Consejo Nacional del Empleo** (BO 2/9/2026): nuevo SMVM y prestación por
+- **Res. 4/2026 del Consejo Nacional del Empleo** (BO 02/09/2026): nuevo SMVM y prestación por
   desempleo.
-- **Res. SRT 39/2026** (BO 2/9/2026): montos RIPTE de las prestaciones de la LRT.
+- **Res. SRT 39/2026** (BO 02/09/2026): montos RIPTE de las prestaciones de la LRT.
 - **RG ARCA 5844/2026** (RIFL) y **RG ARCA 5862/2026** (PER); **Resolución 1276/2026** (Fondo
-  de Asistencia Laboral, 12/8/2026).
+  de Asistencia Laboral, 12/08/2026).
 - **PBA - Ley 15.563** (BO 26/12/2025): redujo del 10% al 5% el aporte adicional sobre la
   tasa de justicia (art. 12 inc. g Ley 6.716).
 - **PBA - Ley 15.513** (sancionada 12/12/2024): reforma del proceso de alimentos en el CPCCBA
@@ -217,9 +216,9 @@ en el mismo sentido.
   prescripción. El obligatorio pasa a ser que el sistema advierta que la mediación de la
   Ley 13.951 **no suspende como la nacional**, sino que opera como interpelación del
   art. 2541 CCyCN (seis meses, una sola vez), y que compute sobre esa base: accidente del
-  12/5/2023, prescripción del art. 2561 al 12/5/2026, mediación iniciada el 10/3/2026,
+  12/05/2023, prescripción del art. 2561 al 12/05/2026, mediación iniciada el 10/03/2026,
   vencimiento corrido a alrededor del **12/11/2026**, de modo que a la fecha de la consulta
-  (20/8/2026) **la acción sigue viva pero por poco**. Agregado a los ausentes esperados: no
+  (20/08/2026) **la acción sigue viva pero por poco**. Agregado a los ausentes esperados: no
   debe aplicar el régimen del art. 18 de la Ley 26.589 a una mediación bonaerense. Corregido
   además el obligatorio sobre el art. 64 de la Ley 24.449 (presunciones, no responsabilidad
   objetiva).
@@ -228,14 +227,15 @@ en el mismo sentido.
 normas.gba.gob.ar.
 
 ---
-\n### Septiembre 2026 - Auditoría normativa cruzada: art. 25 LNPA, art. 256 LCT, SECLO y locaciones
+
+### Septiembre 2026 - Auditoría normativa cruzada: art. 25 LNPA, art. 256 LCT, SECLO y locaciones
 
 Auditoría de consistencia interna entre perfiles, skills transversales y glosario. Seis
 divergencias corregidas, todas por contradicción entre archivos del propio repositorio:
 
 1. **Art. 25 LNPA - plazo de caducidad.** `kb/transversales/plazos-SKILL.md`, `kb/marcadores-GLOSARIO.md` y
    `kb/transversales/bucles-SKILL.md` citaban 90 días hábiles judiciales. `kb/perfiles/administrativo-CLAUDE.md` ya
-   tenía documentada la reforma de la Ley 27.742 (BO 9/7/2024), que duplicó el plazo a
+   tenía documentada la reforma de la Ley 27.742 (BO 09/07/2024), que duplicó el plazo a
    **180 días hábiles judiciales** para actos notificados desde esa fecha. Corregidos los
    tres archivos, con el deslinde de los plazos locales (CABA 90 días art. 7 Ley 189;
    PBA 90 días art. 18 Ley 12.008) para evitar la aplicación analógica del plazo federal.
@@ -256,8 +256,8 @@ divergencias corregidas, todas por contradicción entre archivos del propio repo
    legal, con cita del artículo.
 
 4. **Corte temporal de la Ley 27.742.** La tabla de transición de `kb/perfiles/laboral-CLAUDE.md`
-   ubicaba el corte el 10/7/2024, mientras que todas las reglas sustantivas del mismo
-   archivo operan desde el 9/7/2024. Unificado al 9/7/2024.
+   ubicaba el corte el 10/07/2024, mientras que todas las reglas sustantivas del mismo
+   archivo operan desde el 09/07/2024. Unificado al 09/07/2024.
 
 5. **Actas CNAT 2764/2022 y 2788/2024.** Aparecían en `kb/perfiles/laboral-CLAUDE.md` sin relación
    explícita, lo que se leía como contradicción. Aclarado: son actas distintas - la
@@ -269,6 +269,7 @@ divergencias corregidas, todas por contradicción entre archivos del propio repo
    a la fórmula conservadora, en tres puntos.
 
 **Casos de verificación agregados:**
+
 - `evals/laboral-despido-tramos-reforma-pba/` - despido sin causa del 15/10/2025 con
   registración deficiente e intimación previa, ante Tribunal del Trabajo PBA. Pone a
   prueba el tramo temporal del art. 245, la derogación de los agravantes de la Ley 24.013
@@ -291,7 +292,7 @@ Se bajaron los textos de las **Leyes 23.660, 23.661 y 24.754** y se leyó la cad
 módulo la afirmaba de memoria; ahora los dos eslabones están cotejados y citados textualmente.
 
 1. **El art. 1 de la Ley 24.754 tiene una fe de erratas que cambia el sentido.** El texto
-   publicado el 2/1/1997 decía *"prestaciones obligatorias dispuestas **por** las obras
+   publicado el 02/01/1997 decía *"prestaciones obligatorias dispuestas **por** las obras
    sociales"*; la fe de erratas lo corrigió a *"dispuestas **para** las obras sociales"*. No es
    lo mismo: "para" son las obligaciones que se les imponen, que es el piso que se traslada a la
    prepaga; "por" sugeriría que cada obra social las fija. Las fuentes secundarias reproducen el
@@ -331,7 +332,7 @@ módulo la afirmaba de memoria; ahora los dos eslabones están cotejados y citad
    la 24.455 como *"ARTCULO 1°"*, sin la I. `contar_articulos()` no lo cuenta, y el ojo lo
    completa solo al leer. No es un problema del articulado —es el mismo artículo— pero quien
    transcriba desde el repo copia el error. Anotado como advertencia de transcripción en 27.5,
-   con la referencia al BO del 8/3/1995, nro. 28.098, p. 1. Es el tercer defecto de OCR/fuente,
+   con la referencia al BO del 08/03/1995, nro. 28.098, p. 1. Es el tercer defecto de OCR/fuente,
    el de las sustituciones que dejan texto plausible, y se registra leyendo, no midiendo.
 
 **Veredictos de lectura sobre las marcas del descargador.** `revisar_texto()` marcó la Ley

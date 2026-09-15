@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
-"""Descarga las series de indices que usan las calculadoras de la skill.
+"""Descarga las series de índices que usan las calculadoras de la skill.
 
 Fuente: API de Series de Tiempo del Estado (https://apis.datos.gob.ar/series/api/), publica,
 sin token. Deja cada serie en `argentina/fuentes/datos/serie-<nombre>.csv` con el formato
-`periodo,indice` que consume `scripts/intereses.py`, y un encabezado con la procedencia.
+`periodo,índice` que consume `scripts/intereses.py`, y un encabezado con la procedencia.
 
     python3 descargar_series.py                 # las tres
     python3 descargar_series.py --serie ipc
     python3 descargar_series.py --serie cer --desde 2020-01
 
-Cuidado con los serie_id parecidos: `145.3_INGNACNAL_DICI_M_15` es el INDICE del IPC y
-`145.3_INGNACUAL_DICI_M_38` es la VARIACION mensual. Difieren en un caracter. Por eso cada
+Cuidado con los serie_id parecidos: `145.3_INGNACNAL_DICI_M_15` es el ÍNDICE del IPC y
+`145.3_INGNACUAL_DICI_M_38` es la VARIACIÓN mensual. Difieren en un carácter. Por eso cada
 serie declara un control de sanidad que el script verifica antes de escribir el archivo.
 """
 from __future__ import annotations
@@ -34,13 +34,13 @@ SERIES = {
         "frecuencia": "mensual",
         "desde": "2016-12",
         "control": ("2016-12", 100.0),
-        "nota": ("NO confundir con 145.3_INGNACUAL_DICI_M_38, que es la variacion mensual "
+        "nota": ("NO confundir con 145.3_INGNACUAL_DICI_M_38, que es la variación mensual "
                  "y no el indice."),
     },
     "ripte": {
         "id": "158.1_REPTE_0_0_5",
-        "titulo": "RIPTE - Remuneracion imponible promedio de los trabajadores estables",
-        "organismo": "Secretaria de Trabajo, Empleo y Seguridad Social",
+        "titulo": "RIPTE - Remuneración imponible promedio de los trabajadores estables",
+        "organismo": "Secretaría de Trabajo, Empleo y Seguridad Social",
         "frecuencia": "mensual",
         "desde": "1994-07",
         "control": None,
@@ -48,7 +48,7 @@ SERIES = {
     },
     "cer": {
         "id": "94.2_CD_D_0_0_10",
-        "titulo": "CER - Coeficiente de Estabilizacion de Referencia (base 2/2/2002 = 1)",
+        "titulo": "CER - Coeficiente de Estabilizacion de Referencia (base 02/02/2002 = 1)",
         "organismo": "BCRA, via datos.gob.ar",
         "frecuencia": "diaria, colapsada a fin de mes",
         "desde": "2016-12",
@@ -123,7 +123,7 @@ def main():
             hallado = dict(datos).get(per)
             if hallado is None or abs(hallado - val) > 0.001:
                 print(f"  ERROR   {nombre:6} control de sanidad fallido: se esperaba "
-                      f"{per} = {val} y llego {hallado}. NO se escribio el archivo: "
+                      f"{per} = {val} y llego {hallado}. NO se escribió el archivo: "
                       f"revisar el serie_id.")
                 error += 1
                 continue
@@ -147,7 +147,7 @@ def main():
 
     print(f"\n  {len(nombres) - error} series actualizadas, {error} con error.")
     print("  Las consume scripts/intereses.py de la skill. Volver a correr este script "
-          "antes de\n  liquidar con un periodo posterior al ultimo descargado.")
+          "antes de\n  liquidar con un período posterior al último descargado.")
     return 1 if error else 0
 
 

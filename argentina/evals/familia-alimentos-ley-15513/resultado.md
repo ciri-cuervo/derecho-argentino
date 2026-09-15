@@ -46,7 +46,7 @@ analogía sumando CBT más costo de cuidado, pero eso es criterio de instancia, 
 ## 4. Retroactividad: a la demanda, no a la interpelación
 
 El art. 641 retrotrae a la interpelación fehaciente **siempre que la demanda se interponga
-dentro de los seis meses**. Acá la interpelación fue el 12/2/2026 y la demanda el 3/9/2026:
+dentro de los seis meses**. Acá la interpelación fue el 12/02/2026 y la demanda el 03/09/2026:
 casi siete meses. La ventana se cerró. Los efectos se retrotraen entonces a la fecha de inicio
 de la etapa previa o de la demanda, la que fuese anterior — y como no hubo etapa previa, a la
 **fecha de la demanda**.

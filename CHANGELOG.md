@@ -6,12 +6,30 @@ versionado [SemVer](https://semver.org/lang/es/).
 Lleva versiones, no sesiones de trabajo. El detalle de cada cambio vive donde se puede verificar:
 
 | Qué | Dónde |
-|---|---|
+| --- | --- |
 | Qué cubre cada módulo y cómo está armado el repo | [`docs/ARQUITECTURA.md`](docs/ARQUITECTURA.md) |
 | Cuándo se verificó cada instituto contra fuente primaria, y su volatilidad | `argentina/skills/derecho-argentino/references/changelog-normativo.md` |
 | Qué hay cargado en la capa offline | `argentina/fuentes/MANIFIESTO.md` |
 | La doctrina de cada precedente | El módulo que la usa; el índice, en `references/fallos-csjn.md` |
 | Si el texto de un fallo se puede transcribir | `herramientas/lecturas-ocr.json` |
+
+## [1.0.1] — 2026-09-15
+
+Correcciones: no entran normas ni fallos nuevos y ningún cálculo cambia de resultado.
+
+- **Ortografía.** Acentos y `ñ` en los módulos, en los marcadores que la skill emite y en la salida
+  de los scripts. Las carátulas se corrigieron contra el documento. Lo que se compara sigue en
+  ASCII: si se muestra, se acentúa; si se compara, no.
+- **Fechas.** Las del derecho, con día y mes de dos dígitos; las del propio trabajo, por mes.
+- **Títulos de las constituciones provinciales** en `normas.json`.
+- **Si falta Python, la skill no calcula a mano:** emite el marcador y explica cómo instalarlo. Sin
+  repo conectado, en cambio, sí se calcula.
+- La salida de las herramientas entra en la consola de Windows, donde un `→` cortaba el script
+  después de haber medido y escrito.
+- Control nuevo de las cifras de inventario de la documentación, con `herramientas/cifras.py`.
+
+**Los datos vienen congelados a septiembre de 2026.** `/derecho:estado` dice qué quedó vencido y
+`/derecho:actualizar` lo baja de las fuentes oficiales.
 
 ## [1.0.0] — 2026-09-14
 
@@ -31,5 +49,5 @@ publicable de un proyecto en desarrollo: la cobertura auditada crece módulo por
   cuyo PDF trae la capa de texto arruinada. Es una derivación, no una descarga.
 - La marca del repositorio en [`assets/marca/`](assets/marca/).
 
-**Los datos vienen congelados al 13/09/2026.** `/derecho:estado` dice qué quedó vencido y
+**Los datos vienen congelados a septiembre de 2026.** `/derecho:estado` dice qué quedó vencido y
 `/derecho:actualizar` lo baja de las fuentes oficiales.

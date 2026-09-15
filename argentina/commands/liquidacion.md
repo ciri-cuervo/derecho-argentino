@@ -15,7 +15,7 @@ intercambiables**. Si estás actuando desde el órgano, leé también `${CODEX_P
 ## Orden
 
 1. **Fecha del acto extintivo.** Decide el régimen. Sin ella no se calcula. Si cae entre el
-   30/12/2023 y el 8/7/2024, rige la advertencia del DNU 70/2023 de la sección 5.1.
+   30/12/2023 y el 08/07/2024, rige la advertencia del DNU 70/2023 de la sección 5.1.
 2. **Pedí en una sola tanda lo que falte**, no de a uno: fecha de ingreso, fecha de extinción,
    mejor remuneración mensual normal y habitual del último año, remuneración del último mes,
    días de vacaciones ya gozados en el año, si hubo preaviso otorgado, si estaba en período de

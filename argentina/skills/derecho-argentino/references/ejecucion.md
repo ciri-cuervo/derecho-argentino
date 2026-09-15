@@ -15,7 +15,7 @@ daño: liquidar con una tasa que ya no rige, dejar vencer el plazo de observaci�
 ### 21.1 Qué régimen rige
 
 | Proceso | Norma de la ejecución |
-|---|---|
+| --- | --- |
 | Laboral PBA, causa **con** vista celebrada antes de la Res. SC 1840/2024 | **Arts. 48 a 53 bis Ley 11.653**, con remisión al CPCCBA |
 | Laboral PBA, causa **sin** vista celebrada | **Arts. 59 a 66 Ley 15.057** |
 | Civil, comercial, familia y consumo en sede judicial PBA | **Arts. 497 a 510 CPCCBA** |
@@ -67,7 +67,7 @@ Si falta cualquiera de los tres, `[VACÍO PROBATORIO: criterio de cuantificació
 ### 21.3 El embargo — el plazo de diez días es exclusivo de la Ley 15.057
 
 | | Ley 11.653 art. 49 | Ley 15.057 art. 60 |
-|---|---|---|
+| --- | --- | --- |
 | Presupuesto | Sentencia pasada en autoridad de cosa juzgada | Sentencia firme **y** transcurridos **diez días sin que el condenado deposite**, en todo o en parte |
 | Quién lo decreta | El Tribunal, a instancia de parte | El Juez, a pedido de parte |
 | Citación al deudor | Cinco días para oponer excepción de pago documentado posterior a la sentencia | Igual: cinco días |
@@ -107,7 +107,7 @@ se deniega la formación del incidente.
 **La diferencia decisiva:**
 
 | Ley 11.653 art. 50 | Ley 15.057 art. 62 |
-|---|---|
+| --- | --- |
 | "Si hubiere alguna duda acerca de estos extremos, el Tribunal denegará la formación del incidente." Nada dice sobre recurso. | "Si hubiere alguna duda [...] el Juez **podrá** denegar la formación del incidente. **La desestimación será apelable.**" |
 
 La 15.057 convierte una facultad denegatoria sin control en una decisión revisable. En una

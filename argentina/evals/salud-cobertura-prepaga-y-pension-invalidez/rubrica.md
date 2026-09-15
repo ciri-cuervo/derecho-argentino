@@ -1,5 +1,5 @@
 ---
-titulo: Amparo de salud - cobertura de prepaga por Ley 24.901 y pension por invalidez de un extranjero
+titulo: Amparo de salud - cobertura de prepaga por Ley 24.901 y pensión por invalidez de un extranjero
 ---
 ## Rúbrica · salud-cobertura-prepaga-y-pension-invalidez
 

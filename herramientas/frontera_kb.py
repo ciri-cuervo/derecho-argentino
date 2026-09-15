@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """Fija el estado de `argentina/kb/`, que es capa 2 y de otro autor.
 
-    python3 herramientas/frontera_kb.py            # informa lo que cambio
+    python3 herramientas/frontera_kb.py            # informa lo que cambió
     python3 herramientas/frontera_kb.py --fijar    # acepta el estado actual
 
-`argentina/kb/` es la contribucion de Cristian Aboitiz. La frontera de licencia es la ruta,
-asi que un texto propio guardado ahi queda clasificado como obra de otro autor. Este script
+`argentina/kb/` es la contribución de Cristian Aboitiz. La frontera de licencia es la ruta,
+así que un texto propio guardado ahí queda clasificado como obra de otro autor. Este script
 guarda el sha256 de cada archivo en `kb-procedencia.json` y avisa cuando alguno cambia: no
-prohibe editar, obliga a que el cambio sea deliberado y quede registrado.
+prohíbe editar, obliga a que el cambio sea deliberado y quede registrado.
 
-Sale con codigo 1 si algo cambio. Cero dependencias externas.
+Sale con código 1 si algo cambió. Cero dependencias externas.
 """
 import argparse
 import hashlib
@@ -32,8 +32,8 @@ REGISTRO = Path(__file__).resolve().parent / "kb-procedencia.json"
 #
 #   El HASH va sobre el texto con los saltos normalizados, no sobre los bytes crudos. Un
 #   checkout con CRLF cambia los 109 bytes sin que cambie una letra. Los 109 archivos de kb/
-#   son texto -108 .md y un .template-, asi que normalizar no deja nada afuera. Un cambio
-#   real de contenido sigue moviendo el hash; lo unico que deja de moverlo es el fin de linea.
+#   son texto -108 .md y un .template-, así que normalizar no deja nada afuera. Un cambio
+#   real de contenido sigue moviendo el hash; lo unico que deja de moverlo es el fin de línea.
 def huella(p: Path) -> str:
     texto = p.read_text(encoding="utf-8").replace("\r\n", "\n").replace("\r", "\n")
     return hashlib.sha256(texto.encode("utf-8")).hexdigest()
@@ -56,7 +56,7 @@ def comparar(actual: dict[str, str], fijado: dict[str, str]):
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--fijar", action="store_true", help="acepta el estado actual de kb/")
-    ap.add_argument("--nota", default="", help="por que cambio, para el registro")
+    ap.add_argument("--nota", default="", help="por qué cambió, para el registro")
     args = ap.parse_args()
 
     actual = huellas()
@@ -64,7 +64,7 @@ def main() -> int:
         # El sobre -las claves que empiezan con guion bajo- describe QUE es este archivo y
         # con que criterio se llena, y no depende del estado que se este fijando: se conserva
         # tal cual estaba. Escribirlo de cero lo borraba, y el test que exige el sobre
-        # completo solo fallaba despues de un --fijar, que es justo cuando nadie mira.
+        # completo solo fallaba después de un --fijar, que es justo cuando nadie mira.
         sobre = {}
         if REGISTRO.exists():
             try:

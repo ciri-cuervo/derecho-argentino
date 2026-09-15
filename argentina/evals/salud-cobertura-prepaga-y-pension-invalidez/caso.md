@@ -1,9 +1,9 @@
 ---
-titulo: Amparo de salud - cobertura de prepaga por Ley 24.901 y pension por invalidez de un extranjero
+titulo: Amparo de salud - cobertura de prepaga por Ley 24.901 y pensión por invalidez de un extranjero
 area: salud y discapacidad
 perfil: derecho-argentino / references/salud-discapacidad.md y references/fallos-csjn.md
 fuero: Juzgado Federal de Primera Instancia de La Plata
-problema: "riesgo de leer 'R. A., D.' como derogacion general del recaudo de residencia cuando la Corte lo declaro inaplicable solo si estan reunidos todos los demas requisitos; riesgo de citar 'Cambiaso' como si resolviera que hay que dar la prestacion concreta, cuando su cons. 10 dice que eso es hecho y prueba; riesgo de presentar 'Cambiaso' como unanime cuando fue 4 a 3; riesgo de usar las caratulas que circulan mal -'Cambiaso Pereson' y 'Reyes Aguilera'- en lugar de las oficiales; riesgo de sostener que la prepaga solo debe el PMO vigente al sancionarse la Ley 24.754; riesgo de discutir la gratuidad del art. 55 LDC sin el precedente que ya esta cargado; riesgo de omitir que hay dos obligados distintos con dos regimenes distintos"
+problema: "riesgo de leer 'R. A., D.' como derogación general del recaudo de residencia cuando la Corte lo declaro inaplicable solo si estan reunidos todos los demas requisitos; riesgo de citar 'Cambiaso' como si resolviera que hay que dar la prestación concreta, cuando su cons. 10 dice que eso es hecho y prueba; riesgo de presentar 'Cambiaso' como unánime cuando fue 4 a 3; riesgo de usar las caratulas que circulan mal -'Cambiaso Pereson' y 'Reyes Aguilera'- en lugar de las oficiales; riesgo de sostener que la prepaga solo debe el PMO vigente al sancionarse la Ley 24.754; riesgo de discutir la gratuidad del art. 55 LDC sin el precedente que ya está cargado; riesgo de omitir que hay dos obligados distintos con dos regímenes distintos"
 ---
 
 # Caso · Amparo con dos pretensiones acumuladas

@@ -1,20 +1,20 @@
 #!/usr/bin/env python3
-"""Computo de plazos procesales - derecho argentino.
+"""Cómputo de plazos procesales - derecho argentino.
 
-Calculadora determinista para la skill `derecho-argentino`. Los feriados moviles (Carnaval y
-Viernes Santo) se calculan con el computo de Pascua; los inamovibles y trasladables salen de
-la Ley 27.399. Los **puentes turisticos**, los **asuetos** y las **ferias judiciales** NO se
+Calculadora determinista para la skill `derecho-argentino`. Los feriados móviles (Carnaval y
+Viernes Santo) se calculan con el cómputo de Pascua; los inamovibles y trasladables salen de
+la Ley 27.399. Los **puentes turísticos**, los **asuetos** y las **ferias judiciales** NO se
 pueden calcular: se leen de `argentina/fuentes/datos/inhabiles.json` y, si ese archivo no
-tiene cargado el anio del computo, el script lo dice y emite el marcador.
+tiene cargado el año del cómputo, el script lo dice y emite el marcador.
 
 Uso:
-    python3 plazos.py --tipo habiles --dias 5 --desde 2026-09-10 --fuero pba
+    python3 plazos.py --tipo hábiles --dias 5 --desde 2026-09-10 --fuero pba
     python3 plazos.py --tipo corridos --dias 30 --desde 2026-09-10
     python3 plazos.py --tipo meses --cantidad 6 --desde 2026-03-31
-    python3 plazos.py --tipo anios --cantidad 2 --desde 2024-05-10
+    python3 plazos.py --tipo años --cantidad 2 --desde 2024-05-10
 
-`--desde` es la fecha de NOTIFICACION en los plazos judiciales: el computo arranca al dia
-siguiente y no cuenta el dia de la notificacion (art. 156 CPCCN / art. 156 CPCCBA).
+`--desde` es la fecha de NOTIFICACIÓN en los plazos judiciales: el cómputo arranca al dia
+siguiente y no cuenta el dia de la notificación (art. 156 CPCCN / art. 156 CPCCBA).
 Ver `references/plazos.md`.
 """
 
@@ -34,7 +34,7 @@ FUEROS = {
 
 
 def pascua(anio: int) -> date:
-    """Computo de Pascua (algoritmo de Meeus/Jones/Butcher, calendario gregoriano)."""
+    """Cómputo de Pascua (algoritmo de Meeus/Jones/Butcher, calendario gregoriano)."""
     a = anio % 19
     b, c = divmod(anio, 100)
     d, e = divmod(b, 4)
@@ -52,8 +52,8 @@ def trasladar(f: date) -> date:
     """Art. 6 Ley 27.399: los feriados trasladables del art. 1 inc. b que caen martes o
     miercoles pasan al lunes anterior; los que caen jueves o viernes, al lunes siguiente.
 
-    Sabado y domingo quedan sin mover por esta funcion: el Decreto 614/2025 habilita a la
-    Jefatura de Gabinete a llevarlos al viernes anterior o al lunes posterior, y esa opcion
+    Sabado y domingo quedan sin mover por esta función: el Decreto 614/2025 habilita a la
+    Jefatura de Gabinete a llevarlos al viernes anterior o al lunes posterior, y esa opción
     no es calculable. Esos casos se informan aparte (ver `trasladables_dudosos`)."""
     if f.weekday() in (1, 2):
         return f - timedelta(days=f.weekday())
@@ -63,10 +63,10 @@ def trasladar(f: date) -> date:
 
 
 def trasladables_dudosos(anio: int) -> list:
-    """Trasladables que caen sabado o domingo: ubicacion indeterminada hasta que la
-    Jefatura de Gabinete ejerza la opcion del Decreto 614/2025."""
-    base = {date(anio, 6, 17): "Guemes", date(anio, 8, 17): "San Martin",
-            date(anio, 10, 12): "Diversidad Cultural", date(anio, 11, 20): "Soberania Nacional"}
+    """Trasladables que caen sabado o domingo: ubicación indeterminada hasta que la
+    Jefatura de Gabinete ejerza la opción del Decreto 614/2025."""
+    base = {date(anio, 6, 17): "Güemes", date(anio, 8, 17): "San Martín",
+            date(anio, 10, 12): "Diversidad Cultural", date(anio, 11, 20): "Soberanía Nacional"}
     return [f"{f.isoformat()} ({n}) cae {'sabado' if f.weekday() == 5 else 'domingo'}"
             for f, n in base.items() if f.weekday() >= 5]
 
@@ -74,38 +74,38 @@ def trasladables_dudosos(anio: int) -> list:
 def feriados_ley_27399(anio: int) -> dict:
     p = pascua(anio)
     inamovibles = {
-        date(anio, 1, 1): "Anio nuevo",
+        date(anio, 1, 1): "Año nuevo",
         p - timedelta(days=48): "Carnaval (lunes)",
         p - timedelta(days=47): "Carnaval (martes)",
-        date(anio, 3, 24): "Dia de la Memoria",
+        date(anio, 3, 24): "Día de la Memoria",
         p - timedelta(days=2): "Viernes Santo",
         date(anio, 4, 2): "Malvinas",
-        date(anio, 5, 1): "Dia del Trabajador",
-        date(anio, 5, 25): "Revolucion de Mayo",
+        date(anio, 5, 1): "Día del Trabajador",
+        date(anio, 5, 25): "Revolución de Mayo",
         date(anio, 6, 20): "Paso a la Inmortalidad de Belgrano",
-        date(anio, 7, 9): "Dia de la Independencia",
-        date(anio, 12, 8): "Inmaculada Concepcion",
+        date(anio, 7, 9): "Día de la Independencia",
+        date(anio, 12, 8): "Inmaculada Concepción",
         date(anio, 12, 25): "Navidad",
     }
     trasladables = {}
-    for f, n in {date(anio, 6, 17): "Guemes", date(anio, 8, 17): "San Martin",
+    for f, n in {date(anio, 6, 17): "Güemes", date(anio, 8, 17): "San Martín",
                  date(anio, 10, 12): "Diversidad Cultural",
-                 date(anio, 11, 20): "Soberania Nacional"}.items():
+                 date(anio, 11, 20): "Soberanía Nacional"}.items():
         trasladables[trasladar(f)] = n + " (trasladable)"
     return {**inamovibles, **trasladables}
 
 
 def cargar_datos(anio: int, jurisdiccion: str, repo=None):
-    """Lee puentes, asuetos y ferias del repo. Devuelve (inhabiles_extra, ferias, meta).
+    """Lee puentes, asuetos y ferias del repo. Devuelve (inhábiles_extra, ferias, meta).
 
     Los asuetos distritales NO se descuentan: alcanzan a un partido o dependencia y no a
-    toda la jurisdiccion. Se informan para que quien computa decida si aplican a la causa."""
+    toda la jurisdicción. Se informan para que quien computa decida si aplican a la causa."""
     d = datos(repo)
     cand = None if d is None else d / "inhabiles.json"
     if cand is None or not cand.is_file():
         return set(), [], {
             "estado": "SIN ARCHIVO",
-            "detalle": ("no hay repo configurado en esta maquina: correr configurar.py"
+            "detalle": ("no hay repo configurado en esta máquina: correr configurar.py"
                         if d is None else f"falta {cand}"),
             "pendientes": [], "distritales": [], "trasladables_verificados": []}
     crudo = json.loads(cand.read_text(encoding="utf-8"))
@@ -125,8 +125,8 @@ def cargar_datos(anio: int, jurisdiccion: str, repo=None):
     if not bloque.get("verificado"):
         return extra, ferias, {
             "estado": "PENDIENTE",
-            "detalle": (f"el bloque {jurisdiccion}/{anio} de inhabiles.json esta sin verificar "
-                        "(campo 'verificado' vacio): faltan cargar ferias, puentes y asuetos"),
+            "detalle": (f"el bloque {jurisdiccion}/{anio} de inhabiles.json está sin verificar "
+                        "(campo 'verificado' vacío): faltan cargar ferias, puentes y asuetos"),
             "verificado": None, **comun}
     return extra, ferias, {"estado": "OK", "verificado": bloque.get("verificado"),
                            "fuente": bloque.get("fuente"), **comun}
@@ -153,7 +153,7 @@ def computar_habiles(desde: date, dias: int, jurisdiccion: str, repo=None):
         extra |= e
         ferias += fr
         metas.append({"anio": anio, **meta})
-    # Control cruzado: el calculo del art. 6 contra la ubicacion verificada del anio.
+    # Control cruzado: el cálculo del art. 6 contra la ubicación verificada del año.
     for m in metas:
         verificados = {date.fromisoformat(d) for d in m.get("trasladables_verificados", [])}
         if not verificados:
@@ -177,13 +177,13 @@ def computar_habiles(desde: date, dias: int, jurisdiccion: str, repo=None):
         else:
             traza.append(f"{cur.isoformat()}  INHABIL  {motivo}")
         if (cur - desde).days > 3000:
-            raise SystemExit("Computo desbordado: revisar los datos de inhabiles.")
+            raise SystemExit("Cómputo desbordado: revisar los datos de inhábiles.")
     return cur, traza, metas
 
 
 def sumar_meses(f: date, cantidad: int) -> date:
     """Arts. 6 y 7 CCyCN: de fecha a fecha; si el mes de vencimiento no tiene el dia
-    equivalente, vence el ultimo dia de ese mes."""
+    equivalente, vence el último dia de ese mes."""
     import calendar
     mes = f.month - 1 + cantidad
     anio = f.year + mes // 12
@@ -198,7 +198,7 @@ def main():
     p.add_argument("--tipo", required=True,
                    choices=["habiles", "corridos", "meses", "anios"])
     p.add_argument("--desde", required=True, type=date.fromisoformat,
-                   help="Fecha de notificacion o de inicio del computo")
+                   help="Fecha de notificación o de inicio del cómputo")
     p.add_argument("--dias", type=int, help="Para --tipo habiles o corridos")
     p.add_argument("--cantidad", type=int, help="Para --tipo meses o anios")
     p.add_argument("--fuero", default="pba", choices=list(FUEROS))
@@ -207,30 +207,30 @@ def main():
                    help="Raiz del repo. Si se omite se resuelve sola (ver configurar.py)")
     a = p.parse_args()
 
-    print(f"COMPUTO DE PLAZO - tipo: {a.tipo} - fuero: {a.fuero}")
+    print(f"CÓMPUTO DE PLAZO - tipo: {a.tipo} - fuero: {a.fuero}")
     print(f"  Fecha de inicio (no se cuenta): {a.desde.isoformat()}")
     marcadores = []
 
     if a.tipo == "habiles":
         if not a.dias:
-            raise SystemExit("--dias es obligatorio para --tipo habiles")
+            raise SystemExit("--dias es obligatorio para --tipo hábiles")
         venc, traza, metas = computar_habiles(a.desde, a.dias, a.fuero, a.repo)
         atravesados = set(range(a.desde.year, venc.year + 1))
         metas = [m for m in metas if m["anio"] in atravesados]
-        print(f"  Plazo: {a.dias} dias habiles judiciales")
+        print(f"  Plazo: {a.dias} días hábiles judiciales")
         print(f"  VENCIMIENTO: {venc.isoformat()} ({venc.strftime('%A')})")
         g = FUEROS[a.fuero]
-        print(f"  Plazo de gracia: primeras {g['gracia_horas']} horas de despacho del dia "
-              f"habil siguiente ({g['norma_gracia']}) -> {(venc + timedelta(days=1)).isoformat()} o el habil posterior")
+        print(f"  Plazo de gracia: primeras {g['gracia_horas']} horas de despacho del día "
+              f"hábil siguiente ({g['norma_gracia']}) -> {(venc + timedelta(days=1)).isoformat()} o el hábil posterior")
         for m in metas:
             if m.get("divergencia_trasladables"):
                 marcadores.append(
-                    f"[VERIFICAR PLAZO: ubicacion de los feriados trasladables de {m['anio']} - "
-                    f"{m['divergencia_trasladables']}; se uso la lista verificada]")
+                    f"[VERIFICAR PLAZO: ubicación de los feriados trasladables de {m['anio']} - "
+                    f"{m['divergencia_trasladables']}; se usó la lista verificada]")
             for d in trasladables_dudosos(m["anio"]):
                 marcadores.append(
-                    f"[VERIFICAR PLAZO: feriado trasladable de ubicacion indeterminada - {d}; "
-                    "el Decreto 614/2025 deja la opcion a la Jefatura de Gabinete y el computo "
+                    f"[VERIFICAR PLAZO: feriado trasladable de ubicación indeterminada - {d}; "
+                    "el Decreto 614/2025 deja la opción a la Jefatura de Gabinete y el cómputo "
                     "NO lo descuenta]")
             for x in m.get("pendientes", []):
                 marcadores.append(f"[VERIFICAR PLAZO: {a.fuero} {m['anio']} - {x}]")
@@ -242,7 +242,7 @@ def main():
                     f"[VERIFICAR PLAZO: ferias, puentes y asuetos de {m['anio']} para "
                     f"{a.fuero} - {m['detalle']}; el vencimiento calculado NO los descuenta]")
             else:
-                print(f"  Inhabiles {m['anio']}: cargados, verificados al {m.get('verificado')} "
+                print(f"  Inhábiles {m['anio']}: cargados, verificados al {m.get('verificado')} "
                       f"({m.get('fuente')})")
         if a.traza:
             print("\n  TRAZA")
@@ -254,7 +254,7 @@ def main():
         venc = a.desde + timedelta(days=a.dias)
         print(f"  Plazo: {a.dias} dias corridos (art. 6 CCyCN)")
         print(f"  VENCIMIENTO: {venc.isoformat()} ({venc.strftime('%A')})")
-        print("  Sin traslado por vencimiento en inhabil, salvo norma expresa.")
+        print("  Sin traslado por vencimiento en inhábil, salvo norma expresa.")
     else:
         if not a.cantidad:
             raise SystemExit("--cantidad es obligatorio para --tipo meses o anios")
@@ -264,15 +264,15 @@ def main():
         print(f"  VENCIMIENTO: {venc.isoformat()} ({venc.strftime('%A')})")
 
     marcadores.append(
-        "[VERIFICAR PLAZO: acto procesal - confirmar la norma de la jurisdiccion que fija "
+        "[VERIFICAR PLAZO: acto procesal - confirmar la norma de la jurisdicción que fija "
         "este plazo antes de usar el resultado]")
     print("\n  MARCADORES")
     for m in marcadores:
         print(f"    {m}")
     print("\n  Feriados: inamovibles y trasladables del art. 1 de la Ley 27.399; los "
-          "trasladables se\n  ubicaron por la regla del art. 6 y, cuando el anio esta cargado en "
-          "inhabiles.json, se\n  usa la ubicacion verificada. Los puentes los fija cada anio la "
-          "Jefatura de Gabinete\n  (art. 7): sin ese dato cargado, el computo no los descuenta.")
+          "trasladables se\n  ubicaron por la regla del art. 6 y, cuando el año está cargado en "
+          "inhábiles.json, se\n  usa la ubicación verificada. Los puentes los fija cada año la "
+          "Jefatura de Gabinete\n  (art. 7): sin ese dato cargado, el cómputo no los descuenta.")
 
 
 if __name__ == "__main__":

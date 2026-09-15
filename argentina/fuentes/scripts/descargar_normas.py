@@ -2,8 +2,8 @@
 """Descarga los textos normativos del manifiesto y los deja en texto plano con procedencia.
 
 Cada archivo queda en `argentina/fuentes/normas/<slug>.txt` con un encabezado que dice de
-donde salio, cuando y con que hash. El hash es lo que despues permite detectar que la norma
-cambio (ver `verificar_normas.py`).
+donde salió, cuando y con que hash. El hash es lo que después permite detectar que la norma
+cambió (ver `verificar_normas.py`).
 
     python3 descargar_normas.py                  # todo el manifiesto
     python3 descargar_normas.py --prioridad 1    # solo lo imprescindible
@@ -12,9 +12,9 @@ cambio (ver `verificar_normas.py`).
 
 Los PDF se guardan tal cual, sin extraer texto.
 
-ADVERTENCIA. Los textos que publican estas bases pueden estar truncados o con la acentuacion
-degradada. Antes de transcribir un articulo a un escrito, cotejar contra el PDF del Boletin
-Oficial de la fecha de publicacion. Lo bajado por este script es material de trabajo
+ADVERTENCIA. Los textos que publican estas bases pueden estar truncados o con la acentuación
+degradada. Antes de transcribir un artículo a un escrito, cotejar contra el PDF del Boletín
+Oficial de la fecha de publicación. Lo bajado por este script es material de trabajo
 verificable, no fe publica.
 """
 from __future__ import annotations
@@ -30,15 +30,15 @@ from _comun import (NORMAS, bajar, cargar_manifiesto, cargar_procedencia,
 
 ENCABEZADO = """{titulo}
 {raya}
-Jurisdiccion:     {jurisdiccion}
+Jurisdicción:     {jurisdicción}
 Fuente:           {url}
 Descargado:       {fecha}
 SHA-256 (crudo):  {hash}
 Charset:          {charset}
 
-Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
-NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
-Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
 el manifiesto `normas.json`.
 {raya}
 
@@ -46,13 +46,13 @@ el manifiesto `normas.json`.
 
 
 def es_pdf_real(ctype: str | None, declarado: bool) -> bool:
-    """Decide si lo bajado es un PDF por lo que DICE EL SERVIDOR, no por la extension.
+    """Decide si lo bajado es un PDF por lo que DICE EL SERVIDOR, no por la extensión.
 
-    Aca hubo un bug: la extension y el campo `formato` del manifiesto son una suposicion, y
+    Acá hubo un bug: la extensión y el campo `formato` del manifiesto son una suposición, y
     un digesto provincial que sirve el PDF desde una URL sin `.pdf` -con query string, por
-    ejemplo- hacia que el script tratara los bytes como HTML, los pasara por el parser y
+    ejemplo- hacía que el script tratara los bytes como HTML, los pasara por el parser y
     escribiera un .txt binario de 240 KB. El archivo quedaba ilegible y el unico sintoma era
-    que revisar_texto no encontraba ni un articulo, que parece un problema de la fuente.
+    que revisar_texto no encontraba ni un artículo, que parece un problema de la fuente.
     """
     if declarado:
         return True
@@ -62,11 +62,11 @@ def es_pdf_real(ctype: str | None, declarado: bool) -> bool:
 def ya_registrada(proc: dict, slug: str) -> bool:
     """True si la norma ya tiene procedencia registrada.
 
-    Existe como funcion propia porque aca hubo un bug que vivio varias versiones: el chequeo
+    Existe como función propia porque acá hubo un bug que vivio varias versiones: el chequeo
     era `slug in proc`, y `cargar_procedencia()` devuelve el documento entero, cuyo primer
-    nivel son `_descripcion` y `normas`. Nunca habia un slug ahi, con lo que la condicion
+    nivel son `_descripcion` y `normas`. Nunca había un slug ahí, con lo que la condición
     daba False siempre: el script rebajaba las 59 normas en cada corrida, la rama YA ESTA era
-    codigo muerto y `--forzar` no se distinguia de no pasarlo. Se ve solo si uno cuenta los
+    código muerto y `--forzar` no se distinguia de no pasarlo. Se ve solo si uno cuenta los
     pedidos a los sitios oficiales.
     """
     return slug in proc.get("normas", {})
@@ -75,8 +75,8 @@ def ya_registrada(proc: dict, slug: str) -> bool:
 def _avisar_intento(slug: str, url: str) -> None:
     """Deja en pantalla que hay una descarga en curso, para que un sitio lento no parezca
     un cuelgue. Un host que no responde se come timeout x reintentos sin imprimir nada, y
-    con el default eso es casi diez minutos de silencio. La linea se sobreescribe con el
-    resultado, asi que no ensucia la salida; si no hay terminal, no se imprime."""
+    con el default eso es casi diez minutos de silencio. La línea se sobreescribe con el
+    resultado, así que no ensucia la salida; si no hay terminal, no se imprime."""
     if not sys.stdout.isatty():
         return
     host = urllib.parse.urlsplit(url).netloc
@@ -116,7 +116,7 @@ def main():
         es_pdf = n.get("formato") == "pdf" or url.lower().endswith(".pdf")
         destino = NORMAS / (f"{slug}.pdf" if es_pdf else f"{slug}.txt")
         # Si ya hay procedencia, el nombre real es el registrado: el adivinado puede diferir
-        # cuando el servidor devolvio un PDF desde una URL sin extension.
+        # cuando el servidor devolvió un PDF desde una URL sin extensión.
         registrado = proc.get("normas", {}).get(slug, {}).get("archivo")
         if registrado:
             destino = NORMAS / registrado

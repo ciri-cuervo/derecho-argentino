@@ -17,13 +17,13 @@ para PBA, que traen la cadena de precedentes completa. Si actuás desde el órga
 crédito.** El script tiene dos modos y aplicar el equivocado da un número defendible y mal.
 
 - `--modo indice` — actualización por índice oficial más interés puro. Es el esquema de
-  **"Barrios"** (SCBA, C. 124.096, 17/4/2024) y el del art. 276 LCT.
+  **"Barrios"** (SCBA, C. 124.096, 17/04/2024) y el del art. 276 LCT.
 - `--modo tasa` — tasa nominal anual sobre capital nominal.
 
 Tres cosas que se equivocan seguido y están en 5.5 bis:
 
 1. **No trasladar el criterio de la CNAT a PBA.** Son cadenas de precedentes distintas.
-2. **"Barrios" no alcanza a las prestaciones de la LRT** — "Galarza", L. 132.729, 30/3/2026.
+2. **"Barrios" no alcanza a las prestaciones de la LRT** — "Galarza", L. 132.729, 30/03/2026.
 3. **El segundo párrafo del art. 48 de la Ley 11.653** (tasa activa, texto Ley 14.399) está
    declarado inconstitucional desde "Abraham", L. 108.164. Una liquidación que lo invoque
    aplica una norma muerta. Ver `${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/skills/derecho-argentino/references/ejecucion.md` 21.2.

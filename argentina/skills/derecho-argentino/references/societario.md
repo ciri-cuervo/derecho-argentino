@@ -7,7 +7,7 @@
 ## 31 · Sociedades
 
 Verificado contra el texto consolidado de la **Ley 19.550** en `fuentes/normas/ley-19550.txt`,
-cuyo articulado de la Sección IV es **texto según la Ley 26.994**, vigente desde el 1/8/2015
+cuyo articulado de la Sección IV es **texto según la Ley 26.994**, vigente desde el 01/08/2015
 (art. 1 Ley 27.077).
 
 Este módulo **no cubre el derecho societario**: cubre lo que aparece cuando el que reclama es un
@@ -84,7 +84,7 @@ debe traer las ganancias a la sociedad y **las pérdidas son de su cuenta exclus
 > porque el empleador sea una sociedad pequeña. Un escrito que la pida como consecuencia
 > automática del trabajo no registrado está saltándose los presupuestos del artículo.
 
-`[INSERTAR FALLO VERIFICADO: alcance del art. 54 tercer parrafo de la Ley 19.550 frente al trabajo no registrado - aportar caratula, sala, fuero y anio. No hay fallo cargado en fuentes/]`
+`[INSERTAR FALLO VERIFICADO: alcance del art. 54 tercer párrafo de la Ley 19.550 frente al trabajo no registrado - aportar carátula, sala, fuero y año. No hay fallo cargado en fuentes/]`
 
 **Contralor individual (art. 55).** Los socios pueden **examinar los libros y papeles sociales** y
 recabar del administrador los informes que estimen pertinentes.

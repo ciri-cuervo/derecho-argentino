@@ -31,7 +31,7 @@ ilegible, reextraerlo con `-layout`.
 Hay dos defectos reales, y el segundo es el que engaña:
 
 | Estado | Qué le pasó al texto | Qué se puede hacer |
-|---|---|---|
+| --- | --- | --- |
 | **destruido** | El OCR no devolvió texto sino caracteres sueltos: `Considerando: 1*) ì BÊ`ì Que »`vêì segtin »Êµv`ì`. **`-layout` no lo arregla** | **Hay copia recuperada en `ocr/`.** Ver abajo |
 | **sustituciones** | El OCR cambió letras y dejó **palabras válidas pero equivocadas**: *"apelanie remiten al andlisis de evestiones de hecho"*. **`-layout` tampoco**, porque el problema no está en el orden sino en las letras | El más peligroso: se lee natural y dice otra cosa. **Hay copia recuperada en `ocr/`**; igual se coteja cada cita contra el PDF |
 | **layout** | Nada. Se lee entero **si se extrae con `-layout`** | Transcribible |
@@ -40,7 +40,7 @@ Hay dos defectos reales, y el segundo es el que engaña:
 **Los seis con defecto real, confirmado por lectura:**
 
 | Fallo | Estado del PDF |
-|---|---|
+| --- | --- |
 | "Fiorentino" 306:1752 · "Bazterrica" 308:1392 · "Montalvo" 313:1333 | **destruido** |
 | "Santa Coloma" 308:1160 · "Rodríguez Pereyra" 335:2333 · "S., D." 336:849 | **sustituciones** |
 
@@ -65,13 +65,13 @@ la Secretaría de Jurisprudencia y nunca del encabezado del PDF**.
 
 Los tomos viejos tienen un segundo camino, y **es el que resolvió las tres fechas que faltaban**:
 la fecha está **impresa en el cuerpo**, en la línea que sigue al título "FALLO DE LA CORTE
-SUPREMA", que no es la del dictamen del Procurador —en "Fiorentino" el dictamen es del 21/5/1984 y
+SUPREMA", que no es la del dictamen del Procurador —en "Fiorentino" el dictamen es del 21/05/1984 y
 el fallo del 27/11/1984—. `herramientas/auditar_fechas_fallos.py` la lee de ahí y la compara contra
-el manifiesto. Así se corrigieron, el 14/09/2026, tres fechas que estaban rellenadas con un 1 de
-enero porque la capa de texto no se podía leer:
+el manifiesto. Así se corrigieron tres fechas que estaban rellenadas con un 1 de enero porque la
+capa de texto no se podía leer:
 
 | Fallo | Decía | Es |
-|---|---|---|
+| --- | --- | --- |
 | "Fiorentino" 306:1752 | 1984-01-01 | **27/11/1984** |
 | "Santa Coloma" 308:1160 | 1986-01-01 | **05/08/1986** |
 | "Bazterrica" 308:1392 | 1986-01-01 | **29/08/1986** |
@@ -100,17 +100,18 @@ Con eso el auditor confirma **identidad en los 64** y ya no queda ningún fallo 
 ### 34.2 Penal y procesal penal
 
 | Carátula oficial | Cita | Fecha | Archivo |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Fiorentino, Diego Enrique** | Fallos 306:1752 | 27/11/1984 | `csjn-fiorentino-fallos-306-1752` |
 | **Bazterrica, Gustavo Mario — Alejandro Carlos Capalbo** | Fallos 308:1392 | 29/08/1986 | `csjn-bazterrica-fallos-308-1392` |
 | **Montalvo, Ernesto Alfredo psa. inf. ley 20.771** | Fallos 313:1333 | 11/12/1990 | `csjn-montalvo-fallos-313-1333` |
 | **Estévez, José Luis s/ solicitud de excarcelación** | Fallos 320:2105 | 03/10/1997 | `csjn-estevezjoseluis-fallos-320-2105` |
 | **Nápoli, Erika Elizabeth y otros s/ infracción art. 139 bis CP** | Fallos 321:3630 | 22/12/1998 | `csjn-napolierikaelizabethyo-fallos-321-3630` |
 | **Bianchi, Guillermo Oscar s/ defraudación** | Fallos 325:1404 | 27/06/2002 | `csjn-bianchiguillermooscar-fallos-325-1404` |
+
 > **Cuidado con "Bianchi": hay dos y no tienen nada que ver.** El que está bajado es **"Bianchi,
 > Guillermo Oscar s/ defraudación"**, Fallos 325:1404, **penal**. El que se cita en materia de
 > **peaje y responsabilidad de concesionarias viales** es *"Bianchi, Isabel del Carmen Pereyra de
-> c/ Provincia de Buenos Aires"*, del **7/11/2006**, que **no está en `fuentes/`** — aparece en
+> c/ Provincia de Buenos Aires"*, del **07/11/2006**, que **no está en `fuentes/`** — aparece en
 > `danos-indice-doctrinario.md` § 18-19 junto con "Colavita", "Bertinat" y "Ferreyra c/ VICOV".
 > Buscar por apellido y tomar el primero que aparezca es, acá, citar un caso de defraudación para
 > un accidente en una autopista.
@@ -248,7 +249,7 @@ formado la mayoría de "Bazterrica".
   tampoco la que reprime la tenencia de armas y explosivos" (cons. 27).
 
 > **Cómo se cita esta línea sin equivocarse.** "Montalvo" es de 1990 y **"Arriola" (Fallos
-> 332:1963, 25/8/2009) declaró la inconstitucionalidad del art. 14, segundo párrafo, de la ley
+> 332:1963, 25/08/2009) declaró la inconstitucionalidad del art. 14, segundo párrafo, de la ley
 > 23.737** —el mismo texto que "Montalvo" llama "segunda parte"— aplicando el estándar de
 > "Bazterrica": el alcance exacto, leído contra el documento, está en `penal.md` 24.9.2. O sea que
 > **"Montalvo" ya no es el derecho vigente sobre el punto**: sirve para reconstruir la línea o para
@@ -260,7 +261,7 @@ formado la mayoría de "Bazterrica".
 ### 34.3 Laboral
 
 | Carátula oficial | Cita | Fecha | Archivo |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Aquino, Isacio c/ Cargo Servicios Industriales S.A.** | Fallos 327:3753 | 21/09/2004 | `csjn-aquinoisacio-fallos-327-3753` |
 | **Aróstegui, Pablo Martín c/ Omega ART S.A. y Pametal Peluso y Cía. S.R.L.** | Fallos 331:570 | 08/04/2008 | `csjn-arosteguipablomartin-fallos-331-570` |
 | **Pogonza, Jonathan Jesús c/ Galeno ART S.A. s/ accidente — ley especial** | CNT 14604/2018/1/RH1 | 02/09/2021 | `csjn-pogonza-2021-09-02` |
@@ -311,12 +312,12 @@ contingentes". Sobre eso, la Corte verifica cuatro recaudos:
 > ley 27.348) — posibilidad que la ley 24.557 original había vedado, y que por eso cayó en
 > **"Aquino"**. La instancia previa es un requisito de acceso, no una renuncia a la vía civil.
 
-`[INSERTAR FALLO VERIFICADO: doctrina de la CSJN sobre las CONDICIONES de la opcion del art. 4 de la Ley 26.773 -momento, forma y efectos de la renuncia- que ninguno de los cargados desarrolla. "Pogonza" (2021) menciona ese articulo para decir que la instancia previa no cierra la via civil, y hasta ahi llega. Ver laboral.md 5.8.6 y el marcador de "Vera"]`
+`[INSERTAR FALLO VERIFICADO: doctrina de la CSJN sobre las CONDICIONES de la opción del art. 4 de la Ley 26.773 -momento, forma y efectos de la renuncia- que ninguno de los cargados desarrolla. "Pogonza" (2021) menciona ese artículo para decir que la instancia previa no cierra la via civil, y hasta ahi llega. Ver laboral.md 5.8.6 y el marcador de "Vera"]`
 
 ### 34.4 Civil y daños
 
 | Carátula oficial | Cita | Fecha | Archivo |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Santa Coloma, Luis Federico y otros** | Fallos 308:1160 | 05/08/1986 | `csjn-santacoloma-fallos-308-1160` |
 | **Mosca, Hugo Arnaldo c/ Provincia de Buenos Aires (Policía Bonaerense) y otros** | Fallos 330:563 | 06/03/2007 | `csjn-mosca-fallos-330-563` |
 | **Cuello, Patricia Dorotea c/ Lucena, Pedro Antonio y otro** | Fallos 330:3483 | 07/08/2007 | `csjn-cuellopatriciadorotea-fallos-330-3483` |
@@ -347,10 +348,10 @@ esas condiciones. La Cámara había tenido la exclusión por inoponible apoyánd
 Lo que resolvió la Corte, considerando por considerando:
 
 | | |
-|---|---|
+| --- | --- |
 | **9** | El contrato de seguro rige la relación entre los otorgantes (arts. 1137 y 1197 CC) y los damnificados son **terceros**: si quieren invocarlo, **deben circunscribirse a sus términos** (arts. 1195 y 1199 CC). Lo funda expresamente en el **voto del juez Lorenzetti en "Cuello"** — por eso los dos fallos van juntos |
 | **10** | La **función social del seguro no implica** que deban repararse todos los daños sin consideración a las pautas del contrato, y menos cuando a los damnificados no podía pasarles inadvertido que viajaban en un lugar no habilitado |
-| **12** | **La reforma de la Ley 26.361 a la LDC no altera el régimen del seguro**: una ley general posterior no deroga ni modifica, implícita ni tácitamente, la ley especial anterior ("Martínez de Costa", 9/12/2009) |
+| **12** | **La reforma de la Ley 26.361 a la LDC no altera el régimen del seguro**: una ley general posterior no deroga ni modifica, implícita ni tácitamente, la ley especial anterior ("Martínez de Costa", 09/12/2009) |
 | **14** | **Demostrados los presupuestos fácticos y la existencia de la cláusula de exclusión, no hay razón legal para limitar los derechos de la aseguradora** |
 
 **La regla operativa:** acreditada la exclusión de cobertura y sus presupuestos de hecho, **es
@@ -371,7 +372,7 @@ Los dos holdings que siguen se escribieron el 14/09/2026. Sus PDF tienen **susti
 se leyeron en la copia de `ocr/` y **cada cita se cotejó contra la página del PDF**.
 
 **"Santa Coloma, Luis Federico y otros c/ E.F.A."** (Fallos 308:1160, 05/08/1986). Es **la raíz
-constitucional de la reparación**. Un accidente ferroviario en Brandsen, el 8/3/1981, mató a tres
+constitucional de la reparación**. Un accidente ferroviario en Brandsen, el 08/03/1981, mató a tres
 hermanas de 9, 10 y 13 años e hirió a un cuarto hijo; la cámara redujo la condena, negó todo daño
 material a los padres y recortó el daño moral. La Corte **dejó sin efecto** la sentencia por
 arbitraria. Firman **cuatro**: Belluscio, Fayt, Petracchi y Bacqué.
@@ -441,7 +442,7 @@ su voto**, y **Petracchi en disidencia** —adopta el dictamen de la Procuradora
 ### 34.5 Familia
 
 | Carátula oficial | Cita | Fecha | Archivo |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Winteker, Beatriz del Carmen c/ Vera, Benjamín Alcibíades y otra s/ violencia familiar (art. 1 Ley 12.569)** | Fallos 329:5514 | 28/11/2006 | `csjn-wintekerbeatrizdelcarm-fallos-329-5514` |
 | **S., D. c/ R., L. M. s/ reintegro de hijo y alimentos** | Fallos 336:849 | 02/07/2013 | `csjn-reintegro-de-hijo-fallos-336-849` |
 | **A. G. L. I. c/ R. M. G. H. s/ restitución internacional de menores** | Fallos 344:3078 | 28/10/2021 | `csjn-restitucion-internacional-fallos-344-3078` |
@@ -551,7 +552,7 @@ De propio, la Corte sostuvo tres cosas (cons. 2º a 4º):
 **"D., H. C. y otros"** (Fallos 346:287, CSJ 1645/2019/RH1, 20/04/2023), leído contra el documento.
 No es de restitución: es **guarda con fines de adopción y declaración de adoptabilidad**. La Cámara
 de Misiones había rechazado **in limine** la demanda conjunta de la madre biológica y el matrimonio
-guardador —con quienes la niña convivía desde su nacimiento, el 1/9/2016—, ordenado el reintegro a
+guardador —con quienes la niña convivía desde su nacimiento, el 01/09/2016—, ordenado el reintegro a
 la familia de origen, y declarado que ni el tiempo transcurrido ni la guarda de hecho ni esa acción
 podían computarse para una guarda con fines de adopción (art. 611 CCyCN). El STJ desestimó el
 recurso por falta de sentencia definitiva. La Corte **dejó sin efecto** esa decisión y devolvió
@@ -591,7 +592,7 @@ acerca de la situación de la infante" (cons. 5º).
 del PDF y no contra el texto extraído, por lo que se explica abajo. Es el más viejo de los cuatro y
 **es donde están las fórmulas que después se repiten**. Confirmó la sentencia de la SCBA que había
 ordenado la restitución de tres niñas a Corigliano Calabró, Cosenza, Italia: el traslado había sido
-autorizado con fecha de regreso el 21/9/2008 y **la retención fue ilícita** por no haber retornado
+autorizado con fecha de regreso el 21/09/2008 y **la retención fue ilícita** por no haber retornado
 (cons. 9º, con los arts. 155, 316, 317, 317 bis, 327 y 343 del Código Civil italiano, que le daban
 al padre el ejercicio compartido de la responsabilidad parental).
 
@@ -641,7 +642,7 @@ Lo citable:
 ### 34.6 Salud, discapacidad y consumo
 
 | Carátula oficial | Cita | Fecha | Archivo |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Cambiaso Peres de Nealón, Celia María Ana y otros c/ Centro de Educación Médica e Investigaciones Médicas s/ amparo** | Fallos 330:3725 | 28/08/2007 | `csjn-cambiasoperesdenealonc-fallos-330-3725` |
 | **R. A., D. c/ Estado Nacional y otro s/ sumarísimo** | Fallos 330:3853 | 04/09/2007 | `csjn-reyes-aguilera-fallos-330-3853` |
 | **ADDUC y otros c/ AySA SA y otro s/ proceso de conocimiento** | CAF 17990/2012/1/RH1 | 14/10/2021 | `csjn-adduc-aysa-2021-10-14` |
@@ -701,7 +702,7 @@ se la negaron porque el art. 1.e del anexo I del **decreto 432/97** (texto origi
 extranjeros **20 años de residencia**. La Corte revocó. **5 a 2**: Fayt y Zaffaroni, con Petracchi,
 Maqueda y Argibay según sus votos; **Lorenzetti y Highton en disidencia**.
 
-`[VERIFICAR VIGENCIA: art. 9 de la Ley 13.478, pension por invalidez - la ley es de 1948 e InfoLEG no publica normas de esa epoca; cotejar contra el Boletin Oficial de 1948 o contra el texto transcripto en el propio fallo, nunca contra una fuente secundaria]`
+`[VERIFICAR VIGENCIA: art. 9 de la Ley 13.478, pensión por invalidez - la ley es de 1948 e InfoLEG no publica normas de esa epoca; cotejar contra el Boletin Oficial de 1948 o contra el texto transcripto en el propio fallo, nunca contra una fuente secundaria]`
 
 - **Primero desarma el argumento de la no justiciabilidad**, que es lo que había usado la cámara: el
   beneficio no deriva de la facultad de "dar pensiones" del art. 75.20 CN —las graciables— sino de
@@ -737,13 +738,13 @@ descargable** para ellas. No se les inventa URL: van con marcador hasta que se r
 vía —el tomo impreso, o `sjservicios.csjn.gov.ar/sj/verTomo`, según `fuentes/jurisprudencia/INDICE.md`,
 con las tres limitaciones que ese archivo describe—.
 
-**Lo que importa no es que falten, sino en qué rol se usan.** Medido el 14/09/2026 sobre SKILL.md y
+**Lo que importa no es que falten, sino en qué rol se usan.** Medido en septiembre de 2026 sobre SKILL.md y
 los 30 módulos: **ninguna de las nueve se cita como autoridad propia**. Las cuatro que están en
 juego se citan **a través de un fallo que sí está bajado y leído**, que es el modo correcto, y
 cuatro no las usa nadie.
 
 | Cita | Cómo se usa hoy |
-|---|---|
+| --- | --- |
 | **308:733** "Rayford" | En `penal.md` 24.5, como la regla que **"Quaranta"** *toma* de ese fallo. Verificado: el documento de "Quaranta" lo nombra con su cita en los cons. 18 y 22 |
 | **310:1847** "Ruiz" · **317:1985** "Daray" | Ídem: la línea que "Quaranta" reitera, y su propio texto las cita |
 | **303:1938** | Dentro del razonamiento de **"Fiorentino"** (cons. 7º), que sí está bajado: es la Corte citándose a sí misma |

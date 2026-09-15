@@ -15,7 +15,7 @@
 
 ### 6.1 Derecho intertemporal — regla crítica
 
-El CCyCN rige desde el **1/8/2015**. Hechos anteriores: CC (Ley 340) y CCom. Contratos
+El CCyCN rige desde el **01/08/2015**. Hechos anteriores: CC (Ley 340) y CCom. Contratos
 celebrados antes: rige el código vigente a su celebración (art. 7 CCyCN); a los contratos
 en curso se aplica el CCyCN a las consecuencias no consumadas.
 
@@ -78,7 +78,7 @@ Prescripción de las acciones del contrato de seguro: **1 año** desde que la ob
 exigible (art. 58 Ley 17.418).
 
 **Oponibilidad de la exclusión de cobertura al tercero damnificado: la Corte la resolvió, y a
-favor del contrato.** *"Buffoni"*, Fallos 337:329, 8/4/2014 — leído contra el documento,
+favor del contrato.** *"Buffoni"*, Fallos 337:329, 08/04/2014 — leído contra el documento,
 `fallos-csjn.md` 34.4. Acreditados los presupuestos fácticos y la existencia de la cláusula,
 **no hay razón legal para limitar los derechos de la aseguradora** (cons. 14). El damnificado
 es **tercero** respecto del contrato y, si lo invoca, se circunscribe a sus términos; la
@@ -94,7 +94,7 @@ exclusión acreditada cierra el reclamo contra la aseguradora aunque el daño es
 ### 6.3 Prescripción civil
 
 | Materia | Plazo | Norma |
-|---|---|---|
+| --- | --- | --- |
 | Genérico | 5 años | Art. 2560 |
 | **Daños de una relación de consumo (contractual)** | **5 años** | **Art. 2560** — no aplicar el art. 50 LDC, que tras la Ley 26.994 rige solo **sanciones administrativas** |
 | Daños extracontractuales (incluye accidentes de tránsito) | 3 años | Art. 2561 |
@@ -103,10 +103,29 @@ exclusión acreditada cierra el reclamo contra la aseguradora aunque el daño es
 | Ruina de obra de larga duración | 1 año desde la ruina | Art. 2564 inc. c |
 | Acciones del contrato de seguro | 1 año | Art. 58 Ley 17.418 |
 
-Los arts. 2537, 2560 y 2561 fueron modificados por la **Ley 27.586** (BO 16/12/2020), que
-incorporó al art. 2560 la imprescriptibilidad de las acciones civiles derivadas de delitos de
-lesa humanidad. **Texto vigente, cotejado contra `fuentes/normas/ccycn-26994.txt`:** *"Las
-acciones civiles derivadas de delitos de lesa humanidad son imprescriptibles"*.
+**El art. 2560 tiene dos reformas encima y hay que no confundirlas.** La **Ley 27.586**
+(BO 16/12/2020) fue la que incorporó la imprescriptibilidad de las acciones civiles derivadas de
+delitos de lesa humanidad. Pero el **texto que hoy está vigente no es el suyo**: el consolidado de
+`fuentes/normas/ccycn-26994.txt` cierra el artículo con *"(Artículo sustituido por art. 34 de la
+Ley Nº 27.799 B.O. 2/1/2026. Vigencia: a partir del día de su publicación en el Boletín
+Oficial.)"*. La **Ley 27.799 sustituyó el artículo entero**, conservó la imprescriptibilidad y le
+agregó un párrafo nuevo. Al citarlo, la ley que da el texto es la 27.799; la 27.586 es de dónde
+viene la regla.
+
+**Texto vigente, cotejado contra el consolidado**, en sus tres reglas:
+
+| Regla | Qué dice |
+| --- | --- |
+| Acciones civiles por delitos de lesa humanidad | *"son imprescriptibles"* |
+| Plazo genérico | **5 años**, *"excepto que esté previsto uno diferente en la legislación local"* |
+| **Tributos de provincias, CABA y municipios** | La prescripción **no se rige por este artículo**: remite a la **Ley 11.683**, t.o. 1998 y sus modificaciones, *"o en la norma que en el futuro la sustituya"* |
+
+> **La tercera es nueva y manda a otro módulo.** Un crédito tributario provincial, de CABA o
+> municipal no prescribe por el art. 2560: prescribe por la Ley 11.683, cuyo art. 56 **también** lo
+> reescribió la Ley 27.799 —bajó el plazo a tres años e incorporó la discrepancia significativa—.
+> Eso está auditado en `references/tributario.md` 33, y es ahí donde hay que ir.
+
+`[VERIFICAR VIGENCIA: si los arts. 2537 y 2561 fueron alcanzados por la Ley 27.586 - el consolidado de InfoLEG NO trae nota de reforma para ninguno de los dos, a diferencia del art. 2560, y por eso esa parte no se afirma acá]`
 
 > **Y eso es exactamente lo contrario de lo que había resuelto la Corte, así que la fecha del
 > hecho y la de la demanda mandan.** Antes de la reforma, la CSJN venía sosteniendo que la
@@ -117,7 +136,7 @@ acciones civiles derivadas de delitos de lesa humanidad son imprescriptibles"*.
 >   rechazó la demanda, dejando a salvo el derecho a la reparación de las **leyes especiales del
 >   Congreso** —el régimen de la Ley 24.411 y concordantes—, que es por donde esos reclamos
 >   fueron canalizados.
-> - *"Villamil, Amelia Ana c/ Estado Nacional"*, **Fallos 340:345, 28/3/2017**: la **mayoría**
+> - *"Villamil, Amelia Ana c/ Estado Nacional"*, **Fallos 340:345, 28/03/2017**: la **mayoría**
 >   —Lorenzetti y Highton de Nolasco, con adhesiones— **revocó** la sentencia que había declarado
 >   imprescriptible la acción. Plantea la pregunta con todas las letras: si la imprescriptibilidad
 >   de **las acciones penales** por lesa humanidad, reconocida en Fallos 327:3312 y 328:2056, se
@@ -130,7 +149,7 @@ acciones civiles derivadas de delitos de lesa humanidad son imprescriptibles"*.
 > imprescriptible y "Villamil" no es el precedente aplicable; para hechos y demandas anteriores,
 > la aplicación temporal de la reforma es la discusión, y ahí sí vuelve.
 >
-> `[REVISIÓN NORMATIVA REQUERIDA: aplicacion temporal del art. 2560 texto Ley 27.586 a acciones por delitos de lesa humanidad nacidas o ya prescriptas antes del 16/12/2020, y articulacion con el art. 2537 sobre plazos en curso]`
+> `[REVISIÓN NORMATIVA REQUERIDA: aplicación temporal de la imprescriptibilidad del art. 2560 -incorporada por la Ley 27.586, BO 16/12/2020, y conservada por el texto de la Ley 27.799, BO 02/01/2026- a acciones por delitos de lesa humanidad nacidas o ya prescriptas antes del 16/12/2020, y articulación con el art. 2537 sobre plazos en curso]`
 
 Sobre el plazo quinquenal en consumo: es la línea dominante de cámaras, **sin fallo de CSJN
 que la consolide**, y sigue discutida sobre todo en seguros por la tensión con el art. 58 de
@@ -156,7 +175,7 @@ Antes de la revisión cláusula por cláusula, responder:
 **Locación — tres regímenes según fecha del contrato:**
 
 | Celebrado | Régimen |
-|---|---|
+| --- | --- |
 | Antes del 30-jun-2020 | CCyCN arts. 1187 y ss., texto original |
 | 30-jun-2020 a 29-dic-2023 | Ley 27.551 + Ley 27.737 |
 | Desde el 30-dic-2023 | **Ley 27.551 y Ley 27.737 DEROGADAS por el DNU 70/2023.** Rige el CCyCN reformado |
@@ -175,12 +194,12 @@ mes y el preaviso mensual pertenecen al texto anterior y rigen solo para contrat
 bajo aquel régimen. Discutido si el 10% es supletorio (lectura dominante, arts. 958, 962 y
 1199) o piso indisponible.
 
-Vigencia del DNU 70/2023: el Senado lo rechazó el 14/3/2024 pero Diputados nunca lo trató;
+Vigencia del DNU 70/2023: el Senado lo rechazó el 14/03/2024 pero Diputados nunca lo trató;
 conforme el art. 24 de la Ley 26.122 se requiere el rechazo de **ambas** cámaras, de modo que
 el capítulo de locaciones sigue vigente. Las cautelares afectaron el Título IV (laboral).
 
 **Art. 24 de la Ley 26.122, cotejado** (`fuentes/normas/ley-26122.txt`): *"El rechazo por ambas Cámaras del Congreso del decreto de que se trate implica su derogación"*, y agrega lo que suele olvidarse — **quedan a salvo los derechos adquiridos durante su vigencia**—. La remisión del propio artículo es al *"artículo 2º del Código Civil"*, hoy derogado: se reconduce al art. 5 CCyCN.
-`[VERIFICAR VIGENCIA: art. 24 de la Ley 26.122 remite al art. 2 del Codigo Civil de Velez, derogado - usar el art. 5 CCyCN y confirmar que no cambio el tramite de los DNU]`
+`[VERIFICAR VIGENCIA: art. 24 de la Ley 26.122 remite al art. 2 del Código Civil de Velez, derogado - usar el art. 5 CCyCN y confirmar que no cambió el trámite de los DNU]`
 
 *Límite de la analogía consumeril en locación:* el estatuto protectorio exige que el
 locador sea **proveedor profesional** (art. 1093: actuación organizada, habitual y
@@ -211,7 +230,7 @@ para *encontrar* el instituto y su articulado; lo que digan sobre montos, plazos
 se verifica antes de usarlo.
 
 | Instituto | Perfil | Doctrina y fallos |
-|---|---|---|
+| --- | --- | --- |
 | Responsabilidad civil, marco general post-CCyCN | `kb/perfiles/civil-CLAUDE.md` § Responsabilidad civil | `fallos-csjn.md` 34.4 — "Santa Coloma" y "Rodriguez Pereyra"; `danos-indice-doctrinario.md` § 1-2 |
 | Antijuridicidad · nexo causal | `kb/perfiles/civil-CLAUDE.md` § Nexo causal | `danos-indice-doctrinario.md` § 3 y § 4 |
 | Factores de atribución objetivos y subjetivos | `kb/perfiles/civil-CLAUDE.md` § Factores de atribución | `danos-indice-doctrinario.md` § 5 y § 6 |
@@ -245,7 +264,6 @@ red-flags para revisar un contrato aportado. **No** contiene compraventa, saneam
 obra ni mandato. Para el catálogo de contratos en particular, hoy la única fuente es
 `kb/perfiles/civil-CLAUDE.md` § Contratos en particular.
 
-
 **La columna de doctrina ya no rutea a `kb/doctrina/`.** Los leading cases de la Corte que el
 repo tiene *bajados y verificados* están en `fallos-csjn.md` sección 34, con carátula oficial,
 cita de Fallos y fecha del registro de la Secretaría de Jurisprudencia. Donde esta tabla pone
@@ -257,7 +275,7 @@ están *descargados y verificados* tienen ahí su carátula oficial, su cita de 
 tomadas del registro de la Secretaría de Jurisprudencia:
 
 | Fallo | Cita | Qué resolvió, en una línea |
-|---|---|---|
+| --- | --- | --- |
 | **"Mosca"** | Fallos **330:563** | Responsabilidad del organizador de un espectáculo: condenó al club y a la AFA, **rechazó** contra la Provincia |
 | **"Cuello"** | Fallos **330:3483** | Franquicia y oponibilidad; **dejó sin efecto**. Su voto de Lorenzetti es el fundamento de "Buffoni" |
 | **"Buffoni"** | Fallos **337:329** | La exclusión de cobertura acreditada **es oponible** al tercero. Ver 6.2 |
@@ -286,7 +304,7 @@ Modelos de escritos de la rama: ver `modelos.md` sección 23.
 ### 6.6 Saneamiento, evicción y vicios ocultos (arts. 1033 a 1058)
 
 Articulado cotejado contra `fuentes/normas/ccycn-26994.txt`. Ninguno de estos artículos fue
-reformado: rige el texto de la Ley 26.994 desde el 1/8/2015, con la regla intertemporal de 6.1.
+reformado: rige el texto de la Ley 26.994 desde el 01/08/2015, con la regla intertemporal de 6.1.
 
 El perfil heredado despacha todo esto en tres viñetas dentro de compraventa. No es un instituto
 de la compraventa: es una garantía legal que nace de **toda transmisión a título oneroso**, y
@@ -322,7 +340,7 @@ un comprador que no lo es se cae por el art. 1038 inc. b) sin discutir nada más
 #### 6.6.3 Qué puede pedir el acreedor (arts. 1039 a 1042)
 
 | Opción del art. 1039 | Límite |
-|---|---|
+| --- | --- |
 | a) Reclamar el **saneamiento del título** o la **subsanación de los vicios** | — |
 | b) Reclamar un **bien equivalente**, si es fungible | — |
 | c) Declarar la **resolución** del contrato | excepto en los casos de los arts. **1050** y **1057** |
@@ -451,7 +469,7 @@ circunstancias puede presumirse la intención de beneficiar.
 **Ante la duda, el art. 1252 da el test:**
 
 | Hay | Cuando |
-|---|---|
+| --- | --- |
 | **Servicios** | la obligación de hacer consiste en realizar **cierta actividad independiente de su eficacia** |
 | **Obra** | se promete **un resultado eficaz, reproducible o susceptible de entrega** |
 
@@ -530,7 +548,7 @@ el total de las unidades pactadas.
 #### 6.7.4 Extinción anticipada y riesgos (arts. 1259 a 1261, 1267 y 1268)
 
 | Supuesto | Efecto |
-|---|---|
+| --- | --- |
 | **Desistimiento unilateral del comitente** (art. 1261) | Puede desistir **por su sola voluntad**, aun comenzada la ejecución, pero debe indemnizar **todos los gastos y trabajos realizados y la utilidad que hubiera podido obtener**. El juez puede **reducir equitativamente la utilidad** si la aplicación estricta conduce a notoria injusticia |
 | **Muerte del comitente** (art. 1259) | **No** extingue el contrato, excepto que haga imposible o inútil la ejecución |
 | **Muerte del contratista o prestador** (art. 1260) | **Extingue** el contrato |
@@ -640,7 +658,7 @@ Articulado cotejado contra `fuentes/normas/ccycn-26994.txt`. Sin reformas.
 > lleva a demandar mal: distinto hecho generador, distinto remedio y distinto plazo.
 
 | Instituto | Qué falla | Cuándo | Remedio | Plazo |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Error, dolo, violencia (265-278) | la **voluntad** al formarse | al celebrar | nulidad relativa | 2 años, art. 2562, computados según art. 2563 inc. a |
 | Lesión (332) | el **acto**, por explotación de inferioridad | al celebrar, con desproporción que **subsiste** a la demanda | nulidad **o** reajuste | 2 años, art. 2562, computados según art. 2563 inc. e |
 | Imprevisión (1091) | nada al formarse: la prestación **se vuelve** excesivamente onerosa | **sobrevenido** | resolución total o parcial, o adecuación | no está enumerada en los arts. 2562 ni 2564: cae en el genérico de 6.3 |
@@ -753,7 +771,7 @@ imprevisión es la única puerta para mover un ajuste alzado.
 El plazo de dos años del art. 2562 no corre desde el acto. Se cuenta:
 
 | Supuesto | Desde |
-|---|---|
+| --- | --- |
 | Vicios de la voluntad | que **cesó la violencia**, o que el **error o el dolo se conocieron o pudieron ser conocidos** |
 | Lesión | la fecha en que **la obligación a cargo del lesionado debía ser cumplida** |
 | Simulación **entre partes** | que, **requerida una de ellas, se negó** a dejar sin efecto el acto simulado |
@@ -770,7 +788,7 @@ lesivo de cumplimiento diferido puede tener acción viva años después de firma
 ### 6.9 Medidas cautelares en clave CPCCBA (arts. 195 a 233)
 
 Articulado cotejado contra `fuentes/normas/pba-cpccba-7425.txt` —texto consolidado de
-normas.gba.gob.ar, SHA-256 `91fef2d0…`, descargado el 13/9/2026—. Para el fuero nacional rige
+normas.gba.gob.ar, SHA-256 `91fef2d0…`, descargado en septiembre de 2026—. Para el fuero nacional rige
 el CPCCN, cuya numeración en este capítulo **coincide** con la del CPCCBA; lo que cambia son
 algunos incisos, no los números.
 
@@ -832,7 +850,7 @@ la otra parte lo solicitó. **Salvo** en los casos del **art. 209 inc. 1) y del 
 en especie** que se halle en alguna de estas condiciones:
 
 | Inc. | Supuesto |
-|---|---|
+| --- | --- |
 | 1° | el deudor **no tiene domicilio en la República** |
 | 2° | el crédito está demostrado con **instrumento público o privado atribuido al deudor**, abonada la firma por **información sumaria de dos testigos** |
 | 3° | la acción se funda en **contrato bilateral** justificado del mismo modo, probando además sumariamente el **cumplimiento del actor**, salvo que ofrezca cumplirlo o su obligación sea a plazo |
@@ -877,7 +895,7 @@ preclusión: no hay consentimiento que convalide un embargo sobre bien inembarga
 #### 6.9.3 Las demás cautelares nominadas (arts. 221 a 231)
 
 | Medida | Artículo | Requisito propio |
-|---|---|---|
+| --- | --- | --- |
 | **Secuestro** | 221 | El embargo no asegura por sí solo el derecho, con instrumentos que lo hagan verosímil; o es indispensable para la **guarda o conservación** de cosas |
 | **Intervención judicial** | 222-223 | **A falta de otra medida precautoria eficaz** o como complemento de la dispuesta |
 | **Administración judicial** | 224 | Cuando sea **indispensable sustituir la administración** de la sociedad o asociación intervenida |
@@ -913,7 +931,7 @@ del juicio**; si se admite, **se mantiene hasta que la sentencia haya sido cumpl
 durante el tiempo anterior al reconocimiento judicial de su derecho éste pueda sufrir un
 **perjuicio inminente o irreparable**, puede solicitar **las medidas urgentes que según las
 circunstancias fueren más aptas** para asegurar provisionalmente el cumplimiento de la
-sentencia. Es la vía de la medida innominada, incluida la innovativa, que el Código no nomina
+sentencia. Es la vía de la medida innominada, incluida la innovativa, que el Código no nómina
 por separado.
 
 **Art. 233.** Lo dispuesto sobre el embargo preventivo **se aplica al embargo ejecutivo, al

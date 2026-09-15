@@ -25,11 +25,11 @@ agotamiento de la instancia administrativa, constituyó el primer acto que agot�
 la vía bajo el Dec 1510/97 LPA CABA. Desde esa notificación comenzó a correr
 el plazo del art. 7 CCAyT (90 días hábiles judiciales).
 
-El 6/01/2026 LA RECURRENTE interpuso recurso de reconsideración al amparo del art.
+El 06/01/2026 LA RECURRENTE interpuso recurso de reconsideración al amparo del art.
 123 LPA CABA. Ese artículo admite expresamente la reconsideración contra actos
 definitivos que agotan las instancias de recursos administrativos. La misma
 norma establece que "la presentación de estos recursos suspende el curso de los
-plazos para interponer la demanda judicial". Por lo tanto, desde el 6/01/2026
+plazos para interponer la demanda judicial". Por lo tanto, desde el 06/01/2026
 y hasta la notificación de la Res. CM N° 20/2026, el plazo del art. 7 CCAyT
 estuvo suspendido.
 

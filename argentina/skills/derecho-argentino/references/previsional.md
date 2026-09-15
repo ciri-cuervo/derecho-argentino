@@ -11,7 +11,7 @@ Verificado contra los textos consolidados de la **Ley 24.241** y de la **Ley 26.
 
 > **Advertencia estructural, antes de citar cualquier artículo.** El texto actualizado de la
 > Ley 24.241 **conserva la arquitectura del SIJP con su régimen de capitalización**, que la
-> **Ley 26.425** (BO 9/12/2008) reemplazó por el **SIPA** de reparto.
+> **Ley 26.425** (BO 09/12/2008) reemplazó por el **SIPA** de reparto.
 
 **La derogación no fue artículo por artículo, y eso es lo que hay que tener presente.** Verificado
 sobre el propio consolidado: de todo el régimen de capitalización, **el único artículo marcado
@@ -32,13 +32,13 @@ retiro programado, con la renta vitalicia previsional y con las imposiciones vol
 son las dos únicas derogaciones enumeradas del art. 17. Lo que sigue abierto es el resto del
 articulado.
 
-`[REVISIÓN NORMATIVA REQUERIDA: subsistencia de un articulo del regimen de capitalizacion de la Ley 24.241 que no sea de los resueltos en 32.2 ter - la derogacion por la Ley 26.425 es organica, por absorcion del art. 1 y clausula general del art. 20, no enumerada. El consolidado no lo marca: resolverlo contra el texto de la 26.425, que esta en fuentes/]`
+`[REVISIÓN NORMATIVA REQUERIDA: subsistencia de un artículo del régimen de capitalización de la Ley 24.241 que no sea de los resueltos en 32.2 ter - la derogación por la Ley 26.425 es organica, por absorción del art. 1 y clausula general del art. 20, no enumerada. El consolidado no lo marca: resolverlo contra el texto de la 26.425, que está en fuentes/]`
 `[VERIFICAR MONTO ACTUALIZADO: haberes, PBU y topes - se actualizan por movilidad y no figuran en el texto de la ley]`
 
 ### 32.1 Prestación Básica Universal (art. 19)
 
 | Requisito | Contenido |
-|---|---|
+| --- | --- |
 | **Edad** | Hombres **65 años**; mujeres **60 años** |
 | **Servicios** | **30 años** con aportes computables en uno o más regímenes del sistema de reciprocidad |
 
@@ -75,7 +75,7 @@ reemplazó, dentro del SIPA, a la jubilación ordinaria que antes pagaba el rég
 capitalización: quien liquide con PBU + compensatoria solamente **está omitiendo un componente**.
 
 | | |
-|---|---|
+| --- | --- |
 | **Qué es** | Prestación que **se adiciona** a las de los incs. a) y b) del art. 17 de la Ley 24.241 — es decir, se suma a la PBU y a la compensatoria, no las reemplaza |
 | **Haber** | **1,5% por cada año de servicios con aportes realizados al SIPA**, en igual forma y metodología que la compensatoria |
 | **Requisitos** | Los de los **incs. a) y c) del art. 23**: acreditar los requisitos de la PBU, y **no estar percibiendo retiro por invalidez** de ningún régimen |
@@ -89,7 +89,7 @@ carrera del afiliado, y por eso se suman sin superponerse.
 > **Cuidado con el tope.** El 1,5% de la **compensatoria** tiene el máximo de **35 años** del
 > art. 24 inc. a). El art. 16 de la Ley 26.425 remite a "igual forma y metodología" pero **no
 > repite el tope** en su texto.
-> `[REVISIÓN NORMATIVA REQUERIDA: si el maximo de 35 anios del art. 24 inc. a de la Ley 24.241 alcanza a la PAP por la remision a "igual forma y metodologia" del art. 16 de la Ley 26.425, o si la PAP no tiene tope propio - el texto de la 26.425 no lo dice y la diferencia cambia el haber]`
+> `[REVISIÓN NORMATIVA REQUERIDA: si el máximo de 35 años del art. 24 inc. a de la Ley 24.241 alcanza a la PAP por la remisión a "igual forma y metodologia" del art. 16 de la Ley 26.425, o si la PAP no tiene tope propio - el texto de la 26.425 no lo dice y la diferencia cambia el haber]`
 
 **Y una regla que resuelve pleitos de legitimación:** por el **art. 18 de la Ley 26.425**, la
 **ANSES se subroga** en las obligaciones y derechos que la Ley 24.241 asignaba a las **AFJP**.
@@ -101,9 +101,9 @@ El encabezado de este módulo advierte que la derogación de la Ley 26.425 es **
 consolidado de la 24.241 no la marca. Con el texto de la 26.425 a la vista, **tres respuestas
 concretas**, que son las que suelen preguntarse:
 
-| Situación al 9/12/2008 | Qué pasó |
-|---|---|
-| Beneficio liquidado por AFJP como **retiro programado o retiro fraccionario** | **Pasa a pagarlo el régimen previsional público** (art. 4). El importe se valorizó por el **valor cuota más alto vigente entre el 1/1/2008 y el 30/9/2008**, y desde entonces tiene la **movilidad del art. 32** de la Ley 24.241 |
+| Situación al 09/12/2008 | Qué pasó |
+| --- | --- |
+| Beneficio liquidado por AFJP como **retiro programado o retiro fraccionario** | **Pasa a pagarlo el régimen previsional público** (art. 4). El importe se valorizó por el **valor cuota más alto vigente entre el 01/01/2008 y el 30/09/2008**, y desde entonces tiene la **movilidad del art. 32** de la Ley 24.241 |
 | Beneficio bajo **renta vitalicia previsional** | **Sigue pagándolo la compañía de seguros de retiro** (art. 5). **Es el caso que no fue absorbido**: quien cobra bajo esta modalidad no reclama a ANSES |
 | **Imposiciones voluntarias** o **depósitos convenidos** sin beneficio obtenido | El afiliado **puede transferirlos a ANSES** para mejorar el haber, conforme la reglamentación (art. 6) |
 
@@ -168,7 +168,7 @@ aplicación puede fijar pautas objetivas.
 **El conviviente excluye al cónyuge supérstite** en el supuesto de que a éste se lo hubiere
 declarado culpable de la separación personal o del divorcio.
 
-`[VERIFICAR VIGENCIA: la exclusion del conyuge por culpabilidad en la separacion o el divorcio presupone categorias del regimen anterior al CCyCN, que suprimio el divorcio causado. Verificar como se aplica hoy antes de invocarla]`
+`[VERIFICAR VIGENCIA: la exclusión del conyuge por culpabilidad en la separación o el divorcio presupone categorias del régimen anterior al CCyCN, que suprimio el divorcio causado. Verificar como se aplica hoy antes de invocarla]`
 
 **Sin derechohabientes (art. 54).** Se abona el saldo de la cuenta de capitalización individual a
 los **herederos declarados judicialmente** — artículo que debe leerse con la advertencia del

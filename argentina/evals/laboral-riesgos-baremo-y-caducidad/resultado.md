@@ -8,7 +8,7 @@ un análisis que corrija sólo al actor está incompleto.
 
 ## 1. Caducidad: se trata, y se rechaza
 
-**"Magliano"** (SCBA, L. 131.700, 19/9/2025) dejó firme, por mayoría de cuatro contra tres, la
+**"Magliano"** (SCBA, L. 131.700, 19/09/2025) dejó firme, por mayoría de cuatro contra tres, la
 declaración de inconstitucionalidad del plazo de caducidad de noventa días hábiles judiciales
 del art. 2 inc. j de la Ley 15.057. El fundamento central: es irrazonable un plazo de caducidad
 de noventa días cuando el derecho sustancial prescribe a los dos años (art. 44 LRT).
@@ -25,7 +25,7 @@ Dos precisiones que no hay que saltear:
 
 El art. 2 inc. j no montó un trámite recursivo: montó una **acción laboral ordinaria** de
 revisión **amplia y plena** — así lo calificó la SCBA en **"Bustos Torres"** (L. 124.285,
-27/2/2023), y es lo que salvó su constitucionalidad frente al esquema de la ley nacional.
+27/02/2023), y es lo que salvó su constitucionalidad frente al esquema de la ley nacional.
 
 El escrito titulado "interpone recurso" y limitado a criticar el dictamen está mal encuadrado,
 y el problema no es de forma: **al no ofrecer prueba propia, el actor renunció a lo que la
@@ -36,7 +36,7 @@ para las dos partes.
 ## 3. Baremo: la pericia usó el que ya no rige
 
 El Decreto 659/96 sigue vigente, **pero su Anexo I fue sustituido íntegramente por el Decreto
-549/2025** (B.O. 6/8/2025), con vigencia desde el **2/2/2026**. Y su regla de aplicación
+549/2025** (B.O. 06/08/2025), con vigencia desde el **02/02/2026**. Y su regla de aplicación
 temporal es expresa: alcanza *"a toda valoración o determinación de incapacidad laboral que no
 haya sido aún dictada, independientemente de la instancia administrativa o judicial"*.
 

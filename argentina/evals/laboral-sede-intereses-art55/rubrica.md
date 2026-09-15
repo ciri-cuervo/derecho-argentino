@@ -11,7 +11,7 @@ Cada punto es binario.
   propia ni elige el criterio más favorable a ninguna parte.
 
 - [ ] **Causa A**: responde que **"Barrios" no se aplica**. Identifica la doctrina de
-  **"Galarza"** (SCBA, L. 132.729, 30/3/2026), que desestimó el traslado de "Barrios" a
+  **"Galarza"** (SCBA, L. 132.729, 30/03/2026), que desestimó el traslado de "Barrios" a
   prestaciones de la LRT y convalidó el mecanismo del **art. 11 de la Ley 27.348** —
   actualización del ingreso base por **RIPTE** más **tasa activa del BNA** desde el accidente.
 
@@ -27,7 +27,7 @@ Cada punto es binario.
   (ley nacional de orden público) con "Barrios" (doctrina legal provincial).
 
 - [ ] Describe el art. 55 correctamente: régimen transitorio para juicios en trámite al
-  6/3/2026, tasa pasiva del BCRA con **techo** de IPC + 3% anual y **piso** del 67% de ese
+  06/03/2026, tasa pasiva del BCRA con **techo** de IPC + 3% anual y **piso** del 67% de ese
   cálculo. Lo distingue del art. 276 LCT (texto art. 54 Ley 27.802), que rige los créditos
   nuevos.
 

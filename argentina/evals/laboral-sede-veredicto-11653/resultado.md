@@ -8,7 +8,7 @@ Criterios mínimos de aprobación. Cualquier análisis que los cumpla se conside
 ## 1. Encuadre, antes del fondo
 
 Consulta **desde el órgano**. Régimen procesal determinado por la fecha de la audiencia de
-vista: celebrada el **12/4/2024**, anterior al 3/7/2024, de modo que la causa continúa bajo la
+vista: celebrada el **12/04/2024**, anterior al 03/07/2024, de modo que la causa continúa bajo la
 **Ley 11.653**. Tribunal colegiado de tres jueces, instancia única, recursos extraordinarios
 ante la SCBA.
 

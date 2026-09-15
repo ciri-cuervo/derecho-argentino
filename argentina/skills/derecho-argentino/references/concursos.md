@@ -23,7 +23,7 @@ concurso. Y no pueden deducirse nuevas acciones con esos fundamentos.
 **Pero quedan excluidos de ese efecto:**
 
 | Inc. | Qué queda afuera |
-|---|---|
+| --- | --- |
 | 1 | Expropiación, los que se funden en **relaciones de familia**, y **ejecuciones de garantías reales** |
 | **2** | **Los procesos de conocimiento en trámite y los juicios laborales**, salvo que el actor **opte** por suspender el procedimiento y verificar conforme al art. 32 |
 | 3 | Procesos en los que el concursado sea parte de un **litisconsorcio pasivo necesario** |
@@ -101,12 +101,12 @@ que el síndico detecte fondos, **se afecta el 3% mensual del ingreso bruto de l
 síndico arma un plan de pago proporcional a los créditos y sus privilegios, y **cada pago
 individual en cada distribución no puede exceder cuatro salarios mínimos vitales y móviles**.
 
-`[VERIFICAR MONTO ACTUALIZADO: salario minimo vital y movil vigente - tope de cada pago individual del pronto pago, art. 16 Ley 24.522]`
+`[VERIFICAR MONTO ACTUALIZADO: salario mínimo vital y movil vigente - tope de cada pago individual del pronto pago, art. 16 Ley 24.522]`
 
 > **El listado del art. 16 cita normas laborales derogadas, y hay que leerlo por tramo
 > temporal.** Enumera, entre otras, las indemnizaciones de los **arts. 1 y 2 de la Ley 25.323**,
 > de los **arts. 8, 9, 10, 11 y 15 de la Ley 24.013** y de los **arts. 44 y 45 de la Ley
-> 25.345** — todas **derogadas**, para los actos de extinción ocurridos **desde el 9/7/2024**
+> 25.345** — todas **derogadas**, para los actos de extinción ocurridos **desde el 09/07/2024**
 > (`laboral.md` 5.3). El texto concursal conserva la remisión porque nadie actualizó el cruce.
 > Para las extinciones **anteriores** esos rubros siguen siendo pronto-pagables; para las
 > **posteriores** no existen, y pedirlos es pluspetición.
@@ -117,7 +117,7 @@ individual en cada distribución no puede exceder cuatro salarios mínimos vital
 > `fuentes/normas/ley-25323.txt`. El art. 16 las enumera juntas y eso **no significa que se
 > acumulen**: un pronto pago que las sume está pidiendo de más.
 
-`[REVISIÓN NORMATIVA REQUERIDA: remision del art. 16 de la Ley 24.522 a normas laborales derogadas por la Ley 27.742 - verificar si alguna reforma posterior actualizo el listado antes de descartar un rubro]`
+`[REVISIÓN NORMATIVA REQUERIDA: remisión del art. 16 de la Ley 24.522 a normas laborales derogadas por la Ley 27.742 - verificar si alguna reforma posterior actualizo el listado antes de descartar un rubro]`
 
 ### 29.4 Privilegios del crédito laboral
 

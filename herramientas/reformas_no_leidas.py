@@ -1,23 +1,23 @@
 #!/usr/bin/env python3
-"""Detecta reformas que estan en el texto bajado y ningun modulo leyo.
+"""Detecta reformas que están en el texto bajado y ningún modulo leyó.
 
     python3 herramientas/reformas_no_leidas.py
     python3 herramientas/reformas_no_leidas.py --desde 2024
 
 La capa de fuente primaria se actualiza sola: `descargar_normas.py` vuelve a traer el texto
-consolidado de InfoLEG, que YA incorpora la ultima reforma. Los modulos no. Entre las dos cosas
-se abre una ventana en la que el repositorio tiene el articulo nuevo y la skill sigue explicando
+consolidado de InfoLEG, que YA incorpora la última reforma. Los módulos no. Entre las dos cosas
+se abre una ventana en la que el repositorio tiene el artículo nuevo y la skill sigue explicando
 el viejo, sin que nada avise.
 
-Metodo: cada consolidado trae al pie de sus articulos una nota del tipo "(Articulo sustituido
+Método: cada consolidado trae al pie de sus artículos una nota del tipo "(Artículo sustituido
 por art. X de la Ley N° NN.NNN B.O. DD/MM/AAAA)". El script extrae esas notas, se queda con la
-reforma mas reciente de cada norma, y pregunta si algun modulo nombra esa ley.
+reforma más reciente de cada norma, y pregunta si algún módulo nombra esa ley.
 
-Reporta CANDIDATOS, no culpables. Una reforma puede tocar un articulo que el modulo no cubre, y
-entonces es correcto que no la nombre. Lo que decide es abrir el modulo. Los veredictos se
+Reporta CANDIDATOS, no culpables. Una reforma puede tocar un artículo que el módulo no cubre, y
+entonces es correcto que no la nombre. Lo que decide es abrir el módulo. Los veredictos se
 anotan en `reformas-revisadas.json` para que el reporte no repita lo ya visto.
 
-Sale con codigo 1 si hay candidatos sin veredicto. Cero dependencias externas.
+Sale con código 1 si hay candidatos sin veredicto. Cero dependencias externas.
 """
 import argparse
 import re
@@ -33,8 +33,8 @@ NORMAS = RAIZ / "argentina" / "fuentes" / "normas"
 SKILL = RAIZ / "argentina" / "skills" / "derecho-argentino"
 REGISTRO = Path(__file__).resolve().parent / "reformas-revisadas.json"
 
-# "(Articulo sustituido por art. 7° de la Ley N° 27.786 B.O. 10/3/2025 ...)". La ventana entre
-# el numero de ley y el B.O. es corta a proposito: si se agranda, empareja leyes con fechas de
+# "(Artículo sustituido por art. 7° de la Ley N° 27.786 B.O. 10/03/2025 ...)". La ventana entre
+# el número de ley y el B.O. es corta a propósito: si se agranda, empareja leyes con fechas de
 # otra nota.
 NOTA = re.compile(r"Ley N[°º\.]? ?(\d{2}\.\d{3})[^)]{0,80}?B\.?O\.? ?(\d{1,2})/(\d{1,2})/((?:19|20)\d{2})")
 
@@ -46,7 +46,7 @@ def texto_de_los_modulos() -> str:
 
 
 def ultima_reforma_por_norma(desde: int) -> list[tuple[date, str, str]]:
-    """(fecha, slug de la norma bajada, ley reformadora) para la reforma mas reciente de cada una."""
+    """(fecha, slug de la norma bajada, ley reformadora) para la reforma más reciente de cada una."""
     hallados = []
     for archivo in sorted(NORMAS.glob("*.txt")):
         por_fecha: dict[date, set[str]] = {}
@@ -70,7 +70,7 @@ def ultima_reforma_por_norma(desde: int) -> list[tuple[date, str, str]]:
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--desde", type=int, default=0,
-                    help="ignorar normas cuya ultima reforma sea anterior a ese anio")
+                    help="ignorar normas cuya última reforma sea anterior a ese año")
     args = ap.parse_args()
 
     modulos = texto_de_los_modulos()
@@ -87,18 +87,18 @@ def main() -> int:
             continue
         sin_veredicto.append((cuando, slug, ley))
 
-    print(f"\n  Normas con notas de reforma: la ultima de cada una se compara contra los modulos.")
-    print(f"  Reformas que los modulos nombran: {conocidas}. Con veredicto escrito: {decididas}.")
+    print(f"\n  Normas con notas de reforma: la última de cada una se compara contra los modulos.")
+    print(f"  Reformas que los módulos nombran: {conocidas}. Con veredicto escrito: {decididas}.")
 
     if not sin_veredicto:
-        print("\n  Sin pendientes: no hay reforma reciente que los modulos no nombren.\n")
+        print("\n  Sin pendientes: no hay reforma reciente que los módulos no nombren.\n")
         return 0
 
     print(f"\n  SIN DECIDIR ({len(sin_veredicto)}) — abrir el modulo y ver si la reforma lo toca:\n")
     for cuando, slug, ley in sin_veredicto:
         print(f"  {cuando.strftime('%d/%m/%Y')}  {slug:<24} Ley {ley}")
     print("\n  Un veredicto se anota en reformas-revisadas.json con su motivo, con la clave")
-    print("  'slug:ley'. Reporta candidatos: una reforma puede tocar un articulo que el modulo")
+    print("  'slug:ley'. Reporta candidatos: una reforma puede tocar un artículo que el módulo")
     print("  no cubre, y entonces es correcto que no la nombre.\n")
     return 1
 

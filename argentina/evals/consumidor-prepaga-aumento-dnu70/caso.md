@@ -22,7 +22,7 @@ El 28/02/2026 la prepaga comunicó por correo electrónico un aumento del 45% de
 
 ### Reclamo de la afiliada
 
-El 3/03/2026 LA AFILIADA reclamó por la aplicación móvil de la empresa. Recibió un número de gestión. Al día de la consulta (18/03/2026) la empresa no respondió. La afiliada manifiesta que con el nuevo valor no puede afrontar la cuota y teme la baja del servicio y la interrupción del AT del hijo.
+El 03/03/2026 LA AFILIADA reclamó por la aplicación móvil de la empresa. Recibió un número de gestión. Al día de la consulta (18/03/2026) la empresa no respondió. La afiliada manifiesta que con el nuevo valor no puede afrontar la cuota y teme la baja del servicio y la interrupción del AT del hijo.
 
 ---
 

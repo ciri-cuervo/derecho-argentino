@@ -1,5 +1,5 @@
 ---
-titulo: Consumo en PBA - conciliacion previa, gratuidad, dano punitivo y prescripcion
+titulo: Consumo en PBA - conciliación previa, gratuidad, daño punitivo y prescripción
 ---
 # Resultado esperado · consumidor-dano-punitivo-gratuidad-pba
 
@@ -10,7 +10,7 @@ error cada una**, y un análisis que sólo corrija a una de ellas está incomple
 
 Dos razones independientes, y alcanza con cualquiera:
 
-- **El COPREC no existe.** Lo disolvió el **Decreto 55/2025**, vigente desde el 1/2/2025, que
+- **El COPREC no existe.** Lo disolvió el **Decreto 55/2025**, vigente desde el 01/02/2025, que
   derogó los arts. 1 a 40, 74 y 75 de la Ley 26.993. No fue el DNU 70/2023, como suele
   repetirse. Exigir hoy esa constancia es aplicar una norma derogada.
 - **En PBA la vía administrativa nunca fue previa obligatoria.** La Ley 13.133 regula la
@@ -41,7 +41,7 @@ Cita *"Castelli c/ Banco de Galicia"* para sostener que hace falta dolo o groser
 y que en el caso se configura. **Está citando la sentencia equivocada.** Hay dos con esa
 carátula:
 
-- **Cámara Primera de Bahía Blanca, Sala II, causa 141.404, 28/8/2014** — la que exige *"dolo
+- **Cámara Primera de Bahía Blanca, Sala II, causa 141.404, 28/08/2014** — la que exige *"dolo
   (directo o eventual) o, como mínimo, una grosera negligencia"*.
 - **SCBA, C. 119.562, 17/10/2018** — que **revisó ese estándar**: el art. 52 bis exige **un
   único requisito**, el incumplimiento de obligaciones legales o contractuales.
@@ -71,7 +71,7 @@ cuantificación**. La cuantía se funda en la conducta, no en la distancia al m�
 ## 5. Gratuidad: alcanza las costas
 
 Comprende las costas y no sólo la tasa: **"ADDUC"** (CSJN, CAF 17990/2012/1/RH1, 14/10/2021) y
-**"CODEC"** (SCBA, C. 121.973, 10/8/2023). Es lo contrario de lo que rige en materia laboral,
+**"CODEC"** (SCBA, C. 121.973, 10/08/2023). Es lo contrario de lo que rige en materia laboral,
 donde "Gutiérrez Rellan" resolvió que la gratuidad no exime de costas.
 
 Con dos precisiones que corresponden a este caso: es una acción **individual**, regida por el

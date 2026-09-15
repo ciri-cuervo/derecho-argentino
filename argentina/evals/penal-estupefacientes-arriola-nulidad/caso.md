@@ -2,8 +2,8 @@
 titulo: Tenencia de estupefacientes en PBA - fuero, Arriola frente a Bazterrica y Montalvo, y nulidad del allanamiento
 area: penal
 perfil: derecho-argentino / references/penal.md y references/fallos-csjn.md
-fuero: Juzgado de Garantias del Departamento Judicial de La Plata
-problema: "riesgo de citar 'Bazterrica' o 'Montalvo' como derecho vigente en lugar de 'Arriola'; riesgo de atribuir a 'Bazterrica' la inconstitucionalidad del art. 14 de la Ley 23.737 cuando resolvio sobre el art. 6 de la Ley 20.771; riesgo de presentar 'Bazterrica' como decision unanime cuando fue 3 a 2; riesgo de leer 'Arriola' como despenalizacion general de la tenencia; riesgo de dar por configurada la escasa cantidad sin que surja inequivocamente; riesgo de resolver el fondo antes del fuero, que depende de la adhesion al art. 34; riesgo de confundir la invalidez del consentimiento de 'Fiorentino' con la nulidad por vicio formal que 'Bianchi' rechaza; riesgo de reproducir la cita de 'Miranda' con el numero de pagina equivocado del tomo"
+fuero: Juzgado de Garantías del Departamento Judicial de La Plata
+problema: "riesgo de citar 'Bazterrica' o 'Montalvo' como derecho vigente en lugar de 'Arriola'; riesgo de atribuir a 'Bazterrica' la inconstitucionalidad del art. 14 de la Ley 23.737 cuando resolvió sobre el art. 6 de la Ley 20.771; riesgo de presentar 'Bazterrica' como decisión unánime cuando fue 3 a 2; riesgo de leer 'Arriola' como despenalización general de la tenencia; riesgo de dar por configurada la escasa cantidad sin que surja inequívocamente; riesgo de resolver el fondo antes del fuero, que depende de la adhesión al art. 34; riesgo de confundir la invalidez del consentimiento de 'Fiorentino' con la nulidad por vicio formal que 'Bianchi' rechaza; riesgo de reproducir la cita de 'Miranda' con el número de página equivocado del tomo"
 ---
 
 # Caso · Memorial de la defensa en una causa por tenencia

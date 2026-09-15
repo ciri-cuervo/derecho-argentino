@@ -19,14 +19,14 @@ El memorial pide la remisión al Juzgado Federal por el solo hecho de tratarse d
 eso está mal fundado. La lista de jurisdicciones adheridas **no está cargada en `fuentes/`**, así
 que la respuesta correcta resuelve el criterio y emite el marcador, sin afirmar el resultado.
 
-`[VERIFICAR VIGENCIA: leyes provinciales de adhesion al art. 34 Ley 23.737 - la lista de jurisdicciones adheridas cambia y no esta cargada en fuentes/]`
+`[VERIFICAR VIGENCIA: leyes provinciales de adhesión al art. 34 Ley 23.737 - la lista de jurisdicciones adheridas cambia y no está cargada en fuentes/]`
 
 ## 2. La línea del art. 19 CN, en orden
 
 Tres fallos y tres momentos distintos. Los tres están bajados y leídos contra el documento; el
 índice está en `fallos-csjn.md` 34.2.
 
-- **"Bazterrica"** (Fallos 308:1392, **29/8/1986**) declaró la inconstitucionalidad **del art. 6 de
+- **"Bazterrica"** (Fallos 308:1392, **29/08/1986**) declaró la inconstitucionalidad **del art. 6 de
   la Ley 20.771** —no del art. 14 de la Ley 23.737, que se sancionó en 1989— en cuanto incriminaba
   la simple tenencia para uso personal. Se decidió **3 a 2**: Belluscio y Bacqué con el voto de
   Petracchi, y **Caballero y Fayt en disidencia**. La frase que se cita es del cons. 13: el Estado
@@ -36,7 +36,7 @@ Tres fallos y tres momentos distintos. Los tres están bajados y leídos contra 
   inconstitucionalidad del art. 6 de la 20.771 **y del art. 14, segunda parte, de la 23.737**, con
   la Corte de nueve miembros, **7 a 2**, y Belluscio y Petracchi —la mayoría anterior— en
   disidencia.
-- **"Arriola"** (Fallos 332:1963, **25/8/2009**) retomó la línea de "Bazterrica" y declaró la
+- **"Arriola"** (Fallos 332:1963, **25/08/2009**) retomó la línea de "Bazterrica" y declaró la
   inconstitucionalidad del **art. 14, segundo párrafo, de la Ley 23.737**. Encuadre y alcance en
   `penal.md` 24.9.2.
 

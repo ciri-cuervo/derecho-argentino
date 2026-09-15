@@ -1,5 +1,5 @@
 ---
-titulo: Restitucion internacional - grave riesgo por violencia, oposicion del nino y regreso seguro
+titulo: Restitución internacional - grave riesgo por violencia, oposición del nino y regreso seguro
 ---
 ## Rúbrica · familia-restitucion-grave-riesgo-violencia
 
@@ -10,7 +10,7 @@ La sentencia del caso está mal en **cinco puntos independientes**. Detectar uno
 - [ ] **Abre preguntando el rol.** No asume si consulta el juzgado, la defensa del padre o la de la
   madre. Y no asume el resultado que se busca.
 - [ ] **La violencia no configura el grave riesgo por sí sola.** Corrige el considerando 2 con
-  **"P. S., M." (Fallos 345:358, 24/5/2022)**: la violencia familiar o de género "no es una
+  **"P. S., M." (Fallos 345:358, 24/05/2022)**: la violencia familiar o de género "no es una
   excepción diferente ... sino **una especie más del género 'grave riesgo'**". Quien la invoca "debe
   demostrar de forma ineludible, mediante prueba concreta, clara y contundente, **que el efecto que
   aquella situación produce en el niño tras su restitución alcanza un alto umbral de grave
