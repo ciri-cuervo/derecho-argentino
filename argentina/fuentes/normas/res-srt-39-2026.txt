@@ -1,0 +1,257 @@
+Res. SRT 39/2026 - Montos de prestaciones de la LRT, periodo 1/9/2026 a 28/2/2027
+==============================================================================
+Jurisdiccion:     nacional
+Fuente:           https://www.boletinoficial.gob.ar/detalleAviso/primera/346792/20260902
+Descargado:       2026-09-14
+SHA-256 (crudo):  79f182d99bbc03eb5f291b472a35afc0cd8c4638123ef06ba289bf9e688d6452
+Charset:          UTF-8
+
+Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
+NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
+Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+el manifiesto `normas.json`.
+==============================================================================
+
+BOLETIN OFICIAL REPUBLICA ARGENTINA - SUPERINTENDENCIA DE RIESGOS DEL TRABAJO - Resolución 39/2026
+
+Toggle navigation
+
+Boletín Oficial de la República Argentina
+
+Institucional
+
+Productos y servicios
+
+Preguntas Frecuentes
+
+Contacto
+
+×
+
+Edición del
+
+[fecha del portal, no es parte de la norma]
+
+Ediciones Anteriores
+
+Búsqueda avanzada
+
+Secciones
+
+Búsqueda
+
+Cantidad de resultados
+
+Búsqueda avanzada
+
+Legislación y Avisos Oficiales
+
+Primera Sección
+
+Sociedades y Avisos Judiciales
+
+Segunda Sección
+
+Contrataciones
+
+Tercera Sección
+
+Volver
+
+Legislación y Avisos Oficiales
+
+Primera sección
+
+Primera
+
+Resoluciones
+
+Detalle
+
+|
+
+|
+
+Ver páginas publicadas
+
+Ver texto del aviso
+
+SUPERINTENDENCIA DE RIESGOS DEL TRABAJO
+
+Resolución 39/2026
+
+RESOL-2026-39-APN-SRT#MCH
+
+Ciudad de Buenos Aires, 31/08/2026
+
+VISTO el Expediente EX-2020-12920644-APN-SCE#SRT, las Leyes N° 24.241, N° 24.557, N° 26.417, N° 26.773, N° 27.348, los Decretos N° 1.278 de fecha 28 de diciembre de 2000, N° 1.694 de fecha 05 de noviembre de 2009, la Resolución de esta SUPERINTENDENCIA DE RIESGOS DEL TRABAJO (S.R.T.) N° 15 de fecha 03 de marzo de 2026, y
+
+CONSIDERANDO:
+
+Que el artículo 11 de la Ley N° 24.557 sobre Riesgos del Trabajo, en relación al régimen legal de las prestaciones dinerarias, determina que: “(…) 1. Las prestaciones dinerarias de esta ley gozan de las franquicias y privilegios de los créditos por alimentos. Son, además, irrenunciables y no pueden ser cedidas ni enajenadas. 2. Las prestaciones dinerarias por Incapacidad Laboral Temporaria (ILT) o permanente provisoria se ajustarán en función de la variación del AMPO definido en la Ley 24.241, de acuerdo a la norma reglamentaria. 3. El Poder Ejecutivo nacional se encuentra facultado a mejorar las prestaciones dinerarias establecidas en la presente ley cuando las condiciones económicas financieras generales del sistema así lo permitan. (…)”.
+
+Que, el PODER EJECUTIVO NACIONAL dictó el Decreto N° 1.278 de fecha 28 de diciembre de 2000, el cual incorporó como apartado 4 del artículo 11 de la Ley N° 24.557, y su modificatoria, el siguiente texto: “(…) 4. En los supuestos previstos en el artículo 14, apartado 2, inciso “b”; artículo 15, apartado 2; y artículos 17 y 18, apartados 1 de la presente ley, junto con las prestaciones allí previstas los beneficiarios percibirán, además, una compensación dineraria adicional de pago único, conforme se establece a continuación: a) En el caso del artículo 14, apartado 2, inciso “b”, dicha prestación adicional será de PESOS TREINTA MIL ($ 30.000). b) En los casos de los artículos 15, apartado 2 y del artículo 17, apartado 1), dicha prestación adicional será de PESOS CUARENTA MIL ($ 40.000). c) En el caso del artículo 18, apartado 1, la prestación adicional será de PESOS CINCUENTA MIL ($ 50.000).”.
+
+Que a través del Decreto N° 1.694 de fecha 05 de noviembre de 2009, se actualizaron las referidas compensaciones dinerarias adicionales de pago único en concepto de Incapacidad Laboral Permanente (I.L.P.) y muerte, eliminando los topes indemnizatorios para todos los casos, y estableciendo pisos por debajo de los cuales no se reconocerá válidamente el monto indemnizatorio.
+
+Que mediante la sanción de la Ley N° 26.773, se estableció el régimen de ordenamiento de la reparación de los daños derivados de los accidentes de trabajo y enfermedades profesionales, el que se encuentra integrado por las disposiciones de ese cuerpo normativo, por la Ley N° 24.557 sobre Riesgos de Trabajo y sus modificatorias, por el citado Decreto N° 1.694/09, sus normas complementarias y reglamentarias, y por las que en el futuro las modifiquen.
+
+Que el artículo 8° de la referida Ley N° 26.773 dispuso que los importes por I.L.P. previstos en las normas que integran dicho régimen se ajustarán de manera general semestralmente según la variación del índice Remuneración Imponible Promedio de los Trabajadores Estables (RIPTE), publicado por la entonces SECRETARÍA DE SEGURIDAD SOCIAL del entonces MINISTERIO DE TRABAJO, EMPLEO Y SEGURIDAD SOCIAL (M.T.E. Y S.S.) a cuyo efecto dictará la resolución pertinente fijando los nuevos valores y su lapso de vigencia.
+
+Que el artículo 17, apartado 6 de la ley mencionada en el considerando precedente, estableció que las prestaciones en dinero por incapacidad permanente, previstas en la Ley N° 24.557 y sus modificatorias, y su actualización mediante el Decreto N° 1.694/09, se ajustarán a la fecha de entrada en vigencia de la propia Ley N° 26.773 conforme al índice RIPTE, publicado por la entonces SECRETARÍA DE SEGURIDAD SOCIAL, desde el 1° de enero de 2010.
+
+Que a su vez, dicha normativa determinó que la actualización general prevista en el artículo 8° de esa ley se efectuará en los mismos plazos que la contemplada para el SISTEMA INTEGRADO PREVISIONAL ARGENTINO (SIPA) por el artículo 32 de la Ley N° 24.241, modificado por el artículo 6° de la Ley N° 26.417.
+
+Que posteriormente, la Ley N° 27.348 incorporó el artículo 17 bis de la Ley N° 26.773, y dispuso que sólo las compensaciones adicionales de pago único previstas en el artículo 11 de la Ley N° 24.557 y sus modificatorias, así como los importes mínimos establecidos en el Decreto N° 1.694/09, se deberán incrementar conforme la variación del índice RIPTE, desde el 1° de enero de 2010 y hasta la fecha de la primera manifestación invalidante de la contingencia considerando la última variación semestral del RIPTE, de conformidad con la metodología prevista en la Ley N° 26.417.
+
+Que el artículo 21 de la Ley N° 27.348 derogó, asimismo, el artículo 8° y el apartado 6 del artículo 17 de la Ley N° 26.773, razón por la cual la entonces SECRETARÍA DE SEGURIDAD SOCIAL del entonces M.T.E. Y S.S., quedó relevada de la obligación del dictado de la resolución que fije los nuevos valores y su lapso de vigencia.
+
+Que en virtud de lo expuesto, resulta imprescindible el dictado de un acto administrativo por el cual se determinen los valores de equivalencia de las compensaciones adicionales de pago único, incorporadas al artículo 11 de la Ley N° 24.557 y sus modificatorias, y los importes mínimos establecidos en el Decreto N° 1.694/09 que se deben considerar en el Sistema de Riesgos del Trabajo, a fin de dotar a todos los actores sociales involucrados de la debida seguridad jurídica, fortaleciendo de este modo a dicho sistema.
+
+Que en orden a la competencia para el dictado de este acto, cabe destacar que el principio de especialidad del derecho administrativo determina que: “(…) el alcance de la competencia de un órgano o ente estatal se debe determinar sobre la base - en primer lugar - del texto expreso de la norma que la regule; - en segundo - del contenido razonablemente implícito inferible del texto expreso de las normas involucradas y - en tercer lugar - de los poderes inherentes derivados de la naturaleza o esencia del órgano, interpretados a la luz del principio de especialidad (…)”. (Julio C COMADIRA, El Acto administrativo, Editorial LA LEY, Buenos Aires 2004, Pág. 27).
+
+Que en ese orden de ideas, la PROCURACIÓN DEL TESORO DE LA NACIÓN (P.T.N.) ha afirmado que el aspecto que define la aptitud para obrar de un ente jurídico es la relación del acto con los fines para los que fue creado (Dictámenes 154:196, Pto IV :164:165, Pto.III 4), a lo que añadió: “(…) En el campo de las personas morales, la capacidad o competencia se delimita de acuerdo con la llamada “regla de la especialidad”, es decir, que les está permitido hacer lo no prohibido dentro de los fines de la institución (…)” (Dictámenes 191:105,Pto II 2.).
+
+Que en este sentido, esta SUPERINTENDENCIA DE RIESGOS DEL TRABAJO (S.R.T.) ha dictado sucesivas resoluciones, siendo el antecedente inmediato del presente acto la Resolución S.R.T. N° 15 de fecha 03 de marzo de 2026.
+
+Que para la determinación de los mencionados importes, se utilizó la información publicada por la SUBSECRETARÍA DE SEGURIDAD SOCIAL de la SECRETARÍA DE TRABAJO, EMPLEO Y SEGURIDAD SOCIAL dependiente del MINISTERIO DE CAPITAL HUMANO (https://www.argentina.gob.ar/trabajo/seguridadsocial), que establece una variación semestral comparando el valor publicado en el mes de diciembre de 2025 respecto del mes de junio de 2026, y luego dicha variación se aplica sobre los importes de las compensaciones adicionales y pisos mínimos vigentes hasta el día 31 de agosto de 2026.
+
+Que la presente medida se limita a reflejar el resultado del cálculo matemático resultante de la adecuación de la variación del índice RIPTE.
+
+Que la Gerencia de Control Prestacional ha intervenido y prestado su conformidad en el ámbito de sus competencias.
+
+Que la Gerencia de Asuntos Legales de esta S.R.T. ha tomado la intervención que le corresponde.
+
+Que la presente se dicta en virtud de las facultades conferidas por el principio de especialidad y el artículo 36, apartado 1 de la Ley N° 24.557, en cumplimiento del artículo 17 bis de la Ley N° 26.773 incorporado por la Ley N° 27.348.
+
+Por ello,
+
+EL SUPERINTENDENTE DE RIESGOS DEL TRABAJO
+
+RESUELVE:
+
+ARTÍCULO 1°.- Establécese que para el período comprendido entre el día 1° de septiembre de 2026 y el día 28 de febrero de 2027 inclusive, en virtud de la aplicación de la variación del índice Remuneración Imponible Promedio de los Trabajadores Estables (RIPTE), el cálculo de los montos de las compensaciones adicionales de pago único, previstas en el artículo 11, apartado 4, incisos a), b) y c) de la Ley N° 24.557 y sus modificatorias, arroja el resultado de PESOS CINCUENTA MILLONES OCHOCIENTOS VEINTICUATRO MIL CINCUENTA Y CINCO ($ 50.824.055), PESOS SESENTA Y TRES MILLONES QUINIENTOS TREINTA MIL SESENTA Y NUEVE ($ 63.530.069), y PESOS SETENTA Y SEIS MILLONES DOSCIENTOS TREINTA Y SEIS MIL SESENTA ($ 76.236.060), respectivamente.
+
+ARTÍCULO 2°.- Establécese que, para el período comprendido entre el día 1° de septiembre de 2026 y el día 28 de febrero de 2027 inclusive, en virtud de la aplicación de la variación del índice RIPTE, el cálculo de la indemnización que corresponda por aplicación del artículo 14, apartado 2, incisos a) y b) de la Ley N° 24.557 y sus modificatorias, no podrá ser inferior al monto de PESOS CIENTO CATORCE MILLONES TRESCIENTOS CINCUENTA Y CUATRO MIL CIENTO DIEZ ($ 114.354.110) por el porcentaje de Incapacidad Laboral Permanente (I.L.P.).
+
+ARTÍCULO 3°.- Establécese que para el período comprendido entre el día 1° de septiembre de 2026 y el día 28 de febrero de 2027 inclusive, en virtud de la aplicación de la variación del índice RIPTE, el cálculo de la indemnización que corresponda por aplicación del artículo 15, apartado 2 de la Ley N° 24.557 y sus modificatorias, no podrá ser inferior a PESOS CIENTO CATORCE MILLONES TRESCIENTOS CINCUENTA Y CUATRO MIL CIENTO DIEZ ($ 114.354.110) como piso mínimo.
+
+ARTÍCULO 4°.- Establécese que para el período comprendido entre el día 1° de septiembre de 2026 y el día 28 de febrero de 2027 inclusive, en virtud de la aplicación de la variación del índice RIPTE, el cálculo de la indemnización adicional de pago único prevista en el artículo 3° de la Ley N° 26.773 en caso de muerte o incapacidad total, no podrá ser inferior a PESOS VEINTIÚN MILLONES SEISCIENTOS CINCUENTA Y SEIS MIL CIENTO SETENTA Y SEIS ($ 21.656.176) como piso mínimo.
+
+ARTÍCULO 5°.- La presente resolución entrará en vigencia al día siguiente de su publicación en el Boletín Oficial.
+
+ARTÍCULO 6°.- Comuníquese, publíquese, dese a la DIRECCIÓN NACIONAL DEL REGISTRO OFICIAL y archívese.
+
+Gustavo Dario Moron
+
+e. 02/09/2026 N° 62395/26 v. 02/09/2026
+
+Fecha de publicación 02/09/2026
+
+Compartir por email
+
+×
+
+Para:
+
+Asunto:
+
+Aviso:
+
+Cerrar
+
+Enviar
+
+×
+
+Biblioteca de Normativas
+
+Al hacer clic en este enlace usted está siendo dirigido a la página https://www.argentina.gob.ar/normativa.
+
+Cerrar
+
+Ir a Biblioteca de Normativas
+
+Institucional
+
+Misión, Visión e Historia
+
+Sitios de Interés
+
+Red de Boletines Oficiales de la R. A.
+
+BFA Blockchain Federal Argentina
+
+Productos y Servicios
+
+Tarifas de Publicación
+
+Autenticaciones
+
+BFA Repositorio recibos
+
+BFA Verificación
+
+Firma digital
+
+Faq y Tutoriales
+
+Preguntas Frecuentes
+
+Contacto
+
+Institucional
+
+Misión, Visión e Historia
+
+Productos y Servicios
+
+Tarifas de Publicación
+
+Sitios de Interés
+
+Red de Boletines Oficiales de la R. A.
+
+BFA Blockchain Federal Argentina
+
+Autenticaciones
+
+BFA Repositorio recibos
+
+BFA Verificación
+
+Firma digital
+
+Faq y Tutoriales
+
+Preguntas Frecuentes
+
+Contacto
+
+Secretaría
+
+Legal y Técnica
+
+Boletín Oficial
+
+de la República Argentina
+
+TELÉFONOS: 5218-8400 - 0810-345-BORA (2672)
+
+SEDE CENTRAL: Suipacha 767, C.A.B.A. (C1008AAO)
+
+Secretaría Legal y Técnica |
+Dra. María Ibarzabal Murphy - Secretaria
+
+Dirección Nacional del Registro Oficial |
+Dr. Walter Rubén Gonzalez - Director Nacional
+
+×
+
+Red de Boletines Provinciales
+
+Al hacer clic en este enlace usted acepta ser dirigido fuera de nuestro sitio a la página http://www.reddeboletines.gob.ar cuya información es proporcionada por la Dirección Nacional del Sistema Argentino de Información Jurídica (SAIJ) dependiente del Ministerio de Justicia y Derechos Humanos de la Nación.
+
+Cerrar
+
+Ir a Red de Boletines Provinciales

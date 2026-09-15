@@ -1,0 +1,22 @@
+{
+  "_descripcion": "Veredictos de lectura sobre las marcas que revisar_texto() pone en una norma recien bajada. Lo consume scripts/descargar_normas.py.",
+  "_criterio": "revisar_texto() reporta CANDIDATOS, no defectos probados: hay leyes legitimamente cortas y portales que envuelven un articulado sano. La marca se apaga leyendo el texto y anotando aca que se vio, con fecha. Sin esto la misma marca vuelve a sonar en cada descarga y deja de mirarse. La entrada se indexa por el texto EXACTO del problema. Si revisar_texto() cambia como lo redacta, o si la norma vuelve con un defecto distinto, el veredicto deja de aplicar y la marca vuelve a sonar. Es deliberado: un veredicto vale para lo que se leyo, no para el slug.",
+  "fijado": "2026-09-14",
+  "nota": "Dos veredictos: la 24.754, corta de verdad, y la 26.023, donde la ley aprobatoria y su anexo conviven en el mismo archivo y el detector leyo la remision sin ver la transcripcion.",
+  "revisiones": {
+    "ley-24754": [
+      {
+        "problema": "solo 2 articulos en 1430 caracteres: sospechosamente corto",
+        "veredicto": "Falso positivo. La ley son dos articulos: el 1, sustantivo, que extiende a las prepagas la cobertura minima exigible a las obras sociales conforme las Leyes 23.660, 23.661 y 24.455; y el 2, de forma. 1.430 caracteres es la ley entera, mas la fe de erratas que corrige 'dispuestas por las obras sociales' por 'dispuestas para las obras sociales'.",
+        "fecha": "2026-09-14"
+      }
+    ],
+    "ley-26023": [
+      {
+        "problema": "parece la ley APROBATORIA y no su contenido: solo 23 articulos y el texto remite a un anexo. Buscar una fuente que transcriba el anexo",
+        "veredicto": "Falso positivo. El archivo trae las dos cosas: la ley aprobatoria -ARTICULO 1o y 2o- y despues la Convencion entera transcripta como anexo, del Articulo 1 al 23. Los 23 articulos que el detector leyo como sospechosos son los del convenio, no una remision vacia: el art. 1 de la ley dice que consta de 23 articulos 'cuya fotocopia autenticada forma parte de la presente ley', y esa fotocopia esta transcripta abajo. El art. 2 del convenio -Instrumentos internacionales aplicables-, que es el que penal.md 24.2.1 necesita para delimitar el ambito del juicio en ausencia, esta completo con su listado.",
+        "fecha": "2026-09-14"
+      }
+    ]
+  }
+}

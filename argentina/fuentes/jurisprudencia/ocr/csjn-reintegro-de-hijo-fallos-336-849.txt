@@ -1,0 +1,514 @@
+S., D. c/ R., L. M. s/reintegro de hijo y alimentos
+==============================================================================
+Tribunal:         CSJN
+Cita:             Fallos 336:849
+Fecha declarada:  2013-07-02
+Fuente del PDF:   https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7028291
+Derivado de:      jurisprudencia/csjn-reintegro-de-hijo-fallos-336-849.pdf
+SHA-256 del PDF:  4c5fef748717473c6457ff23a2b6e9f773518bc18bdaeac7832e45f11f9d1860
+Paginas:          14
+Generado:         2026-09-14
+Herramienta:      tesseract 5.5.3, -l spa --psm 6, pdftoppm -r 300
+
+TEXTO RECUPERADO POR OCR LOCAL. No se bajo de la fuente: la capa de texto que traia el
+PDF estaba arruinada y esto es una relectura de las imagenes de la pagina. NO es
+publicacion oficial y no reemplaza al PDF. Para transcribir un considerando a un escrito,
+cotejar contra la pagina del PDF: el numero de pagina esta marcado abajo.
+
+Regenerar: python3 herramientas/reocr_jurisprudencia.py csjn-reintegro-de-hijo-fallos-336-849
+==============================================================================
+--- pagina 1 de 14 ---
+
+ñ >
+i S. 977. XLVIII.
+: S., D. c/ R., L. M. s/ reintegro de hijo y ali-
+/ mentos.
+Corte Suprema de Justicia a de la Nación
+Año de su Sesquicontenario
+
+Buenos Aires, po Ae. Uco Pe 2073.
+
+Vistos los autos: “S., Cc/ R., L. M. s/ reintegro de hijo
+y alimentos”.
+Considerando:
+
+1%) Que la Suprema Corte de Justicia de la Provincia
+de Buenos Aires, al revocar la sentencia del Tribunal de Familia
+de Instancia Única n” 1 del Departamento Judicial de La Plata,
+admitió el pedido de restitución —a la ciudad de Corigliano Ca-
+labró provincia de Cosenza, Italia- de las menores C. S. R., M.
+F. S. R. y V. S. R. instado por su padre, el señor D. S., me-
+diante el procedimiento establecido en el Convenio de La Haya de
+1980 sobre Aspectos Civiles de la Sustracción Internacional de
+Menores (CH 1980).
+
+Para así decidir, la corte local señaló que a la luz
+de la normativa italiana y de los dichos de la propia demandada,
+esta última no estaba habilitada para fijar la residencia de sus
+hijas fuera de dicho país sin la anuencia del otro progenitor y,
+que al haberlo hecho, fue en detrimento de derechos actuales,
+relevantes en los términos del CH 1980. Entendió que si bien era
+cierto que las menores fueron trasladadas a la Argentina con la
+autorización del padre, la retención de las mismas en este país
+lo fue en forma ilícita.
+
+Sostuvo que una vez acreditada la ilicitud del tras-
+lado o la retención, la autoridad judicial o administrativa del
+Estado requerido debía analizar, con un enfoque riguroso, si se
+daban las excepciones previstas en el CH 1980 para no ordenar la
+
+-1-
+
+--- pagina 2 de 14 ---
+
+E
+restitución. En tal sentido, entendió que no se configuraba nin-
+guna de las excepciones del art. 13 del CH 1980. Señaló que de
+la medida para mejor proveer dispuesta por el tribunal -pericia
+psicológica—, surgía que no se presentaban signos para Justifi-
+car el no regreso de las niñas a Italia. Agregó que si a ello se
+sumaba que la progenitora —a quien se le había dado por perdido
+el derecho a contestar demanda— no había aportado datos que per-
+mitieran evaluar la supuesta violencia que habría ejercido el
+progenitor con sus hijas cuando vivían en Italia —que permitiera
+abrir juicio sobre si la restitución podría exponerlas a un gra-
+ve peligro físico o psíquico- los elementos obrantes en la causa
+no eran suficientes para rechazar la restitución.
+
+Asimismo, aclaró que la restitución de las menores no
+implicaba resolver definitivamente sobre la custodia de las mis-
+mas, ya que ello era materia del juez competente, es decir, del
+magistrado del lugar donde las niñas tenían su residencia habi-
+tual. Por último, sostuvo que de lo actuado en la causa era per-
+ceptible el grado de preocupación e inestabilidad que provocaba
+a las menores la posibilidad de regreso a Italia ante lo que se
+representaban como futuras reprimendas del padre. En virtud de
+ello consideró necesario anoticiar de esta circunstancia a las
+autoridades del país requirente, en el marco de plena colabora-
+ción de los Estados que es uno de los objetivos y fines de la
+Convención, para que sean arbitradas las medidas conducentes y
+necesarias a fin de resguardar a las menores al momento de su
+regreso.
+
+2%) Que contra esta decisión, la señora L. M. R. in-
+terpuso recurso extraordinario que fue concedido a fs. 286/287.
+
+2
+
+--- pagina 3 de 14 ---
+
+: : E S. 977, XLVIII.
+KW D- el R., L. M. s/ reintegro de hijo y ali-
+_ / mentos
+| Corte Suprema de Justicia de la Nación
+ño de su Sesquicentenanio
+
+Esta Corte declaró la nulidad de las actuaciones cum-
+plidas con posterioridad a la sentencia apelada por haberse omi-
+tido desde ese acto procesal conferir vista a la Asesora de Me-
+nores, quien ejercía la representación de las niñas (fs.
+315/316).
+
+Devueltas las actuaciones, el tribunal de origen dio
+debida intervención a la representante del Ministerio Público,
+quien planteó el recurso extraordinario federal a fs. 334/342
+vta., que junto con el deducido por la demandada fueron concedi-
+dos a fs. 350/351 vta.
+
+3%) Que el remedio federal de fs., 259/265 vta., ha
+sido interpuesto por la señora L. M. R. en forma extemporánea,
+pues el plazo para su deducción vencía el 18 de junio de 2012,
+con más las dos primeras horas del 19 de junio de 2012, motivo
+por el cual corresponde declararlo mal concedido (arts. 257 y
+124 del Código Procesal Civil y Comercial de la Nación).
+
+Ello es así, pues el régimen procesal del recurso ex-
+traordinario es regulado exclusivamente por las normas rituales
+nacionales que se han dictado para organizarlo. Sin embargo, el
+remedio federal en cuestión fue deducido dentro del plazo de
+gracia de cuatro horas fijadas por el art. 124 del Código Proce-
+sal Civil y Comercial de la Provincia de Buenos Aires, es decir,
+una vez pasadas las dos primeras que fija similar norma del
+código ritual nacional (conf. Fallos: 323:4006; 328:992, entre
+otros).
+
+-3-
+
+--- pagina 4 de 14 ---
+
+Í 1
+
+4%) Que el recurso extraordinario interpuesto por la
+Asesora de Menores a fs. 334/342 vta. resulta formalmente admi-
+sible dado que se ha puesto en tela de juicio la inteligencia
+del CH 1980 y la decisión impugnada es contraria al derecho que
+la apelante pretende sustentar en aquél (art. 14, inc. 3”, de la
+ley 48).
+
+En tales condiciones, conviene recordar que cuando se
+encuentra en debate el alcance que cabe asignar a una norma de
+derecho federal, la Corte Suprema no se encuentra limitada en su
+decisión por los argumentos de las partes o del a quo, sino que
+le ¡incumbe realizar una declaratoria sobre el punto disputado
+(conf. Fallos: 308:647; 318:1269; 330:2286 y 333:604, entre
+otros).
+
+5%) Que en su recurso extraordinario la Asesora de
+Menores señala que el presupuesto de excepción previsto por la
+CH 1980 se configura en la especie, por lo que la sentencia im-
+pugnada deviene arbitraria. Agrega que no puede calificarse de
+“mera oposición” el posicionamiento de las niñas respecto del
+retorno a su país de origen en tanto ha quedado evidenciado que
+su resistencia se encuentra respaldada a través de los informes
+psicológicos. Hace hincapié en que las menores están residiendo
+en Argentina desde el año 2008, junto a su progenitora, su pare-
+ja e hijas y el niño L. fruto de la unión de dichos adultos. En-
+tiende que en el supuesto que se rechace el recurso, se les oca-
+sionaría una grave afectación a su interés y las colocaría en
+“una situación intolerable”.
+
+—-4-
+
+--- pagina 5 de 14 ---
+
+' . S. 977. XLVIII.
+S., D. c/ R., L. M. s/ reintegro de hijo y ali-
+ALIS mentos.
+AR
+Corte Tufrema de Justicia de la Nación
+ño de su Hesquicentonaro
+
+6”) Que a los efectos de una mayor comprensión de las
+cuestiones que se plantean en la presente causa, resulta perti-
+nente destacar las siguientes circunstancias relevantes: la se-
+ñora L. M. R, de nacionalidad argentina, y el señor D.S., de na-
+cionalidad italiana, convivieron desde el año 1993 y contrajeron
+matrimonio el 28 de julio de 2002 en Corigliano Calabró (provin-
+cia de Cosenza, Italia) donde nacieron sus tres hijas: C. S. R.
+el 16 de julio de 1997, M. F. S. R el 25 de septiembre de 2000 y
+V. S. R el 12 de enero de 2004.
+
+Las menores vivieron junto a sus padres de manera in-
+interrumpida en su ciudad natal hasta el mes de septiembre de
+2008, oportunidad en que L. M. R le informó a D. S. su intención
+de viajar a la Argentina con las hijas de ambos a fin de visitar
+al abuelo materno que sufría un problema de salud. Alegó —de ma-
+nera exagerada según sus propios dichos (fs. 264)-— que la situa-
+ción era grave porque había padecido un derrame cerebral y que
+en consecuencia le solicitaba la pertinente autorización para
+que las tres niñas pudiesen viajar con ella. D. S. otorgó el
+permiso requerido y las menores debían regresar a Italia el 21
+de septiembre de ese mismo año. En virtud de que no retornaron
+en la fecha prevista, el progenitor el 5 de noviembre de 2008,
+inició el pedido de restitución internacional de sus tres hijas
+ante la Autoridad Central italiana de acuerdo con el procedi-
+miento establecido por el CH 1980 (conf. fs. 16).
+
+7%) Que habida cuenta de que el presente caso trata
+de un pedido de restitución internacional de tres niñas a Ita-
+lia, que se encuentra regido por las pautas establecidas en el
+
+-5-
+
+--- pagina 6 de 14 ---
+
+Y t.
+
+CH 1980 corresponde, en primer lugar, tener por reproducidos to-
+dos los criterios interpretativos sentados por esta Corte Supre-
+ma respecto de dicha norma en los sucesivos supuestos análogos
+en los que há debido intervenir (conf. Fallos: 318:1269;
+328:4511;  333:604 y 2396; 334:913, 1287 y 1445, causas
+G.129.XLVI11 “G., P. C. C/ H., S. M. s/ reintegro de hijo”, sen-
+tencia del 22 de agosto de 2012; H.102.XLVIII “H. C., A. C/ M.
+A., J. A. s/ restitución internacional de menor s/ oficio Sra.
+Subdirectora de Asuntos Jurídicos del Ministerio de Relaciones
+Exteriores”, sentencia del 21 de febrero de 2013 y F.354.XLVIII
+“F,, C. del C. c/ G., R. T. s/ reintegro de hijo”, sentencia del
+21 de mayo de 2013).
+
+8) Que en el caso no se encuentra controvertido por
+las partes que el lugar de residencia habitual de las menores
+C., M. F. y V. con anterioridad a su traslado a este país, a los
+efectos del CH 1980, era la ciudad de Corigliano Calabró, Ita-
+lia, pues no solo fue el lugar donde nacieron sino también donde
+desarrollaron sus actividades educativas y sociales hasta la fe-
+cha en que se produjo el viaje a la Argentina. Dicho ello, co-
+rresponde determinar si en el caso existió el traslado o reten-
+ción ilícita que requiere el mencionado convenio.
+
+9%) Que de acuerdo a la legislación italiana, en el .
+momento del traslado, D. S. ostentaba el ejercicio compartido de
+la responsabilidad parental (arts. 155, 316, 317, 317 bis, 327,
+343 y concordantes del Código Civil Italiano) y ambos progenito-
+res son contestes en que existió una autorización para que la
+madre viajase con las hijas con fecha de regreso el 21 de sep-
+tiembre de 2008. No hay duda entonces de que el traslado fue
+
+-6-
+
+--- pagina 7 de 14 ---
+
+» A :
+e S. 977, XLVIIT.
+o S., D. C/ R., L. M. s/ reintegro de hijo y ali-
+s mentos.
+Ay
+lícito en los términos del CH 1980, no así la retención de las
+niñas en la Argentina por parte de la progenitora, dado que no
+retornaron en la fecha pactada.
+
+10) Que acreditada la ilicitud a la que el CH 1980
+supedita la operatividad del procedimiento de restitución, co-
+rresponde examinar si se ha configurado la excepción invocada
+por la Asesora de Menores en su recurso extraordinario consis-
+tente en el grave riesgo que correrían las niñas en caso de que
+se rechace, al colocarlas en la situación intolerable de tener
+que regresar a Italia junto al progenitor contra su voluntad
+(art. 13, inc. b).
+
+A tal fin, es menester recordar que el mencionado
+convenio determina como principio la inmediata restitución del
+menor y, en consecuencia, las excepciones a dicha obligación son
+de carácter taxativo y deben ser interpretadas de manera res-
+trictiva a fin de no desvirtuar su finalidad (conf. parágrafo
+34 del informe explicativo de la profesora Elisa Pérez-Vera, Po-
+nente de la Primera Comisión Redactora del Convenio por Encargo
+del Décimo Cuarto Período de Sesiones de la Conferencia de La
+Haya sobre Derecho Internacional Privado). En tal sentido, esta
+Corte ha señalado que las palabras escogidas para describir los
+supuestos de excepción revelan el carácter riguroso con que se
+debe ponderar el material fáctico de la causa a los efectos de
+no frustrar la efectividad del CH 1980 (conf. Fallos: 318:1269;
+328:4511 y 333:604).
+
+11) Que teniendo en cuenta lo anteriormente expresado
+respecto a la apreciación rigurosa y prudente que debe efectuar-
+
+-]—
+
+--- pagina 8 de 14 ---
+
+/ 4
+se del material probatorio destinado a acreditar la “situación
+intolerable” que configuraría la excepción invocada, de la com-
+pulsa del expediente no surgen pruebas determinantes que permi-
+tan hacerla operativa.
+
+En efecto, los informes técnicos agregados a la cau-
+sa, en particular los que refieren a los encuentros entre las
+profesionales intervinientes y las niñas, dan cuenta del vínculo
+disfuncional de las menores con su progenitor. Sin embargo, el
+informe de la perito psicóloga del Cuerpo Técnico Auxiliar del
+Fuero de Responsabilidad Penal Juvenil de La Plata, conciuye que
+“teniendo en cuenta los factores de riesgo en las separaciones oO
+divorcios altamente destructivos: morbilidad (tendencia 'al sui-
+cidio), fracasos escolares, enfermedades psicosomáticas, severas
+perturbaciones psicológicas (trastornos en el desarrollo, tras-
+tornos de ansiedad, trastornos en la alimentación) las niñas C.,
+M. F. Y V. no presentaron estos signos al momento de ser evalua-
+das” (fs. 234 vta.).
+
+12) Que en lo que hace a la opinión de las menores,
+esta Corte ha señalado que en el marco del CH 1980, su bondera-
+ción no pasa por indagar la voluntad de vivir con uno u otro de
+los progenitores, y que el convenio, por su singular finalidad,
+no adhiere a una sumisión irrestricta respecto de los dichos del
+niño involucrado, sino que la posibilidad del art. 13 —penúltimo
+párrafo- solo se abre frente a una voluntad cualificada, que no
+ha de estar dirigida a la tenencia, sino al reintegro al país de
+residencia habitual (conf. causa G.129.XLVIII “G., P. C: c/ H.,
+S. M. s/ reintegro de hijo”, sentencia del 22 de agosto:de 2012
+y H.102.XLVIII “H. C., A. C/ M. A., J, A. s/ restitución inter-
+
+--- pagina 9 de 14 ---
+
+o mE S. 977. XLVIHI.
+
+S., D. c/ R., L. M. s/ reintegro de hijo y ali-
+Y : mentos.
+
+Corte Tifrema de Justicia de la Nación :
+
+Sito de su Sesquicontenario .
+nacional de menor s/ oficio Sra. Subdirectora de Asuntos Jurídi-
+cos del Ministerio de Relaciones Exteriores”, sentencia del 21
+
+de febrero de 2013).
+
+Considerando dicha inteligencia y que la excepción de
+grave riesgo solo procede, como ha interpretado este Tribunal,
+cuando el traslado le configuraría un grado de perturbación muy
+superior al impacto emocional que normalmente deriva de un cam-
+bio de lugar de residencia o la ruptura de la convivencia con
+uno de los padres, corresponde concluir que en el caso no se ha
+acreditado una verdadera oposición, entendida como un “repudio
+irreductible a regresar”. De fs. 124/125, 151/152, 228/229,
+233/234, 300 Y 342/342 vta. surge que las niñas no quieren re-
+gresar a Italia “bajo el cuidado de su padre”, es decir, que no
+es una resistencia absoluta al retorno.
+
+En efecto, esa oposición se vincula con las experien-
+cias vividas en ese país junto al progenitor y a los relatos de
+la madre en punto a la personalidad violenta de éste, así como
+también que en la actualidad están adaptadas a la vida en Argen-
+tina, circunstancia que no constituye un motivo autónomo de opo-
+sición (conf. Fallos: 318:1269; 328:4511 y 333:2396).
+
+13) Que no escapa al examen que se realiza la grave-
+dad de las declaraciones efectuadas por la demandada y referidas
+por la adolescente C. a profesionales que intervinieron en la
+causa en cuanto a la existencia de comportamientos inadecuados y
+violentos por parte de D. S., pero la decisión de restituir a
+las tres menores al lugar de residencia anterior al desplaza-
+miento, poniendo fin a una situación irregular, no implica re-
+
+-9-
+
+--- pagina 10 de 14 ---
+
+po
+solver que las niñas deberán retornar para convivir con su pro-
+genitor.
+
+Ello es así pues la influencia que conductas como las
+descriptas puedan tener respecto de la custodia o guarda del ni-
+ño hacen al mérito que es posible atribuir al progenitor para
+ejercer dicha guarda, lo que no es materia de este proceso sino
+de las autoridades competentes del Estado de residencia habi-
+tual, quienes se encuentran al tanto de la situación según surge
+de fs. 268/271.
+
+14) Que tampoco existen constancias claras y convin-
+centes que permitan vislumbrar que el progenitor consintió la
+estadía de las menores en Argentina, lo que hubiese configurado
+la excepción prevista por el art. 13, inc. a, del CH 1980. En
+efecto, dicha parte instó en todo momento el procedimiento de
+retorno y, aun cuando la nota de la Oficina de Bienestar Social
+(Welfare Office), dependiente del Ministerio de Justicia del Me-
+nor obrante a fs. 268/271 sugería la posibilidad de entablar un
+régimen de visitas, con posterioridad frente a una consulta de
+la mencionada oficina (fs. 323/327), el actor ratificó su inten-
+ción de continuar con el trámite iniciado en los términos del CH
+1980. Asimismo, reiteró el deseo de que las niñas regresen a
+Italia y agregó que sus ingresos económicos le permiten mante-
+nerlas durante su crianza.
+
+15) Que en síntesis, lo debatido en autos trata de
+una solución de urgencia y provisoria, desde que el propio Con-
+venio prevé que su ámbito queda limitado a la decisión de si me-
+dió traslado o retención ilícita y ello no se extiende al dere-
+
+-10-
+
+--- pagina 11 de 14 ---
+
+1 s
+, 1
+, S. 977. XLVIII.
+- S., D. C/ R., L. M. s/ reintegro de hijo y alí-
+Ha)
+Sño de su Tesquicontenario
+cho de fondo (conf. art. 16 del CH 1980 y Fallos: 328:4511 y
+333:604).
+
+Por otro lado como ya se ha señalado, la integración
+conseguida en el nuevo medio no constituye un motivo autónomo de
+oposición, ni es decisivo para excusar el incumplimiento del CH
+1980, aun cuando un nuevo desplazamiento fuere conflictivo; y la
+mera invocación genérica del beneficio del niño, o del cambio de
+ambiente o de idioma, no bastan para configurar la situación ex-
+cepcional que permitiría negar la restitución.
+
+16) Que con el objeto de lograr el cumplimiento de un
+retorno seguro de las niñas a su lugar de residencia habitual,
+esta Corte Suprema ha destacado en reiteradas oportunidades el
+rol primordial que cumplen las Autoridades Centrales de los Es-
+tados requirente y requerido en este tipo de procesos, la obli-
+gación que tienen de cooperar entre sí y con las autoridades lo-
+cales competentes para el funcionamiento eficaz del convenio, y
+el deber de garantizar la restitución del menor sin peligro
+(conf. art. 7% del CH 1980 y Fallos: 334:1287 y 1445 y causa
+G.129.XLVIII “G., P. C. c/ H., S. M. s/ reintegro de hijo”, sen-
+tencia del 22 de agosto de 2012).
+
+17) Que en virtud de lo señalado, este Tribunal en-
+tiende que corresponde hacer saber a la Autoridad Central argen-
+tina que, por medio de los mecanismos idóneos que se encuentren
+a su disposición, deberá:
+
+a) actuar coordinadamente con su par italiana en fun-
+ción preventiva —arbitrando los medios informativos, protecto-
+
+-11-
+
+--- pagina 12 de 14 ---
+
+rios y de asistencia jurídica, financiera y social que fueren
+
+- —menester—, en orden a que el regreso transcurra del modo más
+respetuoso a la condición personal de las niñas y a la especial
+vulnerabilidad que deviene de las etapas vitales por las que
+atraviesan;
+
+b) poner en conocimiento de la Autoridad Central del
+Estado requirente la urgencia con que debe resolverse la cues-
+tión vinculada con el derecho de custodia y de visita de las me-
+nores, dadas las particularidades que presenta el caso; y,
+
+c) comunicar a su par italiana la necesidad de esta-
+blecer a través de la Oficina de Bienestar Social (Welfare Offi- :
+ce), dependiente del Ministerio de Justicia del Menor, un es-
+tricto seguimiento del proceso y de las condiciones sociales,
+habitacionales y educativas de las menores una vez que se haya
+realizado el retorno seguro con los mecanismos existentes para
+dicho fin.
+
+18) Que por último, teniendo en mira el interés supe-
+rior del niño —que debe primar en este tipo de procesos— y la
+rapidez que requiere el trámite iniciado por el señor D. S. a
+los efectos de que no se frustre la finalidad del CH 1980, co-
+rresponde exhortar a los padres de C., M. F. y V. a colaborar en
+la etapa de ejecución de sentencia a los efectos de evitar a las
+niñas una experiencia aún más conflictiva. Igual exhortación ca-
+be dirigir al tribunal de familia a cargo de la causa, que de-
+berá realizar la restitución de la manera menos lesiva para las ]
+menores y en condiciones que minimicen los eventuales riesgos.
+
+-12-
+
+--- pagina 13 de 14 ---
+
+4 -h
+A S. 977. XLVIII.
+S., D. C/ R., L. M. s/ reintegro de hijo y ali-
+mentos.
+Año de su Sesquicentonario
+Por ello, oído el señor Defensor Oficial ante esta Corte y
+de conformidad con lo dictaminado por la señora Procuradora Fis-
+cal subrogante, se declara mal concedido el remedio federal de
+ís. 259/265 vta., formalmente admisible el recurso extraordina-
+rio deducido por la Asesora de Menores y se confirma la senten-
+cia apelada. Con costas (art. 68 Código Procesal Civil y Comer-
+cial'de la Nación). Hágase saber a la Autoridad Central argenti-
+na lo establecido en el considerando 17. Asimismo, esta Corte
+exhorta a los progenitores de las menores y al tribunal de fami-
+lia a cargo de la causa en los términos del considerando 18. No-
+tifíquese, devuélvase y comuníquese con copia a la Autoridad
+Central argentinea-
+RICARDO tUIS LORENZETTI
+ÍA
+Y A HIGHTON de pu)
+(Ea ¿
+logo
+JUAN CARLOS MAQUEDA
+CARMEN M. ARGIBAY
+Porra.
+! CARLOS S. FAYT
+-13-
+
+--- pagina 14 de 14 ---
+
+po Ñ .
+. |
+f L .

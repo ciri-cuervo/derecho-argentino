@@ -1,0 +1,14 @@
+# Valor del jus arancelario - Suprema Corte de Justicia de la PBA.
+# jus_ley_14967: unidad del art. 9 de la Ley 14.967, la que se usa para regular a abogados.
+# jus_dl_8904: jus arancelario del decreto-ley 8904/77, al que remiten leyes arancelarias de
+#   otras profesiones (peritos contadores, entre otras). NO usar para abogados.
+# Tabla oficial vigente: https://www.scba.gov.ar/paginas.asp?id=41320
+# Serie historica (dic-2017 a nov-2023): https://www.scba.gov.ar/paginas.asp?id=46792
+# Verificado el 13/09/2026. Al 13/09/2026 el ultimo valor publicado es el del 1/08/2026.
+vigencia_desde,jus_ley_14967,jus_dl_8904,norma,fuente
+2026-01-01,45660,,,https://www.scba.gov.ar/paginas.asp?id=41320
+2026-02-01,46325,,,https://www.scba.gov.ar/paginas.asp?id=41320
+2026-03-01,48608,,,https://www.scba.gov.ar/paginas.asp?id=41320
+2026-04-01,49750,,,https://www.scba.gov.ar/paginas.asp?id=41320
+2026-07-01,52237,35698,,https://www.scba.gov.ar/paginas.asp?id=41320
+2026-08-01,53232,36378,RP-873/2026 (04/08/2026),https://www.scba.gov.ar/informacion/jus%20-%20documentos/IUS%20agosto%2026.pdf

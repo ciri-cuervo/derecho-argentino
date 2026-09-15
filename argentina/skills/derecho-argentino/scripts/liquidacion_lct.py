@@ -1,0 +1,294 @@
+#!/usr/bin/env python3
+"""Liquidacion por extincion del contrato de trabajo - LCT argentina.
+
+Calculadora determinista para la skill `derecho-argentino`. NO trae montos: el tope del
+art. 245 y las remuneraciones se pasan como entrada. Si falta un dato que condiciona el
+resultado, el script lo dice y emite el marcador canonico en vez de suponerlo.
+
+Uso:
+    python3 liquidacion_lct.py --ingreso 2015-03-10 --extincion 2026-04-20 \
+        --mejor-remuneracion 1850000 --remuneracion-ultimo-mes 1850000 \
+        --tope-245 1420000 --dias-vacaciones-gozadas 0
+
+    python3 liquidacion_lct.py ... --json
+
+Formulas y su norma en `FORMULAS.md` de esta carpeta. Toda salida debe cotejarse contra el
+texto vigente del articulo: ver `references/laboral.md`, secciones 5.1 a 5.4 y 5.10.
+"""
+
+from __future__ import annotations
+
+import argparse
+import calendar
+import json
+from dataclasses import dataclass, field
+from datetime import date
+from decimal import Decimal, ROUND_HALF_UP
+
+# --- Tramos de reforma. Ver references/laboral.md, 5.1 ---------------------------------
+TRAMOS = [
+    (date(1974, 9, 21), date(2023, 12, 29), "original",
+     "LCT texto original"),
+    (date(2023, 12, 30), date(2024, 7, 8), "dnu70",
+     "DNU 70/2023 - Titulo laboral estuvo judicialmente suspendido"),
+    (date(2024, 7, 9), date(2026, 3, 5), "bases",
+     "Ley 27.742 'Bases'"),
+    (date(2026, 3, 6), date(9999, 12, 31), "modernizacion",
+     "Ley 27.802 'Modernizacion Laboral'"),
+]
+
+CENT = Decimal("0.01")
+
+
+def q(x) -> Decimal:
+    return Decimal(str(x)).quantize(CENT, rounding=ROUND_HALF_UP)
+
+
+def tramo_de(f: date):
+    for desde, hasta, clave, nombre in TRAMOS:
+        if desde <= f <= hasta:
+            return clave, nombre, desde, hasta
+    raise SystemExit(f"Fecha fuera de todo tramo conocido: {f}")
+
+
+def antiguedad(ingreso: date, extincion: date):
+    """Anios y meses cumplidos. Art. 245: un mes por anio o fraccion mayor a 3 meses."""
+    if extincion < ingreso:
+        raise SystemExit("La fecha de extincion es anterior a la de ingreso.")
+    anios = extincion.year - ingreso.year
+    meses = extincion.month - ingreso.month
+    dias = extincion.day - ingreso.day
+    if dias < 0:
+        meses -= 1
+    if meses < 0:
+        anios -= 1
+        meses += 12
+    multiplicador = anios + (1 if meses > 3 else 0)
+    return anios, meses, max(multiplicador, 1)
+
+
+@dataclass
+class Resultado:
+    datos: dict = field(default_factory=dict)
+    rubros: list = field(default_factory=list)
+    marcadores: list = field(default_factory=list)
+    advertencias: list = field(default_factory=list)
+
+    def add(self, concepto, importe, norma, detalle):
+        self.rubros.append({"concepto": concepto, "importe": float(q(importe)),
+                            "norma": norma, "detalle": detalle})
+
+    @property
+    def total(self):
+        return q(sum(Decimal(str(r["importe"])) for r in self.rubros))
+
+
+def liquidar(a) -> Resultado:
+    r = Resultado()
+    ingreso, extincion = a.ingreso, a.extincion
+    clave, nombre, _, _ = tramo_de(extincion)
+    anios, meses, mult = antiguedad(ingreso, extincion)
+
+    r.datos = {
+        "fecha_ingreso": ingreso.isoformat(),
+        "fecha_extincion": extincion.isoformat(),
+        "tramo": clave,
+        "regimen": nombre,
+        "antiguedad": f"{anios} anios y {meses} meses",
+        "multiplicador_art_245": mult,
+    }
+
+    if clave == "dnu70":
+        r.marcadores.append(
+            "[REVISIÓN NORMATIVA REQUERIDA: vigencia efectiva del Titulo laboral del "
+            "DNU 70/2023 en el tramo del acto extintivo - verificar estado cautelar a esa fecha]")
+
+    mejor = Decimal(str(a.mejor_remuneracion))
+    minimo_meses = 1 if clave == "modernizacion" else 2
+
+    # --- Art. 245: base, tope y piso -----------------------------------------------------
+    if a.tope_245 is None:
+        r.marcadores.append(
+            "[VERIFICAR MONTO ACTUALIZADO: tope art. 245 LCT - CCT aplicable, resolucion "
+            "del MTEySS del periodo del acto extintivo]")
+        base = mejor
+        r.advertencias.append(
+            "Sin tope informado: la base del art. 245 se calculo SIN tope. El resultado no "
+            "es definitivo hasta cargar el tope del CCT al periodo.")
+        piso_aplicado = False
+    else:
+        tope = Decimal(str(a.tope_245))
+        topeada = min(mejor, tope)
+        piso = mejor * Decimal("0.67")
+        base = max(topeada, piso)
+        piso_aplicado = base == piso and piso > topeada
+        if piso_aplicado:
+            if clave == "modernizacion":
+                r.advertencias.append(
+                    "Se aplico el piso del 67% de la remuneracion (art. 245 texto art. 51 "
+                    "Ley 27.802): esta en el texto legal, no hace falta invocar 'Vizzoti'.")
+            else:
+                r.advertencias.append(
+                    "Se aplico el piso del 67% por doctrina 'Vizzoti' (CSJN, 2004). En este "
+                    "tramo NO es texto legal: es doctrina jurisprudencial y debe fundarse.")
+                r.marcadores.append(
+                    '[VERIFICAR PRECEDENTE: "Vizzoti" (CSJN, 2004) - confirmar que no fue '
+                    'dejado sin efecto ni superado antes de citar]')
+
+    antiguedad_imp = base * mult
+    minimo_imp = mejor * minimo_meses
+    if antiguedad_imp < minimo_imp:
+        antiguedad_imp = minimo_imp
+        r.advertencias.append(
+            f"Se aplico el minimo legal de {minimo_meses} mes(es) de sueldo.")
+
+    r.add("Indemnizacion por antiguedad", antiguedad_imp, "Art. 245 LCT",
+          f"base {q(base)} x {mult} (minimo {minimo_meses} mes/es)")
+
+    rem_mes = Decimal(str(a.remuneracion_ultimo_mes if a.remuneracion_ultimo_mes
+                          is not None else a.mejor_remuneracion))
+
+    # --- Preaviso omitido ----------------------------------------------------------------
+    if a.preaviso_otorgado:
+        r.advertencias.append("Preaviso otorgado: no se liquida indemnizacion sustitutiva.")
+        preaviso = Decimal("0")
+    elif a.periodo_prueba:
+        if clave == "modernizacion":
+            preaviso = Decimal("0")
+            r.advertencias.append(
+                "Periodo de prueba y acto extintivo desde el 6/3/2026: sin preaviso "
+                "(art. 231 inc. b, texto art. 48 Ley 27.802).")
+        else:
+            preaviso = rem_mes / 2
+            r.advertencias.append(
+                "Periodo de prueba antes del 6/3/2026: preaviso de 15 dias.")
+        r.marcadores.append(
+            "[VACÍO PROBATORIO: vigencia del periodo de prueba a la fecha de la extincion - "
+            "si ya habia vencido, corresponden todos los derechos del despido sin causa]")
+    else:
+        meses_preaviso = 1 if anios <= 5 else 2
+        preaviso = rem_mes * meses_preaviso
+    if preaviso:
+        r.add("Indemnizacion sustitutiva de preaviso", preaviso,
+              "Art. 232 y 231 LCT", f"remuneracion {q(rem_mes)}")
+        r.add("SAC sobre preaviso", preaviso / 12, "Art. 121 y 123 LCT", "un doceavo")
+
+    # --- Integracion del mes de despido --------------------------------------------------
+    dias_mes = calendar.monthrange(extincion.year, extincion.month)[1]
+    dias_restantes = dias_mes - extincion.day
+    if a.preaviso_otorgado or a.periodo_prueba:
+        dias_restantes = 0
+        r.advertencias.append(
+            "No se liquida integracion del mes de despido (preaviso otorgado o periodo de "
+            "prueba). Verificar el supuesto del art. 233 antes de descartarla.")
+    if dias_restantes > 0:
+        integracion = rem_mes * dias_restantes / dias_mes
+        r.add("Integracion del mes de despido", integracion, "Art. 233 LCT",
+              f"{dias_restantes}/{dias_mes} dias")
+        r.add("SAC sobre integracion", integracion / 12, "Art. 121 y 123 LCT", "un doceavo")
+
+    # --- Liquidacion final ---------------------------------------------------------------
+    dias_trabajados_mes = extincion.day
+    r.add("Dias trabajados del mes", rem_mes * dias_trabajados_mes / dias_mes,
+          "Art. 103 LCT", f"{dias_trabajados_mes}/{dias_mes} dias")
+
+    inicio_sem = date(extincion.year, 1 if extincion.month <= 6 else 7, 1)
+    dias_sem_trab = (extincion - max(inicio_sem, ingreso)).days + 1
+    fin_sem = date(extincion.year, 6, 30) if extincion.month <= 6 else date(extincion.year, 12, 31)
+    dias_sem = (fin_sem - inicio_sem).days + 1
+    sac = (mejor / 2) * Decimal(dias_sem_trab) / Decimal(dias_sem)
+    r.add("SAC proporcional", sac, "Art. 121 y 123 LCT",
+          f"{dias_sem_trab}/{dias_sem} dias del semestre, sobre la mejor remuneracion")
+
+    # --- Vacaciones no gozadas -----------------------------------------------------------
+    if anios < 5:
+        dias_vac = 14
+    elif anios < 10:
+        dias_vac = 21
+    elif anios < 20:
+        dias_vac = 28
+    else:
+        dias_vac = 35
+    inicio_anio = date(extincion.year, 1, 1)
+    dias_anio_trab = (extincion - max(inicio_anio, ingreso)).days + 1
+    dias_del_anio = 366 if calendar.isleap(extincion.year) else 365
+    vac_prop = Decimal(dias_vac) * Decimal(dias_anio_trab) / Decimal(dias_del_anio)
+    vac_prop -= Decimal(str(a.dias_vacaciones_gozadas))
+    if vac_prop < 0:
+        vac_prop = Decimal("0")
+    if vac_prop > 0:
+        importe_vac = (rem_mes / 25) * vac_prop
+        r.add("Vacaciones no gozadas proporcionales", importe_vac,
+              "Arts. 150, 155 y 156 LCT",
+              f"{q(vac_prop)} dias, valor dia = remuneracion / 25")
+        r.add("SAC sobre vacaciones no gozadas", importe_vac / 12,
+              "Art. 121 y 123 LCT", "un doceavo")
+        r.advertencias.append(
+            "Vacaciones: el divisor 25 del art. 155 y la proporcionalidad del art. 156 "
+            "admiten lecturas distintas segun el fuero. Verificar el criterio aplicable.")
+
+    # --- Agravantes ----------------------------------------------------------------------
+    if extincion >= date(2024, 7, 9):
+        r.advertencias.append(
+            "Acto extintivo desde el 9/7/2024: los agravantes de la Ley 24.013 (arts. 8 a 17) "
+            "y de la Ley 25.323 estan DEROGADOS. No incorporarlos. Ver 5.3.")
+    else:
+        r.marcadores.append(
+            "[VACÍO PROBATORIO: intimacion fehaciente previa del trabajador - los agravantes "
+            "de la Ley 24.013 y el art. 2 de la Ley 25.323 la requerian; sin intimacion "
+            "acreditada no proceden]")
+
+    r.marcadores.append(
+        "[VERIFICAR CCT APLICABLE: actividad del empleador - tope art. 245 y escalas "
+        "salariales del periodo]")
+    r.marcadores.append(
+        "[VERIFICAR TASA VIGENTE: fuero - intereses no incluidos en esta liquidacion; "
+        "ver 5.5 para el fuero nacional y 5.5 bis para PBA]")
+    return r
+
+
+def render(r: Resultado) -> str:
+    out = ["LIQUIDACION POR EXTINCION DEL CONTRATO DE TRABAJO", ""]
+    for k, v in r.datos.items():
+        out.append(f"  {k.replace('_', ' '):28} {v}")
+    out += ["", "RUBROS", ""]
+    ancho = max(len(x["concepto"]) for x in r.rubros)
+    for x in r.rubros:
+        out.append(f"  {x['concepto']:<{ancho}}  {x['importe']:>16,.2f}   {x['norma']}")
+        out.append(f"  {'':<{ancho}}  {x['detalle']}")
+    out += ["", f"  {'TOTAL':<{ancho}}  {float(r.total):>16,.2f}", ""]
+    if r.advertencias:
+        out += ["ADVERTENCIAS", ""] + [f"  - {x}" for x in r.advertencias] + [""]
+    out += ["MARCADORES", ""] + [f"  {x}" for x in r.marcadores] + [""]
+    out += ["Verificacion de cierre: recalcular cada rubro por separado y comprobar que los",
+            "subtotales sumen el total. Los intereses no estan incluidos.", ""]
+    return "\n".join(out)
+
+
+def main():
+    p = argparse.ArgumentParser(description=__doc__,
+                                formatter_class=argparse.RawDescriptionHelpFormatter)
+    p.add_argument("--ingreso", required=True, type=date.fromisoformat)
+    p.add_argument("--extincion", required=True, type=date.fromisoformat)
+    p.add_argument("--mejor-remuneracion", required=True, type=Decimal,
+                   help="Mejor remuneracion mensual, normal y habitual del ultimo anio")
+    p.add_argument("--remuneracion-ultimo-mes", type=Decimal, default=None,
+                   help="Si se omite, se usa la mejor remuneracion")
+    p.add_argument("--tope-245", type=Decimal, default=None,
+                   help="Tope del CCT al periodo. Sin este dato el resultado es provisorio")
+    p.add_argument("--dias-vacaciones-gozadas", type=Decimal, default=Decimal("0"))
+    p.add_argument("--periodo-prueba", action="store_true")
+    p.add_argument("--preaviso-otorgado", action="store_true")
+    p.add_argument("--json", action="store_true")
+    a = p.parse_args()
+    r = liquidar(a)
+    if a.json:
+        print(json.dumps({"datos": r.datos, "rubros": r.rubros, "total": float(r.total),
+                          "advertencias": r.advertencias, "marcadores": r.marcadores},
+                         ensure_ascii=False, indent=2))
+    else:
+        print(render(r))
+
+
+if __name__ == "__main__":
+    main()

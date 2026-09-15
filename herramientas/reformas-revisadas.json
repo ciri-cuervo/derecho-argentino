@@ -1,0 +1,60 @@
+{
+  "_descripcion": "Veredicto de cada reforma que esta en el texto consolidado de fuentes/normas/ y ningun modulo nombra. Lo consume herramientas/reformas_no_leidas.py.",
+  "fijado": "2026-09-14",
+  "_criterio": "La capa de fuente primaria se actualiza sola y los modulos no: entre las dos cosas se abre una ventana en la que el repo tiene el articulo nuevo y la skill explica el viejo. El detector reporta candidatos; el veredicto se toma abriendo el modulo.",
+  "_vocabulario": {
+    "no-toca-el-modulo": "la reforma cambia un articulo que el modulo no cubre: es correcto que no la nombre",
+    "absorbida": "el modulo ya explica la regla nueva, aunque no nombre la ley que la introdujo"
+  },
+  "nota": "Repaso por modulo, no solo por norma: se agregan las dos reformas del art. 6 de la Ley 26.485 que familia.md tiene absorbidas en su catalogo de modalidades.",
+  "reformas": {
+    "cpccn-17454:27.500": {
+      "motivo": "declaro dia no laborable, sin articulado procesal; plazos.md 8 usa el CPCCN por sus arts. 124, 152 a 158, 244, 257, 282 y 285",
+      "veredicto": "no-toca-el-modulo"
+    },
+    "ley-19032:26.422": {
+      "motivo": "art. 8, financiamiento del PAMI; salud-discapacidad.md 27 la cita por la cobertura de la poblacion pasiva, no por su financiamiento",
+      "veredicto": "no-toca-el-modulo"
+    },
+    "ley-19550:27.541": {
+      "motivo": "emergencia publica: toca los arts. 94 y 206 -disolucion por perdida del capital-, suspendidos por la emergencia; societario.md 31 cubre responsabilidad, arts. 21 a 26, 54, 55, 59, 60 y 274",
+      "veredicto": "no-toca-el-modulo"
+    },
+    "ley-21526:26.173": {
+      "motivo": "arts. 9, 18 y 26 -sucursales de entidades extranjeras-; el unico modulo que la cita es datos-personales.md, y por el secreto financiero del art. 39",
+      "veredicto": "no-toca-el-modulo"
+    },
+    "ley-23592:25.608": {
+      "motivo": "sustituyo el art. 6 -multa a locales bailables-, no el art. 1, que es el unico que usa laboral.md 5.2 bis.1 para el despido discriminatorio",
+      "veredicto": "no-toca-el-modulo"
+    },
+    "ley-23737:27.502": {
+      "motivo": "incorporo sustancias al listado de estupefacientes por via del Decreto 560/19; penal.md 24.9.2 rutea el listado al decreto reglamentario en vez de transcribirlo, que es lo correcto porque se actualiza",
+      "veredicto": "absorbida"
+    },
+    "ley-24522:27.170": {
+      "motivo": "arts. 32, 200 y 288 -aranceles de verificacion y pequeno concurso-; concursos.md 29 cubre el cruce laboral: arts. 16, 21, 22, 132, 133, 241 y 246",
+      "veredicto": "no-toca-el-modulo"
+    },
+    "ley-25212:26.941": {
+      "motivo": "actualizo la escala de sanciones del Anexo II; laboral.md 5.18 ya advierte que esos importes estan viejos y manda verificarlos, que es la conclusion correcta cualquiera sea la ultima reforma",
+      "veredicto": "no-toca-el-modulo"
+    },
+    "ley-25326:26.343": {
+      "motivo": "art. 47, amnistia de registros no inscriptos, agotada; datos-personales.md 30 cubre arts. 5 a 8, 14 a 17, 26, 27 y 33 a 43",
+      "veredicto": "no-toca-el-modulo"
+    },
+    "ley-26425:27.574": {
+      "motivo": "cita al art. 75 de otra ley dentro de una nota; previsional.md 32 tiene absorbidos los arts. 1, 3 a 6, 16, 17, 18 y 20, que son los que usa",
+      "veredicto": "no-toca-el-modulo"
+    },
+    "ley-26485:27.533": {
+      "veredicto": "absorbida",
+      "motivo": "incorporo al art. 6 la modalidad de violencia publica-politica, inc. h; familia.md 18.6 ya enumera el catalogo completo de modalidades incluidas esa y la digital de la Ley 27.736, sin nombrar la ley que introdujo cada una"
+    },
+    "ley-26485:27.501": {
+      "veredicto": "absorbida",
+      "motivo": "incorporo al art. 6 la modalidad de violencia contra las mujeres en el espacio publico, inc. g; familia.md 18.6 ya enumera el catalogo completo de modalidades incluidas esa y la digital de la Ley 27.736, sin nombrar la ley que introdujo cada una"
+    }
+  }
+}

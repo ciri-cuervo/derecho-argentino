@@ -1,0 +1,1241 @@
+Decreto 407/2026 - Reglamentacion de la Ley 27.802 (Modernizacion Laboral)
+==============================================================================
+Jurisdiccion:     nacional
+Fuente:           https://servicios.infoleg.gob.ar/infolegInternet/anexos/425000-429999/426270/norma.htm
+Descargado:       2026-09-14
+SHA-256 (crudo):  bec96a05539e7bf95a0aaac307de372af36ac7e547eb27be13d467aa902cedf2
+Charset:          ISO-8859-1
+
+Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
+NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
+Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+el manifiesto `normas.json`.
+==============================================================================
+
+InfoLEG - Ministerio de Justicia y Derechos Humanos - Argentina
+
+PODER EJECUTIVO
+
+Decreto 407/2026
+
+DECTO-2026-407-APN-PTE - Disposiciones.
+
+Ciudad de Buenos Aires, 29/05/2026
+
+VISTO el Expediente N° EX-2026-53036291-APN-DGDTEYSS#MCH, las Leyes
+Nros. 14.250 (t. o. 2004) y sus modificaciones, 20.744 (t.o. 1976) y
+sus modificaciones, 22.250 y su modificatoria, 23.551 y sus
+modificaciones, 24.013 y sus modificaciones, 24.714 y sus
+modificaciones, 26.727 y sus modificaciones, 27.802, y los Decretos
+Nros. 1342 del 17 de septiembre de 1981, 199 del 15 de febrero de 1988,
+467 del 14 de abril de 1988 y sus modificatorios, 1309 del 20 de
+noviembre de 1996, 301 del 21 de marzo de 2013, 1694 del 22 de
+noviembre de 2006 y 149 del 28 de febrero de 2025, y
+
+CONSIDERANDO:
+
+Que mediante la Ley de Modernización Laboral N° 27.802, entre otros
+aspectos, se introdujeron modificaciones a la Ley N° 14.250 (t.o. 2004)
+y sus modificaciones, a la Ley de Contrato de Trabajo N° 20.744 (t.o.
+1976) y sus modificaciones y a la Ley N° 23.551 y sus modificaciones,
+con el objeto de adecuar el régimen laboral a la realidad actual,
+contemplando los avances tecnológicos y organizacionales.
+
+Que resulta necesario establecer criterios claros, uniformes y
+operativos para la implementación de las modificaciones introducidas, a
+fin de facilitar su aplicación efectiva y adecuada por parte de
+trabajadores y empleadores.
+
+Que corresponde reglamentar los artículos 29, 29 bis, 52, 103 bis, 105,
+132 inciso f), 140, 210, 240, 241 y 252 de la Ley de Contrato de
+Trabajo N° 20.744 (t.o. 1976) y sus modificaciones, a fin de precisar
+su alcance, simplificar cargas administrativas, promover la
+transparencia en las relaciones laborales, así como facilitar el
+cumplimiento de las obligaciones legales.
+
+Que, en ese marco, resulta pertinente promover esquemas digitales más
+simples y eficientes que permitan adecuar el régimen de registración
+laboral actual a los sistemas vigentes, con el propósito de reducir
+cargas administrativas y garantizar la trazabilidad de la relación
+laboral mediante herramientas tecnológicas.
+
+Que, asimismo, la incorporación de sistemas electrónicos de
+notificación y comunicación entre empleadores, trabajadores y
+organismos públicos contribuye a dotar de mayor celeridad, seguridad y
+transparencia a las relaciones laborales.
+
+Que la reglamentación de los instrumentos de documentación laboral, en
+particular del recibo de haberes, procura mejorar la claridad,
+accesibilidad y comprensión de la información, fortaleciendo la
+transparencia respecto del costo laboral total que abona el empleador,
+los conceptos involucrados en la relación de trabajo y cuánto percibe
+finalmente el trabajador.
+
+Que la reglamentación del artículo 210 de la Ley de Contrato de Trabajo
+N° 20.744 (t.o. 1976) y sus modificaciones procura adecuar el régimen
+de control de las enfermedades del trabajador a las herramientas
+digitales actualmente disponibles, estableciendo que las prescripciones
+que incluyan reposo sean emitidas electrónicamente mediante plataformas
+registradas en el REGISTRO NACIONAL DE PLATAFORMAS DIGITALES SANITARIAS
+(ReNaPDiS) y suscriptas por profesionales habilitados ante la RED
+FEDERAL DE REGISTROS DE PROFESIONALES DE LA SALUD (REFEPS). Asimismo,
+se precisa que ante discrepancias insalvables entre el diagnóstico
+inicial y el control médico efectuado por el empleador, las partes
+podrán recurrir a mecanismos como la junta médica oficial o el dictamen
+de institutos públicos o privados de reconocida trayectoria.
+
+Que en el marco del artículo 241 de la Ley de Contrato de Trabajo N°
+20.744 (t.o. 1976) y sus modificaciones se precisa el alcance de la
+homologación de los acuerdos extintivos por mutuo acuerdo, celebrados
+ante la autoridad administrativa del trabajo, mediante la verificación
+de su legalidad, la inexistencia de vicios del consentimiento y la
+adecuada composición de los intereses de las partes, en los términos
+del artículo 15 de la citada ley.
+
+Que la operativización del artículo 252 de la Ley de Contrato de
+Trabajo N° 20.744 (t.o. 1976) y sus modificaciones requiere la
+implementación, por parte de la ADMINISTRACIÓN NACIONAL DE LA SEGURIDAD
+SOCIAL (ANSES), organismo descentralizado actuante en la órbita de la
+SUBSECRETARÍA DE SEGURIDAD SOCIAL de la SECRETARÍA DE TRABAJO, EMPLEO Y
+SEGURIDAD SOCIAL del MINISTERIO DE CAPITAL HUMANO, de un sistema de
+notificación del inicio y la finalización del trámite jubilatorio
+dirigido a los empleadores y a los agentes del Sistema Nacional del
+Seguro de Salud, a fin de que tomen oportuno conocimiento del
+otorgamiento del beneficio jubilatorio y que puedan adoptar las
+decisiones que les competen respecto del vínculo laboral y de la
+cobertura sanitaria.
+
+Que el Título XII - Régimen de los Servicios Privados de Movilidad de
+Personas y/o Reparto que utilizan plataformas tecnológicas de la Ley de
+Modernización Laboral N° 27.802 regula, de manera específica y
+autónoma, la actividad de los prestadores independientes que ofrecen
+servicios a través de plataformas tecnológicas, vínculos expresamente
+excluidos del ámbito de aplicación de la Ley de Contrato de Trabajo N°
+20.744 (t.o. 1976) y sus modificaciones, por el inciso f) de su
+artículo 2°; y que, en atención a la naturaleza predominantemente
+logística y de movilidad de las principales actividades alcanzadas por
+dicho régimen, y en ejercicio de la facultad conferida por el artículo
+127 de la referida Ley N° 27.802, corresponde designar a la SECRETARÍA
+DE TRANSPORTE del MINISTERIO DE ECONOMÍA como Autoridad de Aplicación
+del referido Régimen, en función de su competencia material y sus
+capacidades técnicas regulatorias específicas; mientras que la
+SECRETARÍA DE TRABAJO, EMPLEO Y SEGURIDAD SOCIAL del MINISTERIO DE
+CAPITAL HUMANO será la Autoridad de Aplicación de los convenios
+colectivos que puedan surgir en el marco de dicha actividad.
+
+Que el artículo 137 de la citada Ley N° 27.802 prevé, entre otras
+cuestiones, la convocatoria a renegociación de las convenciones
+colectivas de trabajo vencidas, lo que demanda fijar criterios
+administrativos uniformes que identifiquen los supuestos de vencimiento
+y encaucen el procedimiento, particularmente respecto de aquellos
+convenios que no consignaren un plazo cierto de vigencia o una fecha
+expresa de vencimiento, conforme lo exige el inciso e) del artículo 3°
+de la Ley N° 14.250 (t.o. 2004) y sus modificaciones.
+
+Que en cuanto al régimen reglamentario de la Ley N° 14.250 (t.o. 2004)
+y su modificaciones, deviene necesario precisar la legitimación de las
+asociaciones de empleadores y cámaras empresarias para participar en
+las negociaciones colectivas, precisando umbrales objetivos de
+representatividad y previendo mecanismos de integración del ámbito de
+aplicación cuando la convención resulte aplicable en más de una
+jurisdicción, a fin de asegurar la efectiva participación del sector
+empleador y la legitimidad de los acuerdos alcanzados.
+
+Que, a fin de asegurar el respeto de los límites previstos en el
+artículo 9° de la Ley N° 14.250, resulta necesario establecer criterios
+claros para su aplicación, disponiendo el cómputo global del conjunto
+de las cláusulas obligacionales que establezcan aportes,
+contribuciones, cuotas, retenciones, fondos o cualquier otra carga
+económica o institucional en favor de las partes signatarias o de entes
+vinculados, a fin de evitar que la fragmentación entre conceptos o
+beneficiarios permita exceder el límite legal y que la denominación que
+las partes asignen a una cláusula altere su naturaleza jurídica.
+
+Que, a su vez, deviene necesario reglamentar lo atinente al ámbito de
+la negociación colectiva, a fin de establecer reglas que promuevan
+mayor representatividad de todas las partes involucradas,
+reestableciendo el equilibrio y racionalidad, evitando distorsiones que
+puedan afectar la sustentabilidad del sistema y la generación de empleo
+formal.
+
+Que el carácter sectorial y de alcance nacional de la negociación
+colectiva vigente no refleja las diferencias de productividad entre
+regiones, fijando condiciones uniformes calibradas sobre la base de
+actividades concentradas en los principales centros productivos, lo que
+afecta la competitividad y la posibilidad de generar empleo formal en
+regiones de menor productividad relativa, tornando necesario adecuar el
+régimen reglamentario a un esquema más federal que se adapte a las
+realidades regionales.
+
+Que, en igual sentido, la reglamentación de aspectos vinculados a las
+asociaciones sindicales se orienta a fortalecer la transparencia,
+ampliar la representatividad en los diversos ámbitos, la
+verificabilidad de la representación y el funcionamiento democrático,
+en línea con los principios de modernización institucional.
+
+Que en el marco del régimen reglamentario de la Ley N° 23.551 y sus
+modificaciones, corresponde adecuar el Decreto N° 467/88, exigiendo una
+proporcionalidad razonable entre los integrantes de los cuerpos
+directivos y el número de afiliados cotizantes, fortaleciendo la
+verificación cruzada de las nóminas de afiliados con los registros del
+SISTEMA INTEGRADO PREVISIONAL ARGENTINO (SIPA) y demás bases públicas
+pertinentes, y precisando el umbral cuantitativo -al menos un CINCO POR
+CIENTO (5 %) adicional de afiliados cotizantes- para resolver supuestos
+de superposición en el otorgamiento de la personería gremial.
+
+Que, en igual sentido, resulta procedente actualizar las pautas
+relativas al ejercicio del crédito horario sindical, asegurando su
+compatibilidad con la continuidad operativa del establecimiento; los
+recaudos para tener por postulado al trabajador como candidato a cargos
+sindicales y su oponibilidad al empleador, así como los supuestos en
+los que el empleador puede requerir judicialmente la suspensión o
+exclusión de la tutela sindical prevista en el artículo 52 de la citada
+ley, en línea con las modificaciones introducidas por la mencionada Ley
+N° 27.802.
+
+Que en relación con el régimen de asignaciones familiares de los
+trabajadores comprendidos en los artículos 16 y 17 de la Ley del
+Régimen de Trabajo Agrario N° 26.727 y sus modificaciones, corresponde
+adecuar el artículo 5° de la Reglamentación de dicha ley, aprobada por
+el artículo 1° del Decreto N° 301/13 a fin de unificar el tratamiento
+de las prestaciones, requisitos, montos y topes con el régimen general
+previsto en el inciso a) del artículo 1° de la Ley N° 24.714, sus
+normas modificatorias y complementarias.
+
+Que la reglamentación vigente de las Empresas de Servicios Eventuales
+conforme el Decreto N° 1694/06 ha quedado desactualizada, generando
+incertidumbre respecto de los requisitos de funcionamiento y las
+condiciones aplicables a los trabajadores; al tiempo que limita de
+manera desproporcionada los supuestos en los que pueden prestarse tales
+servicios, afectando las oportunidades laborales asociadas a esta
+modalidad de contratación.
+
+Que, asimismo, la exigencia de constituir garantías sustanciales desde
+el inicio de la actividad, con prescindencia de la cantidad de
+trabajadores y de la dimensión de la empresa, puede generar efectos
+desproporcionados respecto de operadores de menor escala, por lo que se
+estima necesario adecuar su alcance mediante criterios de
+proporcionalidad y gradualidad que optimice su implementación y
+aseguren la efectiva cobertura de las obligaciones laborales.
+
+Que, en consecuencia, es oportuno adecuar y modernizar la
+reglamentación del régimen de las Empresas de Servicios Eventuales al
+nuevo marco legal vigente, transparentar su funcionamiento,
+determinando con claridad los supuestos de aplicación y las
+responsabilidades ante los organismos de la Seguridad Social, derogando
+en consecuencia el Decreto N° 1694/06.
+
+Que el régimen establecido por la Ley N° 22.250 y su modificatoria,
+reglamentado por el Decreto N° 1342/81, ha estructurado históricamente
+un sistema registral sectorial actualmente en cabeza del INSTITUTO DE
+ESTADÍSTICA Y REGISTRO DE LA INDUSTRIA DE LA CONSTRUCCIÓN (IERIC). Sin
+embargo, la evolución de los sistemas de administración laboral,
+tributaria y de la seguridad social torna necesario avanzar hacia
+esquemas integrados de registración que permitan mayor eficiencia,
+trazabilidad y disponibilidad de la información, evitando duplicaciones
+y superposiciones normativas.
+
+Que la centralización de los datos en la AGENCIA DE RECAUDACIÓN Y
+CONTROL ADUANERO (ARCA), organismo descentralizado actuante en la
+órbita del MINISTERIO DE ECONOMÍA, posibilita la unificación de
+registros, la simplificación de trámites y la reducción de cargas
+administrativas para los empleadores, al tiempo que fortalece los
+mecanismos de fiscalización y control, la detección de situaciones de
+informalidad laboral y mejora la protección de los trabajadores en
+materia de seguridad social.
+
+Que por ello deviene necesario disponer que el INSTITUTO DE ESTADÍSTICA
+Y REGISTRO DE LA INDUSTRIA DE LA CONSTRUCCIÓN (IERIC) adecue sus
+sistemas y normativa a fin de reconocer como válidos los registros
+efectuados por la AGENCIA DE RECAUDACIÓN Y CONTROL ADUANERO (ARCA),
+limite su intervención a funciones complementarias de intercambio de
+información y actúe transitoriamente como canal de recepción y remisión
+de datos hasta la plena implementación del sistema integrado.
+
+Que las adecuaciones dispuestas tienden a asegurar una aplicación
+efectiva, razonable y sostenible del sistema implementado, evitando
+dificultades en su implementación y facilitando su cumplimiento.
+
+Que, asimismo, resulta procedente disponer la derogación de los
+artículos 6°, 7°, 8° y 11 de la Reglamentación de la Ley del Régimen de
+Trabajo Agrario N° 26.727 aprobada por el artículo 1° del Decreto N°
+301/13 y de los artículos 9° y 12 del Decreto N° 199/88, a fin de
+armonizar el plexo normativo con las modificaciones introducidas por la
+Ley de Modernización Laboral N° 27.802 y eliminar disposiciones que han
+devenido incompatibles, redundantes o desactualizadas.
+
+Que la presente medida se inscribe en una política pública integral
+tendiente a modernizar el régimen laboral argentino, alineado con
+prácticas contemporáneas, que promuevan la formalización del empleo y
+generen condiciones propicias para el desarrollo económico sostenible.
+
+Que han tomado la intervención que les compete los servicios de asesoramiento jurídico pertinentes.
+
+Que la presente medida se dicta en uso de las facultades conferidas por
+el artículo 99, incisos 1 y 2 de la CONSTITUCIÓN NACIONAL.
+
+Por ello,
+
+EL PRESIDENTE DE LA NACIÓN ARGENTINA
+
+DECRETA:
+
+ARTÍCULO 1°.- Apruébase la Reglamentación de los artículos 52, 103 bis,
+105, inciso f) del artículo 132, 140, 210, 240, 241 y 252 de la Ley de
+Contrato de Trabajo N° 20.744 (t.o. 1976) y sus modificaciones, que
+como ANEXO I (IF-2026-53626853-APN-STEYSS#MCH) y ANEXO III
+(IF-2026-53626708-APN-STEYSS#MCH) forman parte integrante del presente
+decreto.
+
+ARTÍCULO 2°.- Apruébase la Reglamentación de Empresas de Servicios
+Eventuales, de acuerdo con lo establecido en la Ley de Contrato de
+Trabajo N° 20.744 (t.o. 1976) y sus modificaciones y la Ley N° 24.013 y
+sus modificaciones, que como ANEXO II (IF-2026-53626789-APN-STEYSS#MCH)
+forma parte integrante del presente decreto.
+
+ARTÍCULO 3°.- Desígnase como Autoridad de Aplicación del Régimen de los
+Servicios Privados de Movilidad de Personas y/o Reparto que utilizan
+plataformas tecnológicas previsto en el TÍTULO XII de la Ley de
+Modernización Laboral N° 27.802, a la SECRETARÍA DE TRANSPORTE del
+MINISTERIO DE ECONOMÍA, y la SECRETARÍA DE TRABAJO, EMPLEO Y SEGURIDAD
+SOCIAL del MINISTERIO DE CAPITAL HUMANO, cada uno en el marco de sus
+competencias conforme lo establecido en el artículo 127 de dicha norma.
+
+ARTÍCULO 4°.- A los fines exclusivos de lo dispuesto en el artículo 137
+de la Ley de Modernización Laboral N° 27.802, la Autoridad de
+Aplicación considerará vencidos los Convenios Colectivos de Trabajo
+cuyo plazo de vigencia originalmente consignado hubiera expirado.
+
+En los supuestos en que los Convenios Colectivos de Trabajo no
+consignen una fecha expresa de vencimiento o bien no se consigne un
+período de vigencia, conforme lo exigido por el artículo 3° inciso e)
+de la Ley N° 14.250 (t. o. 2004) y sus modificaciones, la Autoridad de
+Aplicación podrá, al solo efecto de instrumentar la convocatoria
+prevista en el citado artículo 137, tomar como fecha de referencia el
+31 de diciembre de 2026.
+
+Asimismo, la Autoridad de Aplicación podrá prescindir de las
+previsiones convencionales relativas a la prórroga de vigencia, sin que
+ello implique alterar la validez o aplicabilidad de las cláusulas
+convencionales.
+
+Lo dispuesto en el presente artículo se limita a establecer criterios
+de aplicación administrativa a los fines de la implementación de la
+norma legal.
+
+Instrúyese a la SECRETARÍA DE TRABAJO, EMPLEO Y SEGURIDAD SOCIAL del
+MINISTERIO DE CAPITAL HUMANO a que, dentro del plazo de TREINTA (30)
+días contados desde la entrada en vigencia del presente decreto, inicie
+el procedimiento de convocatoria previsto en el referido artículo 137
+de la Ley de Modernización Laboral N° 27.802.
+
+ARTÍCULO 5°.- Sustitúyese el artículo 2° del Decreto N° 199 del 15 de febrero de 1988 por el siguiente:
+
+“Art. 2°.- (Artículo 2° de la Ley N° 14.250, t. o. 2004). Se
+considerarán legitimadas para participar en las negociaciones
+colectivas, las asociaciones de empleadores y cámaras empresarias que
+acrediten representación suficiente en el ámbito personal y territorial
+de que se trate, la que no podrá ser inferior al DIEZ POR CIENTO (10 %)
+de los trabajadores comprendidos en dicho ámbito.
+
+Cuando la convención colectiva resulte aplicable en más de una
+jurisdicción, la autoridad de aplicación podrá admitir hasta DOS (2)
+representaciones adicionales del sector empleador correspondiente a
+dichas jurisdicciones, cuando ello resulte necesario para la adecuada
+integración del ámbito de representación.
+
+En el caso de los consorcios de propietarios, su representación podrá ser ejercida por las asociaciones que los agrupen”.
+
+ARTÍCULO 6°.- Sustitúyese el artículo 6° del Decreto N° 199 del 15 de febrero de 1988 por el siguiente:
+
+“Art. 6°.- (Artículo 6° de la Ley N° 14.250, t.o. 2004). Se incluyen
+dentro de las cláusulas obligacionales aquellas que establezcan
+aportes, contribuciones, cuotas, retenciones, fondos o cualquier otra
+carga económica o institucional, en favor de las partes signatarias o
+de entes , asociaciones, fondos, institutos o estructuras creadas,
+sostenidas o administradas por disposiciones convencionales, cualquiera
+sea su denominación, estructura o integración, aun cuando resultaren
+admisibles o exigibles conforme a disposiciones convencionales
+específicas o prevean prestaciones accesorias o instrumentales para los
+trabajadores o empleadores comprendidos.
+
+La denominación o calificación que las partes asignen a una cláusula no podrá alterar su naturaleza jurídica”.
+
+ARTÍCULO 7°.- Incorpórase como artículo 6° bis al Decreto N° 199 del 15 de febrero de 1988 el siguiente texto:
+
+“Art. 6° bis.- (Artículo 9° de la Ley N° 14.250, t.o. 2004). Toda
+Convención Colectiva que, en la entrada en vigencia del presente
+decreto, contenga cláusulas que establezcan aportes, contribuciones,
+cuotas, retenciones, fondos o cualquier otra carga económica en favor
+de las partes signatarias o de entes colectivos, cualquiera sea su
+denominación e integración, y exceda los límites dispuestos por el
+artículo 9° de la ley que se reglamenta, deberá ser readecuada.
+
+Los límites legales previstos por el artículo 9° se computarán en forma
+global respecto del conjunto de cargas económicas impuestos por la
+convención colectiva, sin que su fragmentación entre distintos
+conceptos o beneficiarios permita exceder el límite legal.
+
+A los fines exclusivos del cálculo de los límites previstos en el
+citado artículo 9°, la base de cálculo estará constituida por el
+salario básico convencional correspondiente a la categoría del
+trabajador.
+
+En las convenciones colectivas que, en la entrada en vigencia del
+presente decreto, contengan cláusulas obligacionales, individualmente
+y/o en conjunto, superen el límite legal que le resulte aplicable, el
+pago efectuado hasta el tope global aplicable liberará al obligado al
+pago, en la medida de ese límite, y sin perjuicio de la obligación de
+las partes de proceder a la readecuación correspondiente.
+
+No serán homologadas ni registradas las convenciones colectivas que excedan dichos límites.
+
+Los aportes, contribuciones y cualquier otro concepto, en los términos
+del primer párrafo del artículo 9° de la mencionada Ley N° 14.250, de
+conformidad con el Decreto N° 149 del 28 de febrero de 2025, siempre
+que no excedan del tope solo serán obligatorias para aquellas empresas
+que estén afiliadas a las mismas”.
+
+ARTÍCULO 8°.- Incorpórase como primer párrafo del artículo 10 de la
+Reglamentación de la Ley N° 23.551 y sus modificaciones aprobada por el
+Decreto N° 467 del 14 de abril de 1988 y sus modificatorios el
+siguiente texto:
+
+“Los cuerpos directivos de las asociaciones sindicales estarán
+integrados por una cantidad de miembros que no exceda una razonable
+proporcionalidad con el número de afiliados cotizantes”.
+
+ARTÍCULO 9°.- Sustitúyese el artículo 19 de la Reglamentación de la Ley
+N° 23.551 y sus modificaciones aprobada por el Decreto N° 467 del 14 de
+abril de 1988 y sus modificatorios por el siguiente:
+
+“Art. 19. - (Artículo 21 de la ley) - A los efectos del cumplimiento de
+lo dispuesto en el inciso a) del artículo 21 de la Ley N° 23.551 y sus
+modificatorias, la asociación sindical peticionante deberá adjuntar
+copia certificada o testimonio de su Acta Constitutiva y declaración
+jurada del patrimonio de la misma.
+
+La lista de afiliados deberá indicar, respecto de cada trabajador, los
+datos de su empleador, establecimiento, categoría y ámbito de
+prestación.
+
+La Autoridad de Aplicación verificará dichos extremos mediante consulta
+a los registros del SISTEMA INTEGRADO PREVISIONAL ARGENTINO (SIPA) y
+demás bases públicas pertinentes.
+
+La falta de concordancia sustancial entre la nómina denunciada y las
+constancias verificadas impedirá tener por acreditado el recaudo legal.
+
+Las presentaciones se realizarán por medios electrónicos, constituyéndose domicilio especial electrónico”.
+
+ARTÍCULO 10.- Incorpórase como artículo 20 bis de la Reglamentación de
+la Ley N° 23.551 y sus modificaciones aprobada por el Decreto N° 467
+del 14 de abril de 1988 y sus modificatorios el siguiente texto:
+
+“Art. 20 bis. - (Artículo 25 inciso c) de la ley) - Cuando la
+asociación peticionante sea del tipo definido en el inciso c) del
+artículo 10 de la ley, a los efectos de acreditar la cantidad promedio
+de los trabajadores que intente representar, deberá adjuntar a su
+petición una certificación emitida por la respectiva empresa
+empleadora, en la que indique la cantidad promedio mensual de
+trabajadores dependientes de la misma correspondiente a los SEIS (6)
+meses anteriores a la petición”.
+
+ARTÍCULO 11.- Sustitúyese el artículo 21 de la Reglamentación de la Ley
+N° 23.551 y sus modificaciones aprobada por el Decreto N° 467 del 14 de
+abril de 1988 y sus modificatorios por el siguiente:
+
+“Art. 21. - (Artículo 28 de la ley) - Cuando DOS (2) asociaciones
+tuvieran igual zona de actuación, la asociación que pretenda la
+personería gremial deberá superar a la que con anterioridad la posea,
+como mínimo en el CINCO (5 %) por ciento de sus afiliados cotizantes.
+
+La autoridad administrativa deberá dictar resolución dentro de los CUARENTA Y CINCO (45) días de iniciado el procedimiento”.
+
+ARTÍCULO 12.- Incorpórase como artículo 21 bis de la Reglamentación de
+la Ley N° 23.551 y sus modificaciones aprobada por el Decreto N° 467
+del 14 de abril de 1988 y sus modificatorios el siguiente texto:
+
+“Art. 21 bis. - (Artículo 29 de la ley) - A los efectos de acreditar
+los afiliados cotizantes con los que cuenta, la asociación sindical
+peticionante podrá presentar además de su libro de registro de
+afiliados:
+
+a. Las facturas por ella emitidas como comprobantes de pago de la cuota de afiliación de sus miembros; o
+
+b. los recibos de haberes de sus afiliados, previstos en el artículo
+140 de la Ley de Contrato de Trabajo N° 20.744 (t.o. 1976) y sus
+modificaciones, emitidos por la correspondiente empresa empleadora, en
+donde conste la retención de la cuota de afiliación en favor de la
+peticionante; o
+
+c. otras certificaciones fehacientes a tal efecto, emitidas por la correspondiente empresa empleadora de sus afiliados”.
+
+ARTÍCULO 13 - Sustitúyese el artículo 28 de la Reglamentación de la Ley
+N° 23.551 y sus modificaciones aprobada por el Decreto N° 467 del 14 de
+abril de 1988 y sus modificaciones por el siguiente:
+
+“Art. 28. - (Artículo 44 inc. c) de la ley) - El crédito de horas
+mensuales deberá ejercerse de modo compatible con la continuidad
+operativa del establecimiento, y no podrá afectar sectores críticos de
+la explotación o del servicio. Su utilización deberá ser comunicada al
+empleador con una antelación razonable, no menor a CUARENTA Y OCHO (48)
+horas.
+
+El crédito horario no podrá acumularse ni cederse”.
+
+ARTÍCULO 14.- Sustitúyese el artículo 29 de la Reglamentación de la Ley
+N° 23.551 y sus modificaciones aprobada por el Decreto N° 467 del 14 de
+abril de 1988 y sus modificatorios por el siguiente:
+
+“Art. 29. - (Artículo 50 de la ley) - El trabajador se tendrá por
+postulado como candidato, desde que el órgano sindical hubiere recibido
+la lista respectiva, con las formalidades necesarias para su
+oficialización.
+
+La asociación sindical deberá comunicar al empleador dicha
+circunstancia en forma fehaciente, con indicación del nombre y apellido
+del trabajador, documento, cargo al que se postula, lista,
+establecimiento y fecha de recepción de la presentación. Hasta tanto
+dicha comunicación no se produzca, la postulación no será oponible al
+empleador.
+
+La asociación sindical emitirá certificado de la recepción de la candidatura al candidato que lo solicitare.
+
+La falta de oficialización definitiva de la candidatura, así como la
+obtención de un número de votos inferior al CINCO POR CIENTO (5 %) de
+los votos válidos emitidos, cuando ello quedare firme, producirá el
+cese de la protección prevista en el artículo 50 de la ley que se
+reglamenta desde su notificación fehaciente al empleador”.
+
+ARTÍCULO 15.- Sustitúyese el artículo 30 de la Reglamentación de la Ley
+N° 23.551 y sus modificaciones aprobada por el Decreto N° 467 del 14 de
+abril de 1988 y sus modificatorios por el siguiente:
+
+“Art. 30 - (Artículo 52 de la ley) La medida cautelar prevista por el
+artículo 52, segundo párrafo, podrá ser requerida por el empleador en
+momento en que surja o mientras perdure un peligro potencial para las
+personas, se desempeñen o no en la empresa (trabajadores, consumidores,
+proveedores, usuarios, etc.), los bienes ya sean estos materiales o
+inmateriales, usados, consumidos, producidos u ofrecidos por la empresa
+o el eficaz funcionamiento de ésta, siempre que dicho peligro se evite
+o reduzca con la suspensión de la prestación laboral del titular de la
+garantía de estabilidad.
+
+Cuando una asociación sindical dejare de incluir dentro del ámbito de
+su personería gremial a una empresa o establecimiento, quienes fueron
+oportunamente electos como representantes sindicales en esa empresa o
+establecimiento, dejarán de cumplir las funciones previstas en los
+artículos 40 y 43 de la citada ley; sin perjuicio de la subsistencia de
+la tutela que a dichos representantes les otorga el tercer párrafo del
+artículo 48 de dicha norma”.
+
+ARTÍCULO 16.- Sustitúyese el artículo 5° de la Reglamentación de la Ley
+del Régimen de Trabajo Agrario N° 26.727 y sus modificaciones aprobada
+por el artículo 1° del Decreto N° 301 del 21 de marzo de 2013 por el
+siguiente:
+
+“ARTÍCULO 5°.- (Reglamentación de los artículos 16 y 17). Las
+asignaciones familiares correspondientes a los trabajadores encuadrados
+en los artículos 16 y 17 de la Ley del Régimen de Trabajo Agrario N°
+26.727 y sus modificaciones se regirán, en cuanto a prestaciones,
+requisitos, montos y topes, por lo establecido en el inciso a) del
+artículo 1° de la Ley N° 24.714, sus normas modificatorias y
+complementarias”.
+
+ARTÍCULO 17.- A los fines dispuestos en el artículo 155 de la Ley de
+Modernización Laboral N° 27.802, respecto de los trabajadores
+comprendidos en la Ley N° 22.250 y su modificatoria, el alta, baja y
+modificación de los datos de la relación laboral se efectuará ante la
+AGENCIA DE RECAUDACIÓN Y CONTROL ADUANERO (ARCA), organismo
+descentralizado actuante en la órbita del MINISTERIO DE ECONOMÍA,
+conforme a los alcances, procedimientos y medios tecnológicos que dicha
+Agencia establezca, poniendo a disposición de los organismos, entidades
+y cualquier autoridad en materia de Trabajo y Seguridad Social, la
+información obrante en sus registros.
+
+ARTÍCULO 18.- Sustitúyese el artículo 3° del Decreto N° 1342 del 17 de septiembre de 1981 por el siguiente:
+
+“Art. 3° - (Artículo 155 de la Ley 27.802) - La constancia fehaciente
+de la registración laboral del trabajador comprendido en la Ley N°
+22.250 será la que surja de los sistemas que establezca la AGENCIA DE
+RECAUDACIÓN Y CONTROL ADUANERO (ARCA), organismo descentralizado
+actuante en la órbita del MINISTERIO DE ECONOMÍA, conforme a la
+normativa que dicho organismo dicte”.
+
+ARTÍCULO 19.- Sustitúyese el inciso 2) del artículo 4° del Decreto N° 1342 del 17 de septiembre de 1981 por el siguiente:
+
+“2) La fecha de registración laboral del trabajador que surja de los
+sistemas de la AGENCIA DE RECAUDACIÓN Y CONTROL ADUANERO (ARCA),
+organismo descentralizado actuante en la órbita del MINISTERIO DE
+ECONOMÍA”.
+
+ARTÍCULO 20.- Incorpórase como artículo 1° bis del Decreto N° 1309 del 20 de noviembre de 1996, el siguiente texto:
+
+“Artículo 1° bis - Quedan excluidas de la transferencia de competencias
+efectuada al INSTITUTO DE ESTADÍSTICA Y REGISTRO DE LA INDUSTRIA DE LA
+CONSTRUCCIÓN (IERIC), por el artículo precedente, las relativas a la
+registración laboral - altas, bajas, modificaciones y demás anotaciones
+registrales- de los trabajadores comprendidos en el régimen de la Ley
+N° 22.250 y su modificatoria, las que serán ejercidas por la AGENCIA DE
+RECAUDACIÓN Y CONTROL ADUANERO (ARCA), de conformidad con lo dispuesto
+por el artículo 155 de la Ley N° 27.802”.
+
+ARTÍCULO 21.- Instrúyese a la AGENCIA DE RECAUDACIÓN Y CONTROL ADUANERO
+(ARCA), organismo descentralizado actuante en la órbita del MINISTERIO
+DE ECONOMÍA, para que, dentro del plazo de CIENTO VEINTE (120) días,
+adecue sus sistemas e implemente los mecanismos de intercambio de
+información necesarios con el INSTITUTO DE ESTADÍSTICA Y REGISTRO DE LA
+INDUSTRIA DE LA CONSTRUCCIÓN (IERIC).
+
+Dentro del mismo plazo, dicho Instituto deberá adecuar sus sistemas y
+normativa interna a lo dispuesto en el artículo 155 de la Ley N°
+27.802, reconociendo como válidos y suficientes los requisitos de
+registración establecidos por la referida Agencia y poniendo a
+disposición de ésta la información obrante en sus registros.
+
+Hasta tanto la AGENCIA DE RECAUDACIÓN Y CONTROL ADUANERO (ARCA)
+habilite la operatoria respectiva, el INSTITUTO DE ESTADÍSTICA Y
+REGISTRO DE LA INDUSTRIA DE LA CONSTRUCCIÓN (IERIC) actuará como canal
+transitorio de recepción y remisión de la información correspondiente.
+
+ARTÍCULO 22.- Deróganse los artículos 9° y 12 del Decreto 199 del 15 de
+febrero de 1988, los artículos 6°, 7°, 8° y 11 de la Reglamentación de
+la Ley del Régimen de Trabajo Agrario N° 26.727 y sus modificaciones
+aprobada por el artículo 1° del Decreto N° 301 del 21 de marzo de 2013
+y el Decreto N° 1694 del 22 de noviembre de 2006.
+
+ARTÍCULO 23.- El presente decreto entrará en vigencia el día de su publicación en el BOLETÍN OFICIAL.
+
+ARTÍCULO 24.- Comuníquese, publíquese, dese a la DIRECCIÓN NACIONAL DEL REGISTRO OFICIAL y archívese.
+
+MILEI - Manuel Adorni - E/E Federico Adolfo Sturzenegger - Luis Andres Caputo
+
+NOTA: El/los Anexo/s que integra/n este(a) Decreto se publican en la edición web del BORA -www.boletinoficial.gob.ar-
+
+e. 01/06/2026 N° 36992/26 v. 01/06/2026.
+
+(Nota
+Infoleg:
+Los anexos referenciados en la presente norma han sido extraídos de la
+edición web de Boletín Oficial)
+
+ANEXO I
+
+Reglamentación de los artículos 52,
+103 bis, 105, inciso f) del artículo 132, 140, 210, 240, 241 y 252 de
+la Ley de Contrato de Trabajo N° 20.744 (t.o. 1976) y sus
+modificaciones.
+
+ARTÍCULO 1°.- Reglaméntase el artículo 52 de la Ley de Contrato de
+Trabajo N° 20.744 (t.o. 1976) y sus modificaciones conforme el
+siguiente texto:
+
+“A partir de la entrada en vigencia de la Ley de Modernización Laboral
+N° 27.802, la obligación de registración de las relaciones laborales
+prevista en el artículo 52 de la Ley de Contrato de Trabajo N° 20.744
+(t.o. 1976) y sus modificaciones se cumplirá mediante el alta y baja de
+los trabajadores en los sistemas habilitados por la AGENCIA DE
+RECAUDACIÓN Y CONTROL ADUANERO (ARCA).
+
+Dicha registración será suficiente a todos los efectos legales, no
+pudiendo exigirse requisitos adicionales por parte de otras autoridades
+administrativas.
+
+No será exigible a los empleadores llevar libros laborales en soporte físico ni digital.”.
+
+ARTÍCULO 2°.- Reglaméntase el artículo 103 bis de la Ley de Contrato de
+Trabajo N° 20.744 (t.o. 1976) y sus modificaciones conforme el
+siguiente texto:
+
+“El beneficio social previsto en el inciso a) del artículo 103 bis de
+la citada Ley N° 20.744 y sus modificaciones correspondiente a los
+servicios gastronómicos fuera del establecimiento, solo podrá
+instrumentarse mediante prestación o provisión solventada directamente
+por el empleador, y no podrá ser sustituido ni compensado en dinero u
+otro medio de pago a favor del trabajador.
+
+Su cuantía no podrá exceder, en cada mes calendario, del CUARENTA POR
+CIENTO (40 %) del Salario Mínimo Vital y Móvil vigente en el período
+por el que se hayan otorgado los referidos conceptos."
+
+ARTÍCULO 3°.- Reglaméntase el artículo 105 de la Ley de Contrato de
+Trabajo N° 20.744 (t.o. 1976) y sus modificaciones conforme el
+siguiente texto:
+
+“A los fines de lo dispuesto en el inciso b) del artículo 105 de la Ley
+de Contrato de Trabajo N° 20.744 (t.o. 1976) y sus modificaciones,
+fíjese en el CINCO POR CIENTO (5 %) de la remuneración bruta anual del
+trabajador el límite máximo aplicable.”
+
+ARTÍCULO 4°.- Reglaméntase el inciso f) del artículo 132 de la Ley de
+Contrato de Trabajo N° 20.744 (t.o. 1976) y sus modificaciones conforme
+el siguiente texto:
+
+“El BANCO CENTRAL DE LA REPÚBLICA ARGENTINA dictará las normas
+complementarias y aclaratorias y ejercerá la supervisión del
+cumplimiento de lo previsto en el inciso f) del artículo 132 de la Ley
+de Contrato de Trabajo N° 20.744 (t.o. 1976), y sus modificaciones, en
+el ámbito de sus competencias.”
+
+ARTÍCULO 5°.- Reglaméntase el artículo 140 de la Ley de Contrato de
+Trabajo N° 20.744 (t.o. 1976) y sus modificaciones conforme el
+siguiente texto:
+
+“El recibo de haberes previsto en el artículo 140 de la Ley de Contrato
+de Trabajo N° 20.744 (t.o. 1976) y sus modificaciones, deberá
+estructurarse en CUATRO (4) secciones claramente diferenciadas:
+
+a) datos del empleador, con su número de CUIT, datos
+del trabajador con su número de CUIL, fecha de ingreso, antigüedad y
+categoría, fecha y lugar de pago de las cargas sociales, conforme a lo
+dispuesto en los incisos a), b), d) e i) del artículo 140 de la Ley de
+Contrato de Trabajo N° 20.744 (t.o. 1976) y sus modificaciones;
+
+b) detalle de las contribuciones y/o conceptos
+abonados por el empleador por disposición legal o convencional,
+conforme al inciso j) del artículo 140 de la citada Ley N° 20.744;
+
+c) total de la remuneración bruta que perciba junto
+con su determinación y las deducciones correspondientes, conforme a los
+incisos c), e) y f) del artículo 140 de la mencionada Ley N° 20.744; y
+
+d) remuneración neta conforme el inciso g) de la referida Ley N° 20.744.
+
+Los conceptos deberán consignarse con indicación clara de su base de cálculo, unidad de medida y monto resultante.
+
+Cuando se abonen sumas globales, destinadas a la totalidad o a un
+conjunto de trabajadores, deberán prorratearse en forma proporcional en
+cada recibo individual.
+
+La suma total de los conceptos abonados por el empleador deberá
+consignarse en forma previa a la determinación del monto bruto a
+percibir por el trabajador.
+
+Adicionalmente, en el anverso del recibo deberá incorporarse un resumen
+de la composición total del costo laboral, con discriminación de los
+conceptos a cargo del empleador, agrupados, como mínimo, en los
+siguientes rubros: a) sindical; b) seguridad social; c) obra social; d)
+I.N.S.S.J.P.; e) A.R.T.; f) cámaras o entidades empresariales; g) otros
+rubros.
+
+El recibo deberá respetar el formato y contenido previsto en el modelo
+que como Anexo III forma parte integrante de la presente medida."
+
+ARTÍCULO 6°.- Reglaméntase el artículo 210 de la Ley de Contrato de
+Trabajo N° 20.744 (t.o. 1976) y sus modificaciones conforme el
+siguiente texto:
+
+“Toda prescripción que incluya la indicación de reposo laboral, deberá
+contener el diagnóstico médico, el tratamiento y la cantidad de días de
+reposo indicados, y ser emitida electrónicamente mediante sistema de
+información o plataforma digital debidamente registrada en el REGISTRO
+NACIONAL DE PLATAFORMAS DIGITALES SANITARIAS (ReNaPDiS) y suscrita por
+profesional habilitado ante la RED FEDERAL DE REGISTROS DE
+PROFESIONALES DE LA SALUD (REFEPS). Excepcionalmente, en los supuestos
+de falta de conectividad, contingencias técnicas o caída de los
+sistemas informáticos debidamente acreditadas, podrá admitirse la
+emisión de certificados médicos en soporte papel con firma ológrafa del
+profesional interviniente, conforme los requisitos previstos en la
+normativa sanitaria vigente y en la Resolución del MINISTERIO DE SALUD
+N° 1959/2024, en todo cuanto resulte aplicable.
+
+En caso de discrepancia insalvable entre el diagnóstico inicial y el
+control médico efectuado por el empleador, las partes podrán:
+
+a) recurrir a una junta médica en una institución oficial, en aquellas
+jurisdicciones en las que la autoridad administrativa hubiere
+habilitado esta opción; o
+
+b) requerir dictamen en institutos públicos o privados. A los fines de
+este artículo, se considerarán institutos de reconocida trayectoria y
+solvencia técnica, aquellos que se encuentren inscriptos en el REGISTRO
+FEDERAL DE ESTABLECIMIENTOS DE SALUD creado por la Resolución del
+MINISTERIO DE SALUD N° 1070 del 26 de junio de 2009, por un período
+mínimo y continuado de CINCO (5) años.
+
+Instrúyese al MINISTERIO DE SALUD para que, dentro del plazo de TREINTA
+(30) días desde la publicación del presente decreto, implemente las
+acciones correspondientes a fin de establecer las condiciones técnicas
+y operativas necesarias para que las plataformas prescriptoras permitan
+la redacción de texto libre, con el objeto de documentar el certificado
+médico correspondiente. Asimismo, para que dentro del plazo de SESENTA
+(60) días, desde la publicación del presente decreto, efectúe las
+acciones correspondientes a fin de aprobar el procedimiento relativo a
+la intervención de los institutos públicos nacionales en el ámbito de
+su competencia.”
+
+ARTÍCULO 7°.- Reglaméntase el artículo 240 de la Ley de Contrato de
+Trabajo N° 20.744 (t.o. 1976) y sus modificaciones conforme el
+siguiente texto:
+
+“La SECRETARÍA DE TRABAJO, EMPLEO Y SEGURIDAD SOCIAL del MINISTERIO DE
+CAPITAL HUMANO dictará las normas complementarias y aclaratorias a fin
+de implementar el procedimiento para la formalización de la renuncia
+del trabajador ante la autoridad administrativa del trabajo, incluyendo
+su registro y notificación fehaciente al empleador.”
+
+ARTÍCULO 8°.- Reglaméntase el artículo 241 de la Ley de Contrato de
+Trabajo N° 20.744 (t.o. 1976) y sus modificaciones conforme el
+siguiente texto:
+
+“Los acuerdos de extinción del contrato de trabajo presentados ante la
+autoridad administrativa del trabajo en los términos del artículo 241
+de la Ley de Contrato de Trabajo N° 20.744 (t.o. 1976) y sus
+modificaciones podrán ser homologados en los términos del artículo 15
+de la citada ley, previa verificación de su legalidad, la inexistencia
+de vicios del consentimiento y la adecuada composición de los intereses
+de las partes.”
+
+ARTÍCULO 9°.- Reglaméntase el artículo 252 de la Ley de Contrato de
+Trabajo N° 20.744 (t.o. 1976) y sus modificaciones conforme el
+siguiente texto:
+
+“Instrúyese a la ADMINISTRACIÓN NACIONAL DE LA SEGURIDAD SOCIAL
+(ANSES), organismo descentralizado actuante en la órbita de la
+SUBSECRETARÍA DE SEGURIDAD SOCIAL de la SECRETARÍA DE TRABAJO, EMPLEO Y
+SEGURIDAD SOCIAL del MINISTERIO DE CAPITAL HUMANO a implementar un
+sistema de notificación del inicio y de la finalización del trámite
+jubilatorio, dirigido a los empleadores y a los agentes del Sistema
+Nacional del Seguro de Salud, a fin de que tomen conocimiento del
+otorgamiento del beneficio jubilatorio, conforme lo previsto en el
+artículo 252 de la Ley de Contrato de Trabajo N° 20.744 (t.o. 1976) y
+sus modificaciones.”
+
+IF-2026-53626853-APN-STEYSS#MCH
+
+ANEXO II
+
+Reglamentación de las empresas
+dedicadas a la prestación de servicios eventuales, en los términos de
+los artículos 29 y 29 bis de la Ley de Contrato de Trabajo N° 20.744
+(t.o. 1976) y sus modificaciones y los artículos 77, 78, 79 y 80 de la
+Ley N° 24.013 y sus modificaciones.
+
+ARTÍCULO 1°.- La registración laboral efectuada por Empresas de
+Servicios Eventuales conforme el artículo 52 de la Ley de Contrato de
+Trabajo N° 20.744 (t.o. 1976) y sus modificaciones producirá efectos
+plenos en materia laboral y de seguridad social.
+
+El pago de las cargas sociales efectuadas en las condiciones
+establecidas por los artículos 29 y 29 bis de la citada Ley N° 20.744
+tendrá efectos cancelatorios de las respectivas obligaciones.
+
+ARTÍCULO 2°.- Se considera Empresa de Servicios Eventuales a la entidad
+que, constituida como persona jurídica tenga por objeto exclusivo poner
+a disposición de terceras personas —en adelante empresas usuarias— a
+personal para cualquier actividad económica.
+
+ARTÍCULO 3°.- Los contratos de trabajo que realicen las Empresas de
+Servicios Eventuales con personal discontinuo deberán indicar que la
+prestación de sus servicios se hará en el marco de una “Empresa de
+Servicios Eventuales”.
+
+ARTÍCULO 4°.- Los trabajadores que presten servicios en forma
+permanente para la Empresa de Servicios Eventuales en su sede,
+filiales, agencias u oficinas, serán considerados vinculados por un
+contrato de trabajo permanente continuo, pudiéndose utilizar también
+las modalidades previstas en el Título III de la Ley de Contrato de
+Trabajo N° 20.744 (t.o. 1976) y sus modificaciones, en caso de
+corresponder.
+
+Los trabajadores que la Empresa de Servicios Eventuales contrate para
+prestar servicios bajo la modalidad de trabajo eventual, serán
+considerados vinculados a la Empresa de Servicios Eventuales mediante
+contrato de trabajo permanente discontinuo.
+
+A todos los trabajadores dependientes de la Empresa de Servicios
+Eventuales, ya sea que presten servicios continuos o discontinuos, les
+serán de aplicación toda disposición legal, estatutaria, convencional,
+laboral y de la seguridad social vigente.
+
+Los aportes y contribuciones a la seguridad social respecto de los
+trabajadores permanentes discontinuos se efectuarán de acuerdo a la
+legislación aplicable en la empresa usuaria. En este sentido, respecto
+de esos trabajadores serán de aplicación a la Empresa de Servicios
+Eventuales las reducciones de contribuciones patronales que
+correspondan en la empresa usuaria o cliente como consecuencia de los
+programas de promoción de empleo actuales o que se dispongan en el
+futuro, sean estos Nacionales, Provinciales o Municipales.
+
+ARTÍCULO 5°.- Cuando la relación de trabajo entre la Empresa de
+Servicios Eventuales y el trabajador fuere permanente y discontinua, la
+prestación de servicios deberá sujetarse a las siguientes condiciones:
+
+a) Se entenderá celebrado a prueba durante el plazo establecido en el
+artículo 92 bis de la Ley de Contrato de Trabajo N° 20.744 (t.o. 1976)
+y sus modificaciones , debiéndose computar a esos efectos los períodos
+efectivamente trabajados en las diferentes empresas usuarias, no
+computándose los períodos de suspensión de tareas.
+
+b) El período de suspensión entre las asignaciones para prestar
+servicios bajo la modalidad eventual en las empresas usuarias, no podrá
+superar los CUARENTA Y CINCO (45) días corridos, ampliables a SESENTA
+(60) días corridos por acuerdo de partes, o los NOVENTA (90) días
+alternados en UN (1) año aniversario.
+
+c) El nuevo destino de trabajo que otorgue la Empresa de Servicios
+Eventuales podrá comprender otra actividad o convenio colectivo sin
+menoscabo de los derechos correspondientes del trabajador.
+
+d) El nuevo destino de trabajo que otorgue la Empresa de Servicios
+Eventuales podrá modificar el régimen horario, pero el trabajador no
+estará obligado a aceptar un trabajo nocturno o insalubre. El contrato
+laboral deberá especificar si el trabajador aceptará trabajo a tiempo
+total, parcial o ambos.
+
+e) El trabajador no estará obligado a aceptar un trabajo situado fuera
+de un radio de TREINTA (30) kilómetros de su domicilio, ampliables a
+CINCUENTA (50) kilómetros por acuerdo de partes al inicio de la
+relación de trabajo.
+
+f) Durante el período de suspensión, previsto en el inciso b) del
+presente, la Empresa de Servicios Eventuales deberá notificar
+fehacientemente al trabajador su nuevo destino laboral, informándole
+nombre y domicilio de la empresa usuaria donde deberá presentarse a
+prestar servicios, categoría laboral, régimen de remuneraciones y
+horario de trabajo.
+
+g) Transcurrido el plazo máximo de suspensión sin que la Empresa de
+Servicios Eventuales hubiera asignado al trabajador nuevo destino, éste
+podrá denunciar el contrato de trabajo, previa intimación en forma
+fehaciente por un plazo de VEINTICUATRO (24) horas, haciéndose
+acreedor, en caso de resultar ésta desoída, de las indemnizaciones que
+correspondan por despido sin justa causa y por falta de preaviso.
+
+h) En caso de que la Empresa de Servicios Eventuales hubiese asignado
+al trabajador nuevo destino laboral en forma fehaciente, y el mismo no
+retome sus tareas en el término de DOS (2) días hábiles de notificado,
+la Empresa de Servicios Eventuales podrá denunciar el contrato de
+trabajo en los términos y condiciones previstos en el artículo 244 de
+la Ley de Contrato de Trabajo Nº 20.744 (t.o. 1976) y sus
+modificaciones.
+
+ARTÍCULO 6°.- La Empresa de Servicios Eventuales podrá asignar
+trabajadores a las empresas usuarias solo en los siguientes casos:
+
+a) Cuando deba organizar o participar en congresos, conferencias, ferias, exposiciones o eventos empresariales y/o sociales.
+
+b) Ante la ausencia de un trabajador permanente, durante ese período.
+
+c) En caso de licencias o suspensiones legales o convencionales,
+durante el período en que se extiendan, excepto cuando la suspensión
+sea producto de fuerza mayor, falta o disminución de trabajo en los
+términos del artículo 219 de la Ley de Contrato de Trabajo N° 20.744
+(t.o. 1976) y sus modificaciones.
+
+d) Cuando se verifique un incremento en la actividad de la empresa
+usuaria que requiera, en forma ocasional y por un periodo limitado, un
+mayor número de trabajadores. Se considerará comprendido en este
+supuesto el incremento derivado de la incorporación de nuevas
+tecnologías, procedimientos, sistemas, servicios y/o productos y la
+reorganización de las actividades, en la medida que tales
+circunstancias generen necesidades transitorias de personal.
+
+e) Cuando se requiera la ejecución inaplazable de un trabajo para
+prevenir accidentes, por medidas de seguridad urgente o para reparar
+equipos del establecimiento, instalaciones o edificios que hagan
+peligrar a los trabajadores o a terceros, siempre que las tareas no
+puedan ser realizadas por personal regular de la empresa usuaria.
+
+f) En general, ante necesidades extraordinarias o transitorias ajenas al giro normal y habitual de la empresa usuaria.
+
+Los requerimientos a que se refiere el presente artículo deberán
+respetar una cantidad razonable y justificada de trabajadores
+eventuales en relación con el número de trabajadores permanente de la
+empresa usuaria, como así también una extensión temporal adecuada de
+trabajadores eventuales con los servicios eventuales a brindar.
+
+ARTÍCULO 7°.- Los trabajadores discontinuos contratados por la Empresa
+de Servicios Eventuales no podrán percibir salarios menores a los
+salarios mínimos legales y/o convencionales que correspondan a la
+actividad o categoría en la que efectivamente preste el servicio
+contratado. Asimismo, dichos trabajadores deberán recibir una
+remuneración equivalente a la que cobra el personal fijo de la usuaria
+del servicio en la misma categoría laboral y antigüedad.
+
+ARTÍCULO 8°.- Las empresas de servicios eventuales abonarán en forma
+directa las obligaciones derivadas de los regímenes de la Seguridad
+Social, las cuotas sindicales a los sindicatos que correspondan y las
+retenciones legales aplicables a la actividad de la empresa usuaria.
+
+ARTÍCULO 9°.- Las Empresas de Servicios Eventuales deberán inscribirse
+ante la SECRETARÍA DE TRABAJO, EMPLEO Y SEGURIDAD SOCIAL del MINISTERIO
+DE CAPITAL HUMANO mediante un sistema simple, electrónico y gratuito.
+
+Los requisitos para la inscripción serán los siguientes:
+
+a) Ser persona jurídica constituida bajo algún tipo de figura societaria, de acuerdo con el régimen legal vigente.
+
+b) Constituir las garantías a las que se refiere el artículo 10 del presente Anexo.
+
+c) Constituir domicilio en la sede de su administración el que surtirá
+efectos respecto de los trabajadores, las empresas usuarias, la
+Autoridad de Aplicación y demás organismos fiscales y de la seguridad
+social.
+
+d) Acreditar las inscripciones impositivas y de la seguridad social.
+
+La inscripción se realizará una sola vez al inicio de la actividad.
+Será obligación de las empresas inscriptas mantener vigente y
+actualizada la información declarada.
+
+No se impondrán otros requisitos u obligaciones que no se encuentren contempladas en el presente.
+
+Las Empresas de Servicios Eventuales quedarán habilitadas para iniciar
+sus actividades una vez transcurridos QUINCE (15) días hábiles
+administrativos desde la presentación de la solicitud de inscripción,
+siempre que la Autoridad de Aplicación no hubiere formulado
+observaciones o efectuado requerimientos de subsanación dentro de dicho
+plazo.
+
+La inscripción así obtenida constituirá habilitación suficiente para el
+desarrollo de la actividad, sin perjuicio de las facultades de
+verificación y control posterior.
+
+Durante el plazo indicado, la Autoridad de Aplicación podrá requerir
+información adicional o la subsanación de incumplimientos, en cuyo caso
+se suspenderá el cómputo del plazo hasta su cumplimiento.
+
+En el caso de que la Empresa de Servicios Eventuales no dé cumplimiento
+a alguno de los requisitos previstos en el presente decreto, la
+SECRETARÍA DE TRABAJO, EMPLEO Y SEGURIDAD SOCIAL del MINISTERIO DE
+CAPITAL HUMANO podrá revocar o suspender de oficio su habilitación. La
+revocación y/o suspensión deberá ser notificada y publicada en el
+portal web correspondiente, previo procedimiento que asegure el
+adecuado derecho de defensa. “
+
+ARTÍCULO 10.- Al momento de inscribirse, las Empresas de Servicios
+Eventuales deberán constituir una garantía principal y una garantía
+accesoria a favor de la SECRETARÍA DE TRABAJO, EMPLEO Y SEGURIDAD
+SOCIAL del MINISTERIO DE CAPITAL HUMANO.
+
+Monto de la garantía principal. La garantía principal tendrá un monto
+de CATORCE MIL (14.000) Unidades de Valor Adquisitivo (UVA), aplicable
+a toda Empresa de Servicios Eventuales.
+
+Monto de la garantía accesoria. El monto de la garantía accesoria se
+determinará en función de la cantidad de trabajadores eventuales
+efectivamente contratados, excluyendo a aquellos que hayan optado por
+el sistema de fondo de cese laboral contemplado en el artículo 96 de la
+Ley N° 27.742, conforme a la siguiente escala progresiva:
+
+a) Por cada trabajador eventual adicional contratado por sobre
+los TREINTA (30) y hasta los CIEN (100) trabajadores:
+CIEN (100) UVA adicionales.
+
+b) Por cada trabajador eventual adicional contratado por sobre los CIEN
+(100) trabajadores: SETENTA Y CINCO (75) UVA adicionales.
+
+Instrumentos de constitución. La garantía principal y accesoria podrá
+constituirse, a elección de la Empresa de Servicios Eventuales,
+mediante alguno de los siguientes instrumentos, todos los cuales
+deberán ser pagaderos a primer requerimiento y tener vigencia mínima de
+DOCE (12) meses:
+
+a) Depósito en caución de dinero en efectivo. Los depósitos en caución
+de dinero en efectivo deberán constituirse en un depósito indexado por
+UNIDAD DE VALOR ADQUISITIVO (UVA) en una entidad financiera autorizada
+por el BANCO CENTRAL DE LA REPÚBLICA ARGENTINA (BCRA).
+
+b) Depósito de valores o títulos públicos nacionales. La equivalencia
+de los valores o títulos públicos nacionales se determinará según su
+valor de cotización de mercado en la BOLSA DE COMERCIO DE BUENOS AIRES
+o en el MERCADO ARGENTINO DE VALORES S. A. o en el mercado donde
+cotizan, a la época de constituirse la garantía. Los intereses y
+rendimientos que devenguen pertenecerán a la Empresa de Servicios
+Eventuales depositante;
+
+c) Constitución de una garantía real cuya valuación, a la fecha de
+constitución de la garantía, sea igual o superior al importe que
+garantice.
+
+d) Aval bancario o Póliza de seguro de caución emitida por entidad autorizada por la SUPERINTENDENCIA DE SEGUROS DE LA NACIÓN.
+
+La garantía podrá ser constituida directamente por la Empresa de
+Servicios Eventuales o por un tercero, con la única limitación de que
+dicho tercero no podrá ser, bajo ningún concepto, una empresa usuaria
+que contrate o haya contratado los servicios de la Empresa de Servicios
+Eventuales constituyente.
+
+El bien sobre el que se pretenda constituir la garantía real no deberá
+tener otro gravamen y su titular debe estar libre de inhibiciones.
+
+El monto de ambas garantías se ajustará cada DOCE (12) meses, computado
+desde la fecha de su constitución original, considerando la cantidad de
+trabajadores eventuales contratados al momento del ajuste, acreditada
+mediante declaración jurada, sobre la base del promedio mensual de
+trabajadores eventuales del ejercicio inmediato anterior y el valor de
+la Unidad de Valor Adquisitivo.
+
+Si durante el ejercicio el plantel superara en más de un VEINTICINCO
+POR CIENTO (25%) el umbral del tramo declarado, la Empresa de Servicios
+Eventuales deberá comunicarlo a la Autoridad de Aplicación dentro de
+los TREINTA (30) días corridos y ajustar la garantía accesoria al nuevo
+nivel correspondiente.
+
+La Empresa de Servicios Eventuales podrá sustituir el instrumento de
+las garantías por otro de los previstos, siempre que el instrumento
+sustituto se encuentre constituido y vigente antes de la liberación del
+anterior.
+
+ARTÍCULO 11.- En el supuesto de que la Empresa de Servicios Eventuales
+no reajustara la garantía correspondiente en el plazo previsto, será
+intimada por la Autoridad de Aplicación para su cumplimiento en un
+plazo no mayor de DIEZ (10) días, bajo apercibimiento de cancelar su
+habilitación para funcionar.
+
+Vencido ese plazo sin que la Empresa de Servicios Eventuales haya
+presentado en legal forma los instrumentos constitutivos de la nueva
+garantía, la avalista o aseguradora deberá, previa intimación,
+depositar en caución antes de que se opere el vencimiento de la
+garantía a favor de la SECRETARÍA DE TRABAJO, EMPLEO Y SEGURIDAD SOCIAL
+del MINISTERIO DE CAPITAL HUMANO, en dinero en efectivo, valores o
+títulos públicos nacionales, las sumas totales de la garantía. La
+equivalencia de los valores o títulos públicos nacionales se
+determinará conforme a lo establecido en el artículo 10 del presente.
+De no cumplir con esta obligación quedará expedita la vía ejecutiva.
+
+ARTÍCULO 12.- Si, con motivo del ajuste anual de la garantía previsto
+en el artículo 10 del presente Anexo, el valor actualizado de los
+depósitos constituidos en UNIDADES DE VALOR ADQUISITIVO (UVA), valores
+o títulos públicos nacionales excediera el monto de garantía exigible
+conforme al referido artículo, el excedente será restituido sin
+necesidad de trámite adicional.
+
+ARTÍCULO 13.- En caso de cese de actividades de la Empresa de Servicios
+Eventuales o de cancelación de su habilitación en el Registro, la
+empresa podrá solicitar la restitución de los valores o títulos
+públicos nacionales depositados en caución.
+
+Para esto deberá solicitar la baja de la habilitación y cumplir con los siguientes recaudos:
+
+a) Acompañar declaración jurada en la que conste: fecha de cesación de
+actividades, nómina del personal ocupado, haber abonado la totalidad de
+las remuneraciones e indemnizaciones, detalle de los Sindicatos, Obras
+Sociales y regímenes de la Seguridad Social en las que se encuentren
+comprendidas las actividades desarrolladas.
+
+b) Acompañar certificados de libre deuda o constancia equivalente
+otorgados por la AGENCIA DE RECAUDACIÓN Y CONTROL ADUANERO (ARCA), en
+relación con sus obligaciones con destino a la seguridad social.
+
+c) Publicación de Edictos por el término de CINCO (5) días en el
+Boletín Oficial y en el Provincial que corresponda a las áreas
+geográficas de actuación, emplazando a los acreedores laborales y de la
+seguridad social, por el término de QUINCE (15) días corridos. Estas
+publicaciones deberán ser efectuadas por el interesado.
+
+d) No tener juicios laborales en trámite. A tal efecto, la SECRETARÍA
+DE TRABAJO, EMPLEO Y SEGURIDAD SOCIAL del MINISTERIO DE CAPITAL HUMANO
+deberá oficiar a los tribunales que entiendan en la materia laboral
+correspondiente a las áreas geográficas de actuación a fin de que
+informen si la empresa que requiere su cancelación tiene juicios
+laborales o de la seguridad social pendientes.
+
+e) No tener anotados embargos o cualquier otra medida cautelar. En caso
+de que la empresa peticionante se halle afectada por un embargo
+ejecutorio o preventivo o cualquier otra medida cautelar, no le será
+restituida la parte de los valores depositados en caución afectados por
+dicha medida o las garantías o avales caucionados de no ser suficientes
+aquéllos, salvo aceptación judicial de sustitución de embargo.
+
+f) No haber sido sancionada con la cancelación de habilitación para
+funcionar. En este supuesto, se procederá conforme lo establece el
+artículo 80 de la Ley N° 24.013 y sus modificaciones.
+
+ARTÍCULO 14.- Cumplidos todos los requisitos establecidos en este
+decreto y no existiendo otros impedimentos, la Autoridad de Aplicación
+autorizará la restitución de los valores, títulos públicos nacionales y
+la liberación o cancelación de los avales y garantías otorgadas en
+caución dentro del plazo de TREINTA (30) días.
+
+ARTÍCULO 15.- Para que proceda la asignación del remanente de la
+caución al Fondo Nacional de Empleo prevista en el artículo 80 de la
+Ley N° 24.013 y sus modificaciones, cuando la Empresa de Servicios
+Eventuales haya sido sancionada con la cancelación, deberán cumplirse
+los siguientes requisitos:
+
+a) Haber transcurrido el plazo de NOVENTA (90) días desde que la cancelación de la habilitación se encuentre firme.
+
+b) Una vez vencido el plazo a que se refiere el inciso anterior, la
+SECRETARÍA DE TRABAJO, EMPLEO Y SEGURIDAD SOCIAL del MINISTERIO DE
+CAPITAL HUMANO oficiará a los tribunales que entiendan en materia
+laboral correspondientes a las áreas geográficas de actuación, a fin de
+que informen si la empresa tiene juicios en trámite.
+
+Si de las respuestas surgiera la inexistencia de juicios pendientes, se
+publicarán edictos por UN (1) día en el BOLETIN OFICIAL y en el
+Provincial que corresponda al área o áreas geográficas de actuación.
+Cumplido sin que se presenten acreedores, se procederá a la asignación
+del remanente en forma inmediata.
+
+En caso de existir juicios pendientes se dispondrá del remanente cuando
+hayan concluido y el tribunal que intervenga otorgue certificado en el
+que conste que la parte actora fue desinteresada de las acreencias que
+emanan de la sentencia dictada o, en su caso, que nada tiene que
+reclamar en la causa.
+
+c) La solicitud de informes relativos a los créditos de la seguridad
+social, se cumplirá con una requisitoria a los entes recaudadores que
+correspondan.
+
+ARTÍCULO 16.- La SECRETARÍA DE TRABAJO, EMPLEO Y SEGURIDAD SOCIAL del
+MINISTERIO DE CAPITAL HUMANO será la autoridad competente para la
+habilitación, cancelación y fiscalización de las Empresas de Servicios
+Eventuales en todo lo referido a las condiciones de trabajo de los
+trabajadores vinculados por contrato permanente discontinuo.
+
+ARTÍCULO 17.- Los incumplimientos al presente decreto se regirán por el
+Anexo II del Pacto Federal del Trabajo, ratificado por la Ley N° 25.212
+y sus modificatorias, conforme el procedimiento previsto en la Ley N°
+18.695 y sus modificatorias.
+
+Los sindicatos correspondientes a las actividades respectivas que utilicen trabajadores de servicios eventuales podrán:
+
+a) Recibir denuncias o pedidos de convocatoria de cualquiera de sus
+integrantes, a los fines de analizar si los servicios denunciados se
+ajustan a las pautas del presente decreto y, en su caso, dar
+intervención a la Autoridad de Aplicación del mismo;
+
+b) Solicitar y recibir informes de la inspección de trabajo sobre los relevamientos efectuados y sobre sus resultados;
+
+c) Procurar arribar a fórmulas de acuerdo en las controversias que voluntariamente le sean sometidas.
+
+ARTÍCULO 18.- La prestación de servicios a favor de una empresa usuaria
+de personal provisto por una empresa de servicios eventuales no
+habilitada por la SECRETARÍA DE TRABAJO, EMPLEO Y SEGURIDAD SOCIAL del
+MINISTERIO DE CAPITAL HUMANO, hará de aplicación las disposiciones del
+artículo 29 de la Ley de Contrato de Trabajo N° 20.744 (t.o. 1976) y
+sus modificaciones.
+
+En tales supuestos, la SECRETARÍA DE TRABAJO, EMPLEO Y SEGURIDAD SOCIAL
+del MINISTERIO DE CAPITAL HUMANO o la AGENCIA DE RECAUDACIÓN Y CONTROL
+ADUANERO (ARCA) podrán requerir a la empresa usuaria el cumplimiento de
+las obligaciones que al empleador le imponen los distintos regímenes de
+la seguridad social, exclusivamente respecto de aquellas devengadas
+durante el tiempo de efectiva prestación de los trabajadores
+proporcionados para la empresa usuaria.
+
+ARTÍCULO 19.- Ante toda iniciación de un expediente administrativo o
+judicial donde se denuncie la actuación de una entidad como Empresa de
+Servicios Eventuales sin estar habilitada por la SECRETARÍA DE TRABAJO,
+EMPLEO Y SEGURIDAD SOCIAL del MINISTERIO DE CAPITAL HUMANO, la
+autoridad a cargo deberá cursar una notificación a la Autoridad de
+Aplicación.
+
+En caso de que se verifique, el funcionamiento de una Empresa de
+Servicios Eventuales sin estar habilitada por la SECRETARÍA DE TRABAJO,
+EMPLEO Y SEGURIDAD SOCIAL del MINISTERIO DE CAPITAL HUMANO, ésta deberá
+intimar a la Empresa, bajo apercibimiento de imposición de las
+sanciones previstas en el artículo 17 del presente Anexo, por un plazo
+de QUINCE (15) días, a cumplir con todas las disposiciones de este
+decreto y, en caso de subsanación, procederá con su habilitación.
+
+IF-2026-53626789-APN-STEYSS#MCH
+
+ANEXO III
+
+El recibo de sueldo deberá ajustarse al modelo previsto en el presente anexo.
+
+IF-2026-53626708-APN-STEYSS#MCH

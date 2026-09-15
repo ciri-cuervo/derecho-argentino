@@ -1,0 +1,289 @@
+Ley 15.513 - Reforma del proceso de alimentos (CPCCBA)
+==============================================================================
+Jurisdiccion:     pba
+Fuente:           https://normas.gba.gob.ar/documentos/BLaA8kIQ.html
+Descargado:       2026-09-14
+SHA-256 (crudo):  43473671e5767a3504b5a05613263a4e1ec88c39a2f72a69b09be8af73b3fa3b
+Charset:          UTF-8
+
+Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
+NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
+Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+el manifiesto `normas.json`.
+==============================================================================
+
+Ley 15513
+
+LEY 15513
+
+
+
+EL SENADO Y CÁMARA DE DIPUTADOS DE LA PROVINCIA DE BUENOS AIRES SANCIONAN CON FUERZA DE
+
+
+
+LEY
+
+
+
+ARTÍCULO 1°: Modifícase el artículo 396 del Decreto Ley 7425/68 -Código Procesal Civil y Comercial de la Provincia de Buenos Aires- por el siguiente texto:
+
+
+
+“ARTÍCULO 396: Recaudos y plazos para la contestación. Las oficinas públicas no podrán establecer recaudos o requisitos para los oficios sin previa aprobación por el Poder Ejecutivo, ni otros aranceles que los que determinen las leyes, decretos u ordenanzas.
+
+
+
+Deberán contestar el pedido de informes o remitir el expediente dentro de veinte (20) días hábiles y las entidades privadas dentro de diez (10) días hábiles, salvo que la providencia que lo haya ordenado hubiere fijado otro plazo en razón de la naturaleza del juicio o de circunstancias especiales. En los procesos de alimentos, el plazo para las oficinas públicas será de siete (7) días hábiles y para las entidades privadas de cinco (5) días hábiles.”
+
+
+
+ARTÍCULO 2°: Incorpórase el inciso 7° al artículo 521 del Decreto Ley 7425/68 -Código Procesal Civil y Comercial de la Provincia de Buenos Aires- con el siguiente texto:
+
+
+
+“ARTÍCULO 521: Títulos ejecutivos. Los títulos que traen aparejada ejecución son los siguientes:
+
+
+
+1°) El instrumento público presentado en forma.
+
+
+
+2°) El instrumento privado suscripto por el obligado, reconocido judicialmente o cuya firma estuviese certificada por escribano con intervención del obligado y registrada la certificación en el protocolo o libro de requerimientos.
+
+
+
+3°) La confesión de deuda líquida y exigible prestada ante el juez competente para conocer en la ejecución.
+
+
+
+4°) La cuenta aprobada o reconocida como consecuencia del procedimiento establecido en el artículo 523.
+
+
+
+5°) La letra de cambio, factura conformada, vale o pagaré, el cheque y la constancia del saldo deudor de cuenta corriente bancaria, cuando tuvieren fuerza ejecutiva de conformidad con las disposiciones del Código de Comercio o ley especial.
+
+
+
+6°) El crédito por alquileres o arrendamientos de inmuebles.
+
+
+
+7°) El convenio de alimentos no homologado judicialmente que no reúna las condiciones establecidas en el inciso 2°) en los siguientes casos: I. que cuente con firma certificada judicialmente, o por autoridad administrativa competente, con intervención del obligado. II. que haya tenido principio de ejecución debidamente acreditado.
+
+
+
+8°) Los demás títulos que tuvieren fuerza ejecutiva por ley y no estén sujetos a un procedimiento especial.”
+
+
+
+ARTÍCULO 3°: Modifícase el artículo 524 del Decreto Ley 7425/68 -Código Procesal Civil y Comercial de la Provincia de Buenos Aires- por el siguiente texto:
+
+
+
+“ARTÍCULO 524: Citación del deudor. La citación al demandado para que efectúe el reconocimiento de su firma se hará en la forma prescripta en los artículos 338 y 339, bajo apercibimiento de que si no compareciere o no contestare categóricamente, se tendrá por reconocido el documento, o por confesados los hechos en los demás casos.
+
+
+
+El citado deberá comparecer personalmente y formular la manifestación ante el juez. Dicha manifestación no podrá ser reemplazada por un escrito.
+
+
+
+Si el citado no compareciere, o no probare justa causa de inasistencia, se hará efectivo inexcusablemente el apercibimiento y se procederá como si el documento hubiere sido reconocido por el deudor personalmente, o hubiese confesado los hechos, en los demás casos.
+
+
+
+En el caso de los convenios de alimentos sin homologación judicial, se deberá dar vista además al Ministerio Público a fin de que se expida de acuerdo a las previsiones del Código Civil y Comercial de la Nación.”
+
+
+
+ARTÍCULO 4°: Modifícase el artículo 534 del Decreto Ley 7425/68 -Código Procesal Civil y Comercial de la Provincia de Buenos Aires- por el siguiente texto:
+
+
+
+“ARTÍCULO 534: Límites y modalidades de la ejecución. Durante el curso del proceso de ejecución de la sentencia, el juez podrá de oficio o a pedido de parte, y si las circunstancias así lo aconsejaren, fijar una audiencia para que comparezcan ejecutante y ejecutado con el objeto de establecer la forma más rápida y eficaz de satisfacer el crédito, procurando evitar perjuicios innecesarios.
+
+
+
+A esta audiencia deberán comparecer las partes personalmente, y se celebrará con la que concurra. No podrá señalarse una nueva con el mismo objeto, ni tampoco podrá el ejecutado promover posteriormente incidentes por causas anteriores que no fueron invocadas en dicha audiencia.
+
+
+
+En los casos de los convenios de alimentos no homologados en sede judicial, el juez debe dar vista al Ministerio Público a fin de que se expida de acuerdo a las previsiones del Código Civil y Comercial de la Nación.”
+
+
+
+ARTÍCULO 5°: Modifícase el artículo 635 del Decreto Ley 7425/68 -Código Procesal Civil y Comercial de la Provincia de Buenos Aires- el que quedará redactado de la siguiente forma:
+
+
+
+“ARTÍCULO 635: Recaudos. La parte que promoviere juicio de alimentos deberá, en un mismo escrito:
+
+
+
+1°) Acreditar el título en cuya virtud los solicita.
+
+
+
+2°) Denunciar, siquiera aproximadamente, el caudal de quien deba suministrarlos, siendo suficiente la prueba indiciaria.
+
+
+
+3°) Acompañar toda la documentación que tuviere en su poder y que haga a su derecho, de acuerdo con lo dispuesto en el artículo 332.
+
+
+
+4°) Ofrecer la prueba de que intentare valerse.
+
+
+
+Si se ofreciese prueba testimonial, los testigos declararán en primera audiencia.”
+
+
+
+ARTÍCULO 6°: Incorpórase el artículo 635 bis al Decreto Ley 7425/68 -Código Procesal Civil y Comercial de la Provincia de Buenos Aires- el que quedará redactado de la siguiente forma:
+
+
+
+“ARTÍCULO 635 bis: Notificación. A petición de parte y sin perjuicio de lo dispuesto en el artículo 12 de la Ley N° 15.230 y sus normas reglamentarias, el juez podrá disponer, mediante resolución fundada, cuando los restantes medios de notificación no satisfagan el acto de anoticiamiento, que el traslado del inicio de la etapa previa, la demanda, y los documentos que se acompañen, la audiencia preliminar, la decisión que disponga la fijación de los alimentos provisorios en función de lo normado en el artículo 636 bis o cualquier otra citación o notificación a la demandada, sea realizada mediante la utilización del servicio de comunicación a través de aplicaciones o plataformas de mensajería instantánea, siempre que importe su primera intervención en el proceso según la reglamentación que realice la Suprema Corte de Justicia y el demandado no se encuentre inscripto en el Registro de Domicilios Electrónicos.
+
+
+
+Para su diligenciamiento, que se llevará a cabo con intervención del actuario, se utilizará el sistema de telefonía celular u otro medio o dispositivo de comunicación proporcionado por la Suprema Corte de Justicia, quien deberá garantizar la seguridad de la comunicación, la inalterabilidad del contenido del acto de anoticiamiento y el debido registro y resguardo documental de sus constancias.
+
+
+
+En el mismo acto de la notificación, se adjuntarán las copias de las constancias documentales digitalizadas que correspondan y de la resolución que deba notificarse, las que serán extraídas del sistema de gestión judicial de expedientes de la Suprema Corte de Justicia.
+
+
+
+La documentación incluirá una descripción explicativa, en términos claros y comprensibles, atendiendo a las particularidades y condiciones del sujeto destinatario, del contenido y finalidad de la notificación.
+
+
+
+Cumplido ello, el actuario procurará establecer una comunicación por vía telefónica con el destinatario, a fin de constatar la recepción de la notificación y la identidad del receptor de la información.
+
+
+
+Finalizado el acto, el actuario labrará un acta, detallando pormenorizadamente lo acontecido en la diligencia de notificación y su resultado, la que será incorporada al sistema de gestión judicial.
+
+
+
+En caso de utilizarse el sistema de telefonía celular, la parte actora denunciará el teléfono móvil del destinatario de la notificación, pudiendo acreditar la titularidad de la línea por medio informes a las entidades públicas y/o privadas que correspondieren. El resultado negativo de esta acreditación no obsta a la utilización de este medio de notificación.
+
+
+
+A los fines del cómputo de los plazos pertinentes, se tomará como fecha de notificación la correspondiente al acta labrada en el acto de diligenciamiento.”
+
+
+
+ARTÍCULO 7°: Incorpórase el artículo 636 bis al Decreto Ley 7425/68 -Código Procesal Civil y Comercial de la Provincia de Buenos Aires- el que quedará redactado de la siguiente manera:
+
+
+
+“ARTÍCULO 636 bis: Alimentos provisorios. Los alimentos provisorios deben fijarse en el primer auto, salvo que sean solicitados con posterioridad, en un plazo no mayor a cinco (5) días. Ante el incumplimiento del pago el juez aplicará la multa prevista en el inciso 1° del artículo 637 e informará al Registro de Deudores Alimentarios Morosos en los términos y condiciones establecidos en la Ley N° 13.074.
+
+
+
+Para la fijación de su cuantía será de aplicación lo dispuesto en el último párrafo del artículo 641.
+
+
+
+Asimismo, podrá ordenar cualquier otra medida razonable que garantice su efectividad y ejecución de lo resuelto en la sentencia.”
+
+
+
+ARTÍCULO 8°: Modifícase el artículo 637 del Decreto Ley 7425/68 -Código Procesal Civil y Comercial de la Provincia de Buenos Aires- el que quedará redactado de la siguiente manera:
+
+
+
+“ARTÍCULO 637: Incomparecencia injustificada del alimentante. Efectos. Cuando, sin causa justificada, la persona a quien se le requiriesen alimentos no compareciese a la audiencia prevista en el artículo anterior, en el mismo acto el juez dispondrá:
+
+
+
+1°) La aplicación de una multa, a favor de la otra parte, que se fijará entre un valor equivalente de diez (10) Jus y doscientos (200) Jus y cuyo importe deberá depositarse dentro del tercer día contado desde la fecha en que se notificó la providencia que la impuso. Su incumplimiento devengará una tasa de interés equivalente a la establecida en el artículo 552 del Código Civil y Comercial de la Nación.
+
+
+
+2°) La fijación de una nueva audiencia que tendrá lugar dentro del quinto día, la que se notificará con habilitación de día y hora, bajo apercibimiento de establecer la cuota alimentaria de acuerdo con las pretensiones de la parte actora y con las constancias del expediente.”
+
+
+
+ARTÍCULO 9°: Modifícase el artículo 641 del Decreto Ley 7425/68 -Código Procesal Civil y Comercial de la Provincia de Buenos Aires- el que quedará redactado de la siguiente manera:
+
+
+
+“ARTÍCULO 641: Sentencia. Monto de los alimentos. El plazo para dictar sentencia es de cinco (5) días de producida la prueba ofrecida por la parte actora y tiene efectos retroactivos a la fecha de interposición de la demanda o desde la interpelación al obligado por medio fehaciente, siempre que la demanda se hubiese interpuesto dentro de los seis (6) meses contados desde la interpelación. En caso de no haber mediado interpelación fehaciente o no haberse promovido la demanda en el plazo del párrafo anterior, los efectos de la sentencia se retrotraen a la fecha de inicio de la etapa previa o de la interposición de la demanda, la que fuese anterior.
+
+
+
+La sentencia determinará el monto total de la obligación alimentaria. Para la estimación del valor real de su cuantía, tratándose de alimentos que se reclamen en beneficios de menores de edad podrá tener en cuenta, entre otros elementos de mérito, el costo de la crianza que surge de la Canasta de Crianza de la Primera Infancia, la Niñez y la Adolescencia establecida por el Instituto Nacional de Estadísticas y Censos de la República Argentina (INDEC) o medición que adopte la provincia de Buenos Aires.”
+
+
+
+ARTÍCULO 10: Modifícase el artículo 642 del Decreto Ley 7425/68 -Código Procesal Civil y Comercial de la Provincia de Buenos Aires- el que quedará redactado de la siguiente manera:
+
+
+
+“ARTÍCULO 642: Alimentos devengados durante el proceso. Cuota suplementaria. Las cuotas devengadas hasta la sentencia serán consideradas para establecer el monto de una cuota suplementaria, la que se abonará en forma independiente.
+
+
+
+El juez debe fijar el importe teniendo en cuenta las necesidades de la persona alimentada, la cuantía de la deuda, la capacidad económica de la persona alimentante, atendiendo a lo establecido en el segundo párrafo del artículo 641.
+
+
+
+La parte condenada a pagar alimentos devengados puede solicitar su pago en cuotas.”
+
+
+
+ARTÍCULO 11: Modifícase el artículo 645 del Decreto Ley 7425/68 -Código Procesal Civil y Comercial de la Provincia de Buenos Aires- el que quedará redactado de la siguiente manera:
+
+
+
+“ARTÍCULO 645: Cumplimiento de la sentencia. Si dentro del quinto día de intimado el pago, la parte vencida no lo hubiere hecho efectivo, sin otra sustanciación se procederá al embargo y se decretará la venta de los bienes necesarios para cubrir el importe de la deuda. El juez debe ordenar la inscripción de la sentencia incumplida ante el Registro de Deudores Alimentarios Morosos en los términos y condiciones establecidos en la Ley N° 13.074, e informar para su sustitución o embargo a los organismos otorgantes de prestaciones de carácter asistencial, cualquiera sea su modalidad y a su vez puede instrumentar cualquier otra medida restrictiva. Asimismo, podrá ordenar cualquier otra medida razonable que garantice la efectividad y la ejecución de lo resuelto en la sentencia.”
+
+
+
+ARTÍCULO 12: Modifícase el artículo 646 del Decreto Ley 7425/68 -Código Procesal Civil y Comercial de la Provincia de Buenos Aires- el que quedará redactado de la siguiente manera:
+
+
+
+“ARTÍCULO 646: Divorcio. Cuando se tratase de alimentos debidos por el deber de asistencia entre cónyuges se sustanciará de acuerdo con las normas de este título.”
+
+
+
+ARTÍCULO 13: Modifícase el artículo 647 del Decreto Ley 7425/68 -Código Procesal Civil y Comercial de la Provincia de Buenos Aires- el que quedará redactado de la siguiente manera:
+
+
+
+“ARTÍCULO 647: Trámite para la modificación o cesación de los alimentos. Toda petición de aumento, disminución, cesación o coparticipación en los alimentos, se sustanciará por las normas de los incidentes, en el proceso en que fueron solicitados. Este trámite no interrumpirá la percepción de las cuotas ya fijadas. En el incidente de aumento de la cuota alimentaria, la nueva cantidad fijada rige desde la interposición del pedido o desde la solicitud de etapa previa, la que ocurra primero. En el caso del incidente de aumento las costas serán pagadas por la parte demandada.
+
+
+
+La disminución, cesación o coparticipación de la cuota rige desde que se dictó la sentencia que así lo dispone, la que tendrá efecto retroactivo respecto de los alimentos devengadas, pero no percibidas, excepto que la falta de percepción se haya debido a maniobras abusivas o dilatorias del alimentante.”
+
+
+
+ARTÍCULO 14: Modifícase el artículo 828 del Decreto Ley 7425/68 -Código Procesal Civil y Comercial de la Provincia de Buenos Aires- el que quedará redactado de la siguiente manera:
+
+
+
+“ARTÍCULO 828: Presentación. Toda persona que peticione por cualquiera de los supuestos enumerados en el artículo que antecede deberá presentarse, con patrocinio letrado, ante el Juez de Familia que corresponda, salvo que optare por hacerlo ante los Juzgados de Paz, en cuyo caso se estará a los procedimientos establecidos para los mismos.
+
+
+
+Serán radicados directamente ante el órgano jurisdiccional, los asuntos que no admiten demora o aquellos que, por su especial naturaleza, resulte improcedente la etapa previa. En ambos casos deberá mediar la decisión del juez en ese sentido. En esta etapa todas las actuaciones serán sin formalidades, con excepción de las resoluciones que dicte el Magistrado.
+
+
+
+En los procesos de obligación alimentaria, la parte actora tendrá opción de iniciar el reclamo mediante etapa previa o radicarlo ante el Juzgado de Familia o de Paz.
+
+
+
+ARTÍCULO 15: Comuníquese al Poder Ejecutivo.
+
+
+
+Dada en la Sala de Sesiones de la Honorable Legislatura de la Provincia de Buenos Aires, en la ciudad de La Plata, a los doce días del mes de diciembre de dos mil veinticuatro.

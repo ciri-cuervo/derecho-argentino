@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2560" height="56" viewBox="0 0 2560 56" role="img" aria-label="">
+  <line x1="0" y1="28" x2="2560" y2="28" stroke="#A8A29A" stroke-width="2"/>
+  <line x1="1120" y1="14" x2="1168" y2="42" stroke="#5B93C7" stroke-width="6"/>
+  <line x1="1184" y1="42" x2="1232" y2="14" stroke="#5B93C7" stroke-width="6"/>
+  <line x1="1248" y1="14" x2="1296" y2="42" stroke="#5B93C7" stroke-width="6"/>
+  <line x1="1312" y1="42" x2="1360" y2="14" stroke="#5B93C7" stroke-width="6"/>
+  <line x1="1376" y1="14" x2="1424" y2="42" stroke="#5B93C7" stroke-width="6"/>
+</svg>

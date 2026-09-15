@@ -1,0 +1,31 @@
+name: tests
+
+# El candado que no se puede saltear. El hook de herramientas/hooks/ corre lo mismo antes de
+# cada commit, pero es local, hay que instalarlo a mano y cede ante --no-verify; esto no.
+on:
+  push:
+  pull_request:
+
+jobs:
+  suites:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      # Los seis suites del checklist de docs/DESARROLLO.md, en el mismo orden.
+      # test_scripts.py comprueba que esta lista y la del checklist digan lo mismo.
+      - name: calculadoras y modulos
+        run: python3 argentina/skills/derecho-argentino/scripts/test_scripts.py
+      - name: frontera de licencia
+        run: python3 herramientas/test_frontera.py
+      - name: auditoria de fechas
+        run: python3 herramientas/test_auditoria.py
+      - name: medidor de deuda
+        run: python3 herramientas/test_pendientes.py
+      - name: reformas no leidas
+        run: python3 herramientas/test_reformas.py
+      - name: documentacion
+        run: python3 herramientas/test_markdown.py

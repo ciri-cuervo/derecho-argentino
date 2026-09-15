@@ -1,0 +1,121 @@
+Ley 15.230 PBA - Domicilio electronico y audiencias virtuales en el Sector Publico Provincial
+==============================================================================
+Jurisdiccion:     pba
+Fuente:           https://normas.gba.gob.ar/documentos/BjbXmDIy.html
+Descargado:       2026-09-14
+SHA-256 (crudo):  3c5fb3dea429bc771a343b5c6665ae9f9b89f4b66a8fc1c50985340d589fb26c
+Charset:          UTF-8
+
+Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
+NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
+Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+el manifiesto `normas.json`.
+==============================================================================
+
+Ley 15230
+
+LEY 15230
+
+
+
+Texto Actualizado con las modificaciones introducidas por Ley 15557
+
+
+
+EL SENADO Y CÁMARA DE DIPUTADOS DE LA PROVINCIA DE BUENOS AIRES SANCIONAN CON FUERZA DE
+
+
+
+LEY
+
+
+
+CAPÍTULO I.
+
+
+
+DOMICILIO ELECTRÓNICO
+
+
+
+ARTÍCULO 1°.- (Texto según Ley 15557) Facúltase al Sector Público Provincial a implementar la constitución de un domicilio electrónico en los procedimientos administrativos que determine. La reglamentación podrá limitar la obligación de constitución de domicilio electrónico a determinados sujetos, cuando fundadas circunstancias lo justifiquen.
+
+
+
+ARTÍCULO 2°.- El domicilio electrónico será implementado con carácter obligatorio y sustitutivo del domicilio real y constituido previstos en el artículo 24 del Decreto-Ley N° 7647/70, para los procedimientos administrativos que sean determinados, de conformidad a las formas de constitución, mantenimiento y denuncia que sean reglamentadas por el Poder Ejecutivo. En el caso de que el domicilio electrónico sea establecido de forma obligatoria, la reglamentación deberá contemplar su carácter optativo frente a situaciones en que se manifieste imposibilidad de cumplimiento.
+
+
+
+ARTÍCULO 3°.- El domicilio electrónico gozará de plena validez y eficacia jurídica y producirá en el ámbito administrativo los efectos del domicilio real y constituido previstos en el artículo 24 del Decreto-Ley N° 7647/70, siendo válidos y vinculantes las notificaciones electrónicas que allí se practiquen, a partir de la fecha en que se encuentren disponibles para su destinatario/a.
+
+
+
+ARTÍCULO 4°.- El sistema que se implemente deberá registrar las notificaciones electrónicas que se practiquen, y posibilitar la emisión de una constancia que acredite su existencia y materialidad. Dicha constancia, que se encontrará disponible para el/la emisor/a y el/la destinatario/a, constituirá prueba suficiente del aviso, citación, intimación, notificación y/o comunicación realizados, debiendo ser agregada al expediente.
+
+
+
+ARTÍCULO 5°.- Será responsabilidad de la persona interesada, su representante legal o persona apoderada acceder al domicilio electrónico con la periodicidad necesaria para tomar conocimiento de las notificaciones allí remitidas.
+
+
+
+ARTÍCULO 6°.- El sistema que se implemente podrá establecer que el/la titular del domicilio electrónico, a través de este, realice presentaciones por vía electrónica, incluyendo documentación, para ser agregada al expediente electrónico, los que tendrán iguales condiciones y eficacia jurídica que los presentados en soporte papel. La posibilidad de presentar documentación por vía electrónica, no releva el cumplimiento de las formalidades establecidas en el Decreto-Ley N° 7647/70. El Poder Ejecutivo reglamentará los requisitos para su implementación. El sistema deberá emitir constancia de fecha y hora de recepción de documentos, fehaciente, auténtica, inmodificable e indubitable.
+
+
+
+ARTÍCULO 7°.- La notificación que se hiciere en contravención a lo dispuesto en los artículos anteriores será nula, sin perjuicio de la responsabilidad en que incurriere el/la funcionario/a o empleado/a que la practique. Sin embargo, siempre que resultare de forma indudable que el/la interesado/a ha tenido conocimiento de lo notificado, la notificación surtirá sus efectos desde entonces.
+
+
+
+CAPÍTULO II.
+
+
+
+AUDIENCIAS VIRTUALES
+
+
+
+ARTÍCULO 8°.- Facúltase al Poder Ejecutivo a implementar un sistema de audiencias virtuales, en los procedimientos administrativos que determine, asegurando el cumplimiento de la finalidad perseguida por la presente norma, garantizando el debido proceso, y la seguridad, confidencialidad, integridad, gratuidad y accesibilidad a dicho sistema. La reglamentación podrá adecuarse a la clasificación de las audiencias que sean establecidas de acuerdo a su finalidad.
+
+
+
+ARTÍCULO 9°.- Las audiencias virtuales podrán ser implementadas con carácter sustitutivo o complementario de las audiencias presenciales establecidas en la normativa vigente. Las audiencias podrán ser presenciales, virtuales o mixtas. Serán presenciales aquellas que por celebrarse en un espacio físico admiten la comparecencia personal de los/as participantes; virtuales las audiencias que se desarrollan y se transmitan en forma telemática garantizando que los/as participantes tomen intervención a través de los medios técnicos que disponga la autoridad convocante. Finalmente, serán mixtas aquellas que se celebran combinando las dos modalidades anteriores. Las decisiones adoptadas (acuerdos, convenios, conciliaciones, etc.) y sus ratificaciones realizadas en el marco de una audiencia virtual o mixta, tendrán la misma validez que los celebrados en forma presencial. En el caso que la audiencia virtual sea establecida como sustitutiva de la presencial, la reglamentación deberá contemplar su carácter optativo frente a situaciones en que se manifieste imposibilidad de cumplimiento. El Poder Ejecutivo reglamentará la manera en que los intervinientes acrediten identidad.
+
+
+
+ARTÍCULO 10.- La reglamentación establecerá las condiciones bajo las cuales las audiencias virtuales puedan ser videograbadas, almacenadas y difundidas. Se deberá dejar constancia de la audiencia practicada en el expediente administrativo y adjuntarse o vincularse la videograbación a las actuaciones. La videograbación y/o difusión del contenido de las audiencias apartado de la normativa será considerada falta grave y sancionada conforme el procedimiento que la reglamentación establezca.
+
+
+
+ARTÍCULO 11.- La constancia en el soporte respectivo de la audiencia hará plena prueba de los hechos, correspondiendo su apreciación en los términos del artículo 58 del Decreto Ley Nº 7647/70. En aquellas audiencias virtuales no videograbadas deberá labrarse acta con detalle de fecha y hora, los datos identificatorios de las personas intervinientes y el carácter invocado, descripción de lo ocurrido y aquellas manifestaciones que las partes soliciten expresamente que se deje constancia. El contenido del acta se dará a conocer a las partes en la propia audiencia y será suscripta por los funcionarios y/o demás personas intervinientes, quienes deberán acreditar su identidad, en la forma que la reglamentación establezca.
+
+
+
+CAPÍTULO III.
+
+
+
+DISPOSICIONES COMUNES
+
+
+
+ARTÍCULO 12.- Créase el Registro de domicilios electrónicos de la Provincia de Buenos Aires, el que estará integrado por el conjunto de domicilios electrónicos inscriptos en el sistema establecido por la presente. El Poder Ejecutivo determinará su alcance y funcionamiento. El régimen de los domicilios electrónicos correspondientes a los procesos que tramiten ante el Poder Judicial de la Provincia de Buenos Aires, se regirá por el Acuerdo N° 3989/2020 y modificatorios, emanados de la Suprema Corte de Justicia. Dichos domicilios serán utilizados para realizar toda clase de notificaciones y demás actos procesales de comunicación a través de medios electrónicos, comprensivos incluso de aquellos que, según la legislación vigente, deban ser diligenciados en el domicilio real del destinatario. En los procedimientos administrativos que tramiten ante el Poder Judicial de la Provincia serán aplicables los lineamientos de la presente Ley con el alcance establecido por las reglamentaciones emanadas de la Suprema Corte de Justicia. El Poder Ejecutivo y la Suprema Corte de Justicia podrán celebrar acuerdos específicos tendientes a la compatibilización de los sistemas de gestión de domicilios electrónicos.
+
+
+
+ARTÍCULO 13.- El Poder Ejecutivo dictará las normas necesarias para la efectiva instrumentación de las disposiciones de la presente Ley.
+
+
+
+ARTÍCULO 14.- Los sistemas de domicilio electrónico y audiencias virtuales que se implementen serán de aplicación a los procedimientos administrativos que se inicien con posterioridad y a los que se encuentren en curso de ejecución.
+
+
+
+ARTÍCULO 15.- Autorizar al Poder Ejecutivo, a través del Ministerio de Hacienda y Finanzas, a efectuar las adecuaciones presupuestarias necesarias a los fines del cumplimiento de las disposiciones de la presente Ley.
+
+
+
+ARTÍCULO 16.- Comuníquese al Poder Ejecutivo.
+
+
+
+Dada en la Sala de Sesiones de la Honorable Legislatura de la Provincia de Buenos Aires, en la ciudad de La Plata, a los veintidós días del mes de diciembre de dos mil veinte.

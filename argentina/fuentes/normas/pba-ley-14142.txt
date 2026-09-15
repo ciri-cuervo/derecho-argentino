@@ -1,0 +1,457 @@
+Ley 14.142 PBA - Reforma del CPCCBA (arts. 40, 143, 143 bis, 144 y 148) y del art. 16 de la Ley 11.653
+==============================================================================
+Jurisdiccion:     pba
+Fuente:           https://normas.gba.gob.ar/documentos/VN3qDcM0.html
+Descargado:       2026-09-14
+SHA-256 (crudo):  e21468011df67ec8082ed84dfa9e9febe408f0031a94a5952aa75c7434158b43
+Charset:          UTF-8
+
+Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
+NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
+Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+el manifiesto `normas.json`.
+==============================================================================
+
+Ley 14142
+
+
+
+
+
+
+
+LEY 14142
+
+
+
+
+
+
+EL SENADO Y CÁMARA DE DIPUTADOS DE LA PROVINCIA DE BUENOS
+AIRES, SANCIONAN CON FUERZA DE
+
+
+
+
+
+
+LEY
+
+
+
+
+
+
+
+ARTÍCULO 1º.- Sustitúyese el artículo 40 del Código
+Procesal Civil y Comercial de la Provincia de Buenos Aires, Decreto-Ley
+7.425/68, por el siguiente:
+
+
+
+
+
+
+“Artículo 40: Domicilio. Toda persona que litigue por su
+propio derecho o en representación de tercero, deberá constituir domicilio
+dentro del perímetro de la ciudad que sea asiento del respectivo juzgado o
+tribunal, juntamente con una casilla de correo electrónico, que será la
+asignada oficialmente al letrado que lo asista, donde se le cursarán las
+notificaciones por cédula que no requieran soporte papel y la intervención del
+Oficial Notificador.
+
+
+
+Estos requisitos se cumplirán en el primer escrito que presente,
+o audiencia a que concurra, si es ésta la primera diligencia en que interviene.
+
+
+
+En las mismas oportunidades deberá denunciarse el
+domicilio real de la persona representada.
+
+
+
+Se diligenciarán en el domicilio legal todas las
+notificaciones a domicilio que no deban serlo en el real.”
+
+
+
+
+
+
+ARTÍCULO 2º.- Sustitúyese el artículo 143 del
+Código Procesal Civil y Comercial de la Provincia de Buenos Aires, Decreto-Ley
+7.425/68, por el siguiente:
+
+
+
+
+
+
+“Artículo 143: Medios de notificación: En el caso que este
+Código, en los procesos que regula, establezca la notificación por cédula, ella
+también podrá realizarse por los siguientes medios:
+
+
+
+1) Correo electrónico oficial.
+
+
+
+2) Acta Notarial.
+
+
+
+3) Telegrama Colacionado con copia certificada y aviso de
+entrega.
+
+
+
+4) Carta Documento con aviso de entrega.
+
+
+
+Se tendrá por cumplimentada la entrega de copias si se
+transcribe su contenido.
+
+
+
+En caso que ello resulte imposible o inconveniente las
+copias quedarán a disposición del notificado en el Juzgado, lo que así se le
+hará saber.
+
+
+
+Se tomará como fecha de notificación el día de labrada el
+acta o entrega del telegrama o carta documento, salvo que hubiera quedado
+pendiente el retiro de copias, en cuyo caso se computará el día de nota
+inmediato posterior.
+
+
+
+Esta última fecha se tomará en cuenta en los supuestos que
+la notificación fuera por medio de correo electrónico, independientemente que
+se transcriba o no el contenido de las copias en traslado.
+
+
+
+Los medios mencionados en los apartados 1), 3) y 4) no
+podrán utilizarse en los supuestos de notificaciones previstas en los apartados
+1), 10) y 12) del artículo 135.
+
+
+
+El Juzgado o Tribunal deberá realizar de oficio, por medio
+de correo electrónico o por cédula, las notificaciones previstas en los
+apartados 3), 4) y 11) del artículo 135; la providencia que cita a audiencia
+preliminar y la que provee a la prueba ofrecida.
+
+
+
+La elección de los medios enunciados en los apartados 2),
+3) y 4) se realizará por los letrados, sin necesidad de manifestación alguna en
+las actuaciones.
+
+
+
+Los gastos que arrojen las notificaciones integrarán la
+condena en costas; con la salvedad de lo dispuesto en el artículo 77.
+
+
+
+Ante el fracaso de una diligencia de notificación no será
+necesaria la reiteración de la solicitud de libramiento de una nueva, la que
+incluso podrá ser intentada por otra vía.”
+
+
+
+
+
+
+ARTÍCULO 3º.- Incorpórase como artículo 143 bis del
+Código Procesal Civil y Comercial de la Provincia de Buenos Aires, Decreto-Ley
+7.425/68 el siguiente:
+
+
+
+
+
+
+“Artículo 143 bis: Notificación por correo electrónico. El
+letrado patrocinante o apoderado de la parte que tenga interés en la
+notificación, el síndico, tutor o curador “ad litem”,
+en su caso, enviará las notificaciones utilizando el sistema de correo
+electrónico habilitado al efecto por el Poder Judicial, conforme determine la
+reglamentación.
+
+
+
+La oficina de notificaciones encargada de la base de datos
+del sistema de comunicaciones electrónicas del Poder Judicial emitirá avisos de
+fecha de emisión y de recepción a las casillas de correo electrónico de las
+partes y del Tribunal o Juzgado.
+
+
+
+El envío de un correo electrónico importará la
+notificación de la parte que lo emita.”
+
+
+
+
+
+
+ARTÍCULO 4º.- Sustitúyese el artículo 144 del
+Código Procesal Civil y Comercial de la Provincia de Buenos Aires, Decreto-Ley
+7.425/68, por el siguiente:
+
+
+
+
+
+
+“Artículo 144: Régimen de la notificación por telegrama o
+carta documento. Cuando se notifique mediante telegrama certificado con aviso
+de recepción o carta documento, la fecha de notificación será la de la
+constancia de la entrega al destinatario.
+
+
+
+Quien suscriba la notificación deberá agregar a las
+actuaciones copia de la pieza impuesta y la constancia de entrega.”
+
+
+
+
+
+
+ARTÍCULO 5º.- Sustitúyese el artículo 148 del
+Código Procesal Civil y Comercial de la Provincia de Buenos Aires, Decreto-Ley
+7.425/68, por el siguiente:
+
+
+
+
+
+
+“Artículo 148: Notificación por radiodifusión o
+televisión. En todos los casos que este Código autoriza la publicación de
+edictos, a pedido del interesado, el Juez o Tribunal podrá ordenar que aquéllos
+se anuncien por radiodifusión o televisión.
+
+
+
+Las transmisiones se harán en el modo y por el medio que
+autorice la reglamentación de la superintendencia, en horario de 8 a 20.
+
+
+
+La diligencia se acreditará agregando al expediente
+certificación emanada de la empresa radiodifusora o de televisión, en la que
+constará el texto del anuncio, que deberá ser el mismo que el de los edictos, y
+los días y horas en que se difundió. La resolución se tendrá por notificada al
+día siguiente de la última transmisión radiofónica o televisiva.
+
+
+
+Respecto de los gastos que irroga esta forma de
+notificación, regirá lo dispuesto en el anteúltimo párrafo del artículo 143.”
+
+
+
+
+
+
+ARTÍCULO 6º.- Modifícase el artículo 16 de la Ley
+11653, el que quedará redactado de la siguiente forma:
+
+
+
+
+
+
+“Artículo 16: Las providencias quedarán notificadas por
+ministerio de la ley, los días martes y viernes o el siguiente hábil si alguno
+de ello no lo fuere, sin necesidad de nota, certificado u otra diligencia.
+
+
+
+Se notificarán personalmente o por cédula:
+
+
+
+a) El
+traslado de la demanda, de la reconvención y de sus contestaciones.
+
+
+
+b) La
+audiencia a que se refiere el artículo 29.
+
+
+
+c) La
+declaración de rebeldía.
+
+
+
+d) La
+citación al acto previsto en el artículo 25.
+
+
+
+e) La
+providencia que declare la cuestión de puro derecho y los traslados a que se
+refiere el artículo 32, último párrafo.
+
+
+
+f) 
+El auto de apertura y recepción de prueba, el de
+designación de la audiencia de vista de la causa, las cargas procesales que se
+impongan a las partes y, en su caso, los traslados para alegar por escrito.
+
+
+
+g) El
+traslado de los informes y dictámenes periciales, de los autos que ordenen
+intimaciones y medidas para mejor proveer.
+
+
+
+h) La
+sentencia definitiva, juntamente con la liquidación a que se refiere el
+artículo 48.
+
+
+
+i) 
+La providencia de “autos” contemplada en el artículo 57
+inciso b).
+
+
+
+j) 
+La denegatoria de los recursos extraordinarios.
+
+
+
+k) Las
+que hacen saber medidas cautelares, o su modificación o levantamiento.
+
+
+
+l) 
+Las resoluciones en los incidentes, las interlocutorias
+con carácter de definitivas y aquellas otras providencias que, en su caso, se
+indique expresamente.
+
+
+
+Cuando así se lo disponga podrá notificarse por carta
+documento, por telegrama, por acta notarial o por correo electrónico.
+
+
+
+Se tendrá por cumplimentada la entrega de copias si se
+transcribe su contenido.
+
+
+
+En caso que ello resulte imposible o inconveniente, las
+copias quedarán a disposición del notificado en el Tribunal, lo que así se la
+hará saber.
+
+
+
+Se tomará como fecha de notificación el día de labrada el
+acta o entrega del telegrama o carta documento, salvo que hubiera quedado
+pendiente el retiro de copias, en cuyo casos se computará el día de nota
+inmediato posterior.
+
+
+
+Esta última fecha se tomará en cuenta en los supuestos que
+la notificación fuera por medio electrónico, independientemente que se
+transcriba o no el contenido de las copias en traslado.”
+
+
+
+
+
+
+ARTÍCULO 7º.- El uso de los medios alternativos a
+la notificación por cédula establecidos en la presente Ley serán también de
+aplicación a los procesos previstos en la Ley de Concurso y Quiebras, Ley Nº
+24522 y sus modificatorias.
+
+
+
+
+
+
+ARTÍCULO 8°.- La Suprema Corte de Justicia reglamentará
+el uso del correo Electrónico como medio de notificación y uso obligatorio para
+litigantes y auxiliares de la justicia.
+
+
+
+
+
+
+ARTÍCULO 9°.- La presente Ley entrará en vigencia a
+partir de los doscientos setenta (270) días contados desde su promulgación.
+
+
+
+
+
+
+ARTÍCULO 10: Comuníquese al Poder Ejecutivo.
+
+
+
+
+
+
+Dada en la Sala de Sesiones de la Honorable Legislatura de
+la Provincia de Buenos Aires, en la ciudad de La Plata, a los veintitrés días
+del mes de junio del año dos mil diez.
+
+
+
+
+
+
+Horacio Ramiro González Federico
+Carlos Scarabino
+
+
+
+Presidente Vicepresidente
+1º
+
+
+
+H. C. Diputados H.
+Senado
+
+
+
+
+
+
+Manuel Eduardo Isasi Máximo
+Augusto Rodríguez
+
+
+
+
+Secretario Legislativo Secretario
+Legislativo
+
+
+
+H. C. Diputados H.
+Senado

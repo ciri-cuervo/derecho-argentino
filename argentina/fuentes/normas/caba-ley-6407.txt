@@ -1,0 +1,2352 @@
+Ley 6.407 CABA - Codigo Procesal de la Justicia en las Relaciones de Consumo
+==============================================================================
+Jurisdiccion:     caba
+Fuente:           https://juristeca.jusbaires.gob.ar/compilacion-normativa-juristeca/ley-6407/
+Descargado:       2026-09-14
+SHA-256 (crudo):  6a6015f124057698912752c5ea27663d7393253d80c26a553fa6e8c610e1f861
+Charset:          UTF-8
+
+Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
+NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
+Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+el manifiesto `normas.json`.
+==============================================================================
+
+Ley 6407 – Código procesal de la Justicia en Relaciones de Consumo en el ámbito de la Ciudad de Buenos Aires – JURISTECA
+
+Saltar al contenido
+
+[fecha del portal, no es parte de la norma]
+
+Las fuentes del Derecho a tu alcance
+
+SERVICIO DE APOYO A LA JURISDICCIÓN
+
+Inicio
+
+Buscador JURISTECA
+Búsqueda avanzada de Jurisprudencia
+
+Búsqueda avanzada Biblioteca
+
+Búsqueda de normativa
+
+Compilación normativa JURISTECA
+Normas por fuero
+CAyTyRC
+
+PPJCyF
+
+Normas constitucionales
+
+Normas institucionales
+
+Normas electorales
+
+Normas procesales
+
+Normas laborales
+
+Normas adicionales
+
+Códigos fiscales CABA
+
+Boletín oficial CABA
+
+Desarrollo de contenidos
+
+Newsletter
+
+Biblioteca
+Novedades bibliográficas
+
+Alta usuario
+
+Buscador Biblioteca
+
+JURISTECA somos
+
+Compilación normativa JURISTECA
+
+Selección, edición y sistematización de leyes de aplicación para el Poder Judicial de la Ciudad Autónoma de Buenos Aires
+
+Quinta actualización del Digesto Jurídico CABA
+
+Antecedentes de la Ley Nº 6.407
+
+Todos los artículos de este texto provienen del Texto Consolidado al 29/02/2024 por Ley Nº 6.764 de fecha 18/12/2024.
+
+La numeración de los artículos de la presente corresponde a la del Texto Consolidado por Ley N° 6.764.
+
+*Actualización JURISTECA
+
+No hay modificaciones a la fecha.
+
+LEY N° 6.407*
+
+Código Procesal de la Justicia en las Relaciones de Consumo en el Ámbito de la Ciudad Autónoma de Buenos Aires
+
+Artículo 1º – Apruébase como Código Procesal para la Justicia en las Relaciones de Consumo en el ámbito de la Ciudad Autónoma de Buenos Aires, el texto que como Anexo A integra la presente Ley.
+
+Artículo 2° – Esta Ley entrará en vigencia a los treinta (30) días de su publicación en el Boletín
+Oficial.
+
+CLÁUSULAS TRANSITORIAS
+
+Cláusula Transitoria Primera: hasta tanto quede constituido integralmente el Fuero en las Relaciones de Consumo este Código, una vez entrado en vigencia, será de aplicación con los alcances previstos en la Ley 6286, las que con posterioridad se dicten y lo que determine el Consejo de la Magistratura en la materia.
+
+Cláusula Transitoria Segunda: La Justicia en las Relaciones de Consumo de la Ciudad Autónoma de Buenos Aires tendrá competencia para entender en las causas que se inicien a partir de su puesta en funcionamiento, no pudiendo ser aceptadas causas en trámite o iniciadas antes de su puesta en funcionamiento efectivo, que continuarán en sus respectivos fueros y jurisdicciones.
+
+Cláusula Transitoria Tercera: la implementación de la Oficina de Gestión Judicial contemplada en el art. 17 del Anexo A de la presente Ley queda sujeta en su oportunidad, modalidades y funciones a la reglamentación que al respecto emita el Consejo de la Magistratura de la Ciudad Autónoma de Buenos Aires.
+
+Cláusula Transitoria Cuarta: La Secretaría con actuación ante la Cámara de Apelaciones de la Oficina de Gestión Judicial del fuero Contencioso Administrativo, Tributario y de Relaciones de Consumo asiste al mencionado Fuero en lo determinado en este Código y en los recursos previstos en la Ley N° 757 y en las decisiones de naturaleza jurisdiccional y las sanciones administrativas emanadas del Ente Regulador de Servicios Públicos de la Ciudad Autónoma de Buenos Aires, en los términos de la Ley Nº 210, a efectos de administrar con eficiencia, eficacia y celeridad el despacho de las causas y de garantizar el óptimo funcionamiento del tribunal, de acuerdo a las reglamentaciones que oportunamente emita el Consejo de la Magistratura de la Ciudad Autónoma de Buenos Aires.
+
+Cláusula Transitoria Quinta: El Juez o Tribunal podrá delegar, fundadamente, las funciones atribuidas en el artículo 238 del Código Procesal de la Justicia en las Relaciones de Consumo en el ámbito de la Ciudad Autónoma de Buenos Aires en el Secretario de la Oficina de Gestión Judicial, hasta tanto quede constituido integralmente el Fuero en las Relaciones de Consumo o, hasta tanto el Consejo de la Magistratura de la Ciudad Autónoma de Buenos Aires lo disponga.
+
+ANEXO A
+
+CÓDIGO PROCESAL DE LA JUSTICIA EN LAS RELACIONES DE CONSUMO EN EL ÁMBITO DE LA CIUDAD AUTÓNOMA DE BUENOS AIRES
+
+TÍTULO I
+
+PARTE GENERAL
+
+CAPÍTULO 1
+
+PRINCIPIOS
+
+Art. 1° – Principios
+
+El proceso ante la Justicia en las Relaciones de Consumo en el ámbito de la Ciudad Autónoma de Buenos Aires se rige por los principios que emergen de las normas constitucionales y legales de protección del consumidor, y en particular, por los que a continuación se detallan:
+
+Informalidad procesal a favor del consumidor, celeridad, inmediatez, concentración, economía procesal, oralidad y gratuidad.
+
+Digitalización de las actuaciones conforme lo disponen los reglamentos del Consejo de la Magistratura de la CABA.
+
+Diligenciamiento de pruebas, notificaciones y realización de audiencias y actos procesales en forma virtual conforme lo establezca la reglamentación del Consejo de la Magistratura de la CABA.
+
+Impulso de oficio con el alcance previsto en este Código.
+
+Conciliación de las partes, cuando ello fuera posible, en toda instancia procesal previa al dictado de sentencia.
+
+Principio de protección al consumidor.
+
+Aplicación de la norma o de la interpretación más favorable al consumidor en caso de duda.
+
+Orden público y operatividad de las normas.
+
+Consumo y producción sustentable.
+
+Criterios de tutela judicial efectiva con especial rigurosidad en el caso de consumidores hipervulnerables y reparación integral.
+
+Art. 2° – Interpretación
+
+Las normas de este Código deberán interpretarse de tal modo que se procure la protección y eficacia de los derechos de los consumidores y la consecución de los fines que consagra la Constitución Nacional, la Constitución de la Ciudad Autónoma de Buenos Aires, normas nacionales de defensa del consumidor y lealtad comercial y complementarias, el Código Civil y Comercial de la Nación y todas las normas de la Ciudad Autónoma de Buenos Aires cuyo objeto sea la protección del consumidor o usuario.
+
+CAPÍTULO 2
+
+COMPETENCIA
+
+Sección 1
+
+Reglas generales
+
+Art. 3° – La competencia atribuida a la Justicia en las Relaciones de Consumo de la Ciudad de Buenos Aires es improrrogable para el proveedor.
+
+Art. 4° – La competencia no podrá ser delegada, pero está permitido encomendar a los jueces de otras localidades la realización de diligencias determinadas.
+
+Art. 5° – La Justicia en las Relaciones de Consumo de la Ciudad Autónoma de Buenos Aires será competente para conocer:
+
+1. En las causas que versen sobre conflictos en las relaciones de consumo, regidas por las normas nacionales de defensa del consumidor y de lealtad comercial, sus modificatorias y complementarias, los artículos 1092 y 1096 del Código Civil y Comercial de la Nación, y toda otra normativa general o especial, nacional o local, que se aplique a las relaciones de consumo, toda vez que el consumidor sea actor y cuando la Ciudad Autónoma de Buenos Aires sea, indistintamente:
+
+a) el lugar de celebración del contrato;
+
+b) el lugar del cumplimiento de la prestación del servicio,
+
+c) el lugar de la entrega de bienes,
+
+d) el lugar del cumplimiento de la obligación de garantía,
+
+e) el domicilio del consumidor,
+
+f) el domicilio del demandado
+
+g) o el lugar donde el consumidor realice actos necesarios para la celebración o ejecución del contrato.
+
+2. En las causas que involucren relaciones de consumo y refieran a fideicomisos inmobiliarios inscriptos en el Registro Público de Contratos de Fideicomiso de la Ciudad Autónoma de Buenos Aires.
+
+3. En los procesos colectivos que involucren relaciones de consumo descritas en el inciso 1 del presente.
+
+4. En las causas donde el proveedor sea actor, con el alcance previsto en los arts. 7 y 35 inc. b) de este Código.
+
+5. En las causas referidas a servicios públicos que se presten exclusivamente en jurisdicción de la Ciudad Autónoma de Buenos Aires y se encuentren sometidos al control del Ente Único Regulador de Servicios Públicos (Ley 210).
+
+6. En la ejecución de acuerdos conciliatorios homologados por la autoridad de aplicación conforme a la Ley 757.
+
+7. En la ejecución de acuerdos conciliatorios homologados por el Servicio de Conciliación Previa en las Relaciones de Consumo (COPREC), dependiente del Ministerio de Desarrollo Productivo de la Nación (Ley Nacional Nº 26.993) y/o el sistema de conciliación o mediación prejudicial obligatoria para las relaciones de consumo que se establezca en la Ciudad Autónoma de Buenos Aires, que tramitarán por el procedimiento de ejecución de sentencias previsto en el Título VIII de este Código. En el supuesto en que se hayan controvertido derechos de niños, niñas, adolescentes o incapaces el representante legal, previa intervención de la Asesoría Tutelar deberá requerir la homologación del acuerdo al juez anteriormente sorteado o al que sea designado por sorteo.
+
+8. En la ejecución de los acuerdos conciliatorios que se celebren en la órbita de la mediación voluntaria o sistema de conciliación del Consejo de la Magistratura del Poder Judicial de la Ciudad Autónoma de Buenos Aires u organismos que dependan de dicho Poder, en los términos del art.106 de la Constitución de la Ciudad Autónoma de Buenos Aires que tramitarán por el procedimiento de ejecución de sentencias previsto en el Título VIII de este Código.
+
+9. En la ejecución de resoluciones sancionatorias ejecutoriadas o medidas preventivas dictadas por la Autoridad de Aplicación conforme la Ley 757 o la que la sustituya, que tramitarán en caso de multa por el procedimiento de ejecución previsto en el Título XIII Capítulo II del CCAyT. En ningún caso se exigirá el pago previo de la sanción de multa para conceder el recurso directo.
+
+10. En la ejecución de las sumas impuestas por la Autoridad de Aplicación en concepto de daño directo que tramitarán por el procedimiento de ejecución de sentencias previsto en el Título VIII de este Código.
+
+11. En la ejecución de laudos emitidos por los Tribunales Arbitrales de Consumo de la Ciudad Autónoma de Buenos Aires y laudos emitidos por el Sistema Nacional de Arbitraje de Consumo, dependiente del Ministerio de Desarrollo Productivo de la Nación, que tramitarán por el procedimiento de ejecución de sentencias previsto en el Título VIII de este Código.
+
+12. En la ejecución de acuerdos conciliatorios realizados ante el Ente Único Regulador de los Servicios Públicos de la Ciudad Autónoma de Buenos Aires celebrados entre usuarios afectados y las empresas prestadoras, que tramitarán por el procedimiento de ejecución de sentencias previsto en el Título VIII de este Código.
+
+13. En la ejecución de resoluciones sancionatorias ejecutoriadas impuestas por el Ente Único Regulador de Servicios Públicos de la Ciudad Autónoma de Buenos Aires, las que en caso de imponer una sanción de multa tramitarán por el procedimiento de ejecución previsto en el Título XIII Capítulo II del CCAyT.
+
+Art. 6° – Competencia de la Cámara de Apelaciones en las Relaciones de Consumo
+
+La Cámara de Apelaciones en las Relaciones de Consumo será competente:
+
+a) como Tribunal de Alzada de los Juzgados de primera instancia de la Justicia en las Relaciones de Consumo.
+
+b) en el recurso directo contra las providencias de la autoridad de aplicación que ordenan medidas preventivas, contra resoluciones sancionatorias de la autoridad de aplicación y las que impongan la reparación del daño directo.
+
+c) en el recurso directo contra resoluciones sancionatorias impuestas por el Ente Único Regulador de Servicios Públicos de la Ciudad Autónoma de Buenos Aires, que tramitará por el procedimiento previsto en el Titulo XIII, Capítulo V del CCAyT.
+
+Art. 7° – Si de la exposición de los hechos resultare que no se configura una relación de consumo, o no se configurara alguno de los supuestos previstos en el artículo 5, inciso 1), el juez deberá desestimar la demanda. En el caso de las acciones promovidas por el proveedor, el juez se deberá declarar incompetente cuando el domicilio real del consumidor no se encuentre en la Ciudad Autónoma de Buenos Aires.
+
+Consentida o ejecutoriada la respectiva resolución, se remitirá la causa al juez competente.
+
+Art. 8° – La competencia se determinará por la naturaleza de las pretensiones deducidas en la demanda y no por las defensas opuestas por el demandado.
+
+Art. 9° – Será el juez competente:
+
+En los incidentes, tercerías, obligaciones de garantía, cumplimiento de acuerdos de conciliación o transacción celebrados en juicio, ejecución de sentencia, regulación y ejecución de honorarios y costas devengadas en el proceso, y acciones accesorias en general, el del proceso principal.
+
+En las medidas preliminares y precautorias, el que deba conocer en el proceso principal.
+
+En el incidente de solvencia el que deba conocer en el juicio en que aquél se hará valer.
+
+En las acciones promovidas por el proveedor el juez del domicilio real del consumidor cuando lo sea la CABA
+
+Sección 2
+
+Cuestiones de Competencia
+
+Art. 10 – Procedencia
+
+Las cuestiones de competencia sólo podrán promoverse por vía de declinatoria, con excepción de las que se susciten entre jueces de distintas circunscripciones judiciales, en las que también procederá la inhibitoria.
+
+En uno y otro caso, la cuestión sólo podrá promoverse antes de haberse consentido la competencia que se reclama.
+
+Elegida una vía no podrá en lo sucesivo usarse otra.
+
+Art. 11 – La declinatoria se sustanciará como excepción previa y, declarada procedente, se remitirá la causa al juez competente.
+
+La inhibitoria podrá plantearse hasta el momento de oponer excepciones o de contestar la demanda si aquel trámite no se hallare establecido como previo en el proceso de que se trata.
+
+Art. 12 – Si entablada la inhibitoria el juez se declarase competente, librará oficio o exhorto acompañando testimonio del escrito en que se hubiere planteado la cuestión, de la resolución recaída y demás recaudos que estime necesarios para fundar su competencia.
+
+Solicitará, asimismo, la remisión del expediente o, en su defecto, su elevación al tribunal competente para dirimir la contienda.
+
+La resolución sólo será apelable si se declarase incompetente.
+
+Art. 13 – Recibido el oficio o exhorto, el juez requerido se pronunciará aceptando o no la inhibición.
+
+Sólo en el primer caso su resolución será apelable. Una vez consentida o ejecutoriada, remitirá la causa al tribunal requirente, emplazando a las partes para que comparezcan ante él a hacer valer sus derechos.
+
+Si mantuviese su competencia, enviará sin otra sustanciación las actuaciones al tribunal competente para dirimir la contienda y lo comunicará sin demora al tribunal requirente para qué remita las suyas.
+
+Art. 14 – Las cuestiones de competencia se sustanciarán por vía de incidente. No suspende el procedimiento, el que seguirá su trámite por ante el juez que previno, salvo que se tratare de cuestiones de competencia en razón del territorio.
+
+Art. 15 – En caso de contienda negativa o cuando dos (2) o más jueces se encontraren conociendo de un mismo proceso, cualquiera de ellos podrá plantear la cuestión de acuerdo con el procedimiento previsto.
+
+CAPÍTULO 3
+
+DEBERES DEL JUEZ
+
+Art. 16 – Deberes del Juez
+
+Son deberes de los/as jueces/as:
+
+Proveer la prueba ofrecida en la demanda y en la contestación de la demanda que considere conducente para dilucidar la cuestión debatida en el litigio traído a su conocimiento y descartar fundadamente la que considere inidónea para tal fin.
+
+Asistir a las audiencias bajo pena de nulidad y realizar personalmente todas las diligencias que este Código u otras leyes establecen a su cargo, con excepción de aquellas en las que la delegación estuviere autorizada.
+
+Mantener la igualdad de las partes en el proceso, sin perjuicio de la aplicación de los principios protectorios propios del derecho del consumidor.
+
+Dictar las resoluciones en el tiempo y del modo previsto para cada tipo de proceso. Deberá utilizar lenguaje claro y accesible y no podrá emplear expresiones en otros idiomas.
+
+El juez tendrá asimismo amplias facultades disciplinarias, ordenatorias e instructorias para mantener el buen orden y decoro, y ordenar y hacer progresar los juicios hacia su resolución.
+
+CAPÍTULO 4
+
+OFICINA DE GESTIÓN JUDICIAL
+
+Art. 17 – Los jueces del fuero serán asistidos por una oficina de gestión judicial responsable de administrar el despacho de las causas y de garantizar el buen funcionamiento del tribunal en general, bajo el principio de separación de funciones administrativas y jurisdiccionales.
+
+La oficina de gestión judicial actuará bajo estándares de calidad en la gestión, publicidad y transparencia, uso de medios desformalizados para el desarrollo del trámite, criterios de eficiencia propio e implementará los procesos aprobados por los órganos centrales de gobierno y administración judicial.
+
+CAPÍTULO 5
+
+RECUSACIONES Y EXCUSACIONES
+
+Sección 1
+
+Recusación
+
+Art. 18 – En ningún caso procede la recusación sin expresión de causa.
+
+Serán causas legales de recusación:
+
+El parentesco por consanguinidad dentro del cuarto grado y segundo de afinidad con alguna de las partes, sus mandatarios o letrados.
+
+Tener el juez o sus consanguíneos o afines dentro del grado expresado en el inciso anterior, interés en el pleito o en otro semejante, o sociedad o comunidad con alguno de los litigantes, procuradores o abogados, salvo que la sociedad fuese anónima.
+
+Tener el juez pleito pendiente con el recusante.
+
+Ser el juez acreedor, deudor o fiador de alguna de las partes, con excepción de los bancos oficiales.
+
+Ser o haber sido el juez autor de denuncia o querella contra el recusante, o denunciado o querellado por éste con anterioridad a la iniciación del pleito.
+
+Ser o haber sido el juez denunciado por el recusante en los términos de la Ley de enjuiciamiento de magistrados, siempre que el Consejo de la Magistratura de la Ciudad de Buenos Aires hubiere dispuesto dar curso a la denuncia.
+
+Haber sido el juez defensor de alguno de los litigantes o emitido opinión o dictamen o dado recomendaciones acerca del pleito, antes o después de comenzado.
+
+Haber recibido el juez beneficios de importancia de alguna de las partes.
+
+Tener el juez con alguno de los litigantes amistad que se manifieste por gran familiaridad o frecuencia en el trato.
+
+Tener contra la recusante enemistad, odio o resentimiento que se manifieste por hechos conocidos. En ningún caso procederá la recusación por ataques u ofensa inferidas al juez después que hubiere comenzado a conocer del asunto.
+
+Art. 19 – La recusación deberá ser deducida por cualquiera de las partes en las oportunidades previstas en la primera intervención en el proceso. Si la causal fuere sobreviniente, sólo podrá hacerse valer dentro de quinto día de haber llegado a conocimiento del recusante y antes de quedar el expediente en estado de sentencia.
+
+Art. 20 – Cuando se recusare a UNO (1) o más jueces de la cámara de apelaciones, conocerán los que queden hábiles, integrándose el tribunal, si procediere, en la forma prescripta por la ley orgánica y el reglamento respectivo.
+
+De la recusación de los jueces de primera instancia conocerá la cámara de apelaciones.
+
+Art. 21- Forma de deducirla
+La recusación se deducirá ante el juez recusado y ante la cámara de apelaciones cuando lo fuese de UNO (1) de sus miembros.
+
+En el escrito correspondiente, se expresarán las causas de la recusación, y se propondrá y acompañará, en su caso, toda la prueba de que el recusante intentare valerse.
+
+Art. 22 – Si en el escrito mencionado en el artículo anterior no se alegase concretamente alguna de las causas previstas en este código, o la que se invoca fuere manifiestamente improcedente, o si se presentase fuera del plazo legal, la recusación será desechada, sin darle curso, por el tribunal competente para conocer de ella.
+
+Art. 23 – Deducida la recusación en tiempo y con causa legal, si el recusado fuese un juez de Cámara se le comunicará aquélla, a fin de que informe sobre las causas alegadas.
+
+Art. 24 – Si el recusado reconociese los hechos, se le tendrá por separado de la causa.
+
+Si los negase, con lo que exponga se formará incidente que tramitará por expediente separado.
+
+Art. 25 – La Cámara de Apelaciones, integrada al efecto si procediere, recibirá el incidente a prueba por DIEZ (10) días.
+
+Cada parte no podrá ofrecer más de TRES (3) testigos.
+
+Art. 26 – Vencido el plazo de prueba y agregadas las producidas, se dará vista al juez recusado y se resolverá el incidente dentro de CINCO (5) días de contestada aquélla o vencido el plazo para hacerlo.
+
+Art. 27 – Cuando el recusado fuera UN (1) juez de primera instancia, remitirá a la cámara de apelaciones dentro de los CINCO (5) días, el escrito de recusación con un informe sobre las causas alegadas, y pasará el expediente al juez que sigue en el orden del turno o, donde no lo hubiere, al subrogante legal para que continúe su sustanciación. Igual procedimiento se observará en caso de nuevas recusaciones.
+
+Art. 28 – Trámite de la recusación de los jueces de primera instancia
+
+Pasados los antecedentes, si la recusación se hubiese deducido en tiempo y con causa legal, la cámara de apelaciones, siempre que del informe elevado por el juez resultare la exactitud de los hechos, lo tendrá por separado de la causa.
+
+Si los negare, la cámara podrá recibir el incidente a prueba, y se observará el procedimiento establecido en los artículos 105 a 116.
+
+Art. 29 – Si la recusación fuese desechada, se hará saber la resolución al juez subrogante a fin de que devuelva los autos al juez recusado.
+
+Si fuese admitida, el expediente quedará radicado ante el juez subrogante con noticia al juez recusado, aún cuando con posterioridad desaparecieren las causas que la originaron.
+
+Cuando el recusado fuese un juez de la cámara de apelaciones, seguirán conociendo en la causa el o los integrantes o sustitutos legales que hubiesen resuelto el incidente de recusación.
+
+Art. 30 – Recusación Maliciosa
+
+Desestimada una recusación con causa, se aplicará una multa de hasta 50 UMA por cada recusación, si ésta fuere calificada de maliciosa por la resolución desestimatoria.
+
+Art. 31 – Todo juez que se hallare comprendido en alguna de las causas de recusación mencionadas en este código deberá excusarse. Asimismo podrá hacerlo cuando existan otras causas que le impongan abstenerse de conocer en el juicio, fundadas en motivos graves de decoro o delicadeza.
+
+No será nunca motivo de excusación el parentesco con otros funcionarios que intervengan en cumplimiento de sus deberes.
+
+Art. 32 – Las partes no podrán oponerse a la excusación ni dispensar las causales invocadas. Si el juez que sigue en el orden del turno entendiese que la excusación no procede, se formará incidente que será remitido sin más trámite al tribunal de alzada, sin que por ello se paralice la sustanciación de la causa.
+
+Aceptada la excusación, el expediente quedará radicado en el juzgado que corresponda, aun cuando con posterioridad desaparecieren las causas que la originaron.
+
+Art. 33 – Incurrirá en la causal de "mal desempeño", en los términos del artículo 122 de la Constitución de la Ciudad de Buenos Aires, el juez a quien se probare que estaba impedido de entender en el asunto y a sabiendas haya dictado en él resolución que no sea de mero trámite.
+
+Art. 34 – Los magistrados del Ministerio Público no podrán ser recusados. Si tuviesen algún motivo legítimo de excusación, deberán manifestarlo al juez o tribunal y éstos podrán separarlos de la causa, dando intervención a quien deba subrogarlos.
+
+CAPÍTULO 6
+
+LEGITIMADOS ACTIVOS
+
+Sección 1
+
+Legitimados activos y domicilios
+
+Art. 35 – Se encuentran legitimados para iniciar las acciones individuales o colectivas o interponerlos recursos previstos en este Código:
+
+a) Las personas enunciadas en el artículo 1° de la Ley Nº 24.240 y en los artículos 1092, 1096 y 1102 del Código Civil y Comercial de la Nación.
+
+b) Los proveedores conforme a los términos del artículo 2 de la Ley Nº 24.240 y 1093 del Código Civil y Comercial de la Nación. Los proveedores no gozarán del beneficio de gratuidad previsto en esta ley y no podrán tramitar ante la justicia en las relaciones de consumo juicios ejecutivos en los que sean demandados consumidores.
+
+c) El consumidor solicitante de daño directo en términos del 40 bis de la Ley Nº 24.240 a los efectos del recurso directo contra la resolución de la autoridad de aplicación que lo deniegue u otorgue en menor medida que la solicitada.
+
+d) El adquirente o fiduciante-beneficiario que adquiera, en términos del artículo 1666 del Código Civil y Comercial de la Nación, mediante un contrato de fideicomiso inmobiliario inscripto en el Registro Público de Contratos de Fideicomiso de la Ciudad Autónoma de Buenos Aires, bienes inmuebles como destinatario final, en beneficio propio o de su grupo familiar o social.
+
+e) La autoridad de aplicación de la Ciudad Autónoma de Buenos Aires.
+
+f) Las asociaciones de consumidores y usuarios legalmente constituidas y registradas.
+
+g) La Defensoría del Pueblo de la Ciudad Autónoma de Buenos Aires.
+
+h) El Ministerio Público Tutelar de la Ciudad Autónoma de Buenos Aires con los alcances previstos en el inciso 2 del artículo 53 de la Ley 1903, promover o intervenir en causas concernientes a la protección de los derechos como consumidor de las personas menores de edad, incapaces e inhabilitados y requerir todas las medidas conducentes a tales propósitos, cuando carecieren de asistencia o representación legal, fuere necesario suplir la inacción de sus asistentes y representantes legales, parientes o personas que los tuvieren a su cargo, o hubiere que controlar la gestión de estos últimos.
+
+i) El Ministerio Público de la Defensa de la Ciudad Autónoma de Buenos Aires.
+
+j) El Ministerio Público Fiscal de la Ciudad Autónoma de Buenos Aires. Dicho Ministerio, cuando no intervenga en el proceso como parte, actuará obligatoriamente como fiscal de la ley, encontrándose legitimado para proponer medidas de prueba e interponer recursos en salvaguarda del orden público en las relaciones de consumo.
+
+k) El Ente Único Regulador de Servicios Públicos de la CABA.
+
+Art. 36 – Domicilio
+
+Toda persona que litigue por su propio derecho o en representación de tercero deberá constituir domicilio electrónico, de conformidad con el modo y los alcances que establezca el Reglamento.
+
+Ese requisito se cumplirá en el primer escrito que presente, o audiencia a que concurra, si ésta fuera la primera diligencia en que interviene.
+
+En la misma oportunidad deberá denunciarse el domicilio real y constituir supletoriamente un domicilio procesal dentro del radio de la Ciudad de Buenos Aires. Sólo se realizarán en este último las notificaciones que no puedan hacerse en el domicilio electrónico por razones de fuerza mayor.
+
+El domicilio constituido por las partes en la etapa conciliatoria previa concluida sin acuerdo, tendrá el mismo carácter en sede judicial.
+
+Art. 37 – Falta de constitución y de denuncia de domicilio
+
+Si no se cumpliere con la constitución del domicilio electrónico, las sucesivas resoluciones se tendrán por notificadas el día hábil siguiente de ser dictadas, salvo el traslado de la demanda, que se debe notificar de conformidad a las reglas de los arts. 226 y 227.
+
+La falta de constitución de domicilio procesal tendrá el mismo efecto cuando la notificación tuviera que practicarse de ese modo.
+
+La falta de denuncia de domicilio real ocasionará que todas las resoluciones que deban ser notificadas allí se hagan en el domicilio electrónico o, en su defecto, en el domicilio procesal.
+
+Art. 38 – Subsistencia de los domicilios
+
+Los domicilios a que se refieren los artículos anteriores subsistirán para los efectos legales hasta la terminación del juicio o su archivo, mientras no se constituyan o denuncien otros.
+
+La sola denuncia del nuevo domicilio en el expediente será suficiente para que todas las futuras resoluciones se notifiquen en aquél.
+
+El domicilio constituido en la instancia previa a los fines judiciales podrá ser modificado del modo y en la oportunidad prevista en el art. 227.
+
+Sección 2
+
+Partes
+
+Art. 39 – Principio general
+
+Toda persona, por derecho propio o bajo representación suficiente, podrá ser considerada como parte en el proceso de conformidad a las pretensiones deducidas en juicio o contenidas en la demanda.
+
+Intervención de niños, niñas y adolescentes: En los procesos donde intervengan menores de edad se garantizará su derecho de ser oído en cualquier etapa del proceso, independientemente de las peticiones que efectúen sus representantes legales o de la representación promiscua que ejerza el Ministerio Público Tutelar.
+
+Art. 40 – Muerte o incapacidad
+
+Cuando la parte que actuare personalmente falleciere o se tornare incapaz, comprobando el hecho, el juez o tribunal suspenderá la tramitación y citará a los herederos o al representante bajo el apercibimiento de continuar el juicio en rebeldía.
+
+Art. 41 – Sustitución de Parte
+
+Si durante la tramitación del proceso una de las partes enajenare el bien objeto del litigio o cediere el derecho reclamado, el adquirente no podrá intervenir en él como parte principal sin la conformidad expresa del adversario. Podrá hacerlo en la calidad y con las reglas de la intervención voluntaria de terceros.
+
+Sección 3
+
+Temeridad o malicia
+
+Art. 42 – Cuando se declarase maliciosa o temeraria la conducta asumida en el pleito por alguna de las partes, el juez le impondrá una multa valuada entre el diez y el cincuenta por ciento del monto del reclamo.
+
+En los casos en que el objeto de la pretensión no fuera susceptible de apreciación pecuniaria, el importe será razonablemente fijado por el juez. El importe de la multa será a favor de la otra parte. Si el pedido de sanción fuera promovido por una de las partes, se decidirá previo traslado a la contraria.
+
+Sin perjuicio de considerar otras circunstancias que estime corresponder, el juez deberá ponderar la deducción de pretensiones, defensas, excepciones o interposición de recursos que resulten inadmisibles, o cuya falta de fundamento no se pueda ignorar de acuerdo con una mínima pauta de razonabilidad o encuentre sustento en hechos ficticios o irreales o que manifiestamente conduzcan a dilatar el proceso.
+
+Asimismo, si el Juez estima que alguno de los letrados ha obrado con temeridad o malicia debe remitir las piezas pertinentes al Tribunal de Disciplina del Colegio Público de Abogados para su juzgamiento disciplinario.
+
+Sección 4
+
+Representación
+
+Art. 43 – La persona que se presente en juicio por un derecho que no sea propio, aunque le competa ejercerlo en virtud de algún tipo de representación, deberá acompañar con su primer escrito la acreditación de su personería. Si se invocare la imposibilidad de presentar los documentos, ya otorgados, que justifiquen la representación y el juez considerase atendibles las razones que se expresen, podrá acordar un plazo de hasta diez (10) días para que se acompañen dichos documentos, bajo apercibimiento de tener por inexistente la representación invocada.
+
+Podrá otorgarse poder por acta labrada ante cualquier tribunal o ante la autoridad de aplicación de conformidad con los requisitos que el reglamento del fuero establezca, sin perjuicio del patrocinio por el Ministerio Publico de la Defensa. En caso de que la carta poder otorgue facultades para percibir, las mismas deberán ser ratificadas personalmente por la parte ante el Actuario en la oportunidad procesal correspondiente. Para retirar las sumas depositadas a su favor y no embargadas, el consumidor no necesitará la conformidad de los profesionales intervinientes en la causa.
+
+Art. 44 – Gestor Procesal
+
+Cuando deban realizarse actos procesales urgentes y existan hechos o circunstancias que impidan la actuación de la parte que ha de cumplirlos, podrá ser admitida la comparecencia en juicio de quien no tuviere representación conferida.
+
+Si dentro de los veinte (20) días hábiles, contados desde la primera presentación del gestor, no fuere invocada representación alguna o no fuesen acompañados los instrumentos que la acrediten o la parte no ratificase la gestión, será nulo todo lo actuado por el gestor y éste deberá satisfacer el importe de las costas, sin perjuicio de su responsabilidad por el daño que hubiere producido.
+
+En su presentación, el gestor, además de indicar la parte en cuyo beneficio pretende actuar, deberá expresar las razones que justifiquen la seriedad del pedido. La nulidad, en su caso, se producirá por el solo vencimiento del plazo sin que se requiera intimación previa.
+
+La facultad acordada por este artículo sólo podrá ejercerse una (1) vez en el curso del proceso.
+
+Art. 45 – Efectos de la admisión de la representación invocada
+
+Una vez invocada la representación y, en su caso, presentados o exhibidos los instrumentos que la acrediten, el representante asume todas las responsabilidades que las leyes le imponen y sus actos obligan al representado como si él personalmente los practicare.
+
+Art. 46 – Obligaciones del representante
+
+El representante estará obligado a seguir el juicio mientras no haya cesado en el cargo. Hasta entonces las citaciones y notificaciones que se hagan, incluso las de las sentencias definitivas, tendrán la misma fuerza que si se hicieren al representado, sin que le sea permitido pedir que se entiendan con éste. Exceptúanse los actos que por disposición de la ley deban ser notificados personalmente a la parte.
+
+Art. 47 – Alcance de la representación
+
+La representación invocada comprenderá la facultad de interponer los recursos legales y seguir todas las instancias del pleito.
+
+También comprende la facultad de intervenir en los incidentes y de ejercitar todos los actos que ocurran durante la secuela de la litis, excepto aquellos para los cuales la ley requiera facultad especial, o se hubiesen reservado expresamente en el instrumento por el cual se concedió la representación.
+
+Art. 48 – Cesación de la representación
+
+La actuación de los representantes cesará:
+
+Por revocación expresa de la representación en el expediente. En este caso, el representado deberá comparecer por sí o constituir nuevo representante sin necesidad de emplazamiento o citación, so pena de continuarse el juicio en rebeldía. La sola presentación del nuevo representante no revoca la representación anterior.
+
+Por renuncia, en cuyo caso el representante deberá, bajo pena de daños y perjuicios, continuar las gestiones hasta que haya vencido el plazo que el juez fije al representado para reemplazarlo o comparecer por sí. La fijación del plazo se hará bajo apercibimiento de continuarse el juicio en rebeldía. La resolución que así lo disponga deberá notificarse por cédula en el domicilio real del representante.
+
+Por haber cesado la personalidad con que litigaba el representado.
+
+Por haber concluido la causa para la cual se le otorgó representación.
+
+Por muerte o incapacidad del representado. En tales casos el representante continuará ejerciendo la representación hasta que los herederos o el representante legal tomen la intervención que les corresponda en el proceso, o venza el plazo fijado en este mismo inciso. Mientras tanto, comprobado el deceso o la incapacidad, el juez señalará un plazo para que los interesados concurran a estar a derecho, citándolos directamente si se conocieran sus domicilios, o por edictos durante dos (2) días consecutivos, si no fuesen conocidos, bajo apercibimiento de continuar el juicio en rebeldía en el primer caso y de nombrarles defensor en el segundo.
+
+Cuando el deceso o la incapacidad hubieren llegado a conocimiento del representante, éste deberá hacerlo presente al juez o tribunal dentro del plazo de dos (2) días, bajo pena de perder el derecho a cobrar los honorarios que se devengaren con posterioridad. En la misma sanción incurrirá el representante que omita denunciar el nombre y domicilio de los herederos, o del representante legal, si los conociere.
+
+Por muerte o inhabilidad del representante. Producido el caso, se suspenderá la tramitación del juicio y el juez fijará al representado un plazo para que comparezca por sí o por nuevo representante, citándolo en la forma dispuesta en el inciso anterior. Vencido el plazo fijado sin que el representado satisfaga el requerimiento, se continuará el juicio en rebeldía.
+
+Art. 49 – Unificación de la personería
+
+Cuando actuaren en el proceso diversos litigantes con un interés común, el juez de oficio o a petición de parte y después de contestada la demanda, les intimará a que unifiquen la representación siempre que haya compatibilidad en ella, que el derecho o el fundamento de la demanda sea el mismo o iguales las defensas. A ese efecto, fijará una audiencia dentro de los diez (10) días y si los interesados no concurriesen o no se aviniesen en el nombramiento de representante único, el juez lo designará eligiendo entre los que intervienen en el proceso.
+
+Producida la unificación, el representante único tendrá, respecto de sus mandantes, todas las facultades inherentes al mandato.
+
+Art. 50 – Revocación
+
+Una vez efectuado el nombramiento común, podrá revocarse por acuerdo unánime de las mismas partes o por el juez a petición de alguna de ellas, siempre que en este último caso hubiese motivo que lo justifique. La revocación no producirá efectos mientras no tome intervención el nuevo mandatario.
+
+La unificación se dejará sin efecto cuando desaparecieren los presupuestos mencionados en el primer párrafo del artículo anterior.
+
+CAPÍTULO 7
+
+PATROCINIO LETRADO
+
+Art. 51 – Patrocinio Obligatorio
+
+Los jueces no proveerán ningún escrito de demanda o excepciones y sus contestaciones, a legados o expresiones de agravios, ni aquéllos en que se promuevan incidentes o se pida nulidad de actuaciones y, en general, los que sustenten o controviertan derechos si no llevan firma digital de letrado.
+
+No se admitirá tampoco la promoción de cuestiones, de cualquier naturaleza, en las audiencias, ni su contestación, si la parte que las promueve o contesta no está acompañada de letrado patrocinante.
+
+Art. 52 – Falta de firma de letrado
+
+Se tendrá por no presentado y se devolverá al firmante, sin más trámite ni recursos, todo escrito que debiendo llevar firma digital de letrado no la tuviese, si dentro del segundo día de notificada la providencia que exige el cumplimiento de ese requisito no fuese suplida la omisión.
+
+Ello tendrá lugar suscribiendo un abogado el mismo escrito ante un funcionario del juzgado, quien certificará en el expediente esa circunstancia, o por la ratificación que por separado se hiciere con firma de letrado.
+
+Art. 53 – A los fines del patrocinio jurídico del consumidor o usuario la reglamentación establecerá los servicios gratuitos destinados a la asistencia de quienes lo soliciten y cumplan los requisitos que aquélla establezca, sin perjuicio de lo que en materia de protección de derechos corresponda al Ministerio Público de la Defensa.
+
+Art. 54 – Dignidad
+
+En el desempeño de su profesión, el abogado será asimilado a los magistrados en cuanto al respeto y consideración que debe guardársele.
+
+CAPÍTULO 8
+
+REBELDÍA
+
+Art. 55 – Rebeldía
+
+La parte con domicilio conocido, debidamente citada, que no compareciere durante el plazo de la citación o abandonare el juicio después de haber comparecido, será declarada en rebeldía a pedido de la otra.
+
+Esta resolución se notificará por cédula o, en su caso, por edictos durante dos (2) días. Las sucesivas resoluciones se tendrán por notificadas el día de que fueron dictadas.
+
+Art. 56 – Efectos
+
+La rebeldía no alterará la secuela regular del proceso.
+
+La sentencia será pronunciada según el mérito de la causa y demás presunciones establecidas en este código. En caso de duda, la rebeldía declarada y firme constituirá presunción de verdad de los hechos lícitos afirmados por quien obtuvo la declaración.
+
+Art. 57 – Costas
+
+Serán a cargo del rebelde las costas causadas por su rebeldía.
+
+Art. 58 – Notificación de la sentencia
+
+La sentencia se hará saber al rebelde en la forma prescripta para la notificación de la providencia que declara la rebeldía.
+
+Art. 59 – Medidas precautorias
+
+Desde el momento en que un litigante haya sido declarado en rebeldía podrán decretarse, si la otra parte lo pidiere, las medidas precautorias necesarias para asegurar el objeto del juicio, o el pago de la suma que se estime en concepto de eventuales costas si el rebelde fuere el actor.
+
+Art. 60 – Comparecencia del Rebelde
+
+Si el rebelde compareciere en cualquier estado del juicio, será admitido como parte y, cesando el procedimiento en rebeldía, se entenderá con él la sustanciación, sin que ésta pueda en ningún caso retrogradar el curso de la causa.
+
+Art. 61 – Subsistencia de las medidas precautorias
+
+Las medidas precautorias decretadas de conformidad con el artículo 59 continuarán hasta la terminación del juicio, a menos que el interesado justificare haber incurrido en rebeldía por causas que no haya estado a su alcance vencer.
+
+Serán aplicables las normas sobre ampliación, sustitución o reducción de las medidas precautorias.
+
+Las peticiones sobre procedencia o alcance de las medidas precautorias tramitarán por incidente, sin detener el curso del proceso principal.
+
+Art. 62 – Inimpugnabilidad de la sentencia
+
+Ejecutoriada la sentencia pronunciada en rebeldía, no se admitirá recurso alguno contra ella.
+
+CAPÍTULO 9
+
+INTERVENCIÓN DE TERCEROS
+
+Art. 63 – Intervención voluntaria de terceros
+
+Podrá intervenir en un juicio pendiente en calidad de parte, cualquiera fuere la etapa o la instancia en que éste se encontrare, quien:
+
+Acredite sumariamente que la sentencia pudiere afectar su interés propio.
+
+Según las normas del derecho sustancial, hubiese estado legitimado para demandar o ser demandado en el juicio.
+
+En el caso del inciso 1 la actuación del interviniente será accesoria y subordinada a la de la parte a quien apoyare, no pudiendo alegar ni probar lo que estuviese prohibido a ésta.
+
+En el caso del inciso 2 el interviniente actuará como litisconsorte de la parte principal y tendrá sus mismas facultades procesales.
+
+El pedido de intervención se formulará por escrito, con los requisitos de la demanda, en lo pertinente. Con aquél se presentarán los documentos y se ofrecerán las demás pruebas de los hechos en que se fundare la solicitud. El juez resolverá inaudita parte en el plazo de dos (2) días la procedencia de la intervención, debiendo evaluar el pedido con carácter restrictivo.
+
+En ningún caso la intervención del tercero retrogradará el juicio ni suspenderá su curso.
+
+Art. 64 – Intervención obligada de terceros
+
+El demandado dentro del plazo para contestar la demanda, podrá solicitar la citación de aquél a cuyo respecto considerare que la controversia es común.
+
+El juez deberá ponderar en forma restrictiva la procedencia de la citación y resolver inaudita parte en el plazo de dos (2) días. En caso de admitirse la citación, será carga del demandado hacerlo comparecer a juicio dentro del plazo de cinco (5) días bajo apercibimiento de tenerlo por desistido de la petición.
+
+El tercero deberá contestar su citación en iguales términos que la contestación de la demanda, no pudiendo citar a otros terceros, salvo citadas en garantía.
+
+La citación de un tercero suspenderá el procedimiento hasta su comparecencia o hasta el vencimiento del plazo que se le hubiere señalado para comparecer.
+
+CAPÍTULO 10
+
+COSTAS
+
+Art. 65 – Costas
+
+Las costas comprenderán:
+
+a) Los gastos de notificaciones.
+
+b) Los gastos de pericias.
+
+c) Los honorarios de los letrados intervinientes.
+
+d) Los honorarios de los peritos que en conjunto no podrán exceder del 10% (diez por ciento) del monto reclamado.
+
+e) Todo otro gasto originado en la tramitación del proceso, incluidos los honorarios de los mediadores y los gastos incurridos en la etapa prejudicial.
+
+Art. 66 – Gratuidad a favor del consumidor o usuario
+
+Las actuaciones judiciales promovidas por consumidores o usuarios individuales o colectivas, se regirán por el principio de gratuidad establecido en los artículos 53 último párrafo y 55 último párrafo de la Ley Nº 24.240 y sus modificatorias, lo que importa que se encuentran exentas del pago de tasa de justicia, timbrados, sellados, contribuciones, costas y de todo gasto que pueda irrogar el juicio.
+
+En caso de consumidores o usuarios que actúen en interés propio, en reclamos superiores a un monto que exceda las (cien) 100 UMA, el demandado podrá acreditar por incidente separado y sin suspensión del trámite principal, que el/los actor/es dispone/n de recursos económicos suficientes para soportar los gastos del juicio, conforme se regula en el presente Código en lo relativo al incidente de solvencia. En ningún caso el incidente de solvencia que prospere importará la obligación del consumidor actor de abonar la tasa de justicia.
+
+Art. 67 – Pagos y transferencias
+
+Todo pago que deba realizarse al consumidor o usuario como resultado del litigio, se deberá efectivizar mediante depósito judicial a la orden del juzgado interviniente y ulterior giro personal al titular del crédito o sus derechohabientes debidamente acreditados.
+
+En caso de que el beneficiario solicite pago por transferencia bancaria deberá acompañar con su firma los datos de su cuenta bancaria, CBU, CUIT y su condición frente al IVA u otros datos que solicite la entidad bancaria de depósitos judiciales. La reglamentación y los acuerdos con la entidad bancaria establecerán la regulación de libranzas electrónicas.
+
+Todo pago realizado sin observar lo prescripto es nulo de nulidad absoluta.
+
+CAPÍTULO 11
+
+INCIDENTE DE SOLVENCIA Y BENEFICIO DE LITIGAR SIN GASTOS
+
+Sección 1
+
+Del incidente de solvencia
+
+Art. 68 – Legitimados
+
+El proveedor podrá solicitar la formación del incidente de solvencia con arreglo a las disposiciones contenidas en este capítulo.
+
+Art. 69 – Oportunidad
+
+El proveedor podrá solicitar la formación del incidente en forma conjunta con la contestación de demanda y hasta el momento en que se fije la audiencia de vista de causa.
+
+No podrán iniciarse incidentes de solvencia en reclamos inferiores a las 100 (cien) UMA ni contra Asociaciones de Consumidores.
+
+Art. 70 – Requisitos de la solicitud
+
+La solicitud deberá contener:
+
+a) La mención de los hechos en que se funda.
+
+b) El ofrecimiento de la prueba tendiente a demostrar la solvencia del consumidor.
+
+Sólo serán admisibles la prueba documental y la informativa.
+
+Art. 71 – Trámite
+
+Del incidente formado se dará traslado al consumidor actor por el término de tres (3) días, quien al contestarlo tendrá la carga de ofrecer la prueba de la que intente valerse.
+
+Una vez notificado el traslado se confiere vista al Representante del Fisco, quien podrá formular peticiones y proponer prueba.
+
+Recibida la contestación o transcurrido el plazo para ello, el tribunal abrirá el incidente a prueba y ordenará las diligencias necesarias para que la prueba se produzca antes de la audiencia de vista de causa.
+
+Art. 72 – Resolución
+
+El juez resolverá el incidente en el mismo acto de la audiencia de vista de causa.
+
+Art. 73 – Carácter de la resolución
+
+La resolución judicial decidirá si conforme a las pruebas aportadas el consumidor se encuentra o no en condiciones de afrontar los gastos del juicio y la tasa de justicia.
+
+En caso de declararse la solvencia del consumidor para afrontar los gastos del juicio, cesará a su respecto el principio de gratuidad del art. 66 de este Código. La resolución que recaiga en el incidente de solvencia es apelable con efecto suspensivo.
+
+Sección 2
+
+Del beneficio de litigar sin gastos
+
+Art. 74 – Beneficio de litigar sin gastos
+
+El proveedor, encuadrado en lo establecido por la Ley Nº 25.300 y el Art. 2 de la Ley Nº 24.467, podrá tramitar el beneficio de litigar sin gastos. La solicitud y el trámite deben efectuarse, en lo pertinente, con arreglo a las disposiciones previstas en este capítulo para el incidente de solvencia.
+
+El juez evaluará la solicitud con carácter restrictivo.
+
+TÍTULO II
+
+ACTOS PROCESALES
+
+CAPÍTULO 1
+
+ACTUACIONES EN GENERAL
+
+Art. 75 – Idioma. Designación de intérprete
+
+En todos los actos del proceso se utilizará el idioma nacional. Cuando éste no fuere conocido por la persona que deba prestar declaración, se designará por sorteo un traductor público. Se nombrará intérprete cuando deba interrogarse a sordos, mudos o sordomudos que sólo puedan darse a entender por lenguaje especializado.
+
+Art. 76 – Solicitudes informáticas
+
+Podrá solicitarse la reiteración de oficios o exhortos, desglose de poderes o documentos, agregación de pruebas, entrega de edictos, y, en general, que se dicten providencias de mero trámite, a través del sistema electrónico y del modo que lo establezca la Reglamentación, sin necesidad de hacerlo en soporte papel.
+
+CAPÍTULO 2
+
+ESCRITOS
+
+Art. 77 – Redacción
+
+Para la redacción y presentación de los escritos regirán las normas del Reglamento para el Poder Judicial de la Ciudad de Buenos Aires y las emitidas o a emitirse por el Consejo de la Magistratura de la CABA referidas al expediente judicial electrónico.
+
+Art. 78 – Copias
+
+De todo escrito de que deba darse traslado y de sus contestaciones, de los que tengan por objeto ofrecer prueba, promover incidentes o constituir nuevo domicilio y de los documentos con ellos agregados, deberán acompañarse tantas copias firmadas como partes intervengan, salvo que hayan unificado la representación.
+
+Se tendrá por no presentado el escrito o el documento, según el caso, y se devolverá al presentante, sin más trámite ni recurso, si dentro de los dos (2) días siguientes a los de la notificación de la providencia que exige el cumplimiento del requisito establecido en el párrafo anterior, no fuere suplida la omisión.
+
+Las copias podrán ser firmadas, indistintamente, por las partes, sus apoderados o letrados que intervengan en el juicio. Sólo serán entregadas a la parte interesada, su apoderado o letrado que intervengan en el juicio, con nota de recibo.
+
+La reglamentación establecerá el modo y la forma de cómo deberán ser acompañadas las copias en cuestión en los casos de expediente digital.
+
+Art. 79 – Copias de documentos de reproducción dificultosa
+
+No será obligatorio acompañar copia de documentos cuya reproducción fuese dificultosa por su número, extensión, o cualquier otra razón atendible, siempre que así se resolviere, a pedido formulado en el mismo escrito. En tal caso, el plazo previsto en el artículo anterior comenzará a correr a partir de notificación de la resolución que deniegue el pedido de eximición. En caso de que se hiciera lugar al pedido, se arbitrarán las medidas necesarias para obviar a la otra u otras partes los inconvenientes derivados de la falta de carga.
+
+Cuando con una cuenta se acompañaren libros, recibos o comprobantes, bastará que éstos se presenten numerados y se depositen en la secretaría para que la parte o partes interesadas puedan consultarlos.
+
+En los casos en que las actuaciones tramiten por expediente electrónico, no se admitirá la exención de copias por la voluminosidad o extensión de las mismas, debiendo ser digitalizadas y acompañadas a la causa en la forma que establezca la reglamentación.
+
+Art. 80 – Documentos en idioma extranjero
+
+Cuando se presentaren documentos en idioma extranjero, deberá acompañarse su traducción realizada por traductor público matriculado. Excepcionalmente y en razón de su extensión o complejidad, el juez podrá otorgar un plazo adicional no mayor a diez (10) días para que se acompañe la traducción.
+
+Art. 81 – Cargo
+
+El cargo puesto al pie de los escritos será autorizado por el funcionario que la Reglamentación establezca a esos efectos.
+
+Si se dispusiere que la fecha y hora de presentación de los escritos se registre con fechador mecánico, el cargo quedará integrado con la firma del funcionario, a continuación de la constancia del fechador.
+
+El requisito precedente quedará cumplido con la fecha y hora que indique el sistema electrónico para los escritos que se presenten del modo que establece el Reglamento para el Poder Judicial de la Ciudad de Buenos Aires.
+
+El escrito no presentado dentro del horario judicial del día en que venciere un plazo sólo podrá ser entregado válidamente en la secretaría que corresponda, el día hábil inmediato y dentro de las dos (2) primeras horas del despacho.
+
+CAPÍTULO 3
+
+NOTIFICACIONES
+
+Art. 82 – Principio General
+
+Todas las providencias y resoluciones del proceso se notificarán por intermedio de la Oficina de Gestión Judicial a través del sistema electrónico y del modo que lo establezca la reglamentación, incluidas las dirigidas a los ministerios públicos y funcionarios que por cualquier título intervengan en el proceso.
+
+Las partes quedarán notificadas de las decisiones dictadas en audiencias en el mismo acto.
+
+Sólo se notificará por cédula o por los medios fehacientes que establezca la reglamentación el traslado de la demanda cuando las partes no hubieran constituido domicilio electrónico en la instancia conciliatoria previa. También se notificará por esta vía la declaración de rebeldía y la sentencia a quien hubiere sido declarado rebelde durante el proceso.
+
+Se notificarán en el domicilio real las resoluciones que las normas especiales así lo dispongan.
+
+CAPÍTULO 4
+
+VISTAS Y TRASLADOS
+
+Art. 83 – Plazo y carácter
+
+El plazo para contestar vistas y traslados, salvo disposición en contrario de la ley, será de tres (3) o cinco (5) días, según se trate del proceso ordinario o ampliado respectivamente. Contestado el traslado o vencido el plazo para hacerlo, el juez o tribunal debe dictar resolución sin más trámite.
+
+La falta de contestación del traslado no importa consentimiento a las pretensiones de la contraria.
+
+Art. 84 – Vistas
+
+Se le dará vista al Ministerio Público Fiscal:
+
+– En los planteos de competencia y de prescripción.
+
+– Cuando se haya planteado la declinatoria.
+
+– Cuando se haya controvertido la constitucionalidad de una norma.
+
+– En los recursos de inconstitucionalidad
+
+– Para notificarlo de la audiencia de apertura a prueba y de vista de causa.
+
+– Cuando las partes hayan arribado a un acuerdo y previo a su homologación.
+
+Sin perjuicio de los supuestos mencionados, también se le podrá dar intervención cuando el juez entienda que las circunstancias del caso así lo ameritan.
+
+CAPÍTULO 5
+
+EL TIEMPO DE LOS ACTOS PROCESALES
+
+Sección 1
+
+Días y horas hábiles
+
+Art. 85 – Las actuaciones y diligencias judiciales se practicarán en días y horas hábiles, bajo pena de nulidad.
+
+Son horas hábiles las comprendidas dentro del horario establecido por el Reglamento para el Poder Judicial de la Ciudad de Buenos Aires; pero respecto de las diligencias que deban practicarse fuera de la oficina, son horas hábiles las que median entre las ocho (8) y las veinte (20).
+
+Art. 86 – Habilitación expresa
+
+A petición de parte o de oficio, los jueces y tribunales deberán habilitar días y horas, cuando no fuere posible señalar las audiencias dentro del plazo establecido por este Código, o se tratase de diligencias urgentes cuya demora pudiera tornarlas ineficaces u originar perjuicios evidentes a las partes. De la resolución sólo podrá recurrirse por reposición, siempre que aquélla fuera denegatoria.
+
+Art. 87 – Habilitación tácita
+
+La diligencia iniciada en día y hora hábil podrá llevarse hasta su fin en tiempo inhábil sin necesidad de que se decrete la habilitación. Si no pudiere terminarse en el día, continuará en el siguiente hábil, a la hora que en el mismo día se establezca.
+
+Sección 2
+
+Plazos
+
+Art. 88 – Carácter
+
+Los plazos legales o judiciales son perentorios; podrán ser prorrogados por acuerdo de partes con relación a actos procesales determinados.
+
+Cuando este Código no fijare expresamente el plazo que corresponda para la realización de un acto,se fijará de conformidad con la naturaleza del proceso y la importancia de la diligencia.
+
+Art. 89 – Comienzo
+
+Los plazos empezarán a correr desde la notificación y si fuesen comunes, desde la última.
+
+No se contará el día en que se practique esa diligencia, ni los días inhábiles.
+
+La notificación electrónica realizada un día inhábil o entre las 20:00 y las 23:59 horas de un día hábil se considerará practicada el primer día hábil siguiente; si fuera realizada entre las 00:00 horas y las 7:59 de un día hábil, lo será ese mismo día.
+
+Art. 90 – Suspensión convencional
+
+Los representantes voluntarios no podrán acordar una suspensión mayor de veinte (20) días sin acreditar ante el Juez o Tribunal la conformidad de sus mandantes.
+
+Por acuerdo de partes peticionado por presentación ante el tribunal o en audiencia, los plazos podrán suspenderse hasta por VEINTE (20) días hábiles, reanudándose en forma automática sin necesidad de resolución o notificación.
+
+En ningún caso podrán suspenderse por acuerdo de partes las audiencias y otros actos procesales establecidos por el tribunal.
+
+Art. 91 – Ampliación
+
+Para toda diligencia que deba practicarse dentro de la República y fuera del lugar del asiento del juzgado o tribunal, quedarán ampliados los plazos fijados por este Código a razón de un (1) día por cada doscientos (200) kilómetros o fracción que no baje de cien (100).
+
+CAPÍTULO 6
+
+Resoluciones judiciales
+
+Art. 92 – Providencias de mero trámite
+
+Las providencias simples tienen como objetivo el desarrollo y avance del proceso y deben dictarse dentro de los tres (3) días. No requieren otras formalidades que su expresión escrita, indicación de fecha y lugar, y la firma del responsable de la Oficina de Gestión Judicial.
+
+Art. 93 – Sentencias interlocutorias
+
+Las sentencias interlocutorias resuelven cuestiones que requieren sustanciación, planteadas durante el curso del proceso. Además de los requisitos enunciados en el artículo anterior, deberán contener:
+
+Los fundamentos.
+
+La decisión expresa, positiva y precisa de las cuestiones planteadas.
+
+El pronunciamiento sobre costas.
+
+La firma del Juez salvo que haya sido decidida en la oportunidad de la audiencia.
+
+Deben dictarse dentro de los cinco (5) o de los diez (10) días, según si trate de un procesoordinario o ampliado.
+
+Art. 94 – Sentencias homologatorias
+
+Las sentencias que recayesen en los supuestos de desistimiento del derecho, transacción o conciliación, se dictarán en la forma establecida en el artículo anterior.
+
+Art. 95 – Sentencias definitivas
+
+La sentencia deberá contener:
+
+a) Lugar y fecha.
+
+b) Nombre y apellido de las partes.
+
+c) La relación sucinta de las cuestiones.
+
+d) La valoración de la prueba conforme a la sana crítica y a los principios protectorios del derecho del consumidor.
+
+e) Los fundamentos y la aplicación de la ley. La conducta observada por las partes durante la sustanciación del proceso podrá constituir un elemento de convicción corroborante de las pruebas, para juzgar la procedencia de las respectivas pretensiones.
+
+f) La decisión expresa, concreta y positiva de las cuestiones planteadas declarando el derecho de las partes y haciendo lugar o rechazando la demanda.
+
+g) El monto de la condena, si correspondiere, y la declaración sobre temeridad o malicia.
+
+h) El plazo para el cumplimiento. Podrá también contener una multa progresiva para el caso de incumplimiento a cargo del vencido y a favor del vencedor.
+
+i) El pronunciamiento sobre costas.
+
+j) La regulación de honorarios de letrados y peritos que puede diferirse fundadamente a la existencia de liquidación firme en autos.
+
+k) La firma del Juez.
+
+Al dictar sentencia el juez resolverá en base a las pretensiones de las partes de manera razonablemente fundada, ajustándose a una solución más eficaz del litigio. Igualmente, podrá flexibilizar la congruencia en aras de una mayor tutela y efectividad de los derechos fundamentales de los consumidores que no hayan sido parte del proceso, pero que puedan verse afectados por la conducta obrada por el proveedor, especialmente cuando se trate de consumidores hipervulnerables, con los alcances de los arts. 1710 a 1713 del Código Civil y Comercial de la Nación.
+
+La sentencia definitiva de segunda o ulterior instancia deberá contener, en lo pertinente, los mismos requisitos.
+
+Art. 96 – Publicidad de las sentencias
+
+Las sentencias de cualquier instancia deberán ser publicadas en la forma que establezca la reglamentación. Si afectare la intimidad de las partes o de terceros, los nombres de éstos serán eliminados de las copias para la publicidad.
+
+Art. 97 – Monto de la condena al pago de frutos, intereses, daños y perjuicios
+
+Cuando la sentencia contenga condena al pago de frutos, intereses, daños y perjuicios, fijará su importe en cantidad líquida o establecerá por lo menos las bases sobre que haya de hacerse la liquidación.
+
+Si por no haber hecho las partes estimación de los frutos o intereses, no fuese posible lo uno ni lo otro, se los determinará por vía incidental.
+
+La sentencia fijará el importe del crédito o de los perjuicios reclamados, siempre que su existencia esté legalmente comprobada, aunque no resultare justificado su monto.
+
+Art. 98 – Actuación del Juez posterior a la sentencia
+
+Pronunciada la sentencia, concluirá la competencia del juez respecto del objeto del juicio y no podrá sustituirla o modificarla.
+
+Corresponde al Juez:
+
+Corregir, de oficio antes de la notificación de la sentencia o a pedido de parte, formulado dentro de los tres (3) días de la notificación y sin substanciación, cualquier error material; aclarar conceptos oscuros sin alterar lo sustancial de la decisión y suplir cualquier omisión en que hubiese incurrido sobre algunas de las pretensiones deducidas y discutidas en el litigio.
+
+Ordenar, a pedido de parte, las medidas precautorias que fueren pertinentes.
+
+Disponer las anotaciones establecidas por la ley y la entrega de testimonios.
+
+Proseguir la substanciación y decidir los incidentes que tramiten por separado.
+
+Resolver acerca de la admisibilidad de los recursos y sustanciarlos.
+
+Ejecutar oportunamente la sentencia.
+
+CAPÍTULO 7
+
+NULIDAD DE LOS ACTOS PROCESALES
+
+Art. 99 – Principio general
+
+Ningún acto procesal será declarado nulo si la ley no prevé expresamente esa sanción.
+
+La nulidad procederá cuando el acto carezca de los requisitos indispensables para la obtención de su finalidad.
+
+No se podrá declarar la nulidad si el acto, no obstante su irregularidad, logró la finalidad a la que estaba destinado.
+
+Art. 100 – Subsanación
+
+La nulidad no podrá ser declarada cuando el acto haya sido consentido, aunque fuere tácitamente, por la parte interesada en la declaración. Se entenderá que media consentimiento tácito cuando no se promoviere incidente de nulidad dentro de los cinco (5) días subsiguientes al conocimiento del acto.
+
+La parte que hubiere dado lugar a la nulidad no podrá pedir la invalidez del acto realizado.
+
+Art. 101 – Inadmisibilidad
+
+La parte que hubiera dado lugar a la nulidad no podrá pedir la invalidez del acto realizado.
+
+Art. 102 – Iniciativa para la declaración. Requisitos
+
+La nulidad podrá ser declarada a petición de parte o de oficio, siempre que el acto viciado no estuviere consentido.
+
+Quien promoviere el incidente deberá expresar el perjuicio sufrido del que derivare el interés en obtener la declaración y mencionar, en su caso, las defensas que no ha podido oponer.
+
+Si la nulidad fuere manifiesta no se requerirá sustanciación.
+
+Art. 103 – Rechazo “in limine”
+
+Se desestimará sin más trámite el pedido de nulidad si no se hubiesen cumplido los requisitos establecidos en el segundo párrafo del artículo anterior o cuando fuere manifiestamente improcedente.
+
+Art. 104 – Efectos
+
+La nulidad de un acto no importará la de los anteriores ni la de los sucesivos que sean independientes de dicho acto. La nulidad de una parte del acto no afectará a las demás partes que sean independientes de aquélla.
+
+CAPÍTULO 8
+
+INCIDENTES
+
+Art. 105 – Principio general
+
+Toda cuestión que tuviere relación con el objeto principal del pleito y no se hallare sometida a un procedimiento especial, se planteará y resolverá en las audiencias previstas.
+
+Excepcionalmente, cuando su tratamiento no pueda diferirse a una audiencia, tramitará en pieza separada en la forma prevista por las disposiciones de este Capítulo.
+
+Art. 106 – Suspensión del proceso principal
+
+Los incidentes no suspenderán la prosecución del proceso principal, a menos que este Código disponga lo contrario o que así lo resolviere el juez cuando lo considere indispensable por la naturaleza de la cuestión planteada. La resolución será irrecurrible.
+
+Art. 107 – Formación del incidente
+
+El incidente se formará con el escrito en que se promoviere y con copia de la resolución y de las demás piezas del principal que lo motivan y que indicaren las partes.
+
+Art. 108 – Requisitos
+
+El escrito en que se planteare el incidente deberá ser fundado clara y concretamente en los hechos y en el derecho, ofreciéndose en él toda la prueba.
+
+Art. 109 – Rechazo “in limine”
+
+Si el incidente promovido fuere manifiestamente improcedente, el juez deberá rechazarlo sin más trámite. La resolución será apelable en efecto devolutivo.
+
+Art. 110 – Traslado y contestación
+
+Si el juez resolviere admitir el incidente, dará traslado por cinco (5) días a la otra parte, quien al contestarlo deberá ofrecer la prueba. El traslado se notificará dentro del tercer día de dictada la providencia que lo ordenare.
+
+Art. 111 – Recepción de la prueba
+
+Si hubiere de producirse prueba que requiriese audiencia, la misma se producirá en la audiencia de vista de causa.
+
+Excepcionalmente y de manera fundada, el juez la señalará para una fecha que no podrá exceder de diez
+(10) días desde que se hubiere contestado el traslado o vencido el plazo para hacerlo.
+
+El juez citará a los testigos que las partes no puedan hacer comparecer por sí y adoptará las medidas necesarias para el diligenciamiento de la prueba que no pueda recibirse en dicha audiencia. Si no resultare posible su agregación antes de la audiencia, sólo será tenida en cuenta si se incorporase antes de resolver el incidente, cualquiera sea la instancia en que éste se encontrare.
+
+Art. 112 – Prórroga o suspensión de la audiencia
+
+La audiencia especial podrá postergarse o suspenderse una sola vez por un plazo no mayor de diez (10) días, cuando hubiere imposibilidad material de producir la prueba que deba recibirse en ella.
+
+Art. 113 – Prueba pericial y testimonial
+
+La prueba pericial, cuando procediere, se llevará a cabo por un (1) solo perito designado de oficio. No se admitirá la intervención de consultores técnicos.
+
+No podrá proponerse más de dos (2) testigos por cada parte y las declaraciones no podrán recibirse fuera de la jurisdicción, cualquiera fuere el domicilio de aquéllos.
+
+Art. 114 – Cuestiones accesorias
+
+Las cuestiones que surgieren en el curso de los incidentes y que no tuvieren entidad suficiente para constituir otro autónomo, se decidirán en la interlocutoria que los resuelva.
+
+Art. 115 – Resolución
+
+Contestado el traslado o vencido el plazo, recibida la prueba, o en su caso, si ninguna de las partes hubiese ofrecido prueba o no se ordenase de oficio, el juez, sin más trámite, dictará resolución.
+
+Art. 116 – Todos los incidentes que por su naturaleza pudieren paralizar el proceso, cuyas causas existieren simultáneamente y fuesen conocidas por quien los promueve, deberán ser articulados en un mismo escrito, siempre que sea posible su tramitación conjunta. Se desestimarán sin más trámite los que se entablaren con posterioridad.
+
+CAPÍTULO 9
+
+ACUMULACIÓN DE PROCESOS
+
+Art. 117 – Procedencia
+
+Procederá la acumulación de procesos cuando hubiere sido admisible la acumulación subjetiva de acciones y siempre que la sentencia que haya de dictarse en uno de ellos pudiere producir efectos de cosa juzgada en otro u otros.
+
+Se requerirá, además:
+
+Que los procesos se encuentren en la misma instancia.
+
+Que el juez a quien corresponda entender en los procesos acumulados sea competente por razón de la materia.
+
+Que estén tramitando por el mismo tipo de proceso. Podrán acumularse dos (2) o más procesos de conocimiento, o dos (2) o más procesos de ejecución sujetos a distintos trámites, cuando su acumulación resultare indispensable en razón de concurrir la circunstancia prevista en la última parte del primer párrafo. En tal caso, el juez determinará el procedimiento que corresponde imprimir al juicio acumulado.
+
+Que el estado de las causas permita su sustanciación conjunta, sin producir demora perjudicial e injustificada en el trámite del o de los que estuvieren más avanzados.
+
+Art. 118 – Principio de Prevención
+
+La acumulación se hará sobre el expediente que se hubiese iniciado primero.
+
+Art. 119 – Modo y oportunidad de disponerse
+
+La acumulación se ordenará de oficio, o a petición de parte formulada al contestar la demanda o, posteriormente, por incidente que podrá promoverse en cualquier instancia o etapa del proceso, hasta el momento de quedar en estado de sentencia.
+
+Art. 120 – Resolución del incidente
+
+El incidente podrá plantearse ante el juez que debe conocer en definitiva o ante el que debe remitir el expediente.
+
+En el primer caso, el juez conferirá traslado a los otros litigantes, y si considerare fundada la petición solicitará el otro u otros expedientes, expresando los fundamentos de su pedido. Recibidos, dictará sin más trámite resolución, contra la cual no habrá recurso y la hará conocer a los juzgados donde tramitaban los procesos.
+
+En el segundo caso, dará traslado a los otros litigantes, y si considerare procedente la acumulación remitirá el expediente al otro juez, o bien le pedirá la remisión del que tuviere en trámite, si entendiese que la acumulación debe efectuarse sobre el que se sustancia ante su juzgado, expresando los motivos en que se funda. En ambos supuestos la resolución será inapelable.
+
+Si se declarase improcedente el pedido, la resolución será apelable.
+
+Art. 121 – Conflicto de acumulación
+
+Sea que la acumulación se hubiese dispuesto a pedido de parte o de oficio, si el juez requerido no accediere, deberá elevar el expediente a la cámara que constituya su alzada; ésta, sin sustanciación alguna, resolverá en definitiva si la acumulación es procedente.
+
+Art. 122 – Suspensión de trámites
+
+El curso de todos los procesos se suspenderá, si tramitasen ante un mismo juez, desde que se promoviere la cuestión. Si tramitasen ante jueces distintos, desde que se comunicare el pedido de acumulación al juez respectivo, excepto las medidas o diligencias de cuya omisión pudiere resultar perjuicio.
+
+Art. 123 – Sentencia Única
+
+Los procesos acumulados se sustanciarán y fallarán conjuntamente, pero si el trámite resultare dificultoso por la naturaleza de las cuestiones planteadas, podrá el juez disponer, sin recurso, que cada proceso se sustancie por separado, dictando una sola sentencia.
+
+CAPÍTULO 10
+
+MEDIDAS CAUTELARES
+
+Sección 1
+
+Parte General
+
+Art. 124 – Oportunidad y presupuesto
+
+Las medidas cautelares podrán ser solicitadas antes o después de deducida la demanda, a menos que de la ley resultare que ésta debe entablarse previamente.
+
+El escrito deberá expresar el derecho que se pretende asegurar, la medida que se pide, la disposición de la ley en que se funde y el cumplimiento de los requisitos que corresponden, en particular, a la medida requerida.
+
+Art. 125 – Medida decretada por Juez incompetente
+
+Los jueces deberán abstenerse de decretar medidas precautorias cuando el conocimiento de la causa no fuese de su competencia.
+
+La medida ordenada por un juez incompetente será válida siempre que haya sido dispuesta de conformidad con las prescripciones de este capítulo, pero no prorrogará su competencia.
+
+El juez que decretó la medida, inmediatamente después de requerido remitirá las actuaciones al que sea competente.
+
+Art. 126 – Cumplimiento y recursos
+
+Las medidas precautorias se decretarán y cumplirán sin audiencia de la otra parte. Ningún incidente planteado por el destinatario de la medida podrá detener su cumplimiento.
+
+Si el afectado no hubiese tomado conocimiento de las medidas con motivo de su ejecución, se le notificarán de oficio dentro de los tres (3) días y junto con el traslado de la demanda, en caso de corresponder.
+
+La providencia que admitiere o denegare una medida cautelar será recurrible por vía de reposición; también será admisible la apelación, subsidiaria o directa.
+
+El recurso de apelación, en caso de admitirse la medida, se concederá con efecto no suspensivo.
+
+Art. 127 – Contracautela
+
+La medida precautoria sólo podrá decretarse bajo la responsabilidad de la parte que la solicitare, quien deberá dar caución por todas las costas y daños y perjuicios que pudiere ocasionar.
+
+El juez graduará la calidad y monto de la caución de acuerdo con la mayor o menor verosimilitud del derecho y las circunstancias del caso.
+
+Podrá ofrecerse la garantía de instituciones bancarias o de personas de acreditada responsabilidad económica.
+
+Si la medida cautelar fuera solicitada por el consumidor, como regla general se considerará contracautela suficiente la caución juratoria prestada en el pedido de la medida o por resolución del tribunal. Este beneficio cesa en caso de que se hiciera lugar al incidente de solvencia.
+
+Art. 128 – Mejora de la contracautela
+
+En cualquier estado del proceso, la parte contra quien se hubiere hecho efectiva una medida cautelar podrá pedir que se mejore la caución probando sumariamente que es insuficiente. El juez resolverá previo traslado a la otra parte.
+
+Art. 129 – Carácter provisional
+
+Las medidas cautelares subsistirán mientras duren las circunstancias que las determinaron. En cualquier momento en que éstas cesaren se podrá requerir su levantamiento.
+
+Art. 130 – Modificación
+
+El requirente podrá pedir la ampliación, mejora o sustitución de la medida cautelar decretada, justificando que ésta no cumple adecuadamente la función de garantía a que está destinada.
+
+El afectado podrá requerir la sustitución de una medida cautelar por otra que le resulte menos gravosa, siempre que ésta garantice suficientemente el derecho del acreedor. Podrá, asimismo, pedir la sustitución por otros bienes del mismo valor, o la reducción del monto por el cual la medida precautoria ha sido trabada, si correspondiere.
+
+La resolución se dictará previo traslado a la otra parte por el plazo de cinco (5) días, que el juez podrá abreviar según las circunstancias.
+
+Art. 131 – Facultades del Juez
+
+El juez, para evitar perjuicios o gravámenes innecesarios al titular de los bienes, podrá disponer una medida precautoria distinta de la solicitada, o limitarla, teniendo en cuenta la importancia del derecho que se intentare proteger.
+
+Art. 132 – Peligro de pérdida o desvaloración
+
+Si hubiere peligro de pérdida o desvalorización de los bienes afectados o si su conservación fuere gravosa o difícil, a pedido de parte y previo traslado a la otra por un plazo breve que fijará según la urgencia del caso, el juez podrá ordenar la venta en la forma más conveniente, abreviando los trámites y habilitando días y horas.
+
+Art. 133 – Establecimientos industriales o comerciales
+
+Cuando la medida se trabare sobre bienes muebles, mercaderías o materias primas, pertenecientes a establecimientos comerciales, fabriles, proveedores de servicios o afines, que los necesitaren para su funcionamiento, el juez podrá autorizar la realización de los actos necesarios para no comprometer el proceso de fabricación, comercialización, o provisión de servicios, según corresponda.
+
+Art. 134 – Caducidad
+
+Se producirá la caducidad de pleno derecho de las medidas cautelares que se hubieren ordenado y hecho efectivas antes del proceso, dentro de los diez (10) días siguientes al de su traba, si tratándose de obligación exigible no se interpusiere la demanda o no se iniciare una instancia prejudicial conciliatoria aunque la otra parte hubiese deducido recurso. Cuando se hubiera iniciado ésta última, el plazo se reiniciará una vez vencidos los veinte (20) días de la fecha del acta de cierre sin acuerdo. La medida cautelar no podrá proponerse nuevamente por la misma causa y como previa a la promoción del proceso; una vez iniciado éste, podrá ser nuevamente requerida si concurrieren los requisitos de su procedencia.
+
+Las inhibiciones y embargos se extinguirán a los cinco (5) años de la fecha de su anotación en el registro que corresponda, salvo que a petición de parte se reinscribieran antes del vencimiento del plazo, por orden del juez que entendió en el proceso.
+
+Sección 2
+
+Tutela Anticipada
+
+Art. 135 – Además de los requisitos generales, cuando exista certeza suficiente el juez podrá ordenar cautelarmente medidas que coincidan total o parcialmente con la pretensión de fondo pero que no agoten el proceso. Previo, deberá convocar a las partes a audiencia dentro de las 24 hs. de presentado el pedido bajo apercibimiento de tenerla por desistida en caso de incomparecencia de la parte actora y, para el caso que la incomparecencia sea de la parte demandada, bajo apercibimiento de declararla rebelde.
+
+Podrá exigirse contracautela de conformidad con las pautas previstas en el artículo 127 de este Código.
+
+Sección 3
+
+Medidas autosatisfactivas
+
+Art. 136 – Podrán tramitarse y otorgarse con carácter excepcional y restrictivo, sin darle previa intervención a la parte obligada, medidas cuyo pronunciamiento importe el agotamiento de la acción sujeto a que se acredite fuerte probabilidad de que lo pretendido sea atendible y no exista duda razonable acerca de su procedencia.
+
+El solicitante deberá justificar la inexistencia de otros remedios procesales idóneos que garanticen la tutela pretendida.
+
+El juez deberá pronunciarse dentro de los dos (2) días de recibida la causa. El plazo es improrrogable.
+El juez podrá solicitar una contracautela equivalente a los daños que pudiera irrogar la efectivización de la medida, sin perjuicio de las acciones de regreso o de daños posteriores que tendrá quien deba cumplirla.
+
+La resolución podrá ser recurrida vía recurso de reposición y de apelación, que deberá interponerse de conformidad con las pautas previstas para el proceso ordinario. La interposición de los recursos suspende su ejecución.
+
+TÍTULO III
+
+RECURSOS
+
+CAPÍTULO 1
+
+ACLARATORIA
+
+Art. 137 – Procedencia
+
+La aclaratoria es un remedio procesal que procede contra las sentencias y las providencias de mero trámite, a fin de que la Oficina de Gestión Judicial, el Juez o el Tribunal que las haya dictado, cada uno dentro de sus competencias, las corrija, aclare o supla cualquier omisión.
+
+Art. 138 – Plazo y forma
+
+Se interpone fundado por escrito dentro de los tres (3) días siguientes al de la notificación de la sentencia o providencia. Si ésta se dicta en una audiencia, el recurso se interpone y funda verbalmente en el mismo acto. Si es manifiestamente improcedente, la Oficina de Gestión Judicial, el Juez o el Tribunal, cada uno dentro de sus competencias, puede rechazarlo sin más trámite.
+
+Art. 139 – Resolución
+
+La Oficina de Gestión Judicial, el Juez o el Tribunal, cada uno dentro de sus competencias, dicta resolución dentro de los tres (3) días de interpuesto el recurso si es escrito, y en el mismo acto en el supuesto de una audiencia. La resolución corrige cualquier error material, aclara algún concepto oscuro, suple cualquier omisión en que hubiese incurrido y no altera en lo sustancial la decisión recurrida.
+
+Art. 140 – Procedencia
+
+El recurso de reposición procederá únicamente contra las providencias de mero trámite, causen o no gravamen irreparable o a las resoluciones que indique especialmente este código, a fin de que el responsable de la Oficina de Gestión Judicial, el Juez o el Tribunal, en el marco de las competencias propias de cada uno, las revoque por contrario imperio.
+
+Art. 141 – Plazo y forma
+
+El recurso se interpondrá y fundará por escrito dentro de los tres (3) días siguientes al de la notificación de la resolución ante el órgano que la hubiera emitido.
+
+Si el recurso fuese manifiestamente inadmisible, el responsable de la Oficina de Gestión Judicial, el Juez o el Tribunal, cada uno dentro de sus competencias, podrá rechazarlo sin ningún otro trámite.
+
+Art. 142 – Trámite
+
+El responsable de la Oficina de Gestión Judicial, el Juez o el Tribunal, cada uno dentro de sus competencias, dictará resolución, previo traslado al solicitante de la providencia recurrida, quien deberá contestarlo dentro del plazo de tres (3) días si el recurso se hubiese interpuesto por escrito, y en el mismo acto si lo hubiese sido en una audiencia.
+
+La reposición de providencias dictadas de oficio o a pedido de la misma parte que recurrió, será resuelta sin sustanciación.
+
+Cuando la resolución dependiere de hechos controvertidos, el Juez podrá imprimir al recurso de reposición el trámite de los incidentes.
+
+Art. 143 – Resolución
+
+La resolución que recaiga hará ejecutoria, a menos que:
+
+El recurso de reposición hubiere sido acompañado del de apelación subsidiaria y la providencia impugnada reuniere las condiciones establecidas en el artículo siguiente para que sea apelable.
+
+Hiciere lugar a la revocatoria, en cuyo caso podrá apelar la parte contraria, si correspondiere.
+
+CAPÍTULO 2
+
+RECURSO DE APELACIÓN. RECURSO DE NULIDAD
+
+Art. 144 – Procedencia
+
+El recurso de apelación, salvo disposición en contrario, procederá solamente respecto de:
+
+Las sentencias definitivas.
+
+Las sentencias interlocutorias.
+
+Las providencias simples que causen gravamen que no pueda ser reparado por la sentencia definitiva.
+
+En el proceso ordinario solo serán apelables las providencias que decreten o denieguen medidas precautorias, las que rechacen in limine la acción o resuelvan excepciones que hayan sido tratadas como previas, y las sentencias definitivas o asimilables a ellas que pongan fin al proceso.
+
+En caso de la resolución que haga lugar o rechace medidas cautelares, la providencia que concede el recurso debe indicar las copias necesarias para la formación del incidente, que deberán ser acompañadas por el recurrente bajo apercibimiento de declarar desierto el recurso. El plazo para presentar las copias para la formación del incidente es de un (1) día y una vez formado se correrá el respectivo traslado.
+
+Art. 145 – Serán inapelables todas las resoluciones en las que el valor que se intente cuestionar en la alzada no exceda el equivalente a diez (10) unidades de medida arancelarias (UMA) al valor vigente al momento de interponer la demanda, teniendo en cuenta para el cálculo el monto de condena o el monto del agravio, lo que resulte mayor. Cuando no hubiere forma para determinarlo o resultare dudosa su extensión, se admitirá la apelación.
+
+Art. 146 – Plazos, formas y efectos
+
+El plazo para apelar y fundar el recurso será de tres (3) días en el proceso ordinario y de cinco (5) días en el proceso ampliado, del que se correrá traslado, en cada caso, por idéntico plazo al establecido para apelar.
+
+Los recursos serán concedidos con efecto diferido. Sólo en caso de sentencia definitiva, y cuando el código así lo disponga, será concedido libremente y con efecto suspensivo.
+
+Toda regulación de honorarios será apelable. La apelación deberá interponerse y podrá fundarse dentro de los tres (3) días de la notificación.
+
+Art. 147 – Forma de interposición del recurso
+
+El recurso de apelación se interpone por escrito ante quién dictó la resolución, con la simple enunciación de los agravios, dentro del plazo mencionado en el artículo 146.
+
+Quien apela tiene la carga de mencionar los medios de prueba de los que intente valerse para fundar su apelación. Sólo se aceptarán las pruebas cuya producción hubiera sido rechazada en la primera instancia.
+
+Del escrito se correrá vista a la otra parte sólo a los efectos de que tome conocimiento de los agravios.
+
+Art. 148 – Apelación subsidiaria
+
+Cuando el recurso de apelación se hubiese interpuesto subsidiariamente con el de reposición, podrán ampliarse los fundamentos de la apelación en la oportunidad prevista en el artículo 154.
+
+Art. 149 – Efecto no suspensivo
+
+Si procediere el recurso con efecto no suspensivo, el apelante presentará copia de lo que señale del expediente en el mismo acto de interposición del recurso. Igual derecho asistirá a las restantes partes interesadas. Dichas copias y los memoriales serán remitidos a la Cámara, salvo que el juez considerare más expeditivo retenerlos para la prosecución del juicio y remitir el expediente original.
+
+Se declarará desierto el recurso si el apelante no presentare las copias que se indican en este artículo.
+
+Art. 150 – Remisión del expediente o actuación
+
+Formado el incidente y corrida la vista del artículo 147 in fine se remitirá el expediente a la Cámara de forma inmediata.
+
+Art. 151 – Pago del impuesto
+
+La falta de pago del impuesto o sellado de justicia no impedirá en ningún caso la concesión o trámite del recurso.
+
+Art. 152 – Nulidad
+
+El recurso de apelación comprende el de nulidad por defectos de la sentencia. Si el procedimiento estuviere ajustado a derecho y el tribunal de alzada declarare la nulidad de la sentencia por cualquier otra causa, resolverá también sobre el fondo del litigio.
+
+CAPÍTULO 3
+
+PROCEDIMIENTO EN SEGUNDA INSTANCIA
+
+Art. 153 – Apelaciones concedidas
+
+Una vez que el expediente queda radicado en la Cámara de apelaciones, se fijará dentro del plazo máximo de cuarenta (40) días la fecha para celebrar la audiencia que se regula en el artículo siguiente.
+
+De estimarse necesario, se abrirá a prueba el recurso y la totalidad de la prueba ordenada deberá ser producida antes de la audiencia, o durante la misma, según corresponda.
+
+Art. 154 – Desarrollo de la audiencia
+
+En la oportunidad de la audiencia:
+
+La parte que apeló ampliará verbalmente los fundamentos vertidos en su recurso.
+
+Podrá acompañar con su recurso nuevos documentos, de fecha posterior a la sentencia de primera instancia. El tribunal admitirá los nuevos documentos siempre y cuando guarden directa relación con los agravios mencionados al momento de recurrir y sean de fecha posterior a la sentencia de primera instancia.
+
+La contraparte tendrá la carga de contestar en forma verbal la ampliación de fundamentos de la contraria en esa oportunidad.
+
+El Tribunal se pronunciará sobre la procedencia del recurso en la misma audiencia, pudiendo ordenar un cuarto intermedio dentro del mismo día para deliberar. A criterio del Tribunal podrá diferir los fundamentos de la resolución por el término de cinco (5) días.
+
+Si la apelación hubiese recaído en una sentencia definitiva dictada en el proceso ampliado, una vez escuchadas las dos partes, los autos pasarán a acuerdo. Excepcionalmente, y si las circunstancias del caso lo permitieran, podrán sentenciar en la oportunidad de la audiencia o diferir los fundamentos conforme al artículo anterior.
+
+Si la parte que hubiese recurrido no concurriese a la audiencia, se la tendrá por desistida del recurso de apelación.
+
+CAPÍTULO 4
+
+QUEJA POR RECURSO DENEGADO
+
+Art. 155 – Denegación de la apelación
+
+Si el juez denegare la apelación, la parte que se considere agraviada podrá recurrir directamente en queja ante la cámara, pidiendo que se le otorgue el recurso denegado y se ordene la remisión del expediente a través de la Oficina de Gestión Judicial.
+
+El plazo para interponer la queja será de tres (3) o cinco (5) días, según se trate de un proceso ordinario o ampliado, respectivamente.
+
+Art. 156 – Admisibilidad. Trámite
+
+Son requisitos de admisibilidad de la queja:
+
+1. Acompañar copia simple suscripta por el letrado del recurrente:
+
+a) del escrito que dio lugar a la resolución recurrida y de los correspondientes a la sustanciación, si ésta hubiere tenido lugar;
+
+b) de la resolución recurrida;
+
+c) del escrito de interposición del recurso y, en su caso, de la del recurso de revocatoria si la apelación hubiese sido interpuesta en forma subsidiaria;
+
+d) de la providencia que denegó la apelación.
+
+2. Indicar la fecha en que:
+
+a) quedó notificada la resolución recurrida;
+
+b) se interpuso la apelación;
+
+c) quedó notificada la denegatoria del recurso.
+
+La Cámara podrá requerir copia de otras piezas que considere necesarias y, si fuere indispensable, la remisión del expediente.
+
+Presentada la queja en forma la cámara decidirá, sin sustanciación alguna, si el recurso ha sido bien o mal denegado; en este último caso, dispondrá que se tramite.
+
+Mientras la Cámara no conceda la apelación no se suspenderá el curso del proceso.
+
+Art. 157 – Objeción sobre el efecto del recurso
+
+Las mismas reglas se observarán cuando se cuestionase el efecto con que se hubiese concedido el recurso de apelación.
+
+CAPÍTULO 5
+
+RECURSO DE INAPLICABILIDAD DE LA LEY
+
+Art. 158 – Cuando la sentencia de una sala de Cámara contradiga a otra de distinta Sala, dictada en los dos (2) años anteriores, es susceptible de recurso de inaplicabilidad de ley.
+
+El recurso se interpone por escrito fundado ante la sala que dictó la sentencia, dentro de los cinco (5) días de notificada. La Cámara en pleno, debe resolver la doctrina aplicable y fallar el caso.
+
+TÍTULO IV
+
+MODOS ANTICIPADOS DE TERMINACIÓN DEL PROCESO
+
+CAPÍTULO 1
+
+DESISTIMIENTO
+
+Art. 159 – Desistimiento del proceso
+
+En cualquier estado de la causa anterior a la sentencia, las partes, de común acuerdo, podrán desistir del proceso manifestándolo por escrito al juez quien, sin más trámite, lo declarará extinguido y ordenará el archivo de las actuaciones.
+
+Cuando el actor desistiera del proceso después de notificada la demanda, deberá requerirse la conformidad del demandado, a quien se dará traslado notificándosele personalmente o por cédula, bajo apercibimiento de tenerlo por conforme en caso de silencio. Si mediare oposición, el desistimiento carecerá de eficacia y proseguirá el trámite de la causa.
+
+Art. 160 – Desistimiento del Derecho
+
+En la misma oportunidad y forma a que se refiere el artículo anterior, el actor podrá desistir del derecho en que fundó la acción. No se requerirá la conformidad del demandado, debiendo el juez limitarse a examinar si el acto procede por la naturaleza del derecho en litigio, y a dar por terminado el juicio en caso afirmativo. En lo sucesivo no podrá promoverse otro proceso por el mismo objeto y causa.
+
+Art. 161 – El desistimiento no se presume y podrá revocarse hasta tanto el juez se pronuncie, o surja del expediente la conformidad de la contraria.
+
+CAPÍTULO 2
+
+ALLANAMIENTO
+
+Art. 162 – Oportunidad y efectos
+
+El demandado podrá allanarse a la demanda en cualquier estado de la causa anterior a la sentencia.
+
+El juez dictará sentencia conforme a derecho, pero si estuviere comprometido el orden público, el allanamiento carecerá de efectos y continuará el proceso según su estado.
+
+Cuando el allanamiento fuere simultáneo con el cumplimiento de la prestación reclamada, la resolución que lo admita será dictada como sentencia interlocutoria.
+
+CAPÍTULO 3
+
+TRANSACCIÓN
+
+Art. 163 – Forma y trámite
+
+Las partes podrán hacer valer la transacción del derecho en litigio, con la presentación del convenio o suscripción ante el juez. Este se limitará a examinar la concurrencia de los requisitos exigidos por la ley para la validez de la transacción, y, previa vista al Ministerio Público Fiscal resolverá sobre su homologación.
+
+CAPÍTULO 4
+
+CONCILIACIÓN
+
+Art. 164 – Efectos
+
+Los acuerdos conciliatorios celebrados por las partes ante el juez y homologados por éste, tendrán autoridad de cosa juzgada.
+
+CAPÍTULO 5
+
+ARCHIVO POR INACTIVIDAD
+
+Art. 165 – El juez, asistido por la Oficina de Gestión Judicial, deberá adoptar las medidas tendientes a evitar la paralización del proceso. Recae sobre él la carga de impulsar el proceso.
+
+En el caso de que la prosecución de la causa requiera ineludiblemente de una actividad de la parte actora, se la intimará por el término de cinco (5) días a la formulación de peticiones bajo apercibimiento de archivar el expediente sin más trámite.
+
+En el supuesto que se resolviera el archivo de las actuaciones por inactividad, la misma pretensión sólo podrá ser deducida en un juicio posterior, sin perjuicio de la aplicación de las normas sobre prescripción.
+
+TÍTULO V
+
+DILIGENCIAS PRELIMINARES
+
+Art. 166 – Prueba anticipada
+
+Los que sean o vayan a ser parte en un proceso de conocimiento y tuvieren motivos justificados para temer que la producción de sus pruebas pudiera resultar imposible o muy dificultosa en el período de prueba, podrán solicitar que se produzcan anticipadamente las siguientes:
+
+Declaración de algún testigo de muy avanzada edad, o que esté gravemente enfermo o próximo a ausentarse del país.
+
+Reconocimiento judicial o dictamen pericial para hacer constar la existencia de documentos, o el estado, calidad o condición de cosas o de lugares.
+
+Pedido de informes.
+
+La exhibición, resguardo o secuestro de documentos concernientes al objeto de la pretensión.
+
+Art. 167 – Pedido de medidas preliminares, resolución y diligenciamiento
+
+En el escrito en que se solicitaren medidas preliminares se indicará el nombre de la futura parte contraria, su domicilio si fuere conocido y los fundamentos de la petición.
+
+El juez accederá a las pretensiones si estimare justas las causas en que se funda, repeliéndolas de oficio en caso contrario.
+
+La resolución será apelable únicamente cuando denegare la diligencia.
+
+Si hubiese de practicarse la prueba se citará a la contraria, salvo cuando resultare imposible por razón de urgencia, en cuyo caso intervendrá el defensor oficial. El diligenciamiento se hará en la forma establecida para cada clase de prueba, salvo en el caso de la pericial, que estará a cargo de un perito único, nombrado de oficio.
+
+Art. 168 – Producción de prueba anticipada después de trabada la litis
+
+Después de trabada la litis, la producción anticipada de prueba sólo tendrá lugar por razones de urgencia y con carácter restrictivo.
+
+TÍTULO VI
+
+PRUEBA
+
+CAPÍTULO I
+
+REGLAS GENERALES
+
+Art. 169 – Admisibilidad
+
+No podrá producirse prueba sino sobre hechos que hayan sido articulados por las partes en sus escritos respectivos.
+
+No serán admitidas las que fueren manifiestamente improcedentes o superfluas o meramente dilatorias.
+
+Art. 170 – Plazo de producción
+
+El plazo de producción de prueba será fijado por el juez, y no excederá de cuarenta (40) o sesenta (60) días, según se trate del proceso ordinario o ampliado respectivamente. Dicho plazo es común y comenzará a correr a partir de la fecha de la notificación de la apertura a prueba.
+
+Art. 171 – Carga de la prueba
+
+Incumbe la carga de la prueba a la parte que afirme la existencia de un hecho controvertido o de un precepto jurídico que el tribunal no tenga el deber de conocer. Cada una de las partes tiene la carga de probar el presupuesto de hecho de la norma o normas que invocare como fundamento de su pretensión, defensa o excepción.
+
+Los proveedores deberán aportar al proceso todos los elementos de prueba que obren en su poder, conforme a las características del bien o servicio, prestando la colaboración necesaria para el esclarecimiento de la cuestión debatida en el juicio.
+
+Art. 172 – Inapelabilidad
+
+Serán inapelables las resoluciones del juez sobre producción, denegación y sustanciación de las pruebas; si se hubiere negado alguna medida, la parte interesada podrá solicitar a la cámara que la diligencie cuando el expediente le fuere remitido para que conozca del recurso contra la sentencia definitiva.
+
+Art. 173 – Prueba dentro del radio del Juzgado
+
+Los jueces asistirán a las actuaciones de prueba que deban practicarse fuera de la sede del juzgado o tribunal, pero dentro de la Ciudad de Buenos Aires.
+
+Art. 174 – Prueba fuera del radio del juzgado
+
+Cuando las actuaciones deban practicarse fuera de la Ciudad de Buenos Aires, los jueces podrán trasladarse para recibirlas, o encomendar la diligencia a los de las respectivas localidades.
+
+Si se tratare de un reconocimiento judicial, los jueces podrán trasladarse a cualquier lugar de la República donde deba tener lugar la diligencia.
+
+Art. 175 – Caducidad
+
+Las medidas de prueba deberán ser pedidas, ordenadas y practicadas dentro del plazo. A los interesados incumbe urgir para que sean diligenciadas oportunamente. Su incumplimiento acarreará sin sustanciación, la caducidad de la prueba.
+
+La resolución del juez será irrecurrible aunque los interesados, cuando este código lo permita, podrán replantear la cuestión en la alzada al momento de apelar la sentencia definitiva.
+
+Art. 176 – Apreciación de la prueba
+
+Salvo disposición legal en contrario, los jueces formarán su convicción respecto de la prueba, de conformidad con las reglas de la sana crítica y los principios rectores del derecho del consumidor y de este código. No tendrán el deber de expresar en la sentencia la valoración de todas las pruebas producidas, sino únicamente de las que fueren esenciales y decisivas para el fallo de la causa.
+
+CAPÍTULO 2
+
+MEDIOS DE PRUEBA
+
+Art. 177 – Medios de Prueba
+
+La prueba deberá producirse por los medios previstos expresamente por la ley y por los que el juez disponga, a pedido de parte o de oficio, siempre que no afecten la moral, la libertad personal de los litigantes o de terceros, o no estén expresamente prohibidos para el caso.
+
+Los medios de prueba no previstos se diligenciarán aplicando por analogía las disposiciones de los que sean semejantes o, en su defecto, en la forma que establezca el juez.
+
+La reglamentación establecerá el sistema para diligenciamiento de pruebas en forma electrónica y su agregación o incorporación al expediente digital.
+
+Art. 178 – Prueba confesional
+
+En ningún caso será admisible la prueba confesional.
+
+Sección 1
+
+Prueba documental
+
+Art. 179 – Prueba documental
+
+Existe la carga de acompañar la prueba documental con el escrito de demanda y su contestación.
+
+También pueden requerirse documentos en soportes distintos al papel, tales como video filmaciones, cintas y soporte magnéticos u óptico, cuando existan procedimientos para determinar su autenticidad y autoría.
+
+Art. 180 – Documento en poder de una de las partes
+
+Si el documento se encontrare en poder de una de las partes, se le intima su presentación en el plazo que el/la juez/a determine.
+
+Cuando por otros elementos de juicio resultare manifiestamente verosímil su existencia y contenido, la negativa a presentarlo constituye una presunción en su contra.
+
+Art. 181 – Documentos en poder de tercero
+
+Si el documento que debe reconocerse se encontrare en poder de tercero, se le intima para que lo presente. Si lo acompaña, puede solicitar su oportuna devolución dejando testimonio en el expediente.
+
+El/la requerido/a puede oponerse a su presentación si el documento fuere de su exclusiva propiedad y la exhibición pudiere ocasionarle perjuicio. Ante la oposición formal del/la tenedor/a del documento no se insiste en el requerimiento.
+
+Art. 182 – Prueba informativa
+
+Los informes que se soliciten a las oficinas públicas, escribanos/as con registro y entidades privadas deben versar sobre hechos concretos, claramente individualizados, controvertidos en el proceso. Proceden únicamente respecto de actos o hechos que resulten de la documentación, archivo o registros contables del/la informante.
+
+Asimismo, puede requerirse a las oficinas públicas la remisión de expedientes, testimonios, certificados, u otros documentos en soportes distintos al papel, tales como video filmaciones, cintas magnéticas y soporte magnético, relacionados con el juicio.
+
+La confección de los oficios estará a cargo de las partes y serán suscriptos por sus letrados bajo su responsabilidad, en los términos del artículo 8 de la Ley Nacional Nº 23.187, salvo aquellos que la reglamentación establezca que corresponda que sean suscriptos por el juez o secretario.
+
+La parte interesada deberá acreditar su diligenciamiento dentro de los tres (3) días de notificada la apertura a prueba, bajo apercibimiento de tener por desistido el medio probatorio.
+
+El plazo para su contestación en todos los casos será de diez (10) días. Si transcurrido el plazo para su contestación no se hubieren contestado, sin necesidad de requerimiento alguno, podrán librarse oficios reiteratorios, haciéndole saber a los requeridos que una vez vencido el nuevo plazo otorgado, se le aplicará automáticamente una multa diaria de hasta una (1) Unidad de Medida Arancelaria (UMA), en favor de la parte que hubiese ofrecido esa prueba. La multa continuará devengándose hasta que se agregue la contestación, sin perjuicio de las demás sanciones que pudiesen corresponder al remiso.
+
+En el supuesto que no se acreditara el diligenciamiento del oficio reiteratorio dentro de los cinco (5) días de vencido el plazo original, sin sustanciación, se tendrá a la parte que la ofreció por desistida de la prueba.
+
+Las entidades públicas o privadas no podrán exigir aranceles, sellados o timbrados de ninguna especie para la recepción y contestación de oficios ofrecidos por el consumidor, debiendo consignarse esta previsión en los despachos que se libren.
+
+El Consejo de la Magistratura gestionará los convenios necesarios con organismos públicos o privados para el diligenciamiento y contestación de oficios por vía electrónica.
+
+Sección 2
+
+Prueba testimonial
+
+Art. 183 – Prueba testimonial
+
+Toda persona mayor de dieciséis años (16) años puede ser propuesta como testigo y tiene la carga de comparecer y declarar, salvo las excepciones establecidas por ley.
+
+Art. 184 – Requisitos
+
+En el escrito de inicio o en la contestación de demanda deberán consignarse los nombres de los testigos y detallarse sucintamente los hechos sobre los que van a declarar. No será necesario acompañar interrogatorio previo.
+
+En el proceso ordinario, sólo se admitirá un máximo de dos (2) testigos.
+
+En el proceso ampliado, podrá admitirse hasta un máximo de cinco (5) testigos.
+
+Art. 185 – Carga de la citación
+
+La carga de la citación recaerá en quien los propone, salvo que se requiera expresamente que la citación la realice el tribunal. En este último supuesto, la parte requirente deberá indicar el domicilio donde ubicar al testigo y se lo notificará por cédula, por secretaría.
+
+Art. 186 – Oportunidad de la declaración
+
+Todos los testigos declararán en la oportunidad de la audiencia de vista de causa.
+
+En caso de incomparecencia del testigo debidamente citado y cuya declaración sea considerada fundamental a los fines de resolver el conflicto luego de producida el resto de la prueba en la audiencia de vista de causa, podrá fijarse una nueva audiencia a los fines de que preste declaración. La parte que lo hubiese ofrecido deberá solicitar la nueva citación en la oportunidad de la audiencia de vista de causa. En ese caso, se lo hará comparecer por medio de la fuerza pública para que declare en la oportunidad que fije el juez. En caso de una nueva incomparecencia, se tendrá a la parte que la ofreció por desistida de dicho medio probatorio.
+
+Art. 187 – Parentesco de testigos
+
+Cuando sean ofrecidos como testigos los/las parientes consanguíneos o afines en línea directa de las partes o el/la cónyuge, aunque estuviere separado/a legalmente, existe la carga de informar al tribunal esta situación a los fines de ser considerado al meritar el valor probatorio de sus testimonios.
+
+Art. 188 – Orden de la declaración
+
+Las partes podrán proponer el orden en que se practicarán los interrogatorios. El juez podrá prescindir de la declaración de testigos cuando se haya formado convicción sobre los hechos que se intentan demostrar a través de sus declaraciones.
+
+Art. 189 – Juramento o promesa de decir verdad
+
+Antes de declarar, los/las testigos prestan juramento o formulan promesa de decir verdad, a su elección, y son informados/as de las consecuencias penales a que pueden dar lugar las declaraciones falsas o reticentes.
+
+Art. 190 – Interrogatorio preliminar
+
+Los/las testigos son siempre preguntados/as:
+
+Por su nombre, edad, estado, profesión y domicilio.
+
+Si es pariente por consanguinidad o afinidad de alguna de las partes, y en qué grado.
+
+Si tiene interés directo o indirecto en el pleito.
+
+Si es amigo/a íntimo/a o enemigo/a.
+
+Si es dependiente, acreedor/a o deudor/a de alguno de los/las litigantes, o si tiene algún otro género de relación con ellos/as.
+
+Art. 191 – Identidad del/la testigo
+
+Aunque las circunstancias individuales declaradas por el/la testigo no coincidieran totalmente con los datos que la parte hubiese indicado al proponerlo, se recibe su declaración si indudablemente fuere la misma persona y, por las circunstancias del caso, la contraria no ha podido ser inducida en error.
+
+Art. 192 – Forma del examen
+
+Los/las testigos son libremente interrogados/as, por el/la juez/a acerca de lo que supieren sobre los hechos controvertidos.
+
+Las partes podrán formular las preguntas que consideren pertinentes, comenzando por la parte que propuso al testigo y finalizando con el contrainterrogatorio de la otra.
+
+Art. 193 – Forma de las preguntas
+
+Las preguntas se realizan verbalmente; no podrán contener más de un hecho; deben ser claras y concretas; no estar concebidas en términos afirmativos o negativos, ni sugerir la respuesta, ser ofensivas o vejatorias. No pueden contener referencias de carácter técnico, salvo cuando fueren dirigidas a personas con tales conocimientos.
+
+El juez podrá disponer la reformulación de la pregunta de oficio o a pedido de parte.
+
+Art. 194 – Negativa a responder
+
+El/la testigo puede rehusarse a contestar las preguntas:
+
+– Si la respuesta lo expusiere a enjuiciamiento penal o comprometiera su honor.
+
+– Si no pudiere responder sin revelar un secreto profesional, militar, científico, artístico o industrial.
+
+Art. 195 – Forma de las respuestas
+
+El/la testigo tiene la carga de contestar sin poder leer notas o apuntes, a menos que por la índole de la pregunta, se le autorizara. Tiene la carga de siempre dar la razón de su dicho; si no lo hiciere, el/la juez/a la exige.
+
+Art. 196 – Careo
+
+El juez podrá ordenar el careo entre testigos.
+
+Art. 197 – Falso testimonio u otro delito
+
+Si las declaraciones ofreciesen indicios graves de falso testimonio u otro delito, el/la juez/a envía testimonio de lo actuado al juez competente.
+
+Art. 198 – Excepciones al deber de comparecer
+
+Están exceptuados del deber de comparecer a prestar declaración a los/las funcionarios/as que determine la reglamentación que dicte el Consejo de la Magistratura, siendo la misma de interpretación restrictiva.
+
+Dichos/as testigos declaran por videoconferencia o por escrito, con la manifestación de que lo hacen bajo juramento o promesa de decir verdad, dentro del plazo que fije el tribunal, debiendo entenderse que no excede de diez (10) días si no se lo hubiese indicado especialmente.
+
+La parte contraria a la que ofreció el/la testigo puede presentar un pliego de preguntas a incluir en el interrogatorio.
+
+Art. 199 – Idoneidad de los/las testigos
+
+Dentro de la misma audiencia de vista de causa, las partes podrán alegar y probar acerca de la idoneidad de los/las testigos.
+
+El/la juez/a apreciará, según las reglas de la sana crítica, y en oportunidad de dictar sentencia definitiva, las circunstancias y motivos que corroboren o disminuyan la fuerza de las declaraciones.
+
+Sección 3
+
+Prueba Pericial
+
+Art. 200 – Es admisible la prueba pericial cuando la apreciación de los hechos controvertidos requiera conocimientos especiales en alguna ciencia, arte, industria o actividad técnica especializada.
+
+En todos los casos, se admitirá solamente cuando sea estrictamente necesaria.
+
+Art. 201 – Ofrecimiento. Puntos de pericia
+
+AI ofrecer la prueba pericial se indicará la especialización que ha de tener el/la perito/a y se proponen los puntos de pericia. Si la parte ejerciere la facultad de ofrecer consultor/a técnico/a, tiene la carga de indicar, en el mismo escrito, su nombre, profesión y domicilio.
+
+La otra parte, al contestar la demanda o reconvenir, puede proponer otros puntos que a su juicio deben constituir también objeto de la prueba, y observar la procedencia de los mencionados por quien la ofreció.
+
+Si ejerce la facultad de designar consultor/a técnico/a, tiene la carga de indicar en el mismo escrito su nombre, profesión y domicilio electrónico.
+
+Art. 202 – Designación
+
+Los peritos serán desinsaculados por el juez en la providencia de apertura a prueba o en la audiencia de apertura a prueba, según se trate del proceso ordinario o ampliado respectivamente.
+
+A requerimiento de parte en la audiencia preliminar, y para el solo efecto de facilitar tratativas conciliatorias, el juez podrá diferir su desinsaculación por un plazo de hasta cinco (5) días. En caso de no haberse presentado dentro del plazo fijado un acuerdo transaccional, la Oficina de Gestión Judicial procederá a desinsacular al perito y a realizar las notificaciones pertinentes.
+
+Art. 203 – Aceptación del cargo
+
+Los peritos desinsaculados deberán aceptar el cargo dentro de los tres (3) días de ser notificados por vía electrónica. La notificación se realizará de oficio y contendrá copia de la demanda y/o de la contestación si la hubiere. De no aceptarse el cargo en término, se desinsaculará automáticamente un nuevo experto.
+
+Una vez aceptado el cargo, los peritos deberán presentar el informe respectivo en el plazo de diez (10) o veinte (20) días, prorrogables por única vez, según se trate del proceso ordinario o ampliado respectivamente.
+
+Si el informe se entregare vencido el plazo, el juez podrá reducir los honorarios del perito.
+
+Art. 204 – Adelanto de gastos
+
+Los peritos no podrán solicitar adelantos de gastos al consumidor. El juez podrá decidir sobre su exigencia a la contraria. En todos los casos los peritos deberán acreditar los gastos con los correspondientes comprobantes.
+
+Art. 205 – Presentación del informe
+
+Una vez realizada la pericia, se presentará un informe por escrito, del que se dará traslado a las partes.
+
+Los pedidos de explicaciones o impugnaciones al informe pericial serán formulados en la audiencia de vista de causa y respondidos por el perito en esa oportunidad, en la que podrá también ser interrogado por el juez interviniente.
+
+El perito tiene obligación de asistir personalmente a la audiencia. Su incomparecencia injustificada ocasionará la pérdida del derecho a percibir honorarios.
+
+Excepcionalmente y sólo si las impugnaciones fueran fundadas o el magistrado entendiera que el dictamen carece de fundamentos técnicos, se podrá ordenar una nueva pericia.
+
+Art. 206 – Notificaciones a los peritos
+
+El Consejo de la Magistratura establecerá un sistema por el cual todas las notificaciones a los peritos se realizarán a un domicilio electrónico constituido y declarado por el experto en oportunidad de su inscripción en el Registro de Peritos.
+
+Al aceptar el cargo, el perito deberá comunicar en el expediente la fecha, lugar y hora de la realización de la compulsa o peritaje conforme la especialidad, con una anticipación de dos días que será notificada a las partes. En caso de que las partes hayan ofrecido consultores técnicos, éstos quedarán notificados cuando lo sea la parte que los ofreciera, sin necesidad de comunicación especial.
+
+Art. 207 – Deber de colaboración
+
+Si la actora hubiere ofrecido prueba pericial sobre bienes, documentos u otros elementos en poder del demandado, éste, en oportunidad de contestar demanda, debe indicar con precisión: lugar, horario, persona para contactar, teléfono o correo electrónico de contacto, y poner a disposición de los elementos o documentos y demás detalles necesarios para la realización del peritaje, bajo apercibimiento de tenerlo por renuente a la práctica de la pericia y constituir presunción en su contra. La misma carga se impone a la parte actora en el supuesto que ofrezca prueba pericial la demandada, y el objeto de la pericia se encuentre en su poder, por lo que será a tales fines intimado de oficio por tres (3) días bajo idéntico apercibimiento.
+
+Art. 208 – Pericias médicas y psicológicas
+
+En las pericias médicas y psicológicas intervendrá la Dirección de Medicina Forense del Consejo de la Magistratura de la CABA.
+
+Todas las notificaciones a esa dependencia se practicarán mediante vista por el término de tres (3) días.
+
+En caso de necesidad se requerirá la comparecencia del experto médico a la audiencia de vista de causa.
+
+Art. 209 – Informes técnicos de universidades
+
+Podrán requerirse informes técnicos a universidades y entidades públicas o privadas con incumbencia en la materia objeto de la experticia.
+
+Sección 4
+
+Reconocimiento judicial
+
+Art. 210 – Reconocimiento judicial
+
+Si fuera necesario el Juez podrá disponer el reconocimiento judicial de cosas o lugares. Para ello fijará día, hora y lugar de la diligencia y notificará a las partes, siempre con anterioridad a la audiencia de vista de causa. El reconocimiento judicial se video grabará cuando el juez así lo disponga de oficio o a pedido de parte.
+
+TÍTULO VII
+
+PROCESOS DE CONOCIMIENTO
+
+CAPÍTULO 1
+
+TIPOS DE PROCESOS
+
+Art. 211 – Regla general
+
+Las causas previstas en este Código se regirán por las normas del proceso ordinario.
+
+El demandado, mediante reposición contra la providencia que admita la demanda y determine el tipo de proceso, podrá invocar la complejidad de la cuestión y solicitar el procedimiento ampliado. El juez resolverá de manera fundada, previo traslado al consumidor.
+
+En ningún caso podrá ordenarse de oficio el tipo de proceso invocando facultades instructorias.
+
+La solicitud de aplicación del proceso ampliado por parte del demandado debe interponerse dentro del plazo para contestar demanda previsto en el proceso ordinario, que quedará suspendido en forma automática por la sola presentación del pedido, debiendo el juez dictar resolución dentro de los dos (2) días con carácter inapelable.
+
+Art. 212 – Supuestos especiales
+
+a) Todas las acciones promovidas por el proveedor se regirán por las normas del proceso ampliado.
+
+b) Para las acciones de amparo individual basadas en derechos de usuarios y consumidores, se aplica la Ley 2145.
+
+c) Cuando leyes especiales remitan al juicio o proceso sumario o sumarísimo, se entenderá que el litigio tramitará conforme el procedimiento del proceso ordinario.
+
+CAPÍTULO 2
+
+INSTANCIA CONCILIATORIA PREVIA
+
+Art. 213 – Juntamente con la interposición de la demanda el/los actores deberán acreditar el cumplimiento de una instancia previa de conciliación mediante la certificación correspondiente, siendo consideradas válidas a estos efectos:
+
+La emitida por el Servicio de Conciliación para las Relaciones de Consumo del Consejo de la Magistratura del Poder Judicial de la Ciudad Autónoma de Buenos Aires, o la que en el futuro lo reemplace, en los términos de la competencia atribuida por el art. 106 de la Constitución de la Ciudad Autónoma de Buenos Aires.
+
+La emitida por la autoridad de aplicación en Defensa del Consumidor de la Ciudad Autónoma de Buenos Aires, en el caso de fracaso de la conciliación administrativa en los términos del art. 9 de la Ley 757.
+
+La emitida por la Dirección General de Justicia, Registro y Mediación del Gobierno de la Ciudad Autónoma de Buenos Aires en el marco de una mediación comunitaria, únicamente cuando el conflicto alcanzado se encuadre en una relación de consumo
+
+Las actas de cierre sin acuerdo de instancias conciliatorias tramitadas ante el Ente Único Regulador de Servicios Públicos de la CABA.
+
+Las actas emitidas por el conciliador en las relaciones de consumo para todo tipo de reclamos por el Servicios de Conciliación Previa de las Relaciones de Consumo (COPREC) dependiente del Ministerio de Desarrollo Productivo de la Nación (Ley Nacional N° 26.993).
+
+Las actas emitidas por el mediador prejudicial (Ley Nacional 26.589), cuando el conflicto encuadra en una relación de consumo y no se encuentre prevista en el inciso anterior.
+
+El proveedor actor deberá acreditar el cumplimiento de alguna de las instancias conciliatorias prevista en este artículo, culminada sin acuerdo o por incomparecencia del requerido.
+
+No será necesaria la instancia previa para los procesos ejecutivos, los de ejecución de sentencia, la acción contra la publicidad ilícita, las medidas autosatisfactivas, las acciones de amparo y los procesos colectivos.
+
+CAPÍTULO 3
+
+EL PROCESO ORDINARIO
+
+Sección 1
+
+Normas Generales
+
+Art. 214 – Demanda
+
+La demanda se deduce por escrito y debe contener:
+
+a) El nombre y apellido del actor, número de documento de identidad, domicilio real y domicilio constituido dentro de la jurisdicción de la Ciudad Autónoma de Buenos Aires.
+
+b) La justificación de la personería invocada, en caso de corresponder.
+
+c) La mención de la parte demandada y su domicilio.
+
+d )La invocación de la relación de consumo involucrada en el litigio.
+
+e) El objeto de la demanda y el monto determinado o determinable.
+
+f) Los hechos en que se funde.
+
+g) El derecho expuesto sucintamente.
+
+h) El ofrecimiento de la prueba de la que intente valerse.
+
+i) La pretensión en términos claros y positivos.
+
+j) En su caso, los presupuestos fundantes de la pretensión de daño punitivo sin necesidad de consignar su cuantificación.
+
+Asimismo, se deberá acompañar la prueba documental, copias para demandados y peritos en la forma que lo establezca la reglamentación y el acta de cierre de alguna de las instancias conciliatorias previstas en este código.
+
+Para la presentación de la demanda se encuentra autorizado el uso de formularios previamente aprobados por el Consejo de la Magistratura de la Ciudad de Buenos Aires.
+
+Si el juez advirtiera defectos formales intimará al actor a que los subsane en el plazo de tres (3) días, bajo apercibimiento de tenerlo por desistido de la acción.
+
+Art. 215 – Traslado de la demanda
+
+El traslado de la demanda se ordenará por el plazo de cinco (5) días. La notificación se realizará por secretaria y en forma electrónica al domicilio constituido en la instancia conciliatoria o al denunciado por el actor.
+
+Cuando el proveedor no haya constituido domicilio en la instancia conciliatoria, la notificación de la demanda podrá efectuarse válidamente con carácter de constituido:
+
+– En el caso de personas humanas, en el domicilio declarado por ésta ante la autoridad tributaria como domicilio fiscal.
+
+– En el caso de personas jurídicas, en el domicilio declarado ante el organismo de registro en la jurisdicción correspondiente.
+
+Cuando simultáneamente con la interposición de la acción se solicitara el dictado de una medida cautelar, el traslado de la demanda deberá ser notificado de oficio, dentro de los tres días posteriores a la efectivización o de dictada la resolución que la rechaza, según se conceda o no.
+
+Art. 216 – Contestación de la demanda
+
+La contestación de la demanda se efectúa con las mismas formalidades, requisitos y contenidos, en lo pertinente, establecidos para la demanda.
+
+El demandado tiene la carga de reconocer o negar categóricamente cada uno de los hechos expuestos en la demanda y la autenticidad de los documentos acompañados que se le atribuyeren.
+
+Su silencio, sus respuestas evasivas, o la negativa meramente general podrán valorarse como reconocimiento de la verdad de los hechos pertinentes y lícitos a que se refieran. En cuanto a los documentos se los tendrá por reconocidos o recibidos, según el caso.
+
+Deberá, asimismo, especificar con claridad los hechos que alegare como fundamento de su defensa.
+
+No será admisible la reconvención.
+
+Se admitirá la citación de terceros siempre y cuando hubieren sido oportunamente citados a la etapa prejudicial por alguna de las partes en cualquier carácter.
+
+Podrá citarse en garantía a las compañías aseguradoras.
+
+Podrán oponerse excepciones al contestar demanda.
+
+Solo se resolverán como de previo y especial pronunciamiento aquellas que resulten manifiestas y no requieran sustanciación, difiriéndose las demás a ser resueltas con la sentencia definitiva.
+
+Art. 217 – Apertura a prueba
+
+Contestada la demanda o vencido el plazo para hacerlo, el juez proveerá la prueba ofrecida por las partes, ordenando la que considerare conducente y descartando fundadamente la que no lo fuera.
+
+Podrá, asimismo, ordenar de oficio los medios de prueba que estimare pertinentes para la solución del caso.
+
+Los proveedores deberán aportar al proceso todos los elementos de prueba que obren en su poder, conforme a las características del bien o servicio, prestando la colaboración necesaria para el esclarecimiento de la cuestión debatida en el juicio.
+
+En la misma oportunidad, se resolverán las excepciones previas que no requieran sustanciación, y se fijará la fecha de la audiencia de vista de causa en un plazo que no podrá exceder de cuarenta (40) días desde el dictado de la apertura a prueba.
+
+La notificación de la apertura a prueba a las partes y al Ministerio Publico Fiscal se realizará de oficio.
+
+Art. 218 – Declaración de puro derecho
+
+Si no hubiera prueba que producir, el juez declarará la cuestión de puro derecho y, dictará sentencia dentro de los cinco (5) días.
+
+Art. 219 – Plazos
+
+Todos los plazos serán de tres (3) días, con excepción del plazo para contestar demanda que será de cinco (5) días.
+
+Art. 220 – Acuerdo anterior a la audiencia
+
+En caso de que las partes arriben a un acuerdo con anterioridad a la celebración de la audiencia de vista de causa el juez podrá eximir al proveedor de hasta un cincuenta por ciento (50 %) del monto de la tasa de justicia que corresponda abonar.
+
+Sección 2
+
+Audiencia de vista de causa
+
+Art. 221 – Procedimiento
+
+La audiencia es el acto esencial del proceso y la presencia y conducta de las partes determina el cumplimiento de los deberes de colaboración con la justicia y el principio de lealtad procesal.
+
+Es obligatoria la presencia del Juez y deberá ser citado el Ministerio Público Fiscal bajo pena de nulidad.
+
+En caso de que por razones de fuerza mayor no se hubiera producido una prueba que se juzgara fundamental, excepcionalmente se podrá fijar una nueva audiencia, dentro del plazo máximo e improrrogable de quince (15) días.
+
+Previo traslado a la contraparte, el juez resolverá verbalmente los incidentes que se planteen.
+
+La audiencia será pública, oral y video grabada. La videograbación se incorporará al expediente electrónico y no será transcripta, quedando a disposición de las partes.
+
+El acta se limitará a consignar el nombre y datos personales de los comparecientes, los documentos que se hayan presentado y, en su caso, la sentencia. De igual modo se procederá con respecto a las demás pruebas.
+
+Art. 222 – Conciliación
+
+Abierto el acto, el juez intentará que las partes arriben a una conciliación.
+
+De arribarse a un acuerdo conforme a los intereses de las partes y al orden público, se dejará constancia en el acta de sus términos. En caso de encontrarse presente el Ministerio Público Fiscal, el juez requerirá su opinión y de corresponder, dictará sentencia homologatoria.
+
+El juez podrá eximir al proveedor de hasta un veinticinco por ciento (25%) del monto de la tasa de justicia que corresponda abonar.
+
+Las partes informarán al juzgado respecto de la satisfacción de lo acordado. En caso de incumplimiento, se aplicarán las normas del proceso de ejecución de sentencias, pudiendo imponerse al remiso sanciones conminatorias.
+
+Art. 223 – Incomparecencia
+
+Si la parte actora no compareciera a la audiencia sin causa justificada, se la tendrá por desistida del proceso.
+
+Si asistiere la parte actora pero no compareciere el demandado, debidamente citado, el procedimiento continuará en su rebeldía y se le aplicará una multa de hasta cinco (5) Unidades de Medida Arancelaria (UMA), en beneficio del consumidor, ejecutable por vía incidental. El demandado quedará notificado de todas las decisiones en la audiencia.
+
+En caso que la parte actora justificara su inasistencia dentro del quinto día hábil, el Juez podrá fijar una nueva audiencia.
+
+Art. 224 – Desarrollo de la audiencia
+
+Si no existiera acuerdo, se producirá la prueba testimonial y se escuchará a los peritos que responderán las impugnaciones formuladas si las hubiere y las preguntas del magistrado, las partes o sus consultores técnicos.
+
+Durante el transcurso de la audiencia, el Juez podrá interrogar libremente a las partes, quienes a su vez podrán también hacerse preguntas recíprocas.
+
+No procederá la presentación de alegatos, pero cada parte podrá formular la conclusión de sus argumentos en la misma audiencia, con base a la prueba producida.
+
+Finalizada la audiencia, el juez dictará sentencia en el mismo acto pudiendo diferir su fundamentación, la que deberá efectuar dentro del plazo de cinco (5) días. Si la complejidad de la causa lo exigiera, podrá posponer el dictado de la sentencia, que deberá ser pronunciada dentro del plazo mencionado.
+
+CAPÍTULO 4
+
+PROCESO AMPLIADO
+
+Sección 1
+
+Disposiciones generales
+
+Art. 225 – Principio General
+
+Todas las contiendas judiciales que no tuvieren señalado un proceso especial, tramitarán por el proceso ampliado.
+
+Art. 226 – Demanda
+
+La demanda será deducida por escrito y contendrá los requisitos establecidos en el artículo 214.
+
+Presentada la demanda en la forma prescripta, se dará traslado de ella al demandado para que comparezca y la conteste dentro de quince (15) días.
+
+Art. 227 – Citación del demandado
+
+La demanda dirigida contra el proveedor se notificará de oficio al domicilio electrónico constituido a tal efecto en la instancia prejudicial conciliatoria.
+
+El Consejo de la Magistratura habilitará un registro para que los proveedores puedan modificar el domicilio constituido en la etapa prejudicial conciliatoria.
+
+Si el proveedor no hubiese concurrido o constituido domicilio electrónico en la etapa prejudicial, la notificación de la demanda se realizará por cédula en su domicilio legal o, en caso de que no tuviera, en el domicilio real.
+
+Art. 228 – Consumidor demandado
+
+Para los procesos en los que el proveedor sea la parte actora, el traslado de la demanda y de la documental acompañada se hará por cédula al domicilio real del consumidor en la Ciudad Autónoma de Buenos Aires.
+
+Sección 2
+
+Excepciones previas
+
+Art. 229 – Excepciones
+
+Sólo se admitirán como previas las siguientes excepciones:
+
+Incompetencia.
+
+Falta de personería en el demandante, en el demandado o sus representantes, por carecer de capacidad civil para estar en juicio o de representación suficiente.
+
+Falta de legitimación para obrar en el actor o en el demandado, cuando fuere manifiesta, sin perjuicio, en caso de no concurrir esta última circunstancia, de que el juez la considere en la sentencia definitiva.
+
+Litispendencia.
+
+Defecto legal en el modo de proponer la demanda.
+
+Cosa juzgada.
+
+Transacción, conciliación y desistimiento del derecho.
+
+La existencia de cosa juzgada o de litispendencia podrá ser declarada de oficio, en cualquier estado de la causa.
+
+Art. 230 – Plazos y efectos
+
+Las excepciones se opondrán únicamente como de previo y especial pronunciamiento en un solo escrito juntamente con la contestación de demanda o la reconvención.
+
+Si se dedujere como excepción, se resolverá como previa si la cuestión fuere de puro derecho y en la oportunidad de la audiencia prevista en el artículo 238, no pudiendo diferir su resolución.
+
+La oposición de excepciones no suspende el plazo para contestar la demanda o la reconvención, en su caso, salvo si se tratare de las de falta de personería y defecto legal.
+
+Con el escrito en que se propusieren las excepciones, se agregará toda la prueba instrumental y se ofrecerá la restante.
+
+Art. 231 – Resolución de las excepciones
+
+Las excepciones previas se resolverán en oportunidad de la audiencia preliminar, no pudiendo diferirse su resolución.
+
+Art. 232 – Efectos de la admisión de las excepciones
+
+Una vez firme la resolución que declare procedentes las excepciones previas, se procederá:
+
+A remitir el expediente al tribunal considerado competente, si tuviere asiento en la Ciudad de Buenos Aires. En caso contrario se archivará.
+
+A ordenar el archivo si se tratase de cosa juzgada, falta de legitimación manifiesta o prescripción.
+
+A remitirlo al tribunal donde tramite el otro proceso si la litispendencia fuese por conexidad. Si ambos procesos fueren idénticos, se ordenará el archivo del iniciado con posterioridad.
+
+A fijar el plazo dentro del cual deben subsanarse los defectos, en el supuesto de la excepción de defecto legal.
+
+Vencido el plazo sin que el actor cumpla lo resuelto se lo tendrá por desistido del proceso, imponiéndosele las costas.
+
+Art. 233 – Efectos del rechazo de las excepciones
+
+Consentida o ejecutoriada la resolución que rechaza las excepciones de falta de personería, o subsanado el defecto se declarará reanudado el plazo para contestar la demanda.
+
+Sección 3
+
+Contestación de demanda y reconvención
+
+Art. 234 – Plazo
+
+El demandado deberá contestar la demanda dentro del plazo de quince (15) días con la ampliación que corresponda en razón de la distancia.
+
+Art. 235 – Reconvención
+
+En el mismo escrito de contestación deberá el demandado deducir reconvención, en la forma prescripta para la demanda, si se creyere con derecho a proponerla. No podrá deducirla después, salvo su derecho para hacer valer su pretensión en otro juicio.
+
+La reconvención será admisible si las pretensiones en ella deducidas derivaren de la misma relación de consumo o fueren conexas con las invocadas en la demanda.
+
+Art. 236 – Traslado
+
+Propuesta la reconvención, o presentándose documentos por el demandado, se dará traslado al actor quien deberá responder dentro de quince (15) o cinco (5) días respectivamente, observando las normas establecidas para la contestación de la demanda.
+
+Art. 237 – Contestado el traslado de la demanda o reconvención, en su caso, o vencidos los plazos para hacerlo, si la cuestión pudiera ser resuelta como de puro derecho, así se decidirá y firme que se encuentre la providencia, se llamará autos para sentencia.
+
+Si se hubiesen alegado hechos conducentes acerca de los cuales no hubiese conformidad entre las partes, aunque éstas no lo pidan, el juez recibirá la causa a prueba.
+
+Sección 4
+
+Audiencia Preliminar
+
+Art. 238 – Audiencia Preliminar
+
+El juez citará a las partes a una audiencia y la presidirá personalmente. Será video grabada y la videograbación se incorporará al expediente electrónico y no será transcripta, quedando a disposición de las partes.
+
+Si la parte actora no compareciera a la audiencia sin causa justificada, se la tendrá por desistida del proceso.
+
+Si asistiere la parte actora pero no compareciere el demandado, debidamente citado, el procedimiento continuará en su rebeldía y se le aplicará una multa de hasta cinco (5) Unidades de Medida Arancelaria (UMA) en beneficio del consumidor, ejecutable por vía incidental. El demandado quedará notificado de todas las decisiones que el juez adopte y no podrá impugnarlas. Se le tendrán por reconocidos los hechos alegados por la actora excepto que se vinculen a derechos indisponibles o sean desvirtuados por la prueba.
+
+En la oportunidad de la audiencia el Juez:
+
+Invitará a las partes a conciliar, en el momento que considere oportuno.
+
+Resolverá las excepciones previas, sin poder diferir su resolución.
+
+Recibirá las manifestaciones de las partes con referencia a la oposición a abrir a prueba el expediente. El juez resolverá en el mismo acto después de escuchar a la contraparte, si estuviere presente.
+
+Oídas las partes presentes, fijará los hechos articulados que sean conducentes a la decisión del juicio sobre los cuales versará la prueba.
+
+Proveerá las pruebas que considere admisibles y fijará dentro del plazo de sesenta (60) días la audiencia de vista de causa.
+
+Previo traslado a la contraparte, resolverá verbalmente los incidentes que se planteen.
+
+Si correspondiere, decidirá en el acto de la audiencia que la cuestión debe ser resuelta como de puro derecho con lo que la causa quedará concluida para dictar sentencia.
+
+Art. 239 – Conciliación
+
+En las audiencias, el juez y las partes podrán proponer fórmulas conciliatorias sin que ello implique prejuzgamiento. Las partes podrán solicitar que no quede registrado el intercambio de opiniones formulado en el marco de la instancia conciliatoria.
+
+Si se arribase a un acuerdo conciliatorio, en caso de encontrarse presente el Ministerio Público Fiscal, el juez requerirá su opinión. De corresponder, se labrará un acta en la que conste su contenido y el juez la homologará.
+
+Tendrá efecto de cosa juzgada y se ejecutará mediante el procedimiento previsto para la ejecución de sentencia. Si no hubiera acuerdo entre las partes, en el acta se hará constar esta circunstancia, sin expresión de causas.
+
+Art. 240 – Si en la audiencia todas las partes manifestaren que no tienen ninguna prueba a producir, o que ésta consiste únicamente en las constancias del expediente o en la documental ya agregada y no cuestionada, la causa quedará conclusa para definitiva y el juez llamará autos para sentencia.
+
+Sección 5
+
+Audiencia de vista de causa
+
+Art. 241 – Audiencia de vista de causa en el proceso ampliado
+
+La audiencia de vista de causa se celebrará de conformidad con lo dispuesto para el proceso ordinario.
+
+Una vez producida la totalidad de la prueba, se declarará la clausura del periodo probatorio y se llamarán los autos a sentencia que deberá dictarse dentro de los treinta (30) días.
+
+Si la cuestión a resolver no presentara complejidad, podrá el juez dictar el fallo en la misma audiencia. En ese caso, tendrá diez (10) días para fundar la decisión.
+
+Art. 242 – Notificación de la sentencia
+
+La sentencia será notificada de oficio, dentro del tercer día de ser dictada o de ser fundado el fallo, según el caso.
+
+TÍTULO VIII
+
+EJECUCION DE SENTENCIAS
+
+Art. 243 – Ejecución de Sentencias
+
+Consentida o ejecutoriada la sentencia y vencido el plazo para su cumplimiento, se procederá a ejecutarla a instancia de parte.
+
+Podrá ejecutarse parcialmente la sentencia aunque se hubiere interpuesto recurso ordinario o de inconstitucionalidad contra ella, por importes correspondientes a la parte de la sentencia que hubiera quedado firme.
+
+Si la sentencia contuviere condena al cumplimiento de obligaciones exigibles, de dar sumas de dinero líquidas o fácilmente liquidables, condenas de hacer o de no hacer o de entregar incumplidas, la ejecución de transacciones o acuerdos homologados, multas procesales o cobro de honorarios regulados tramitará por este procedimiento ante el juez que pronunció la sentencia.
+
+Corresponderá a la parte actora practicar la liquidación que estime corresponder, de la que se dará traslado a la demandada, que en caso de impugnar la misma deberá precisar los fundamentos del planteo y practicar el cálculo que estime corresponder, bajo apercibimiento de rechazar el planteo.
+
+Sólo en casos de evidente complejidad del cálculo podrá solicitarse la intervención de un experto contable a los fines de practicar liquidación.
+
+Si la sentencia condenase al pago de una cantidad liquida y de otra ilíquida, podrá procederse a la ejecución de la primera sin esperar a que se liquide la segunda.
+
+Art. 244 – Intimación. Medidas de Ejecución
+
+El Juez dentro de los dos (2) días de formulada la petición intimará de pago al deudor mediante notificación electrónica por el término de diez (10) días.
+
+El deudor sólo podrá invocar como defensa el cumplimiento de lo ordenado en la sentencia o de la parte que se ejecute.
+
+Encontrándose firme la intimación de pago, el acreedor podrá solicitar las medidas de ejecución que estime corresponder que el juez decidirá sin sustanciación.
+
+En caso de que la sentencia contuviese condena a hacer, si la parte no cumpliese con lo que se le ordenó dentro del plazo señalado por el juez, se hará a su costa de ser posible, sin perjuicio de las sanciones conminatorias que se impongan.
+
+Art. 245 – Pago inmediato
+
+En los supuestos que la ejecución consista en embargo de sumas de dinero, tomada razón de la efectivización de la medida se procederá a ordenar el pago al acreedor del importe que resulte de la liquidación aprobada, sin perjuicio de las actualizaciones por intereses que corresponda practicar.
+
+Art. 246 – Subasta
+
+Para el caso de embargo de bienes registrables o títulos y acciones, a los efectos se su realización, regirán las normas del Código Contencioso, Administrativo y Tributario de la CABA (Capítulo IV arts. 415 a 448 o los que los sustituyan).
+
+TÍTULO IX
+
+PROCESOS ESPECIALES
+
+CAPÍTULO 1
+
+ACCIÓN MERAMENTE DECLARATIVA
+
+Art. 247 – Podrá deducirse la acción que tienda a obtener una sentencia meramente declarativa, para hacer cesar un estado de incertidumbre sobre la existencia, alcance o modalidades de una relación jurídica, siempre que esa falta de certeza pudiera producir un perjuicio o lesión actual al actor y éste no dispusiera de otro medio legal para ponerle fin inmediatamente.
+
+Cuando la acción meramente declarativa sea solicitada por el consumidor, éste podrá solicitar que tramite por las reglas del procedimiento ordinario. En caso contrario, se aplicarán las reglas del proceso ampliado.
+
+CAPÍTULO 2
+
+ACCIÓN CONTRA LA PUBLICIDAD ILÍCITA
+
+Art. 248 – Legitimación
+
+Están legitimados para el ejercicio de esta acción los indicados en el art. 35 del presente Código. La acción podrá interponerse mientras el mensaje publicitario se encuentre en curso de emisión o hasta los diez (10) días después de haber concluido su difusión.
+
+Art. 249 – Procedimiento
+
+La acción contra la publicidad ilícita tramitará únicamente por el proceso ordinario previsto en este código y no requerirá instancia conciliatoria previa. La petición podrá incluir la imposición de avisos rectificatorios.
+
+Art. 250 – Requisitos de la demanda
+
+El actor deberá justificar, especificando con claridad y precisión, que el mensaje publicitario cuestionado se encuentra comprendido en las previsiones del artículo 1101 del Código Civil y Comercial de la Nación o de cualquier otra norma nacional o local vigente o que se dicte en el futuro regulando la actividad publicitaria.
+
+De estar a su alcance, deberá acompañar en soporte físico o magnético el mensaje publicitario ilícito, e indicar los medios de comunicación que según su conocimiento difunden el mensaje sin perjuicio de la aplicación de las previsiones del artículo 166.
+
+Art 251 – Trámite
+
+El juez podrá, de oficio y sin audiencia del demandado:
+
+rechazar in límine la acción dentro de los dos (2) días de interpuesta, en caso de resultar manifiestamente inadmisible. La decisión es apelable. La apelación se concede con efecto no suspensivo.
+
+ordenar, corroborando la verosimilitud del derecho y el peligro en la demora, a el/los demandados la cesación de la publicidad ilícita cuando se encuentren involucradas la salud, integridad o seguridad de las personas, o en el supuesto del inciso c) del art. 1101 del Código Civil y Comercial de la Nación. La decisión es apelable como medida cautelar.
+
+Art. 252 – Admitida la acción, y conjuntamente con el traslado de la demanda, el juez intimará a la/s demandada/s por el plazo de un (1) día a denunciar en autos la pauta publicitaria contratada al respecto del mensaje cuestionado que deberá ineludiblemente contener período contratado, medios de comunicación difusores y frecuencia de los mensajes emitidos. De no cumplirse la intimación y sin perjuicio de las demás consecuencias procesales que el magistrado estime aplicables, podrán solicitarse de oficio los contenidos de las pautas a los medios que la actora denuncie en la demanda.
+
+Art. 253 – Sentencia
+
+La sentencia que haga lugar a la demanda podrá:
+
+– ordenar el otorgamiento al anunciante de un plazo para eliminar los aspectos ilícitos del mensaje publicitario objeto de la acción o la cesación definitiva de la emisión del mensaje ilícito.
+
+– disponer, si hubiese sido solicitado por la parte o si el juez lo considerase necesario, la difusión de publicidad correctiva determinando el contenido de aquella y sus modalidades y plazos, que deberán ser proporcionales a la pauta publicitaria ejecutada del mensaje ilícito y a costa del anunciante.
+
+En todos los casos podrán dictarse las medidas bajo apercibimiento de sanciones conminatorias en caso de incumplimiento.
+
+CAPÍTULO 3
+
+ACCIONES PREVENTIVAS
+
+Art. 254 – Daño temido
+
+Quien tema que una acción u omisión antijurídica hace previsible la producción de
+un daño, su continuación o agravamiento puede solicitar al juez las medidas de seguridad adecuadas en los términos de los arts. 1710 y siguientes del Código Civil y Comercial de la Nación.
+
+Recibida la demanda el juez llamará a audiencia a los interesados y podrá disponer las medidas encaminadas a hacer cesar el peligro.
+
+CAPÍTULO 4
+
+PROCESOS COLECTIVOS DE CONSUMO
+
+Art. 255 – Legitimación activa en los procesos colectivos de consumo
+
+Tienen legitimación activa en los procesos colectivos de consumo:
+
+Fundada en derechos de incidencia colectiva individuales homogéneos, los afectados que demuestran un interés razonable, el Defensor del Pueblo de la CABA, las asociaciones que tengan por objeto la defensa de los consumidores reconocidas por la autoridad de aplicación;
+
+Con sustento en derechos de incidencia colectiva y difusos, los afectados que demuestran un interés razonable, el Defensor del Pueblo de la CABA, la autoridad de aplicación, las asociaciones que tengan por objeto la defensa de los consumidores reconocidas por la autoridad de aplicación, el Ministerio Público Fiscal, Tutelar y de la Defensa.
+
+Art. 256 – Gratuidad
+
+Los procesos colectivos de consumo en defensa de los derechos de incidencia colectiva cuentan con el beneficio de justicia gratuita, con los alcances y efectos establecidos en el art. 66. En los procesos colectivos, excepto que los mismos hayan sido iniciados por el Ministerio público, el Ministerio Público Fiscal actuará obligatoriamente como fiscal de la ley y se aplica el artículo 35 en cuanto fuere pertinente.
+
+Art. 257 – Presupuestos de admisibilidad
+
+Para que sea admisible un proceso colectivo de consumo es necesario:
+
+Un número razonable de interesados, que dificulte la sustanciación individual de las respectivas pretensiones;
+
+Intereses comunes a todos los integrantes de la clase;
+
+Argumentos comunes;
+
+Representación adecuada que sustentan la pretensión de la clase, acreditada mediante la certificación prevista en el art. 259.
+
+En las acciones previstas en el inc 2) del art 255 de este Código, se deberá acreditar la existencia de la relación de consumo que funda la pretensión, la imposibilidad de sustanciación individual y los antecedentes particulares y/o colectivos de los que se dispone que justifican el impulso del proceso colectivo de consumo.
+
+Art. 258 – Presupuestos de admisibilidad en acciones de daños
+
+Para la admisibilidad de los procesos colectivos en los que se reclama la reparación de daños a derechos individuales homogéneos, además de los presupuestos de admisibilidad generales, es necesario que:
+
+El enjuiciamiento concentrado del conflicto constituya una vía más eficiente y funcional que el trámite individual o la imposibilidad o grave dificultad de constituir un litisconsorcio entre los afectados;
+
+Exista un predominio de las cuestiones comunes de origen fáctico o jurídico, por sobre las individuales.
+
+El procedimiento de mediación previa no resulta de aplicación obligatoria en los procesos colectivos. Pero de agotar las partes dicha instancia ante las autoridades de aplicación de la ley, éstas determinarán los requisitos relacionados con los mecanismos de transparencia y adecuada participación de los interesados, que deberán regir el trámite de las audiencias respectivas. Ello, sin perjuicio de la actuación judicial ulterior que resulte pertinente, en caso de no arribarse a acuerdos conciliatorios.
+
+Art. 259 – Certificación de la adecuada representación
+
+Acción promovida por un sujeto de derecho privado. En el supuesto de que el proceso colectivo sea iniciado por un sujeto de derecho privado, el tribunal efectuará una evaluación previa de la existencia de representación adecuada, para determinar si el actor cuenta con aptitudes suficientes para garantizar la correcta defensa de los intereses colectivos.
+
+Entre otros requisitos, el juez debe tener en cuenta los siguientes parámetros: la experiencia y antecedentes
+para la protección de este tipo de intereses, y, la coincidencia entre los intereses de los miembros del grupo, categoría o clase y el objeto de la demanda así como la ausencia de potenciales conflictos de intereses con el grupo afectado o los derechos en juego.
+
+La representación adecuada constituye un estándar que deberá ser mantenido a lo largo de todo el proceso, incluyendo las eventuales instancias transaccionales. La representación adecuada podrá ser sustituida por razones fundadas, y en su caso, nombrarse nuevos representantes por parte del juez, a los fines de cumplir con el referido principio durante todas las instancias del proceso.
+
+Art. 260 – Objeto del proceso colectivo de consumo
+
+El objeto del proceso colectivo podrá consistir en:
+
+La prevención con el fin de evitar la afectación de los derechos de incidencia colectiva o la continuidad futura de la afectación;
+
+La reparación de los daños ya producidos;
+
+La restitución de sumas percibidas sin derecho por los proveedores. Esas pretensiones podrán acumularse en un mismo proceso. Cuando se trata de derechos de incidencia colectiva colectivos o difusos, corresponde prioritariamente la reposición al estado anterior al hecho generador de la afectación. Si ello es total o parcialmente imposible, o resulta insuficiente, procede una indemnización. Si ella se fija en dinero, tiene el destino que le asigna el juez por resolución fundada. En los casos en que el proceso tuviere por objeto la reparación de los daños el juez podrá, a los fines de la mejor gestión del proceso, individualizar subclases de consumidores en razón de la existencia de elementos comunes a cada una de ellas.
+
+Art. 261 – Trámite del proceso colectivo de consumo
+
+Cuando el proceso colectivo tenga por objeto la prevención de daños, podrá tramitarse por vía de amparo colectivo o emplearse cualquier otra vía procesal que sea más adecuada a la satisfacción de los intereses de los consumidores. En estos casos el juez debe armonizar dichas reglas con las que el Código Civil y Comercial establece para la pretensión de prevención del daño.
+
+Los casos que tengan por objeto la reparación de daños tramitarán por la vía procesal más adecuada a la satisfacción de los intereses de los consumidores.
+
+Si se hubieran iniciado varios procesos sobre el mismo objeto, estos serán atraídos y acumulados en el tribunal que primero notificó la existencia del proceso colectivo, sin perjuicio de la notificación ante el Registro de Procesos Colectivos.
+
+En caso de desistimiento o abandono de la acción la titularidad activa podrá ser asumida por el Ministerio Público Fiscal.
+
+Art. 262 – Notificación pública
+
+La existencia del proceso colectivo deberá notificarse del modo y por los medios que aseguren, de la mejor manera posible, su efectivo conocimiento conforme el principio de razonabilidad.
+
+Los legitimados activos deberán acreditar que cuentan con los medios para asegurar su cumplimiento sin perjuicio de la publicidad por medios públicos pertenecientes al Gobierno de la Ciudad Autónoma de Buenos Aires cuya realización debe ordenarse gratuitamente.
+
+A tales efectos deberán presentar un proyecto de notificación pública. Los consumidores que no deseen ser alcanzados por los efectos de la sentencia, deberán expresar su voluntad en ese sentido en un plazo de noventa (90) días, contados a partir de la finalización del funcionamiento del dispositivo dispuesto para la notificación pública de la existencia del proceso.
+
+Art. 263 – Alcances de la sentencia
+
+La sentencia recaída en un proceso colectivo referido a derechos individuales homogéneos produce efectos "erga omnes", excepto que la pretensión sea rechazada. Este efecto no alcanza a las acciones individuales fundadas en la misma causa cuando el consumidor optó por quedar fuera.
+
+La sentencia que rechaza la pretensión no impide la posibilidad de promover o continuar las acciones individuales por los perjuicios ocasionados a cada damnificado. Otro proceso colectivo por la misma causa y objeto puede iniciarse cuando existan nuevas pruebas.
+
+Art. 264 – Contenido de la sentencia
+
+La sentencia que ponga fin a la acción de incidencia colectiva declarará en términos generales la existencia o no del derecho para la clase y deberá ser dada a conocer conforme el artículo 261, al igual que las medidas cautelares que se dicten durante el proceso.
+
+Si la cuestión tuviese contenido patrimonial, establecerá las pautas para la reparación económica o el procedimiento para su determinación sobre la base del principio de reparación plena.
+
+En los casos en los cuales se reclamen daños o la restitución de sumas de dinero percibidas indebidamente, la sentencia contendrá una condena genérica.
+
+Una vez notificada la sentencia, los damnificados podrán solicitar la liquidación de sus daños individuales ante el mismo tribunal por vía incidental. Cada uno de los afectados deberá acreditar sus daños, los que serán cuantificados de manera individual en cada sentencia particular. Si se trata de la restitución de suma de dinero, se hará por los mismos medios en que las sumas fueron percibidas; de no ser ello posible, mediante sistemas que permitan que los afectados puedan acceder a la reparación. Si éstos no pudieran ser individualizados, el juez fijará la manera en que la restitución será instrumentada, de la manera que más beneficie al grupo afectado.
+
+Art. 265 – Destino de las indemnizaciones
+
+Cuando la sentencia condene a pagar daños a intereses individuales homogéneos la regla será que la indemnización se destine en su totalidad a las víctimas conforme el criterio emergente del artículo anterior.
+
+Podrá hacerse excepción a esta norma, cuando se trate de atender al aspecto común del interés afectado o a la existencia de un daño progresivo, en cuyo caso el juez deberá promover la creación de un fondo de reparación en cuya administración y gestión establecerá que intervengan todos o alguno de los legitimados activos.
+
+Si el proceso colectivo se basa en intereses colectivos o difusos las indemnizaciones se deberán destinar a la constitución de un fondo especial que tendrá por objeto directo la promoción de políticas públicas de consumo; corresponde a la autoridad de aplicación su administración y gestión.
+
+En el caso de las sentencias que establezcan el deber de reparar daños en favor de los afectados, si luego de transcurridos dos años desde la fecha de la notificación respectiva, restaren sumas de dinero que no han sido objeto de pedido de liquidación por parte de los afectados individuales, el remanente se destinará a un fondo público destinado a la promoción de políticas públicas activas de educación de los consumidores administrado por la autoridad de aplicación.
+
+Art. 266 – Transacción
+
+La negociación del acuerdo transaccional estará guiada por el principio de transparencia a cuyos fines el juez podrá instrumentar audiencias públicas. El acuerdo transaccional deberá incluir, expresamente, los honorarios pactados a percibir por los profesionales intervinientes los que, asimismo, deberán integrarse en la difusión del acuerdo homologado que oportunamente se ordenare.
+
+Del acuerdo transaccional deberá correrse vista previa al Ministerio Público Fiscal, salvo que éste sea el propio actor de la acción de incidencia colectiva, con el objeto de que se expida respecto de la adecuada consideración de los intereses de los afectados. La homologación requerirá de auto fundado.
+
+El acuerdo deberá dejar a salvo la posibilidad de que los afectados individuales que así lo deseen puedan apartarse de la solución general adoptada para el caso, dentro del plazo que ordene la sentencia respectiva, que nunca podrá ser inferior a sesenta (60) días.
+
+El plazo comenzará a correr al día siguiente a su inscripción en el Registro de Procesos Colectivos.
+
+Ley N° 6.407
+
+Las fuentes del Derecho a tu alcance
+
+Responsables
+
+Secretaría de Apoyo Administrativo Jurisdiccional
+Sergio J. Gargiulo
+
+Dirección de Apoyo Operativo
+Fabio D. Ona
+
+JURISTECA – Departamento de Biblioteca y Jurisprudencia
+Vanesa Jurado Giménez
+
+Menú
+
+Inicio
+
+Buscador Juristeca
+
+Compilación normativa Juristeca
+
+Desarrollo de contenidos
+
+Newsletter
+
+Novedades bibliogáficas
+
+Contacto
+
+Consejo de la Magistratura de la Ciudad de Buenos Aires.
+Av. julio A. Roca 516 (C1067ABN) C.A.B.A.
+
+
+
+
+
+Skip to content
+
+Open toolbar
+
+Juristeca Accesible
+
+Juristeca Accesible
+
+Aumentar textoAumentar texto
+
+Achicar textoAchicar texto
+
+Escala de grisesEscala de grises
+
+Alto contrasteAlto contraste
+
+Contraste negativoContraste negativo
+
+Fondo blancoFondo blanco
+
+Subrayar linksSubrayar links
+
+Fuente legibleFuente legible
+
+Reset
+Reset

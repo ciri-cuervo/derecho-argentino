@@ -1,0 +1,518 @@
+Santa Coloma, Luis Federico y otros
+==============================================================================
+Tribunal:         CSJN
+Cita:             Fallos 308:1160
+Fecha declarada:  1986-01-01  <- 1 de enero: fecha sin confirmar en el manifiesto
+Fuente del PDF:   https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7879941
+Derivado de:      jurisprudencia/csjn-santacoloma-fallos-308-1160.pdf
+SHA-256 del PDF:  5bba0fbcde4d5e098073446d3a8d899605edcabc17d96b221c944869360a70b4
+Paginas:          12
+Generado:         2026-09-14
+Herramienta:      tesseract 5.5.3, -l spa --psm 6, pdftoppm -r 300
+
+TEXTO RECUPERADO POR OCR LOCAL. No se bajo de la fuente: la capa de texto que traia el
+PDF estaba arruinada y esto es una relectura de las imagenes de la pagina. NO es
+publicacion oficial y no reemplaza al PDF. Para transcribir un considerando a un escrito,
+cotejar contra la pagina del PDF: el numero de pagina esta marcado abajo.
+
+Regenerar: python3 herramientas/reocr_jurisprudencia.py csjn-santacoloma-fallos-308-1160
+==============================================================================
+--- pagina 1 de 12 ---
+
+1160 FALLOS DE LA CORTE SUPREMA
+LUIS FEDERICO SANTA COLOMA Y Orros
+RECURSO EXTRAORDINARIO: Requisitos propios. Cuestiones no federales.
+Interpretación de normas y acios comautties.
+Próceda el recurso extraordinario, no obstante que los agravios del
+apelante remiten al análisis de cuestiones de hecho, prueba y derecho
+común, materia propia. de los jueces de la causa y ajena, como regla
+y por su naturaleza, a la instancia extraordinaria, cuando median ra-
+zones de “mérito suficiente 'para descalificar el pronunciamiento. En'
+el caso, se trata' de los daños y perjuicios derivados de la muerte de
+los hijos de los recurrentes. |
+RECURSO EXTRAORDINARIO: Requisitos propios. Cuestiones 1o federales.
+Sentencias arbitrariaz. Procedencia del recurso. Valoración de circunstancias |
+de hecho y pruebas.
+Es arbitraria la sentencia que señala que mi aún a título de “chance” i
+corresponde otorgar indemnización por daño material a los actores |
+.(1) $5 de agosto. Fallos: 306:1987, 2065; 307:2124.
+
+--- pagina 2 de 12 ---
+
+DE JUSTICIA DE LA NACIÓN 1161
+cuya holgada .situación haría irrazonable prever que hubieren de re-
+cibir ayuda económica de las hijas impediría asegurar que de su
+muerte vaya a resultar perjuicio material para ellos, pues importa
+exigir una certidumbre extraña al concepto mismo: de “chance”, de
+cuya reparación se trata,
+"RECURSO EXTRAORDINARIO: Requisitos propios. Cuestiones no federales.
+"Sentencias arbitrarias. Procedencia del recurso. Defectos en la consideración
+de. extremos conducentés,
+Es arbitraria la sentencia que niega indemnización a título de “chance”
+por dafio material a los actores, fundada en que su holgada situación
+*-que no haría razonable prever que hubieran de recibir 4yuda eco-
+nómica de las hijas— impediría asegurar que de su muerte' vaya a
+resultar perjuicio material para ellos, pues pasa por alto ld circuns-
+tancia de que el apóyo económico que los hijos pueden brindar a sus
+padres, en determinados medios puede traducirse más frecuentemente
+en la colaboración en la gestión del capital familiar, según su enver-
+gadura, cuando la edad de los progenitores así lo exija,
+RECURSO EXTRAORDINARIO: Requisitos propios. Cuestiones mo federales.
+Sentencias arbitrarias. Procedencia del recurso. Contradicción.
+«Es arbitraria la sentencia cuya conclusión revela'una evidente contra-
+dicción con las premisas, pues reduce la reparación por daño xmnoral,
+no obstante destacer la gravedad de la conducta de la demandada, y
+que su notable negligencia surge con meridiana claridad así como el
+tremendo dolor que han debido sufrir los actores, siendo obvia la
+capacidad económica der la demandada, E
+RECURSO EXTRAORDINARIO: Requisitos propios. Cuestiones no federales. (
+Sentencias arbitrarias. Procedencia del recurso. Falta de fundamentación su- E
+ficiente.
+Es arbitraria la sentencia que reduce la reparación del daño moral
+con afirmaciones doszmáticas v carentes de la debida fundamentación,
+según las cuales el ddlor de los parres no es susceptible de ser apla-
+cado, ni siguiera en grado mínimo, por la recepción de dinero, cual- |
+quiera sea la cantidad, pues a tal dolor ada agregará ni quitará la |
+cifra que reciban los agraviados, lo que demostraría que la repara- |
+ción que otorga la ley no puede tener tal finalidad.
+CONSTITUCION NACIONAL: Derechos y garantías. Generalidades.
+La sentencia que al establecer la indemnización del daño moral fija
+una suma cuyo alegado carácter sancionatorio es —por su menguado
+
+--- pagina 3 de 12 ---
+
+1162 FALLOS DE LA CORTE SUPREMA
+monto— meramente nominal, y renuncia expresamente y en forma
+apriorística a mitigar de alguna manera— por imperfecta que sea— el
+dolor que dice comprender, lesiona el principio de alierum nom laedere
+que tiene raíz constitucional (art. 19 de la Ley Fundamental) y ofende
+el sentido de justicia de la sociedad, cuya vigencia debe ser afianzada
+por el tribunal, dentro del marco de sus atribuciones y en consonan-
+cia con Jo consagrado en el Preámbulo de la Carta Magna.
+CARGA PUBLICA,
+No figura entre las potestades de un.estado constitucional imponer a
+los habitantes cargas que superen a las requeridas por la solidaridad
+social,
+DAÑOS Y PERJUICIOS: Determinación de la indenutización. Daño mordl.
+Es obvio que desde una especial —y respetable— concepción de la
+ética puede mirarse a la reparación del daño moral como un apar- e
+tamiento' de las rigurosas exigencias que tal ética formula a quie-
+nes deseen seguirla. Pero no cabe que los jueces se gúíen, al deter-
+minar el derecho, por patrones de moralidad que "excedan los habi-
+tualmente admitidos por el sentimiento medio.
+MORAL PUBLICA,
+Los jueces deben dar vigor con sus sentencias a la moralidad corriente |
+de hombres y mujeres de conciencia recta,
+CONSTITUCION NACIONAL: Derechos y garantías, Generalidades,
+La decisión judicial no ha de reemplazar "las opciones éticas, - cuya
+autonomía reconoce el art. 19 de la Constitución Nacional,
+DICTAMEN DEL PROCURADOR GENERAL
+Suprema Corte:
+La Cámara Nacional de Apelaciones en lo Civil y Comercial
+Federal (Sala 2), a fs. 484/491, dictó sentencia por la cual modificó
+el monto de la condena impuesta a la demandada en colicepto de
+indemnización de los daños y perjuicios causados a los actores a
+
+--- pagina 4 de 12 ---
+
+DE JUSTICIA DE LA NACIÓN 1163
+raíz del hecho que dio origen a la demanda, Se trata de un choque
+de dos trenes, en uno de los cuales viajaban cuatro hijos del matri-
+monio Santa Coloma: tres niñas, que fallecieron como consecuen-
+cia del impacto, y un niño, que resultó herido. Los padres promo-
+vieron esta acción resarcitoria por sí y en representación del hijo
+menor. La sentencia de primera instancia estableció la responsa-
+bilidad de la empresa demaudada, Ferrocarriles Argentinos, cues-
+tión que no había sido controvertida por esta última, y la condenó
+a pagar una suma comprensiva de varios rubros: a) pérdida mate-
+rial de las tres hijas y el daño físico causado al niño; b) daño moral
+padecido por los padres y por el hijo sobreviviente; y c) diversos
+gastos derivados del mismo hecho, La alzada, por su parte, deses-
+timó en su integridad el reclamo inherente al primero de esos ru-
+bros y disminuyó sensiblemente el importe fijado para el daño moral, |
+Contra este pronunciamiento la actora dedujo recursq extraor- |
+dinario a fs. 500/524, cuya denegatoria de fs. 537/538 dio lugar a la
+presente queja. Cabe señalar que el Defensor Oficial también dedujo |
+recurso extraordinario (fs. 525/532), el cual fue denegado por el d
+a quo en la misma resolución antes citada, pero sin que se haya ar- i
+ticulado queja al respecto.
+Se agravia la apelante porque considera arbitraria la decisión |
+del tribunal y conculcatoria de los derechos tutelados por los arts. 17 |
+y 18 de la Constitución Nacional. A través de uma prolija y minuciosa i
+crítica de las distintas partes del fallo desarrolla su impugnación a
+lo resuelto en relación con 'el daño material causado por la pérdida
+de las hijas —rubro desestimado— y el daño moral consiguiente
+——rubro sensiblemente disminuido—,
+Sobre el primero señala que existe autocontradicción en la sen-
+tencia, ya que el a quo admitió expresamente la hipótesis de que,
+pese a la actual “situación económica holgada” de los padres —se-
+gún la calificó—, pudieran éstos necesitar en el futuro la ayuda de
+sus hijas, de manera que habiendo admitido esa posibilidad no
+podía luego negar la indemnización siquiera a título.de “chance”,
+como lo hizo. Añade que la Cámara habría omitido considerar ele-
+
+--- pagina 5 de 12 ---
+
+1164 FALLOS DE LA CORTE SUPREMA
+
+mentos significativos al evaluar la magnitud patrimonial de la actora,
+
+y que tampoco indicó de qué modo ella hubiera podido impedir que
+
+se fije una indemnización por la pérdida material de las hijas, Ob-
+
+serva la falta de sustento lógico de la conclusión a que hubo arribado
+
+la Cámara en este punto al negar la reparación al menos a título de
+
+“Chance”, porque ésta, por pequeña que fuese, siempre existe y en
+
+forma cierta, dado que nadie puede asegurar el futuro.
+
+Con respecto al daño moral, sostiene la apelante que la Cá-
+
+mara omitió considerar todos y cada uno de sus agravios sobre el
+
+«punto y, sin dar fundamento suficiente, redujo drásticamente el |
+monto fijado en primera instancia a una décima parte, eh moneda
+
+constante, Advierte que la apelación dela accionada en este punto
+
+no constituía un, verdadero “agravio”, pues se limitó a decir que
+
+consideraba excesiva la suma fijada por el juez y dejaba librado al
+
+criterio de la Cámara la determinación definitiva, con lo cual, esa
+parte de la sentencia de primer grado debió considerarse firme, |
+Agrega que el' tribunal tampoco proporcionó argumentos valederos |
+pára reducir la condena a su décima parte, porque no pueden serlo
+_la simple aseveración dogmática del vocal preopinante en el sen- |
+tido que: “.. considero exorbitante la cifra que fijó el a quo...”, i
+Que también aquí se advierte autocontradicción en la sentencia, l |
+ya que el a quo dijo adherir a la tesis de que el daño moral tiene |
+carácter de pena ejemplar —no resarcitorio—, y pese a destacar
+
+la gravedad de la culpa' atribuible a la accionada, concluyó fijando
+
+una condena meramente simbólica. Añade que al hacerlo no pro-
+
+porcionó argumentos que permitieron seguir un proceso lógico sus-
+
+ceptible de justificar la sustancial variación en el monto de la
+
+condena ni dio razón de cómo la situación patrimonial del agra-
+
+viado pudo incidir en ello. Cita jurisprudencia de la Corte en apoyo
+
+de su queja.
+
+A mi modo de ver, examinados los agravios a la luz de las-
+
+constancias de la causa, asiste razón a la recurrente. Si bien se
+
+trata aquí de cuestiones de hecho y de derecho común, ajenas como
+
+regla a la vía del art. 14 de da ley 48, estimo configurado un su-
+
+puesto de excepción a dicho principio en tanto el fállo recurrido
+
+entraña una afectación de las cláusulas constitucionales invocadas'
+
+--- pagina 6 de 12 ---
+
+DB JUSTICIA DE LA NACIÓN 1165
+
+por la apelante pues no se muestra, conforme conocida doctrina
+de V.E., como conclusión razonada del derecho vigente con aplica-
+ción a las' circunstancias comprobadas de la causa.
+
+El pronunciamiento no cumple esa exigencia al desestimar la
+reparación del daño material proveniente de la pérdida de las hijas"
+—y hermanas—, con el fútil argumento basado en una holgada si-
+tuación económica de los padres. No sólo porque al resolver de
+ese modo se pierde de vista la hipótesis que el propio' tribunal ad-
+mite de una colaboración futura de las hijas hacia sus progenitores
+—como señala la apelante— y que, dicho sea de paso, no hay por-
+qué reducir al supuesto extremo de una “desaparición desu capi-
+tal” (fs. 485), como si el patrimonio familiar fuese insusceptible “de
+acrecentarse con el aporte de los hijos. Sino también, porque al ra-
+zonar como lo hace el a quo, se abre el camino hacia odiosas discri-
+minaciones que reposan en una óptica parcializada y materialista de
+la realidad, conforme la cual la reparación por la pérdida de un |
+hijo habrá o no de consentirse en función del caudal patrimonial de
+sus padres, razonamiento que no parece acorde con la letra y el
+espíritu de nuestra legislación civil ni con el principio que dimana
+del art. 16 de la Constitución Nacional.
+
+Por otra parte, el argumento que niega la reparación a título de
+“chance”, tal como señala la apelante, se sustenta en una aprecia»'
+ción dogmática del tribunal que no puede servir de apoyo racional
+a la conclusión a que él arriba.
+
+Análogas consideraciones merece la, drástica reducción de la
+condena por daño moral, que también es materia de agravio, Los
+argumentos en que tal disminución se apoya son sólo aparentes y,
+por tanto, inocuos para fundar la decisión, según demuestra con
+acierto, a mi juicio, la recurrente.
+
+En este sentido, creo que es deber incondicional de los jueces
+procurar «que,sus decisiones trasunten el imperio de la ley, en la
+cual deben aquéllas hallar furnidamento, según las circunstancias del
+caso y sin desatender la justicia de la solución alcanzada. Por eso,
+no pueden ellos abstenerse de dar a la condena que imponen la mag-
+
+--- pagina 7 de 12 ---
+
+1166 FALLOS DE LA CORTE SUPREMA
+nitud que corresponda en función de los hechos, bajo el pretexto de
+que cualquiera sería efímera para reparar la ofensa inferida. Mani-
+festáciones de tal naturaleza —como Jas que se formulan a fs. 486
+vta— importarían una suerte de renuncia a la tarea primordial que
+les fuera encomendada. Sobre las consecuencias que pueden derivarse
+de actitudes semejantes previno Ihering al señalar que, en tales .
+cireunstancias, “la lucha por la ley se trueca en un combate contra
+ella”; añadiendo que “el sentimiento del derecho, abandonado por
+el poder que debía protegerlo, libre y dueño de sí mismo”, busca
+entonces los medios para obtener la satisfacción que se le niega
+(Rudolf von Ihering, “La lucha por el Derecho”, en “Tres Estudios E
+Jurídicos”, p. 218, edit, Bibliográfica Omeba, Buenos Aires, 1960),
+En la especie, preciso es observar que las meras expresiones de
+aflicción o compadecimiento hacia las víctimas del hecho luctuoso
+de que aquí se trata, no pueden suplir la reparación integral y
+adecuada de los daños ocasionados a raíz de aquél.
+Pienso, en síntesis, que en los aspectos considerados y que fue-
+- ron materia de agravio, la sentencia recurrida satisface sólo en
+forma aparente la exigencia de constituir una derivación razonada
+del derecho vigente, con aplicación a los hechos concretos de la
+causa, lo que impone su descalificación como acto jurisdiccional,
+. según lo tiene decidido V.E. en precedentes análogos (cf. Fallos;
+:300:993; causas "Mochi, Aquiles Héctor c/Universidad Nacional de
+La Plata y otra s/indemnización d daños y perjuicios”, M. 534, sen-
+tencia de fecha 21 de junio de 1984; “Luque de Palavecino, Susana
+y otros c/Ministerio de Bienestar Social”, L, 226, sentencia de fecha
+3 de marzo de 1985: “Ramos, Nicolás 1. y otra c/Loiotile, Eduardo y
+otros”, R. 419, sentencia del 19 de marzo de 1985, entre otros).
+Por lo expuesto, opino que corresponde admitir esta presenta-
+ción directa y, en consecuencia, dejar sin efecto la sentencia recú-
+rrida a fin de que se dicte nuevo pronunciamiento respecto de las”
+cuestiones que han sido materia de este dictamen, Buenos Aires,
+11 de septiembre de 1985. Juan Octavio Gauna.
+
+--- pagina 8 de 12 ---
+
+DE JUSTICIA DE LA NACIÓN 1167
+FALLO DE LA CORTE SUPREMA
+Buenos Aires, 5 de agosto de 1986,
+
+Vistos los autos: "Recurso de hecho deducido por la actora en
+la causa Santa Coloma, Luis Federico y otros c/E.F,A.”, para deci-
+dir sobre su procedencia,
+
+Considerando:
+
+19) Que la sentencia de la Sala II de la Cámara Nacional de
+Apelaciones en lo Civil y Comercial Federal, impugnada' mediante
+el recurso extraordinario deducido a fs. 500/524, cuya denegación
+dio lugar a la presente queja, modificó el fallo de primera instan-
+cia —que había hecho lugar parcialmente a la demanda de daños y
+perjuicios,ordénando abonar a los actores la suma de $a 2.786.510—
+y redujo el monto de la condena a $a 557.400,
+
+29) Que para la mejor comprensión del caso, conviene indicar
+que a fs. 40/51 promovieron demanda los cónyuges Luis Federico de
+Santa Coloma y Jacqueline Colette Alice Dedoyard de Santa Coloma
+—por derecho propio y el primero de los nombrados también en
+representación del menor Martín Ambrosio de Santa Coloma— con-
+tra la Empresa Ferrocarriles Argentinos, por cobro de los daños
+materiales y morales resultantes del accidente ferroviario acaecido
+el 8 de marzo de 1981, en las cercanías de Brandsen, Provincia de
+Buenos Aires. En ese suceso perdieron la vida las menores Isabel
+Claudia, Florencia y Luz de Santa Coloma, y sufrió diversas heridas
+el mencionado Martín Ambrosio, todos ellos hijos de los actores.
+
+La sentencia de primera instancia hizo lugar a la demanda por
+la suma ya indicada (fs. 434/437). Interpuestos Tecursos de apela”
+ción por'la actora y la demandada, la Cámara en su decisión de.”
+fs. 484/491 modificó el monto de la condena, reduciéndolo a la stima
+de. fa 557.400. En. cuanto aquí interesa, cabe señalar que la alzada
+revocó la decisión de primera instancia en lo concerniente al invo-
+cado daño material sufrido por los padres a consecuencia de la
+
+--- pagina 9 de 12 ---
+
+1168 FALLOS DE LA CORTE SUPREMA
+
+muerte de sus tres hijas —por entender que éste no había sido
+probado— y, por otra parte, disminuyó considerablemente la suma
+fijada por el inferior en materia de daño moral,
+
+Los actores se agraviaron de la manera en que la sentencia ape-
+lada resolvió los mencionados puntos, y sostuvieron su arbitrarie-
+dad con base en los variados vicios que señalan en su recurso de
+fs. 500/524 y en la presente queja.
+
+39) Que los agravios de los apelantes suscitan cuestión federal
+bastante para su tratamiento por la vía intentada, pues si bien
+remiten al análisis de cuestiones de hecho, prueba y, derecho co-
+mún, materia propia de los jueces de la causa y ajena, como regla
+y por su naturaleza, a la instancia extraordinaria (Fallos: 302: 1095;
+303:694), corresponde apartarse de tal principio cuando, como en
+el caso, median razones de mérito suficientes para descalificar el
+pronunciamiento,
+
+49) Que, en efecto, al rechazar toda indemnización por daño
+material a los padres, la sentencia señala que. ni aun a título de”
+“chance” —representada por la posible ayuda económica que pueda
+prestar en el futuro un hijo— corresponde fijar suma alguna. Lo
+decidido al respecto en segunda instancia se funda en que la hol-
+gada situación del matrimonio Santa Coloma —que no hace razo-
+náble prever que hubiere de recibir ayuda económica de sus hi-
+jas— impediría asegurar que de la muerte de éstas vaya a resultar
+perjuicio material para los actores (fs. 485/485 vta.)..
+
+De lo expuesto resulta una contradicción en el razonar del tri
+bunal apelado, que lo priva de validez lógica. En efecto, si aquello
+que se trata de resarcir es la "chance” 'que, por su propla naty-
+raleza, es sólo una posibilidad, no puede negarse la indemnización
+con el argumento de que es imposible asegurar que de la muere
+
+de las menores vaya a resultar perjuicio, pues ello importa exigir
+una certidumbre extraña al concepto mismo de “chance” de cuya
+reparación se trata. Por otra parte, la sentencia pasa por alto la
+circunstancia de que el apoyo económico que los hijos pueden brin-
+dar a sus. padres no se reduce a lo asistencial —bien que esto es lo
+
+--- pagina 10 de 12 ---
+
+DE JUSTICIA DE LA NACIÓN: 1169
+habitual en las familias de escasos recursos— y que, en determi»
+nados medios puede traducirse más frecuentemente en la colabora-
+ción en la gestión del capital familiar, según su envergadura, cuando
+
+la edad de los progenitores así lo exija.
+
+5?) Que también debe hacerse lugar a los agravios de los actores
+en lo que se refiere al capítulo de' la sentencia que reduce la suma
+que por daño moral había fijado el juez de primera instancia. En
+efecto, después de invocar que la reparación del daño moral tendría
+una finalidad principalmente punitiva, el a quo fija por este rubro
+fa 230.000, como correspondiente al sufrido por los padres, no sin
+antes señalar —entre otras consideraciones— que' ha tenido en cuen-
+ta el obrar del culpable y las consecuencias de su accionar.
+
+Los vicios que eh esta parte presenta la sentencia apelada llevan
+al Tribunal a detenerse con cierto detalle en su análisis. Como dato
+esencial se observa lo ínfimo de la suma por la que se hace progre-
+sar el reclamo. Ello salta a la vista si se la reajusta al momento ac-
+tual —usando cualquiera de los índices estadísticos oficiales— o si
+se la compara con lo admitido por el a quo en concepto de “gastos
+de sepelio” (que representan un 66,52 % de aquélla), En este aspecto
+es tal la desproporción entre la suma en examen y la trágica entidad
+de la muerte de las tres hermanas —de 9, 10 y 13 años al momento
+del siniestro-— que sólo .cabé recordar el viejo adagio res ipsa lo-.
+quitur,
+
+La alzada ha pretendido fundamentar su conclusión en este pun-
+to, en la concepción según la. cual lo punitivo o sancionatorio sería
+la única base que justificaría establecer una suma por daño moral.
+A este respecto, la sentencia destaca “la gravedad de la conducta de
+Ferrocarriles Argentinos, cuya notable negligencia surge con merj-
+diana claridad” y no se desentiende de las que denomina "consecuen,
+
+cias del accionar”, acerca de lo que manifiesta no olvidar “el tremen-+.
+do dolor que han debido sufrir los progenitores”, Como la capacidad
+económica de la demandada resulta obvia —lo que por notorio ha
+hecho que el juzgador ni se detuviera en el punto— fácilmente se
+“concluye que se encuentran reunidos todos'los requisitos que, desde
+la: perspectiva asumida por la Cámara, imponen la aplicación de una
+
+--- pagina 11 de 12 ---
+
+1170 FALLOS DE LA CORTE SUPREMA
+
+condigna sancion, resultado al que, inexplicablemente, no se arriba.
+
+Ello revela una evidente contradicción con las premisas aceptadas y
+
+descalifica el pronunciamiento (Fallos: 300:993, cons. 7% fallo re-
+
+caído, in re: “Rossi, Virgilio León c/Dirección Nacional de Vialidad
+
+s/nulidad de acto administrativo”, de fecha 8 de setiembre de 1981,
+
+R.508-X VIT, cons. 29), ¡
+
+6%) Que, por otra parte, resultan dogmáticas y carentes de la
+debida fundamentación las afirmaciones del a quo según las cuales
+el dolor de los padres “no es susceptible de ser aplacado, ni siquiera |
+en grado mínimo, por la recepción de dinero, cualquiera sea la can-
+tidad”, pues a tal dolor “nada agregará ni quitará la cifra que reci-
+ban los agraviados”, lo que demostraría que "la reparación que otor-
+ga la ley no puede tener tal finalidad”.
+
+En primer Jugar, tal aserción no intenta siquiera compatibilíi-
+zarse con los textos legales en los que la mentada “reparación” apa-
+rece inequívocadamente relacionada con la acción por indemnización
+y la obligación de resarcir (arg. arts. 522 y 1078 del Código Civil).
+Por otra parte, el pronunciamiento en recurso no atiende a las muy
+variadas aplicaciones que los padres de las menores podrían dar a
+la suma en cuestión, al decretar de modo indemostrable que jamás
+éstos podrán —a través de ese medio—- obtener un ápice de consuelo
+o satisfacción, por más digna, noble o espiritual que fuese.
+
+79) Que al fijar uña suma cuyo alegado carácter sancionatorio
+es —por su menguado monto— meramente nominal y al renunciar
+expresamente y en forma apriorística a mitigar de alguna mánera
+—por imperfecta que sea— el dolor que dice comprender, la sén-
+tencia apelada lesiona el principio del alterun: nom laedere que tiene
+raíz constitucional (art. 19, de la Ley Fundamental) y ofende el sen-
+tido de justicia de la sociedad, cuya vigencia debe ser afianzada por
+el Tribunal, dentro del marco de sus “atribuciones y en consonan a
+con lo consagrado en el Preámbulo de la Carta Magna.
+
+82) Que, asimismo, no figura entre las potestades de un estado
+constitucional imponer a los habitantes cargas que superen a las
+requeridas por la solidaridad social. Es obvio que, desde una espe-
+
+--- pagina 12 de 12 ---
+
+DE JUSTICIA DE LA NACIÓN 1171
+cial —y respetable— concepción de la ética, puede mirarse a la
+reparación del daño moral como un apartamiento de las rigurosas
+exigencias que tal ética formula a quienes deseen seguirla. Pero no
+cabe que los jueces se guíen, al determinar, el derecho, por patrones
+de moralidad que excedan los habitualmente admitidos por el sen-
+timiento medio, pues, como lo señala Cardozo, “los jueces deben,
+dar vigor con sus sentencias a la moralidad corriente de hombres
+y mujeres de conciencia recta” (“The nature of the judicial pro-
+cess”, U.S. 1937, Yale University Press, pág. 106), En efecto, la deci-
+sión judicial no ha de reemplazar las opciones éticas personales cuya
+autonomía también reconoce el art. 19 de la Constitución Nacional.
+
+4
+
+Ahora bien, en el sentimiento corriente, la actitud hacia las
+pérdidas definitivas no es aconsejar su asunción heroica, sino que
+-se traduce en un' activo intento de mitigarlas, aun a sabiendas de
+la pobreza de medios con que se cuenta a ese fin. No es ésta, sin
+embargo, la posición de la Cámara, que de hecho compele q un re-
+nunciamiento —consistente en soportar calladamente la pérdida de
+tres hijas— que no puede ser impuesto a los demás, sino solo libre-
+mente escogido por ellos,
+
+9%) Que, por todo lo dicho, el pronunciamiento recurrido no
+constituye una derivación razonada del derecho vigente, por lo que
+debe ser revocado, de conformidad con la conocida doctrina del Tri-
+bunal en materia de sentencias arbitrarias.
+
+Por ello, y lo concordemente “dictaminado por el señor Procu-
+rador General, se hace lugar a la queja, se declara procedente el
+recurso extraordinario de fs. 500/524 y se deja sin efecto la senten-
+cia apelada con el alcance indicado. Vuelvan los autos al tribunal
+de origen para que se proceda a dictar un nuevo fallo con arreglo
+al presente.
+
+AuGusTO César BELLUSCIO — CARLOS $, FAYT —
+
+ENRIQUE SANTIAGO PETRACCHI JORGE
+ANTONIO ¡BACQUÉ,

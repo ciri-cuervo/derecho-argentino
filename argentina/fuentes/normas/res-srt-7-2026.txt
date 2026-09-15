@@ -1,0 +1,977 @@
+Res. SRT 7/2026 - Protocolo de Estudios Minimos para la valoracion del dano corporal
+==============================================================================
+Jurisdiccion:     nacional
+Fuente:           https://servicios.infoleg.gob.ar/infolegInternet/anexos/420000-424999/422829/norma.htm
+Descargado:       2026-09-14
+SHA-256 (crudo):  5ed1af2de1c99780d20fe3964252eb605412c16cafbe2b5a9ae39274a92e751f
+Charset:          ISO-8859-1
+
+Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
+NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
+Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+el manifiesto `normas.json`.
+==============================================================================
+
+InfoLEG - Ministerio de Justicia y Derechos Humanos - Argentina
+
+SUPERINTENDENCIA DE RIESGOS DEL TRABAJO
+
+Resolución 7/2026
+
+RESOL-2026-7-APN-SRT#MCH
+
+Ciudad de Buenos Aires, 28/01/2026
+
+VISTO el Expediente EX-2026-05504021-APN-GACM#SRT, las Leyes N° 24.241,
+Nº 24.557, N° 26.425, N° 27.348, los Decretos N° 659 de fecha 24 de
+junio de 1996, N° 2.104 de fecha 04 de diciembre de 2008, N° 891 de
+fecha 01 de noviembre de 2017, N° 549 de fecha 05 de agosto de 2025,
+las Resoluciones de esta SUPERINTENDENCIA DE RIESGOS DEL TRABAJO
+(S.R.T.) N° 886 de fecha 22 de septiembre de 2017, N° 3 de fecha 05 de
+febrero de 2021, N° 51 de fecha 22 de julio de 2024 -y su modificatoria
+N° 75 de fecha 01 de noviembre de 2024-, y
+
+CONSIDERANDO:
+
+Que el artículo 51 de la Ley N° 24.241, sustituido por el artículo 50
+de la Ley N° 24.557 sobre Riesgos del Trabajo, dispuso la actuación de
+las Comisiones Médicas y la Comisión Médica Central en el ámbito de los
+riesgos del trabajo.
+
+Que el artículo 21 de la Ley N° 24.557 estableció los alcances de las
+funciones de las citadas comisiones en orden a la determinación de la
+naturaleza laboral del accidente o profesional de la enfermedad, así
+como el carácter y el grado de la incapacidad, el contenido y los
+alcances de las prestaciones en especie y las revisiones a que hubiere
+lugar.
+
+Que el artículo 15 de la Ley N° 26.425 dispuso la transferencia a la
+SUPERINTENDENCIA DE RIESGOS DEL TRABAJO (S.R.T.) del personal médico,
+técnico, auxiliar y administrativo que se desempeña en las Comisiones
+Médicas y la Comisión Médica Central.
+
+Que mediante el Decreto Nº 2.104 de fecha 04 de diciembre de 2008, se
+facultó a este Organismo a dictar las normas aclaratorias y
+complementarias para la implementación de la Ley Nº 26.425 en materia
+de regulación de las Comisiones Médicas.
+
+Que la Ley N° 27.348, Complementaria de la Ley sobre Riesgos del
+Trabajo, dispuso la actuación de las Comisiones Médicas
+Jurisdiccionales como instancia administrativa previa, de carácter
+obligatorio y excluyente de toda otra intervención, para que el
+trabajador afectado, contando con el debido patrocinio letrado,
+solicite la determinación del carácter profesional de su enfermedad o
+contingencia, la determinación de su incapacidad y las correspondientes
+prestaciones dinerarias previstas en la Ley sobre Riesgos del Trabajo,
+para lo cual invitó a las provincias a su adhesión.
+
+Que el Decreto N° 549 de fecha 05 de agosto de 2025 aprobó la
+actualización de la TABLA DE EVALUACIÓN DE INCAPACIDADES LABORALES
+prevista en el Decreto N° 659 de fecha 24 de junio de 1996,
+incorporando criterios científicos actualizados y una metodología de
+valoración de las secuelas incapacitantes sustentada en la evidencia
+médica y en la prueba documental aportada al expediente, lo cual impone
+la adecuación de las normas procedimentales a fin de garantizar la
+coherencia normativa, la eficacia del proceso y la correcta aplicación
+de dicha tabla.
+
+Que, mediante la Resolución S.R.T. N° 886 de fecha 22 de septiembre de
+2017 -texto según Resolución S.R.T. N° 3 de fecha 05 de febrero de
+2021-, se aprobó el “PROTOCOLO DE ESTUDIOS MÍNIMOS PARA LA VALORACIÓN
+DEL DAÑO CORPORAL Y PARA LA DETERMINACIÓN DE LA INCAPACIDAD”, el cual
+resulta necesario actualizar a la luz del nuevo marco técnico-normativo.
+
+Que, en tal contexto, y a los fines de garantizar la coherencia
+normativa y eficacia de los procedimientos, la Gerencia de
+Administración de Comisiones Médicas impulsó la actualización de los
+estudios médicos mínimos requeridos para la valoración y determinación
+de secuelas incapacitantes, así como los requisitos de contenido para
+los informes médicos e interconsultas.
+
+Que, a los fines de asegurar la operatividad del nuevo marco, resulta
+imperativo formalizar la obligación de las Aseguradoras de Riesgos del
+Trabajo (A.R.T.) y de los Empleadores Autoasegurados (E.A.) de dar
+cumplimiento efectivo al Protocolo de Estudios Mínimos en aquellos
+supuestos en los que el trabajador afectado presente secuelas
+incapacitantes resultantes de la contingencia, asegurando que la
+recolección de evidencia médica sea previa o concomitante al
+otorgamiento del Alta Médica o Fin de Tratamiento o cese de la
+Incapacidad Laboral Temporaria (I.L.T.) por vencimiento del plazo
+legal, para evitar dilaciones innecesarias en el proceso de
+determinación de incapacidad.
+
+Que la medida se alinea con los principios de celeridad, economía,
+sencillez, eficacia y eficiencia que deben regir en los trámites
+administrativos, en orden de optimizar los procedimientos y garantizar
+la adecuada tutela de los derechos de los trabajadores.
+
+Que, en atención a lo expuesto en los considerandos precedentes,
+resulta pertinente derogar las Resoluciones S.R.T. N° 886/17 y N° 3/21.
+
+Que la presente resolución sustituye integralmente el régimen de
+estudios mínimos aprobado por las Resoluciones S.R.T. N° 886/17 y N°
+3/21, sin afectar la continuidad operativa de los procedimientos ante
+las Comisiones Médicas.
+
+Que, la medida responde a los lineamientos del Decreto N° 891 de fecha
+01 de noviembre de 2017, que impone a la Administración Pública
+Nacional el deber de contar con textos normativos actualizados.
+
+Que la Gerencia de Asuntos Legales ha tomado la intervención que le corresponde.
+
+Que la presente medida se dicta en uso de las atribuciones conferidas
+por los artículos 36 y 38 de la Ley Nº 24.557, y el artículo 2° del
+Decreto N° 549 de fecha 05 de agosto de 2025, por el punto 12 de la
+Resolución S.R.T. N° 75 de fecha 01 de noviembre de 2024, modificatoria
+de la Resolución S.R.T. N° 51 de fecha 22 de julio de 2024.
+
+Por ello,
+
+LA SUPERINTENDENCIA DE RIESGOS DEL TRABAJO
+
+RESUELVE:
+
+ARTÍCULO 1°.- Apruébase el “PROTOCOLO DE ESTUDIOS MÍNIMOS PARA LA
+VALORACIÓN DEL DAÑO CORPORAL Y PARA LA DETERMINACIÓN DE LA
+INCAPACIDAD”, que como Anexo I IF-2026-10128719-APN-SRT#MCH forma parte
+integrante de la presente resolución, para todos aquellos casos donde
+deba determinarse el grado de incapacidad resultante de una
+contingencia laboral, conforme el Decreto N° 549 de fecha 05 de agosto
+de 2025, que aprobó la actualización de la Tabla de Evaluación de
+Incapacidades Laborales prevista en el Anexo I del Decreto N° 659 de
+fecha 24 de junio de 1996 y sus modificatorios.
+
+ARTÍCULO 2°.- Apruébase la “PRESENTACIÓN Y CONTENIDO DE INFORMES
+MÉDICOS E INTERCONSULTAS ANTE COMISIONES MÉDICAS” que como Anexo II
+IF-2026-10128838-APN-SRT#MCH, forma parte de la presente resolución.
+
+ARTÍCULO 3°.- Establécese que las ASEGURADORAS DE RIESGOS DEL TRABAJO
+(A.R.T.) y los EMPLEADORES AUTOASEGURADOS (E.A.) deberán cumplir con el
+Protocolo aprobado en el artículo 1° de la presente resolución en todos
+aquellos casos en los que el trabajador afectado presente secuelas
+incapacitantes resultantes de la contingencia. A tal efecto, las A.R.T.
+y los E.A. deberán garantizar la realización de los estudios
+complementarios de diagnóstico médico en forma previa o concomitante al
+otorgamiento del Alta Médica o del Fin de Tratamiento, o, en su caso,
+al cese de la Incapacidad Laboral Temporaria (I.L.T.) por vencimiento
+del plazo legal.
+
+ARTÍCULO 4°.- Deróganse las Resoluciones S.R.T. N° 886 de fecha 22 de
+septiembre de 2017 y N° 3 de fecha 05 de febrero de 2021, por los
+motivos expuestos en los considerandos de la presente medida.
+
+ARTÍCULO 5°.- La presente medida tendrá vigencia a partir del 02 de febrero de 2026.
+
+ARTÍCULO 6.- Comuníquese, publíquese, dese a la DIRECCIÓN NACIONAL DEL REGISTRO OFICIAL y archívese.
+
+E/E Fernando Gabriel Perez
+
+NOTA: El/los Anexo/s que integra/n este(a) Resolución se publican en la edición web del BORA -www.boletinoficial.gob.ar-
+
+e. 30/01/2026 N° 4446/26 v. 30/01/2026
+
+(Nota
+Infoleg:
+Los anexos referenciados en la presente norma han sido extraídos de la
+edición web de Boletín Oficial)
+
+PROTOCOLO DE ESTUDIOS MÍNIMOS PARA LA VALORACIÓN DEL DAÑO CORPORAL Y PARA LA DETERMINACIÓN DE LA INCAPACIDAD
+
+TÍTULO I
+
+CUESTIONES GENERALES
+
+La ART/EA en todos los casos deberá aportar la historia clínica del
+siniestro o, en su caso, la reseña de la historia clínica de la
+contingencia, entendida esta última como aquella que contenga los
+estudios complementarios, los procedimientos diagnósticos realizados y
+el tratamiento efectuado.
+
+La documentación deberá ser aportada por los canales electrónicos
+habilitados, conteniendo rúbrica de profesional médico en cada una de
+sus fojas.
+
+Cuando la ART/EA hubiera realizado intervenciones quirúrgicas
+relacionadas con el siniestro, se deberá aportar el/los protocolo/s
+quirúrgico/s legible/s o el detalle de sus alcances deberá estar
+transcripto en la historia clínica.
+
+Cuando el tratamiento quirúrgico se hubiese realizado en un prestador
+ajeno a la ART/EA (por ejemplo, obra social u hospital público), con
+anterioridad al inicio del trámite médico, esa ART/EA deberá solicitar
+al trabajador que aporte dicha documentación.
+
+La acreditación de secuelas osteoarticulares requiere aportar el último
+estudio por imágenes disponible que permita demostrar la secuela. Si
+bien las radiografías suelen resultar suficientes, ante hallazgos
+insuficientes o dudosos se deberá recurrira métodos de mayor
+sensibilidad diagnóstica, tales como Tomografía Axial Computada (TAC) o
+Resonancia Magnética Nuclear (RMN), según corresponda.
+
+En el caso de las neoplasias, se deberá aportar biopsia y estudios realizados para la estadificación.
+
+De corresponder, se deberá aportar el proceso de recalificación profesional.
+
+TÍTULO II
+
+ESTUDIOS A PRESENTAR SEGÚN SECUELA
+
+1. Patología dermatológica
+
+• Evaluación dermatológica consignando en forma detallada la
+localización anatómica, extensión o superficie corporal total afectada
+(expresada en porcentaje según la regla de los nueve de Wallace),
+longitud o área de las cicatrices en centímetros o centímetros
+cuadrados según corresponda y, en caso de ser pertinente, la
+profundidad de la(s) secuela(s) dermatológica(s).
+
+2. Patología osteoarticular
+
+2.1. Fracturas / artrodesis / anquilosis
+
+• Radiografías frente y perfil del sector anatómico comprometido.
+
+Menciones especiales:
+
+a) Carpo: radiografías frente y perfil e incidencias especiales (por
+ejemplo, pseudoartrosis de escafoides, inestabilidad de la fila
+proximal del carpo).
+
+b) Mano: preferentemente radiografía frente y perfil estricto del dedo comprometido.
+
+c) Pelvis: radiografías con incidencias inlet, outlet, alar y obturatriz; tomografía computada.
+
+2.2. Pseudoartrosis, incongruencia articular, etc.
+
+• Radiografías frente y perfil del sector anatómico comprometido. En
+caso de estudios no concluyentes, se deberá realizar TAC en planos
+sagital, axial y coronal.
+
+2.3. Amputaciones
+
+• Radiografías frente y perfil para evaluar el nivel de amputación. En
+mano: preferentemente radiografía frente y perfil estricto del dedo
+comprometido.
+
+• Psicodiagnóstico.
+
+2.4. Artroplastias
+
+• Radiografías frente y perfil del sector anatómico comprometido, contemplando la totalidad del implante.
+
+2.5. Inestabilidad articular
+
+• Hombro: radiografías frente y perfil y RMN.
+
+• Codo: examen físico.Radiografías frente y perfil. En caso de estudios no concluyentes se deberá realizar RMN.
+
+• Muñeca: radiografías frente y perfil y RMN.
+
+• Mano: examen físico.En caso de duda, deberá realizarse radiografía dinámica.
+
+• Pelvis:radiografías con referencia de escala de medición.
+
+• Cadera: radiografías frente y perfil.
+
+• Rodilla: examen físico. Radiografías frente y perfil.En caso de estudios no concluyentes, se deberá realizar RMN.
+
+• Tobillo: radiografías frente y perfil. En caso de estudios no concluyentes, se deberá realizar RMN.
+
+• Pie: examen físico. En caso de estudios no concluyentes, se deberá realizar radiografía dinámica.
+
+2.6. Lesiones músculo-tendinosas
+
+• RMN o Ecografía musculoesquelética.
+
+2.7. Lesiones de columna
+
+• Patología Discal: RMN del sector anatómico comprometido.
+
+• Espondiloartrosis: radiografías frente y perfil.En caso de estudios no concluyentes, se deberá realizar TAC.
+
+• Listesis: radiografías frente y perfil.En caso de estudios no concluyentes, se deberá realizar TAC o RMN.
+
+2.8. Luxación de rótula
+
+• Radiografías frente, perfil y axial de rótula.
+
+2.9. Lesiones cápsulo-ligamentarias o meniscales de rodilla
+
+• RMN.
+
+2.10. Distrofia simpática refleja (Sudeck)
+
+• Examen físico
+
+• Psicodiagnóstico.
+
+3. Patología de cabeza y rostro
+
+3.1. Fracturas del macizo cráneo-facial (excepto órbita y Le Fort)
+
+• Radiografías o TAC de macizo cráneo-facial.
+
+3.2. Fractura de órbita
+
+• TAC de macizo cráneo-facial.
+
+• Evaluación por oftalmología.
+
+• Campimetría computarizada.
+
+3.3. Fractura de Le Fort
+
+• TAC de macizo cráneo-facial.
+
+• Evaluación por oftalmología y campimetría computarizada para las Fracturas de Le Fort Tipo II y III.
+
+4. Patología oftalmológica
+
+En todos los casos se deberá realizar una evaluación oftalmológica determinando:
+
+• Agudeza visual en cada ojo (sin corrección y con la mejor corrección posible, expresada en décimas).
+
+• Descripción de párpados, iris, pupilas, medios refringentes y motricidad ocular.
+
+4.1. Alteraciones del campo visual
+
+• Campimetría computarizada con índices de confiabilidad (pérdidas de fijación, falsos positivos, falsos negativos)
+
+4.2. Diplopía
+
+• Test de Lancaster. Registro de corrección prismática utilizada, si la hubiere.
+
+5. Patología otorrinolaringológica
+
+5.1. Perforación timpánica o pérdida auditiva
+
+• Evaluación otológica, audiometría, logoaudiometría y test de simulación.
+
+5.2. Alteraciones del equilibrio (lesión de la rama vestibular)
+
+• Evaluación por otorrinolaringología o neurología y videoelectronistagmografía.
+
+5.3. Parálisis de cuerda vocal y estrechez laríngea
+
+• Rinofibrolaringoscopía directa.
+
+5.4. Alteraciones de la voz
+
+• Rinofibrolaringoscopía directa o preferentemente rinofibrolaringoscopía estroboscópica y evaluación perceptual de la voz.
+
+6. Patología respiratoria
+
+• Espirometría con y sin prueba broncodilatadora y estudios por imágenes del tórax.
+
+7. Patología cardiovascular
+
+• Compromiso cardiovascular: ecocardiograma.
+
+• Lesiones arteriales: estudios por imágenes.
+
+8. Patología digestiva
+
+8.1. Pérdida de piezas dentarias
+
+• Examen odontológico.
+
+• Radiografía panorámica dental (ortopantomografía).
+
+8.2. Desnutrición
+
+• Índice de masa corporal (IMC), albuminemia, colesterolemia y recuento de linfocitos en sangre.
+
+8.3. Insuficiencia hepática
+
+• Bilirrubina (mg/dl), albúmina (g/dl), tiempo de protrombina,
+ecografía abdominal y evaluación clínica del estado de la conciencia.
+
+9. Patología nefro-urológica
+
+• Insuficiencia renal: tasa de filtrado glomerular y relación albúmina urinaria/creatinina urinaria.
+
+10. Patología de genital masculino
+
+• Atrofia testicular: ecografía testicular.
+
+• Oligozoospermia, astenozoospermia, teratozoosper-mia y azoospermia: espermograma.
+
+11. Patología de genital femenino
+
+• Lesión mamaria: ecografía mamaria o RMN de mama.
+
+12. Patología hematológica
+
+• Hemograma completo según corresponda y estudios específicos conforme a la entidad clínica.
+
+13. Patología neurológica
+
+13.1 Lesión radicular, lesión parcial de plexo y lesión de nervios periféricos
+
+• Evaluación neurológica completa que deberá contener: evaluación
+sensitiva, utilizando la escala de Higuet-Zachary mod., y motora,
+utilizando la escala del British MRC mod.
+
+13.2 Polineuropatía periférica
+
+• Evaluación neurológica completa que deberá contener: evaluación
+sensitivo-motora. EMG con velocidad de conducción sensitiva y motora.
+
+13.3 Lesión medular
+
+• Evaluación neurológica completa con evaluación de funciones sensitiva
+y motora (escala de Daniels modificada) por debajo del nivel de la
+lesión.
+
+13.4 Lesiones estructurales del SNC
+
+• Evaluación neurológica completa. Informe de RMN o TAC que documente la existencia de la lesión original. Informe quirúrgico.
+
+13.5 Alteraciones cognitivo-conductuales
+
+• Evaluación neurocognitiva.
+
+13.6 Síndromes extrapiramidales
+
+• Evaluación neurológica completa con Escala de Webster (modificada)
+
+13.7 Síndrome cerebeloso
+
+• Evaluación neurológica completa
+
+13.8 Epilepsia
+
+• Evaluación neurológica completa. Historia clínica completa,
+electroencefalogramas realizados previos al alta médica o consolidación
+jurídica. RMN o TAC que documente la existencia de la lesión original.
+
+14. Patología de la esfera psíquica
+
+A los fines de evaluar secuelas del aparato psíquico, las ART/ EA
+deberán realizar y presentar un estudio psicodiagnóstico al momento de
+fijar secuela en los siguientes casos:
+
+a) Magnitud de la contingencia grave, conforme la definición establecida en el baremo vigente.
+
+b) Lesiones y secuelas físicas contempladas en el baremo que requieren evaluación obligatoria en el campo de la salud mental.
+
+c) Alteración del esquema corporal (por ejemplo, amputaciones).
+
+d) Siempre que el trabajador haya recibido tratamiento psicológico o
+psiquiátrico, independientemente de la magnitud del siniestro.
+
+Consideraciones sobre los estudios para la valoración del daño psíquico:
+
+• En los casos en que durante el curso de la ILT el trabajador haya
+presentado síntomas psicóticos, internaciones psiquiátricas o intentos
+autolíticos, deberá acompañarse además un informe de evaluación
+psiquiátrica.
+
+• Podrá presentarse el estudio psicodiagnóstico realizado al inicio del
+tratamiento cuando éste no haya evidenciado patología psíquica y no se
+hubiesen registrado cambios en dicha condición a lo largo de la ILT.
+
+• Si al finalizar el tratamiento de salud mental no resultaran
+secuelas, no será necesaria la presentación del estudio
+psicodiagnóstico. En tales casos, deberá constar en el expediente la
+historia clínica completa con el alta emitida por el profesional
+tratante y los formularios de alta exigidos por la normativa vigente.
+
+15. Patología infectológica
+
+• Historia clínica y estudios funcionales según órgano afectado.
+
+16. Patología oncológica
+
+• Informe médico oncológico actualizado que indique el estadio TNM,
+estudios funcionales de los órganos afectados y evaluación psíquica.
+
+17. Patología toxicológica
+
+• Historia clínica y estudios funcionales según órgano afectado.
+
+IF-2026-10128719-APN-SRT#MCH
+
+PRESENTACIÓN Y CONTENIDO DE INFORMES MÉDICOS E INTERCONSULTAS ANTE COMISIONES MÉDICAS
+
+I. INTERCONSULTA CON DERMATOLOGÍA
+
+1. MEMBRETE – NOMBRE DEL PROFESIONAL / CENTRO MÉDICO
+
+2. FECHA DE REALIZACIÓN: ___ / ___ / ______
+
+3. DATOS DE LA PERSONA:
+
+• Nombre y apellido:
+
+• Número de DNI:
+
+• Edad:
+
+4. ANAMNESIS:
+
+• Antecedentes dermatológicos:
+
+• Enfermedad actual y tratamiento:
+
+5. EXAMEN DERMATOLÓGICO:
+
+• Descripción semiológica (tipo de lesión, color, bordes).
+
+• Localización y extensión (expresar en % de superficie corporal total).
+
+• En caso de presentar lesiones neoplásicas/pre-neoplásicas: número, tamaño y ubicación.
+
+6. CONCLUSIÓN Y DIAGNÓSTICO PRESUNTIVO:
+
+7. FIRMA Y SELLO DEL PROFESIONAL INTERVINIENTE
+
+II. INTERCONSULTA CON OFTALMOLOGÍA
+
+1. MEMBRETE – NOMBRE DEL PROFESIONAL / CENTRO MÉDICO
+
+2. FECHA DE REALIZACIÓN: ___ / ___ / ______
+
+3. DATOS DE LA PERSONA:
+
+• Nombre y apellido:
+
+• Número de DNI:
+
+• Edad:
+
+4. ANAMNESIS:
+
+• Antecedentes oftalmológicos:
+
+• Enfermedad actual y tratamiento:
+
+5. EXAMEN OFTALMOLÓGICO:
+
+• Párpados y anexos.
+
+• Iris y pupilas.
+
+• Medios refringentes.
+
+• Presión intraocular (mmHg).
+
+• Fondo de ojo.
+
+• Agudeza visual (sin y con corrección).
+
+• Motilidad ocular.
+
+• Campimetría computarizada (adjuntar informe, en caso de haberse
+realizado, detallando índices de confiabilidad -pérdida de fijación,
+falsos positivos/negativos-)
+
+6. CONCLUSIÓN Y DIAGNÓSTICO PRESUNTIVO:
+
+7. FIRMA Y SELLO DEL PROFESIONAL INTERVINIENTE
+
+III. INTERCONSULTA CON OTORRINOLARINGOLOGÍA
+
+1. MEMBRETE – NOMBRE DEL PROFESIONAL / CENTRO MÉDICO
+
+2. FECHA DE REALIZACIÓN: ___ / ___ / ______
+
+3. DATOS DE LA PERSONA:
+
+• Nombre y apellido:
+
+• Número de DNI:
+
+• Edad:
+
+4. ANAMNESIS:
+
+• Antecedentes otorrinolaringológicos:
+
+• Enfermedad actual y tratamiento:
+
+5. EXAMEN OTORRINOLARINGOLÓGICO:
+
+• Oídos (otoscopía/otomicroscopía).
+
+• Nariz (tabique, cornetes, permeabilidad).
+
+• Faringe y laringe (si corresponde).
+
+• Estudios complementarios (adjuntar informes, en caso de haberse realizado).
+
+- Audiometría
+
+- Logoaudiometría
+
+- Test de simulación
+
+6. CONCLUSIÓN Y DIAGNÓSTICO PRESUNTIVO:
+
+7. FIRMA Y SELLO DEL PROFESIONAL INTERVINIENTE
+
+IV. INFORME DE FIBRORRINOLARINGOSCOPÍA DESTINADA A EVALUAR ALTERACIONES DE LA VOZ (DEC. 549/25)
+
+1. MEMBRETE – NOMBRE DEL PROFESIONAL / CENTRO MÉDICO
+
+2. FECHA DE REALIZACIÓN: ___ / ___ / ______
+
+3. DATOS DE LA PERSONA:
+
+• Nombre y apellido:
+
+• Número de DNI:
+
+• Edad:
+
+4. HALLAZGOS DETECTADOS EN LA FIBRORINOLARINGOSCOPÍA:
+
+Movilidad de cuerdas vocales (indicar la o las que corresponda):
+
+□ Normal
+
+□ Disminuida
+
+□ Bilateral
+
+□ Unilateral
+
+5. ALTERACIONES ANÁTOMO-FUNCIONALES PRESENTES (indicar la o las que correspondan):
+
+□ Hiatus posterior
+
+□ Pólipos de cuerdas vocales
+
+□ Hiatus anteroposterior (reloj de arena)
+
+□ Hematoma de cuerdas vocales
+
+□ Hiatus longitudinal (en ojal)
+
+□ Edema de Reinke
+
+□ Nódulos de cuerdas vocales
+
+□ Fonación de bandas: causada por pólipos subcordales o por hiperfunción laríngea
+
+Otros hallazgos:
+
+6. CONCLUSIÓN:
+
+7. FIRMA Y SELLO DEL PROFESIONAL INTERVINIENTE
+
+V. INTERCONSULTA FONOAUDIOLÓGICA PARA LA EVALUACIÓN DE LA VOZ
+
+1. MEMBRETE – NOMBRE DEL PROFESIONAL / CENTRO MÉDICO
+
+2. FECHA DE REALIZACIÓN: ___ / ___ / ______
+
+3. DATOS DE LA PERSONA:
+
+• Nombre y apellido:
+
+• Número de DNI:
+
+• Edad:
+
+4. ANAMNESIS:
+
+5. EVALUACIÓN PERCEPTUAL DE LA VOZ: (indicar la que corresponda):
+
+□ Sin alteración de la voz
+
+□ Alteración discreta: no afecta la comunicación.
+
+□ Alteración evidente: afecta la comunicación, la comprensión puede dificultarse. Se puede entender al hablante.
+
+□ Alteración intensa: es casi imposible entender al hablante.
+
+6. CONCLUSIÓN:
+
+7. FIRMA Y SELLO DEL PROFESIONAL INTERVINIENTE
+
+VI. INTERCONSULTA CON NEUMONOLOGÍA
+
+1. MEMBRETE – NOMBRE DEL PROFESIONAL / CENTRO MÉDICO
+
+2. FECHA DE REALIZACIÓN: ___ / ___ / ______
+
+3. DATOS DE LA PERSONA:
+
+• Nombre y apellido:
+
+• Número de DNI:
+
+• Edad:
+
+4. ANAMNESIS:
+
+• Antecedentes respiratorios:
+
+• Enfermedad actual y tratamiento:
+
+5. EXAMEN NEUMONOLÓGICO:
+
+• Inspección, palpación, percusión y auscultación.
+
+• Oximetría de pulso.
+
+• Espirometría:
+
+- Adjuntar gráficos de flujo-volumen.
+
+- Informar calidad técnica, repetibilidad y respuesta a broncodilatadores.
+
+6. CONCLUSIÓN Y DIAGNÓSTICO PRESUNTIVO:
+
+7. FIRMA Y SELLO DEL PROFESIONAL INTERVINIENTE
+
+VII. INTERCONSULTA CON CARDIOLOGÍA
+
+1. MEMBRETE – NOMBRE DEL PROFESIONAL / CENTRO MÉDICO
+
+2. FECHA DE REALIZACIÓN: ___ / ___ / ______
+
+3. DATOS DE LA PERSONA:
+
+• Nombre y apellido:
+
+• Número de DNI:
+
+• Edad:
+
+4. ANAMNESIS:
+
+• Antecedentes cardiovasculares:
+
+• Enfermedad actual y tratamiento:
+
+5. EXAMEN CARDIOLÓGICO:
+
+• Tensión arterial (mmHg) y frecuencia cardíaca (lpm):
+
+• Auscultación cardíaca:
+
+• Pulsos periféricos:
+
+• Signos de falla cardíaca:
+
+• Edema de MMII:
+
+• Estudios complementarios (adjuntar informes, en caso de haberse realizado):
+
+- ECG
+
+- Holter
+
+- Ecodoppler
+
+6. CONCLUSIÓN Y DIAGNÓSTICO PRESUNTIVO:
+
+7. FIRMA Y SELLO DEL PROFESIONAL INTERVINIENTE
+
+VIII. INTERCONSULTA CON NEUROLOGÍA
+
+1. MEMBRETE – NOMBRE DEL PROFESIONAL / CENTRO MÉDICO
+
+2. FECHA DE REALIZACIÓN: ___ / ___ / ______
+
+3. DATOS DE LA PERSONA:
+
+• Nombre y apellido:
+
+• Número de DNI:
+
+• Edad:
+
+4. ANAMNESIS:
+
+• Antecedentes neurológicos:
+
+• Enfermedad actual y tratamiento:
+
+5. EXAMEN NEUROLÓGICO:
+
+• Inspección general.
+
+• Pares craneales.
+
+• Motilidad activa y pasiva.
+
+• Sensibilidad (superficial y profunda).
+
+• Reflejos (osteotendinosos y cutáneo-plantares).
+
+• Tono, trofismo y fuerza muscular.
+
+• Marcha y equilibrio (Pruebas de Romberg, marcha en talones/puntas de pie).
+
+• Control de esfínteres.
+
+• Lenguaje y funciones superiores.
+
+• Taxia y praxia.
+
+6. CONCLUSIÓN Y DIAGNÓSTICO PRESUNTIVO:
+
+7. FIRMA Y SELLO DEL PROFESIONAL INTERVINIENTE
+
+IX. INFORME DE SALUD MENTAL (Psicodiagnóstico / Interconsulta Psiquiátrica)
+
+1. MEMBRETE – NOMBRE DEL PROFESIONAL / CENTRO MÉDICO
+
+2. FECHA DE REALIZACIÓN: ___ / ___ / ______
+
+3. DATOS DE LA PERSONA:
+
+• Nombre y apellido:
+
+• Número de DNI:
+
+• Edad:
+
+4. ENTREVISTA:
+
+• Ocupación:
+
+• Nivel de instrucción:
+
+• Descripción del siniestro:
+
+• Alta médica:
+
+• Recalificación y/o reubicación:
+
+• Sintomatología actual:
+
+• Tratamiento psicológico, psiquiátrico y/o de rehabilitación neurocognitiva efectuados:
+
+• Antecedentes médicos o de accidentes previos:
+
+• ENUMERACIÓN Y HALLAZGOS EN LAS TÉCNICAS ADMINISTRADAS
+
+• (Sólo para psicodiagnóstico)
+
+5. CONCLUSIONES:
+
+• Prosopografía.
+
+• Examen de las funciones psíquicas (orientación, conciencia de
+situación y de enfermedad. memoria, atención, lenguaje, juicio,
+sensopercepción, timia, conducta, actividad, interacción social, etc.).
+
+6. IMPRESIÓN DIAGNÓSTICA:
+
+• Diagnóstico con grado ajustado a Baremo Laboral vigente.
+
+7. FIRMA Y SELLO DEL PROFESIONAL INTERVINIENTE
+
+X. INFORME DE EVALUACIÓN NEUROCOGNITIVA
+
+1. MEMBRETE – NOMBRE DEL PROFESIONAL / CENTRO MÉDICO
+
+2. FECHA DE REALIZACIÓN: ___ / ___ / ______
+
+3. DATOS DE LA PERSONA:
+
+• Nombre y apellido:
+
+• Número de DNI:
+
+• Edad:
+
+4. ENTREVISTA:
+
+• Ocupación:
+
+• Nivel de instrucción:
+
+• Descripción del siniestro:
+
+• Alta médica:
+
+• Recalificación y/o reubicación:
+
+• Sintomatología actual:
+
+• Tratamiento psicológico, psiquiátrico y/o de rehabilitación neurocognitiva efectuados:
+
+• Antecedentes médicos o de accidentes previos:
+
+5. ENUMERACIÓN Y HALLAZGOS EN LAS TÉCNICAS ADMINISTRADAS:
+
+• Deben incorporarse técnicas de cribado cognitivo como el MOCA, ACE o similar
+
+6. CONCLUSIONES:
+
+• Tabla de alteraciones cognitivo conductuales:
+
+7. IMPRESIÓN DIAGNÓSTICA:
+
+• Diagnóstico con grado ajustado a Baremo Laboral vigente.
+
+8. FIRMAY SELLO DEL PROFESIONAL INTERVINIENTE
+
+XI. INFORME DE RADIOGRAFÍA
+
+1. MEMBRETE – NOMBRE DEL PROFESIONAL / CENTRO MÉDICO
+
+2. FECHA DE REALIZACIÓN: ___ / ___ / _____
+
+3. DATOS DE LA PERSONA:
+
+• Nombre y apellido:
+
+• Número de DNI:
+
+• Edad:
+
+4. REGIÓN ANATÓMICA EXAMINADA:
+
+• Detalle y lateralidad.
+
+5. HALLAZGOS RADIOLÓGICOS:
+
+Se deben describir detalladamente todos los hallazgos observados, incluyendo:
+
+• Fracturas: especificar el estado de consolidación (consolidada o no
+consolidada) y describir cualquier signo de angulación, desviación del
+eje, necrosis, artrosis, incongruencia articular, etc.
+
+• Luxaciones
+
+• Amputaciones: indicar el nivel anatómico exacto.
+
+• Material de osteosíntesis: detallar el tipo de material, sus características y su ubicación precisa.
+
+• Cuerpos extraños: especificar su naturaleza, ubicación exacta y características físicas.
+
+6. FIRMAY SELLO DEL PROFESIONAL INTERVINIENTE.
+
+XII. INFORME DE ECOGRAFÍA
+
+1. MEMBRETE – NOMBRE DEL PROFESIONAL / CENTRO MÉDICO
+
+2. FECHA DE REALIZACIÓN: ___ / ___ / _____
+
+3. DATOS DE LA PERSONA:
+
+• Nombre y apellido:
+
+• Número de DNI:
+
+• Edad:
+
+4. REGIÓN ANATÓMICA EXAMINADA:
+
+• Detalle y lateralidad.
+
+5. HALLAZGOS ECOGRÁFICOS:
+
+• Características de tejidos, lesiones agudas/crónicas, edema, imágenes sólidas/quísticas.
+
+• Ajuntar imágenes relevantes.
+
+6. FIRMA Y SELLO DEL PROFESIONAL INTERVINIENTE.
+
+IF-2026-10128838-APN-SRT#MCH

@@ -1,0 +1,24 @@
+#!/bin/sh
+# Verificador de .md antes de commitear. Se instala una sola vez, por repositorio:
+#
+#     git config core.hooksPath herramientas/hooks
+#
+# Hace falta el git config porque .git/hooks/ no se versiona: un hook suelto ahi adentro no
+# viaja a un clon y el proximo que clone el repo no lo tiene.
+#
+# Corre solo si el commit toca algun .md, y revisa el ARBOL DE TRABAJO, no lo que quedo en el
+# index: si tenes cambios sin agregar en un .md, opina sobre esos tambien. Es la unica manera
+# barata de hacerlo y en la practica es lo que se quiere.
+#
+# Para saltearlo una vez: git commit --no-verify
+set -e
+raiz=$(git rev-parse --show-toplevel)
+if git diff --cached --name-only --diff-filter=ACM | grep -q '\.md$'; then
+    # Callado cuando pasa: un hook que escribe en cada commit se vuelve ruido y se desinstala.
+    salida=$(python3 "$raiz/herramientas/test_markdown.py" 2>&1) || {
+        echo "$salida"
+        echo ""
+        echo "  El verificador de .md encontro algo. Arreglalo, o commitea con --no-verify."
+        exit 1
+    }
+fi

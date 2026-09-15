@@ -1,0 +1,1554 @@
+Montalvo, Ernesto Alfredo psa. inf. ley 20.771
+==============================================================================
+Tribunal:         CSJN
+Cita:             Fallos 313:1333
+Fecha declarada:  1990-12-11
+Fuente del PDF:   https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7844691
+Derivado de:      jurisprudencia/csjn-montalvo-fallos-313-1333.pdf
+SHA-256 del PDF:  18d6dd526d54d64b73908a611be0ca13b005f09d7f60ff69d7405e9c896f9f14
+Paginas:          34
+Generado:         2026-09-14
+Herramienta:      tesseract 5.5.3, -l spa --psm 6, pdftoppm -r 300
+
+TEXTO RECUPERADO POR OCR LOCAL. No se bajo de la fuente: la capa de texto que traia el
+PDF estaba arruinada y esto es una relectura de las imagenes de la pagina. NO es
+publicacion oficial y no reemplaza al PDF. Para transcribir un considerando a un escrito,
+cotejar contra la pagina del PDF: el numero de pagina esta marcado abajo.
+
+Regenerar: python3 herramientas/reocr_jurisprudencia.py csjn-montalvo-fallos-313-1333
+==============================================================================
+--- pagina 1 de 34 ---
+
+DE JUSTICIA DE LA NACION 1333
+313
+ERNESTO ALFREDO MONTALVO
+
+CONSTIFUCION NACIONAL: Derechos y garantías. Ieualdad.
+La garantía de igualdad ante la ley importa el derecho de todos a que no se establezcan
+privilegios o excepciones que excluyan a unos de los que se concede a otros en iguales
+condiciones.
+
+CONSTITUCION NACIONAL: Derechos y garantías. Igualdad.
+El principio de igualdad ante la ley es aplicable a una ley que contempla en forma distinta
+situaciones iguales, pero no puede alcanzar por analog ía a un cambio de jurisprudencia que,
+por otra parte, no constituye cuestión federal alguna.
+
+RAZONABILIDAD DE LA LEY.
+La cuestión sobre la razonabilidad de una ley que dispone la incriminación penal de una
+conducta, no puede levar a que la Corte tenga que examinar la mayor o menor utilidad real
+que la pena puede proporcionar para combatir el flagelo de la droga.
+
+JUECES.
+Los jueces tienen el deber de formular juicios de validez constitucional, pero les está prohibido
+basarse en juicios de conveniencia.
+
+JUECES.
+Los jueces deben inclinarse a aceptar la legitimidad si tienen la certeza de que expresan, con
+fidelidad, la conciencia jurídica y moral de la comunidad.
+
+CONSTITUCION NACIONAL: Derechos y garantías. Derecho de realizar lo no prohibido.
+Carece de sustentoel agravio según el cual la norma que reprime la tenencia de estupefacientes
+
+--- pagina 2 de 34 ---
+
+1334 FALLOS DE LA CORTE SUPREMA
+313
+para uso personal atenta contra el principio de reserva consagrado en el art. 19 de la
+Constitución Nacional.
+CONSTITUCION NACIONAL: Derechos y garantías. Derecho a la intimidad.
+Pará que queden fuera del ámbito del art. 19 de la Constitución Nacional no es necesario
+que las acciones privadas sean ofensivas o perjudiciales en toda hipótesis o en la
+generalidad de los casos. Basta que “de algún modo”, cierto y ponderable tengan ese
+carácter.
+TENENCIA DE ESTUPEFACIENTES.
+El efecto “contagioso” de la drogadicción y la tendencia a “contagiar” de los drogadictos son
+un hecho público y notorio, e sea un elemento de la verdad jurídica objetiva que los jueces no
+pueden ignorar.
+CONSTITUCION NACIONAL: Derechos y garantías. Derecho a la intimidad
+No hay “intimidad” ni “privacidad” si hay exteriorización y si esa exteriorización es apta para
+afectar, de algún modo, el orden o la moral pública, o los derechos de un tercero.
+CONSTITUCION NACIONAL : Derechos y garantías. Derecho a la intimidad.
+Entre las acciones que ofenden el orden, la moral y la salud pública se encuentran sin duda la
+tenencia de estupefacientes para uso personal.
+TENENCIA DE ESTUPEFACIENTES.
+No debe exigirse en cada caso, la prueba de trascendencia a terceros con la consecuente
+afectación de la salud pública, de la tenencia de estupefacientes para uso personal.
+TENENCIA DE ESTUPEFACIENTES.
+La importancia de los bienes tutclados por el ant. 6% de la ley 20.771 determina que interesen
+a la comunidad en general.
+TENENCIA DE ESTUPEFACIENTES.
+El elemento subjetivo de la figura del art. 6? de la ley 20.771 se sastisface con la voluntad
+consciente del sujeto de tener la droga.
+
+--- pagina 3 de 34 ---
+
+DE JUSTICIA DE LA NACION 1335
+313
+
+TENENCIA DE ESTUPEFACIENTES.
+Al tipificar como delito la tenencia de estupefacientes para uso personal, el legislador lo hizo
+sin distinciones en cuanto a la cantidad,
+
+TENENCIA DE ESTUPEFACIENTES
+La teoría de la “insignificancia” atenta contra el verdadero fin querido por el legislador:
+proteger a la comunidad del flagelo de la droga y terminar con el traficante.
+
+LEY: Interpretación y aplicación.
+Los debates parlamentarios constituyen la interpretación auténtica de la ley.
+
+TENENCIA DE ESTUPEFACIENTES
+La tenencia de estupefacientes cualquiera que fuese su cantidad, es conducta punible en los
+términos del art. 14, segunda parte, de la ley 23.737, y tal punición razonable noafecta ningún
+derecho reconocido por la Ley lundamental.
+
+CONSTIPUCION NACIONAL: Constituctonalidad e inconstitucionalidad. Leves nacionales.
+Debe rechazarse la inconstitucionalidad del art. 6? de la ley 20,771 y del art. 14, segunda parte,
+de la ley 23.737, teniendo en cuenta que latenencia de estupefacientes para uso personal queda
+fuera del ámbito de inmunidad del art. 19 de la Constitución Nacional, toda vez que dicha
+conducta es proclive a ofender el orden y la moral pública o causar perjuicio (Voto del Dr.
+Carlos S. Fay).
+
+CONSTIPUCION NACIONAL: Constitucionalidad e inconstitucionalidad, Leves nacionales,
+La prohibición constitucional de interferir con la conducta privada de los hombres basta para
+invalidar el art. 6— de la ley 20.771 y el 14, segunda parte, de la ley 23.737, cuya
+inconstitucionalidad se declara en cuanto incrimina la simple tenencia de estupefacientes para
+uso personal (Disidencia del Dr. Augusto César Belluscio).
+
+CONSTITUCION NACIONAL: Derechos y garantías. Derecho a la intimidad.
+Elan. 19 de la Constitución Nacional, al referirse a los conductas que de ningún modoofendan
+derechos de terceros o al orden o a la moral pública, no deja fuera de su ámbito de protección
+a aquellas acciones que tengan algún tipode repercusión en el medio social (Disidencia del Dr.
+Enrique Santiago Petracchi).
+
+--- pagina 4 de 34 ---
+
+1336 VALLOS DE LA CORTE SUPREMA
+313
+
+DELFTOS.
+No es cualquier efecto sobre el mundo exterior lo que autoriza la intervención estatal, sino el
+daño o el peligro concreto respecto de derechos o bienes privados o públicos, los cuales
+también deben ser claramente caracterizados por el legislador (Disidencia del Dr. Enrique
+Santiago Petracchi).
+
+TENENCIA DE ESTUPEFACIENTES.
+El argumento según el cual el castigo de la tenencia de estupefacientes para uso personal sería
+justificado como un medio indirecto para combatir el narcotráfico, es violatorio de la escala
+de valores plasmada en nuestra Ley Fundamental. que prohíbe utilizar a las personas como
+meros instrumentos para alcanzar objetivos públicos que se reputan socialmente valiosos,
+desconociendo así que ellas constituyen fines en sí mismas (Disidencia del Dr. Enrique
+Santiago Petracchi).
+
+TIPICIDAD.
+No es conciliable con los principios básicos de Nuestra Constitución establecer un sistema
+represivo que formule tipos penales que no estén fundados en la descripción de conductas
+punibles, sino en características personales, como lo sería, obviamente, la calidad de droga-
+dicto (Disidencia del Dr. Enrique Santiago Petracchi).
+
+TENENCIA DE ESTUPEFACIENTES.
+Es la afectación de derechos de terceros por quien tiene estupefacientes para uso personal, aún
+cuando la conducta encuestión no configure un delito penal, lo que justifica constitucionalmente
+la eventual adopción por parte del legislador de las medidas de rehabilitación y de reinserción
+laboral, medidas que, de no darse aquella afectación, serían violatorias del art. 19 de la
+Constitución Nacional (Disidencia del Dr. Enrique Santiago Petracchi).
+
+TENENCIA DE ESTUPEFACIENTES.
+Fl ant. 14, segunda parte, de la ley 23.737 es inconstitucional en tanto surge claramente la
+intención del legisladorde castigar la mera tenencia de estupefacientes para uso personal, aún
+en ausencia de un daño o peligro conereto a derechos o bienes de terceros (Disidencia del Dr.
+I¿nrique Santiago Petracchi).
+
+CORTE SUPREMA.
+a Conte debe. como regla fundamental para su funcionamiento, adecuar sus decisiones ¿
+La Corte debe. como regla fundamental para su funcionamiento, adecuar sus decisiones a
+los precedentes dictados por ella en la misma cuestión (Disidencia del Dr. Enrique
+Santiago Petracchi).
+
+--- pagina 5 de 34 ---
+
+DE JUSTICIA DE LA NACION 1337
+313
+
+JURISPRUDENCIA.
+Cuando de las modalidades del supuesto a fallarse, no resulta de manera clara el error y la
+inconveniencia de las decisiones ya recaídas sobre la cuestión legal objeto del pleito, la
+solución del mismo debe buscarse en la doctrina de los referidos precedentes (Disidencia del
+Dr. Enrique Santiago Petracchi).
+
+JURISPRUDENCIA.
+Si bien es cierto que la autoridad de la jurisprudencia no es siempre decisiva, no lo es menos
+la evidente conveniencia de su estabilidad en tanto no se alleguen fundamentos o medien
+razones que hagan ineludible su modificación (Disidencia del Dr. Enrique Santiago Petracchi).
+
+CORTE SUPREMA.
+Una vez recuperada la plena vigencia de nuestras instituciones democráticas, se hace
+imperiosa, de ahora en más, la necesidad de asegurar la permanencia y estabilidad de las
+decisiones de la Corte Suprema, más allá de los cambios circunstanciales de su integración,
+con el objeto de mantener la fe pública en el Poder Judicial como fuente de decisiones
+impersonales y razonadas (Disidencia del Dr. Enrique Santiago Petracchi).
+
+DICTAMEN DEL PROCURADOR GENERAL
+
+Suprema Corte:
+
+La Cámara Federal de Córdoba, en su sentencia del 27 de febrero del presente
+año. no hizo lugar a la declaración de inconstitucionalidad del artículo 6 de la ley
+20.771, planteada por la defensa del procesado Ernesto Alfredo Montalvo y, por
+aplicación del artículo 2 del Código Penal, lo condenó a la pena de tres meses de
+prisión en suspenso, como autor del delito previsto y reprimido por cl artículo 14,
+2da. parte, de la ley 23,737.
+
+Contra ese pronunciamiento su letrado defensor interpuso recurso extraordi-
+nario, el que fue concedido a fs. 114.
+
+Según tuvo por probado el a quo, Ernesto Alfredo Montalvo tenía en su poder
+2,7 gramos de marihuana en circunstancias en que era conducido detenido junto
+con Jorge Alberto Monteagudo como sospechosos del delito de hurto. El hecho
+ocurrió el 8 de junio de 1986 en las adyacencias de la Unidad Policial de Carlos Paz,
+provincia de Córdoba.
+
+--- pagina 6 de 34 ---
+
+1338 FALLOS DE LA CORTE SUPREMA
+113
+
+Sostiene el recurrente que la incriminación de la simple tenencia de estupeta-
+cientes para consumo personal en las condiciones en que la llevó acabo su asistido,
+tal como se encuentra prevista en los artículos 6 de la ley 20.771 y 14, 2da. parte,
+de la actualmente vigente ley 23.737 ,afectala garantía constitucional que consagra
+el artículo 19 de la Constitución Nacional en cuanto ampara todas aquellas
+conductas que no trascienden al mundo exterior y que, por ende, no ofenden al
+orden ni a la moral pública.
+
+Para llegar a esa conclusión se apoya esencialmente el apelante en los
+fundamentos expuestos por la mayoría de los integrantes del Tribunal cn el
+precedente que se registra en Fallos: 308: 1392.
+
+No paso por alto que el recurrente tacha al pronunciamiento de arbitrario, por
+cuanto entiende que la Cámara no consideró sus agravios contracl fallo de primera
+instancia. pero teniendo cn cuenta que aquéllos también se refieren a la
+inconstitucionalidad del artículo 6 de la ley 20.771. nocorresponde otorgarle acste
+aspecto de la apelación un tratamiento por separado.
+
+El remedio federal intentado resultaprocedente pues la decisión impugnada es
+contraria a la garantía constitucional que invocacl recurrente, según la inteligencia
+que éste le asigna.
+
+El problema relativo a la constitucionalidad de la incriminación de la tenencia
+de estupefacientes que durante su vigencia planteó el artículo 6 de la ley 20.771,
+fue abordado en numerosas ocasiones por el Tribunal.
+
+En el precedente que se registra en Fallos: 300: 254 y aquellos posteriores que
+siguieron su línca argumental (Fallos: 301: 673; 303: 1205; 304: 1678 y 305: 137),
+V.E. entendió que ante la creciente difusión de la toxicomanía en el mundo entero
+y las consecuencias perjudiciales para la sociedad que ello importa, resultaría una
+responsabilidad inaceptable que los gobiernos de los estados civilizados no
+instrumentaran todos los medios idóneos, conducentes a erradicar ese mal o. por
+lo menos, a circunscribirlo a sus expresiones mínimas.
+
+Tuvo además en consideración que el fin primordial de aquella norma cra la
+represión del suministro de las sustancias que, mas allá de su empleo legítimo por
+la medicina, pueden transformarse en materia de un comercio favorecedor del
+vicio, y que la tenencia por el usuario constituía la última etapa de ese tráfico.
+
+Sobre esa base concluyó entonces que el hecho de tener drogas, por los
+antecedentes y efectos que tal conducta supone, excede los límites del derecho a
+
+--- pagina 7 de 34 ---
+
+DE JUSTICIA DE LA NACION 1339
+313
+la intimidad para adquirir trascendencia social y que, por ende, era susceptible de
+castigo.
+
+Posteriormente y con nueva integración, esa Corte declaró en los casos de
+Fallos: 308: 1392, de acuerdo con el voto mayoritario de tres de sus miembros, la
+inconstitucionalidad del artículo 6 de la ley 20.771. por cuanto consideró que el
+artículo 19 de la norma fundamental impone límite a la actividad legislativa,
+consistente en exigir que no se prohiba una conducta que se desarrolla dentro de
+la esfera privada, entendida ésta no como las acciones que se realizan en la
+intimidad, protegidas por su artículo 18, sino como aquéllas que no ofenden al
+orden y a la moralidad pública, esto es, que no perjudiquen a terceros.
+
+A ello agregó que según su criterio no seencuentraprobado que la incriminación
+de la simple tenencia de estupelacientes evite consecuencias negativas concretas
+para el bienestar y la seguridad gencral.
+
+Sobre esas bases concluyó entonces que la construcción legal de la norma
+impugnada, al prever una pena aplicable a un estado decosas, y al castigar la mera
+creación de un riesgo. permite al intérprete hacer alusión a perjuicios potenciales
+y apeligros abstractos y no a daños concretos a terceros y a la comunidad, a lo que
+añadió que la circunstancia de no establecer un nexo razonable entre una conducta
+y el perjuicio que causa, implica no distinguir las acciones que ofenden a la moral
+pública de aquellas que pertenecen al campo estrictamente individual, con mengua
+del artículo 19 de la Constitución Nacional que obliga a efectuar dicha distinción.
+
+Tuvo además en consideración que tampoco se encuentra probado que la
+prevención penal de la tenencia seca remedio eficiente para el problema que
+plantean las drogas, sino que. por el contrario, destacó la necesidad de poner a
+prueba otras medidas que sustituyan las sanciones criminales por un enfoque
+terapéutico de la cuestión.
+
+Los señores Jueces que en aquella ocasión votaron en disidencia, interpretaron
+que la citada garantía constitucional circunscribe el campo de inmunidad de las
+acciones privadas, estableciendo su límite en el orden y la moral pública, y en los
+derechos de terceros, lo cual es precisado por obra del legislador, quien, en materia
+penal, es el que erca los instrumentos adecuados para proteger los intereses que la
+sociedad estima relevantes. Consideraron también que la extensión de ese área de
+defensa puede ser más o menos amplia según la importancia asignada a cada uno
+de los bienes, razón por la cual en algunoscasos bastará la mera probabilidad, con
+bascen laexperiencia. deque unaconducta pueda ponerlos en peligro.paraque ella
+resulte incriminada. A partir de esc fundamento concluyeron que cl artículo 6 de
+
+--- pagina 8 de 34 ---
+
+1340 FALLOS DE LA CORTE SUPREMA
+313
+
+la ley 20.771. al tipificar como delito de peligro abstracto la tenencia de estupefa-
+cientes, aunque estuvieran destinados a consumo personal, se sustenta en un juicio
+de valor efectuado por el órgano constitucionalmente legitimado para ello y que,
+por lo tanto, resulta en principio irrevisable. Afirmaron entonces que sólo podría
+ser cuestionada dicha disposición si la presunción de peligro subyacente en dicho
+juicio resultara absolutamente irrazonable, situación que según su criterio no se
+presenta en el caso.
+
+Tales son, en muy apretada síntesis, los fundamentos que han orientado la
+jurisprudencia del Tribunal tanto a favorcomoen contrade la validez constitucional
+de la incriminación de la tenencia de estupefacientes para consumo personal
+prevista en el artículo 6 de la ley 20.77 1.
+
+Poco restaría agregar, pues, aesos sólidos argumentos en que se han sustentado
+los fallos de V.E.. tanto en uno como en otro sentido. Sin embargo, lareciente sanción
+de la ley 23.737, cuyo artículo 14, segunda parte, también impugnado por el
+recurrente, contiene una figura en buenamedida similar al artículo 6 de la ya derogada
+ley 20.771. así como la incorporación al Tribunal de nuevos integrantes quicnes no
+han tenido aún oportunidad de emitir juicio sobre este tema, determinan, a mi modo
+de ver. la necesidad deexponer nuevamente la opinión de este Ministerioque, en parte,
+ya fuera adelantada al dictaminarcon fecha 19 de diciembre de 1989, en los autos R.
+487, XXI1. “Rossi, Emilio Fabián s/infracción a la ley 20.771”.
+
+A ese fin creo oportuno recordar, en primer lugar, cuál es el alcance que V.E.
+ha asignado en el precedente de fallos: 306: 1892 a la garantía constitucional cuya
+afectación se invoca. En el considerando 8* de aquel pronunciamiento quedó:
+establecido que. en relación directa con la libertad individual, el artículo 19 de
+nuestra norma fundamental, protege jurídicamente un ámbito de autonomía
+particular constituida por los sentimientos, hábitos y costumbres, las relaciones
+familiares, la situación económica. las creencias religiosas, la salud mental y física
+y. en suma, las acciones, hechos o datos que, teniendo en cuenta las formas de vida
+aceptadas por la comunidad están reservadas al propio individuo, a lo que agregó
+que nadic puede inmiscuirse en la vida privada de una persona, y que sólo podría
+ello justificarse por ley, siempre que medie un interés superior en resguardo de la
+libertad de los otros, la defensa de la sociedad, las buenas costumbres o la
+persecución del crimen.
+
+En coincidencia con ese criterio el tribunal también dejó establecido en el
+considerando 4* del caso de Fallos: 308: 1392, que la inmunidad de las acciones
+privadas cncucnira su límite en el orden y en la moral pública y en los derechos de
+terceros.
+
+--- pagina 9 de 34 ---
+
+DI: SUSTICIA DE LA NACION 1341
+313
+
+Debe pues determinarse si la actividad del legislador al incriminar la tenencia
+de estupefacientes, aún cuando ésta obedezca a las necesidades del propio
+consumo, se ajusta a dichas pautas O si, por el contrario, las excede.
+
+Creo oportuno recordar que ese delito ha sido tipificado como de peligro
+abstracto, lo cual demuestra la especial jerarquía asignada al bien jurídico tutelado
+por la norma, pues de ese modo se ha extendido penalmente su defensa hasta
+aquellas situaciones que sólo importan, a juicio del legislador, la mera probabi-
+lidad de un riesgo para la salud pública.
+
+El particular interés en el cumplimiento de ese fin que importa la sanción de
+una norma de talescaracterísticas se ve reflejado en el mensaje del Poder Ejecutivo
+que acompañó al proyecto que luego de sus modificaciones por el Congreso, dio
+origen a la sanción de la ley 20,771, en cuanto allí se caracterizó al problema de la
+drogadicción como “un fenómeno de características multifacéticas” que constituye
+“un verdadero flagelo social”.
+
+Además, en el debate parlamentario que precedió asu sanción, también se tuvo
+en cuenta que el consumo de estupefacientes se ha difundido por todas las naciones
+del orbe. especialmente entre los sectores jóvenes de la población y que mediante
+esteproyecto se intentó impedir “la desmoralización y la destrucción de la juventud
+argentina, que constituye cl futuro de nuestra patria” (Diario de Sesiones de la
+Cámara de Diputados, 19 de septiembre de 1974, páz. 2862/3). A cllo se agregó,
+que esos tipos penales estaban “destinados a la protección de la salud pública” (pág.
+2869), que el problema de la drogadicción constituía “una seria amenaza para la
+salud moral, no sólo de nuestro país sino también de muchas naciones...” (pág.
+2875). por loque resultabaimprescindible*protegerde mancraprimordial, la salud
+de nuestra adolescencia y nuestra juventud” (pág. 2877).
+
+Similar preocupación revelan las constancias del trámite previo a la sanción
+de la actualmente vigente ley 23,737, especialmente en cuanto se refiere a la
+penalización de la mera tenencia cuando por su escasa cantidad y demás
+circunstancias, surgicre inequívocamente que aquélla es para el consumo per-
+sonal. Así se advierte en el informe del Dictamen de Mayoría (Diario de Sesiones
+de la Cámara de Diputados, febrero 22 de 1989, págs. 7726 y sgtes.), cuando
+luego de hacerse referencia a los pronunciamientos de V.E. en los ya citados
+casos “Bazterrica” y “Capalbo”, se afirmó que “el derecho a la intimidad, no
+puede ser sostenido como valor absoluto”, para luego añadir que “la condición
+de droga ilícita no puede neutralizarse en ninguna de las ctapas, más allá de su
+cuantía, sino a riesgo de desprotegerotro valor jurídicoque en esta interpretación
+se privilegia: el de la salud pública”. Se expresó además en esa oportunidad que
+
+--- pagina 10 de 34 ---
+
+1342 FALLOS DE LA CORTE SUPREMA
+313
+
+“dicha incriminación se mantiene como protección social a fin de que la norma,
+operando como preventora general, disuada nuevas conductas”. También tuvic-
+ron en cuenta los legisladores que suscribieron esa tesis: “los daños personales,
+familiares y sociales que genera el consumo de drogas, afectando un valor que
+debe jurídicamente protegerse. cual es la salud pública, máxime cuando cn
+los medios de uso se encuentra una de las causas de contagio de nuevas
+enfermedades”.
+
+También cl Tribunal señaló en el precedente de Fallos: 300: 254. consid. $5*,
+la deletérca influencia de la creciente difusión actual de la toxicomanía en el mundo
+y. en Fallos: 308: 1392, consid. 6” destacó la vigencia de las razones que habían
+informado aquella apreciación.
+
+Especial énfasis puso en este aspecto el doctor Petracchi, cuando al emitir su
+ilustrado votocn aquel pronunciamiento, expresó que "la droga es, indudablemen-
+te. una lacra que produce atroces consecuencias en lassociedadesmodernas” y que
+una de ellas “es la de que la diseminación y desborde del tráfico y consumo de
+estupefacientes ha adquirido un volumen tal y tan descomunal, que ha facilitado
+la conformación de un negocio económico administrado por consorcios interna-
+cionales que cuentan a veces con recursos que superan las posibilidades de los
+propios Estados”. También recordó que “una creciente cantidad de víctimas de la
+adicción y narcodependencia ven sus vidas limitadas en múltiples sentidos, se
+encuentran con su salud física y psicológica seriamente afectada y. por tanto, su
+existencia, sumamente empobrecida”.
+
+La gravedad del problema justifica así. a mi modo de ver, la actividad del
+legislador, al extender la protección penal hasta conductas que, sin provocar un
+daño concreto al interés jurídico protegido ni una situación efectiva de peligro para
+él. puedan eventualmente, derivar en ese resultado.
+
+La incriminación de la tenencia de estupefacientes, aún cuando ésta fucra para
+consumo personal, se halla pues dirigida a evitar las consecuencias negativas que
+para la salud pública pudicran surgir de ese hecho (Fallos: 301: 673; 303: 1275;
+304: 1678 y 305: 137).
+
+No paso por alto que según la opinión mayoritaria del Tribunal, en cl ya tantas
+veces citado caso “Bazterrica”. la inconstitucionalidad ahora alegada por el
+recurrente, resulta de la circunstancia de no encontrarse demostrado que la
+incriminación de la simple tenencia evite consecuencias negativas paracl bienestar
+y seguridad gencral (consid. 9%), lo cual impide, según ese criterio, establecer un
+nexo razonable entre esa conducta y el daño que causa. Ello implica, a su juicio,
+
+--- pagina 11 de 34 ---
+
+DE JUSTICIA DIE LA NACION 1343
+y3
+no distinguir entre las acciones que ofenden a la moral pública y aquellas otras que
+no escapan del campo estrictamente individual.
+
+Sin embargo, y no obstante los extensos fundamentos desarrollados a partir del
+considerando 10? de dicho pronunciamiento, acerca de la utilidad de la prevención
+penal de la tenencia como remedio para el problema que plantean las drogas,
+considero que no puede sostenerse la inexistencia de un nexo razonabie entre la
+incriminación de que aguí se trata y la protección de la salud pública sobre la base
+de su mayor o menor eficacia como medio paraampararesce bien jurídico, pues ello
+conduce, en definitiva. al análisis de cuestiones de oportunidad, mérito o conve-
+niencia, que por ser de carácter eminentemente político, se encuentran reservadas
+a la competencia de los órganos encargados de la sanción de la ley, cuyo criterio
+en este sentido no puede, por ende, ser revisado por V.E. (Fallos: 308: 1631).
+
+Ello no importa, claro está, desconocer las facultades del Tribunal para
+declarar la invalidez constitucional de las normas en casos de manifiesta
+ierazonabilidad pero éste no cs, a mijuicio. el caso de autos, donde la cuestión no
+va más allá de los distintos criterios que informan acerca de las ventajas o perjuicios
+que para la Sociedad pueda importar la represión de la tenencia de drogas. y que
+por cierto no son uniformes cen la legislación comparada.
+
+En lo relativo a este aspecto estimo oportuno destacar que si bien el consumo
+de estupefacientes constituye un problema universal, las distintas características de
+cada nación, así como las posibilidades y recursos con que se cuente para
+afrontarlo, determinarán en cada caso una solución diversa de acuerdo con aquellas
+condiciones. El extenso debate parlamentario, particularmente durante el trámite
+en la Cámara de Diputados que precedió a la sanción de la ley 23,737, demuestra,
+acabadamcente, el carácter polémico del tema e importa, además, una ratificación
+de las razones que. más allá de su acierto O error, determinaron a nuestros
+legisladores a incriminar la tenencia de drogas.
+
+Por otra parte entiendo que no puede desconocerse, tal como se ha destacado
+durante aquel debate parlamentario, que el adicto suele ser “un medio de difusión
+del vicio” (Diario de Sesiones de la Cámara de Diputados de la Nación, marzo 8
+de 1989, pág. 7782) “aquien no se le pueden dar ventajas” (Marzo 9 de 1989. pág.
+7800): que “la propia actividad del consumo es por esencia colectiva”; que “El
+adicto busca a quienes compartan sus experiencias”, y que "muchas veces cn su
+necesidad de tener dinero para comprar droga, él mismo se convierte en cómplice
+del tráfico” (marzo 15 de 1989. pág. 7835).
+
+Frente a tales fundamentos no puede afirmarse. a mi modo de ver, que la
+
+--- pagina 12 de 34 ---
+
+1344 FALLOS DE LA CORTE SUPREMA
+313
+
+incriminación de la tenencia de estupefacientes, aún cuando ésta sea para el
+consumo personal, no constituya un medio razonable para amparar la salud
+pública, pues más allá de su acierto o error como herramienta de política criminal,
+los motivos antes reseñados dan suficiente sustento racional a la decisión del
+legislador dirigida a lograr una “prevención gencral que para muchos se va a
+constituir una valla psicológica importante para no ingresar en un ámbito del cual
+muchas veces cuesta salir airoso... en la seguridad de que la salud individual
+contribuye a la mejor salud colectiva y. por ende, al eficaz desarrollo de una
+nación”. (Diario de Sesiones de la Cámara de Diputados, marzo 29 de 1989. pág.
+7878).
+
+Considero entonces que no puede afirmarse que no exista un nexo razonable
+entre las figuras previstas tanto por el artículo 6 de la ley 20.771. como por el
+artículo 14 segunda parte. de la ley 23.737, y la afectación de la salud pública nt.
+mucho menos. hacerlo sobre la base del mayor o menor éxito que aquellas normas
+puedan tener respecto de la protección del interés jurídico tutelado.
+
+Por lo tanto ambas normas no han ide más allá del marco establecido por la
+disposición constitucional que se invoca para declarar abstractamente punible un
+comportamiento pues, tal como lo destacara mi antecesor en el cargo, doctor Juan
+Octavio Gauna. en su dictamen de Fallos: 308: 1412, aquél límite “no está dado por
+el hecho concreto de su trascendencia de ja esfera personal, sino por la relevante
+posibilidad de que ello ocurra”, siguiendo así la línca técnica que ilustres prede-
+cesores fijaran (dictámenes de los doctores Guastavino de Fallos: 300: 254 y Mario
+Justo López de Fallos: 301: 673: 303: 1205; 304: 1678 y 305: 137).
+
+Puede afirmarse entonces que tanto el art. 6* de la ley 20.77 1, cuanto cl artículo
+14, 2da. parte. de la ley 23,737, se sustentan “en cl juicio de valor efectuado por el
+Órgano constitucionalmente legitimado al efecto, y desde este punto de vista
+resulta en principio irrevisable. Solo podría ser cuestionada si la presunción de
+peligro que subyace en dicho juicio resultara absolutamente irrazonable...” (disi-
+dencia de los doctores José Severo Caballero y Carlos Santiago Fayten Fallos: 308:
+1392). circunstancia esta última que, en virtud de las razones expuestas, no se
+verifica en el sub judice.
+
+En lo relativo a este aspecto, creo oportuno recordar que, según ha establecido
+V .E. en los casos de Fallos 308: 1848,consid. 6? y 2268, consid. 15*, la misión más
+delicada de la justicia es saberse mantener dentro del ámbito de su jurisdicción,
+sin menoscabar las funciones que incumben a otros poderes, y ha reconocido el
+cúmulo de facultades que constituyen la competencia del Congreso de la Nación,
+comoórgano investido depoderde reglamentar losderechos y garantías reconocidos
+
+--- pagina 13 de 34 ---
+
+DI! JUSTICIA DE LA NACION 1345
+313
+por la Constitución Nacional con el objeto de lograr la coordinación entre el interés
+privado y cl interés público”.
+
+La declaración de inconstitucionalidad de una disposición legal constituye,
+pues. un acto de suma gravedad institucional, pues las normas dictadas de acuerdo
+al procedimiento previsto en la norma fundamental gozan de una presunción de
+legitimidad que opera plenamente y obliga acjercer dicha atribución con sobriedad
+y prudencia. únicamente cuando la repugnancia de la ley con la cláusula consti-
+tucional sea manifiesta, clara e indudable (Fallos: 226: 688; 242: 73; 300: 241 y
+1087; y sentencia del 8 de septiembre de 1987, dictada en la causa E. 73. XXH
+“Entel. c/Municipalidad de Córdoba s/sumario”.
+
+Porlo tanto, acertadas ono como instrumentos de política criminal. no se advierte
+que ninguna de esas normas, se haya visto inspirada en otro propósito que no sea
+la prevención contra los riesgos que para la sociedad trae aparejado cl fenómeno
+de la toxicomanía. No existe pucs, ni tampoco cel recurrente lo alega, tras de
+aquellas intenciones otras que transforman cn abusiva la actividad del poder
+político, ni que por ende, revelen que esas figuras penales scan el medio para una
+injustificada opresión.
+
+No dejo de advertir, sin embargo, que ese temperamento adoptado a través de
+la sanción de las leyes 20,771 y 23.737, puede en ciertos casos, importar la
+afectación de otros valores como cl derecho ala autodeterminación de la concicncia,
+a disponer de la salud individual o, incluso, de la propia vida. pero cn tanto esas
+normas persiguen la defensa de un fin superior cual es la protección de la salud
+pública, aquellos intereses particulares debenceder antecl carácter gencral de este
+último (doctr. de Fallos: 306: 1892, cons. 82).
+
+Tampoco paso por alto que no siempre el interés individual debe ceder ante el
+colectivo, ni que existen ciertos derechos privados que de ningún modo el resto de la
+sociedad puede afectar, pues ésa es una de las características fundamentales que
+distingue a nuestro sistema republicano de las formas totalitarias de gobierno, pero
+no temo equivocarme al afirmar que el consumo de estupefacientes de ningún modo
+puede ser considerado como la manifestación de uno de esos derechos, y especial-
+mente de la garantía que consagra el artículo 19 de la Constitución Nacional,
+
+Es que el sometimiento del hombre a situaciones que terminan por conducirlo
+al vicio y, en definitiva, a su autodegradación, no puede, a mi modo de ver, ser
+entendido como un derecho fundamental no susceptible de ceder ante el interés
+general, toda vez que tales conductas no son propias de la dignidad ni de la
+condición humanas. sino todo lo contrario.
+
+--- pagina 14 de 34 ---
+
+1346 FALLOS DE LA CORTE SUPREMA
+313
+
+Coincido totalmente con los conceptos básicos (pero equivocados cn lo que
+hace a su aplicación en el supuesto de consumo o tenencia de drogas para uso
+personal) del doctor Petracchi en el voto antes citado. Acepto la peligrosidad
+tremenda que para la vigencia de una saludable democracia supone siempre cl uso
+de las palabras prohibir o castigar, cn ámbitos de tan difícil delimitación y donde
+tan fácil es superponer indebidamente conceptos, pero en este tema, no tengo la
+más mínima duda, quees abonada más que por una humilde pretensión técnica, por
+una larga, extensa experiencia abogadil.
+
+Creo oportuno aclarar que tal conclusión no significa justificar la legitimidad
+de las normas impugnadas, sobre la base de que apartan al hombre de los actos que
+pudiera cometer contra símismo, a partir de un conecpto ético que le es impuesto,
+sino que conduce a demostrar por qué razón no debe temersce que el sacrificio de
+intereses individuales frente al fin colectivo perseguido pueda importar, en este
+caso. la afectación de derechos fundamentales.
+
+No se trata pues de sancionar al tenedor de estupefacientes por consumirlos
+ni por su posible condición de adicto, ni de imponerle una forma de vida que
+responda aideales de terceros, sino de amparar a estosáltimosde las consecuencias
+nocivas que la conducta de aquel pueda provocar, sin que para ello sea necesario,
+reitero, la violación de derechos que. de acuerdo con el texto constitucional, no
+puedan ser sacrificados en función del interés gencral. Esto implica la exacta y
+correcta adecuación a la realidad vital social actual.
+
+Esc también es el sentido, entiendo, del tratamiento previsto por los artículos
+9 de la ley 20.771 y 16 de la ley 23.737, así como de las medidas que, con criterio
+más moderno, prevé en reemplazo de la pena el nuevo ordenamiento en la materia
+(artículo 17 y 18 de la Icy 23.737), adoptando de ese modo un enfoque terapéutico
+parac!problemade la drogadicción, cuya necesidad fue yascñaladaporcl Tribunal
+en clconsiderando 10* de su pronunciamiento de Fallos: 308: 1392, de acuerdo con
+las sugerencias de la Convención Unica de Estupefacientes (30/3/61).
+
+Quiero por último destacar que noex istiendo la inconstitucionalidad alcgadapor
+el recurrente, la situación del procesado cn cuanto al encuadramiento legal de la
+conducta que se tuvo por demostrada, ha sido bien resuelta por cl a quo al aplicar cn
+cl artículo 2 del Código Penal. toda vez. yue el artículo 14, 2da. parte, de la ley 23.737
+establece una escala penal mucho más benigna que cl artículo 6 de la Icy 20.77 1.
+
+En virtud de los fundamentos antes expuestos Opino, pues, que corresponde
+confirmar el fallo impugnado. Buenos Aires, 12 de julio de 1990, Oscar Eduardo
+Roger.
+
+--- pagina 15 de 34 ---
+
+DE JUSTICIA DE LA NACION 1347
+313
+FALLO DE LA CORTE SUPREMA
+Buenos Aires. 11 de diciembre de 1990,
+
+Vistos los autos: “Montalvo, Ernesto Alfredo p.s.a. inf. ley 20.771”,
+
+Considerando:
+
+1% Que contra la sentencia de la Sala B de la Cámara Federal de Apelaciones
+de Córdoba, que rechazó el planteo de inconstitucionalidad del art. 6? de la ley
+20.77 1 y condenó a Ernesto Alfredo Montalvo a la pena de tres meses de prisión
+de ejecución condicional, por considerarlo autor del delito de tenencia de
+estupefacientes, interpuso la defensa recurso extraordinario a fs, 97, que fue
+concedido a fs. 114.
+
+2?) Que el hecho que dio origen acsta causa fuecomprobado el 8 de junio de
+1986 cuando el procesado. junto con otra persona, era llevado detenido en un
+automóvil de alquiler, por presumirseque podría estar vinculado a la sustracción
+de dólares. Al llegar a la dependencia policial y descender del vehículo,
+Montalvo arrojó una bolsita que contenía 2.7 grs. de marihuana, hecho que
+reconoció al prestar declaración indagatoria a fs. 26.
+
+En primera instancia Montalvo había sido condenado a la pena de un año de
+prisión de ejecución condicional y un mil australes de multa, por considerárselo
+autor del delito de tenencia de estupefacientes, en los términos del art. 6* de la Icy
+20,77 1.
+
+La Cámara, ante la vigencia de la ley 23.737 pendiente la apelación del
+procesado. modificó la tipificación legal de la conducta a él atribuída. por
+aplicación del art. 2* del Código Penal y la subsumió en el art. 14, segunda parte.
+de la ley 23,737, al tiempo que disminuyó la pena. que fijó en tres meses de
+prisión de ejecución en suspenso.
+
+Asimismo, señaló el a quo que no correspondía pronunciarse sobre la
+inconstitucionalidad del art. 6 de la ley 20.771. por haber sido virtualmente
+desconocida por el Poder Legislativo, al incriminar la ley 23.737 la tenencia de
+estupefacientes en general y para uso personal en el art. 14, primera y segunda
+parte, respectivamente.
+
+3%) Que la defensa fundó la apelación extraordinaria en la doctrina de la
+arbitrariedad, gravedad institucional y en la inconstitucionalidad de la norma
+
+--- pagina 16 de 34 ---
+
+1348 FALLOS DE LA CORTE SUPREMA
+
+313
+legal que reprime la tenencia de estupefacientes para uso personal —sca cl art.
+6 de la ley 20.771, 0 el art. 14, segunda parte, de la ley 23.737—, aspecto sobre
+el que fue concedido el recurso federal.
+
+Sostuvo el apelante que la resolución recurrida afecta la garantía amparada
+por el art. 19 de la Constitución Nacional, dado que aquella represión ataca la
+intimidad y privacidad de las personas.
+
+Estimó que cel procesado tenía la droga únicamente para consumo personal,
+sin que hubieran existido actos de ostentación o exhibición que pusieran en
+peligro bienes o derechos de terceros.
+
+Añadió que bajo el pretexto de beneficiarlo con la aplicación de la ley más
+benigna, se lo perjudicó, al no habérsele posibilitado cl ejercicio del derecho de
+defensa sobre el particular, especialmente en punto a la constitucionalidad o
+inconstitucionalidad de la nueva norma —pese a que no demostró que a tal fino
+no fuese suficiente la crítica ensayada respecto de la norma vigente al tiempo del
+hecho—; máxime cuando no existe pronunciamiento de la Corte Suprema al
+respecto, como sí ocurrió con igual tacha dirigida al art. 6 dela ley 20.771,norma
+que había sido declarada inconstitucional por la mayoría del Tribunal en causas
+tramitadas durante su anterior integración.
+
+. 4%) Que procede habilitar la instancia para conocer respecto de la tacha de
+inconstitucionalidad mediante la cual se impugnan el art.6* delaley20.771 y el
+art. 14, segunda parte, de la ley 23,737, y cxaminar con prioridad la dirigida
+
+“respecto del primero, por ser el que regía en la época del hecho y porque, si
+prosperase el planteo defensivo, sería innecesario el tratamiento de
+inconstitucionalidad de la segunda de las normas implicadas.
+
+5") Que, aunque parezca obvio decirlo, el tema no es novedoso en la
+legislación y en la jurisprudencia. En el campo legislativo, aparece por primera
+vez en el derecho penal argentino en el año 1926, al introducir la ley 11.331 una
+enmienda al texto original del Código Penal, por la cual se reprimía la conducta
+de quienes sin estar autorizados para la venta, tuviesen en su poder las drogas
+mencionadas por la ley y no justificasen la razón legítima de su posesión o
+tenencia (art. 204, párrafo 3%. Años más tarde se dictó la ley 17.567, vigente
+desde 1968. que sancionaba la tenencia de estupefacientes en cantidades que
+excediesen las correspondientes a un uso personal (art. 204 ter, inc. 39), ley que
+fue derogada en 1973 por la 20.509, la cual restableció el texto de la ley 11.331,
+hasta que en 1974 se sancionó la ley 20.771, actualmente recmplazad:. por la ley
+23,737.
+
+--- pagina 17 de 34 ---
+
+DE JUSTICIA DE LA NACION 1349
+313
+
+6) Queen el terreno de la jurisprudencia, cabe destacar que este Tribunal fue
+llamado a cxaminar la constitucionalidad del art. 6* de la ley 20.771. Así, en cl
+caso “Colavini” del año 1978 (Fallos: 300: 254) dijo la Corte que no puede
+sostenerse con ribetes de razonabilidad que el hecho de tener drogas, por los
+antecedentes y efectos que supone tal conducta, no trasciende de los límites del
+derecho a la intimidad, protegido por el art. 19 del texto constitucional, En 1979,
+en los autos “Roldán” (Fallos: 301: 673), con remisión a la doctrina de Fallos:
+300: 254, se estableció el alcance del art. 6* de la ley 20.771, expresándose que
+su letra y su espíritu trascienden los límites del derecho a la intimidad, por lo que
+es lícita toda actividad estatal enderezada a evitar las consecuencias que para la
+ética colectiva y cl bienestar y la seguridad general pudieran derivar de la
+tenencia ilegítima de drogas para uso personal salvo, obviamente, las destinadas
+a un empleo legítimo justificado por la medicina. En el caso “Valerio” de 1981
+(Fallos 303: 1205), el Tribunal sostuvo que cl art. 6* de la ley 20.771, en cuanto
+sanciona una conducta de las denominadas de “peligro abstracto”, encuentra su
+fundamento constitucional en que, una vez determinada por los poderes públicos
+la potencialidad dañosa de determinadas sustancias respecto de la salud pública,
+su tenencia constituye una acción que trasciende la intimidad, susceptible de ser
+castigada. Y enlos años 1982 y 1983, en los casos “Jury” y “Maldonado” (Fallos:
+304: 1678 y 305: 137 respectivamente). hizo nuevamente remisión a la doctrina
+recaída en “Colavini”.
+
+Sin desconocer que un criterio contrario al sustentado cn los fallos reseñados
+precedentemente fue sentado por mayoría estricta in re “Bazterrica” y “Capalbo”
+(Fallos: 308: 1392), donde se declaró la inconstitucionalidad del art. 6* de la ley
+20.771 en cuanto incriminaba la tenencia de estupelacientes para uso personal
+que se realizara en condiciones tales que no trajeran aparejado un peligro
+concreto o un daño a derechos a bienes de terceros; esta Corte, en su actual
+composición, decide retomar la doctrina establecida a partir del citado caso
+“Colavini”, consciente de que tal variación jurisprudencial no afecta la garantía
+de igualdad ante la ley, pues. desde antiguo, tiene dicho que esa garantía importa
+el derecho de todos a que no se establezcan privilegios o excepciones que
+excluyan a unos de lo que seconcede aotros en iguales condiciones(Fallos: 101:
+401; 124: 122; 126: 280; 127: 167; 137: 105; 151: 359; entre muchos otros),
+principio que es aplicable a una ley que contempla en forma distinta situaciones
+iguales, pero no puede alcanzar por analogía a un cambio de jurisprudencia que,
+por otra parte, no constituye cuestión federal alguna (V. 77, XXI. Villada. Juan
+Carlos y otros” s/ robo calificado, del 9 de octubre de 1990).
+
+7%) Que diversas razones llevaron al legislador de la ley 20.771 a reprimir la
+tenencia de estupefacientes, aunque estuviesen destinados a uso personal, entre
+
+--- pagina 18 de 34 ---
+
+1350 FALLOS DE LA CORTE SUPREMA
+313
+
+las que figura la necesidad de proteger a la comunidad ante uno de los más
+tencbrosos azotes que atenta contra la salud humana. En especial se adujo que no
+se trata de la represión del usuario que tiene la droga para uso personal y que no
+ha cometido delitocontra las personas, sino de reprimir el delito contra la salud
+pública, porque lo que se quicre proteger no csel interés particular del adicto, sino
+el interés general que está por encima de él y que aquél, como suele suceder, trata
+de alguna manera de resquebrajar, dado que su conducta también constituye un
+medio de difusión de la droga o de los estupefacientes (Diario de Sesiones de la
+Cámara de Diputados de la Nación, septiembre 19 de 1974, páz. 2871).
+
+8”) Que esos motivos dados por el legislador para incriminar la tenencia de
+estupefacientes remiten a cuestiones de política criminal que involucran razones
+de oportunidad, mérito o conveniencia, sobre las cuales está vedado a esta Corte
+inmiscuirse so riesgo de arrogarse ilegítimamente la función legislativa. La
+cuestión sobre la razonabilidad de una ley que dispone la incriminación penal de
+una conducta no puede llevar a que la Corte tenga que examinar la mayor o menor
+utilidad real que la pena puede proporcionar para combatir el flagelo de la droga,
+como no lo podría hacer para analizar sí las penas conminadas para cualquier otro
+delito del catálogo penal resultan útiles o contraproducentes para la abolición del
+delito en sí (Fallos: 308: 1392, voto de la minoría), salvo que las razones dadas
+por el legislador consagren una norma que atente contra las garantías constitu-
+cionales que, como se verá, noeselcaso; omediase unamanificsta desproporción
+entre los fines tenidos en mira por el legislador y los medios arbitrados para
+alcanzarlos.
+
+9 Que los juecestienenel deber de formuliu juicios de validez constitucional,
+pero les está prohibido basarse en juicios de conveniencia; si el más alto tribunal
+hace esto último, desplaza a los poderes políticos y se convierte en una
+“superlegislatura”, como alguna vez se dijo en la Corte Suprema de Estados
+Unidos (voto concurrente en el caso” Dennis vs. U.S.”, 441 U.S. 494). Además.
+los jueces deben inclinarse a aceptar la legitimidad si tienen la certeza de que
+expresan, con fidelidad, “la conciencia jurídica y moral de la comunidad”
+(Fallos: 248: 291, consid. 24%).
+
+10) Que a las razones invocadas precedentemente debe añadirse que el
+agravio según el cual la norma que reprime la tenencia de estupefacientes para
+uso personal atenta contra el principio de reserva consagrado cn el art. 19 de la
+Constitución Nacional carece de sustento, a poco que se examine cl texto en su
+integridad. Esta conclusión de la Corte debe estar precedida de algunos princi-
+pios rectores que surgen de su propia jurisprudencia y de otros que es menester
+incorporar a ella.
+
+--- pagina 19 de 34 ---
+
+DE JUSTICIA DE LA NACION 1351
+13
+
+11) Que. conforme al art. 19 de la Constitución Nacional, las “acciones
+privadas” están exentas de la autoridad de los magistrados cuando “de ningún
+modo”  otendan al orden y a la moral pública ni perjudiquen a terceros. La
+expresión subrayada tiene alcance inequívoco y no es lícito soslayarla. Para que
+queden fuera del ámbito de aquel precepto no es necesario que las acciones
+privadas scan ofensivas O perjudiciales —en cl sentido indicado— en toda
+hipótesis o cn la generalidad de los casos. Basta que “de algún modo”, cierto y
+ponderable, tengan ese carácter. Lo que “de algún modo” trac consigo los efectos
+aludidos en cl art. 19 está sujeto a al autoridad de los magistrados y. por tanto. se
+subordina a las formas de control social que el Estado, como agente insustituible
+del bien común. pueda emplear lícita y discrecionalmente. No es compatible,
+pues. cl criterio expuesto en cl primer voto de Fallos 308: 1392 (consid. 89),
+donde se sostuvo que la norma constitucional sh examine sólo es inaplicable si
+“debe presumirse” que las acciones privadas afectarán a la ética colectiva “en
+todos los casos”. Lo que el texto dice es lo opuesto. El art. 19 queda excluido si
+las acciones privadas originan esas “consecuencias” en algunos casos, que es lo
+que, con toda evidencia. sucede en las situaciones a que se refiere esta causa. Los
+drogadictos ofrecen su ejemplo. su instigación O su convite a quienes no lo son,
+al menos en muchísimos supuestos reales. El efecto “contagioso” de la droga-
+dicción y la tendencia a “contagiar” de los drogadictos son un hecho público y
+notorio, o sea un elemento de la verdad jurídica objetiva (Fallos: 238: 550 y los
+que en esta sentencia se inspiran) que los jueces no pueden ignorar. En una gran
+cantidad de casos. las consecuencias de la conducta de un drogadicto no quedan
+encerradas en su “intimidad” (véase Fallos: 308: 1392, consid. cit.. segundo
+párralo) sino que “se exteriorizan en acciones”, como dijo alguna vez la Corte
+Suprema (Fallos: 171: 103, en pág. 114) para definir los actos que son extraños
+al art. 19. Porque es claro que no hay “intimidad” ni “privacidad” si hay
+exteriorización y si esa exteriorización es apta para afectar, de algún modo, el
+orden o la moral pública. o los derechos de un tercero. Pretender que el
+comportamiento de los drogadictos no se exterioriza “de algún modo” cs
+apartarse de los datos más obvios, penosos y aún dramáticos de la realidad
+cotidiana.
+
+12) Que. entonces. entre las nuciones que ofenden el orden, la moral y la salud
+pública se encuentra sin duda la tenencia de estupefacientes para uso personal,
+porque al tratarse de una figura de peligro abstracto está ínsita la trascendencia
+a terceros, pues detrás del tenedor está el pasador o traficante “hormiga” y cl
+verdadero traficante, así como el que siembra o cultiva, sin que la presunción de
+peligro que emana del art. 6* de la ley 20.771 sea irrazonable, en atención a la
+relación entre los bienes jurídicamente protegidos y la conducta incriminada. Y
+tampoco debe exigirse en cada caso la prueba de la trascendencia a terceros con
+
+--- pagina 20 de 34 ---
+
+1352 FALLOS DE LA CORTE SUPREMA
+
+313
+la consecuente afectación de la salud pública, pues de ser así se agregaría un
+requisito inexistente que altera el régimen de la ley, con el peligro de que tal
+inteligencia la torne ineficaz para la consecución de los fines que persigue
+(Fallos: 300: 254).
+
+13) Que en cuanto a la relación de causalidad entre la figura descripta por el
+tipo penal y el perjuicio ocasionado, sí bien se ha tratado de resguardar la salud
+pública en sentido material como objetivo inmediato, el amparo se extiende a un
+conjunto de bienes jurídicos de relevante jerarquía que trasciende con amplitud
+aquella finalidad, abarcando la protección de los valores morales, de la familia,
+de la sociedad. de la juventud, de la niñez, y en última instancia, la subsistencia
+misma de la nación y hasta de la humanidad toda (Fallos: 308: 1392 considerando
+13 del voto de la minoría).
+
+Es que la importancia de los bienes tutelados por el art. 6* de la ley 20.771
+determina que interesen a la comunidad cn gencral. Si no fuera así, la sociedad
+toda y la juventud en particular, podría creer que consumir estupefacientes no es
+conducta disvaliosa y que al Estado no le interesa que los miembros de la
+comunidad se destruyan a sí mismos y alos demás, argumentos que son válidos
+para demostrar que no se pena al tenedor de drogas por su condición de tal, ni se
+reprime la autolesión.
+
+14) Que el elemento subjetivo de la figura se satisface con la voluntad
+consciente del sujeto de tener la droga. Así. poco importa la finalidad de la
+tenencia, ya sea para satisfacer un interés patológico, O para poder a su vez
+venderla, o donarla a otro y, fuera de los casos de autorización legítima, quien
+
+¿tiene drogas cumple con la acción típica y con los elementos de la figura, sin que
+los motivos en virtud de los cuales entró en la tenencia de la sustancia, con
+conocimiento de su naturaleza, tengan relevancia para resolver la cuestión cn
+examen, toda vez que al resultar sancionada esa conducta como de peligro
+abstracto, dicho peligro existe en tanto la sustancia conservesus cualidades y sea
+apta para ser consumida por cualquier persona con o sin el consentimiento de su
+tenedor y es por ello susceptible de ser castigada (Fallos: 305: 137).
+
+15) Que al tipificar como delito la tenencia de estupefacientes para uso
+personal, el legislador lo hizo sin distinciones en cuanto a la cantidad, dado que
+al tratarse de un delito de peligro abstracto, cualquier actividad relacionada con
+el consumo de drogas pone en peligro la moral, salud pública y hasta la misma
+supervivenciadela nación. cuyopotencialhumanoesquizá su mayor patrimonio.
+Del modo como se tipificó la conducta, se quisieron abarcar todos los casos no
+autorizados, con independencia de la finalidad de la tenencia, pues partiendo del
+presupuesto de que se trata de regular la tenencia de sustancias peligrosas para
+
+--- pagina 21 de 34 ---
+
+DE JUSTICIA DE LA NACION 1353
+313
+la salud pública, el legislador ha querido someter a conminación penal a todo
+aquél que se sustraiga al poder de policía de salubridad que ejerce el Estado.
+
+16) Que, por tanto, no es la cantidad lo que debe ponderarse, sino la
+naturaleza y efectos de los estupefacientes. máxime que el legislador no pudo
+dejar de tener en cuenta que, por lo general, el tenedor, para comprar la droga,
+oficia de traficante y éste lleva consigo cantidades pequeñas para pasar por
+consumidor, con lo cual se asegura su propio abastecimiento, y después, al ser
+detenido, declara que la droga es para uso personal y así la relación entre el
+tenedor y el traficante se consolida y hasta lo hace aparecerexclusivamente como
+“víctima del mal” cuando ello es sólo parcialmente cierto. Se advierte así que la
+teoría de la “insignificancia” —sostenida a veces por doctrinarios y sustento de
+algunos pronunciamientos judiciales— atenta contra el verdadero finquerido por
+el legislador: proteger a la comunidad del flagelo de la droga y terminar con el
+traficante.
+
+17) Que aun cuando lo expuesto baste para declarar la constitucionalidad del
+art. 6? de la ley 20.77 1, conviene señalar que no puede entenderse la penalización
+de la tenencia de estupefacientes para uso personal como una consecuencia del
+autoritarismo, sino por el contrario traduce la voluntad del legislador de reprimir
+todaslas actividades relacionadas coneln:rcotráficopor serconductas atentatorias
+de la propia supervivencia del Estado y de sus instituciones, tema que ha sido
+constante preocupación de la República Argentina, la que se refleja también en
+los tratados internacionales suscriptos. entre los que figuran la Convención
+Unica sobre Estupefacientes adoptada porla Conferencia de las Naciones Unidas
+(decreto-ley 7672/63, ratificado por ley 16.478); el Protocolo de modificación de
+la Convención Unica sobre estupefacientes de 1961, adoptado en Ginebra el 25
+de marzo de 1972 (ley 20.449); el convenio sobre sustancias psicotrópicas
+adoptado en Viena el 21 de febrero de 1971 por la Conferencia de las Naciones
+Unidas para la adopción de un protocolo sobre sustancias psicotrópicas (ley
+21.704); acuerdo sudamericano sobre estupefacientes y psicotrópicos suscripto
+en Buenos Aires, el 27 de abril de 1973 y sus protocolos adicionales (ley 21.422);
+acuerdo de sede entre la República Argentina y el acuerdo sudamericano sobre
+estupefacientes y psicotrópicos, suscripto en Buenos Aires, el 16 de octubre de
+1981 (ley 23.206) y el Convenio suscripto con el gobierno de la República de
+Venezuela sobre prevención y control del consumo y represión del tráfico ilícito
+de estupefacientes y de sustancias psicotrópicas (ley 23.865).
+
+18) Que, por lo demás, sostener que las contempladas por dicha norma son
+acciones comprendidas dentro del régimen del art. 19 y agregar en seguida que
+serían legítimas medidas de “tratamiento obligatorio”. es decir. el uso de
+
+--- pagina 22 de 34 ---
+
+1354 FALLOS DE LA CORTE SUPREMA
+313
+
+“facultades jurisdiccionales para ordenar y supervisar tratamientos” (véase el
+citado pronunciamiento de Fallos: 308: 1392, primer voto consid. 10 y segundo
+voto en págs. 1439 y sigs. y 1458 in fine y sig.) implica auto-contradicción,
+porque si la premisa fuera exacta, eso, si de veras estuviéramos an-acciones de
+las previstas en el art. 19, también esas “medidas” o “tratamientos obligatorios”
+serían inconstitucionales, en tanto y en cuanto someterían a las personas a “la
+autoridad de los magistrados” bajo la forma del poder de policía; y sólo im-
+portarían proponer que éste sea empleado en reemplazodel poder represivo penal.
+Y parece innecesario demostrar que la opción entre uno y otro poder corresponde
+privativamente al legislador y no puede ser asumida por los jueces sin que se
+incurra en una “grave anomalía constitucional y axiológica” (caso “Partido
+Justicialista”, Fallos 263: 267, consid. 9).
+
+19) Que, declarada la inconstitucionalidad del artículo 6* de la ley 20.771,
+corresponde asumir ahora el tema de la validez constitucional del vigente art. 14,
+segunda parte, de laley 23.737, en la medida en que su aplicación viene impuesta
+por el art. 2? del Código Penal. Si bien incumbe a esta Corte el control de
+constitucionalidad de las leyes del Congreso, que incluye el de su racionalidad,
+no puede dejar de valorar adecuadamente la insistencia del legislador en renovar
+un régimen legal análogo. Esto implica sostener que, según la nueva norma, se
+sigue considerando peligrosa toda conducta vinculada con la tenencia de estu-
+pefacientes en la medida en que ello implica sustraerse al control propio del
+Estado en el ejercicio de su poder de policía de salubridad.
+
+20) Que los años transcurridos desde la sanción de la ley 20.771, en 1974, y
+un devastador avance de la drogadicción, con la captación ya no sólo de la
+juventud, sino de niños, determinó al legislador a dictar la ley 23,737, sancionada
+en 1989, que mantiene la incriminación cuestionada.
+
+21) Que las razones de política criminal que determinaron al legislador de la
+ley 23,737, a reprimir cn el art. 14, segunda parte, la tenencia de estupefacientes,
+cuando por su escasa cantidad y demás circunstancias surgiere inequívocamente
+que es para uso personal, aparecen fundadas en los debates parlamentarios, cuya
+transcripción en lo que tienen de sustancial. resulta pertinente por constituir la
+interpretación auténtica de la nueva ley.
+
+22) Que en la Cámara de Diputados se dijo: “El art. 14 introduce una
+innovación al establecer en su segundo párrato una diferencia cuando se refiere
+a la tenencia para consumopropio, pero tenencia al fin. Esoes lo que tenemos que
+entender. La tenencia para uso propio es tenencialisa y llana. Se trata de tenencia
+para drogarse, y no podemos quedar impasibles ante ese hecho. No le podemos
+
+--- pagina 23 de 34 ---
+
+DE JUSTICIA DE LA NACION 1355
+313
+
+decir a ese individuo que se siga drogando, que a la ley no le importa, porque no
+lo entiende (Diario de Sesiones del 22 de febrero de 1989, pág. 7746); “son
+tremendas las consecuencias de esta plaga tanto en lo que se refiere a la práctica
+aniquilación del individuo como a su gravitación en la moral y economía de los
+pueblos, traducidas en la delincuencia común y subversiva, la incapacidad para
+realizaciones querequieren una fuerte voluntad de superación y la destrucción de
+la familia, que es la base fundamental de nuestra civilización... Hay quienes
+piensan que somoslibres de envenenarnoscomonos place y que por consiguiente
+todo esfuerzo que haga la sociedad para impedir a un toxicómano que se entregue
+a su vicio constituye un atentado contra la libertad individual. Se trata de una idea
+insostenible en una sociedad moderna, pues el toxicómano no sólo se destruye a
+sí mismo sino que al hacerlo así causa perjuicio a quienes lo rodean” (Diario de
+sesiones del 8 de marzo de 1989, pág. 7781).
+
+23) Que, por su parte, en la Cámara de Senadores se sostuvo: “este es un
+problema que afecta fundamentalmente no sólo la vida del país sino la de todo
+el mundo. Evidentemente la producción, el tráfico y el consumo de estupefacientes
+ha logrado cambiar la fisonomía política. social y ética de numerosos países.
+Avanza inconteniblemente como una lacra que se expande por encima de las
+fronteras, resistiendo de modo fundamental la personalidad de los individuos y
+de los Estados... Se estima que en el mundo más del 20% de la población consume
+drogas que provocan dependencia y grave daño físico y moral. Más de 300
+millones consumen marihuana, 250 millones consumen derivados del opio y la
+cocaína, y el resto, alucinantes, estimulantes, sedantes, tranquilizantes e
+hipnóticos... En nuestro país la situación ha repercutido de tal manera y se ha
+expandido en tal forma, que la información de los diarios señala que está
+ganando, inclusive, a los niños de las escuelas, quienes han adoptado el hábito de
+drogarse en la víapública, casi inconscientemente, con lainhalación de pegamento
+recalentado... En cuanto a los consumidores, la cadena tiene tres eslabones
+fundamentales, de los cuales ellos constituyen el último, los dos primeros
+corresponden al productor y al traficante. Desde luego, cuando los consumidores
+son muchos atraen al tráfico... La realidad demuestra que en tanto existan
+consumidores hay tráfico, y que cuando hay consumidores también está la droga
+clandestina. Y si se tiene droga clandestina es porque los consumidores, de
+alguna manera, estimulan su tránsito hacia el país afectado (Diario de sesiones
+del 21 de agosto de 1986, pág. 1868 y sgtes).
+
+24) Que, según se desprende de esas expresiones, el legislador ha tifipicado
+nuevamente como delito de peligro abstracto la tenencia de estupefacientes, pero
+con un agregado esencial que no contenía la ley 20.771, referente ala tipificación
+del delito cuando por su “escasa cantidad” y demás circunstancias surgiere
+
+--- pagina 24 de 34 ---
+
+1356 FALLOS DE LA CORTE SUPREMA
+
+313
+inequívocamente que la tenencia es para uso personal. Huelga entonces decir que
+todas las razones dadas en apoyo de la constitucionalidad del art. 6* de aquella
+ley se mantienen incólumes para sostener la incriminación prevista por la actual.
+
+25) Que la norma —art. 14, segunda parte, de la ley 23.737— contiene un
+juicio de valor para incriminar la conducta cuestionada de inconstitucional por
+el recurrente, sin que se advierta el menor atisbo de irrazonabilidad o injusticia
+que justifiquen la revisión judicial. Antes, al contrario, ese juicio de valor emana
+de un mandato clamoroso de la comunidad, —cabalmente entendido por sus
+representantes—, que desea terminar con el flagelo de la drogadependencia,
+sobre todo cuando ha advertido que su país ha dejado de ser un lugar de paso para
+el tráfico internacional para convertirse en uno de creciente e intenso consumo,
+y que en los estudios de mercado que efectúa la delincuencia internacional para
+evaluar la conveniencia de su establecimiento se tiene especialmente en cuenta
+la no punición de la tenencia. Al respecto, conviene recordar una vez más que si
+no existieran usuarios o consumidores, no habría interés económico en producir,
+elaborar y traficar con el producto, porque claro está que nada de eso se realiza
+gratuitamente, lo cual conduce a que si no hubiera interesados en drogarse, no
+habría tráfico ilegítimo de estupefacientes (Fallos: 300: 254).
+
+26) Que en época de la vigencia de la ley 20,771 y en especial a partir de los
+fallos de este Tribunal in re “Bazterrica” y “Capalbo” (Fallos: 308: 1392) se dijo
+
+que no estaba probado que reprimir penalmente la tenencia de estupefacientes
+fuese un arbitrio eficiente para conjurar el problema de las drogas; pero lo cierto
+es que la actitud permisiva de los últimos tiempos, lejos de disminuir el consumo.
+el tráfico y la actividad delictiva, ha coincidido con su preocupante incremento.
+Por lo que la desincriminación del tenedor de drogas que las tuviere en escasa
+cantidad facilitaría la actividad de los traficantes, los que en los tiempos actuales
+utilizan un nuevo sistema de expansión del comercio, que consiste en “regalar”
+dosis extras a los consumidores a cambio de la captación de nuevos clientes. Y
+los medios utilizados hasta el momento para contrarrestar el avance de la
+drogadicción —propaganda en medios gráficos. radiales y televisivos, conferen-
+cias, etc— no han logrado contenerlo, sino sólo parcialmente.
+
+27) Que la diversa interpretación efectuada por los fallos dictados durante la
+vigencia de laley 20.771, provocaron inseguridad jurídica y fue esacircunstancia,
+junto con el avance de la drogadicción. lo que determinó al legislador de la ley
+23.737 a establecer como conducta delictiva, la tenencia de estupefacientes en
+escasa actividad, inequívocamente destinada al uso personal, con lo cual ya no
+corresponde realizar evaluaciones sobre el tema y llegar a un casuismo, no
+querido por la ley ni por la sociedad. la que espera la protección de sus derechos
+
+--- pagina 25 de 34 ---
+
+DE JUSTICIA DE LA NACION 1357
+313
+
+que atañen a la moral, salud y seguridad públicas. La tenencia de estupefacientes,
+cualquiera que fuese su cantidad, es conducta punible en los términos del art. 14,
+segunda parte de la ley 23.737 y tal punición razonable noafectaningún derecho
+reconocido por la Ley Fundamental, como no lo afecta tampoco la que reprime
+la tenencia de armas y explosivos y, en general, las disposiciones que sancionan
+los demás delitos de tenencia.
+
+Por ello, se rechaza la inconstitucionalidad del art. 6? de la ley 20,771 y del
+art. 14, segunda parte, de la ley 23,737 y se confirma la sentencia apelada.
+
+RICARDO LEVENE (H) — MARIANO AUGUSTO CAVAGNA
+MARTÍNEZ — CARLOS S. FaYT (por su voto) —
+AucusTo CésaR BELLUSCIO (en disidencia) —
+ENRIQUE SANTIAGO PETRACCHI (en disidencia)
+— RoborLro C, BARRA — JULIO S. NAZARENO
+— Jutio C. OYHANARTE — EbuARrDO J. MOLINÉ
+O'CONNOR.
+VOTO DEL SEÑOR MINISTRO DOCTOR DON CARLOS S. FaYT
+
+Considerando:
+
+Que las cuestiones planteadas son sustancialmente análogas a las tratadas en
+las disidencias del suscripto en Fallos: 308: 1392 y 1463. a las que corresponde
+remitirse en razón de brevedad.
+
+Por ello, se rechaza la inconstitucionalidad del art. 6? de la ley 20.771 y del
+art. 14, segunda parte. de la ley 23.737 y se confirma la sentencia apelada.
+
+CarLos S. Fayr
+
+DISIDENCIA DEL SEÑOR MINISTRO DOCTOR DON AUGUSTO CÉSAR BELLUSCIO
+
+Considerando:
+
+Que la sentencia de la Sala B de la Cámara Federal de Apelaciones de
+Córdoba rechazó cl planteo de inconstitucionalidad del art. 6? de la ley 20.771 y
+condenó a Ernesto Alfredo Montalvo a la pena de tres meses de prisión de
+ejecución condicional, por considerarlo autor del delito de tenencia de estupefa-
+cientes cn su forma atenuada por el art. 14, segundo párrafo, de la ley 23,737,
+
+--- pagina 26 de 34 ---
+
+1358 FALLOS DE LA CORTE SUPREMA
+
+313
+sancionada durante la sustanciación del proceso. Contra ella la defensa interpuso
+el recurso extraordinario de fs. 97, el cual fue concedido a fs. 114 en cuanto a la
+alegada inconstitucionalidad de una y otra norma legal.
+
+Que la cuestión planteada cs similar a la decidida por esta Corte en Fallos:
+308: 1392, cuya doctrina es igualmente aplicable al art. 14, segundo párrafo, de
+la ley 23.737.
+
+Porello, oído el señor Procurador General. se declaralainconstitucionalidad
+de la mencionada norma legal y se revoca la sentencia apelada.
+
+AuGusTo CésaR BELLUSCIO.
+DISIDENCIA DEL. SEÑOR MINISTRO DOCTOR DON ENRIQUE
+SANTIAGO PETRACCHI
+
+Considerando:
+
+19 Que contra la sentencia de la Sala B de la Cámara Federal de Apelaciones
+de Córdoba, que rechazó el planteo de inconstitucionalidad del art. 6* de la ley
+20.771 y condenó a Ernesto Alfredo Montalvo a la pena de tres meses de prisión
+de ejecución condicional. por considerarlo autor del delito de tenencia de
+estupefacientes, interpuso la defensa recurso extraordinario a fs. 97, que fue
+concedido a fs. 114.
+
+29) Que el hecho que dio origen a esta causa fue comprobado el 8 de junio de
+1986 cuando el procesado, junto con otra persona. era llevado detenido en un
+automóvil de alquiler, por presumirse que podría estar vinculado a la sustracción
+de dólares. Al llegar a la dependencia policíaca y descender del vehículo,
+Montalvo arrojó una bolsita que tenía 2.7 grs de marihuana, hecho que reconoció
+al prestar declaración indagatoria a fs, 26.
+
+En primera instancia Montalvo había sido condenado a la pena de un año de
+prisión de ejecución condicional y un mil australes de multa, por considerárselo
+autor del delito de tenencia de estupefacientes, en los términos del art. 6? de la ley
+20.771.
+
+La Cámara, ante la vigencia de la ley 23.737 pendiente la apelación del
+procesado, modificó la tipificación legal de la conducta a él atribuida, por
+aplicación del art. 2* del Código Penal y la subsumió en el art. 14, segunda parte,
+
+--- pagina 27 de 34 ---
+
+DE JUSTICIA DE LA NACION 1359
+313
+de la ley 23,737, al tiempo que disminuyó la pena. que fijó en tres meses de
+prisión de ejecución en suspenso.
+
+Asimismo. señaló el a quo que no correspondía pronunciarse sobre la
+inconstitucionalidad del art. 6 de la ley 20.771, por haber sido virtualmente
+desconocida por el Poder Legislativo, la incriminar la ley 23.737 la tenencia de
+estupefacientes en general y para uso personal en cl art. 14, primera y segunda
+parte. respectivamente.
+
+3%) Que la defensa fundó la apelación extraordinaria en la doctrina de la
+arbitrariedad, gravedad institucional y cn la inconstitucionalidad de la norma
+legal que reprime la tenencia de estupefacientes para uso personal —sea cl art.
+6? de la ley 20.771 o el art. 14, segunda parte, de la ley 23.737—., aspecto sobre
+el que fue concedido el recurso federal.
+
+Sostuvo el apelante que la resolución recurrida afecta la garantía amparada
+por el art. 19 de la Constitución Nacional, dado que aquella represión ataca la
+intimidad y privacidad de las personas.
+
+Estimó que cl procesado tenía la droga únicamente para consumo personal,
+sin que hubieran existido actos de ostentación o exhibición que pusieran en
+peligro bienes o derechos de terceros.
+
+Añadió que bajo el pretexto de beneficiarlo con la aplicación de la ley más
+benigna, se lo perjudicó. al no habérsele posibilitado el ejercicio del derecho de
+defensa sobre el particular, especialmente en punto a la constitucionalidad o
+inconstitucionalidad de la nueva norma; máxime cuando no existe pronuncia-
+miento de la Corte Suprema al respecto, como sí ocurrió con igual tacha dirigida
+al art. 6* de la ley 20.771, norma que había sido declarada inconstitucional por
+la mayoría del Tribunal en causas tramitadas durante su anterior integración.
+
+4%) Que el planteo reseñado cs idóneo para habilitar la instancia extraordi-
+naria toda vez que el apelante ha cuestionado la inteligencia de una cláusula
+constitucional —art. 19— y la decisión ha sido contraria al derecho fundado en
+ella (art. 14. inc. 3, de la ley 48).
+
+5") Que, al resolver el caso “Bazterrica” (Fallos: 308: 1392), la mayoría del
+Tribunal decidió que cl art. 6? de la ley 20.771 era violatorio del art. 19 de la
+Constitución, en tanto castigaba la tenencia de estupefacientes para uso personal
+aun cuando aquélla no constituyera un daño o peligro concreto para derechos o
+bienes de terceros.
+
+--- pagina 28 de 34 ---
+
+1360 FALLOS DE LA CORTE SUPREMA
+313
+
+Para llegar a tal conclusión, la Corte partió de la comprobación de que cl
+citado art. 19 no sólo garantizaba un ámbito de libertad limitado al fuero íntimo
+de la conciencia, sino que también alcanzaba cn su tutela a las conductas que
+trascendían al mundo exterior, pero que no afectaban derechos de terceros ni
+ofendían al orden o la moral pública. Ello implicaba, necesariamente, distinguir
+entre acciones que afectaban sólo a la ética privada —las cuales estaban sólo
+reservadas a Dios y exentas de la autoridad de los Magistrados— y aquellas otras
+que trascendían esc ámbito, justificando así la injerencia estatal en la libertad de
+los individuos.
+
+Desde esta perspectiva. el Tribunal señaló que la incriminación de la mera
+tenencia, al crear una presunción genérica y absoluta de peligro abstracto, no
+susceptible de ser destruida por la prucba en contrario del acusado o por la
+apreciación judicial de las circunstancias concretas del caso, no satistacía los
+requisitos del art. 19 que exige —como condición del reproche penal— el daño
+o el peligro concreto a derechos de terceros o al orden o a la moral pública.
+
+Ello cs así, pues la citada norma constitucional. al referirse a las conductas
+que de ningón modo ofendan derechos de terceros o al orden o la moral pública.
+no deja fuera de su ámbitode proteccióna aquellasaccionesque tengan algún tipo
+de repercusión en el medio social, pues resulta difícil imaginar una conducta
+humana, de alguna relevancia, que carezca de esa virtualidad.
+
+En realidad. no cs cualquier ctecto sobre el mundo exterior lo que autoriza
+la intervención estatal, sino el daño o el peligro concreto respecto de derechos o
+bienes privados o públicos, los cuales también deben ser claramente caracteri-
+zados por el legislador.
+
+Una solución contraria llevaría a considerar amparado por la primera parte
+del art. 19, únicamente al puro acto interno de conciencia, lo que, al despojar a
+dicha norma de todo contenido tutelar significativo, otorgaría a los poderes
+públicos facultades omnímodas para regular las conductas de las personas,
+instaurando así cl más crudo totalitarismo.
+
+6*) Que, por otra parte, abonan cn favor de la irrazonabilidad —art. 28 de la
+Constitución Nacional— de la presunción absoluta, contenida en la norma cn
+examen.los argumentos desarrollados en el voto concurrente del Juez Petracchi
+en la citada causa “Bazterrica”, al que cabe remitirse íntegramente en el sentido
+de que la sanción penal de la mera tenencia para uso personal se ha reveladocomo
+no idónea para combatir cl terrible azote que constituye la drogadicción cn la
+sociedad contemporánca.
+
+--- pagina 29 de 34 ---
+
+DE JUSTICIA DE LA NACION 1361
+313
+
+Dichos argumentos se ven reforzados con nuevos datos aportados por
+recientes investigaciones realizadas acerca de csta cuestión. Así, los resultados
+de un estudio efectuado en California muestran que el intento de control del uso
+de la marihuana a través de la incriminación de su consumo, en lugar de
+disminuirlo, lo aumentaron considerablemente, llegando incluso a involucrar a
+los simples consumidores en el tráfico.
+
+Refuerza este argumento cl testimonio de los principales funcionarios a
+cargo de la Drug Enforcement Administration de los Estados Unidos (según
+“Beyond the war on Drugs” by Steven Wisotsky, Prometcus Books, N.Y. 1986)
+cuya experiencia los lleva a sostener que: *... para que la guerra contra las drogas
+triunfe, los traficantes deberían advertir una elevación drástica del nivel de
+riesgos... “un determinado distribuidor gencralmente se ponce en la situación de
+vender directamente a extraños...” “... la estructura de la industria de la cocaína
+y la estructura legal de persecución se combinan de tal mancra que los peces
+chicos son los más fáciles de atrapar, mientras que los grandes traficantes
+disfrutan de un sustancial porcentaje de inmunidad legal...”
+
+7?) Que. vinculada a esta cuestión, cabe agregar que el argumento, según el
+cual el castigo de la tenencia de estupefacientes para uso personal sería justifi-
+cado como un medio indirecto para combatir el narcotráfico, es violatorio de la
+escala de valores plasmada en nuestra Ley Fundamental —receptora, en este
+aspecto, de los aportes más esenciales de nuestra tradición cultural—, que
+prohibe utilizar a las personas como meros instrumentos para alcanzar objetivos
+públicos que se reputan socialmente valiosos, desconociendo así que cllas
+constituyen fines en sí mismas.
+
+8”) Que, sin perjuicio de que el voto al que se ha hecho remisión supra
+(considerando 6%) abordó el tema, la reiterada alegación —por parte de los
+partidarios de la incriminación de la mera tenencia de droga para uso personal —
+sobre las características “peligrosas” que presentaría el drogadicto, hace nece-
+sario subrayar un doble orden de consideraciones sobre cl punto:
+
+a) que es aventurado calificar como “drogadicta” a toda persona que se le
+encuentra una cantidad de estupefacientes destinada al uso personal;
+
+b) que no es conciliable con los principios básicos de nuestra Constitución
+establecer un sistema represivo que formule tipos penales que no estén fundados
+en la descripción de conductas punibles, sino cn características personales. como
+lo sería, obviamente, la calidad de drogadicto. Un derecho penal, centrado
+exclusivamente en las características del sujeto y desinteresado de sus conductas,
+
+--- pagina 30 de 34 ---
+
+1362 FALLOS DE LA CORTE SUPREMA
+
+313
+abriría el camino de la arbitrariedad estatal al punir a categorías de personas por
+el solo hecho de pertenecer a ellas.
+
+En este orden de ideas, cabe señalar que la Corte Suprema de los Estados
+Unidos en cl caso “Robinson vs. California” (370 U.S. 660) declaró la
+inconstitucionalidad de una ley cstadual que castigaba “el ser adicto a los
+narcóticos”. El tribunal estimó que, al haberse reconocido por parte del propio
+Estado de California que esa adicción constituía unaenfermedad, dicha sanción
+configuraba una pena “cruele inusual”, en razón de que eraincompatiblecon las
+pautas actuales de civilización punir un estado patológico, que no se había
+traducido en conducta alguna lesiva de terceros.
+
+Precisamente, es la circunstancia señalada cn último lugar —esto es, la
+afectación de derechos de terceros, aun cuando la conducta en cuestión no
+configure un delito penal— lo que justifica constitucionalmente la eventual
+adopción por parte del legislador de las medidas de rchabilitación y reinserción
+social. a que se refiere cl Juez Petracchi en los considerandos 16 y 23 de su voto
+concurrente en el caso "Bazterrica”. medidas que, de no darse aquella afectación,
+serían igualmente violatorias del art. 19 de la Constitución.
+
+92) Que lo hasta aquí enunciado —a lo que se debe agregar las remisiones
+efectuadas— bastaría para concluir que el art. 14, segunda parte, de la ley 23.737
+es inconstitucional, en razón de su sustancial identidad con el art. 6? de la ley
+20.771, máxime cuando, de los antecedentes parlamentarios de la norma citada
+en primer lugar, surge claramente la intención del legislador de castigar la mera
+tenencia de estupefacientes para uso personal, aun en ausencia de un daño o
+peligro concreto a derechos o bienes de terceros.
+
+10) Que, sin perjuicio de lo que se acaba de señalar, además de los
+argumentos expuestos precedentemente, existe otra razón muy importante para
+mantener cl criterio mayoritario sentado en “Bazterrica”,comoloesel principio
+según cl cual la Corte debe, como regla fundamental para su funcionamiento,
+adccuar sus decisiones a los precedentes dictados por ella en la misma cuestión.
+
+11) Que, sobre este punto, cl Tribunal ha desarrollado principios
+esclarecedores, que son de gran utilidad en el caso. Así, en la causa “Miguel
+Baretta c/Provincia de Córdoba”, la Corte dijo losiguiente sobre el punto: “... En
+tales condiciones. la sentencia a recaer en esta causa, finiquitada antes de fallo
+del antecedente recordado.... debe ajustarse a las conclusiones de aquél, porque
+no podría el Tribunal apartarse de su doctrina, sino sobre la base de causas
+suficientemente graves, como para ser ineludible tal cambio de criterio.
+
+--- pagina 31 de 34 ---
+
+DE JUSTICIA DE LA NACION 1363
+313
+
+“Sería... en extremo inconveniente para la comunidad —dice COOLEY
+citando al “Canciller? KENT, Constitutional Limitations, t. L.. pág. 116— si los
+precedentes no fuerandebidamente considerados y consecuentemente seguidos”.
+
+Y aun cuando ello no signifique que la autoridad de los antecedentes seca
+decisiva en todos los supuestos, ni que pueda en materia constitucional, aplicarse
+el principio de “stare decisis”, sin dar las debidas reservas —-Conf.
+WILLOUHGBY., On the Constitution, t. 1. pág. 74— no es menos cierto. que
+cuando de las modalidades del supuesto a fallarse, no resulta de manera clara, el
+error y la inconveniencia de las decisiones ya recaídas sobre la cuestión legal
+objeto del pleito, la solución del mismo debe buscarse en la doctrina de los
+referidos precedentes...” (Fallos: 183: 409; criterio reiterado en Fallos: 192:
+414). Por su parte, en el caso “Mario B. Gabiña c/Provincia de Buenos Aires”
+(Fallos: 209: 431), el citado principio fue reafirmado con los siguientes argumentos:
+*... Que la doctrina de los precedentes citados basta para la solución del caso de
+autos e impone el acogimiento de la demanda. No se han planteado en efecto, en
+el curso del juicio cuestiones diferentes a las analizadas por el Tribunal en los
+recordados antecedentes, y si bien es cierto que la autoridad de la jurisprudencia
+no es siempre decisiva, noloes menos la evidente conveniencia de su estabilidad
+en tanto no se alleguen fundamentos o medien razones que hagan ineludible su
+modificación...”
+
+12) Que, tal como lo señaló la Corte Suprema estadounidense, existen
+**,.,razones de mucho peso que subyacen al principio de que los tribunales no
+deberían apartarse ligeramente de sus decisiones anteriores. Entre ellas, se
+encuentran la conveniencia de que el derecho brinde una guía clara para la
+conducta de los individuos, de forma tal de poder planear sus asuntos, asegurados
+contrasorpresasdesagradables; laimportancia de promover una solución equitativa
+y rápida. eliminando la necesidad de volver a discutir todos los aspectos
+relevantes en todos los casos; y la necesidad de mantener la fe pública cn cl Poder
+Judicial como fuente de decisiones impersonales y razonadas. Los motivos para
+rechazar cualquier regla establecida deben ser sopesados a la luz de estos
+factores...” ("Moragne v. States Marine Lines”, 398 U.S. 375. pág. 403).
+
+Los principios reseñados mantienen gran vitalidad en la doctrina estadouni-
+dense contemporánea. Así, el profesor Henry Paul Monaghan, de la Universidad
+de Columbia. se muestra contrario a que la Corte actual de su país modifique la
+jurisprudencia “liberal” anterior. a pesar de considerar que gran parte de ella es
+equivocada. En tal sentido, considera el citado autor que aun cuando *... la
+resolución anterior parezca claramente errónea a una mayoría de la Corte actual,
+la adhesión al precedente puede contribuir a la importante concepción de que la
+
+--- pagina 32 de 34 ---
+
+1364 FALLOS DE LA CORTE SUPREMA
+
+313
+ley es impersonal, de que la Corte considere estar siguiendo a un precedente que
+la vincula a clla, de la misma manera que vincula a los litigantes...” (“Stare
+Decisis and Constitutional Adjudication”, Columbia Law Review, Volumen 88,
+pág. 723, especialmente pág. 752).
+
+13) Que, por razones idénticas, esta Corte ha desestimado, a lo largo de su
+historia, numerosos planteos de naturaleza federal como “insustanciales”,cuando
+una reiterada y clara jurisprudencia del Tribunal impedía cualquier controversia
+seria respecto de su solución. En este supuesto, siempre que no fuera dudosa la
+aplicación de la doctrina sentada por la Corte en precedentes reiterados, ni se
+adelantaban argumentos que podían inducir seriamente la conveniencia de
+modificarla, el recurso extraordinario era considerado inadmisible (Fallos: 194:
+220, considerando 4* y sus citas; 256: 259; 266: 208 y 308: 1260; entre muchos
+Otros).
+
+14) Que la doctrina enunciada resulta de especial importancia para nuestro
+país en este período histórico en el cual aquel “... está resurgiendo de cincuenta
+años de vaivenes políticos. durante la mayoría de los cuales primó el autoritarismo
+y la intolerancia en las formas de organización social, que han puesto en serio
+riesgo la posibilidad de volver a colocarnos como Nación en el marco de los
+ideales que le dieron fundamento...” (caso “Bazterrica”., cit.. voto concurrente del
+Juez Petracchi, cons. 25).
+
+Por tal razón, una vez. recuperada la plena vigencia de nuestras instituciones
+democráticas, se hace imperiosa. de ahora en más, la necesidad de asegurar la
+permanencia y estabilidad de las decisiones de la Corte Suprema, más allá de los
+cambios circunstanciales en su integración, con el objeto de mantener “la fe
+pública en el Poder Judicial como fuente de decisiones impersonales y razona-
+das” (caso “Moragne”, cit.).
+
+15) Que. por cierto, el principio formulado no debe ser considerado como una
+regla absoluta ni rígida, que impida toda modificación en la jurisprudencia de la
+Corte, pues los tribunales”... no son omniscientes. Como cualquicrotra institución
+humana, también pueden aprovechar del ensayo y del error, de la experiencia y
+de la reflexión...” (voto en disidencia del juez Black in re “Green vs. U.S.”. 356
+U.S. 165, pág. 195). Sin embargo, tal como lo señaló esta Corte en el mencionado
+caso “Baretta”, tienen que existir “causas suficientemente graves, como para
+hacer ineludible tal cambio de criterio”.
+
+16) Que, entre las citadas causas “suficientemente graves”. la Corte Suprema
+estadounidense ha señalado dos de particular relevancia. En primer lugar, ha
+
+--- pagina 33 de 34 ---
+
+DE JUSTICIA DE LA NACION 1365
+313
+
+considerado que no existen razones importantes para mantener un precedente
+que se considera erróneo, cuando el posterior desarrollo jurisprudencial del
+tribunal ha convertido a aquél en una mera expresión aislada que no forma parte
+de la corriente doctrinaria dominante (confr. “North Dakota Pharmacy Bd. vs.
+Snyder's Stores”. 414 U.S. 156, págs. 164/167). También se ha sostenido que
+corresponde apartarse de determinada jurisprudenciacuando las “lecciones de la
+experiencia” o las “cambiantes circunstancias históricas”, han demostrado lo
+erróneo de la solución contenida allí (confr. voto en disidencia del juez Brandcis
+in re "Burnet vs. Coronado Oil and Gas Co.”,285 U.S. 393. págs. 405/408 y el
+voto en disidencia del juez Stewart in re Mitchell vs. W.T. GrantCo.”,416 U.S,
+600, págs. 634/635).
+
+17) Que. dado que esta Corte considera que las citadas pautas son idóneas a
+los fines de determinar si corresponde o no mantener la doctrina desarrollada en
+cl caso “Baz1errica”, resulta necesario determinar, en primerlugar, si el principio
+fundamental allí expresado es coimcidente con la doctrina actual del Tribunal.
+
+18) Que un aspecto central de la decisión mayoritaria en el citado caso
+consistió, como ya se ha visto, en que la tutela del art. 19, primera parte, de la
+Constitución Nacional no sólo abarca el fuero íntimo individual, sino que
+también alcanza la conducta externa de las personas.
+
+19) Que la doctrina que subyace a esta solución, lejos de ser una expresión
+“aislada”. ajena a la corriente jurisprudencial dominante del Tribunal, ha sido
+reafirmada recientemente en la causa M. 537,X XII, “Muller, Jorge s/denuncia”,
+del 13 de noviembre de 1990, en la cual la mayoría resolvió que era contraria al
+art. 19 de la Constitución Nacional la decisión que había ordenado extraer sangre
+a un menor de edad con el objeto de establecer su identidad. Se dijo allí que la
+decisión cuestionada invadía la “esfera íntima” del menor, “restringía su libertad
+en cuanto más tenía ella de esencial —csto es la disponibilidad del propio
+cuerpo—” y comportaba “una lesión a la integridad física del niño” (cons. 20).
+sin que existicra algún interés público lo suficientemente relevante que justifi-
+cara dicha intrusión.
+
+Resulta claro, entonces. que la Corte acaba de ratificar expresamente la
+doctrina sentada cn “Bazterrica”, según la cual el art. 19 de la Ley Fundamental
+otorga una protección mucho más amplia que la limitada a las acciones que
+arralgan y permanecen en el interior de la conciencia de las personas y que sólo
+a ellas conciernen. sin concretarse en actos exteriores.
+
+Por tal razón, al mantenerse incólume uno de los fundamentos centrales de
+
+--- pagina 34 de 34 ---
+
+1366 FALLOS DE LA CORTE SUPREMA
+
+313
+“Bazterrica”, cabe concluir que no se da en autos una de las razones excepcionales,
+mencionadas en el cons. 16, que justificarían el apartamiento de dicho precedente.
+
+20) Que, conforme a lo señalado en el cons. 6 de este voto, tampoco se
+observa que existan nuevos elementos fácticos, esto es “las lecciones de las
+experiencias” o “las cambiantes circunstancias históricas”, que permitan apar-
+tarse de lo resuelto por el Tribunal en “Bazterrica”, en el sentido de que los datos
+de la realidad indicaban la ineficacia de aplicar sanciones penales a la mera
+tenencia, con el objeto de combatir el flagelo de la drogadicción.
+
+21) Que, en consecuencia, cabe concluir que no existen en el caso “causas
+suficientemente graves” que determinen la necesidad de apartarse de lo resuelto
+anteriormente. En tal sentido, conviene tener en cuenta que los argumentos
+formulados en autos para propiciar el citado apartamiento constituyen, en lo
+esencial, sólo una reiteración de los ya expresados en casos anteriores, lo cual es
+una excelente razón para mantener la doctrina vigente.
+
+22) Que, al haber incriminado el art. 14, segundo párrafo, de la ley 23.737,
+la tenencia de estupefacientes para uso personal, con independencia del daño o
+peligro concreto que aquella pudiera ocasionar a terceros, y al no ser posible una
+interpretación de dicha norma que, sin forzar su texto. la haga compatible con la
+Constitución (doctrina de Fallos: 308: 647, considerando 8 y sus citas), resultan
+aplicables los principios enumerados precedentemente a los fines de declarar su
+inconstitucionalidad.
+
+Por ello, habiendo dictaminado el Sr. Procurador General, se deja sin efecto la
+sentencia apelada. Notifíquese y devuélvase a fin de que, por quien corresponda,
+se dicte un pronunciamiento con prescindencia de la norma declarada inconstitu-
+cional.
+
+ENRIQUE SANTIAGO PETRACCHI.

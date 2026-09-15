@@ -1,0 +1,173 @@
+Ley 13.074 PBA - Registro de Deudores Alimentarios Morosos (texto actualizado)
+==============================================================================
+Jurisdiccion:     pba
+Fuente:           https://normas.gba.gob.ar/documentos/B1758s40.html
+Descargado:       2026-09-14
+SHA-256 (crudo):  bef8232c9c6b138df50d5417c1c6c3b1191bf0f272abf6884f1aea3260681613
+Charset:          UTF-8
+
+Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
+NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
+Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+el manifiesto `normas.json`.
+==============================================================================
+
+Ley 13074
+
+LEY 13.074
+
+
+
+Texto actualizado con las modificaciones introducidas por Ley 14652, 15078 y 15520
+
+
+
+EL SENADO Y CÁMARA DE DIPUTADOS DE LA PROVINCIA DE BUENOS AIRES, SANCIONAN CON FUERZA DE
+
+
+
+LEY
+
+
+
+ARTÍCULO 1.- Créase el Registro de Deudores Alimentarios Morosos.
+
+
+
+FUNCIONES
+
+
+
+ARTÍCULO 2.- Sus funciones son:
+
+
+
+a) Inscribirse en su Registro, dentro de las veinticuatro horas de recibido el oficio judicial que así lo ordene, los deudores alimentarios declarados tales en los Departamentos Judiciales de la Provincia.
+
+
+
+b) Proceder a la inscripción cuando por rogatoria llegare la misma solicitud de cualquier otra Provincia o Ciudad Autónoma de Buenos Aires.
+
+
+
+c) Anotar marginalmente en inscripción anterior, el oficio judicial por el cual se ordena levantamiento de la anotación.
+
+
+
+d) Responder los pedidos de informes según la base de datos registrados dentro del plazo de cinco (5) días de recibida la solicitud.
+
+
+
+e) Promover la incorporación de las instituciones privadas al cumplimiento del requisito previo que esta Ley establece.
+
+
+
+DE LOS DEUDORES
+
+
+
+ARTÍCULO 3.- (Texto según Ley 15520) Toda persona obligada al pago de la obligación alimentaria por sentencia firme, convenio debidamente homologado o resolución que establezca alimentos provisorios que incumpliera con el pago de una cuota provisoria o definitiva, una vez intimado y si no hubiere podido demostrar su cumplimiento, deberá ser inscripto inmediatamente por orden judicial de oficio o a solicitud de parte, en el Registro de Deudores Alimentarios Morosos.
+
+
+
+En la sentencia o auto que fije la obligación alimentaria deberá transcribirse el presente artículo.
+
+
+
+ARTÍCULO 3 bis.- (Artículo incorporado por Ley 13074) Quienes resulten solidariamente responsables del pago de la deuda alimentaria en los términos del artículo 551 del Código Civil y Comercial de la Nación, previa intimación fehaciente acerca de los motivos del incumplimiento, deberán ser inscriptos inmediatamente por orden judicial, de oficio o a solicitud de parte, en el Registro de Deudores Alimentarios Morosos.
+
+
+
+DEL PEDIDO DE INFORMES
+
+
+
+ARTÍCULO 4.- (Texto según Ley 14652) El Registro estará a disposición de todos aquellos que requieran información, la cual será solicitada por escrito con firma y datos personales del peticionante o del autorizado si se tratare de persona jurídica, correspondiéndole al R.D.A. expedir certificados con sello y firma del organismo con las constancias que obren en sus registros o expidiendo un “libre de deuda registrada”, previo pago de las tasas correspondientes”.
+
+
+
+ARTÍCULO 4 bis.- (Artículo incorporado por Ley 14652 - Texto según Ley 15078) Los recursos provenientes de la tasa por expedición de informes, de conformidad a lo previsto en el artículo 4° de la presente ley, ingresarán a Rentas Generales
+
+
+
+ARTÍCULO 5.- (Texto según Ley 15520) Las instituciones y organismos públicos oficiales, provinciales o municipales, no darán curso a los siguientes trámites o solicitudes sin el informe correspondiente del Registro de Deudores Alimentarios Morosos con el “libre deuda registrada”:
+
+
+
+a) Solicitudes de apertura de cuentas corrientes y de otorgamiento o renovación de tarjetas de crédito, como también cualquier otro tipo de operaciones bancarias, bursátiles o servicios financieros que la respectiva reglamentación determine;
+
+
+
+b) Habilitaciones para la apertura de comercios y/o industrias. Si el deudor alimentario no tuviese otra fuente de ingresos, se otorgará provisoriamente por ciento veinte (120) días el permiso para la apertura de comercios y/o industrias con la obligación de regularizar su situación dentro de dicho plazo para obtener la definitiva;
+
+
+
+c) Concesiones, permisos y/o licitaciones -Para el supuesto de solicitud o renovación de créditos se exigirá el informe y será obligación de la Institución bancaria otorgante depositar lo adeudado a la orden del juzgado interviniente;
+
+
+
+d) La solicitud de la licencia de conductor o su renovación se otorgará provisoriamente por sesenta (60) días, con la obligación de regularizar su situación dentro de dicho plazo para obtener la definitiva;
+
+
+
+e) Inscripción en el Registro Central de Aspirantes a Guarda con Fines Adoptivos.
+
+
+
+Las personas humanas o jurídicas, que en los términos del artículo 3 bis de la presente Ley, estén inscriptas en el Registro de Deudores Alimentarios Morosos, hasta que regularicen las retenciones correspondientes a los haberes de sus empleados o de cualquier otro acreedor, no podrán:
+
+
+
+a) Solicitar o renovar créditos de la Banca Pública Provincial;
+
+
+
+b) Acceder a programas de financiamiento o subsidios para empresas o microemprendimientos;
+
+
+
+c) Acceder a concesiones, permisos o participar en licitaciones.
+
+
+
+ARTÍCULO 5 bis.- (Artículo incorporado por Ley 15520) Será obligatorio presentar certificado expedido por el Registro de Deudores Alimentarios Morosos para la designación como funcionario/a o empleado/a bajo cualquier modalidad y categoría en cualquiera de los poderes del Estado provincial y municipal, organismos descentralizados como así también de las empresas y sociedades estatales y con participación del estado provincial, y las empresas privadas concesionarias de servicios públicos.
+
+
+
+Constatada la condición de deudor alimentario inscripto, la dirección de personal o autoridad del organismo que corresponda comunicará la designación al juzgado interviniente, dentro de los diez (10) días hábiles siguientes al nombramiento, a efectos que el juzgado, de oficio o a instancia de parte, tome las medidas correspondientes al estado del proceso.
+
+
+
+ARTÍCULO 5 ter.- (Artículo incorporado por Ley 15520) Será obligatorio presentar certificado expedido por el Registro de Deudores Alimentarios Morosos para todos los postulantes a cualquier cargo electivo provincial o municipal.
+
+
+
+En el caso de ser electo, deberá presentar un nuevo certificado. Constatada la condición de deudor alimentario inscripto, la dirección de personal o autoridad del organismo que corresponda comunicará la diplomación al juzgado interviniente dentro de los diez (10) días hábiles siguientes de la misma, a efectos que el juzgado, de oficio o a instancia de parte, tome las medidas correspondientes al estado del proceso.
+
+
+
+ARTÍCULO 5 quater:- (Artículo incorporado por Ley 15520) Será obligatorio presentar certificado expedido por el Registro de Deudores Alimentarios Morosos a todos los postulantes a desempeñarse como magistrados y funcionarios del Poder Judicial.
+
+
+
+En el caso de ser designado, deberá presentar un nuevo certificado. Constatada la condición de deudor alimentario inscripto, la dirección de personal o autoridad del organismo que corresponda comunicará la designación al juzgado interviniente dentro de los diez (10) días hábiles siguientes al nombramiento, a efectos que el juzgado, de oficio o a instancia de parte, tome las medidas correspondientes al estado del proceso.
+
+
+
+ARTÍCULO 6.- (Texto según Ley 15520) El certificado expedido se exigirá a los proveedores de todos los organismos oficiales, provinciales, municipales, descentralizados, empresas y sociedades del estado provincial y/o con participación del estado provincial, y a las prestadoras de servicios públicos.
+
+
+
+ARTÍCULO 7.- En cualquiera de los casos indicados en los precedentes Arts. 5º y 6º, si se tratare de personas jurídicas, se exigirá el certificado del R.D.A. a sus directivos y responsables.
+
+
+
+SANCIONES ADMINISTRATIVAS
+
+
+
+ARTÍCULO 8.- (Texto según Ley 15520) Todo incumplimiento de la presente Ley, se considerará falta grave, y hará pasible a quien incurriere en ello de la sanción que corresponda conforme al régimen jurídico que le sea aplicable.
+
+
+
+ARTÍCULO 9.- Comuníquese al Poder Ejecutivo.

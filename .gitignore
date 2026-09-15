@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+*.pyc
+/logs/
+/outputs/
+/.claude/
+/.playwright-mcp/
+
+# Obras comerciales con derechos reservados: ejemplares locales del abogado.
+# NO commitear. La sintesis citable esta en argentina/skills/derecho-argentino/references/danos-indice-doctrinario.md.
+argentina/fuentes/_local/

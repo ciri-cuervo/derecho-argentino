@@ -1,0 +1,21 @@
+# Los fines de linea se normalizan a LF en el repositorio, en las tres plataformas.
+#
+# No es cosmetica. `herramientas/frontera_kb.py` es el guardarrail de la frontera de licencia:
+# fija el sha256 de los 109 archivos de argentina/kb/, que son capa 2 y de otro autor. Con un
+# checkout CRLF esos 109 hashes cambian sin que cambie una letra, y el script -que ademas
+# hashea el texto normalizado, por si esto falla- reportaria la capa 2 entera como alterada.
+# Una alarma que suena entera se calla con --fijar, y ahi se pierde la frontera.
+#
+# Lo mismo vale para el hash de texto de fuentes/: se calcula en memoria, pero el .txt en
+# disco tiene que ser el mismo archivo en las tres plataformas.
+* text=auto eol=lf
+
+# Binarios: que git no los toque.
+*.pdf   binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.ttf   binary
+*.ttc   binary
+*.otf   binary
+*.ico   binary

@@ -1,0 +1,244 @@
+{
+  "_descripcion": "Veredicto por ley citada con articulado y no declarada en normas.json. Lo produce la lectura del modulo donde se cita, no el conteo: cobertura_normativa.py separa reformas de fuentes de regla, pero esa deteccion mira una ventana de texto y se equivoca en los dos sentidos. Una ley sin entrada acá sigue apareciendo como pendiente.",
+  "fijado": "2026-09-14",
+  "_criterio": "Se decide leyendo el modulo: si la ley sostiene una regla que la skill afirma, hay que bajar su texto; si solo aparece nombrada o como reforma de otra que si esta, no hace falta.",
+  "_vocabulario": {
+    "bajar": "se usa como fuente de una regla y su texto no esta en fuentes/",
+    "no-hace-falta": "el articulado que se cita pertenece a una ley que ya esta bajada, o la mencion es historica o bibliografica"
+  },
+  "nota": "Se cierra la Ley 25.917, que entro citada al explicar el alcance del art. 62 de la Ley 27.798.",
+  "leyes": {
+    "13101": {
+      "motivo": "dio texto a la mayor parte de la Ley 12.008, que esta bajada",
+      "veredicto": "no-hace-falta"
+    },
+    "13478": {
+      "motivo": "art. 9, pension por invalidez: es la norma que se discute en el fallo de 34.6 y salud-discapacidad.md la necesita",
+      "veredicto": "bajar"
+    },
+    "14407": {
+      "motivo": "adhesion de PBA a la Ley 27.736 Olimpia: define desde cuando rige la cautelar digital en la provincia",
+      "veredicto": "bajar"
+    },
+    "15170": {
+      "motivo": "art. 72: el art. 32 de la Ley 13.927 remite a el y transito.md ya tiene marcador pidiendo verificarlo",
+      "veredicto": "bajar"
+    },
+    "15410": {
+      "motivo": "modificatoria de la Ley 13.133 PBA, que esta bajada. El propio modulo dice que su contenido no esta verificado",
+      "veredicto": "no-hace-falta"
+    },
+    "16986": {
+      "motivo": "art. 2 inc. e: plazo del amparo federal, que plazos.md 8.5 tabula",
+      "veredicto": "bajar"
+    },
+    "17132": {
+      "motivo": "solo aparece en danos-indice-doctrinario.md, que es el indice de una obra comercial y nombra toda ley que el libro discute: es mencion bibliografica, no uso de la norma como fuente de una regla",
+      "veredicto": "no-hace-falta"
+    },
+    "17520": {
+      "motivo": "solo aparece en danos-indice-doctrinario.md, que es el indice de una obra comercial y nombra toda ley que el libro discute: es mencion bibliografica, no uso de la norma como fuente de una regla",
+      "veredicto": "no-hace-falta"
+    },
+    "17711": {
+      "motivo": "solo aparece en danos-indice-doctrinario.md, que es el indice de una obra comercial y nombra toda ley que el libro discute: es mencion bibliografica, no uso de la norma como fuente de una regla",
+      "veredicto": "no-hace-falta"
+    },
+    "19032": {
+      "motivo": "PAMI: salud-discapacidad.md lo cita como sujeto obligado",
+      "veredicto": "bajar"
+    },
+    "20475": {
+      "motivo": "solo aparece en danos-indice-doctrinario.md, que es el indice de una obra comercial y nombra toda ley que el libro discute: es mencion bibliografica, no uso de la norma como fuente de una regla",
+      "veredicto": "no-hace-falta"
+    },
+    "20771": {
+      "motivo": "ley de estupefacientes derogada por la 23.737, que esta bajada. Se la nombra al describir que decidieron Bazterrica y Montalvo",
+      "veredicto": "no-hace-falta"
+    },
+    "21526": {
+      "motivo": "art. 39, secreto financiero: datos-personales.md lo opone a la accion de habeas data",
+      "veredicto": "bajar"
+    },
+    "22434": {
+      "motivo": "reformo el CPCCN, que esta bajado",
+      "veredicto": "no-hace-falta"
+    },
+    "22977": {
+      "motivo": "solo aparece en danos-indice-doctrinario.md, que es el indice de una obra comercial y nombra toda ley que el libro discute: es mencion bibliografica, no uso de la norma como fuente de una regla",
+      "veredicto": "no-hace-falta"
+    },
+    "23187": {
+      "motivo": "solo aparece en danos-indice-doctrinario.md, que es el indice de una obra comercial y nombra toda ley que el libro discute: es mencion bibliografica, no uso de la norma como fuente de una regla",
+      "veredicto": "no-hace-falta"
+    },
+    "23660": {
+      "motivo": "obras sociales: define a que sujetos alcanza la obligacion de cobertura",
+      "veredicto": "bajar"
+    },
+    "23661": {
+      "motivo": "art. 22, redistribucion del Seguro de Salud: salud-discapacidad.md lo usa como regla",
+      "veredicto": "bajar"
+    },
+    "23696": {
+      "motivo": "solo aparece en danos-indice-doctrinario.md, que es el indice de una obra comercial y nombra toda ley que el libro discute: es mencion bibliografica, no uso de la norma como fuente de una regla",
+      "veredicto": "no-hace-falta"
+    },
+    "23789": {
+      "motivo": "telegrama laboral gratuito: ejecucion.md y telegramas.md lo citan como via fehaciente",
+      "veredicto": "bajar"
+    },
+    "23798": {
+      "motivo": "solo aparece en danos-indice-doctrinario.md, que es el indice de una obra comercial y nombra toda ley que el libro discute: es mencion bibliografica, no uso de la norma como fuente de una regla",
+      "veredicto": "no-hace-falta"
+    },
+    "23849": {
+      "motivo": "solo aparece en danos-indice-doctrinario.md, que es el indice de una obra comercial y nombra toda ley que el libro discute: es mencion bibliografica, no uso de la norma como fuente de una regla",
+      "veredicto": "no-hace-falta"
+    },
+    "23929": {
+      "motivo": "se la nombra para excluir a los docentes del ambito de la Ley 14.250; no se aplica su articulado",
+      "veredicto": "no-hace-falta"
+    },
+    "24410": {
+      "motivo": "su art. 12 esta declarado inconstitucional en Napoli y se lo cita por eso; el articulado que rige es el del CPPN, bajado",
+      "veredicto": "no-hace-falta"
+    },
+    "24573": {
+      "motivo": "solo aparece en danos-indice-doctrinario.md, que es el indice de una obra comercial y nombra toda ley que el libro discute: es mencion bibliografica, no uso de la norma como fuente de una regla",
+      "veredicto": "no-hace-falta"
+    },
+    "24635": {
+      "motivo": "art. 7, clausura del SECLO. laboral.md lo cita para contrastar con PBA, donde no aplica",
+      "veredicto": "bajar"
+    },
+    "24700": {
+      "motivo": "de ella viene el art. 223 bis LCT, y la LCT esta bajada",
+      "veredicto": "no-hace-falta"
+    },
+    "24754": {
+      "motivo": "art. 1: las prepagas cubren como minimo lo mismo que las obras sociales. Es el eslabon de la cadena de cobertura",
+      "veredicto": "bajar"
+    },
+    "24769": {
+      "motivo": "regimen penal tributario derogado por la Ley 27.430, cuyo Titulo IX esta bajado. Se la cita por su derogacion",
+      "veredicto": "no-hace-falta"
+    },
+    "24830": {
+      "motivo": "solo aparece en danos-indice-doctrinario.md, que es el indice de una obra comercial y nombra toda ley que el libro discute: es mencion bibliografica, no uso de la norma como fuente de una regla",
+      "veredicto": "no-hace-falta"
+    },
+    "25013": {
+      "motivo": "sus arts. 6 y 7 se nombran porque los alcanza la Ley 25.323, que si esta bajada",
+      "veredicto": "no-hace-falta"
+    },
+    "25212": {
+      "motivo": "Pacto Federal del Trabajo: laboral.md lo cita por el regimen de sanciones",
+      "veredicto": "bajar"
+    },
+    "25248": {
+      "motivo": "solo aparece en danos-indice-doctrinario.md, que es el indice de una obra comercial y nombra toda ley que el libro discute: es mencion bibliografica, no uso de la norma como fuente de una regla",
+      "veredicto": "no-hace-falta"
+    },
+    "25390": {
+      "motivo": "aprueba el Estatuto de Roma, cuyos arts. 6 a 8 bis delimitan el ambito del juicio en ausencia del art. 343 bis CPPF: sin el texto no se puede decir si un hecho cae adentro",
+      "veredicto": "bajar"
+    },
+    "25675": {
+      "motivo": "solo aparece en danos-indice-doctrinario.md, que es el indice de una obra comercial y nombra toda ley que el libro discute: es mencion bibliografica, no uso de la norma como fuente de una regla",
+      "veredicto": "no-hace-falta"
+    },
+    "25831": {
+      "motivo": "solo aparece en danos-indice-doctrinario.md, que es el indice de una obra comercial y nombra toda ley que el libro discute: es mencion bibliografica, no uso de la norma como fuente de una regla",
+      "veredicto": "no-hace-falta"
+    },
+    "26023": {
+      "motivo": "aprueba la Convencion Interamericana contra el Terrorismo, cuyo art. 2 es la otra puerta de entrada al juicio en ausencia del art. 343 bis CPPF",
+      "veredicto": "bajar"
+    },
+    "26122": {
+      "motivo": "art. 24: para rechazar un DNU hacen falta ambas camaras. civil.md lo usa al analizar el DNU 70/23",
+      "veredicto": "bajar"
+    },
+    "26200": {
+      "motivo": "implementa el Estatuto de Roma en derecho argentino: es la que tipifica los delitos a los que remite el art. 343 bis CPPF",
+      "veredicto": "bajar"
+    },
+    "26222": {
+      "motivo": "libre opcion jubilatoria: previsional.md la cita al tratar el transito al SIPA",
+      "veredicto": "bajar"
+    },
+    "26529": {
+      "motivo": "solo aparece en danos-indice-doctrinario.md, que es el indice de una obra comercial y nombra toda ley que el libro discute: es mencion bibliografica, no uso de la norma como fuente de una regla",
+      "veredicto": "no-hace-falta"
+    },
+    "26856": {
+      "motivo": "registro de antecedentes que consumidor.md cita como carga de la autoridad de aplicacion",
+      "veredicto": "bajar"
+    },
+    "27147": {
+      "motivo": "reformo el art. 59 CP, y el Codigo Penal esta bajado",
+      "veredicto": "no-hace-falta"
+    },
+    "27150": {
+      "motivo": "implementacion del CPPF: penal.md 24.1 depende de ella para el cronograma por distrito",
+      "veredicto": "bajar"
+    },
+    "27553": {
+      "motivo": "receta electronica: se la nombra en la fila de fuentes de telegramas.md junto al articulado de la LCT, que esta bajada",
+      "veredicto": "no-hace-falta"
+    },
+    "27701": {
+      "motivo": "su art. 119 reexpreso el art. 47 inc. b LDC, y la LDC esta bajada",
+      "veredicto": "no-hace-falta"
+    },
+    "27736": {
+      "motivo": "Ley Olimpia, art. 26 ap. a.8 y a.9: cautelar digital que familia.md 18.6 solo roza",
+      "veredicto": "bajar"
+    },
+    "27784": {
+      "motivo": "reforma del CPPF y de la Ley 23.984, los dos ya bajados: su texto quedo incorporado al consolidado y el modulo cita el articulado del codigo, no el de la ley reformadora",
+      "veredicto": "no-hace-falta"
+    },
+    "27785": {
+      "motivo": "sustituyo articulos del CPPF, que esta bajado",
+      "veredicto": "no-hace-falta"
+    },
+    "27793": {
+      "motivo": "reformo los arts. 2 y 3 de la Ley 22.431, que esta bajada",
+      "veredicto": "no-hace-falta"
+    },
+    "27798": {
+      "motivo": "su art. 62 es excepcion a los arts. 7 y 10 de la Ley 23.928 -prohibicion de indexar-, que laboral.md 5.5 usa como eje de la actualizacion de creditos: sin el texto no se puede decir si la excepcion cubre el credito laboral",
+      "veredicto": "bajar"
+    },
+    "27799": {
+      "motivo": "reescribio el art. 56 de la Ley 11.683, que esta bajada",
+      "veredicto": "no-hace-falta"
+    },
+    "23857": {
+      "veredicto": "bajar",
+      "motivo": "fallos-csjn.md 34.5 cita el art. 13 inc. b del CH 1980 -excepcion de grave riesgo- y un eval gradua sobre el; el holding esta leido contra el fallo, pero el texto del convenio no esta"
+    },
+    "25358": {
+      "veredicto": "bajar",
+      "motivo": "la CSJN aplica sus criterios interpretativos junto con los del CH 1980 por identidad de proposito y contenido: familia.md 18.8 rutea los dos juntos"
+    },
+    "27501": {
+      "veredicto": "no-hace-falta",
+      "motivo": "incorporo el inc. g al art. 6 de la Ley 26.485, que ya esta bajada y trae el texto consolidado con esa modalidad: no hace falta la ley reformadora aparte"
+    },
+    "27533": {
+      "veredicto": "no-hace-falta",
+      "motivo": "incorporo el inc. h -violencia publica-politica- al art. 6 de la Ley 26.485, que ya esta bajada con ese texto"
+    },
+    "27714": {
+      "veredicto": "no-hace-falta",
+      "motivo": "sustituyo el art. 48 inc. a de la Ley 24.449 -alcoholemia cero-, que ya esta bajada y trae el texto vigente; transito.md 28 lo cita desde el codigo, no desde la reformadora"
+    },
+    "25917": {
+      "veredicto": "no-hace-falta",
+      "motivo": "Regimen Federal de Responsabilidad Fiscal. laboral.md 5.5 la nombra solo para decir de que se trata la excepcion del art. 62 de la Ley 27.798 -sus arts. 25 y 26 son la autorizacion que esa excepcion exige-, y la conclusion es que la excepcion NO alcanza al credito laboral: no se apoya ninguna regla del modulo en su articulado"
+    }
+  }
+}

@@ -1,0 +1,1170 @@
+Fiorentino, Diego Enrique
+==============================================================================
+Tribunal:         CSJN
+Cita:             Fallos 306:1752
+Fecha declarada:  1984-01-01  <- 1 de enero: fecha sin confirmar en el manifiesto
+Fuente del PDF:   https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7835711
+Derivado de:      jurisprudencia/csjn-fiorentino-fallos-306-1752.pdf
+SHA-256 del PDF:  9b29c79470060f73c87aaa51edc6fd2b743947fcfe7dbc357795f085503d9319
+Paginas:          27
+Generado:         2026-09-14
+Herramienta:      tesseract 5.5.3, -l spa --psm 6, pdftoppm -r 300
+
+TEXTO RECUPERADO POR OCR LOCAL. No se bajo de la fuente: la capa de texto que traia el
+PDF estaba arruinada y esto es una relectura de las imagenes de la pagina. NO es
+publicacion oficial y no reemplaza al PDF. Para transcribir un considerando a un escrito,
+cotejar contra la pagina del PDF: el numero de pagina esta marcado abajo.
+
+Regenerar: python3 herramientas/reocr_jurisprudencia.py csjn-fiorentino-fallos-306-1752
+==============================================================================
+--- pagina 1 de 27 ---
+
+1752 FALLOS DE LA CORTE SUPREMA
+DIEGO ENRIQUE FIORENTINO
+RECURSO EXTRAORDINARIO: Requisitos propios. Cuestión federal. Cuestiones
+federales siriples. Interpretación de la Constitución Nacional.
+Procede el recurso extraordinario en ei caso en que el agravio que formula
+el recurrente — ilegitimidad de la diligencia policial, en la que se secues-
+tró cierta cantidad de marihuana, por resultar violatoria de la garantía
+de la inviolabilidad del domicilio consagrada en el art. 18 de la Constitu-
+ción Nacional— suscita cuestión federal bastante para la apertura de la
+instancia del art. 14, de la ley 48, pues la sustancia del planteo conduce
+en definitiva a determinar el alcance de la referida garantía constitucional.
+
+CONSTITUCION NACIONAL: Derechos y garantías. Domicilio y correspondencia.
+El art.. 18 de la Constitución Nacional consagra el derecho individual a la
+privacidad del domicilio de todo habitante —correlativo del principio
+general del art. 19— en cuyo resguardo se determina la garantía de su
+inviolabilidad, oponible a cualquier extraño, sea particular o funcionario
+público. Aunque en rigor no resulta exigencia del art. 18 que la orden de
+allanamiento emane de los jueces, el principio es que sólo ellos pueden
+autorizar esa medida, sin perjuicio de algunos supuestos en que se recono-
+ce a los funcionarios la posibilidad de obviar tal recaudo (confr. en el orden
+nacional los arts. 188 y 189 del Código de Procedimientos en Materia
+Penal).
+
+CONSTITUCION NACIONAL: Derechos y garantías. Domicilio y correspondencia.
+Resulta ilegítimo el allanamiento efectuado por personal policial —del que
+resultó el secuestro de cierta cantidad de marihuana— si, en el can, nu
+se ha configurado ninguna de las excepciones previstas en el art. 189 del
+Código de Procedimientos en Materia Penal, ni ha mediado consentimiento
+válido que permitiera dicha intromisión en el domicilio del procesado,
+dado que la prueba examinada revela la falta de fundamentación —en ese
+punto— de la sentencia apelada. Ello así, pues —aun de haberse autorizado
+el ingreso— este permiso carecería de efectos al haber sido el apelante
+aprehendido e interrogado sorpresivamente por una comisión de cuatro
+hombres en momentos en que ingresaba con su novia en el hall del edificio
+donde habitaba, quedando detenido, y resulta irrazonable lo expresado por
+el a auo en el sentido de que debió mediar al menos una resistencia verbal
+para que fuera oída por los testigos, a lo que cabe agregar que esperar una
+actitud de resistencia en ese caso importaría reclamar una postura no exigible
+con arreglo a la conducta ordinaria de las personas.
+
+--- pagina 2 de 27 ---
+
+DE JUSTICIA DE LA NACIÓN 1753
+
+CONSTITUCION NACIONAL: Derechos y garantía. Defensa en juicio. Procedi-
+
+miento y sentencia.
+
+Establecida la invalidez del registro domiciliario, igual suerte debe correr
+el secuestro de marihuana practicado en esas circunstancias. Ello así, pues
+la incautación dal cuerpo del delito no es entonces sino el fruto de un
+procedimiento ilegítimo, y reconocer su idoneidad para sustentar la condena
+equivaldría a admitir la utilidad del empleo de medios ilícitos en la pe;-
+secución penal, haciendo valer contra el procesado la evidencia obtenida
+con desconocimiento de garantías constitucionales, lo cual no sólo es con-
+tradictorio con el reproche formulado, sino que compromete la buena admi-
+nistración de justicia al pretender constituirla en beneficiaria del hecho
+ilícito.
+
+CONSTITUCION NACIONAL: Derechos y garantías. Domicilio y correspondencia.
+La inviolabilidad del domicilio es una de las garantías más preciosas de la
+libertad individual, consagrada en los albores del derecho público argentino
+por el art. 4% dei Decreto de Seguridad Individual del 23 de noviembre de
+1811, que fue sucesivamente recibido por los instrumentos de gobierno
+anteriores a la vigente Constitución de 1853. Es en el ámbito del domi-
+cilio donde se plasma una importante dimensión de la libertad personal y,
+por lo mismo, la violación del aludido ámbito traería aparejado el menos-
+cabo de esa libertad, cuya realización plena tutela la Constitución Nacional
+(Voto del doctor Enrique Santiago Petracchi).
+
+CONSTITUCION NACIONAL: Derechos y garantías. Domicilio y correspondencia.
+La eminente jerarquía del derecho a la inviolabilidad del domicilio debe
+ser concertada, al igual que el similar derecho a la inviolabilidad de la
+correspondencia y de los papeles privados, con el interés social en la
+averiguación de los delitos y el ejercicio adecuado del poder de policía
+(Voto del doctor Enriaue Santiago Petrac<chi).
+
+CONSTITUCION NACIONAL: Derechos y garantías. Domicilio y correspondencia.
+La íntima conexión existente entre la inviolabilidad del domicilio, y espe-
+cialmente de la morada, con la dignidad de la persona y el respeto a su
+libertad, imponen a la reslamentación condiciones más estrictas que las
+reconocidas respecto de otras garantías, pues al hallarse aquéllas entraña-
+blemente vinculadas, se las debz defender con igual celo, porque ninguna
+cadena es más fuerte que su eslabón más débil, aunque aquélla no sea
+reductible a éste (Voto del doctor Enrique Santiago Petracchi).
+
+--- pagina 3 de 27 ---
+
+1754 FALLOS DE LA CORTE SUPREMA
+
+RECURSO EXTRAORDINARIO: Requisites propios. Cuestión federal. Cuestiones
+
+federales simples. Interpretación de la Constitución Nacional.
+Con respecto ai derccho a la inviolabilidad del domicilio, las “condiciones
+razonables” que el legislador se encuentra autorizado a establecer para su
+ejercicio, deben ser consideradas con particular detenimiento y según pautas
+especialmente rigurosas, pues está en ¡uego una incstimabie libertad personal
+básica. En consecuencia, la confrontación entre dichas pautas de razonabi-
+lidad y las limitaciones impuestas por Jas leyes reglamentarias a la inviola-
+bilidad del domicilio excede con mucho ¡o meramente procesal y constituye
+una cuestión federal sustancial que determina en el caso la procedencia
+del recurso extraordinario (Voto del «doctor Enrique Suntiago Petracchi).
+
+CONSTITUCION NACIONAL: Derechos y garantías. Domicilio y correspondencia.
+Si el consentimiento puede admitirse como una causa de legitimación para
+invadir la intimidad de la morada, él ha de ser expreso y comprobadamente
+anterior a la entrada de los representantes de la autoridad pública a la
+vivienda, no debe mediar fuerza 9 intiraidación, y a la persona que lo
+presta se le debe hacar saber que tiene derecho a negar la autorización
+para el allanamiento (Voto del doctor Enrique Santiazo Petracchi).
+
+CONSTITUCION NACIONAL: Derechos y garantías. Domicilio y correspondencia.
+Descartada la existercia de consentimiento que pueda JuZzgurse como causa
+válida de la presencia de los agentes policiales en la vivienda del imputado.
+se sigue que los efectos secuestrados a raíz de tal intioducción ilegal en la
+esfera de la intimidad de aquél no pueden ser admitidos como elementos
+probatorios en la causa, pues el método seguido para su obtención ofende
+al sentido de justicia (Voto del doctor Enrique Santiago Petracchi).
+
+CONSTITUCION NACIONAL: Derechos y carantas. Domicilio y correspondencia.
+El solo consentimiento expreso debidamente comprobado, con conocimiento
+del derecho a no prestarlo, y previo al ingreso de los agentes del orden a la
+vivienda puede justificar, si así lo dice la ley procesal, dicho ingreso realizadu
+sin orden de autoridad competente emitida con los recaudos pertinentes y
+sin mediar situaciones definibles como estado de necesidad de acuerdo con
+la ley. Asimismo, los medios probatorios incautados mediante un allana-
+miento ilegal de morada no son admisibles en juicio v determinan la nulidad
+de la sentencia que se base sustancialmente en ellos (Voto del doctor Enrique
+Santiago Petracchi).
+
+CONSTITUCION NACIONAL: Derechos y garantías. Domicilio y correspondencia.
+"Si el corpus delicti sólo cabría darse por probado mediante los elementos
+secuestrados con quebrantamiento de la inviolabilidad del domicilio, ello
+
+--- pagina 4 de 27 ---
+
+DE JUSTICIA DE JA NACIÓN 1755
+no sólo sustenta le revocación del pronunciamiento que condenó al imputado
+como autor del delito de tenencia de estupefacientes, sino que determina la
+exclusión de la condena (Voto del doctor Enrique Santiago Patracchi).
+
+DICTAMEN DEL PROCURADOR GENERAL
+Suprema Corte:
+
+La Sala VI de la Cámara Nacional de Apelaciones en lo Criminal
+y Correccional confirmó el fallo de primera instancia por el cual se con-
+denó al imputado por el delito de tenencia de estupefacientes. Entendie-
+10n esos magistrados que el operativo policial realizado, por el cual se
+procedió al secuestro de cigarrillos que contenían marihuana en el do-
+micilio de los padres del procesado, no constituía un allanamiento ilegal.
+Para llegar a esta conclusión elaboró el a quo dos fundamentos alterna-
+tivos. El primero referido a que la autorización, según constancias de la
+causa, había sido otorgada por el propio encausado. En el segundo se-
+ñaló que aun partiendo del supuesto de que pudiera cuestionarse el valor
+de cse permiso “en vista de tratarse de un menor de edad a los fines le-
+gales, ya que contaba diecinueve años al momento del hecho, y admi--
+tizndo que los padres no la acordaron como lo expresan en sus declara-
+ciones de fs. 113 y 114 debe reconocerse, empero, que tampoco se
+opusieron, pudiendo hacerlo, ya que estaban presentes, expresando con-
+cretamente su voluntad de oponerse al personal policial, consintiendo
+gue la inspección se llevara a cabo en la habitación de su hijo”.
+
+I
+
+Contra ese fallo se interpuso recurso extraordinario cuya denega-
+toria dio lugar a la presente queja.
+
+El recurrente coincide en que el carácter de menor de edad del
+condenado impide considerar válido su consentimiento. Pero destaca
+que los padres, según reconoce el a quo, no acordaron autorización al-
+guna al personal policial. Entiende que no se puede pretender actitudes
+heroicas por parte de los ciudadanos para defensa de sus derechos; en
+un caso, porque el heroísmo se le reclama a un menor y, en el otro,
+porque se le exige a quienes de improviso ven avasallado su domicilio
+
+--- pagina 5 de 27 ---
+
+1756 FALLOS DE LA CORTE SUPREMA
+
+por una comisión policial que tiene detenido a su hijo. Considera que
+no son los individuos quienes deben defender sus derechos por propia
+mano, y señala que la Cámara aceptó que al momento de ingresar al
+domicilio, los padres no habían prestado ninguna clase de autorización,
+con lo cual se habría realizado un allanamiento. Señala que la ley deter-
+mina la forma en que el personal policial puede ingresar en un domici-
+lio, y así dice en forma clara el art. 188 del Código de rito que cuando
+fuera necesario penetrar en un domicilio particular el funcionario de po-
+licía deberá recabar del Juez competente la respectiva orden de allana-
+miento. Entiende que éste es el principio al cual deben someterse las
+fuerzas de seguridad, sobre todo cuando tuvieron todo el tiempo nece-
+sario para hacerlo, pues ya se había efectivizado la detención del im-
+putado.
+
+rl
+
+A mi modo de ver, la invalidez del permiso otorgado por el encau-
+sado no deriva exclusivamente de su edad, como lo afirma el a quo,
+sino que a esa conclusión debe arribarse ponderando esa circunstancia
+con la restricción a la libre expresión de voluntad que implica el haber
+sido detenido previamente y con la presencia de ambos padres —titula-
+res del derecho de exclusión— en el domicilio en el momento del hecho.
+
+Sentada esta disidencia de fundamentos y a efectos de aclarar los
+hechos que la Cámara tuvo por acreditados, creo oportuno transcribir
+los párrafos de las declaraciones de los padres del imputado obrantes a
+fs. 113/114, citadas por el a quo.
+
+A fs. 113 declara la madre del procesado quien señala que estando
+con su marido en la cocina observó que entraban dos muchachos segui-
+dos por el imputado y su novia y otras dos personas, quienes la saluda-
+ron, y ante la pregunta de si eran amigos, la novia del procesado respon-
+dió que no; que eran de la policía. Más sorprendida todavía —prosigue
+la declarante—, recibió la manifestación de uno de los cuatro sujetos
+que entraron en la casa, “quien le aclara que son de Toxicomanía”, sin
+mostrar ninguna identificación. “Bajan para el dormitorio de mi hijo y
+yo voy atrás con mi marido”. “El mayor —le digo mayor porque era
+el más grande de los cuatro— nos detiene y nos dice que nosotros no
+
+--- pagina 6 de 27 ---
+
+DE JUSTICIA DE LA NACIÓN 1757
+podíamos pasar, que nos quedáramos tranquilos y quedó en la puerta
+de la habitación y entraron todos los demás”.
+
+En forma coincidente declara a fs. 114 el padre del procesado,
+quien relata que estando en la cocina dos personas entraron en ella,
+sorprendiéndose al verlos porque no los conocía y se dirigieron al dor-
+mitorio de su hijo. Detrás de ellos iban su hijo y su novia y atrás otros
+dos desconocidos. Transcurrieron unos segundos tras lo cual el último
+de los cuatro extraños, le dijo: “Señor, no se haga problema. Somos de
+la Policía. “Y así los seis se introdujeron al dormitorio. El señor mayor
+de edad le impidió el paso a la habitación diciendo que esperara hasta
+más tarde”.
+
+Sobre la base de estos testimonios y descartando el de fs. 115 pres-
+tado por la novia del procesado, el a quo entendió que de la falta de
+expresión de la voluntad de excluir al personal policial debía derivarse el
+consentimiento de los: padres a la inspección de su domicilio.
+
+MI
+
+Aclarada así la situación fáctica que los jueces de la causa tuvieron
+por acreditada corresponde analizar si la actuación policial afectó la
+inviolabilidad del domicilio consagrada por el art. 18 de la Constitución
+Nacional, y para el caso afirmativo, si la infracción realizada implica la
+nulidad probatoria solicitada por el recurrente.
+
+* La cuestión, pues, remite a la determinación de la naturaleza de
+la garantía constitucional cuya protección se requiere y de la forma que
+asume su menoscabo, con el objeto de establecer el alcance de la aptitud
+protectora de esas garantías, aptitud que la ley sólo instrumenta.
+
+Por ello, si bien la solución del problema requiere el tratamiento
+de aspectos procesales regidos por la ley del rito, toda vez que ellos se
+encuentran enraizados en la garantía consagrada por el art. 18 de la
+Constitución Nacional, entiendo que la cuestión resulta formalmente pro-
+cedente, pues afecta a instituciones fundamentales que el recurso extra-
+ordinario se propone salvaguardar, ya que hacen al mantenimiento de
+la supremacía constitucional (Doctrina de Fallos: 95:133; 134; 99:
+158; 104:284; 105:183; 177:99; 246:132; 256:94; 259:307; 262:178;
+300:921).
+
+--- pagina 7 de 27 ---
+
+1758 FALLOS DE LA CORTE SUPREMA
+
+La posición contraria cxpuesta en Fallos: 301:676, implica vaciar
+de todo contenido a la garantía constitucional subordinándola a lo que
+se establece en las leyes de procedimiento, vulnerando así lo dispuesto
+por los arts, 28 y 31 de la Constitución Nacional.
+
+En apoyo de la tesis que sostengo, cabe recordar la sentencia de
+esta Corte en cl memorable caso “Siri”? (Fallos: 239:459) en la que
+se reconoció por primera vez la procedencia de la acción de amparo. Se
+estableció en ese precedente que las garantías individuales existen y
+protegen a los ciudadanos por el solo hecho de estar consagradas por
+la Constitución e independientemente de las leyes reglamentarias. Re-
+firiéndose precisamente a la inviolabilidad del domicilio expresó el Tri-
+bunal en esa ocasión, que esas leyes sólo son requeridas para establecer
+“en qué casos y con qué justificativos podrá procederse a su allanamien-
+to y Ocupación”.
+
+En el mismo fallo se recordaba que a fines del siglo pasado señala-
+ba Joaquín V. González que las declaraciones, derechos y garantías, no
+son como puede creerse simples fórmulas teóricas: “cada uno de los ar-
+tículos y cláusulas que las contienen poseen fuerza obligatoria, para los
+individuos, para las autoridades y para toda la Nación. Los jueces deben
+aplicarlas en la plenitud de su sentido, sin alterar o debilitar con vagas
+interpretaciones o ambigiiedades la expresa significación de su texto.
+Porque son la defensa personal, el patrimonio inalterable que hace de
+cada hombre, ciudadano o no, un ser libre e independiente dentro de
+la Nación Argentina”.
+
+IV
+
+Creo oportuna referirme, con carácter previo, al alcance que debe
+atribuirse a la expresión “el domicilio es inviolable” utilizada por nues-
+tros constituyentes. La garantía así consagrada, no surgió del mero vo-
+luntarismo de esos congresales sino que reconocía hondas raíces histó-
+ricas desde los orígenes mismos de la patria.
+
+Quizás con mayor ciaridad y rigor, la idea ya se expresó en el De-
+creto de Seguridad Individual firmado el 23 de noviembre de 1811, que
+integraba el Estatuto Provisional dictado en ese año, sancionado por el
+Triunvirato constituido por Feliciano Chiclana, Manuel de Sarratea, Juan
+
+--- pagina 8 de 27 ---
+
+DE JUSTICIA DE LA NACIÓN 1759
+José Paso y Bernardino Rivadavia como Secretario. Establecía en su
+art. 49: “La casa de un ciudadano es un (lugar) sagrado, cuya viola-
+ción es un crimen; sólo en el caso de resistirse el reco, refugiado a la
+convocación del Juez podrá allanarse. Su allanamiento se hará con la
+moderación debida, y personalmente por el Juez de la causa. Si algún
+motivo urgente impide su asistencia, dará al delegado una orden por
+escrito y con la especificación que contiene cel antecedente artículo, dan-
+do copia de ella al aprehendido, y al dueño de la casa si la pide”.
+
+Normas de similar tenor se incluían en el Estatuto Provisional de
+1815, Sección VI!, Cap. T, art. XV y las Constituciones de 1819 Sec-
+ción Y, Capítulo TH, «arts. CXIX y CXX y de 1826, Sección VIII, arts.
+172 y 173.
+
+Refiriéndose a la actual redacción Joaquín V. González (“Manual”,
+pág. 208) enseña que el domicilio es el centro de las acciones privadas
+de los hombres que la Constitución Nacional declara reservadas a Dios
+y exentas de la autoridad de los magistrados, allí donde se realizan la
+soberanía del individuo y los actos y sagrados misterios de la vida fa-
+miliar. Añade que, es el espacio en el cual un hombre tiene poder su-
+perior al del Estado mismo.
+
+Al recordar uña ant:qua frase referida al sistema jurídico británico,
+según la cual la autoridad del rey debe detenerse ante la puerta de la
+casa del más humilde labriego ingiés, González Caiderón, en su “Dere-
+cho Constitucional”, Tomo II, pág. 172, señala que a nada quedarían
+reducidas la libertad y la seguridad de las personas si pudiera el poder
+público violar el hogar impunemente.
+
+V
+
+Tomando en consideración las enseñanzas de Joaquín V. González ya
+expuestas, según las cuales las garantías constitucionales deben aplicar-
+se en la plenitud de su sentido, sin alterar o debilitar con vagas interpre-
+taciones y ambigiiedades la cxpresa significación de su texto y estable-
+cido en el sub lite que la autorización dada por el menor resultó invá-
+lida, no cabe duda que el obrar de los funcionarios policiales vulneró
+el derecho a la inviolabilidad del domicilio al que me vengo refiriendo.
+Así lo pienso, pues de las constancias citadas por el a quo en apoyo de su
+
+--- pagina 9 de 27 ---
+
+1760 FALLOS DE LA CORTE SUPREMA
+decisión, resulta que no existió permiso válido alguno antes de que se in-
+trodujeran cn el departamento.
+
+Aunque por vía de hipótesis fuera compartible lo expuesto por la
+Cámara, en el sentido de adjudicar a la falta de oposición expresa de
+los padres del imputado el carácter de un consentimiento tácito a la
+actuación policial, no advierto razón —ni el a quo suministra alguna—
+por la cual deba concluirse que esa supuesta autorización, prestada al
+encontrarse con la comisión policial en el interior del domicilio, justifique
+el allanamento ya consumado.
+
+Toda vez que no se ha invocado ninguna de las causales en las que
+el Código de Procedimientos en Materia Penal para la Justicia Fedcral
+autoriza a prescindir de la orden judicial para realizar un allanamiento,
+considero que el procedimiento policial fue ilegítimo.
+
+VI
+
+Dado que los jueces de la causa supeditaron el valor probatorio del
+secuestro realizado a la legitimidad de la inspección domiciliaria, estimo
+que, de acuerdo a lo resuelto por esos mismos magistrados, la ilegali-
+dad del procedimiento determina la invalidez del referido secuestro, que
+no puede, en consecuencia, servir de fundamento a la sentencia con-
+denatoria.
+
+No dejo de advertir que de esta solución puede devenir la impu-
+nidad del ilícito que se investigó en la causa, y que de tal modo se po-
+dría ver afectado el legítimo interés de la sociedad toda en reprimir el
+delito.
+
+Pienso, sin embargo, que por un imperativo legal arraigado en un
+principio ético, para cumplir su misión de reprimir el delito, el Estado
+no puede aprovechar de acciones ilícitas. Es que entiendo que el éxito
+de una investigación penal no puede ni debe basarse en la realización
+de conductas antijurídicas, ya que de tal modo para evitar un daño se
+realiza otro, con el agravante de que sus autores son precisamente, quie-
+nes fueron comisionados por la sociedad para custodiar la legalidad.
+
+Aun analizándolo desde un punto de vista utilitario, en orden a la
+eficiencia de la represión, creo que los mejores resultados se obtienen
+
+--- pagina 10 de 27 ---
+
+DE JUSTICIA DE LA NACIÓN 1761
+cuando se respetan escrupulosamente las formas legales prescriptas, pues
+en esos casos no sólo es posible detectar a los culpable mediante la acti-
+vidad policial, sino que no se presentan obstáculos para su posterior
+condena en sede judicial.
+
+En este orden de ideas creo oportuno destacar que la particular
+situación histórica que ha vivido nuestro país recientemente —<que, por
+conocida suficientemente, no es necesario describir aqui—, contribuyó
+a la creación de un clima poco propicio en orden al respeto de los
+límites constitucionales a la investigación penal por parte de las fuerzas
+de seguridad, a quienes la ley atribuye la prevención sumarial.
+
+La circunstancia apuntada obliga a fijar con claridad las pautas de
+interpretación y alcance de las garantías constitucionales, a efectos de
+
+. que las fuerzas policiales puedan encauzar su accionar por los carriles
+de la legalidad.
+
+Por todo lo cual, sin que ello implique emitir opinión sobre el sen-
+tido final del decisorio, opino que corresponde anular el fallo dictado
+y mandar emitir por quien corresponda un nuevo pronunciamiento. Bue-
+nos Aires, 21 de mayo de 1984. Juan Octavio Gauna. :
+
+FALLO DE LA CORTE SUPREMA
+Buenos Aires, 27 de noviembre de 1984.
+
+Vistos los autos: “Recurso de hecho deducido por el abogado de-
+fensor en la causa Fiorentino, Diego Enrique s/tenencia ilegítima de es-
+tupefacientes”, para decidir sobre su procedencia.
+
+Considerando:
+
+19) Que según surge de los autos principales (a cuyas fojas se re-
+ferirán las citas siguientes), Diego Enrique Fiorentino fue detenido por
+una comisión policial el 24 de noviembre de 1981 cuando ingresaba con
+su novia en el hall del edificio de departamentos de la calle Junín 1276
+de esta Capital, y al ser interrogado reconoció espontáneamente ser po-
+seedor de marihuana que guardaba para consumo propio en la unidad
+C del primer piso de dicho inmueble, donde vivía con sus padres, por
+
+--- pagina 11 de 27 ---
+
+1762 FALLOS DE JA CORTE SUPREMA
+
+lc aus habría autorizado el regisiro domiciliario. De ese modo se se-
+cuestraron en su dormitorio cinco cigarrillos y cinco colillas de picadura
+de cannabis sativa (marihuana) y 38 semillas de la misma especie
+(confr. fs. 1/5).
+
+2*) Que durante el juicio (fs. 94/96) la defensa inpugnó el aludido
+procedimiento por ser contrario a la garantía de la inviolabilidad del do-
+micilio e importar un allanamiento ilegítimo, toda vez que se efectuó
+sin autorización válida. Con ese objeto depuso a fs. 112 Fiorentino,
+quien sostuvo que al ser detenido le sacaron las llaves del departamento
+con las que ingresaron en él los cuatro integrantes de la brigada y dos
+testigos, junto con cl declarante y su novia. Los progenitores del encau-
+sado declararon a fs. 113 y 114, coincidiendo en que fueron sorprendi-
+dos en la cocina de la vivienda por la presencia de los extraños, quie-
+nes pasaron para el dormitorio de su hijo —donde no los dejaron en-
+trar— limitándose a anunciar que eran de la policía. Olalla Diana Mira,
+novia del procesado, ofreció a fs. 115 una versión análoga a la de éste
+en el sentido de que la comisión policial lo detuvo y con sus llaves acce-
+dió al domicilio donde llevaron a cabo el secuestro. La testigo de la di-
+ligencia, Tomasa Catalina Zanoni, sólo declaró ante la autoridad de pre-
+vención, sin que en sus dichos exista referencia alguna a la existencia O
+inexistencia de autorización (fs. 11/12). El otro testigo, Omar Daniel
+Antonelli, en sede policial dijo que se procedió “con la autorización
+pertinente” (fs. 13/14), mas al deponer en el plenario manifestó no
+recordar si existió o no autorización, cómo se produjo el acceso y dón-
+de se encontraban cn ese momento los padres de Fiorentino (fs. 104),
+vale decir, las circunstancias estructurantes del consentimiento o auto-
+rización a que había hecho referencia.
+
+39) Que en primera instancia Fiorentino fue condenado como
+autor del delito de tenencia de estupefacientes (art. 6% de la ley 20.771),
+a la pena de un año de prisión en suspenso y multa de un millón de
+pesos (denominación de la ley 18.188), más el pago de las costas. Las
+alegaciones de la defensa fueron desechadas por presumirse la autoriza-
+ción de los padres del condenado para el ingreso en la vivienda (fs.
+121/125). Apelada esta decisión, se mantuvieron a fs. 131/135 los
+argumentos contra la ilegitimidad del secuestro y la pertinente reserva
+del caso federal. La Cámara Nacional de Apelaciones en lo Criminal y
+
+--- pagina 12 de 27 ---
+
+DE JUSTICIA DE LA NACIÓN 1763
+Correccional, Sala WE confirmó «u 1s. 137/139 la condena. Sostuvo
+allí, para desechar los agravios del apelante, que no se había violado en
+el caso ninguna garantía constitucional, pues el procedimiento policial
+resultaba legítimo. Ello habría sido así, por haber autorizado Fiorentino
+la entrada en el departamento, según el testimonio del oficial que inter-
+vino y levantó el acta —único policía que prestó declaración (fs.
+1/2)—, el acta de fs. 3/4 y los dichos del testigo Antonelli ante la pre-
+vención. Descartó en tal sentido la declaración de Mira (fs. 115) por
+su vinculación con el procesado, y también lo expuesto por éste a fs.
+112, porque “si la autorización no hubiera existido... la lógica más
+eiemental indica que Fiorentino alguna resistencia verbal habría opues-
+to a que se llevara a cabo la diligencia aunque más no fuera para que
+la oyeran los testigos que acompañaban a la comisión policial y así lo
+manifestaran en el proceso”. Afirmó, asimismo, que aun cuando pudiera
+cuestionarse la validez de tal permiso por ser el imputado menor de
+edad, y admitiendo que los padres no lo acordaron expresamente según
+lo expusieran a fs. 113/114, “debe reconocerse empero que tampoco
+se Opusieron, pudiendo hacerlo, ya que estaban presentes, expresando
+concretamente su voluntad de excluir al personal policial, consintiendo
+gue la inspección se llevara a cabo en la habitación de su hijo Diego”.
+4%) Que contra el referido pronunciamiento se dedujo el recurso
+extraordinario de fs. 148/154, cuya denegación (fs. 159) origina la pre-
+sente queja. El apelante mantiene el cuestionamiento de la validez de la
+diligencia policial, sosteniendo su ilegitimidad por resultar violatoria de
+la garantía de la inviolabilidad del domicilio consagrada en el art. 18
+de la Constitución Nacional. Establecidas las circunstancias fácticas del
+caso tal como han sido admitidas por el a quo, el agravio que formula
+el recurrente suscita cuestión federal bastante para la apertura de la
+instancia prevista en el art. 14 de la ley 48 pues, como lo destaca el se-
+nor Procurador General en su dictamen, la sustancia del planteo con- "
+duce en definitiva a determinar el alcance de la referida gurantía cons-
+titucional (doc. de Fallos: 46:36 y 177:390). La dicho importa apar-
+tarse del criterio sustentado por el Tribunal —en su anterior composi-
+ción— al decidir la causa que se registra en Fallos: 301:676.
+59) Que el art. 18 de la Constitución Nacional establece que “el
+domicilio es inviolable...; y una ley determinará en qué casos y con
+
+--- pagina 13 de 27 ---
+
+1764 FALLOS DE LA COR1E SUPREMA
+
+qué justificativos podrá procederse a su allanamiento y ocupación”. Se
+consagra así cl derecho individual a la privacidad del domicilio de to-
+do habitante —correlativo del principio general del art. 19— en cuyo
+resguardo se determina la garantía de su inviolabilidad, oponible a cual-
+quier extraño, sea particular o funcionario público. Si bien la cláusula
+constitucional previó la reglamentación del tema por vía de una ley, son
+diversas las leyes especiales que contienen disposiciones sobre el modo
+en que puede efectuarse cl allanamiento en determinadas materias, y en
+particular es en algunas constituciones y en los códigos de procedimien-
+tos locales donde se regulan las excepciones a la inmunidad del domi-
+cilio. Aunque en rigor no resulta exigencia del art. 18 que la orden de
+allanamiento emane de los jueces, el principio es que sólo ellos pueden
+autorizar esa medida, sin perjuicio de algunos supuestos en que se re-
+conoce a los funcionarios la posibilidad de obviar tal recaudo (confr.
+en el orden nacional los arts. 188 y 189 del Código de Procedimientos
+en Materia Penal). En cuanto al alcance del concepto “domicilio”, es
+innecesario aquí ahondar sobre su contenido pues está fuera de discu-
+sión que la diligencia policial se llevó a cabo en la residencia particular
+del imputado, donde vvía de modo permanente con su familia.
+
+6%) Que en la especie no se ha configurado ninguna de las exccp-
+ciones previstas en el art. 189 del Código de Procedimientos en Materia
+Penal, ni ha mediado consentimiento válido que permiticra la intro-
+misión del personal policial en el domicilio del procesado, dado que la
+prueba examinada revela la falta de fundamentación —en cse punto—
+de la sentencia del a quo. En efecto, aun de haber autorizado éste el
+ingreso como se señala en los testimonios del oficial subinspector Ver-
+dini (fs. 1/2) y de Omar D. Antonelli (fs. 13) y en el acta de fs. 3/4;
+y hasta dejando de lado las declaraciones vertidas en el plenario por
+Antonelli, Fiorentino y Mira (fs. 104, 112 y 115), el permiso que po-
+
+. dría haber otorgado carecería de efectos por las circunstancias en que
+se prestó, al haber sido Fiorentino aprehendido e interrogado sorpresi-
+vamente por una comisión de cuatro hombres en momentos en que in-
+gresaba con su novia en el hall del edificio donde habitaba, quedando
+detenido. En tales condiciones, lo expresado por el a quo en el sentido
+de que debió mediar al menos una resistencia verbal para que fuera oída
+por los testigos, resulta irrazonable dada la situación referida, a lo que
+se suma la inexperiencia del imputado en trances de ese tipo, factor que
+
+--- pagina 14 de 27 ---
+
+DE JUSTICIA DE LA NACIÓN 1765
+puede presumirsc en razón de su edad y de la falta de antecedentes ju-
+diciales. Por otra parte, admitido como fue en la sentencia que los pro-
+genitores no autorizaron el allanamiento, aparece carente de lógica dc-
+rivar la existencia de un supuesto consentimiento tácito por ausencia de
+oposición expresa al registro, cuando ya se había consumado el ingreso
+de los extraños en la vivienda, máxime si se tiene en cuenta cl modo co-
+mo se desarrollaron los hechos según surge de los testimonios de fs. 104
+y 115. Esperar una actitud de resistencia en ese caso importaría reclamar
+una postura no exigible con arreglo a la conducta ordinaria de las per-
+sonas. Lo expuesto, y la falta de extremos de necesidad que impidieran
+proceder de acuerdo a la ley recabando la pertinente orden judicial, lle-
+va a concluir en la ilegitimidad del allanamiento.
+
+79%) Que, en consecuencia, establecida en el sub lite la invalidez
+del registro domiciliario, igual suerte debe correr el secuestro practica-
+do en esas circunstancias. Ello es así porque la incautación del cuerpo
+del delito no es entonces sino el fruto de un procedimiento ilegítimo, y
+reconocer su idoneidad para sustentar la condena equivaldría a admitir
+la utilidad del empleo de medios ilícitos en la persecución penal, ha-
+ciendo valer contra el procesado la evidencia obtenida con desconoci-
+miento de garantías constitucionales (doc. de Fallos: 46:36) lo cual
+“no sólo es contradictorio con el reproche formulado, sino que compro-
+mete la buena administración de justicia al pretender constituirla en be-
+neficiaria del hecho ilícito” (Fallos: 303:1938).
+
+Por «llo, y de conformidad con lo dictaminado por el señor Procu-
+rador General, se declara procedente el recurso deducido y se deja sin
+efecto la sentencia apelada. Reintégrese el depósito de fs. 26, acumúlese la
+queja al principal y devuélvanse al tribunal de origen a fin de que, por
+quien corresponda, se dicte un nuevo pronunciamiento con arreglo a la
+presente.
+
+JosÉ SEVERO CABALLERO — CARLOS S. FAYT
+. — AUGUSTO CÉSAR BELLUSCIO — ENRI-
+QUE SANTIAGO PETRACCHI (según su voto).
+
+--- pagina 15 de 27 ---
+
+17£6 FALLOS DE LA CORTE SUPREMA
+VOTO DEL SEÑOR MINISTRO DOCTOR DON ENRIQUE SANTIAGO PETRACCHI
+
+Considerando:
+
+1%) Que según surge de los autos principales (a cuyas fojas se
+rcferirán las citas siguientes), Dicgo Enrique Fiorentino fue detenido
+por una comisión policial el 24 de noviembre de 1981 cuando ingresaba
+con su novia en el hall del edificio de departamentos de la calle Junín
+N9 1276 de esta Capital, y al ser interrogado reconoció espontáneamente
+ser poseedor de marihuana que guardaba para consumo propio en la
+unidad C del primer piso de dicho inmueble, donde vivía con sus pa-
+dres, autorizando el registro domiciliario. De ese modo se secuestraron
+en su dormitorio cinco cigarrillos y cinco colillas de picadura de canna-
+bis setiva (marihuana) y 38 semillas de la misma especie (confr. fs. 1/5).
+
+29) Que durante el juicio la defensa impugnó el aludido procedi-
+miento por ser contrario a la garantía de la inviolabilidad del domicilio
+e importar un allanamiento ilegítimo, toda vez que se efectuó sin auto-
+rización válida. Con ese objeto depuso a fs. 112 Fiorentino, quien sos-
+tuvo que al ser detenido le sacaron las llaves del departamento con las
+que ingresaron en él los cuatro integrantes de la brigada y dos testigos,
+junto con el declarante y su novia. Los progenitores del encausado de-
+clararon a fs. 113 y 114, coincidiendo en que fueron sorprendidos en la
+cocina de la vivienda por la presencia de los extraños, quiencs pasa-
+ron para el dormitorio de su hijo —donde no los dejaron entrar— li-
+mitándose 4 anunciar que eran de la policía. Olalla Diana Mira, novia
+del procesado, ofreció a fs. 115 una versión análoga a la de éste en sen-
+tido de que la comisión policial lo detuvo y con sus llaves accedió al
+domicilio donde llevaron a cabo el secuestro. La testigo de la diligencia,
+Tomasa Catalina Zanoni, sólo declaró ante la autoridad de prevención,
+sin aque en sus dichos exista referencia alguna a la existencia de autori-
+zación (fs. 11/12). El otro testigo, Omar Daniel Antonelli, en sede
+policial dijo que se proccdió “con la autorización pertinente” (fs. 13/
+14), mas al deponer en el plenario manifestó no recordar si existió
+dicho permiso (fs. 104).
+
+39) Que en primera instancia Fiorentino fue condenado como au-
+tor del delito de tenencia de estupefacientes (art. 62 de la ley 20.771),
+a la pena de un año de prisión en suspenso y multa de un millón de pe-
+
+--- pagina 16 de 27 ---
+
+DE JUSTICIA DE LA NACIÓN 1767
+sos (denominación de la ley 18.188), más el pago de las costas. Las
+alegaciones de la defensa fueron desechadas por presumirse autorización
+de los padres del condenado para el ingreso en la vivienda (fs. 121/125).
+Apelada esta decisión, se mantuvieron a fs. 131/135 los argumentos con-
+tra la ilegitimidad del secuestro y la pertinente reserva del caso federal.
+La Cámara Nacional de Apelaciones en lo Criminal y Correccional, Sa-
+la VÍ, confirmó a fs. 137/139 la condena. Sostuvo allí, para desechar los
+agravios del apelante, que no se había violado en el caso ninguna garan-
+tía constitucional, pues el procedimiento policial resultaba legítimo. Ello
+habría sido así por haber autorizado Fiorentino la entrada en el depar-
+tamento, según el testimonio del oficial que intervino (fs. 1/2), el acta
+de fs. 3/4 y las declaraciones del testigo Antonelli ante la prevención.
+Descartó en tal sentido el aserto de Mira (fs. 115) por su vinculación
+con el procesado y también lo expuesto por éste a fs. 112, porque “si
+la autorización no hubiera existido... la lógica más elemental indica
+que Fiorentino alguna resistencia verbal habría opuesto a que se llevara
+a cabo la diligencia aunque más no fuera para que la oyeran los testigos
+que acompañaban a la comisión policial y así lo manifestaran en el pro-
+ceso”. Afirmó el a quo, asimismo, que aun cuando pudiera cuestionarse
+la validez de tal permiso por ser el imputado menor de edad, y admi-
+tiendo que los padres no lo acordaron expresamente según lo expusie-
+ron afs. 113 y 114, “debe reconocerse empero que tampoco se opusie-
+ron, pudiendo hacerlo, ya que estaban presentes, expresando concreta-
+mente su voluntad de excluir al personal policial, consintendo que la
+inspección se llevara a cabo en la habitación de su hijo Diego”.
+
+40) Que contra el referido pronunciamiento se dedujo el recurso
+extraordinario de fs. 148/154, cuya denegación (fs. 159) origina la pre-
+sente queja. El apelante cuestiona la diligencia policial, sosteniendo su
+ilegitimidad por resultar lesiva de la garantía de la inviolabilidad del do-
+micilio consagrada en el art. 18 de la Constitución Nacional.
+
+5%) Que esta Corte, en su actual composición, no comparte el cri-
+terio expuesto sobre la materia en pronunciamientos anteriores, según
+el cual lo atinente a las condiciones del allanamiento y a su validez sólo
+reviste carácter procesal y no resulta susceptible de examen en la ins-
+tancia extraordinaria del art. 14 de la ley 48 (Fallos: 275:454; 277:
+467; 301:676: 303:1593; 304:105, entre otros).
+
+--- pagina 17 de 27 ---
+
+1768 FALLOS DE LA CORTE SUPREMA
+
+Esta caracterización del tema es incorrecta, pues la inviolabilidad
+del domicilio es una de las garantías más preciosas de la libertad indi- -
+vidual, consagrada en los albores del derecho público argentino por el
+art. 4? del Decreto de Seguridad Individual del 23 de noviembre de
+1811, que fue sucesivamente recibido por los instrumentos de gobierno
+anteriores a la vigente Constitución de 1853.
+
+Respecto de dicha garantía, como de otras fundamentales, afirma
+Alberdi que *...escritos o no, hollados o respetados, se pueden repu-
+tar principios conquistador para siempre por la revolución republicana y
+esculpidos en la conciencia de los pobladores los siguientes... la invio-
+labilidad de la vida, de la casa, de la dignidad...” (Juan Bautista Al-
+berdi, Obras Completas, Tomo V, Elementos del Derecho Público Pro-
+vinciol Argentino, Edic. de 1886, págs. 44 y 45, parágr. V).
+
+La vinculación directa que estas palabras del prócer establecen en-
+tre la vida y la dignidad de la persona y la inviolabilidad de su habita-
+ción se encuentra expresada con vigor en el citado art. 4% del Decreto
+de Seguridad Individual del 23 de noviembre de 1811, según el cual “La
+casa de todo habitante es un (lugar) sagrado, que no puede violarse sin cri-
+men y sólo podrá allanarse en caso de resistencia a la autoridad legítima”.
+
+En tal orden de ideas Joaquín V. González expresa: “Si la perso-
+na es inviolable y está protegida tan ampliamente por la Constitución,
+es porque ha sido considerada en toda la extensión de sus atributos, así
+comprende la conciencia, el cuerpo, la propiedad y la residencia u ho-
+gar de cada hombre. La palabra domicilio abraza estos dos últimos sen-
+tidos. Hogar es la vivienda y por excelencia el centro de las acciones
+privadas que la Constitución declara reservadas a Dios v exenta de la
+autoridad de los magistrados (art. 19), allí donde se realizan la sobera-
+nía y los actos y sagrados misterios de la vida de la familia...” (Ma-
+nual de la Constitución, NY 193).
+
+El segundo argumento transcripto pone de manifiesto el fundamen-
+to último de la inviolabilidad del domicilio: el de garantizar la libertad
+personal. En efecto, es precisamente en el ámbito de aquél donde se
+plasma una importante dimensión de ella, y, por lo mismo, la violación
+del aludido ámbito traería aparejado el menoscabo de esa libertad, cu-
+ya realización plena tutela la Constitución Nacional.
+
+--- pagina 18 de 27 ---
+
+DE JUSTICIA DE LA NACIÓN 1769
+
+6%) Que la eminente jerarquía del derecho a la inviolabilidad del
+domicilio debe ser concertada, al igual que el similar derecho a la in-
+violabilidad de la correspondencia y de los papeles privados, con el in-
+terés social en la averiguación de los delitos y el ejercicio adecuado del
+poder de policía. La propia Constitución lo prevé cuando autoriza en la
+misma cláusula de su art. 18, referente a la inviolabilidad del domicilio
+la reglamentación de tal derecho mediante ley que determine en qué
+casos y con qué justificativos podrá procederse a su allanamiento u ocu-
+pación. Sin embargo, la íntima conexión existente entre la inviolabilidad
+del domicilio, y especialmente de la morada, con la dignidad de la per-
+sona y el respeto a su libertad, imponen a la reglamentación condiciones
+más estrictas que las reconocidas respecto de otras garantías, pues al
+hallarse aquéllas entrañablemente vinculadas, se las debe defender con
+igual celo, porque ninguna cadena es más fuerte que su eslabón más
+débil, aunque aquélla no sea reductible a éste. Por consiguiente, cuando
+se trata del derecho a la inviolabilidad de la morada, al igual que de
+otros del mismo rango, resulta inapropiada la latitud con la cual admi-
+ten restricciones reglamentarias los dicia que se encuentran en los pre-
+cedentes de Fallos: 171:366 y 177:390.
+
+La dificultad para acotar de antemano el ámbito de la libertad de
+cada individuo no autoriza a concluir que el legislador se encuentra
+habilitado para efectuar discrecionalmente dicha acotación. Si así fuera
+carecería de sentido la elevada misión de los jueces de preservar la su-
+premacía de la Constitución. Respecto de éstos, además, la indetermina-
+ción intrínseca que cabe reconocer al aludido ámbito no les impide sa-
+ber en cada caso concreto, lo que desde el exterior conforma a la liber-
+tad, cuando se la quebranta.
+
+En la materia en examen, las “condiciones razonables” que el le-
+gislador se encuentra autorizado a establecer para el ejercicio del dére-
+cho constitucionalmente reconocido (Fallos: 117:432, pág. 435) de-
+ben ser consideradas con particular detenimiento y según pautas espe-
+cialmente rigurosas, pues está en juego una inestimable libertad perso-
+nal básica (v. como ejemplo de tal doctrina, lo expresado por el juez
+Black al emitir su voto en el caso Morey v. Doud 354 U.S. 457, p. 471).
+
+7%) Que, en consecuencia, la confrontación entre dichas pautas
+de razonabilidad y las limitaciones impuestas por las leyes reglamenta-
+
+--- pagina 19 de 27 ---
+
+1770 FALLOS DE LA CORTE SUPREMA
+
+rias a la inviolabilidad del domicilio excede con mucho lo meramente
+procesal y constituye una cuestión federal sustancial que determina en el
+caso la procedencia del recurso extraordinario, que ha sido, por lo tanto,
+mal denegado por el a quo.
+
+82) Que, de acuerdo con lo expuesto, el punto constitucional a
+resolver se refiere a la determinación de las condiciones mínimas que
+debe reunir el consentimiento del interesado para que quepa admitirlo
+como justificante válido del ingreso de agentes de policía en la morada
+sin orden escrita de autoridad competente, y sin que se den las situa-
+ciones de emergencia contempladas por las leyes procesales.
+
+Tal artículo debe ser meditado en el marco de las reglas principa-
+les del allanamiento de morada, a las que no cabe entender totalmente
+deferidas por el art. 18 de la Constitución al solo criterio del legislador.
+
+En efecto, no sería razonable pensar que los constituyentes de
+1853, al no reproducir las normas que sobre la materia fueron consa-
+gradas en el derecho público argentino a partir del Decreto de Segu-
+ridad Individual de 1811, hayan querido despojar de su jerarquía cons-
+titucional al núcleo elemental de recaudos enunciados en dichas normas,
+los que consisten en la necesidad de una orden escrita emanada de auto-
+ridad competente en la que se delimite el objeto de la medida.
+
+No hace falta una inteligencia muy trabajada del asunto para com-
+prender que, a fin de que la libertad no muera de imprecisión, han de
+interpretarse de manera particularmente estricta las excepciones que
+quepa introducir, en los casos de allanamiento de morada, a la exigencia
+de orden escrita de autoridad competente que contenga indicaciones pun-
+tuales sobre el lugar y objeto de la providencia.
+
+En este sentido, no parece que el Código de Procedimientos en
+materia penal para los tribunales nacionales faculte a prescindir de tal
+orden escrita de allanamiento, fuera de los casos de estado de necesidad
+contemplados por el art. 189 de ese cuerpo legal, y que otorgue al con-
+sentimiento un alcance mayor que el previsto en el art. 400, inc. 49, o
+sea, el asignarle valor a los fines de que el allanamiento debidamente
+autorizado se realice de noche, cuando ello por regla está prohibido.
+
+Los arts. 188 y 189 del Código de Procedimientos en materia pe-
+nal disponen: “188. - Cuando con el mismo objeto de la investigación
+
+--- pagina 20 de 27 ---
+
+DE JUSTICIA DE LA NACIÓN 1771
+criminal o aprehensión del delincuente, fuere necesario penetrar en el
+domicilio de algún particular, el funcionario de Policía deberá recabar
+del Juez competente la respectiva orden de allanamiento.
+
+189. - Se exceptúa de lo dispuesto en el artículo anterior los casos
+siguientes:
+
+19%) Cuando se denuncie por uno o más testigos, haber visto per-
+sonas que han asaltado una casa, introduciéndose en ella, con indicios
+manifiestos de ir a cometer algún delito.
+
+20) Cuando se introduzca en la casa un reo de delito grave a
+quien se persigue para su aprehensión.
+
+39) Cuando se oigan voces dentro de la casa que anuncien estarse
+cometiendo algún delito, o cuando se pida socorro.”
+
+La elección de posibilidades interpretativas de la mencionada ley
+procesal debe orientarse a la luz de los valores que animan las palabras
+de la Constitución. También el legislador, nacional o provincial, deberá
+ajustar su función reglamentaria al contorno así iluminado. Pero, al de-
+terminar el intérprete las condiciones mínimas para la validez del allana-
+miento que se desprenden de la propia cláusula constitucional, se halla-
+rá que el consentimiento revestido de suficientes garantías de autentici-
+dad no es incompatible por definición con el amparo de la inviolabilidad
+de la morada.
+
+Es decir, que el legislador nacional o provincial está autorizado,
+de lege ferenda, a dar efectos al consentimiento en esta materia, siendo
+misión de la jurisprudencia constitucional establecer los requisitos y al-
+cances que debe reunir a los fines de no sobrepasar los límites impues-
+tos por el art. 18.
+
+Ahora bien, si la determinación de esos aspectos de índole direc-
+tamente constitucional termina arrojando resultados adversos al crite-
+rio propiciado por el a quo en punto al consentimiento legitimante de la
+actitud policial, ello bastará para resolver la causa sin necesidad de
+erigir en ratio decidendi la interpretación de la ley procesal.
+
+Sobre el particular, cabe poner de relieve que el a quo deduce la
+existencia de tal consentimiento justificante de la falta de resistencia
+
+--- pagina 21 de 27 ---
+
+1772 FALLOS DE LA CORTE SUPREMA
+
+verbal del imputado, cuando ya se hallaba detenido, a la entrada de los
+agentes policiales y, especialmente, de la falta de oposición expresa de
+sus padres cuando los agentes ya se encontraban en el interior de la mo-
+rada, cuyo ingreso no les había sido franqueado por los progenitores
+del aprehendido, a quienes no se les permitió presenciar el registro prac-
+ticado en la habitación de aquél. O sea que sólo la activa protesta fren-
+te al hecho consumado excluiría la posibilidad de entender que ha me-
+diado un consentimiento tácito que, además, tendría el efecto de excu-
+sar a posteriori la entrada no consentida de los agentes policiales.
+
+Con tal inteligencia, hija de otras épocas y de otra inspiración, el
+a quo establece, en realidad, una presunción de renuncia a un derecho
+fundamental basada en la omisión de una protesta expresa que, en la
+situación concreta y en el contexto social y cultural de nuestro país,
+aparece como una exigencia demedida e inmune a la razón, desdice
+al entendimiento común, el del ámbito de la doxa que, al fin y al cabo,
+es el de la imaginación.
+
+Si el consentimiento puede admitirse como una causa de legitima-
+ción para invadir la intimidad de la morada, él ha de ser expreso y com-
+probadamente anterior a la entrada de los representantes de la autori-
+dad pública a la vivienda, no debe mediar fuerza o intimidación, y a la
+persona que lo presta se le debe hacer saber que tiene derecho a negar
+la autorización para el allanamiento. A este último respecto, la Corte
+Suprema de los Estados Unidos en un caso del año 1973 se inclinó a
+considerar válido el consentimiento aunque no estuviese probado que
+quien lo prestó conociese su derecho a no darlo, empero, reconoció que
+no podía determinarse la voluntariedad del acto sin tomar en conside-
+ración la aludida circunstancia (Schneckloth v. Bustamante, 412 United
+States Reports 218, pág. 249). La Corte es consciente de que la mayor
+efectividad del sistema de represión del delito, que puede derivar de la
+renuncia al derecho a permanecer callado, no es un argumento constitu-
+cionalmente válido para alentar la confusión o la ignorancia (de los de-
+rechos) que posibiliten “renuncias” de esa naturaleza. En un contexto
+más bien relativo al derecho de ser asistido por un defensor, que al de-
+negarse a consentir un allanamiento domiciliario, el alto tribunal nor-
+teamericano recordó con justeza la experiencia histórica de que “ningún
+sistema de justicia criminal puede o podría sobrevivir si dependiese,
+
+--- pagina 22 de 27 ---
+
+DE JUSTICIA DE LA NACIÓN 1773
+para mantener su efectividad, de la abdicación que los ciudadanos ha-
+gan, por ignorancia, de sus derechos constitucionales” (Escobedo v. 1Tli-
+nois, 378 U.S. 478, pág. 490).
+
+Si esos requisitos no se respetaran, la garantía de la inviolabilidad
+del domicilio valdría apenas nada, sería un puro verbalismo, o una ex-
+presión propia del mundo del “como si”, o según dicen los niños “de
+mentira”.
+
+La interpretación del asunto no puede formularse sin un claro dis-
+cernimiento de las condiciones históricas de nuestra Patria, de su novel
+reingreso en el camino del estado de derecho, del débil grado de con-
+ciencia práctica de los principios básicos del gobierno republicano, pese
+a la creencia ideal en ellos, que Alberdi señalaba agudamente al comien-
+zo del pasaje citado en el considerando 5%. Hay que enderezar la espal-
+da y sacudirse ese triste hábito de la sumisión, para evitar que se per-
+petúen los usos viciados en los que aparecen unidos, en extraño mari-
+daje, el reconocimiento formal de los principios constitucionales y su
+reiterada violación en los hechos.
+
+Es interesante transcribir un párrafo del juez Frankfurter: “Por
+medio de la declaración de Derechos, los fundadores de este país subor-
+dinaron la acción judicial a restricciones legales, no para conveniencia
+de los culpables sino para protección de los inocentes. No dispusieron -
+tampoco que sólo los inocentes podían recurrir a esta protección. Sabían
+muy bien que para tener éxito en el castigo de los culpables no era ne-
+cesario que se juzgara a los inocentes. La frecuencia con que se golpea-
+ba a la puerta de un individuo con el pretexto de arresto, por una ofen-
+sa venial, no les era desconocida... Hasta en nuestros días tenemos
+tristes recuerdos de esta experiencia... La acción policial, sin el con-
+trol judicial, puede llevar a toda clase de extremos. Los fundadores de
+nuestra nacionalidad volcaron en la Constitución su convicción de que
+para reforzar la ley no era conveniente recurrir al fácil pero peligroso
+camino de dejar que los policías determinen cuando era necesario o no
+un allanamiento, sin orden de autoridad competente. El desarrollo de la
+historia les ha dado la razón. Podemos afirmar, con certeza, que el de-
+lito se combate con mayor eficacia cuando se cumplen rigurosamente los
+principios que han inspirado las restricciones constitucionales sobre ¡a
+
+--- pagina 23 de 27 ---
+
+1774 FALLOS DE LA CORTE SUPREMA
+acción de la policía” (Estados Unidos v. Rabinowitz, 339 U.S. 56,
+año 1950).
+
+El núcleo del desconocimiento del fenómeno de la delincuencia:
+el “aquello” temido de la personalidad del perseguidor que se proyecta
+en el perseguido, se tradujo tradicionalmente en un miedo irracional a
+los delincuentes (o a los calificados como tales por las autoridades de
+turno) y a lo que pudiesen esconder en la esfera de su intimidad.
+
+Ello condujo a los hombres a lo largo de la historia universal, que
+es también la de los errores humanos, a irrumpir y a escarbar en dicha
+esfera —como perros de presa de entrampado olfato— en busca de una
+imperiosamente necesaria materialización sustitutiva del inasible “aque-
+llo”. Imperiosamente necesaria, porque frente a la comunidad expectan-
+te debía funcionar como justificadora de la acción, y sólo se puede cum-
+plir este cometido si con la aludida materialización sustitutiva se man-
+tiene el esoterismo, lo innominado del “aquello” correlativamente propio
+de esa misma comunidad, para la cual es igualmente inefable. De tal
+manera se violó y sacrificó durante siglos la libertad de millones de
+hombres y mujeres, muchos de los cuales, seguramente, no sufrían un
+deterioro psíquico superior al de sus victimarios.
+
+Es finalidad común, y última, de todas las ciencias y disciplinas so-
+ciales, la de lograr un mejor entendimiento comunitario a partir de un
+conocimiento profundo de las dimensiones más oscuras de la persona-
+lidad del hombre que, generalmente, funcionan como fuertes obstáculos
+para su desarrollo e impiden, así, una buena convivencia.
+
+Por eso es deseable que la jurisprudencia constitucional no se de-
+sentienda de los conceptos de larga elaboración, por la psicología y la
+sociología, que resulten auxiliares relevantes en la tarea compartida por
+científicos y jueces de procurar el aludido mejor entendimiento comu-
+nitario.
+
+En lo que a este punto concierne, no parece que el criterio adop-
+tado por los magistrados de las instancias anteriores ayude a la consecu-
+ción de los trascendentes propósitos mencionados.
+
+99) Que descartada la existencia de consentimiento que pueda juz-
+garse como causa válida de la presencia de los agentes policiales en la
+
+--- pagina 24 de 27 ---
+
+DE JUSTICIA DE LA NACIÓN 1775
+vivienda del imputado, se sigue que los efectos secuestrados a raíz de tal
+introducción ilegal en la esfera de la intimidad de aquél no pueden ser
+admitidos como elementos probatorios en la causa, pues el método
+seguido para su obtención ofende al sentido de justicia.
+
+Esta Corte, en su actual integración, comparte, pues, el criterio de
+exclusión establecido en el precedente de Fallos: 303:1938, que en ese
+caso se refiere a la confesión obtenida mediante medios coercitivos,
+pero que sienta un principio general, enunciado en su considerando ter-
+cero con palabras extraídas de la jurisprudencia de la Corte Suprema
+de los Estados Unidos, al expresar que: “...el conflicto entre dos in-
+tereses fundamentales de la sociedad: su interés en una rápida y efi-
+ciente ejecución de la ley y su interés en prevenir que los derechos de
+sus miembros individuales resulten menoscabados por métodos incons-
+titucionales de ejecución de la ley...”, debe dirimirse eliminando del
+proceso penal los elementos de convicción así obtenidos. Proceder de
+otro modo.comprometería “la buena administración de justicia al pre-
+tender constituirla en beneficiaria del hecho ilícito” (caso citado, con-
+siderando 49).
+
+Por otra parte, al efectuar el balance entre la seguridad y la libert-
+tad individual, debe atenderse al valor de la supervivencia de esta Na-
+ción como tierra de hombres libres (Conf. Warren, “The Bill of Rights
+and the Military” 36 N.Y.U.L. Rev. 761, 196, cit. por Oakes James L.
+“The proper role of the federal courts in enforcing the Bill of Rights”,
+New York University, “Law Review”, volumen 54, noviembre de 1979,
+pág. 932), según el propósito de sus creadores enunciado en el Preám-
+bulo de la Carta de 1853, que no se lograría acentuando el autorita-
+rismo y la ilegalidad en la averiguación y persecución de los delitos; ni
+propiciando un derecho oscuro, nocturnal, cuyas normas son el marco
+de la injusticia. La experiencia demuestra que no es por esa vía espuria
+y destructiva del estado constitucional que puede mejorarse la seguri-
+dad general que sólo florece y medra si se procura el perfeccionamiento
+profesional de los cuadros policiales, dotándolos de un nivel decoroso
+de existencia y de los medios modernos de investigación, y más aún
+en el plano general, a través de la elevación de las condiciones de vida
+y del pulimiento de la organización social, al que no es ajeno el sumi-
+nistro eficaz de una correcta educación cívica. La aspiración legítima a
+
+--- pagina 25 de 27 ---
+
+1776 FALLOS DE LA CORTE SUPREMA
+
+que se imponga el valor seguridad se frustra, según lo comprueba hasta
+el hartazgo la historia argentina, por la vía del autoritarismo, y se vis-
+lumbra, en cambio, en las perspectivas que abren las sendas de la li-
+bertad.
+
+10) Que la regla de exclusión tiene otro antecedente en la juris-
+prudencia de esta Corte, aparte del citado precedente de Fallos: 303:
+1938. Dicho antecedente se refiere a la absoluta nulidad procesal del
+allanamiento de papeles privados ——puntualmente sentada por la Corte
+Suprema de los Estados Unidos a partir del caso Weeks v. United States
+(232 U.S. 383, año 1913) recordado en el dictamen del Procurador Ge-
+neral que aparece en Fallos: 249:530—, pero que ya se encontraba es-
+tablecida en Fallos: 46:36 por la Corte Suprema argentina, que al de-
+clarar que los papeles privados ilegítimamente sustraídos a sus poseedo-
+res “no pueden servir de base al procedimiento ni de fundamento al
+juicio... porque siendo el resultado de un procedimiento injustificable
+y condenado por la ley, aunque se haya llevado a cabo con el propósito
+de descubrir y perseguir un delito, o de una pesquisa desautorizada y
+contraria a derecho, la ley, en el interés de la moral y de la seguridad y
+secreto de las relaciones sociales, los declara inadmisibles...” (p. 44).
+La regla establecida in re “Weeks” se reiteró en el caso Mopp v. Ohio,
+367 U.S. 643, extendiéndola a los procesos de los Estados de la Unión,
+con sustento en razones de hondo contenido ético enunciadas por el
+juez Clark al afirmar: “Nuestra decisión, fundada en la razón y la ver-
+dad, no da al individuo más de lo que la Constitución le garantiza, al
+cficial de policía no menos que aquellos que corresponde según la ho-
+nesta ejecución de la ley, y, a los tribunales, la integridad judicial tan
+necesaria en la verdadera administración de justicia”, (pág. 660).
+
+En el mismo sentido, afirma Joaquín V. González en el N* 196 del
+Manual de la Constitución: “Es un sentimiento universal de respeto el
+que hace de la correspondencia particular un objeto cuya violación
+constituye una grave falta moral. El derecho de guardar el secreto im-
+plica el de comunicarlo a aquellos que inspiran confianza, a quienes
+beneficia o perjudica o con quienes se mantiene relaciones de negocio, de
+afectos o de algunos de los propósitos comprendidos dentro de la abso-
+luta libertad de la conciencia individual, y no puede ser convertido, aun
+cuando sea ilegalmente descubierto, en instrumento de acusación o prue-
+
+--- pagina 26 de 27 ---
+
+DE JUSTICIA DE LA NACIÓN 1777
+ba contra su dueño porque será siempre suyo como una propiedad de
+su conciencia”.
+
+11) Que lo establecido para el caso del ilegítimo allanamiento de
+la correspondencia epistolar y de los papeles privados rige, desde luego,
+para el allanamiento ilícito de la morada, toda vez que ambos casos son
+especies de un género único, de una garantía que, utilizando los términos
+de la Corte Suprema de los Estados Unidos en el caso fallado treinta
+años antes de “Weeks”: “Boyd v. United States” (116 U.S. 616, año
+1886), se refiere “2 todas las invasiones de parte del gobierno y de sus
+empleados a la santidad del hogar de cada hombre y de la privacidad
+de su vida. No es la rotura de sus puertas, o el hurgar en sus gavetas
+lo que constituye la esencia de la infracción: sino la invasión de un ina-
+brogable derecho a la seguridad personal, a la libertad personal y a la
+propiedad privada” (pág. 630).
+
+12) Que, como corolario de las reflexiones precedentes, se con-
+cluye que el solo consentimiento expreso debidamente comprobado,
+con conocimiento del derecho a no prestarlo, y previo al ingreso de los
+agentes del orden a la vivienda puede justificar, si así lo dice la ley pro-
+cesal, dicho ingreso realizado sin orden de autoridad competente emitida
+con los recaudos pertinentes y sin mediar situaciones definibles como
+estado de necesidad de acuerdo con la ley.
+
+Asimismo, ha quedado establecido por las razones anteriores que
+los medios probatorios incautados mediante un allanamiento ilegal de
+morada no son admisibles en juicio y determinan la nulidad de la sen-
+tencia que se base sustancialmente en ellos.
+
+Tal es la situación que se presenta en el sub júdice, pues el corpus
+delicti sólo cabría darse por probado mediante los elementos secuestrados
+con quebrantamiento de la inviolabilidad del domicilio, lo cual no sólo
+sustenta la revocación del pronunciamiento de la alzada sino que deter-
+mina la exclusión de la condena.
+
+13) Que, por último, cabe señalar que la doctrina de este pro-
+nunciamiento no importa abrir juicic sobre la cuestión conexa, pero
+distinguible, que se propuso a la Corte en el ya citado caso de Fallos:
+249:530 y que ésta no resolvió. Dicha cuestión se refiere a si es permi-
+
+--- pagina 27 de 27 ---
+
+1778 FALLOS DE LA CORTE SUPREMA
+
+sible que el Estado invada la esfera de intimidad de una persona con el
+solo propósito de obtener pruebas que puedan utilizarse contra clla en
+juicio criminal. Este importante problema constitucional, de evidente
+relieve para este caso, no ha sido en absoluto planteado en él, lo que,
+con arreglo a la opinión de la mayoría de los integrantes del Tribunal,
+que excluye el examen de oficio de cuestiones constitucionales (Compe-
+tencia NO“ 40, XX, Inhibitoria planteada en el Juzgado de Instrucción
+Militar N2 50 de Rosario, en sumario 6/84, sentencia del 24 de abril
+de 1984), no puede ser considerada en esta ocasión.
+
+En consecuencia, la decisión de esta Corte en la especie se funda
+en las conclusiones expresadas eli el considerando 12.
+
+En su mérito, y de acuerdo con lo concordantemente dictaminado
+por el señor Procurador General, se declara procedente el recurso dedu-
+cido, se revoca la sentencia apelada y, en ejercicio de la facultad confe-
+rida por el art. 16, de la ley 48, se absuelve al imputado por el delito
+objeto de la acusación. Reintégrese el depósito de fs. 26, acumúlese la
+queja al principal y devuélvase al tribunal de origen.
+
+ENRIQUE SANTIAGO PETRACCHI.

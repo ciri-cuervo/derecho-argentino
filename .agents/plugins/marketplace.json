@@ -1,0 +1,19 @@
+{
+  "name": "derecho-argentino",
+  "interface": {
+    "displayName": "Derecho argentino"
+  },
+  "plugins": [
+    {
+      "name": "derecho",
+      "source": {
+        "source": "local",
+        "path": "./argentina"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Legal"
+    }
+  ]
+}

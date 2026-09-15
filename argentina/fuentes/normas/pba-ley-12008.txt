@@ -1,0 +1,3567 @@
+Ley 12.008 - Codigo Contencioso Administrativo (PBA)
+==============================================================================
+Jurisdiccion:     pba
+Fuente:           https://normas.gba.gob.ar/documentos/BodPyhzV.html
+Descargado:       2026-09-14
+SHA-256 (crudo):  a2ee0db9eafeb0a621e44a5277be4c6d70ec6909ea0a911360c70bd996033f34
+Charset:          UTF-8
+
+Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
+NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
+Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+el manifiesto `normas.json`.
+==============================================================================
+
+Ley 12008
+
+LEY 12008
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Texto Actualizado con las modificaciones introducidas por las Leyes 12310, 13101, 13325 y 14437.
+
+
+
+
+
+
+
+
+
+
+
+
+NOTA: Ver Ley 12162, ref. vigencia.
+
+
+
+
+
+
+
+
+
+
+
+
+EL SENADO Y CÁMARA DE DIPUTADOS DE LA PROVINCIA DE BUENOS AIRES, SANCIONAN CON FUERZA DE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LEY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TÍTULO I
+
+
+
+
+
+
+DEL PROCESO ADMINISTRATIVO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CAPÍTULO I
+
+
+
+
+
+
+
+
+
+DE LA COMPETENCIA CONTENCIOSO ADMINISTRATIVA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 1.- CLÁUSULA GENERAL DE LA MATERIA CONTENCIOSO ADMINISTRATIVA.
+
+
+
+1.- Corresponde a los tribunales contencioso administrativos el conocimiento y decisión de las pretensiones que se deduzcan en los casos originados por la actuación u omisión, en el ejercicio de funciones administrativas, de los órganos de la Provincia, los Municipios, los entes descentralizados y otras personas, con arreglo a las prescripciones del presente Código.
+
+
+
+
+
+
+
+
+
+
+
+
+2.- La actividad de los órganos del Poder Ejecutivo, de los Municipios y de los demás entes provinciales o municipales, se presume realizada en el ejercicio de funciones administrativas y regida por el derecho administrativo. Procederá esta presunción aun cuando se aplicaren por analogía normas de derecho privado o principios generales del derecho.
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 2º.- CASOS INCLUIDOS EN LA MATERIA CONTENCIOSO – ADMINISTRATIVA. La competencia contencioso - administrativa comprende las siguientes controversias:
+
+
+
+1. Las que tengan por objeto la impugnación de actos administrativos, de alcance particular o general, *y de ordenanzas municipales. Quedan incluidas en este inciso las impugnaciones que se deduzcan en contra de las resoluciones emanadas del Tribunal de Cuentas, del Tribunal Fiscal y de cualquier otro Tribunal de la Administración Pública, así como las que se deduzcan en contra de actos sancionatorios dispuestos en el ejercicio de la policía administrativa - a excepción de aquéllas sujetas al control del órgano judicial previsto en los artículos 166, segundo párrafo, 172 y 216 de la Constitución de la Provincia y 24 inciso 3) de la Ley 11922.
+
+
+
+* Lo subrayado corresponde al Texto Original de la presente. La Ley 13101 que incorporó los incisos 8) y 9) al presente artículo, cuando transcribe el mismo no lo menciona.
+
+
+
+
+
+
+
+
+
+2. Las que se susciten entre prestadores de servicios públicos o concesionarios de obras públicas y usuarios, en cuanto se encuentren regidas por el derecho administrativo.
+
+
+
+3. Aquéllas en las que sea parte una persona pública no estatal, cuando actúe en el ejercicio de prerrogativas regidas por el derecho administrativo.
+
+
+
+4. Las que versen sobre la responsabilidad patrimonial, generada por la actividad lícita o ilícita de la Provincia, los Municipios y los entes públicos estatales previstos en el artículo 1°, regidas por el derecho público, aún cuando se invocaren o aplicaren por analogía normas del derecho privado.
+
+
+
+5. Las relacionadas con la aplicación de tributos provinciales o municipales.
+
+
+
+6. Las relativas a los contratos administrativos.
+
+
+
+7. Las que promuevan los entes públicos estatales previstos en el artículo 1°, regidas por el derecho administrativo.
+
+
+
+8. (Inciso Incorporado por Ley 13101) Las relacionadas con la ejecución de tributos provinciales.
+
+
+
+9. (Inciso Incorporado por Ley 13101) Las que versen sobre limitaciones al dominio por razones de interés público, servidumbres administrativas y expropiaciones.
+
+
+
+
+
+
+
+
+
+
+
+
+La enunciación anterior es meramente ejemplificativa. No implica la exclusión del conocimiento por los tribunales contencioso-administrativos de otros casos regidos por el derecho administrativo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 3º.- PLANTEO Y RESOLUCIÓN DE CUESTIONES CONSTITUCIONALES. La competencia contencioso-administrativa no quedará desplazada aún cuando para la resolución del caso fuere necesario declarar la inconstitucionalidad de leyes, de ordenanzas municipales o de actos administrativos de alcance general o particular.
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 4º.- (Texto según Ley 13101) CASOS EXCLUIDOS DE LA MATERIA CONTENCIOSO-ADMINISTRATIVA. No corresponden a la competencia de los tribunales contencioso-administrativos las siguientes controversias:
+
+
+
+
+Las que se encuentren regidas por el derecho privado o por las normas o convenios laborales.
+
+
+Las que tramitan mediante los juicios de desalojo, interdictos y las pretensiones posesorias.
+
+
+Los conflictos interadministrativos provinciales que serán dirimidos por el Poder Ejecutivo Provincial, conforme al régimen que al efecto se apruebe
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 5º.- (Texto según Ley 13101) CRITERIOS PARA LA DETERMINACIÓN DE LA COMPETENCIA EN RAZÓN DEL TERRITORIO:
+
+
+
+
+Será competente el juzgado contencioso-administrativo correspondiente al domicilio de las personas cuya actuación u omisión dé lugar a la pretensión procesal.
+
+
+Se exceptúan de dicha regla las siguientes controversias:
+
+
+
+
+a) Las relativas a la relación de empleo público, en las que será competente el juez correspondiente al lugar de la prestación de servicios del agente, o al del domicilio de la demandada, o al del domicilio del demandante a elección de este último.
+
+
+
+b) Las que versen sobre pretensiones deducidas por reclamantes o beneficiarios de prestaciones previsionales y pretensiones contra resoluciones de colegios o consejos profesionales y sus cajas previsionales en las que será competente el juez correspondiente al domicilio del interesado o al de la demandada, a elección del demandante.
+
+
+
+c) Las que se susciten entre prestadores de servicios públicos o concesionarios de obras públicas y usuarios, en las cuales será competente el juez correspondiente al lugar de ejecución de la prestación.
+
+
+
+d) Las que versen sobre pretensiones relacionadas con contratos administrativos en las que será competente el juez correspondiente al lugar de celebración del contrato. Si el contrato lo admitiere en modo expreso, las referidas controversias podrán plantearse, a opción del demandante ante el lugar de cumplimiento o el del domicilio del demandado.
+
+
+
+e) Las correspondientes a servidumbres administrativas y expropiaciones, en las cuales será competente el juez correspondiente al lugar de radicación de los bienes involucrados. Este criterio se aplicará para las pretensiones resarcitorias en el caso de las restantes limitaciones al dominio por razones de interés público, salvo que ellas incluyan el pedido de anulación de un acto administrativo en cuyo caso se aplicará la regla consagrada en el inciso 1) del presente artículo.
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 6º.- IMPRORROGABILIDAD DE LA COMPETENCIA. La competencia contencioso administrativa en razón de la materia es improrrogable. Podrá comisionarse a otros tribunales la realización de diligencias o medidas ordenadas en los respectivos procesos.
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 7°: (Texto según Ley 13101) CONFLICTOS DE COMPETENCIA.
+
+
+
+
+
+
+
+
+
+1. Los conflictos de competencia entre los jueces contencioso administrativos serán tramitados por vía incidental y resueltos por la Cámara de Apelaciones en lo Contencioso Administrativo con competencia territorial común, causando ejecutoria su decisión. Los conflictos planteados entre un Juez Contencioso Administrativo o una Cámara de Apelaciones en lo Contencioso Administrativo y un Tribunal de otro fuero, serán resueltos por la Suprema Corte de Justicia, causando ejecutoria su decisión.
+
+
+
+
+
+
+
+
+
+2. Durante el trámite del conflicto de competencia, se suspenderá el procedimiento sobre lo principal, salvo las medidas cautelares o cualquier diligencia de cuya omisión pudiere resultar un perjuicio grave.
+
+
+
+
+
+
+
+
+
+3. Cuando se declarase que el caso es contencioso administrativo, se dispondrá la prosecución de las actuaciones en esta vía. En tal supuesto, para verificar el cumplimiento del plazo previsto en el artículo 18º, la pretensión se considerará presentada en la fecha de interposición de la demanda aunque el juez sea incompetente.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 8º: (Texto según Ley 13101) DECLARACIÓN DE INCOMPETENCIA. El juez, antes de dar traslado de la demanda, procederá a declarar, si correspondiere y por resolución motivada, su incompetencia. En tal supuesto remitirá los autos al tribunal considerado competente, si perteneciere a la jurisdicción provincial. En caso contrario, dispondrá su archivo.
+
+
+
+
+
+
+
+
+
+
+
+
+CAPÍTULO II
+
+
+
+
+
+
+
+
+
+DE LA REPRESENTACIÓN ESTATAL Y LOS TERCEROS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 9º.- (Texto según Ley 13101) DE LA REPRESENTACIÓN DE LOS ÓRGANOS Y ENTES ESTATALES.
+
+
+
+1. El Fiscal de Estado intervendrá en los procesos contencioso-administrativos, de conformidad con lo dispuesto en el artículo 155 de la Constitución Provincial y las disposiciones legales correspondientes.
+
+
+
+
+
+
+
+
+
+2. Cuando en el ejercicio de sus funciones, el Fiscal de Estado promueva una pretensión anulatoria de un acto administrativo emanado de una autoridad provincial, la defensa procesal de ésta y la correspondiente intervención en el proceso, en representación de la parte demandada, corresponderán al Asesor General de Gobierno.
+
+
+
+
+
+
+
+
+
+3. Los Municipios y demás entes provinciales o municipales que comparezcan como actores o demandados, y no estén alcanzados por los términos del inciso 1), última parte del presente artículo, serán representados por los abogados de sus respectivos servicios jurídicos, o por los letrados que se designen.
+
+
+
+
+
+
+
+
+
+
+Los representantes o letrados de los entes previstos en el artículo 1 tendrán los mismos derechos y obligaciones de los demás que intervengan en el proceso. Se exceptúan de esa regla, al Fiscal de Estado y al Asesor General de Gobierno, quienes deberán ser notificados en sus despachos oficiales.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 10.- (Texto Ley 13101) COADYUVANTES.
+
+
+
+
+
+
+
+
+
+1. Los terceros directamente favorecidos por la actuación u omisión que diera lugar a la pretensión, intervendrán como coadyuvantes en cualquier estado del proceso. Su intervención no podrá hacer retrotraer, interrumpir o suspender el proceso cualquiera sea el estado en que intervengan.
+
+
+
+
+
+
+
+
+
+2. En su primera presentación el coadyuvante deberá cumplir, en lo pertinente, con los recaudos exigidos para la demanda. Cuando hubiere más de un coadyuvante de una misma parte, el Juez podrá ordenar la unificación de su representación.
+
+
+
+
+
+
+
+
+
+3. El coadyuvante tiene los mismos derechos procesales que la parte con la que coadyuva. La sentencia tendrá efectos y hará cosa juzgada en relación al coadyuvante.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 11.- INTERVENCIÓN DE TERCEROS. REMISIÓN. En los demás casos la intervención de terceros en el proceso, se regirá por las normas del Código Procesal Civil y Comercial.
+
+
+
+
+
+
+
+
+
+
+
+
+CAPÍTULO III
+
+
+
+
+
+
+
+
+
+DE LAS PRETENSIONES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 12.- (Texto según Ley 13101) PRETENSIONES. En el proceso contencioso-administrativo podrán articularse pretensiones con el objeto de obtener:
+
+
+
+
+La anulación total o parcial de actos administrativos de alcance particular o general.
+
+
+El restablecimiento o reconocimiento del derecho o interés tutelados.
+
+
+El resarcimiento de los daños y perjuicios causados.
+
+
+La declaración de certeza sobre una determinada relación o situación jurídica regidas por el derecho administrativo. La pretensión respectiva tramitará con arreglo a lo previsto en el artículo 322 del Código Procesal Civil y Comercial.
+
+
+La cesación de una vía de hecho administrativa.
+
+
+Se libre orden judicial de pronto despacho, en los términos previstos en el Capítulo IV del Título II.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 13.- LEGITIMACIÓN ACTIVA. Está legitimada para deducir las pretensiones previstas en el presente Código, toda persona que invoque una lesión, afectación o desconocimiento de sus derechos o intereses tutelados por el ordenamiento jurídico.
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 14.- (Texto según Ley 13101) REQUISITOS DE ADMISIBILIDAD DE LA PRETENSIÓN. SUPUESTOS DE AGOTAMIENTO DE LA VÍA ADMINISTRATIVA.
+
+
+
+
+
+
+
+
+
+
+Sin perjuicio de los demás requisitos previstos en el presente Código, será necesario agotar la vía administrativa como requisito de admisibilidad de la pretensión procesal en todos los casos salvo los siguientes supuestos:
+
+
+
+
+a) Cuando el acto administrativo definitivo de alcance particular hubiera sido dictado por la autoridad jerárquica superior con competencia resolutoria final o por el órgano con competencia delegada sea de oficio o con la previa audiencia o intervención del interesado.
+
+
+
+b) Cuando mediare una clara conducta de la demandada que haga presumir la ineficacia cierta de acudir a una vía administrativa de impugnación o cuando, en atención a particulares circunstancias de caso, exigirla resultare para el interesado una carga excesiva o inútil. La interposición de la demanda importará la interrupción de los plazos de caducidad para la presentación de los recursos en sede administrativa.
+
+
+
+c) Cuando se impugnare directamente un acto administrativo de alcance general emanado de la autoridad jerárquica superior o del órgano con competencia delegada por aquélla.
+
+
+
+d) En los casos previstos en los artículos 12 incisos 4) y 5) y 16) del presente Código.
+
+
+
+
+
+
+
+
+
+
+
+
+
+La falta de impugnación directa o su desestimación, de un acto de alcance general, no impedirá la impugnación de los actos individuales de aplicación. La falta de impugnación de los actos individuales que aplican un acto de alcance general, tampoco impedirá la impugnación de éste, sin perjuicio de los efectos propios de los actos individuales que se encuentren firmes o consentidos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 15.- AGOTAMIENTO DE LA VÍA ADMINISTRATIVA ANTE TRIBUNALES ADMINISTRATIVOS Y ENTES REGULADORES. En el supuesto de pretensiones de anulación de actos administrativos emanados de Tribunales de la Administración Pública o de entes reguladores de servicios públicos el agotamiento de la vía administrativa se regirá por las disposiciones que determinen los procedimientos ante los mismos. Las normas previstas en el presente Código serán de aplicación supletoria.
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 16.- (Texto según Ley 13101) SILENCIO ADMINISTRATIVO
+
+
+
+
+
+
+
+
+
+
+Cuando hubiere vencido el plazo que alguno de los entes mencionados en el artículo 1 del presente Código, tuviese para resolver un recurso, reclamo o petición planteados en sede administrativa, el interesado podrá solicitar pronto despacho. Esta solicitud deberá presentarse, a opción de aquél, ante la dependencia donde se hallaren radicadas las actuaciones, ante el órgano responsable del procedimiento o bien ante la autoridad jerárquica superior con competencia resolutoria final. Transcurridos treinta (30) días hábiles administrativos desde la presentación del pronto despacho, sin que se dictare el acto correspondiente, se presumirá la existencia de una resolución denegatoria o adversa para el interesado y quedará expedita la instancia judicial.
+
+
+También podrá promoverse la pretensión sobre la base del silencio administrativo, cuando alguno de los entes enunciados en el artículo 1 del presente Código omitiere o retardare el dictado de actos de trámite o preparatorios. En tal supuesto, el interesado podrá solicitar el pronto despacho en los términos establecidos en el inciso anterior y transcurridos treinta (30) días hábiles administrativos desde esta solicitud, sin que se dictare el acto correspondiente, se presumirá la existencia de una resolución denegatoria o adversa para el interesado y quedará expedita la instancia judicial.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 17.- (ARTÍCULO DEROGADO POR LEY 13101) OTROS SUPUESTOS DE INACTIVIDAD ADMINISTRATIVA. Cuando la pretensión procesal versara sobre la realización de una prestación específica y determinada en los términos del artículo 12 inciso 6) del presente Código, con carácter previo deberá reclamarse su cumplimiento a la autoridad jerárquica superior con competencia resolutoria final. Si ésta no cumpliere en el plazo establecido o, en su defecto, en el de noventa (90) días hábiles administrativos contados a partir del día siguiente al del reclamo, se presumirá la existencia de una resolución denegatoria o adversa para el interesado. En tal supuesto, quedará expedita la instancia judicial. La vía del presente artículo será opcional para el interesado.
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 18.- (Texto Ley 13101) PLAZO PARA DEDUCIR LA PRETENSIÓN. La pretensión de anulación, la resarcitoria vinculada con aquélla, la de restablecimiento o reconocimiento de derechos o intereses tutelados y la de cese de una vía de hecho administrativa, deberán promoverse dentro del plazo perentorio de noventa (90) días, contados de la siguiente manera:
+
+
+
+a) Si se pretendiere la anulación de actos administrativos de alcance particular, desde el día siguiente al de la fecha de la notificación al interesado del acto definitivo y que agota la vía administrativa. En caso de haberse deducido contra el citado acto un recurso administrativo procedente, el plazo se contará desde el día siguiente al de la fecha de la notificación al interesado de la decisión que rechace aquel recurso.
+
+
+
+b) Si se pretendiere la anulación de actos administrativos de alcance general, desde el día siguiente a la fecha de su publicación o, en su caso desde el día siguiente al de la fecha de la notificación al interesado del acto definitivo y que agota la vía administrativa.
+
+
+
+c) Si se pretendiere la anulación de un acto de alcance general juntamente con la impugnación de los actos administrativos que les hayan dado aplicación, desde el día siguiente al de la notificación al interesado del acto definitivo y que agota la vía administrativa.
+
+
+
+d) Si se tratare de las pretensiones reguladas en el artículo 12 inciso 2) desde el día siguiente al de la fecha de la notificación al interesado del acto definitivo y que agota la vía administrativa.
+
+
+
+e) Si se tratare de una vía de hecho administrativa, desde que fuere conocida por el afectado.
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 19.- (Texto según Ley 13101) PAGO PREVIO EN MATERIA TRIBUTARIA.
+
+
+
+
+
+
+
+
+
+
+Será obligatorio el pago previo a la interposición de la demanda, cuando se promueva una pretensión contra un acto administrativo que imponga una obligación tributaria de dar sumas de dinero.
+
+
+Antes de correr traslado de la demanda, el Juez verificará el cumplimiento de este requisito procesal, a cuyo fin procederá a intimar al demandante el pago de la suma determinada, con exclusión de las multas y recargos, dentro del plazo de diez (10) días, bajo apercibimiento de desestimar por inadmisible la pretensión.
+
+
+El pago previo no será exigible cuando:
+
+
+
+
+a) Su imposición configurase un supuesto de denegación de justicia.
+
+
+
+b) Se deduzca una pretensión meramente declarativa. En este supuesto, la autoridad provincial o municipal tendrá derecho a promover contra el demandante el correspondiente juicio de apremio.
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 20.- (Texto según Ley 13101) PRETENSIÓN RESARCITORIA E ILEGITIMIDAD DE ACTOS ADMINISTRATIVOS
+
+
+
+
+
+
+
+
+
+
+Juntamente con la pretensión de anulación puede reclamarse el resarcimiento de los daños y perjuicios, aplicándose el plazo de caducidad del artículo 18 del presente Código.
+
+
+El interesado podrá deducir la pretensión de resarcimiento de daños y perjuicios, como reclamo autónomo luego de finalizado el proceso de anulación que le sirve de fundamento y dentro del plazo de prescripción de la misma.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 21.- PRETENSIÓN DE CESACIÓN DE VÍAS DE HECHO ADMINISTRATIVAS. TRÁMITE.
+
+
+
+
+Contra las vías de hecho producidas por alguno de los entes previstos en el artículo 1°, podrá deducirse la pretensión directamente en sede judicial, sin que sea menester formular un reclamo previo en sede administrativa.
+
+
+A excepción de lo relativo al plazo para la interposición de la demanda, el trámite de esta pretensión se regirá por las disposiciones relativas al proceso sumarísimo previstas en el Código Procesal Civil y Comercial.
+
+
+
+
+
+
+
+
+
+
+
+
+
+CAPÍTULO IV
+
+
+
+
+
+
+
+
+
+MEDIDAS CAUTELARES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 22.- (Texto según Ley 13101) PRINCIPIO GENERAL.
+
+
+
+
+Podrán disponerse medidas cautelares siempre que:
+
+
+
+
+a) Se invocare un derecho verosímil en relación al objeto del proceso.
+
+
+
+b) Existiere la posibilidad de sufrir un perjuicio inminente o la alteración o el agravamiento de una determinada situación de hecho o de derecho.
+
+
+
+c) La medida requerida no afectare gravemente el interés público.
+
+
+
+
+
+
+
+
+
+
+
+
+
+El juez podrá adoptar toda clase de medidas que resulten idóneas para asegurar el objeto del proceso, tanto las regladas en el presente Código como las previstas en el Código Procesal Civil y Comercial.
+
+
+Podrán disponerse medidas de contenido positivo, con el objeto de imponer la realización de una determinada conducta a la parte demandada. A tal fin, el juez deberá ponderar, además de los extremos previstos en el inciso 1, la urgencia comprometida en el caso y el perjuicio que la medida pudiera originar tanto a la demandada como a los terceros y al interés público.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 23.- (Texto según Ley 13101) OPORTUNIDAD. CADUCIDAD DE LAS MEDIDAS CAUTELARES.
+
+
+
+
+
+
+
+
+
+
+Las medidas cautelares podrán solicitarse en modo anticipado, simultáneo o posterior a la promoción de la demanda. Se decretarán sin audiencia de la otra parte; sin perjuicio de lo cual el juez, en atención a las circunstancias del caso, podrá requerir un informe previo a la parte demandada o a la alcanzada por la medida solicitada, que deberá ser contestado en un plazo no mayor de cinco (5) días.
+
+
+Se producirá la caducidad de pleno derecho de las medidas cautelares decretadas con anterioridad a la demanda, en los siguientes supuestos:
+
+
+
+
+
+
+
+a) Tratándose de una pretensión de anulación, si estando agotada la vía administrativa, la demanda no fuere interpuesta dentro de los treinta (30) días siguientes al de la notificación de la medida cautelar. El plazo de caducidad correrá a partir del día siguiente al de la notificación del acto que agote la vía administrativa.
+
+
+
+b) En los demás supuestos, de acuerdo a lo dispuesto en el Código de Procedimiento Civil y Comercial.
+
+
+
+
+
+
+
+
+
+
+
+
+
+En caso de decretarse la caducidad por vencimiento de los plazos previstos en este artículo, las costas y los daños y perjuicios causados, serán a cargo de quien hubiese obtenido la medida cautelar anticipada. Esta no podrá solicitarse nuevamente por la misma causa.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 24.- (Texto según Ley 13101) CONTRACAUTELA.
+
+
+
+
+
+
+
+
+
+
+Si se hiciere lugar a la medida cautelar, el juez fijará el tipo y monto de la caución que deberá prestar el peticionante por las costas, daños y perjuicios que se derivaren en caso de haberla peticionado sin derecho. El juez graduará el tipo y monto de la caución, de acuerdo con la mayor o menor verosimilitud del derecho y las circunstancias del caso.
+
+
+No se exigirá contracautela cuando la parte que solicitare la medida cautelar fuere la Provincia, un municipio o un ente provincial o municipal.
+
+
+En los supuestos de pretensiones deducidas en materia de empleo público o en materia previsional por los agentes o reclamantes de beneficios previsionales, o a quien interviniere en el proceso con beneficio para litigar sin gastos, se exigirá únicamente la caución juratoria.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 25.- (Texto según Ley 13101) SUSPENSIÓN DE LA EJECUCIÓN DE UN ACTO ADMINISTRATIVO.
+
+
+
+
+
+
+
+
+
+
+Las partes podrán solicitar la suspensión de la ejecución de un acto administrativo siempre que se alegare fundadamente el cumplimiento de los recaudos previstos en el artículo 22 inciso 1). El juez deberá evaluar si la medida suspensiva tiende a evitar prejuicios irreversibles, aún cuando pudieren ser objeto de una indemnización posterior.
+
+
+Para decretar la suspensión de la ejecución de un acto administrativo será necesario el planteo previo de esa medida en sede administrativa y que su resolución hubiera sido adversa para el peticionante. Presentada la petición en sede administrativa el estado deberá expedirse en el plazo de 5 días hábiles, fenecidos los cuales sin que hubiere un pronunciamiento expreso se presumirá la existencia de resolución denegatoria quedando expedita la instancia judicial.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 26.- (Texto según Ley 13101) LEVANTAMIENTO DE LA MEDIDA CAUTELAR POR RAZONES DE INTERÉS PÚBLICO. CAMBIO DE CIRCUNSTANCIAS.
+
+
+
+
+
+
+
+
+
+
+Si la Provincia, un municipio, o un ente provincial o municipal invocasen fundadamente, en cualquier estado del proceso, que la medida cautelar dispuesta provoca un grave daño al interés público, el juez, previo traslado a la contraparte por cinco (5) días, resolverá sobre el levantamiento o mantenimiento de la medida.
+
+
+En caso de que se resuelva dejar sin efecto la medida, se declarará a cargo del peticionante la responsabilidad por los daños y perjuicios que ello pueda causar en el supuesto de que se hiciese lugar a la demanda.
+
+
+Fuera del supuesto previsto en los incisos anteriores, el juez, a pedido de parte o de oficio, podrá levantar, modificar o sustituir la medida cautelar cuando cambiaren las circunstancias que la determinaron.
+
+
+
+
+
+
+
+
+
+
+
+
+
+CAPÍTULO V
+
+
+
+
+
+
+
+
+
+DE LA DEMANDA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 27.- (Texto según Ley 13101) ESTRUCTURA Y FORMALIDADES. La demanda será presentada por escrito y contendrá:
+
+
+
+
+El nombre y apellido, domicilio real o legal según corresponda, domicilio especial constituido y demás condiciones personales del demandante.
+
+
+El nombre y apellido, domicilio y demás condiciones personales del demandado.
+
+
+La individualización y contenido de la actuación u omisión administrativa que configura el caso, precisando los motivos por los que se considera lesionado, afectado o desconocido el derecho o interés jurídicamente tutelado del demandante.
+
+
+La relación metódica y explicada de las circunstancias del caso, con especial referencia a los hechos en que se funde la pretensión, expuestos en modo conciso y claro.
+
+
+El derecho en que se funda la pretensión, expuesto sucintamente.
+
+
+La justificación de la competencia del juzgado.
+
+
+El ofrecimiento pormenorizado de toda la prueba cuya producción se propone en el proceso.
+
+
+
+
+El objeto y alcance de la pretensión, expuestos con claridad y precisión. Deberá fijarse el monto reclamado, salvo cuando a la actora no le fuere posible determinarlo al promover la demanda, por las circunstancias del caso o porque la estimación dependiera de elementos no establecidos definitivamente al momento de la pretensión. En tales supuestos no procederá la excepción de defecto legal. La sentencia determinará, en su caso, el monto que resulte de las pruebas producidas.
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 28.- DOCUMENTOS QUE DEBEN ACOMPAÑARSE CON LA DEMANDA.
+
+
+
+
+Junto con el escrito de demanda, deberá acompañarse toda la prueba documental que estuviese en poder del demandante. En particular, deberán acompañarse los siguientes documentos:
+
+
+
+
+a) El instrumento que acredite la representación invocada, con arreglo a lo dispuesto en el Código Procesal Civil y Comercial.
+
+
+
+b) La documentación, o la referencia de donde se hallare, del título en que se funda el derecho o interés jurídicamente tutelado que se invoque por el demandante.
+
+
+
+c) Copias para traslado.
+
+
+
+
+En lo pertinente, se aplicarán las mismas reglas para la contestación de demanda y la reconvención.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 29.- NUEVOS DOCUMENTOS.
+
+
+
+
+Después de presentada la demanda o de contestada la misma, se podrán presentar por las partes, los documentos que se hallasen en las condiciones siguientes:
+
+
+
+
+a) Ser de fecha posterior a la demanda y su contestación y tener relación directa con la cuestión sometida al proceso.
+
+
+
+b) Ser de fecha anterior, pero con juramento de la parte que los presente, de no haber tenido antes noticia de su existencia.
+
+
+
+c) Habiendo sido individualizados en la demanda o contestación, la parte sólo los haya podido obtener después de presentado el escrito respectivo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+En tales casos se dará vista a la otra parte, quien deberá cumplir la carga prevista en el artículo 37 inciso 2) del presente Código.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 30.- (Texto según Ley 13101) REMISIÓN DE EXPEDIENTES ADMINISTRATIVOS POR EL ENTE DEMANDADO.
+
+
+
+
+Cuando correspondiere por las características del caso, el Juez requerirá por oficio al órgano o ente correspondiente los expedientes administrativos relacionados con la pretensión deducida, los que deberán serle remitidos en su totalidad dentro de los quince (15) días. El órgano competente de la autoridad requerida deberá dar constancia firmada, con indicación de fecha y hora, de la recepción del oficio pertinente.
+
+
+Si la autoridad requerida no remitiere los expedientes en el plazo correspondiente, el Juez proseguirá la causa en la forma prevista en el artículo 32, última parte, tomando como base la exposición de los hechos contenida en la demanda, sin perjuicio de la facultad de la demandada de ofrecer y producir toda la prueba que estime corresponder a su derecho.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 31.- (Texto según Ley 13101) EXAMEN DE ADMISIBILIDAD. SUBSANACIÓN DE DEFECTOS.
+
+
+
+
+Antes de dar traslado de la demanda, el juez examinará si la pretensión reúne los requisitos de admisibilidad.
+
+
+No habiéndose declarado incompetente el juez y declarada la admisibilidad de la pretensión, éste no podrá volver sobre ello, salvo que se oponga alguna de las excepciones previstas en el artículo 35 del presente Código.
+
+
+Si la pretensión no cumpliere alguno de los requisitos de admisibilidad, y de ser ello posible el juez, determinará la subsanación de los defectos incurridos dentro del plazo que al efecto fije, el que no podrá ser inferior a cinco (5) días, bajo apercibimiento de desestimar la pretensión. Si ello fuere improcedente, declarará inadmisible la pretensión deducida.
+
+
+En el supuesto del artículo 19 del presente Código, se aplicará el plazo establecido en el inciso 2) de la citada norma.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 32.- (Texto según Ley 13101) AMPLIACIÓN O TRANSFORMACIÓN DE LA DEMANDA.
+
+
+
+Recibidos los expedientes administrativos en Secretaría, la parte actora, dentro de los quince (15) días de notificada por cédula tal recepción, podrá ampliar o transformar la demanda. Cumplido el referido trámite o vencido el plazo, el Juez dispondrá correr traslado de la demanda, previo examen de admisibilidad conforme a lo dispuesto en el artículo 31 del presente Código.
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 33.- NOTIFICACIÓN DE LA DEMANDA. La demanda se notificará:
+
+
+
+
+Al Fiscal de Estado, cuando la pretensión fuere dirigida contra la Provincia o un ente provincial cuya representación legal le correspondiere.
+
+
+Al Intendente Municipal, cuando la pretensión fuere dirigida contra una Municipalidad. Si se tratare de una impugnación contra una ordenanza municipal, también deberá notificarse al Presidente del Concejo Deliberante.
+
+
+A la autoridad superior del ente descentralizado provincial cuando la pretensión fuere dirigida contra aquél, cuya representación procesal no estuviere a cargo del Fiscal de Estado.
+
+
+A la autoridad superior del ente descentralizado municipal, cuando la pretensión fuere dirigida en su contra.
+
+
+A la autoridad superior de la persona pública no estatal, cuando la pretensión fuere dirigida en su contra.
+
+
+Al particular demandado, con arreglo a las reglas del Código Procesal Civil y Comercial.
+
+
+Al Asesor General de Gobierno, cuando se diere el supuesto del artículo 9° inciso 2) del presente Código.
+
+
+
+
+
+
+
+
+
+
+
+
+
+CAPÍTULO VI
+
+
+
+
+
+
+
+
+
+DE LAS EXCEPCIONES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 34.- (Texto según Ley 13101) PLAZO Y FORMA DE OPONERLAS.
+
+
+
+1. Dentro de los primeros quince (15) días del plazo para contestar la demanda, la demandada podrá oponer, en un solo escrito, las excepciones de previo y especial pronunciamiento previstas en el artículo siguiente. La oposición de excepciones suspende el plazo para contestar la demanda en relación a todos los emplazados en la causa, aún respecto de aquellos que no las hubieren opuesto.
+
+
+
+
+Con el escrito respectivo se acompañará toda la prueba documental y se ofrecerá la restante.
+
+
+Del escrito de oposición de excepciones se correrá traslado a la parte contraria, quien deberá contestarlo dentro de los cinco (5) días de notificado, personalmente o por cédula, plazo en el cual deberá agregar la prueba documental y ofrecer la restante.
+
+
+Contestado el traslado o vencido el término para hacerlo, y no habiéndose ofrecido prueba, o siendo ésta desestimada por el juez llamará autos para resolver, debiendo pronunciarse en un plazo de quince (15) días.
+
+
+Si se ofreciere prueba y el Juez la considerase procedente, se abrirá un período para su producción no mayor de diez (10) días, vencido el cual se procederá conforme a lo dispuesto en el inciso anterior.
+
+
+Las reglas previstas en el presente Capítulo se aplicarán, en lo pertinente, al trámite de las excepciones opuestas contra la reconvención.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 35.- (Texto según Ley 13101) EXCEPCIONES ADMISIBLES.
+
+
+
+
+Sólo se admitirán como previas las siguientes excepciones:
+
+
+
+
+a) Incompetencia del juez.
+
+
+
+b) Falta de personería en el demandante, en el demandado o en sus representantes.
+
+
+
+c) Litispendencia.
+
+
+
+d) Defecto legal en el modo de proponer la demanda, por no cumplir con los requisitos enumerados en el artículo 27 del presente Código.
+
+
+
+e) Cosa Juzgada.
+
+
+
+f) Transacción, conciliación y desistimiento del derecho.
+
+
+
+g) Falta de legitimación para obrar en el demandante o en el demandado cuando fuere manifiesta, sin perjuicio, en caso de no ocurrir esta última circunstancia, de que el juez la considere en la sentencia definitiva.
+
+
+
+h) Prescripción.
+
+
+
+i) Inadmisibilidad de la pretensión, por no cumplir con los requisitos previstos en los artículos 14, 15, 16, 18 y 19 del presente Código, por demandarse la nulidad de un acto administrativo consentido o impugnarse un acto que no revista la condición de definitivo o asimilable, de acuerdo a lo dispuesto en el artículo 14.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Las excepciones enumeradas en los apartados g) y h) podrán también oponerse como defensa de fondo al contestar la demanda.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 36.- (Texto según Ley 13101) RESOLUCIÓN DE LAS EXCEPCIONES:
+
+
+
+
+
+
+
+
+
+
+La decisión del juez que desestimare las excepciones planteadas, ordenará la reanudación del plazo para contestar la demanda, lo que deberá hacerse dentro de los treinta (30) días de notificada.
+
+
+En el supuesto de admitirse las excepciones, el juez procederá de la siguiente manera:
+
+
+
+
+a) En el caso de la excepción prevista en el inciso 1), apartado a) del artículo anterior, aplicará lo dispuesto en el artículo 8°.
+
+
+
+b) En el caso de las excepciones previstas en los apartados b) y d) del artículo anterior, fijará el plazo dentro del cual deben subsanarse los defectos, bajo apercibimiento de tener al demandante por desistido del proceso. Subsanados ellos, se aplicará lo dispuesto en el inciso anterior.
+
+
+
+c) En el supuesto de las excepciones previstas en el inciso 1) apartado i) del artículo anterior, cuando se refieran a la falta de agotamiento de la vía administrativa o a la no configuración del silencio administrativo, conforme a lo dispuesto en los artículos 14 y 16, determinará si fuere procedente, el modo de subsanar tales defectos, aplicándose lo dispuesto en el apartado anterior. Caso contrario, se declarará la inadmisibilidad de la pretensión.
+
+
+
+d) En el caso de las excepciones previstas en el inciso 1) apartados c), e), f), g) y h) del artículo anterior, así como en el supuesto previsto en el apartado i) del mismo precepto, en lo referente a los casos no previstos en los apartados precedentes de este artículo, se declarará la inadmisibilidad de la pretensión.
+
+
+
+
+
+
+CAPÍTULO VII
+
+
+
+
+
+
+
+
+
+DE LA CONTESTACION DE LA DEMANDA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 37.- FORMALIDADES.
+
+
+
+
+La contestación de la demanda se efectuará por escrito. Contendrá, en lo pertinente, los requisitos establecidos en el artículo 27 del presente Código.
+
+
+En ese escrito, el demandado deberá reconocer o negar en forma categórica cada uno de los hechos expuestos en la demanda, así como pronunciarse en la misma forma sobre la autenticidad de los documentos que se le atribuyen. El silencio o la ambigüedad en la contestación de tales extremos, podrá considerarse como reconocimiento de los hechos, de la autenticidad de los documentos y de su recepción.
+
+
+Podrán invocarse hechos que se opongan a los alegados por el actor o argumentos de derecho que no se hubieran planteado en el procedimiento administrativo, siempre que se relacionen con el objeto de la pretensión.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 38.- PLAZO PARA CONTESTAR LA DEMANDA.
+
+
+
+
+El plazo para contestar la demanda será de cuarenta y cinco (45) días.
+
+
+Si fueran dos o más los demandados, el plazo será común. Cuando procediere la suspensión o ampliación respecto de uno, el plazo se suspenderá o ampliará respecto de todos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 39.- RECONVENCIÓN.
+
+
+
+
+
+
+
+
+
+
+Al contestar la demanda, la demandada podrá deducir reconvención, siempre que las pretensiones planteadas deriven de la misma relación jurídica o guarden conexidad con las invocadas con la demanda. Deberán observarse las formalidades establecidas en el Capítulo V del Título I del presente Código.
+
+
+De la reconvención se dará traslado a la demandante por un plazo de treinta (30) días y la contestación se ajustará a lo dispuesto en el artículo 37. Es de aplicación en lo pertinente, lo dispuesto en el Capítulo VI del Título I del presente Código.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 40.- (Texto según Ley 13101) DILIGENCIAS ULTERIORES.
+
+
+
+
+
+
+
+
+
+
+Si al contestar la reconvención la parte reconvenida agregase nuevos documentos, se correrá traslado de los mismos a la reconviniente, por el término de cinco (5) días, para que reconozca o desconozca su autenticidad, lo que se notificará por cédula.
+
+
+Contestado el traslado de la demanda o reconvención, en su caso, o vencidos los plazos para hacerlo, resueltas las excepciones previas, y siempre que se hayan alegado hechos conducentes acerca de los cuales no hubiese conformidad entre las partes, el Juez recibirá la causa a prueba, procediendo a tal fin de acuerdo a lo previsto en el artículo 41.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 41.- (Texto según Ley 13101) AUDIENCIA. DETERMINACIÓN DE LOS HECHOS Y DE LA PRUEBA.
+
+
+
+
+A los fines de lo establecido en el artículo 40 inciso 2) del presente Código, el Juez citará a las partes dentro de los quince (15) días a una audiencia, que se celebrará con su presencia en la que:
+
+
+
+
+a) Fijará por sí los hechos articulados que sean conducentes a la decisión del proceso, sobre los cuales versará la prueba y desestimará los que considere inconducentes, de acuerdo con las constancias de la causa.
+
+
+
+b) Recibirá y resolverá en el mismo acto el pedido de oposición a la apertura a prueba de la causa, para lo cual será necesario escuchar a la contraparte.
+
+
+
+c) Recibirá y resolverá en el mismo acto las manifestaciones de las partes, si las tuvieren, con referencia a lo prescrito en el artículo 42 del presente Código.
+
+
+
+d) Declarará cuáles pruebas son procedentes para la continuación del juicio.
+
+
+
+e) Declarará si la cuestión fuere de puro derecho, con lo que la causa quedará concluida para definitiva.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Si en la audiencia prevista en el inciso anterior, las partes manifestaren que no tienen ninguna prueba a producir o que ésta consiste únicamente en las constancias del expediente o en la documental ya agregada y no cuestionada, se dejará constancia de ello. El Juez correrá traslado por cinco (5) días comunes, para que las partes expongan sus alegaciones sobre los hechos y el derecho controvertidos en la causa.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 42.- HECHOS NUEVOS.
+
+
+
+
+
+
+
+
+
+
+Cuando con posterioridad a la contestación de la demanda o reconversión, ocurriese o llegase a conocimiento de las partes algún hecho que tuviese relación con la cuestión que se ventila, podrán alegarlo hasta cinco (5) días después de celebrada la audiencia prevista en el artículo 41 del presente Código.
+
+
+Del escrito en que se alegue tal circunstancia, se dará traslado a la otra parte, quien dentro del plazo para contestarlo podrá también invocar otros hechos en contraposición a los alegados. En este caso quedará suspendido el plazo de prueba hasta la notificación de la resolución que los admita o deniegue.
+
+
+
+
+
+
+
+
+
+
+
+
+
+CAPÍTULO VIII
+
+
+
+
+
+
+
+
+
+DE LA PRUEBA Y LOS ALEGATOS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 43.- (Texto según Ley 13101) PLAZO DE PRODUCCIÓN DE LAS PRUEBAS.
+
+
+
+El plazo de prueba será fijado por el Juez y no excederá de cuarenta (40) días. Dicho plazo es común y comenzará a correr a partir del día siguiente al de la fecha de celebración de la audiencia prevista en el artículo 41 del presente Código.
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 44.- PRUEBA DE PERITOS. No será causal de recusación para los peritos la circunstancia de que sean funcionarios o agentes públicos, salvo cuando se encontraren bajo la dependencia jerárquica directa del órgano cuya actuación u omisión diera lugar a la pretensión.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 45.- DECLARACIÓN DE FUNCIONARIOS PÚBLICOS. Cuando fuere parte la Provincia, un municipio, o un ente provincial o municipal, las preguntas a los funcionarios públicos tramitarán por oficio dirigido a la autoridad superior del ente que en cada caso correspondiere. Las contestaciones, por escrito, deberán efectuarse dentro de los veinte (20) días posteriores a la recepción del oficio.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 46.- (Texto según Ley 13101) MEDIDAS PARA MEJOR PROVEER.
+
+
+
+El Juez podrá ordenar de oficio la producción o ampliación de toda medida de prueba que considere conducente a la averiguación de la verdad de los hechos. Esta potestad podrá ejercerse en cualquier estado del proceso, aún después del llamamiento de autos para sentencia. La decisión será irrecurrible.
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 47.- (Texto según Ley 13101) VENCIMIENTO DEL PLAZO DE PRUEBA. Vencido el plazo para la producción de las pruebas, el Secretario lo hará constar por nota puesta en los autos al pie de la última diligencia practicada. Después de ello, de la prueba pedida por las partes y no realizada, sólo podrá producirse aquella que el Juez considerase conducente o necesaria para mejor proveer.
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 48.- (Texto según Ley 13101) ALEGATOS.
+
+
+
+
+
+
+
+
+
+
+Una vez que las pruebas recibidas a petición de las partes, o las mandadas producir de oficio por el Juez estén reunidas, se pondrán los autos en la Secretaría por el término de diez (10) días comunes, dentro de los cuales las partes podrán presentar el alegato sobre el mérito de la prueba producida.
+
+
+Presentados los alegatos o vencido el plazo indicado en el artículo anterior o el establecido en el artículo 41 inciso 2), el Juez llamará autos para sentencia.
+
+
+
+
+
+
+
+
+
+
+
+
+
+CAPÍTULO IX
+
+
+
+
+
+
+
+
+
+DE LA SENTENCIA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 49.- PLAZO PARA DICTAR SENTENCIA. La sentencia en el proceso ordinario se dictará dentro del plazo de sesenta (60) días desde que la providencia de autos quede firme y observará en lo pertinente los requisitos establecidos en el Código Procesal Civil y Comercial.
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 50º: (Texto según Ley 13101) SENTENCIA QUE HACE LUGAR A LA PRETENSIÓN. La sentencia que haga lugar a la pretensión podrá decidir:
+
+
+
+
+El restablecimiento o reconocimiento del derecho o interés jurídicamente tutelado y la adopción de las medidas o actos necesarios a tales fines.
+
+
+La anulación total o parcial del acto administrativo de alcance general o particular impugnado.
+
+
+La cesación de la vía de hecho administrativa controvertida.
+
+
+La declaración de inconstitucionalidad de las normas o actos impugnados en el proceso.
+
+
+La declaración de certeza sobre la relación o situación jurídica regida por el derecho administrativo, motivo de controversia.
+
+
+El resarcimiento de los daños y perjuicios reclamados. A tal efecto, fijará la cuantía de la indemnización o, cuando por las características del caso ello no fuere posible, establecerá las bases para la liquidación del monto indemnizable, cuya definitiva determinación quedará diferida a la etapa de ejecución de la sentencia.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 51.- (Texto según Ley 14437) COSTAS.
+
+
+
+
+
+
+
+
+
+
+El pago de las costas estará a cargo de la parte vencida en el proceso. Sin embargo, el juez podrá eximir total o parcialmente del pago de las costas al vencido, siempre que encontrare mérito para ello, expresándolo en su pronunciamiento, bajo pena de nulidad.
+
+
+Cuando la parte vencida en el proceso fuere un agente público o quien hubiera reclamado un derecho previsional, en causas en materia de empleo público o previsional, las costas le serán impuestas sólo si hubiere litigado con notoria temeridad.
+
+
+
+
+
+
+
+
+
+
+
+
+
+CAPÍTULO X
+
+
+
+
+
+
+
+
+
+DE LOS RECURSOS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 52.- (Texto según Ley 13101) ACLARATORIA.
+
+
+
+
+
+
+
+
+
+
+Dentro de los cinco (5) días de notificada la sentencia definitiva las partes podrán deducir recurso de aclaratoria, con el fin de corregir errores materiales, aclarar algún concepto ambiguo o contradictorio del fallo o suplir cualquier omisión incurrida en el tratamiento y decisión de algunas de las pretensiones planteadas y debatidas en el proceso.
+
+
+La aclaratoria será resuelta por el juez dentro de los cinco (5) días siguientes a su interposición, sin substanciación alguna.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 53.- (Texto según Ley 13101) REPOSICIÓN. PROCEDENCIA, PLAZO Y FORMA DE INTERPOSICIÓN.
+
+
+
+
+
+
+
+
+
+
+El recurso de reposición procederá contra las providencias simples o interlocutorias, a fin de que el órgano que las haya dictado las revoque por contrario imperio.
+
+
+
+
+El recurso de reposición se interpondrá y fundará por escrito, dentro del plazo de tres (3) días al de la notificación de la resolución; pero cuando ésta se dictare en una audiencia, deberá interponerse verbalmente en el mismo acto. El juez deberá resolver sobre su admisibilidad y procedencia, sin más trámite dentro de los cinco (5) días.
+
+
+
+
+Tratándose de providencias que causen un gravamen que no pueda ser reparado por la sentencia definitiva, la reposición podrá ser acompañada del recurso de apelación en subsidio. En su defecto, la resolución que recaiga hará ejecutoria.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 54.- (Texto según Ley 13101) REPOSICIÓN. CASOS PARTICULARES.
+
+
+
+
+
+
+
+
+
+En los casos en que la resolución dependiere de hechos controvertidos, el juez podrá imprimir al recurso de reposición, el trámite de los incidentes.
+
+
+
+La reposición de providencias dictadas de oficio o a pedido de la misma parte que recurrió, será resuelta sin substanciación
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 55.- (Texto según Ley 13101) RECURSO DE APELACIÓN. PROCEDENCIA.
+
+
+
+
+
+
+
+
+
+
+Las sentencias definitivas dictadas por el juez, serán susceptibles de recurso de apelación en las condiciones establecidas en el presente Código.
+
+
+También serán apelables las siguientes sentencias:
+
+
+
+
+a) Las que declaren la inadmisibilidad de la pretensión procesal administrativa;
+
+
+
+b) Las que decidan sobre medidas cautelares;
+
+
+
+c) Las que aún recayendo sobre una cuestión incidental, terminen el litigio, hagan imposible su continuación, afecten el cumplimiento de la sentencia, o generen un gravamen que no pueda ser reparado por la sentencia definitiva.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Igualmente procederá contra las providencias simples que causen un gravamen que no pueda ser reparado por la sentencia definitiva.
+
+
+El recurso de apelación comprende el de nulidad por defectos de la sentencia.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 56.- (Texto según Ley 13101) PLAZO, FORMA DE INTERPOSICIÓN Y EFECTOS
+
+
+
+
+
+
+
+
+
+
+El recurso de apelación contra las sentencias definitivas deberá ser interpuesto dentro de los diez (10) días contados a partir del día siguiente al de su notificación. En los demás supuestos, el plazo para apelar será de cinco (5) días.
+
+
+
+
+2. La apelación se interpondrá por escrito fundado, ante el juez cuya sentencia es impugnada.
+
+
+
+
+El escrito de apelación deberá contener la crítica concreta y razonada de las partes del fallo que el apelante considere equivocadas. No bastará con la mera remisión a presentaciones anteriores.
+
+
+Cuando la Cámara que haya de conocer del recurso de apelación tuviere su asiento en distinta ciudad, en el escrito de interposición y en su contestación, las partes deberán constituir domicilio en aquélla. La parte que no hubiese cumplido este requisito será notificada por ministerio de la ley.
+
+
+El recurso de apelación tendrá efectos suspensivos. Exceptúase el supuesto de los recursos interpuestos contra las providencias que dispongan medidas cautelares, en las que el juez resolverá conforme lo señalado en el artículo 26.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 57.- (Texto según Ley 12310) DILIGENCIAS PROCESALES PROCEDENTES EN EL RECURSO DE APELACIÓN CONTRA LAS SENTENCIAS DEFINITIVAS.
+
+
+
+
+
+
+
+
+
+
+En escrito de interposición de los recursos de apelación articulados contra sentencias definitivas en procesos ordinarios, las partes podrán:
+
+
+
+
+a) Indicar las pruebas denegadas o que no hubiesen podido producirse antes de la sentencia, y que tuvieren interés en practicar en razón de su importancia actual para la solución del litigio.
+
+
+
+b) Articular hechos nuevos, acaecidos después de dictada la sentencia de mérito, o conocidos con posterioridad a la misma. Serán sustanciados juntamente con el recurso.
+
+
+
+c) En lo pertinente, el trámite probatorio y la articulación de hechos nuevos en instancia de apelación se regirá por las normas previstas en el Libro I, Título IV, Capítulo IV, Sección 3ª Código Procesal Civil y Comercial para el trámite de los recursos de apelación concedidos libremente.
+
+
+
+
+
+
+
+
+
+
+
+
+
+En los restantes supuestos de apelación, las partes no podrán ofrecer pruebas ni alegar hechos nuevos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 58.- (Texto según Ley 13101) EXAMEN DE ADMISIBILIDAD Y CONCESIÓN DEL RECURSO DE APELACIÓN
+
+
+
+
+
+
+
+
+
+1. Del recurso de apelación, el juez correrá traslado a la otra parte por igual plazo al señalado para su interposición, el que se notificará personalmente o por cédula. Contestado el traslado o vencido el plazo para hacerlo, dentro de los cinco (5) días siguientes, se remitirán a la Cámara de Apelaciones los autos principales y los incidentes vinculados al recurso planteado.
+
+
+
+
+Recibidas las actuaciones, la Cámara examinará si el recurso reúne los requisitos de admisibilidad y mediante resolución fundada se expedirá al respecto. En caso de declararlo inadmisible, se dispondrá la devolución del expediente al juzgado de origen. En caso de considerarlo admisible, no habiéndose articulado las diligencias procesales previstas en el artículo 57 inciso 1) o siendo éstas desestimadas, se dictará la providencia de "autos" con el alcance previsto en el inciso 4) del presente artículo. En ambos supuestos, la decisión correspondiente se notificará personalmente o por cédula.
+
+
+En la providencia que decida la concesión del recurso, se resolverá lo relativo a las diligencias procesales que se hubieran peticionado de conformidad con lo dispuesto en el artículo 57 inciso 1) del presente Código.
+
+
+En el caso de admitirse las diligencias a que se refiere el artículo 57 inciso 1) del presente Código, una vez cumplidas o vencidos los plazos correspondientes, se dictará la providencia de “autos” y, consentida que fuera, el expediente pasará al acuerdo sin más trámite.
+
+
+La caducidad de la instancia se regirá por las reglas del Código Procesal Civil y Comercial.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 59.- (Texto según Ley 12310) SENTENCIA DICTADA EN RECURSO DE APELACIÓN.
+
+
+
+
+
+
+
+
+
+
+El orden de estudio y votación de las causas para pronunciar la sentencia, será determinado por sorteo, el que se realizará por lo menos dos veces en cada mes.
+
+
+La sentencia de la Cámara de Apelaciones deberá dictarse dentro del plazo de treinta (30) días.
+
+
+En el caso de recursos de apelación contra resoluciones sobre medidas cautelares la resolución del Tribunal de Alzada sobre la admisibilidad y procedencia de la medida cautelar deberá dictarse dentro del plazo de cinco (5) días.
+
+
+Sin perjuicio de la aplicación de las normas de la Ley 12074, en cuanto a las formas y contenidos de la sentencia de Cámara regirán en lo pertinente las disposiciones previstas en el Libro I, Título IV, Capítulo IV, Sección 3ª del Código Procesal Civil y Comercial.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 60.- (Texto según Ley 13101) RECURSOS EXTRAORDINARIOS.
+
+
+
+
+Contra las sentencias definitivas de las Cámaras de Apelaciones procederán los recursos extraordinarios previstos en la Constitución de la Provincia, aplicándose en lo pertinente las normas previstas en el Código Procesal Civil y Comercial, salvo disposición expresa en contrario.
+
+
+El de inaplicabilidad de ley sólo será admisible cuando el valor de lo cuestionado ante la instancia extraordinaria exceda, respecto de cada recurrente, la suma fijada por el Código Procesal Civil y Comercial.
+
+
+No será de aplicación en el recurso extraordinario de inaplicabilidad de ley lo dispuesto en los artículos 278 y 280 del Código Procesal Civil y Comercial sobre valor del litigio y depósito previo cuando el mismo se interponga contra Sentencias que recaigan en materia de impugnaciones a resoluciones del Tribunal de Cuentas y Fiscal de Apelación.
+
+
+
+
+
+
+
+
+
+
+
+
+
+CAPÍTULO XI
+
+
+
+
+
+
+OTROS MODOS DE TERMINACION DEL PROCESO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 61.- REMISIÓN.
+
+
+
+
+Regirán en el proceso contencioso-administrativo, las disposiciones sobre el allanamiento, el desistimiento, la conciliación y la transacción, contenidas en el Código Procesal Civil y Comercial, en cuanto sean compatibles con el régimen del presente Código.
+
+
+Los representantes de los entes mencionados en el artículo 1° deberán estar expresamente autorizados por la autoridad competente para proceder con arreglo a lo dispuesto en el inciso anterior agregándose a la causa testimonio de la decisión respectiva.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 62.- CADUCIDAD DE LA INSTANCIA. Se producirá la caducidad de la instancia cuando no se impulsare el curso del proceso dentro de los seis (6) meses, salvo en los procesos especiales reglados por el Título II de este Código y el caso previsto en el artículo 21, en los cuales el plazo será de tres (3) meses.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CAPÍTULO XII
+
+
+
+
+
+
+
+
+
+DE LA EJECUCIÓN DE LA SENTENCIA
+
+
+
+
+
+
+
+
+
+CONTRA LOS ORGANOS Y ENTES ESTATALES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 63.- (Texto según Ley 13101) COMUNICACIÓN Y TRÁMITE.
+
+
+
+
+
+
+
+
+
+
+Cuando la sentencia haga lugar a la pretensión deducida contra la Provincia, un Municipio o un ente provincial o municipal, una vez consentida o ejecutoriada, el Juez la notificará a la parte vencida e intimará su cumplimiento dentro del término fijado en aquélla. Esta notificación deberá hacerse dentro de los cinco (5) días siguientes al fallo. El procedimiento de ejecución se regirá por las disposiciones del Código Procesal Civil y Comercial, en tanto no contradigan las del presente Código.
+
+
+Si transcurriese el plazo previsto en el artículo 163 de la Constitución de la Provincia, sin que la autoridad requerida objetase su ejecución ni diese cumplimiento a lo resuelto por el órgano jurisdiccional, la parte vencedora en el juicio podrá pedir que aquél mande cumplir directamente lo dispuesto en la sentencia.
+
+
+En tal caso, el Juez ordenará a la autoridad correspondiente el cumplimiento de la sentencia, determinando concretamente lo que aquélla debe hacer y el plazo en que debe realizarlo.
+
+
+En caso de incumplimiento, los funcionarios involucrados incurrirán en la responsabilidad establecida por el artículo 163 de la Constitución. Esta responsabilidad será solidaria con la del ente u órgano respectivo y abarcará todos los daños que ocasione su irregular actuación.
+
+
+El Juez podrá adoptar de oficio todas las providencias y resoluciones que estime convenientes, para poner en ejercicio la atribución que le confiere el artículo 163 de la Constitución.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 64.- ACTUACIONES ADMINISTRATIVAS DURANTE LA EJECUCIÓN DE LA SENTENCIA. Los actos administrativos dictados como consecuencia de lo resuelto en la causa, provenientes de alguno de los entes previstos en el artículo 1°, podrán ser impugnados en el propio procedimiento de ejecución de sentencia. No darán lugar a un nuevo proceso, aunque se apartaren abiertamente de lo decidido en el fallo o, so pretexto de cumplirlo, lo interpretaren en forma perjudicial a los derechos o intereses reconocidos o restablecidos a la parte vencedora.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 65.- (Texto según Ley 13101) SOLICITUD DE SUSPENSIÓN.
+
+
+
+
+
+
+
+
+
+
+A los fines de lo dispuesto en el inciso 2) del artículo 63, cuando la Provincia, el municipio o el ente provincial o municipal, vencidos en el proceso, considerasen imprescindible la suspensión de la ejecución de la sentencia, por graves razones de interés público, podrán solicitarla al Juez dentro de los veinte (20) días después de notificada. En tal petición deberán asumir el compromiso de reparar los daños y perjuicios que pudiere causar la suspensión, acompañando el acto administrativo que así lo autorice.
+
+
+De la solicitud de suspensión se correrá traslado por cinco (5) días a la contraparte. Si ésta se opusiere y ofreciere prueba, el Juez abrirá el incidente a prueba por el plazo de diez (10) días.
+
+
+El Juez dictará resolución dentro de los diez (10) días de encontrarse los autos en estado. Si resolviese la suspensión de la ejecución del fallo, fijará el plazo correspondiente a su cumplimiento así como el monto de la indemnización de los daños ocasionados, previo requerimiento de los informes que estimare necesarios.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 66.- EJECUCIÓN DE SENTENCIAS CONTRA PARTICULARES Y ENTES NO ESTATALES. La ejecución de sentencias contra particulares y entes públicos no estatales, se regirá por las normas del Código Procesal Civil y Comercial.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TÍTULO II
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DE LOS PROCESOS ADMINISTRATIVOS ESPECIALES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CAPÍTULO I
+
+
+
+
+
+
+
+
+
+PROCESO SUMARIO DE ILEGITIMIDAD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 67.- (Texto según Ley 13101) CARACTERIZACIÓN GENERAL. OPCIÓN:
+
+
+
+
+
+
+
+
+
+Contra los actos administrativos de alcance particular o general, la parte actora tendrá la opción de formular la pretensión bajo el régimen del proceso ordinario previsto en el Título I, o mediante el Proceso Sumario de Ilegitimidad, establecido en el presente Capítulo.
+
+
+
+El Proceso Sumario de Ilegitimidad tendrá por único objeto la declaración de nulidad de un acto administrativo de alcance particular o general. Los daños y perjuicios que se pudieren derivar de la declaración de nulidad del acto, deberán ser reclamados en un proceso autónomo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 68.- (Texto según Ley 13101) DETERMINACIÓN DEL PROCESO A SEGUIR.
+
+
+
+
+
+
+
+
+
+1. La parte actora, en su primera presentación, solicitará que la pretensión tramite por el proceso reglado en el presente Capítulo. La demandada podrá oponerse a ello, dentro de los primeros cinco (5) días de notificado el traslado de la demanda. Esta oposición suspenderá el plazo para contestar la demanda y formular excepciones.
+
+
+
+
+El Juez resolverá sobre la procedencia de la vía, como única cuestión de previo y especial pronunciamiento.
+
+
+En el caso que se hiciera lugar a la oposición, el Juez resolverá la tramitación del proceso por las reglas del proceso ordinario, confiriéndose a la actora un plazo de treinta (30) días para adecuar la demanda, la que proseguirá su curso procesal de conformidad a las normas previstas en el Título I del presente Código.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 69.- (Texto según Ley 13101) REGLAS PROCESALES. El proceso sumario de ilegitimidad se regirá por las reglas del proceso ordinario previstas en el presente Código, con las modificaciones siguientes:
+
+
+
+
+El plazo para promover la demanda será de sesenta (60) días, contados en la forma prevista en el artículo 18 del presente Código.
+
+
+Se correrá traslado de la demanda por un plazo de veinte (20) días.
+
+
+No se correrá traslado a la actora de la contestación de la demanda, ni se celebrará la audiencia prevista en el artículo 41 del presente Código.
+
+
+No se admitirá la producción de prueba distinta de la documental acompañada por las partes y la contenida en los expedientes administrativos agregados a la causa y directamente relacionadas con la pretensión.
+
+
+Las excepciones previas deberán ser planteadas en el escrito de contestación de la demanda y resueltas en la sentencia.
+
+
+Contestada la demanda, o vencido el plazo para hacerlo, se conferirá vistas a las partes para que, en el plazo común de cinco (5) días presenten el alegato, vencido el cual se llamará autos para sentencia.
+
+
+La sentencia deberá dictarse en el plazo de treinta (30) días.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 70.- (Texto según Ley 13101) SENTENCIA.
+
+
+
+
+
+
+
+
+
+La sentencia deberá limitarse a desestimar la pretensión o a declarar la nulidad total o parcial del acto administrativo impugnado.
+
+
+
+Junto con la declaración de nulidad, el juzgado, de acuerdo con las circunstancias del caso, ordenará a la demandada la conducta a seguir, con ajuste a la pretensión procesal articulada o procederá a devolver las actuaciones para que se dicte un nuevo acto.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CAPÍTULO II
+
+
+
+
+
+
+
+
+
+IMPUGNACIÓN DE SANCIONES EN MATERIA DE EMPLEO PÚBLICO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 71.- OPCIÓN POR EL PROCESO SUMARIO. Contra los actos administrativos que dispongan sanciones disciplinarias a los agentes públicos provinciales o municipales, la parte actora, en el escrito inicial, podrá optar por formular las pretensiones previstas en el artículo 12 del presente Código, por la vía del proceso ordinario, o por la del sumario prevista en este Capítulo.
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 72.- (Texto según Ley 13101) PLAZO PARA LA DEMANDA. REGLAS PROCESALES.
+
+
+
+La pretensión deberá deducirse dentro de los sesenta (60) días contados en la forma prevista en el artículo 18 del presente Código. El trámite se regirá por las normas previstas en el Capítulo I del Título II del presente Código, con las siguientes excepciones:
+
+
+
+
+Contestada la demanda, o vencido el plazo para hacerlo, no habiendo hechos controvertidos, el Juez declarará la cuestión de puro derecho y firme dicha providencia llamará autos para sentencia.
+
+
+Si hubiere hechos controvertidos, en una misma providencia el Juez dispondrá la producción de las pruebas pertinentes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 73.- (Texto según Ley 13101) SENTENCIA FAVORABLE.
+
+
+
+
+
+
+
+
+
+
+Si la sentencia fuera favorable al impugnante, dispondrá conforme a las particularidades del caso todas o algunas de las siguientes medidas:
+
+
+
+
+a) La anulación total o parcial de la sanción.
+
+
+
+b) La reincorporación del agente, si la sanción hubiera sido expulsiva.
+
+
+
+c) El reconocimiento de los haberes devengados.
+
+
+
+
+
+
+
+
+
+
+
+
+
+De acuerdo a las características de la causa cuando se anulare una sanción expulsiva, junto con la declaración de nulidad, el órgano jurisdiccional podrá ordenar la adopción de las medidas que estimare conducentes con arreglo a lo dispuesto en el artículo 50 del presente Código.
+
+
+
+
+
+
+
+
+
+
+
+
+
+CAPÍTULO III
+
+
+
+
+
+
+
+
+
+IMPUGNACIONES ESPECIALES CONTRA RESOLUCIONES DE COLEGIOS
+
+
+
+
+
+
+
+
+
+O CONSEJOS PROFESIONALES Y DE CAJAS DE PREVISIÓN SOCIAL
+
+
+
+
+
+
+
+
+
+DE PROFESIONALES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 74.- (Texto según Ley 13325) IMPUGNACIÓN DE RESOLUCIONES DE COLEGIOS O CONSEJOS PROFESIONALES.
+
+
+
+Las pretensiones que tengan por objeto la impugnación de actos administrativos definitivos emanados de los Colegios o Consejos Profesionales referidos al gobierno de la matrícula o registro de profesionales y/o control disciplinario de los mismos y los definitivos emanados de los órganos de control disciplinario, tramitarán mediante recurso directo ante las Cámaras Departamentales en lo Contencioso Administrativo que corresponda al lugar donde se produjo el hecho que motivó el acto cuestionado a los fines de establecer el debido control de legalidad de aquéllos. El plazo para deducir el recurso será de quince (15) días a partir de la notificación de la última resolución administrativa y deberá interponerse ante el Organo Colegial que dictó el acto administrativo. El recurso tendrá efectos suspensivos y deberá ser fundado en el mismo acto.
+
+
+
+
+
+
+
+
+
+El Organo Colegial pertinente deberá remitir el recurso juntamente con las actuaciones administrativas, dentro de los diez (10) días hábiles de recibidos, bajo exclusiva responsabilidad de las autoridades de la Institución, quienes serán pasibles de multas procesales en caso de incumplimiento.
+
+
+
+
+
+
+
+
+
+Recibidas las actuaciones, la Cámara deberá llamar autos para sentencia y dictará el fallo definitivo dentro del plazo de sesenta (60) días.
+
+
+
+
+
+
+
+
+
+En caso de denegarse la concesión del recurso por parte del Organo Colegial, el recurrente podrá interponer recurso de queja ante la Cámara competente dentro del plazo de cinco (5) días de notificado de la denegatoria. Con la queja deberá adjuntarse copia de la sentencia recurrida y del escrito recursivo. La Cámara podrá requerir las actuaciones administrativas, las que deberán ser remitidas por la Autoridad Colegial dentro del plazo de cinco (5) días hábiles, bajo el apercibimiento antes previsto. La remisión de las actuaciones administrativas tendrá efectos suspensivos respecto de la sentencia dictada por el Organo Colegial.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 74 bis.- (Artículo Incorporado por Ley 13325) DISPOSICIÓN TRANSITORIA: Las pretensiones anulatorias de los actos administrativos definitivos emanados de los Colegios o Consejos Profesionales referidos al gobierno de la matrícula o registro de profesionales y/o control disciplinario de los mismos y los definitivos emanados de los órganos de control disciplinario, iniciadas bajo el régimen del anterior artículo 74 del Código Contencioso Administrativo (texto según Ley 13101), quedarán suspendidas en su trámite cualquier sea su estado y se adecuarán al procedimiento recursivo establecido en la presente ley. A tal fin, el Juzgado formulará el requerimiento correspondiente concediendo al accionante un plazo de treinta (30) días para la presentación del recurso.
+
+
+
+
+
+
+
+
+
+Producida la adecuación dentro del plazo acordado, el expediente será elevado a la Cámara competente para la decisión definitiva. En el supuesto que el requerido no diere cumplimiento a la adecuación, se declarará extinguido su derecho, devolviéndose la causa al Colegio o Consejo Profesional. En cualquier caso, las costas se impondrán en el orden causado.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 75.- (Texto según Ley 13101) IMPUGNACIÓN DE RESOLUCIONES DE LAS CAJAS DE PREVISIÓN SOCIAL DE PROFESIONALES.
+
+
+
+
+
+
+
+
+
+
+Las pretensiones que tengan por objeto la impugnación de los actos administrativos definitivos emanados de los órganos superiores de las Cajas de Previsión Social de Profesionales, tramitarán por las normas del proceso ordinario, sin perjuicio de la opción prevista en el Título II, Capítulo I del presente Código.
+
+
+La pretensión deberá interponerse dentro del plazo establecido en el artículo 18 del presente Código si el interesado hiciere la opción por el proceso ordinario, o dentro de los sesenta (60) días de notificado el acto que agota la vía administrativa si hiciere la opción dispuesta en el inciso anterior. Serán competentes los juzgados contecioso administrativos según lo dispuesto en el artículo 5°, inciso 2), párrafo b.
+
+
+
+
+
+
+
+
+
+
+
+
+
+CAPÍTULO IV
+
+
+
+
+
+
+
+
+
+AMPARO POR MORA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 76.- (Texto según Ley 13101) SUPUESTOS Y PROCEDIMIENTOS.
+
+
+
+
+
+
+
+
+
+
+El que fuere parte en un procedimiento administrativo, podrá solicitar judicialmente se libre orden judicial de pronto despacho. Dicha orden será procedente cuando alguno de los entes referidos en el artículo 1° del presente Código hubiere dejado vencer los plazos fijados y, en caso de no existir éstos, si hubiere transcurrido un plazo que excediere de lo razonable, sin emitir la resolución o el acto de trámite o preparatorio que requiera el interesado o corresponda adoptar para continuar o resolver el procedimiento.
+
+
+Presentada la pretensión, el juez se expedirá sobre su admisibilidad, teniendo en cuenta las circunstancias del caso y requerirá a la autoridad administrativa interviniente que, en el plazo que le fije, no mayor a los cinco (5) días, informe sobre la causa de la demora aducida.
+
+
+La configuración del silencio administrativo de acuerdo con lo dispuesto en el artículo 16 del presente Código, no impedirá la utilización de esta vía.
+
+
+Contestado el requerimiento o vencido el plazo sin que se lo hubiera hecho, el juez resolverá lo pertinente acerca de la mora, librando la orden si correspondiere para que la autoridad administrativa responsable despache las actuaciones en el plazo prudencial que se establezca según la naturaleza y complejidad del asunto.
+
+
+
+
+Las resoluciones que adopte el juez en el trámite del amparo por mora serán irrecurribles. La sentencia será susceptible de reposición, dentro de los tres (3) días de notificada, mediante escrito fundado.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CAPÍTULO V
+
+
+
+
+
+
+
+
+
+EJECUCIÓN TRIBUTARIA PROVINCIAL
+
+
+
+
+
+
+
+
+
+(Capítulo Incorporado por Ley 13101)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 76 bis: Los jueces Contencioso Administrativos aplicarán en materia de ejecuciones tributarias provinciales las disposiciones del Decreto-Ley 9122/78.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TÍTULO III
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CAPÍTULO I
+
+
+
+
+
+
+
+
+
+DISPOSICIONES COMPLEMENTARIAS Y TRANSITORIAS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 77.- APLICACIÓN DE LAS NORMAS DEL CÓDIGO PROCESAL CIVIL Y COMERCIAL.
+
+
+
+
+
+
+
+
+
+
+Serán de aplicación al trámite de los procesos administrativos, en cuanto no sean incompatibles con las prescripciones del presente Código, las normas previstas en el Código Procesal Civil y Comercial.
+
+
+A falta de norma expresa que determine un plazo procesal, se aplicarán los previstos en el Código Procesal Civil y Comercial, salvo el relativo al traslado de dictámenes periciales y de liquidaciones, que será de diez (10) días.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 78.- (Texto según Ley 13101) ENTRADA EN VIGENCIA DEL PRESENTE CÓDIGO. APLICACIÓN A LOS PROCESOS EN CURSO DE EJECUCIÓN.
+
+
+
+
+
+
+
+
+
+
+El presente Código Procesal comenzará su vigencia conjuntamente con el Fuero Contencioso Administrativo, facultándose al Ministerio de Economía a adecuar las partidas presupuestarias que resulten necesarias para la implementación del mismo, dentro de las restricciones presupuestarias vigentes.
+
+
+
+
+Hasta tanto comiencen las funciones del Fuero Contencioso Administrativo, la Suprema Corte de Justicia decidirá, hasta su finalización, en única instancia y juicio pleno, todas las causas correspondientes al referido fuero que se hubieren iniciado.
+
+
+
+
+En todos los casos en que el presente Código otorgue plazos más amplios para la realización de actos procesales, se aplicarán éstos a los procesos anteriores a su entrada en vigencia.
+
+
+En las causas regidas por el artículo 215, segundo párrafo, de la Constitución de la Provincia, serán de aplicación las normas del presente Código, en cuanto resultaren compatibles con la jurisdicción atribuida por aquel precepto a la Suprema Corte de Justicia. En materia de caducidad de instancia, costas, régimen de sentencia, su ejecución y los recursos contra la misma, se aplicarán las normas de la Ley 2961, con las modificaciones introducidas por los Decretos-Leyes 8626/76 y 8798/77.
+
+
+
+
+
+
+
+
+
+
+
+
+
+CAPÍTULO II
+
+
+
+
+
+
+
+
+
+DISPOSICIONES MODIFICATORIAS Y DEROGATORIAS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 79.- (Texto según Ley 13325) Sustitúyense los artículos 7, 20 y 33 de la Ley 10973; 12 y 19 de la Ley 10405; 12 y 19 de la Ley 10416; 12 y 19 de la Ley 10411; 10 y 23 de la Ley 7193 (T.O. 1.987); 10 y 41 de la Ley 6682 (T.O. 1.987); 12 y 19 de la Ley 10353; 42, 48 y 63 de la Ley 11745; 11, 18 y 27 de la Ley 10751; 16 y 39 de la Ley 10392; 27 y 51 de la Ley 10620; 14 y 36 de la Ley 10646; 9 inciso 2), y 29 de la Ley 5177 (T.O. 1.987); 28 y 65 del Decreto-Ley 9020/78 (T.O. 1.986); 27 y 57 del Decreto-Ley 9944/83; 15, 41 y 53 de la Ley 8271 (texto según Ley 11925); 39, 45 y 58 de la Ley 10306; 40 y 67 de la Ley 10321; 76 del Decreto-Ley 9686/81; 37 y 46 de la Ley 10757; 42 y 50 del Decreto-Ley 5413/58; 13 y 34 de la Ley 10307; y toda otra norma que atribuya a la justicia en lo Civil y Comercial de La Plata la competencia para juzgar las impugnaciones contra los actos de gravamen emanados de los Colegios o Consejos Profesionales. Tales casos serán resueltos por los tribunales contencioso-administrativos y tramitarán con arreglo a lo previsto en el artículo 74 del presente Código.
+
+
+
+Las contiendas previstas en los artículos 79 de la Ley 10973; 28 de la Ley 10405; 27 de la Ley 10416; 27 de la Ley 10411; 6 de la Ley 6682 (T.O. decreto 5514/87); 27 de la Ley; 5 de la Ley 10392; 5 de la Ley 10646; 20 de la Ley 5177 (T.O. 1.987); 39 del Decreto-Ley 9944/83; 7 de la Ley 8271; 12 de la Ley 10321; 27 de la Ley 10751, y en toda otra norma análoga, relativa a la intervención y reorganización de Colegios o Consejos Profesionales, serán resueltas por los tribunales contencioso administrativos, aplicándose las reglas previstas en el artículo 21 inciso 2) del presente Código.
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 80.- (Texto según Ley 13101) Sustitúyense los artículos 31 y 36 de la Ley 10869, por los siguientes:
+
+
+
+
+
+
+
+
+
+
+
+
+“Artículo 31 - Las resoluciones definitivas del Tribunal de Cuentas, podrán ser recurridas ante los juzgados contenciosos administrativos, de conformidad con lo dispuesto en el Código Procesal Contencioso Administrativo, con aplicación de las reglas del proceso ordinario (Título I). A los fines de la determinación de la competencia, se aplicará lo dispuesto en el artículo 5º inciso 2) apartado a), del citado Código.”
+
+
+
+
+
+
+
+
+
+
+
+
+“Artículo 36 - El cobro judicial previsto en el artículo 33 de la presente ley, se suspenderá cuando se interponga el recurso de revisión, se inicie una causa contencioso administrativa, se efectúe el pago o se consigne el importe del cargo en el Banco de la Provincia a la orden del Presidente de la Cámara de Apelaciones.”
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 81.- (DEROGADO POR LEY 12310) Sustitúyense los artículos 3, 8 y 10 del Decreto-Ley 9122/78, reformado por la Ley 11796, los que quedarán redactados de la siguiente forma:
+
+
+
+“Artículo 3: Serán competentes para entender en los juicios contemplados en la presente Ley, tendientes al cobro de créditos fiscales de naturaleza tributaria de la Provincia, los tribunales contencioso-administrativos que correspondan al domicilio fiscal del obligado en la Provincia, o los que correspondan al lugar del cumplimento de la obligación o los del lugar en que encuentren los bienes afectados por la obligación que se ejecute, a elección del actor. El procedimiento tramitará ante la Secretaría de Ejecuciones Fiscales de cada tribunal.
+
+
+
+En los juicios promovidos por las municipalidades u otras personas públicas no estatales expresamente facultadas para acudir a este procedimiento de ejecución, serán competentes los jueces de Primera Instancia en lo Civil y Comercial o los jueces de Paz Letrado que correspondan al domicilio fiscal del obligado en la Provincia, o los que correspondan al lugar del cumplimiento de la obligación o los del lugar en que se encuentren los bienes afectados por la obligación que se ejecute, a elección del actor.
+
+
+
+En ningún caso, la facultad que la autoridad provincial o municipal confiera a los contribuyentes para el pago de sus obligaciones fuera de la jurisdicción provincial, podrá entenderse como declinación de esta última. En el caso de existir varios créditos contra una misma persona, podrán acumularse en una ejecución, también a elección del actor. No es admisible la recusación sin causa”.
+
+
+
+
+
+
+
+
+
+
+
+
+“Artículo 8: Opuestas las excepciones en la forma prevista en el artículo 7º, el Juez conferirá traslado al actor, quien deberá contestarlas dentro del tercer día. Si se declarase que las mismas no son admisibles, podrá apelar el demandado en relación y dentro de las cuarenta y ocho (48) horas de notificado, salvo en el caso de ejecuciones que tramiten ante los tribunales contencioso administrativos, en los que tal resolución será irrecurrible”.
+
+
+
+
+
+
+
+
+
+
+
+
+“Artículo 10: Contra la sentencia de trance y remate podrá interponerse recurso de apelación en relación, en el único supuesto en que se hubieren opuesto excepciones declaradas admisibles. En los casos que tramiten ante los tribunales contencioso administrativos, la sentencia no será impugnable por vía del recurso de casación”.
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 82.- Sustitúyense los artículos 40, 41 y 42 del Decreto-Ley 7543/69 (T.O. mediante Decreto 969/87), por los siguientes:
+
+
+
+
+
+
+
+
+
+
+
+
+“Artículo 40: La resolución definitiva dictada en los casos previstos en el artículo 38, no surtirá efecto alguno sin la previa notificación al Fiscal de Estado, la que deberá efectuarse en su despacho oficial dentro de los cinco (5) días hábiles siguientes a la fecha en que se dictaren. Cuando se tratare de resoluciones administrativas dictadas de conformidad con la antecedente vista del Fiscal, la notificación será igualmente válida si se efectúa en la persona de alguno de los funcionarios mencionados en el artículo 43 in fine, autorizados al efecto por el Fiscal de Estado.
+
+
+
+Esta notificación se tendrá por cumplida transcurridos cinco (5) días hábiles desde que el expediente respectivo haya tenido entrada en la Fiscalía de Estado, si antes de dicho término no se efectuare la notificación personal prevista en el apartado anterior.
+
+
+
+Si la resolución hubiese sido dictada con transgresión de la Constitución, de la Ley o de un reglamento administrativo, el Fiscal de Estado deducirá demanda contencioso-administrativa o de inconstitucionalidad, según corresponda”.
+
+
+
+
+
+
+
+
+
+
+
+
+“Artículo 41: Ninguna resolución administrativa dictada en oposición con la vista del Fiscal de Estado podrá cumplirse mientras no haya transcurrido desde su notificación un plazo de treinta (30) días hábiles”.
+
+
+
+
+
+
+
+
+
+
+
+
+“Artículo 42: El vencimiento del término para iniciar la demanda originaria de inconstitucionalidad o del plazo previsto en el artículo anterior, no obstará la deducción de las acciones que correspondan, por la vía y en la forma que determinen las leyes generales, aún contra los particulares beneficiados por la resolución administrativa comprendida en el artículo 38”.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 83.- Sustitúyese el artículo 3 de la Ley 8132 por el siguiente:
+
+
+
+
+
+
+
+
+
+
+
+
+“Artículo 3: Serán competentes para entender en las actuaciones originadas por esta Ley, los tribunales del fuero contencioso-administrativo”.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 84.- Deróganse la Ley 2961, con las modificaciones introducidas por los Decretos-Leyes 8626/76, 8798/77 y la Ley 10211 -en los términos establecidos en los artículos 215 de la Constitución de la Provincia y 78 inciso 3) del presente Código-, el Decreto-Ley 9398/79 (T.O. según Decreto-Ley 9671/81), y toda otra norma que se oponga a las previstas en el presente Código.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 85.- Sustitúyese el artículo 44° del Decreto-Ley 11643/63, el que quedará redactado de la siguiente manera:
+
+
+
+
+
+
+
+
+
+
+
+
+“Artículo 44: De las observaciones que formule el Registro, el interesado podrá recurrir:
+
+
+
+a) Por reconsideración ante su Director, cuya resolución tendrá carácter definitivo.
+
+
+
+b) Por apelación ante las Cámaras de Apelación en lo Civil y Comercial del Departamento Judicial de La Plata, dentro de los diez (10) días de notificado. Si el apelante tuviese su domicilio fuera del Partido de La Plata, el plazo mencionado quedará ampliado a razón de un (1) día por cada doscientos (200) kilómetros o fracción que no baje de cien (100).”
+
+
+
+
+
+
+
+
+
+
+
+
+ARTÍCULO 86.- Comuníquese al Poder Ejecutivo.
+
+
+
+
+
+
+Dada en la Sala de Sesiones de la Honorable Legislatura de la Provincia de Buenos Aires, en la ciudad de La Plata, a un día del mes de octubre del año mil novecientos noventa y siete.

@@ -1,0 +1,2280 @@
+Ley 11.653 - Procedimiento ante los Tribunales del Trabajo (PBA)
+==============================================================================
+Jurisdiccion:     pba
+Fuente:           https://normas.gba.gob.ar/documentos/BE3q5SQ0.html
+Descargado:       2026-09-14
+SHA-256 (crudo):  ec7442725b65101618a8a5c0a5c14d4f4c65b600fd36146d22e7d8df2171dce2
+Charset:          UTF-8
+
+Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
+NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
+Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+el manifiesto `normas.json`.
+==============================================================================
+
+Ley 11653
+
+(DEROGADA POR LEY 15057)
+
+
+
+LEY 11653
+
+
+
+Texto actualizado con las modificaciones introducidas por Leyes 13829, 14142, 14399, 14552 y 14740.
+
+
+
+EL SENADO Y CÁMAR DE DIPUTADOS DE LA PROVINCIA DE BUENOS AIRES, SANCIONAN CON FUERZA DE
+
+
+
+LEY
+
+
+
+DE LOS TRIBUNALES DE TRABAJO
+
+
+
+CAPÍTULO I - COMPETENCIA
+
+
+
+ARTÍCULO 1- Los Tribunales del Trabajo de la Provincia de Buenos Aires tendrán a su cargo la administración de la justicia laboral, en un todo de acuerdo con las disposiciones del presente y de la Ley Orgánica del Poder Judicial.
+
+
+
+ARTÍCULO 2- Los Tribunales del Trabajo conocen:
+
+
+
+
+
+
+
+
+
+a) En única instancia, en juicio oral y público, de las controversias individuales del trabajo que tengan lugar entre empleadores y trabajadores, fundadas en disposiciones de los contratos de trabajo, en convenciones colectivas, laudos con eficacia de éstas, disposiciones legales o reglamentarias del derecho del trabajo y de las causas vinculadas con un contrato de trabajo aunque se funden en normas del derecho común.
+
+
+
+b) En las acciones de las asociaciones sindicales con personalidad gremial, por cobro de aportes, contribuciones y demos beneficios que resulten de convenciones colectivas de trabajo y en aquellas acciones respecto de las cuales el régimen de las asociaciones sindicales establezca la competencia local.
+
+
+
+c) En las demandas de desalojo por restitución de inmuebles o parte de éstos concedidos a los trabajadores en virtud o como accesorio de los contratos de trabajo.
+
+
+
+d) En las demandas de tercerías en los juicios de competencia de la justicia laboral.
+
+
+
+e) En grado de apelación de las resoluciones definitivas dictadas por la asociación sindical, que denieguen la solicitud de afiliación de los trabajadores o dispongan su expulsión, con arreglo a las normas legales que rijan la materia.
+
+
+
+f) En grado de apelación, de las resoluciones dictadas por las autoridades administrativas provinciales del trabajo cuando las leyes pertinentes lo establezcan.
+
+
+
+g) En la ejecución de las resoluciones dictadas por la autoridad administrativa del trabajo cuando las leyes así lo dispongan.
+
+
+
+ARTICULO 3- Cuando la demanda sea iniciada por el trabajador por entablarse indistintamente:
+
+
+
+a) Ante el Tribunal del lugar del domicilio del demandado.
+
+
+
+b) Ante el Tribunal del lugar de prestación del trabajo.
+
+
+
+c) Ante el Tribunal del lugar de celebración del contrato de trabajo.
+
+
+
+Si la demanda es deducida por el empleador deber entablarse ante el Tribunal del lugar del domicilio del trabajador.
+
+
+
+ARTICULO 4- Salvo disposición expresa de las leyes especiales, en los supuestos de los incisos b), c), e) y g) del artículo 2, las acciones deben promoverse ante el Tribunal del domicilio del demandado.
+
+
+
+ARTICULO 5- En caso de muerte, quiebra o concurso del demandado, las acciones que sean de competencia de los Tribunales del Trabajo se iniciarán o continuarán en esta jurisdicción, a cuyo efecto deberá notificarse a los respectivos representantes legales.
+
+
+
+ARTICULO 6- El Tribunal ante el cual se hubiere promovido una demanda, deber inhibirse de oficio si considerase no ser competente para conocer en el asunto por razón de la materia. Sin embargo una vez contestada la demanda o perdido el derecho de hacerlo sin objetarse la competencia, ésta quedar fijada definitivamente para el Tribunal y las partes.
+
+
+
+CAPITULO II
+
+
+
+DISPOSICIONES GENERALES DE PROCEDIMIENTO
+
+
+
+RECUSACIONES Y EXCUSACIONES
+
+
+
+ARTICULO 7- Los Jueces de los Tribunales del Trabajo no podrá n ser recusadas sin expresión de causa. Regirán en materia de excusación y recusación las causales establecidas en el Código Procesal Civil y Comercial.
+
+
+
+ARTÍCULO 8- La presentación deber deducirse ante el Tribunal del que forma parte el Juez o Jueces a recusar en la primera intervención que se efectúe.
+
+
+
+Cuando la causal fuera sobreviniente o desconocida por la parte, por promoverse la recusación dentro del quinto día de saberla y bajo juramento de haber llegado recién a su conocimiento.
+
+
+
+Esta facultad sólo podrá ejercerse antes del día de la vista de la causa.
+
+
+
+ARTÍCULO 9- En la recusación se observarán las reglas siguientes:
+
+
+
+1.- En el escrito que se presente sé denunciar n las causales de que intente valerse, los testigos que hayan de declarar, cuyo número no podrá exceder de tres, acompañando los documentos necesarios y ofreciendo las demás pruebas que considere pertinentes.
+
+
+
+La presentación ser desechada si no se llenaren los requisitos expresados o si se propusiere fuera de término.
+
+
+
+2.- Deducida la misma se integrara el Tribunal con los jueces que sean necesarios hasta completar su totalidad y consentida que sea la integración se ha saber al miembro recusado, a fin de que manifieste si son o no ciertas las causales alegadas. Si las reconociere, el Tribunal lo tender por separado del juicio sin m s trámite.
+
+
+
+3.- Si las negare y el Tribunal que conoce de aquella encontrase suficientes las probanzas presentadas al deducirla, decidir el incidente sin m s trámite. En caso contrario, ordenar se practiquen las diligencias solicitadas por el recusante en el escrito inicial y designar audiencia dentro de los diez (10) días para que se reciban las pruebas, observándose lo dispuesto en el artículo 44 y resolver en el mismo acto.
+
+
+
+4.- El incidente suspende el procedimiento pero no el trámite para la contestación de la demanda.
+
+
+
+ARTICULO 10- Queda prohibida la intervención de abogados o procuradores cuya presencia en el proceso pueda generar causales de recusación y excusación cuando dicha intervención comience después de consentida la actuación del Tribunal que conoce en el mismo.
+
+
+
+IMPULSO PROCESAL
+
+
+
+ARTICULO 11.- Presentada la demanda, el procedimiento podrá ser impulsado por las partes, el Tribunal y el Ministerio Público.
+
+
+
+ARTICULO 12.- El Tribunal deberá ordenar de oficio las medidas convenientes para el desarrollo del proceso. Asimismo, podrá disponer se realice cualquier diligencia que fuera necesaria para evitar la nulidad del procedimiento. Tiene también amplias facultades de investigación, pudiendo ordenar las medidas probatorias que estime pertinentes respetando los principios de congruencia, bilateralidad y defensa.
+
+
+
+Transcurrido en la etapa de conocimiento el plazo de tres (3) meses en los juicios sumarísimos y de seis (6) en todos los demás casos sin que se hubiere instado el curso del proceso y siempre que no medie un deber específico del Tribunal de efectuar determinados actos procesales, podrá intimarse a las partes para que en el término de cinco (5) días produzcan actividad procesal útil para la prosecución del trámite, bajo apercibimiento de que en caso de incumplimiento se decretara la caducidad de la instancia.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTICULO 13.- Los escritos a que se refiere el artículo 113 (T.O. Decreto 180/87) de la Ley 5177 ser n proveídos en la justicia laboral, sin perjuicio de intimarse a los profesionales firmantes para que, dentro del tercer día, subsanen las omisiones o deficiencias bajo apercibimiento de aplicárseles un llamado de atención o las sanciones que correspondan contempladas en la Ley Orgánica del Poder Judicial.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NULIDADES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTICULO 14.- Las nulidades de procedimiento sólo se declaran a petición de parte siempre que se formule dentro del plazo de cinco (5) días de conocido el acto, salvo que fueran originadas por no habérsele dado audiencia, en cuyo caso el Tribunal podrá declararlas de oficio.
+
+
+
+
+
+
+
+
+
+La parte que ha originado el vicio que motive la nulidad o que en forma expresa o tácita hubiere renunciado a diligencias o trámites instituidos en su propio interés, no por alegar la nulidad o impugnar la validez de los procedimientos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACUMULACION
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTICULO 15.- El demandante por acumular todas las acciones que tenga contra una parte, siempre que sean de la competencia del mismo Tribunal, no sean excluyentes y puedan sustanciarse por los mismos trámites. En iguales condiciones se podrá acumular las acciones de varias partes contra una o m s, si fueren conexas por el objeto o por el título. Sin embargo, se podrá ordenar la separación de los procesos si se considerase que la acumulación es inconveniente.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NOTIFICACIONES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTICULO 16.- (Texto según Ley 14142) Las providencias quedarán notificadas por ministerio de la ley, los días martes y viernes o el siguiente hábil si alguno de ello no lo fuere, sin necesidad de nota, certificado u otra diligencia.
+
+
+
+Se notificarán personalmente o por cédula:
+
+
+
+a) El traslado de la demanda, de la reconvención y de sus contestaciones.
+
+
+
+b) La audiencia a que se refiere el artículo 29.
+
+
+
+c) La declaración de rebeldía.
+
+
+
+d) La citación al acto previsto en el artículo 25.
+
+
+
+e) La providencia que declare la cuestión de puro derecho y los traslados a que se refiere el artículo 32, último párrafo.
+
+
+
+f) El auto de apertura y recepción de prueba, el de designación de la audiencia de vista de la causa, las cargas procesales que se impongan a las partes y, en su caso, los traslados para alegar por escrito.
+
+
+
+g) El traslado de los informes y dictámenes periciales, de los autos que ordenen intimaciones y medidas para mejor proveer.
+
+
+
+h) La sentencia definitiva, juntamente con la liquidación a que se refiere el artículo 48.
+
+
+
+i) La providencia de “autos” contemplada en el artículo 57 inciso b).
+
+
+
+j) La denegatoria de los recursos extraordinarios.
+
+
+
+k) Las que hacen saber medidas cautelares, o su modificación o levantamiento.
+
+
+
+l) Las resoluciones en los incidentes, las interlocutorias con carácter de definitivas y aquellas otras providencias que, en su caso, se indique expresamente.
+
+
+
+Cuando así se lo disponga podrá notificarse por carta documento, por telegrama, por acta notarial o por correo electrónico.
+
+
+
+Se tendrá por cumplimentada la entrega de copias si se transcribe su contenido.
+
+
+
+En caso que ello resulte imposible o inconveniente, las copias quedarán a disposición del notificado en el Tribunal, lo que así se la hará saber.
+
+
+
+Se tomará como fecha de notificación el día de labrada el acta o entrega del telegrama o carta documento, salvo que hubiera quedado pendiente el retiro de copias, en cuyo casos se computará el día de nota inmediato posterior.
+
+
+
+Esta última fecha se tomará en cuenta en los supuestos que la notificación fuera por medio electrónico, independientemente que se transcriba o no el contenido de las copias en traslado.
+
+
+
+
+
+
+
+
+
+
+
+
+PLAZOS LEGALES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTICULO 17.- Todos los plazos legales son computarán por días hábiles y serán perentorios e improrrogables.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MEDIDAS PRECAUTORIAS
+
+
+
+
+
+
+ASISTENCIA MEDICO FARMACEUTICA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTICULO 18.- Aún antes de iniciada la acción y en cualquier estado del juicio y a petición de parte, el Tribunal podrá decretar medidas cautelares cuando, a su criterio y según el m‚rito que arrojen los autos, resulte procedente el resguardo del derecho invocado.
+
+
+
+
+
+
+
+
+
+Del mismo modo podrá disponer que el empleador provea gratuitamente la asistencia médica y farmacéutica requerida por la víctima, en las condiciones establecidas por la ley nacional de aplicación.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+COSTAS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTICULO 19.- El vencido en el juicio será condenado al pago de las costas, aunque no se hubieran pedido.
+
+
+
+
+
+
+
+
+
+El Tribunal podrá eximirlo en todo o en parte cuando hallare m‚rito para ello, expresando los motivos en que se funda.
+
+
+
+
+
+
+
+
+
+En el caso de acumulación de acciones, las costas se impondrán en relación al éxito o fracaso de cada una de ellas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTICULO 20.- En el proceso laboral la actuación estará exenta de toda tasa y gastos. Sin embargo, el condenado en costas, cuando no sea el trabajador, deber pagar las tasas y gastos correspondientes. Si aquellas se declarasen por su orden, abonar los de su parte.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTICULO 21.- Los gastos que en razón de esta ley deba efectuar el Tribunal para la actuación procesal serán resarcidos por la parte a cuyo cargo se impongan las costas, aplicándose en lo pertinente lo dispuesto en el artículo 22.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BENEFICIO DE GRATUIDAD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTICULO 22.- Los trabajadores o sus derecho-habientes gozarán del beneficio de gratuidad. La expedición de testimonios, certificados, legalizaciones o informes en cualquier oficina pública será gratuita.
+
+
+
+
+
+
+
+
+
+En ningún caso les será exigida caución real o personal para el pago de costas, gastos u honorarios o para la responsabilidad por medidas cautelares. Sólo darán caución juratoria de pagar si mejorasen de fortuna.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CARTA PODER
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTICULO 23.- Los trabajadores desde los dieciocho (18) años y sus derecho-habientes podrán estar en juicio y hacerse representar por mandatario, abogado o procurador, mediante simple carta-poder autenticada la firma por escribano, funcionario judicial letrado habilitado o secretario o su reemplazante de los Tribunales del Trabajo.
+
+
+
+
+
+
+
+
+
+Los menores adultos que no hayan cumplido aquella edad también podrán estar en juicio y otorgar mandato en la forma indicada precedentemente, previa autorización e intervención promiscua del Ministerio Público.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTICULO 24.- En casos urgentes podrá admitirse la intervención en juicio sin los instrumentos que acrediten la personería. Si ‚estos, cualquiera fuere la fecha de su otorgamiento, no fuesen presentados o no se ratificase la gestión dentro del plazo de diez (10) días contados desde su invocación, ser nulo todo lo actuado por el gestor y éste pagará las costas causadas sin perjuicio de la responsabilidad por los daños ocasionados.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CONCILIACION
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTICULO 25.- Una vez iniciada la demanda se podrá intentar la conciliación en cualquier estado del procedimiento.
+
+
+
+
+
+
+
+
+
+En tal caso, y sin que se altere el curso del proceso, las partes ser n citadas a comparecer, asistidas por abogado o por apoderado letrado con facultades suficientes, bajo apercibimiento, en caso de incomparecencia injustificada, de multa de tres (3) a diez (10) jus, la que ser aplicada a las partes. La notificación se practicará con transcripción de este párrafo.
+
+
+
+
+
+
+
+
+
+De arribarse a la conciliación total o parcial, dentro de los cinco (5) días siguientes el Tribunal se pronunciará homologando o no el acuerdo y podrá eximir a las partes, si ‚estas lo solicitaren, del pago de las tasas y gastos fiscales de la causa.
+
+
+
+
+
+
+
+
+
+Salvo disposición en contrario de las normas aplicables al caso, en cualquier estado del proceso les partes también podrán conciliar el juicio mediante presentación escrita del acuerdo para su homologación rigiendo a tal efecto lo dispuesto en el párrafo anterior.
+
+
+
+
+
+
+
+
+
+La homologación producirá los efectos de cosa juzgada.
+
+
+
+
+
+
+
+
+
+En caso de no conciliarse, se podrá proponer a las partes que la discusión se simplifique por eliminación de aquellas cuestiones y pruebas que carezcan de importancia para la sentencia definitiva.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CAPITULO III
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DEMANDA Y CONTESTACION
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DEMANDA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTICULO 26.- La demanda se interpondrá por escrito y contendrá:
+
+
+
+
+
+
+
+
+
+a) Nombre, domicilio real, edad, nacionalidad, estado civil y profesión, oficio u ocupación del actor.
+
+
+
+b) Nombre y domicilio del demandado.
+
+
+
+c) La designación precisa de cada uno de los conceptos que se impetren.
+
+
+
+d) Los hechos en que se funde cada uno de los reclamos expresados claramente.
+
+
+
+e) El derecho en que se sustentan las acciones deducidas expuesto sucintamente.
+
+
+
+f) La liquidación de los rubros que correspondiere.
+
+
+
+g) La mención de los medios de prueba que la parte intente hacer valer para demostrar sus afirmaciones. Asimismo, presentar los documentos que obraren en su poder y si no los tuviere los individualizar indicando su contenido, la persona en cuyo poder se hallaren, o el lugar, archivo u oficina donde se encuentren.
+
+
+
+h) La petición en términos claros y positivos.
+
+
+
+
+
+
+
+
+
+
+
+
+ARTICULO 27.- Si la demanda tuviese algún defecto u omisión, se deberá ordenar sean salvados dentro del tercer día y con la prevención de que, en caso de incumplimiento, se dispondrá su archivo.
+
+
+
+
+
+
+
+
+
+Asimismo, si de la demanda no resultase claramente la competencia del Tribunal, se pedirá al actor las aclaraciones necesarias, con igual plazo y apercibimiento.
+
+
+
+
+
+
+
+
+
+Cuando la acción se promueva o continúe por los causahabientes, se adjuntarán los certificados que acrediten la defunción y el parentesco invocado y si fuere además necesario testimonio de la declaratoria de herederos. En tal caso, de no agregarse, podrá disponerse que se acompañe dicho instrumento.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TRASLADO DE LA DEMANDA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTICULO 28.- Presentada la demanda y previo cumplimiento, si correspondiere, de lo dispuesto en el artículo 27, el Presidente del Tribunal correrá traslado al demandado, a quien citar y emplazar para que comparezca y la conteste dentro del plazo de diez (10) días, el que ser ampliado en razón de la distancia en un día por cada doscientos (200) kilómetros o fracción no menor de cien (100), bajo apercibimiento de tener aquella por contestada si no lo hiciere y declararlo rebelde en su caso.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CONTESTACION DE LA DEMANDA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTICULO 29.- La contestación de la demanda deber contener, en lo aplicable, los requisitos de los artículos 26 y 34.
+
+
+
+
+
+
+
+
+
+El demandado deber articular todas las defensas que tuviere, incluso las excepciones y prescripción, y ofrecer además toda la prueba de que intente valerse. En esa oportunidad también podrá deducir reconvención siempre que esta sea conexa con la acción principal. Las pruebas respectivas se ofrecerán en forma separada para cada uno de tales supuestos.
+
+
+
+
+
+
+
+
+
+De dicho escrito sé dar traslado al actor quien, dentro del quinto día, podrá ampliar su prueba exclusivamente con respecto a los nuevos hechos introducidos por el demandado.
+
+
+
+
+
+
+
+
+
+En el plazo de cinco (5) días deber contestar las excepciones y prescripción opuestas en el de diez (10) días la reconvención que se hubiere deducido, ofreciendo las pruebas en la forma establecida en el párrafo segundo. De la contestación de la reconvención se dará traslado por cinco (5) días a los mismos fines que los previstos para la contestación de la demandada. Cumplido lo previamente dispuesto o vencido los plazos referidos, el Presidente del Tribunal, en el caso de haberse opuesto excepciones, fijar audiencia para dentro de quince (15) días a fin de que se reciba la prueba correspondiente.
+
+
+
+
+
+
+
+
+
+Al contestar las partes los traslados dispuestos en los párrafos anteriores deber n reconocer o negar la autenticidad de los documentos acompañados que se les atribuyen, como así también la recepción de las cartas, cartas documentos y telegramas a ellos dirigidos y cuyas copias se adjunten, bajo apercibimiento de que se los tendrá por reconocido o recibidos, según el caso.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INTERVENCION DEL ASEGURADOR
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTICULO 30.- Cuando exista un seguro en virtud de una ley que autorice sustituir la responsabilidad patronal, la intervención del asegurador en el juicio se regirá por las normas legales específicas en la materia.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EXCEPCIONES - PRESCRIPCION
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTICULO 31.- Las únicas excepciones admisibles como previas son:
+
+
+
+
+
+
+
+
+
+a) Incompetencia.
+
+
+
+b) Falta de capacidad de las partes o de personería en sus representantes.
+
+
+
+c) Litispendencia.
+
+
+
+d) Cosa juzgada.
+
+
+
+
+
+
+
+
+
+
+
+
+Si se opusiere la prescripción y pudiere resolverse como de puro derecho, así se procederá con arreglo a lo dispuesto en el artículo 32. En caso contrario, la prueba sé producir junto con la de las restantes cuestiones de fondo y se resolverá en la sentencia definitiva.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CAPITULO IV
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PRUEBAS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RECEPCION DE PRUEBAS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTICULO 32.- Contestados los traslados previstos en el artículo 29 o vencidos los plazos para hacerlo y siempre que hubiesen sido resueltas las excepciones opuestas y la cuestión no fuere de puro derecho el Presidente del Tribunal, dentro del plazo de diez (10) días, proveer lo que corresponda respecto de las pruebas ofrecidas las que, salvo aquellas que se reciban en la vista de la causa, deber n producirse en el plazo de sesenta (60) días sin perjuicio de lo establecido en el artículo 41. No ser n admitidas las que fueren manifiestamente improcedentes o superfluas o meramente dilatorias.
+
+
+
+
+
+
+
+
+
+La audiencia, en la que se recibirá la prueba de confesión, de testigos y, en su caso, a los peritos citados, sé designar en el mismo auto observando las reglas generales indicadas en el artículo 43, salvo cuando la cantidad, índole o complejidad de la prueba induzca a fijarla posteriormente en la oportunidad prevista en el artículo citado.
+
+
+
+
+
+
+
+
+
+Si no se hubiese ofrecido prueba oral o por cualquier otro motivo no fuera necesario recibir la misma, una vez producida la ordenada o vencido el plazo para hacerlo, el Presidente del Tribunal dentro de los diez (10) días concederá traslado a las partes para que en el plazo de cinco (5) días informe por escrito sobre el mérito de la prueba. Presentados los alegatos o vencido el término para hacerlo, sin más trámite sé dictar veredicto y sentencia en los plazos establecidos en el artículo 44, incido d) y e).
+
+
+
+
+
+
+
+
+
+Si la cuestión fuere de puro derecho, en la oportunidad y plazos previstos en el primer párrafo, el Tribunal así lo declarar en el mismo acto conferir traslado a las partes para que dentro de los cinco (5) días informen por escrito. Presentados los informes o vencido el término para hacerlo, sin más trámite dictará sentencia dentro del plazo de los veinte (20) días.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTICULO 33.- Las pruebas que deban practicarse fuera del lugar donde tiene su asiento el Tribunal podrán delegarse salvo fundada y expresa oposición de parte, que ser resuelta sin recurso.
+
+
+
+
+
+
+
+
+
+Cuando existiese prueba que haya de producirse fuera de la Provincia, los plazos señalados en el artículo 29 y 32 podrán ampliarse hasta noventa (90) días como máximo, atendiendo a las distancias y a la facilidad de las comunicaciones.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ABSOLUCION DE POSICIONES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTICULO 34.- Cuando se solicite la absolución de posiciones ser indispensable, para su admisión, acompañar el pliego respectivo. Caso contrario se la tendrá por no ofrecida.
+
+
+
+
+
+
+
+
+
+Quien deba absolverlas ser citado en su domicilio real, por c‚dula, por telegrama, carta documento, o acta notarial con anticipación no menor de dos (2) días hábiles, bajo apercibimiento de poder tenerlo por confeso si no compareciere sin justa causa.
+
+
+
+
+
+
+
+
+
+Las personas de existencia ideal podrá n elegir a la persona física que las represente, cuya declaración confesional obligar a la parte proponente. A tales fines, al promover o contestar la demanda deber n indicar quien absolver posiciones en su nombre y el domicilio, dentro del asiento del Tribunal, donde ser citada. También podrán proponer un absolvente sustituto para el caso de muerte, incapacidad o ausencia debidamente justificadas del designado en primer lugar.
+
+
+
+
+
+
+
+
+
+El reemplazo se podrá efectuar hasta el día de la audiencia en la concurrencia del absolvente sustituto estar a cargo de la parte que lo propuso cuando se produzca después de proveída tal prueba. En este caso, su incomparecencia implicar tenerlo por confeso atendiendo las circunstancias de la causa.
+
+
+
+
+
+
+
+
+
+Quedar a cargo de la parte que indica la persona que absolver posiciones la obligación de que sus respuestas puedan efectuarse con eficaz conocimiento de los hechos, bajo apercibimiento de poder tenerla por confesa.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TESTIGOS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTICULO 35.- Cada parte sólo podrá ofrecer hasta cinco (5) testigos, salvo que por la naturaleza de la causa o por el número de actores o de cuestiones de hecho sometidas a decisión del Tribunal, se admitiera una cantidad mayor.
+
+
+
+
+
+
+
+
+
+Cualquiera sea el número admitido, también se podrá proponer subsidiariamente hasta tres (3) testigos para reemplazar a quienes no pudieran declarar por las causas previstas en el artículo 34, sustitución que podrá efectuarse hasta el día de la audiencia.
+
+
+
+
+
+
+
+
+
+Podrá ser testigo toda persona que haya cumplido catorce (14) años de edad.
+
+
+
+
+
+
+
+
+
+Si al proponer la prueba el trabajador solicitare que los testigos sean examinados directamente por el Tribunal de la causa, siempre que tuvieran su domicilio en la Provincia, el Estado abonar los gastos de traslado con cargo de reembolso al mejorar de fortuna. Cuando igual solicitud sea formulaba por el empleador, éste se hará cargo de los gastos de traslado.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTICULO 36.- Toda persona citada como testigo est obligada a comparecer ante el Tribunal, teniendo derecho cuando preste servicios en relación de dependencia a faltar a sus tareas, debiendo computarse a los fines remuneratorios como efectivamente trabajado el tiempo que le insuma el cumplimiento de la citación, a cuyo fin por Secretaría se le otorgar la constancia correspondiente.
+
+
+
+
+
+
+
+
+
+El testigo que no concurriere sin excusar su ausencia con justa causa, podrá ser conducido por la fuerza pública y manteniendo en arresto hasta tomársele declaración, sometiéndosele luego a la justicia penal si correspondiere. Sin perjuicio de ello, por aplicársele una multa cuyo monto ser fijado entre 1 a 4 jus. En la notificación respectiva se transcribirá este párrafo.
+
+
+
+
+
+
+
+
+
+La citación se ha por cédula, por telegrama, por carta documento o por acta notarial con anticipación de dos (2) días hábiles, como mínimo, al de la audiencia, salvo los testigos de reemplazo cuya concurrencia ser a cargo de la parte que los ofreció cuando la situación se produzca después de proveída tal prueba. En este caso, su incomparecencia implicar tener a la parte por desistida de su declaración.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PERITOS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTICULO 37.- Los peritos ser n nombrados de oficio. Su número según la índole del asunto, puede a juicio del Presidente del Tribunal variar de uno (1) a tres (3) por cada cuestión técnica sometida a decisión judicial practicándose la diligencia en la forma especificada en el artículo 469 del Código Procesal Civil y Comercial. La designación se hará por sorteo entre los profesionales matriculados e inscriptos en una lista que se formará en cada jurisdicción de los Tribunales del Trabajo, debiendo agotarse el sorteo de dicha lista para que el desinsaculado pueda ser sorteado nuevamente.
+
+
+
+
+
+
+
+
+
+Las pericias médicas podrán practicarse por el sistema previsto anteriormente o mediante perito único que ser designado por sorteo, entre los médicos laboralistas de la nómina oficial del Poder Judicial.
+
+
+
+
+
+
+
+
+
+Cuando la lista oficial del lugar al que corresponde el Tribunal del Trabajo no exista el cargo de médico laboralista, la designación se efectuará por sorteo entre los especialistas de esa rama de la oficina existente en el lugar más próximo.
+
+
+
+
+
+
+
+
+
+En caso de recusación, excusación, vacancia, remoción o cualquier otro impedimento de los médicos laboralistas oficiales mencionados en el segundo párrafo, una vez agotada la nómina, serán reemplazados en la forma establecida en el párrafo anterior.
+
+
+
+
+
+
+
+
+
+El Presidente del Tribunal podrá, asimismo, disponer que las pericias se realicen por técnicos forenses o de organismos públicos nacionales, provinciales o municipales. En estos casos sé determinar la suma que deba abonarse por esos servicios con arreglo a las disposiciones que al efecto dicte la Suprema Corte.
+
+
+
+
+
+
+
+
+
+Sé fijar a los peritos al proveer la prueba ofrecida, un plazo no mayor de veinte (20) días para la presentación de sus informes y dictámenes con la antelación necesaria a la vista de la causa cuando hubiera sido designada para que antes de dicha audiencia se cumpla con todos los traslados que se prevén a continuación.
+
+
+
+
+
+
+
+
+
+Del informe o dictamen pericial se dará traslado a las partes por cinco (5) días, salvo que su complejidad o extensión justificare un plazo mayor, bajo apercibimiento de perder el derecho a pedir explicaciones o impugnar el informe o dictamen presentado, sin perjuicio de lo dispuesto en los artículos 44 inciso b) y 45.
+
+
+
+
+
+
+
+
+
+Del pedido de explicaciones y/o impugnaciones formulado por las partes, sé dar traslado a los peritos para que lo contesten en el plazo de cinco (5) días o antes de la vista de la causa o en la misma audiencia, si se hubiese designado, atendiendo las circunstancias del caso.
+
+
+
+
+
+
+
+
+
+Cuando se lo estimare necesario, por disponerse que se practique otra pericia, o se perfeccione o se amplíe la anterior, según el sistema de designación que se considere pertinente.
+
+
+
+
+
+
+
+
+
+Los informes o dictámenes deber n presentarse con tantas copias como partes intervengan.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTICULO 38.- Cuando los perito no se expidieren en término o citados para dar explicaciones o evacuar impugnaciones no comparecieren sin justa causa, de oficio sé dejar sin efecto su designación, dándoles por perdido el derecho a devengar honorarios si correspondiese y excluyéndolos de la lista. En el caso de peritos de la nómina oficial del Poder Judicial se comunicará a la Suprema Corte de Justicia a sus efectos.
+
+
+
+
+
+
+
+
+
+La designación de los peritos se notificará con transcripción de éste artículo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LIBROS Y REGISTROS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTICULO 39.- Cuando en virtud de una norma legal aplicable exista obligación de llevar libros, registros o planillas especiales de ¡índole laboral, y a requerimiento judicial no se los exhiba o resulte que no reúne las exigencias legales y reglamentarias, incumbir al empleador la prueba contraria si el trabajador o sus derecho-habientes prestaren declaración jurada sobre los hechos que debieron consignarse en los mismos.
+
+
+
+
+
+
+
+
+
+En los casos en que se controvierta el monto o el cobro de remuneraciones en dinero o en especie, la prueba contraria a la reclamación corresponder al empleador.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EXPEDIENTES, DOCUMENTOS Y CONVENIOS COLECTIVOS.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTICULO 40.- Cuando se ofrezcan como prueba expedientes administrativos o judiciales en trámite, deber n individualizarse las piezas o circunstancias que interesen; en su caso, se requerirá testimonio o copia autenticada de dichos elementos probatorios. Cuando se trate de expedientes administrativos o judiciales terminados y agregados a otro juicio, podrá procederse de la misma manera o requerirse la remisión de los mismos.
+
+
+
+
+
+
+
+
+
+Si se ofreciere como prueba un documento agregado o un expediente en trámite, sé pedir el envío de dicho expediente exclusivamente por el plazo necesario para cumplimentar la prueba o copia autenticada del instrumento.
+
+
+
+
+
+
+
+
+
+En el primer caso, antes de devolverse el expediente se dejará copia del documento en la causa.
+
+
+
+
+
+
+
+
+
+Cuando la actuación que se ofrezca como prueba se refiera a una cuestión de carácter prejudicial se deberá aguardar su terminación.
+
+
+
+
+
+
+
+
+
+Cuando los convenios colectivos de trabajo fueran debidamente individualizados por las partes no ser necesario diligenciar prueba alguna para acreditarlos. A tal fin obrar n en poder de cada Tribunal ejemplares de los mismos cuyas copias autenticadas se agregarán a los autos. En caso de no tenerlos, el Tribunal deber requerirlos a la autoridad que corresponda a tales efectos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INFORMES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTICULO 41.- Las pruebas a que se refiere el artículo 40 y los informes que se soliciten a las oficinas públicas y entidades privadas deber n hallarse diligenciados en el plazo señalado en el artículo 32 o con anterioridad a la finalización de la vista de la causa, bajo apercibimiento de la pérdida de dicha prueba si la demora le fuera imputable a la parte proponente.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RECONOCIMIENTO JUDICIAL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARTICULO 42.- Cuando se considere necesario el reconocimiento de lugares, cosas o circunstancias relacionadas con la causa, los Jueces del Tribunal podrán trasladarse a tal fin o encomendar la diligencia a alguno de sus miembros o secretario.
+
+
+
+
+
+
+
+
+
+Si el lugar fuere distante del asiento del Tribunal la medida por ser deferida a la autoridad judicial m s próxima.
+
+
+
+
+
+
+
+
+
+Del reconocimiento realizado sé labrar acta circunstanciada que sé incorporar a la causa.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CAPITULO V
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+VISTA DE LA CAUSA, VEREDICTO Y SENTENCIA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+REGLAS GENERALES
+
+
+
+
+
+
+ARTICULO 43.- Cuando se hubiere diferido la fijación de la vista de la causa, una vez producida la prueba ordenada o vencido el plazo para hacerlo según lo dispuesto en el artículo 32, el Presidente del Tribunal, dentro de los diez (10) días determinar la fecha en que deber realizarse la audiencia.
+
+
+
+Para su designación se utilizarán todos los días hábiles de la semana cuando la cantidad de causas lo exija.
+
+
+
+Cuando medie suspensión total o parcial de la vista de la causa, la fijación de la nueva audiencia en el primer caso o de su continuación en el segundo, deber efectuarse para dentro de un plazo no mayor de treinta (30) días salvo que lo impida la índole de la prueba a producirse, en cuyo caso sé designar a la brevedad posible. Si a la misma no concurrieran las partes ser a cargo de cualquiera de ellas peticionar la fijación de la fecha de audiencia.
+
+
+
+A las partes les asiste el derecho de solicitar la designación de las audiencias para la fecha m s próxima posible que indicar n según la constancia que surjan del Libro de Audiencias a que se refiere el artículo 59, el que estar a disposición de aquellas.
+
+
+
+La decisión que admita tal petición ser dictada por el Presidente y la que la deniegue requerir resolución fundada del Tribunal.
+
+
+
+ARTICULO 44.- El día y hora fijados para la vista de la causa deber declararse abierto el acto cualesquiera sean las partes y personas citadas que hubieran concurrido, quienes no estar n obligadas a aguardar m s de media hora siempre que el Tribunal no est‚ en audiencia. En tal caso podrán retirarse después de dejar constancia de su oportuna presencia si vencido dicho plazo de espera el acto no ha dado aún comienzo. A la parte que no concurra se le por aplicar la multa prevista en el artículo 25.
+
+
+
+
+
+
+
+
+
+Durante la vista de la causa se observarán las siguientes reglas:
+
+
+
+a) Se dará lectura a las actuaciones de prueba producidas antes de la audiencia, si alguna de las partes lo pidiere.
+
+
+
+b) A continuación el Tribunal recibirá directamente las otras pruebas. Las partes, los testigos y los peritos, en su caso, ser n interrogados libremente por el Tribunal, sin perjuicio de las preguntas que puedan proponer las partes.
+
+
+
+c) Luego se concederá la palabra al representante del Ministerio Público si tuviere intervención y a las partes, por su orden, para que se expidan sobre el m‚rito de las pruebas. Cada parte dispondrá de treinta (30) minutos para su alegato.
+
+
+
+Ese tiempo podrá ser ampliado por el Tribunal. Los Jueces votarán veredicto y sentencia en el orden que establezca el sorteo que se practicará al efecto.
+
+
+
+d) El veredicto se dictará en el acto o dentro del plazo de cinco (5) días pronunciándose sobre los hechos apreciando en conciencia la prueba rendida.
+
+
+
+e) La sentencia se dictará dentro de los veinte (20) días de la fecha del veredicto.
+
+
+
+Para fijar las cantidades que se adeuden, por prescindirse de lo reclamado por las partes.
+
+
+
+f) El veredicto, la sentencia y las resoluciones del Tribunal ser n pronunciados por sus tres (3) miembros por mayoría de votos bajo pena de nulidad.
+
+
+
+
+
+
+INTERVENCION DE LAS PARTES
+
+
+
+ARTICULO 45.- Las partes tendrá n intervención en la audiencia a los efectos del contralor de la prueba y podrá n hacer, con permiso del Presidente del Tribunal, todas las observaciones que consideren pertinentes.
+
+
+
+Asimismo podrá limitar dicha facultad cuando las interrupciones sean manifiestamente improcedentes o con propósitos de obstrucción o contrarios a los fines del proceso.
+
+
+
+ACTA DE AUDIENCIA
+
+
+
+ARTICULO 46.- (Texto según Ley 14740) El Secretario levantará acta de lo sustancial de la audiencia, consignado el nombre de los comparecientes, de los testigos y de los peritos y de las circunstancias personales. En igual forma se procederá respecto de las demás pruebas. Siempre que el Tribunal lo juzgue pertinente, de oficio, podrá hacerse constar alguna circunstancia especial vinculada con la causa; en la misma acta deberá además incluirse toda mención que en forma voluntaria solicitaren las partes por sí o a través de apoderado o letrado patrocinante, especialmente las consideraciones referidas a las pruebas producidas y/o denegadas en la instancia, los motivos que habilitan a la futura interposición de los recursos extraordinarios provinciales y/o nacionales, así como toda otra mención que considere pertinente y que haga a su derecho, todo ello bajo sanción de nulidad.
+
+
+
+FORMA Y CONTENIDO DEL VEREDICTO Y SENTENCIA
+
+
+
+ARTICULO 47.- El veredicto se dictará por escrito con indicación del lugar y fecha. Deber consignar en forma separada cada una de las cuestiones que el Tribunal considere pertinente plantear y contener decisión expresa sobre los hechos que se hubiesen tenido por acreditados o no, según el caso, con indicación individualizada de los elementos de juicio meritados.
+
+
+
+La sentencia sé dictar por escrito y contender la indicación del lugar y fecha, el nombre de las partes y el de sus representantes, en su caso, la cuestión litigiosa en términos claros, los fundamentos del fallo y la decisión expresa, positiva y precisa con arreglo a las acciones deducidas, salvo lo dispuesto en el artículo 44, inciso e) in fine.
+
+
+
+LIQUIDACION
+
+
+
+ARTICULO 48.- (Texto según Ley 14399) Dictada la sentencia el Secretario del Tribunal practicará liquidación de capital, intereses y costas, notificando a las partes en la forma ordenada en el artículo 16, bajo apercibimiento de tenerla por consentida si dentro del quinto día no se formularen observaciones, cuyo trámite no interrumpirá el plazo para deducir los recursos correspondientes.
+
+
+
+Al monto total por el que se condene a la demandada se deberá adicionar los intereses devengados desde la fecha de su exigibilidad y hasta el efectivo pago, según el cálculo de intereses “al promedio de la Tasa Activa” que fija el Banco de la Provincia de Buenos Aires en sus operaciones de descuento.
+
+
+
+CAPITULO VI
+
+
+
+PROCESO DE EJECUCION
+
+
+
+EJECUCION DE SENTENCIA
+
+
+
+ARTICULO 49.- Pasada en autoridad de cosa juzgada la sentencia o el pronunciamiento que haga sus veces, el Tribunal a instancia de parte decretar embargo sobre bienes del deudor y le citar para que dentro del plazo de cinco (5) días oponga excepción de pago documentado posterior a la fecha de la sentencia definitiva, si la tuviere bajo apercibimiento de llevar adelante la ejecución.
+
+
+
+Si la prueba documental del pago no surgiere de la causa o no se agregare en el mismo acto en que se oponga la excepción. ‚Esta deberá ser desestimada sin más trámite. En el caso contrario, previo traslado por tres (3) días al ejecutante, el Tribunal resolverá sumariamente.
+
+
+
+Si se declarase procedente la excepción opuesta, sé rechazar la ejecución levantando el embargo y en el caso de desestimarse aquella, sé mandar llevar adelante la ejecución y sé proceder en lo sucesivo en la forma prevista para el cumplimiento de la sentencia de remate con arreglo a lo dispuesto en el Libro III, Título II, Capítulo III del Código Procesal Civil y Comercial.
+
+
+
+INCIDENTE DE EJECUCION PARCIAL
+
+
+
+ARTICULO 50.- Si el empleador, en cualquier estado del juicio, reconociere adeudar al trabajador algún crédito liquidó y exigible que tuviere por origen la relación laboral, a petición de parte sé formar incidente por separado y en ‚l se tramitará la ejecución de ese crédito por el procedimiento establecido en el artículo anterior. Del mismo modo se procederá, a petición de parte, cuando hubiere quedado firme la condena al pago de alguna suma de dinero, aunque se hubiere interpuesto, respecto de otros rubros de la sentencia, alguno de los recursos extraordinarios autorizados. En estos casos, la parte interesada deberá pedir, para encabezar el incidente de ejecución, copia autenticada o testimonio con certificación de que el rubro que se pretende ejecutar no est comprendido en el recurso interpuesto y de que la sentencia ha quedado firme respecto de ‚l. Si hubiere alguna duda acerca de estos extremos, el Tribunal denegar la formación del incidente.
+
+
+
+CREDITOS RECONOCIDOS EN INSTRUMENTO PUBLICO O PRIVADO
+
+
+
+VIA EJECUTIVA
+
+
+
+ARTICULO 51.- Cuando en instrumento público se reconociere por el empleador créditos líquidos, exigibles y provenientes de una relación laboral en favor del algún trabajador, ‚este tendrá acción ejecutiva para demandar su cobro ante el Tribunal que corresponda.
+
+
+
+Si se tratare de documentos que por si solos no traigan aparejada ejecución podrá prepararse la vía ejecutiva aplicando, en lo pertinente, lo dispuesto en los artículos 523 y concordasteis del Código Procesal Civil y Comercial.
+
+
+
+SUSTANCIACION
+
+
+
+ARTICULO 52.- Esta acción sé regir por las disposiciones que regulan el juicio ejecutivo en el Código Procesal Civil y Comercial (Capítulos II y III del Título II, Libro III) en lo que resulte aplicable. Sólo se admitirán como excepciones las siguientes:
+
+
+
+1.- Incompetencia.
+
+
+
+2.- Falta de capacidad de las partes o de personería de sus representantes.
+
+
+
+3.- Litispendencia.
+
+
+
+4.- Prescripción.
+
+
+
+5.- Pago total o parcial acreditado mediante documento que deber acompañares al oponerse la excepción, bajo apercibimiento de ser rechazada sin m s trámite.
+
+
+
+6. - Conciliación o transacción homologadas.
+
+
+
+7. - Cosa juzgada.
+
+
+
+EJECUCION DE RESOLUCIONES ADMINISTRATIVAS
+
+
+
+PROCEDIMIENTO
+
+
+
+ARTICULO 53.- La ejecución de las resoluciones administrativas dictadas por la autoridad del trabajo de acuerdo con la legislación de aplicación ser tramitada con arreglo al siguiente procedimiento:
+
+
+
+1.- Incumplida la resolución administrativa podrá ejecutarse ante el Tribunal del Trabajo que corresponda, debiendo solicitarse a la autoridad del trabajo la remisión del expediente en el que ha sido dictada.
+
+
+
+2.- Se observarán las reglas establecidas en el Código Procesal Civil y Comercial para la ejecución de sentencias, con las siguientes modificaciones. Además de las excepciones que allí se autorizan, podrán oponerse:
+
+
+
+a) Incompetencia del Tribunal y de la autoridad administrativa, fundada en la ausencia de presupuestos que legitimen su actuación.
+
+
+
+b) Falta de capacidad se las partes o personería de sus representantes.
+
+
+
+c) Cosa juzgada.
+
+
+
+d) Litispendencia.
+
+
+
+3.- La prueba de las excepciones se hará por medio de documentos que sé adjuntar n al deducirlas o por confesión judicial, con exclusión de otro medio probatorio. Cuando no se pudiera acompañar testimonios u otras constancias oficiales as se manifestará solicitándose el envío de las actuaciones dentro de un plazo que fijar el Tribunal.
+
+
+
+ARTÍCULO 53 bis.- (Artículo Incorporado por Ley 13829) Preparación de vía ejecutiva: Los salarios, asignaciones familiares o rubros denominados no remunerativos provenientes de una relación individual de trabajo subordinado, hasta un máximo de tres (3) meses devengados, vencidos e impagos (artículos 103, 103 bis, 107, 126, 128 y ccds. LCT y Ley 24714), podrán ser demandados judicialmente preparando la vía ejecutiva, como se dispone seguidamente:
+
+
+
+El trabajador que pretenda acogerse al procedimiento aquí establecido, como condición esencial para la viabilidad de la acción, deberá:
+
+
+
+1) Por el plazo y con las modalidades del artículo 57 de la LCT cursar a quien considere su deudor una intimación extrajudicial fehaciente (carta documento o telegrama Ley 23789) que contenga necesariamente: a) fecha de ingreso o antigüedad computable del reclamante según artículo 18 de la LCT; b) categoría profesional o funciones cumplidas durante el período involucrado en la petición y c) suma total del crédito reclamado, con expresión clara y concreta de los períodos, rubros y montos que la componen. La intimación, so pena de nulidad, deberá incluir la trascripción del inciso siguiente.
+
+
+
+2) El intimado deberá pronunciarse puntualmente sobre la veracidad de los datos contenidos en la intimación (apartados a), b) y c) del inciso anterior). En su réplica no le bastará la negativa genérica, sino que deberá expedirse detalladamente sobre la posición que asume respecto de cada uno de tales apartados, bajo apercibimiento de entenderse el silencio o la falta de respuesta concreta, como tácita admisión de los fundamentos del reclamo, seguida de la negativa al pago de las sumas resultantes. La negativa de vínculo laboral, enerva el procedimiento previsto en este artículo.
+
+
+
+3) En el supuesto que el deudor intimado accediera a saldar las sumas peticionadas, deberá incluir en su respuesta el lugar, día y hora en que hará efectivo el crédito reclamado.
+
+
+
+4) La preparación de vía ejecutiva persiguiendo el cobro de las remuneraciones tratadas en este artículo, no podrá ser acumulada a otra acción judicial, por lo que su trámite será en actuación autónoma, que se iniciará con las constancias originales del intercambio de comunicaciones y ofreciendo en el mismo escrito, el comparendo a primera audiencia de hasta tres (3) testigos, quienes deberán deponer sobre las circunstancias aludidas en el inciso 1 apartados a) y b) de este artículo
+
+
+
+5) Dentro de los cinco (5) días de recibida la causa por el Tribunal y comprobado el cumplimiento de los requisitos citados, se dispondrá libramiento de oficio al respectivo correo para que en el plazo de cinco (5) días hábiles se expida sobre la autenticidad y registros de entrega de las comunicaciones habidas. En el mismo auto se fijará primera audiencia para que comparezca tanto el ejecutante a ratificar su acción bajo juramento del artículo 39 de este cuerpo normativo, como para el recibimiento de la testimonial ofrecida.
+
+
+
+6) Cumplidos los requisitos indicados en el inciso anterior, conformado el reclamo por los dichos ratificatorios de al menos dos (2) testigos, con más la respuesta positiva del correo, queda integrado el "Título Ejecutivo".
+
+
+
+7) Cumplidos los requisitos anteriores, el Tribunal en auto fundado, con voto individual de sus integrantes, analizará la concurrencia de los elementos sustantivos, en cuyo caso, dispondrá librar mandamiento de intimación de pago y embargo que tramitará en adelante siguiendo el procedimiento indicado en el artículo 52. Por el contrario, cuando en el supuesto del inciso 3 el deudor incumpliera con el pago comprometido, la acción tramitará según lo dispuesto por el primer párrafo del artículo 51.
+
+
+
+ARTÍCULO 53 ter.- (Artículo Incorporado por Ley 13829) Sanción procesal por falta de pago. Cuando el empleador en mora, fehacientemente intimado por el trabajador, no abonare salarios, asignaciones familiares o rubros denominados no remunerativos (y sus diferencias) obligando al acreedor a promover acciones judiciales -a pedido de parte o de oficio- en sentencia, los montos resultantes de dicho capital serán incrementados en un treinta (30) por ciento .
+
+
+
+A tales fines, al disponer el traslado del artículo 28 el Tribunal emplazará al accionado para que al tiempo de contestar demanda, satisfaga los créditos que adeude, bajo apercibimiento de serle aplicada la sanción dispuesta en el párrafo anterior, en el eventual supuesto que en sentencia fuera declarada procedente la petición del trabajador.
+
+
+
+Si hubieran existido causas justificadas para la omisión del empleador, los jueces, prudencialmente, podrán reducir la sanción dispuesta por el primer párrafo hasta la mitad del porcentaje indicado.
+
+
+
+CAPITULO VII
+
+
+
+RECURSO
+
+
+
+REVOCATORIA
+
+
+
+ARTICULO 54.- Las resoluciones interlocutoras dictadas por el Presidente o por el Tribunal son recurribles por vía de revocatoria, dentro del tercer día de notificadas, para ante el Tribunal, que por resolver sin substanciación alguna.
+
+
+
+RECURSOS EXTRAORDINARIOS
+
+
+
+ARTICULO 55.- Contra las sentencias definitivas dictadas por los Tribunales, sólo podrán interponerse los recursos extraordinarios previstos en la Constitución de la Provincia. El de inaplicabilidad de ley sólo ser concedido cuando el valor de lo cuestionado ante la instancia extraordinaria exceda, respecto de cada actor, la suma fijada por el Código Procesal Civil y Comercial, salvo que el fallo recurrido contraríe la doctrina de la Suprema Corte de Justicia a la fecha en que se dictó aquí‚l.
+
+
+
+La limitación en razón del valor tampoco regirá cuando la sentencia condene al desalojo de la vivienda del trabajador; se pronuncie acerca de cuestiones de valor indeterminado o insusceptible de apreciación pecuniaria y en los casos de "litis consorcio" cuando, siendo formalmente procedentes los recursos interpuestos por uno, al menos, de los actores o demandados versen sobre similares puntos litigiosos.
+
+
+
+DEPOSITO PREVIO
+
+
+
+ARTICULO 56.- En el caso de sentencia condenatoria, los recursos se concederán únicamente previo depósito del capital, intereses y costas con la sola excepción de los honorarios de los profesionales que representan o patrocinan a la parte recurrente.
+
+
+
+(Segundo párrafo modificado por Ley 14552) El depósito no será exigible en los casos de quiebra o concurso civil del demandado declarados judicialmente. Tampoco será exigible cuando el recurso sea interpuesto por el Fisco Provincial.
+
+
+
+El Tribunal por autorizar, a pedido de parte, que se sustituya la cantidad en dinero que correspondiere depositar, por su equivalente en títulos o valores de la Nación o de la Provincia que quedar n en el Banco de la Provincia de Buenos Aires a la orden del mencionado Tribunal, a las resultas del juicio.
+
+
+
+APELACION DE RESOLUCIONES ADMINISTRATIVAS
+
+
+
+ARTICULO 57.- Cuando se trate de resoluciones de la autoridad administrativa del trabajo provincial, el procedimiento para ante los Tribunales del Trabajo, con arreglo a lo previsto en el artículo 2, inciso f) de la presente ley, se ajustará a las siguientes reglas:
+
+
+
+a) Apelada la resolución administrativa se remitirán las actuaciones al Tribunal que corresponda.
+
+
+
+b) Dentro de los diez (10) días de recibidos los antecedentes, el Tribunal dictar la providencia de "autos", que ser notificada a los interesados y a la autoridad administrativa del trabajo. Dentro del plazo de tres (3) días, la autoridad administrativa en el caso de aplicación de sanciones o la parte contraria a la recurrente en los restantes, por presentar un memorial relativo al recurso interpuesto.
+
+
+
+c) El Tribunal fallar dentro de los quince (15) días de vencido el término contemplado en el inciso b) in fine.
+
+
+
+CAPITULO VIII
+
+
+
+DISPOSICIONES ESPECIALES
+
+
+
+INFORMES AL PROCURADOR DE LA SUPREMA CORTE DE JUSTICIA
+
+
+
+ARTICULO 58.- Los Tribunales deber n informar trimestralmente al Procurador de la Suprema Corte de Justicia el estado de las causas, con los datos indicados en la Ley Orgánica del Poder Judicial incluyendo las especificaciones que la Suprema Corte prescriba. Además, será obligatorio informar al concluir el año judicial el número de vistas de las causas y demás audiencias a las que concurrió cada Juez y aquellas en que ha debido ser reemplazado y por quien, señalándose los motivos de las audiencias.
+
+
+
+LIBROS ESPECIALES
+
+
+
+ARTICULO 59.- Los Tribunales llevar n un libro rubricado y foliado en el que el Secretario asentar la fecha en que cada Juez ha recibido y devuelto los autos con motivo de la emisión de su voto y el día en que fueron dictado el veredicto y la sentencia. Las constancias de dicho libro se reflejarán en los respectivos expedientes mediante certificación sucinta del actuario.
+
+
+
+También llevarán rubricado y foliado un Libro de Audiencias en el que se consignarán las designadas, cualesquiera sea su índole, las suspendidas total o parcialmente y sus motivos, por orden cronológico y con indicación de objeto, fecha y hora.
+
+
+
+MULTAS Y GASTOS. DESTINO. EJECUCION
+
+
+
+ARTICULO 60.- Los importes fijados por la prestación de servicios de los peritos oficiales, técnicos forenses o de la administración pública, los correspondientes a los gastos a que se refiere el artículo 21 y los de las multas previstas en esta ley, ingresar n a una cuenta bancaria especial, el destino de esos fondos ser determinado por la Suprema Corte de Justicia.
+
+
+
+La ejecución, en su caso, estar a cargo del representante del Ministerio Público Fiscal que corresponda, con sujeción al procedimiento del artículo 49.
+
+
+
+JUICIOS EN TRÁMITE
+
+
+
+ARTICULO 61.- A partir de la vigencia de la presente ley los juicios en trámite se substanciarán dé acuerdo con el procedimiento en ella establecido, en cuanto fuere posible, disponiéndose lo necesario según el estado de la causa.
+
+
+
+DEROGACION DE NORMAS
+
+
+
+ARTICULO 62.- Derogase los Decretos Leyes 7718/71 y sus modificatorias y 8879/77; las Leyes 8086, 11121 y 11260 y toda otra norma legal que se oponga a la presente.
+
+
+
+NORMAS DE APLICACION SUPLETORIA
+
+
+
+ARTÍCULO 63.- Las normas del Código Procesal Civil y Comercial de la Provincia de Buenos Aires se aplicarán supletoriamente en cuanto concuerden con el sistema de la presente ley.
+
+
+
+VIGENCIA
+
+
+
+ARTICULO 64.- La presente ley entrar en vigencia a los noventa (90) días de su publicación en el Boletín Oficial, y hasta tanto se cumpla dicho plazo, ser n de aplicación las normas del Decreto ley 7718/71 y sus modificatorias.
+
+
+
+ARTICULO 65.- Comuníquese al Poder Ejecutivo.

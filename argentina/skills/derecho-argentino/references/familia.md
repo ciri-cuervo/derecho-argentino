@@ -1,0 +1,443 @@
+# Familia
+
+> Módulo de referencia de la skill `derecho-argentino`. Numeración global, sección 18.
+> Verificado contra fuente primaria el 13/09/2026. Lo procesal es de PBA; para otra
+> jurisdicción, no transpolar. Los puntos que no se pudieron cerrar están al final.
+
+> Transversales: `prueba-pericial.md` (sección 20) —pericias psicológicas y del equipo
+> técnico—, `ejecucion.md` (sección 21) —ejecución de la cuota alimentaria— y
+> `notificaciones-pba.md` (sección 22), con la salvedad de que la Ley 15.513 incorporó la
+> notificación por aplicaciones de mensajería en el art. 635 bis CPCCBA, que es un régimen
+> propio.
+
+---
+
+## 18.1 · El fuero en PBA — dos leyes vigentes que no compiten
+
+A diferencia del fuero laboral, acá **no hay dos regímenes en pugna**: hay dos leyes vigentes
+que se superponen por capas.
+
+- **Ley 11.453** (1993) creó el Fuero de Familia e incorporó el **Libro VIII al CPCCBA**, con
+  Tribunales Colegiados de Instancia Única. **No fue derogada**, pero su arquitectura procesal
+  sí fue reemplazada.
+- **Ley 13.634** (B.O. 2/2/2007) es la que hoy manda. Su **art. 16 sustituyó íntegramente el
+  Libro VIII del CPCCBA**; su art. 8 disolvió los Tribunales de Familia y los transformó en
+  **Juzgados de Familia unipersonales**.
+
+**Estructura actual.** Art. 12 de la Ley 13.634: un juez de primera instancia por juzgado, un
+**Consejero de Familia** —la SCBA puede autorizar un segundo según litigiosidad— y un **Equipo
+Técnico Auxiliar** interdisciplinario (médico psiquiatra, psicólogo, trabajador social).
+
+**Alzada:** las **Cámaras de Apelación en lo Civil y Comercial** departamentales, por el
+art. 38 de la Ley 5.827. No hay cámara de familia propia.
+
+**Juzgados de Paz Letrados:** tienen competencia concurrente en los partidos sin Juzgado de
+Familia. El art. 828 CPCCBA lo presupone y el art. 6 de la Ley 12.569 los habilita
+expresamente en violencia familiar.
+
+    [VERIFICAR PLAZO: artículo de la Ley 5.827 que fija la competencia de los Juzgados de Paz Letrados en materia de familia, y nómina vigente de Juzgados de Familia por departamento judicial]
+
+---
+
+## 18.2 · Competencia material — art. 827 CPCCBA, y su trampa
+
+El art. 827 (texto según art. 16 de la Ley 13.634) da a los Jueces de Familia **competencia
+exclusiva** en una lista de veinticuatro incisos: divorcio; nulidad de matrimonio; liquidación
+de la sociedad conyugal salvo por muerte; filiación; privación y restitución de la
+responsabilidad parental; tutela y curatela; cuidado personal y comunicación; guarda con fines
+de adopción y adopción; autorizaciones; alimentos y litisexpensas; capacidad; guarda de
+personas; internaciones; inscripciones y nombre; exequátur; protección de personas conforme la
+Ley 13.298; **violencia familiar**; y una cláusula residual sobre toda cuestión de derecho de
+familia y del niño, **con exclusión del derecho sucesorio**.
+
+> **La trampa.** El art. 827 **no fue actualizado tras el CCyCN**: sigue remitiendo a artículos
+> del Código Civil derogado —el art. 1277 en el inc. j y el art. 482 en el inc. o— y usando
+> categorías que ya no existen: "separación personal", "patria potestad", "tenencia y régimen
+> de visitas", "sociedad conyugal". **Leer los incisos por su materia, no por la remisión.**
+
+    [VERIFICAR VIGENCIA: art. 827 CPCCBA - remisiones a los arts. 1277 y 482 del Código Civil derogado; reconducir a los institutos equivalentes del CCyCN]
+
+---
+
+## 18.3 · La etapa previa ante el Consejero de Familia
+
+Es la particularidad bonaerense que más sorprende a quien viene de otra jurisdicción.
+Arts. 828 a 835 CPCCBA.
+
+- **828 — Presentación.** Con patrocinio letrado, ante el Juez de Familia que corresponda, o
+  ante el Juzgado de Paz si se opta por eso. Se radican directamente ante el órgano los asuntos
+  que no admiten demora o donde la etapa resulte improcedente, por decisión judicial.
+- **829 — Trámite.** Se promueve por solicitud ante la Receptoría General de Expedientes.
+  Puede presentarse **sin patrocinio cuando la urgencia lo justifique**.
+- **830 — Radicación.** La Receptoría constata peticiones anteriores y remite al juzgado que
+  hubiere prevenido. El juez da **intervención inmediata** al Consejero.
+- **831 — Informe.** El Consejero informa **dentro de las 24 horas** sobre la conveniencia de
+  la etapa. Si la considera inadmisible eleva al juez; procede reposición.
+- **832 — Recusación** del Consejero, con las causales del art. 17 CPCCBA. Resolución
+  inapelable.
+- **833 — Funciones.** Asesoramiento y orientación, **intentando la conciliación**, en la etapa
+  previa **y también en la contenciosa**, sin perjuicio de los Asesores de Incapaces.
+- **834 — Atribuciones.** Convocar partes y terceros, disponer comparendos, pedir informes,
+  requerir al Equipo Técnico Auxiliar, hacer reconocimientos y **solicitar medidas al juez,
+  incluidas cautelares**.
+- **835 — Cierre.** Si hay conciliación se labra acta circunstanciada y el juez homologa si
+  corresponde. Y la regla: *"El trámite que antecede, será previo e imprescindible para iniciar
+  las actuaciones"*, **salvo los casos de urgencia**.
+
+**La excepción nueva, y hay que tenerla presente: en alimentos la etapa previa es OPTATIVA.**
+El art. 14 de la Ley 15.513 reformó el art. 828: *"En los procesos de obligación alimentaria,
+la parte actora tendrá opción de iniciar el reclamo mediante etapa previa o radicarlo ante el
+Juzgado de Familia o de Paz."*
+
+---
+
+## 18.4 · Principios del proceso de familia — CCyCN, arts. 705 a 723
+
+No son declamaciones: desplazan reglas del CPCCBA que se aplican supletoriamente.
+
+- **706 — Principios.** Tutela judicial efectiva, inmediación, **buena fe y lealtad procesal**,
+  oficiosidad, oralidad y acceso limitado al expediente. Más tres directivas: acceso a la
+  justicia de personas vulnerables; jueces especializados con apoyo multidisciplinario —que en
+  PBA tiene correlato en el Equipo Técnico del art. 12 de la Ley 13.634—; e **interés superior
+  del niño** como rector de la decisión.
+- **707 —** Derecho de niños, niñas, adolescentes y personas con capacidad restringida **a ser
+  oídos** en todo proceso que los afecte directamente.
+- **708 —** Acceso limitado al expediente: partes, representantes, letrados y auxiliares.
+- **709 — Oficiosidad.** El **impulso está a cargo del juez**, que puede ordenar prueba de
+  oficio. Es lo contrario del principio dispositivo del proceso civil ordinario.
+- **710 — Prueba.** *"Los procesos de familia se rigen por los principios de libertad, amplitud
+  y flexibilidad de la prueba."* Y el segundo párrafo, que es el más litigado y no conviene
+  omitir al citarlo: **la carga recae en quien está en mejores condiciones de probar** — carga
+  dinámica.
+- **711 — Testigos.** **Los parientes y allegados pueden ser ofrecidos como testigos.** El juez
+  puede no admitir la declaración de personas menores de edad, o de parientes que se nieguen
+  por motivos fundados.
+
+**Acciones de estado** (712 a 715): irrenunciables e imprescriptibles, no ejercitables por
+subrogación; ningún matrimonio se tiene por nulo sin sentencia.
+
+**Competencia territorial**, que resuelve la mayoría de los conflictos entre juzgados:
+
+| Materia | Juez competente | Art. |
+|---|---|---|
+| Derechos de niños, niñas y adolescentes — cuidado personal, responsabilidad parental, tutela, guarda, comunicación | **Centro de vida** de la persona menor de edad | 716 |
+| Divorcio y nulidad de matrimonio | Último domicilio conyugal o domicilio del demandado, a elección; petición conjunta, cualquiera de los dos | 717 |
+| Uniones convivenciales | Último domicilio convivencial o del demandado, a elección | 718 |
+| Alimentos y compensaciones entre cónyuges o convivientes | Domicilio conyugal o convivencial, del beneficiario, del demandado, o lugar de cumplimiento | 719 |
+| Filiación | Domicilio del demandado, salvo actor menor de edad o con capacidad restringida: centro de vida | 720 |
+
+**Medidas provisionales** (721 a 723): sobre las personas —uso de la vivienda, renta, objetos
+personales, alimentos, cuidado y comunicación de los hijos— y sobre los bienes. El art. 723 las
+extiende a las **uniones convivenciales** en cuanto sea pertinente.
+
+    [VERIFICAR VIGENCIA: arts. 705 a 723 CCyCN - cotejar el literal contra el Tomo II del CCyC Comentado (SAIJ) en `argentina/fuentes/ccyc-comentado/` antes de transcribir en una pieza]
+
+---
+
+## 18.5 · Alimentos y la reforma de la Ley 15.513
+
+Sancionada el 12/12/2024, promulgada el 31/12/2024 por Decreto 3684/2024, publicada el
+3/1/2025. Modificó **catorce artículos del CPCCBA**. Los tres que cambian el trabajo cotidiano:
+
+**Art. 636 bis — alimentos provisorios en el primer auto.** Texto:
+
+> "Los alimentos provisorios deben fijarse en el primer auto, salvo que sean solicitados con
+> posterioridad, en un plazo no mayor a cinco (5) días. Ante el incumplimiento del pago el juez
+> aplicará la multa prevista en el inciso 1° del artículo 637 e informará al Registro de
+> Deudores Alimentarios Morosos en los términos y condiciones establecidos en la Ley N° 13.074.
+> Para la fijación de su cuantía será de aplicación lo dispuesto en el último párrafo del
+> artículo 641. Asimismo, podrá ordenar cualquier otra medida razonable que garantice su
+> efectividad y ejecución de lo resuelto en la sentencia."
+
+Dos cosas que se pasan por alto: el deber de fijarlos es **en el primer auto**, no cuando se
+pidan; y la remisión al art. 641 hace que **la Canasta de Crianza opere también para los
+provisorios**, no sólo para la sentencia.
+
+**Art. 641 — sentencia, retroactividad y Canasta de Crianza.** Plazo de cinco días desde
+producida la prueba de la actora. Efectos retroactivos a la interposición de la demanda, o
+**desde la interpelación fehaciente si la demanda se interpuso dentro de los seis meses**; sin
+interpelación o fuera de ese plazo, a la fecha de inicio de la etapa previa o de la demanda, la
+anterior. Y el último párrafo:
+
+> "Para la estimación del valor real de su cuantía, tratándose de alimentos que se reclamen en
+> beneficios de menores de edad **podrá** tener en cuenta, **entre otros elementos de mérito**,
+> el costo de la crianza que surge de la Canasta de Crianza de la Primera Infancia, la Niñez y
+> la Adolescencia establecida por el Instituto Nacional de Estadísticas y Censos de la
+> República Argentina (INDEC) o medición que adopte la provincia de Buenos Aires."
+
+**Tres límites del texto que no hay que forzar:** es **facultativa** ("podrá"), es **uno entre
+otros** elementos de mérito, y está limitada a **alimentos de menores de edad**. No es un piso
+legal ni un módulo automático de cuantificación.
+
+**Art. 635 bis — notificación por aplicaciones de mensajería.** Es excepcional y tiene cuatro
+condiciones acumulativas: **petición de parte**; **resolución fundada**; que **los restantes
+medios no satisfagan** el anoticiamiento; y que el demandado **no esté inscripto en el Registro
+de Domicilios Electrónicos**. Se diligencia con intervención del actuario, con las copias
+digitalizadas y una descripción en términos claros y comprensibles; el actuario procura además
+comunicación telefónica para constatar recepción e identidad, y labra acta. **La fecha de
+notificación es la del acta.** La reglamentación queda a cargo de la SCBA.
+
+    [VERIFICAR RESOLUCIÓN REGISTRAL VIGENTE: SCBA - reglamentación del art. 635 bis CPCCBA sobre notificación por aplicaciones de mensajería]
+
+**Otros artículos tocados:** 396 (plazos de informes: 7 días entidades públicas, 5 privadas),
+521 inc. 7 (fuerza ejecutiva al convenio alimentario **no homologado**), 524 y 534 (Ministerio
+Público), 635 (recaudos de la demanda y **prueba indiciaria** de la capacidad económica), 637
+(multa por incomparecencia, **10 a 200 jus**), 642 (cuota suplementaria), 645 (embargo e
+inscripción en el RDAM), 646 (alimentos entre cónyuges), 647 (modificación por vía incidental).
+
+**Registro de Deudores Alimentarios Morosos — Ley 13.074.** Se inscribe a quien incumple una
+obligación alimentaria fijada por sentencia firme, convenio homologado o resolución, tras ser
+intimado. Efectos: se exige libre deuda para abrir cuentas y obtener o renovar tarjetas de
+crédito, habilitaciones comerciales, concesiones y licitaciones, **licencia de conducir**,
+inscripción en el Registro de Adoptantes, cargos en los poderes del Estado provincial y
+municipal, cargos electivos, magistrados y funcionarios judiciales, y para ser proveedor
+del Estado.
+
+**Canasta de Crianza del INDEC.** Denominación oficial: *"Valorización mensual de la canasta de
+crianza de la primera infancia, la niñez y la adolescencia"*. Suma **bienes y servicios** más
+**costo del cuidado**. Publicación **mensual**, a mediados del mes siguiente. Cubre **hasta 12
+años inclusive**: para adolescentes no da valor directo, y hay juzgados que la integran por
+analogía sumando CBT más costo de cuidado.
+
+    [VERIFICAR MONTO ACTUALIZADO: canasta de crianza por tramo etario - INDEC, último informe de prensa a la fecha de la resolución]
+
+Referencia verificada, julio de 2026: menor de 1 año $545.683 · 1 a 3 años $649.935 · 4 a 5
+años $554.646 · 6 a 12 años $697.268. Serie oficial descargable:
+https://www.indec.gob.ar/ftp/cuadros/sociedad/serie_canasta_crianza.xlsx
+
+---
+
+## 18.6 · Violencia familiar — tres capas que se aplican juntas
+
+**Ley 12.569 de PBA** (B.O. 2/1/2001, con las reformas de las Leyes 14.509 y 14.657) da la
+**competencia y el procedimiento**:
+
+- **Art. 6 — competencia:** Juzgados o Tribunales de Familia y **Juzgados de Paz**, del
+  **domicilio de la víctima**. Si hay delito de acción pública o menores afectados, se comunica
+  al juez competente y al Ministerio Público. **Aun declarándose incompetente, el juez puede
+  dictar las medidas preventivas.**
+- **Art. 7 — medidas, de oficio o a petición de parte, en 48 horas:** cese de los actos de
+  perturbación; **prohibición de acercamiento con perímetro de exclusión**; **exclusión del
+  agresor del domicilio**; reintegro al hogar de quien salió por seguridad; restitución de
+  efectos personales; medidas de seguridad en el domicilio; **alimentos y cuidado provisorios**;
+  guarda provisoria; suspensión del régimen de comunicación; inventario de bienes; prohibición
+  de enajenar; **prohibición de compra y tenencia de armas**; asistencia legal, médica y
+  psicológica; y toda otra medida urgente.
+- **Art. 7 bis:** sanciones ante incumplimiento — advertencia, comunicación al empleador,
+  programas obligatorios, trabajos comunitarios. **Art. 7 ter:** requerimiento al Registro
+  Nacional de Armas y **secuestro preventivo**.
+- **Art. 8:** informe interdisciplinario en **48 horas**.
+- **Art. 11: audiencias dentro de 48 horas, separadas, en días y horas distintos, BAJO PENA DE
+  NULIDAD.** El denunciado comparece bajo apercibimiento. **Se prohíben expresamente la
+  mediación y la conciliación.** Es la diferencia de fondo con el resto del fuero, donde el
+  Consejero concilia.
+- **Art. 10:** tres días hábiles para apelar.
+
+No hace falta patrocinio para denunciar, el trámite es gratuito y se puede pedir
+acompañamiento.
+
+**Ley 26.485 nacional** aporta los **estándares y el catálogo moderno**: tipos —física,
+psicológica, sexual, económica y patrimonial, simbólica y política— y modalidades —doméstica,
+institucional, laboral, contra la libertad reproductiva, obstétrica, mediática, en el espacio
+público, pública-política y **digital**—, que la ley provincial no nombra. Su **art. 16** fija
+garantías mínimas: gratuidad, ser oída personalmente, **amplitud probatoria**, trato humanizado
+evitando la **revictimización**. Su **art. 26** amplía las medidas, incluida la **supresión de
+contenidos digitales violentos** que incorporó la Ley 27.736.
+
+> **Cuidado acá, porque el art. 26 no rige en PBA por ser la 26.485 de orden público.** La
+> cadena, cotejada contra los tres textos en `fuentes/normas/`:
+>
+> 1. **Art. 1 de la 26.485:** sus disposiciones son de orden público y se aplican en todo el
+>    país, *"con excepción de las disposiciones de carácter procesal establecidas en el Capítulo
+>    II del Título III"*.
+> 2. **El art. 26 está exactamente ahí**, en ese Capítulo II del Título III, que se titula
+>    "PROCEDIMIENTO". O sea: es de las exceptuadas.
+> 3. **Art. 19 de la misma ley:** *"Las jurisdicciones locales, en el ámbito de sus
+>    competencias, dictarán sus normas de procedimiento o adherirán al régimen procesal previsto
+>    en la presente ley."* Son dos caminos, y PBA tomó el primero: tiene el suyo, la 12.569.
+> 4. **La Ley 14.407 no es una adhesión permanente.** Leída: declara la **emergencia pública en
+>    materia social por violencia de género por el término de dos (2) años** desde su sanción
+>    —18/10/2012—, y el *"Adherir e implementar la Ley Nacional 26.485"* es el **inciso a) de
+>    las bases de esa emergencia**, no una cláusula autónoma. Son seis artículos y el resto
+>    faculta a reasignar partidas. Sostener sobre eso la vigencia en PBA de un capítulo procesal
+>    nacional, y encima de un texto que la 27.736 recién agregó en 2023, es apoyarse en poco.
+>
+> **La vía firme en PBA no es el art. 26 de la 26.485: es el inciso n) del art. 7 de la
+> 12.569**, la medida urgente residual —*"Toda otra medida urgente que estime oportuna para
+> asegurar la custodia y protección de la víctima"*—, que es donde entra la supresión de
+> contenidos. El catálogo del art. 7, texto según Ley 14.509, va del inciso a) al n) y **no
+> nombra lo digital en ningún lado**: en toda la 12.569 no aparece la palabra. Y el mismo
+> artículo trae el plazo: el juez o jueza **debe adoptar la medida dentro de las 48 horas** de
+> haber tomado conocimiento.
+>
+> `[INSERTAR FALLO VERIFICADO: si un juzgado de familia de PBA dicta la supresion de contenidos digitales por el art. 26 de la Ley 26.485 pese al art. 1, o la encuadra en el inc. n del art. 7 de la Ley 12.569 - aportar juzgado, camara y anio]`
+> `[VERIFICAR VIGENCIA: Ley 14.407 PBA - la emergencia que declara es por dos anios desde el 18/10/2012; verificar si fue prorrogada antes de invocarla como adhesion vigente]`
+
+**Convención de Belém do Pará — Ley 24.632** da el parámetro de convencionalidad: derecho a una
+vida libre de violencia (art. 3) y **debida diligencia** estatal para prevenir, investigar y
+sancionar, con procedimientos justos y eficaces (art. 7). **No tiene jerarquía constitucional**
+—no integra la nómina del art. 75 inc. 22, segundo párrafo— pero sí **rango supralegal**.
+
+**Regla de encaje:** la 12.569 da competencia y procedimiento; la 26.485 da los estándares y
+amplía el catálogo; Belém do Pará sostiene la interpretación más protectoria de las dos.
+
+**Reglas de la SCBA.** El **Acuerdo 3964** (11/12/2019) fijó reglas de actuación y articulación
+para medidas urgentes, y el **Acuerdo 4099** (marzo de 2023) sustituyó su anexo por reglas
+nuevas aplicables a los fueros de Paz, Familia, Penal y Responsabilidad Penal Juvenil, con
+énfasis en el **informalismo** de la denuncia, la competencia entre Paz y Familia, la
+articulación con el fuero penal, y el **formulario único de denuncia** de la Res. SC 2209/21.
+Los acuerdos regulan la articulación: **el plazo de las medidas sigue siendo el legal de 48
+horas**.
+
+    [DISCREPANCIA ENTRE FUENTES: la nota institucional de la SCBA fecha el Ac. 4099 el 16/03/2023 / la sentencia C. 127.266 lo cita como 15-III-2023. Verificar directamente en el acuerdo antes de citar la fecha.]
+
+---
+
+## 18.7 · Jurisprudencia verificada de la SCBA
+
+Las tres están cotejadas contra el PDF oficial. Al citarlas, acompañar con
+`[VERIFICAR PRECEDENTE: ...]`.
+
+- **C. 127.266, 19/2/2024** — *"P. R. E. c/ P. E. E. s/ Protección contra la violencia familiar
+  (Ac. 4099)"*. Una vez que el fuero penal evalúa las medidas protectorias iniciales,
+  corresponde al **Juzgado de Familia continuar con competencia exclusiva** conforme la Ley
+  12.569. Rechaza el principio de prevención para dirimir competencia entre fueros distintos:
+  la prevención se reserva a órganos de igual competencia material.
+- **C. 126.644, 19/9/2023** — *"R. J. A. c/ A. J. M. s/ Protección contra la violencia familiar
+  (Ley 12.569) s/ Oficio"*. Declara competente al Juzgado de Familia; exhorta al Ministerio de
+  Seguridad a usar el formulario oficial de denuncia; e **instruye al Juez de Garantías a
+  otorgar o rechazar las medidas de manera explícita y fundada** — prohíbe la denegatoria
+  tácita.
+- **C. 122.501, 2/10/2020** — *"R., V. S. contra D., G. J. Tenencia de hijo"*. Ordena
+  **cuidado personal compartido en modalidad alternada**, privilegiando el interés superior y
+  el derecho a vínculos fluidos con ambos progenitores **con independencia de la distancia
+  territorial** entre los domicilios.
+
+---
+
+## 18.8 · Institutos de fondo — dónde están en el repo
+
+Este módulo cubre **el proceso de familia en PBA**. El derecho de fondo por institución vive
+en el perfil del repo, y es material que no está en ningún otro lado de la skill: leerlo antes
+de responder sobre cualquiera de estos institutos.
+
+Rutas relativas a `argentina/` en la raíz del repo. **Estos perfiles no pasaron la auditoría
+contra fuente primaria** que sí pasaron los módulos de `references/`: rige la precedencia de
+la sección 15 —fuente primaria → esta skill → docs del Project → perfiles del repo—. Sirven
+para *encontrar* el instituto y su articulado; lo que digan sobre montos, plazos y vigencias
+se verifica antes de usarlo.
+
+| Instituto | Fondo | Doctrina y fallos |
+|---|---|---|
+| Divorcio, convenio regulador | `kb/perfiles/familia-CLAUDE.md` § Divorcio | — |
+| **Compensación económica** (arts. 441-442 y 524-525 CCyCN) | **18.9 de este módulo**. Absorbido: ya no se rutea al perfil para el fondo | `[INSERTAR FALLO VERIFICADO: compensacion economica, arts. 441-442 y 524-525 CCyCN - no hay precedente bajado]` |
+| **Caducidades y prescripciones** (arts. 442, 525, 526, 590, 591, 593, 2562 inc. c) | `plazos.md` **8.5 bis**. Absorbido: ya no se rutea al perfil | — |
+| Régimen patrimonial del matrimonio | `kb/perfiles/familia-CLAUDE.md` § Régimen patrimonial | — |
+| Unión convivencial | `kb/perfiles/familia-CLAUDE.md` § Unión convivencial | — |
+| Responsabilidad parental y **cuidado personal compartido** | `kb/perfiles/familia-CLAUDE.md` § Responsabilidad parental | `fallos-csjn.md` 34.5 — "S., D. c/ R., L. M. s/ reintegro de hijo y alimentos", Fallos 336:849 |
+| Alimentos — fondo y cuantificación | `kb/perfiles/familia-CLAUDE.md` § Alimentos | `fallos-csjn.md` 34.5 — Fallos 336:849, que es de reintegro **y alimentos** |
+| Régimen comunicacional | `kb/perfiles/familia-CLAUDE.md` § Régimen comunicacional | — |
+| **Filiación, TRHA y gestación por sustitución** | `kb/perfiles/familia-CLAUDE.md` § Filiación | `[INSERTAR FALLO VERIFICADO: filiacion, TRHA y gestacion por sustitucion, arts. 558-593 CCyCN - no hay precedente bajado]` |
+| Adopción, guarda con fines de adopción, entrega directa | `kb/perfiles/familia-CLAUDE.md` § Adopción | `fallos-csjn.md` 34.5 — "D., H. C. y otros s/ guarda con fines de adopción", Fallos 346:287 |
+| Violencia familiar y de género | 18.6 de este módulo | `fallos-csjn.md` 34.5 — "Winteker", Fallos 329:5514, **pero es una decisión de competencia y nada más**: leer la nota de 34.5 antes de citarla |
+| **Sustracción internacional de menores** (La Haya 1980, Ley 23.857; Convención Interamericana, Ley 25.358) | **`fallos-csjn.md` 34.5**, con los holdings leídos contra el documento. `kb/perfiles/familia-CLAUDE.md` § Sustracción internacional queda como complemento **sin auditar** | `fallos-csjn.md` 34.5 — cuatro con holding escrito: Fallos 336:849 (voluntad cualificada y umbral del grave riesgo), 344:3078 (oposición del niño), 345:358 (violencia de género como especie del grave riesgo) y 347:1234 |
+| Interés superior, derecho a ser oído, autonomía progresiva | 18.4 de este módulo | `fallos-csjn.md` 34.5 — Fallos 346:287, cons. 6º (el interés superior "no puede ser aprehendido ni entenderse satisfecho sino en la medida de las circunstancias comprobadas en cada asunto") y cons. 11 (escuchar al niño: arts. 12 CDN y 707 CCyCN). Para **autonomía progresiva** en particular, `[INSERTAR FALLO VERIFICADO: autonomia progresiva, arts. 26 y 639 inc. b CCyCN - no hay precedente bajado que la trate como tal]` |
+| Autorización judicial para actos del hijo menor | `kb/perfiles/familia-CLAUDE.md` § Procesos especiales | — |
+| Tutela, inhabilitación y curatela | `kb/perfiles/familia-CLAUDE.md` § Procesos especiales | — |
+
+#### Contradicciones nominadas — el perfil quedó atrás
+
+| El perfil dice | Lo correcto |
+|---|---|
+| Alzada: *"Cámara de Apelación en lo Civil y Comercial / **Tribunal Colegiado de Familia** según departamento"* | Los Tribunales de Familia fueron **disueltos** por el art. 8 de la Ley 13.634 y transformados en Juzgados unipersonales. La alzada son las Cámaras en lo Civil y Comercial (art. 38 Ley 5.827). **No hay cámara de familia propia.** Ver 18.1 |
+| La etapa previa ante el Consejero se controla siempre, salvo violencia | **En alimentos es optativa** desde que el art. 14 de la Ley 15.513 reformó el art. 828 CPCCBA. Ver 18.3 |
+| El Índice de Crianza del INDEC es *"el estándar de referencia predominante"* y omitirlo *"expone la cuota a licuación"* | El último párrafo del art. 641 CPCCBA dice **"podrá"**: es facultativo, es **uno entre otros** elementos de mérito y está **limitado a alimentos de menores de edad** (la canasta cubre hasta 12 años inclusive). No es un piso legal ni un módulo automático. Ver 18.5 |
+
+**Y un puntero que falta:** la cautelar digital de la **Ley 27.736 "Olimpia"** (art. 26 ap. a.8
+y a.9: orden de baja de contenido con URL y aseguramiento por 90 días) está desarrollada en
+`kb/perfiles/familia-CLAUDE.md` § Violencia familiar; 18.6 solo la roza.
+
+Texto de la Ley 27.736 en `fuentes/normas/ley-27736.txt`; el articulado vigente del art. 26 se lee en el texto actualizado de la 26.485 (`fuentes/normas/ley-26485.txt`).
+
+
+**Dos cosas para tener presentes.** La columna de doctrina **ya no rutea a `kb/doctrina/`**: los
+seis fallos de la Corte que el repo tiene bajados y verificados están en `fallos-csjn.md`
+sección 34.5, con carátula oficial, cita de Fallos y fecha del registro. Donde la tabla pone
+`[INSERTAR FALLO VERIFICADO: ...]` es porque **no hay precedente cargado** para ese instituto.
+Y manda la carátula tal como figura allí: **el registro publica las causas de familia
+anonimizadas**, así que se transcribe como está y no se reconstruye el apellido. Y `kb/perfiles/familia-CLAUDE.md` cubre **fuero nacional, CABA y PBA**;
+este módulo cubre solo PBA. Al usar el perfil, verificar de qué fuero habla cada regla.
+
+Modelos de escritos de la rama: ver `modelos.md` sección 23.
+
+## 18.9 · Compensación económica — el fondo
+
+Cotejado contra `fuentes/normas/ccycn-26994.txt`. **Son dos institutos paralelos y no idénticos**:
+el del matrimonio (arts. 441 y 442) y el de la unión convivencial (arts. 524 y 525). La diferencia
+de redacción entre uno y otro decide casos, así que van comparados.
+
+**Los tres requisitos, que son los mismos y hay que alegar por separado:**
+
+1. Un **desequilibrio manifiesto** entre los cónyuges o convivientes.
+2. Que ese desequilibrio **signifique un empeoramiento de su situación** — en la unión convivencial
+   el texto dice "de su situación **económica**" (art. 524), y en el matrimonio dice "de su
+   situación" sin adjetivo (art. 441).
+3. Que tenga **causa adecuada** en el vínculo y su ruptura: el matrimonio y su ruptura en el art.
+   441; la convivencia y su ruptura en el art. 524.
+
+No es un resarcimiento ni una prestación alimentaria: el texto no exige culpa ni necesidad, exige
+desequilibrio con causa adecuada. Pedirla "por los daños del divorcio" es pedir otra cosa.
+
+**Modalidades de pago, y acá está la diferencia que más se pasa por alto:**
+
+| | Matrimonio (art. 441) | Unión convivencial (art. 524) |
+|---|---|---|
+| Prestación única | Sí | Sí |
+| Renta por tiempo determinado | Sí | Sí, **con tope: no puede ser mayor a la duración de la unión** |
+| Renta por plazo indeterminado | Sí, **excepcionalmente** | **No está prevista** |
+| Forma | Dinero, usufructo de determinados bienes, o cualquier otro modo que acuerden las partes o decida el juez | Ídem |
+
+**Las pautas de fijación** son las de los arts. 442 y 525, y las dos listas son abiertas —"entre
+otras"—: el estado patrimonial de cada uno **al inicio y a la finalización** del matrimonio o de la
+unión; la dedicación que cada uno brindó a la familia y a la crianza y educación de los hijos
+durante la convivencia **y la que debe prestar después**; la edad y el estado de salud de ambos y de
+los hijos; la capacitación laboral y la posibilidad de acceder a un empleo de quien la solicita; la
+colaboración prestada a las actividades mercantiles, industriales o profesionales del otro; y la
+atribución de la vivienda familiar.
+
+Dos precisiones del texto que conviene tener a mano:
+
+- **El art. 442 detalla la pauta de la vivienda y el art. 525 no.** El inciso f del art. 442 agrega
+  "y si recae sobre un bien ganancial, un bien propio, o un inmueble arrendado. En este último caso,
+  quién abona el canon locativo". El art. 525 f dice sólo "la atribución de la vivienda familiar".
+- **En el matrimonio la fijación judicial es subsidiaria del convenio.** El art. 442 empieza "a
+  falta de acuerdo de los cónyuges en el convenio regulador": primero el convenio (art. 439), y el
+  juez determina procedencia y monto cuando no hay acuerdo. El art. 525 no trae esa cláusula.
+
+> **El plazo no está acá: está en `plazos.md` 8.5 bis**, con las dos caducidades de seis meses y sus
+> puntos de partida distintos —la **sentencia** de divorcio en el matrimonio, **el hecho del cese**
+> del art. 523 en la unión convivencial—. Es el error más caro del instituto y por eso vive con los
+> plazos, no acá.
+
+**Lo que este módulo no resuelve.** No hay fórmula legal de cuantificación: las pautas son
+circunstancias a ponderar, no una cuenta. Y no hay precedente propio cargado en el repo:
+
+`[INSERTAR FALLO VERIFICADO: compensacion economica, arts. 441-442 y 524-525 CCyCN - no hay precedente bajado]`
+
+Para la doctrina y los criterios de cuantificación que circulan, `kb/perfiles/familia-CLAUDE.md`
+§ Divorcio y § Unión convivencial siguen sirviendo **como complemento sin auditar**, con la
+advertencia del bloque de contradicciones nominadas.
+
+## Puntos abiertos
+
+| Punto | Qué falta |
+|---|---|
+| Cuantificación de alimentos y Canasta de Crianza | **No consta doctrina legal de la SCBA.** La materia es posterior a la Ley 15.513 (enero 2025) y puede no haber llegado a casación. Buscar en JUBA y en sentencias.scba.gov.ar |
+| Compensación económica | Sin fallo de la SCBA verificado |
+| Ley 5.827 | Artículo que fija la competencia de los Juzgados de Paz Letrados en familia |
+| Juzgados de Familia por departamento | Nómina vigente: el art. 9 de la Ley 13.634 trae la de 2007, modificada después |
+| Reglamentación del art. 635 bis | Resolución de la SCBA sobre notificación por mensajería |
+| Duración de las medidas del art. 7 Ley 12.569 | El artículo que fija su plazo |
+| Ac. SCBA 4099 | Fecha exacta y detalle operativo de guardias del anexo |
+| Arts. 705 a 723 CCyCN | Literal cotejado contra fuente primaria: las bases truncan el texto antes del Libro Segundo, Título VIII |
+| Código Procesal de Familias PBA | Hubo un anteproyecto en discusión; no consta sanción |

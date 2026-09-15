@@ -1,0 +1,642 @@
+Res. SRT 298/2017 - Procedimiento ante Comisiones Medicas (ficha con modificatorias)
+==============================================================================
+Jurisdiccion:     nacional
+Fuente:           https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-298-2017-272121/actualizacion
+Descargado:       2026-09-14
+SHA-256 (crudo):  f2e462c0bbcb3370d9ca208c9aeb43ee4c9c98716bfffc942b1dc505309308cb
+Charset:          utf-8
+
+Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
+NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
+Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+el manifiesto `normas.json`.
+==============================================================================
+
+TEXTO ACTUALIZADO - Resolución 298 / 2017 - SUPERINTENDENCIA DE RIESGOS DEL TRABAJO | Argentina.gob.ar
+
+Presidencia de la Nación
+
+Pasar al contenido principal
+
+Ir a Mi Argentina
+Buscar
+
+Cerrar el buscador
+
+Mi Argentina
+
+Dejar en blanco
+
+Buscar en el sitioBuscar en el sitio
+
+Inicio
+
+Ministerio de Justicia
+
+Normativa
+
+Resolución 298/2017
+
+TEXTO ACTUALIZADO - Resolución 298 / 2017 - SUPERINTENDENCIA DE RIESGOS DEL TRABAJO
+
+Resolución 298 / 2017
+
+SUPERINTENDENCIA DE RIESGOS DEL TRABAJO
+
+SUPERINTENDENCIA DE RIESGOS DEL TRABAJO
+
+PROCEDIMIENTO ANTE LAS COMISIONES MEDICA
+
+Sanción:
+
+23-02-2017
+
+Publicada en el Boletín Oficial:
+
+24-02-2017
+
+Número:
+
+Boletín Oficial número: 33574
+
+Página:
+
+29
+
+Texto actualizado de la norma
+
+MINISTERIO DE TRABAJO, EMPLEO Y SEGURIDAD SOCIAL
+
+SUPERINTENDENCIA DE RIESGOS DEL TRABAJO
+
+Resolución 298/2017
+
+Buenos Aires, 23/02/2017
+
+VISTO el Expediente N° 39.457/17 del Registro de la SUPERINTENDENCIA DE RIESGOS DEL TRABAJO (S.R.T.), las Leyes Nros. 20.744, 24.241, 24.557, 26.425, 26.773 y la Ley Complementaria de la Ley sobre Riesgos del Trabajo; el Decreto de Necesidad y Urgencia N° 1.278 de fecha 28 de diciembre de 2000; los Decretos Nros. 717 del 28 de junio de 1996, 472 del 1° de abril de 2014, 1.475 del 29 de julio de 2015; las Resoluciones S.R.T. Nros. 539 de fecha 3 de agosto de 2000, 308 de fecha 22 de junio de 2001, 1.240 de fecha 24 de agosto de 2010, 709 del 10 de abril de 2013 y sus complementarias y 179 del 21 de enero de 2015, 613 de fecha 1° de noviembre de 2016, y
+
+CONSIDERANDO:
+
+Que el artículo 51 de la Ley N° 24.241, sustituido por el artículo 50 de la Ley N° 24.557, dispuso la actuación de las Comisiones Médicas y la Comisión Médica Central en el ámbito de los riesgos del trabajo.
+
+Que el artículo 21 de la Ley N° 24.557, con el apartado incorporado por el artículo 11 del Decreto de Necesidad y Urgencia N° 1.278 de fecha 28 de diciembre de 2000, estableció los alcances de las funciones de las citadas comisiones en orden a la determinación de la naturaleza laboral del accidente o profesional de la enfermedad, así como el carácter y el grado de la incapacidad, el contenido y los alcances de las prestaciones en especie y las revisiones a que hubiere lugar.
+
+Que, en esa dirección, mediante el Decreto N° 717 del 28 de junio de 1996 se delineó el procedimiento a ser aplicado ante las Comisiones Médicas, atendiendo a la inmediatez en el otorgamiento de las prestaciones.
+
+Que la Ley N° 26.773 vino a establecer un régimen de ordenamiento de la reparación de los daños derivados de accidentes del trabajo y enfermedades profesionales, con el objetivo primordial de facilitar el acceso del trabajador a una cobertura rápida, plena y justa.
+
+Que con tal objetivo, la referida normativa dispuso que los damnificados podrían optar entre las reclamaciones que persiguen las indemnizaciones previstas en el régimen de reparación del sistema de riesgos del trabajo o las que pudieran corresponderles con fundamento en otros sistemas de responsabilidad, vedando la acumulación de acciones legales entre ambos.
+
+Que ulteriormente, con el objeto de avanzar en una respuesta normativa superadora de los aspectos más controvertidos del sistema y con el fin de instrumentar un régimen que brinde prestaciones plenas, accesibles y automáticas, se impulsó la adecuación de la reglamentación del procedimiento ante las Comisiones Médicas mediante el dictado del Decreto N° 1.475 del 29 de julio de 2015.
+
+Que dicho decreto, entre otras cuestiones, abrevió los plazos y agilizó el procedimiento recursivo, dispuso el patrocinio letrado obligatorio del trabajador afectado o sus derechohabientes y habilitó la intervención del empleador en el proceso, además de establecer la actuación del Secretario Técnico Letrado en cada Comisión Médica Jurisdiccional y en la Comisión Médica Central, de acuerdo con la Resolución de la SUPERINTENDENCIA DE RIESGOS DEL TRABAJO (S.R.T.) N° 709 de fecha 10 de abril de 2013 y sus modificatorias.
+
+Que pese a tales avances, la situación actual exhibe una notable proliferación de litigios individuales, que han puesto en riesgo, no solamente la finalidad del Sistema de Riesgos del Trabajo para asegurar reparaciones suficientes, sino, además, amenazan con colapsar la justicia laboral de varias jurisdicciones.
+
+Que al mismo tiempo, se entendió que ese conjunto de factores se ha agravado al punto que, en la actualidad, la mayoría de las contingencias amparadas por la Ley sobre Riesgos del Trabajo se reclaman a través de demandas laborales que evitan la obligatoria intervención previa de las Comisiones Médicas Jurisdiccionales.
+
+Que, ante tal estado, el Poder Ejecutivo Nacional señaló, en el Mensaje de elevación del proyecto de la Ley Complementaria de la Ley sobre Riesgos del Trabajo al Honorable Congreso de la Nación, que la experiencia recogida ha puesto en evidencia las fortalezas y las debilidades del Sistema de Riesgos del Trabajo, advirtiendo que las reformas normativas dictadas hasta la fecha no han sido suficientes para aliviar aquella situación dado que no han logrado otorgar a ese cuerpo legal el estándar suficiente para hacerlo jurídica, constitucional y operativamente sostenible.
+
+Que por tales razones, el referido Mensaje de elevación propuso reformas que, si bien conservan las principales líneas directrices del sistema, al mismo tiempo corregirán aquellas cuestiones que han provocado situaciones inequitativas y han sido objeto de reiteradas impugnaciones en sede judicial con fundamento en la violación de principios de matriz constitucional.
+
+Que para continuar en ese rumbo, el sistema que dispuso el Título I de la Ley Complementaria de la Ley sobre Riesgos Del Trabajo implica que la intervención de las Comisiones Médicas Jurisdiccionales constituye la instancia única, con carácter obligatorio y excluyente de cualquier otra, para que el trabajador afectado, contando con el patrocinio letrado que garantice el debido proceso legal, solicite u homologue la determinación del carácter profesional de su enfermedad o contingencia, la determinación de su incapacidad y el otorgamiento de las prestaciones dinerarias en forma previa a dar curso a cualquier acción judicial ante los tribunales locales fundada, tanto en la Ley N° 24.557 cuanto en la opción por la vía del derecho civil que se encuentra contemplada en el artículo 4°, parte final, de la Ley N° 26.773.
+
+Que, en igual sentido, dicha norma dispone que pasarán en autoridad de cosa juzgada administrativa en los términos del artículo 15 de la Ley N° 20.744 (t.o. 1976), las resoluciones homologatorias y aquellos decisorios de las Comisiones Médicas que en ese marco se dicten y que no fueren motivo de recurso por las partes.
+
+Que asimismo, el artículo 3° de la Ley Complementaria de la Ley sobre Riesgos del Trabajo creó el Servicio de Homologación en el ámbito de las Comisiones Médicas Jurisdiccionales, con la facultad de sustanciar y homologar los acuerdos por incapacidades laborales permanentes definitivas y fallecimiento, previstas en la Ley N° 24.557 y sus modificatorias, tal como surge del Anexo del mencionado texto legal.
+
+Que a fin de brindar adecuado respeto a la salvaguarda de los poderes reservados contenida en el artículo 121 de la Constitución Nacional, cuestión que fuera señalada en reiterados pronunciamientos judiciales que descalificaron aspectos de la Ley N° 24.557, la referida instancia de intervención previa de las Comisiones Médicas Jurisdiccionales como habilitación inexcusable para dar comienzo a toda acción judicial ante la respectiva jurisdicción, ha quedado reservada a las Provincias que hubieren de adherir al referido Título I.
+
+Que de acuerdo a lo señalado, le ha sido ordenado por la Ley Complementaria de la Ley sobre Riesgos del Trabajo a esta Superintendencia el dictado de las normas del procedimiento de actuación ante las Comisiones Médicas Jurisdiccionales y la Comisión Médica Central, vinculadas a la determinación del carácter profesional de la enfermedad o contingencia, la determinación de la incapacidad y las correspondientes prestaciones dinerarias previstas en la Ley de Riesgos del Trabajo, así como a las homologaciones que consagren acuerdos que ponen fin a las diferencias.
+
+Que conforme lo expuesto, esta Superintendencia deberá asegurar la aplicación del procedimiento establecido en los artículos 1°, 2° y 3° de la Ley Complementaria de la Ley sobre Riesgos del Trabajo y de lo reglamentado en la presente resolución, en el territorio de aquellas provincias que hayan dispuesto su adhesión al Título I de dicha norma legal, toda vez que en dichas jurisdicciones el nuevo formato de proceso resultará de aplicación obligatoria.
+
+Que debe destacarse que la Ley Complementaria de la Ley sobre Riesgos del Trabajo prescribe que los decisorios que dicten las Comisiones Médicas Jurisdiccionales o la Comisión Médica Central, que concluyan procedimientos controvertidos y que no fueren objeto de recurso ante la Justicia, así como las resoluciones homologatorias del Servicio de Homologación creado en el ámbito de las Comisiones Médicas Jurisdiccionales, pasarán en autoridad de cosa juzgada administrativa en los términos del Artículo 15 de la Ley N° 20.744 (t.o. 1976).
+
+Que en tal estado, el procedimiento establecido en la presente Resolución será de aplicación exclusiva a los trámites de determinación del carácter profesional de la enfermedad o laboral del accidente, de la incapacidad y las correspondientes prestaciones dinerarias previstas en la Ley de Riesgos del Trabajo, como también a los procesos homologatorios que se sustancien en el Servicio de Homologación.
+
+Que dentro de dicho marco, corresponde establecer el modo de hacer efectiva la garantía del patrocinio letrado para el trabajador o sus derechohabientes, durante el procedimiento ante las Comisiones Médicas contemplado en el Título I de la Ley Complementaria de la Ley sobre Riesgos del Trabajo.
+
+Que en ese orden, es necesario establecer las pautas de retribución del desempeño de los profesionales que ejerzan el patrocinio letrado para el trabajador o sus derechohabientes, toda vez que las Comisiones Médicas carecen de competencia para fijar o regular sus honorarios.
+
+Que atento a que por mandato legal, en la presente resolución se dispone la totalidad de las normas de procedimiento en los términos y con los alcances exclusivos definidos en el Título I de la Ley Complementaria de la Ley sobre Riesgos del Trabajo para las actuaciones ante las Comisiones Médicas Jurisdiccionales, la Comisión Médica Central y el Servicio de Homologación, debe puntualizarse que devienen inaplicables a esos efectos, las regulaciones procedimentales contenidas en normativa de vigencia anterior.
+
+Que a raíz de lo dispuesto en el artículo 10 de la Ley Complementaria de la Ley sobre Riesgos del Trabajo, que sustituye el artículo 7 de la Ley N° 24.557, corresponde considerar que devine también inaplicable lo previsto en el apartado 4° del artículo 2° del Anexo del Decreto N° 472 de fecha 1° de abril de 2014.
+
+Que de conformidad con lo previsto en el artículo 11 de la Ley Complementaria de la Ley sobre Riesgos del Trabajo, con relación al cálculo de Valor del Ingreso Base, resulta pertinente precisar que los conceptos establecidos en el artículo 7° de la Ley N° 24.241 y los artículos 103 bis y 106 de la Ley N° 20.744 quedan excluidos de dicho cálculo.
+
+Que por otra parte, conforme el artículo 12 de la Ley Complementaria de la Ley sobre Riesgos del Trabajo, que incorpora el apartado 6 del artículo 27 de la Ley N° 24.557, cabe determinar los requisitos, modalidades y plazos a los que deberá ajustarse el procedimiento de extinción del contrato de afiliación, con el propósito de propender a evitar prácticas abusivas en desmedro de los empleadores y de los trabajadores.
+
+Que el Servicio Jurídico de la Superintendencia de Riesgos del Trabajo ha tomado la intervención que le compete.
+
+Que el suscripto es competente para dictar la presente en virtud del artículo 3° de la Ley Complementaria de la Ley sobre Riesgos del Trabajo y de los artículos 36 y 38 de la Ley N° 24.557.
+
+Por ello,
+
+EL SUPERINTENDENTE DE RIESGOS DEL TRABAJO
+
+RESUELVE:
+
+TÍTULO I
+
+CAPÍTULO I
+
+DEL PROCEDIMIENTO ANTE LAS COMISIONES MÉDICAS REGULADO EN EL ARTÍCULO 1° DE LA LEY COMPLEMENTARIA DE LA LEY SOBRE RIESGOS DEL TRABAJO.
+
+ARTÍCULO 1° — Requisitos para el inicio del trámite de rechazo de la denuncia de la contingencia por el damnificado.
+
+Los trámites iniciados por el trabajador, sus derechohabientes o su apoderado deberán ser presentados personalmente a través de la Mesa de Entradas de la Comisión Médica correspondiente o a través de correo postal.
+
+Para iniciar el trámite por rechazo de la contingencia denunciada por el trabajador o sus derechohabientes: debe acreditar identidad; presentar la denuncia del Accidente de Trabajo o Enfermedad Profesional; y, presentar el rechazo fundado de la contingencia por parte de la Aseguradora de Riesgos del Trabajo (ART), el Empleador Autoasegurado (EA) o el Empleador no Asegurado (ENA).
+
+Para el trámite por rechazo de enfermedades no listadas: acreditar identidad; presentar constancia de la denuncia de la enfermedad ante la Aseguradora de Riesgos del Trabajo, el Empleador Autoasegurado o el Empleador no Asegurado; presentar constancia del rechazo por parte de la Aseguradora, el Empleador Autoasegurado o el Empleador no Asegurado de la pretensión del trabajador; y, presentar petición fundada. Se entenderá por tal aquella presentación que contenga diagnóstico, argumentación y constancias sobre la patología denunciada y la exposición a los agentes de riesgo presentes en el trabajo respectivo, con exclusión de la influencia de los factores atribuibles al trabajador o ajenos al trabajo. Las constancias a presentar podrán ser estudios complementarios sobre el diagnóstico de la enfermedad denunciada y/o descripción de los agentes de riesgo a que estuvo expuesto el trabajador.
+
+Asimismo, deberá darse cumplimiento a cualquier otro recaudo que resulte exigible conforme a normativa dictada por esta SUPERINTENDENCIA DE RIESGOS DEL TRABAJO (S.R.T.).
+
+ARTÍCULO 2° — Procedimiento del trámite por rechazo de la denuncia de la contingencia.
+
+En el caso de trámites iniciados por rechazo de la naturaleza laboral del accidente, cuando el Dictamen Jurídico Previo emitido por el Secretario Técnico Letrado o el dictamen médico de la Comisión Médica, concluyeran el carácter no laboral del accidente, las actuaciones se remitirán, sin más trámite, al Titular del Servicio de Homologación de la Comisión Médica a efectos de que emita el acto administrativo pertinente y notifique a las partes.
+
+Si, por el contrario, el Secretario Técnico Letrado hubiese concluido que el accidente reviste carácter laboral, se dará la correspondiente intervención al profesional médico, quien luego de dictaminar, remitirá las actuaciones al Titular del Servicio de Homologación a fin de que emita el acto administrativo correspondiente.
+
+En caso de que el dictamen médico determine el carácter laboral del fallecimiento, las actuaciones se remitirán al Servicio de Homologación, para la continuidad del trámite de conformidad con lo dispuesto en el CAPÍTULO II, Punto I del presente TÍTULO.
+
+En los trámites por rechazo de la denuncia de la enfermedad profesional listada, luego de la intervención del profesional médico, el Secretario Técnico Letrado emitirá la opinión de legalidad y elevará las actuaciones al Titular del Servicio de Homologación a fin de que emita el acto administrativo correspondiente.
+
+En los trámites por rechazo de la denuncia de la enfermedad profesional no listada, se procederá de conformidad con lo previsto en el inciso b) del apartado 2 del artículo 6° de la Ley N° 24.557 —sustituido por el artículo 2° del Decreto de Necesidad y Urgencia N° 1.278 de fecha 28 de diciembre de 2000—.
+
+ARTÍCULO 3° — Requisitos para el inicio del trámite de Divergencia en la Determinación de la Incapacidad por parte del damnificado.
+
+Si pasados los VEINTE (20) días contados desde el día siguiente al del cese de la Incapacidad Laboral Temporaria (I.L.T.), la Aseguradora de Riesgos del Trabajo o el Empleador Autoasegurado no hubiere iniciado el trámite de determinación de incapacidad, el trabajador podrá instar el trámite por divergencia en la determinación de la incapacidad, personalmente a través de la Mesa de Entradas de la Comisión Médica correspondiente o a través de correo postal.
+
+Para el inicio del trámite, el trabajador deberá acreditar identidad y presentar el Alta Médica o constancia de fin de tratamiento otorgada por la Aseguradora de Riesgos del Trabajo, Empleador Asegurado y Empleador no asegurado.
+
+Asimismo, deberá darse cumplimiento a cualquier otro recaudo que resulte exigible conforme a normativa dictada por esta S.R.T.
+
+En estos casos, la S.R.T. emplazará a la Aseguradora de Riesgos del Trabajo, el Empleador Autoasegurado o el Empleador no Asegurado para que acompañe toda la documentación requerida en el artículo 4° de la presente.
+
+ARTÍCULO 4° — Requisitos para el inicio del trámite de Determinación de la Incapacidad por la Aseguradora de Riesgos del Trabajo y el Empleador Autoasegurado.
+
+La A.R.T. o el E.A., de conformidad a la opción del domicilio ejercida por el trabajador, en función de lo previsto en el artículo 1° de la Ley Complementaria de la Ley sobre Riesgos del Trabajo, deberá solicitar la intervención de la Comisión Médica Jurisdiccional competente, a través de los canales electrónicos habituales, a partir de los DIEZ (10) días y hasta los VEINTE (20) días contados desde el día siguiente al del cese de la Incapacidad Laboral Temporaria (I.L.T.) y confeccionará el “Informe del Caso”, que deberá contener: 1) Denuncia de la contingencia. 2) Reseña de Historia Clínica de la contingencia. 3) Estudios obligatorios según la patología. 4) Estudios complementarios, en caso de haberse realizado. 5) Protocolo quirúrgico, en caso de corresponder. 6) En los casos de Enfermedad Profesional, deberá presentar informe de Relevamiento de Agentes de Riesgos (R.A.R.), análisis de puesto de trabajo, exámenes periódicos y los exámenes preocupacionales. En este último supuesto, si tuviera acceso a ellos. En caso de no contar con determinada documentación, deberá fundamentar la falta de la misma e informar cual fue la medida implementada para subsanar esa falta. 7) Constancia de Alta Médica y/o Fin de Tratamiento. 8) Declaración de las preexistencias de las que tuviere conocimiento y documentación que la acredite, si no estuviera incorporada a los registros de la S.R.T. 9) Clave Bancaria Uniforme (CBU) de la cuenta sueldo perteneciente al trabajador, si estuviese disponible. 10) Declaración del trabajador sobre el ejercicio de la opción de la Comisión Médica Jurisdiccional o la correspondiente intimación, bajo apercibimiento de tener por elegida la jurisdicción correspondiente al domicilio denunciado en el D.N.I. En cualquier caso, deberá acompañar la correspondiente documentación respaldatoria indicada en el artículo 5° de la presente resolución.
+
+También, deberá darse cumplimiento a cualquier otro recaudo que resulte exigible conforme a normativa dictada por esta S.R.T.
+
+ARTÍCULO 5° — Competencia territorial de la Comisión Médica Jurisdiccional.
+
+A fin de establecer la competencia territorial de la comisión médica jurisdiccional requerida, de conformidad a los extremos indicados en los artículos 1° y 2° de la Ley Complementaria de la Ley sobre Riesgos del Trabajo, se deberá acompañar la siguiente documentación de acuerdo a lo que el trabajador haya optado:
+
+a. Opción de la Comisión Médica correspondiente a su domicilio: Copia simple del Documento Nacional de Identidad (D.N.I.).
+
+b. Opción de la Comisión Médica correspondiente al domicilio del lugar de efectiva prestación de servicios: Constancia expedida por el empleador.
+
+c. Opción de la Comisión Médica Jurisdiccional correspondiente al domicilio donde habitualmente aquél se reporta: Constancia expedida por el empleador.
+
+En los trámites que deban ser iniciados por la A.R.T. o el E.A., previo a la solicitud de intervención, la Aseguradora deberá notificar al trabajador a fin de que opte por la Comisión Médica competente e intimarlo para que, dentro de los TRES (3) días hábiles acompañe la documentación que acredite la competencia de la Comisión Médica elegida, bajo apercibimiento de iniciar las actuaciones en la jurisdicción correspondiente al domicilio denunciado en el D.N.I.
+
+ARTÍCULO 6° — Intervención médica.
+
+Recibida la solicitud de intervención y cumplidos los requisitos de inicio dispuestos en los artículos precedentes, el profesional médico interviniente se expedirá sobre la prueba médica presentada y solicitada por las partes. En caso de corresponder, podrá ordenar la realización de examen físico o de estudios complementarios.
+
+Para el caso de existir planteos o producción de prueba de tipo jurídico, dispondrá la intervención del Secretario Técnico Letrado (S.T.L.).
+
+(Artículo sustituido por art. 2° de la Resolución N° 5/2026 de la Superintendencia de Riesgos del Trabajo B.O. 29/01/2026. Vigencia: a partir del 02 de febrero de 2026)
+
+ARTÍCULO 7° — Prueba.
+
+Las partes deberán ofrecer, en su primera presentación, toda la prueba de la que procuren valerse, acompañando en esa oportunidad la documental pertinente. De dicha presentación y de la prueba documental ofrecida se dará traslado a la contraparte.
+
+Cuando la parte trabajadora invocare haber recibido tratamiento médico a través de su Obra Social o de prestadores públicos o particulares, deberá acompañar la historia clínica correspondiente.
+
+No se admitirá prueba alguna que no haya sido ofrecida en dicha oportunidad, salvo que se trate de hechos nuevos o de aquellos documentos que, por su naturaleza, no hubieran podido ser conocidos o habidos por la parte al momento de su presentación, circunstancia que deberá ser debidamente acreditada.
+
+Cuando la prueba documental no estuviere a su disposición, la parte interesada deberá individualizarla, indicando su contenido, el lugar, archivo, oficina pública o persona en cuyo poder se encuentra.
+
+Podrá rechazarse la prueba ofrecida que se considere manifiestamente improcedente, superflua o meramente dilatoria en relación con el objeto del procedimiento mediante decisión fundada. En las resoluciones no se tendrá el deber de expresar la valoración de toda la prueba producida, sino únicamente de la que fuere esencial y decisiva para la resolución.
+
+La Comisión Médica, de oficio, podrá disponer la producción de prueba respecto de los hechos invocados y que fueren conducentes para resolver.
+
+Las partes podrán designar peritos médicos propios para intervenir en las actuaciones. Los honorarios que éstos irroguen estarán a cargo de los proponentes. Estos profesionales intervendrán en calidad de asesores técnicos de parte, pudiendo presentar informes, estudios y diagnósticos realizados a su costa, haciéndose responsables de sus dichos y opiniones, pero no podrán plantear incidencias en la tramitación de los expedientes.
+
+Las Comisiones Médicas podrán indicar la realización de estudios complementarios o peritaje de expertos, cuando los antecedentes no fueran suficientes para emitir resolución. Se establece que serán a cargo de las Aseguradoras y Empleadores Autoasegurados, aquellas que no se hubieren realizado con la debida diligencia. Caso contrario, se financiarán conforme a lo establecido en el artículo 15 de la Ley N° 26.425.
+
+Cuando las Comisiones Médicas lo consideren necesario para resolver el conflicto planteado, podrán solicitar la asistencia de servicios profesionales o de Organismos técnicos para que se expidan sobre áreas ajenas a su competencia profesional.
+
+El trabajador estará obligado a someterse a los exámenes médicos que indique la Comisión Médica.
+
+La Comisión Médica se encuentra facultada para disponer fundadamente la prórroga del plazo de SESENTA (60) días para resolver previsto en el artículo 3° de la Ley N° 27.348, Complementaria de la Ley sobre Riesgos del Trabajo, con el objeto de producir la prueba ofrecida por las partes o dispuesta de oficio, así como las diligencias necesarias para esclarecer las cuestiones de hecho vinculadas al accidente de trabajo o enfermedad profesional. En todos los casos, la prórroga no podrá exceder los TREINTA (30) días hábiles y se concederá por única vez.
+
+(Artículo sustituido por art. 2° de la Resolución N° 5/2026 de la Superintendencia de Riesgos del Trabajo B.O. 29/01/2026. Vigencia: a partir del 02 de febrero de 2026)
+
+ARTÍCULO 8° — Alegato.
+
+De haber prueba ofrecida por las partes o medidas para mejor proveer dispuestas por la Comisión Médica, concluida la etapa probatoria, se dará vista de las actuaciones por TRES (3) días a fin de que las partes que lo creyeren conveniente aleguen sobre la prueba producida, en un plazo máximo total de CINCO (5) días, incluidos los días para tomar vista.
+
+ARTÍCULO 9° — Producido el dictamen de la Comisión Médica se notificará a las partes y al empleador, resultando de aplicación las disposiciones del CAPÍTULO II, Punto I del presente TÍTULO.
+
+CAPÍTULO II
+
+DEL PROCEDIMIENTO ANTE EL SERVICIO DE HOMOLOGACIÓN EN EL ÁMBITO DE LAS COMISIONES MÉDICAS JURISDICCIONALES
+
+I.-
+
+DEL PROCEDIMIENTO ANTE EL SERVICIO DE HOMOLOGACIÓN POSTERIOR AL DECISORIO DE LAS COMISIONES MÉDICAS
+
+ARTÍCULO 10. — Notificación del dictamen de la Comisión Médica.
+
+En aquellos casos en los cuales el dictamen médico determine un porcentaje de incapacidad laboral permanente definitiva o el fallecimiento por causas laborales, se notificará en un plazo máximo de TRES (3) días a las partes y al empleador.
+
+Dentro de los TRES (3) días contados desde la notificación del dictamen médico, las partes podrán solicitar por escrito en sede de la Comisión Médica o mediante Ventanilla Electrónica, la rectificación de errores materiales o formales, siempre que la enmienda no altere lo sustancial del mismo, o la revocación cuando pudiere existir contradicción entre su fundamentación y la conclusión u omisión sobre alguna de las peticiones o cuestiones planteadas, que alteren lo sustancial del dictamen. Las actuaciones serán remitidas al médico interviniente a fin de que, dentro del plazo de CINCO (5) días, se expida al respecto.
+
+Resuelta las peticiones planteadas o vencido el plazo para articularlas, se citará a las partes a una audiencia de acuerdo a celebrarse ante el Servicio de Homologación, indicándose la fecha y hora de celebración, con una antelación mínima de TRES (3) días a la fecha fijada para la audiencia.
+
+ARTÍCULO 11. — Liquidación de la prestación dineraria.
+
+Considerando los salarios declarados por el empleador al Sistema Único de la Seguridad Social (S.U.S.S.), la fecha de nacimiento del trabajador, la fecha de la Primera Manifestación Invalidante, el grado y porcentaje de incapacidad informados, las áreas técnicas competentes calcularán la liquidación mínima correspondiente de acuerdo a las previsiones de la Ley de Riesgos del Trabajo N° 24.557 y sus complementarias, debiendo constar dicha liquidación en las correspondientes actuaciones que tramitarán ante el Servicio de Homologación de la Comisión Médica.
+
+ARTÍCULO 12. — Audiencia.
+
+La audiencia será presidida por un agente del Servicio de Homologación de la Comisión Médica, quien informará a las partes la liquidación de la prestación dineraria y explicará los alcances y efectos de la conformidad o disconformidad respecto del acuerdo; y, en su caso, el ejercicio de la opción prevista en el artículo 4° de la Ley N° 26.773.
+
+Para la celebración de la audiencia es obligatoria la presencia del damnificado o sus derechohabientes, según corresponda, y sus asesores letrados y de la Aseguradora de Riesgos del Trabajo, el empleador autoasegurado o el empleador no asegurado. Todos los concurrentes, deberán ser identificados mediante la presentación de los documentos correspondientes:
+
+a. El damnificado y sus derechohabientes deberán presentar D.N.I. y la documentación que acredite su calidad de tal.
+
+b. Los asesores letrados deberán exhibir la matrícula correspondiente.
+
+c. Los representantes de la ART, el ENA o el EA deberán acompañar el instrumento que acredite el carácter de representante o apoderado.
+
+d. El empleador deberá acompañar la documentación que lo acredite como tal, en caso de corresponder.
+
+Las partes concurrentes podrán solicitar la suspensión de la audiencia, y en caso de que el agente interviniente dé lugar al requerimiento, en el mismo acto deberá notificar la fecha y hora en la que se reanudará. El agente del Servicio de Homologación de la Comisión Médica, estará autorizado para solicitar a las partes interesadas todos aquellos documentos e instrumentos que considere pertinentes, así como para realizar todas las diligencias que resulten necesarias para el desarrollo de sus funciones, pudiendo para ello, fijar fecha para una nueva audiencia.
+
+ARTÍCULO 13. — Acuerdo.
+
+Si las partes arribaran a un acuerdo y prestaran su conformidad con lo actuado, el agente del servicio constatará la libre emisión del consentimiento del trabajador o derechohabientes y su discernimiento sobre los alcances del acuerdo. En el mismo acto, se suscribirá un acta dejando expresa constancia de ello y del ejercicio de la opción prevista en el artículo 4° de la Ley N° 26.773.
+
+El agente designado a tal efecto, emitirá opinión acerca de la legalidad del procedimiento y la pertinencia del dictado del acto homologatorio del acuerdo.
+
+Finalmente, se remitirán las actuaciones al Titular del Servicio de Homologación de la Comisión Médica, para que dentro de los CINCO (5) días emita el correspondiente acto de homologación, con los alcances previstos en el artículo 15 de la Ley N° 20.744 (t.o. 1976), dejando expresa constancia del porcentaje de incapacidad determinado en el dictamen médico.
+
+A partir de la notificación del acto de homologación, la Aseguradora de Riesgos del Trabajo, el empleador autoasegurado o el empleador no asegurado, deberá poner a disposición del damnificado el importe de la indemnización en la cuenta bancaria oportunamente declarada, dentro del plazo de CINCO (5) días, de conformidad con lo establecido en el artículo 4° del Anexo I de la Ley Complementaria de la Ley sobre Riesgos del Trabajo.
+
+Excepcionalmente, en aquellos casos en los que la cuenta sueldo no estuviera disponible, la A.R.T. deberá poner a disposición del damnificado mediante la operación bancaria que se hubiere establecido en oportunidad de la audiencia de acuerdo.
+
+El incumplimiento de tales obligaciones por parte de la Aseguradora de Riesgos del Trabajo, el empleador autoasegurado o el empleador no asegurado será ponderado de conformidad con las previsiones del régimen aprobado por la Resolución S.R.T. N° 613 de fecha 1° de noviembre de 2016, o la que en el futuro la reemplace.
+
+Los actos de homologación asumirán autoridad de cosa juzgada administrativa, de conformidad con lo previsto en el artículo 4° del Anexo I de la Ley Complementaria de la Ley sobre Riesgos del Trabajo y las incapacidades allí consignadas deberán ser incorporadas a los registros de la S.R.T.
+
+ARTÍCULO 14. — Disconformidad con el porcentaje de incapacidad.
+
+Si en oportunidad de la audiencia de homologación, alguna de las partes manifestase su disconformidad con el porcentaje de incapacidad determinado en el dictamen médico, se labrará un acta dejando constancia de ello.
+
+El agente designado a tal efecto, emitirá la opinión de legalidad y remitirá las actuaciones al Titular de Servicio de Homologación de la Comisión Médica, para el dictado del correspondiente acto, quedando con ello expedita la vía recursiva prevista en el artículo 2° de la Ley Complementaria de la Ley sobre Riesgos del Trabajo.
+
+ARTÍCULO 15. — Disconformidad con el monto indemnizatorio.
+
+Si la disconformidad versara sobre el importe de la indemnización, las partes podrán arribar a un acuerdo por un monto superior, el cual deberá ser homologado por el Servicio de Homologación de la Comisión Médica, caso contrario, quedará expedita la vía recursiva judicial prevista en el artículo 2° de la Ley Complementaria de la Ley sobre Riesgos del Trabajo.
+
+ARTÍCULO 16. — Recurso de Apelación.
+
+Los actos del Titular del Servicio de Homologación de la Comisión Médica, que concluyan el procedimiento sin que las partes arriben a un acuerdo, serán susceptibles de los recursos previstos en el artículo 2° de la Ley Complementaria de la Ley sobre Riesgos del Trabajo.
+
+Dentro del plazo de QUINCE (15) días de notificado el acto, las partes podrán interponer dichos recursos ante el Servicio de Homologación.
+
+El recurso deberá presentarse por escrito en sede de la Comisión Médica interviniente, fundado y contener la crítica concreta y razonada de la decisión por la que se agravia. No bastará remitirse a presentaciones anteriores ni podrá fundar sus pretensiones en hechos no alegados en la instancia anterior.
+
+De la expresión de agravios se correrá traslado a la contraparte por el plazo de CINCO (5) días.
+
+ARTÍCULO 17. — Trámite del recurso de apelación ante la Comisión Médica Central.
+
+El Servicio de Homologación deberá elevar las actuaciones a la Comisión Médica Central en el plazo de DIEZ (10) días de recibidas las contestaciones de las expresiones de agravios o vencido el plazo para ello.
+
+(Segundo párrafo derogado por art. 4° de la Resolución N° 90/2019 de la Superintendencia de Riesgos del Trabajo B.O. 8/11/2019. Vigencia: el 1° de febrero de 2020, encomendándose a la Gerencia de Administración de Comisiones Médicas la coordinación de las acciones tendientes a la implementación de los procesos y recursos necesarios para materializar la operatividad del procedimiento regulado en el Anexo IF-2019-100068887-APN-SRT#MPYT.)
+
+ARTÍCULO 18. — Trámite del Recurso de Apelación ante la Justicia Ordinaria del fuero laboral.
+
+Cuando el recurso interpuesto por el trabajador sea ante la justicia ordinaria del fuero laboral de la jurisdicción provincial o de la CIUDAD AUTÓNOMA DE BUENOS AIRES, según corresponda al domicilio de la comisión médica que intervino, el Servicio de Homologación en el plazo de DIEZ (10) días de recibidas las contestaciones de las expresiones de agravios o vencido el plazo para la contestación, elevará las actuaciones al juzgado competente.
+
+El recurso interpuesto por el trabajador, atraerá al que eventualmente interponga la A.R.T ante la Comisión Médica Central y la sentencia que se dicte en instancia laboral resultará vinculante para todas las partes.
+
+II.-
+
+PROCEDIMIENTO PARA LA HOMOLOGACIÓN DE LA PROPUESTA DE CONVENIO POR INCAPACIDADES DEFINITIVAS Y FALLECIMIENTO
+
+ARTÍCULO 19. — Acuerdo por Incapacidad Laboral Permanente Parcial Definitiva o fallecimiento.
+
+Producido el cese de la Incapacidad Laboral Temporaria (I.L.T.) dentro del plazo previsto para iniciar el trámite de determinación del carácter definitivo de la incapacidad o fallecimiento del trabajador y acreditada la condición de los derechohabientes, la Aseguradora de Riesgos del Trabajo, el empleador autoasegurado o el empleador no asegurado podrá someter al Servicio de Homologación de la Comisión Médica una propuesta de convenio a celebrarse con el trabajador o sus derechohabientes.
+
+El acuerdo deberá versar sobre la incapacidad laboral derivada de la contingencia y el importe de las prestaciones dinerarias, debiendo estar suscripto por el trabajador o sus derechohabientes, su asesor letrado y la Aseguradora de Riesgos del Trabajo, el empleador autoasegurado o el empleador no asegurado.
+
+ARTÍCULO 20. — Presentación del acuerdo. Inicio del trámite.
+
+La Aseguradora de Riesgos del Trabajo y el empleador autoasegurado deberá iniciar el trámite a través de los canales electrónicos habituales, debiendo para ello acompañar la siguiente documentación:
+
+a. Datos del trabajador: nombre, CUIL, domicilio real y constituido (postal y electrónico), teléfono.
+
+b. Datos de los derechohabientes: nombre, DNI, domicilio real y constituido (postal y electrónico) teléfono y toda la documentación que acredite su calidad de tal.
+
+c. Datos de los letrados patrocinantes: nombre, matrícula, CUIT, teléfono, domicilio (postal y electrónico).
+
+d. Formulario Propuesta de convenio.
+
+e. Denuncia de la contingencia y su verificación en el Registro de siniestralidad.
+
+f. Reseña de Historia Clínica de la contingencia.
+
+g. Estudios obligatorios, según la patología.
+
+h. Estudios complementarios, en caso de haberse realizado.
+
+i. Protocolo quirúrgico, en caso de corresponder.
+
+j. En los casos de Enfermedad Profesional, deberá presentar informe de Relevamiento de Agentes de Riesgos (R.A.R.), análisis de puesto de trabajo, exámenes periódicos y los exámenes preocupacionales. En este último supuesto, si tuviera acceso a ellos. En caso de no contar con determinada documentación, deberá fundamentar la falta de la misma e informar cual fue la medida implementada para subsanar esa falta.
+
+k. Constancia de Alta Médica y/o Fin de Tratamiento.
+
+l. Declaración del trabajador sobre la opción de la competencia de la Comisión Médica Jurisdiccional.
+
+m. Declaración de las Preexistencias de las que tuviere conocimiento y documentación que la acredite, si no estuviera incorporada a los registros de la S.R.T.
+
+n. Clave Bancaria Uniforme (CBU) de la cuenta sueldo perteneciente al trabajador, si estuviese disponible.
+
+El inicio del trámite por parte de un empleador no asegurado, deberá efectuarse en sede de la Comisión Médica Jurisdiccional, debiendo acompañar la referida documentación en forma personal.
+
+Si la Aseguradora de Riesgos del Trabajo, el empleador autoasegurado o el empleador no asegurado no hubiese iniciado el trámite dentro del plazo mencionado en el artículo anterior, el trabajador quedará facultado para requerir la intervención del Servicio de Homologación de la Comisión Médica, debiendo para ello acompañar la propuesta de convenio oportunamente suscripta.
+
+El incumplimiento de dicha obligación por parte de la Aseguradora de Riesgos del Trabajo o el empleador autoasegurado configurará falta MUY GRAVE, de conformidad con las previsiones del régimen aprobado por la Resolución S.R.T. N° 613 de fecha 1° de noviembre de 2016, o la que en el futuro la reemplace.
+
+(Nota Infoleg: por art. 5° de la Resolución N° 48/2019 de la Superintendencia de Riesgos del Trabajo B.O. 28/6/2019 se modifica la Calificación de las Infracciones establecidas en los artículos 20 y 34 de la presente Resolución, como así también toda aquella calificación que difiera de lo previsto en el Anexo III IF-2019-56031408-APN-GAJYN#SRT de la resolución de referencia. Ver Resolución de referencia. Vigencia: a partir del día siguiente al de su publicación en el Boletín Oficial)
+
+ARTÍCULO 21. — (Artículo derogado por art. 18 de la Resolución N° 20/2021 de la Superintendencia de Riesgo del Trabajo B.O. 15/4/2021. Ver aplicación art. 22 de la norma de referencia. Vigencia: quedará supeditada al dictado del acto pertinente a cargo de la GERENCIA DE ADMINISTRACIÓN DE COMISIONES MÉDICAS de esta S.R.T., fijándose para ello el plazo máximo de NOVENTA (90) días corridos, desde su publicación en el Boletín Oficial.)
+
+ARTÍCULO 22. — (Artículo derogado por art. 18 de la Resolución N° 20/2021 de la Superintendencia de Riesgo del Trabajo B.O. 15/4/2021. Ver aplicación art. 22 de la norma de referencia. Vigencia: quedará supeditada al dictado del acto pertinente a cargo de la GERENCIA DE ADMINISTRACIÓN DE COMISIONES MÉDICAS de esta S.R.T., fijándose para ello el plazo máximo de NOVENTA (90) días corridos, desde su publicación en el Boletín Oficial.)
+
+ARTÍCULO 23. — Informe de Valoración del Daño (I.V.D.)
+
+Recibida la solicitud de intervención debidamente cumplimentada, se elevarán las actuaciones al médico interviniente quien deberá emitir el correspondiente I.V.D. el cual versará sobre:
+
+a. Identificación de las patologías derivadas de la contingencia.
+
+b. Datos positivos o de interés del análisis médico de las actuaciones.
+
+c. Resultados de los estudios médicos y/o las interconsultas obrantes en las actuaciones.
+
+d. La acreditación del grado de incapacidad laboral ponderado conforme al Baremo aprobado por el Decreto N° 659/96 y el Listado de Enfermedades Profesionales aprobado por el Decreto N° 658/96, en caso de corresponder.
+
+e. Preexistencias.
+
+Cuando se encuentren debidamente acreditados los extremos que hacen a la incapacidad laboral ponderada por la A.R.T. o el E.A., dentro de los TRES (3) días de emitido el I.V.D., se notificará a las partes, citándolas a una audiencia de acuerdo a celebrarse en el Servicio de Homologación indicándose a fecha y hora de celebración, con una antelación mínima de TRES (3) días a la fecha fijada para la audiencia.
+
+En el supuesto en que no fueran acreditados tales extremos, se procederá conforme lo dispuesto en el artículo 27 de la presente resolución.
+
+En el caso en que no se verifique el agotamiento de las instancias terapéuticas, se dispondrá el cierre de las actuaciones.
+
+(Artículo sustituido por art. 19 de la Resolución N° 20/2021 de la Superintendencia de Riesgo del Trabajo B.O. 15/4/2021. Ver aplicación art. 22 de la norma de referencia. Vigencia: quedará supeditada al dictado del acto pertinente a cargo de la GERENCIA DE ADMINISTRACIÓN DE COMISIONES MÉDICAS de esta S.R.T., fijándose para ello el plazo máximo de NOVENTA (90) días corridos, desde su publicación en el Boletín Oficial.)
+
+ARTÍCULO 24. — Liquidación de la prestación dineraria.
+
+Considerando los salarios declarados por el empleador al Sistema Único de la Seguridad Social (SUSS), la fecha de nacimiento del trabajador, la fecha de la Primera Manifestación Invalidante, el grado y porcentaje de incapacidad informados, las áreas técnicas competentes calcularán la liquidación mínima correspondiente de acuerdo a las previsiones de la L.R.T., debiendo constar la misma en las correspondientes actuaciones que tramitaran ante el Servicio de Homologación de la Comisión Médica.
+
+ARTÍCULO 25. — Audiencia de Acuerdo.
+
+La audiencia de acuerdo será presidida por un agente del Servicio de Homologación en la cual informará el cálculo de la prestación dineraria. Asimismo, el letrado explicará a las partes las implicancias del acuerdo.
+
+Todos los concurrentes a la audiencia deberán ser identificados mediante la presentación de los documentos correspondientes:
+
+a. El damnificado o los derechohabientes deberán presentar D.N.I. y la documentación que acredite su calidad de tal.
+
+b. Los asesores letrados deberán exhibir la matrícula correspondiente.
+
+c. Los representantes de la Aseguradora de Riesgos del Trabajo, el empleador autoasegurado o el empleador no asegurado deberán acompañar el instrumento que acredite el carácter de representante o apoderado.
+
+d. En caso de presentarse, el empleador deberá acompañar la documentación que lo acredite como tal.
+
+El agente interviniente estará autorizado para solicitar a las partes interesadas todos aquellos documentos, instrumentos e información que consideren pertinentes, así como para realizar todas las diligencias que resulten necesarias para el desarrollo de sus funciones.
+
+ARTÍCULO 26. — El agente del Servicio de Homologación de la Comisión Médica verificará que se encuentre cumplido el procedimiento, validará el acuerdo y constatará la libre emisión del consentimiento del trabajador o sus derechohabientes y su discernimiento sobre los alcances del acuerdo.
+
+En el mismo acto, se suscribirá un acta dejando expresa constancia de ello y del ejercicio de la opción prevista en el artículo 4° de la Ley N° 26.773.
+
+Asimismo, el citado agente emitirá opinión acerca de la legalidad del procedimiento y la pertinencia del dictado del acto homologatorio del acuerdo.
+
+En ningún caso se admitirá una propuesta de convenio que contenga un grado de incapacidad que no se corresponda con la consignada en el Informe de Valoración del Daño o un monto indemnizatorio menor al que resulte de la estricta aplicación de la normativa prevista en la LRT y sus modificatorias.
+
+Finalmente, se remitirán las actuaciones al Titular del Servicio de Homologación de la Comisión Médica para que en el plazo de CINCO (5) días hábiles dicte el correspondiente acto administrativo de homologación con los alcances previstos en el artículo 15 de la Ley N° 20.744 (t.o. 1976), dejando expresa constancia del grado de incapacidad informado.
+
+A partir de la notificación del acto de homologación, la Aseguradora de Riesgos del Trabajo, el empleador autoasegurado o el empleador no asegurado, deberá poner a disposición el importe de la indemnización en la cuenta bancaria del trabajador oportunamente declarada, dentro del plazo de CINCO (5) días, de conformidad con lo establecido en el artículo 4° del Anexo I de la Ley Complementaria de la Ley sobre Riesgos del Trabajo.
+
+Excepcionalmente, en aquellos casos en los que la cuenta sueldo no estuviera disponible, la A.R.T. deberá poner a disposición del damnificado mediante la operación bancaria que se hubiere establecido en oportunidad de la audiencia de acuerdo.
+
+El incumplimiento de tales obligaciones por parte de la Aseguradora de Riesgos del Trabajo, el empleador autoasegurado o el empleador no asegurado será ponderado de conformidad con las previsiones del régimen aprobado por la Resolución SRT N° 613/16.
+
+Los actos de homologación asumirán autoridad de cosa juzgada administrativa, de conformidad con lo previsto en el artículo 4 ° del Anexo I de la Ley Complementaria de la Ley sobre Riesgos del Trabajo y las incapacidades allí consignadas deberán ser incorporadas a los registros de la S.R.T.
+
+ARTÍCULO 27. — Acuerdo no homologado.
+
+Si el acuerdo no fuese homologado, dentro de los CINCO (5) días se dará inicio al trámite de determinación de incapacidad, previsto en el Capítulo I y Punto I del presente Capítulo.
+
+En estos casos, el agente del Servicio de Homologación interviniente expedirá la respectiva constancia de conclusión del trámite sin acuerdo homologado.
+
+CAPÍTULO III
+
+NORMAS DE APLICACIÓN COMÚN A LOS PROCEDIMIENTOS DE LOS CAPÍTULOS I Y II DEL PRESENTE TÍTULO
+
+ARTÍCULO 28. — Domicilio y Notificaciones.
+
+Las partes deberán constituir, en su primera presentación, un domicilio especial a los efectos del presente procedimiento en el ámbito de competencia territorial de la Comisión Médica interviniente, donde se tendrán por válidas todas las notificaciones que efectúe la respectiva Comisión Médica. Las partes deberán denunciar cualquier modificación del domicilio constituido, dentro del plazo de CINCO (5) días de producida, bajo apercibimiento de tener por válidas las notificaciones cursadas al domicilio obrante en las actuaciones.
+
+El damnificado a través de su letrado, deberá constituir un domicilio electrónico, donde se tendrán por fehacientes todas las notificaciones que se cursen.
+
+A los efectos del presente procedimiento, las notificaciones a las Aseguradoras y a los empleadores, se considerarán fehacientes y legalmente válidas cuando se cursen por la ventanilla electrónica establecida por la SUPERINTENDENCIA DE RIESGOS DEL TRABAJO o el medio electrónico que en el futuro la reemplace.
+
+Las notificaciones a los trabajadores, a las A.R.T., los E.A. y a los empleadores, también podrán efectuarse en forma presencial, vía postal o por cualquier otro medio fehaciente.
+
+ARTÍCULO 29. — Plazos.
+
+El acto definitivo deberá ser expedido dentro de los 60 (SESENTA) días hábiles contados desde la primera presentación debidamente cumplimentada. Las demoras imputables a las partes que se susciten durante la sustanciación del procedimiento, suspenderán el plazo mencionado.
+
+A los fines de la presente resolución, salvo disposición expresa en contrario, los plazos deberán computarse en días hábiles administrativos y a partir del día siguiente al de la notificación.
+
+ARTÍCULO 30. — Servicio de Homologación de la Comisión Médica Jurisdiccional.
+
+Estará conformado por al menos un titular, profesionales médicos y letrados, y personal técnico administrativo.
+
+El titular, denominado Titular del Servicio de Homologación de la Comisión Médica, designado por esta SUPERINTENDENCIA DE RIESGOS DEL TRABAJO, será el agente encargado de emitir los actos de homologación de los acuerdos y los actos que concluyan los procedimientos regulados por la presente.
+
+ARTÍCULO 31. — La Gerencia de Administración de Comisiones Médicas será la responsable de la gestión operativa del Servicio de Homologación, debiendo asimismo, determinar los plazos de los trámites que no se encontraran expresamente definidos en la presente.
+
+ARTÍCULO 32. — A los efectos del cómputo del plazo de SESENTA (60) días establecido por el artículo 3° de la Ley Complementaria de la Ley sobre Riesgos del Trabajo, entiéndase como “debidamente cumplimentada la presentación”, en los términos siguientes:
+
+1. Para los procedimientos del CAPÍTULO I del presente TÍTULO: cuando se hallaren cumplidos los recaudos exigidos por el artículo 4° de la presente resolución para el inicio del trámite por parte de la Aseguradora de Riesgos del Trabajo o el empleador autoasegurado, con el requisito del patrocinio letrado obligatorio para el damnificado que preceptúa el artículo 36° del CAPITULO IV de la presente.
+
+2. Para los procedimientos del CAPÍTULO I del presente TÍTULO iniciados por el damnificado, previstos en el artículo 1° y 3°: cuando se encuentren cumplidos los recaudos establecidos en el punto 9.1 del Anexo I de la Resolución SRT N° 179/2015, o la que en el futuro la reforme o sustituya, correspondientes al trámite de rechazo de enfermedades no listadas y en el caso de los trámites por rechazo de denuncia de la contingencia; y, una vez cumplido el requisito del patrocinio letrado obligatorio para el damnificado que preceptúa el artículo 36° del CAPITULO IV de la presente, cuando concluya la intervención del Secretario Técnico Letrado con dictamen favorable a la pretensión del trabajador y se deriven las actuaciones a la Comisión Médica para el inicio del trámite médico.
+
+En los casos en que además de los requisitos establecidos, la S.R.T. efectúe a las partes requerimientos necesarios para dar inicio al trámite, cuando los mismos sean cumplimentados.
+
+ARTÍCULO 33. — Los actos del Titular del Servicio de Homologación de la Comisión Médica y los decisorios de la Comisión Médica Central en los que se determine una incapacidad laboral permanente total definitiva o el fallecimiento del trabajador por causas laborales, deberán ser notificados a la ADMINISTRACION NACIONAL DE LA SEGURIDAD SOCIAL.
+
+ARTÍCULO 34. — Procedimiento para el caso de incomparecencia de las partes.
+
+a. La incomparecencia personal del trabajador o sus derechohabientes al examen médico o a la audiencia de acuerdo, podrá ser justificada ante los casos de imposibilidad de hecho o fuerza mayor, debidamente acreditados. Dicha situación, podrá justificarse por el trabajador o derechohabientes o su letrado, desde la citación a la audiencia hasta el momento de la celebración de la misma.
+
+Si la incomparecencia no fuera debidamente justificada, se notificará al trabajador para que dentro de los QUINCE (15) días corridos inste la continuidad del trámite, bajo apercibimiento del archivo de las actuaciones.
+
+b. Ante la incomparecencia de la Aseguradora de Riesgos del Trabajo, el empleador autoasegurado o el empleador no asegurado al examen médico, el médico interviniente procederá a revisar al damnificado y labrará el acta correspondiente, en la que se dejarán asentados los datos de la parte concurrente, y se continuará con el trámite.
+
+Ante la incomparecencia a la audiencia de acuerdo prevista en el CAPÍTULO II, Punto I del presente TÍTULO, el agente del Servicio de Homologación de la Comisión Médica labrará el acta correspondiente y se remitirán las actuaciones al Titular del Servicio de Homologación a fin de que emita el acto de clausura correspondiente, el cual se notificará a las partes, dejando expresa constancia de que el trabajador o sus derechohabientes tiene expedita la vía recursiva prevista en el artículo 2° de la Ley Complementaria de la Ley sobre Riesgos del Trabajo.
+
+Ante la incomparecencia a la audiencia de acuerdo prevista en el CAPÍTULO II, Punto II del presente TÍTULO, el agente del Servicio de Homologación interviniente expedirá la respectiva constancia de conclusión del trámite sin acuerdo homologado y se dará inicio al trámite de determinación de incapacidad previsto en Punto I del citado Capítulo.
+
+La incomparecencia de la Aseguradora de Riesgos del Trabajo, el empleador autoasegurado o el empleador no asegurado configurará falta MUY GRAVE, de conformidad con las previsiones del régimen aprobado por la Resolución S.R.T. N° 613 de fecha 1° de noviembre de 2016, o la que en el futuro la reemplace.
+
+(Nota Infoleg: por art. 5° de la Resolución N° 48/2019 de la Superintendencia de Riesgos del Trabajo B.O. 28/6/2019 se modifica la Calificación de las Infracciones establecidas en los artículos 20 y 34 de la presente Resolución, como así también toda aquella calificación que difiera de lo previsto en el Anexo III IF-2019-56031408-APN-GAJYN#SRT de la resolución de referencia. Ver Resolución de referencia. Vigencia: a partir del día siguiente al de su publicación en el Boletín Oficial)
+
+ARTÍCULO 35. — Segunda Audiencia.
+
+Ante la segunda incomparecencia del trabajador al examen médico o a la audiencia de acuerdo, el agente interviniente dispondrá el cierre de las actuaciones, dejando expresa constancia que no se ha agotado la instancia administrativa dispuesta en el artículo 1° de la Ley Complementaria de la Ley sobre Riesgos del Trabajo y notificará a las partes lo allí resuelto, bajo apercibimiento de que en caso de no instar la continuidad del trámite en el plazo de QUINCE (15) días corridos, deberá solicitar la apertura de un nuevo trámite.
+
+Ante la incomparecencia injustificada del trabajador a las audiencias previstas en el CAPÍTULO II, Punto II del presente TÍTULO, el agente del Servicio de Homologación interviniente expedirá la respectiva constancia de conclusión del trámite sin acuerdo homologado y se dará inicio al trámite de determinación de incapacidad previsto en Punto I de citado Capítulo.
+
+CAPÍTULO IV
+
+DEL PATROCINIO LETRADO
+
+ARTÍCULO 36. — Del Patrocinio Letrado Obligatorio.
+
+El trabajador o sus derechohabientes deberán contar con patrocinio letrado, desde su primera presentación, en los procedimientos de las actuaciones administrativas establecidos en la Ley Complementaria de la Ley sobre Riesgos del Trabajo que tramiten ante las Comisiones Médicas o el Servicio de Homologación creado en el ámbito de las Comisiones Médicas Jurisdiccionales, conforme lo reglado en la presente resolución.
+
+Frente a la carencia de patrocinio letrado, a efectos de asegurar la asistencia letrada del damnificado en resguardo de la garantía del debido proceso, esta Superintendencia de Riesgos del Trabajo instrumentará las medidas necesarias a los efectos de proveer al damnificado, sin dilaciones, el patrocinio letrado en forma gratuita.
+
+No se considerará debidamente cumplimentada la presentación, a los efectos del cómputo del plazo previsto en el párrafo tercero del artículo 3° de la Ley Complementaria de la Ley sobre Riesgos del Trabajo, aquélla que carezca del patrocinio letrado obligatorio definido en el presente.
+
+Asimismo, quedará suspendido el plazo precedentemente mencionado ante la ausencia de patrocinio letrado del trabajador o sus derechohabientes en cualquier etapa del procedimiento hasta que dicho recaudo sea cumplido.
+
+ARTÍCULO 37. — De los Honorarios de los Letrados
+
+La actividad profesional desarrollada por los abogados que patrocinen al trabajador o sus derechohabientes en los procedimientos establecidos en la Ley Complementaria de la Ley sobre Riesgos del Trabajo que tramiten ante las Comisiones Médicas o el Servicio de Homologación creado en el ámbito de las Comisiones Médicas Jurisdiccionales, conforme lo reglado en la presente resolución, devengará honorarios a cargo de las Aseguradoras de Riesgos del Trabajo o Empleadores Autoasegurados, sólo en el caso de que el damnificado concurra al proceso con su letrado patrocinante particular; por el contrario, no devengará honorarios a cargo de las Aseguradoras de Riesgos del Trabajo o Empleadores Autoasegurados la actuación de los letrados pertenecientes al Servicio de Patrocinio Gratuito que asista al damnificado en el marco de lo dispuesto en el segundo párrafo del artículo anterior.
+
+Respecto de los honorarios profesionales de los abogados patrocinantes de los trabajadores o sus derechohabientes que se encuentran a cargo de las Aseguradoras de Riesgos del Trabajo o Empleadores Autoasegurados, por su labor profesional conforme lo descripto en el párrafo anterior, resultarán de aplicación los porcentajes previstos en las disposiciones de las leyes de aranceles de cada jurisdicción, de corresponder. Ello, únicamente en el caso de que su actuación profesional resultare oficiosa y se hubiera reconocido total o parcialmente la pretensión reclamada por el damnificado en el procedimiento ante las Comisiones Médicas. Lo expuesto, deberá notificarse a las partes y a los letrados intervinientes que tramiten los procedimientos regulados en la presente.
+
+En ningún supuesto los honorarios profesionales precedentemente aludidos se fijarán o regularán en el ámbito de las Comisiones Médicas ni del Servicio de Homologación.
+
+CAPÍTULO V
+
+DISPOSICIONES ADICIONALES
+
+ARTÍCULO 38. — Habilitación de Comisiones Médicas Jurisdiccionales.
+
+Dentro del plazo de NOVENTA (90) días corridos de hallarse debidamente cumplidos todos los recaudos exigidos para formalizar la adhesión al Título I de la Ley Complementaria de la Ley sobre Riesgos del Trabajo, esta Superintendencia deberá arbitrar los medios necesarios para asegurar la aplicación del procedimiento establecido en dicha norma legal y en la presente Resolución, en el territorio de la respectiva provincia adherente.
+
+ARTÍCULO 39. — Definición de Gastos.
+
+En el marco de gratuidad de los procedimientos para los damnificados establecido en el apartado cuarto del artículo 21 de la Ley N° 24.557, conforme a las facultades otorgadas a esta Superintendencia para su definición, entiéndase por “demás gastos en que incurra el trabajador a consecuencia de su participación ante las comisiones médicas” exclusivamente aquéllos que se encuentran previstos en el artículo 10 del Decreto N° 1.475 de fecha 29 de julio de 2015 sustitutivo del artículo 20 del Decreto N° 717 de fecha 28 de junio de 1996; los detallados en la Resolución SRT N° 539 de fecha 3 de agosto de 2000, con las reformas introducidas por la Resolución SRT N° 308 de fecha 22 de junio 2001; la Resolución SRT N° 1.240 de fecha 24 de agosto de 2010, y aquellas normas que en el futuro las reformen o sustituyan.
+
+ARTÍCULO 40. — Aplicación particular
+
+El procedimiento especial establecido en la presente resolución, para los trámites administrativos previstos en el artículo 1° de la Ley Complementaria de la Ley sobre Riesgos del Trabajo y en ella regulados, será de aplicación excluyente de los procedimientos previstos en las normas que regulen otros trámites ante las comisiones médicas.
+
+En razón de lo dispuesto en el párrafo precedente y con dichos alcances, resultarán inaplicables al procedimiento regulado por la presente resolución los preceptos establecidos en el Decreto N° 717/1996, con las reformas introducidas por el Decreto N° 1.475/2015 y la Resolución de esta Superintendencia N° 179/2015, en la medida en que se opongan a lo dispuesto en la presente.
+
+Para los restantes trámites administrativos, serán aplicables los procedimientos aprobados por la normativa vigente y las disposiciones previstas en el Decreto N° 717/96 y la Resolución SRT N° 179/15, o la que en el futuro la reemplace.
+
+En tal sentido, los dictámenes médicos emitidos por las Comisiones Médicas Jurisdiccionales, serán pasibles de los recursos allí dispuestos, con los efectos previstos en el Decreto N° 717/96. Sin perjuicio, de la competencia para entender en tales cuestiones de la justicia ordinaria del fuero laboral de la jurisdicción provincial o de la CIUDAD AUTÓNOMA DE BUENOS AIRES, según corresponda al domicilio de la comisión médica que intervino, conforme lo establecido en el artículo 46 de la LRT, modificado por el artículo 14 de la Ley Complementaria de la Ley sobre Riesgos del Trabajo.
+
+ARTÍCULO 41. — Aplicación temporal
+
+Las disposiciones contenidas en la presente resolución sólo resultarán aplicables al trámite de las actuaciones y los procedimientos administrativos iniciados a partir del 1° de marzo de 2017.
+
+TÍTULO II
+
+DE LAS DISPOSICIONES DE ORDENAMIENTO DEL SISTEMA SOBRE RIESGOS DEL TRABAJO ESTABLECIDAS EN EL TÍTULO III DE LA LEY COMPLEMENTARIA DE LA LEY SOBRE RIESGOS DEL TRABAJO
+
+ARTÍCULO 42. — Incapacidad Laboral Temporaria (I.L.T.)
+
+Entiéndase que de acuerdo a la disposición del artículo 10 de la Ley Complementaria de la Ley sobre Riesgos del Trabajo, en tanto sustituyó el inciso c) del apartado 2 del artículo 7 de la Ley N° 24.557, el otorgamiento de un nuevo período transitorio regulado por el apartado 4° del artículo 2° del Anexo del Decreto N° 472/14 deviene inaplicable.
+
+Establécese que para completar los DOS (2) años efectivos de baja definidos en el apartado 3 del citado artículo, los respectivos reingresos a la situación de I.L.T. deberán ser considerados hasta un período máximo de dos años.
+
+ARTÍCULO 43. — Valor de Ingreso Base
+
+No integrarán el cálculo del Valor del Ingreso Base, conforme lo establecido en el artículo 12 de la Ley N° 24.557, sustituido por el artículo 11 de la Ley Complementaria de la Ley sobre Riesgos del Trabajo, aquellas sumas que correspondan a los conceptos establecidos en el artículo 7° de la Ley N° 24.241 y los artículos 103 bis y 106 de la Ley N° 20.744, y todo otro concepto que no integre el salario aun cuando se liquide conjuntamente con él.
+
+ARTÍCULO 44. — De la extinción del contrato de afiliación
+
+Establécese que a los fines del cálculo de la deuda referida en el artículo 27 apartado 6 de la Ley N° 24.557 -incorporado por el artículo 12 de la Ley Complementaria de la Ley sobre Riesgos del Trabajo-, se deberá tomar como referencia la cuota de mayor valor devengado en los últimos DOCE (12) meses, siempre que ésta no incluya las sumas correspondientes al Sueldo Anual Complementario (S.A.C.). En el estado de deuda deberán incluirse todos los saldos parciales a favor del empleador y, en caso de haberse acordado el pago de prestaciones dinerarias por I.L.T., por cuenta y orden de la A.R.T., se deberán computar, a modo de compensación, los montos que la A.R.T. adeude al empleador en concepto de reintegros por I.L.T.
+
+A los efectos de considerar legalmente rescindido el contrato por falta de pago, la A.R.T. deberá, previo a la extinción del mismo, intimar fehacientemente el pago de las sumas adeudadas en un plazo no inferior a QUINCE (15) días corridos.
+
+Vencido dicho plazo, y no habiéndose dado cumplimiento a la intimación, la Aseguradora podrá extinguir el contrato efectuando una nueva notificación fehaciente comunicando la rescisión, la que será efectiva a partir de la CERO (0) hora del día inmediato posterior a la fecha de recepción.
+
+ARTÍCULO 45. — ARTÍCULO 45. - Situación de Reagravamiento
+
+Entiéndase por “Reagravamiento”, a los efectos de lo previsto en el artículo 14 de la Ley Complementaria de la Ley sobre Riesgos del Trabajo sustitutivo del artículo 46 de la Ley N° 24.557, las secuelas consolidadas derivadas de un accidente de trabajo o enfermedad profesional que, como consecuencia de un siniestro posterior, produzcan una incapacidad sobreviniente.
+
+ARTÍCULO 46. — Comuníquese, publíquese, dese a la Dirección Nacional del Registro Oficial y archívese. — Gustavo D. Morón.
+
+e. 24/02/2017 N° 11349/17 v. 24/02/2017
+
+— NOTA ACLARATORIA —
+
+SUPERINTENDENCIA DE RIESGOS DEL TRABAJO
+
+Resolución 298/2017
+
+En la edición del Boletín Oficial N° 33.574 del 24 de Febrero de 2017, página 33, aviso N° 11349/17, donde se publicó la citada norma se deslizó el siguiente error en el original:
+
+DONDE DICE:
+
+“ARTICULO 45. - Situación de Reagravamiento
+
+Entiéndase por “Reagravamiento”, a los efectos de lo previsto en el artículo 13 del Ley Complementaria de la Ley sobre Riesgos del Trabajo sustitutivo del artículo 46 de la Ley N° 24.557, las secuelas consolidadas derivadas de un accidente de trabajo o enfermedad profesional que, como consecuencia de un siniestro posterior, produzcan una incapacidad sobreviniente”.
+
+DEBE DECIR:
+
+“ARTÍCULO 45. - Situación de Reagravamiento
+
+Entiéndase por “Reagravamiento”, a los efectos de lo previsto en el artículo 14 de la Ley Complementaria de la Ley sobre Riesgos del Trabajo sustitutivo del artículo 46 de la Ley N° 24.557, las secuelas consolidadas derivadas de un accidente de trabajo o enfermedad profesional que, como consecuencia de un siniestro posterior, produzcan una incapacidad sobreviniente”.
+
+e. 28/04/2017 N° 27641/17 v. 28/04/2017
+
+Acerca de esta norma
+
+Acerca de esta norma
+
+Resumen
+
+Norma original
+
+Texto actualizado
+
+Modifica o complementa estas 3 normas
+
+Es modificada o complementada por estas 18 normas
+
+Buscador de normas
+
+Trámites
+
+Turnos
+
+Trámites a distancia
+
+Atención a la ciudadanía
+
+Acerca de la República Argentina
+
+Nuestro país
+
+Leyes argentinas
+
+Organismos
+
+Mapa del Estado
+
+Acerca de Argentina.gob.ar
+
+Acerca de este sitio
+
+Términos y condiciones
+
+Sugerencias
+
+Scroll hacia arriba

@@ -1,0 +1,2760 @@
+Ley 5.827 PBA - Ley Organica del Poder Judicial (texto actualizado)
+==============================================================================
+Jurisdiccion:     pba
+Fuente:           https://normas.gba.gob.ar/documentos/xb3KphGB.html
+Descargado:       2026-09-14
+SHA-256 (crudo):  272e60da3186da4b8ecbaae0e4d68c04be554b6cfc2527b90d6f5d5a1ee20ed3
+Charset:          UTF-8
+
+Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
+NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
+Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+el manifiesto `normas.json`.
+==============================================================================
+
+Ley 5827
+
+LEY 5827
+
+
+
+ORGÁNICA DEL PODER JUDICIAL
+
+
+
+Texto Actualizado de la Ley 5827 según Texto Ordenado por Decreto N° 3.702/92 y las modificaciones posteriores introducidas por las leyes: 11411, 11453, 11476, 11550, 11551, 11584, 11593, 11610, 11640, 11884, 11911, 11924, 11978, 11982, 12060, 12074, 12142, 12197, 12218, 12219, 12255 ,12289 , 12310, 12342, 12625, 12882, 12961, 13078, 13087, 13101, 13195, 13219, 13287, 13298, 13327, 13411, 13435, 13479, 13565, 13597, 13601, 13629, 13634, 13645, 13662, 13672, 13675, 13694, 13772, 13773, 13795, 13812, 13837, 13859, 13862, 13943, 14020, 14045, 14116, 14177, 14178, 14189, 14235, 14329, 14365, 14372, 14484, 14490, 14442, 14543, 14557, 14612, 14614, 14627, 14683, 14684, 14723, 14864, 14901, 15057 y 15483.
+
+
+
+“NOTA: Todas las Leyes mencionadas pueden ser consultadas en nuestro sitio web.”
+
+
+
+Ver Ley 11982 que en su art. 16 incorpora la misma como Anexo de la presente Ley.
+
+
+
+Ver Ley 12074 que en su art. 26 incorpora la misma como Anexo de la presente Ley.
+
+
+
+Ver Ley 12.008 (Código Contencioso Administrativo), Ley 12162 y 13479.
+
+
+
+Ver Ley 13662 en su art.3, ref. Reducción de los Miembros de la Suprema Corte de Justicia.
+
+
+
+Ver Ley 13837 la cual crea el Cuerpo de Magistrados Suplentes para cubrir vacantes transitorias.
+
+
+
+Ver Ley 15057 la cual tendrá vigencia a partir del primer día hábil del mes de febrero del año 2020 (Ver arts. 1 -incs. 3 y 4-, 25 y 125 modificación y art. 96 – vigencia).
+
+
+
+IMPORTANTE:
+
+
+
+Ley 12367 (Ref: Crea órganos del Ministerio Público, Dptos. AZUL, BAHÍA BLANCA, DOLORES, JUNÍN. LA MATANZA, LA PLATA, LOMAS DE ZAMORA, MAR DEL PLATA, MERCEDES, MORÓN, NECOCHEA, PERGAMINO, QUILMES, SAN ISIDRO, SAN MARTÍN, SAN NICOLÁS DE LOS ARROYOS, TRENQUE LAUQUEN, ZARATE CAMPANA)
+
+
+
+Ley 13219 (Ref: Crea un Tribunal Colegiado de Instancia Única para el Fuero de Familia en el Dpto. Judicial MAR DEL PLATA)
+
+
+
+Ley 13274 (Ref: Crea órganos del Ministerio Público para cubrir Fiscalías y Defensorías descentralizadas, cargos, Dptos. LA MATANZA, LA PLATA, LOMAS DE ZAMORA, MERCEDES, MORÓN, QUILMES, SAN ISIDRO, SAN MARTÍN, ZARATE CAMPANA)
+
+
+
+Ley 13435 (Crea el “Fuero de Ejecuciones Tributarias – Juzgados de Primera Instancia de Ejecuciones Tributarias).
+
+
+
+Ver Ley 13634: Crea Juzgados de Familia – Suprime denominación Asesor de Incapaces exclusivos para Tribunal de Menores que pasarán a nominarse Asesores de Incapaces - Crea cargos de Asesores de Incapaces – Crea Juzgados de Responsabilidad Penal Juvenil – Crea Juzgados de Garantías del Joven – Crea Organos del Ministerio Publico especializados en el Fuero de Responsabilidad Penal Juvenil.
+
+
+
+Ley 13672: Crea cargos de Defensor General Departamental en: Azul, Bahía Blanca, Dolores, Junín, Mercedes, Moreno–General Rodríguez, Necochea, Pergamino, Trenque Lauquen, Zárate–Campana.
+
+
+
+Ley 13675: En su art. 2 dice: “A los fines de su transformación en Juzgados en lo Civil y Comercial se disuelven los Juzgados de Paz actualmente existentes en las ciudades de Avellaneda y Lanús. Los magistrados.....”
+
+
+
+Ley 13773: Crea para las ciudades de Avellaneda y de Lanús los cargos de Adjunto de Fiscal de Cámaras y Adjunto de Defensor General.
+
+
+
+Ley 13862: Crea 1 cargo de Agente Fiscal en los Departamentos Judiciales de San Nicolás, Azul y Dolores. Crea 1 cargo de Juez de Garantías con asiento en la ciudad de Mar del Tuyú.
+
+
+
+Ley 13871: Crea los cargos de Ayudante Fiscal en los Departamentos de Azul, Bahía Blanca, Dolores, Junín, La Plata, Mar del Plata, Mercedes, Necochea, San Nicolás y Trenque Lauquen.
+
+
+
+Ley 13991: Crea los órganos del Ministerio Público, para cubrir Defensorías Oficiales con competencia en los Fueros Civil y Comercial y de Familia en distintos Departamentos Judiciales. Cargos.
+
+
+
+Ley 13992: Crea los órganos del Ministerio Público, para cubrir Fiscalías y Defensorías en el Fuero Criminal y Correccional en distintos Departamentos Judiciales. Cargos.
+
+
+
+Ley 13993: Crea Juzgados de Garantías del Joven en distintos Departamentos Judiciales. Créanse órganos del Ministerio Público, especializados en el Fuero de la Responsabilidad Penal Juvenil en distintos Departamentos Judiciales
+
+
+
+Ley 14175 Crea cargos en distintos Departamentos Judiciales de Agente Fiscal y Defensor Oficial para actuar en el Fuero Criminal y Correccional y de Responsabilidad Penal Juvenil. Ministerio Público.
+
+
+
+Ley 14176 Crea 20 cargos de Ayudantes Fiscales destinados a los partidos de los Departamentos Judiciales que no sean cabecera departamental que la Procuración General de la Suprema Corte de Justicia determine.
+
+
+
+Ley 14178 Crea un Tribunal de Trabajo con asiento en la ciudad de Mar del Tuyú y modifica la presente.
+
+
+
+Ley 14186 crea Juzgados de Primera Instancia en lo Civil y Comercial en los Departamentos Judiciales de La Matanza, Mar del Plata y San Isidro.
+
+
+
+Ley 14235: Crea un (1) Tribunal de Trabajo con asiento en la Ciudad de Dolores y un Tribunal de Trabajo, con asiento en la Ciudad de Escobar. Deja sin efecto la creación de un (1) Tribunal de Trabajo con asiento en la Ciudad de Coronel Suárez dispuesta por Ley 11078.
+
+
+
+Ley 14256 crea Juzgados de Primera Instancia en lo Contencioso Administrativo en los Departamentos Judiciales de La Plata, Lomas de Zamora, San Isidro.
+
+
+
+Ley 14346 crea Juzgados en los Departamentos Judiciales de Bahía Blanca, Lomas de Zamora, Quilmes, San Isidro, San Martín, Zárate-Campana y La Plata, con asiento y competencia en varios partidos (Juzgados de Ejecución Penal - Juzgados de Garantías).
+
+
+
+Ley 14557 Crea un Juzgado de Garantías en el Departamento Judicial Dolores, con asiento en la Ciudad de Villa Gesell, y con competencia en los partidos de Villa Gesell y Pinamar.
+
+
+
+Ley 14612 Crea Órganos en distintos Departamentos Judiciales.
+
+
+
+Ley 14613 Crea el Cuerpo de Magistrados Suplentes del Ministerio Público. (integración-designación-remoción).
+
+
+
+Ley 14614 Crea cargos de Asesor de Incapaces y uno de Agente Fiscal en diversos Departamentos Judiciales.
+
+
+
+Ley 14615 Crea un cargo de Agente Fiscal en el Departamento Judicial Mar del Plata, con asiento en Balcarce.
+
+
+
+Ley 14616 Crea Órganos del Fuero de Familia en diversos Departamento Judiciales.
+
+
+
+Ley 14617 Crea 2 cargos de Agente Fiscal.
+
+
+
+Ley 14627 Traslada un Juzgado en lo Correccional. Crea Órganos del Fuero Penal en el Departamento Judicial Quilmes con asiento en Florencio Varela.
+
+
+
+Ley 14642 Crea cargos de Agente Fiscal y cargos de Defensor Oficial con competencia en lo Criminal y Correccional, en los distintos Departamentos Judiciales.
+
+
+
+Ley 14684 Crea Órganos del Fuero de Familia en diversos Departamento Judiciales.
+
+
+
+Ley 14723 Crea Juzgados y Órganos del Ministerio Público. Crea Tribunal de Trabajo (Departamento Judicial San Isidro - Tigre).
+
+
+
+Ley 14729 Crea un Tribunal de Trabajo con competencia territorial sobre el Departamento Judicial de Bahía Blanca.
+
+
+
+Ley 15024 Créase un Juzgado de Familia, con asiento en la ciudad de Saladillo y con competencia en los partidos de Saladillo, Lobos y Roque Pérez del Departamento Judicial de La Plata.
+
+
+
+TÍTULO I
+
+
+
+ORGANIZACIÓN DEL PODER JUDICIAL
+
+
+
+CAPÍTULO I
+
+
+
+TRIBUNALES, MAGISTRADOS, FUNCIONARIOS Y AUXILIARES
+
+
+
+DE LA JUSTICIA. ENUNCIACIÓN
+
+
+
+ARTÍCULO 1°: (Texto según Ley 13837) La administración de justicia en la Provincia será ejercida por:
+
+
+
+1. La Suprema Corte de Justicia
+
+
+
+2. El Tribunal de Casación Penal
+
+
+
+3. Las Cámaras de Apelación en lo Civil y Comercial, de Garantías en lo Penal y en lo Contencioso Administrativo (*).
+
+
+
+4. Los Jueces de Primera Instancia en lo Civil y Comercial, de Familia, en lo Contencioso Administrativo, de Garantías, de Garantías del Joven, de Responsabilidad Penal Juvenil, en lo Correccional, de Ejecución en lo Penal y de Ejecución Tributaria (*).
+
+
+
+5. Los Tribunales en lo Criminal
+
+
+
+6. Los Tribunales del Trabajo
+
+
+
+7. Los Jueces de Paz
+
+
+
+8. El Juzgado Notarial
+
+
+
+9. El Cuerpo de Magistrados Suplentes.
+
+
+
+10. (Inciso Incorporado por Ley 14543) El Tribunal de Jurados.
+
+
+
+(*) Los incisos 3 y 4 fueron modificados por art. 95 de la Ley 15057 la cual tendrá vigencia a partir del primer día hábil del mes de febrero del año 2020.[1]
+
+
+
+ARTÍCULO 2°: (Texto según Ley 14442) El Ministerio Público será desempeñado por el Procurador General de la Suprema Corte de Justicia, por el Subprocurador General de la Suprema Corte de Justicia, por el Defensor General de la Provincia, por el Subdefensor General, por los Fiscales de Cámaras, por los Defensores
+
+
+
+Departamentales, por los Agentes Fiscales, Asesores de Incapaces, y Defensores Oficiales.
+
+
+
+ARTÍCULO 2° Bis: (Texto según Ley 13634) Son funcionarios del Poder Judicial los Consejeros de Familia con desempeño en los Juzgados correspondientes, quienes deberán satisfacer los mismos requisitos y condiciones que los miembros del Ministerio Público de Primera Instancia y tendrán Jerarquía presupuestaria de Secretarios de Cámara.
+
+
+
+ARTÍCULO 3°: (Texto según Ley 13634) Son profesionales auxiliares de la administración de justicia: los abogados, procuradores, escribanos, médicos, ingenieros, agrimensores, contadores, martilleros públicos, tasadores, traductores, intérpretes, calígrafos y peritos en general en las causas en que intervengan en tal carácter como igualmente los profesionales integrantes del equipo técnico auxiliar de los Juzgados de Familia.
+
+
+
+CAPÍTULO II
+
+
+
+ASIENTO Y COMPETENCIA TERRITORIAL DE LOS TRIBUNALES
+
+
+
+DE LOS JUZGADOS Y DEL MINISTERIO PÚBLICO #
+
+
+
+# (Título según Decreto Ley 7896/72)
+
+
+
+ARTÍCULO 4°: (Texto Según Decreto Ley 7896/72) Los Tribunales y Jueces ejercerán su jurisdicción en el territorio de la Provincia con la competencia que les atribuyen la Constitución, la presente Ley y las leyes especiales.
+
+
+
+ARTÍCULO 5°: (Texto según Ley 14484) Para los Fueros Civil y Comercial, de Familia, Contencioso Administrativo, de Responsabilidad Penal Juvenil y Criminal y Correccional, se divide la Provincia en veintiún (21) Departamentos Judiciales con las denominaciones que se enuncian a continuación: Departamento Judicial de Avellaneda-Lanús, Departamento Judicial Azul, Departamento Judicial Bahía Blanca, Departamento Judicial Dolores, Departamento Judicial San Martín, Departamento Judicial Junín, Departamento Judicial La Matanza, Departamento Judicial La Plata, Departamento Judicial Lomas de Zamora, Departamento Judicial Mar del Plata, Departamento Judicial Mercedes, Departamento Judicial Merlo, Departamento Judicial Moreno-General Rodríguez, Departamento Judicial Morón, Departamento Judicial Necochea, Departamento Judicial Pergamino, Departamento Judicial Quilmes, Departamento Judicial San Isidro, Departamento Judicial San Nicolás de los Arroyos, Departamento Judicial Trenque Lauquen, Departamento Judicial Zárate-Campana.
+
+
+
+ARTÍCULO 5 bis: (Artículo Incorporado por Ley 14484) (Texto según Ley 14901) Departamento Judicial de Avellaneda-Lanús:
+
+
+
+a) Su asiento será en las ciudades de Avellaneda y de Lanús, y tendrá competencia territorial en los partidos homónimos.
+
+
+
+b) Se compondrá de una (1) Cámara de Apelación en lo Civil y Comercial, una (1) Cámara de Apelación y Garantías en lo Penal, ocho (8) Juzgados de Primera Instancia en lo Civil y Comercial, un (1) Juzgado de Primera Instancia en lo Contencioso Administrativo, seis (6) Juzgados de Garantías, cuatro (4) Juzgados en lo Correccional, cuatro (4) Tribunales en lo Criminal, dos (2) Juzgados de Ejecución, un (1) Juzgado de Ejecución Tributaria, ocho (8) Juzgados de Familia, dos (2) Juzgados de Responsabilidad Penal Juvenil, dos (2) Juzgados de Garantías del Joven y un (1) Registro Público de Comercio.
+
+
+
+El Ministerio Público estará integrado por un (1) Fiscal de Cámara, dos (2) Adjuntos de Fiscal de Cámara, treinta y nueve (39) Agentes Fiscales, treinta y cinco (35) de ellos para actuar ante el Fuero Criminal y Correccional y cuatro (4) especializados en el Fuero de Responsabilidad Penal Juvenil; un (1) Defensor General, dos (2) Adjuntos de Defensor General, veinticinco (25) Defensores Oficiales de los cuales: diecinueve (19) de ellos para actuar ante el Fuero Criminal y Correccional, seis (6) para actuar ante el Fuero Civil y Comercial y de Familia y cuatro (4) especializados en el Fuero de Responsabilidad Penal Juvenil; y cuatro (4) Asesores de Incapaces.
+
+
+
+ARTÍCULO 6°: (Texto según Ley 13862) Departamento Judicial Azul:
+
+
+
+a) Su asiento será en la ciudad de Azul y tendrá competencia territorial en los siguientes partidos: Azul, Bolívar, General Alvear, General La Madrid, Benito Juárez, Laprida, Las Flores, Olavarría, Rauch, Tandil y Tapalqué.
+
+
+
+b) Se compondrá de una (1) Cámara de Apelación en lo Civil y Comercial, una (1) Cámara de Apelación y Garantías en lo Penal, diez (10) Juzgados de Primera Instancia en lo Civil y Comercial, dos (2) Juzgados de Primera Instancia en lo Contencioso Administrativo, un (1) Juzgado de Primera Instancia de Ejecuciones Tributarias, cuatro (4) Juzgados en lo Correccional, siete (7) Juzgados de Garantías, dos (2) Juzgados de Ejecución, tres (3) Tribunales en lo Criminal, un (1) Tribunal de Familia, dos (2) Tribunales de Menores y un (1) Registro Público de Comercio; el Ministerio Público estará integrado por un (1) Fiscal de Cámaras Departamental, diecinueve (19) Agentes Fiscales, un (1) Defensor General Departamental, doce (12) Defensores Oficiales y dos (2) Asesores de Incapaces.
+
+
+
+En la ciudad de Azul tendrá su asiento: la Cámara de Apelación en lo Civil y Comercial, la Cámara de Apelación y Garantías en lo Penal, cuatro (4) Juzgados de Primera Instancia en lo Civil y Comercial, un (1) Juzgado de Primera Instancia en lo Contencioso Administrativo, un (1) Juzgado de Primera Instancia de Ejecuciones Tributarias, dos (2) Juzgados en lo Correccional, tres (3) Juzgados de Garantías, un (1) Juzgado de Ejecución, dos (2) Tribunales en lo Criminal, un (1) Tribunal de Familia, un (1) Tribunal de Menores y un (1) Registro Público de Comercio; el Ministerio Público estará integrado por un (1) Fiscal de Cámaras Departamental, siete (7) Agentes Fiscales, un (1) Asesor de Incapaces, seis (6) Defensores Oficiales, cinco (5) de ellos con competencia en lo Criminal y Correccional y uno (1) para actuar en los Fueros Civil, Comercial y de Familia. En la ciudad de General Alvear tendrá su asiento un (1) Juzgado de Ejecución y un (1) Agente Fiscal.
+
+
+
+En la ciudad de Tandil, tendrán su asiento tres (3) Juzgados de Primera Instancia en lo Civil y Comercial, un (1) Juzgado de Primera Instancia en lo Contencioso Administrativo, un (1) Juzgados en lo Correccional, dos (2) Juzgados de Garantías, un (1) Tribunal en lo Criminal, y un (1) Tribunal de Menores, todos ellos con competencia exclusiva en el Partido de Tandil. El Ministerio Público estará integrado por cuatro (4) Agentes Fiscales, un (1) Asesor de Incapaces y tres (3) Defensores Oficiales, dos (2) de ellos con competencia en lo Criminal y Correccional y uno (1) para actuar en los Fueros Civil, Comercial y de Familia. Los Defensores Oficiales también desempeñarán las funciones de Asesores de Incapaces.
+
+
+
+En la ciudad de Olavarría tendrán su asiento tres (3) Juzgados de Primera Instancia en lo Civil y Comercial, un (1) Juzgado en lo Correccional, dos (2) Juzgados de Garantías, con competencia territorial sobre los Partidos de Olavarría, Bolívar, General La Madrid y Laprida; el Ministerio Público estará integrado por cuatro (4) Agentes Fiscales, tres (3) Defensores Oficiales, dos (2) con competencia en lo Criminal y Correccional y uno (1) para actuar en los Fueros Civil, Comercial y de Familia. Los Defensores Oficiales también desempeñarán funciones de Asesores de Incapaces. Rige lo dispuesto en la Ley Nº 13274 con relación a los miembros del Ministerio Público Fiscal y del Ministerio Público de la Defensa que la misma crea en su artículo 5º y que la Procuración General de la Suprema Corte de Justicia dispuso para este Departamento Judicial.
+
+
+
+ARTÍCULO 7°: (Texto según Ley 13411) Departamento Judicial Bahía Blanca:
+
+
+
+a) Su asiento será en la ciudad de Bahía Blanca y tendrá competencia territorial en los siguientes partidos: Bahía Blanca, Coronel Dorrego, Coronel Pringles, Coronel de Marina Leonardo Rosales, Coronel Suárez, Gonzáles Chaves, Monte Hermoso, Patagones, Puán, Saavedra, Tornquist, Tres Arroyos y Villarino.
+
+
+
+b) (Texto según Ley 13672) Se compondrá de una (1) Cámara de Apelación en lo Civil y Comercial, una (1) Cámara de Apelación y Garantías en lo Penal, doce (12) Juzgados de Primera Instancia en lo Civil y Comercial, un (1) Juzgado de Primera Instancia en lo Contencioso Administrativo, cinco (5) Juzgados de Garantías, cinco (5) Juzgados en lo Correccional, un (1) Juzgado de Ejecución Penal, un (1) Juzgado de Ejecuciones Tributarias, cuatro (4) Tribunales en lo Criminal, un (1) Tribunal de Familia, tres (3) Tribunales de Menores y un (1) Registro Público de Comercio.
+
+
+
+El Ministerio Público estará integrado por un (1) Fiscal de Cámaras Departamental, un (1) Adjunto de Fiscal de Cámaras Departamental, veintidós (22) Agentes Fiscales, un (1) Defensor General Departamental, trece (13) Defensores Oficiales, un (1) Asesor de Incapaces y un (1) Asesor exclusivo para Tribunales de Menores.
+
+
+
+En la ciudad de Bahía Blanca, tendrán su asiento: la Cámara de Apelación en lo Civil y Comercial, la Cámara de Apelación y Garantías en lo Penal, ocho (8) Juzgados de Primera Instancia en lo Civil y Comercial, un (1) Juzgado de Primera Instancia en lo Contencioso Administrativo, cuatro (4) Juzgados de Garantías, cuatro (4) Juzgados en lo Correccional, un (1) Juzgado de Ejecución Penal, un (1) Juzgado de Ejecuciones Tributarias, tres (3) Tribunales en lo Criminal, un (1) Tribunal de Familia, dos (2) Tribunales de Menores y un (1) Registro Público de Comercio.
+
+
+
+El Ministerio Público estará integrado por un (1) Fiscal de Cámaras Departamental, un (1) Adjunto de Fiscal de Cámaras Departamental, dieciséis (16) Agentes Fiscales, un (1) Defensor General Departamental, siete (7) Defensores Oficiales para actuar ante el Fuero Criminal y Correccional, dos (2) Defensores Oficiales para actuar ante el Fuero Civil y Comercial y el Fuero de Familia, un (1) Asesor de Incapaces y un (1) Asesor de incapaces exclusivo para Tribunales de Menores.
+
+
+
+En la ciudad de Tres Arroyos, tendrán su asiento dos (2) Juzgados de Primera Instancia en lo Civil y Comercial, un (1) Juzgado de Garantías, un (1) Juzgado en lo Correccional, un (1) Tribunal en lo Criminal, un (1) Tribunal de Menores, todos con competencia territorial sobre los Partidos de Tres Arroyos y Gonzáles Chaves; el Ministerio Público estará integrado por cuatro (4) Agentes Fiscales y por dos (2) Defensores Oficiales para actuar ante el Fuero Criminal y Correccional. Los Agentes Fiscales también desempeñarán funciones de Asesor de Incapaces.
+
+
+
+· Lo subrayado fue suprimido por la Ley 14614 en su art.4.
+
+
+
+En la ciudad de Coronel Suárez, tendrá su asiento un (1) Juzgado de Primera Instancia en lo Civil y Comercial con competencia territorial sobre los Partidos de Coronel Suárez, Puan y Saavedra; el Ministerio Público será ejercido por un (1) Agente Fiscal que también desempeñará las funciones de Asesor de Incapaces y por un (1) Defensor Oficial para actuar ante el Fuero Civil y Comercial y el Fuero de Familia.
+
+
+
+En la ciudad de Patagones, tendrá su asiento un (1) Juzgado de Primera Instancia en lo Civil y Comercial con competencia territorial sobre el Partido de Patagones; el Ministerio Público será ejercido por un (1) Agente Fiscal que también desempeñará las funciones de Asesor de Incapaces y por un (1) Defensor Oficial para actuar ante el Fuero Civil y Comercial y el Fuero de Familia.
+
+
+
+(Texto según Ley 14683) En la ciudad de Coronel Pringles tendrá su asiento un (1) Agente Fiscal.
+
+
+
+
+
+
+Rige lo dispuesto en la Ley Provincial Nº 13.274 con relación a los miembros del Ministerio Público Fiscal que la misma crea en su artículo 5º y que la Procuración General de la Suprema Corte de Justicia dispuso para este Departamento Judicial.
+
+
+
+ARTÍCULO 8°: (Texto según Ley 14490) Departamento Judicial de Dolores:
+
+
+
+a) Su asiento será en la ciudad de Dolores y tendrá competencia territorial en los siguientes partidos: Ayacucho, Castelli, Chascomús, de La Costa, Dolores, General Belgrano, General Guido, General Lavalle, General Madariaga, Lezama, Maipú, Pila, Pinamar, Tordillo y Villa Gesell.
+
+
+
+b) Se compondrá de una (1) Cámara de Apelación en lo Civil y Comercial, una (1) Cámara de Apelación y Garantías en lo Penal, siete (7) Juzgados de Primera Instancia en lo Civil y Comercial, un (1) Juzgado de Primera Instancia en lo Contencioso Administrativo, cinco (5) Juzgados de Garantías, tres (3) Juzgados en lo Correccional, un (1) Juzgado de Ejecución Penal, un (1) Juzgado de Ejecuciones Tributarias, dos (2) Tribunales en lo Criminal, dos (2) Juzgados de Familia, un (1) Juzgado de Responsabilidad Penal Juvenil, un (1) Juzgado de Garantías del Joven, tres (3) Tribunales de Trabajo, (1) Registro Público de Comercio.
+
+
+
+El Ministerio Público estará integrado por un (1) Fiscal de Cámaras Departamental, diecinueve (19) Agentes Fiscales: diecisiete (17) Agentes Fiscales para actuar ante el Fuero Criminal y Correccional y dos (2) Agentes Fiscales especializados en el Fuero de Responsabilidad Penal Juvenil, un (1) Defensor General Departamental, doce (12) Defensores Oficiales: ocho (8) Defensores Oficiales para actuar ante el Fuero Criminal y Correccional, dos (2) Defensores Oficiales para actuar ante el Fuero Civil y Comercial y de Familia y dos (2) Defensores Oficiales especializados en el Fuero de Responsabilidad Penal Juvenil, y dos (2) Asesores de Incapaces.
+
+
+
+(Párrafo sustituido por Ley 14557) En la Ciudad de Villa Gesell tendrá asiento un (1) Juzgado Civil y Comercial con competencia territorial sobre el Partido homónimo y un (1) Juzgado de Garantías con competencia territorial sobre los partidos de Villa Gesell y Pinamar; el Ministerio Público estará integrado por un (1) Agente Fiscal.
+
+
+
+(Párrafo sustituido por Ley 14557) En la Ciudad de Mar del Tuyú tendrá asiento un (1) Juzgado Civil y Comercial, con competencia territorial sobre el Partido de La Costa; un (1) Tribunal de Trabajo con competencia territorial sobre los partidos de General Lavalle y de la Costa, un (1) Juzgado de Garantías con competencia exclusiva sobre el Partido de La Costa y un (1) Juzgado de Familia con competencia exclusiva sobre los partidos de Villa Gesell, Pinamar y de La Costa.
+
+
+
+En la ciudad de Pinamar tendrá su asiento un (1) Juzgado Civil y Comercial con competencia territorial sobre el Partido homónimo.
+
+
+
+En la ciudad de Chascomús tendrá su asiento un (1) Juzgado de Garantías con competencia territorial en los partidos de Chascomús, Lezama, Pila y General Belgrano; el Ministerio Público estará integrado por un (1) Agente Fiscal y un (1) Defensor Oficial para actuar ante el Fuero Criminal y Correccional.
+
+
+
+Rige lo dispuesto en la Ley 13274 con relación a los miembros del Ministerio Público Fiscal que la misma crea en su artículo 5º y que la Procuración General de la Suprema Corte de Justicia dispuso para este Departamento Judicial.
+
+
+
+ARTÍCULO 9°: (Texto según Ley 12060) Departamento Judicial de General San Martín:
+
+
+
+a) Su asiento será en la ciudad de General San Martín y tendrá competencia en los siguientes partidos: José C. Paz, General San Martín, Malvinas Argentinas, San Miguel y Tres de Febrero.
+
+
+
+b) (Texto según Ley 13479) Se compondrá: de una (1) Cámara de Apelación en lo Civil y Comercial, una (1) Cámara de Apelación y Garantías en lo Penal, una (1) Cámara de Apelación en lo Contencioso Administrativo, doce (12) Juzgados de Primera instancia en lo Civil y Comercial, dos (2) Juzgados de Primera Instancia en lo Contencioso Administrativo, seis (6) Juzgados de Garantías, seis (6) Juzgados en lo Correccional, siete (7) Tribunales en lo Criminal, dos (2) Juzgados de Ejecución, un (1) Juzgado de Ejecución Tributaria, dos (2) Tribunales de Familia, cuatro (4) Tribunales de Menores y un (1) Registro Público de Comercio; el Ministerio Público estará integrado por: un (1) Fiscal de Cámaras Departamental, dos (2) Adjuntos de Fiscal de Cámaras Departamental, veinticinco (25) Agentes Fiscales, treinta (30) Adjuntos de Agente Fiscal, un (1) Defensor General Departamental, catorce (14) Defensores Oficiales, once (11) de ellos con competencia exclusiva en lo Criminal y Correccional y tres (3) para actuar el los Fueros Civil, Comercial y de Familia; trece (13) Adjuntos de Defensor Oficial, once (11) de ellos con competencia exclusiva en lo Criminal y Correccional y dos (2) para actuar en los Fueros Civil, Comercial y de Familia, dos (2) Asesores de Incapaces y un (1) Asesor de Incapaces exclusivo para Tribunales de Menores.
+
+
+
+Rige lo dispuesto en la Ley 13.274 con relación a los miembros del Ministerio Público Fiscal y del Ministerio Público de la Defensa que la misma crea para este Departamento Judicial.
+
+
+
+ARTÍCULO 10: (Texto según Ley 12142) Departamento Judicial de Junín:
+
+
+
+a) Su asiento será en la ciudad de Junín y tendrá competencia territorial en los siguientes partidos: Chacabuco, Florentino Ameghino, General Arenales, General Pinto, General Viamonte, Junín, Leandro N. Alem, Lincoln y Rojas.
+
+
+
+b) (Texto según Ley 13672) Se compondrá de una (1) Cámara de Apelación en lo Civil y Comercial, una (1) Cámara de Apelación y Garantías en lo Penal, cuatro (4) Juzgados de Primera Instancia en lo Civil y Comercial, un (1) Juzgado de Primera Instancia en lo Contencioso Administrativo, tres (3) Juzgados de Garantías, tres (3) Juzgados en lo Correccional, un (1) Juzgado de Ejecución Penal, un (1) Juzgado de Ejecuciones Tributarias, un (1) Tribunal en lo Criminal, un (1) Tribunal de Familia, un (1) Tribunal de Menores y un (1) Registro Público de Comercio.
+
+
+
+El Ministerio Público estará integrado por un (1) Fiscal de Cámaras Departamental, nueve (9) Agentes Fiscales, un (1) Defensor General Departamental, cuatro (4) Defensores Oficiales para actuar ante el Fuero Criminal y Correccional, dos (2) Defensores Oficiales para actuar ante el Fuero Civil y Comercial y el Fuero de Familia y un (1) Asesor de Incapaces.
+
+
+
+ARTÍCULO 11: (Texto según Ley 13411) Departamento Judicial La Matanza:
+
+
+
+a) Tendrá su asiento en el partido de La Matanza, con competencia exclusiva en el citado Partido.
+
+
+
+b) (Texto según Ley 13479) Se compondrá: de una (1) Cámara de Apelación en lo Civil y Comercial, una (1) Cámara de Apelación y Garantías en lo Penal, ocho (8) Juzgados de Primera Instancia en lo Civil y Comercial, un (1) Juzgado de Primera Instancia en lo Contencioso Administrativo, seis (6) Juzgados de Garantías, cuatro (4) Juzgados en lo Correccional, cinco (5) Tribunales en lo Criminal, dos (2) Juzgados de Ejecución, un (1) Juzgado de Ejecución Tributaria, tres (3) Tribunales de Familia, cuatro (4) Tribunales de Menores y un (1) Registro Público de Comercio; el Ministerio Público estará integrado por: un (1) Fiscal de Cámaras Departamental, un (1) Adjunto de Fiscal de Cámaras Departamental, veinte (20) Agentes Fiscales, dieciséis (16) Adjuntos de Agente Fiscal, un (1) Defensor General Departamental, once (11) Defensores Oficiales, ocho (8) de ellos con competencia exclusiva en lo Criminal y Correccional y tres (3) para actuar en los Fueros Civil, Comercial y de Familia y ocho (8) Adjuntos de Defensor Oficial con competencia exclusiva en lo Criminal y Correccional, dos (2) Asesores de Incapaces y un (1) Asesor de Incapaces exclusivo para Tribunales de Menores.
+
+
+
+Rige lo dispuesto en la Ley 13.274 con relación a los miembros del Ministerio Público Fiscal y del Ministerio Público de la Defensa que la misma crea para este Departamento Judicial.
+
+
+
+ARTÍCULO 12: (Texto según Ley 13411) Departamento Judicial La Plata:
+
+
+
+a) Su asiento será en la ciudad Capital de la Provincia y tendrá competencia territorial en los siguientes partidos: Berisso, Cañuelas, Coronel Brandsen, Ensenada, General Paz, La Plata, Lobos, Magdalena, Monte, Presidente Perón, Punta Indio, Roque Pérez, Saladillo y San Vicente.
+
+
+
+b) (Texto según Ley 13479) Se compondrá: de dos (2) Cámaras de Apelación en lo Civil y Comercial, una (1) Cámara de Apelación y Garantías en lo Penal, una (1) Cámara de Apelación en lo Contencioso Administrativo; veintitrés (23) Juzgados de Primera Instancia en lo Civil y Comercial, tres (3) Juzgados de Primera Instancia en lo Contencioso Administrativo, seis (6) Juzgados de Garantías, cinco (5) Juzgados en lo Correccional, dos (2) Juzgados de Ejecución, dos (2) Juzgados de Ejecución Tributaria, cinco (5) Tribunales en lo Criminal, dos (2) Tribunales de Familia, cinco (5) Tribunales de Menores y un (1) Registro Público de Comercio. El Ministerio Público estará integrado por: un (1) Fiscal de Cámaras Departamental, dos (2) Adjuntos de Fiscal de Cámaras Departamental, dieciséis (16) Agentes Fiscales, veinte (20) Adjuntos de Agente Fiscal, un (1) Defensor General Departamental, trece (13) Defensores Oficiales, ocho (8) de ellos con competencia exclusiva en lo Criminal y Correccional y cinco (5) para actuar en los Fueros Civil, Comercial y de Familia y doce (12) Adjuntos de Defensor Oficial, nueve (9) de ellos con competencia exclusiva en lo Criminal y Correccional y tres (3) para actuar en los Fueros Civil, Comercial y de Familia, tres (3) Asesores de Incapaces y un (1) Asesor de Incapaces exclusivo para Tribunales de Menores.
+
+
+
+En la ciudad de La Plata, tendrán su asiento las dos (2) Cámaras de Apelación en lo Civil y Comercial, una (1) Cámara de Apelación y Garantías en lo Penal, una (1) Cámara de Apelación en lo Contencioso Administrativo; veintitrés (23) Juzgados de Primera Instancia en lo Civil y Comercial, tres (3) Juzgados de Primera Instancia en lo Contencioso Administrativo, seis (6) Juzgados de Garantías, cinco (5) Juzgados en lo Correccional, dos (2) Juzgados de Ejecución, dos (2) Juzgados de Ejecución Tributaria, cinco (5) Tribunales en lo Criminal, dos (2) Tribunales de Familia, cinco (5) Tribunales de Menores y un (1) Registro Público de Comercio, el Ministerio Público estará integrado por: un (1) Fiscal de Cámaras Departamental, dos (2) Adjuntos de Fiscal de Cámaras Departamental, quince (15) Agentes Fiscales, diecinueve (19) Adjuntos de Agente Fiscal, un (1) Defensor General Departamental, trece (13) Defensores Oficiales, ocho (8) de ellos con competencia exclusiva en lo Criminal y Correccional y cinco para actuar en los Fueros Civil, Comercial y de Familia y doce (12) Adjuntos de Defensor Oficial, nueve (9) de ellos con competencia exclusiva en lo Criminal y Correccional y tres (3) para actuar en los Fueros Civil, Comercial y de Familia, tres (3) Asesores de Incapaces y un (1) Asesor de Incapaces exclusivo para Tribunales de Menores.
+
+
+
+En la ciudad de Saladillo tendrán su asiento: un (1) Agente Fiscal y un (1) Adjunto de Agente Fiscal.
+
+
+
+Rige lo dispuesto en la Ley 13.274 con relación a los miembros del Ministerio Público Fiscal y del Ministerio Público de la Defensa que la misma crea para este Departamento Judicial.
+
+
+
+ARTÍCULO 13: (Texto según Ley 14484) Departamento Judicial de Lomas de Zamora:
+
+
+
+a) Su asiento será en el partido de Lomas de Zamora y tendrá competencia territorial en los siguientes partidos: Almirante Brown, Esteban Echeverría, Ezeiza y Lomas de Zamora.
+
+
+
+b) Se compondrá de una (1) Cámara de Apelación en lo Civil y Comercial, una (1) Cámara de Apelación y Garantías en lo Penal, dieciséis (16) Juzgados de Primera Instancia en lo Civil y Comercial, dos (2) Juzgados de Primera Instancia en lo Contencioso Administrativo, ocho (8) Juzgados de Garantías, ocho (8) Juzgados en lo Correccional, tres (3) Juzgados de Ejecución, un (1) Juzgado de Ejecución Tributaria, diez (10) Tribunales en lo Criminal, doce (12) Juzgados de Familia, tres (3) Juzgados de Responsabilidad Penal Juvenil, tres (3) Juzgados de Garantías del Joven, seis (6) Tribunales de Trabajo con competencia territorial sobre los Partidos de Almirante Brown, Esteban Echeverría, Lomas de Zamora y Ezeiza y un (1) Registro Público de Comercio.
+
+
+
+El Ministerio Público estará integrado por: un (1) Fiscal de Cámara Departamental, dos (2) Adjuntos de Fiscal de Cámara Departamental, noventa y seis (96) Agentes Fiscales, ochenta y ocho (88) de ellos para actuar ante el fuero Criminal y Correccional y ocho (8) especializados en el Fuero de Responsabilidad Penal Juvenil, un (1) Defensor General Departamental, dos (2) Adjuntos de Defensor General, sesenta y tres (63) Defensores Oficiales, treinta y seis (36) de ellos con competencia exclusiva en lo Criminal y Correccional, ocho (8) para actuar en el Fuero de Responsabilidad Penal Juvenil y diecinueve (19) para actuar en los Fueros Civil, Comercial y de Familia, y cinco (5) Asesores de Incapaces.
+
+
+
+Rige lo dispuesto en la Ley Nº 13274 con relación a los miembros del Ministerio Público Fiscal y del Ministerio Público de la Defensa que la misma crea para este Departamento Judicial.
+
+
+
+Respecto del resto de los Órganos integrantes del Fuero de Responsabilidad Penal Juvenil, los otros cargos del Ministerio Público especializado del Fuero y la fecha de entrada en funcionamiento de los nuevos Órganos, rige la Ley 13634 y sus modificatorias.
+
+
+
+ARTÍCULO 14: (Texto según Ley 13411) Departamento Judicial Mar del Plata:
+
+
+
+a) Su asiento será en la ciudad de Mar del Plata y tendrá competencia territorial en los siguientes partidos: Balcarce, General Alvarado, General Pueyrredón y Mar Chiquita.
+
+
+
+b) (Texto según Ley 13479) Se compondrá: de una (1) Cámara de Apelación en lo Civil y Comercial, una (1) Cámara de Apelación y Garantías en lo Penal, una (1) Cámara de Apelación en lo Contencioso Administrativo, catorce (14) Juzgados de Primera Instancia en lo Civil y Comercial, dos (2) Juzgados de Primera Instancia en lo Contencioso Administrativo, seis (6) Juzgados de Garantías, cinco (5) Juzgados en lo Correccional, dos (2) Juzgados de Ejecución, un (1) Juzgado de Ejecución Tributaria, cuatro (4) Tribunales en lo Criminal, dos (2) Tribunales de Familia, tres (3) Tribunales de Menores y un (1) Registro Público de Comercio; el Ministerio Público estará integrado por: un (1) Fiscal de Cámaras Departamental, dos (2) Adjuntos de Fiscal de Cámaras Departamental, once (11) Agentes Fiscales, dieciséis (16) Adjuntos de Agente Fiscal; un (1) Defensor General Departamental, siete (7) Defensores Oficiales, cuatro (4) de ellos con competencia exclusiva en lo Criminal y Correccional y tres (3) para actuar en los Fueros Civil, Comercial y de Familia; siete (7) Adjuntos de Defensor Oficial, cuatro (4) de ellos con competencia exclusiva en lo Criminal y Correccional y tres (3) para actuar en los Fueros Civil, Comercial y de Familia, dos (2) Asesores de Incapaces y un (1) Asesor de Incapaces con actuación exclusiva ante los Tribunales de Menores.
+
+
+
+Rige lo dispuesto en la Ley 13.274 con relación a los miembros del Ministerio Público Fiscal que la misma crea en su artículo 5º y que la Procuración General de la Suprema Corte de Justicia dispuso para este Departamento Judicial.
+
+
+
+ARTÍCULO 15°: (Texto según Ley 13601) Departamento Judicial de Mercedes:
+
+
+
+a) (Texto según Ley 13859) Su asiento será en la ciudad de Mercedes y tendrá competencia territorial en los siguientes Partidos: Bragado, Veinticinco de Mayo, Carmen de Areco, Chivilcoy, Luján, Alberti, Navarro, Nueve de Julio, Salto, Mercedes, San Antonio de Areco, San Andrés de Giles y Suipacha.
+
+
+
+b) (Texto según Ley 13672) Se compondrá de una (1) Cámara de Apelación en lo Civil y Comercial, una (1) Cámara de Apelación y Garantías en lo Penal, diez (10) Juzgados de Primera Instancia en lo Civil y Comercial, un (1) Juzgado de Primera Instancia en lo Contencioso Administrativo, cuatro (4) Juzgados de Garantías, cinco (5) Juzgados en lo Correccional, cuatro (4) Tribunales en lo Criminal, dos (2) Juzgados de Ejecución Penal, un (1) Juzgado de Ejecuciones Tributarias, un (1) Tribunal de Familia, dos (2) Tribunales de Menores y un (1) Registro Público de Comercio.
+
+
+
+El Ministerio Público estará integrado por un (1) Fiscal de Cámaras Departamental, un (1) Adjunto de Fiscal de Cámaras Departamental, veinte (20) Agentes Fiscales, un (1) Defensor General Departamental, catorce (14) Defensores Oficiales para actuar ante el Fuero Criminal y Correccional, dos (2) Defensores Oficiales para actuar ante el Fuero Civil y Comercial y el Fuero de Familia y dos (2) Asesores de Incapaces.
+
+
+
+En la ciudad de Mercedes tendrán su asiento: una (1) Cámara de Apelación en lo Civil y Comercial una (1) Cámara de Apelación y Garantías en lo Penal, diez (10) Juzgados de Primera Instancia en lo Civil y Comercial, un (1) Juzgado de Primera Instancia en lo Contencioso Administrativo, cuatro (4) Juzgados de Garantías, cinco (5) Juzgados en lo Correccional, cuatro (4) Tribunales en lo Criminal, dos (2) Juzgados de Ejecución Penal, un (1) Juzgado de Ejecuciones Tributarias; un (1) Tribunal de Familia, dos (2) Tribunales de Menores y un (1) Registro Público de Comercio.
+
+
+
+El Ministerio Público estará integrado por un (1) Fiscal de Cámaras Departamental, un (1) Adjunto de Fiscal de Cámaras Departamental, dieciocho (18) Agentes Fiscales, un (1) Defensor General Departamental, catorce (14) Defensores Oficiales para actuar ante el Fuero Criminal y Correccional, dos (2) Defensores Oficiales para actuar ante el Fuero Civil y Comercial y el Fuero de Familia y dos (2) Asesores de Incapaces.
+
+
+
+En la ciudad de Luján tendrán su asiento: dos (2) Agentes Fiscales con competencia en el Partido de Luján.
+
+
+
+Rige lo dispuesto en la Ley Provincial 13.274 con relación a los miembros del Ministerio Público Fiscal y del Ministerio Público de la Defensa que la misma crea para este Departamento Judicial.
+
+
+
+ARTÍCULO 15 Bis.- (Texto según Ley 14864): (Artículo Incorporado por Ley N° 13601, modificado por Ley 14177) Departamento Judicial de Moreno-General Rodríguez.
+
+
+
+a) Su asiento será en la ciudad de Moreno, y tendrá competencia territorial en los Partidos de Moreno y General Rodríguez.
+
+
+
+b) Se compondrá de: Una (1) Cámara de Apelación Civil y Comercial, una (1) Cámara de Apelación y Garantías en lo Penal, cinco (5) Juzgados de Primera Instancia en lo Civil y Comercial, un (1) Juzgado de Primera Instancia en lo Contencioso Administrativo, tres (3) Juzgados de Garantías, cuatro (4) Juzgados en lo Correccional, un (1) Juzgado de Ejecución, Cuatro (4) Tribunales en lo Criminal, tres (3) Juzgados de Familia, Tres (3) Juzgados de Garantías del Joven, un (1) Juzgado de Responsabilidad Penal Juvenil y un (1) Registro Público de Comercio.
+
+
+
+El Ministerio Público estará integrado por: un (1) Fiscal de Cámaras Departamental, un (1) Adjunto de Fiscal de Cámaras Departamental, dieciocho (18) Agentes Fiscales, un (1) Defensor General Departamental, quince (15) Defensores Oficiales, once (11) de ellos con competencia exclusiva en los fueros Criminal y Correccional y cuatro (4) para actuar ante los fueros Civil, Comercial y de Familia y cuatro (4) Asesores de Incapaces.
+
+
+
+En la ciudad de Moreno tendrán su asiento: Una (1) Cámara de Apelación Civil y Comercial; una (1) Cámara de Apelación y Garantías en lo Penal; cuatro (4) Juzgados de Primera Instancia en lo Civil y Comercial, un (1) Juzgado de Primera Instancia en lo Contencioso Administrativo, dos (2) Juzgados de Garantías, tres (3) Juzgados en lo Correccional, un (1) Juzgado de Ejecución, tres (3) Tribunales en lo Criminal, dos (2) Juzgados de Familia, dos (2) Juzgados de Garantías del Joven, un (1) Juzgado de Responsabilidad Penal Juvenil y un (1) Registro Público de Comercio.
+
+
+
+El Ministerio Público: un (1) Fiscal de Cámaras Departamental, un (1) Adjunto de Fiscal de Cámaras Departamental, catorce (14) Agentes Fiscales, un (1) Defensor General Departamental, doce (12) Defensores Oficiales, nueve (9) de ellos con competencia exclusiva en los Fueros Criminal y Correccional y tres (3) para actuar ante los Fueros Civil, Comercial, y de Familia y tres (3) Asesores de Incapaces.
+
+
+
+En la ciudad de General Rodríguez tendrán su asiento: un (1) Juzgado de Primera Instancia en lo Civil y Comercial, un (1) Juzgado de Familia, un (1) Juzgado de Garantías, un (1) Juzgado en lo Correccional, un (1) Juzgado de Garantías del Joven y un (1) Tribunal en lo Criminal.
+
+
+
+El Ministerio Público: cuatro (4) Agentes Fiscales, tres (3) Defensores Oficiales, dos (2) con competencia exclusiva en los Fueros Criminal y Correccional y uno (1) para actuar ante los Fueros Civil, Comercial y de Familia y un (1) Asesor de Incapaces.
+
+
+
+Respecto del resto de los órganos integrantes del Fuero de la Responsabilidad Penal Juvenil, los cargos del Ministerio Público especializado del fuero, y la fecha de disolución y entrada en funcionamiento de los nuevos órganos, rige lo dispuesto por la Ley 13634.
+
+
+
+ARTÍCULO 15Ter.- (Artículo Incorporado por Ley 13859) Departamento Judicial Merlo:
+
+
+
+a) Su asiento será en la ciudad de Merlo y tendrá competencia territorial en los Partidos de General Las Heras, Marcos Paz y Merlo.
+
+
+
+b) (Inciso sustituido por Ley 14684) Se compondrá de una (1) Cámara de Apelación en lo Civil y Comercial, una (1) Cámara de Apelación y de Garantías en lo Penal, dos (2) Juzgados de Primera Instancia en lo Civil y Comercial, dos (2) Juzgados de Primera Instancia en lo Contencioso Administrativo, un (1) Juzgado de Ejecuciones Tributarias, tres (3) Juzgados de Familia, dos (2) Juzgados de Garantías del Joven, 2 (dos) Juzgados de Responsabilidad Penal Juvenil, dos (2) Juzgados de Garantías, dos (2) Juzgados en lo Correccional, un (1) Juzgado de Ejecución Penal, dos (2) Tribunales en lo Criminal y un (1) Registro Público de Comercio; el Ministerio Público estará integrado por: un (1) Fiscal de Cámaras Departamental, seis (6) Agentes Fiscales –dos (2) de ellos especializados en Responsabilidad Penal Juvenil-, un (1) Defensor General Departamental, ocho (8) Defensores Oficiales -de ellos, cuatro (4) para actuar ante el Fuero Criminal y Correccional, dos (2) para actuar ante los Fueros Civil y Comercial y de Familia y dos (2) especializados en Responsabilidad Penal Juvenil-, y dos (2) Asesores de Incapaces.
+
+
+
+c) En la ciudad de Marcos Paz tendrán su asiento: un (1) Juzgado de Garantías; el Ministerio Público estará integrado por un (1) Agente Fiscal y un (1) Defensor Oficial con competencia exclusiva en lo Criminal y Correccional. En la ciudad de General Las Heras tendrá su asiento: un (1) Agente Fiscal y un (1) Juzgado de Responsabilidad Penal Juvenil.
+
+
+
+ARTÍCULO 16: (Texto según Ley 12197) Departamento Judicial de Morón:
+
+
+
+a) (Texto según Ley 13859) Su asiento será en la ciudad de Morón y tendrá competencia territorial en los siguientes Partidos: Hurlingham, Ituzaingó y Morón.
+
+
+
+b) (Texto según Ley 13479) Se compondrá: de una (1) Cámara de Apelación en lo Civil y Comercial, una (1) Cámara de Apelación y Garantías en lo Penal, doce (12) Juzgados de Primera Instancia en lo Civil y Comercial, un (1) Juzgado de Primera Instancia en lo Contencioso Administrativo, seis (6) Juzgados de Garantías, cinco (5) Juzgados en lo Correccional, seis (6) Tribunales en lo Criminal, dos (2) Juzgados de Ejecución, un (1) Juzgado de Ejecución Tributaria, tres (3) Tribunales de Familia, cuatro (4) Tribunales de Menores y un (1) Registro Público de Comercio; el Ministerio Público estará integrado por: un (1) Fiscal de Cámara Departamental, dos (2) Adjuntos de Fiscal de Cámaras Departamental, veintiún (21) Agentes Fiscales, veintitrés (23) Adjuntos de Agente Fiscal, un (1) Defensor General Departamental, trece (13) Defensores Oficiales, nueve (9) de ellos con competencia exclusiva en lo Criminal y Correccional y cuatro (4) para actuar en los Fueros Civil, Comercial y de Familia, once (11) Adjuntos de Defensor Oficial, nueve (9) de ellos con competencia exclusiva en lo Criminal y Correccional y dos (2) para actuar en los Fueros Civil, Comercial y de Familia, dos (2) Asesores de Incapaces y un (1) Asesor de Incapaces exclusivo para Tribunales de Menores.
+
+
+
+Rige lo dispuesto en la Ley 13.274 con relación a los miembros del Ministerio Público Fiscal y del Ministerio Público de la Defensa que la misma crea para este Departamento Judicial.
+
+
+
+ARTÍCULO 17: (Texto según Ley 12060) Departamento Judicial de Necochea:
+
+
+
+a) Su asiento será en la ciudad de Necochea y tendrá competencia territorial en los siguientes partidos: Lobería, Necochea y San Cayetano.
+
+
+
+b) (Texto según Ley 13672) Se compondrá de una (1) Cámara de Apelación en lo Civil y Comercial, una (1) Cámara de Apelación y Garantías en lo Penal, dos (2) Juzgados de Primera Instancia en lo Civil y Comercial, un (1) Juzgado de Primera Instancia en lo Contencioso Administrativo, un (1) Juzgado de Ejecuciones Tributarias, dos (2) Juzgados de Garantías, un (1) Juzgado en lo Correccional, un (1) Tribunal en lo Criminal, un (1) Tribunal de Familia, un (1) Tribunal de Menores y un (1) Registro Público de Comercio.
+
+
+
+El Ministerio Público estará integrado por un (1) Fiscal de Cámaras Departamental, seis (6) Agentes Fiscales, un (1) Defensor General Departamental, dos (2) Defensores Oficiales para actuar ante el Fuero Criminal y Correccional, dos (2) Defensores Oficiales para actuar el Fuero Civil y Comercial y el Fuero de Familia y un (1) Asesor de Incapaces.
+
+
+
+ARTÍCULO 18: (Texto según Ley 12.060) Departamento Judicial de Pergamino:
+
+
+
+a) Su asiento será en la ciudad de Pergamino y tendrá competencia territorial en los siguientes partidos: Colón y Pergamino.
+
+
+
+b) (Texto según Ley 13672) Se compondrá de una (1) Cámara de Apelación en lo Civil y Comercial, una (1) Cámara de Apelación y de Garantías en lo Penal, tres (3) Juzgados de Primera Instancia en lo Civil y Comercial, un (1) Juzgado de Primera Instancia en lo Contencioso Administrativo, tres (3) Juzgados de Garantías, tres (3) Juzgados en lo Correccional, un (1) Juzgado de Ejecuciones Tributarias, un (1) Tribunal en lo Criminal, un (1) Tribunal de Familia, un (1) Tribunal de Menores y un (1) Registro Público de Comercio.
+
+
+
+El Ministerio Público estará integrado por un (1) Fiscal de Cámaras Departamental, diez (10) Agentes Fiscales, un (1) Defensor General Departamental, cuatro (4) Defensores Oficiales para actuar ante el Fuero Criminal y Correccional, dos (2) Defensores Oficiales para actuar ante el Fuero Civil y Comercial y el Fuero de Familia y un (1) Asesor de Incapaces.
+
+
+
+Rige lo dispuesto en la Ley Provincial 13.274 con relación a los miembros del Ministerio Público Fiscal que la misma crea en su artículo 5º y que la Procuración General de la Suprema Corte de Justicia dispuso para este Departamento Judicial.”
+
+
+
+ARTÍCULO 19: (Texto según Ley 13287) Departamento Judicial Quilmes:
+
+
+
+a) Su asiento será en la ciudad de Quilmes y tendrá competencia territorial en los siguientes partidos: Berazategui, Quilmes y Florencio Varela.
+
+
+
+b) (Texto según Ley 14627) Su asiento será en la ciudad de Quilmes y tendrá competencia territorial en los siguientes partidos: Berazategui, Quilmes y Florencio Varela.
+
+
+
+Se compondrá de una (1) Cámara de Apelación en lo Civil y Comercial, una (1) Cámara de Apelación y Garantías en lo Penal, diez (10) Juzgados de Primera Instancia en lo Civil y Comercial, un (1) Juzgado de Primera Instancia en lo Contencioso Administrativo, ocho (8) Juzgados de Garantías, siete (7) Juzgados en lo Correccional, dos (2) Juzgados de Ejecución, un (1) Juzgado de Ejecución Tributaria, siete (7) Tribunales en lo Criminal, seis (6) Juzgados de Familia, dos (2) Juzgados de Responsabilidad Penal Juvenil, cuatro (4) Juzgados de Garantías del Joven, y un (1) Registro Público de Comercio. El Ministerio Público estará integrado por un (1) Fiscal de Cámara Departamental, dos (2) Adjuntos de Fiscal de Cámara Departamental, cuarenta y cinco (45) Agentes Fiscales y seis (6) Fiscales para actuar ante el Fuero de la Responsabilidad Penal Juvenil; un (1) Defensor General Departamental; treinta y cinco (35) Defensores Oficiales, veintiuno (21) de ellos con competencia exclusiva en lo Criminal y Correccional, nueve (9) para actuar en los Fueros Civil, Comercial y de Familia y cinco (5) Defensores para actuar ante el Fuero de la Responsabilidad Penal Juvenil; cuatro (4) Asesores de Incapaces, dos (2) de ellos exclusivos para el Fuero de Menores.
+
+
+
+En la ciudad de Florencio Varela y con competencia territorial sobre el partido homónimo, tendrán su asiento: tres (3) Juzgados de Garantías, dos (2) Juzgados en lo Correccional, dos (2) Tribunales en lo Criminal, dos (2) Juzgados de Familia, un (1) Juzgado de Garantías del Joven.
+
+
+
+En la ciudad de Berazategui y con competencia territorial sobre el Partido homónimo tendrán su asiento dos (2) Juzgados de Garantías y un (1) Juzgado de Garantías del Joven.
+
+
+
+Rige lo dispuesto en la Ley N° 13.274 con relación a los miembros del Ministerio Público Fiscal y del Ministerio Público de la Defensa que la misma crea para este Departamento Judicial.
+
+
+
+
+
+
+ARTÍCULO 20: (Texto según Ley 14723) Departamento Judicial San Isidro:
+
+
+
+a) Su asiento será en la Ciudad de San Isidro y tendrá competencia territorial en los siguientes Partidos: Pilar, San Fernando, San Isidro, Tigre y Vicente López.
+
+
+
+b) Se compondrá de una (1) Cámara de Apelación en lo Civil y Comercial, una (1) Cámara de Apelación y Garantías en lo Penal, quince (15) Juzgados de Primera Instancia en lo Civil y Comercial, uno de ellos con sede en la Ciudad de Tigre, con asiento y competencia exclusiva sobre dicho Partido, dos (2) Juzgados de Primera Instancia en lo Contencioso Administrativo, uno de ellos con sede en la Ciudad de Tigre, con asiento y competencia exclusiva sobre dicho Partido, siete (7) Juzgados de Garantías, uno de ellos con sede en la Ciudad de Pilar, con competencia exclusiva sobre dicho Partido y uno de ellos con sede en la Ciudad de Tigre, con asiento y competencia exclusiva sobre dicho Partido, siete (7) Juzgados en lo Correccional, uno de ellos con sede en la Ciudad de Tigre, con asiento y competencia exclusiva sobre dicho Partido, ocho (8) Tribunales en lo Criminal, uno de ellos con sede en la Ciudad de Tigre, con asiento y competencia exclusiva sobre dicho Partido, dos (2) Juzgados de Ejecución Penal, un (1) Juzgado de Ejecución Tributaria, un (1) Juzgado de Familia, con sede en la Ciudad de Tigre, con asiento y competencia exclusiva sobre dicho Partido, dos (2) Tribunales de Familia, seis (6) Tribunales de Menores y un (1) Registro Público de Comercio. El Ministerio Público estará integrado por: un (1) Fiscal de Cámaras Departamental, dos (2) Adjuntos de Fiscal de Cámaras Departamental, cuarenta y ocho (48) Agentes Fiscales, un (1) Defensor General Departamental, veintidós (22) Defensores Oficiales para actuar ante el Fuero Criminal y Correccional, seis (6) Defensores Oficiales para actuar ante los Fueros Civil, Comercial y de Familia, dos (2) Asesores de Incapaces y un (1) Asesor de Incapaces exclusivo para Tribunales de Menores. Rige lo dispuesto en la Ley N° 13274 con relación a los miembros del Ministerio Público Fiscal y del Ministerio Público de la Defensa que la misma crea para este Departamento Judicial.
+
+
+
+ARTÍCULO 21: (Texto según Ley 13862) Departamento Judicial de San Nicolás de los Arroyos:
+
+
+
+a) Su asiento será en la ciudad de San Nicolás de los Arroyos y tendrá competencia territorial en los siguientes partidos: Baradero, Bartolomé Mitre, Capitán Sarmiento, Ramallo, San Nicolás de los Arroyos y San Pedro.
+
+
+
+b) Se compondrá de una (1) Cámara de Apelación en lo Civil y Comercial, una (1) Cámara de Apelación y Garantías en lo Penal, 1 (una) Cámara de Apelación en lo Contencioso Administrativo, seis (6) Juzgados de Primera Instancia en lo Civil y Comercial, un (1) Juzgado de Primera Instancia en lo Contencioso Administrativo, tres (3) Juzgados de Garantías, tres (3) Juzgados en lo Correccional, un (1) Juzgado de Ejecución, un (1) Juzgado de Ejecución Tributaria, un (1) Tribunal en lo Criminal, un (1) Tribunal de Familia, un (1) Tribunal de Menores y un (1) Registro Público de Comercio.
+
+
+
+El Ministerio Público estará integrado por un (1) Fiscal de Cámaras Departamental, siete (7) Agente Fiscales, cinco (5) Adjuntos de Agente Fiscal, un (1) Defensor General Departamental, cuatro (4) Defensores Oficiales dos (2) de ellos con competencia en lo Criminal y Correccional y dos (2) para actuar en los Fueros Civil, Comercial y de Familia, tres (3) Adjuntos de Defensor Oficial con competencia en lo Criminal y Correccional; dos (2) Adjuntos de Defensor Oficial para actuar en los Fueros Civil, Comercial y de Familia y un (1) Asesor de Incapaces. En la ciudad de San Pedro tendrá su asiento un (1) Agente Fiscal.
+
+
+
+Rige lo dispuesto en la Ley Nº 13274 con relación a los miembros del Ministerio Público Fiscal que la misma crea en su artículo 5º y que la Procuración General de la Suprema Corte de Justicia dispuso para este Departamento Judicial.
+
+
+
+ARTÍCULO 22: (Texto según Ley 13411) Departamento Judicial Trenque Lauquen:
+
+
+
+a) Su asiento será en la ciudad de Trenque Lauquen y tendrá competencia territorial en los siguientes partidos: Adolfo Alsina, Carlos Casares, Carlos Tejedor, Daireaux, General Villegas, Guaminí, Hipólito Yrigoyen, Pehuajó, Pellegrini, Rivadavia, Salliqueló, Trenque Lauquen y Tres Lomas.
+
+
+
+(Texto según Ley 13672) Se compondrá de una (1) Cámara de Apelación en lo Civil y Comercial, una (1) Cámara de Apelación y Garantías en lo Penal, dos (2) Juzgados de Primera Instancia en lo Civil y Comercial, un (1) Juzgado de Primera Instancia en lo Contencioso Administrativo, tres (3) Juzgados de Garantías, dos (2) Juzgados en lo Correccional, un (1) Juzgado de Ejecución Penal, un (1) Juzgado de Ejecuciones Tributarias, un (1) Tribunal en lo Criminal, un (1) Tribunal de Familia, un (1) Tribunal de Menores y un (1) Registro Público de Comercio.
+
+
+
+El Ministerio Público estará integrado por un (1) Fiscal de Cámaras Departamental, siete (7) Agentes Fiscales, un (1) Defensor General Departamental, cuatro (4) Defensores Oficiales para actuar ante el Fuero Criminal y Correccional, dos (2) Defensores Oficiales para actuar ante el Fuero Civil y Comercial y el Fuero de Familia y un (1) Asesor de Incapaces.
+
+
+
+En la ciudad de Trenque Lauquen tendrá sus asiento una (1) Cámara de Apelación en lo Civil y Comercial, una (1) Cámara de Apelación y Garantías en lo Penal, dos (2) Juzgados de Primera Instancia en lo Civil y Comercial, un (1) Juzgado de Primera Instancia en lo Contencioso Administrativo, tres (3) Juzgados de Garantías, dos (2) Juzgados en lo Correccional, un (1) Juzgado de Ejecución Penal, un (1) Juzgado de Ejecuciones Tributarias, un (1) Tribunal en lo Criminal, un (1) Tribunal de Familia, un (1) Tribunal de Menores y un (1) Registro Público de Comercio.
+
+
+
+El Ministerio Público estará integrado por un (1) Fiscal de Cámaras Departamental, seis (6) Agentes Fiscales, un (1) Defensor General Departamental, tres (3) Defensores Oficiales para actuar ante el Fuero Criminal y Correccional, dos (2) Defensores Oficiales para actuar ante el Fuero Civil y Comercial y el Fuero de Familia y un (1) Asesor de Incapaces.
+
+
+
+En la ciudad de Pehuajó tendrán su asiento, un (1) Agente Fiscal y un (1) Defensor Oficial con competencia en lo Criminal y Correccional.
+
+
+
+ARTÍCULO 23: (Texto según Ley 14189) Departamento Judicial Zárate - Campana:
+
+
+
+a) Su asiento será en la ciudad de Campana y tendrá competencia territorial en los siguientes partidos: Campana, Escobar, Exaltación de la Cruz y Zárate.
+
+
+
+b) (Texto según Ley 13.672) Se compondrá de una (1) Cámara de Apelación en lo Civil y Comercial, una (1) Cámara de Apelación y Garantías en lo Penal, cuatro (4) Juzgados de Primera Instancia en lo Civil y Comercial, dos (2) de ellos con asiento en la ciudad de Zárate, un (1) Juzgado de Primera Instancia en lo Contencioso Administrativo, tres (3) Juzgados de Garantías -uno de ellos con sede en la ciudad de Escobar, con competencia exclusiva sobre dicho Partido-, dos (2) Juzgados en lo Correccional, un (1) Juzgado de Ejecución Penal, un (1) Juzgado de Ejecuciones Tributarias, dos (2) Tribunales en lo Criminal, un (1) Tribunal de Familia, dos (2) Tribunales de Menores, uno de ellos con asiento en la ciudad de Zárate y un (1) Registro Público de Comercio.
+
+
+
+El Ministerio Público estará integrado por un (1) Fiscal de Cámaras Departamental, un (1) Adjunto de Fiscal de Cámaras Departamental, diecisiete (17) Agentes Fiscales, un (1) Defensor General Departamental, siete (7) Defensores Oficiales para actuar ante el Fuero Criminal y Correccional, y dos (2) Defensores Oficiales para actuar ante el Fuero Civil y Comercial y el Fuero de Familia. Los Defensores Oficiales desempeñarán también las funciones de Asesores de Incapaces.
+
+
+
+En la ciudad de Exaltación de la Cruz tendrán su asiento: un (1) Agente Fiscal y un (1) Defensor Oficial para actuar ante el fuero Criminal y Correccional.
+
+
+
+Rige lo dispuesto en la Ley Provincial 13.274 con relación a los miembros del Ministerio Público Fiscal y del Ministerio Público de la Defensa que la misma crea para este Departamento Judicial.
+
+
+
+ARTÍCULO 24: (Texto según Ley 14864) (Texto según Ley 14901) Los Tribunales de Trabajo tendrán asiento: Departamento Judicial de Avellaneda-Lanús: tres (3) en la Ciudad de Avellaneda y tres (3) en la Ciudad de Lanús. Departamento Judicial Azul: uno (1) en la Ciudad de Azul, uno (1) en la Ciudad de Olavarría y uno (1) en la Ciudad de Tandil. Departamento Judicial Bahía Blanca: dos (2) en la Ciudad de Bahía Blanca y uno (1) en la Ciudad de Tres Arroyos. Departamento Judicial Dolores: dos (2) en la Ciudad de Dolores, uno (1) en la Ciudad de Mar del Tuyú. Departamento Judicial Junín: uno (1) en la Ciudad de Junín y uno (1) en la Ciudad de Chacabuco. Departamento Judicial La Plata: cinco (5) en la Ciudad de La Plata. Departamento Judicial La Matanza: seis (6) en la Ciudad de San Justo. Departamento Judicial Lomas de Zamora: seis (6) en la Ciudad de Lomas de Zamora. Departamento Judicial Mar del Plata: seis (6) en la Ciudad de Mar del Plata. Departamento Judicial Mercedes: uno (1) en la Ciudad de Mercedes y uno (1) en la Ciudad de Bragado. Departamento Judicial Merlo: dos (2) en la Ciudad de Merlo. Departamento Judicial Moreno - General Rodríguez: uno (1) en la Ciudad de Moreno. Departamento Judicial Morón: cinco (5) en la Ciudad de Morón. Departamento Judicial Necochea: uno (1) en la Ciudad de Necochea. Departamento Judicial Pergamino: dos (2) en la Ciudad de Pergamino. Departamento Judicial Quilmes: cinco (5) en la Ciudad de Quilmes y uno (1) en la Ciudad de Florencio Varela. Departamento Judicial San Isidro: seis (6) en la ciudad de San Isidro y uno (1) en la Ciudad de Pilar. Departamento Judicial San Martín: cinco (5) en la ciudad de Gral. San Martín y tres (3) en la Ciudad de San Miguel. Departamento Judicial San Nicolás de los Arroyos: tres (3) en la Ciudad de San Nicolás de los Arroyos. Departamento Judicial Trenque Lauquen: uno (1) en la Ciudad de Trenque Lauquen. Departamento Judicial Zárate-Campana: dos (2) en la Ciudad de Campana, uno (1) en la Ciudad de Escobar y uno (1) en la Ciudad de Zárate (*).
+
+
+
+(*) Ver art. 96 de la Ley 15057, la cual tendrá vigencia a partir del primer día hábil del mes de febrero del año 2020.
+
+
+
+ARTÍCULO 25: (Texto según Decreto Ley 7896/72) Donde exista más de un Tribunal de Trabajo, el turno para la recepción de las causas será fijado anualmente por la Suprema Corte (*).
+
+
+
+(*) El presente artículo fue modificado por art. 95 de la Ley 15057 la cual tendrá vigencia a partir del primer día hábil del mes de febrero del año 2020.[2]
+
+
+
+ARTÍCULO 26: (Texto según Ley 14864) (Texto según Ley N° 14612) Los Tribunales de Trabajo ejercerán jurisdicción con la siguiente competencia territorial:
+
+
+
+1. Los de la ciudad de Avellaneda en el partido del mismo nombre.
+
+
+
+2. Los de la ciudad de Azul sobre los partidos de Azul, Benito Juárez, Las Flores, Rauch, General Alvear y Tapalqué.
+
+
+
+3. Los de la ciudad de Bahía Blanca sobre los partidos de Bahía Blanca, Coronel de Marina Leonardo Rosales, Coronel Dorrego, Coronel Pringles, Coronel Suárez, Monte Hermoso, Patagones, Puán, Saavedra, Tornquist y Villarino.
+
+
+
+4. El de la ciudad de Bragado sobre Los partidos de Alberti, Bragado, Nueve de Julio y Veinticinco de Mayo.
+
+
+
+5. Los de las ciudades de Campana, Escobar y Zárate sobre los partidos de Campana, Escobar, Exaltación de la Cruz y Zárate.
+
+
+
+5 bis. El de la ciudad de Chacabuco en el partido del mismo nombre.
+
+
+
+6. Los de la ciudad de Dolores sobre los partidos de Ayacucho, Castelli, Chascomús, Dolores, General Belgrano, General Guido, Maipú. Pila, Tordillo, Lezama, Pinamar, Villa Gessell y General Madariaga.
+
+
+
+7. Los de la ciudad de General San Martín sobre los partidos de General San Martín y Tres de Febrero.
+
+
+
+8. Los de la ciudad de San Miguel sobre los partidos de San Miguel, José C. Paz y Malvinas Argentinas.
+
+
+
+9. Los de la ciudad de Junín sobre los partidos de Florentino Ameghino, General Arenales, General Pinto, General Viamonte, Junín, Leandro N. Alem, Lincoln y Rojas.
+
+
+
+10. Los de la ciudad de La Plata sobre los partidos de Berisso, Cañuelas, Coronel Brandsen, Ensenada, General Paz, La Plata, Lobos, Magdalena, Punta Indio, Monte, Roque Pérez, Saladillo, San Vicente y Presidente Perón.
+
+
+
+11. Los de la ciudad de Lanús, sobre el partido del mismo nombre.
+
+
+
+12. Los de la ciudad de Lomas de Zamora sobre los partidos de Almirante Brown, Esteban Echeverría, Lomas de Zamora y Ezeiza.
+
+
+
+13. Los de la ciudad de Mar del Plata sobre los partidos de Balcarce, General Alvarado, General Pueyrredón y Mar Chiquita.
+
+
+
+14. El de la ciudad de Mar del Tuyú sobre los partidos de General Lavalle y Municipio de La Costa.
+
+
+
+15. El de la ciudad de Mercedes sobre los partidos de Mercedes, Carmen de Areco, Chivilcoy, Luján, Navarro, San Andrés de Giles, Suipacha, Salto y San Antonio de Areco.
+
+
+
+16. Los de la ciudad de Merlo sobre los partidos de Merlo, General Las Heras y Marcos Paz.
+
+
+
+17. Los de la ciudad de Moreno sobre los partidos de Moreno y General Rodríguez.
+
+
+
+18. Los de la ciudad de Morón sobre los partidos de Hurlingham, Ituzaingó y Morón.
+
+
+
+19. El de la ciudad de Necochea sobre los partidos de Lobería, Necochea y San Cayetano.
+
+
+
+20. El de la ciudad de Olavarría sobre los partidos de Bolívar, General La Madrid, Laprida y Olavarría.
+
+
+
+21. Los de la ciudad de Pergamino sobre los partidos de Colón y Pergamino.
+
+
+
+22. El de la ciudad del Pilar sobre el partido del Pilar.
+
+
+
+23. Los de la ciudad de Quilmes sobre los partidos de Berazategui, Florencio Varela y Quilmes.
+
+
+
+24. Los de la ciudad de San Isidro sobre los partidos de San Fernando, San Isidro, Vicente López y Tigre.
+
+
+
+25. Los de la ciudad de San Justo sobre el partido de la Matanza.
+
+
+
+26. Los de la ciudad de San Nicolás de los Arroyos sobre los partidos de Arrecifes, Baradero, Capitán Sarmiento, Ramallo, San Nicolás de los Arroyos y San Pedro.
+
+
+
+27. El de la ciudad de Tandil sobre el partido del mismo nombre.
+
+
+
+28. El de la ciudad de Trenque Lauquen sobre los partidos de Adolfo AIsina. Carlos Casares, Carlos Tejedor, Daireaux, General Villegas, Guamini, Hipólito Yrigoyen, Pehuajó, Pellegrini, Rivadavia, Salliquelló, Trenque Lauquen y Tres Lomas.
+
+
+
+29. El de la ciudad de Tres Arroyos sobre los partidos de Adolfo Gonzales Chaves y Tres Arroyos (*).
+
+
+
+(*) Ver art. 96 de la Ley 15057, la cual tendrá vigencia a partir del primer día hábil del mes de febrero del año 2020.
+
+
+
+TÍTULO II
+
+
+
+ÓRGANOS DE LA ADMINISTRACIÓN DE JUSTICIA
+
+
+
+CAPÍTULO I
+
+
+
+SUPREMA CORTE DE JUSTICIA. COMPOSICIÓN
+
+
+
+ARTÍCULO 27: (Texto según Ley 14442) La Suprema Corte de Justicia se compondrá de siete (7) miembros y tendrá jurisdicción en todo el territorio de la Provincia. Ante ella actuarán el Procurador General, el Subprocurador General, el Defensor General y el Subdefensor General de la Provincia, así como los demás integrantes del Ministerio Público legitimados para ello, cuando así correspondiere con arreglo a la legislación vigente
+
+
+
+ARTÍCULO 28: Conforme a lo establecido en el artículo (*) 127° de la Constitución de la Provincia, la Presidencia de la Suprema Corte de Justicia se ejercerá por los Jueces del Tribunal por el Término de un (1) año a contar desde la fecha en que respectivamente sean designados. (*) corresponde al actual artículo 162° de la Constitución Provincial.
+
+
+
+ARTÍCULO 29: En caso de ausencia o impedimento accidental del Presidente, lo reemplazará el Vicepresidente, que será designado en la misma fecha y por el mismo término que aquél.
+
+
+
+CAPÍTULO II
+
+
+
+COMPETENCIA, INTEGRACIÓN, FUNCIONAMIENTO
+
+
+
+ARTÍCULO 30: (Texto según Ley 13662) Las sentencias y las resoluciones interlocutorias del Tribunal se pronunciarán siempre por un número de votos concordantes que representen la mayoría de los siete (7) jueces que lo integran.
+
+
+
+Los restantes actos, al igual que los acuerdos y resoluciones de superintendencia previstos en la reglamentación que al efecto aprobare el Tribunal, podrán ser adoptados por el voto concordante de un número inferior de jueces o por la mayoría de los miembros de las Salas en que aquél fuere dividido, sin perjuicio de las atribuciones previstas en el artículo 62° de la presente Ley.
+
+
+
+ARTÍCULO 31: (Texto según Ley 13101) En los demás casos en que deba integrarse la Suprema Corte de Justicia, por vacancia, licencia, recusación, excusación u otro impedimento de alguno de sus miembros, se seguirá el siguiente orden: Presidente del Tribunal de Casación Penal, vocales del Tribunal de Casación Penal, presidentes de las Cámaras de Apelación en lo Civil y Comercial del Departamento Judicial de La Plata, vocales de las Cámaras de Apelación en lo Civil y Comercial, presidente de la Cámara de Apelación en lo Contencioso Administrativo del Departamento Judicial de La Plata, vocales de la Cámara de Apelación en lo Contencioso Administrativo, y de Garantías en lo Penal en orden de turno; por los Jueces en lo Contencioso Administrativos, de Primera Instancia en lo Civil y Comercial, en lo Correccional y de los Tribunales en lo Criminal que reúnan las condiciones necesarias para ser vocal de la Suprema Corte; por abogados de la matrícula sorteados de las listas de conjueces.
+
+
+
+
+
+
+ARTÍCULO 31 BIS.- (Texto Incorporado por Ley 12961 y modificado por Ley 13812) En cualquier estado de su tramitación, si la Suprema Corte de Justicia considerare que los recursos extraordinarios de nulidad, de inconstitucionalidad o de inaplicabilidad de ley o doctrina legal, no reúnen los requisitos esenciales, que han sido insuficientemente fundados, que plantean agravios desestimados por el mismo tribunal en otros casos análogos, o que la cuestión que someten a su conocimiento es insustancial o carece de trascendencia, podrá rechazarlos con la sola invocación de la presente norma y la referencia a cualquiera de las circunstancias precedentemente expuestas.
+
+
+
+En el caso de queja o recurso de hecho por denegación de cualquiera de los referidos recursos extraordinarios, la Suprema Corte de Justicia podrá rechazarlos con acuerdo a lo dispuesto en el apartado anterior.
+
+
+
+La Suprema Corte de Justicia podrá hacer lugar a los recursos extraordinarios de nulidad, de inconstitucionalidad o de inaplicabilidad de ley o doctrina legal, cuando hubiese estimado otros recursos en casos sustancialmente análogos. En tal supuesto se considerará suficiente fundamento la referencia a los precedentes aplicados y la cita del presente texto legal.
+
+
+
+Con carácter excepcional, la Suprema Corte de Justicia podrá dar trámite a los recursos de inaplicabilidad de ley que no superasen las limitaciones legales fijadas en razón del valor del litigio o la cuantía de la pena, si según su sana discreción mediare gravedad institucional o un notorio interés público, o bien si considerare indispensable establecer doctrina legal, siempre que se tratare de dirimir cuestiones jurídicas relativas al derecho de fondo aplicable y el recurrente hubiese formulado adecuado planteo en tal sentido.
+
+
+
+ARTÍCULO 31 TER: (Texto incorporado por Ley 13795) La Suprema Corte de Justicia, en coordinación con el Ministerio de Justicia, formulará el plan de infraestructura judicial. El plan contendrá la programación de las obras de construcción o ampliación de edificios o complejos edilicios para el Poder Judicial, así como la adquisición o expropiación de inmuebles, teniendo en cuenta para su elaboración las necesidades edilicias existentes, de mediano y largo plazo, la innovación tecnológica, los estándares de higiene y seguridad del trabajo y las distintas variables urbanísticas correspondientes a localización de los edificios o complejos edilicios. Una vez formulado el plan deberá ser comunicado al Poder Ejecutivo y a la Legislatura a fin de su aprobación y de acordar lo necesario para proveer a su financiamiento.
+
+
+
+ARTÍCULO 31 QUÁTER: (Texto incorporado por Ley 13795) Se declaran de utilidad pública a los fines de disponer su expropiación todos los bienes inmuebles que sean indispensables para emplazar edificios o complejos edilicios del Poder Judicial y que encuadren en las previsiones del plan de infraestructura aprobado según el artículo 31 ter de la presente.
+
+
+
+En los casos comprendidos en la declaración genérica de utilidad pública a que se refiere el párrafo anterior, la Suprema Corte de Justicia queda facultada para individualizar los inmuebles correspondientes y celebrar acuerdos directos con los propietarios. Si esas tratativas fracasaren y se deba promover el pertinente juicio de expropiación, se dará intervención a Fiscalía de Estado.
+
+
+
+CAPÍTULO III
+
+
+
+ATRIBUCIONES
+
+
+
+ARTÍCULO 32: Sin perjuicio de lo dispuesto en la Constitución de la Provincia, son atribuciones de la Suprema Corte de Justicia las siguientes:
+
+
+
+a) Representar al Poder Judicial.
+
+
+
+b) Nombrar y remover todos los funcionarios y empleados auxiliares de la administración de Justicia a que se refiere el artículo (*) 126°, inciso 5 de la Constitución: disponer sus traslados, como así también el de las oficinas del Poder Judicial.
+
+
+
+(*) Corresponde al actual art. 161°, inciso 4) de la Constitución provincial.
+
+
+
+c) Disponer la inspección, por intermedio de su Presidente o miembros que designe, de las Cámaras de Apelación, Tribunales y Juzgados de cualquier clase, Registros Públicos, Archivos y demás oficinas dependientes del Poder Judicial.
+
+
+
+d) Observar la conducta de los Magistrados y funcionarios de la administración de justicia.
+
+
+
+e) Fijar el horario de las Oficinas del Poder Judicial.
+
+
+
+f) Conceder licencias a los Magistrados y a los funcionarios y empleados a que se refiere en inciso b).
+
+
+
+g) Recibir juramento de Magistrados y funcionarios.
+
+
+
+h) (Texto según Ley 6928) Determinar la forma de reemplazo en caso de licencia, ausencia, fallecimiento, renuncia, cesantía u otro impedimento de Magistrados, funcionarios y empleados, hasta tanto se nombre titular.
+
+
+
+i) Llamar a cualquier Magistrado o funcionario de la Justicia a fin de prevenirle por faltas u omisiones en el desempeño de sus funciones.
+
+
+
+j) Determinar la feria judicial y disponer asuetos judiciales cuando un acontecimiento extraordinario así lo exija.
+
+
+
+k) Formular las listas de profesionales auxiliares de la justicia, para nombramientos de oficio, estableciendo los requisitos que estos deben reunir para integrar dichas listas cuando leyes especiales no lo establezcan.
+
+
+
+l) Establecer en todos los Departamentos Judiciales, los turnos judiciales y distribuir las causas en los Juzgados, organizando al efecto Receptorías de Expedientes nuevos, las que estarán dotadas de un Jefe y Segundo Jefe, quiénes deberán reunir las mismas condiciones que para ser Secretario de Primera Instancia, y demás personal necesario.
+
+
+
+Asimismo podrá, también, redistribuir las causas que tramitan ante los juzgados y demás Tribunales cuando medien razones de necesidad que impongan una mejor administración de justicia y, en especial en los casos de creación de nuevos órganos judiciales o se modifique la jurisdicción territorial de los mismos. (Párrafo incorporado por Ley 11640)
+
+
+
+ll) Organizar asimismo en todos los Departamentos Judiciales Oficinas de Notificaciones y Mandamientos.
+
+
+
+m) Suspender los términos judiciales cuando circunstancias especiales así lo requieran.
+
+
+
+n) Formar listas de abogados que reúnan las condiciones para ser miembro de la Suprema Corte y de las Cámaras de Apelación, a los fines de la integración de dichos Tribunales.
+
+
+
+o) Llevar un registro en el que se anoten las medidas disciplinarias adoptadas contra Magistrados, funcionarios y empleados del Poder Judicial.
+
+
+
+p) Enviar anualmente al Poder Ejecutivo el proyecto de Presupuesto y la memoria del movimiento general de los Tribunales y reparticiones bajo su superintendencia.
+
+
+
+q) Proponer al Poder Ejecutivo las reformas de procedimiento a que se refiere el artículo (*) 127° de la Constitución.
+
+
+
+(*) Corresponde al artículo 165° de la Constitución de la Provincia
+
+
+
+r) Formar las listas de los diarios de la Provincia y de cada localidad dentro de los cuales podrá disponerse la publicación de edictos y anuncios judiciales, exigiendo el cumplimiento de los requisitos establecidos en las leyes nacionales y provinciales que legislen al respecto.
+
+
+
+s) Dictar las reglamentaciones conducentes al debido ejercicio de las funciones que le acuerden las leyes, así como también su reglamento interno.
+
+
+
+t) Establecer por vía reglamentaria las condiciones y cualidades que deberán reunir los interesados para desempeñar los cargos de Secretario y demás cargos auxiliares del Poder Judicial.
+
+
+
+u) (Inciso Incorporado por Ley 13629) Del Control de Gestión: Realizar la evaluación de gestión de cada uno de los órganos jurisdiccionales del Poder judicial, en cuanto a la calidad, eficiencia y eficacia de la misma, determinando reglamentariamente estándares, considerando los indicadores que se determinan en la presente, las particularidades de cada órgano y de los procesos en los que entienden.
+
+
+
+Indicadores de Gestión: Para efectuar esta tarea, la Suprema Corte de Justicia deberá considerar respecto de cada órgano los siguientes indicadores de gestión:
+
+
+
+a) La duración total de los procesos y de cada una de las etapas de los mismos.
+
+
+
+b) El cumplimiento de los plazos establecidos para el dictado de resoluciones.
+
+
+
+c) La carga de trabajo; la congestión y los asuntos pendientes.
+
+
+
+d) La asistencia al lugar de trabajo del magistrado a cargo.
+
+
+
+e) Funcionarios y personal con que cuenta el órgano y asistencia al lugar de trabajo.
+
+
+
+f) Todo otro indicador que reglamentariamente se establezca.
+
+
+
+La Evaluación de Gestión será realizada en base a informes relacionados con las tareas e inspecciones que la Suprema Corte de Justicia lleve a cabo a través de la dependencia respectiva.
+
+
+
+v) (Inciso Incorporado por Ley 13629) Informe de Gestión: La Suprema Corte de Justicia remitirá a cada órgano judicial el Informe de Gestión respectivo, que contendrá los resultados de la evaluación de su gestión y la comparación de los mismos con el resultado promedio de los órganos equivalentes del Departamento Judicial.
+
+
+
+Si el resultado del informe de evaluación fuera insatisfactorio, la Suprema Corte de Justicia, previo descargo del interesado, podrá intimarlo a que proponga una mejoría razonable de su gestión, la que será evaluada en el período siguiente. En caso de mantener un desempeño deficiente, y si correspondiere, podrá aplicar las sanciones disciplinarias previstas por la reglamentación.
+
+
+
+La Suprema Corte de Justicia llevará un registro especial de los resultados de los informes y de las resoluciones que se dicten en relación al proceso de evaluación.
+
+
+
+w) (Inciso Incorporado por Ley 13629) Publicidad de los Indicadores de Gestión y del Informe de Gestión: El resultado definitivo de los Indicadores de Gestión y del Informe de Gestión de cada órgano serán de carácter público y de libre acceso vía Internet en la página de la Suprema Corte de Justicia e integran la Memoria Anual que dispone el artículo 165 de la Constitución de la Provincia.
+
+
+
+x) (Inciso Incorporado por Ley 13629) Publicar la Memoria Anual del estado de la administración de justicia conforme los medios que establezca la reglamentación.
+
+
+
+y) (Inciso Agregado por Ley 13837) Desinsacular por acto público un integrante del Cuerpo de Magistrados Suplentes para cubrir vacantes transitorias.
+
+
+
+z) (Inciso Agregado por Ley 14372) Facúltase a la Suprema Corte de Justicia para que en función de los datos estadísticos y las necesidades de cada jurisdicción, asigne en cada Departamento Judicial, entre los Juzgados ya existentes o a crearse del Fuero de Familia, la competencia exclusiva en las materias comprendidas en los incisos “n”, “o”, “t”, “u” y “v”, del artículo 827 del C.P.C.C. a alguno/s de ellos.
+
+
+
+Dichos órganos serán competentes en todas las causas nuevas que se inicien con posterioridad a la asignación de su competencia específica. La Suprema Corte por vía de reglamentación podrá disponer la atracción de los antecedentes.
+
+
+
+CAPÍTULO III BIS
+
+
+
+TRIBUNAL DE CASACIÓN PENAL (*)
+
+
+
+(*) Incorporado por Ley 12060
+
+
+
+ARTÍCULO 32 bis: (Texto incorporado por la Ley 12060) El Tribunal de Casación Penal se regirá en cuanto a su composición, competencia y funcionamiento por las disposiciones de la ley de su creación número 11.982.
+
+
+
+CAPÍTULO IV
+
+
+
+CÁMARAS DE APELACIÓN Y CÁMARAS DE APELACIÓN Y
+
+
+
+GARANTÍAS EN LO PENAL.
+
+
+
+COMPOSICIÓN. COMPETENCIA. INTEGRACIÓN.
+
+
+
+FUNCIONAMIENTO. (*)
+
+
+
+(*) Denominación según Ley 12060
+
+
+
+ARTÍCULO 33: (Texto según Ley 15483) Las Cámaras de Apelación y las de Apelación y Garantías estarán integradas por el siguiente número de miembros:
+
+
+
+a. Las del Departamento Judicial de La Plata, en lo Civil y Comercial, por siete (7) miembros divididas en tres (3) Salas designadas numéricamente y compuestas de dos (2) miembros cada una, con un Presidente común a todas éstas y la de Apelación y Garantías en lo Penal por trece (13) miembros, dividida en cuatro (4) Salas designadas numéricamente y compuestas de tres (3) miembros cada una, con un Presidente común a todas ellas.
+
+
+
+El Presidente de la Cámara de Apelación y Garantías en lo Penal reemplazará a los Presidentes de las Salas en caso de recusación y excusación, vacancia u otra circunstancia legal que determine ausencia. Los demás miembros serán reemplazados por aquel integrante de una de las Salas que el Presidente de la Cámara determine por sorteo público.
+
+
+
+b. Las de los Departamentos Judiciales de General San Martín, Lomas de Zamora, Mar del Plata, Mercedes, Morón y San Isidro, en lo Civil y Comercial, por siete (7) miembros, divididos en tres (3) Salas designadas numéricamente y compuestas de dos (2) miembros de cada una, con un Presidente común a todas éstas; y las de Apelación y Garantías en lo Penal, por nueve (9) miembros divididos en tres (3) Salas designadas numéricamente y compuestas de tres (3) miembros cada una.
+
+
+
+c. Las de los Departamentos Judiciales de Azul, Bahía Blanca, La Matanza y Quilmes por seis (6) miembros divididos en dos (2) Salas, designadas numéricamente y compuestas de tres (3) miembros cada una.
+
+
+
+d. Las de los restantes Departamentos Judiciales por tres (3) miembros. La Presidencia de las Cámaras de Apelación de los Departamentos Judiciales señalados en los incisos b), c) y d), será desempeñada anualmente y en forma rotativa por cada uno de los miembros que la integran.
+
+
+
+La Presidencia de las Cámaras de Apelación y Garantías de los Departamentos Judiciales señalados en los incisos b) y c), será común a las Salas en que éstas se hallan divididas.
+
+
+
+En caso de vacancia, ausencia o impedimento del Presidente lo reemplazará el Vicepresidente, el que será designado en la misma oportunidad que aquél y por igual término.
+
+
+
+ARTÍCULO 34: (Texto según Ley 11068) Las Cámaras de Apelación de los Departamentos Judiciales de Azul, Bahía Blanca, General San Martín, Lomas de Zamora, Mar del Plata, Mercedes, Morón y San Isidro, en la oportunidad de la designación de autoridades, también constituirán sus Salas para el siguiente período anual.
+
+
+
+Cada Sala designará su Presidente, con excepción de la que corresponda al Presidente del Tribunal quien también ejercerá ese cargo en la Sala que integre.
+
+
+
+Si no hubiese acuerdo entre Jueces de Salas para la designación de su Presidente, la Cámara efectuará la elección por mayoría de votos.
+
+
+
+ARTÍCULO 35: (Texto según Ley 11884) En las Cámaras de Apelación en lo Civil y Comercial del departamento Judicial de La Plata y en las en lo Civil y Comercial mencionadas en el artículo 33° inciso b), los fallos y resoluciones que competen a cada Sala serán pronunciados por los dos (2) miembros permanentes de la misma, debiendo ser integrada por el Presidente en los casos de disidencia y cuando se dé el supuesto del artículo 36°.
+
+
+
+ARTÍCULO 36: (Texto según Decreto-Ley 8835/77) La desintegración de una Sala, por cualquier causa será cubierta por el Presidente de la Cámara. En tal caso si se produjera disidencia que impida el pronunciamiento la Sala se integrará además con otro juez del tribunal designado por sorteo.
+
+
+
+ARTÍCULO 37: Cuando un mismo caso Judicial haya sido objeto de resoluciones divergentes por parte de distintas Cámaras o de distintas Salas de una misma Cámara de un Departamento Judicial, al presentarse posteriormente uno similar, será resuelto por las Cámaras del mismo fuero o la Cámara en pleno respectivamente, de acuerdo con las siguientes reglas:
+
+
+
+a) El plenario de Cámaras puede ser convocado por la mayoría de los miembros de la Cámara que conoce en el caso.
+
+
+
+b) (Texto según Ley 12060) El plenario de Cámaras en lo Civil y Comercial, podrá ser convocado de oficio por la Sala que interviene en el asunto que lo motiva o a petición de parte: en la Cámara de Apelación y Garantías en lo Penal, deberá solicitar la reunión plenaria de Tribunal, de oficio la Sala que le toque intervenir, pudiendo hacerlo además el acusado, su defensor y el Ministerio Público.
+
+
+
+Ello, sin perjuicio de lo dispuesto en el artículo 467° inc. 8) del Código Procesal Penal.
+
+
+
+c) La revisión de fallos plenarios anteriores podrá hacerse cuando lo provoquen por votación los dos tercios de la totalidad de los Camaristas.
+
+
+
+d) La Presidencia del plenario de Cámaras será ejercida por el Presidente de la Cámara que lo origina y las diligencias procesales se cumplirán ante la Cámara, o en su caso, ante la Sala que conozca en el asunto.
+
+
+
+e) (Texto según Decreto-Ley 9668/81) Cuando se trate de Cámaras de seis (6) miembros dividida en dos (2) Salas de tres (3) miembros cada una y el resultado de la votación impidiera el pronunciamiento plenario, el tribunal se integrará con el Presidente de la restante Cámara del mismo Departamento Judicial.
+
+
+
+f) (Texto según Decreto-Ley 9668/81) Sin perjuicio de las disposiciones que sobre el recurso de inaplicabilidad de ley contiene la Constitución, la interpretación de las normas legales será obligatoria para las Salas de la misma Cámara y Jueces del Departamento Judicial.
+
+
+
+ARTÍCULO 38: (Texto según Ley 13634) Las Cámaras de Apelación en lo Civil y Comercial, serán Tribunal de Alzada de los fallos y demás providencias recurribles dictados por los Jueces de Primera Instancia en lo Civil y Comercial y de Familia de su respectivo Departamento.
+
+
+
+Las Cámaras de Apelación Primera y Segunda del Departamento Judicial de La Plata, serán Tribunal de Alzada de los fallos y demás providencias recurribles dictados por los jueces de Primera Instancia en lo Civil y Comercial y de Familia de su Departamento. El turno para el conocimiento de dichas causas en grado de apelación quedará fijado por la fecha del fallo recurrido; la Cámara que en dicha fecha se encuentre en turno, será competente para conocer el recurso. La prevención con arreglo a estas normas, será definitiva para el conocimiento de recursos posteriores.
+
+
+
+Las Cámaras de Apelación y Garantías en lo Penal serán Tribunal de Alzada de los fallos y demás providencias recurribles dictadas por los Jueces o Tribunales de la Responsabilidad Penal Juvenil, Jueces de Garantías, Jueces de Garantías del Joven, de Ejecución en lo Penal y –en su caso- del Tribunal en lo Criminal, del respectivo departamento, sin perjuicio de la competencia a que se refiere el artículo 21° de la Ley 11.922.
+
+
+
+ARTÍCULO 39: En los casos en que deba integrarse el Tribunal por vacancia, recusación, excusación, impedimento o licencia, se practicará sorteo entre los que componen las demás Cámaras de Apelación del mismo fuero y departamento.
+
+
+
+Cuando se trate de la única Cámara Departamental, se hará en el orden siguiente: Jueces de Primera Instancia, Agentes Fiscales y Asesores de Incapaces.
+
+
+
+ARTÍCULO 40: En los casos en que proceda la integración de las Cámaras de Apelación con lo Jueces de Primera Instancia y en el departamento respectivo hubiera dos o más habilitados para ello, la integración se hará por sorteo, sea cual fuere la naturaleza del juicio.
+
+
+
+ARTÍCULO 41: Los asuntos sometidos a la competencia del Tribunal, serán distribuidos proporcionalmente por sorteo semanal, entre las Salas o sometidos a la consideración y juzgamiento de la Cámara en pleno si así correspondiera, notificándose a las partes su resolución. Dentro de la Sala los asuntos se distribuirán, asimismo por sorteo.
+
+
+
+ARTÍCULO 42: Cada Sala funcionará con un Secretario y estos se reemplazarán entre sí, de acuerdo con lo que resuelva el Presidente, en caso de licencia o impedimento de alguno de ellos.
+
+
+
+ARTÍCULO 43: Las Cámaras de Apelación deberán celebrar acuerdos los días que el Tribunal o en su defecto la Sala designe, que no podrán ser menos de dos por semana, pudiendo además el Presidente fijar otros en caso de urgencia.
+
+
+
+ARTÍCULO 44: Los Secretarios de las Salas de las Cámaras de Apelación según corresponda, deberán labrar acta de cada sesión que celebre el Tribunal, en la que consignarán la fecha en que esta tiene lugar, la hora de apertura y clausura de las mismas y una síntesis de los asuntos entrados al despacho del Tribunal, la que podrá ser examinada por las partes, sus apoderados y/o sus letrados patrocinantes.
+
+
+
+ARTÍCULO 45: El acta a que se refiere el artículo anterior será labrada en un libro que al efecto deberá abrir cada Secretario de Cámara. Toda vez que la Cámara no se reúna en los días señalados, lo hará constar en el libro.
+
+
+
+ARTÍCULO 46: Toda causa para sentencia definitiva o interlocutoria deberá ser traída al acuerdo dentro del término que la ley fija para su resolución. Si por exceso de trabajo eso no fuera posible, la Cámara elevará una nómina de los expedientes demorados a la Suprema Corte de Justicia para que ésta fije el término dentro del cual han de traerse al acuerdo y resolverse dichas causas.
+
+
+
+ARTÍCULO 47: Si en las Cámaras Departamentales del interior alguno de los Jueces no concurriese al acuerdo, cualquiera que fuere la causa de su inasistencia, los otros dos miembros del tribunal procederán a resolver las cuestiones traídas al acuerdo, siempre que hubiere conformidad de opiniones. En los casos en que existiera desacuerdo se diferirá su solución para el próximo acuerdo y si a éste tampoco concurriera el Juez que faltó al anterior, se procederá a reemplazarlo de oficio y sin más trámite en la forma determinada en esta ley para los casos de impedimento, quedando desde ese momento definitivamente constituido el Tribunal con el Juez integrante.
+
+
+
+ARTÍCULO 48: Lo prescripto en el artículo anterior es aplicable en los casos en que el Tribunal se encuentre desintegrado por excusación, recusación, licencia, renuncia, suspensión, destitución o fallecimiento de alguno de sus miembros; en tales casos una vez que se produzca el desacuerdo, deberá procederse de oficio a la inmediata integración del Tribunal, la que quedará subsistente hasta el pronunciamiento del fallo. En los casos de juicio oral, se regirán por lo que dispone el artículo 271° del Código de Procedimiento Penal.
+
+
+
+ARTÍCULO 49: Las Cámaras dictarán las disposiciones reglamentarias que han de regir su funcionamiento interno y designarán sus Secretarios y empleados.
+
+
+
+CAPÍTULO V
+
+
+
+JUZGADOS DE PRIMERA INSTANCIA
+
+
+
+COMPETENCIA POR MATERIA
+
+
+
+ARTÍCULO 50: (Texto según Ley 13634) Los Juzgados de Primera Instancia en lo Civil y Comercial ejercerán su jurisdicción en todas las causas de las materias Civil, comercial y rural de orden voluntario o contradictorio, con excepción de la que corresponde a los Juzgados de Familia y Juzgados de Paz.
+
+
+
+ARTÍCULO 51: (Texto según Ley 12060) Las Cámaras de Apelación con competencia Civil y Comercial serán Tribunales de Alzada respecto de las causas que se ventilen en los Juzgados de Paz Letrados, con excepción de la materia de faltas, en que lo serán las Cámaras de Apelación y Garantías en lo Penal. La prevención con arreglo a las normas reglamentarias correspondientes será definitiva para el conocimiento de los recursos posteriores.
+
+
+
+ARTÍCULO 52: (Texto según Ley 13634) Los Juzgados de Garantías y Garantías del joven, ejercerán la competencia que les asigna el artículo 23° de la Ley 11.922, respecto de la etapa penal preparatoria en todas las causas correccionales y criminales en que se investiguen delitos cometidos en el territorio de la Provincia de Buenos Aires.
+
+
+
+ARTÍCULO 52 bis: (Texto Incorporado por la Ley 12060) Los Juzgados en lo Correccional ejercerán la competencia que les asigna el artículo 24° de la Ley 11.922, respecto de la etapa de juicio, que se determinará por sorteo público que deberá realizar la Presidencia de la Cámara de Apelación y Garantías en lo Penal del Departamento Judicial de que se trate, para lo cual deberá fijarse día y hora.
+
+
+
+ARTÍCULO 52 ter: (Texto Incorporado por la Ley 12060) Los Tribunales en lo Criminal ejercerán la competencia que les asigna el artículo 22° de la Ley 11.922, respecto de la etapa de juicio, que se determinará por sorteo público, a realizar en la misma forma que se prescribe en el anterior.
+
+
+
+En los casos en que deba integrarse el Tribunal por vacancia, recusación, excusación, impedimento o licencia, se practicará sorteo entre los jueces de los otros Tribunales en lo Criminal del mismo Departamento Judicial, y si no los hubiere, entre los Jueces en lo Correccional, en la forma prescrita precedentemente.
+
+
+
+ARTÍCULO 52 quáter: (Texto Incorporado por la Ley 12060) Los Juzgados de Ejecución ejercerán la competencia que les asigna el artículo 25° de la Ley 11.922.
+
+
+
+ARTÍCULO 52 quinquies: (Artículo Incorporado por Ley 13634) Los Juzgados de Familia ejercerán la competencia que les asigna el Artículo 827 del Decreto Ley 7425/68, Código Procesal Civil y Comercial.
+
+
+
+ARTÍCULO 52 Sexies: (Artículo Incorporado por Ley 13634) Los Jueces de la Responsabilidad Penal Juvenil ejercerán su competencia en el Juzgamiento de los delitos cometidos por menores punibles y en la respectiva Ejecución Penal.
+
+
+
+CAPÍTULO VI
+
+
+
+TRIBUNALES DE TRABAJO
+
+
+
+COMPOSICIÓN. COMPETENCIA.
+
+
+
+INTEGRACIÓN (*)
+
+
+
+(*) Ver art. 96 de la Ley 15057, la cual tendrá vigencia a partir del primer día hábil del mes de febrero del año 2020.
+
+
+
+ARTÍCULO 53: Los Tribunales de Trabajo estarán constituidos por tres (3) Jueces y ejercerán su jurisdicción en el territorio de la Provincia con la competencia que les atribuye la presente Ley y la Ley 5178. (*)
+
+
+
+(*) Actualmente rige la Ley 11653.
+
+
+
+ARTÍCULO 54: La presidencia de los Tribunales de Trabajo será ejercida por el término de un (1) año a contar desde la fecha de la designación en tal carácter, comenzándose por el Juez más antiguo, y en caso de igual antigüedad, por el de mayor edad. En el mismo acto se designará un Vicepresidente que reemplazará al Presidente en los casos de vacancia, excusación, recusación o impedimento. En todos los casos la designación del Presidente será comunicada de inmediato a la suprema Corte de Justicia y al Procurador General de la Corte.
+
+
+
+(CAPÍTULO VI BIS DEROGADO POR LEY 13634)
+
+
+
+CAPÍTULO VI BIS; TRIBUNALES COLEGIADOS DE INSTANCIA
+
+
+
+ÚNICA DEL FUERO DE FAMILIA (*)
+
+
+
+(*) CAPÍTULO INCORPORADO POR LA LEY 11.453
+
+
+
+ARTÍCULO 54 bis: (Texto Incorporado por la Ley 11453) Los Tribunales de Familia estarán integrados por tres (3) Jueces y ejercerán su competencia en la materia que les atribuye el Código Procesal Civil y Comercial.
+
+
+
+Cada Tribunal tendrá una Secretaría a su cargo.
+
+
+
+ARTÍCULO 54 ter: (Texto Incorporado por la Ley 11453) Los Tribunales de Familia tendrán un (1) Presidente que será Juez de Trámite, un (1) Vicepresidente y un (1) Vocal. La Presidencia será ejercida rotativamente en forma anual, comenzándose por el Juez más antiguo en la función y, en caso de igual antigüedad por el de mayor edad. Los restantes cargos operarán de la misma manera.
+
+
+
+ARTÍCULO 54 quáter: (Texto incorporado por la Ley 11453) El Tribunal deberá funcionar en pleno para todos los efectos de la ley.
+
+
+
+En caso de desintegración momentánea del Tribunal, el Magistrado que ejerza la Presidencia procederá a integrarlo con Jueces de Primera Instancia en lo Civil y Comercial del mismo Departamento Judicial y sólo en caso de Justificada imposibilidad de ellos con los funcionarios del Ministerio Público del mencionado Departamento.
+
+
+
+(CAPÍTULO VII DEROGADO POR LEY 13634)
+
+
+
+CAPÍTULO VII
+
+
+
+TRIBUNALES DE MENORES
+
+
+
+COMPOSICIÓN DEL TRIBUNAL.
+
+
+
+COMPETENCIA
+
+
+
+ARTÍCULO 55: Los Tribunales de Menores serán unipersonales y estarán a cargo de Jueces Letrados que deberán ser casados y reunir las condiciones exigidas en el artículo (*) 168° de la Constitución de la Provincia y removidos en la misma forma que los jueces de Primera Instancia. (*) Corresponde al actual artículo 178° de la Constitución Provincial.
+
+
+
+ARTÍCULO 56: Los Tribunales de Menores ejercerán su jurisdicción en el territorio de la Provincia con la competencia que les atribuye la Ley 4664. (*)
+
+
+
+(*) Los Tribunales de menores actualmente tienen asignada su competencia por el Dec-Ley 10067/83.
+
+
+
+CAPÍTULO VIII
+
+
+
+JUZGADO NOTARIAL
+
+
+
+ARTÍCULO 57: Habrá un Juez Notarial con jurisdicción en todo el territorio de la Provincia, quien actuará con las facultades y deberes atribuidos por la Ley 5015. (*)
+
+
+
+(*) Actualmente rige el Dec-Ley 9020/78.
+
+
+
+CAPÍTULO IX
+
+
+
+JUSTICIA DE PAZ
+
+
+
+ASIENTO. COMPETENCIA TERRITORIAL
+
+
+
+ARTÍCULO 58: (Texto según Ley 11411) En cada Partido de la Provincia funcionará un (1) Juzgado de Paz letrado con excepción de aquellos en los cuales esté instalada la sede asiento de cada Departamento Judicial creado o a crearse, o en los que funcionen Juzgados de Primera Instancia en lo Civil y Comercial.
+
+
+
+La creación de otros Juzgados de Paz Letrados en los Partidos que ya funcionan Juzgados de dicho Fuero o en nuevos partidos que se pudieran establecer en la Provincia será determinada por la ley de la Provincia.
+
+
+
+La instalación de Juzgados de Primera Instancia en lo Civil y Comercial fuera de la cabecera del Departamento Judicial sólo podrá hacerse con la simultánea supresión del respectivo Juzgado de Paz Letrado siendo automáticamente asumida la competencia en materia de Faltas por el Juzgado de Primera Instancia en lo Criminal y Correccional con jurisdicción en el mismo, conforme a lo determinado en el artículo 52.
+
+
+
+Los Juzgados de Paz Letrados tendrán asiento en la ciudad cabecera del Partido.
+
+
+
+ARTÍCULO 59: (Texto según Ley 10571) Cada Juzgado de Paz estará a cargo de un (1) Juez Letrado titular, cuya competencia territorial estará determinada por los límites del Partido en que se asienta.
+
+
+
+A todos los efectos de la organización judicial, los Juzgados de Paz formarán parte de los respectivos Departamentos Judiciales con jurisdicción sobre el Partido donde aquellos se encuentren instalados.
+
+
+
+ARTÍCULO 60: A partir de la promulgación de la presente ley, quedan suprimidas en todo el territorio de la Provincia las subalcaldías de cuartel creadas por el artículo 16° de la ley 3858.
+
+
+
+ARTÍCULO 61: (Texto según Ley 13645) I- Los Jueces de Paz Letrados de los partidos de Almirante Brown, Avellaneda, Berazategui, Berisso, Ensenada, Esteban Echeverría, Ezeiza, Florencio Varela, Hurlingham, Ituzaingó, José C. Paz, Lanús, Malvinas Argentinas, Merlo, Presidente Perón, San Fernando, San Miguel, Tres de Febrero, Tigre y Vicente López, conocerán:
+
+
+
+1- De los siguientes procesos:
+
+
+
+a) Cobro de créditos por medianería.
+
+
+
+b) Restricciones y límites al dominio o sobre condominio de muros y cercos y en particular los que se susciten con motivo de la vecindad urbana o rural.
+
+
+
+c) Deslinde y amojonamiento.
+
+
+
+d) Beneficio para litigar sin gastos en los procesos que corresponde tramitar ante los mismos.
+
+
+
+e) Medidas preparatorias de los procesos de conocimiento y prueba anticipada.
+
+
+
+f) Apremios.
+
+
+
+g) (INCISO DEROGADO POR LEY 14116) En materia de familia, la establecida en el Artículo 827° del Código Procesal Civil y Comercial, que no se haya especificado en los demás incisos de este Artículo.
+
+
+
+2- De los siguientes procesos voluntarios:
+
+
+
+a) Asentimiento conyugal en los términos del Artículo 1277° del Código Civil.
+
+
+
+b) Autorización para comparecer en juicios y realizar actos jurídicos.
+
+
+
+c) Autorización para contraer matrimonio a menores de edad, domiciliados en su jurisdicción.
+
+
+
+d) Copia y renovación de títulos.
+
+
+
+e) Inscripción de nacimientos fuera de plazo.
+
+
+
+f) Informaciones sumarias requeridas para la acreditación de hechos por organismos públicos o por personas de derecho privado.
+
+
+
+g) Mensura.
+
+
+
+h) Reconocimiento, adquisición y venta de mercaderías en los términos del Capítulo VI del Libro VII, Código de Procedimiento Civil y Comercial.
+
+
+
+i) Rectificaciones de partidas de estado civil.
+
+
+
+j) Certificaciones de firmas, constatación del estado material de documentos y autenticidad de copias de documentos públicos o privados, mediante la registración de aquellas y del estado material o copia de éstos en los libros que establezca la Suprema Corte.
+
+
+
+3. De los trámites de notificaciones, intimaciones, constataciones y demás diligencias judiciales previstas por el Código Procesal Civil y Comercial, a solicitud de otros órganos jurisdiccionales.
+
+
+
+4. En materia de faltas (Decreto-Ley 8031/73, Texto Ordenado por Decreto 181/87 y sus modificatorias).
+
+
+
+5. De la aplicación de las sanciones previstas por el Artículo 78° del Decreto Ley Nacional 8.204/63 y contemplado por el Artículo 6° del Decreto Provincial 7309/68.
+
+
+
+II- Los restantes Jueces de Paz Letrados, conocerán además de las materias indicadas en el párrafo precedente, en los siguientes procesos:
+
+
+
+a) Separación personal, divorcio vincular y conversión de separación personal en divorcio vincular, en los términos de los Artículos 205°, 215°, 216° y 238° del Código Civil.
+
+
+
+b) Alimentos
+
+
+
+c) Tenencia de hijos y régimen de visitas.
+
+
+
+d) Homologación de acuerdos de liquidación de sociedad conyugal en aquellos casos en que el divorcio se hubiere tramitado por ante el mismo Juzgado.
+
+
+
+e) Suspensión de la patria potestad.
+
+
+
+f) Internaciones en caso de urgencia, comunicando la medida dentro de las veinticuatro (24) horas al Señor Juez de Primera Instancia.
+
+
+
+g) Hábeas Corpus.
+
+
+
+h) Adquisición de dominio por usucapión.
+
+
+
+i) (Texto según Ley 11911) Desalojo urbano por intrusión, falta de pago y/o vencimiento de contrato. Consignación y cobro de alquiler. Los procesos que versen sobre materia de competencia del Fuero rural previstos en los Decretos-Leyes 868/57 y 21.209/57.
+
+
+
+j) Medidas cautelares, debiendo el Juez remitir el expediente al Magistrado que en definitiva entendiere en el proceso, tan pronto como fuera comunicada su iniciación.
+
+
+
+k) Juicios ejecutivos y ejecuciones especiales.
+
+
+
+l) De los procesos universales consistentes en sucesiones “ab intestato” o testamentarias.
+
+
+
+ll) Curatela o insanias, en los supuestos en que se acredite que el incapaz no tenga patrimonio y se solicite su declaración para la obtención del Beneficio de Pensión Social, Ley 10.205 y sus modificatorias.
+
+
+
+III) Los procesos indicados en los incisos b) y h) del apartado II del parágrafo I, serán de competencia de la Justicia de Primera Instancia en lo Civil y Comercial cuando existiere un proceso conexo radicado ante ésta, en relación al cual resultare necesario concretar los actos a que dichos incisos se refieren.
+
+
+
+IV- Los Jueces de Paz Letrados de todos los partidos de la Provincia intervendrán a requerimiento del Agente Fiscal, en las medidas de coerción personal, medios y diligencias de prueba que señala el artículo 25° bis del Código Procesal Penal, en los casos en que los hechos delictivos hayan sido cometidos dentro de su competencia territorial.
+
+
+
+CAPÍTULO X
+
+
+
+TRIBUNALES DE JURADOS
+
+
+
+(Capítulo Incorporado por Ley 14543)
+
+
+
+ARTÍCULO 61 BIS: (Artículo Incorporado por Ley 14543) El Tribunal de jurados ejercerá su jurisdicción en el territorio de la Provincia con la competencia y los alcances que les atribuye la Ley N° 11922 y sus modificatorias.
+
+
+
+TÍTULO III
+
+
+
+MAGISTRADOS Y FUNCIONARIOS DE LA ADMINISTRACIÓN DE
+
+
+
+JUSTICIA, AUTORIDADES DE SUS ÓRGANOS. ATRIBUCIONES
+
+
+
+CAPÍTULO I
+
+
+
+PRESIDENTE DE LA SUPREMA CORTE DE JUSTICIA
+
+
+
+ARTÍCULO 62: Corresponde al Presidente de la Suprema Corte de Justicia:
+
+
+
+1.- Representar al Tribunal y mantener las relaciones de éste con los demás Poderes, miembros de la Administración de Justicia y reparticiones del Estado.
+
+
+
+2.- Velar por el orden y economía internos del Tribunal, vigilancia y cumplimiento de sus deberes por parte de los funcionarios y empleados del mismo.
+
+
+
+3.- Recibir las pruebas que deban producirse ante el Tribunal pudiendo los demás Jueces de la Corte asistir a las diligencias respectivas.
+
+
+
+4.- Llevar la palabra en las audiencias y dar la venia para hacer uso de ella.
+
+
+
+5.- Vigilar el despacho de las causas por parte de los miembros del tribunal.
+
+
+
+6.- Tener bajo su directa inspección las Secretarías del Tribunal.
+
+
+
+7.- Conceder licencias a los Jueces, funcionarios y empleados por un término que no exceda de quince (15) días.
+
+
+
+8.- Ejecutar o disponer la ejecución de las resoluciones del Tribunal relativas a la superintendencia.
+
+
+
+9.- Proponer las medidas de superintendencia que estime oportunas.
+
+
+
+10.- Proveer los asuntos urgentes sobre cuestiones relativas a la superintendencia del Tribunal debiendo informar a éste en el primer acuerdo.
+
+
+
+
+
+
+11.- Ejercer la policía en el recinto de los Tribunales; a tales efectos, el personal destacado en Tribunales quedará a sus órdenes.
+
+
+
+
+
+
+12.- Citar al Tribunal con carácter extraordinario cuando las circunstancias así lo requieran.
+
+
+
+
+
+
+13.- Proveer la sustitución de Jueces, funcionarios y empleados en los casos de ausencia o impedimento transitorio.
+
+
+
+
+
+
+14.- Redactar la memoria del Tribunal.
+
+
+
+15.- En todas las providencias que dicte, la firma del Presidente será refrendada por la de un Secretario.
+
+
+
+CAPÍTULO II BIS
+
+
+
+PRESIDENTE DEL TRIBUNAL DE CASACIÓN PENAL (*)
+
+
+
+(*) Capítulo incorporado por Ley 12060.
+
+
+
+ARTÍCULO 62 bis: (Texto incorporado por Ley 12060) Corresponde al Presidente del Tribunal de Casación Penal ejercer las funciones y atribuciones determinadas por las disposiciones de la Ley 11982.
+
+
+
+ARTÍCULO 63: (Texto según Decreto-Ley 8916/77) Corresponde al Presidente de la Cámara de Apelación:
+
+
+
+1.- Representar a la Cámara en los actos protocolares; ante los Poderes Públicos; y en general, en todas sus relaciones con Magistrados, entidades o personas.
+
+
+
+2.-Conceder licencias con arreglo a las disposiciones reglamentarias que dicte la Cámara, a los Secretarios y personal de la misma, por un término no mayor de quince (15) días. Si excedieran ese término, la licencia será resuelta en Acuerdo del Tribunal.
+
+
+
+3.- Convocar a acuerdos extraordinarios en los casos urgentes citando al Tribunal con carácter extraordinario cuando las circunstancias así lo requieran.
+
+
+
+4.- Elevar al Procurador General de la Suprema Corte una nómina de los expedientes que se encuentren para sentencia, con expresión del nombre de las partes, de sus apoderados y de la fecha del llamamiento de autos. Dichas nóminas se elevarán mensualmente.
+
+
+
+ARTÍCULO 64: (Texto según Decreto-Ley 8916/77) Corresponde al Presidente de Sala de la Cámara de Apelación:
+
+
+
+1.- Velar por el orden y economía interior de la Sala y la vigilancia sobre el cumplimiento de los deberes de los funcionarios y empleados y sancionar a éstos últimos.
+
+
+
+2.-Llevar la palabra en las audiencias y dar la venia para hacer uso de ella.
+
+
+
+3.- Dictar las providencias de mero trámite, siendo refrendada su firma por la del Secretario. Estas providencias serán recurribles por vía de revocatoria ante la misma sala.
+
+
+
+4.- Cuidar el oportuno despacho de las causas.
+
+
+
+5.- Tener bajo su inmediata inspección la Secretaría.
+
+
+
+ARTÍCULO 65: (Texto según Decreto-Ley 8916/77) En los Departamentos Judiciales cuyas Cámaras de Apelación no se encuentran divididas en Salas compuestas de tres (3) miembros, las funciones atribuidas al Presidente de la Sala por el artículo anterior, serán ejercidas por el Presidente de la Cámara.
+
+
+
+CAPÍTULO III
+
+
+
+JUECES DE PRIMERA INSTANCIA
+
+
+
+ARTÍCULO 66: Corresponde a los Jueces de Primera Instancia:
+
+
+
+1.- Conceder licencia a los Secretarios y personal de los Juzgados a su cargo, cualquiera fuera su causa, siempre que el término de la misma no exceda de cinco (5) días. Si excediera de ese término, deberá elevarla a resolución de la Suprema Corte.
+
+
+
+2.- Aplicar sanciones disciplinarias por faltas reiteradas, retardos o negligencias en el cumplimiento de sus funciones. Dichas sanciones serán: prevención, apercibimiento, suspensión hasta cinco (5) días; si la suspensión fuera por un plazo mayor, o en caso de cesantía, deberá elevarla a la Suprema Corte.
+
+
+
+3.- Concurrir diariamente a su despacho, y cuando no pudieren hacerlo lo comunicarán por nota a su reemplazante legal.
+
+
+
+4.- No podrán faltar a sus tareas por más de dos (2) días hábiles consecutivos sin la correspondiente licencia, que deberán solicitar a la Suprema Corte.
+
+
+
+
+
+
+CAPÍTULO IV
+
+
+
+JUECES DEL TRABAJO
+
+
+
+ARTÍCULO 67: Son aplicables a los Jueces del Trabajo todas las disposiciones relativas a las calidades, formas de designación, remoción, garantías, obligaciones, deberes y atribuciones que rigen para los Jueces de Primera Instancia.
+
+
+
+ARTÍCULO 68: Harán saber trimestralmente al Señor Procurador General de la Corte el estado de las causas que se ventilen ante sus estrados, con indicación de su número, fecha de iniciación, motivo, nombre del actor, demandado, lugar de trabajo o del hecho que motiva la acción y monto de lo reclamado. Sin perjuicio de las facultades de la Suprema Corte, evacuarán, además, cualquier informe que les solicite el Señor Procurador General.
+
+
+
+(CAPÍTULO IV BIS DEROGADO POR LEY 13634)
+
+
+
+CAPÍTULO IV BIS:
+
+
+
+JUECES DE LOS TRIBUNALES COLEGIADOS
+
+
+
+DE INSTANCIA ÚNICA DEL FUERO DE FAMILIA. (*)
+
+
+
+(*) Capítulo incorporado por ley 11.453.
+
+
+
+ARTÍCULO 68 bis: (Texto Incorporado por Ley 11453) Son aplicables a los Jueces de Familia todas las disposiciones relativas a las calidades, formas de designación, remoción, garantías, obligaciones, deberes y atribuciones que rigen para los Jueces de Primera Instancia
+
+
+
+ARTÍCULO 68 ter: (Texto Incorporado por Ley 11453) El Tribunal comunicará mensualmente al Procurador General de la Corte el estado de las causas que se ventilen ante sus estrados, con indicación de su cantidad, fecha de iniciación, motivo, nombre de las partes, fechas de la audiencia de vista de la causa, del veredicto y de la sentencia. Sin perjuicio de las facultades de la Suprema Corte, evacuará además informe que le solicite el Procurador General de la Corte.
+
+
+
+CAPÍTULO IV TER (*)
+
+
+
+JUECES DE LOS TRIBUNALES EN LO CRIMINAL
+
+
+
+(*) Capítulo incorporado por Ley 12060)
+
+
+
+ARTÍCULO 68 quáter: (Texto Incorporado por Ley 12060) Son aplicable a los Jueces de los Tribunales en lo Criminal las disposiciones relativas a las calidades, forma de designación, remoción, garantías, obligaciones, deberes y atribuciones que rigen para los Jueces de Primera Instancia.
+
+
+
+ARTÍCULO 68 quinquies: (Texto Incorporado por Ley 12060) El Tribunal comunicará mensualmente al Procurador General de la Corte el estado de las causas que se ventilan ante sus estrados, con indicación de su cantidad, fecha de iniciación, carátula del expediente, fecha de la audiencia de debate, y fechas del veredicto y de la sentencia. Sin perjuicio de las facultades de la Suprema Corte, evacuará además cualquier informe que solicite el señor Procurador General.
+
+
+
+CAPÍTULO V
+
+
+
+JUECES DE PAZ
+
+
+
+ARTÍCULO 69: (Texto según Ley 10571) Los Jueces de Paz Letrados deberán reunir los requisitos exigidos por la Constitución de la Provincia en sus artículos 165°, 166° y 168° (*). Debiendo mantener, una vez designado el domicilio real en el Partido donde han de ejercer sus funciones.
+
+
+
+Las propuestas que envíe el Poder Ejecutivo al Honorable Senado serán las recibidas en ternas por cada una de las respectivas Municipalidades.
+
+
+
+(*)Corresponde a los actuales artículos 173°, 175°, 176° y 178° de la Constitución Provincial.
+
+
+
+ARTÍCULO 70: (Texto según Ley 10164) Los Jueces de Paz Letrados serán nombrados por el Poder Ejecutivo de una terna propuesta mediante la ordenanza que eleven las Municipalidades.
+
+
+
+ARTÍCULO 71: (Texto según Ley 10571) Los Jueces de Paz Letrados tendrán las mismas atribuciones y deberes que las conferidas por el artículo 66° a los Jueces de Primera Instancia, siendo inamovibles en sus cargos mientras dure su buena conducta.
+
+
+
+El enjuiciamiento que los Jueces de Paz Letrados se regirá por las normas aplicables a los restantes Magistrados del Poder Judicial.
+
+
+
+ARTÍCULO 72: (Texto según Decreto-Ley 9229/78) I.- En caso de recusación con causa o excusación del Juez de Paz, el proceso tramitará ante el Juzgado de Paz más próximo a la sede del Juzgado cuyo titular haya sido recusado o se excusare y de acuerdo con la reglamentación general que la Suprema Corte de Justicia dicte el respecto.
+
+
+
+II.- En los supuestos de impedimento, vacancia o ausencia del Juez titular de un Juzgado de Paz, la Suprema Corte de Justicia, de conformidad con alguno de los temperamentos que seguidamente se indican, designará interinamente a cargo del Juzgado a:
+
+
+
+1.- Un Juez de Paz titular de otro Juzgado próximo.
+
+
+
+2.- Un funcionario de la misma Suprema Corte de Justicia pudiendo serlo de su cuerpo de Inspectores, que deberá reunir las mismas condiciones que para ser titular y prestará juramento de Ley; tal nombramiento no podrá exceder los ciento veinte (120) días corridos y será prorrogable por una sola vez por igual término.
+
+
+
+ARTÍCULO 73: (Texto según Ley 10571) Los Jueces de Paz Letrados actuarán con uno (1) o más Secretarios que deberán ser letrados en aquellos Partidos que así lo determine la Reglamentación de la Suprema Corte de Justicia, y contarán con el personal que en cada caso esta establezca de acuerdo a las necesidades de cada Juzgado y a las previsiones presupuestarias existentes.
+
+
+
+Los Secretarios Letrados estarán sujetos a las mismas incompatibilidades que rigen para los demás funcionarios del Poder Judicial.
+
+
+
+Los deberes de los Secretarios serán los prescriptos por el Código de Procedimiento Civil y Comercial, y tendrán a su cargo la certificación de firmas de la autenticidad de copias de documentos públicos o privados.
+
+
+
+ARTÍCULO 74: (Texto según Ley 14365) Para mantener el buen orden y decoro en los juicios, los Jueces y Tribunales, sin perjuicio de lo establecido en los Códigos Procesales podrán aplicar a los profesionales intervinientes las siguientes correcciones disciplinarias:
+
+
+
+1) Apercibimiento.
+
+
+
+2) Multa, lo que no podrá exceder de un valor equivalente de diez (10) Jus.
+
+
+
+3) Suspensión hasta un máximo de sesenta (60) días, que se limitará a la actuación del profesional en la causa en que se dispone.
+
+
+
+4) Separación de la causa, en los casos de reincidencia.
+
+
+
+
+
+
+ARTÍCULO 75: (Texto según Decreto-Ley 10012/83) Las correcciones disciplinarias aplicadas por los Jueces de Primera Instancia conforme al artículo anterior, podrán ser objeto de los recursos de revocatoria y de apelación, éste último en subsidio del anterior, dentro del término de cinco (5) días. La interposición deberá hacerse por escrito y en forma fundada.
+
+
+
+
+
+
+
+
+
+Las que hayan sido impuestas por las Cámaras de Apelación, los Tribunales del Trabajo y la Suprema Corte de Justicia, sólo serán susceptibles de reconsideración, que deberá plantearse dentro de los cinco (5) días, por escrito y en forma fundada.
+
+
+
+
+
+
+
+
+
+Dentro del término de cuarenta y ocho (48) horas desde que quedare firme la imposición de la sanción, el Juez o Tribunal notificará de Oficio la resolución respectiva a la parte interesada, sean mandante o patrocinada, y suspenderá el curso del procedimiento hasta, que hayan transcurrido cinco (5) días desde que se produzca la referida notificación; circunstancia esta que también deberá ser notificada.
+
+
+
+Las resoluciones firmes se comunicarán de acuerdo con lo prescripto por el artículo 109° de la Ley 5177. (*)
+
+
+
+(*) Corresponde al art. 92° de la Ley 5177, según T.O. de la misma, aprobado por Dec. 180/87.
+
+
+
+
+
+
+TÍTULO IV
+
+
+
+MINISTERIO PÚBLICO
+
+
+
+CAPÍTULO I
+
+
+
+PROCURADOR GENERAL
+
+
+
+ARTÍCULO 76: Derogado por Ley 12060
+
+
+
+ARTÍCULO 77: Derogado por Ley 12060
+
+
+
+CAPÍTULO II
+
+
+
+FISCALES DE CÁMARA
+
+
+
+ARTÍCULO 78: Derogado por Ley 12060
+
+
+
+CAPÍTULO III
+
+
+
+AGENTE FISCALES
+
+
+
+ARTÍCULO 79: Derogado por Ley 12060
+
+
+
+CAPÍTULO IV
+
+
+
+ASESORES DE INCAPACES
+
+
+
+ARTÍCULO 80: Derogado por Ley 12060
+
+
+
+CAPÍTULO V
+
+
+
+DFENSORES DE POBRES Y AUSENTES Y DEFENSORES DE POBRES Y AUSENTES ADJUNTOS (*)
+
+
+
+(*) Título según Ley 10692
+
+
+
+ARTÍCULO 81: Derogado por Ley 12060
+
+
+
+ARTÍCULO 82: Derogado por Ley 12060
+
+
+
+ARTÍCULO 83: Derogado por Ley 12060
+
+
+
+ARTÍCULO 84: Derogado por Ley 12060
+
+
+
+ARTÍCULO 85: Derogado por Ley 12060
+
+
+
+ARTÍCULO 86: Derogado por Ley 12060
+
+
+
+ARTÍCULO 87: Derogado por Ley 12060
+
+
+
+ARTÍCULO 88: Derogado por Ley 12060
+
+
+
+ARTÍCULO 89: Derogado por Ley 12060
+
+
+
+CAPÍTULO VI
+
+
+
+AGENTES FISCALES DE PAZ
+
+
+
+ARTÍCULO 90: Derogado por Ley 12060
+
+
+
+CAPÍTULO VII
+
+
+
+DEFENSORES DE POBRES Y AUSENTES Y ASESORES DE
+
+
+
+INCAPACES DE LA JUSTICIA DE PAZ (*)
+
+
+
+(*) (según Decreto-Ley 9229/78)
+
+
+
+ARTÍCULO 91: (Texto según Ley 14365) Cuando se requiera la intervención del Defensor de Pobres y Ausentes o del Asesor de Incapaces, el Juez de Paz Letrado procederá a desinsacular un letrado de la lista que al efecto confeccionarán anualmente los Colegios de Abogados Departamentales para cada partido, con los Abogados que voluntariamente se inscribieren para desempeñar tales funciones, constituyendo domicilio en las ciudades cabeceras de los partidos en los que deseen hacerlo.
+
+
+
+Si en un partido no hubiere al menos tres (3) Abogados inscriptos, el Juez de Paz Letrado comunicará tal circunstancia al Procurador General de la Suprema Corte de Justicia, que arbitrará los medios para solucionar el problema.
+
+
+
+En caso de urgencia, o cuando ninguno de los letrados inscriptos en la lista, ya sea por excusación fundada o licencia, pudiere desempeñar el cargo en un proceso determinado, deberá hacerlo el Defensor de Pobres y Ausentes o el Asesor de Incapaces en turno del Departamento Judicial a quien se le notificará o citará por vía telegráfica u otro medio de igual eficacia.
+
+
+
+El desempeño en las funciones precitadas será obligatorio e inexcusable, para el letrado designado y con las responsabilidades que la legislación vigente establece para dichos funcionarios, debiendo presentarse en el expediente dentro de las setenta y dos (72) horas de ser notificado de la designación.
+
+
+
+Quien resulte elegido no integrará la lista para desinsaculaciones posteriores hasta tanto no haya sido agotada la totalidad de los integrantes de la nómina.
+
+
+
+Por su intervención, el letrado percibirá una remuneración con cargo al Presupuesto del Poder Judicial, en la forma que establezca la reglamentación de la Suprema Corte de Justicia, que deberá prever una escala de honorarios a valores de la unidad arancelaria prescripta por el Decreto-Ley 8904/77 a fin de que el Juez de Paz Letrado regule los honorarios en orden a la importancia y complejidad del trabajo realizado.
+
+
+
+El incumplimiento de lo prescripto en el cuarto párrafo de este artículo o el mal desempeño de la función, autoriza al Juez de Paz Letrado a aplicar al infractor una multa de un valor equivalente de diez (10) Jus hasta ochenta (80) Jus, y su reiteración configura falta profesional grave que da lugar a enjuiciamiento, de conformidad con lo dispuesto en la Ley 5177.
+
+
+
+Los profesionales nombrados como Defensor o Asesor Oficiales quedan relevados durante el año en que se haya producido su designación de las obligaciones de representar y patrocinar gratuitamente a los declarados pobres ante el respectivo Juzgado de Paz Letrado, según lo establecido por los artículos 114 al 126 de la Ley 5177 (T. O. por Decreto 180/87).
+
+
+
+El Poder Ejecutivo podrá crear Defensorías o Asesorías Oficiales o el cargo necesario para desempeñar ambas funciones en aquellos Partidos o Agrupamientos de Partidos que de acuerdo al índice de litigiosidad, número de designaciones de Letrados para cumplir dichas funciones y el gasto que éstos representen para el Presupuesto del Poder Judicial lo hagan aconsejable, siempre que así lo solicite la Suprema Corte de Justicia y previa conformidad de ambas Cámaras de la Legislatura.
+
+
+
+ARTÍCULO 92: (Texto según Ley 10612) Mientras ejerzan funciones como Defensor o Asesor Oficiales los profesionales designados estarán bajo la Superintendencia del Procurador General de la Suprema Corte de Justicia.
+
+
+
+ARTÍCULO 93: (Texto según Ley 11216) El cargo de Juez de Paz Letrado será remunerado en todos los casos con una retribución básica equivalente a la que perciben los Jueces de Primera Instancia.
+
+
+
+ARTÍCULO 94: (Texto según Ley 10612) Los Jueces de Paz estarán sujetos a las mismas incompatibilidades que rigen para los demás Magistrados del Poder Judicial.
+
+
+
+CAPÍTULO VII (*)
+
+
+
+(*) Incorporado mediante Ley 10612, -artículo 6°.-
+
+
+
+ARTÍCULO 95: Derogado por Ley 12060.
+
+
+
+TÍTULO V
+
+
+
+PROFESIONALES AUXILIARES DE LA ADMINISTRACIÓN DE JUSTICIA
+
+
+
+CAPÍTULO I
+
+
+
+DISPOSICIONES GENERALES
+
+
+
+ARTÍCULO 96: La actividad judicial de los profesionales auxiliares de la justicia enumerados en el artículo 3° de la presente Ley se regirán por las disposiciones de las respectivas leyes reglamentarias.
+
+
+
+CAPÍTULO II
+
+
+
+MARTILLEROS PÚBLICOS. REQUISITOS.
+
+
+
+ARTÍCULO 97: Los martilleros inscriptos en la matrícula estás habilitados para ejercer su profesión en todos los Tribunales de la Provincia.
+
+
+
+ARTÍCULO 98: Para participar en los nombramientos de oficio en las causas judiciales, el martillero deberá inscribirse en la lista respectiva.
+
+
+
+ARTÍCULO 99: Para solicitar la inscripción en la matrícula de martillero, se deberán llenar los requisitos establecidos en el Código de Comercio.
+
+
+
+CAPÍTULO III
+
+
+
+TASACIONES. TRADUCTORES. INTÉRPRETES, CALÍGRAFOS Y
+
+
+
+PERITOS EN GENERAL
+
+
+
+ARTÍCULO 100: Las funciones de los tasadores, traductores, intérpretes, calígrafos y peritos en general y demás auxiliares de la justicia, serán ejercitadas por personas que posean título habilitante. En caso de no existir peritos matriculados, podrán ser designadas personas idóneas en la materia.
+
+
+
+TÍTULO VI
+
+
+
+REPARTICIONES AUXILIARES DE LA ADMINISTRACIÓN DE
+
+
+
+JUSTICIA
+
+
+
+CAPÍTULO I
+
+
+
+ARCHIVO DE LOS TRIBUNALES
+
+
+
+ARTÍCULO 101: A partir de la promulgación de la presente ley el Poder Judicial de la Provincia contará con un Archivo General. Esta dependencia estará formada por una dirección con asiento en la ciudad Capital y secciones locales, una en cada Departamento Judicial.
+
+
+
+ARTÍCULO 102: La Suprema Corte de Justicia ejercerá superintendencia sobre el Archivo General del Poder Judicial, directamente sobre la Dirección y Sección que corresponda al Departamento Judicial de La Plata y por intermedio de la Cámara de Apelación Departamental en los Archivos Locales. Donde exista más de una Cámara la Suprema Corte de Justicia fijará un turno para el ejercicio de dichas funciones. Las Cámaras actuarán en todos los casos por delegación siguiendo las normas generales que al efecto dicte el Tribunal Superior.
+
+
+
+ARTÍCULO 103: La Suprema Corte de Justicia dictará dentro de los noventa (90) días de la sanción de la presente ley, el reglamento orgánico del Archivo General del Poder Judicial, a cuyo efecto deberá observar las prescripciones establecidas en los artículos siguientes.
+
+
+
+ARTÍCULO 104: Para desempeñar las funciones de Director del Archivo General del Poder Judicial se requiere: ser argentino, mayor de edad, abogado o escribano, con título expedido por autoridades competentes y tener domicilio real en el lugar donde ejerza sus funciones o en un radio de cincuenta (50) kilómetros dentro del territorio de la Provincia. Iguales condiciones se requieren para desempeñar los cargos de Jefes de Archivos Departamentales.
+
+
+
+ARTÍCULO 105: En cada uno de los Departamentos Judiciales existirán depósitos adecuados y en lo posible dentro del recinto del lugar en que funcionen los Tribunales, destinados a la guarda de todos los documentos, protocolos y expedientes que por imperio de esta ley deban quedar en el Archivo General del Poder Judicial.(*)
+
+
+
+(*) Depósito de Protocolos en Colegios de Escribanos. Resoluciones 930/79 y 198/81, Suprema Corte.
+
+
+
+ARTÍCULO 106: Los Archivos Departamentales del Archivo General del Poder Judicial se formarán:
+
+
+
+1.- Con los expedientes tramitados en los Tribunales letrados de Justicia del respectivo departamento que se encuentren en estado de archivo; por estado de archivo se entiende aquel en que la causa, actuación o proceso este determinado, quede firme el sobreseimiento dictado, se suspendiese la actuación en virtud de lo dispuesto en el Título III Libro V del Código de Procedimiento Penal o del Capítulo III. Título IV del Código de Procedimiento en lo Civil y Comercial o se paralizase el expediente por dos (2) años. (*)
+
+
+
+(*) Corresponde al actual Libro I, Título V, Capítulo V, del Dec-Ley 7425/68 – Código Procesal, Civil y Comercial-.
+
+
+
+2.- Con los protocolos de escrituras que por ley 695 hayan llevado los Secretarios Municipales y con las escrituras otorgadas ante los Jueces de Paz.
+
+
+
+3.- Con los protocolos de los escribanos del registro del respectivo departamento exceptuando los dos (2) últimos años.(*)
+
+
+
+(*) Depósito de Protocolos en Colegio de Escribanos, Resoluciones 930/79 y 198/81, Suprema Corte.
+
+
+
+4.- Con los Libros de sentencias de los Juzgados Letrados y los de sus respectivas Secretarias con excepción de los últimos cinco (5) años.
+
+
+
+5.- Con toda documentación emanada del Poder Judicial o producto de la actividad tribunalicia cuya guarda en dichos depósitos considere conveniente la Suprema Corte de Justicia.
+
+
+
+6.- Con los expedientes cuyo trámite haya sido substanciado ante la Justicia de Paz siempre que en los mismos se haya operado transmisiones de dominio de bienes inmuebles Los demás expedientes que hayan tramitado ante la justicia de Paz quedarán archivados en los respectivos Juzgados y Alcaldías pero sujetos a los principios establecidos en esta ley y a la reglamentación que en su consecuencia dicte la Suprema Corte de Justicia.
+
+
+
+ARTÍCULO 107: La reglamentación general determinará la forma, tiempo y condiciones de entrega del material a archivarse; así como también de la extracción de piezas archivadas, la que sólo podrá se hecha por orden judicial.
+
+
+
+ARTÍCULO 108: El Archivo de los expedientes y protocolos se realizará automáticamente y sin otro requisito que la orden del Juez competente; al efecto del control de deudas fiscales el Ministerio de Hacienda por la oficina que corresponda destacará el personal necesario.
+
+
+
+ARTÍCULO 109: Los expedientes y protocolos archivados solo podrán ser examinados por los profesionales y las personas que determine la reglamentación general, previo pago de la tasa que fije la ley impositiva.
+
+
+
+CAPÍTULO II
+
+
+
+DESTRUCCIÓN O REDUCCIÓN DE EXPEDIENTES
+
+
+
+ARTÍCULO 110: La Suprema Corte reglamentará la reducción o, en su caso, destrucción de las causas o expedientes de la Justicia letrada o lega, por intermedio de la Dirección General, con exclusión absoluta de los juicios sucesorios, quiebras, concursos civiles, los que resuelvan cuestiones de familia o derecho reales y en los que hubiere afectados bienes inmuebles.
+
+
+
+ARTÍCULO 111: En la reglamentación sobre la reducción o, en su caso destrucción de expedientes se atenderá expresamente:
+
+
+
+1.- A lo dispuesto en los Códigos de fondo y de procedimiento sobre prescripción y perención.
+
+
+
+2.- A la publicidad por el “Boletín Oficial”
+
+
+
+3.-Al derecho de las partes a oponer reservas.
+
+
+
+4.- A la capacidad de los depósitos actuales con miras a mantenerlos dentro de sus límites.
+
+
+
+5.- Al interés jurídico, social, histórico, económico, etcétera, conservando para esos casos un conjunto selecto y la causa que en forma individual solicite el Archivo Histórico de la Provincia o de la Nación.
+
+
+
+6.- A las constancias existentes en el Archivo de los elementos esenciales para su individualización en forma y contenido.
+
+
+
+ARTÍCULO 112: Ningún empleado del Archivo podrá ejercer las profesiones de abogado, procurador o escribano ni intervenir en forma alguna en la tramitación de asuntos judiciales ni ser agente de abogados, procuradores o escribanos.
+
+
+
+ARTÍCULO 113: El Director del Archivo General del Poder Judicial, así como el resto del personal, serán designados por la Suprema Corte de Justicia.
+
+
+
+CAPÍTULO III
+
+
+
+REGISTRO PÚBLICO DE COMERCIO (*)
+
+
+
+(*) Título según ley 9118/78.
+
+
+
+ARTÍCULO 114: (Texto según Decreto-Ley 9118/78) En cada Departamento Judicial habrá una Secretaría de Registro Público de Comercio que integrará el Juzgado de Primera Instancia en lo Civil y Comercial que determine la Suprema Corte de Justicia, teniendo en consideración la más eficiente prestación del servicio de administración de justicia y el recargo de tareas de los Juzgados de cada Departamento Judicial.
+
+
+
+ARTÍCULO 115: (Texto según Decreto-Ley 9118/78) Deberá tramitarse ante la Secretaría de Registro Público de Comercio todos los juicios de jurisdicción voluntaria tendiente a la publicidad e inscripción registral mercantil de acuerdo con las disposiciones del Código de Comercio y demás leyes especiales. Quedan excluidas las inscripciones a que se refiere el artículo 1° de la Ley 8671.
+
+
+
+ARTÍCULO 116: (Texto según Decreto-Ley 9118/78) En las causa que corresponda intervenir a la Secretaría de Registro Público de Comercio, cuando se controvertieren derechos o se suscitaren conflictos litigiosos o contenciosos en general será competente en la materia el Juez de Primera Instancia en lo Civil y Comercial a cargo de la mencionada Secretaría.
+
+
+
+ARTÍCULO 117: (Texto según Decreto-Ley 9118/78) El Registro podrá expedir certificados de las inscripciones y asientos de toda clase que existan en el mismo y que parte interesada señale. Estos certificados se expedirán por mandato judicial, con citación de parte, si la hubiere, o del Ministerio Fiscal en su defecto.
+
+
+
+ARTÍCULO 118: El Registro será Público para los que tengan interés justificado en conocer los actos y contratos inscriptos
+
+
+
+ARTÍCULO 119: (Texto según Decreto-Ley 9118/78) La Suprema Corte de Justicia dictará el reglamento de funcionamiento de la Secretaria de Registro Público de Comercio.
+
+
+
+CAPÍTULO IV
+
+
+
+OFICINA PERICIAL DE LOS TRIBUNALES
+
+
+
+ARTÍCULO 120: (Texto según Decreto-Ley 8999/78) Con asiento en la ciudad de La Plata funcionará una Dirección General de Asesoría Pericial del Poder Judicial, que deberá producir los informes técnicos periciales que le sean requeridos judicialmente en virtud de disposiciones legales en vigor.
+
+
+
+En cada Departamento Judicial funcionará una oficina de Asesoría Pericial que dependerá directamente de la Dirección General de Asesoría Pericial del Poder Judicial.
+
+
+
+ARTÍCULO 121: (Texto según Decreto-Ley 8999/78) La Dirección General de Asesoría Pericial del Poder Judicial dependerá de la Suprema Corte de Justicia.
+
+
+
+ARTÍCULO 122: (Texto según Decreto-Ley 8999/78) Para formar parte del cuerpo Pericial será necesario poseer título expedido por autoridad competente y una antigüedad de cinco (5) años de ejercicio profesional en la especialidad para la que deban ser asignados.
+
+
+
+ARTÍCULO 123: (Texto según Decreto-Ley 8999/78) Los Peritos de la Dirección General de Asesoría Pericial del Poder Judicial deberán tener domicilio real en el lugar de asiento.
+
+
+
+ARTÍCULO 124: Los Profesionales que forman el cuerpo Pericial prestarán juramento al asumir sus cargos ante la Suprema Corte de Justicia. Tendrán la obligación de auxiliar a la administración de Justicia en todos los casos en que esta crea necesaria su intervención, dando su dictamen, dentro del aspecto que pudiera corresponderles, ante las autoridades judiciales.
+
+
+
+ARTÍCULO 125: (Texto según Decreto-Ley 8999/78 y 9200/78) Cuando intervinieren en causa penales, los componentes de la Dirección General de Asesoría Pericial del Poder Judicial no podrán reclamar honorarios.
+
+
+
+Los emolumentos y gastos que se devenguen por su actuación ante los Tribunales de Trabajo, deberán ser depositados por las partes obligadas en la cuenta especial que determine la reglamentación de la Suprema Corte, la que, asimismo fijará su destino. No se podrá dar por terminado ningún juicio, disponer su archivo, aprobar o mandar cumplir transacciones, hacer efectivos los desistimientos, dar por cumplidas las sentencias, ordenar trámites de entrega, adjudicación o transferencia de bienes de cualquier clase que fueren sin antes haberse depositado los importes efectivos.
+
+
+
+En ningún supuesto los integrantes de la Dirección General de Asesoría Pericial del Poder Judicial podrán intervenir como peritos a propuesta de parte en causas que se substancien ante cualquier fuero en el ámbito provincial ni inscribirse en las listas de profesionales auxiliares de la justicia para nombramientos de oficios (*).
+
+
+
+(*) El presente artículo fue modificado por el art. 95 de la Ley 15057 la cual tendrá vigencia a partir del primer día hábil del mes de febrero del año 2020.[3]
+
+
+
+ARTÍCULO 126: (Texto según Decreto-Ley 8999/78) La Dirección General de Asesoría Pericial del Poder Judicial estará a cargo de un Director General y un Subdirector designados con carácter de permanentes.
+
+
+
+ARTÍCULO 127: Al actuar por delegación de la Justicia para expedir sus dictámenes tendrán los peritos franquicias de libre acceso a los elementos de apreciación que deban examinarse de necesidad, en los casos que tales elementos no hubieran sido objeto de incautación o secuestro en el proceso. Podrán usar sin cargo los servicios del telégrafo de la provincia, para comunicaciones urgentes en sus actuaciones como peritos forenses. (*)
+
+
+
+(*) Telégrafo de la Provincia suprimido por Decreto N° 329/80.
+
+
+
+(Capítulo y Artículo INCORPORADO por Ley 13943)
+
+
+
+CAPÍTULO V
+
+
+
+SECRETARÍA DE GESTIÓN ADMINISTRATIVA EN MATERIA PENAL
+
+
+
+ARTÍCULO 127 bis: (Incorporado por Ley 13943) En cada Departamento Judicial se crearán Secretarías de Gestión Administrativa (S.G.A.) dependientes de la Suprema Corte de Justicia de la Provincia de Buenos Aires, que tendrán a su cargo las tareas que se detallan a continuación, sin perjuicio de otras funciones que disponga dicho Tribunal:
+
+
+
+1.- Recibir, distribuir, registrar las causas que se presenten para su tramitación ante los Tribunales Criminales y Juzgados Correccionales.
+
+
+
+2.- Administrar y mantener actualizado el registro de causas ingresadas, su lugar de radicación y proveer información sobre las mismas.
+
+
+
+3.- Elaborar estadísticas e informes.
+
+
+
+4.- Administrar el calendario de audiencias –fijando día y hora de las audiencias respectivas- en coordinación con las agendas de los Magistrados, Funcionarios del Ministerio Público y Abogados Particulares, que intervengan en ellas.
+
+
+
+5.- Administrar y coordinar el uso de las salas de audiencias, manteniendo el normal funcionamiento y el de su equipamiento.
+
+
+
+6.- Organizar el ingreso del público a las audiencias públicas.
+
+
+
+7.- Acreditar los servicios brindados a la prensa.
+
+
+
+8.- Supervisar el funcionamiento de las salas de audiencias y adoptar los recaudos para su normal funcionamiento.
+
+
+
+9.- Establecer mecanismos para reprogramar audiencias suspendidas, respetando los plazos establecidos para cada etapa del proceso.
+
+
+
+10.- Mantener un registro actualizado de audiencias programadas, realizadas y suspendidas (consignando sus motivos).
+
+
+
+11.- Dar a publicidad las agendas.
+
+
+
+12.- Grabar las audiencias en los procesos sometidos al procedimiento de flagrancia.
+
+
+
+13.- Llevar un registro actualizado de los detenidos privados de libertad por más de dos (2) años, sin que se les haya dictado veredicto en primera instancia, con los siguientes datos:
+
+
+
+- Número de causa o I.P.P., fecha de detención, Juez, Tribunal y demás partes intervinientes.
+
+
+
+- Objeto de la investigación.
+
+
+
+- Identificación del o de los detenidos.
+
+
+
+- Estado procesal actualizado.
+
+
+
+- Razones por las cuales se ha prorrogado la medida de coerción personal.
+
+
+
+Para el cumplimiento de las funciones enumeradas en el presente artículo, la Suprema Corte determinará los perfiles profesionales, designará a los funcionarios y empleados, diseñará la estructura interna de la citada secretaría, la que podrá instalarse en más de una sede.
+
+
+
+DISPOSICIONES TRANSITORIAS
+
+
+
+ARTÍCULO 128: La Suprema Corte de Justicia elegirá el miembro que la presidirá en el plazo comprendido entre el veinte de octubre y el treinta y uno de diciembre de 1955. El turno de presidencias rotativas de las Cámaras de Apelación comenzará el primero de enero de 1956.
+
+
+
+ARTÍCULO 129: Los actuales Síndicos Fiscales y Defensores de Menores Judiciales de la justicia de Paz se desempeñarán hasta la terminación de sus mandatos en calidad y con las funciones atribuidas por esta Ley a los Agentes Fiscales de Paz y Defensores de Incapaces de la Justicia de Paz, respectivamente.
+
+
+
+ARTÍCULO 130: A los fines previstos en el artículo 62 de esta Ley, los Subalcaldes de cuartel procederán a entregar en el término de treinta (30), bajo inventario y recibo, todas las actuaciones, libros y documentación relativos a las causas en que entiendan, al Juez de Paz que ejerza jurisdicción en la localidad de asiento de la Subalcaldía. Recibidas las causas y documentación aludidas el Juez de Paz procederá a distribuirlas entre el Juzgado de que es titular y la Alcaldía de su distrito, respetando al efecto las respectivas competencias territoriales.
+
+
+
+ARTÍCULO 131: Las causas promovidas con anterioridad a la vigencia de la presente Ley continuarán sustanciándose ante los Tribunales y Juzgados que correspondan de conformidad con lo previsto en esta Ley sobre jurisdicción, competencia y nueva distribución de los Departamentos Judiciales.
+
+
+
+ARTÍCULO 132: Por esta sola vez los funcionarios que a la sanción de la presente Ley desempeñen los cargos de Director de Jefe de Archivo del Poder Judicial podrán continuar en sus funciones aun cuando no reúnan las condiciones exigidas por el artículo 104° de esta Ley.
+
+
+
+ARTÍCULO 133: Las oficinas receptorías de expedientes y de notificaciones y mandamientos judiciales comenzarán a funcionar en todos los Departamentos Judiciales a partir del día primero de enero de 1956.
+
+
+
+ARTÍCULO 134: Quedan en vigencia todas las disposiciones legales que no se opongan a la presente Ley. Derógase la Ley 5307.
+
+
+
+
+[1] Artículo 1.
+
+
+
+3. Las Cámaras de Apelación en lo Civil y Comercial, de Garantías en lo Penal, en lo Contencioso Administrativo y en el Trabajo.
+
+
+
+4. Los Jueces de Primera Instancia en lo Civil y Comercial, de Familia, en lo Contencioso Administrativo, de Garantías, de Garantías del Joven, de Responsabilidad Penal Juvenil, en lo Correccional, de Ejecución en lo Penal, de Ejecución Tributaria y de Primera Instancia del Trabajo.
+
+
+
+[2] ARTÍCULO 25: Donde exista más de un Juzgado del Trabajo, el turno para la recepción de las causas será fijado anualmente por la Suprema Corte de Justicia.
+
+
+
+[3] ARTÍCULO 125: Cuando intervinieren en causas laborales, los componentes de la Dirección General de Asesoría Pericial del Poder Judicial no podrán reclamar honorarios.
+
+
+
+Los emolumentos y gastos que se devenguen por su actuación ante o los Juzgados del Trabajo, deberán ser depositados por las partes obligadas en la cuenta especial que determine la reglamentación de la Suprema Corte, la que, asimismo fijará su destino. No se podrá dar por terminado ningún juicio, disponer su archivo, aprobar o mandar cumplir transacciones, hacer efectivos los desistimientos, dar por cumplidas las sentencias, ordenar trámites de entrega, adjudicación o transferencia de bienes de cualquier clase que fueren sin antes haberse depositado los importes efectivos.
+
+
+
+En ningún supuesto los integrantes de la Dirección General de Asesoría Pericial del Poder Judicial podrán intervenir como peritos a propuesta de parte en causas que se substancien ante cualquier fuero en el ámbito provincial ni inscribirse en las listas de profesionales auxiliares de la justicia para nombramientos de oficios.
