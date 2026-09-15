@@ -58,7 +58,7 @@ Portales oficiales. Ante cualquier discrepancia, prevalece el texto que publican
 | SAIJ | Jurisprudencia, doctrina y legislación provincial | https://www.saij.gob.ar |
 | **Normas PBA** | Legislación bonaerense con texto actualizado | https://normas.gba.gob.ar |
 | Boletín Oficial PBA | Publicación oficial provincial | https://www.boletinoficial.gba.gob.ar |
-| **SCBA** | Jurisprudencia y acordadas de la Provincia | https://www.scba.gov.ar |
+| **SCBA** | Jurisprudencia y acordadas de la Provincia | https://www.scba.gov.ar · https://www.scba.gob.ar |
 | JUBA | Base de jurisprudencia bonaerense | https://juba.scba.gov.ar |
 | PJN — consulta de jurisprudencia | Fallos de los fueros nacionales y federales | https://sj.pjn.gov.ar |
 | CSJN | Fallos de la Corte | https://www.csjn.gov.ar |
@@ -67,6 +67,26 @@ Portales oficiales. Ante cualquier discrepancia, prevalece el texto que publican
 | SRT | Resoluciones y montos de prestaciones de la LRT | https://www.srt.gob.ar |
 | INDEC | Canasta básica, IPC, RIPTE | https://www.indec.gob.ar |
 | BCRA | Tasas y normativa cambiaria | https://www.bcra.gob.ar |
+
+**La SCBA responde en dos escrituras**, `scba.gov.ar` y `scba.gob.ar`, y las dos sirven: las URLs
+viejas de `descarga.asp` usan una y las nuevas la otra. No es un error de tipeo.
+
+### Repositorios oficiales que no son el registro del tribunal
+
+La tabla de arriba es una **regla de prelación**: su texto prevalece ante discrepancia. Estos
+sitios no entran ahí, y la diferencia no es que republiquen —SAIJ también republica— sino que
+**no son neutrales respecto del pleito o no custodian el registro**.
+
+| Fuente | Qué tiene | Enlace |
+| --- | --- | --- |
+| Repositorio del MPD | Sentencias completas, sobre todo de primera instancia, seleccionadas por el Ministerio Público de la Defensa | https://repositorio.mpd.gov.ar |
+
+**Para qué sirven y para qué no.** Sirven para **ubicar y leer** una sentencia que ningún registro
+judicial publica — típicamente la de primera instancia, que JUBA no indexa. **No prevalecen nunca
+sobre un registro judicial**, y un fallo traído de acá lleva el campo `origen` escrito en
+`fallos.json`, diciendo de dónde salió. Dos cosas a tener presentes al citarlo: la selección la
+hace una parte, así que lo que hay ahí no es una muestra del estado de la jurisprudencia; y una
+sentencia de primera instancia es autoridad débil, se cite de donde se cite.
 
 ### Normas de uso diario
 

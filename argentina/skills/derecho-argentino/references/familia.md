@@ -101,14 +101,21 @@ No son declamaciones: desplazan reglas del CPCCBA que se aplican supletoriamente
   PBA tiene correlato en el Equipo Técnico del art. 12 de la Ley 13.634—; e **interés superior
   del niño** como rector de la decisión.
 - **707 —** Derecho de niños, niñas, adolescentes y personas con capacidad restringida **a ser
-  oídos** en todo proceso que los afecte directamente.
+  oídos** en todo proceso que los afecte directamente. Y la segunda oración, que es la operativa:
+  su opinión **"debe ser tenida en cuenta y valorada según su grado de discernimiento y la
+  cuestión debatida en el proceso"**. Ser oído no agota el artículo.
 - **708 —** Acceso limitado al expediente: partes, representantes, letrados y auxiliares.
-- **709 — Oficiosidad.** El **impulso está a cargo del juez**, que puede ordenar prueba de
-  oficio. Es lo contrario del principio dispositivo del proceso civil ordinario.
+- **709 — Oficiosidad, con un límite que se omite seguido.** El **impulso está a cargo del juez**,
+  que puede ordenar prueba de oficio: es lo contrario del principio dispositivo del proceso civil
+  ordinario. Pero el segundo párrafo dice que **"el impulso oficioso no procede en los asuntos de
+  naturaleza exclusivamente económica en los que las partes sean personas capaces"**. Eso alcanza
+  de lleno a la acción de compensación económica entre dos adultos capaces (18.9): ahí **no hay
+  oficiosidad**, y el impulso vuelve a la parte.
 - **710 — Prueba.** *"Los procesos de familia se rigen por los principios de libertad, amplitud
-  y flexibilidad de la prueba."* Y el segundo párrafo, que es el más litigado y no conviene
-  omitir al citarlo: **la carga recae en quien está en mejores condiciones de probar** — carga
-  dinámica.
+  y flexibilidad de la prueba."* Y la segunda oración, que es la más litigada y no conviene
+  omitir al citarlo: la carga **"recae, finalmente, en quien está en mejores condiciones de
+  probar"** — carga dinámica. El **"finalmente"** está en el texto y no es de adorno: la regla
+  es residual, no releva de probar a quien alega.
 - **711 — Testigos.** **Los parientes y allegados pueden ser ofrecidos como testigos.** El juez
   puede no admitir la declaración de personas menores de edad, o de parientes que se nieguen
   por motivos fundados.
@@ -121,16 +128,23 @@ subrogación; ningún matrimonio se tiene por nulo sin sentencia.
 | Materia | Juez competente | Art. |
 | --- | --- | --- |
 | Derechos de niños, niñas y adolescentes — cuidado personal, responsabilidad parental, tutela, guarda, comunicación | **Centro de vida** de la persona menor de edad | 716 |
-| Divorcio y nulidad de matrimonio | Último domicilio conyugal o domicilio del demandado, a elección; petición conjunta, cualquiera de los dos | 717 |
+| Divorcio y nulidad de matrimonio | Último domicilio conyugal o domicilio del demandado, a elección; petición conjunta, cualquiera de los dos. **Si hay concurso o quiebra de un cónyuge, la liquidación del régimen patrimonial va al juez del proceso colectivo** (segundo párrafo) | 717 |
 | Uniones convivenciales | Último domicilio convivencial o del demandado, a elección | 718 |
 | Alimentos y compensaciones entre cónyuges o convivientes | Domicilio conyugal o convivencial, del beneficiario, del demandado, o lugar de cumplimiento | 719 |
-| Filiación | Domicilio del demandado, salvo actor menor de edad o con capacidad restringida: centro de vida | 720 |
+| Filiación | Domicilio del demandado, **excepto** que el actor sea menor de edad o con capacidad restringida. Para ese caso el art. 720 **no dice cuál es el juez**: el centro de vida sale de leerlo con el 716, no del 720 | 720 |
 
 **Medidas provisionales** (721 a 723): sobre las personas —uso de la vivienda, renta, objetos
 personales, alimentos, cuidado y comunicación de los hijos— y sobre los bienes. El art. 723 las
 extiende a las **uniones convivenciales** en cuanto sea pertinente.
 
-    [VERIFICAR VIGENCIA: arts. 705 a 723 CCyCN - cotejar el literal contra el Tomo II del CCyC Comentado (SAIJ) en `argentina/fuentes/ccyc-comentado/` antes de transcribir en una pieza]
+**Cotejado el 15/09/2026 contra `fuentes/normas/ccycn-26994.txt`**, artículo por artículo. Dos
+avisos sobre esa copia, encontrados en el cotejo:
+
+    [VERIFICAR VIGENCIA: arts. 718 y 722 CCyCN - en el consolidado de fuentes/ los dos terminan sin punto final, el 718 en "a elección del actor," y el 722 en "un plazo de duración". Antes de transcribirlos en una pieza, cotejar contra el Boletín Oficial: puede ser puntuación de la fuente o un corte]
+
+Para el **comentario** de estos artículos —no para el literal, que ya tiene fuente primaria acá—
+el Tomo 2 del CCyC Comentado está en `argentina/fuentes/ccyc-comentado/`, y los procesos de
+familia arrancan en la página impresa 583; en ese tomo la página del PDF es la impresa más 23.
 
 ---
 
@@ -270,8 +284,50 @@ contenidos digitales violentos** que incorporó la Ley 27.736.
 > artículo trae el plazo: el juez o jueza **debe adoptar la medida dentro de las 48 horas** de
 > haber tomado conocimiento.
 >
-> `[INSERTAR FALLO VERIFICADO: si un juzgado de familia de PBA dicta la supresión de contenidos digitales por el art. 26 de la Ley 26.485 pese al art. 1, o la encuadra en el inc. n del art. 7 de la Ley 12.569 - aportar juzgado, camara y año]`
-> `[VERIFICAR VIGENCIA: Ley 14.407 PBA - la emergencia que declara es por dos años desde el 18/10/2012; verificar si fue prorrogada antes de invocarla como adhesión vigente]`
+>
+> **Cómo lo resuelven en los hechos: por ninguna de las dos.** Dos sentencias bonaerenses leídas
+> contra el documento —Juzgado de Familia N° 4 de La Matanza, expte. LM-1573-2024 del 30/01/2024,
+> y Juzgado de Paz Letrado de Ituzaingó, causa 63 del 20/11/2024— **no citan el art. 26 de la
+> 26.485 ni el inc. n) del art. 7 de la 12.569**. Usan una tercera vía, y coincide entre juzgados
+> distintos:
+>
+> - De la ley nacional toman **sólo el art. 6 inc. i)**, el que *define* la violencia digital
+>   —incorporado por la Ley 27.736 y su Decreto 542/23—. Es norma **definitoria, no procesal**: así
+>   no necesitan invocar el capítulo de medidas de la 26.485 y el problema del art. 1 ni se
+>   plantea.
+> - La medida se ancla en el **art. 7 inc. a) de la 12.569**, el *"cese de los actos de
+>   perturbación o intimidación"*, reencuadrando la publicación y la retención del material como
+>   perturbación. El perímetro va por el inc. b), y en Ituzaingó se suma el art. 7 bis.
+> - El contenido de la orden llega lejos: abstenerse de publicar en redes y **eliminar el material
+>   íntimo de todos los dispositivos** *"incluso en la nube, sin que quede almacenado en ningún
+>   tipo de sistema o soporte"*, en **48 horas**, bajo multa.
+>
+> **Para un escrito, entonces:** el inc. a) es lo que la práctica acepta y conviene pedir; el inc.
+> n) queda como argumento subsidiario propio, **no como precedente**, porque no encontramos ni un
+> fallo que lo use para esto. Las dos sentencias son de **primera instancia** y vienen del
+> repositorio del MPD, no del registro del tribunal: autoridad débil, y así están marcadas en
+> `fallos.json` con su campo `origen`.
+>
+> `[INSERTAR FALLO VERIFICADO: supresión de contenidos digitales en violencia familiar resuelta por CAMARA o por la SCBA - lo verificado es todo de primera instancia, y no hay nada de alzada en el registro oficial]`
+>
+> **Verificado el 15/09/2026, y el resultado refuerza el punto: la emergencia está vencida.**
+> La 14.407 corre **dos años desde su sanción, el 18/10/2012** —su art. 1 dice "a partir de la
+> sanción de la presente"—, o sea hasta el **18/10/2014**. Hubo **una sola prórroga**, la **Ley
+> 14.731** (sancionada 04/06/2015, B.O. 27600 del 18/08/2015, consolidada en
+> `fuentes/normas/pba-ley-14731.txt`), y su art. 1 prorroga dos años
+> *"a contar a partir de su vencimiento"* —por eso cubre el hueco entre octubre de 2014 y su
+> propia publicación—. La cadena termina el **18/10/2016**.
+>
+> La ficha oficial de la Ley 14.407 en `normas.gba.gob.ar` lista sus normas relacionadas: además
+> de la 14.731 sólo figuran el Decreto 692/2013 y la Ley 12.764, y **ninguna de las dos
+> prorroga**. Así que, a lo que consta en el registro consolidado provincial, la emergencia
+> **no está vigente desde octubre de 2016**.
+>
+> Consecuencia para el argumento de arriba: quien invoque la Ley 14.407 como adhesión viva de PBA
+> a la Ley 26.485 no sólo se apoya en un inciso de una emergencia, sino en una emergencia
+> **vencida hace años**. La adhesión al régimen procesal nacional no se sostiene por ahí.
+>
+> `[VERIFICAR VIGENCIA: prórrogas de la Ley 14.407 PBA posteriores a la Ley 14.731 - la ficha oficial no registra ninguna, pero su última actualización es de 2019: si aparece una, la cadena cambia]`
 
 **Convención de Belém do Pará — Ley 24.632** da el parámetro de convencionalidad: derecho a una
 vida libre de violencia (art. 3) y **debida diligencia** estatal para prevenir, investigar y
@@ -330,14 +386,14 @@ se verifica antes de usarlo.
 | Instituto | Fondo | Doctrina y fallos |
 | --- | --- | --- |
 | Divorcio, convenio regulador | `kb/perfiles/familia-CLAUDE.md` § Divorcio | — |
-| **Compensación económica** (arts. 441-442 y 524-525 CCyCN) | **18.9 de este módulo**. Absorbido: ya no se rutea al perfil para el fondo | `[INSERTAR FALLO VERIFICADO: compensación economica, arts. 441-442 y 524-525 CCyCN - no hay precedente bajado]` |
+| **Compensación económica** (arts. 441-442 y 524-525 CCyCN) | **18.9 de este módulo**. Absorbido: ya no se rutea al perfil para el fondo | **18.9.1** — SCBA C. 124.589 (naturaleza objetiva y disponible; caducidad del art. 525) y CC San Martín Sala III 76208 (carga probatoria del desequilibrio). Los dos leídos contra el documento |
 | **Caducidades y prescripciones** (arts. 442, 525, 526, 590, 591, 593, 2562 inc. c) | `plazos.md` **8.5 bis**. Absorbido: ya no se rutea al perfil | — |
 | Régimen patrimonial del matrimonio | `kb/perfiles/familia-CLAUDE.md` § Régimen patrimonial | — |
 | Unión convivencial | `kb/perfiles/familia-CLAUDE.md` § Unión convivencial | — |
 | Responsabilidad parental y **cuidado personal compartido** | `kb/perfiles/familia-CLAUDE.md` § Responsabilidad parental | `fallos-csjn.md` 34.5 — "S., D. c/ R., L. M. s/ reintegro de hijo y alimentos", Fallos 336:849 |
 | Alimentos — fondo y cuantificación | `kb/perfiles/familia-CLAUDE.md` § Alimentos | `fallos-csjn.md` 34.5 — Fallos 336:849, que es de reintegro **y alimentos** |
 | Régimen comunicacional | `kb/perfiles/familia-CLAUDE.md` § Régimen comunicacional | — |
-| **Filiación, TRHA y gestación por sustitución** | `kb/perfiles/familia-CLAUDE.md` § Filiación | `[INSERTAR FALLO VERIFICADO: filiación, TRHA y gestación por sustitución, arts. 558-593 CCyCN - no hay precedente bajado]` |
+| **Filiación, TRHA y gestación por sustitución** | **18.10 de este módulo** para gestación por sustitución. El resto sigue en `kb/perfiles/familia-CLAUDE.md` § Filiación, sin auditar | **18.10** — CSJN "S., I. N. c/ A., C. L." (22/10/2024) y Juzgado de Familia N° 8 de La Plata, expte. 80155/2019 (27/04/2020). Los dos leídos contra el documento |
 | Adopción, guarda con fines de adopción, entrega directa | `kb/perfiles/familia-CLAUDE.md` § Adopción | `fallos-csjn.md` 34.5 — "D., H. C. y otros s/ guarda con fines de adopción", Fallos 346:287 |
 | Violencia familiar y de género | 18.6 de este módulo | `fallos-csjn.md` 34.5 — "Winteker", Fallos 329:5514, **pero es una decisión de competencia y nada más**: leer la nota de 34.5 antes de citarla |
 | **Sustracción internacional de menores** (La Haya 1980, Ley 23.857; Convención Interamericana, Ley 25.358) | **`fallos-csjn.md` 34.5**, con los holdings leídos contra el documento. `kb/perfiles/familia-CLAUDE.md` § Sustracción internacional queda como complemento **sin auditar** | `fallos-csjn.md` 34.5 — cuatro con holding escrito: Fallos 336:849 (voluntad cualificada y umbral del grave riesgo), 344:3078 (oposición del niño), 345:358 (violencia de género como especie del grave riesgo) y 347:1234 |
@@ -374,6 +430,11 @@ Modelos de escritos de la rama: ver `modelos.md` sección 23.
 Cotejado contra `fuentes/normas/ccycn-26994.txt`. **Son dos institutos paralelos y no idénticos**:
 el del matrimonio (arts. 441 y 442) y el de la unión convivencial (arts. 524 y 525). La diferencia
 de redacción entre uno y otro decide casos, así que van comparados.
+
+> **No hay impulso de oficio acá.** El art. 709 excluye la oficiosidad en los asuntos de
+> naturaleza exclusivamente económica entre partes capaces (18.4), y la acción de compensación
+> económica entre dos adultos capaces lo es. El impulso y la prueba son de la parte, y con un
+> plazo de caducidad corriendo.
 
 **Los tres requisitos, que son los mismos y hay que alegar por separado:**
 
@@ -418,14 +479,122 @@ Dos precisiones del texto que conviene tener a mano:
 > del art. 523 en la unión convivencial—. Es el error más caro del instituto y por eso vive con los
 > plazos, no acá.
 
-**Lo que este módulo no resuelve.** No hay fórmula legal de cuantificación: las pautas son
-circunstancias a ponderar, no una cuenta. Y no hay precedente propio cargado en el repo:
+### 18.9.1 Precedentes leídos
 
-`[INSERTAR FALLO VERIFICADO: compensación economica, arts. 441-442 y 524-525 CCyCN - no hay precedente bajado]`
+Los dos documentos están en `fuentes/jurisprudencia/` y los holdings se escribieron con el texto
+abierto, no con el sumario.
+
+**SCBA, C. 124.589, "M.L.F. c/ C.M.E. s/ Acción de compensación económica", 21/03/2022.** Unión
+convivencial, art. 525. Voto del doctor Torres, con adhesión de Kogan, Soria y Genoud.
+
+*Qué deja fijado sobre la naturaleza del instituto.* Es **"una acción de contenido patrimonial,
+derivada de las relaciones familiares, y que se estructura sobre un factor estrictamente objetivo:
+el desequilibrio económico causado"**, que **"deja de lado toda otra consideración o imputación
+subjetiva"**. Y es **esencialmente disponible**: el juez no puede fijarla si nadie la pidió, y las
+partes pueden renunciar al reclamo o al cobro, con una renuncia que puede ser expresa o **tácita,
+"al dejar transcurrir el tiempo del plazo de caducidad previsto por la ley sin efectuar el
+reclamo"**. El plazo **"tiene como misión brindar seguridad jurídica y soluciones rápidas frente a
+la ruptura"** y sigue el principio del *clean break*.
+
+*Qué NO dice, y es donde se lo cita mal.* **No corre el dies a quo al dictado de la sentencia que
+declara la unión convivencial.** Esa fue la tesis de la jueza de grado, y la Cámara la revocó
+sosteniendo que **"el inicio del término de caducidad está configurado por el cese de la
+convivencia, cuya determinación no requiere de un proceso autónomo [...] el que en ningún caso
+suspende o interrumpe el plazo de caducidad"**. La Corte **no desautoriza esa regla**: revoca por
+las circunstancias del caso. Computa que la actora **dispuso de su derecho dentro de los seis
+meses del cese** —pidió la compensación el 29/06/2017, dentro del expediente de constatación de la
+unión— y que el propio juzgado le respondió, ante ese pedido y ante dos reiteraciones, que debía
+encauzarlo **"en el momento procesal oportuno"**. Sobre eso concluye que la actora **"no puede
+verse perjudicada frente a las estrategias jurídicas fallidas en la instancia ordinaria"** y que
+la fecha de cese controvertida debió plantearse como defensa dentro del propio juicio de
+compensación. El voto de Kogan agrega que la Cámara **"agravó la situación"** al declarar la
+caducidad después de que el órgano judicial le hubiera dicho que esperara.
+
+*Cómo se usa.* Sirve para la naturaleza objetiva y disponible del instituto, y para pedir que no
+se declare la caducidad cuando **el reclamo se exteriorizó en plazo y fue el propio tribunal el
+que lo difirió**. No sirve para sostener, en general, que el plazo corre desde una sentencia
+declarativa: eso es exactamente lo contrario de lo que el fallo deja en pie.
+
+**Cámara de Apelación en lo Civil y Comercial de San Martín, Sala III, causa 76208, "E., M. R. c/
+L., M. F.", 22/07/2020.** Matrimonio, arts. 441-442. Confirma el rechazo de la compensación.
+
+Es el precedente de **carga probatoria**, que es donde se pierden estos juicios. El derecho
+**"resulta absolutamente independiente de la conducta de las partes durante la unión"** y basta
+que el desequilibrio sea **"objetivamente comprobable"**, pero hay que acreditar **los dos
+extremos**: el desequilibrio manifiesto que deja a uno en peor posición, **y que lo sea "por causa
+del proyecto de vida matrimonial y su culminación"**. La Cámara lo dice de frente: **"lo relevante
+[...] no es la constatación de cualquier diferencia patrimonial entre los cónyuges"**. Enumera qué
+hay que probar —situación del peticionante **antes** de contraer nupcias, su realidad laboral o
+profesional **al concluir** el matrimonio, la desventaja derivada del estilo de vida convenido— y
+rechaza la acción porque de los propios dichos de la actora surgía que **había completado su
+formación profesional**, sin prueba de la postergación alegada. También deja sentado que la prueba
+sobre el patrimonio del demandado **no alcanza por sí sola**, y que lo referido a la tenencia
+accionaria excede el marco del juicio: eso es liquidación de la sociedad conyugal.
+
+Y una frase que cierra la discusión de naturaleza jurídica: la compensación **"se aleja de todo
+contenido asistencial, así como de la noción de culpa/inocencia"**, porque el divorcio **"no es un
+evento generador de daños"**.
+
+**Lo que sigue sin resolverse.** No hay fórmula legal de cuantificación: las pautas de los arts.
+442 y 525 son circunstancias a ponderar, no una cuenta, y ninguno de los dos fallos fija método.
+Tampoco hay precedente cargado sobre **compensación en especie** ni sobre cuantificación en
+módulos del SMVM.
+
+`[INSERTAR FALLO VERIFICADO: cuantificación de la compensación económica - método y monto, arts. 442 y 525 CCyCN - los dos precedentes cargados resuelven procedencia y caducidad, no cuánto]`
 
 Para la doctrina y los criterios de cuantificación que circulan, `kb/perfiles/familia-CLAUDE.md`
 § Divorcio y § Unión convivencial siguen sirviendo **como complemento sin auditar**, con la
 advertencia del bloque de contradicciones nominadas.
+
+---
+
+## 18.10 · Gestación por sustitución — qué decidió la Corte y qué dejó abierto
+
+El CCyCN **no la reguló**: el art. 562 dice que los nacidos por TRHA son hijos de **quien dio a
+luz** y de quien prestó el consentimiento previo, informado y libre de los arts. 560 y 561. Sobre
+ese texto se construyó una práctica de autorizaciones judiciales previas, y en 2024 la Corte se
+pronunció.
+
+**CSJN, CIV 86767/2015/1/RH1, "S., I. N. c/ A., C. L. s/ impugnación de filiación", 22/10/2024.**
+Dos comitentes pidieron desplazar a la gestante de su estado de madre; la gestante **se allanó**.
+La Corte confirma el rechazo. Cuatro cosas que deja fijadas, y conviene no estirarlas:
+
+1. **El art. 562 se aplica.** Tratándose de un nacimiento por TRHA es **"aplicable al caso, por lo
+   que no puede invocarse a este respecto que exista un vacío normativo habilitante del principio
+   de discreción emergente del art. 19 de la Constitución Nacional"**. No hay laguna que llenar.
+2. **El desacuerdo con la norma no alcanza.** **"Se podrá estar de acuerdo o en desacuerdo con la
+   cláusula en cuestión, pero lo cierto es que un juez no puede declarar la inconstitucionalidad
+   de una norma basado en su mero desacuerdo con ella"**, por ser *ultima ratio* del orden
+   jurídico.
+3. **Señala una vía alternativa concreta:** las partes no demostraron que su pretensión filiatoria
+   careciera de respuesta en otro instituto, **"tal como podría ser la adopción de integración"**
+   (art. 630 CCyCN). Es el camino que la Corte deja indicado.
+4. **No trató la validez de los consentimientos:** por el modo en que decide, lo declara
+   innecesario.
+
+**Lo que la Corte NO dijo, y es donde se la cita de más.** No declaró constitucional el art. 562
+ni cerró la gestación por sustitución. La inconstitucionalidad **no había sido planteada** en la
+instancia de origen, y lo que la Corte reprocha es fundarla en el mero desacuerdo. La puerta sigue
+formalmente abierta —planteo fundado, y no simple discrepancia—, sólo que con el listón alto y con
+la adopción de integración señalada como respuesta disponible. Hay **disidencia de Maqueda**, y
+votos propios de Rosenkrantz y de Lorenzetti: no es una sentencia de fundamento único.
+
+**Juzgado de Familia N° 8 de La Plata, expte. 80155/2019, "D., J. E. y otro/a s/ Autorización
+judicial", 27/04/2020.** Es el modelo de autorización **previa** a la práctica, y va con su fecha
+por delante: es de 2020, **cuatro años anterior** al fallo de la Corte. Comitente sin útero y
+embriones crioconservados con material genético de la pareja. Resuelve **"Declarar la
+inconstitucionalidad, en el caso en concreto, del art. 562 del CCCN"** porque **"vulnera el derecho
+humano a fundar una familia y la capacidad de autodeterminación de los comitentes"**, autoriza la
+transferencia embrionaria, y **adelanta al Registro de las Personas** que la documentación del niño
+deberá coincidir con la voluntad procreacional expresada en el consentimiento (arts. 560 y 561).
+
+**Cómo conviven los dos.** No se contradicen en el aire: resuelven cosas distintas y en momentos
+distintos. La Plata declara la inconstitucionalidad **planteada y fundada**, en el caso, y
+**antes** de la transferencia; la Corte rechaza el desplazamiento **después** del nacimiento y sin
+planteo de inconstitucionalidad. Citar La Plata como criterio vigente sin la sentencia de 2024
+al lado es el error a evitar.
+
+`[INSERTAR FALLO VERIFICADO: autorización judicial de gestación por sustitución POSTERIOR al fallo de la CSJN del 22/10/2024 - hace falta saber si los juzgados siguieron autorizando y con qué fundamento]`
 
 ## Puntos abiertos
 

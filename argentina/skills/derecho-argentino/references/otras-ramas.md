@@ -2,11 +2,12 @@
 
 > Módulo de referencia de la skill `derecho-argentino`. Numeración global, sección 19.
 
-**Trece ramas tienen módulo auditado contra fuente primaria:** laboral (5), civil y comercial (6),
-consumidor (17), familia (18), penal (24), salud y discapacidad (27), contencioso administrativo
-de PBA (26), tránsito (28), concursos (29), datos personales (30), societario (31), previsional
-(32) y tributario (33). **Cada uno cubre una parte de su rama y tiene precedencia sobre el
-perfil**; el mapa de abajo dice, rama por rama, qué cubre el módulo y qué queda en el perfil.
+**Catorce ramas tienen módulo auditado contra fuente primaria:** laboral (5), civil y comercial
+(6), consumidor (17), familia (18), penal (24), salud y discapacidad (27), contencioso
+administrativo de PBA (26), tránsito (28), concursos (29), datos personales (30), societario (31),
+previsional (32), tributario (33) y derecho internacional privado (35, capítulos 1 y 2). **Cada
+uno cubre una parte de su rama y tiene precedencia sobre el perfil**; el mapa de abajo dice, rama
+por rama, qué cubre el módulo y qué queda en el perfil.
 
 Lo que **no** tiene módulo son las especialidades del final del mapa —medicina legal, violencia
 digital y notarial— y lo contencioso administrativo de las demás jurisdicciones. Para eso hay

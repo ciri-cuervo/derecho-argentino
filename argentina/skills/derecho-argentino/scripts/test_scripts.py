@@ -2346,5 +2346,398 @@ class TestManifiestoDeCodex(unittest.TestCase):
                                  f"copiá assets/marca/{nombre} a argentina/assets/, no lo edites acá")
 
 
+
+class TestNormasDeCambiosRecientes(unittest.TestCase):
+    """Toda norma nombrada en «Cambios recientes» está declarada o tiene veredicto escrito.
+
+    Es el hueco que ninguna otra medida tapa. `cobertura_normativa.py` cruza las leyes que un
+    módulo cita **con articulado**, así que una resolución nombrada en una lista de cambios
+    recientes no cae en su ventana: puede quedar ahí sin que nada la reclame. Y es justamente
+    donde el repositorio anota lo más volátil —montos, reglamentaciones del semestre—, que es
+    lo primero que envejece.
+
+    La salida es la misma que para el articulado: o la norma está en `normas.json`, o alguien
+    escribió por qué no, en `cobertura-revisada.json`. Lo que no se admite es el silencio.
+    """
+
+    RAIZ = Path(__file__).resolve().parents[4]
+    SECCION = "## 13 ·"
+    # Una norma se reconoce por la palabra que la nombra, no por su forma: en `12/12/2024` el
+    # `12/2024` no es ninguna norma. La prosa además las enumera —"Decretos 407, 408 y
+    # 409/2026"—, y ahí el año del final vale para toda la lista.
+    CLAVE = r"(?:Ley(?:es)?|Res\.|Resoluci[oó]n|Decretos?|RG(?:\s+ARCA)?)"
+    LISTA = re.compile(
+        CLAVE + r"[^\n:;]{0,24}?((?:\d{1,4}(?:\.\d{3})?)(?:\s*(?:,|y)\s*\d{1,4})*\s*/?\s*\d{0,4})")
+
+    @staticmethod
+    def _clave(numero: str) -> str:
+        """Clave canónica de una norma: `4/2026` -> `4|2026`, `27.802` -> `27802`.
+
+        Se compara por igualdad y NO por subcadena: aplanados a dígitos, `5844/2026` contiene
+        a `4/2026`, así que una norma borrada del manifiesto seguía pareciendo declarada
+        porque otra, sin relación, la contenía.
+        """
+        if "/" in numero:
+            cuerpo, anio = numero.split("/", 1)
+            return f"{cuerpo.strip()}|{anio.strip()}"
+        return numero.replace(".", "").strip()
+
+    @classmethod
+    def _clave_de_slug(cls, slug: str) -> str:
+        """Misma clave, leída del slug: `res-srt-39-2026` -> `39|2026`, `ley-27802` -> `27802`."""
+        con_anio = re.search(r"-(\d{1,4})-(\d{4})$", slug)
+        if con_anio:
+            return f"{con_anio.group(1)}|{con_anio.group(2)}"
+        suelto = re.search(r"-(\d{4,5})$", slug)
+        return suelto.group(1) if suelto else ""
+
+    @classmethod
+    def _normas_de(cls, renglon: str) -> list:
+        salida = []
+        for tramo in cls.LISTA.findall(renglon):
+            tramo = tramo.strip()
+            if "/" in tramo:
+                cuerpo, anio = tramo.rsplit("/", 1)
+                if not (anio.isdigit() and len(anio) == 4):
+                    continue
+                salida += [f"{numero}/{anio}" for numero in re.findall(r"\d{1,4}", cuerpo)]
+            elif "." in tramo:
+                salida.append(tramo)
+        return salida
+
+    def setUp(self):
+        modulo = (self.RAIZ / "argentina" / "skills" / "derecho-argentino" / "references"
+                  / "changelog-normativo.md")
+        self.assertTrue(modulo.exists(), f"falta {modulo}")
+        texto = modulo.read_text(encoding="utf-8")
+        self.assertIn(self.SECCION, texto,
+                      f"no está la sección «{self.SECCION}»: el test quedó mirando otra cosa")
+        seccion = texto.split(self.SECCION)[1].split("\n---")[0]
+        self.renglones = [l for l in seccion.splitlines() if l.startswith("- **")]
+        self.vinetas = [l for l in seccion.splitlines()
+                        if re.match(r"\s*[-*+]\s|\s*\d+[.)]\s", l)]
+
+        normas = json.loads((self.RAIZ / "argentina" / "fuentes" / "normas" / "normas.json")
+                            .read_text(encoding="utf-8"))["normas"]
+        self.declarado = {self._clave_de_slug(n["slug"]) for n in normas} - {""}
+        revisadas = json.loads((self.RAIZ / "herramientas" / "cobertura-revisada.json")
+                               .read_text(encoding="utf-8"))
+        crudo = json.dumps(revisadas.get("leyes", {}), ensure_ascii=False)
+        self.con_veredicto = {self._clave(n) for n in
+                              re.findall(r"\d{1,3}\.\d{3}|\d{1,4}/\d{4}", crudo)}
+
+    def test_el_lector_ve_todos_los_renglones_de_la_seccion(self):
+        # Sin umbral: si un renglón de la lista cambia de marcador o de forma, el lector lo
+        # pierde y el test de cobertura pasa en verde sin haberlo mirado. Un número mínimo no
+        # se entera de eso, porque los otros seis ya lo superan solos.
+        self.assertTrue(self.vinetas, "«Cambios recientes» no tiene ningún renglón de lista")
+        perdidos = [l for l in self.vinetas if l not in self.renglones]
+        self.assertEqual(perdidos, [],
+                         "el lector no reconoce estos renglones de «Cambios recientes», así que "
+                         "las normas que nombran no las revisa nadie: " + "; ".join(
+                             l.strip()[:60] for l in perdidos))
+
+    def test_las_claves_no_se_confunden_entre_si(self):
+        # El caso que rompió la versión anterior: por subcadena, `5844/2026` tapaba a `4/2026`.
+        self.assertNotEqual(self._clave("4/2026"), self._clave("5844/2026"))
+        self.assertEqual(self._clave("39/2026"), self._clave_de_slug("res-srt-39-2026"))
+        self.assertEqual(self._clave("27.802"), self._clave_de_slug("ley-27802"))
+        self.assertEqual(self._clave("15.563"), self._clave_de_slug("pba-ley-15563"))
+        self.assertEqual(self._clave("409/2026"), self._clave_de_slug("decreto-409-2026"))
+
+    def test_el_lector_acierta_en_los_casos_de_control(self):
+        # Un lector que se equivoca en un renglón conocido no sirve para los que nadie miró.
+        self.assertEqual(
+            self._normas_de("Decretos 407, 408 y 409/2026 (BO 01/06/2026): reglamentación de "
+                            "la Ley 27.802"),
+            ["407/2026", "408/2026", "409/2026", "27.802"],
+            "el lector no abre la enumeración de decretos o pierde la ley del final")
+        self.assertEqual(self._normas_de("PBA - Ley 15.513 (sancionada 12/12/2024)"), ["15.513"],
+                         "el lector confunde una fecha con un número de norma")
+
+    def test_cada_norma_listada_esta_declarada_o_tiene_veredicto(self):
+        for renglon in self.renglones:
+            corto = re.sub(r"\*\*|\s+", " ", renglon[2:]).strip()[:60]
+            with self.subTest(corto):
+                numeros = self._normas_de(renglon)
+                self.assertTrue(numeros, f"«{corto}» no nombra ninguna norma reconocible")
+                for numero in numeros:
+                    clave = self._clave(numero)
+                    self.assertTrue(clave in self.declarado or clave in self.con_veredicto,
+                                    f"«{corto}» nombra la norma {numero}, que no está declarada "
+                                    f"en normas.json ni tiene veredicto en "
+                                    f"cobertura-revisada.json. No la reclama ninguna herramienta.")
+
+
+class TestPlantillaDelEncabezado(unittest.TestCase):
+    """La plantilla del encabezado tiene que formatear con los nombres que el script le pasa.
+
+    Un marcador de `str.format` es un identificador, no prosa: acentuar `{jurisdicción}` deja la
+    plantilla sintácticamente perfecta y rompe la descarga entera con un `KeyError`, en la
+    llamada y no al importar. Ningún test lo veía porque nadie formateaba la plantilla sin bajar
+    una norma de verdad. Esto la formatea en seco.
+    """
+
+    RUTA = (Path(__file__).resolve().parents[3] / "fuentes" / "scripts" / "descargar_normas.py")
+
+    def setUp(self):
+        self.assertTrue(self.RUTA.exists(), f"falta {self.RUTA}")
+        self.fuente = self.RUTA.read_text(encoding="utf-8")
+
+    def _plantilla(self) -> str:
+        hallada = re.search(r'ENCABEZADO = """(.*?)"""', self.fuente, re.S)
+        self.assertIsNotNone(hallada, "no se encontró ENCABEZADO: el test quedó mirando nada")
+        return hallada.group(1)
+
+    def _llamada(self) -> set:
+        """Los nombres que el script le pasa a .format(), leídos de la llamada real."""
+        hallada = re.search(r"ENCABEZADO\.format\((.*?)\)\n", self.fuente, re.S)
+        self.assertIsNotNone(hallada, "no se encontró la llamada a ENCABEZADO.format()")
+        return set(re.findall(r"(\w+)\s*=", hallada.group(1)))
+
+    def test_los_marcadores_son_ascii(self):
+        for marcador in re.findall(r"\{(\w+)\}", self._plantilla()):
+            with self.subTest(marcador):
+                self.assertEqual(marcador, marcador.encode("ascii", "ignore").decode(),
+                                 f"`{{{marcador}}}` lleva un carácter no ASCII: es un "
+                                 f"identificador de format(), no prosa, y rompe la descarga")
+
+    def test_la_plantilla_formatea_con_lo_que_el_script_le_pasa(self):
+        pasados = self._llamada()
+        self.assertIn("titulo", pasados, "la llamada no se leyó bien: faltan los nombres")
+        pedidos = set(re.findall(r"\{(\w+)\}", self._plantilla()))
+        self.assertEqual(pedidos - pasados, set(),
+                         "la plantilla pide marcadores que la llamada no pasa: la descarga "
+                         "muere con KeyError recién al bajar la primera norma")
+        # Y se formatea de verdad, que es lo único que prueba que no hay KeyError.
+        self._plantilla().format(**{nombre: "x" for nombre in pasados})
+
+    def _texto_fijo(self) -> list:
+        """Los tramos de la plantilla que no son marcadores: etiquetas y prosa.
+
+        Es lo que queda igual en todo `.txt` bajado, así que es lo comparable. Se saca por
+        renglón y sacándole los `{marcador}`, que son lo único que varía de archivo a archivo.
+        """
+        tramos = []
+        for renglon in self._plantilla().splitlines():
+            fijo = re.sub(r"\{\w+\}", "", renglon).strip()
+            if fijo and set(fijo) != {"="}:
+                tramos.append(fijo)
+        return tramos
+
+    def test_el_texto_fijo_del_encabezado_no_se_bifurca_del_corpus(self):
+        # Los .txt ya bajados llevan escrito este mismo encabezado, así que la plantilla y el
+        # corpus son el mismo texto en dos lugares. Retocar una palabra acá no corrige nada:
+        # parte el corpus en dos -los viejos con una forma y los nuevos con otra- y volver a
+        # alinearlo exige bajar las normas de nuevo, que con los 403 de InfoLEG y normas.gba
+        # sólo puede hacer el usuario.
+        #
+        # Se comparan TODOS los tramos fijos, etiquetas y prosa. Mirar una etiqueta por
+        # posición no alcanza: en cuanto el encabezado gana un renglón, el control pasa a medir
+        # la etiqueta de al lado -que el corpus también tiene-, se queda verde, y lo que cambió
+        # deja de mirarse. Y la prosa quedaba afuera del todo, que es por donde se bifurcó.
+        normas = self.RUTA.resolve().parents[1] / "normas"
+        bajados = sorted(normas.glob("*.txt"))
+        if not bajados:
+            self.skipTest("no hay .txt bajados contra los que comparar")
+        tramos = self._texto_fijo()
+        self.assertGreater(len(tramos), 5,
+                           "se leyeron muy pocos tramos fijos: el test quedó mirando casi nada")
+        textos = [(p.name, p.read_text(encoding="utf-8")) for p in bajados]
+        for fijo in tramos:
+            with self.subTest(fijo[:40]):
+                distintos = [nombre for nombre, texto in textos if fijo not in texto]
+                self.assertEqual(distintos[:5], [],
+                                 f"la plantilla escribe «{fijo[:60]}» y {len(distintos)} de "
+                                 f"{len(textos)} archivos ya bajados usan otra forma: o se "
+                                 f"revierte la plantilla, o se vuelven a bajar todos")
+
+
+class TestTramosDelSMVM(unittest.TestCase):
+    """El cuadro de 5.12 bis tiene que decir lo que dice el texto de la Res. 4/2026.
+
+    Es un monto escrito en un módulo, que es la forma más cara de equivocarse que tiene este
+    repositorio: nadie lo ve. Entra porque la resolución fija tramos con fecha de comienzo, así
+    que cada uno queda acotado por el siguiente y se vence a la vista. Lo que este test sostiene
+    es la otra mitad: que lo escrito sea lo transcripto, tramo por tramo y peso por peso, contra
+    el consolidado con procedencia y no contra la memoria de nadie.
+    """
+
+    RAIZ = Path(__file__).resolve().parents[4]
+    SLUG = "res-cnepysmvym-4-2026"
+    MESES = {"enero": "01", "febrero": "02", "marzo": "03", "abril": "04", "mayo": "05",
+             "junio": "06", "julio": "07", "agosto": "08", "septiembre": "09", "octubre": "10",
+             "noviembre": "11", "diciembre": "12"}
+
+    def setUp(self):
+        fuente = self.RAIZ / "argentina" / "fuentes" / "normas" / f"{self.SLUG}.txt"
+        if not fuente.exists():
+            self.skipTest(f"no está bajado {self.SLUG}.txt: sin fuente no se mide")
+        self.modulo = (self.RAIZ / "argentina" / "skills" / "derecho-argentino" / "references"
+                       / "laboral.md").read_text(encoding="utf-8")
+        self.texto = fuente.read_text(encoding="utf-8")
+
+    def _de_la_norma(self) -> list:
+        cuerpo = self.texto.split("ARTÍCULO 2")[0]
+        partes = re.split(r"\n([a-z])\.-\s", cuerpo)[1:]
+        filas = []
+        for tramo in partes[1::2]:
+            fecha = re.search(r"A partir del 1°\s+de\s+(\w+)\s+(?:de\s+)?(\d{4})", tramo)
+            montos = re.findall(r"\$\s?([\d.]+)", tramo)
+            if not fecha or len(montos) < 2:
+                continue
+            filas.append((f"01/{self.MESES[fecha.group(1).lower()]}/{fecha.group(2)}",
+                          montos[0], montos[1]))
+        return filas
+
+    def _del_modulo(self) -> list:
+        bloque = self.modulo.split("### 5.12 bis")[1].split("\n### ")[0]
+        return [(f, m.strip(), h.strip()) for f, m, h in
+                re.findall(r"\|\s*(\d{2}/\d{2}/\d{4})\s*\|\s*\$\s*([\d.]+)\s*\|"
+                           r"\s*\$\s*([\d.]+)\s*\|", bloque)]
+
+    def test_el_lector_encuentra_las_dos_listas(self):
+        # Si cualquiera de los dos lectores se apaga, la comparación de abajo da verde sobre dos
+        # listas vacías, que es exactamente igual de verde que sobre dos listas iguales.
+        self.assertGreaterEqual(len(self._de_la_norma()), 2, "no se leyeron tramos de la norma")
+        self.assertGreaterEqual(len(self._del_modulo()), 2, "no se leyó el cuadro del módulo")
+
+    def test_el_cuadro_dice_lo_mismo_que_la_norma(self):
+        self.assertEqual(self._del_modulo(), self._de_la_norma(),
+                         "el cuadro de SMVM de `laboral.md` 5.12 bis no coincide con "
+                         f"{self.SLUG}.txt: se transcribe del consolidado, no de memoria")
+
+    def test_el_modulo_cita_la_resolucion_que_transcribe(self):
+        bloque = self.modulo.split("### 5.12 bis")[1].split("\n### ")[0]
+        self.assertIn(self.SLUG, bloque,
+                      "el cuadro no dice de qué archivo de fuentes/ sale: sin procedencia a la "
+                      "vista, un monto escrito es una afirmación sin respaldo")
+
+
+class TestOrigenDeLosFallos(unittest.TestCase):
+    """Un fallo que no viene del registro del tribunal tiene que decir de dónde viene.
+
+    La tabla de portales de `fuentes.md` 14 no es una lista de sitios confiables: es una regla de
+    prelación, su texto prevalece ante discrepancia. Un repositorio que selecciona una parte, o un
+    sitio privado, no puede reclamar eso — y sin embargo el documento puede ser el único disponible
+    cuando ningún registro judicial publica esa instancia.
+
+    La salida es el campo `origen`: el fallo entra, marcado por lo que es. Lo que no se admite es
+    que una URL de cualquier lado se vea igual que una del registro.
+
+    Los dominios permitidos NO están escritos acá: salen de la propia tabla de `fuentes.md`, para
+    que agregar un portal sea un solo cambio y no dos que se despegan.
+    """
+
+    RAIZ = Path(__file__).resolve().parents[4]
+
+    def setUp(self):
+        fuentes = (self.RAIZ / "argentina" / "skills" / "derecho-argentino" / "references"
+                   / "fuentes.md").read_text(encoding="utf-8")
+        # Anclado al renglón entero: partir por el prefijo hace que `### Portalesx` también
+        # matchee, y el lector se queda leyendo otra tabla sin avisar.
+        corte = re.search(r"^### Portales[ \t]*$", fuentes, re.M)
+        self.assertIsNotNone(corte, "no está la tabla «### Portales» de fuentes.md")
+        tabla = fuentes[corte.end():].split("\n###")[0]
+        self.primarios = {re.sub(r"^www\.", "", h)
+                          for h in re.findall(r"https://([^/\s|]+)", tabla)}
+        self.assertGreaterEqual(len(self.primarios), 8,
+                                "se leyeron muy pocos portales: el lector quedó apagado y "
+                                "entonces cualquier dominio pasaría por no primario o al revés")
+        datos = json.loads((self.RAIZ / "argentina" / "fuentes" / "jurisprudencia"
+                            / "fallos.json").read_text(encoding="utf-8"))
+        self.fallos = datos["fallos"]
+
+    def _es_primario(self, url: str) -> bool:
+        host = re.sub(r"^www\.", "", re.match(r"https?://([^/]+)", url).group(1)).lower()
+        return any(host == p or host.endswith("." + p) for p in self.primarios)
+
+    def test_el_lector_separa_los_dos_mundos(self):
+        # Si diera todo primario o todo ajeno, el test de abajo no revisaría nada real.
+        propios = [f for f in self.fallos if self._es_primario(f["url"])]
+        ajenos = [f for f in self.fallos if not self._es_primario(f["url"])]
+        self.assertTrue(propios, "ningún fallo quedó como de registro: el lector está roto")
+        self.assertTrue(ajenos, "ningún fallo quedó fuera de la lista: si es cierto, este test "
+                                "sobra; si no, el lector está roto")
+
+    def test_todo_fallo_de_fuera_del_registro_declara_su_origen(self):
+        for f in self.fallos:
+            if self._es_primario(f["url"]):
+                continue
+            with self.subTest(f["slug"]):
+                origen = f.get("origen", "").strip()
+                self.assertTrue(origen,
+                                f"{f['slug']} no sale de ningún portal de la tabla de fuentes.md "
+                                f"y no declara `origen`: {f['url']}")
+                self.assertGreater(len(origen), 40,
+                                   f"{f['slug']}: el `origen` tiene que decir de dónde salió y "
+                                   f"por qué no está el registro del tribunal")
+
+    def test_nadie_declara_origen_viniendo_del_registro(self):
+        # Al revés también importa: un `origen` sobre una URL del registro es ruido que enseña a
+        # ignorar el campo, y el campo sólo sirve mientras signifique algo.
+        for f in self.fallos:
+            if f.get("origen") and self._es_primario(f["url"]):
+                self.fail(f"{f['slug']} declara `origen` pero su URL sí es de la tabla de "
+                          f"fuentes.md: sacalo, o el campo deja de querer decir algo")
+
+
+class TestMapaDeCobertura(unittest.TestCase):
+    """`docs/COBERTURA.md` nombra módulos, y esa lista se despega sola.
+
+    El documento es un relevamiento fechado: que la taxonomía siga siendo la de las fuentes no lo
+    puede verificar nadie, y así está dicho ahí. Lo que sí se puede sostener es la otra mitad —
+    que los módulos que nombra existan, y que ningún módulo del repositorio quede sin mencionar.
+    Sin esto, agregar un módulo deja el mapa mintiendo por omisión, que es la forma en que un
+    documento de cobertura se vuelve inútil sin que nadie lo note.
+
+    No se revisa el contenido de la taxonomía: eso se relee contra las fuentes y se cambia la
+    fecha. Un test que pretendiera verificarlo daría verde sobre una opinión.
+    """
+
+    RAIZ = Path(__file__).resolve().parents[4]
+
+    def setUp(self):
+        self.doc = self.RAIZ / "docs" / "COBERTURA.md"
+        self.assertTrue(self.doc.exists(), f"falta {self.doc}")
+        self.texto = self.doc.read_text(encoding="utf-8")
+        self.modulos = {p.name for p in
+                        (self.RAIZ / "argentina" / "skills" / "derecho-argentino"
+                         / "references").glob("*.md")}
+        self.assertGreater(len(self.modulos), 10, "no se encontraron los módulos")
+
+    def test_lleva_fecha_de_relevamiento(self):
+        # Vale por su fecha: sin ella, un mapa viejo se lee como si fuera de hoy.
+        self.assertRegex(self.texto, r"[Rr]elevado el \d{2}/\d{2}/\d{4}",
+                         "COBERTURA.md no dice cuándo se relevó")
+
+    def test_todo_modulo_que_nombra_existe(self):
+        nombrados = set(re.findall(r"`([a-z0-9-]+\.md)`", self.texto)) & {
+            n for n in re.findall(r"`([a-z0-9-]+\.md)`", self.texto)}
+        nombrados = {n for n in nombrados if n not in ("CLAUDE.md", "COBERTURA.md")}
+        self.assertTrue(nombrados, "COBERTURA.md no nombra ningún módulo: el lector quedó apagado")
+        for nombre in sorted(nombrados):
+            with self.subTest(nombre):
+                self.assertIn(nombre, self.modulos,
+                              f"COBERTURA.md nombra {nombre}, que no está en references/")
+
+    def test_las_ramas_con_modulo_estan_todas_nombradas(self):
+        # Sólo los módulos de RAMA: los de infraestructura no son cobertura de materia y
+        # nombrarlos en el mapa sería ruido.
+        infraestructura = {"changelog-normativo.md", "escritos.md", "fuentes.md", "intake.md",
+                           "marcadores.md", "modelos.md", "otras-ramas.md", "parte.md",
+                           "plazos.md", "fallos-csjn.md", "danos-indice-doctrinario.md",
+                           "sede-judicial-pba.md", "notificaciones-pba.md", "prueba-pericial.md",
+                           "ejecucion.md", "telegramas.md", "contratos.md", "civil.md"}
+        ramas = self.modulos - infraestructura
+        # Con backticks y nombre completo, que es como el documento cita un módulo: buscar la
+        # subcadena suelta haría que «transito» matchee dentro de «transitorio».
+        citados = set(re.findall(r"`([a-z0-9-]+\.md)`", self.texto))
+        faltan = sorted(r for r in ramas if r not in citados)
+        self.assertEqual(faltan, [],
+                         "estos módulos de rama existen y COBERTURA.md no los menciona, así que "
+                         "el mapa miente por omisión: " + ", ".join(faltan))
+
+
 if __name__ == "__main__":
     unittest.main()

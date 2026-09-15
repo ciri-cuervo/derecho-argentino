@@ -3,135 +3,6 @@
   "verificado": "2026-09-13",
   "fallos": [
     {
-      "slug": "scba-barrios-c124096-2024-04-17",
-      "caratula": "Barrios, Héctor Francisco y otra contra Lascano, Sandra Beatriz y otra. Daños y perjuicios",
-      "tribunal": "SCBA",
-      "causa": "C. 124.096",
-      "fecha": "2024-04-17",
-      "url": "https://www.scba.gov.ar/includes/descarga.asp?id=54321&n=Ver%20sentencia%20(causa%20C124.096).pdf"
-    },
-    {
-      "slug": "scba-galarza-l132729-2026-03-30",
-      "caratula": "Galarza, Daniel Alejandro c/ Prevención Aseguradora de Riesgos del Trabajo S.A. s/ accidente in itinere",
-      "tribunal": "SCBA",
-      "causa": "L. 132.729",
-      "fecha": "2026-03-30",
-      "url": "https://www.scba.gov.ar/includes/descarga.asp?id=58585&n=Ver+sentencia+(causa+L.132.729).pdf"
-    },
-    {
-      "slug": "scba-cabrera-c119176-2016-06-15",
-      "caratula": "Cabrera, Pablo David contra Ferrari, Adrián Rubén. Daños y perjuicios",
-      "tribunal": "SCBA",
-      "causa": "C. 119.176",
-      "fecha": "2016-06-15",
-      "url": "https://blogs.scba.gov.ar/juzgadocivil2laplata/wp-content/uploads/sites/22/2016/08/Ver-Sentencia-c119176.pdf"
-    },
-    {
-      "slug": "scba-diehl-l119966-2018-05-03",
-      "caratula": "Diehl, Enrique Jorge contra Ledesma, Carolina Vanesa y otro/a",
-      "tribunal": "SCBA",
-      "causa": "L. 119.966",
-      "fecha": "2018-05-03",
-      "url": "https://www.scba.gob.ar/includes/descarga.asp?id=39384&n=Ver+sentencia+(l119966).pdf"
-    },
-    {
-      "slug": "scba-trofe-l118587-2016-06-15",
-      "caratula": "Trofe, Evangelina Beatriz contra Fisco de la Provincia de Bs. As. Enfermedad profesional",
-      "tribunal": "SCBA",
-      "causa": "L. 118.587",
-      "fecha": "2016-06-15",
-      "url": "https://www.scba.gob.ar/includes/descarga.asp?id=35101&n=Ver%20Sentencia%20(l118587).pdf"
-    },
-    {
-      "slug": "scba-vera-c120536-2018-04-18",
-      "caratula": "Vera, Juan Carlos contra Provincia de Buenos Aires. Daños y perjuicios",
-      "tribunal": "SCBA",
-      "causa": "C. 120.536",
-      "fecha": "2018-04-18",
-      "url": "https://www.scba.gob.ar/includes/descarga.asp?id=39327&n=Ver%20sentencia%20(c120536).pdf"
-    },
-    {
-      "slug": "scba-nidera-c121134-2018-05-03",
-      "caratula": "Nidera S.A. contra Provincia de Buenos Aires. Daños y perjuicios",
-      "tribunal": "SCBA",
-      "causa": "C. 121.134",
-      "fecha": "2018-05-03",
-      "url": "https://www.scba.gob.ar/includes/descarga.asp?id=39327&n=Ver%20sentencia%20(c121134).pdf"
-    },
-    {
-      "slug": "scba-abraham-l108164-2013-11-13",
-      "caratula": "Abraham, Héctor Osvaldo c/ Todoli Hnos. SRL y otros s/ Daños y perjuicios",
-      "tribunal": "SCBA",
-      "causa": "L. 108.164",
-      "fecha": "2013-11-13",
-      "url": "https://www.scba.gob.ar/includes/descarga.asp?id=27951&n=Ver%20sentencia%20(L108164).pdf"
-    },
-    {
-      "slug": "scba-paredes-c123090-2020-09-18",
-      "caratula": "Paredes, Roberto Gabriel Horacio contra Transporte La Perlita S.A. y otros. Daños y perjuicios",
-      "tribunal": "SCBA",
-      "causa": "C. 123.090",
-      "fecha": "2020-09-18",
-      "url": "https://www.scba.gov.ar/includes/descarga.asp?id=46277&n=Ver%20sentencia%20(causa%20C123090).pdf"
-    },
-    {
-      "slug": "scba-gutierrezrellan-l119012-2018-05-16",
-      "caratula": "Gutiérrez Rellan, Fernando contra Col. de Odont. de la Prov. de Bs. As. Despido",
-      "tribunal": "SCBA",
-      "causa": "L. 119.012",
-      "fecha": "2018-05-16",
-      "url": "https://www.scba.gob.ar/includes/descarga.asp?id=39500&n=Ver%20sentencia%20(l119012).pdf"
-    },
-    {
-      "slug": "scba-repartosya-l128494-2026-04-09",
-      "caratula": "Repartos Ya S.A. Apelación de resolución administrativa",
-      "tribunal": "SCBA",
-      "causa": "L. 128.494",
-      "fecha": "2026-04-09",
-      "url": "https://www.scba.gob.ar/includes/descarga.asp?id=58670&n=Ver%20sentencia%20(causa%20L.128.494).pdf"
-    },
-    {
-      "slug": "scba-basualdolozano-l127263-2026-05-26",
-      "caratula": "Basualdo Lozano, Andrea Antonela Sabrina contra Municipalidad de Campana. Reinstalación (Sumarísimo)",
-      "tribunal": "SCBA",
-      "causa": "L. 127.263",
-      "fecha": "2026-05-26",
-      "url": "https://www.scba.gob.ar/includes/descarga.asp?id=59050&n=Ver%20sentencia%20(causa%20L.%20127.263).pdf"
-    },
-    {
-      "slug": "scba-rappi-l128287-2026-04-09",
-      "caratula": "Ministerio de Trabajo contra Rappi Argentina S.A.S. Apelación de resolución administrativa",
-      "tribunal": "SCBA",
-      "causa": "L. 128.287",
-      "fecha": "2026-04-09",
-      "url": "https://www.scba.gob.ar/includes/descarga.asp?id=58669&n=Ver%20sentencia%20(causa%20L128.287).pdf"
-    },
-    {
-      "slug": "scba-lastra-l135213-2025-09-17",
-      "caratula": "Lastra, Mario Oscar y otro/a c/ Unión Argentina de Trabajadores Rurales y Estibadores (UATRE) s/ Amparo sindical",
-      "tribunal": "SCBA",
-      "causa": "L. 135.213",
-      "fecha": "2025-09-17",
-      "url": "https://www.scba.gob.ar/includes/descarga.asp?id=57475&n=Ver%20sentencia%20(causa%20L.135.213).pdf"
-    },
-    {
-      "slug": "csjn-adduc-aysa-2021-10-14",
-      "caratula": "ADDUC y otros c/ AySA SA y otro s/ proceso de conocimiento",
-      "tribunal": "CSJN",
-      "causa": "CAF 17990/2012/1/RH1",
-      "fecha": "2021-10-14",
-      "url": "https://classactionsargentina.com/wp-content/uploads/2021/10/2021-10-14-csjn_adduc-c.-aysa-55-ldc-comprende-costas.pdf",
-      "nota": "PDF alojado fuera de csjn.gov.ar. Para citarlo en una resolucion conviene recuperar la copia oficial."
-    },
-    {
-      "slug": "scba-codec-c121973-2023-09-29",
-      "caratula": "Centro de Orientación y Educación del Consumidor (CODEC) contra Banco de la Provincia de Buenos Aires. Nulidad de contrato",
-      "tribunal": "SCBA",
-      "causa": "C. 121.973",
-      "fecha": "2023-09-29",
-      "url": "https://www.scba.gov.ar/includes/descarga.asp?id=52980&n=Ver%20sentencia%20(causa%20C121973).pdf"
-    },
-    {
       "slug": "camara-bahiablanca-castelli-141404-2014-08-28",
       "caratula": "Castelli, María Cecilia c/ Banco de Galicia y Buenos Aires S.A. s/ nulidad de acto jurídico",
       "tribunal": "Camara Primera de Apelacion en lo Civil y Comercial de Bahia Blanca, Sala II",
@@ -141,37 +12,214 @@
       "nota": "Instancia de origen de Castelli. Exigia dolo o grosera negligencia; ese estandar fue revisado por la SCBA en C. 119.562. Se conserva para no confundir las citas."
     },
     {
-      "slug": "scba-pre-c127266-2024-02-19",
-      "caratula": "P. R. E. c/ P. E. E. s/ Protección contra la violencia familiar (Ac. 4099)",
-      "tribunal": "SCBA",
-      "causa": "C. 127.266",
-      "fecha": "2024-02-19",
-      "url": "https://www.scba.gov.ar/violenciafamiliar/C%20127.266.pdf"
+      "slug": "ccsm3-emr-76208-2020-07-22",
+      "caratula": "E., M. R. c/ L., M. F. s/ Acción de compensación económica",
+      "tribunal": "Camara de Apelacion en lo Civil y Comercial Sala III, San Martin",
+      "causa": "76208",
+      "fecha": "2020-07-22",
+      "url": "https://juba.scba.gov.ar/VerTextoCompleto.aspx?idFallo=175536"
     },
     {
-      "slug": "scba-rja-c126644-2023-09-19",
-      "caratula": "R. J. A. c/ A. J. M. s/ Protección contra la violencia familiar (Ley 12.569) s/ Oficio",
-      "tribunal": "SCBA",
-      "causa": "C. 126.644",
-      "fecha": "2023-09-19",
-      "url": "https://www.scba.gov.ar/includes/descarga.asp?id=52839&n=Ver%20fallo%20(causa%20C126.644).pdf"
+      "slug": "csjn-acostaalejandroesteban-fallos-331-858",
+      "caratula": "ACOSTA ALEJANDRO ESTEBAN s/INFRACCIÓN ART. 14, 1 PÁRRAFO LEY 23737 -CAUSA N 28/05-",
+      "tribunal": "CSJN",
+      "causa": "Fallos 331:858",
+      "fecha": "2008-04-23",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=6424841"
     },
     {
-      "slug": "scba-rvs-c122501-2020-10-02",
-      "caratula": "R., V. S. contra D., G. J. Tenencia de hijo",
-      "tribunal": "SCBA",
-      "causa": "C. 122.501",
-      "fecha": "2020-10-02",
-      "url": "https://scba.gov.ar/includes/descarga.asp?id=46309&n=Ver%20sentencia%20(causa%20C122501).pdf"
+      "slug": "csjn-adduc-aysa-2021-10-14",
+      "caratula": "ADDUC y otros c/ AySA SA y otro s/ proceso de conocimiento",
+      "tribunal": "CSJN",
+      "causa": "CAF 17990/2012/1/RH1",
+      "fecha": "2021-10-14",
+      "url": "https://classactionsargentina.com/wp-content/uploads/2021/10/2021-10-14-csjn_adduc-c.-aysa-55-ldc-comprende-costas.pdf",
+      "nota": "PDF alojado fuera de csjn.gov.ar. Para citarlo en una resolucion conviene recuperar la copia oficial.",
+      "origen": "Sitio privado, no el registro de la Corte. Queda pendiente reemplazarlo por sjconsulta: ver _csjn_verdocumento para el patron que devuelve texto."
     },
     {
-      "slug": "scba-magliano-l131700-2025-09-19",
-      "caratula": "Magliano, Mauricio Germán c/ Fisco de la Provincia de Buenos Aires s/ enfermedad profesional",
-      "tribunal": "SCBA",
-      "causa": "L. 131.700",
-      "fecha": "2025-09-19",
-      "url": "https://www.scba.gov.ar/includes/descarga.asp?id=57501&n=Ver%20sentencia%20(causa%20L.%20131.700).pdf",
-      "nota": "Deja firme la inconstitucionalidad del plazo de caducidad de 90 dias habiles judiciales del art. 2 inc. j de la Ley 15.057. La composicion nominal de la mayoria no esta verificada: leer el PDF antes de citar votos."
+      "slug": "csjn-aquinoisacio-fallos-327-3753",
+      "caratula": "AQUINO ISACIO c/ CARGO SERVICIOS INDUSTRIALES S.A. s/ART. 39 LEY 24.557",
+      "tribunal": "CSJN",
+      "causa": "Fallos 327:3753",
+      "fecha": "2004-09-21",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=5667601"
+    },
+    {
+      "slug": "csjn-arancibiaclavelenrique-fallos-327-3312",
+      "caratula": "ARANCIBIA CLAVEL ENRIQUE LAUTARO s/HOMICIDIO CALIFICADO Y ASOCIACIÓN ILÍCITA Y OTROS -CAUSA N 259-",
+      "tribunal": "CSJN",
+      "causa": "Fallos 327:3312",
+      "fecha": "2004-08-24",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=5652881"
+    },
+    {
+      "slug": "csjn-arosteguipablomartin-fallos-331-570",
+      "caratula": "AROSTEGUI PABLO MARTÍN c/ OMEGA ASEGURADORA DE RIESGOS DEL TRABAJO S.A. Y PAMETAL PELUSO Y COMPAÑÍA S.R.L. Y OTRO s/INCONST. ART. 39 LRT",
+      "tribunal": "CSJN",
+      "causa": "Fallos 331:570",
+      "fecha": "2008-04-08",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=6414601"
+    },
+    {
+      "slug": "csjn-arriolasebastianyotros-fallos-332-1963",
+      "caratula": "ARRIOLA SEBASTIÁN Y OTROS s/CAUSA N 9080",
+      "tribunal": "CSJN",
+      "causa": "Fallos 332:1963",
+      "fecha": "2009-08-25",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=6711401"
+    },
+    {
+      "slug": "csjn-bazterrica-fallos-308-1392",
+      "caratula": "Bazterrica, Gustavo Mario - Alejandro Carlos Capalbo.",
+      "tribunal": "CSJN",
+      "causa": "Fallos 308:1392",
+      "fecha": "1986-08-29",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7838661"
+    },
+    {
+      "slug": "csjn-bianchiguillermooscar-fallos-325-1404",
+      "caratula": "BIANCHI GUILLERMO OSCAR s/DEFRAUDACIÓN",
+      "tribunal": "CSJN",
+      "causa": "Fallos 325:1404",
+      "fecha": "2002-06-27",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=5217731"
+    },
+    {
+      "slug": "csjn-buffoni-fallos-337-329",
+      "caratula": "Buffoni, Osvaldo Omar c/ Castro, Ramiro Martín Y OTRO s/daños y perjuicios",
+      "tribunal": "CSJN",
+      "causa": "Fallos 337:329",
+      "fecha": "2014-04-08",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7100771"
+    },
+    {
+      "slug": "csjn-cambiasoperesdenealonc-fallos-330-3725",
+      "caratula": "CAMBIASO PÉRES DE NEALÓN CELIA MARÍA ANA Y OTROS c/ CENTRO DE EDUCACIÓN MÉDICA E INVESTIGACIONES MÉDICAS s/AMPARO",
+      "tribunal": "CSJN",
+      "causa": "Fallos 330:3725",
+      "fecha": "2007-08-28",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=6319251"
+    },
+    {
+      "slug": "csjn-canales-fallos-342-697",
+      "caratula": "Canales, Mariano Eduardo y otro s/ homicidio agravado - impugnación extraordinaria",
+      "tribunal": "CSJN",
+      "causa": "Fallos 342:697",
+      "fecha": "2019-05-02",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7519692"
+    },
+    {
+      "slug": "csjn-casalmatiaseugenioyotr-fallos-328-3399",
+      "caratula": "CASAL MATÍAS EUGENIO Y OTRO s/ROBO SIMPLE EN GRADO DE TENTATIVA -CAUSA N 1681-",
+      "tribunal": "CSJN",
+      "causa": "Fallos 328:3399",
+      "fecha": "2005-09-20",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=5921391"
+    },
+    {
+      "slug": "csjn-cuellopatriciadorotea-fallos-330-3483",
+      "caratula": "CUELLO PATRICIA DOROTEA c/ LUCENA PEDRO ANTONIO Y OTRO s/DAÑOS Y PERJUICIOS",
+      "tribunal": "CSJN",
+      "causa": "Fallos 330:3483",
+      "fecha": "2007-08-07",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=6309991"
+    },
+    {
+      "slug": "csjn-duarte-fallos-337-901",
+      "caratula": "Duarte, Felicia s/recurso de casación",
+      "tribunal": "CSJN",
+      "causa": "Fallos 337:901",
+      "fecha": "2014-08-05",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7132211"
+    },
+    {
+      "slug": "csjn-estevezjoseluis-fallos-320-2105",
+      "caratula": "ESTÉVEZ JOSÉ LUIS s/SOLICITUD DE ESCARCELACION -CAUSA N 33.769-",
+      "tribunal": "CSJN",
+      "causa": "Fallos 320:2105",
+      "fecha": "1997-10-03",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=4017251"
+    },
+    {
+      "slug": "csjn-fiorentino-fallos-306-1752",
+      "caratula": "Fiorentino, Diego Enrique.",
+      "tribunal": "CSJN",
+      "causa": "Fallos 306:1752",
+      "fecha": "1984-11-27",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7835711"
+    },
+    {
+      "slug": "csjn-gongora-fallos-336-392",
+      "caratula": "Góngora, Gabriel Arnaldo s/causa n 14.092",
+      "tribunal": "CSJN",
+      "causa": "Fallos 336:392",
+      "fecha": "2013-04-23",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7008981"
+    },
+    {
+      "slug": "csjn-guarda-adoptabilidad-fallos-346-287",
+      "caratula": "D., H.C. Y OTROS s/GUARDA CON FINES DE ADOPCIÓN-DECLARACIÓN DE ADOPTABILIDAD",
+      "tribunal": "CSJN",
+      "causa": "Fallos 346:287",
+      "fecha": "2023-04-20",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7833101"
+    },
+    {
+      "slug": "csjn-homicidio-simple-fallos-342-2389",
+      "caratula": "P., S. M. y otro s/ homicidio simple",
+      "tribunal": "CSJN",
+      "causa": "Fallos 342:2389",
+      "fecha": "2019-12-26",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7575641"
+    },
+    {
+      "slug": "csjn-larrabeitiyanezanatole-fallos-330-4592",
+      "caratula": "LARRABEITI YAÑEZ ANATOLE ALEJANDRO c/ ESTADO NACIONAL s/PROCESO DE CONOCIMIENTO",
+      "tribunal": "CSJN",
+      "causa": "Fallos 330:4592",
+      "fecha": "2007-10-30",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=6351211"
+    },
+    {
+      "slug": "csjn-maldonadodanielenrique-fallos-328-4343",
+      "caratula": "MALDONADO DANIEL ENRIQUE Y OTRO s/ROBO AGRAVADO POR EL USO DE ARMAS EN CONCURSO REAL CON HOMICIDIO CALIFICADO -CAUSA N 1174-",
+      "tribunal": "CSJN",
+      "causa": "Fallos 328:4343",
+      "fecha": "2005-12-07",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=5970071"
+    },
+    {
+      "slug": "csjn-minagliamauroomaryotra-fallos-330-3801",
+      "caratula": "MINAGLIA MAURO OMAR Y OTRA s/INFRACCIÓN LEY 23.737",
+      "tribunal": "CSJN",
+      "causa": "Fallos 330:3801",
+      "fecha": "2007-09-04",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=6322641"
+    },
+    {
+      "slug": "csjn-montalvo-fallos-313-1333",
+      "caratula": "Montalvo, Ernesto Alfredo psa. inf. ley 20.771.",
+      "tribunal": "CSJN",
+      "causa": "Fallos 313:1333",
+      "fecha": "1990-12-11",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7844691"
+    },
+    {
+      "slug": "csjn-mosca-fallos-330-563",
+      "caratula": "MOSCA, HUGO ARNALDO c/ BUENOS AIRES, PROVINCIA DE (POLICÍA BONAERENSE) Y OTROS s/DAÑOS Y PERJUICIOS",
+      "tribunal": "CSJN",
+      "causa": "Fallos 330:563",
+      "fecha": "2007-03-06",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=6158491"
+    },
+    {
+      "slug": "csjn-napolierikaelizabethyo-fallos-321-3630",
+      "caratula": "NÁPOLI ERIKA ELIZABETH Y OTROS s/INFRACCIÓN ARTS. 139 BIS DEL C.P. CAUSA N 134264",
+      "tribunal": "CSJN",
+      "causa": "Fallos 321:3630",
+      "fecha": "1998-12-22",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=4627541"
     },
     {
       "slug": "csjn-pogonza-2021-09-02",
@@ -183,231 +231,6 @@
       "nota": "Constitucionalidad de la instancia previa ante Comisiones Medicas. Falta la cita de Fallos."
     },
     {
-      "slug": "scba-amoretti-l127353-2023-09-18",
-      "caratula": "Amoretti, María Vanesa c/ Aegis Argentina S.A. y otros s/ Despido",
-      "tribunal": "SCBA",
-      "causa": "L. 127.353",
-      "fecha": "2023-09-18",
-      "url": "https://www.scba.gov.ar/includes/descarga.asp?id=52851&n=Ver+sentencia+%28causa+L127.353%29.pdf"
-    },
-    {
-      "slug": "scba-marchetti-l121939-2020-05-13",
-      "caratula": "Marchetti, Jorge Gabriel contra Fiscalía de Estado de la Provincia de Buenos Aires. Accidente de trabajo - acción especial",
-      "tribunal": "SCBA",
-      "causa": "L. 121.939",
-      "fecha": "2020-05-13",
-      "url": "https://www.scba.gov.ar/includes/descarga.asp?id=45533&n=Ver%20sentencia%20(causa%20L121939).pdf"
-    },
-    {
-      "slug": "scba-vera-l124807-2021-05-11",
-      "caratula": "Vera, Isabel contra Fisco de la Provincia de Buenos Aires. Enfermedad accidente",
-      "tribunal": "SCBA",
-      "causa": "L. 124.807",
-      "fecha": "2021-05-11",
-      "url": "https://www.scba.gov.ar/includes/descarga.asp?id=47612&n=Ver%20sentencia%20(L124.807).pdf"
-    },
-    {
-      "slug": "scba-bustostorres-l124285-2023-02-27",
-      "caratula": "Bustos Torres, Roberto Esteban contra Galeno Aseguradora de Riesgos del Trabajo S.A. Accidente in itinere",
-      "tribunal": "SCBA",
-      "causa": "L. 124.285",
-      "fecha": "2023-02-27",
-      "url": "https://www.scba.gov.ar/includes/descarga.asp?id=51448&n=Ver%20sentencia%20(causa%20L124.285).pdf"
-    },
-    {
-      "slug": "scba-cajal-c122745-2020-06-10",
-      "caratula": "Cajal, Santos Marcelo y otro/a contra Bigurrarena, Bernardo Antonio y otro/a. Daños y perjuicios",
-      "tribunal": "SCBA",
-      "causa": "C. 122.745",
-      "fecha": "2020-06-10",
-      "url": "https://juba.scba.gov.ar/VerTextoCompleto.aspx?idFallo=174946"
-    },
-    {
-      "slug": "csjn-fiorentino-fallos-306-1752",
-      "caratula": "Fiorentino, Diego Enrique.",
-      "tribunal": "CSJN",
-      "causa": "Fallos 306:1752",
-      "fecha": "1984-11-27",
-      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7835711"
-    },
-    {
-      "slug": "csjn-santacoloma-fallos-308-1160",
-      "caratula": "Santa Coloma, Luis Federico y otros.",
-      "tribunal": "CSJN",
-      "causa": "Fallos 308:1160",
-      "fecha": "1986-08-05",
-      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7879941"
-    },
-    {
-      "slug": "csjn-bazterrica-fallos-308-1392",
-      "caratula": "Bazterrica, Gustavo Mario - Alejandro Carlos Capalbo.",
-      "tribunal": "CSJN",
-      "causa": "Fallos 308:1392",
-      "fecha": "1986-08-29",
-      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7838661"
-    },
-    {
-      "slug": "csjn-montalvo-fallos-313-1333",
-      "caratula": "Montalvo, Ernesto Alfredo psa. inf. ley 20.771.",
-      "tribunal": "CSJN",
-      "causa": "Fallos 313:1333",
-      "fecha": "1990-12-11",
-      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7844691"
-    },
-    {
-      "slug": "csjn-estevezjoseluis-fallos-320-2105",
-      "caratula": "ESTÉVEZ JOSÉ LUIS s/SOLICITUD DE ESCARCELACION -CAUSA N 33.769-",
-      "tribunal": "CSJN",
-      "causa": "Fallos 320:2105",
-      "fecha": "1997-10-03",
-      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=4017251"
-    },
-    {
-      "slug": "csjn-napolierikaelizabethyo-fallos-321-3630",
-      "caratula": "NÁPOLI ERIKA ELIZABETH Y OTROS s/INFRACCIÓN ARTS. 139 BIS DEL C.P. CAUSA N 134264",
-      "tribunal": "CSJN",
-      "causa": "Fallos 321:3630",
-      "fecha": "1998-12-22",
-      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=4627541"
-    },
-    {
-      "slug": "csjn-bianchiguillermooscar-fallos-325-1404",
-      "caratula": "BIANCHI GUILLERMO OSCAR s/DEFRAUDACIÓN",
-      "tribunal": "CSJN",
-      "causa": "Fallos 325:1404",
-      "fecha": "2002-06-27",
-      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=5217731"
-    },
-    {
-      "slug": "csjn-arancibiaclavelenrique-fallos-327-3312",
-      "caratula": "ARANCIBIA CLAVEL ENRIQUE LAUTARO s/HOMICIDIO CALIFICADO Y ASOCIACIÓN ILÍCITA Y OTROS -CAUSA N 259-",
-      "tribunal": "CSJN",
-      "causa": "Fallos 327:3312",
-      "fecha": "2004-08-24",
-      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=5652881"
-    },
-    {
-      "slug": "csjn-aquinoisacio-fallos-327-3753",
-      "caratula": "AQUINO ISACIO c/ CARGO SERVICIOS INDUSTRIALES S.A. s/ART. 39 LEY 24.557",
-      "tribunal": "CSJN",
-      "causa": "Fallos 327:3753",
-      "fecha": "2004-09-21",
-      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=5667601"
-    },
-    {
-      "slug": "csjn-verbitskyhoracio-fallos-328-1146",
-      "caratula": "VERBITSKY HORACIO s/HABEAS CORPUS",
-      "tribunal": "CSJN",
-      "causa": "Fallos 328:1146",
-      "fecha": "2005-05-03",
-      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=5824581"
-    },
-    {
-      "slug": "csjn-simonjuliohectoryotros-fallos-328-2056",
-      "caratula": "SIMÓN JULIO HÉCTOR Y OTROS s/PRIVACIÓN ILEGÍTIMA DE LA LIBERTAD ETC. -CAUSA N 17.768-",
-      "tribunal": "CSJN",
-      "causa": "Fallos 328:2056",
-      "fecha": "2005-06-14",
-      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=5863381"
-    },
-    {
-      "slug": "csjn-casalmatiaseugenioyotr-fallos-328-3399",
-      "caratula": "CASAL MATÍAS EUGENIO Y OTRO s/ROBO SIMPLE EN GRADO DE TENTATIVA -CAUSA N 1681-",
-      "tribunal": "CSJN",
-      "causa": "Fallos 328:3399",
-      "fecha": "2005-09-20",
-      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=5921391"
-    },
-    {
-      "slug": "csjn-maldonadodanielenrique-fallos-328-4343",
-      "caratula": "MALDONADO DANIEL ENRIQUE Y OTRO s/ROBO AGRAVADO POR EL USO DE ARMAS EN CONCURSO REAL CON HOMICIDIO CALIFICADO -CAUSA N 1174-",
-      "tribunal": "CSJN",
-      "causa": "Fallos 328:4343",
-      "fecha": "2005-12-07",
-      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=5970071"
-    },
-    {
-      "slug": "csjn-wintekerbeatrizdelcarm-fallos-329-5514",
-      "caratula": "WINTEKER BEATRIZ DEL CARMEN c/ VERA BENJAMÍN ALCIBÍADES VERA NORA BEATRIZ s/VIOLENCIA FAMILIAR ART. 1 LEY 12569",
-      "tribunal": "CSJN",
-      "causa": "Fallos 329:5514",
-      "fecha": "2006-11-28",
-      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=6121701"
-    },
-    {
-      "slug": "csjn-mosca-fallos-330-563",
-      "caratula": "MOSCA, HUGO ARNALDO c/ BUENOS AIRES, PROVINCIA DE (POLICÍA BONAERENSE) Y OTROS s/DAÑOS Y PERJUICIOS",
-      "tribunal": "CSJN",
-      "causa": "Fallos 330:563",
-      "fecha": "2007-03-06",
-      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=6158491"
-    },
-    {
-      "slug": "csjn-cuellopatriciadorotea-fallos-330-3483",
-      "caratula": "CUELLO PATRICIA DOROTEA c/ LUCENA PEDRO ANTONIO Y OTRO s/DAÑOS Y PERJUICIOS",
-      "tribunal": "CSJN",
-      "causa": "Fallos 330:3483",
-      "fecha": "2007-08-07",
-      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=6309991"
-    },
-    {
-      "slug": "csjn-cambiasoperesdenealonc-fallos-330-3725",
-      "caratula": "CAMBIASO PÉRES DE NEALÓN CELIA MARÍA ANA Y OTROS c/ CENTRO DE EDUCACIÓN MÉDICA E INVESTIGACIONES MÉDICAS s/AMPARO",
-      "tribunal": "CSJN",
-      "causa": "Fallos 330:3725",
-      "fecha": "2007-08-28",
-      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=6319251"
-    },
-    {
-      "slug": "csjn-minagliamauroomaryotra-fallos-330-3801",
-      "caratula": "MINAGLIA MAURO OMAR Y OTRA s/INFRACCIÓN LEY 23.737",
-      "tribunal": "CSJN",
-      "causa": "Fallos 330:3801",
-      "fecha": "2007-09-04",
-      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=6322641"
-    },
-    {
-      "slug": "csjn-reyes-aguilera-fallos-330-3853",
-      "caratula": "R.A.D c/ ESTADO NACIONAL Y OTRO s/SUMARÍSIMO",
-      "tribunal": "CSJN",
-      "causa": "Fallos 330:3853",
-      "fecha": "2007-09-04",
-      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=6323981",
-      "nota": "La caratula dice SUMARISIMO en el registro y el documento no contiene la palabra, ni acentuada ni sin acentuar, asi que el acento se restituyo por ortografia y no por cotejo: sumarisimo tiene una sola grafia posible en castellano. Los diacriticos de los nombres propios de este corpus se recuperaron del documento, nunca del idioma."
-    },
-    {
-      "slug": "csjn-larrabeitiyanezanatole-fallos-330-4592",
-      "caratula": "LARRABEITI YAÑEZ ANATOLE ALEJANDRO c/ ESTADO NACIONAL s/PROCESO DE CONOCIMIENTO",
-      "tribunal": "CSJN",
-      "causa": "Fallos 330:4592",
-      "fecha": "2007-10-30",
-      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=6351211"
-    },
-    {
-      "slug": "csjn-arosteguipablomartin-fallos-331-570",
-      "caratula": "AROSTEGUI PABLO MARTÍN c/ OMEGA ASEGURADORA DE RIESGOS DEL TRABAJO S.A. Y PAMETAL PELUSO Y COMPAÑÍA S.R.L. Y OTRO s/INCONST. ART. 39 LRT",
-      "tribunal": "CSJN",
-      "causa": "Fallos 331:570",
-      "fecha": "2008-04-08",
-      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=6414601"
-    },
-    {
-      "slug": "csjn-acostaalejandroesteban-fallos-331-858",
-      "caratula": "ACOSTA ALEJANDRO ESTEBAN s/INFRACCIÓN ART. 14, 1 PÁRRAFO LEY 23737 -CAUSA N 28/05-",
-      "tribunal": "CSJN",
-      "causa": "Fallos 331:858",
-      "fecha": "2008-04-23",
-      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=6424841"
-    },
-    {
-      "slug": "csjn-arriolasebastianyotros-fallos-332-1963",
-      "caratula": "ARRIOLA SEBASTIÁN Y OTROS s/CAUSA N 9080",
-      "tribunal": "CSJN",
-      "causa": "Fallos 332:1963",
-      "fecha": "2009-08-25",
-      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=6711401"
-    },
-    {
       "slug": "csjn-quarantajosecarlos-fallos-333-1674",
       "caratula": "QUARANTA JOSÉ CARLOS s/INF. LEY 23.737 -CAUSA N 763-",
       "tribunal": "CSJN",
@@ -416,76 +239,12 @@
       "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=6884191"
     },
     {
-      "slug": "csjn-rodriguezpereyrajorgel-fallos-335-2333",
-      "caratula": "RODRÍGUEZ PEREYRA JORGE LUIS Y OTRA c/ EJÉRCITO ARGENTINO s/DAÑOS Y PERJUICIOS",
-      "tribunal": "CSJN",
-      "causa": "Fallos 335:2333",
-      "fecha": "2012-11-27",
-      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=6971651"
-    },
-    {
-      "slug": "csjn-gongora-fallos-336-392",
-      "caratula": "Góngora, Gabriel Arnaldo s/causa n 14.092",
-      "tribunal": "CSJN",
-      "causa": "Fallos 336:392",
-      "fecha": "2013-04-23",
-      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7008981"
-    },
-    {
       "slug": "csjn-reintegro-de-hijo-fallos-336-849",
       "caratula": "S., D. c/ R., L. M. s/reintegro de hijo y alimentos",
       "tribunal": "CSJN",
       "causa": "Fallos 336:849",
       "fecha": "2013-07-02",
       "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7028291"
-    },
-    {
-      "slug": "csjn-buffoni-fallos-337-329",
-      "caratula": "Buffoni, Osvaldo Omar c/ Castro, Ramiro Martín Y OTRO s/daños y perjuicios",
-      "tribunal": "CSJN",
-      "causa": "Fallos 337:329",
-      "fecha": "2014-04-08",
-      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7100771"
-    },
-    {
-      "slug": "csjn-duarte-fallos-337-901",
-      "caratula": "Duarte, Felicia s/recurso de casación",
-      "tribunal": "CSJN",
-      "causa": "Fallos 337:901",
-      "fecha": "2014-08-05",
-      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7132211"
-    },
-    {
-      "slug": "csjn-villamil-fallos-340-345",
-      "caratula": "Villamil, Amelia Ana c/ Estado Nacional s/ daños y perjuicios",
-      "tribunal": "CSJN",
-      "causa": "Fallos 340:345",
-      "fecha": "2017-03-28",
-      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7366012"
-    },
-    {
-      "slug": "csjn-canales-fallos-342-697",
-      "caratula": "Canales, Mariano Eduardo y otro s/ homicidio agravado - impugnación extraordinaria",
-      "tribunal": "CSJN",
-      "causa": "Fallos 342:697",
-      "fecha": "2019-05-02",
-      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7519692"
-    },
-    {
-      "slug": "csjn-homicidio-simple-fallos-342-2389",
-      "caratula": "P., S. M. y otro s/ homicidio simple",
-      "tribunal": "CSJN",
-      "causa": "Fallos 342:2389",
-      "fecha": "2019-12-26",
-      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7575641"
-    },
-    {
-      "slug": "csjn-vallejos-fallos-344-1785",
-      "caratula": "VALLEJOS, JULIO CÉSAR Y OTRO c/ HOSPITAL INTERZONAL DR. JOSÉ PENNA Y OTROS s/DAÑOS Y PERJUICIOS",
-      "tribunal": "CSJN",
-      "causa": "Fallos 344:1785",
-      "fecha": "2021-07-08",
-      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7676111"
     },
     {
       "slug": "csjn-restitucion-internacional-fallos-344-3078",
@@ -504,21 +263,315 @@
       "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7754501"
     },
     {
-      "slug": "csjn-guarda-adoptabilidad-fallos-346-287",
-      "caratula": "D., H.C. Y OTROS s/GUARDA CON FINES DE ADOPCIÓN-DECLARACIÓN DE ADOPTABILIDAD",
-      "tribunal": "CSJN",
-      "causa": "Fallos 346:287",
-      "fecha": "2023-04-20",
-      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7833101"
-    },
-    {
       "slug": "csjn-restitucion-internacional-fallos-347-1234",
       "caratula": "M. S., M. G. c/ F., M. V. s/RESTITUCIÓN INTERNACIONAL DE MENORES",
       "tribunal": "CSJN",
       "causa": "Fallos 347:1234",
       "fecha": "2024-09-17",
       "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=8011611"
+    },
+    {
+      "slug": "csjn-reyes-aguilera-fallos-330-3853",
+      "caratula": "R.A.D c/ ESTADO NACIONAL Y OTRO s/SUMARÍSIMO",
+      "tribunal": "CSJN",
+      "causa": "Fallos 330:3853",
+      "fecha": "2007-09-04",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=6323981",
+      "nota": "La caratula dice SUMARISIMO en el registro y el documento no contiene la palabra, ni acentuada ni sin acentuar, asi que el acento se restituyo por ortografia y no por cotejo: sumarisimo tiene una sola grafia posible en castellano. Los diacriticos de los nombres propios de este corpus se recuperaron del documento, nunca del idioma."
+    },
+    {
+      "slug": "csjn-rodriguezpereyrajorgel-fallos-335-2333",
+      "caratula": "RODRÍGUEZ PEREYRA JORGE LUIS Y OTRA c/ EJÉRCITO ARGENTINO s/DAÑOS Y PERJUICIOS",
+      "tribunal": "CSJN",
+      "causa": "Fallos 335:2333",
+      "fecha": "2012-11-27",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=6971651"
+    },
+    {
+      "slug": "csjn-santacoloma-fallos-308-1160",
+      "caratula": "Santa Coloma, Luis Federico y otros.",
+      "tribunal": "CSJN",
+      "causa": "Fallos 308:1160",
+      "fecha": "1986-08-05",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7879941"
+    },
+    {
+      "slug": "csjn-simonjuliohectoryotros-fallos-328-2056",
+      "caratula": "SIMÓN JULIO HÉCTOR Y OTROS s/PRIVACIÓN ILEGÍTIMA DE LA LIBERTAD ETC. -CAUSA N 17.768-",
+      "tribunal": "CSJN",
+      "causa": "Fallos 328:2056",
+      "fecha": "2005-06-14",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=5863381"
+    },
+    {
+      "slug": "csjn-sin-civ86767-2024-10-22",
+      "caratula": "S., I. N. c/ A., C. L. s/ impugnación de filiación",
+      "tribunal": "CSJN",
+      "causa": "CIV 86767/2015/1/RH1 y otro",
+      "fecha": "2024-10-22",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=8027721"
+    },
+    {
+      "slug": "csjn-vallejos-fallos-344-1785",
+      "caratula": "VALLEJOS, JULIO CÉSAR Y OTRO c/ HOSPITAL INTERZONAL DR. JOSÉ PENNA Y OTROS s/DAÑOS Y PERJUICIOS",
+      "tribunal": "CSJN",
+      "causa": "Fallos 344:1785",
+      "fecha": "2021-07-08",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7676111"
+    },
+    {
+      "slug": "csjn-verbitskyhoracio-fallos-328-1146",
+      "caratula": "VERBITSKY HORACIO s/HABEAS CORPUS",
+      "tribunal": "CSJN",
+      "causa": "Fallos 328:1146",
+      "fecha": "2005-05-03",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=5824581"
+    },
+    {
+      "slug": "csjn-villamil-fallos-340-345",
+      "caratula": "Villamil, Amelia Ana c/ Estado Nacional s/ daños y perjuicios",
+      "tribunal": "CSJN",
+      "causa": "Fallos 340:345",
+      "fecha": "2017-03-28",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7366012"
+    },
+    {
+      "slug": "csjn-wintekerbeatrizdelcarm-fallos-329-5514",
+      "caratula": "WINTEKER BEATRIZ DEL CARMEN c/ VERA BENJAMÍN ALCIBÍADES VERA NORA BEATRIZ s/VIOLENCIA FAMILIAR ART. 1 LEY 12569",
+      "tribunal": "CSJN",
+      "causa": "Fallos 329:5514",
+      "fecha": "2006-11-28",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=6121701"
+    },
+    {
+      "slug": "jfam4lm-gl-lm1573-2024-01-30",
+      "caratula": "G. L. c/ M. C. S. M. s/ Protección contra la violencia familiar (Ley 12.569)",
+      "tribunal": "Juzgado de Familia N 4 de La Matanza",
+      "causa": "LM-1573-2024",
+      "fecha": "2024-01-30",
+      "url": "https://repositorio.mpd.gov.ar/jspui/bitstream/123456789/4919/1/GLC%20Sentencia%20completa.pdf",
+      "origen": "Repositorio del MPD, no el registro del tribunal: es de primera instancia y JUBA no la indexa. SAIJ tiene la primera indexada pero responde 403 a los agentes. Autoridad debil: se cita por el encuadre, no como precedente."
+    },
+    {
+      "slug": "jfam8lp-dje-80155-2020-04-27",
+      "caratula": "D., J. E. y otro/a s/ Autorización judicial",
+      "tribunal": "Juzgado de Familia N 8 de La Plata",
+      "causa": "80155/2019",
+      "fecha": "2020-04-27",
+      "url": "https://www.scba.gov.ar/includes/descarga.asp?id=45517&n=Ver%20sentencia%20(N%C2%B0%2080155).pdf"
+    },
+    {
+      "slug": "jpli-smmb-63-2024-11-20",
+      "caratula": "S. M. M. B. c/ Y. E. D. s/ Protección contra la violencia familiar Ley 12.569",
+      "tribunal": "Juzgado de Paz Letrado de Ituzaingo",
+      "causa": "63",
+      "fecha": "2024-11-20",
+      "url": "https://repositorio.mpd.gov.ar/jspui/bitstream/123456789/5464/1/SMMB%20(Causa%20N%c2%b0%2063).pdf",
+      "origen": "Repositorio del MPD, no el registro del tribunal: es de primera instancia y JUBA no la indexa. SAIJ tiene la primera indexada pero responde 403 a los agentes. Autoridad debil: se cita por el encuadre, no como precedente."
+    },
+    {
+      "slug": "scba-abraham-l108164-2013-11-13",
+      "caratula": "Abraham, Héctor Osvaldo c/ Todoli Hnos. SRL y otros s/ Daños y perjuicios",
+      "tribunal": "SCBA",
+      "causa": "L. 108.164",
+      "fecha": "2013-11-13",
+      "url": "https://www.scba.gob.ar/includes/descarga.asp?id=27951&n=Ver%20sentencia%20(L108164).pdf"
+    },
+    {
+      "slug": "scba-amoretti-l127353-2023-09-18",
+      "caratula": "Amoretti, María Vanesa c/ Aegis Argentina S.A. y otros s/ Despido",
+      "tribunal": "SCBA",
+      "causa": "L. 127.353",
+      "fecha": "2023-09-18",
+      "url": "https://www.scba.gov.ar/includes/descarga.asp?id=52851&n=Ver+sentencia+%28causa+L127.353%29.pdf"
+    },
+    {
+      "slug": "scba-barrios-c124096-2024-04-17",
+      "caratula": "Barrios, Héctor Francisco y otra contra Lascano, Sandra Beatriz y otra. Daños y perjuicios",
+      "tribunal": "SCBA",
+      "causa": "C. 124.096",
+      "fecha": "2024-04-17",
+      "url": "https://www.scba.gov.ar/includes/descarga.asp?id=54321&n=Ver%20sentencia%20(causa%20C124.096).pdf"
+    },
+    {
+      "slug": "scba-basualdolozano-l127263-2026-05-26",
+      "caratula": "Basualdo Lozano, Andrea Antonela Sabrina contra Municipalidad de Campana. Reinstalación (Sumarísimo)",
+      "tribunal": "SCBA",
+      "causa": "L. 127.263",
+      "fecha": "2026-05-26",
+      "url": "https://www.scba.gob.ar/includes/descarga.asp?id=59050&n=Ver%20sentencia%20(causa%20L.%20127.263).pdf"
+    },
+    {
+      "slug": "scba-bustostorres-l124285-2023-02-27",
+      "caratula": "Bustos Torres, Roberto Esteban contra Galeno Aseguradora de Riesgos del Trabajo S.A. Accidente in itinere",
+      "tribunal": "SCBA",
+      "causa": "L. 124.285",
+      "fecha": "2023-02-27",
+      "url": "https://www.scba.gov.ar/includes/descarga.asp?id=51448&n=Ver%20sentencia%20(causa%20L124.285).pdf"
+    },
+    {
+      "slug": "scba-cabrera-c119176-2016-06-15",
+      "caratula": "Cabrera, Pablo David contra Ferrari, Adrián Rubén. Daños y perjuicios",
+      "tribunal": "SCBA",
+      "causa": "C. 119.176",
+      "fecha": "2016-06-15",
+      "url": "https://blogs.scba.gov.ar/juzgadocivil2laplata/wp-content/uploads/sites/22/2016/08/Ver-Sentencia-c119176.pdf"
+    },
+    {
+      "slug": "scba-cajal-c122745-2020-06-10",
+      "caratula": "Cajal, Santos Marcelo y otro/a contra Bigurrarena, Bernardo Antonio y otro/a. Daños y perjuicios",
+      "tribunal": "SCBA",
+      "causa": "C. 122.745",
+      "fecha": "2020-06-10",
+      "url": "https://juba.scba.gov.ar/VerTextoCompleto.aspx?idFallo=174946"
+    },
+    {
+      "slug": "scba-codec-c121973-2023-09-29",
+      "caratula": "Centro de Orientación y Educación del Consumidor (CODEC) contra Banco de la Provincia de Buenos Aires. Nulidad de contrato",
+      "tribunal": "SCBA",
+      "causa": "C. 121.973",
+      "fecha": "2023-09-29",
+      "url": "https://www.scba.gov.ar/includes/descarga.asp?id=52980&n=Ver%20sentencia%20(causa%20C121973).pdf"
+    },
+    {
+      "slug": "scba-diehl-l119966-2018-05-03",
+      "caratula": "Diehl, Enrique Jorge contra Ledesma, Carolina Vanesa y otro/a",
+      "tribunal": "SCBA",
+      "causa": "L. 119.966",
+      "fecha": "2018-05-03",
+      "url": "https://www.scba.gob.ar/includes/descarga.asp?id=39384&n=Ver+sentencia+(l119966).pdf"
+    },
+    {
+      "slug": "scba-galarza-l132729-2026-03-30",
+      "caratula": "Galarza, Daniel Alejandro c/ Prevención Aseguradora de Riesgos del Trabajo S.A. s/ accidente in itinere",
+      "tribunal": "SCBA",
+      "causa": "L. 132.729",
+      "fecha": "2026-03-30",
+      "url": "https://www.scba.gov.ar/includes/descarga.asp?id=58585&n=Ver+sentencia+(causa+L.132.729).pdf"
+    },
+    {
+      "slug": "scba-gutierrezrellan-l119012-2018-05-16",
+      "caratula": "Gutiérrez Rellan, Fernando contra Col. de Odont. de la Prov. de Bs. As. Despido",
+      "tribunal": "SCBA",
+      "causa": "L. 119.012",
+      "fecha": "2018-05-16",
+      "url": "https://www.scba.gob.ar/includes/descarga.asp?id=39500&n=Ver%20sentencia%20(l119012).pdf"
+    },
+    {
+      "slug": "scba-lastra-l135213-2025-09-17",
+      "caratula": "Lastra, Mario Oscar y otro/a c/ Unión Argentina de Trabajadores Rurales y Estibadores (UATRE) s/ Amparo sindical",
+      "tribunal": "SCBA",
+      "causa": "L. 135.213",
+      "fecha": "2025-09-17",
+      "url": "https://www.scba.gob.ar/includes/descarga.asp?id=57475&n=Ver%20sentencia%20(causa%20L.135.213).pdf"
+    },
+    {
+      "slug": "scba-magliano-l131700-2025-09-19",
+      "caratula": "Magliano, Mauricio Germán c/ Fisco de la Provincia de Buenos Aires s/ enfermedad profesional",
+      "tribunal": "SCBA",
+      "causa": "L. 131.700",
+      "fecha": "2025-09-19",
+      "url": "https://www.scba.gov.ar/includes/descarga.asp?id=57501&n=Ver%20sentencia%20(causa%20L.%20131.700).pdf",
+      "nota": "Deja firme la inconstitucionalidad del plazo de caducidad de 90 dias habiles judiciales del art. 2 inc. j de la Ley 15.057. La composicion nominal de la mayoria no esta verificada: leer el PDF antes de citar votos."
+    },
+    {
+      "slug": "scba-marchetti-l121939-2020-05-13",
+      "caratula": "Marchetti, Jorge Gabriel contra Fiscalía de Estado de la Provincia de Buenos Aires. Accidente de trabajo - acción especial",
+      "tribunal": "SCBA",
+      "causa": "L. 121.939",
+      "fecha": "2020-05-13",
+      "url": "https://www.scba.gov.ar/includes/descarga.asp?id=45533&n=Ver%20sentencia%20(causa%20L121939).pdf"
+    },
+    {
+      "slug": "scba-mlf-c124589-2022-03-21",
+      "caratula": "M.L.F. c/ C.M.E. s/ Acción de compensación económica",
+      "tribunal": "SCBA",
+      "causa": "C. 124.589",
+      "fecha": "2022-03-21",
+      "url": "https://juba.scba.gov.ar/VerTextoCompleto.aspx?idFallo=183805"
+    },
+    {
+      "slug": "scba-nidera-c121134-2018-05-03",
+      "caratula": "Nidera S.A. contra Provincia de Buenos Aires. Daños y perjuicios",
+      "tribunal": "SCBA",
+      "causa": "C. 121.134",
+      "fecha": "2018-05-03",
+      "url": "https://www.scba.gob.ar/includes/descarga.asp?id=39327&n=Ver%20sentencia%20(c121134).pdf"
+    },
+    {
+      "slug": "scba-paredes-c123090-2020-09-18",
+      "caratula": "Paredes, Roberto Gabriel Horacio contra Transporte La Perlita S.A. y otros. Daños y perjuicios",
+      "tribunal": "SCBA",
+      "causa": "C. 123.090",
+      "fecha": "2020-09-18",
+      "url": "https://www.scba.gov.ar/includes/descarga.asp?id=46277&n=Ver%20sentencia%20(causa%20C123090).pdf"
+    },
+    {
+      "slug": "scba-pre-c127266-2024-02-19",
+      "caratula": "P. R. E. c/ P. E. E. s/ Protección contra la violencia familiar (Ac. 4099)",
+      "tribunal": "SCBA",
+      "causa": "C. 127.266",
+      "fecha": "2024-02-19",
+      "url": "https://www.scba.gov.ar/violenciafamiliar/C%20127.266.pdf"
+    },
+    {
+      "slug": "scba-rappi-l128287-2026-04-09",
+      "caratula": "Ministerio de Trabajo contra Rappi Argentina S.A.S. Apelación de resolución administrativa",
+      "tribunal": "SCBA",
+      "causa": "L. 128.287",
+      "fecha": "2026-04-09",
+      "url": "https://www.scba.gob.ar/includes/descarga.asp?id=58669&n=Ver%20sentencia%20(causa%20L128.287).pdf"
+    },
+    {
+      "slug": "scba-repartosya-l128494-2026-04-09",
+      "caratula": "Repartos Ya S.A. Apelación de resolución administrativa",
+      "tribunal": "SCBA",
+      "causa": "L. 128.494",
+      "fecha": "2026-04-09",
+      "url": "https://www.scba.gob.ar/includes/descarga.asp?id=58670&n=Ver%20sentencia%20(causa%20L.128.494).pdf"
+    },
+    {
+      "slug": "scba-rja-c126644-2023-09-19",
+      "caratula": "R. J. A. c/ A. J. M. s/ Protección contra la violencia familiar (Ley 12.569) s/ Oficio",
+      "tribunal": "SCBA",
+      "causa": "C. 126.644",
+      "fecha": "2023-09-19",
+      "url": "https://www.scba.gov.ar/includes/descarga.asp?id=52839&n=Ver%20fallo%20(causa%20C126.644).pdf"
+    },
+    {
+      "slug": "scba-rvs-c122501-2020-10-02",
+      "caratula": "R., V. S. contra D., G. J. Tenencia de hijo",
+      "tribunal": "SCBA",
+      "causa": "C. 122.501",
+      "fecha": "2020-10-02",
+      "url": "https://scba.gov.ar/includes/descarga.asp?id=46309&n=Ver%20sentencia%20(causa%20C122501).pdf"
+    },
+    {
+      "slug": "scba-trofe-l118587-2016-06-15",
+      "caratula": "Trofe, Evangelina Beatriz contra Fisco de la Provincia de Bs. As. Enfermedad profesional",
+      "tribunal": "SCBA",
+      "causa": "L. 118.587",
+      "fecha": "2016-06-15",
+      "url": "https://www.scba.gob.ar/includes/descarga.asp?id=35101&n=Ver%20Sentencia%20(l118587).pdf"
+    },
+    {
+      "slug": "scba-vera-c120536-2018-04-18",
+      "caratula": "Vera, Juan Carlos contra Provincia de Buenos Aires. Daños y perjuicios",
+      "tribunal": "SCBA",
+      "causa": "C. 120.536",
+      "fecha": "2018-04-18",
+      "url": "https://www.scba.gob.ar/includes/descarga.asp?id=39327&n=Ver%20sentencia%20(c120536).pdf"
+    },
+    {
+      "slug": "scba-vera-l124807-2021-05-11",
+      "caratula": "Vera, Isabel contra Fisco de la Provincia de Buenos Aires. Enfermedad accidente",
+      "tribunal": "SCBA",
+      "causa": "L. 124.807",
+      "fecha": "2021-05-11",
+      "url": "https://www.scba.gov.ar/includes/descarga.asp?id=47612&n=Ver%20sentencia%20(L124.807).pdf"
     }
   ],
-  "_descarga_asp": "En las URLs de descarga.asp de la SCBA el parametro n= NO es cosmetico: el servidor lo usa como nombre de archivo y un n= distinto devuelve 'Archivo no hallado'. Copiar el n= exacto, con los espacios como %20. Por eso 'Vera' y 'Nidera' comparten id=39327 y son archivos distintos."
+  "_descarga_asp": "En las URLs de descarga.asp de la SCBA el parametro n= NO es cosmetico: el servidor lo usa como nombre de archivo y un n= distinto devuelve 'Archivo no hallado'. Copiar el n= exacto, con los espacios como %20. Por eso 'Vera' y 'Nidera' comparten id=39327 y son archivos distintos.",
+  "_csjn_verdocumento": "En sjconsulta de la CSJN hay dos visores y solo uno devuelve el texto: documentos/verDocumentoById.html?idDocumento=N lo trae; verDocumentoByIdLinksJSP devuelve solo la ficha. El buscador de sumarios responde HTTP 500 y el de fallos es POST sin parametros, asi que el id hay que conseguirlo por otra via y despues abrir ese patron.",
+  "_origen": "Campo obligatorio cuando la URL no es de un portal de la tabla de fuentes primarias de references/fuentes.md. Dice de donde salio el documento y por que no esta el registro del tribunal. No convierte al sitio en fuente que prevalezca."
 }

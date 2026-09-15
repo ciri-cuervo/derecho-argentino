@@ -34,7 +34,7 @@ argentina/                          # el plugin
   commands/                         # ocho comandos slash
   skills/derecho-argentino/
     SKILL.md                        # núcleo: apertura, integridad, marcadores, ruteo
-    references/                     # 30 módulos, numeración global estable, carga bajo demanda
+    references/                     # 31 módulos, numeración global estable, carga bajo demanda
     scripts/                        # calculadoras, perfil, diagnóstico y tests
   fuentes/                          # capa de fuente primaria offline
     MANIFIESTO.md                   # qué hay bajado, de dónde y con qué fecha

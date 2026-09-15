@@ -247,8 +247,10 @@ python3 herramientas/cifras.py                # cifras de la documentación y ce
 
 Lo que ninguna herramienta mide todavía:
 
-1. **Quedan normas declaradas en `normas.json` sin URL oficial.** Dos son estructurales; el resto
-   están decididas y lo que falta es encontrar la URL.
+1. **Las normas declaradas en `normas.json` que no tienen URL oficial son estructurales, y no la
+   van a tener.** Una es la Ley 13.478, de 1948, que InfoLEG no publica por época; la otra, la
+   publicación de los once instrumentos del art. 75 inc. 22 en un solo documento. Están en el
+   catálogo para que se vea que faltan, y el motivo de cada una está escrito en su entrada.
 2. **`docs/AUDITORIAS.md` está fuera del checklist de fuga** y tiene secuencias sin revisar, de
    entradas viejas. Se leen una por una, **no** se aceptan en masa.
 3. **`reformas_no_leidas.py` compara por norma, no por artículo.** Si un módulo nombra una ley por
@@ -279,7 +281,11 @@ Lo que ninguna herramienta mide todavía:
    como módulo que ningún eval nombra, y tiene razón.
    Y **ninguna herramienta dice qué falta**, porque todas miden contra lo declarado:
    `cobertura_normativa.py` reporta la norma que un módulo cita y no bajamos, no la que ningún
-   módulo cita todavía. El orden en que crece se decide leyendo.
+   módulo cita todavía. El orden en que crece se decide leyendo, y para eso está
+   [`docs/COBERTURA.md`](docs/COBERTURA.md): una taxonomía traída de fuentes externas —CONEAU, el
+   Tesauro SAIJ, planes de estudio, institutos de los colegios y los fueros de Nación y PBA—
+   cruzada contra lo que el repositorio cubre. Es un mapa fechado para decidir el orden, **no un
+   enunciado de alcance**: el alcance sigue siendo el derecho argentino.
 7. **Las reglas del linter de Markdown quedaron flojas y hay que endurecerlas.** `MD013` con el
    tope alto, y `MD040` —cercas sin lenguaje—, `MD028` —blanco dentro de un blockquote— y `MD001`
    —encabezado que salta un nivel— todavía avisan. **Mientras avise, una corrida limpia no
@@ -288,6 +294,27 @@ Lo que ninguna herramienta mide todavía:
    tienen, y recién entonces discutir si entra al checklist. Ojo con el orden: `--fix` reescribe,
    así que primero se busca quién parsea lo que va a cambiar. Y lo que valga la pena se reimplementa
    en `test_markdown.py`: `MD051` se apagó porque su slugger no reproduce a GitHub, y el nuestro sí.
+
+8. **Nada detecta una deuda escrita que ya se cumplió.** Un módulo dice "falta bajar la Ley X" o
+   emite un marcador diciendo que algo "no está cargado en `fuentes/`", se baja, y **el reclamo
+   sobrevive al hecho**. Lo peor no es el renglón viejo: es que una lista de deuda con entradas
+   falsas se deja de leer entera, y con ella las que sí importan. Es la alarma que suena siempre.
+   Se encontraron cuatro de esas leyendo, y hay que buscarlas leyendo cada vez que se baja algo.
+   **No se puede automatizar como está.** Se intentó y se descartó: inferir de la prosa *cuál*
+   norma se declara faltante acierta en menos de la mitad de los renglones reales, porque el
+   sujeto de la frase puede ir después, o no ser una norma sino un fallo, un régimen provincial
+   o una lista de leyes de adhesión — y "los umbrales del Título IX de la Ley 27.430 no están cargados" es cierto aunque
+   la ley esté bajada, porque lo que falta son los montos. La salida sería que un reclamo de
+   faltante **nombre el slug** en vez de la norma en prosa, y ahí el test es exacto y trivial.
+   Toca la convención de `references/marcadores.md`: está sin decidir.
+9. **Los registros judiciales oficiales no se pueden BUSCAR, sólo abrir.** JUBA opera por postback
+   de ASP.NET y no admite consulta por query string; el buscador de sumarios de la CSJN devuelve
+   HTTP 500 y el de fallos es POST sin parámetros; SAIJ responde 403 a los agentes. Se puede
+   abrir un documento cuyo id ya se conoce —en la CSJN, **sólo** por
+   `sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=N`, porque el
+   otro visor devuelve la ficha— pero **encontrar** el fallo depende de una búsqueda de afuera.
+   Eso pesa directo sobre el punto 6, que es donde está el trabajo de fondo: ampliar la
+   jurisprudencia leída es más caro de lo que parece, y el cuello no es leer sino ubicar.
 
 Fuera del repo, en `~/develop/derecho-argentino-marca/`, vive el generador de la marca con su
 propio README — la única parte con dependencias externas. El detalle, en

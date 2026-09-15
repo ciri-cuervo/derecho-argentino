@@ -412,8 +412,14 @@ class TestProsaAcentuada(unittest.TestCase):
         renglon con cuatro espacios de sangria es un bloque de código de Markdown --el diagrama
         de linaje de LICENCIAS.md, por ejemplo-- que `prosa()` no descarta porque solo mira los
         bloques cercados con acentos graves.
+
+        `tags:` va con `name:` y por el mismo motivo: es la lista con la que se filtra una
+        corrida de evals desde la linea de comandos, o sea un valor que el usuario tiene que
+        poder tipear. Acentuarlo lo vuelve intipeable; dejarlo en ASCII no es un descuido de
+        prosa. Es el unico renglon del frontmatter con esa forma: `titulo`, `area` y `problema`
+        son prosa y siguen medidos.
         """
-        if re.match(r"^\s*name:\s", linea) or re.match(r"^\s{4,}\S", linea):
+        if re.match(r"^\s*(name|tags):\s", linea) or re.match(r"^\s{4,}\S", linea):
             return ""
         linea = TestProsaAcentuada.MARCADOR.sub(" ", linea)
         linea = re.sub(r"`[^`]*`", " ", linea)

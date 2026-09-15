@@ -28,17 +28,25 @@ from _comun import (NORMAS, bajar, cargar_manifiesto, cargar_procedencia,
                     cargar_revisiones, decodificar, guardar_procedencia, revisar_texto,
                     sha256, sha256_texto, ATexto)
 
+# Todo lo que no sea un marcador de format() va en ASCII, y no por descuido: este encabezado
+# ya esta escrito en los .txt bajados, asi que la plantilla y el corpus son el mismo texto en
+# dos lugares. Acentuar una palabra de aca no corrige nada -- parte el corpus en dos, los
+# viejos con una forma y los nuevos con otra --, y volver a alinearlo exige bajar las normas
+# de nuevo, que es algo que InfoLEG y normas.gba solo le permiten al usuario. Vale para las
+# etiquetas y para la prosa: `TestPlantillaDelEncabezado` compara las dos contra los .txt.
+# Los marcadores, ademas, son identificadores de format(): `{jurisdicción}` levanta KeyError
+# recien al bajar la primera norma.
 ENCABEZADO = """{titulo}
 {raya}
-Jurisdicción:     {jurisdicción}
+Jurisdiccion:     {jurisdiccion}
 Fuente:           {url}
 Descargado:       {fecha}
 SHA-256 (crudo):  {hash}
 Charset:          {charset}
 
-Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
-NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
-Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
+Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
+NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
+Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
 el manifiesto `normas.json`.
 {raya}
 

@@ -200,7 +200,7 @@ donde queda fijada su posición.
 7. **Pedir el asiento de "sometido a proceso judicial"** y, si el vicio es manifiesto, el
    **bloqueo provisional** del art. 38.
 
-`[VERIFICAR VIGENCIA: autoridad de aplicación y régimen sancionatorio de la Ley 25.326 - la estructura institucional cambió y el Decreto 1558/2001 reglamentario no está cargado en fuentes/]`
+`[VERIFICAR VIGENCIA: autoridad de aplicación y régimen sancionatorio de la Ley 25.326 - el Decreto 1558/2001 consolidado en fuentes/ ya remite a la Agencia de Acceso a la Información Pública, pero la estructura institucional siguió cambiando: confirmar antes de dirigir una denuncia]`
 `[VERIFICAR MONTO ACTUALIZADO: sanciones administrativas de la Ley 25.326 - fijadas por la autoridad de aplicación, no por la ley]`
 
 ---

@@ -352,7 +352,7 @@ aplicado."*
 > supuesto ajeno—; y si la invoca para lo inverso, tampoco. Conviene tenerlo a mano porque la nota
 > al pie del art. 7 la nombra sin decir su alcance, y de ahí sale la confusión.
 >
-> `[VERIFICAR VIGENCIA: art. 62 de la Ley 27.798 -Presupuesto 2026- leido en InfoLEG el 14/09/2026 y pendiente de descarga con procedencia: cotejar antes de transcribirlo]`
+> `[VERIFICAR VIGENCIA: art. 62 de la Ley 27.798 -Presupuesto 2026-: cotejar contra el consolidado de fuentes/ antes de transcribirlo]`
 
 Dos precisiones que se pierden al citarlo de memoria: **"Barrios" no fija un índice único
 obligatorio** — deja al juez elegir entre índices oficiales (IPC, CER, RIPTE), con límites de
@@ -1017,6 +1017,47 @@ Orden de cálculo y bases, en 5.10. Intereses, en 5.5 y 5.5 bis.
 
 ---
 
+### 5.12 bis Salario mínimo, vital y móvil (art. 116 LCT) — tramos vigentes
+
+El SMVM no es sólo un piso remuneratorio: **es la unidad de cuenta de varios topes** repartidos
+por el repositorio, y por eso el cuadro vive acá una sola vez y los demás módulos remiten. Lo
+usan el tope de cada pago individual del pronto pago concursal —cuatro SMVM, `concursos.md` 29—,
+el tope de la compensación del art. 183 inc. b) —un SMVM por año de servicio, 5.13— y la
+competencia del fuero nacional de consumo que nunca arrancó —55 SMVM, `consumidor.md` 22—.
+
+Fijado por la **Res. 4/2026 del CNEPySMVyM** (B.O. 02/09/2026), cotejado contra
+`fuentes/normas/res-cnepysmvym-4-2026.txt`. Son **ocho tramos**, cada uno con su fecha de
+comienzo:
+
+| Desde | Mensual, jornada completa | Por hora, jornalizados |
+| --- | --- | --- |
+| 01/09/2026 | $ 383.800 | $ 1.919 |
+| 01/10/2026 | $ 391.200 | $ 1.956 |
+| 01/11/2026 | $ 398.800 | $ 1.994 |
+| 01/12/2026 | $ 406.400 | $ 2.032 |
+| 01/01/2027 | $ 414.200 | $ 2.071 |
+| 01/02/2027 | $ 422.000 | $ 2.110 |
+| 01/03/2027 | $ 429.600 | $ 2.148 |
+| 01/04/2027 | $ 437.000 | $ 2.185 |
+
+**Cómo se elige el tramo.** Rige el vigente **a la fecha del hecho que se está midiendo** —la
+distribución del pronto pago, la extinción que dispara la compensación—, no el de hoy ni el de
+la sentencia. Los montos son para la **jornada legal completa**: las situaciones de los arts.
+92 ter y 198 LCT lo perciben **en proporción**.
+
+**El último tramo no tiene vencimiento escrito.** Los siete primeros quedan acotados por el
+comienzo del siguiente, así que se vencen solos y a la vista. El del 01/04/2027 rige hasta que
+otra resolución lo reemplace, y ése es el único que puede quedar viejo sin que se note:
+
+`[VERIFICAR MONTO ACTUALIZADO: SMVM posterior al tramo del 01/04/2027 - la Res. 4/2026 no fija un tramo siguiente y el Consejo se reúne sin periodicidad fija]`
+
+**Prestación por desempleo (art. 2 de la misma resolución).** Es el **75% del importe neto de la
+mejor remuneración mensual, normal y habitual** de los seis meses anteriores al cese, con piso
+del **50%** y techo del **100%** del SMVM vigente. El artículo remite al art. 118 de la Ley
+24.013.
+
+---
+
 ### 5.13 Maternidad, estabilidad y excedencia (arts. 177 a 186)
 
 Articulado cotejado contra `fuentes/normas/lct-20744.txt`. **Sólo el art. 177 fue
@@ -1112,9 +1153,9 @@ puede optar entre tres caminos:
 > compensación del 25% de la indemnización del art. 245". El texto dice otra cosa: la
 > compensación es el **25% de la remuneración de la trabajadora, calculada sobre el promedio
 > del art. 245, por cada año de servicio**, y **no puede exceder de un salario mínimo vital
-> por año de servicio o fracción mayor de tres meses**. Es un porcentaje de la base, no de la
-> indemnización, y tiene un tope propio que el perfil omite. Liquidarlo como el 25% del art.
-> 245 da un número distinto y casi siempre mayor.
+> por año de servicio o fracción mayor de tres meses** —el tramo que corresponda, en 5.12 bis—.
+> Es un porcentaje de la base, no de la indemnización, y tiene un tope propio que el perfil
+> omite. Liquidarlo como el 25% del art. 245 da un número distinto y casi siempre mayor.
 
 **Los incisos b) y c) también aplican** al supuesto justificado de **cuidado de hijo enfermo
 menor de edad** a cargo de la madre, con los alcances y limitaciones de la reglamentación.
@@ -1129,7 +1170,7 @@ alumbramiento o de la enfermedad del hijo, o en un cargo superior o inferior **d
 acuerdo**. Si no es admitida, se la indemniza **como si se tratara de despido injustificado**,
 salvo que el empleador demuestre la **imposibilidad de reincorporarla**, en cuyo caso la
 indemnización se limita a la del art. 183 inc. b) párrafo final —la compensación con tope de
-SMVM—. Los plazos de excedencia **no se computan como tiempo de servicio**.
+SMVM, 5.12 bis—. Los plazos de excedencia **no se computan como tiempo de servicio**.
 
 **Opción tácita (art. 186) — la trampa de las 48 horas.** Si no se reincorpora vencidos los
 plazos del art. 177 y **no comunica dentro de las 48 horas anteriores a la finalización** que

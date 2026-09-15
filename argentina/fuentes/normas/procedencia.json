@@ -1391,6 +1391,112 @@
       "bytes": 172660,
       "content_type": "text/html; charset=utf-8",
       "descargado": "2026-09-15T01:22:24+00:00"
+    },
+    "decreto-1558-2001": {
+      "titulo": "Decreto 1558/2001 - Reglamentación de la Ley 25.326 (texto actualizado)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/70000-74999/70368/texact.htm",
+      "archivo": "decreto-1558-2001.txt",
+      "sha256": "3d2905a12c04b6e02f9dbf1895174535e81c338dfce76db4b583cabfb55bc1e2",
+      "sha256_texto": "8eaa421e29f1d6dec7b4fe1c8c90b79b669062bbf806cf3b9202baaa6a407df5",
+      "bytes": 38137,
+      "content_type": "text/html",
+      "descargado": "2026-09-15T19:51:33+00:00"
+    },
+    "decreto-315-2026": {
+      "titulo": "Decreto 315/2026 - Reglamentación del Título XX de la Ley 27.802 (Régimen de Incentivo a la Formalización Laboral)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/425000-429999/425374/norma.htm",
+      "archivo": "decreto-315-2026.txt",
+      "sha256": "d6e1287a3814a4444600e6787022701a92618d3ab61597f0f5c164df727380d5",
+      "sha256_texto": "38c4ea1108ca57f8704aa9cda8f21038bdd782b76d099bbc8ac067163a0d6a63",
+      "bytes": 11159,
+      "content_type": "text/html",
+      "descargado": "2026-09-15T19:51:33+00:00"
+    },
+    "decreto-408-2026": {
+      "titulo": "Decreto 408/2026 - Reglamentación del Título II de la Ley 27.802 (Fondo de Asistencia Laboral)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/425000-429999/426272/norma.htm",
+      "archivo": "decreto-408-2026.txt",
+      "sha256": "fc338986373ebfcce921eac661df920024f5b9a97d9b9108bdd16a30c0d6c037",
+      "sha256_texto": "d32ee5cceee05a4e25cc700012be5d18eea092ac2af9dd99f040492b2b5f7375",
+      "bytes": 45181,
+      "content_type": "text/html",
+      "descargado": "2026-09-15T19:51:33+00:00"
+    },
+    "decreto-409-2026": {
+      "titulo": "Decreto 409/2026 - Régimen de Promoción del Empleo Registrado (Título XXII de la Ley 27.802)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/425000-429999/426271/norma.htm",
+      "archivo": "decreto-409-2026.txt",
+      "sha256": "3aa5514fd0b64628382e1fd07935213ba12ec84adbd0149f7f653ec6179a1552",
+      "sha256_texto": "065f06d5e6606714564078d1c3fb8d9ec43531583520e54c1a8e7f1c8e4d175b",
+      "bytes": 12704,
+      "content_type": "text/html",
+      "descargado": "2026-09-15T19:51:33+00:00"
+    },
+    "decreto-84-2026": {
+      "titulo": "Decreto 84/2026 - Reglamentación de la Ley 27.793 (Emergencia Nacional en Discapacidad)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/420000-424999/422915/norma.htm",
+      "archivo": "decreto-84-2026.txt",
+      "sha256": "cef57e7dc19b83ff72672ec6e76e441867aad0d9f3679b47f5d3be33f06fe37c",
+      "sha256_texto": "e92981e80d828be0e8dabe52ad9c6e3106b01eb790cf21c938242443a3f87603",
+      "bytes": 31200,
+      "content_type": "text/html",
+      "descargado": "2026-09-15T19:51:33+00:00",
+      "revisar": [
+        "parece la ley APROBATORIA y no su contenido: solo 23 articulos y el texto remite a un anexo. Buscar una fuente que transcriba el anexo"
+      ]
+    },
+    "ley-27793": {
+      "titulo": "Ley 27.793 - Emergencia Nacional en Discapacidad",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/415000-419999/417788/norma.htm",
+      "archivo": "ley-27793.txt",
+      "sha256": "c188d6b186a237cda485c9936eac593c6baac9afda611574aba47371e5a17832",
+      "sha256_texto": "19ad3d24504ae86c0d5f14942c13b19b314a1714a482f9c3869d9e6542001299",
+      "bytes": 21532,
+      "content_type": "text/html",
+      "descargado": "2026-09-15T19:51:33+00:00"
+    },
+    "res-cnepysmvym-4-2026": {
+      "titulo": "Res. 4/2026 CNEPySMVyM - SMVM y prestación por desempleo, cronograma desde 1/9/2026",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/425000-429999/429565/norma.htm",
+      "archivo": "res-cnepysmvym-4-2026.txt",
+      "sha256": "45da1df312f1f06a87c81c9fdb10fdc779af86a80972c0021127c87a0a654dde",
+      "sha256_texto": "5171436568d9c0af78334a5e80a5457016d58c639f5985fd14ce89ad834a70e6",
+      "bytes": 12204,
+      "content_type": "text/html",
+      "descargado": "2026-09-15T19:51:34+00:00"
+    },
+    "rg-arca-5844-2026": {
+      "titulo": "RG ARCA 5844/2026 - Implementación del Régimen de Incentivo a la Formalización Laboral (Título XX Ley 27.802)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/425000-429999/425538/norma.htm",
+      "archivo": "rg-arca-5844-2026.txt",
+      "sha256": "6461c52d8c3b99a334743e714e9a18126b1371d2f71b4127f7e9687c94ccad9e",
+      "sha256_texto": "ea966883bc6b4125634fa4957a8c8197d8bdc1bb7ff418b4a388d5da111940b4",
+      "bytes": 19341,
+      "content_type": "text/html",
+      "descargado": "2026-09-15T19:51:34+00:00"
+    },
+    "rg-arca-5848-2026": {
+      "titulo": "RG ARCA 5848/2026 - Certificado de trabajo del art. 80 LCT, formulario F.984",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/425000-429999/425871/norma.htm",
+      "archivo": "rg-arca-5848-2026.txt",
+      "sha256": "0b1333c2381ac8d65ff57d3628350f6f662401fb784241fe8e61ffd9a7c05dd1",
+      "sha256_texto": "2ce7ee43b761a40784dd577c6453661bd849d4be278dbb9cf17658ecec5197ea",
+      "bytes": 14438,
+      "content_type": "text/html",
+      "descargado": "2026-09-15T19:51:34+00:00"
+    },
+    "pba-ley-14731": {
+      "titulo": "Ley 14.731 PBA - Prorroga por dos años la emergencia de la Ley 14.407",
+      "url": "https://normas.gba.gob.ar/documentos/0ZYvQcEV.html",
+      "archivo": "pba-ley-14731.txt",
+      "sha256": "b0f0210738caf6843039aa6e660900a5c5ff21bde44d98bc50122ef90561aa1b",
+      "sha256_texto": "029d505046f432e224efdda846ad11ca50466418f0edc9367a782f6789a2c266",
+      "bytes": 1472,
+      "content_type": "text/html",
+      "descargado": "2026-09-15T20:58:05+00:00",
+      "revisar": [
+        "solo 2 articulos en 590 caracteres: sospechosamente corto"
+      ]
     }
   }
 }
