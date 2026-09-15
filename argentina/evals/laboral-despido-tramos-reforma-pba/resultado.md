@@ -12,7 +12,7 @@ El análisis debe abrir con dos cosas, no con la liquidación:
 
 - **Fuero y código.** Juzgado del Trabajo del departamento judicial de Morón, PBA.
   Código procesal: **Ley 15.057** (modificada por la Ley 15.557; operativa por Res. SC
-  1840/2024 del 3/7/2024, con aplicación inmediata a las causas en trámite en las que no
+  1840/2024 del 03/07/2024, con aplicación inmediata a las causas en trámite en las que no
   se hubiera celebrado la audiencia de vista de causa). **Cuidado con la estructura: la
   Res. SC 1840/24 difirió la operatividad de los arts. 7, 22, 71 a 81, 87 y 90 a 102**, de
   modo que los Juzgados del Trabajo unipersonales y las Cámaras de Apelación del Trabajo
@@ -30,27 +30,27 @@ El análisis debe abrir con dos cosas, no con la liquidación:
 
 ## 2. El punto que decide el caso: el tramo temporal
 
-El acto extintivo es del **15 de octubre de 2025**. Cae en el tramo **9/7/2024 a
-5/3/2026**. De ahí se derivan las dos respuestas que el caso pone a prueba:
+El acto extintivo es del **15 de octubre de 2025**. Cae en el tramo **09/07/2024 a
+05/03/2026**. De ahí se derivan las dos respuestas que el caso pone a prueba:
 
 - **Base del art. 245:** excluye SAC y conceptos de pago semestral o anual. **Incluye**
   las vacaciones no gozadas, porque esa exclusión la introdujo la Ley 27.802 recién para
-  actos extintivos desde el 6/3/2026. Las **horas extras** integran la base en este tramo
+  actos extintivos desde el 06/03/2026. Las **horas extras** integran la base en este tramo
   y tampoco están excluidas en el tramo vigente: el texto del art. 245 según el art. 51 de
   la Ley 27.802 excluye SAC, vacaciones y premios que no sean de pago mensual, y **no
   menciona las horas extras**.
 - **Agravantes:** ninguno procede. El art. 99 de la Ley 27.742 derogó el bloque completo
   de los **arts. 8 a 17 de la Ley 24.013** (incluidos 8, 9, 10, 11 y 15) y los **arts. 43 a
   48 de la Ley 25.345** (entre ellos el art. 45); el art. 100 derogó los arts. 1 y 2 de la
-  Ley 25.323. Todo desde el 9/7/2024.
+  Ley 25.323. Todo desde el 09/07/2024.
 
 El caso está construido para tentar al sistema con lo contrario: hay registración
 tardía, hay pago parcial en negro y hay una intimación previa en regla. Bajo el régimen
-anterior al 9/7/2024 ese cuadro habilitaba los tres agravantes de la Ley 24.013 más la
+anterior al 09/07/2024 ese cuadro habilitaba los tres agravantes de la Ley 24.013 más la
 duplicación del art. 1 de la Ley 25.323. Hoy no habilita ninguno. Un análisis que los
 liquide reproduce el error más caro de la práctica post-reforma.
 
-Lo que sí subsiste del reclamo de registración: la antigüedad real (3/2/2017) y la
+Lo que sí subsiste del reclamo de registración: la antigüedad real (03/02/2017) y la
 remuneración real integran la base de cálculo de las indemnizaciones, y la vía de
 registración es la de los arts. 7 y ss. de la Ley 24.013 en su texto vigente, incluida
 la denuncia directa ante ARCA del art. 7 ter.

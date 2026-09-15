@@ -100,7 +100,7 @@ responsabilidad recaiga sobre los propietarios.
 **Prescripción (art. 89, texto Ley 26.363):**
 
 | Supuesto | Plazo |
-|---|---|
+| --- | --- |
 | Acción por **falta leve** | **2 años** |
 | Acción por **falta grave** y **las sanciones** | **5 años** |
 
@@ -216,22 +216,22 @@ En cualquier caso, **no puede exceder de doce horas**.
 con alcoholemia superior a 0 mg/l**.
 
 > **La alcoholemia cero ya no es una particularidad bonaerense: es el régimen nacional.** El
-> **art. 48 inc. a de la Ley 24.449, texto del art. 1º de la Ley 27.714 (BO 3/5/2023)**, prohíbe
+> **art. 48 inc. a de la Ley 24.449, texto del art. 1º de la Ley 27.714 (BO 03/05/2023)**, prohíbe
 > *"conducir cualquier tipo de vehículos con una alcoholemia superior a cero (0) miligramos por
 > litro de sangre"*. Leído contra `fuentes/normas/ley-24449.txt`.
 >
 > **No citar el límite de 0,5 g/l como regla nacional vigente**: era el texto anterior. Lo que
 > queda de la disposición bonaerense es que PBA lo tenía antes y por su propia ley; el estándar
 > de fondo hoy coincide. Antes de discutir un acta por alcoholemia, verificar **qué texto regía a
-> la fecha del hecho**: para hechos anteriores al 4/5/2023 en jurisdicción nacional rige el límite
+> la fecha del hecho**: para hechos anteriores al 04/05/2023 en jurisdicción nacional rige el límite
 > anterior.
 >
-> `[VERIFICAR VIGENCIA: art. 48 inc. a Ley 24.449 texto Ley 27.714 y adhesion de la jurisdiccion donde se labro el acta - el regimen nacional no se aplica de pleno derecho en cada provincia]`
+> `[VERIFICAR VIGENCIA: art. 48 inc. a Ley 24.449 texto Ley 27.714 y adhesión de la jurisdicción donde se labro el acta - el régimen nacional no se aplica de pleno derecho en cada provincia]`
 
 **Recursos (arts. 40 y 41, texto Ley 14.393):**
 
 | Recurso | Plazo | Ante quién | Quién resuelve |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Revocatoria** | **5 días** de notificada | El funcionario que dictó el acto | El mismo órgano de juzgamiento |
 | **Apelación** | **5 días** de notificada | El funcionario que dictó el acto | El **Juez en lo Correccional** en turno; o el **de Paz Letrado** en partidos que no son cabecera de Departamento Judicial |
 
@@ -251,7 +251,7 @@ apelación dentro de los cinco días** (art. 41).
 > arts. 8 y 9 de la Ley 13.927— y la **tasa de justicia administrativa de infracciones de
 > tránsito** por peticiones administrativas, oficios particulares y desarchivo de actuaciones.
 > Los importes están en pesos de 2020 y hay que buscarlos en la ley impositiva del año en curso.
-> `[VERIFICAR MONTO ACTUALIZADO: tasa de justicia administrativa de infracciones de transito y certificado de libre deuda - ley impositiva PBA del anio en curso, el art. 72 de la Ley 15.170 es de 2020]`
+> `[VERIFICAR MONTO ACTUALIZADO: tasa de justicia administrativa de infracciones de transito y certificado de libre deuda - ley impositiva PBA del año en curso, el art. 72 de la Ley 15.170 es de 2020]`
 
 ### 28.5 bis El catálogo de contravenciones provinciales — cómo leer el inciso del acta
 
@@ -282,7 +282,7 @@ Y y Z.
 > circulación. Tres ejemplos que se verifican en el texto:
 >
 > | Conducta | En el art. 38 | Pero sí está en |
-> |---|---|---|
+> | --- | --- | --- |
 > | **Velocidad** | inc. N: *"Sin Reglamentar"* | **art. 28** (arts. 51 y 52), 150 a 1.000 U.F. |
 > | **Semáforo** | inc. P: *"Sin Reglamentar"* | **art. 22** (art. 44), inciso a) |
 > | **Falta de documentación** | inc. E: *"Sin Reglamentar"* | **art. 16** (art. 37), 50 a 100 U.F. |
@@ -292,7 +292,7 @@ Y y Z.
 > supuestos de arresto del art. 86. Si el acta califica de grave una conducta cuyo inciso del
 > art. 77 el Anexo V dejó sin reglamentar, y la sanciona por el artículo de circulación, la
 > calificación es atacable aunque la multa no lo sea.
-> `[INSERTAR FALLO VERIFICADO: si una falta cuyo inciso del art. 77 quedo Sin Reglamentar en el Anexo V del Decreto 532/2009 conserva el caracter de GRAVE a los efectos de la prescripcion del art. 89 y del arresto del art. 86 - aportar juzgado, camara y anio]`
+> `[INSERTAR FALLO VERIFICADO: si una falta cuyo inciso del art. 77 quedo Sin Reglamentar en el Anexo V del Decreto 532/2009 conserva el caracter de GRAVE a los efectos de la prescripción del art. 89 y del arresto del art. 86 - aportar juzgado, camara y año]`
 
 #### La letra del acta no es la letra de la ley
 
@@ -301,7 +301,7 @@ provincial va corrido un lugar** respecto del nacional, y el corrimiento se arra
 final:
 
 | Art. 77 de la 24.449 | Conducta | Art. 38 del Anexo V |
-|---|---|---|
+| --- | --- | --- |
 | **n)** | límites de velocidad | **N** |
 | **ñ)** | distancia prudente con el que precede | **O** |
 | **o)** | semáforos | **P** |
@@ -329,7 +329,7 @@ b) trae subincisos numerados 1 a 3, que son obstrucción de la circulación y es
 lugares reservados. La velocidad, que es lo que una escala *"en función de los mayores excesos"*
 describe, es el inciso **n)**. La remisión quedó rota en la sustitución que hizo el **art. 34 de
 la Ley 26.363**.
-`[REVISIÓN NORMATIVA REQUERIDA: art. 84 de la Ley 24.449 texto Ley 26.363 remite al "inciso 1 del articulo 77", que no existe - determinar si alcanza al inciso n) -velocidad- antes de aplicar el maximo de 20.000 UF en lugar de 5.000]`
+`[REVISIÓN NORMATIVA REQUERIDA: art. 84 de la Ley 24.449 texto Ley 26.363 remite al "inciso 1 del artículo 77", que no existe - determinar si alcanza al inciso n) -velocidad- antes de aplicar el máximo de 20.000 UF en lugar de 5.000]`
 
 **Lo que la Provincia agregó por su cuenta.** Los arts. 39 y 40 del Anexo V no reglamentan la
 ley nacional sino la provincial: **revisión técnica obligatoria** (art. 16 Ley 13.927) y
@@ -339,7 +339,7 @@ ley nacional sino la provincial: **revisión técnica obligatoria** (art. 16 Ley
 **Las escalas están en U.F. y por eso no se vencen.** El único dato móvil es el valor de la
 U.F., que se busca **a la fecha de pago** y no a la del acta (28.4).
 
-> **Al transcribir el Anexo V, cuidado con el art. 2.** Termina con la frase *"En Nacion va de
+> **Al transcribir el Anexo V, cuidado con el art. 2.** Termina con la frase *"En Nación va de
 > 150 a 500"*, que **no es texto normativo**: es una anotación de quien digitalizó la norma —sin
 > tilde, con una construcción que no aparece en ninguno de los otros 39 artículos—. Es el tipo
 > de defecto de fuente que ninguna medida automática detecta, y queda anotado también en la
@@ -350,14 +350,14 @@ Las escalas artículo por artículo están en **28.5 ter**, transcriptas del tex
 ### 28.5 ter Las escalas del Anexo V, artículo por artículo
 
 Transcriptas de `fuentes/normas/pba-decreto-532-2009.txt` —texto consolidado de
-normas.gba.gob.ar, SHA-256 del cuerpo `5bc12375…`, descargado el 14/9/2026—. **Todas en U.F.**;
+normas.gba.gob.ar, SHA-256 del cuerpo `5bc12375…`, descargado en septiembre de 2026—. **Todas en U.F.**;
 el valor de la U.F. se busca a la fecha de pago (28.4). El orden es por frecuencia de uso, no
 por materia: están los 40 artículos.
 
 #### Lo que llega a un acta de conductor
 
 | Conducta | Anexo V | Regla que reglamenta | U.F. |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Negarse a la prueba de alcoholemia** | art. 36 | art. 73 | **500 a 1.200** |
 | **Velocidad**, límites reglamentarios | art. 28 | arts. 51 y 52 | **150 a 1.000** |
 | **Semáforo** o descenso de barrera en paso a nivel | art. 22 | art. 44 inc. a | **300 a 1.000** |
@@ -401,7 +401,7 @@ Reglamenta el art. 40 de la 24.449, que es el de los requisitos para circular. S
 y es el artículo del que sale la mayoría de las actas:
 
 | Requisito | Supuesto | U.F. |
-|---|---|---|
+| --- | --- | --- |
 | **Licencia** (inc. a) | 1. Legalmente inhabilitado | 300 a 1.000 |
 | | 2. Sin haber sido habilitado | 300 a 1.000 |
 | | 3. Con la habilitación suspendida | 300 a 1.000 |
@@ -432,7 +432,7 @@ del art. 72 inc. c punto 1 de la ley reglamentada, que es retención preventiva 
 #### El techo de 20.000 U.F. aparece dos veces, y las dos por peso
 
 | Anexo V | Conducta | U.F. |
-|---|---|---|
+| --- | --- | --- |
 | art. 18 inc. h | Dimensiones, peso o potencia inadecuados a la vía transitada | hasta 20.000 |
 | art. 29 | Circular con carga que excede dimensiones o peso máximo **sin permiso** | hasta 20.000 |
 
@@ -444,14 +444,14 @@ defecto de remisión del art. 84 señalado en 28.5 bis, aunque no lo resuelve.
 56, 57 y 58 no se sancionan con una escala propia: van *"conforme al Régimen de Penalidades por
 infracciones a las Disposiciones Legales y Reglamentarias en materia de transporte por automotor
 de Jurisdicción Provincial"*, que es otro cuerpo normativo y no está en `fuentes/`.
-`[VERIFICAR VIGENCIA: Regimen de Penalidades en materia de transporte por automotor de jurisdiccion provincial PBA, al que remite el art. 29 del Anexo V del Decreto 532/2009 - no esta declarado en normas.json]`
+`[VERIFICAR VIGENCIA: Régimen de Penalidades en materia de transporte por automotor de jurisdicción provincial PBA, al que remite el art. 29 del Anexo V del Decreto 532/2009 - no está declarado en normas.json]`
 
 #### El resto del catálogo — obra pública, publicidad, fabricantes
 
 No llega a un acta de conductor, pero completa el Anexo V:
 
 | Conducta | Anexo V | Regla | U.F. |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Publicidad laudatoria de conductas contrarias a los fines de la ley | art. 1 | art. 9 inc. e | 1.500 a 5.000 |
 | Enseñar a conducir sin cumplir los requisitos | art. 3 | art. 12 | 1.500 a 5.000 |
 | Obras o dispositivos en la vía pública fuera de las normas de seguridad vial | art. 4 | art. 21 | 300 a 1.000 |
@@ -487,7 +487,7 @@ No llega a un acta de conductor, pero completa el Anexo V:
 6. **Si conviene invocar la parte general del CP por el art. 90**, y con qué instituto concreto.
 7. **El valor de la UF a la fecha de pago**, no a la del acta.
 
-`[ALERTA PLAZO FATAL: art. 72 bis Ley 24.449 - 30 dias corridos desde la Boleta de Citacion - vencimiento: calcular]`
+`[ALERTA PLAZO FATAL: art. 72 bis Ley 24.449 - 30 días corridos desde la Boleta de Citación - vencimiento: calcular]`
 
 ---
 
@@ -505,7 +505,7 @@ No llega a un acta de conductor, pero completa el Anexo V:
 >   delega: la Dirección Provincial de Política y Seguridad Vial *"dispondrá la información que
 >   contendrá el acta de infracción, sus formas y modalidades"*. Vive en una disposición de ese
 >   organismo, no en el decreto, y desde acá no se puede cerrar.
->   `[VERIFICAR RESOLUCIÓN REGISTRAL VIGENTE: Direccion Provincial de Politica y Seguridad Vial PBA - contenido y diseño del acta unica de infraccion, art. 7 del Anexo I del Decreto 532/2009 texto Decreto 1350/2018]`
+>   `[VERIFICAR RESOLUCIÓN REGISTRAL VIGENTE: Dirección Provincial de Politica y Seguridad Vial PBA - contenido y diseño del acta unica de infracción, art. 7 del Anexo I del Decreto 532/2009 texto Decreto 1350/2018]`
 >
 > **Lo que sí está y falta escribir es el Anexo V**, régimen general de contravenciones: 40
 > artículos, con la sanción **expresada en U.F. y no en pesos** —por eso no se vence, y por eso

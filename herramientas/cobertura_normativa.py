@@ -1,43 +1,43 @@
 #!/usr/bin/env python3
-"""Compara lo que los modulos CITAN contra lo que fuentes/ tiene BAJADO.
+"""Compara lo que los módulos CITAN contra lo que fuentes/ tiene BAJADO.
 
 POR QUE EXISTE
 
 La disciplina del proyecto dice que no se afirma una norma sin fuente primaria
 a la vista. Los descargadores cumplen su parte -hashean, reintentan, verifican
-identidad y encoding- pero ninguno responde la pregunta previa: QUE deberia
-estar en el manifiesto. Eso se venia decidiendo a ojo, y asi quedaron afuera
-normas que los modulos usan con articulado.
+identidad y encoding- pero ninguno responde la pregunta previa: QUE debería
+estar en el manifiesto. Eso se venía decidiendo a ojo, y así quedaron afuera
+normas que los módulos usan con articulado.
 
-El caso que lo destapo: la Ley 25.323. laboral.md describe su duplicacion, su
-recargo del 50% y su exigencia de intimacion previa, y concursos.md rutea a
+El caso que lo destapo: la Ley 25.323. laboral.md describe su duplicación, su
+recargo del 50% y su exigencia de intimación previa, y concursos.md rutea a
 sus arts. 1 y 2 para el pronto pago. No estaba declarada en normas.json. Se
 estaba afirmando su contenido de memoria.
 
 QUE MIDE Y QUE NO
 
-Busca citas de ley en los modulos y las cruza contra normas.json. Separa dos
+Busca citas de ley en los módulos y las cruza contra normas.json. Separa dos
 usos, porque no piden lo mismo:
 
   CON ARTICULADO   "art. 2 de la Ley 25.323". Se esta usando la norma como
                    fuente de una regla: hace falta el texto.
 
-  SOLO NOMBRADA    "texto segun Ley 27.785", "derogada por la Ley 27.742".
+  SOLO NOMBRADA    "texto según Ley 27.785", "derogada por la Ley 27.742".
                    Es una modificatoria, y el consolidado de la ley base ya
                    la incorpora. NO hace falta bajarla aparte.
 
-La distincion es imperfecta: se mira una ventana de texto alrededor de la cita
+La distinción es imperfecta: se mira una ventana de texto alrededor de la cita
 y puede equivocarse en los dos sentidos. Por eso la salida es una LISTA PARA
 REVISAR, no una orden de descarga. Antes de agregar algo a normas.json hay que
-abrir el modulo y ver como se usa.
+abrir el módulo y ver como se usa.
 
-Los codigos -CCyCN, CP, CPCCN, CPCCBA, LCT, LDC- no se detectan acá porque no
-se citan por numero de ley. Estan todos bajados; si eso cambia, lo dice
+Los códigos -CCyCN, CP, CPCCN, CPCCBA, LCT, LDC- no se detectan acá porque no
+se citan por número de ley. Están todos bajados; si eso cambia, lo dice
 estado.py.
 
 Uso:
   python3 herramientas/cobertura_normativa.py             faltantes con articulado
-  python3 herramientas/cobertura_normativa.py --todo      tambien las solo nombradas
+  python3 herramientas/cobertura_normativa.py --todo      también las solo nombradas
 """
 import json
 import pathlib
@@ -55,13 +55,13 @@ VENTANA = 110
 
 # Una ley se nombra por dos motivos distintos y solo uno pide bajar su texto.
 #
-#   "art. 163, texto Ley 15.232"  -> la 15.232 REFORMO al CPP PBA. El articulado
-#                                    es del codigo, que ya esta bajado. No hace falta.
+#   "art. 163, texto Ley 15.232"  -> la 15.232 REFORMÓ al CPP PBA. El articulado
+#                                    es del código, que ya está bajado. No hace falta.
 #   "art. 22 Ley 23.661"          -> la 23.661 es la FUENTE de la regla. Hace falta.
 #
-# Sin esta distincion la lista da 88 y es inservible; con ella da 32 y se puede
-# trabajar. La frase real del repo es "texto Ley N", sin "segun" en el medio:
-# exigirlo dejaba pasar las reformas mas comunes.
+# Sin esta distinción la lista da 88 y es inservible; con ella da 32 y se puede
+# trabajar. La frase real del repo es "texto Ley N", sin "según" en el medio:
+# exigirlo dejaba pasar las reformas más comunes.
 REFORMA = re.compile(
     r"text[oa]\s+(seg[úu]n\s+|ordenado\s+|conforme\s+)?(la\s+)?[Ll]ey|"
     r"seg[úu]n\s+(la\s+)?[Ll]ey|reformad|sustitu|modificad|modificó|modifica\b|"
@@ -86,7 +86,7 @@ def declaradas() -> set[str]:
 
 
 def decisiones() -> dict:
-    """Veredicto ya tomado para cada ley, con el motivo. Vacio si no hay archivo."""
+    """Veredicto ya tomado para cada ley, con el motivo. Vacío si no hay archivo."""
     try:
         return _veredictos.cargar(DECISIONES, "leyes", vacio={})[1]
     except (OSError, ValueError, KeyError):
@@ -128,7 +128,7 @@ def main(argv: list[str]) -> int:
 
     print(f"\n  Manifiesto: {len(tengo)} leyes declaradas.")
     print(f"  Citadas y no declaradas: {len(regla)} como fuente de una regla, "
-          f"{len(reforma)} como reforma de una ley que ya esta bajada.\n")
+          f"{len(reforma)} como reforma de una ley que ya está bajada.\n")
 
     if pendientes:
         print(f"  SIN DECIDIR ({len(pendientes)}) — abrir el modulo y ver como se usa:\n")
@@ -151,8 +151,8 @@ def main(argv: list[str]) -> int:
             print(f"  Ley {numero[:2]}.{numero[2:]}  ({veces}x)")
 
     print("\n  Un veredicto se anota en cobertura-revisada.json con su motivo. La")
-    print("  deteccion de reformas mira una ventana de texto y se equivoca en los dos")
-    print("  sentidos: lo que decide es abrir el modulo, no el conteo.")
+    print("  detección de reformas mira una ventana de texto y se equivoca en los dos")
+    print("  sentidos: lo que decide es abrir el módulo, no el conteo.")
     return 0
 
 

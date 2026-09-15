@@ -72,7 +72,7 @@ def probar(nombre: str, url: str, timeout: int):
     except (socket.timeout, TimeoutError):
         print(f"    GET      TIMEOUT tras {timeout}s (la conexion abre pero no completa)")
         print("             -> el sitio responde pero transfiere muy lento, o corta la "
-              "conexion.\n                Probar --timeout 300 --reintentos 5, o desde otra red")
+              "conexión.\n                Probar --timeout 300 --reintentos 5, o desde otra red")
     except Exception as e:
         print(f"    GET      FALLA: {type(e).__name__}: {e}")
 
@@ -83,7 +83,7 @@ def main():
     p.add_argument("--timeout", type=int, default=120)
     p.add_argument("--url", action="append", default=[], help="Probar solo esta URL")
     a = p.parse_args()
-    print("DIAGNOSTICO DE CONECTIVIDAD CON LAS FUENTES OFICIALES")
+    print("DIAGNÓSTICO DE CONECTIVIDAD CON LAS FUENTES OFICIALES")
     sitios = [("URL indicada", u) for u in a.url] or SITIOS
     for nombre, url in sitios:
         probar(nombre, url, a.timeout)

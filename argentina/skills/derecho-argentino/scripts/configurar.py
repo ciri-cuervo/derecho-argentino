@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Deja configurada, una sola vez por maquina, la ruta al repo de conocimiento juridico.
+"""Deja configurada, una sola vez por máquina, la ruta al repo de conocimiento jurídico.
 
     python3 configurar.py --repo ~/develop/derecho-argentino
-    python3 configurar.py                 # busca solo y muestra que encontro
+    python3 configurar.py                 # busca solo y muestra que encontró
     python3 configurar.py --mostrar       # solo informa, no escribe
 
-La skill se instala a nivel de cuenta y corre en cualquier maquina; el repo puede estar en
+La skill se instala a nivel de cuenta y corre en cualquier máquina; el repo puede estar en
 cualquier ruta. Esto lo resuelve sin que ninguna ruta quede escrita en la skill.
 """
 from __future__ import annotations
@@ -45,7 +45,7 @@ def estado(p: Path):
 def main():
     p = argparse.ArgumentParser(description=__doc__,
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
-    p.add_argument("--repo", default=None, help="Ruta a la raiz del repo")
+    p.add_argument("--repo", default=None, help="Ruta a la raíz del repo")
     p.add_argument("--mostrar", action="store_true", help="Informa sin escribir configuracion")
     a = p.parse_args()
 
@@ -59,7 +59,7 @@ def main():
         print(f"  Configurado: {ruta.resolve()}")
         print(f"  Guardado en: {destino}")
         estado(ruta.resolve())
-        print("\n  Los scripts de la skill ya lo van a encontrar solos en esta maquina.")
+        print("\n  Los scripts de la skill ya lo van a encontrar solos en esta máquina.")
         return
 
     encontrado, origen = resolver(a.repo, fijar=not a.mostrar, avisar=False)
@@ -68,12 +68,12 @@ def main():
         print(f"  Por: {origen}")
         estado(encontrado)
         if origen.endswith("(queda fijada)"):
-            print(f"\n  Se dejo anotado en {archivo_config()}: los proximos usos lo toman "
-                  f"de ahi.")
-        elif a.mostrar and origen.startswith(("ubicacion habitual", "la skill")):
-            print("\n  Todavia no esta escrito en la configuracion (--mostrar no escribe).")
+            print(f"\n  Se dejó anotado en {archivo_config()}: los próximos usos lo toman "
+                  f"de ahí.")
+        elif a.mostrar and origen.startswith(("ubicación habitual", "la skill")):
+            print("\n  Todavía no está escrito en la configuración (--mostrar no escribe).")
     else:
-        print("  No se encontro el repo en esta maquina.")
+        print("  No se encontró el repo en esta máquina.")
         print(f"  Config esperada en: {archivo_config()}")
         print(f"  Variable de entorno alternativa: {ENV}")
         print("\n  Para configurarlo:")

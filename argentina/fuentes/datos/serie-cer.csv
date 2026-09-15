@@ -1,4 +1,4 @@
-# CER - Coeficiente de Estabilización de Referencia (base 2/2/2002 = 1)
+# CER - Coeficiente de Estabilización de Referencia (base 02/02/2002 = 1)
 # Organismo: BCRA, via datos.gob.ar - frecuencia: diaria, colapsada a fin de mes
 # serie_id: 94.2_CD_D_0_0_10
 # Fuente: https://apis.datos.gob.ar/series/api/series/?ids=94.2_CD_D_0_0_10&format=csv&start_date=2016-12

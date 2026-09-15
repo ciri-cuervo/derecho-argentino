@@ -59,18 +59,18 @@ class ATexto(HTMLParser):
 
 # --- Cromo del portal con fecha de HOY -----------------------------------------------
 #
-# El Boletin Oficial y JURISTECA imprimen la fecha del dia DENTRO del cuerpo de la pagina,
-# encima del texto de la norma. Eso hace que `sha256_texto` cambie todos los dias sin que la
-# norma cambie, y `verificar_normas.py` cante CAMBIO -- cambio el texto de la norma sobre
-# tres normas, todos los dias. Una alarma que suena siempre es una alarma que se deja de
-# mirar: por ahi es por donde se pierde un cambio real.
+# El Boletín Oficial y JURISTECA imprimen la fecha del dia DENTRO del cuerpo de la página,
+# encima del texto de la norma. Eso hace que `sha256_texto` cambie todos los días sin que la
+# norma cambie, y `verificar_normas.py` cante CAMBIO -- cambió el texto de la norma sobre
+# tres normas, todos los días. Una alarma que suena siempre es una alarma que se deja de
+# mirar: por ahí es por donde se pierde un cambio real.
 #
-# Se saca la fecha, NO con una expresion que busque fechas -- eso se comeria las de sancion y
+# Se saca la fecha, NO con una expresión que busque fechas -- eso se comeria las de sanción y
 # promulgacion, que son parte de la norma y cuya desaparicion es justo lo que hay que
 # detectar -- sino ANCLADA a los dos rotulos que el portal pone alrededor. Sin esos rotulos
 # no se toca nada.
 CROMO_CON_FECHA = (
-    # Boletin Oficial: "Edicion del / <fecha> / Ediciones Anteriores"
+    # Boletín Oficial: "Edición del / <fecha> / Ediciones Anteriores"
     re.compile(r"(?P<antes>Edici[óo]n del\n+)\d{1,2} de \w+ de \d{4}\n+"
                r"(?P<despues>Ediciones Anteriores)", re.I),
     # JURISTECA: "Saltar al contenido / <fecha> / Las fuentes del Derecho a tu alcance"
@@ -83,7 +83,7 @@ SIN_FECHA = "[fecha del portal, no es parte de la norma]"
 def normalizar_cromo(texto: str) -> str:
     """Saca del cuerpo la fecha de hoy que el portal imprime alrededor de la norma.
 
-    Deja en su lugar un rotulo visible: quien lea el .txt tiene que ver que ahi habia algo y
+    Deja en su lugar un rotulo visible: quien lea el .txt tiene que ver que ahí habia algo y
     que se saco a proposito, no encontrarse dos renglones de maqueta pegados.
     """
     for patron in CROMO_CON_FECHA:
@@ -106,7 +106,7 @@ class ErrorDeDescarga(Exception):
 
 
 def _descomprimir(crudo: bytes, encoding: str) -> bytes:
-    """Algunos sitios oficiales sirven HTML grande comprimido. Pedirlo asi baja mucho el
+    """Algunos sitios oficiales sirven HTML grande comprimido. Pedirlo así baja mucho el
     tiempo de transferencia en enlaces lentos, que es donde aparecen los timeouts."""
     encoding = (encoding or "").lower()
     try:
@@ -250,7 +250,7 @@ def cargar_revisiones() -> dict:
         return {}
     d = json.loads(REVISIONES.read_text(encoding="utf-8"))
     # Mismo sobre que los otros cuatro archivos de veredicto del repo -- lo documenta
-    # `herramientas/_veredictos.py` --, pero cargado aca y no importado de alla: este script
+    # `herramientas/_veredictos.py` --, pero cargado acá y no importado de allá: este script
     # viaja dentro del plugin y el plugin tiene que ser autocontenido para poder instalarse.
     # Lo que los mantiene alineados es el test del sobre, que lee los cinco.
     for clave in ("_descripcion", "fijado"):
@@ -272,24 +272,24 @@ MARCAS_DE_FICHA = (
     "Esta norma modifica o complementa a",
     "Esta norma es complementada o modificada por",
 )
-# Ley aprobatoria cuyo contenido real vive en un anexo que la pagina no transcribe.
-# Se compara en minusculas: "Apruebase" y "Apruebase" con tilde escriben distinto.
+# Ley aprobatoria cuyo contenido real vive en un anexo que la página no transcribe.
+# Se compara en minúsculas: "Apruebase" y "Apruebase" con tilde escriben distinto.
 MARCAS_DE_ANEXO = ("como anexo", "integra la presente", "forma parte de la presente")
 MARCAS_DE_APROBATORIA = ("aprueb", "apruéb")
-# Cromo de portal: si aparece, lo que bajo es la pagina del sitio y no el articulado.
+# Cromo de portal: si aparece, lo que bajo es la página del sitio y no el articulado.
 MARCAS_DE_PORTAL = (
     "Pasar al contenido principal",
     "Cerrar el buscador",
     "Buscar en el sitio",
     "Ir a Mi Argentina",
 )
-# Hay leyes legitimamente cortas (la 26.944 tiene 12 articulos): el umbral es bajo a
-# proposito y el resto del diagnostico lo hacen las marcas.
+# Hay leyes legitimamente cortas (la 26.944 tiene 12 artículos): el umbral es bajo a
+# propósito y el resto del diagnóstico lo hacen las marcas.
 MINIMO_RAZONABLE = 2500       # caracteres
 
 
 def contar_articulos(texto: str) -> int:
-    """Cantidad de articulos DISTINTOS mencionados. Es la senal mas confiable de que lo que
+    """Cantidad de articulos DISTINTOS mencionados. Es la senal más confiable de que lo que
     se bajo es un articulado y no una pagina de sitio: el cromo del portal puede envolver un
     texto perfectamente completo, y el largo total no distingue un codigo de una ficha.
 
@@ -344,18 +344,18 @@ def revisar_texto(texto: str) -> list:
             "remite a un anexo. Buscar una fuente que transcriba el anexo")
 
     letras = sum(c.isalpha() for c in texto[:20000])
-    acentos = sum(c in "áéíóúñÁÉÍÓÚÑ" for c in texto[:20000])
+    acentos = sum(c in "áéíóúüñÁÉÍÓÚÜÑ" for c in texto[:20000])
     if letras > 2000 and acentos / letras < 0.002:
         problemas.append("casi no hay acentos: el charset puede estar mal resuelto")
-    # Deteccion de acentuacion degradada. El set original incluia "..." -U+2026, puntos
-    # suspensivos- y eso hacia fallar el chequeo sobre texto perfectamente sano: una fe de
+    # Deteccion de acentuación degradada. El set original incluia "..." -U+2026, puntos
+    # suspensivos- y eso hacía fallar el chequeo sobre texto perfectamente sano: una fe de
     # erratas que dice DONDE DICE: ... / DEBE DECIR: ... , o una tabla con puntos de relleno,
     # alcanzaba para marcar la norma. Tres de las cuatro normas que estaban marcadas por
     # codepage eran eso, texto limpio. El indicio no era el dato.
     #
     # Lo que si delata la corrupcion es un caracter del rango de control de CP1252 PEGADO A
     # LETRAS, que es como aparece cuando un byte de CP437 se decodifica mal: m,rito por
-    # merito, c,dula por cedula. Eso no ocurre en texto sano.
+    # mérito, c,dula por cédula. Eso no ocurre en texto sano.
     if len(RE_ACENTO_DEGRADADO.findall(texto)) >= 3:
         problemas.append("hay acentuacion degradada -caracteres de control entre letras-: la "
                          "fuente sirve el texto mal codificado; cotejar contra el Boletin "

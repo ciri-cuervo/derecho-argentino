@@ -46,7 +46,7 @@ Ver también `laboral.md`, 5.10, que trae la tabla de marcadores por dato.
 **Bloquean:**
 
 | Dato | Por qué |
-|---|---|
+| --- | --- |
 | Fecha de ingreso | Antigüedad y multiplicador del art. 245 |
 | **Fecha del acto extintivo** | Decide el tramo de reforma. Es el dato que más veces cambia todo el resultado |
 | Modo de extinción y quién lo dispuso | Decide qué rubros proceden |
@@ -56,7 +56,7 @@ Ver también `laboral.md`, 5.10, que trae la tabla de marcadores por dato.
 
 **Se marcan y no bloquean:** vacaciones gozadas en el año; si el período de prueba estaba
 vigente; si hubo intimación fehaciente previa (sólo relevante para actos anteriores al
-9/7/2024); categoría; jornada.
+09/07/2024); categoría; jornada.
 
 ## Laboral · régimen procesal y trámite
 
@@ -80,7 +80,7 @@ equivalente entre Nación y PBA (`plazos.md`, 8.4).
 
 **Bloquean:** naturaleza del crédito —prestación de la LRT con fórmula legal propia, o
 crédito común de la LCT: la respuesta decide entre "Galarza" y el resto—; fecha desde la que
-corre cada tramo; si el juicio estaba en trámite al 6/3/2026, para el art. 55 de la Ley
+corre cada tramo; si el juicio estaba en trámite al 06/03/2026, para el art. 55 de la Ley
 27.802; y si ya hubo cuantificación a valores actuales, que parte el cálculo en dos tramos.
 
 **Se marca:** el índice o tasa concretos, que salen de las series y nunca de la memoria.

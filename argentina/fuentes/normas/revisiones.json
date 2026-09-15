@@ -7,7 +7,7 @@
     "ley-24754": [
       {
         "problema": "solo 2 articulos en 1430 caracteres: sospechosamente corto",
-        "veredicto": "Falso positivo. La ley son dos articulos: el 1, sustantivo, que extiende a las prepagas la cobertura minima exigible a las obras sociales conforme las Leyes 23.660, 23.661 y 24.455; y el 2, de forma. 1.430 caracteres es la ley entera, mas la fe de erratas que corrige 'dispuestas por las obras sociales' por 'dispuestas para las obras sociales'.",
+        "veredicto": "Falso positivo. La ley son dos articulos: el 1, sustantivo, que extiende a las prepagas la cobertura minima exigible a las obras sociales conforme las Leyes 23.660, 23.661 y 24.455; y el 2, de forma. 1.430 caracteres es la ley entera, más la fe de erratas que corrige 'dispuestas por las obras sociales' por 'dispuestas para las obras sociales'.",
         "fecha": "2026-09-14"
       }
     ],

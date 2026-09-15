@@ -9,10 +9,10 @@
 # Derecho argentino · skill para agentes de IA
 
 <p align="center">
-  <a href="CHANGELOG.md"><img src="assets/marca/chapa-version.png" width="106" alt="Versión 1.0.0"></a>
-  <a href="LICENCIAS.md"><img src="assets/marca/chapa-licencia.png" width="168" alt="Licencias: contenido CC BY-SA 4.0, código MIT"></a>
-  <img src="assets/marca/chapa-python.png" width="135" alt="Requiere Python 3">
-  <img src="assets/marca/chapa-agentes.png" width="172" alt="Corre en Claude y Codex (ChatGPT)">
+  <a href="CHANGELOG.md"><img src="assets/marca/chapa-version.png" width="139" height="32" alt="Versión 1.1.0-beta1"></a>
+  <a href="LICENCIAS.md"><img src="assets/marca/chapa-licencia.png" width="168" height="32" alt="Licencias: contenido CC BY-SA 4.0, código MIT"></a>
+  <img src="assets/marca/chapa-python.png" width="135" height="32" alt="Requiere Python 3">
+  <img src="assets/marca/chapa-agentes.png" width="172" height="32" alt="Corre en Claude y Codex (ChatGPT)">
 </p>
 
 Skill de análisis, redacción y revisión jurídica bajo **derecho argentino**, con una capa offline
@@ -34,13 +34,13 @@ de fuente primaria y calculadoras deterministas. Trabaja tanto **desde una parte
 
 ## 📥 Instalar
 
-**Funciona en las dos apps de escritorio —Claude y Codex (ChatGPT)— y en las dos consolas**, en Windows,
-Linux y macOS. Elegí la que uses: todos los caminos llevan al mismo lugar y no hace falta hacer
-más de uno.
+**No hay que saber programar ni configurar nada.** Se instala por menú, como cualquier programa, y
+después se le habla en castellano: la skill se activa sola cuando le preguntás algo de derecho
+argentino.
 
-**Lo único que hay que tener instalado aparte es Python 3.** Nada más: los scripts de la skill
-usan sólo biblioteca estándar. Para saber si ya lo tenés, abrí una terminal y escribí
-`python3 --version` —en Windows, `python --version`—. Si responde un número, está.
+**Funciona en las dos apps de escritorio —Claude y Codex (ChatGPT)— y en las dos consolas**, en
+Windows, Linux y macOS. Todos los caminos llevan al mismo lugar y **alcanza con hacer uno**. Si no
+sabés cuál, andá al de la app de Claude: es el más corto y el que menos cosas pide.
 
 > [!IMPORTANT]
 > **La descarga son unos 70 MB** y son casi todo normas y fallos, para que la skill pueda
@@ -48,8 +48,8 @@ usan sólo biblioteca estándar. Para saber si ya lo tenés, abrí una terminal 
 
 ### Desde la app de escritorio
 
-Es el camino sin consola: se instala por menú. En las dos apps se pega el mismo repositorio, que
-es este:
+Es el camino sin consola: todo por menú. En las dos apps, en algún momento te va a pedir una
+dirección. **Es siempre esta, y es lo único que hay que copiar y pegar:**
 
 ```
 ciri-cuervo/derecho-argentino
@@ -57,12 +57,12 @@ ciri-cuervo/derecho-argentino
 
 #### <img src="assets/logos/claude.svg" height="20" alt=""> En la app de Claude
 
-**1 · Instalá la app.** Bajá la [app de escritorio](https://claude.com/download), instalala y
-abrila. La primera vez pide iniciar sesión.
+**1 · Instalá la app.** Bajá [Claude](https://claude.com/download) para tu sistema —Windows, Mac o
+Linux—, instalalo y abrilo. La primera vez pide iniciar sesión.
 
 **2 · Agregá el marketplace.** En la barra lateral, **Personalizar** → pestaña **Plugins** →
-botón **Agregar** → *Agregar marketplace* → *Agregar desde un repositorio*, y pegá el
-repositorio de arriba.
+botón **Agregar** → *Agregar marketplace* → *Agregar desde un repositorio*, y pegá la dirección
+de arriba.
 
 **3 · Instalá el plugin.** En la lista aparece **Derecho argentino**, bajo *Nuevo*. Click en el
 **+** de su tarjeta. Cuando el `+` se convierte en un tilde, quedó instalado.
@@ -71,18 +71,21 @@ Queda disponible en las dos pestañas de la app, **Chat** y **Cowork**.
 
 #### <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/codex-oscuro.svg"><img src="assets/logos/codex-claro.svg" height="20" alt=""></picture> En la app de Codex / ChatGPT
 
-**1 · Instalá la app de Codex / ChatGPT** siguiendo las instrucciones de OpenAI para tu sistema.
+**1 · Instalá la app.** Bajá [Codex](https://openai.com/es-419/codex/) —es el mismo agente de
+codificación, dentro de ChatGPT—, instalalo y abrilo. La primera vez pide iniciar sesión.
 
 **2 · Agregá el marketplace.** En **Complementos** → botón **Agregar** → *Agregar marketplace*.
-En *Origen*, el repositorio de arriba; en *Referencia de Git*, `main`; *Rutas dispersas* se deja
+En *Origen*, la dirección de arriba; en *Referencia de Git*, `main`; *Rutas dispersas* se deja
 vacío.
 
 **3 · Instalá el plugin.** Este es el paso que no se adivina: el plugin **no aparece en la
 pestaña *Público*** junto a los conectores conocidos. Está en la pestaña **Personal**, bajo el
 título *Derecho argentino*. Click en el **+** de la fila `derecho`.
 
-Por cualquiera de los dos caminos queda disponible como **`derecho:derecho-argentino`** y se
-activa sola ante una consulta jurídica argentina.
+**Y con eso ya está: no hay nada que abrir ni configurar.** Por cualquiera de los dos caminos la
+skill se activa sola en cuanto le hacés una consulta jurídica argentina — describile un caso como
+se lo contarías a un colega y arrancá. Hay ejemplos en [Usar](#-usar). Si preferís confirmar
+primero que quedó bien instalada, seguí acá abajo.
 
 ### Desde la terminal
 
@@ -98,9 +101,17 @@ el estado de la skill de derecho argentino"*. En Claude Code, `/derecho:estado`.
 informa si encontró el repositorio y por qué camino, qué datos tiene cargados, cuántos días
 pasaron desde la última verificación contra fuente primaria y si los tests pasan.
 
+> [!TIP]
+> **Si te dice que no puede hacer un cálculo, le falta Python.** Es el único programa aparte que
+> esto necesita, y **sólo para las calculadoras**: todo lo demás —citar normas, revisar un escrito,
+> contar un plazo— funciona igual sin él. En Mac y en Linux casi siempre ya viene. Si hace falta, se
+> baja de **[python.org](https://www.python.org/downloads/)** y se instala con las opciones que
+> vienen por defecto; en Windows, si el instalador ofrece *"Add python.exe to PATH"*, dejalo
+> tildado. Después se cierra y se vuelve a abrir la app, y no hay nada más que configurar.
+
 > [!IMPORTANT]
-> **Los datos vienen con fecha de corte: el 14/09/2026.** Normas, fallos y series quedaron como
-> estaban ese día, y el repositorio no se actualiza solo. Si lo instalás más adelante, el valor
+> **Los datos vienen con fecha de corte: septiembre de 2026.** Normas, fallos y series quedaron como
+> estaban entonces, y el repositorio no se actualiza solo. Si lo instalás más adelante, el valor
 > del jus, el IPC, el RIPTE, el CER y los días inhábiles ya quedaron atrás, y de esos números
 > salen las liquidaciones y los vencimientos. **El primer día, pedile que actualice**: en Claude
 > Code, `/derecho:estado` y después `/derecho:actualizar`; en las apps de escritorio, *"actualizá
@@ -160,7 +171,7 @@ plazos o fallos sin verificarlos — es justo lo que la skill está hecha para n
 No hay sintaxis que aprender: se describe el caso con los datos que haya.
 
 ```
-Liquidación por despido sin causa: ingresó el 3/3/2019, despido el 10/8/2026,
+Liquidación por despido sin causa: ingresó el 03/03/2019, despido el 10/08/2026,
 mejor remuneración $1.450.000, no le pagaron nada. Trabajaba en La Plata.
 ```
 
@@ -191,7 +202,7 @@ natural.
 > cuando se lo pedís con palabras.
 
 | Comando | Qué hace |
-|---|---|
+| --- | --- |
 | `/derecho:estado` | Diagnóstico: repo, perfil, datos cargados, qué quedó vencido y cómo arreglarlo |
 | `/derecho:verificar` | Vuelve a pedir cada norma del manifiesto y avisa si alguna cambió en la fuente oficial |
 | `/derecho:actualizar` | Baja normas, fallos y series de índices que falten |
@@ -217,7 +228,7 @@ un juez, un empleado de un tribunal— ni régimen por defecto: en el fuero labo
 conviven la Ley 11.653 y la Ley 15.057 según la fecha de la audiencia de vista, y la skill
 pregunta esa fecha antes de citar un código procesal.
 
-**Fuente primaria offline.** `argentina/fuentes/` guarda el texto consolidado de **110 normas** y
+**Fuente primaria offline.** `argentina/fuentes/` guarda el texto consolidado de **132 normas** y
 **64 fallos**, cada uno con su URL, su fecha de descarga y su hash SHA-256. `verificar_normas.py`
 vuelve a pedirlos y sale con código 1 si alguno cambió: es una alarma de reforma legislativa, no
 un backup.
@@ -258,7 +269,7 @@ primaria y guardarraíles, y ninguna de esas cosas dice si la skill sirve en una
 Eso sólo lo sabe quien la usa.
 
 | Qué querés hacer | Dónde |
-|---|---|
+| --- | --- |
 | **Contar cómo te fue**, para qué la usaste, qué te resultó y qué no | [Discusiones · Experiencias](../../discussions) |
 | **Preguntar** cómo se hace algo, o por qué la skill contestó lo que contestó | [Discusiones · Preguntas](../../discussions) |
 | **Proponer** un fuero, un instituto o un cálculo que falte | [Discusiones · Ideas](../../discussions) |
@@ -284,7 +295,7 @@ Cuatro capas de autoría con licencias distintas. El mapa completo, con qué arc
 está en **[`LICENCIAS.md`](LICENCIAS.md)**. En resumen:
 
 | Capa | Licencia |
-|---|---|
+| --- | --- |
 | Código base de Anthropic (`claude-for-legal`) | Apache 2.0 — `LICENSE` |
 | Contribuciones de Cristian Aboitiz — los perfiles de área, escritos, telegramas y transversales | Dual: **no comercial libre, comercial con autorización previa** — `LICENSE-ABOITIZ.md` |
 | **Contenido** de este fork — la skill, los módulos, los comandos, los evals, la marca y la documentación | **CC BY-SA 4.0** — [`LICENSE-CC-BY-SA-4.0.md`](LICENSE-CC-BY-SA-4.0.md) |

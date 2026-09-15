@@ -8,21 +8,21 @@ titulo: Riesgos del trabajo en PBA - baremo aplicable, caducidad del art. 2 inc.
 - [ ] **Abre preguntando el rol y el fuero.**
 - [ ] Determina el régimen procesal: sin audiencia de vista celebrada, rige el rito de la
   **Ley 15.057** conforme Res. SC 1840/2024.
-- [ ] **Caducidad:** identifica **"Magliano"** (SCBA, L. 131.700, 19/9/2025), que dejó firme la
+- [ ] **Caducidad:** identifica **"Magliano"** (SCBA, L. 131.700, 19/09/2025), que dejó firme la
   **inconstitucionalidad del plazo de noventa días hábiles judiciales** del art. 2 inc. j.
   Señala que no corresponde declararla de oficio, y que el plazo de referencia pasa a ser la
   **prescripción bienal del art. 44 LRT**.
 - [ ] Precisa el alcance: "Magliano" resuelve un caso concreto y **no deroga la norma**; acá la
   ART **opuso** la caducidad, así que corresponde tratarla y resolverla, no ignorarla.
 - [ ] **Naturaleza del trámite:** es una **acción laboral ordinaria** de revisión **plena**, no
-  un recurso — "Bustos Torres" (SCBA, L. 124.285, 27/2/2023). Señala que el escrito está mal
+  un recurso — "Bustos Torres" (SCBA, L. 124.285, 27/02/2023). Señala que el escrito está mal
   encuadrado: hay traslado, contestación, prueba propia y sentencia de mérito, sin limitación
   a los agravios ni al material de la CM. Advierte que **no ofrecer prueba propia** es un
   problema serio del actor, no una consecuencia del rito.
 - [ ] Menciona que la acción **atrae** el recurso que la ART tenga pendiente ante la CMC y que
   la sentencia es **vinculante para ambas partes**.
 - [ ] **Baremo:** la pericia está mal. El Anexo I del Decreto 659/96 **fue sustituido por el
-  Decreto 549/2025**, vigente desde el **2/2/2026**, aplicable *"a toda valoración o
+  Decreto 549/2025**, vigente desde el **02/02/2026**, aplicable *"a toda valoración o
   determinación de incapacidad laboral que no haya sido aún dictada, independientemente de la
   instancia"*. La pericia es de julio de 2026: le correspondía el baremo nuevo.
 - [ ] Advierte que **los factores de ponderación no se suman en puntos**: operan como

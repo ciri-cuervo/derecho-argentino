@@ -30,9 +30,9 @@ La Resolución CM N° 261/2025 fue notificada a LA RECURRENTE el 23/12/2025. En 
 acto de notificación se dejó constancia expresa de que "El acto por el cual se
 notifica AGOTA la Instancia Administrativa".
 
-### Recurso de reconsideración del 6/01/2026
+### Recurso de reconsideración del 06/01/2026
 
-El 6/01/2026 LA RECURRENTE presentó un recurso de reconsideración contra la
+El 06/01/2026 LA RECURRENTE presentó un recurso de reconsideración contra la
 Resolución CM N° 261/2025. Invocó como fundamento el artículo 123 del Decreto
 1510/97 (LPA CABA), que regula los recursos contra decisiones definitivas, y
 solicitó la revocación por resultar la resolución "ilegítima, contraria a derecho y
@@ -67,6 +67,6 @@ El abogado de LA RECURRENTE consulta:
 
 1. ¿Desde cuándo corre el plazo de caducidad del art. 7 CCAyT (Ley 189 CABA)
    para interponer la acción judicial?
-2. ¿La interposición del recurso de reconsideración del 6/01/2026 suspendió ese
+2. ¿La interposición del recurso de reconsideración del 06/01/2026 suspendió ese
    plazo?
 3. ¿Cuál es la fecha de vencimiento del plazo para accionar?

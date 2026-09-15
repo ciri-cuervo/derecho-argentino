@@ -7,14 +7,14 @@ Criterios mínimos de aprobación.
 
 ## 1. El nodo bloqueante es la prescripción, y va primero
 
-El hecho es del 12/5/2023. El plazo del art. 2561 CCyCN es de 3 años y, sin suspensión,
-se cumplía el **12/5/2026**. La consulta es del 20/8/2026. Un análisis que empiece por
+El hecho es del 12/05/2023. El plazo del art. 2561 CCyCN es de 3 años y, sin suspensión,
+se cumplía el **12/05/2026**. La consulta es del 20/08/2026. Un análisis que empiece por
 los rubros y deje la prescripción para el final falla, aunque después acierte todo lo
 demás.
 
 **El punto que decide el caso es cuál es el efecto de la mediación bonaerense.** La
-mediación prejudicial obligatoria de PBA se inició el **10/3/2026**, dentro del plazo, y
-el acta de cierre es del 22/4/2026. El error a evitar es aplicarle el régimen nacional:
+mediación prejudicial obligatoria de PBA se inició el **10/03/2026**, dentro del plazo, y
+el acta de cierre es del 22/04/2026. El error a evitar es aplicarle el régimen nacional:
 el **art. 18 de la Ley 26.589** —suspensión durante todo el procedimiento, con
 reanudación a los 20 días del acta de cierre— **no rige en PBA**. El **art. 40 de la
 Ley 13.951** le asigna a la mediación bonaerense **carácter de intimación**, con los
@@ -22,9 +22,9 @@ efectos del segundo párrafo del **art. 3986 del Código Civil** (norma derogada
 reconducida al **art. 2541 CCyCN**): suspensión por **interpelación fehaciente**, **por
 una sola vez y por seis meses**.
 
-El cómputo correcto, entonces: vencimiento sin suspensión el 12/5/2026; la suspensión
+El cómputo correcto, entonces: vencimiento sin suspensión el 12/05/2026; la suspensión
 semestral desde la interposición de la mediación corre el vencimiento a **alrededor del
-12/11/2026**. A la fecha de la consulta (**20/8/2026**) **la acción sigue viva, pero por
+12/11/2026**. A la fecha de la consulta (**20/08/2026**) **la acción sigue viva, pero por
 poco**: quedan menos de tres meses. El análisis debe decirlo así y recomendar demandar de
 inmediato. La fecha del acta de cierre no desplaza el cómputo, porque lo que suspende es
 el plazo fijo de seis meses y no el tiempo que insumió el trámite. El sistema **no debe

@@ -23,6 +23,13 @@ import _raiz
 import liquidacion_lct as liq
 import plazos
 
+# Las clases de letras del castellano, en un solo lugar. La dieresis va incluida y NO es un
+# detalle: "antigüedad" con dieresis aparece 67 veces en el repositorio y es el nucleo del
+# art. 245 LCT, así que un marcador como [VERIFICAR ANTIGÜEDAD: ...] es plausible. Sin la Ü
+# en la clase, ese marcador no matchea y el control lo IGNORA en silencio en vez de fallar.
+MAYUSCULAS = "A-ZÁÉÍÓÚÜÑ"
+LETRAS = "A-Za-zÁÉÍÓÚÜÑáéíóúüñ"
+
 
 class TestAntiguedad(unittest.TestCase):
     def test_fraccion_mayor_a_tres_meses_suma_un_ano(self):
@@ -69,14 +76,14 @@ class TestArt245(unittest.TestCase):
         return type("A", (), base)
 
     def test_piso_del_67_por_ciento(self):
-        # tope muy bajo: debe prevalecer el 67% de la mejor remuneracion
+        # tope muy bajo: debe prevalecer el 67% de la mejor remuneración
         r = liq.liquidar(self._args(tope_245=Decimal("500000")))
-        antiguedad = next(x for x in r.rubros if x["concepto"].startswith("Indemnizacion por"))
+        antiguedad = next(x for x in r.rubros if x["concepto"].startswith("Indemnización por"))
         self.assertAlmostEqual(antiguedad["importe"], 670000 * 11, places=2)
 
     def test_tope_se_aplica_si_es_mayor_al_piso(self):
         r = liq.liquidar(self._args(tope_245=Decimal("800000")))
-        antiguedad = next(x for x in r.rubros if x["concepto"].startswith("Indemnizacion por"))
+        antiguedad = next(x for x in r.rubros if x["concepto"].startswith("Indemnización por"))
         self.assertAlmostEqual(antiguedad["importe"], 800000 * 11, places=2)
 
     def test_sin_tope_marca_provisorio(self):
@@ -90,7 +97,7 @@ class TestArt245(unittest.TestCase):
 
     def test_agravantes_anteriores_piden_intimacion(self):
         r = liq.liquidar(self._args(extincion=date(2024, 5, 20)))
-        self.assertTrue(any("intimacion fehaciente previa" in m for m in r.marcadores))
+        self.assertTrue(any("intimación fehaciente previa" in m for m in r.marcadores))
 
     def test_tramo_dnu70_emite_revision(self):
         r = liq.liquidar(self._args(extincion=date(2024, 3, 15)))
@@ -104,7 +111,7 @@ class TestArt245(unittest.TestCase):
 
 class TestPascuaYFeriados(unittest.TestCase):
     def test_pascua(self):
-        # valores de referencia del computo gregoriano
+        # valores de referencia del cómputo gregoriano
         self.assertEqual(plazos.pascua(2024), date(2024, 3, 31))
         self.assertEqual(plazos.pascua(2025), date(2025, 4, 20))
         self.assertEqual(plazos.pascua(2026), date(2026, 4, 5))
@@ -139,7 +146,7 @@ class TestPlazos(unittest.TestCase):
         self.assertEqual(venc, date(2026, 9, 11))
 
     def test_salta_fin_de_semana(self):
-        # jueves 10/9/2026 + 2 habiles -> lunes 14
+        # jueves 10/09/2026 + 2 hábiles -> lunes 14
         venc, _, _ = plazos.computar_habiles(date(2026, 9, 10), 2, "pba")
         self.assertEqual(venc, date(2026, 9, 14))
 
@@ -155,7 +162,7 @@ class TestPlazos(unittest.TestCase):
 
 
 class TestInhabilesCargados(unittest.TestCase):
-    """El calendario de 2026 esta cargado y verificado: estos casos lo comprueban."""
+    """El calendario de 2026 está cargado y verificado: estos casos lo comprueban."""
 
     def test_bloque_2026_pba_verificado(self):
         _, _, meta = plazos.cargar_datos(2026, "pba")
@@ -163,7 +170,7 @@ class TestInhabilesCargados(unittest.TestCase):
         self.assertEqual(meta["verificado"], "2026-09-13")
 
     def test_descuenta_la_feria_de_invierno(self):
-        # notificacion el 16/7/2026: 17/7 es asueto y del 20 al 31/7 hay feria
+        # notificación el 16/07/2026: 17/7 es asueto y del 20 al 31/7 hay feria
         venc, _, _ = plazos.computar_habiles(date(2026, 7, 16), 5, "pba")
         self.assertEqual(venc, date(2026, 8, 7))
 
@@ -185,7 +192,7 @@ class TestInhabilesCargados(unittest.TestCase):
             self.assertNotIn(date.fromisoformat(d["fecha"]), extra)
 
     def test_trasladable_en_fin_de_semana_se_reporta(self):
-        # 20/11/2027 cae sabado: ubicacion indeterminada por el Decreto 614/2025
+        # 20/11/2027 cae sabado: ubicación indeterminada por el Decreto 614/2025
         dudosos = plazos.trasladables_dudosos(2027)
         self.assertTrue(any("2027-11-20" in d for d in dudosos))
 
@@ -195,12 +202,12 @@ class TestInhabilesCargados(unittest.TestCase):
 
 
 class TestRaizDelRepo(unittest.TestCase):
-    """La skill se instala a nivel de cuenta y corre en cualquier maquina: no puede haber
+    """La skill se instala a nivel de cuenta y corre en cualquier máquina: no puede haber
     ninguna ruta hardcodeada. Estos tests cubren el resolvedor."""
 
     def test_reconoce_el_repo_por_el_marcador(self):
         repo, origen = _raiz.raiz_repo()
-        self.assertIsNotNone(repo, "no se encontro el repo desde su propia carpeta")
+        self.assertIsNotNone(repo, "no se encontró el repo desde su propia carpeta")
         self.assertTrue((repo / _raiz.MARCADOR).is_file())
 
     def test_rechaza_una_carpeta_que_no_es_el_repo(self):
@@ -306,10 +313,10 @@ class TestRaizDelRepo(unittest.TestCase):
                     self.assertIn("CLAUDE_PLUGIN_ROOT", lineas[1])
 
     def test_el_plugin_instalado_por_el_marketplace_resuelve_solo(self):
-        """El caso real de instalacion, que el test de arriba no cubre: el marketplace
-        publica el plugin desde argentina/, asi que esa carpeta llega renombrada con el
-        nombre del plugin, rodeada de los otros plugins y sin ningun repo arriba. No hay
-        un argentina/ que encontrar en ningun lado."""
+        """El caso real de instalación, que el test de arriba no cubre: el marketplace
+        publica el plugin desde argentina/, así que esa carpeta llega renombrada con el
+        nombre del plugin, rodeada de los otros plugins y sin ningún repo arriba. No hay
+        un argentina/ que encontrar en ningún lado."""
         repo, _ = _raiz.raiz_repo()
         with tempfile.TemporaryDirectory() as d:
             instalado = pathlib.Path(d) / "plugins" / "synced" / "derecho"
@@ -332,7 +339,7 @@ class TestRaizDelRepo(unittest.TestCase):
 
     def test_el_plugin_instalado_se_encuentra_sin_variable_de_entorno(self):
         """Lo mismo pero sin CLAUDE_PLUGIN_ROOT: la skill vive adentro de la copia
-        instalada y los datos estan al lado, asi que tiene que hallarlos subiendo."""
+        instalada y los datos están al lado, así que tiene que hallarlos subiendo."""
         repo, _ = _raiz.raiz_repo()
         origen = pathlib.Path(repo) / "argentina"
         with tempfile.TemporaryDirectory() as d:
@@ -508,7 +515,7 @@ class TestHonorariosCLI(unittest.TestCase):
     def test_minimo_siete_jus(self):
         r = self._run("--monto", "1000", "--porcentaje", "20", "--valor-jus", "50000")
         self.assertEqual(r.returncode, 0, r.stderr)
-        self.assertIn("minimo del art. 22", r.stdout)
+        self.assertIn("mínimo del art. 22", r.stdout)
         self.assertIn("350,000.00", r.stdout)     # 7 x 50.000
 
     def test_expresa_en_jus(self):
@@ -538,7 +545,7 @@ class TestInteresesCLI(unittest.TestCase):
             capture_output=True, text=True)
 
     def test_corta_si_la_serie_no_cubre_el_periodo(self):
-        # 1999 no esta en ninguna serie cargada: debe cortar, no estimar
+        # 1999 no está en ninguna serie cargada: debe cortar, no estimar
         r = self._run("--modo", "indice", "--capital", "1000",
                       "--desde", "1999-01-10", "--hasta", "2026-08-31", "--serie", "ipc")
         self.assertEqual(r.returncode, 2)
@@ -569,7 +576,7 @@ class TestInteresesCLI(unittest.TestCase):
 
 
 class TestDescargadorDeNormas(unittest.TestCase):
-    """La capa de fuentes no tenia cobertura, y ahi vivio un bug que rebajaba las 59 normas
+    """La capa de fuentes no tenía cobertura, y ahí vivio un bug que rebajaba las 59 normas
     en cada corrida. Estas pruebas fijan los dos contratos que lo habrian atajado."""
 
     @classmethod
@@ -593,7 +600,7 @@ class TestDescargadorDeNormas(unittest.TestCase):
 
     def test_ya_registrada_no_confunde_las_claves_del_documento(self):
         """El bug original: `slug in proc` daba False para todo slug real y True para las
-        claves de primer nivel. Si esta prueba falla, volvio."""
+        claves de primer nivel. Si esta prueba falla, volvió."""
         import descargar_normas as dn
         proc = {"_descripcion": "x", "normas": {"lct-20744": {}}}
         self.assertFalse(dn.ya_registrada(proc, "normas"))
@@ -604,10 +611,10 @@ class TestDescargadorDeNormas(unittest.TestCase):
         self.assertFalse(dn.ya_registrada({}, "lct-20744"))
 
     def test_pdf_se_detecta_por_content_type_y_no_por_la_extension(self):
-        """Un digesto provincial que sirve el PDF desde una URL sin `.pdf` hacia que el
+        """Un digesto provincial que sirve el PDF desde una URL sin `.pdf` hacía que el
         script tratara los bytes como HTML y escribiera un .txt binario de 240 KB. El unico
-        sintoma era que no se encontraba ni un articulo, que parece un problema de la fuente.
-        Si esto falla, volvio."""
+        sintoma era que no se encontraba ni un artículo, que parece un problema de la fuente.
+        Si esto falla, volvió."""
         sys.path.insert(0, str(self.dir))
         import descargar_normas as dn
         self.assertTrue(dn.es_pdf_real("application/pdf", False))
@@ -626,7 +633,7 @@ class TestDescargadorDeNormas(unittest.TestCase):
         cambie la norma. El del cuerpo no puede moverse por eso."""
         import _comun
         raya = "=" * 78
-        cuerpo = "ARTICULO 1.- Texto de prueba.\n"
+        cuerpo = "ARTÍCULO 1.- Texto de prueba.\n"
         def armar(hash_crudo):
             return (f"Titulo\n{raya}\nJurisdiccion:     nacional\n"
                     f"SHA-256 (crudo):  {hash_crudo}\n\nAdvertencia\n{raya}\n\n{cuerpo}")
@@ -676,7 +683,7 @@ class TestDescargadorDeNormas(unittest.TestCase):
             _comun.REVISIONES = original
 
     def test_las_revisiones_declaradas_apuntan_a_normas_del_manifiesto(self):
-        """Un veredicto sobre un slug que ya no esta en el manifiesto es papel muerto que
+        """Un veredicto sobre un slug que ya no está en el manifiesto es papel muerto que
         nadie va a volver a leer."""
         import _comun
         if not _comun.REVISIONES.exists():
@@ -688,8 +695,8 @@ class TestDescargadorDeNormas(unittest.TestCase):
 
     def test_la_fecha_del_portal_no_mueve_el_hash_del_texto(self):
         """El BO y JURISTECA imprimen la fecha de hoy DENTRO del cuerpo, encima de la norma.
-        Sin sacarla, `verificar_normas.py` canta "cambio el texto de la norma" sobre tres
-        normas todos los dias, y una alarma que suena siempre se deja de mirar."""
+        Sin sacarla, `verificar_normas.py` canta "cambió el texto de la norma" sobre tres
+        normas todos los días, y una alarma que suena siempre se deja de mirar."""
         import _comun
         bo = ("Edición del\n\n{f}\n\nEdiciones Anteriores\n\n"
               "Ciudad de Buenos Aires, 30/09/2019\n\nARTÍCULO 1°.- Sustitúyese el art. 12.\n")
@@ -702,9 +709,9 @@ class TestDescargadorDeNormas(unittest.TestCase):
                     _comun.sha256_texto(_comun.normalizar_cromo(plantilla.format(f=otro))))
 
     def test_solo_se_saca_la_fecha_que_esta_entre_los_rotulos_del_portal(self):
-        """El riesgo de sacar el cromo es comerse las fechas de la norma -sancion,
-        promulgacion, vigencia-, que son justo las que hay que detectar si cambian. Por eso
-        el patron va anclado a los rotulos del portal y no busca fechas sueltas."""
+        """El riesgo de sacar el cromo es comerse las fechas de la norma -sanción,
+        promulgación, vigencia-, que son justo las que hay que detectar si cambian. Por eso
+        el patrón va anclado a los rotulos del portal y no busca fechas sueltas."""
         import _comun
         for intacto in ("ARTÍCULO 1°.- Rige desde el 14 de Septiembre de 2026.\n",
                         "DADA EN BUENOS AIRES, A LOS 14 de Septiembre de 2026.\n",
@@ -713,7 +720,7 @@ class TestDescargadorDeNormas(unittest.TestCase):
                 self.assertEqual(_comun.normalizar_cromo(intacto), intacto)
 
     def test_el_cromo_removido_deja_rastro_visible(self):
-        """Si se borrara el renglon sin decir nada, quien lea el .txt ve dos lineas de maqueta
+        """Si se borrara el renglon sin decir nada, quien lea el .txt ve dos líneas de maqueta
         pegadas y no sabe si falta algo de la norma."""
         import _comun
         salida = _comun.normalizar_cromo(
@@ -723,13 +730,13 @@ class TestDescargadorDeNormas(unittest.TestCase):
 
     def test_hash_de_texto_si_cambia_cuando_cambia_la_norma(self):
         import _comun
-        self.assertNotEqual(_comun.sha256_texto("ARTICULO 1.- uno"),
-                            _comun.sha256_texto("ARTICULO 1.- dos"))
+        self.assertNotEqual(_comun.sha256_texto("ARTÍCULO 1.- uno"),
+                            _comun.sha256_texto("ARTÍCULO 1.- dos"))
 
     def test_descargas_cuenta_la_interseccion_y_no_dos_totales(self):
         """El conteo era len(procedencia) menos len(manifiesto con URL). Una sola entrada
         registrada sin URL -una norma aportada a mano- tapaba una que faltaba bajar, y el
-        diagnostico daba todo en verde con una norma ausente. Si esto falla, volvio."""
+        diagnóstico daba todo en verde con una norma ausente. Si esto falla, volvió."""
         sys.path.insert(0, str(Path(__file__).parent))
         import estado
         with tempfile.TemporaryDirectory() as d:
@@ -772,7 +779,7 @@ class TestDescargadorDeNormas(unittest.TestCase):
         """El incidente que motiva el control: buscando "Acosta" (Fallos 331:858) aparece
         indexado un idAnalisis que baja "Llerena, Horacio Luis s/ abuso de armas". En los
         repositorios de la CSJN el documento se pide por un id interno que no se deriva de la
-        cita, asi que un id mal curado cita un fallo por otro. Si esto falla, el agujero volvio."""
+        cita, así que un id mal curado cita un fallo por otro. Si esto falla, el agujero volvió."""
         import descargar_jurisprudencia as dj
         llerena = ("Buenos Aires, 17 de mayo de 2005. Vistos los autos: Recurso de hecho "
                    "deducido por la defensa en la causa Llerena, Horacio Luis s/ abuso de "
@@ -782,40 +789,40 @@ class TestDescargadorDeNormas(unittest.TestCase):
         self.assertIn("Acosta", problema)
 
     def test_confirmar_identidad_acepta_el_fallo_correcto(self):
-        """Y no debe saltar por las variantes de caratula entre repositorios: numero de causa,
+        """Y no debe saltar por las variantes de carátula entre repositorios: numero de causa,
         's/ recurso de hecho', abreviaturas. Alcanza con que el apellido este."""
         import descargar_jurisprudencia as dj
-        acosta = ("A. 2186. XLI. Recurso de hecho. Acosta, Alejandro Esteban s/ infraccion "
-                  "art. 14, 1 parrafo ley 23.737 causa N 28/05.")
+        acosta = ("A. 2186. XLI. Recurso de hecho. Acosta, Alejandro Esteban s/ infracción "
+                  "art. 14, 1 párrafo ley 23.737 causa N 28/05.")
         self.assertIsNone(dj.confirmar_identidad(acosta, "Acosta, Alejandro Esteban"))
 
     def test_confirmar_identidad_tolera_acentos_y_puntuacion(self):
         import descargar_jurisprudencia as dj
-        cuerpo = "recurso de hecho deducido en la causa GONGORA, Gabriel Arnaldo s/ causa n 14.092"
+        cuerpo = "recurso de hecho deducido en la causa GÓNGORA, Gabriel Arnaldo s/ causa n 14.092"
         self.assertIsNone(dj.confirmar_identidad(cuerpo, "Góngora, Gabriel Arnaldo"))
 
     def test_confirmar_identidad_usa_el_apellido_y_no_la_caratula_entera(self):
-        """Una caratula con 'contra' o 'c/' se parte: lo que se busca es la cabeza."""
+        """Una carátula con 'contra' o 'c/' se parte: lo que se busca es la cabeza."""
         import descargar_jurisprudencia as dj
         cuerpo = "Vera, Isabel contra Fisco de la Provincia de Buenos Aires. Enfermedad accidente"
         self.assertIsNone(dj.confirmar_identidad(cuerpo, "Vera, Isabel contra Fisco de la Provincia"))
-        self.assertIsNotNone(dj.confirmar_identidad(cuerpo, "Marchetti, Jorge Gabriel contra Fiscalia"))
+        self.assertIsNotNone(dj.confirmar_identidad(cuerpo, "Marchetti, Jorge Gabriel contra Fiscalía"))
 
     def test_puntos_suspensivos_no_son_codepage_degradado(self):
         """El set original incluia U+2026. Una fe de erratas que dice DONDE DICE: ... /
         DEBE DECIR: ... , o una tabla con puntos de relleno, marcaba la norma como mal
         codificada. Tres de las cuatro normas marcadas eran eso: texto sano."""
         import _comun
-        sano = ("ARTICULO 1.- " + "el artículo se aplicará según la reglamentación más próxima. " * 60
+        sano = ("ARTÍCULO 1.- " + "el artículo se aplicará según la reglamentación más próxima. " * 60
                 + "DONDE DICE: \u2026 actividades especiales\u2026 DEBE DECIR: "
                   "\u2026 actividades diferenciales\u2026 " * 6)
         self.assertEqual(_comun.revisar_texto(sano), [])
 
     def test_control_pegado_a_letras_si_es_codepage_degradado(self):
-        """Lo que delata la corrupcion es el caracter de control entre letras: m,rito por
-        merito. Eso no pasa en texto sano."""
+        """Lo que delata la corrupción es el carácter de control entre letras: m,rito por
+        mérito. Eso no pasa en texto sano."""
         import _comun
-        roto = ("ARTICULO 1.- " + "la petición se resolverá según el criterio más razonable. " * 60
+        roto = ("ARTÍCULO 1.- " + "la petición se resolverá según el criterio más razonable. " * 60
                 + "segun el m\u201arito que arrojen los autos, por c\u201adula, "
                   "cuando el Tribunal no est\u201a en audiencia, si \u201aestos lo pidieran ")
         problemas = _comun.revisar_texto(roto)
@@ -823,14 +830,14 @@ class TestDescargadorDeNormas(unittest.TestCase):
 
     def test_mojibake_de_doble_codificacion(self):
         import _comun
-        roto = ("ARTICULO 1.- " + "la acción prescribirá según el plazo más breve. " * 60 + "aÃ±os Ã©poca Ã³rgano artÃ­culo ")
+        roto = ("ARTÍCULO 1.- " + "la acción prescribirá según el plazo más breve. " * 60 + "aÃ±os Ã©poca Ã³rgano artÃ­culo ")
         problemas = _comun.revisar_texto(roto)
         self.assertTrue(any("mojibake" in p for p in problemas), problemas)
 
     def test_sentencias_reporta_un_fallo_declarado_y_no_bajado(self):
-        """El bloque "fallos" solo mira la fecha de verificacion del manifiesto. Un fallo con
-        URL declarada pero sin PDF en disco no lo reportaba nadie, y habia tres asi citados en
-        los modulos. Si esto falla, el agujero volvio."""
+        """El bloque "fallos" solo mira la fecha de verificación del manifiesto. Un fallo con
+        URL declarada pero sin PDF en disco no lo reportaba nadie, y había tres así citados en
+        los módulos. Si esto falla, el agujero volvió."""
         sys.path.insert(0, str(Path(__file__).parent))
         import estado
         with tempfile.TemporaryDirectory() as d:
@@ -870,7 +877,7 @@ class TestDescargadorDeNormas(unittest.TestCase):
 
 
 class TestConteoDeSeries(unittest.TestCase):
-    """El encabezado de un csv no es un periodo. Contarlo informaba uno de mas por serie."""
+    """El encabezado de un csv no es un período. Contarlo informaba uno de más por serie."""
 
     def _csv(self, cuerpo: str) -> Path:
         d = Path(tempfile.mkdtemp())
@@ -898,7 +905,7 @@ class TestConteoDeSeries(unittest.TestCase):
         import estado
         raiz, _origen = _raiz.raiz_repo()
         if raiz is None:
-            self.skipTest("no se encontro el repo")
+            self.skipTest("no se encontró el repo")
         for arch in ("serie-ipc.csv", "serie-ripte.csv", "serie-cer.csv", "jus-scba.csv"):
             ruta = raiz / "argentina" / "fuentes" / "datos" / arch
             with self.subTest(arch):
@@ -921,7 +928,7 @@ class TestManifiestoDeFuentes(unittest.TestCase):
 
         raiz, _ = _raiz.raiz_repo()
         if raiz is None:
-            self.skipTest("no se encontro el repo")
+            self.skipTest("no se encontró el repo")
         self.fuentes = raiz / "argentina" / "fuentes"
         self.tabla = (self.fuentes / "MANIFIESTO.md").read_text(encoding="utf-8")
 
@@ -929,6 +936,13 @@ class TestManifiestoDeFuentes(unittest.TestCase):
         hallado = re.search(patron, self.tabla)
         self.assertIsNotNone(
             hallado, f"la tabla del MANIFIESTO ya no dice esto: {patron}")
+        return tuple(int(g) for g in hallado.groups())
+
+    def _en_prosa(self, patron: str) -> tuple:
+        """Como `_declarado`, pero con los saltos de línea aplanados: la prosa se reacomoda
+        al reescribirla y el control no tiene por que romperse por un salto de renglon."""
+        hallado = re.search(patron, re.sub(r"\s+", " ", self.tabla))
+        self.assertIsNotNone(hallado, f"el MANIFIESTO ya no dice esto: {patron}")
         return tuple(int(g) for g in hallado.groups())
 
     def _json(self, ruta: Path, clave: str) -> list:
@@ -969,6 +983,44 @@ class TestManifiestoDeFuentes(unittest.TestCase):
                 _, filas = estado._ultima_fila_csv(self.fuentes / "datos" / arch)
                 self.assertEqual(self._declarado(patron), (filas,))
 
+    def test_la_prosa_que_explica_los_tres_numeros_dice_lo_mismo_que_la_tabla(self):
+        """La tabla estaba controlada y la frase que la explica no: decía 112, 111 y 106."""
+        normas = self._json(self.fuentes / "normas" / "normas.json", "normas")
+        proc = self._json(self.fuentes / "normas" / "procedencia.json", "normas")
+        carpeta = self.fuentes / "normas"
+        self.assertEqual(
+            self._en_prosa(
+                r"\*\*(\d+)\*\* es lo que la skill espera encontrar, \*\*(\d+)\*\* es lo que "
+                r"tiene texto bajado con hash registrado, y \*\*(\d+)\*\* son los `\.txt` en "
+                r"disco, porque los \*\*(\d+)\*\* restantes son PDF"),
+            (len(normas), len(proc),
+             len(list(carpeta.glob("*.txt"))), len(list(carpeta.glob("*.pdf")))))
+
+    MESES = ("enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto",
+             "septiembre", "octubre", "noviembre", "diciembre")
+
+    def test_la_foto_no_puede_ser_anterior_a_la_ultima_descarga(self):
+        """El encabezado decía 13/09 con nueve normas bajadas el 15/09, y nada lo miraba.
+
+        La foto se fecha POR MES y no por dia, a propósito: una fecha al dia invita a leer el
+        repositorio como vencido el dia 181, cuando la granularidad real del trabajo es el mes.
+        La precisión al dia se conserva donde la consume una herramienta --la columna de
+        `changelog-normativo.md`, de la que `pendientes.py` cuenta los 180 días-- y no donde la
+        lee una persona. Así que esto compara meses, con un mes de tolerancia, y sigue
+        atrapando lo que importa: una foto que quedo atrás de lo que hay bajado.
+        """
+        proc = self._json(self.fuentes / "normas" / "procedencia.json", "normas")
+        ultima = max(p["descargado"][:7] for p in proc)          # AAAA-MM
+        m = re.search(r"^## Estado a (\w+) de ((?:19|20)\d{2})$", self.tabla, re.M)
+        self.assertIsNotNone(m, "el MANIFIESTO dejo de fechar su foto")
+        mes, anio = m.group(1).lower(), m.group(2)
+        self.assertIn(mes, self.MESES, f"«{mes}» no es un mes")
+        foto = f"{anio}-{self.MESES.index(mes) + 1:02d}"
+        self.assertGreaterEqual(
+            foto, ultima,
+            f"la foto del MANIFIESTO ({foto}) es anterior al mes de la ultima norma bajada "
+            f"({ultima})")
+
 
 class TestIndiceDeFallosCSJN(unittest.TestCase):
     """`fallos-csjn.md` §34.8 lleva la cuenta de qué falta leer, escrita a mano.
@@ -987,7 +1039,7 @@ class TestIndiceDeFallosCSJN(unittest.TestCase):
 
         raiz, _ = _raiz.raiz_repo()
         if raiz is None:
-            self.skipTest("no se encontro el repo")
+            self.skipTest("no se encontró el repo")
         self.raiz = raiz
         self.modulo = (raiz / "argentina" / "skills" / "derecho-argentino" / "references"
                        / "fallos-csjn.md").read_text(encoding="utf-8")
@@ -1036,8 +1088,8 @@ class TestIndiceDeFallosCSJN(unittest.TestCase):
 class TestTextoRecuperadoPorOCR(unittest.TestCase):
     """`fuentes/jurisprudencia/ocr/` es texto DERIVADO de un PDF, y las derivaciones vencen.
 
-    Si el PDF se vuelve a bajar y cambia, el .txt de al lado sigue ahi diciendo lo de antes.
-    Cada entrada guarda el hash del PDF del que salio y el del texto: aca se comparan.
+    Si el PDF se vuelve a bajar y cambia, el .txt de al lado sigue ahí diciendo lo de antes.
+    Cada entrada guarda el hash del PDF del que salió y el del texto: acá se comparan.
     """
 
     def setUp(self):
@@ -1046,11 +1098,11 @@ class TestTextoRecuperadoPorOCR(unittest.TestCase):
 
         raiz, _ = _raiz.raiz_repo()
         if raiz is None:
-            self.skipTest("no se encontro el repo")
+            self.skipTest("no se encontró el repo")
         self.juris = raiz / "argentina" / "fuentes" / "jurisprudencia"
         registro = self.juris / "ocr" / "procedencia.json"
         if not registro.exists():
-            self.skipTest("todavia no hay texto recuperado")
+            self.skipTest("todavía no hay texto recuperado")
         self.registro = json.loads(registro.read_text(encoding="utf-8"))["fallos"]
 
     def _sha(self, ruta: Path) -> str:
@@ -1062,7 +1114,7 @@ class TestTextoRecuperadoPorOCR(unittest.TestCase):
                 pdf = self.juris / ficha["pdf"]
                 self.assertTrue(pdf.exists(), f"falta {ficha['pdf']}")
                 self.assertEqual(self._sha(pdf), ficha["sha256_pdf"],
-                                 "el PDF cambio: regenerar con reocr_jurisprudencia.py")
+                                 "el PDF cambió: regenerar con reocr_jurisprudencia.py")
 
     def test_el_texto_no_fue_editado_a_mano(self):
         for slug, ficha in self.registro.items():
@@ -1070,7 +1122,7 @@ class TestTextoRecuperadoPorOCR(unittest.TestCase):
                 txt = self.juris / "ocr" / ficha["archivo"]
                 self.assertTrue(txt.exists(), f"falta {ficha['archivo']}")
                 self.assertEqual(self._sha(txt), ficha["sha256_texto"],
-                                 "el texto no coincide con su hash: es una derivacion, "
+                                 "el texto no coincide con su hash: es una derivación, "
                                  "no se corrige a mano; se regenera")
 
     def test_cada_derivacion_avisa_que_no_es_publicacion_oficial(self):
@@ -1079,7 +1131,7 @@ class TestTextoRecuperadoPorOCR(unittest.TestCase):
                 cabecera = (self.juris / "ocr" / ficha["archivo"]).read_text(
                     encoding="utf-8")[:1500]
                 self.assertIn("RECUPERADO POR OCR LOCAL", cabecera)
-                self.assertIn("publicacion oficial", cabecera)
+                self.assertIn("publicacion oficial", cabecera)  # sin tilde: fijado por hash
                 self.assertIn(ficha["sha256_pdf"], cabecera)
 
 
@@ -1097,7 +1149,7 @@ class TestEntradasSinURL(unittest.TestCase):
 
         raiz, _ = _raiz.raiz_repo()
         if raiz is None:
-            self.skipTest("no se encontro el repo")
+            self.skipTest("no se encontró el repo")
         catalogo = raiz / "argentina" / "fuentes" / "normas" / "normas.json"
         self.normas = json.loads(catalogo.read_text(encoding="utf-8"))["normas"]
 
@@ -1119,7 +1171,10 @@ class TestVocabularioDeMarcadores(unittest.TestCase):
     acepta sólo lo que figure en una de las dos.
     """
 
-    NOMBRE = re.compile(r"\[([A-ZÁÉÍÓÚÑ][A-ZÁÉÍÓÚÑ \-]{3,})(?::|\])")
+    NOMBRE = re.compile(r"\[([" + MAYUSCULAS + "][" + MAYUSCULAS + r" \-]{3,})(?::|\])")
+    # El mismo patrón pero tolerante a la caja: es el que detecta un marcador mal
+    # capitalizado, y también necesita la dieresis o `[Verificar Antigüedad: ...]` pasa.
+    CUALQUIERA = re.compile(r"\[([" + LETRAS + "][" + LETRAS + r" \-]{3,})(?::|\])")
 
     def setUp(self):
         sys.path.insert(0, str(Path(__file__).parent))
@@ -1127,13 +1182,13 @@ class TestVocabularioDeMarcadores(unittest.TestCase):
 
         raiz, _ = _raiz.raiz_repo()
         if raiz is None:
-            self.skipTest("no se encontro el repo")
+            self.skipTest("no se encontró el repo")
         self.skill = raiz / "argentina" / "skills" / "derecho-argentino"
         vocabulario = (self.skill / "references" / "marcadores.md").read_text(encoding="utf-8")
         self.canonicos = set(re.findall(r"^### [A-D]\d+ · (.+)$", vocabulario, re.M))
         # Los contraejemplos que el propio vocabulario declara, para poder nombrarlos al
         # explicar qué no usar sin que el test los tome por invención.
-        self.declarados = set(re.findall(r"`\[([A-ZÁÉÍÓÚÑ][A-ZÁÉÍÓÚÑ \-]{3,})[\]:]", vocabulario))
+        self.declarados = set(re.findall(r"`\[([" + MAYUSCULAS + "][" + MAYUSCULAS + r" \-]{3,})[\]:]", vocabulario))
 
     def test_el_vocabulario_tiene_las_cuatro_series_completas(self):
         vocabulario = (self.skill / "references" / "marcadores.md").read_text(encoding="utf-8")
@@ -1142,10 +1197,59 @@ class TestVocabularioDeMarcadores(unittest.TestCase):
         self.assertEqual(cuenta, {"A": 11, "B": 5, "C": 4, "D": 6})
         self.assertEqual(len(self.canonicos), 26)
 
-    def test_ningun_modulo_emite_un_marcador_inventado(self):
+    def _archivos(self):
+        """SKILL.md, los módulos y TAMBIÉN los evals.
+
+        Los evals quedaban afuera, y son justo donde vive la salida esperada: un marcador roto
+        en un `resultado.md` no falla, ensenia la forma equivocada.
+        """
         archivos = [self.skill / "SKILL.md"]
         archivos += [p for p in sorted((self.skill / "references").glob("*.md"))
                      if p.name != "marcadores.md"]
+        archivos += sorted(self.skill.parent.parent.glob("evals/**/*.md"))
+        return archivos
+
+    def test_un_marcador_con_dieresis_no_escapa_al_control(self):
+        """MUTACION del alcance del propio control, y no de un archivo del repo.
+
+        Las clases de letras estaban escritas tres veces a mano y a las tres les faltaba la Ü.
+        Consecuencia: `[VERIFICAR ANTIGÜEDAD: ...]` no matcheaba el patrón, así que el marcador
+        no era ni candidato y el control lo IGNORABA en silencio en vez de reclamarlo. No es
+        hipotetico: "antigüedad" con dieresis aparece 67 veces en el repositorio y es el nucleo
+        del art. 245 LCT.
+
+        Hoy las tres clases salen de MAYÚSCULAS y LETRAS, definidas una sola vez arriba.
+        """
+        inventado = "[VERIFICAR ANTIGÜEDAD: cómputo del art. 245 - aportar fecha de ingreso]"
+        self.assertEqual(self.NOMBRE.findall(inventado), ["VERIFICAR ANTIGÜEDAD"],
+                         "el patrón no ve un marcador con diéresis: se le escapa al control")
+        self.assertNotIn("VERIFICAR ANTIGÜEDAD", self.canonicos | self.declarados,
+                         "si algún día se declara, este fixture hay que cambiarlo")
+        # Y la Ñ, que es el otro carácter que ya estaba y conviene fijar de paso.
+        self.assertEqual(self.NOMBRE.findall("[VERIFICAR DISEÑO: x]"), ["VERIFICAR DISEÑO"])
+        # Y el patrón tolerante a la caja, que usa LETRAS y no MAYÚSCULAS.
+        self.assertEqual(self.CUALQUIERA.findall("[Verificar Antigüedad: x]"),
+                         ["Verificar Antigüedad"])
+
+    def test_ningun_marcador_perdio_las_mayusculas(self):
+        """MUTACION vivida: una corrección de acentos en masa convirtio
+        `[VERIFICAR CRITERIO DEL FUERO:` en `[VERIFICAR Criterio DEL FUERO:` en dos evals, y
+        este suite no lo vio porque su regex solo aceptaba candidatos ya en mayúsculas: el
+        marcador roto no era ni candidato. Ahora se mira cualquier nombre y, si en mayúsculas
+        resulta ser un marcador canónico, tiene que estar escrito exactamente así.
+        """
+        for archivo in self._archivos():
+            for numero, linea in enumerate(archivo.read_text(encoding="utf-8").splitlines(), 1):
+                for nombre in self.CUALQUIERA.findall(linea):
+                    nombre = nombre.strip()
+                    if nombre.upper() not in self.canonicos or nombre == nombre.upper():
+                        continue
+                    with self.subTest(f"{archivo.name}:{numero} {nombre}"):
+                        self.fail(f"{archivo.name}:{numero} escribe «{nombre}» y el marcador "
+                                  f"canónico es «{nombre.upper()}»")
+
+    def test_ningun_modulo_emite_un_marcador_inventado(self):
+        archivos = self._archivos()
         for archivo in archivos:
             for numero, linea in enumerate(archivo.read_text(encoding="utf-8").splitlines(), 1):
                 for nombre in self.NOMBRE.findall(linea):
@@ -1170,7 +1274,7 @@ class TestCuentaDeEvals(unittest.TestCase):
 
         raiz, _ = _raiz.raiz_repo()
         if raiz is None:
-            self.skipTest("no se encontro el repo")
+            self.skipTest("no se encontró el repo")
         self.raiz = raiz
         self.casos = [d for d in (raiz / "argentina" / "evals").iterdir() if d.is_dir()]
 
@@ -1179,6 +1283,33 @@ class TestCuentaDeEvals(unittest.TestCase):
         hallado = re.search(r"\*\*(\d+) casos\*\* de verificación", texto)
         self.assertIsNotNone(hallado, "LICENCIAS.md dejó de decir cuántos evals hay")
         self.assertEqual(int(hallado.group(1)), len(self.casos))
+
+    def test_el_slug_del_encabezado_es_el_nombre_del_directorio(self):
+        """El slug se escribe en el encabezado de `rubrica.md` y `resultado.md`, y ahí va en
+        ASCII porque es el nombre de una carpeta.
+
+        MUTACION VIVIDA: una corrección de acentos por regla convirtio
+        `familia-restitución-grave-riesgo-violencia` en `...-restitución-...` en cinco archivos,
+        y ningún test lo vio. El slug identifica el caso: si el encabezado dice otro, el eval
+        deja de poder cruzarse con su carpeta.
+        """
+        for caso in sorted(self.casos):
+            for nombre in ("rubrica.md", "resultado.md", "caso.md"):
+                f = caso / nombre
+                if not f.is_file():
+                    continue
+                encabezado = next((l for l in f.read_text(encoding="utf-8").splitlines()
+                                   if l.startswith("#")), "")
+                if "·" not in encabezado:
+                    continue
+                declarado = encabezado.split("·")[-1].strip()
+                # Solo cuando lo que sigue al · ES un slug. `caso.md` pone ahí el titulo en
+                # prosa, y eso no tiene por que coincidir con el nombre de la carpeta.
+                if " " in declarado or not re.fullmatch(r"[\w\-]+", declarado):
+                    continue
+                with self.subTest(f"{caso.name}/{nombre}"):
+                    self.assertEqual(declarado, caso.name,
+                                     "el encabezado no nombra el directorio del caso")
 
     def test_los_cuatro_de_capa_2_siguen_estando(self):
         """Si uno se renombra, la enumeración del mapa deja de identificar nada."""
@@ -1215,7 +1346,7 @@ class TestInventarioDeModelos(unittest.TestCase):
 
         raiz, _ = _raiz.raiz_repo()
         if raiz is None:
-            self.skipTest("no se encontro el repo")
+            self.skipTest("no se encontró el repo")
         self.raiz = raiz
         self.escritos = raiz / "argentina" / "kb" / "escritos"
         self.modelos = {f"kb/escritos/{p.relative_to(self.escritos).as_posix()}"
@@ -1275,7 +1406,7 @@ class TestREADMEDeScripts(unittest.TestCase):
             with self.subTest(suite.name):
                 self.assertIn(f"herramientas/{suite.name}", comandos,
                               f"el checklist de DESARROLLO.md no corre {suite.name}")
-        # Y al reves: un suite que se saca del repo tiene que salir del checklist, o el
+        # Y al revés: un suite que se saca del repo tiene que salir del checklist, o el
         # procedimiento manda correr un archivo que no existe y falla en la mano de quien
         # lo sigue. Pasa al mover una herramienta afuera.
         nombres = {s.name for s in suites}
@@ -1314,6 +1445,330 @@ class TestREADMEDeScripts(unittest.TestCase):
                               f"el README no menciona {guion.name}")
 
 
+class TestSalidaCodificable(unittest.TestCase):
+    """Toda la salida de una herramienta tiene que poder codificarse en cp1252.
+
+    En Windows la consola suele estar en cp1252, y un print de un carácter que no entra en esa
+    página de códigos termina en UnicodeEncodeError: el script muere DESPUÉS de haber medido y
+    quien lo corre cree que fallo la medición. Peor si además escribió: `cifras.py --sellar`
+    reescribe archivos y recién después informa que sello.
+
+    LOS ACENTOS NO SON EL PROBLEMA, y conviene tenerlo claro para no arreglar lo que no está
+    roto: a e i o u con tilde, la ñ, la ü, el · y el guion largo están todos en cp1252, y
+    `pendientes.py` los imprime sin inconveniente. Lo que rompe son las flechas, los tildes de
+    verificación y los caracteres de dibujo. Este repositorio tuvo exactamente uno: el `→` que
+    `cifras.py` imprimia al sellar.
+
+    Se mide corriendo los scripts, no leyendo el fuente: la salida se arma con f-strings y datos,
+    así que el fuente no dice que se imprime.
+    """
+
+    # Los que corren sin binarios externos ni red. `calidad_ocr.py`, `auditar_fechas_fallos.py`
+    # y `reocr_jurisprudencia.py` quedan afuera porque necesitan poppler o tesseract, y los
+    # descargadores porque salen a la red.
+    # Los que corren sin binarios externos ni red. `calidad_ocr.py`,
+    # `auditar_fechas_fallos.py` y `reocr_jurisprudencia.py` quedan afuera porque necesitan
+    # poppler o tesseract, y los descargadores porque salen a la red.
+    HERRAMIENTAS = ("herramientas/cifras.py", "herramientas/frontera_kb.py",
+                    "herramientas/cobertura_normativa.py", "herramientas/pendientes.py",
+                    "herramientas/reformas_no_leidas.py",
+                    "argentina/skills/derecho-argentino/scripts/estado.py")
+
+    def setUp(self):
+        sys.path.insert(0, str(Path(__file__).parent))
+        import _raiz
+        raiz, _ = _raiz.raiz_repo()
+        if raiz is None:
+            self.skipTest("no se encontró el repo")
+        self.raiz = raiz
+
+    @staticmethod
+    def _rompe(texto):
+        """Devuelve el primer carácter que una consola cp1252 no puede imprimir."""
+        for ch in texto:
+            try:
+                ch.encode("cp1252")
+            except UnicodeEncodeError:
+                return ch
+        return None
+
+    def test_la_salida_entra_en_cp1252(self):
+        for rel in self.HERRAMIENTAS:
+            with self.subTest(rel):
+                guion = self.raiz / rel
+                self.assertTrue(guion.is_file(), f"no existe {rel}")
+                hecho = subprocess.run([sys.executable, str(guion)], cwd=str(self.raiz),
+                                       capture_output=True, text=True)
+                for flujo, texto in (("stdout", hecho.stdout), ("stderr", hecho.stderr)):
+                    malo = self._rompe(texto)
+                    self.assertIsNone(
+                        malo, f"{rel} imprime «{malo}» (U+{ord(malo):04X}) por {flujo}: no entra "
+                              f"en cp1252 y corta la corrida en una consola de Windows"
+                        if malo else "")
+
+    def test_el_detector_reconoce_lo_que_rompe_y_deja_pasar_los_acentos(self):
+        """MUTACION del control: si `_rompe` se vuelve permisivo, el test da verde siempre; si se
+        vuelve estricto, obliga a sacar acentos que no molestan a nadie."""
+        for ch in ("→", "✔", "≥", "│"):
+            with self.subTest(f"rompe {ch}"):
+                self.assertEqual(self._rompe(f"medido {ch} y listo"), ch)
+        for ch in ("á", "é", "í", "ó", "ú", "ñ", "ü", "·", "—", "«", "»", "¿", "¡"):
+            with self.subTest(f"pasa {ch}"):
+                self.assertIsNone(self._rompe(f"medido {ch} y listo"))
+
+    # Lo que se transcribe a una pieza. Su salida son nombres de rubro y etiquetas que el
+    # abogado copia, así que ahí un acento faltante es un error de tipeo en una demanda.
+    QUE_VAN_AL_ESCRITO = (
+        ("argentina/skills/derecho-argentino/scripts/liquidacion_lct.py",
+         ["--ingreso", "2019-03-03", "--extincion", "2026-08-10",
+          "--mejor-remuneracion", "1450000", "--tope-245", "2000000"]),
+        ("argentina/skills/derecho-argentino/scripts/plazos.py",
+         ["--tipo", "habiles", "--desde", "2026-09-10", "--dias", "5", "--fuero", "pba"]),
+        # Un plazo que cruza a 2027 para que entren las notas de `inhábiles.json` sobre lo que
+        # todavía no está dictado: esas notas se imprimen y las lee el usuario, así que el
+        # control tiene que verlas. Con el caso de septiembre no salen.
+        ("argentina/skills/derecho-argentino/scripts/plazos.py",
+         ["--tipo", "habiles", "--desde", "2026-12-22", "--dias", "10", "--fuero", "pba"]),
+        ("argentina/skills/derecho-argentino/scripts/honorarios_pba.py",
+         ["--monto", "10000000", "--etapas", "3"]),
+    )
+    # Reglas, no lista de palabras: en castellano ninguna palabra termina en -cion/-sion sin
+    # tilde, y la ñ nunca se escribe "ni". Los plurales -ciones SI van sin tilde, y por eso el
+    # patrón exige el fin de palabra después de "ion".
+    DEGRADADA = re.compile(r"\b[A-Za-z]{2,}[csx]ion\b|\banios?\b", re.I)
+
+    def test_lo_que_se_transcribe_no_sale_degradado(self):
+        """Un rubro que dice «Indemnización por antigüedad» entra así a una demanda.
+
+        Es la misma clase de problema que las carátulas en ASCII, no una cuestión de estilo. Lo
+        que este test NO exige es acentuar los identificadores: el tramo `modernización`, las
+        claves de `inhábiles.json` y los valores de `--tipo` son ASCII a propósito, y acentuarlos
+        rompe la interfaz o la lectura del dato. Diez reversiones costo aprenderlo.
+        """
+        for rel, args in self.QUE_VAN_AL_ESCRITO:
+            with self.subTest(rel.rsplit("/", 1)[-1]):
+                hecho = subprocess.run([sys.executable, str(self.raiz / rel)] + args,
+                                       cwd=str(self.raiz), capture_output=True, text=True)
+                salida = hecho.stdout + hecho.stderr
+                # `modernización` es el identificador del tramo y se imprime tal cual.
+                salida = salida.replace("modernizacion", "").replace("hábiles - fuero", "")
+                hallado = self.DEGRADADA.search(salida)
+                self.assertIsNone(
+                    hallado, f"{rel} imprime «{hallado.group(0) if hallado else ''}»: eso se "
+                             f"copia a un escrito" if hallado else "")
+
+    def test_la_regla_esta_declarada_con_su_razon(self):
+        desarrollo = (self.raiz / "docs" / "DESARROLLO.md").read_text(encoding="utf-8")
+        plano = re.sub(r"\s+", " ", desarrollo)
+        self.assertIn("tiene que entrar en cp1252", plano)
+        self.assertIn("Los acentos no son el problema", plano,
+                      "sin esa aclaración, la regla invita a despojar de acentos la salida")
+
+
+class TestCaratulasAcentuadas(unittest.TestCase):
+    """La carátula de un fallo se cita como la escribe el registro, acentos incluidos.
+
+    `fallos.json` guardaba las 64 carátulas en ASCII, y siete decían `Danios` por `Daños`: eso
+    no es un acento faltante, es otra palabra. La sección 2 de SKILL.md pone la carátula entre
+    los cinco datos que NUNCA se reconstruyen, así que una carátula degradada deja dos salidas
+    y las dos son malas — citarla mal en un escrito, o "arreglarla" adivinando los acentos, que
+    es exactamente lo prohibido.
+
+    Se recuperaron contra el documento bajado de cada fallo, palabra por palabra, moviendo sólo
+    diacríticos y nunca la caja: las carátulas de la CSJN están en mayúsculas porque así las
+    escribe su registro, y `UATRE` o `ART` no son errores de tipeo.
+    """
+
+    ARCHIVOS = ("fallos.json", "procedencia.json")
+    # La ñ transliterada, en las dos formas que aparecían en el dato: `DANOS` y `Danios`.
+    TRANSLITERADA = re.compile(r"(?i)\b(dan[io]os|anios|munioz|espania)\b")
+    # Palabras que en una carátula van acentuadas siempre. No es la lista completa del idioma:
+    # son las que estaban degradadas, así que si vuelve una, vuelve por la misma vía.
+    SIN_ACENTO = ("fiscalia", "apelacion", "resolucion", "proteccion", "casacion", "impugnacion",
+                  "restitucion", "infraccion", "declaracion", "adopcion", "educacion",
+                  "orientacion", "prevencion", "reinstalacion", "privacion", "asociacion",
+                  "juridico", "ilicita", "ilegitima", "policia", "ejercito", "medica",
+                  "parrafo", "compania", "sumarisimo")
+
+    def setUp(self):
+        sys.path.insert(0, str(Path(__file__).parent))
+        import _raiz
+        raiz, _ = _raiz.raiz_repo()
+        if raiz is None:
+            self.skipTest("no se encontró el repo")
+        self.jur = raiz / "argentina" / "fuentes" / "jurisprudencia"
+
+    def _caratulas(self, arch):
+        d = json.loads((self.jur / arch).read_text(encoding="utf-8"))["fallos"]
+        it = d if isinstance(d, list) else list(d.values())
+        return {(f.get("slug") or f.get("archivo", "").rsplit(".", 1)[0]): f["caratula"]
+                for f in it if "caratula" in f}
+
+    def test_ninguna_caratula_trae_la_ñ_transliterada(self):
+        for arch in self.ARCHIVOS:
+            for slug, car in self._caratulas(arch).items():
+                with self.subTest(f"{arch} {slug}"):
+                    hallado = self.TRANSLITERADA.search(car)
+                    self.assertIsNone(hallado, f"«{hallado.group(0) if hallado else ''}» "
+                                               f"es una ñ transliterada, no una carátula")
+
+    def test_ninguna_caratula_perdio_sus_acentos(self):
+        for arch in self.ARCHIVOS:
+            for slug, car in self._caratulas(arch).items():
+                plano = car.lower()
+                for palabra in self.SIN_ACENTO:
+                    with self.subTest(f"{arch} {slug} {palabra}"):
+                        self.assertNotRegex(plano, r"\b" + palabra + r"\b",
+                                            f"«{palabra}» va acentuada en la carátula")
+
+    def test_las_dos_copias_de_la_caratula_dicen_lo_mismo(self):
+        """`fallos.json` y `procedencia.json` guardan la misma carátula por duplicado, y una
+        copia se corrige sin la otra: es exactamente cómo se degradó esto."""
+        a, b = (self._caratulas(x) for x in self.ARCHIVOS)
+        self.assertEqual(sorted(a), sorted(b), "las dos copias no cubren los mismos fallos")
+        for slug in a:
+            with self.subTest(slug):
+                self.assertEqual(a[slug], b[slug])
+
+
+class TestTitulosDeNormas(unittest.TestCase):
+    """Los 138 titulos de `normas.json` estaban enteros en ASCII, y no era solo cosmética.
+
+    Son la etiqueta con la que la skill nombra una norma cuando la cita, así que "Código de
+    Transito" y "Fuero Penal del Nino" salian así al escrito. Y había un error de otro tipo,
+    repetido veinte veces: "Constitución de la Catamarca", que parece salido de una plantilla.
+    Quedaron como "Constitución de la Provincia de Catamarca", que es como se titulan.
+
+    ESTO SE CONTROLA CON REGLAS Y NO CON UNA LISTA DE PALABRAS, a propósito. En castellano
+    ninguna palabra termina en `-cion` o `-sion` sin tilde: es una regla y no admite excepción.
+    Una lista, en cambio, arrastra ambigüedad --`practica`, `publica`, `calculo` y `numero`
+    existen sin tilde porque también son formas verbales-- y corregir por lista introduce
+    errores: paso dos veces en esta misma tarea, con "la actora práctica liquidación" y con
+    "InfoLEG no pública texto actualizado".
+    """
+
+    ARCHIVOS = ("normas.json", "procedencia.json")
+    SIN_TILDE = re.compile(r"\b[A-Za-zÁÉÍÓÚÜÑáéíóúüñ]{2,}[csx]ion\b")
+    TRANSLITERADA = re.compile(r"(?i)\b(dan[io]os|anios?|nino|munioz|espania)\b")
+
+    def setUp(self):
+        sys.path.insert(0, str(Path(__file__).parent))
+        import _raiz
+        raiz, _ = _raiz.raiz_repo()
+        if raiz is None:
+            self.skipTest("no se encontró el repo")
+        self.normas = raiz / "argentina" / "fuentes" / "normas"
+
+    def _titulos(self, arch):
+        d = json.loads((self.normas / arch).read_text(encoding="utf-8"))["normas"]
+        it = d if isinstance(d, list) else list(d.values())
+        return {(x.get("slug") or x.get("archivo", "").rsplit(".", 1)[0]): x["titulo"]
+                for x in it if "titulo" in x}
+
+    def test_ningun_titulo_termina_una_palabra_en_cion_sin_tilde(self):
+        for arch in self.ARCHIVOS:
+            for slug, titulo in self._titulos(arch).items():
+                hallado = self.SIN_TILDE.search(titulo)
+                with self.subTest(f"{arch} {slug}"):
+                    self.assertIsNone(hallado, f"«{hallado.group(0) if hallado else ''}» lleva "
+                                               f"tilde: en castellano no hay -cion sin acento")
+
+    def test_ningun_titulo_trae_la_ñ_transliterada(self):
+        for arch in self.ARCHIVOS:
+            for slug, titulo in self._titulos(arch).items():
+                hallado = self.TRANSLITERADA.search(titulo)
+                with self.subTest(f"{arch} {slug}"):
+                    self.assertIsNone(hallado, f"«{hallado.group(0) if hallado else ''}» es una "
+                                               f"ñ transliterada")
+
+    def test_ninguna_constitucion_provincial_pierde_el_sustantivo(self):
+        """«Constitución de la Catamarca» no es castellano. Van con «de la Provincia de»."""
+        malo = re.compile(r"Constitución de la (?!Provincia|Nación|Ciudad)")
+        for arch in self.ARCHIVOS:
+            for slug, titulo in self._titulos(arch).items():
+                with self.subTest(f"{arch} {slug}"):
+                    self.assertIsNone(malo.search(titulo),
+                                      f"falta «Provincia de» en: {titulo}")
+
+    def test_las_dos_copias_del_titulo_dicen_lo_mismo(self):
+        a, b = (self._titulos(x) for x in self.ARCHIVOS)
+        for slug in set(a) & set(b):
+            with self.subTest(slug):
+                self.assertEqual(a[slug], b[slug])
+
+
+class TestFaltaElInterprete(unittest.TestCase):
+    """Sin Python instalado, las cuatro calculadoras no corren. La skill tiene que DECIRLO.
+
+    Es el unico modo de falla del repositorio que ningún script puede diagnosticar, porque el
+    diagnóstico también es Python: `estado.py` falla por la misma causa. Así que la regla vive
+    en SKILL.md y este test es lo que la sostiene.
+
+    Y hay una razón para que sea explícita. SKILL.md decía "si no están disponibles, hacer el
+    cálculo a mano": una instrucción escrita para el caso de que no haya repo, que aplicada a
+    la falta de interprete entrega un número hecho a ojo a un usuario que cree que corrió la
+    calculadora. Es exactamente el error que este repositorio existe para no cometer.
+    """
+
+    # Las tres que devuelve la consola, una por plataforma. Si el aviso pierde una, el modelo
+    # lee ese error como "el script está roto" y no como "falta el interprete".
+    SENALES = ("command not found: python3",
+               "'python3' no se reconoce como un comando",
+               "xcrun: error: invalid active developer path")
+
+    def setUp(self):
+        sys.path.insert(0, str(Path(__file__).parent))
+        import _raiz
+        raiz, _ = _raiz.raiz_repo()
+        if raiz is None:
+            self.skipTest("no se encontró el repo")
+        self.raiz = raiz
+        self.skill = (raiz / "argentina" / "skills" / "derecho-argentino"
+                      / "SKILL.md").read_text(encoding="utf-8")
+
+    def test_nombra_las_tres_senales_de_la_consola(self):
+        for senal in self.SENALES:
+            with self.subTest(senal):
+                self.assertIn(senal, self.skill,
+                              "SKILL.md dejo de nombrar esta señal de que falta el intérprete")
+
+    def test_emite_el_marcador_canonico_de_configuracion(self):
+        self.assertRegex(self.skill, r"\[CONFIGURACIÓN INCOMPLETA: falta Python 3[^\]]+\]",
+                         "falta el marcador que se emite cuando no hay intérprete")
+
+    def test_prohibe_calcular_a_mano_en_ese_caso(self):
+        """La prohibición es la regla entera: sin ella el resto es decoración."""
+        self.assertIn("**Y lo que no se hace es calcular a mano.**", self.skill)
+        self.assertNotIn("Si no están disponibles, hacer el cálculo a mano", self.skill,
+                         "volvió la instrucción de calcular a mano ante un script que no corre")
+
+    def test_la_prohibicion_esta_declarada_entre_las_reglas_inmodificables(self):
+        """El detalle vive al final de SKILL.md, y una regla al final se lee de costado. La
+        sección 2 es la que dice que no se suspende por instrucción del usuario en sesión, así
+        que ahí va el puntero: sin el, esto es una recomendación de la sección 16."""
+        seccion2 = self.skill.split("## 2 · Reglas de integridad", 1)[-1].split("\n## ", 1)[0]
+        plano = re.sub(r"\s+", " ", seccion2)
+        self.assertIn("**Aritmética.**", plano,
+                      "la sección 2 dejó de tener la regla de aritmética")
+        self.assertIn("porque falta Python**, no se reemplaza con un cálculo a mano", plano,
+                      "la sección 2 ya no prohíbe el cálculo a mano por falta de intérprete")
+
+    def test_el_link_de_python_es_el_mismo_que_el_del_readme(self):
+        """Dos archivos que dan la misma instrucción de instalación se separan solos. El README
+        se lo dice a una persona; SKILL.md, al modelo que va a tener que explicarlo."""
+        readme = (self.raiz / "README.md").read_text(encoding="utf-8")
+        # Con el espacio aplanado: la frase del PATH cae justo donde se envuelve el renglon en
+        # los dos archivos, y un test que se rompe por eso no mide nada.
+        archivos = {"README.md": re.sub(r"\s+", " ", readme),
+                    "SKILL.md": re.sub(r"\s+", " ", self.skill)}
+        for archivo, texto in archivos.items():
+            with self.subTest(archivo):
+                self.assertIn("https://www.python.org/downloads/", texto,
+                              f"{archivo} no lleva el link de descarga de Python")
+                self.assertIn("Add python.exe to PATH", texto,
+                              f"{archivo} no avisa del tilde de PATH, que en Windows decide")
+
+
 class TestRutasCitadasPorLaSkill(unittest.TestCase):
     """Toda ruta del repo que un módulo cita entre backticks tiene que existir.
 
@@ -1331,7 +1786,7 @@ class TestRutasCitadasPorLaSkill(unittest.TestCase):
 
         raiz, _ = _raiz.raiz_repo()
         if raiz is None:
-            self.skipTest("no se encontro el repo")
+            self.skipTest("no se encontró el repo")
         self.raiz = raiz
         self.skill = raiz / "argentina" / "skills" / "derecho-argentino"
 
@@ -1352,7 +1807,7 @@ class TestRutasCitadasPorLaSkill(unittest.TestCase):
 
 
 class TestSobreDeLosVeredictos(unittest.TestCase):
-    """Los seis archivos de veredicto comparten un sobre, y esto es lo que los mantiene juntos.
+    """Los archivos de veredicto comparten un sobre, y esto es lo que los mantiene juntos.
 
     Cada uno se había inventado su forma: la fecha del último repaso llegó a llamarse
     `revisado`, `_revisado` y `fijado` en tres archivos que dicen lo mismo. No rompía nada,
@@ -1369,6 +1824,7 @@ class TestSobreDeLosVeredictos(unittest.TestCase):
         "herramientas/lecturas-ocr.json": "lecturas",
         "herramientas/kb-procedencia.json": "archivos",
         "herramientas/reformas-revisadas.json": "reformas",
+        "herramientas/cifras-revisadas.json": "cifras",
         "argentina/fuentes/normas/revisiones.json": "revisiones",
     }
     OBLIGATORIAS = ("_descripcion", "fijado")
@@ -1379,10 +1835,10 @@ class TestSobreDeLosVeredictos(unittest.TestCase):
         import _raiz
         raiz, _ = _raiz.raiz_repo()
         if raiz is None:
-            self.skipTest("no se encontro el repo")
+            self.skipTest("no se encontró el repo")
         self.raiz = raiz
 
-    def test_los_cinco_traen_el_sobre_completo(self):
+    def test_todos_traen_el_sobre_completo(self):
         for ruta, carga in self.ARCHIVOS.items():
             f = self.raiz / ruta
             if not f.is_file():
@@ -1425,10 +1881,15 @@ class TestSobreDeLosVeredictos(unittest.TestCase):
                 fecha = json.loads(f.read_text(encoding="utf-8"))["fijado"]
                 datetime.date.fromisoformat(fecha)
 
-    def test_no_aparecio_un_sexto_archivo_sin_declarar(self):
-        """El patrón crece: un archivo de veredicto nuevo entra a esta lista o falla acá."""
+    def test_no_aparecio_un_archivo_de_veredicto_sin_declarar(self):
+        """El patrón crece: un archivo de veredicto nuevo entra a está lista o falla acá.
+
+        El glob va con `revisad*` y no con `revisada`: los nombres alternan singular y plural
+        según lo que revisan —`fuga-revisada`, `reformas-revisadas`, `cifras-revisadas`— y con
+        el patrón en singular este guardarraíl no veía los dos plurales.
+        """
         sospechosos = set()
-        for patron in ("herramientas/*-revisada.json", "herramientas/lecturas-*.json",
+        for patron in ("herramientas/*-revisad*.json", "herramientas/lecturas-*.json",
                        "argentina/fuentes/normas/revisiones.json"):
             sospechosos |= {p.relative_to(self.raiz).as_posix()
                             for p in self.raiz.glob(patron)}
@@ -1436,13 +1897,17 @@ class TestSobreDeLosVeredictos(unittest.TestCase):
                          "hay un archivo de veredicto que no está en TestSobreDeLosVeredictos")
 
 
+SEMVER = r"\d+\.\d+\.\d+(?:-[0-9A-Za-z.\-]+)?"
+
+
+
 class TestVersionUnica(unittest.TestCase):
-    """La version del plugin se declara en cinco lugares y ninguno la deriva de otro.
+    """La versión del plugin se declara en cinco lugares y ninguno la deriva de otro.
 
     Publicar 1.1.0 significa editar cinco archivos, y hasta ahora nada atrapaba el que
     faltara: el repositorio se contradice solo y el primero en notarlo es quien instala.
     La fuente de verdad es `argentina/.claude-plugin/plugin.json`, que es de donde
-    `generar_marca.py` saca el numero para la chapa.
+    `generar_marca.py` saca el número para la chapa.
     """
 
     @staticmethod
@@ -1457,7 +1922,7 @@ class TestVersionUnica(unittest.TestCase):
         import _raiz
         raiz, _ = _raiz.raiz_repo()
         if raiz is None:
-            self.skipTest("no se encontro el repo")
+            self.skipTest("no se encontró el repo")
         self.raiz = raiz
         self.canonica = self._v(raiz / "argentina" / ".claude-plugin" / "plugin.json", "version")
 
@@ -1475,14 +1940,36 @@ class TestVersionUnica(unittest.TestCase):
 
     def test_el_changelog_encabeza_con_esa_version(self):
         texto = (self.raiz / "CHANGELOG.md").read_text(encoding="utf-8")
-        primera = re.search(r"^## \[(\d+\.\d+\.\d+)\]", texto, re.M)
+        primera = re.search(r"^## \[(" + SEMVER + r")\]", texto, re.M)
         self.assertIsNotNone(primera, "el CHANGELOG dejo de encabezar con una version")
         self.assertEqual(primera.group(1), self.canonica,
-                         "la version mas reciente del CHANGELOG no es la del manifiesto")
+                         "la version más reciente del CHANGELOG no es la del manifiesto")
+
+    def test_esa_entrada_del_changelog_esta_fechada(self):
+        """Este test capturaba la versión y no la fecha, así que el CHANGELOG se podía publicar
+        con `## [1.1.0] — 2026-mm-dd`: el placeholder que se pone mientras la versión se cocina
+        y que nadie mira el dia que se publica. Que quede rojo hasta que la fecha este puesta
+        es el punto, no un efecto colateral: es lo último que falta de un release.
+
+        El encabezado se toma por POSICIÓN, no con un `re.search` sobre todo el archivo. Un
+        search se va de largo: con `## [1.1.0]` sin fecha encontraba la de la entrada de 1.0.0 y
+        daba verde validando la versión anterior. Lo encontró una mutación.
+        """
+        texto = (self.raiz / "CHANGELOG.md").read_text(encoding="utf-8")
+        encabezado = next((l for l in texto.splitlines() if l.startswith("## [")), None)
+        self.assertIsNotNone(encabezado, "el CHANGELOG dejo de encabezar con una version")
+        fechada = re.fullmatch(r"## \[" + SEMVER + r"\] — (\S+)", encabezado)
+        self.assertIsNotNone(
+            fechada, f"la entrada que encabeza el CHANGELOG no trae fecha: «{encabezado}»")
+        try:
+            datetime.date.fromisoformat(fechada.group(1))
+        except ValueError:
+            self.fail(f"la fecha de la entrada que encabeza el CHANGELOG no es una fecha: "
+                      f"«{fechada.group(1)}». Falta ponerle la del release.")
 
     def test_la_chapa_del_readme_anuncia_esa_version(self):
         texto = (self.raiz / "README.md").read_text(encoding="utf-8")
-        m = re.search(r'alt="Versión (\d+\.\d+\.\d+)"', texto)
+        m = re.search(r'alt="Versión (' + SEMVER + r')"', texto)
         self.assertIsNotNone(m, "el README dejo de declarar la version en el alt de la chapa")
         self.assertEqual(m.group(1), self.canonica)
 
@@ -1501,22 +1988,22 @@ class TestVersionUnica(unittest.TestCase):
                 if '"version"' in f.read_text(encoding="utf-8"):
                     hallados.add(f.relative_to(self.raiz).as_posix())
         self.assertEqual(hallados - conocidos, set(),
-                         "hay un manifiesto con version que no esta en TestVersionUnica")
+                         "hay un manifiesto con version que no está en TestVersionUnica")
 
 
 class TestSalidaDeEstado(unittest.TestCase):
     """`estado.py` interpola constantes de `_raiz` en lo que imprime, y esas constantes cambian.
 
-    `ENV_PLUGIN` paso de ser una cadena a una tupla al sumar Codex, y la interpolacion quedo
+    `ENV_PLUGIN` paso de ser una cadena a una tupla al sumar Codex, y la interpolación quedo
     escupiendo el repr de Python -parentesis y comillas- en la salida que el usuario lee
-    justamente cuando NO se encontro el repo. Ningun test lo vio porque es un print en una
+    justamente cuando NO se encontró el repo. Ningún test lo vio porque es un print en una
     rama de error.
     """
 
     def test_lo_que_imprime_no_trae_repr_de_python(self):
         """Se mira el TIPO de la constante, no su nombre.
 
-        Una primera version marcaba cualquier nombre en mayusculas y fallaba sobre {ENV},
+        Una primera versión marcaba cualquier nombre en mayúsculas y fallaba sobre {ENV},
         que es una cadena y esta bien interpolada. Una medida que se equivoca sobre un caso
         conocido no sirve para los desconocidos: lo que decide no es como se llama sino que
         es.
@@ -1558,7 +2045,7 @@ class TestIdentidadDeLasNormas(unittest.TestCase):
         import _raiz
         raiz, _ = _raiz.raiz_repo()
         if raiz is None:
-            self.skipTest("no se encontro el repo")
+            self.skipTest("no se encontró el repo")
         self.normas = raiz / "argentina" / "fuentes" / "normas"
         if not (self.normas / "procedencia.json").is_file():
             self.skipTest("no esta la capa de fuentes")
@@ -1580,10 +2067,10 @@ class TestIdentidadDeLasNormas(unittest.TestCase):
                 continue
             m = re.search(r"(\d{4,5})$", slug)
             if not m:
-                continue        # constituciones, codigos y acuerdos no llevan numero en el slug
+                continue        # constituciones, códigos y acuerdos no llevan numero en el slug
             numero = m.group(1)
             # Sin el encabezado de procedencia: ese lo escribimos nosotros con el titulo del
-            # manifiesto, asi que buscar ahi confirmaria lo que ya creemos y no lo que bajamos.
+            # manifiesto, así que buscar ahí confirmaria lo que ya creemos y no lo que bajamos.
             cuerpo = self._plano(_comun.cuerpo_consolidado(archivo)[:3000])
             mirados += 1
             with self.subTest(slug):
@@ -1611,7 +2098,7 @@ class TestEscalasTranscriptas(unittest.TestCase):
         import _raiz
         raiz, _ = _raiz.raiz_repo()
         if raiz is None:
-            self.skipTest("no se encontro el repo")
+            self.skipTest("no se encontró el repo")
         modulo = (raiz / "argentina" / "skills" / "derecho-argentino" / "references"
                   / "transito.md")
         decreto = raiz / "argentina" / "fuentes" / "normas" / "pba-decreto-532-2009.txt"
@@ -1619,7 +2106,7 @@ class TestEscalasTranscriptas(unittest.TestCase):
             self.skipTest("no esta el texto del Decreto 532/2009")
         texto = modulo.read_text(encoding="utf-8")
         if "### 28.5 ter" not in texto:
-            self.skipTest("todavia no esta la seccion de escalas")
+            self.skipTest("todavía no esta la sección de escalas")
         self.tabla = texto[texto.index("### 28.5 ter"):texto.index("### 28.6")]
         crudo = decreto.read_text(encoding="utf-8")
         av = crudo[crudo.index("ANEXO VRÉGIMEN"):]
@@ -1672,7 +2159,7 @@ class TestContradiccionesNominadas(unittest.TestCase):
 
         raiz, _ = _raiz.raiz_repo()
         if raiz is None:
-            self.skipTest("no se encontro el repo")
+            self.skipTest("no se encontró el repo")
         self.referencias = raiz / "argentina" / "skills" / "derecho-argentino" / "references"
         kb = raiz / "argentina" / "kb"
         self.kb = self._plano("\n".join(

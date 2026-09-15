@@ -1,8 +1,8 @@
 # Familia
 
 > Módulo de referencia de la skill `derecho-argentino`. Numeración global, sección 18.
-> Verificado contra fuente primaria el 13/09/2026. Lo procesal es de PBA; para otra
-> jurisdicción, no transpolar. Los puntos que no se pudieron cerrar están al final.
+> Verificado contra fuente primaria. Lo procesal es de PBA; para otra jurisdicción, no
+> transpolar. Los puntos que no se pudieron cerrar están al final.
 
 > Transversales: `prueba-pericial.md` (sección 20) —pericias psicológicas y del equipo
 > técnico—, `ejecucion.md` (sección 21) —ejecución de la cuota alimentaria— y
@@ -20,7 +20,7 @@ que se superponen por capas.
 - **Ley 11.453** (1993) creó el Fuero de Familia e incorporó el **Libro VIII al CPCCBA**, con
   Tribunales Colegiados de Instancia Única. **No fue derogada**, pero su arquitectura procesal
   sí fue reemplazada.
-- **Ley 13.634** (B.O. 2/2/2007) es la que hoy manda. Su **art. 16 sustituyó íntegramente el
+- **Ley 13.634** (B.O. 02/02/2007) es la que hoy manda. Su **art. 16 sustituyó íntegramente el
   Libro VIII del CPCCBA**; su art. 8 disolvió los Tribunales de Familia y los transformó en
   **Juzgados de Familia unipersonales**.
 
@@ -119,7 +119,7 @@ subrogación; ningún matrimonio se tiene por nulo sin sentencia.
 **Competencia territorial**, que resuelve la mayoría de los conflictos entre juzgados:
 
 | Materia | Juez competente | Art. |
-|---|---|---|
+| --- | --- | --- |
 | Derechos de niños, niñas y adolescentes — cuidado personal, responsabilidad parental, tutela, guarda, comunicación | **Centro de vida** de la persona menor de edad | 716 |
 | Divorcio y nulidad de matrimonio | Último domicilio conyugal o domicilio del demandado, a elección; petición conjunta, cualquiera de los dos | 717 |
 | Uniones convivenciales | Último domicilio convivencial o del demandado, a elección | 718 |
@@ -137,7 +137,7 @@ extiende a las **uniones convivenciales** en cuanto sea pertinente.
 ## 18.5 · Alimentos y la reforma de la Ley 15.513
 
 Sancionada el 12/12/2024, promulgada el 31/12/2024 por Decreto 3684/2024, publicada el
-3/1/2025. Modificó **catorce artículos del CPCCBA**. Los tres que cambian el trabajo cotidiano:
+03/01/2025. Modificó **catorce artículos del CPCCBA**. Los tres que cambian el trabajo cotidiano:
 
 **Art. 636 bis — alimentos provisorios en el primer auto.** Texto:
 
@@ -209,7 +209,7 @@ https://www.indec.gob.ar/ftp/cuadros/sociedad/serie_canasta_crianza.xlsx
 
 ## 18.6 · Violencia familiar — tres capas que se aplican juntas
 
-**Ley 12.569 de PBA** (B.O. 2/1/2001, con las reformas de las Leyes 14.509 y 14.657) da la
+**Ley 12.569 de PBA** (B.O. 02/01/2001, con las reformas de las Leyes 14.509 y 14.657) da la
 **competencia y el procedimiento**:
 
 - **Art. 6 — competencia:** Juzgados o Tribunales de Familia y **Juzgados de Paz**, del
@@ -270,8 +270,8 @@ contenidos digitales violentos** que incorporó la Ley 27.736.
 > artículo trae el plazo: el juez o jueza **debe adoptar la medida dentro de las 48 horas** de
 > haber tomado conocimiento.
 >
-> `[INSERTAR FALLO VERIFICADO: si un juzgado de familia de PBA dicta la supresion de contenidos digitales por el art. 26 de la Ley 26.485 pese al art. 1, o la encuadra en el inc. n del art. 7 de la Ley 12.569 - aportar juzgado, camara y anio]`
-> `[VERIFICAR VIGENCIA: Ley 14.407 PBA - la emergencia que declara es por dos anios desde el 18/10/2012; verificar si fue prorrogada antes de invocarla como adhesion vigente]`
+> `[INSERTAR FALLO VERIFICADO: si un juzgado de familia de PBA dicta la supresión de contenidos digitales por el art. 26 de la Ley 26.485 pese al art. 1, o la encuadra en el inc. n del art. 7 de la Ley 12.569 - aportar juzgado, camara y año]`
+> `[VERIFICAR VIGENCIA: Ley 14.407 PBA - la emergencia que declara es por dos años desde el 18/10/2012; verificar si fue prorrogada antes de invocarla como adhesión vigente]`
 
 **Convención de Belém do Pará — Ley 24.632** da el parámetro de convencionalidad: derecho a una
 vida libre de violencia (art. 3) y **debida diligencia** estatal para prevenir, investigar y
@@ -298,17 +298,17 @@ horas**.
 Las tres están cotejadas contra el PDF oficial. Al citarlas, acompañar con
 `[VERIFICAR PRECEDENTE: ...]`.
 
-- **C. 127.266, 19/2/2024** — *"P. R. E. c/ P. E. E. s/ Protección contra la violencia familiar
+- **C. 127.266, 19/02/2024** — *"P. R. E. c/ P. E. E. s/ Protección contra la violencia familiar
   (Ac. 4099)"*. Una vez que el fuero penal evalúa las medidas protectorias iniciales,
   corresponde al **Juzgado de Familia continuar con competencia exclusiva** conforme la Ley
   12.569. Rechaza el principio de prevención para dirimir competencia entre fueros distintos:
   la prevención se reserva a órganos de igual competencia material.
-- **C. 126.644, 19/9/2023** — *"R. J. A. c/ A. J. M. s/ Protección contra la violencia familiar
+- **C. 126.644, 19/09/2023** — *"R. J. A. c/ A. J. M. s/ Protección contra la violencia familiar
   (Ley 12.569) s/ Oficio"*. Declara competente al Juzgado de Familia; exhorta al Ministerio de
   Seguridad a usar el formulario oficial de denuncia; e **instruye al Juez de Garantías a
   otorgar o rechazar las medidas de manera explícita y fundada** — prohíbe la denegatoria
   tácita.
-- **C. 122.501, 2/10/2020** — *"R., V. S. contra D., G. J. Tenencia de hijo"*. Ordena
+- **C. 122.501, 02/10/2020** — *"R., V. S. contra D., G. J. Tenencia de hijo"*. Ordena
   **cuidado personal compartido en modalidad alternada**, privilegiando el interés superior y
   el derecho a vínculos fluidos con ambos progenitores **con independencia de la distancia
   territorial** entre los domicilios.
@@ -328,16 +328,16 @@ para *encontrar* el instituto y su articulado; lo que digan sobre montos, plazos
 se verifica antes de usarlo.
 
 | Instituto | Fondo | Doctrina y fallos |
-|---|---|---|
+| --- | --- | --- |
 | Divorcio, convenio regulador | `kb/perfiles/familia-CLAUDE.md` § Divorcio | — |
-| **Compensación económica** (arts. 441-442 y 524-525 CCyCN) | **18.9 de este módulo**. Absorbido: ya no se rutea al perfil para el fondo | `[INSERTAR FALLO VERIFICADO: compensacion economica, arts. 441-442 y 524-525 CCyCN - no hay precedente bajado]` |
+| **Compensación económica** (arts. 441-442 y 524-525 CCyCN) | **18.9 de este módulo**. Absorbido: ya no se rutea al perfil para el fondo | `[INSERTAR FALLO VERIFICADO: compensación economica, arts. 441-442 y 524-525 CCyCN - no hay precedente bajado]` |
 | **Caducidades y prescripciones** (arts. 442, 525, 526, 590, 591, 593, 2562 inc. c) | `plazos.md` **8.5 bis**. Absorbido: ya no se rutea al perfil | — |
 | Régimen patrimonial del matrimonio | `kb/perfiles/familia-CLAUDE.md` § Régimen patrimonial | — |
 | Unión convivencial | `kb/perfiles/familia-CLAUDE.md` § Unión convivencial | — |
 | Responsabilidad parental y **cuidado personal compartido** | `kb/perfiles/familia-CLAUDE.md` § Responsabilidad parental | `fallos-csjn.md` 34.5 — "S., D. c/ R., L. M. s/ reintegro de hijo y alimentos", Fallos 336:849 |
 | Alimentos — fondo y cuantificación | `kb/perfiles/familia-CLAUDE.md` § Alimentos | `fallos-csjn.md` 34.5 — Fallos 336:849, que es de reintegro **y alimentos** |
 | Régimen comunicacional | `kb/perfiles/familia-CLAUDE.md` § Régimen comunicacional | — |
-| **Filiación, TRHA y gestación por sustitución** | `kb/perfiles/familia-CLAUDE.md` § Filiación | `[INSERTAR FALLO VERIFICADO: filiacion, TRHA y gestacion por sustitucion, arts. 558-593 CCyCN - no hay precedente bajado]` |
+| **Filiación, TRHA y gestación por sustitución** | `kb/perfiles/familia-CLAUDE.md` § Filiación | `[INSERTAR FALLO VERIFICADO: filiación, TRHA y gestación por sustitución, arts. 558-593 CCyCN - no hay precedente bajado]` |
 | Adopción, guarda con fines de adopción, entrega directa | `kb/perfiles/familia-CLAUDE.md` § Adopción | `fallos-csjn.md` 34.5 — "D., H. C. y otros s/ guarda con fines de adopción", Fallos 346:287 |
 | Violencia familiar y de género | 18.6 de este módulo | `fallos-csjn.md` 34.5 — "Winteker", Fallos 329:5514, **pero es una decisión de competencia y nada más**: leer la nota de 34.5 antes de citarla |
 | **Sustracción internacional de menores** (La Haya 1980, Ley 23.857; Convención Interamericana, Ley 25.358) | **`fallos-csjn.md` 34.5**, con los holdings leídos contra el documento. `kb/perfiles/familia-CLAUDE.md` § Sustracción internacional queda como complemento **sin auditar** | `fallos-csjn.md` 34.5 — cuatro con holding escrito: Fallos 336:849 (voluntad cualificada y umbral del grave riesgo), 344:3078 (oposición del niño), 345:358 (violencia de género como especie del grave riesgo) y 347:1234 |
@@ -348,7 +348,7 @@ se verifica antes de usarlo.
 #### Contradicciones nominadas — el perfil quedó atrás
 
 | El perfil dice | Lo correcto |
-|---|---|
+| --- | --- |
 | Alzada: *"Cámara de Apelación en lo Civil y Comercial / **Tribunal Colegiado de Familia** según departamento"* | Los Tribunales de Familia fueron **disueltos** por el art. 8 de la Ley 13.634 y transformados en Juzgados unipersonales. La alzada son las Cámaras en lo Civil y Comercial (art. 38 Ley 5.827). **No hay cámara de familia propia.** Ver 18.1 |
 | La etapa previa ante el Consejero se controla siempre, salvo violencia | **En alimentos es optativa** desde que el art. 14 de la Ley 15.513 reformó el art. 828 CPCCBA. Ver 18.3 |
 | El Índice de Crianza del INDEC es *"el estándar de referencia predominante"* y omitirlo *"expone la cuota a licuación"* | El último párrafo del art. 641 CPCCBA dice **"podrá"**: es facultativo, es **uno entre otros** elementos de mérito y está **limitado a alimentos de menores de edad** (la canasta cubre hasta 12 años inclusive). No es un piso legal ni un módulo automático. Ver 18.5 |
@@ -358,7 +358,6 @@ y a.9: orden de baja de contenido con URL y aseguramiento por 90 días) está de
 `kb/perfiles/familia-CLAUDE.md` § Violencia familiar; 18.6 solo la roza.
 
 Texto de la Ley 27.736 en `fuentes/normas/ley-27736.txt`; el articulado vigente del art. 26 se lee en el texto actualizado de la 26.485 (`fuentes/normas/ley-26485.txt`).
-
 
 **Dos cosas para tener presentes.** La columna de doctrina **ya no rutea a `kb/doctrina/`**: los
 seis fallos de la Corte que el repo tiene bajados y verificados están en `fallos-csjn.md`
@@ -391,7 +390,7 @@ desequilibrio con causa adecuada. Pedirla "por los daños del divorcio" es pedir
 **Modalidades de pago, y acá está la diferencia que más se pasa por alto:**
 
 | | Matrimonio (art. 441) | Unión convivencial (art. 524) |
-|---|---|---|
+| --- | --- | --- |
 | Prestación única | Sí | Sí |
 | Renta por tiempo determinado | Sí | Sí, **con tope: no puede ser mayor a la duración de la unión** |
 | Renta por plazo indeterminado | Sí, **excepcionalmente** | **No está prevista** |
@@ -422,7 +421,7 @@ Dos precisiones del texto que conviene tener a mano:
 **Lo que este módulo no resuelve.** No hay fórmula legal de cuantificación: las pautas son
 circunstancias a ponderar, no una cuenta. Y no hay precedente propio cargado en el repo:
 
-`[INSERTAR FALLO VERIFICADO: compensacion economica, arts. 441-442 y 524-525 CCyCN - no hay precedente bajado]`
+`[INSERTAR FALLO VERIFICADO: compensación economica, arts. 441-442 y 524-525 CCyCN - no hay precedente bajado]`
 
 Para la doctrina y los criterios de cuantificación que circulan, `kb/perfiles/familia-CLAUDE.md`
 § Divorcio y § Unión convivencial siguen sirviendo **como complemento sin auditar**, con la
@@ -431,7 +430,7 @@ advertencia del bloque de contradicciones nominadas.
 ## Puntos abiertos
 
 | Punto | Qué falta |
-|---|---|
+| --- | --- |
 | Cuantificación de alimentos y Canasta de Crianza | **No consta doctrina legal de la SCBA.** La materia es posterior a la Ley 15.513 (enero 2025) y puede no haber llegado a casación. Buscar en JUBA y en sentencias.scba.gov.ar |
 | Compensación económica | Sin fallo de la SCBA verificado |
 | Ley 5.827 | Artículo que fija la competencia de los Juzgados de Paz Letrados en familia |

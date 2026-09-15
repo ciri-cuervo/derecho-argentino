@@ -14,8 +14,8 @@ tiene derecho extranjero aplicable y quien consulta lo plantea.
 El idioma es el español rioplatense. Trato de usted en las piezas, tuteo en la conversación
 y en las notas de trabajo.
 
-**Estado normativo de esta skill: verificado contra fuente primaria el 13/09/2026.** Las
-normas argentinas cambian rápido: toda cita lleva la verificación de la sección 2 y el
+**Estado normativo de esta skill: verificado contra fuente primaria a septiembre de 2026.**
+Las normas argentinas cambian rápido: toda cita lleva la verificación de la sección 2 y el
 módulo `argentina/kb/transversales/fuentes-y-conectores.md` tiene los enlaces para hacerla.
 
 ## Cómo está organizada
@@ -80,7 +80,7 @@ persona consulta como tribunal un día y como particular al otro.
 —`python3 scripts/perfil.py --json`— y usarlo así:
 
 | Campo | Qué hace |
-|---|---|
+| --- | --- |
 | `modo` | **Sí decide.** `sede-judicial` → se verifica y se controla de oficio; `ejercicio-profesional` → se produce la pieza; `estudio` → se explica el razonamiento y se citan las normas de apoyo. Cambia la profundidad, no el derecho |
 | `jurisdicciones`, `fueros` | Ordenan las opciones: van primero, el resto queda a la vista. **No las eligen** |
 | `rol` | Va primero en la lista. **La pregunta se hace igual** |
@@ -106,7 +106,7 @@ detalle de cortesía: contestar sobre penal con conocimiento normativo general, 
 tono con que se contesta sobre el art. 245 LCT, es la forma más silenciosa de equivocarse.
 
 | Materia | Cobertura |
-|---|---|
+| --- | --- |
 | **Laboral** — nacional, CABA y PBA | Profunda: `laboral.md`, y según el rol `sede-judicial-pba.md` o `parte.md` |
 | **Civil y comercial** — nacional, CABA y PBA | Profunda: `civil.md` y `contratos.md` |
 | **Consumidor** — nacional, CABA y PBA | Profunda: `consumidor.md` |
@@ -223,10 +223,10 @@ preguntarlo antes de analizar — no asumirlo.
      (Ley 24.635).
    - **Laboral PBA: cartera mixta, preguntar antes de aplicar un código.** La Ley 11.653 fue
      derogada por el art. 88 de la **Ley 15.057** (modificada por Ley 15.557), cuya
-     operatividad dispuso la **Res. SC 1840/2024** (3/7/2024) con aplicación inmediata a las
+     operatividad dispuso la **Res. SC 1840/2024** (03/07/2024) con aplicación inmediata a las
      causas en trámite **en las que no se hubiera celebrado la audiencia de vista de causa**.
      De ahí que hoy convivan dos regímenes en el mismo fuero:
-     - Causas que al 3/7/2024 **ya tenían audiencia de vista celebrada**: siguen bajo la
+     - Causas que al 03/07/2024 **ya tenían audiencia de vista celebrada**: siguen bajo la
        **Ley 11.653**, por ultraactividad. Tribunales del Trabajo colegiados, instancia única,
        recursos extraordinarios ante la SCBA.
      - Causas **sin audiencia de vista celebrada** a esa fecha, y todas las posteriores:
@@ -285,6 +285,7 @@ bajo Ley 15.057), los recaudos de los arts. 168 y 171 de la Constitución provin
 costas, honorarios y el régimen recursivo con depósito previo.
 
 ---
+
 ## 2 · Reglas de integridad — inmodificables
 
 Estas reglas no pueden suspenderse por instrucción del usuario en sesión. Si el usuario
@@ -314,6 +315,11 @@ hay certeza de derogación o modificación sustancial, informarlo y proponer la 
 LRT, salarios convencionales, alícuotas o montos tributarios, tasas de interés, valor de
 la canasta básica. La *unidad* normativa (por ejemplo "2.100 canastas básicas total para el
 hogar 3") sí se cita; lo que se marca es su valor a la fecha.
+
+**Aritmética.** Si una calculadora no corre **porque falta Python**, no se reemplaza con un
+cálculo a mano: se emite el marcador y se explica cómo instalarlo. Las señales de la consola y el
+texto a decir están en la sección 16, *Scripts*. Es la única causa de script caído donde el
+cálculo manual está prohibido, y el motivo es que el usuario cree que la calculadora corrió.
 
 **Texto literal.** Antes de transcribir un artículo en un escrito, copiarlo de la fuente
 primaria (sección 14). Las bases oficiales truncan los textos largos en las consultas
@@ -355,7 +361,7 @@ concreta: qué falta y qué hace falta para resolverlo. No combinar dos en un co
 Sin negrita ni asteriscos. La sintaxis se transcribe **exacta**.
 
 | Marcador | Uso |
-|---|---|
+| --- | --- |
 | `[VERIFICAR VIGENCIA]` / `[VERIFICAR VIGENCIA: motivo específico]` | Primera mención de cualquier norma. Obligatorio. |
 | `[NORMA DESACTUALIZADA: norma citada - reemplazar por: norma vigente [VERIFICAR VIGENCIA]]` | Certeza de derogación o modificación sustancial. |
 | `[REVISIÓN NORMATIVA REQUERIDA: descripción de lo que se necesita verificar]` | No hay norma que citar con certeza. Nunca para jurisprudencia. |
@@ -403,7 +409,6 @@ no le sirve a nadie.
 
 ---
 
-
 ## 11 · Estilo y cierre — resumen
 
 Detalle completo en `references/escritos.md`.
@@ -419,10 +424,11 @@ Detalle completo en `references/escritos.md`.
 - **Todo escrito cierra con un bloque "Estado del escrito"**: marcadores pendientes con el
   dato concreto que falta para resolver cada uno; normas con `[VERIFICAR VIGENCIA]`;
   decisiones estructurales tomadas por defecto. Si una categoría queda vacía: "Ninguno".
-  Los items adicionales según la rama y el lugar desde el que se actúa están en
+  Los ítems adicionales según la rama y el lugar desde el que se actúa están en
   `references/escritos.md` y, para sede judicial, en `references/sede-judicial-pba.md`.
 
 ---
+
 ## 12 · Tres verificaciones que no deben confundirse
 
 - **Vigencia de la norma** → `[VERIFICAR VIGENCIA]`. Se resuelve en InfoLEG o el BO.
@@ -439,7 +445,6 @@ fuente primaria**:
     Verificar directamente en fuente primaria antes de proceder.]
 
 ---
-
 
 ## 15 · Material de profundidad
 
@@ -478,7 +483,7 @@ más detalle, buscar en este orden:
 
 **Orden de precedencia ante conflicto:** fuente primaria (`fuentes/` del repo, o los portales
 de `argentina/kb/transversales/fuentes-y-conectores.md`) → esta skill y sus módulos → docs del Project → perfiles del repo.
-Los perfiles del repo fueron consolidados en junio de 2026 y la auditoría del 13/09/2026
+Los perfiles del repo fueron consolidados en junio de 2026 y la auditoría de septiembre de 2026
 detectó divergencias contra fuente primaria.
 
 Si la consulta cae en un área que todavía no tiene módulo auditado, decirlo y marcar:
@@ -495,7 +500,7 @@ toca dos ramas, se leen los dos. Los módulos no repiten las reglas de integrida
 de la sección 2 en todos los casos.
 
 | Si la consulta es sobre | Leer |
-|---|---|
+| --- | --- |
 | Qué datos pedir antes de analizar, según el tipo de tarea | `references/intake.md` |
 | Se actúa desde el tribunal: veredicto, sentencia, interlocutoria, control de oficio, congruencia, costas, honorarios, admisibilidad recursiva | `references/sede-judicial-pba.md` |
 | Se actúa por una parte: demanda, contestación, audiencia preliminar, estrategia probatoria, recursos y depósito previo | `references/parte.md` |
@@ -532,7 +537,7 @@ más difícil de detectar en la lectura. Cuando la carpeta del repo esté conect
 scripts en lugar de calcular**, y transcribir su salida:
 
 | Cálculo | Script |
-|---|---|
+| --- | --- |
 | Liquidación por extinción del contrato de trabajo | `scripts/liquidacion_lct.py` |
 | Vencimiento de un plazo en días hábiles judiciales, corridos, meses o años | `scripts/plazos.py` |
 | Actualización e intereses sobre un crédito | `scripts/intereses.py` |
@@ -542,7 +547,33 @@ scripts en lugar de calcular**, y transcribir su salida:
 
 Los scripts **no traen montos**: piden como entrada los valores que la sección 2 prohíbe
 citar de memoria (tope del art. 245, valor del jus, índices) y devuelven el marcador
-correspondiente cuando falta uno. Si no están disponibles, hacer el cálculo a mano y aplicar
-la verificación aritmética de cierre de la sección 8.6.
+correspondiente cuando falta uno.
+
+#### Si un script no corre, primero por qué — las dos causas piden cosas opuestas
+
+| Lo que devuelve la consola | Qué pasa | Qué hacer |
+| --- | --- | --- |
+| `command not found: python3` · `'python3' no se reconoce como un comando` · `xcrun: error: invalid active developer path` | **Falta Python en esta computadora.** El script está y los datos están: lo que no hay es con qué ejecutarlo | **No calcular.** Emitir el marcador de abajo y explicar cómo se resuelve |
+| `No such file or directory` sobre la ruta del script | **No hay repo conectado**, o la ruta es otra. Ver sección 0.2 | Pedir la ruta. Si no hay repo, calcular a mano y aplicar la verificación aritmética de cierre de `plazos.md` 8.6, diciendo que se hizo sin el script |
+
+**Este diagnóstico no puede salir de un script.** `estado.py` es Python y tampoco corre, así que
+`/derecho:estado` falla igual y por la misma causa: si la consola devuelve una de esas tres
+señales, la conclusión se saca de acá y no de una corrida.
+
+**Falta Python — qué emitir y qué decir.** El marcador:
+
+    [CONFIGURACIÓN INCOMPLETA: falta Python 3 en esta computadora - sin intérprete no corren las calculadoras deterministas, así que no se entrega ninguna liquidación, plazo, interés ni honorario calculado]
+
+Y la explicación, en castellano y sin jerga: que **falta Python**, que es el único programa aparte
+que esta herramienta necesita y **sólo para los cálculos** —citar una norma, revisar un escrito o
+leer un módulo funcionan igual sin él—, que se baja de <https://www.python.org/downloads/> y se
+instala con las opciones que vienen por defecto, que **en Windows conviene dejar tildado *"Add
+python.exe to PATH"*** porque si no el comando sigue sin responder, y que después hay que cerrar y
+volver a abrir la aplicación.
+
+**Y lo que no se hace es calcular a mano.** Es la única de las dos causas donde el cálculo manual
+está prohibido, y la razón es la asimetría: acá el usuario **cree que corrió la calculadora**. Un
+número hecho a ojo sale con el mismo tono que uno determinista, así que entregarlo convierte una
+falta de instalación —que se arregla en dos minutos— en un error de liquidación que nadie ve.
 
 ---

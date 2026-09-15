@@ -1,20 +1,20 @@
 #!/usr/bin/env python3
-"""Diagnostico del plugin: donde esta el repo, como esta el perfil y que tan vieja es la data.
+"""Diagnóstico del plugin: donde esta el repo, como esta el perfil y que tan vieja es la data.
 
     python3 estado.py            # informe legible
     python3 estado.py --json     # para consumo programatico
 
-Codigos de salida: 0 todo al dia · 1 hay algo vencido o faltante · 2 no se encontro el repo.
+Códigos de salida: 0 todo al dia · 1 hay algo vencido o faltante · 2 no se encontró el repo.
 
 POR QUE EXISTE
 --------------
-Una base de conocimiento juridico **se pudre en silencio**: nada avisa que una ley cambio ni
-que el valor del jus quedo dos meses atras. Los scripts se niegan a inventar y emiten el
-marcador, asi que el sistema no miente -- pero el usuario se entera tarde y en medio de una
-consulta. Esto lo adelanta: dice que esta vencido, hace cuanto y con que comando se arregla.
+Una base de conocimiento jurídico **se pudre en silencio**: nada avisa que una ley cambió ni
+que el valor del jus quedo dos meses atrás. Los scripts se niegan a inventar y emiten el
+marcador, así que el sistema no miente -- pero el usuario se entera tarde y en medio de una
+consulta. Esto lo adelanta: dice que está vencido, hace cuanto y con que comando se arregla.
 
 Todos los chequeos son **locales**: no toca la red. Para preguntarle a las fuentes oficiales
-si una norma cambio hay que correr `fuentes/scripts/verificar_normas.py`, que si sale a
+si una norma cambió hay que correr `fuentes/scripts/verificar_normas.py`, que si sale a
 internet y tarda.
 """
 from __future__ import annotations
@@ -27,11 +27,11 @@ from pathlib import Path
 import perfil as _perfil
 from _raiz import ENV, ENV_PLUGIN, archivo_config, base, raiz_repo
 
-# Cada cuantos dias se considera vencido cada bloque. La volatilidad manda: el valor del jus
-# cambia todos los meses y las acordadas de feria una vez al anio.
+# Cada cuántos días se considera vencido cada bloque. La volatilidad manda: el valor del jus
+# cambia todos los meses y las acordadas de feria una vez al año.
 UMBRALES = {"normas": 90, "fallos": 180, "jus": 45, "inhabiles": 300}
 # Por serie, porque no se publican con el mismo rezago: el RIPTE sale con unos dos meses de
-# demora, asi que medirlo con la vara del IPC lo marca vencido cuando esta al dia.
+# demora, así que medirlo con la vara del IPC lo marca vencido cuando está al dia.
 UMBRAL_SERIE = {"IPC": 60, "CER": 45, "RIPTE": 120}
 
 
@@ -47,11 +47,11 @@ def _dias(iso):
 
 
 def _ultima_fila_csv(f: Path):
-    """Primer campo de la ultima fila de datos de un csv con comentarios '#', y cuantas hay.
+    """Primer campo de la última fila de datos de un csv con comentarios '#', y cuantas hay.
 
-    La primera fila util no es un dato sino el encabezado, y contarla informaba un periodo
-    de mas en cada serie: 118 donde hay 117. Un archivo con encabezado y sin datos cuenta
-    como vacio, porque devolver "periodo" como ultimo valor no ayuda a nadie.
+    La primera fila útil no es un dato sino el encabezado, y contarla informaba un período
+    de más en cada serie: 118 donde hay 117. Un archivo con encabezado y sin datos cuenta
+    como vacío, porque devolver "periodo" como último valor no ayuda a nadie.
     """
     try:
         filas = [l.strip() for l in f.read_text(encoding="utf-8", errors="replace").splitlines()
@@ -65,7 +65,7 @@ def _ultima_fila_csv(f: Path):
 
 
 def _periodo_a_fecha(p):
-    """'2026-08' o '2026-08-01' -> date. Los periodos mensuales se anclan al dia 1."""
+    """'2026-08' o '2026-08-01' -> date. Los períodos mensuales se anclan al dia 1."""
     if not p:
         return None
     try:
@@ -76,7 +76,7 @@ def _periodo_a_fecha(p):
 
 
 def revisar(raiz: Path) -> list[dict]:
-    """Un dict por bloque de datos: nombre, estado, detalle, dias, arreglo."""
+    """Un dict por bloque de datos: nombre, estado, detalle, días, arreglo."""
     F = base(raiz) / "fuentes"
     D = F / "datos"
     out = []
@@ -85,19 +85,19 @@ def revisar(raiz: Path) -> list[dict]:
         out.append({"bloque": nombre, "estado": estado, "detalle": detalle,
                     "dias": dias, "arreglo": arreglo})
 
-    # -- manifiestos: cuando se verifico por ultima vez contra fuente primaria
+    # -- manifiestos: cuando se verificó por última vez contra fuente primaria
     for nombre, ruta, clave in (("normas", F / "normas" / "normas.json", "normas"),
                                 ("fallos", F / "jurisprudencia" / "fallos.json", "fallos")):
         try:
             m = json.loads(ruta.read_text(encoding="utf-8"))
         except (OSError, ValueError):
             add(nombre, "FALTA", f"no se pudo leer {ruta.name}",
-                arreglo="revisar la instalacion del plugin")
+                arreglo="revisar la instalación del plugin")
             continue
         total = len(m.get(clave, []))
         d = _dias(m.get("verificado"))
         if d is None:
-            add(nombre, "REVISAR", f"{total} en el manifiesto, sin fecha de verificacion",
+            add(nombre, "REVISAR", f"{total} en el manifiesto, sin fecha de verificación",
                 arreglo="/derecho:verificar")
         else:
             venc = d > UMBRALES[nombre]
@@ -128,8 +128,8 @@ def revisar(raiz: Path) -> list[dict]:
             arreglo="/derecho:actualizar")
 
     # -- lo mismo para jurisprudencia. Faltaba: un fallo declarado en el manifiesto con su URL
-    # pero sin PDF bajado no lo reportaba nadie, porque el bloque "fallos" de mas arriba solo
-    # mira la fecha de verificacion del manifiesto, no si los archivos estan.
+    # pero sin PDF bajado no lo reportaba nadie, porque el bloque "fallos" de más arriba solo
+    # mira la fecha de verificación del manifiesto, no si los archivos están.
     try:
         procj = json.loads((F / "jurisprudencia" / "procedencia.json").read_text(encoding="utf-8"))
         mj = json.loads((F / "jurisprudencia" / "fallos.json").read_text(encoding="utf-8"))
@@ -150,7 +150,7 @@ def revisar(raiz: Path) -> list[dict]:
     ult, filas = _ultima_fila_csv(D / "jus-scba.csv")
     f = _periodo_a_fecha(ult)
     if f is None:
-        add("jus", "FALTA", "jus-scba.csv vacio o ilegible", arreglo="/derecho:actualizar")
+        add("jus", "FALTA", "jus-scba.csv vacío o ilegible", arreglo="/derecho:actualizar")
     else:
         d = (_hoy() - f).days
         venc = d > UMBRALES["jus"]
@@ -158,13 +158,13 @@ def revisar(raiz: Path) -> list[dict]:
             f"ultimo valor: {ult} ({filas} filas, {d} dias)", d,
             "cargar el jus del mes en fuentes/datos/jus-scba.csv" if venc else None)
 
-    # -- series de indices
+    # -- series de índices
     for nombre, arch in (("IPC", "serie-ipc.csv"), ("RIPTE", "serie-ripte.csv"),
                          ("CER", "serie-cer.csv")):
         ult, filas = _ultima_fila_csv(D / arch)
         f = _periodo_a_fecha(ult)
         if f is None:
-            add(f"serie {nombre}", "FALTA", f"{arch} vacio o ilegible",
+            add(f"serie {nombre}", "FALTA", f"{arch} vacío o ilegible",
                 arreglo="/derecho:actualizar")
             continue
         d = (_hoy() - f).days
@@ -173,20 +173,20 @@ def revisar(raiz: Path) -> list[dict]:
             f"ultimo periodo: {ult} ({filas} periodos)", d,
             "/derecho:actualizar" if venc else None)
 
-    # -- calendario de inhabiles: tiene que cubrir este anio y el que viene
+    # -- calendario de inhábiles: tiene que cubrir este año y el que viene
     try:
         inh = json.loads((D / "inhabiles.json").read_text(encoding="utf-8"))
         anios = sorted(inh.get("anios", {}))
         need = {str(_hoy().year), str(_hoy().year + 1)}
         faltan = sorted(need - set(anios))
         add("inhabiles", "VENCIDO" if faltan else "OK",
-            f"anios cargados: {', '.join(anios) or 'ninguno'}"
+            f"años cargados: {', '.join(anios) or 'ninguno'}"
             + (f"; falta cargar {', '.join(faltan)}" if faltan else ""),
             arreglo=("cargar las acordadas de feria en fuentes/datos/inhabiles.json"
                      if faltan else None))
     except (OSError, ValueError):
-        add("inhabiles", "FALTA", "no se pudo leer inhabiles.json",
-            arreglo="revisar la instalacion del plugin")
+        add("inhabiles", "FALTA", "no se pudo leer inhábiles.json",
+            arreglo="revisar la instalación del plugin")
     return out
 
 
@@ -219,7 +219,7 @@ def imprimir(inf):
         print(f"    python3 configurar.py --repo /ruta/al/repo")
         print(f"    export {ENV}=/ruta/al/repo")
         # ENV_PLUGIN es una tupla: interpolarla directo imprimiria el repr de Python en la
-        # cara del usuario, y justo en la salida que lee cuando NO encontro el repo.
+        # cara del usuario, y justo en la salida que lee cuando NO encontró el repo.
         print(f"    (instalado como plugin, {' o '.join(ENV_PLUGIN)} lo resuelve solo)")
         return
     print(f"\n  Repo      {inf['repo']}")
@@ -240,7 +240,7 @@ def imprimir(inf):
         for a in arreglos:
             print(f"    {a}")
     else:
-        print("\n  Todo al dia. Igual, la unica forma de saber si una norma cambio en la")
+        print("\n  Todo al dia. Igual, la única forma de saber si una norma cambió en la")
         print("  fuente oficial es preguntarle: /derecho:verificar")
 
 

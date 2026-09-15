@@ -6,12 +6,17 @@ versionado [SemVer](https://semver.org/lang/es/).
 Lleva versiones, no sesiones de trabajo. El detalle de cada cambio vive donde se puede verificar:
 
 | Qué | Dónde |
-|---|---|
+| --- | --- |
 | Qué cubre cada módulo y cómo está armado el repo | [`docs/ARQUITECTURA.md`](docs/ARQUITECTURA.md) |
 | Cuándo se verificó cada instituto contra fuente primaria, y su volatilidad | `argentina/skills/derecho-argentino/references/changelog-normativo.md` |
 | Qué hay cargado en la capa offline | `argentina/fuentes/MANIFIESTO.md` |
 | La doctrina de cada precedente | El módulo que la usa; el índice, en `references/fallos-csjn.md` |
 | Si el texto de un fallo se puede transcribir | `herramientas/lecturas-ocr.json` |
+
+## [1.1.0-beta1] — 2026-09-15
+
+**Los datos vienen congelados a septiembre de 2026.** `/derecho:estado` dice qué quedó vencido y
+`/derecho:actualizar` lo baja de las fuentes oficiales.
 
 ## [1.0.0] — 2026-09-14
 
@@ -31,5 +36,5 @@ publicable de un proyecto en desarrollo: la cobertura auditada crece módulo por
   cuyo PDF trae la capa de texto arruinada. Es una derivación, no una descarga.
 - La marca del repositorio en [`assets/marca/`](assets/marca/).
 
-**Los datos vienen congelados al 13/09/2026.** `/derecho:estado` dice qué quedó vencido y
+**Los datos vienen congelados a septiembre de 2026.** `/derecho:estado` dice qué quedó vencido y
 `/derecho:actualizar` lo baja de las fuentes oficiales.

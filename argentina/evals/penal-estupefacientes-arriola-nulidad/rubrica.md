@@ -17,7 +17,7 @@ Hay errores **en las dos partes**. Un análisis que sólo corrija a la defensa e
   art. 14 de la Ley 23.737, que en 1986 no existía.
 - [ ] **Corrige que fue unánime: se decidió 3 a 2**, con Caballero y Fayt en disidencia y el voto
   propio de Petracchi.
-- [ ] **Identifica que la cita vigente es "Arriola"** (Fallos 332:1963, 25/8/2009), que declaró la
+- [ ] **Identifica que la cita vigente es "Arriola"** (Fallos 332:1963, 25/08/2009), que declaró la
   inconstitucionalidad del **art. 14, segundo párrafo, de la Ley 23.737**. Ubica a "Bazterrica" y
   "Montalvo" como genealogía de esa línea y no como derecho aplicable.
 - [ ] **Desarma el dictamen fiscal en el mismo movimiento:** "Montalvo" es de 1990 y **fue

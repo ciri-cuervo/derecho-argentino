@@ -1,8 +1,8 @@
 # Consumidor
 
 > Módulo de referencia de la skill `derecho-argentino`. Numeración global, sección 17.
-> Verificado contra fuente primaria el 13/09/2026. Los puntos que no se pudieron cerrar están
-> al final. Lo procesal es de PBA, CABA y el orden nacional; para otra provincia, no transpolar.
+> Verificado contra fuente primaria. Los puntos que no se pudieron cerrar están al final.
+> Lo procesal es de PBA, CABA y el orden nacional; para otra provincia, no transpolar.
 
 > Transversales: `prueba-pericial.md` (sección 20), `ejecucion.md` (sección 21) y
 > `notificaciones-pba.md` (sección 22).
@@ -25,18 +25,18 @@ prioritario es la ausencia de ese presupuesto, antes que el fondo de la cláusul
 ## 17.2 · Instancia previa — lo que ya no existe
 
 **El COPREC fue disuelto.** No por el DNU 70/2023, como suele decirse, sino por el
-**Decreto 55/2025** (B.O. 3/2/2025), que en su art. 6 derogó *"los artículos 1° al 40, 74 y 75
+**Decreto 55/2025** (B.O. 03/02/2025), que en su art. 6 derogó *"los artículos 1° al 40, 74 y 75
 de la Ley N° 26.993 y sus modificaciones"* y el Decreto 202/2015, con **vigencia desde el
-1/2/2025**. También disolvió el Registro Nacional de Conciliadores y el Fondo de
+01/02/2025**. También disolvió el Registro Nacional de Conciliadores y el Fondo de
 Financiamiento, y la Auditoría en las Relaciones de Consumo (Título II, arts. 22 a 28).
 
 **Consecuencia: en el orden nacional no hay instancia conciliatoria previa obligatoria.** Un
 escrito que la invoque, o una resolución que la exija, está aplicando una norma derogada.
 
-    [VERIFICAR VIGENCIA: instancia conciliatoria previa en relaciones de consumo - el COPREC fue disuelto por el Decreto 55/2025 desde el 1/2/2025; confirmar que no se creó un reemplazo posterior]
+    [VERIFICAR VIGENCIA: instancia conciliatoria previa en relaciones de consumo - el COPREC fue disuelto por el Decreto 55/2025 desde el 01/02/2025; confirmar que no se creó un reemplazo posterior]
 
 **La Ventanilla Federal Única no la reemplaza.** La Disposición SSDCyLC 890/2025 (B.O.
-19/8/2025) la creó como *"único medio formal para la recepción de los reclamos"*, pero es una
+19/08/2025) la creó como *"único medio formal para la recepción de los reclamos"*, pero es una
 **mesa de entrada federal que deriva** a la autoridad local competente. No concilia y no es
 requisito de admisibilidad de la demanda.
 
@@ -74,7 +74,7 @@ El escape existe pero es acotado: **a pedido de parte**, por **resolución funda
 **complejidad**. No de oficio ni por conveniencia de agenda.
 
 **CABA — fuero propio y operativo.** Ley 6.407, que aprueba el Código Procesal de la Justicia
-en las Relaciones de Consumo (BOCBA 6082, 19/3/2021; texto consolidado por Ley 6.764). El
+en las Relaciones de Consumo (BOCBA 6082, 19/03/2021; texto consolidado por Ley 6.764). El
 articulado no está en la ley aprobatoria sino en su **Anexo A**.
 
 **Competencia, art. 5 — sin tope de monto**, verificado en el texto. Es competente cuando el
@@ -134,7 +134,7 @@ Sin incidente de solvencia previsto: es incondicional.
 - **CSJN, "Usuarios y Consumidores Unidos c/ DG Medios y Espectáculos S.A.", 27/12/2024**:
   ratifica el alcance amplio, precisa que el beneficio **opera automáticamente** sin acreditar
   pobreza, y que en las individuales la contraria puede acreditar solvencia para hacerlo cesar.
-- **SCBA, "CODEC c/ Banco de la Provincia de Buenos Aires", C. 121.973, 29/9/2023**, voto del
+- **SCBA, "CODEC c/ Banco de la Provincia de Buenos Aires", C. 121.973, 29/09/2023**, voto del
   Dr. Torres: *"la eximición prevista incluye a las costas del proceso pues, de no ser así, no
   se advierte cuál sería el interés que podría invocar el demandado"*.
 
@@ -150,7 +150,7 @@ tensión que "CODEC" resolvió, pero sobre el art. 55.
     [VERIFICAR CRITERIO DEL FUERO: alcance del beneficio de justicia gratuita en la acción individual de consumo - "CODEC" (SCBA, C. 121.973) resolvió sobre el art. 55 LDC, no sobre el art. 53 ni sobre el art. 25 de la Ley 13.133]
 
 En el orden nacional civil, el plenario de la CNCiv "Olivera c/ Ciudad de la Pizza SRL",
-28/3/2025, fijó que el art. 53 exime también de costas, salvo incidente de solvencia próspero.
+28/03/2025, fijó que el art. 53 exime también de costas, salvo incidente de solvencia próspero.
 Obligatorio para la Justicia Nacional en lo Civil; **no vincula a los tribunales de PBA**.
 
 ---
@@ -160,7 +160,7 @@ Obligatorio para la Justicia Nacional en lo Civil; **no vincula a los tribunales
 **Art. 52 bis LDC**, párrafo final: *"La multa civil que se imponga no podrá superar el máximo
 de la sanción de multa prevista en el artículo 47, inciso b) de esta ley."*
 
-**Art. 47 inc. b, texto vigente** según el art. 119 de la Ley 27.701 (B.O. 1/12/2022):
+**Art. 47 inc. b, texto vigente** según el art. 119 de la Ley 27.701 (B.O. 01/12/2022):
 
 > "b) Multa de cero coma cinco (0,5) a dos mil cien (2.100) canastas básicas total para el
 > hogar 3, que publica el Instituto Nacional de Estadística y Censos de la República Argentina
@@ -171,8 +171,8 @@ al valor de la canasta a la fecha de la demanda. La unidad se cita; el valor nun
 
     [VERIFICAR MONTO ACTUALIZADO: valor de la canasta básica total para el hogar 3 - INDEC, informe de prensa del mes correspondiente]
 
-Referencia verificada al 13/09/2026: CBT hogar 3 de **julio de 2026 = $1.645.736,79** (informe
-del 13/8/2026). El hogar 3 se compone de *"un varón y una mujer, ambos de 30 años, y tres hijos
+Referencia verificada: CBT hogar 3 de **julio de 2026 = $1.645.736,79** (informe del 13/08/2026).
+El hogar 3 se compone de *"un varón y una mujer, ambos de 30 años, y tres hijos
 de 1, 3 y 5 años"*. **Tomar siempre el PDF del mes, no un dato de prensa.**
 
 ### El requisito subjetivo: en PBA la SCBA dice lo contrario que la doctrina mayoritaria
@@ -190,12 +190,12 @@ considerar"*, no un reemplazo del juicio.
 
 > **Cuidado con la cita.** Hay dos sentencias con la carátula "Castelli c/ Banco de Galicia"
 > y holdings opuestos: la de la **Cámara Primera de Bahía Blanca, Sala II (C. 141.404,
-> 28/8/2014)**, que exigía *"dolo (directo o eventual) o, como mínimo, una grosera
+> 28/08/2014)**, que exigía *"dolo (directo o eventual) o, como mínimo, una grosera
 > negligencia"*, y la de la **SCBA (C. 119.562)**, que revisó ese estándar. Citar la de Cámara
 > como si fuera la doctrina vigente es un error frecuente.
 
-**No hay doctrina de la CSJN sobre el art. 52 bis.** Al 13/09/2026 no consta pronunciamiento
-del máximo tribunal federal: tratarlo como materia sin definición federal.
+**No hay doctrina de la CSJN sobre el art. 52 bis.** A septiembre de 2026 no consta
+pronunciamiento del máximo tribunal federal: tratarlo como materia sin definición federal.
 
 ---
 
@@ -210,7 +210,7 @@ judiciales. El plazo trienal no se aplica a la demanda.
 
 **La regla es el art. 2560 CCyCN, cinco años** — pero cede ante plazo especial.
 
-**SCBA, "Toscano c/ Caja de Seguros S.A.", C. 125.525, 29/7/2024:** en un contrato de seguro
+**SCBA, "Toscano c/ Caja de Seguros S.A.", C. 125.525, 29/07/2024:** en un contrato de seguro
 que es a la vez de consumo, prevalece el **plazo anual del art. 58 de la Ley 17.418** sobre el
 quinquenal del art. 2560. El razonamiento no es que el consumo prescriba al año: es que **la
 calificación como relación de consumo no desplaza el plazo especial de la ley que rige el
@@ -256,7 +256,7 @@ para *encontrar* el instituto y su articulado; lo que digan sobre montos, plazos
 se verifica antes de usarlo.
 
 | Instituto | Dónde |
-|---|---|
+| --- | --- |
 | Encuadre: ¿hay relación de consumo? | 17.1 de este módulo, y `kb/perfiles/consumidor-CLAUDE.md` § Encuadre inicial |
 | **Medicina prepaga: aumento abusivo o baja de cobertura** | **`salud-discapacidad.md` sección 27**, para el régimen de la Ley 26.682 —carencias, preexistencias, franjas etarias y los dos pasos que exige el art. 9 antes de dar de baja—. Para el encuadre de consumo, esta sección 17 |
 | Daño punitivo | 17.5 de este módulo, y `kb/perfiles/consumidor-CLAUDE.md` § Daño punitivo |
@@ -281,15 +281,15 @@ superpone y sí aporta riesgo**. En estos cuatro puntos no está desactualizado:
 para PBA. **No usarlo como fuente en ninguno de ellos.**
 
 | El perfil dice | Lo correcto |
-|---|---|
+| --- | --- |
 | En PBA la conciliación o mediación prejudicial *"sigue siendo recaudo de admisibilidad"* y omitirla expone a la inadmisibilidad | **En PBA la vía administrativa nunca fue previa obligatoria.** Ninguna disposición de la Ley 13.133 condiciona la demanda a agotarla: la vía sancionatoria y la resarcitoria son autónomas y concurrentes. Ver 17.2. Seguir el perfil produce una inadmisibilidad indebida |
 | Daño punitivo: la jurisprudencia mayoritaria exige un factor de atribución calificado | **"Castelli"** (SCBA, C. 119.562): un único requisito, el incumplimiento. Ver 17.5, con la advertencia de los dos fallos homónimos con holdings opuestos |
-| Seguros en relación de consumo: 5 años del art. 2560, que desplaza el plazo anual del art. 58 Ley 17.418 | **"Toscano"** (SCBA, C. 125.525, 29/7/2024) resolvió lo contrario: prevalece el **plazo anual** del art. 58. Ver 17.6 |
+| Seguros en relación de consumo: 5 años del art. 2560, que desplaza el plazo anual del art. 58 Ley 17.418 | **"Toscano"** (SCBA, C. 125.525, 29/07/2024) resolvió lo contrario: prevalece el **plazo anual** del art. 58. Ver 17.6 |
 | La Justicia Nacional en las Relaciones de Consumo funciona *"dentro de su tope de competencia"* | **Nunca arrancó**, y no consta norma que la haya puesto en funcionamiento. En CABA el art. 5 de la Ley 6.407 fija competencia **sin tope de monto**. Ver 17.3 |
 
 **Lo que sí conviene abrir del perfil**, y es su único aporte propio: la vertical de **salud y
 medicina prepaga** — Ley 26.682, la doble vía de amparo federal u ordinaria, y los precedentes
-"Cainelli c/ OMINT" (CCF 4145/2024, 20/5/2025) y la cautelar "Morsentti c/ OSDE", que están en
+"Cainelli c/ OMINT" (CCF 4145/2024, 20/05/2025) y la cautelar "Morsentti c/ OSDE", que están en
 su § Alerta normativa · DNU 70/2023, no en las secciones que la tabla de arriba nombra. Para el
 encuadre de cobertura por discapacidad (Ley 24.901, CUD), el perfil propio es
 `kb/perfiles/discapacidad-CLAUDE.md`; ver `otras-ramas.md`.
@@ -299,14 +299,14 @@ Modelos de escritos de la rama: ver `modelos.md` sección 23.
 ## Puntos abiertos
 
 | Punto | Qué falta |
-|---|---|
+| --- | --- |
 | Art. 53 LDC y art. 25 Ley 13.133 | Doctrina de la SCBA que extienda "CODEC" a la acción individual. Es el de mayor impacto práctico |
 | Fuero nacional de consumo | Acordada o acto que declare operativo el Título III de la Ley 26.993 |
 | DNU 70/2023 y la LDC | Qué artículos de la Ley 24.240 modificó, verificado contra el texto del DNU |
 | Conciliación previa en CABA | Artículo del CPJRC que la impone como requisito de admisibilidad |
-| ~~Ley 6.407 CABA~~ | **Cerrado el 13/09/2026**: arts. 5 y 66 leídos en el Anexo A. Queda que la fuente es la compilación de JURISTECA y no el boletín |
-| Expedientes de dos fallos | CSJN "Usuarios y Consumidores Unidos c/ DG Medios" (27/12/2024) y plenario CNCiv "Olivera" (28/3/2025) |
-| Fechas | **"CODEC" quedó cerrado el 13/9/2026: es del 29/9/2023**, que es la firma de la actuaria en el propio PDF (art. 4 Ac. 3971/20). El 10/8 que traía este módulo era la primera firma. "Toscano": sigue en disputa entre 29 y 30/7/2024, y por el mismo motivo |
+| ~~Ley 6.407 CABA~~ | **Cerrado**: arts. 5 y 66 leídos en el Anexo A. Queda que la fuente es la compilación de JURISTECA y no el boletín |
+| Expedientes de dos fallos | CSJN "Usuarios y Consumidores Unidos c/ DG Medios" (27/12/2024) y plenario CNCiv "Olivera" (28/03/2025) |
+| Fechas | **"CODEC" quedó cerrado: es del 29/09/2023**, que es la firma de la actuaria en el propio PDF (art. 4 Ac. 3971/20). El 10/8 que traía este módulo era la primera firma. "Toscano": sigue en disputa entre 29 y 30/07/2024, y por el mismo motivo |
 | Ley 15.410 PBA | Modificatoria de la Ley 13.133, contenido no verificado |
 
 ---
@@ -314,7 +314,7 @@ Modelos de escritos de la rama: ver `modelos.md` sección 23.
 ## 17.9 · Daño directo (art. 40 bis LDC)
 
 Cotejado contra `fuentes/normas/ldc-24240.txt`. Texto según el punto 3.3 del Anexo II de la
-Ley 26.994, vigente desde el 1/8/2015.
+Ley 26.994, vigente desde el 01/08/2015.
 
 **Qué es.** Todo perjuicio o menoscabo al derecho del consumidor **susceptible de apreciación
 pecuniaria**, ocasionado **de manera inmediata sobre sus bienes o sobre su persona**, como
@@ -328,7 +328,7 @@ relación de consumo**.
 una resolución que la ejerce:
 
 | Inc. | Requisito del organismo |
-|---|---|
+| --- | --- |
 | a) | que su **norma de creación** le conceda facultades para resolver conflictos entre particulares, y que la **razonabilidad del objetivo económico** tenido en cuenta para dárselas sea **manifiesta** |
 | b) | que esté dotado de **especialización técnica, independencia e imparcialidad indubitadas** |
 | c) | que sus decisiones estén sujetas a **control judicial amplio y suficiente** |
@@ -374,7 +374,7 @@ iguales medios. **No se permite publicar el número postal como domicilio.**
 ### 17.10.2 El plazo, que no se computa igual en las dos normas
 
 | | Art. 34 LDC | Art. 1110 CCyCN |
-|---|---|---|
+| --- | --- | --- |
 | Plazo | **10 días corridos** | **10 días** |
 | Desde | la entrega del bien **o** la celebración del contrato, **lo último que ocurra** | la **celebración**; si la aceptación es **posterior a la entrega**, desde la entrega |
 | Vencimiento en día inhábil | no lo prevé | **se prorroga al primer día hábil siguiente** |
@@ -438,7 +438,7 @@ que distingue el régimen del CCyCN: acá el defecto aparente **no excluye** la 
 de lo que pasa con los vicios ocultos del art. 1053 CCyCN (`civil.md` 6.6.5).
 
 | Bien | Plazo desde la entrega |
-|---|---|
+| --- | --- |
 | Mueble **usado** | **3 meses** |
 | Los demás casos | **6 meses** |
 
@@ -468,7 +468,7 @@ que se pierde cuando nadie registra las fechas: cada estadía en el taller estir
 **Reparación no satisfactoria (art. 17) — la opción es del consumidor:**
 
 | Opción | Detalle |
-|---|---|
+| --- | --- |
 | a) **Sustitución** por otra de idénticas características | el plazo de garantía **se computa de nuevo** desde la entrega de la nueva cosa |
 | b) **Devolución** de la cosa en el estado en que esté | recibe el importe equivalente a lo pagado **conforme el precio actual en plaza** al momento de abonarse, o la parte proporcional si hubo pagos parciales |
 | c) **Quita proporcional** del precio | — |
@@ -552,7 +552,7 @@ personalizada** garantizada.
 **Tres presunciones a favor del usuario**, que son el corazón del capítulo:
 
 | Norma | Presunción | Carga y plazo |
-|---|---|---|
+| --- | --- | --- |
 | **Art. 30** · interrupción o alteración del servicio | **se presume causa imputable a la prestadora** | efectuado el reclamo, la empresa tiene **30 días** para demostrar que no le es imputable; si no, **reintegra el importe total del servicio no prestado** en ese plazo. El usuario puede reclamar desde la interrupción y **hasta 15 días después del vencimiento de la factura** |
 | **Art. 30 bis** · constancias de cobro | si no dice si hay deudas pendientes, **se presume que el usuario está al día** | la constancia debe expresar períodos y deudas, fechas, concepto e intereses en forma clara y destacada, o decir "no existen deudas pendientes". Las deudas se facturan **por documento separado** |
 | **Art. 31** · facturación excesiva | **se presume error de facturación** si un período excede en **75%** el promedio del mismo período de los **2 años anteriores** (servicios estacionales) o de los **últimos 12 meses** (no estacionales) | el usuario **abona únicamente el consumo promedio**. Ante sumas indebidas o facturas ya abonadas, paga **sólo los conceptos no reclamados** y el prestador tiene **30 días** para acreditar fehacientemente el consumo |

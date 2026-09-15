@@ -20,7 +20,7 @@ no haya abierto la cédula electrónica es irrelevante. El plazo corre igual.
 No hay una sola norma. Hay tres capas y confundirlas es el error más común.
 
 | Capa | Norma | Qué regula |
-|---|---|---|
+| --- | --- | --- |
 | Legal general | **Arts. 40, 133, 143 y 143 bis CPCCBA** | Domicilio electrónico constituido, notificación por ministerio de la ley, medios de notificación admitidos |
 | Legal especial laboral | **Art. 16 Ley 11.653** (texto Ley 14.142) o **art. 16 Ley 15.057** | Qué se notifica por ministerio de la ley y qué por cédula, en el fuero del trabajo |
 | Reglamentaria | **Ac. 4013/2021 SCBA, t.o. Ac. 4039/2021** — 22 artículos | Cómo funciona el sistema de Presentaciones y Notificaciones Electrónicas: cuándo se perfecciona, qué está excluido, cómo se presentan escritos |
@@ -29,13 +29,13 @@ Y el registro de domicilios: **Ac. 3989/2020 SCBA**, que **no se cita solo**. La
 al *"Acuerdo N° 3989/2020 **y modificatorios**"*, y ésos son la cadena que hay que nombrar:
 
 | Norma | Fecha | Qué hizo |
-|---|---|---|
+| --- | --- | --- |
 | **Ac. 3989** | BO 28925, **31/12/2020** | Crea el Registro de Domicilios Electrónicos del Poder Judicial (RDE), 13 artículos |
 | **t.o. Res. Pres. SPL N° 74/20** | 2020 | Texto ordenado del 3989 |
 | **Ley 15.230** | BO 22/12/2020 | Lo **ratifica** —y se autoexcluye del expediente judicial, ver abajo— |
 | **Ac. 4000** | **23/12/2020** | Modifica el 3989 |
 | **Res. 1472/20** | 2020 | Reglamento del RDE |
-| **Ac. 4113** | **2/8/2023** | Última modificatoria: ajusta el 3989 **y** el reglamento de la Res. 1472/20 |
+| **Ac. 4113** | **02/08/2023** | Última modificatoria: ajusta el 3989 **y** el reglamento de la Res. 1472/20 |
 
 La cadena sale del propio **VISTO del Ac. 4113**, que la enumera: *"El Acuerdo N° 3989 (t.o. Res.
 Pres. SPL N° 74/20 y ratificado por Ley N° 15.230) por el que se creó el Registro de Domicilios
@@ -59,7 +59,7 @@ concreto.
 > citar mal.
 
 > **El CPCCBA nunca fue reformado para la notificación electrónica automatizada.** La única
-> reforma legislativa en la materia es la **Ley 14.142 (sancionada 23/6/2010, BO 26/7/2010)**,
+> reforma legislativa en la materia es la **Ley 14.142 (sancionada 23/06/2010, BO 26/07/2010)**,
 > que sustituyó los arts. 40, 143, 144 y 148 CPCCBA, **incorporó el art. 143 bis** y **modificó
 > el art. 16 de la Ley 11.653**. Ese art. 143 bis diseña una notificación electrónica
 > *impulsada por el letrado interesado*, "conforme determine la reglamentación". Todo lo demás
@@ -70,12 +70,12 @@ concreto.
 ### 22.2 El reglamento vigente y los derogados
 
 | Norma | Estado |
-|---|---|
-| **Ac. 4013/2021** (16/4/2021), **t.o. Ac. 4039/2021** (14/10/2021) | **Vigente.** 22 artículos en tres capítulos |
+| --- | --- |
+| **Ac. 4013/2021** (16/04/2021), **t.o. Ac. 4039/2021** (14/10/2021) | **Vigente.** 22 artículos en tres capítulos |
 | Ac. 3845 y Ac. 3886 | **Derogados** por el art. 8 de la parte dispositiva del Ac. 4013, desde su entrada en vigencia |
 | Res. SC 480/2020 | Agotada (régimen de emergencia) |
 
-**La vigencia es el 1/11/2021, pero no surge del Ac. 4013.** El texto original decía que
+**La vigencia es el 01/11/2021, pero no surge del Ac. 4013.** El texto original decía que
 entraría en vigencia "a los 60 días corridos de perfeccionado el trámite de su rúbrica"; esa
 fecha fue pospuesta y el **1° de noviembre de 2021** se fijó por **Res. de Presidencia SPL
 N° 1221/21**. Si hay que citar la fecha de vigencia, la cita correcta es esa resolución.
@@ -202,7 +202,7 @@ Dos fallos se citan habitualmente en esta materia. **Ninguno de los dos interpre
 del Ac. 4013.** Citarlos como si lo hicieran es un error de alcance.
 
 **SCBA, "Amoretti, María Vanesa c/ Aegis Argentina S.A. y otros s/ Despido", L. 127.353,
-18/9/2023.** Verificado en sentencia oficial de la SCBA. El tribunal de grado había ordenado
+18/09/2023.** Verificado en sentencia oficial de la SCBA. El tribunal de grado había ordenado
 notificar por MEV con determinados plazos y luego notificó **por cédula** transcribiendo aquel
 auto anterior; tuvo por extemporánea la contestación. La Corte hizo lugar al recurso: ante
 **ambigüedad imputable al órgano** en los términos del acto de notificación, prevalece la
@@ -213,14 +213,14 @@ pretérita a la ahora vigente". **Es un precedente sobre ambigüedad del acto de
 sobre el perfeccionamiento electrónico.**
 
 **SCBA, "Cajal, Santos Marcelo y otro/a c/ Bigurrarena, Bernardo Antonio y otro/a s/ Daños y
-perjuicios", C. 122.745, 10/6/2020.** Revocó por **exceso ritual manifiesto** la deserción de una
+perjuicios", C. 122.745, 10/06/2020.** Revocó por **exceso ritual manifiesto** la deserción de una
 apelación, porque el cambio no comunicado en la operatoria de cédulas electrónicas del sistema
 Augusta pudo razonablemente inducir a error en el cómputo; sostuvo que corresponde "una
 interpretación flexible y contextualizada, guiada por un criterio de razonabilidad, que evite
 encerronas o sorpresas procesales". **Fue decidido bajo el Ac. 3845, hoy derogado.** Su doctrina
 sobre el exceso ritual es transpolable; su encuadre reglamentario, no.
 
-> **La fecha es 10/6/2020, no 5/6/2020, y la razón sirve para cualquier fallo de la SCBA.** El
+> **La fecha es 10/06/2020, no 05/06/2020, y la razón sirve para cualquier fallo de la SCBA.** El
 > 5/6 es la fecha de la **primera** firma —la del juez Pettigiani—; el actuario suscribió el
 > 10/6. El **art. 4 del Ac. 3971/20** dice que la rúbrica del acto se perfecciona cuando,
 > reunida la mayoría de votos concordantes y concluida la firma de los ministros, **lo suscribe

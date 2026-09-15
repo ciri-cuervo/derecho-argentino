@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Controla si alguna de las normas descargadas cambio en la fuente oficial.
+"""Controla si alguna de las normas descargadas cambió en la fuente oficial.
 
 Vuelve a pedir cada URL, calcula el hash y lo compara contra `normas/procedencia.json`. No
 escribe nada: solo informa. Sirve como alarma de reforma legislativa.
@@ -7,10 +7,10 @@ escribe nada: solo informa. Sirve como alarma de reforma legislativa.
     python3 verificar_normas.py
     python3 verificar_normas.py --prioridad 1
 
-Sale con codigo 1 si alguna norma cambio, de modo que se puede colgar de una tarea
-programada o de un workflow. Que el hash cambie no significa siempre que cambio la ley: las
-bases oficiales tocan la maquetacion de sus paginas. Lo que el resultado dice es "hay que
-mirar esta", no "esta norma se reformo".
+Sale con código 1 si alguna norma cambió, de modo que se puede colgar de una tarea
+programada o de un workflow. Que el hash cambie no significa siempre que cambió la ley: las
+bases oficiales tocan la maquetación de sus páginas. Lo que el resultado dice es "hay que
+mirar esta", no "esta norma se reformó".
 """
 from __future__ import annotations
 
@@ -33,7 +33,7 @@ def main():
     p.add_argument("--verboso", action="store_true",
                    help="Muestra tamanio y tiempo de cada intento")
     p.add_argument("--sellar", action="store_true",
-                   help="Si nada cambio, actualiza la fecha `verificado` de los manifiestos")
+                   help="Si nada cambió, actualiza la fecha `verificado` de los manifiestos")
     a = p.parse_args()
 
     proc = cargar_procedencia()["normas"]
@@ -64,7 +64,7 @@ def main():
         # El hash crudo no coincide. Antes de dar la alarma, comparar el CUERPO: hay bases
         # que reescriben su HTML en cada request -tokens, nonces, hashes de assets- sin que
         # cambie una coma de la norma. Sin este segundo control esas quedan en rojo siempre,
-        # que es la forma mas segura de que nadie mire la alarma cuando de verdad suene.
+        # que es la forma más segura de que nadie mire la alarma cuando de verdad suene.
         esperado = proc[slug].get("sha256_texto")
         actual = None
         if esperado and not url.lower().endswith(".pdf"):
@@ -78,19 +78,19 @@ def main():
             print(f"  SIN CAMBIOS {slug:28} (bajada el {bajada}; la fuente reescribe el HTML)")
         elif esperado is None:
             cambiadas.append(slug)
-            print(f"  CAMBIO      {slug:28} REVISAR - cambio el hash crudo y no hay hash de "
+            print(f"  CAMBIO      {slug:28} REVISAR - cambió el hash crudo y no hay hash de "
                   f"texto para contrastar")
         else:
             cambiadas.append(slug)
-            print(f"  CAMBIO      {slug:28} REVISAR - cambio el texto de la norma")
+            print(f"  CAMBIO      {slug:28} REVISAR - cambió el texto de la norma")
 
     print(f"\n  {len(cambiadas)} cambiadas, {len(sin_bajar)} sin bajar, {len(errores)} con error.")
     if sin_bajar:
-        print("\n  Sin registro de procedencia. Si el archivo existe igual, se bajo en una "
+        print("\n  Sin registro de procedencia. Si el archivo existe igual, se bajó en una "
               "corrida\n  interrumpida: correr `python3 descargar_normas.py` y el script lo "
               "rebaja para\n  registrar hash y fecha.")
     if cambiadas:
-        print("\n  Para actualizar y ver que cambio:")
+        print("\n  Para actualizar y ver qué cambió:")
         print("    python3 descargar_normas.py --forzar " +
               " ".join(f"--slug {s}" for s in cambiadas))
         print("    git diff argentina/fuentes/normas/")

@@ -1,45 +1,45 @@
 #!/usr/bin/env python3
-"""Dice, documento por documento, si el texto extraido sirve para transcribir.
+"""Dice, documento por documento, si el texto extraído sirve para transcribir.
 
 POR QUE EXISTE
 
 fallos-csjn.md afirmaba que los fallos con la capa de texto arruinada eran
-"los cuatro anteriores a 1994", por escaneo. La regla por epoca es FALSA:
-"Gongora" es de 2013 y su texto esta mezclado igual que los de los ochenta, y
+"los cuatro anteriores a 1994", por escaneo. La regla por época es FALSA:
+"Góngora" es de 2013 y su texto esta mezclado igual que los de los ochenta, y
 "Rodriguez Pereyra" (2012) trae sustituciones. La Corte publico escaneos en
-muchos anios. La propiedad es del documento.
+muchos años. La propiedad es del documento.
 
 QUE SE PUEDE MEDIR Y QUE NO
 
 Hay tres defectos y no se detectan igual:
 
-  BASURA       el OCR devolvio caracteres que no son letras:
+  BASURA       el OCR devolvió caracteres que no son letras:
                `Considerando: 1*) i BE`i Que >`vei segtin`.
                SE MIDE BIEN. Es lo unico que este script calcula.
 
   LAYOUT       NO es un defecto del documento sino de como se lo extrae, y se
-               tardo en verlo. Cinco fallos -"Gongora", "Buffoni", "Duarte",
+               tardo en verlo. Cinco fallos -"Góngora", "Buffoni", "Duarte",
                el de reintegro de hijo y "Villamil"- parecian tener las
-               columnas intercaladas y se los habia dado por intranscribibles.
-               Con `pdftotext -layout` se leen enteros: "Buffoni" se leyo asi
-               y su holding esta escrito. La categoria "mezclado" no existia.
+               columnas intercaladas y se los había dado por intranscribibles.
+               Con `pdftotext -layout` se leen enteros: "Buffoni" se leyó así
+               y su holding está escrito. La categoría "mezclado" no existía.
                REGLA: extraer siempre con -layout, y no declarar roto un
-               documento sin haberlo probado con esa opcion.
+               documento sin haberlo probado con esa opción.
 
-  SUSTITUCION  el OCR cambio letras y dejo palabras validas pero equivocadas:
+  SUSTITUCIÓN  el OCR cambió letras y dejó palabras válidas pero equivocadas:
                "apelanie remiten al andlisis de evestiones de hecho" en
                "Santa Coloma". -layout NO lo arregla, porque el problema no
-               esta en el orden sino en las letras.
+               está en el orden sino en las letras.
 
-Para los dos ultimos se probaron cuatro medidas y las cuatro fallaron contra
-un caso conocido, asi que NO estan en el script. Tres de las cuatro buscaban
-detectar una "mezcla" que despues resulto no existir -era la extraccion-, lo
+Para los dos últimos se probaron cuatro medidas y las cuatro fallaron contra
+un caso conocido, así que NO están en el script. Tres de las cuatro buscaban
+detectar una "mezcla" que después resultó no existir -era la extracción-, lo
 que explica por que ninguna daba: estaban midiendo un fenomeno inventado.
 
-  - contar formulas juridicas contiguas ordenaba por largo del archivo:
-    "Montalvo", destruido, salia mejor que "Mosca", que se lee bien;
-  - exigir la formula de encabezado marcaba los veintidos fallos de la SCBA,
-    que abren distinto que la Corte y estan sanos;
+  - contar fórmulas jurídicas contiguas ordenaba por largo del archivo:
+    "Montalvo", destruido, salía mejor que "Mosca", que se lee bien;
+  - exigir la formula de encabezado marcaba los veintidós fallos de la SCBA,
+    que abren distinto que la Corte y están sanos;
   - agregar una formula por tribunal seguia marcando los que vienen firmados
     digitalmente, que no traen acuerdo;
   - contar tokens cortos raros no separaba "Quaranta" (limpio, 2,4%) de
@@ -48,8 +48,8 @@ que explica por que ninguna daba: estaban midiendo un fenomeno inventado.
 Una medida que se equivoca sobre un fallo conocido no sirve para decidir sobre
 los desconocidos. Entonces el veredicto de esos dos defectos NO se estima: se
 LEE, y queda registrado en lecturas-ocr.json con la fecha y lo que se vio. El
-script informa lo medido y lo leido por separado, y marca como "sin leer" lo
-que todavia nadie miro.
+script informa lo medido y lo leído por separado, y marca como "sin leer" lo
+que todavía nadie miro.
 
 Uso:
   python3 herramientas/calidad_ocr.py            informe
@@ -75,9 +75,9 @@ CORPUS = RAIZ.parent / "argentina" / "fuentes" / "jurisprudencia"
 
 
 def basura(ruta: pathlib.Path) -> float:
-    """Proporcion de tokens con algun caracter que no es del espaniol.
+    """Proporción de tokens con algún carácter que no es del espaniol.
 
-    Con -layout, que es como hay que extraer siempre: sin esa opcion el
+    Con -layout, que es como hay que extraer siempre: sin esa opción el
     extractor reordena las palabras de los PDF a dos columnas y un documento
     sano parece roto.
     """
@@ -112,7 +112,7 @@ def main(argv: list[str]) -> int:
             filas.append((estado, b, p.stem, (leido or {}).get("nota", "")))
 
     if not solo_pendientes:
-        print("  Documentos con defecto, medido o leido:\n")
+        print("  Documentos con defecto, medido o leído:\n")
         for estado, b, slug, nota in sorted(filas):
             med = f"basura {b:.0%}" if b > UMBRAL_BASURA else "  --  "
             print(f"  {estado:12} {med:12}  {slug}")

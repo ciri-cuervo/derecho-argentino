@@ -41,14 +41,14 @@ art. 24 inc. 3 de la Ley 11.922—; y las controversias entre prestadores de ser
 concesionarios de obras públicas y usuarios, en cuanto estén regidas por el derecho
 administrativo.
 
-`[VERIFICAR VIGENCIA: alcance del art. 2 inc. 1 de la Ley 12.008 - el texto consolidado advierte que la Ley 13.101, al incorporar los incisos 8 y 9, transcribe el articulo sin mencionar el tramo subrayado del inciso 1. Cotejar contra el Boletin Oficial antes de apoyarse en esa parte]`
+`[VERIFICAR VIGENCIA: alcance del art. 2 inc. 1 de la Ley 12.008 - el texto consolidado advierte que la Ley 13.101, al incorporar los incisos 8 y 9, transcribe el artículo sin mencionar el tramo subrayado del inciso 1. Cotejar contra el Boletin Oficial antes de apoyarse en esa parte]`
 
 **La competencia en razón de la materia es improrrogable (art. 6).**
 
 ### 26.2 Competencia territorial — la regla y sus cinco excepciones
 
 | Supuesto | Juez competente |
-|---|---|
+| --- | --- |
 | **Regla general** (art. 5 inc. 1) | El del **domicilio de la persona cuya actuación u omisión** da lugar a la pretensión |
 | **Empleo público** (inc. a) | A **elección del demandante**: lugar de prestación de servicios, domicilio de la demandada, o **domicilio del propio demandante** |
 | **Previsional, y colegios o consejos profesionales y sus cajas** (inc. b) | A **elección del demandante**: domicilio del interesado o de la demandada |
@@ -80,7 +80,7 @@ Agotar la vía administrativa es **requisito de admisibilidad en todos los casos
 **salvo**:
 
 | Excepción | Cuándo |
-|---|---|
+| --- | --- |
 | **a** | El acto definitivo de alcance particular lo dictó **la autoridad jerárquica superior con competencia resolutoria final**, o el órgano con competencia delegada, de oficio o con previa audiencia o intervención del interesado |
 | **b** | Hay una **clara conducta de la demandada que hace presumir la ineficacia cierta** de la vía administrativa, o exigirla resultaría **carga excesiva o inútil** por las circunstancias del caso |
 | **c** | Se impugna **directamente un acto de alcance general** emanado de la autoridad jerárquica superior o del órgano con competencia delegada |
@@ -126,7 +126,7 @@ Alcanza a la pretensión de **anulación**, la **resarcitoria vinculada** con el
 hecho**. Es **perentorio**.
 
 | Qué se pretende | El plazo corre desde el día siguiente a |
-|---|---|
+| --- | --- |
 | Anulación de acto de **alcance particular** (inc. a) | La **notificación del acto definitivo que agota la vía**. Si se dedujo un recurso administrativo procedente, desde la notificación de la decisión **que lo rechaza** |
 | Anulación de acto de **alcance general** (inc. b) | Su **publicación** o, en su caso, la notificación del acto definitivo que agota la vía |
 | **General + actos de aplicación** (inc. c) | La notificación del acto definitivo que agota la vía |
@@ -242,7 +242,7 @@ cautelares**, donde el juez resuelve conforme al art. 26.
    demandar, anotada como plazo fatal.
 8. **Si el resarcimiento se acumula o se reserva** para el reclamo autónomo del art. 20.
 
-`[ALERTA PLAZO FATAL: art. 18 Ley 12.008 - 90 dias - desde la notificacion del acto que agota la via - vencimiento: calcular]`
+`[ALERTA PLAZO FATAL: art. 18 Ley 12.008 - 90 días - desde la notificación del acto que agota la via - vencimiento: calcular]`
 
 ---
 

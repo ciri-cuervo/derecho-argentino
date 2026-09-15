@@ -22,12 +22,12 @@ del **Decreto 188/2024**— lo dejó atado a un **cronograma de implementación 
 establece el Ministerio de Justicia**. Desde entonces el CPPF entra en vigencia **jurisdicción
 por jurisdicción, por resolución ministerial**.
 
-**Art. 2 cotejado** (`fuentes/normas/ley-27150.txt`): *"El CÓDIGO PROCESAL PENAL FEDERAL (T.O. 2019) entrará en vigencia de conformidad con el cronograma de implementación progresiva que establezca el Ministerio de Justicia"*, sustituido por el **art. 1 del Decreto 188/2024, BO 26/2/2024**.
+**Art. 2 cotejado** (`fuentes/normas/ley-27150.txt`): *"El CÓDIGO PROCESAL PENAL FEDERAL (T.O. 2019) entrará en vigencia de conformidad con el cronograma de implementación progresiva que establezca el Ministerio de Justicia"*, sustituido por el **art. 1 del Decreto 188/2024, BO 26/02/2024**.
 
 ### 24.1.1 Los dos criterios, que son acumulativos
 
 | Norma | Regla |
-|---|---|
+| --- | --- |
 | **Art. 4 Ley 27.063** | El CPPF se aplica a la investigación de los **hechos delictivos cometidos a partir de su entrada en vigencia** |
 | **Art. 5 Ley 27.063** | Las **causas en trámite** a esa fecha quedan radicadas ante los órganos en que se encuentren y **prosiguen y terminan bajo la Ley 23.984** y sus modificatorias |
 | **Art. 6 Ley 27.063** | Las remisiones normativas al CPPN se entienden hechas a las normas **que se correspondan** del CPPF |
@@ -46,26 +46,27 @@ De modo que la pregunta no es "¿qué código rige hoy?" sino **dos preguntas en
 
 ### 24.1.2 Cronograma por distrito
 
-Fechas vigentes según las notas del texto consolidado de InfoLEG al **13/9/2026**, tomando en
-cada caso la **última** resolución, porque varios distritos fueron diferidos más de una vez.
+Fechas vigentes según las notas del texto consolidado de InfoLEG a **septiembre de 2026**,
+tomando en cada caso la **última** resolución, porque varios distritos fueron diferidos más de
+una vez.
 
 | Jurisdicción | CPPF vigente desde | Norma |
-|---|---|---|
-| Cám. Fed. **Rosario** | 6/5/2024 | Res. MJ 63/2024, con la operatividad diferida por Res. MJ 64/2024 |
-| Juzgado Federal de **Reconquista** (Santa Fe) | 1/3/2025 | Res. MJ 148/2024 y 277/2024 |
-| Cám. Fed. **Mendoza** | 5/8/2024 | Res. MJ 165/2024 |
-| Cám. Fed. **General Roca** | 4/11/2024 | Res. MJ 216/2024 art. 1 |
-| Cám. Fed. **Comodoro Rivadavia** | 2/12/2024 | Res. MJ 216/2024 art. 2 |
-| Cám. Fed. **Mar del Plata** | 7/4/2025 | Res. MJ 377/2024 art. 1 |
-| Cám. Fed. **Bahía Blanca** | 29/9/2025 | Res. MJ 377/2024 art. 2, diferida por Res. MJ 233/2025 |
-| Cám. Fed. **Corrientes** | 1/12/2025 | Res. MJ 143/2025 art. 3 |
-| Cám. Fed. **Resistencia** | 1/12/2025 | Res. MJ 143/2025 art. 4 |
-| Cám. Fed. **Posadas** | 24/6/2026 | Res. MJ 530/2025 art. 3, diferida por Res. MJ 1/2026 art. 2 |
-| Cám. Fed. **La Plata** | 21/9/2026 | Res. MJ 275/2026 |
+| --- | --- | --- |
+| Cám. Fed. **Rosario** | 06/05/2024 | Res. MJ 63/2024, con la operatividad diferida por Res. MJ 64/2024 |
+| Juzgado Federal de **Reconquista** (Santa Fe) | 01/03/2025 | Res. MJ 148/2024 y 277/2024 |
+| Cám. Fed. **Mendoza** | 05/08/2024 | Res. MJ 165/2024 |
+| Cám. Fed. **General Roca** | 04/11/2024 | Res. MJ 216/2024 art. 1 |
+| Cám. Fed. **Comodoro Rivadavia** | 02/12/2024 | Res. MJ 216/2024 art. 2 |
+| Cám. Fed. **Mar del Plata** | 07/04/2025 | Res. MJ 377/2024 art. 1 |
+| Cám. Fed. **Bahía Blanca** | 29/09/2025 | Res. MJ 377/2024 art. 2, diferida por Res. MJ 233/2025 |
+| Cám. Fed. **Corrientes** | 01/12/2025 | Res. MJ 143/2025 art. 3 |
+| Cám. Fed. **Resistencia** | 01/12/2025 | Res. MJ 143/2025 art. 4 |
+| Cám. Fed. **Posadas** | 24/06/2026 | Res. MJ 530/2025 art. 3, diferida por Res. MJ 1/2026 art. 2 |
+| Cám. Fed. **La Plata** | 21/09/2026 | Res. MJ 275/2026 |
 | Cám. Fed. **Paraná** | 30/11/2026 | Res. MJ 417/2026 |
-| Cám. Fed. en lo Penal de **CABA** | **15/2/2027** | Res. MJ 143/2025 art. 1, diferida por Res. MJ 530/2025, 1034/2025 y 186/2026 |
-| Cám. Fed. en lo **Penal Económico** | **15/2/2027** | Res. MJ 143/2025 art. 2, con los mismos diferimientos |
-| Cám. Fed. **Córdoba** | **8/3/2027** | Res. MJ 1/2026, diferida por Res. MJ 274/2026 |
+| Cám. Fed. en lo Penal de **CABA** | **15/02/2027** | Res. MJ 143/2025 art. 1, diferida por Res. MJ 530/2025, 1034/2025 y 186/2026 |
+| Cám. Fed. en lo **Penal Económico** | **15/02/2027** | Res. MJ 143/2025 art. 2, con los mismos diferimientos |
+| Cám. Fed. **Córdoba** | **08/03/2027** | Res. MJ 1/2026, diferida por Res. MJ 274/2026 |
 
 **Las jurisdicciones que no figuran en esta tabla siguen íntegramente bajo la Ley 23.984**,
 porque el art. 3 de la Ley 27.063 subordina la vigencia a que el cronograma la disponga, y
@@ -75,13 +76,13 @@ Dos consecuencias que conviene tener a la vista:
 
 - **CABA y Penal Económico todavía no migraron**, y su fecha ya fue corrida tres veces. La
   mayor parte del volumen federal de la Capital sigue bajo la 23.984.
-- **La Plata migra el 21/9/2026.** Un hecho de septiembre de 2026 en ese distrito puede caer
+- **La Plata migra el 21/09/2026.** Un hecho de septiembre de 2026 en ese distrito puede caer
   de un lado o del otro según el día.
 
 > **Este cronograma es lo más volátil del módulo.** Son resoluciones ministeriales que se
 > dictan y se difieren; lo que está acá es una foto. **Antes de usar una fecha hay que
 > confirmarla**, y nunca al revés.
-> `[VERIFICAR VIGENCIA: fecha de entrada en vigencia del CPPF en la jurisdicción del caso - resoluciones del Ministerio de Justicia posteriores al 13/9/2026]`
+> `[VERIFICAR VIGENCIA: fecha de entrada en vigencia del CPPF en la jurisdicción del caso - resoluciones del Ministerio de Justicia posteriores a septiembre de 2026]`
 
 ### 24.1.3 Qué preguntar al abrir un caso penal
 
@@ -102,7 +103,7 @@ concreto, y no elegir un código por defecto.
 ## 24.2 · Los tres códigos y qué mira cada uno
 
 | Código | Ámbito | Archivo |
-|---|---|---|
+| --- | --- | --- |
 | **CPPF (t.o. 2019)** | Fuero federal, en los distritos de 24.1.2 | `fuentes/normas/cppf-27063.txt` |
 | **Ley 23.984** | Fuero federal en los distritos no migrados, **más todas las causas en trámite** al momento de la migración | `fuentes/normas/cppn-23984.txt` |
 | **Ley 11.922 PBA** | Justicia penal de la Provincia de Buenos Aires | `fuentes/normas/pba-ley-11922.txt` |
@@ -115,11 +116,11 @@ procesal. Lo que cambia son las vías, los plazos y quién decide.
 
 ### 24.2.1 Juicio en ausencia — existe desde 2025 y su ámbito es estrechísimo
 
-La **Ley 27.784 (BO 7/3/2025**, vigente a los diez días de su publicación) incorporó el juicio en
+La **Ley 27.784 (BO 07/03/2025**, vigente a los diez días de su publicación) incorporó el juicio en
 ausencia a los dos códigos federales, **con el mismo articulado en paralelo**:
 
 | Código | Dónde está | Leído contra |
-|---|---|---|
+| --- | --- | --- |
 | CPPF | **Título VII, arts. 343 bis a 343 sexies** | `fuentes/normas/cppf-27063.txt` |
 | Ley 23.984 | **Capítulo incorporado, arts. 431 bis a 431 sexies**, más un segundo párrafo en el art. 486 | `fuentes/normas/cppn-23984.txt` |
 
@@ -138,7 +139,7 @@ objeto de:
 `ley-26200.txt` y `ley-26023.txt`:
 
 | Reenvío | Contenido |
-|---|---|
+| --- | --- |
 | Estatuto de Roma **art. 6** | **Genocidio** |
 | **art. 7** | **Crímenes de lesa humanidad** |
 | **art. 8** | **Crímenes de guerra** |
@@ -156,25 +157,25 @@ genocidio, crímenes de lesa humanidad y crímenes de guerra.
 > caso de agresión hay que verificar **por qué instrumento entró el art. 8 bis al derecho
 > argentino** antes de decir que el juicio en ausencia procede.
 >
-> `[VERIFICAR VIGENCIA: instrumento por el que el art. 8 bis del Estatuto de Roma -crimen de agresion, enmiendas de 2010- se incorporo al derecho argentino: no esta en el anexo de la Ley 25.390 y el art. 343 bis CPPF lo cita]`
+> `[VERIFICAR VIGENCIA: instrumento por el que el art. 8 bis del Estatuto de Roma -crimen de agresión, enmiendas de 2010- se incorporo al derecho argentino: no está en el anexo de la Ley 25.390 y el art. 343 bis CPPF lo cita]`
 
 **Fuera de esos dos supuestos no procede**, y la enumeración es cerrada: la Ley 27.784 no montó
 una modalidad general de juicio sin el imputado presente. Confundirla con eso es el error
 previsible, porque el nombre del instituto invita a generalizarlo.
 
 La procedencia exige además los requisitos del **art. 343 ter** (supuestos), con las reglas de
-**notificación** del 343 quáter, **registro** del 343 quinquies y **presentación** del 343 sexies.
+**notificación** del 343 quater, **registro** del 343 quinquies y **presentación** del 343 sexies.
 La misma ley sustituyó los arts. **6º y 69 del CPPF** y los arts. **104, 290 y 367 de la Ley
 23.984**.
 
     [VERIFICAR VIGENCIA: arts. 343 bis a 343 sexies CPPF y 431 bis a 431 sexies Ley 23.984 -
-    juicio en ausencia, texto Ley 27.784 - confirmar reglamentacion y criterio del distrito]
+    juicio en ausencia, texto Ley 27.784 - confirmar reglamentación y criterio del distrito]
 
 **Sin fallo cargado.** No hay jurisprudencia en `fuentes/` sobre este instituto: es de 2025 y su
 constitucionalidad frente al art. 18 CN y al derecho a ser oído es materia abierta.
 
     [INSERTAR FALLO VERIFICADO: constitucionalidad del juicio en ausencia de la Ley 27.784 frente
-    al art. 18 CN - aportar caratula, sala, fuero y anio]
+    al art. 18 CN - aportar carátula, sala, fuero y año]
 
 ---
 
@@ -189,8 +190,8 @@ es el error de encuadre más frecuente.
 ### 24.3.1 CPPF — catálogo, audiencia y reiterancia
 
 > **Los arts. 210, 218 y 222 bis fueron sustituidos o incorporados por la Ley 27.785 (B.O.
-> 7/3/2025).** Es reforma reciente y ninguno de los materiales heredados la registra. Para
-> hechos o pedidos anteriores al 8/3/2025 hay que cotejar el texto entonces vigente.
+> 07/03/2025).** Es reforma reciente y ninguno de los materiales heredados la registra. Para
+> hechos o pedidos anteriores al 08/03/2025 hay que cotejar el texto entonces vigente.
 > `[VERIFICAR VIGENCIA: texto de los arts. 210, 218 y 222 bis CPPF a la fecha del pedido de coerción - sustituidos por la Ley 27.785]`
 
 **Principio (art. 209).** Las medidas de coerción son de **carácter excepcional** y **no pueden
@@ -221,7 +222,7 @@ la propiedad.
 **Las tres pautas de riesgo:**
 
 | Art. | Riesgo | Qué se valora |
-|---|---|---|
+| --- | --- | --- |
 | 221 | **Fuga** | arraigo; circunstancias y naturaleza del hecho, pena esperada, imposibilidad de condena condicional, detenciones previas y posibilidad de reincidencia por delitos dolosos; comportamiento en éste u otro procedimiento, en particular rebeldía o información falsa sobre identidad o domicilio |
 | 222 | **Entorpecimiento** | indicios de grave sospecha de que destruirá o falsificará prueba, asegurará el provecho o la continuidad del delito, hostigará o amenazará a víctima o testigos, influirá para que declaren falsamente, o inducirá a otros a hacerlo **aunque no lo realicen** |
 | 222 bis | **Reiterancia** | procesos pendientes o condenas anteriores; conducta en otro proceso que revele intención de eludir; declaración de reincidencia dictada o posible; rebeldía o captura anteriores; incumplimiento de una restricción de acercamiento **o de una regla de conducta impuesta en un proceso civil o penal**; importancia y extensión del daño; haber eludido o resistido a una fuerza de seguridad; violencia sobre bienes o personas; hecho cometido **con armas o por más de dos personas**; identidad falsa |
@@ -274,7 +275,7 @@ condicional**, salvo que se impute alguno de los delitos de los arts. 139, 139 b
 > norma**, no analógico.
 
 > **Y el estándar para denegar no es la escala penal.** *Estévez, José Luis s/ solicitud de
-> excarcelación*, **Fallos 320:2105, 3/10/1997** — leído contra el documento. La Corte hizo
+> excarcelación*, **Fallos 320:2105, 03/10/1997** — leído contra el documento. La Corte hizo
 > lugar a la queja y **dejó sin efecto** la resolución: era insuficiente porque se apoyaba en
 > *"la sola referencia a la pena establecida por el delito por el que ha sido acusado y la
 > condena anterior que registra, sin que precise cuáles son las circunstancias concretas de la
@@ -337,7 +338,7 @@ inc. 5 de la CADH**, ponderando gravedad, pena probable y complejidad del proces
 
 En delitos cometidos **con violencia o intimidación mediante armas de fuego, o con intervención
 de menores de 18 años**, la excarcelación y la eximición se resuelven **con la escala resultante
-de los arts. 41 bis y quáter CP**.
+de los arts. 41 bis y quater CP**.
 
 **Denegatoria (art. 171, texto Ley 14.517).** **En ningún caso** se concede si hay **indicios
 vehementes** de elusión o entorpecimiento, que pueden inferirse de las circunstancias del art.
@@ -364,10 +365,10 @@ y ahí vuelve a jugar 24.1.
 
 ### 24.4.1 Las siete causales del art. 59
 
-Texto según el art. 1 de la **Ley 27.147** (B.O. 18/6/2015). La acción penal se extingue por:
+Texto según el art. 1 de la **Ley 27.147** (B.O. 18/06/2015). La acción penal se extingue por:
 
 | Inc. | Causal | Depende de la ley procesal |
-|---|---|---|
+| --- | --- | --- |
 | 1 | Muerte del imputado | no |
 | 2 | Amnistía | no |
 | 3 | Prescripción | no |
@@ -397,7 +398,7 @@ reparando los daños. Iniciado el juicio, hay que pagar **el máximo**, además 
 **Plazos (art. 62):**
 
 | Supuesto | Plazo |
-|---|---|
+| --- | --- |
 | Pena de reclusión o prisión **perpetua** | 15 años |
 | Hechos reprimidos con reclusión o prisión | el **máximo de la pena** del delito, **con tope de 12 años y piso de 2** |
 | Hecho reprimido únicamente con **inhabilitación perpetua** | 5 años |
@@ -438,7 +439,7 @@ tiene "citación a juicio" con ese nombre. Antes de computar una prescripción h
 primero el código, y recién después buscar el hito.
 
 **Hay delitos que no prescriben, y el art. 62 no lo dice.** *"Arancibia Clavel, Enrique Lautaro
-s/ homicidio calificado y asociación ilícita y otros"*, **Fallos 327:3312, 24/8/2004** — leído
+s/ homicidio calificado y asociación ilícita y otros"*, **Fallos 327:3312, 24/08/2004** — leído
 contra el documento, `fallos-csjn.md` 34.2. La Corte hizo lugar a la queja y **dejó sin efecto**
 la sentencia que había declarado prescripta la acción.
 
@@ -451,14 +452,14 @@ prescriba el haber integrado el grupo que los cometía.
 > **Fue 4 a 3.** Belluscio, Fayt y Vázquez votaron en disidencia, y Petracchi y Boggiano según
 > su voto. Es una mayoría dividida sobre una cuestión —la aplicación de la Convención a hechos
 > anteriores a su incorporación— que sigue siendo materia de debate.
-> `[VERIFICAR PRECEDENTE: "Arancibia Clavel" tiene mas de veinte anios y la composicion del Tribunal cambio por completo - confirmar la linea vigente antes de invocarlo]`
+> `[VERIFICAR PRECEDENTE: "Arancibia Clavel" tiene más de veinte años y la composición del Tribunal cambió por completo - confirmar la linea vigente antes de invocarlo]`
 
 **Para el cómputo:** si el hecho encuadra como delito de lesa humanidad, **el art. 62 no se
 aplica** y la discusión no es de plazos sino de calificación. Es el primer punto a resolver,
 porque decide si hay algo que computar.
 
 **El otro obstáculo de esos procesos también está removido.** *"Simón, Julio Héctor y otros s/
-privación ilegítima de la libertad"*, **Fallos 328:2056, 14/6/2005** — leído contra el
+privación ilegítima de la libertad"*, **Fallos 328:2056, 14/06/2005** — leído contra el
 documento, `fallos-csjn.md` 34.2. El dispositivo, en sus tres puntos:
 
 1. Hizo lugar parcialmente a la queja y al extraordinario, **declaró la inconstitucionalidad de
@@ -479,7 +480,7 @@ necesita ser atacado uno por uno como cosa juzgada.
 
 ### 24.4.3 Suspensión del juicio a prueba (arts. 76 bis a 76 quater)
 
-Texto incorporado por la **Ley 24.316** (B.O. 19/5/1994), con el párrafo final agregado por el
+Texto incorporado por la **Ley 24.316** (B.O. 19/05/1994), con el párrafo final agregado por el
 art. 19 de la **Ley 26.735**.
 
 **Quién puede pedirla.** El imputado de un delito de **acción pública** reprimido con reclusión
@@ -493,15 +494,15 @@ máximo de la pena **aplicable al concurso** no excede de tres años.
 > haya consentimiento fiscal.
 >
 > **La CSJN lo resolvió en "Acosta"**, *Acosta, Alejandro Esteban s/ infracción art. 14, 1°
-> párrafo ley 23.737*, **Fallos 331:858, 23/4/2008** — leído contra el documento,
+> párrafo ley 23.737*, **Fallos 331:858, 23/04/2008** — leído contra el documento,
 > `fallos-csjn.md` 34.2. Hizo lugar a la queja y **dejó sin efecto** la sentencia que había
 > denegado la probation: limitar el beneficio a los delitos con máximo de hasta tres años **se
 > funda en una exégesis irrazonable**, porque da *"una indebida preeminencia a sus dos primeros
 > párrafos sobre el cuarto, al que deja totalmente inoperante"* (cons. 7). Lo apoya en el
-> principio de legalidad, en el derecho penal como **ultima ratio** y en el **pro homine**: entre
+> principio de legalidad, en el derecho penal como **última ratio** y en el **pro homine**: entre
 > dos lecturas posibles se prioriza la que más derechos acuerda frente al poder estatal.
 >
-> **Con eso quedó desplazado el plenario "Kosuta"** (CNCP, 17/8/1999), que sostenía la tesis
+> **Con eso quedó desplazado el plenario "Kosuta"** (CNCP, 17/08/1999), que sostenía la tesis
 > restringida y que era el fundamento de la denegatoria. Si una resolución todavía se apoya en
 > "Kosuta" para rechazar por el máximo en abstracto, ahí está el agravio.
 >
@@ -512,7 +513,7 @@ máximo de la pena **aplicable al concurso** no excede de tres años.
 > **"Acosta" abre por la escala; "Góngora" cierra por la materia, y son ejes distintos.** Que el
 > delito entre por el párrafo 4° no alcanza si el hecho es **violencia contra la mujer**.
 >
-> *"Góngora, Gabriel Arnaldo s/ causa n° 14.092"*, **Fallos 336:392, 23/4/2013** — leído contra
+> *"Góngora, Gabriel Arnaldo s/ causa n° 14.092"*, **Fallos 336:392, 23/04/2013** — leído contra
 > el documento, `fallos-csjn.md` 34.2. La Corte, **a recurso del fiscal**, declaró procedente el
 > extraordinario y **revocó** la resolución que había concedido la suspensión del juicio a prueba.
 >
@@ -606,13 +607,13 @@ analogía.
 **Ley 23.984.** No hay artículo. El planteo se arma con el **art. 18 CN**, los instrumentos del
 **art. 75 inc. 22** y la doctrina de la Corte sobre exclusión y sus derivaciones.
 **La doctrina está cargada.** *"Quaranta, José Carlos s/ inf. ley 23.737"*, **Fallos 333:1674,
-31/8/2010** — leído contra el documento, `fallos-csjn.md` 34.2. La Corte hizo lugar a la queja,
+31/08/2010** — leído contra el documento, `fallos-csjn.md` 34.2. La Corte hizo lugar a la queja,
 revocó la sentencia y, usando la facultad de la **segunda parte del art. 16 de la Ley 48**,
 **absolvió** al imputado: no reenvió. Es el remedio que conviene pedir cuando la nulidad se lleva
 puesto el único cauce.
 
 La regla, que "Quaranta" toma de **"Rayford" (Fallos 308:733)** y reitera con **"Ruiz"
-(310:1847)**, **"Francomano" (310:2384)**, **"Daray" (317:1985)** y "Peralta Cano" (3/5/2007):
+(310:1847)**, **"Francomano" (310:2384)**, **"Daray" (317:1985)** y "Peralta Cano" (03/05/2007):
 **si en el proceso hay un solo cauce de investigación y ese cauce estuvo viciado de ilegalidad,
 la ilegalidad contamina de nulidad todas las pruebas originadas a partir de él**, y la regla es
 la exclusión. El recíproco es el que importa para la contraparte: **acreditado un cauce
@@ -630,7 +631,7 @@ no asegura la reparación sino la inviolabilidad misma.
 > propios. Para llevar un considerando de ellos a un escrito, verificarlos aparte.
 
 **Hay un matiz que la contraparte va a invocar, y conviene tenerlo antes.** *"Minaglia, Mauro
-Omar y otra s/ infracción ley 23.737 (art. 5 inc. c)"*, **Fallos 330:3801, 4/9/2007** — leído
+Omar y otra s/ infracción ley 23.737 (art. 5 inc. c)"*, **Fallos 330:3801, 04/09/2007** — leído
 contra el documento, `fallos-csjn.md` 34.2. Ahí la Corte **rechazó el recurso extraordinario**:
 **validó** el allanamiento. La regla: *más allá de lo que se haga constar en el auto que dispone
 el allanamiento, lo esencial para que se ajuste a las pautas constitucionales es que **del
@@ -649,7 +650,7 @@ disidencia.
 Los tres códigos parten de la **taxatividad**: un acto es nulo sólo cuando la ley lo dice.
 
 | Código | Regla general |
-|---|---|
+| --- | --- |
 | CPPN, art. 166 | Los actos serán nulos **sólo cuando no se hubieran observado las disposiciones expresamente prescriptas bajo pena de nulidad** |
 | CPP PBA, art. 201 | La inobservancia sólo los hace nulos **en los supuestos expresamente determinados** por el Código |
 | CPPF | No usa la categoría así: habla de **defectos** que se sanean, se convalidan o, si no, se declaran nulos (arts. 130 a 132) |
@@ -677,7 +678,7 @@ requisitos se controlan de entrada, y el primero cierra muchos planteos.
 **Oportunidad, bajo pena de caducidad.** Acá los dos códigos se separan en el primer inciso:
 
 | Momento del vicio | CPPN, art. 170 | CPP PBA, art. 205 |
-|---|---|---|
+| --- | --- | --- |
 | En la instrucción / IPP | durante ésta **o en el término de citación a juicio** | **durante la IPP**, y nada más |
 | Actos preliminares del juicio | hasta inmediatamente después de abierto el debate | ídem |
 | En el debate | al cumplirse el acto o inmediatamente después | ídem |
@@ -756,7 +757,7 @@ medidas disciplinarias.
 ### 24.6.1 Los plazos, que es donde primero se pierde el recurso
 
 | Régimen | Recurso | Plazo |
-|---|---|---|
+| --- | --- | --- |
 | **CPPF** | Impugnación de sentencia **condenatoria o absolutoria** | **10 días** |
 | **CPPF** | Impugnación de **medida cautelar** | **3 días** |
 | **CPPF** | Impugnación en **los demás casos** | **5 días** |
@@ -780,7 +781,7 @@ decisiones que se tomen **durante la ejecución de la pena**.
 que corresponde:
 
 | Decisión | Motivos |
-|---|---|
+| --- | --- |
 | **Sobreseimiento** (art. 357) | falta de motivación suficiente, errónea valoración de la prueba u omisión de pruebas esenciales; inobservancia o errónea aplicación de un precepto legal |
 | **Sentencia condenatoria** (art. 358) | diez motivos, entre ellos inobservancia de precepto o garantía constitucional; errónea aplicación de la ley penal; motivación insuficiente, contradictoria, irrazonable o arbitraria; **prueba ilegal** o incorporada por lectura fuera de los casos autorizados; omisión de prueba decisiva o valoración de prueba inexistente; errónea determinación de los hechos; **violación de la correlación entre acusación y sentencia**; incumplimiento de los requisitos esenciales de la sentencia; supuestos que autorizan la revisión de sentencia firme; y **falta de cesura del debate** |
 | **Sentencia absolutoria** (art. 359) | **inobservancia del derecho a la tutela judicial de la víctima**; errónea aplicación de la ley; motivación insuficiente, contradictoria, irrazonable o arbitraria; incumplimiento de los requisitos esenciales |
@@ -793,7 +794,7 @@ querellante** y resulta **adversa para el imputado**, éste puede **solicitar su
 la garantía del art. 8.2.h CADH puesta en el texto.
 
 > **Dónde se revisa cuando arriba no hay nadie más, que es el problema práctico.** *"Duarte,
-> Felicia s/ recurso de casación"*, **Fallos 337:901, 5/8/2014** — leído contra el documento,
+> Felicia s/ recurso de casación"*, **Fallos 337:901, 05/08/2014** — leído contra el documento,
 > `fallos-csjn.md` 34.2. Una absuelta en juicio oral fue **condenada por primera vez en
 > casación**: el doble conforme no tenía tribunal por encima al que acudir.
 >
@@ -840,7 +841,7 @@ protestado no llega a casación, por grave que sea, salvo que sea nulidad absolu
 
 > **Esos dos motivos no reducen la casación a cuestiones de derecho, y ése es el punto de
 > "Casal".** *Casal, Matías Eugenio y otro s/ robo simple en grado de tentativa*, **Fallos
-> 328:3399, 20/9/2005** — leído contra el documento, `fallos-csjn.md` 34.2. La Corte hizo lugar
+> 328:3399, 20/09/2005** — leído contra el documento, `fallos-csjn.md` 34.2. La Corte hizo lugar
 > a la queja y **dejó sin efecto** la resolución, para que se dictara nuevo fallo con arreglo a
 > su doctrina.
 >
@@ -910,7 +911,7 @@ de **juicio oral, abreviado y directísimo** en lo criminal.
 
 > **El jurado provincial es constitucional, y el planteo en contra ya se intentó.** *Canales,
 > Mariano Eduardo y otro s/ homicidio agravado — impugnación extraordinaria*, **Fallos 342:697,
-> 2/5/2019** — leído contra el documento, `fallos-csjn.md` 34.2. Se discutía el juicio por
+> 02/05/2019** — leído contra el documento, `fallos-csjn.md` 34.2. Se discutía el juicio por
 > jurados de **Neuquén**, con el argumento de que instituirlo no es facultad provincial sino
 > federal (arts. 24 y 75 inc. 12 CN). La Corte hizo lugar a la queja, declaró admisible el
 > extraordinario y **confirmó la sentencia apelada**: el juicio por jurados está previsto como
@@ -920,7 +921,7 @@ de **juicio oral, abreviado y directísimo** en lo criminal.
 >
 > Aplica a PBA por analogía de planteo, no de norma: el jurado bonaerense tiene su propia ley y
 > lo que "Canales" resuelve es la **competencia provincial para instituirlo**, no el contenido
-> de cada régimen. `[VERIFICAR CRITERIO DEL FUERO: recepcion de "Canales" por la SCBA respecto del regimen de jurados de la Ley 14.543 y sus reformas]`
+> de cada régimen. `[VERIFICAR CRITERIO DEL FUERO: recepción de "Canales" por la SCBA respecto del régimen de jurados de la Ley 14.543 y sus reformas]`
 
 **Forma y plazo (art. 451, texto Ley 14.295).** **Veinte días** de notificada, bajo sanción de
 inadmisibilidad, por escrito fundado, citando las disposiciones no observadas o mal aplicadas,
@@ -945,7 +946,7 @@ los nuevos hechos o elementos de prueba, o los motivos especiales del art. 467, 
 > parece teoría, y después aparece en el cómputo. **Dos artículos centrales fueron reescritos
 > por la Ley 27.785 (BO 07/03/2025)**: el art. 50 (reincidencia) y el art. 58 (unificación). Toda
 > doctrina o jurisprudencia anterior a marzo de 2025 sobre esos dos temas se construyó sobre otro
-> texto legal. [REVISIÓN NORMATIVA REQUERIDA: cotejar cualquier cita de reincidencia o unificacion
+> texto legal. [REVISIÓN NORMATIVA REQUERIDA: cotejar cualquier cita de reincidencia o unificación
 > anterior al 07/03/2025 contra el texto vigente antes de invocarla]
 
 ### 24.7.1 Imputabilidad y causas de exclusión (art. 34)
@@ -954,7 +955,7 @@ Los siete incisos del art. 34 no son una lista homogénea: unos excluyen la culp
 antijuridicidad, y **eso cambia qué hay que probar y qué pasa después de la absolución**.
 
 | Inc. | Supuesto | Nota práctica |
-|---|---|---|
+| --- | --- | --- |
 | **1** | No poder comprender la criminalidad del acto o dirigir las acciones, por insuficiencia de facultades, alteración morbosa, estado de inconciencia, **error o ignorancia de hecho no imputables** | El error de hecho no imputable vive acá, no en un artículo propio. En caso de enajenación el tribunal **puede ordenar la reclusión en un manicomio**, de la que sólo se sale por resolución judicial con audiencia del MP y dictamen pericial de que desapareció el peligro. En los demás casos del inciso, la reclusión es en establecimiento adecuado hasta que desaparezcan las condiciones de peligrosidad |
 | **2** | Fuerza física irresistible o **amenazas de sufrir un mal grave e inminente** | |
 | **3** | Estado de necesidad: causar un mal por evitar otro mayor inminente **al que ha sido extraño** | La extrañeza al mal mayor es requisito del texto, no un agregado doctrinario |
@@ -986,7 +987,7 @@ mitad** y puede reducirse al mínimo legal o eximirse de ella.
 > ahí sale la discusión clásica sobre cómo se arma la escala de la tentativa. **No está resuelta
 > en el texto legal.**
 >
-> `[INSERTAR FALLO VERIFICADO: doctrina de la CSJN o de la casacion sobre la construccion de la escala del art. 44 - no hay fallo cargado en fuentes/]`
+> `[INSERTAR FALLO VERIFICADO: doctrina de la CSJN o de la casación sobre la construcción de la escala del art. 44 - no hay fallo cargado en fuentes/]`
 >
 > **Lo que sí hay bajado toca el art. 44 por un costado y no resuelve esto.** En *"Maldonado"*
 > (Fallos 328:4343, ver 24.7.8) la Corte trabaja con el **art. 44 tercer párrafo** por remisión
@@ -1020,8 +1021,8 @@ deliberada y se usa en los dos sentidos.
 **Prensa (art. 49).** No son partícipes quienes sólo prestan la cooperación material necesaria
 para la publicación, difusión o venta.
 
-> **Dos tipos donde los arts. 46 y 47 NO se aplican.** La **Ley 27.786 (BO 10/3/2025)** incorporó
-> los **arts. 210 ter y 210 quáter** al CP, y los dos cierran con la misma cláusula: *"Las
+> **Dos tipos donde los arts. 46 y 47 NO se aplican.** La **Ley 27.786 (BO 10/03/2025)** incorporó
+> los **arts. 210 ter y 210 quater** al CP, y los dos cierran con la misma cláusula: *"Las
 > condiciones especiales de participación establecidas en los artículos 46 y 47 de este Código no
 > serán aplicables a los efectos de lo dispuesto en este artículo"*. Leído contra
 > `fuentes/normas/cp-11179.txt`.
@@ -1031,7 +1032,7 @@ para la publicación, difusión o venta.
 > responde sin la disminución de un tercio a la mitad del art. 46. Antes de calcular una escala en
 > una causa por asociación ilícita, verificar cuál de los tipos del art. 210 se imputa.
 >
-> El **210 quáter** agrega algo más fuerte todavía: la pena es **la del delito más grave cometido
+> El **210 quater** agrega algo más fuerte todavía: la pena es **la del delito más grave cometido
 > por la organización** —definido en el propio artículo como el perpetrado por cualquiera de sus
 > miembros que tenga la pena más alta—, no la del hecho propio.
 >
@@ -1041,7 +1042,7 @@ para la publicación, difusión o venta.
 ### 24.7.4 Concurso de delitos (arts. 54 a 58)
 
 | Figura | Artículo | Regla |
-|---|---|---|
+| --- | --- | --- |
 | **Concurso ideal** | 54 | Un hecho bajo más de una sanción penal: se aplica **solamente la que fija pena mayor** |
 | **Concurso real, misma especie de pena** | 55 | Mínimo = **el mínimo mayor**; máximo = **la suma aritmética de los máximos**, con tope de **50 años** de reclusión o prisión (texto Ley 25.928) |
 | **Concurso real, penas divisibles de distinta especie** | 56 | Se aplica **la más grave**, teniendo en cuenta los delitos de pena menor. Si alguna pena no fuera divisible, se aplica ésa únicamente, salvo que concurran prisión perpetua y reclusión temporal, donde se aplica **reclusión perpetua**. **Inhabilitación y multa se aplican siempre**, sin sujeción al párrafo primero |
@@ -1169,7 +1170,7 @@ gastos del juicio**. La condicional no alcanza a lo civil ni a las costas.
 ### 24.7.8 Menores: la pena no se gradúa igual
 
 *"Maldonado, Daniel Enrique y otro s/ robo agravado por el uso de armas en concurso real con
-homicidio calificado"*, **Fallos 328:4343, 7/12/2005** — leído contra el documento,
+homicidio calificado"*, **Fallos 328:4343, 07/12/2005** — leído contra el documento,
 `fallos-csjn.md` 34.2. La Corte hizo lugar a la queja y **dejó sin efecto** la sentencia,
 devolviendo para que se dictara una nueva.
 
@@ -1201,14 +1202,14 @@ en su peligrosidad futura, en vez de en el hecho. La Corte lo dice contra la ide
 > tiene.
 
 **Y hay un piso que rige por debajo de las dos, fijado por la Corte para PBA.** *"Verbitsky,
-Horacio s/ hábeas corpus"*, **Fallos 328:1146, 3/5/2005** — leído contra el documento,
+Horacio s/ hábeas corpus"*, **Fallos 328:1146, 03/05/2005** — leído contra el documento,
 `fallos-csjn.md` 34.2. Es el fallo que hay que tener a mano cuando lo que se discute son las
 **condiciones** de detención y no el régimen.
 
 Lo que declaró y ordenó, que es inusualmente concreto:
 
 | | |
-|---|---|
+| --- | --- |
 | **La regla de fondo** | Las **Reglas Mínimas para el Tratamiento de Reclusos de la ONU**, recogidas por la Ley 24.660, **configuran las pautas fundamentales a las que debe adecuarse toda detención**. No son una recomendación |
 | **La vía** | Admitió el **hábeas corpus colectivo** en protección de las condiciones de detención de **todos** los privados de libertad en PBA, con legitimación de una persona colectiva distinta de los afectados. Calificó de **error conceptual** sostener que la cuestión debía debatirse individualmente ante cada juez |
 | **Menores y enfermos** | Ordenó a la SCBA hacer **cesar en sesenta días** su detención en **comisarías** de la provincia |
@@ -1222,7 +1223,7 @@ mantiene la detención**: es el puente entre la queja por condiciones y el pedid
 o de cese, que si no quedan en carriles separados. Y la admisión del colectivo es lo que permite
 plantear por el conjunto sin ir causa por causa.
 
-`[VERIFICAR PRECEDENTE: "Verbitsky" tiene veinte anios y su cumplimiento fue objeto de resoluciones posteriores de la propia Corte y de la SCBA - confirmar el estado de la ejecucion del fallo antes de invocarlo como vigente]`
+`[VERIFICAR PRECEDENTE: "Verbitsky" tiene veinte años y su cumplimiento fue objeto de resoluciones posteriores de la propia Corte y de la SCBA - confirmar el estado de la ejecución del fallo antes de invocarlo como vigente]`
 
 ### 24.8.1 Ley 24.660 — la progresividad y sus cuatro períodos
 
@@ -1240,7 +1241,7 @@ establecimiento abierto o semiabierto, la posibilidad de **salidas transitorias*
 **semilibertad**. Cuatro requisitos de ingreso:
 
 | Requisito | Contenido |
-|---|---|
+| --- | --- |
 | Propuesta | Que emane del resultado del período de observación y de la verificación de tratamiento |
 | **Tiempo mínimo** | Pena temporal sin accesoria del art. 52 CP: **la mitad de la condena**. Perpetua sin accesoria: **15 años**. Con accesoria del art. 52, cumplida la pena: **3 años** |
 | Causas | **No tener causa abierta ni otra condena pendiente** |
@@ -1311,7 +1312,7 @@ enumera **no pueden acceder a los beneficios del período de prueba**, y el últ
 agrega que tampoco a **prisión discontinua, semidetención ni libertad asistida**. Antes de
 calcular cualquier fecha, mirar si el delito está en la lista: si está, el cálculo sobra.
 
-**Art. 56 quáter — lo que sí queda para los del 56 bis.** Régimen preparatorio para la
+**Art. 56 quater — lo que sí queda para los del 56 bis.** Régimen preparatorio para la
 liberación, por programa individual. **Un año antes** del cumplimiento de la condena, con
 regularidad en los reglamentos e informes de la dirección y de peritos con pronóstico
 individualizado y favorable: **tres meses** de preparación dentro del establecimiento, **seis
@@ -1320,7 +1321,7 @@ Siempre **diurnas y por no más de 12 horas**. Es la vía que hay que pedir cuan
 cierra las otras.
 
 `[VERIFICAR VIGENCIA: art. 56 bis Ley 24.660 y su articulación con el art. 14 CP - dos listas de delitos distintas que se citan como si fueran una]`
-`[INSERTAR FALLO VERIFICADO: constitucionalidad del art. 56 bis Ley 24.660 texto Ley 27.375 - aportar sala, fuero y anio]`
+`[INSERTAR FALLO VERIFICADO: constitucionalidad del art. 56 bis Ley 24.660 texto Ley 27.375 - aportar sala, fuero y año]`
 
 **Art. 56 quinquies.** El juez remite al **Renabem**, dentro de los cinco días de firmes, copia
 de las resoluciones sobre salidas transitorias, semilibertad, prisión discontinua,
@@ -1397,7 +1398,7 @@ supervisa el **Cuerpo de Agentes de Prueba del Patronato de Liberados Bonaerense
 ### 24.8.3 Los plazos que divergen
 
 | Instituto | Ley 24.660 | Ley 12.256 PBA |
-|---|---|---|
+| --- | --- | --- |
 | **Libertad asistida** | **3 meses** antes del agotamiento de la pena temporal (art. 54) | **6 meses** antes del agotamiento; y **6 meses** antes del término del art. 13 CP para perpetuas o penas mayores de 3 años (art. 104) |
 | **Aviso al patronato** | **6 meses** antes del mínimo exigible (art. 54 bis) | **6 meses** antes del mínimo exigible (art. 102) |
 | **Estructura** | Períodos **sucesivos** (art. 12) | Regímenes **alternativos, no necesariamente secuenciales** (arts. 6 y 94) |
@@ -1410,7 +1411,7 @@ supervisa el **Cuerpo de Agentes de Prueba del Patronato de Liberados Bonaerense
 1. **Qué ley rige la ejecución** — federal o PBA. Define el nombre del instituto, el órgano y
    la forma del pedido.
 2. **Si el delito está en la lista de exclusión que corresponde** —art. 56 bis nacional o
-   art. 100 bonaerense, que **no coinciden**—. Si está, la vía es el art. 56 quáter o el cómputo
+   art. 100 bonaerense, que **no coinciden**—. Si está, la vía es el art. 56 quater o el cómputo
    del último párrafo del art. 100, no el instituto general.
 3. **Conducta y concepto, con su historia**: en el orden federal, el art. 17 mira **dos tercios
    de la condena cumplida**, no el último tramo.
@@ -1456,7 +1457,7 @@ procedimiento **se consideran definitivas** a los efectos del recurso ante la CS
 **Trámite, que es todo de horas:**
 
 | Acto | Regla |
-|---|---|
+| --- | --- |
 | **Forma de la denuncia** (art. 9) | A **cualquier hora del día**, por escrito **u oralmente en acta** ante el secretario |
 | **Defectos formales** (art. 10) | El juez **no puede rechazar por defectos formales**: provee de inmediato las medidas para subsanarlos |
 | **Desestimación o incompetencia** (art. 10) | Se eleva **en consulta** a la Cámara, que decide **dentro de las 24 horas** |
@@ -1477,7 +1478,7 @@ responsable del acto lesivo**. Y los jueces y funcionarios que incurran injustif
 **incumplimiento de los plazos** de la ley **son sancionados con multa**. Los plazos de esta ley
 tienen sanción propia: conviene decirlo en el escrito.
 
-`[VERIFICAR VIGENCIA: art. 8 Ley 23.098 - la competencia que asigna a los jueces de instruccion de Capital Federal debe leerse contra el regimen procesal vigente en el distrito, ver 24.1. El texto cargado en fuentes/ es el original, no un consolidado]`
+`[VERIFICAR VIGENCIA: art. 8 Ley 23.098 - la competencia que asigna a los jueces de instrucción de Capital Federal debe leerse contra el régimen procesal vigente en el distrito, ver 24.1. El texto cargado en fuentes/ es el original, no un consolidado]`
 
 ### 24.9.2 Estupefacientes — Ley 23.737
 
@@ -1493,7 +1494,7 @@ art. 29; y arts. 204, 204 bis, 204 ter y 204 quater CP.
 > provincial según dónde ocurrió, y eso cambia el código procesal aplicable (24.1), el fiscal y
 > la cámara.
 
-`[VERIFICAR VIGENCIA: leyes provinciales de adhesion al art. 34 Ley 23.737 - la lista de jurisdicciones adheridas cambia y no esta cargada en fuentes/]`
+`[VERIFICAR VIGENCIA: leyes provinciales de adhesión al art. 34 Ley 23.737 - la lista de jurisdicciones adheridas cambia y no está cargada en fuentes/]`
 
 **Tenencia (art. 14).** Prisión de **uno a seis años** y multa para quien tuviere en su poder
 estupefacientes. **Segundo párrafo:** **un mes a dos años** cuando por su **escasa cantidad y
@@ -1504,7 +1505,7 @@ demás circunstancias** surja **inequívocamente** que la tenencia es **para uso
 estupefacientes.
 
 **Ese segundo párrafo está declarado inconstitucional, y con un alcance preciso.**
-*"Arriola, Sebastián y otros s/ causa n° 9080"*, **Fallos 332:1963, 25/8/2009** — leído contra
+*"Arriola, Sebastián y otros s/ causa n° 9080"*, **Fallos 332:1963, 25/08/2009** — leído contra
 el documento, `fallos-csjn.md` 34.2. La Corte hizo lugar a la queja, declaró procedente el
 extraordinario, **declaró la inconstitucionalidad del art. 14 segundo párrafo de la Ley 23.737**
 y dejó sin efecto la sentencia apelada. Aplicó el estándar de **"Bazterrica"**: debe respetarse
@@ -1528,12 +1529,12 @@ una política de Estado contra el tráfico ilícito y a adoptar medidas de salud
 > desde el repo**: el OCR de los dos salió destruido. De "Arriola" sí, y es de donde vienen las
 > citas de arriba.
 
-`[VERIFICAR PRECEDENTE: "Arriola" tiene dieciseis anios y la Ley 23.737 fue modificada despues - confirmar que el segundo parrafo del art. 14 conserva el texto que la Corte invalido y que la doctrina sigue vigente en la sala interviniente]`
+`[VERIFICAR PRECEDENTE: "Arriola" tiene dieciseis años y la Ley 23.737 fue modificada después - confirmar que el segundo párrafo del art. 14 conserva el texto que la Corte invalido y que la doctrina sigue vigente en la sala interviniente]`
 
 **Las tres salidas curativas, que se confunden entre sí:**
 
 | Artículo | Momento | Qué pasa si el tratamiento resulta bien | Si a los dos años no hay recuperación por falta de colaboración |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **16** | Condenado por **cualquier** delito con dependencia física o psíquica | Medida de seguridad curativa **además de la pena**; cesa por resolución judicial previo dictamen pericial | — |
 | **17** | Art. 14 segundo párrafo, **acreditada la tenencia para uso personal y declarada la culpabilidad**, con dependencia | El juez **puede dejar en suspenso la pena**; acreditado el resultado satisfactorio, **se lo exime de la pena** | **Se aplica la pena** y continúa la medida, o sólo la medida |
 | **18** | Art. 14 segundo párrafo, **durante el sumario**, con semiplena prueba de uso personal, indicios de responsabilidad, dependencia y **consentimiento** | **Se suspende el trámite del sumario**; acreditado el resultado, **sobreseimiento definitivo** | Se **reanuda el trámite** y en su caso se aplica la pena, continuando el tratamiento, o sólo la medida |
@@ -1667,7 +1668,7 @@ ya es mayor de edad, **esa información suple el tratamiento**.
 **Cese de la disposición (art. 3).** Puede cesar en cualquier momento por resolución judicial
 fundada y **concluye de pleno derecho cuando el menor alcanza la mayoría de edad**.
 
-`[REVISIÓN NORMATIVA REQUERIDA: estado legislativo del regimen penal juvenil - la Ley 22.278 es de 1980 y su reemplazo ha sido objeto de proyectos sucesivos. Confirmar que sigue vigente sin sustitucion a la fecha de la consulta]`
+`[REVISIÓN NORMATIVA REQUERIDA: estado legislativo del régimen penal juvenil - la Ley 22.278 es de 1980 y su reemplazo ha sido objeto de proyectos sucesivos. Confirmar que sigue vigente sin sustitución a la fecha de la consulta]`
 
 ### 24.9.5 Régimen penal tributario
 
@@ -1675,8 +1676,8 @@ Está en el **Título IX de la Ley 27.430**, que derogó la Ley 24.769. Lo que h
 antes de avanzar es la exclusión de la probation: el art. 76 bis último párrafo CP excluye los
 ilícitos **"de la Ley 24.769"**, que ya no existe (24.4).
 
-`[REVISIÓN NORMATIVA REQUERIDA: alcance de la exclusion del art. 76 bis ultimo parrafo CP respecto del Titulo IX de la Ley 27.430 tras la derogacion de la Ley 24.769, y umbrales de punibilidad vigentes a la fecha de la consulta]`
-`[VERIFICAR MONTO ACTUALIZADO: umbrales de punibilidad del Titulo IX de la Ley 27.430 - se actualizan por ley y quedan desactualizados rapido]`
+`[REVISIÓN NORMATIVA REQUERIDA: alcance de la exclusión del art. 76 bis último párrafo CP respecto del Título IX de la Ley 27.430 tras la derogación de la Ley 24.769, y umbrales de punibilidad vigentes a la fecha de la consulta]`
+`[VERIFICAR MONTO ACTUALIZADO: umbrales de punibilidad del Título IX de la Ley 27.430 - se actualizan por ley y quedan desactualizados rapido]`
 
 ---
 

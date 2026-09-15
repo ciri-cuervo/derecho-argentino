@@ -11,32 +11,32 @@
 ### 5.1 Régimen aplicable según fecha del acto extintivo — verificar siempre primero
 
 La LCT fue reformada en tres tramos: DNU 70/2023 (BO 21/12/2023), Ley 27.742 "Bases"
-(BO 8/7/2024, vigencia 9/7/2024) y Ley 27.802 "Modernización Laboral" (BO 6/3/2026,
+(BO 08/07/2024, vigencia 09/07/2024) y Ley 27.802 "Modernización Laboral" (BO 06/03/2026,
 vigencia desde la publicación). Los regímenes **no son intercambiables**.
 
 | Acto extintivo | Régimen |
-|---|---|
+| --- | --- |
 | Anterior al 30-dic-2023 | LCT texto original |
 | 30-dic-2023 a 8-jul-2024 | DNU 70/2023 — ver advertencia abajo |
 | **Desde el 9-jul-2024** a 5-mar-2026 | + Ley 27.742 |
 | Desde 6-mar-2026 | + Ley 27.802 |
 
-El corte operativo de la Ley 27.742 es el **9/7/2024**: es la fecha desde la cual operan
+El corte operativo de la Ley 27.742 es el **09/07/2024**: es la fecha desde la cual operan
 todas las derogaciones de la sección 5.3.
 
 > **Advertencia sobre el tramo del DNU 70/2023.** El Título laboral del DNU estuvo
 > judicialmente suspendido. No está confirmado que sus modificaciones a la base del art. 245
 > hayan regido efectivamente en ese tramo. Antes de liquidar un acto extintivo comprendido
-> entre el 30/12/2023 y el 8/7/2024, emitir:
+> entre el 30/12/2023 y el 08/07/2024, emitir:
 > `[REVISIÓN NORMATIVA REQUERIDA: vigencia efectiva del Título laboral del DNU 70/2023 en el tramo del acto extintivo - verificar estado cautelar a esa fecha]`
 
 **Ventana cautelar de la Ley 27.802 y estado judicial.** Vigencia plena desde el
-**23/4/2026**. Cronología: cautelar del Juzgado Nacional del Trabajo N°63 del 30/3/2026
+**23/04/2026**. Cronología: cautelar del Juzgado Nacional del Trabajo N°63 del 30/03/2026
 suspendiendo 82 artículos; Sala VIII de la CNAT le concede efecto suspensivo al recurso del
-Estado el 23/4/2026; la CSJN rechaza el per saltum el 7/5/2026; el Juzgado Contencioso
-Administrativo Federal N°12 deja sin efecto la cautelar el 8/5/2026; la Sala IV de la Cámara
+Estado el 23/04/2026; la CSJN rechaza el per saltum el 07/05/2026; el Juzgado Contencioso
+Administrativo Federal N°12 deja sin efecto la cautelar el 08/05/2026; la Sala IV de la Cámara
 Contencioso Administrativo Federal confirma el rechazo de una nueva cautelar de la CGT sobre
-81 artículos el 8/7/2026. El fondo sigue pendiente ante el JCAF N°12, sin cautelar activa.
+81 artículos el 08/07/2026. El fondo sigue pendiente ante el JCAF N°12, sin cautelar activa.
 Hay jurisprudencia que declara la inconstitucionalidad de los arts. 55 y 56 de la Ley 27.802.
 
 Esta cronología **no tiene fuente primaria pública del expediente**: se sostiene en fuentes
@@ -45,7 +45,7 @@ secundarias. Al invocarla:
 
 ### 5.2 Indemnización por antigüedad (art. 245 LCT)
 
-**Régimen vigente (actos extintivos desde el 6/3/2026, texto art. 51 Ley 27.802):**
+**Régimen vigente (actos extintivos desde el 06/03/2026, texto art. 51 Ley 27.802):**
 
 - **Multiplicador:** un mes de sueldo por cada año de servicio o fracción mayor de tres meses.
 - **Base:** la mejor remuneración mensual, normal y habitual devengada durante el último año
@@ -158,12 +158,12 @@ escribir como si estuviera resuelta en ningún sentido. Un escrito que pida rein
 que decir por qué la Ley 23.592 no quedó desplazada; uno que la niegue de plano, por qué el
 art. 245 bis derogaría tácitamente una ley general de actos discriminatorios.
 
-`[INSERTAR FALLO VERIFICADO: subsistencia de la accion de nulidad y reinstalacion de la Ley 23.592 frente al ultimo parrafo del art. 245 bis LCT texto Ley 27.742 - aportar caratula, sala, fuero y anio]`
+`[INSERTAR FALLO VERIFICADO: subsistencia de la acción de nulidad y reinstalación de la Ley 23.592 frente al último párrafo del art. 245 bis LCT texto Ley 27.742 - aportar carátula, sala, fuero y año]`
 
 **Las dos listas de motivos no coinciden, y esto sí se puede usar hoy.**
 
 | Sólo en el **art. 245 bis LCT** | En **ambos** | Sólo en el **art. 1 Ley 23.592** |
-|---|---|---|
+| --- | --- | --- |
 | etnia · género · orientación sexual · discapacidad | raza · religión · nacionalidad · ideología · opinión política o gremial · sexo · posición económica · caracteres físicos | **condición social** |
 
 La enumeración del art. 1 de la Ley 23.592 es **abierta** —dice "motivos tales como"—, mientras
@@ -176,16 +176,16 @@ prohibición y el principio, no la tarifa.
 
 ### 5.3 Agravantes derogados — error frecuente
 
-Para actos extintivos **desde el 9/7/2024** estos agravantes **no existen**. No invocarlos
+Para actos extintivos **desde el 09/07/2024** estos agravantes **no existen**. No invocarlos
 en telegramas, liquidaciones ni demandas.
 
-| Instituto | Norma | Estado desde 9/7/2024 |
-|---|---|---|
+| Instituto | Norma | Estado desde 09/07/2024 |
+| --- | --- | --- |
 | Agravantes por registración deficiente | **Arts. 8 a 17 Ley 24.013** (incluye 8, 9, 10, 11 y 15) | DEROGADOS en bloque por art. 99 Ley 27.742 |
 | Duplicación art. 245 y recargo del 50% | Ley 25.323, arts. 1 y 2 | DEROGADA íntegramente por art. 100 Ley 27.742 |
 | Multa por falta de certificados | Ley 25.345, arts. 43 a 48 (incluye el 45) | DEROGADOS por art. 99 Ley 27.742 |
 
-Para actos **anteriores** al 9/7/2024 los agravantes de la Ley 24.013 y el art. 2 de la
+Para actos **anteriores** al 09/07/2024 los agravantes de la Ley 24.013 y el art. 2 de la
 Ley 25.323 requerían **intimación fehaciente previa** del trabajador. Sin intimación, no procedían.
 
 > **Y para esos actos anteriores hay dos reglas del texto de la Ley 25.323 que se liquidan mal.**
@@ -206,7 +206,7 @@ Ley 25.323 requerían **intimación fehaciente previa** del trabajador. Sin inti
 > a los **arts. 6 y 7 de la 25.013** además de los arts. 232, 233 y 245.
 
 **Intimación de registro vigente:** el art. 11 quedó comprendido en el bloque derogado. El
-fundamento actual son los **arts. 7, 7 bis, 7 ter y 7 quáter** de la Ley 24.013 (texto según
+fundamento actual son los **arts. 7, 7 bis, 7 ter y 7 quater** de la Ley 24.013 (texto según
 Ley 27.742 y, para el 7 ter, Ley 27.802).
 
 > **El plazo de 30 días se quedó huérfano y se sigue usando.** Lo fijaba el **art. 11 inc. a**,
@@ -228,7 +228,7 @@ cuáles: la falta de inscripción, la real fecha de ingreso y el monto total de 
 agrega una exigencia temporal propia: hay que denunciar **apenas se conoce la irregularidad**. Es
 una vía autónoma, desvinculada del telegrama al empleador.
 
-**Art. 7 quáter.** Firme una sentencia que determine empleo no registrado, el tribunal debe
+**Art. 7 quater.** Firme una sentencia que determine empleo no registrado, el tribunal debe
 comunicarlo al organismo recaudador **dentro de los diez días hábiles** de firme y consentida,
 con todo lo que permita determinar la deuda, y reconocer los años de servicio. Si la relación
 estaba enmarcada erróneamente como obra o servicios, de la deuda se deducen **los componentes ya
@@ -236,7 +236,7 @@ ingresados** por el régimen del que se trate.
 
 **Certificados (art. 80 LCT, texto Ley 27.802):** 45 días hábiles desde la extinción; tres
 vías de cumplimiento (físico, digital fehaciente, o disponibilidad en ARCA). Sin multa
-específica desde el 9/7/2024: la vía es la acción de cumplimiento de obligación de hacer con
+específica desde el 09/07/2024: la vía es la acción de cumplimiento de obligación de hacer con
 astreintes (art. 804 CCyCN). Procedimiento operativo: RG ARCA 5848/2026, formulario F.984 en
 "Simplificación Registral". **Antes de intimar, verificar en el servicio "Trabajo en Blanco"
 de arca.gob.ar si ya están a disposición** — si lo están, la intimación carece de objeto.
@@ -247,7 +247,7 @@ de arca.gob.ar si ya están a disposición** — si lo están, la intimación ca
   30-dic-2023: 3 meses. Desde entonces: **6 meses** como regla general; ampliable a 8 meses
   por CCT en empresas de 6 a 100 trabajadores y a 1 año por CCT en empresas de hasta 5. Las
   ampliaciones requieren CCT expreso. La Ley 27.802 **no** modificó el art. 92 bis.
-  Preaviso: 15 días hasta el 5/3/2026; **sin preaviso** desde el 6/3/2026 (art. 231 inc. b,
+  Preaviso: 15 días hasta el 05/03/2026; **sin preaviso** desde el 06/03/2026 (art. 231 inc. b,
   texto art. 48 Ley 27.802). Verificar siempre si el período ya estaba vencido al extinguir:
   si venció, hay todos los derechos del despido sin causa.
 - **Preaviso (art. 231 LCT, texto art. 48 Ley 27.802).** Un mes hasta 5 años de antigüedad;
@@ -270,7 +270,7 @@ de arca.gob.ar si ya están a disposición** — si lo están, la intimación ca
   que entre en vigencia un nuevo convenio. No describir el efecto como fin liso y llano de la
   ultraactividad: el punto es discutible y la contraria lo va a discutir.
 - **Teletrabajo.** Ley 27.555 abrogada por el art. 199 de la Ley 27.802, **con vigencia
-  diferida al 1/1/2027**. Durante 2026 sigue rigiendo.
+  diferida al 01/01/2027**. Durante 2026 sigue rigiendo.
 - **Banco de horas (art. 197 bis, texto Ley 27.802).** Admite acuerdo **individual** escrito,
   voluntario, con control fehaciente de horas y respeto de la pausa de 12 horas.
 
@@ -283,9 +283,9 @@ Los artículos que fijan el régimen de intereses son **de la Ley 27.802**, no d
 Citarlos como "arts. 54-56 LCT" es un error que se detecta en la presentación.
 
 | Norma que hay que citar | Contenido |
-|---|---|
+| --- | --- |
 | **Art. 276 LCT** (texto art. 54 Ley 27.802) | Créditos nuevos: actualización por IPC Nivel General del INDEC **+ 3% anual**. |
-| **Art. 55 de la Ley 27.802** (norma autónoma, no LCT) | Juicios en trámite y aún pendientes de sentencia definitiva al 6/3/2026, más las quejas pendientes de resolución. Tres incisos encadenados, ver abajo. El BCRA lo instrumentó por Res. Directorio 45/2026. |
+| **Art. 55 de la Ley 27.802** (norma autónoma, no LCT) | Juicios en trámite y aún pendientes de sentencia definitiva al 06/03/2026, más las quejas pendientes de resolución. Tres incisos encadenados, ver abajo. El BCRA lo instrumentó por Res. Directorio 45/2026. |
 | **Art. 277 LCT** (texto art. 56 Ley 27.802) | Depósito en cuenta sueldo, tope de costas y honorarios, y **pago en cuotas** de la condena según tamaño de empresa. |
 
 El **art. 54 LCT fue derogado** por el art. 207 de la Ley 27.802. Los **arts. 55 y 57 LCT
@@ -297,7 +297,7 @@ con intereses.
 es lo que decide el número:
 
 | Inciso | Texto legal | Qué hace |
-|---|---|---|
+| --- | --- | --- |
 | a | *"intereses moratorios ajustados a la tasa pasiva determinada por el Banco Central de la República Argentina (BCRA) a estos fines para el período correspondiente"* | Es el **cálculo base** |
 | b | *"En ningún caso el resultado, aplicando las pautas del inciso a)... podrá ser superior al importe derivado de adicionar al capital histórico la suma resultante de la aplicación sobre el mismo del Índice de Precios al Consumidor (IPC)... con más una tasa de interés del tres por ciento (3%) anual"* | Es el **techo** del inciso a) |
 | c | *"El valor resultante no podrá ser inferior al sesenta y siete por ciento (67%) del cálculo obtenido al aplicar las pautas del inciso b)"* | Es el **piso**, y se mide **sobre el inciso b), no sobre el a)** |
@@ -328,7 +328,7 @@ articuladas entre sí. **No fijar intereses sin resolver antes en cuál de las t
 crédito.**
 
 **Capa 1 — Doctrina "Barrios" de la SCBA.** Causa **C. 124.096**, *"Barrios, Héctor Francisco
-y otra contra Lascano, Sandra Beatriz y otra. Daños y perjuicios"*, **17/4/2024**. Declaró la
+y otra contra Lascano, Sandra Beatriz y otra. Daños y perjuicios"*, **17/04/2024**. Declaró la
 **inconstitucionalidad sobrevenida del art. 7 de la Ley 23.928 según Ley 25.561** y su
 inaplicabilidad al caso, y habilitó la actualización del crédito. La pauta de cálculo, en
 palabras del fallo: *"Para el cálculo de la actualización monetaria se emplearán los índices
@@ -338,7 +338,7 @@ aplicado."*
 
 > **La prohibición de indexar tiene una excepción legal, y NO es ésta.** El consolidado de la Ley
 > 23.928 remite, al pie de sus arts. 7 y 10, al **art. 62 de la Ley 27.798** (Presupuesto 2026, BO
-> 2/1/2026) como excepción. Leído en InfoLEG, el art. 62 exceptúa *"las operaciones de préstamos y
+> 02/01/2026) como excepción. Leído en InfoLEG, el art. 62 exceptúa *"las operaciones de préstamos y
 > de emisión de títulos públicos, en moneda nacional de las provincias y de la Ciudad Autónoma de
 > Buenos Aires con destino a financiar obras de infraestructura o a reestructuración de deuda"*,
 > con la autorización de los arts. 25 y 26 de la Ley 25.917.
@@ -361,15 +361,15 @@ interés puro, no una tasa fija. Abandona el esquema anterior. La cadena complet
 está armada una liquidación que llega al Tribunal:
 
 | Etapa | Precedentes | Criterio |
-|---|---|---|
+| --- | --- | --- |
 | 2009 | "Ginossi" (L. 94.446) y "Ponce" (C. 101.774), 21/10/2009 | Tasa pasiva del Banco Provincia a 30 días |
 | 2013 | **"Abraham"** (L. 108.164, 13/11/2013) | Declara inconstitucional la Ley 14.399, que imponía tasa activa a los créditos laborales en PBA |
-| 2016 | **"Cabrera"** (C. 119.176) y **"Trofe"** (L. 118.587), ambos del **15/6/2016** | Tasa pasiva **más alta** del Banco Provincia a 30 días, sólo sobre el capital |
-| 2018 | **"Vera"** (C. 120.536, 18/4/2018) y **"Nidera"** (C. 121.134, 3/5/2018) | Si la deuda se cuantifica a valores actuales: 6% puro hasta la cuantificación, pasiva más alta después |
-| 2024 | **"Barrios"** (C. 124.096, 17/4/2024) | Valorismo: índice oficial más interés puro, techo 6% |
-| 2026 | **"Galarza"** (L. 132.729, 30/3/2026) | "Barrios" no alcanza a las prestaciones de la LRT |
+| 2016 | **"Cabrera"** (C. 119.176) y **"Trofe"** (L. 118.587), ambos del **15/06/2016** | Tasa pasiva **más alta** del Banco Provincia a 30 días, sólo sobre el capital |
+| 2018 | **"Vera"** (C. 120.536, 18/04/2018) y **"Nidera"** (C. 121.134, 03/05/2018) | Si la deuda se cuantifica a valores actuales: 6% puro hasta la cuantificación, pasiva más alta después |
+| 2024 | **"Barrios"** (C. 124.096, 17/04/2024) | Valorismo: índice oficial más interés puro, techo 6% |
+| 2026 | **"Galarza"** (L. 132.729, 30/03/2026) | "Barrios" no alcanza a las prestaciones de la LRT |
 
-"Trofe" es del **15/6/2016**, no de 2017: el "2017" que circula viene de una errata de la
+"Trofe" es del **15/06/2016**, no de 2017: el "2017" que circula viene de una errata de la
 memoria de la Secretaría Laboral de la SCBA. Es el par laboral de "Cabrera", del mismo día.
 
 Las sentencias están descargadas en `argentina/fuentes/jurisprudencia/`, con carátula, causa y
@@ -377,7 +377,7 @@ enlace en su `INDICE.md`.
 
 **Capa 2 — "Galarza" y el límite de "Barrios" en materia laboral.** Causa **L. 132.729**,
 *"Galarza, Daniel Alejandro c/ Prevención Aseguradora de Riesgos del Trabajo S.A. s/ accidente
-in itinere"*, **30/3/2026**. La SCBA **desestimó** el pedido de aplicar "Barrios" y convalidó
+in itinere"*, **30/03/2026**. La SCBA **desestimó** el pedido de aplicar "Barrios" y convalidó
 el mecanismo del **art. 11 de la Ley 27.348** (que modifica el art. 12 LRT): actualización del
 ingreso base por **RIPTE** más **tasa activa del Banco de la Nación Argentina** desde el
 accidente. El fundamento es que ahí ya hay un mecanismo legal de actualización, de modo que no
@@ -389,12 +389,12 @@ salarios, diferencias), donde no hay mecanismo legal equivalente, el alcance de 
 está resuelto. No afirmar que "Barrios" quedó dejado sin efecto para todo el fuero laboral.
 
 **Capa 3 — Art. 55 de la Ley 27.802.** Norma nacional, declarada de orden público, para los
-juicios en trámite al 6/3/2026: tasa pasiva del BCRA, con techo de IPC + 3% anual y piso del
+juicios en trámite al 06/03/2026: tasa pasiva del BCRA, con techo de IPC + 3% anual y piso del
 67% de ese cálculo. Para créditos nuevos rige el art. 276 LCT (texto art. 54 Ley 27.802): IPC
 Nivel General del INDEC + 3% anual. Ver 5.5.
 
-**Estado de la discusión en PBA al 13/09/2026** — el art. 55 está siendo inaplicado por
-inconstitucionalidad en primera instancia, con criterios divergentes:
+**Estado de la discusión en PBA a septiembre de 2026** — el art. 55 está siendo inaplicado
+por inconstitucionalidad en primera instancia, con criterios divergentes:
 
 - Tribunal del Trabajo N° 2 de La Plata, *"Burguera c/ Peterlana"*, marzo de 2026: declaró
   inconstitucional el art. 55 y aplicó IPC + tasa pura del 6% anual.
@@ -414,7 +414,7 @@ Antes de invocar cualquiera de ellos en una resolución:
 
 **Al fijar o controlar intereses, emitir siempre:**
 
-    [VERIFICAR TASA VIGENTE: fuero laboral PBA - determinar si el crédito cae bajo el art. 12 LRT texto Ley 27.348 ("Galarza"), bajo el art. 55 de la Ley 27.802, o bajo la doctrina "Barrios"; y verificar si la SCBA se pronunció después del 13/09/2026]
+    [VERIFICAR TASA VIGENTE: fuero laboral PBA - determinar si el crédito cae bajo el art. 12 LRT texto Ley 27.348 ("Galarza"), bajo el art. 55 de la Ley 27.802, o bajo la doctrina "Barrios"; y verificar si la SCBA se pronunció después de septiembre de 2026]
 
     [VERIFICAR MONTO ACTUALIZADO: serie del índice aplicado (IPC, RIPTE o CER) y tasa del período - INDEC / BCRA / Banco Provincia a la fecha del cálculo]
 
@@ -428,7 +428,6 @@ Precedentes de este apartado, con enlace a la sentencia oficial, en
 > en `concursos.md` sección 29. Y si se piensa extender la responsabilidad a socios o directores,
 > `societario.md` sección 31 — con la advertencia de que **desde 2015 la sociedad no inscripta ya
 > no genera solidaridad por sí sola** (art. 24 Ley 19.550).
-
 
 - **Art. 256 LCT: 2 años** desde que **cada crédito** es exigible. No confundir con el
   art. 258, reservado a las acciones por accidente de trabajo y enfermedad profesional (para
@@ -449,8 +448,9 @@ Precedentes de este apartado, con enlace a la sentencia oficial, en
 > la única mención de "treinta" es el tope del 30% de honorarios del conciliador. Si ese plazo
 > rige, sale de otro lado —el decreto reglamentario o el criterio del fuero—, y hay que
 > localizarlo antes de contar días sobre él.
-> `[VERIFICAR PLAZO: reanudacion de la prescripcion tras la clausura del SECLO - el art. 7 de la Ley 24.635 remite al art. 257 LCT, seis meses; el plazo de 30 dias desde la clausura no esta en esa ley: localizar la norma que lo fija antes de usarlo]`
-> `[VERIFICAR CRITERIO DEL FUERO: si el art. 7 de la Ley 24.635 produce suspension o interrupcion de la prescripcion, dado que su texto dice suspender y remite a un articulo que interrumpe - fuero y sala actuante]`
+> `[VERIFICAR PLAZO: reanudación de la prescripción tras la clausura del SECLO - el art. 7 de la Ley 24.635 remite al art. 257 LCT, seis meses; el plazo de 30 días desde la clausura no está en esa ley: localizar la norma que lo fija antes de usarlo]`
+> `[VERIFICAR CRITERIO DEL FUERO: si el art. 7 de la Ley 24.635 produce suspensión o interrupción de la prescripción, dado que su texto dice suspender y remite a un artículo que interrumpe - fuero y sala actuante]`
+
 - Interpelación fehaciente (art. 2541 CCyCN, 6 meses, por una sola vez): su aplicación
   supletoria en laboral es discutida. No asumir eficacia sin verificar el criterio de la sala
   o de la SCBA.
@@ -475,7 +475,6 @@ empleador la niega, y la prestación de horas extras.
 
 Es el mayor volumen del fuero y el apartado que más cambió en el último año: baremo nuevo,
 plazo de caducidad provincial declarado inconstitucional y montos actualizados por semestre.
-Verificado el 13/09/2026.
 
 #### 5.8.1 La instancia previa ante Comisiones Médicas es obligatoria
 
@@ -484,13 +483,13 @@ y excluyente, con **patrocinio letrado obligatorio** y honorarios a cargo de la 
 jurisdiccional debe expedirse en **sesenta días hábiles administrativos** (art. 3).
 
 **La CSJN la convalidó.** *"Pogonza, Jonathan Jesús c/ Galeno ART S.A. s/ accidente – ley
-especial"*, CNT 14604/2018/1/RH1, **2/9/2021**: es constitucionalmente válida **porque está
+especial"*, CNT 14604/2018/1/RH1, **02/09/2021**: es constitucionalmente válida **porque está
 garantizada una revisión judicial amplia y suficiente** ante tribunales con plena jurisdicción,
 donde las partes pueden ofrecer y producir prueba. Aplica "Fernández Arias" y "Ángel Estrada".
 
-**PBA adhirió por la Ley 14.997** (B.O. 8/1/2018), adhesión lisa y llana en dos artículos: las
+**PBA adhirió por la Ley 14.997** (B.O. 08/01/2018), adhesión lisa y llana en dos artículos: las
 "condiciones" que suelen citarse están en los fundamentos, no en el articulado. La SCBA declaró
-su constitucionalidad en **"Marchetti", L. 121.939, 13/5/2020**, con una consecuencia procesal
+su constitucionalidad en **"Marchetti", L. 121.939, 13/05/2020**, con una consecuencia procesal
 concreta: **demandado sin agotar la CM, la respuesta es incompetencia**, no rechazo de fondo.
 
 **El plazo de 15 días no está en la Ley 27.348.** Lo fija el **art. 16 de la Res. SRT 298/2017**
@@ -507,12 +506,12 @@ tenga pendiente ante la CMC, y la sentencia es vinculante para ambas partes.
 
 Dos pronunciamientos de la SCBA, que hay que leer juntos:
 
-- **"Bustos Torres", L. 124.285, 27/2/2023:** al prever una acción ordinaria de revisión
+- **"Bustos Torres", L. 124.285, 27/02/2023:** al prever una acción ordinaria de revisión
   **amplia y plena** —superadora del esquema recursivo de la ley nacional— el inc. j *"deja a
   resguardo los derechos constitucionales de acceso a la justicia, tutela judicial continua y
   efectiva, debido proceso y defensa en juicio"*. Revocó la declaración de
   inconstitucionalidad de los arts. 2 y 14 de la Ley 27.348.
-- **"Magliano", L. 131.700, 19/9/2025:** por mayoría de cuatro contra tres, **dejó firme la
+- **"Magliano", L. 131.700, 19/09/2025:** por mayoría de cuatro contra tres, **dejó firme la
   declaración de inconstitucionalidad del plazo de caducidad de noventa días hábiles
   judiciales**. Fundamento: es irrazonable un plazo de caducidad de noventa días cuando el
   derecho sustancial prescribe a los dos años (art. 44 LRT).
@@ -523,13 +522,13 @@ de la CM. Y **después de "Magliano" no corresponde declarar de oficio la caduci
 vencimiento de los noventa días. Ojo con el alcance: "Magliano" resuelve un caso, no deroga la
 norma; cada expediente exige planteo y decisión, aunque el criterio de casación es ese.
 
-    [VERIFICAR PRECEDENTE: "Magliano" (SCBA, L. 131.700, 19/9/2025) - confirmar composición de la mayoría y que no haya pronunciamiento posterior antes de citar]
+    [VERIFICAR PRECEDENTE: "Magliano" (SCBA, L. 131.700, 19/09/2025) - confirmar composición de la mayoría y que no haya pronunciamiento posterior antes de citar]
 
 #### 5.8.3 El baremo cambió: no es el de 1996
 
 **El Decreto 659/96 sigue vigente, pero su Anexo I fue sustituido íntegramente** por el
-**Decreto 549/2025** (B.O. 6/8/2025), con vigencia a los ciento ochenta días corridos, es
-decir **desde el 2/2/2026**. Al 13/09/2026 el baremo nuevo está plenamente vigente.
+**Decreto 549/2025** (B.O. 06/08/2025), con vigencia a los ciento ochenta días corridos, es
+decir **desde el 02/02/2026**. A septiembre de 2026 el baremo nuevo está plenamente vigente.
 
 **Lo que más importa para una causa en trámite:** se aplica *"a toda valoración o determinación
 de incapacidad laboral que no haya sido aún dictada, independientemente de la instancia
@@ -537,7 +536,7 @@ administrativa o judicial"*. Alcanza expedientes con primera manifestación inva
 anterior. Hay jurisprudencia que declaró inconstitucional esa aplicación retroactiva y doctrina
 que discute la validez del decreto: es materia abierta.
 
-    [VERIFICAR VIGENCIA: baremo aplicable - el Anexo I del Decreto 659/96 rige según el Decreto 549/2025 desde el 2/2/2026 y se aplica a toda valoración no dictada; verificar si en la causa se planteó su inconstitucionalidad]
+    [VERIFICAR VIGENCIA: baremo aplicable - el Anexo I del Decreto 659/96 rige según el Decreto 549/2025 desde el 02/02/2026 y se aplica a toda valoración no dictada; verificar si en la causa se planteó su inconstitucionalidad]
 
 **Factores de ponderación:** tipo de actividad y posibilidades de reubicación laboral —que se
 evalúan conjuntamente— y edad, por tabla de rangos. No se suman en puntos de incapacidad: su
@@ -550,7 +549,7 @@ suma opera como **incremento porcentual sobre el valor de la lesión**.
 ante la CM jurisdiccional, con decisión final de la **Comisión Médica Central**, y el
 reconocimiento vale **para el caso concreto** — no incorpora la dolencia al listado.
 
-**Informes médicos.** La **Res. SRT 7/2026** (B.O. 30/1/2026) aprobó el nuevo *Protocolo de
+**Informes médicos.** La **Res. SRT 7/2026** (B.O. 30/01/2026) aprobó el nuevo *Protocolo de
 Estudios Mínimos para la Valoración del Daño Corporal*, en adecuación al Decreto 549/2025, y
 derogó las Res. SRT 886/17 y 3/21. Es el estándar contra el que se controla el informe.
 
@@ -558,11 +557,11 @@ derogó las Res. SRT 886/17 y 3/21. Es el estándar contra el que se controla el
 
 **No es el texto de la Ley 27.348.** El art. 11 de la Ley 27.348 sustituyó el art. 12 LRT en
 2017, pero ese texto **fue a su vez sustituido por el art. 1 del Decreto 669/2019** (B.O.
-30/9/2019), que se aplica *"en todos los casos, independientemente de la fecha de la primera
+30/09/2019), que se aplica *"en todos los casos, independientemente de la fecha de la primera
 manifestación invalidante"*. Estructura vigente:
 
 | Apartado | Qué dice |
-|---|---|
+| --- | --- |
 | 1 | Ingreso base: promedio mensual de todos los salarios devengados en el año anterior a la primera manifestación invalidante, **actualizados mes a mes por RIPTE** |
 | 2 | Desde la primera manifestación invalidante hasta la puesta a disposición: interés equivalente a **la variación del RIPTE**, no una tasa financiera |
 | 3 | Si la ART no pone a disposición en plazo: **tasa activa** cartera general nominal anual vencida a 30 días del **Banco de la Nación**, con capitalización semestral |
@@ -592,10 +591,10 @@ Los coeficientes 53 y 65/edad están en el texto según el Decreto 1278/2000, y 
 en los dos artículos. Los topes nominales originales quedaron desplazados por los **pisos**
 que la SRT actualiza cada semestre.
 
-**Montos vigentes — Res. SRT 39/2026** (B.O. 2/9/2026), aplicable del **1/9/2026 al 28/2/2027**:
+**Montos vigentes — Res. SRT 39/2026** (B.O. 02/09/2026), aplicable del **01/09/2026 al 28/02/2027**:
 
 | Concepto | Monto |
-|---|---|
+| --- | --- |
 | Art. 11 ap. 4 inc. a (compensación adicional, art. 14.2.b) | $ 50.824.055 |
 | Art. 11 ap. 4 inc. b (arts. 15.2 y 17.1) | $ 63.530.069 |
 | Art. 11 ap. 4 inc. c (art. 18.1, muerte) | $ 76.236.060 |
@@ -617,7 +616,7 @@ civil, acciones no acumulables, y *"el principio de cobro de sumas o la iniciaci
 judicial en uno u otro sistema implica haber ejercido la opción con plenos efectos"*.
 
 **La SCBA convalidó su declaración de inconstitucionalidad.** *"Vera, Isabel contra Fisco de
-la Provincia de Buenos Aires. Enfermedad accidente"*, **L. 124.807, 11/5/2021**. La precisión
+la Provincia de Buenos Aires. Enfermedad accidente"*, **L. 124.807, 11/05/2021**. La precisión
 importa para citarlo bien: la inconstitucionalidad la había declarado el **tribunal de grado**
 —el Tribunal de Trabajo n° 4 de La Plata— y la Corte **rechazó el recurso extraordinario de
 inaplicabilidad de ley**, dejándola firme, con costas por su orden. No es un fallo en el que la
@@ -637,14 +636,14 @@ y holding leído contra el documento en `fallos-csjn.md` 34.3. Citar desde ahí,
 y "Aróstegui" dejó sin efecto y devolvió: son dos dispositivos distintos y se confunden seguido.
 
 En sede federal el punto **no está cerrado**: la causa llegó a la CSJN (CSJ 2221/2021/CS1) y
-tiene dictamen de la Procuración del 9/11/2023 que propone confirmar, apoyado en **"Llosco" y
+tiene dictamen de la Procuración del 09/11/2023 que propone confirmar, apoyado en **"Llosco" y
 "Cachambi"** — someterse al régimen especial y percibir sus prestaciones no implica renuncia a
 otras vías si el damnificado considera insuficiente lo percibido. **No consta sentencia.**
 
 **Regla operativa:** no afirmar sin más que la opción es irrevocable. Decir qué dice la ley,
 qué resolvió la SCBA y que la CSJN no se pronunció, y marcar:
 
-    [VERIFICAR PRECEDENTE: "Vera" (SCBA, L. 124.807, 11/5/2021) - confirmar si la CSJN se pronuncio en CSJ 2221/2021/CS1 despues del dictamen del 9/11/2023. El alcance -parrafos 2 y 3 del art. 4, texto anterior a la Ley 27.348- ya esta verificado]
+    [VERIFICAR PRECEDENTE: "Vera" (SCBA, L. 124.807, 11/05/2021) - confirmar si la CSJN se pronuncio en CSJ 2221/2021/CS1 después del dictamen del 09/11/2023. El alcance -parrafos 2 y 3 del art. 4, texto anterior a la Ley 27.348- ya está verificado]
 
 **Prescripción:** art. 44 LRT, dos años. No confundir con el art. 256 LCT (5.6).
 
@@ -675,7 +674,7 @@ que se hace en sede judicial. El orden importa: varios rubros se calculan sobre 
 el marcador y pedirlo.
 
 | Dato | Marcador si falta |
-|---|---|
+| --- | --- |
 | Fecha de ingreso | `[VACÍO PROBATORIO: fecha de ingreso - determina la antigüedad y el multiplicador del art. 245]` |
 | Fecha del acto extintivo | `[VACÍO PROBATORIO: fecha del acto extintivo - determina el tramo de reforma aplicable, ver 5.1]` |
 | Modo de extinción y quién lo dispuso | `[VACÍO PROBATORIO: modo de extinción - determina qué rubros proceden]` |
@@ -692,13 +691,13 @@ Qué integra la base cambia por tramo (5.2). Calcular **base y tope por separado
 ambos a la vista; el resultado es el mayor entre el tope y el 67% de la base, según el tramo.
 
 **Paso 3 — Multiplicador.** Un mes por año de servicio o fracción mayor a tres meses. Mínimo:
-un mes desde el 6/3/2026, dos meses en los regímenes anteriores (5.2).
+un mes desde el 06/03/2026, dos meses en los regímenes anteriores (5.2).
 
 **Paso 4 — Indemnización por antigüedad** = base ajustada por tope y piso × multiplicador.
 
 **Paso 5 — Preaviso omitido (art. 232).** Un mes hasta 5 años de antigüedad, dos meses si es
 superior (texto art. 48 Ley 27.802). Verificar antes si el período de prueba estaba vigente:
-15 días de preaviso hasta el 5/3/2026, sin preaviso desde el 6/3/2026 (5.4).
+15 días de preaviso hasta el 05/03/2026, sin preaviso desde el 06/03/2026 (5.4).
 
 **Paso 6 — Integración del mes de despido (art. 233).** Sólo si la extinción no operó el
 último día del mes. Salario de los días que faltaban para terminarlo.
@@ -709,7 +708,7 @@ superior (texto art. 48 Ley 27.802). Verificar antes si el período de prueba es
 extinción: días trabajados del mes; SAC proporcional del semestre; vacaciones no gozadas
 proporcionales (art. 156) con su SAC.
 
-**Paso 9 — Agravantes.** Verificar el tramo antes de incluir ninguno: **desde el 9/7/2024 los
+**Paso 9 — Agravantes.** Verificar el tramo antes de incluir ninguno: **desde el 09/07/2024 los
 agravantes de la Ley 24.013 y de la Ley 25.323 no existen** (5.3). Para actos anteriores, los
 que subsistían requerían intimación fehaciente previa: sin intimación acreditada, no proceden.
 
@@ -717,8 +716,8 @@ que subsistían requerían intimación fehaciente previa: sin intimación acredi
 cada tramo.
 
 **Paso 11 — Verificación de cierre.** Recalcular cada rubro una segunda vez, por separado, y
-verificar que los subtotales sumen el total. Aplicar además la verificación aritmética de la
-sección 8.6 a toda fecha calculada. Usar `scripts/liquidacion_lct.py`: es determinista y deja
+verificar que los subtotales sumen el total. Aplicar además la verificación aritmética de cierre
+de `plazos.md` 8.6 a toda fecha calculada. Usar `scripts/liquidacion_lct.py`: es determinista y deja
 la traza de cada paso.
 
 **En sede judicial**, la salida no es la liquidación sino el **cotejo**: rubro por rubro, lo
@@ -741,7 +740,7 @@ para *encontrar* el instituto y su articulado; lo que digan sobre montos, plazos
 se verifica antes de usarlo.
 
 | Instituto | Dónde |
-|---|---|
+| --- | --- |
 | Principios y orden público laboral (arts. 7-17 bis, 62-63 LCT) | **5.16** de este módulo. Absorbido: ya no se rutea al perfil |
 | Existencia y encuadre del contrato · registración | `kb/perfiles/laboral-CLAUDE.md` § Contrato de trabajo y § Registración |
 | Remuneración · rubros remunerativos y no remunerativos | `kb/perfiles/laboral-CLAUDE.md` § Remuneración |
@@ -764,11 +763,11 @@ vigencia, son de derecho aplicable.** Si el perfil y este módulo discrepan en e
 módulo.
 
 | El perfil dice | Lo correcto |
-|---|---|
+| --- | --- |
 | § Códigos por fuero · PBA: *"Código procesal: Ley 11.653 (Código Procesal Laboral PBA) y modificatorias"*, sin mencionar la Ley 15.057 | **Incompleto para media cartera.** El art. 88 de la Ley 15.057 derogó la 11.653, y la Res. SC 1840/2024 la puso operativa para las causas **sin** audiencia de vista celebrada; las anteriores siguen bajo la 11.653 por ultraactividad. Ninguno de los dos códigos rige solo: hay que preguntar la fecha de la audiencia antes de citar un artículo procesal. Rige `sede-judicial-pba.md` 1.6.1 |
-| § Accidentes: la opción del art. 4 Ley 26.773 es *"excluyente e irrevocable"*, sin matiz | La SCBA la declaró inconstitucional en **"Vera"** (L. 124.807, 11/5/2021). Ver 5.8.6 |
+| § Accidentes: la opción del art. 4 Ley 26.773 es *"excluyente e irrevocable"*, sin matiz | La SCBA la declaró inconstitucional en **"Vera"** (L. 124.807, 11/05/2021). Ver 5.8.6 |
 | § Accidentes: *"Plazo para impugnar la resolución de la Comisión Médica: 15 días"*, como si fuera de la Ley 27.348 | Son del **art. 16 Res. SRT 298/2017** y hábiles **administrativos**; y en PBA la revisión es acción ordinaria del art. 2 inc. j Ley 15.057, con la caducidad de 90 días declarada inconstitucional en **"Magliano"** (L. 131.700). Ver 5.8.1 y 5.8.2 |
-| § Accidentes: baremo del Decreto 658/96 *"actualizado por Decreto 49/2014"* | Ignora el **Decreto 549/2025**, que sustituyó íntegramente el Anexo I con vigencia 2/2/2026. Ver 5.8.3. Tampoco tiene el ingreso base del art. 12 según Decreto 669/2019 (5.8.4) |
+| § Accidentes: baremo del Decreto 658/96 *"actualizado por Decreto 49/2014"* | Ignora el **Decreto 549/2025**, que sustituyó íntegramente el Anexo I con vigencia 02/02/2026. Ver 5.8.3. Tampoco tiene el ingreso base del art. 12 según Decreto 669/2019 (5.8.4) |
 
 Telegramas y cartas documento: `kb/escritos/laboral/telegrama/` — ocho bloques de modelos, más
 `kb/escritos/laboral/telegrama/reglas-normativas.md` y `kb/escritos/laboral/telegrama/tipos-de-telegrama.md`. Ver `modelos.md` sección 23.
@@ -779,23 +778,23 @@ Telegramas y cartas documento: `kb/escritos/laboral/telegrama/` — ocho bloques
 
 El despido sin causa, su base de cálculo y los tramos de reforma están en 5.1 a 5.4. Acá van
 los demás modos. Articulado cotejado contra `fuentes/normas/lct-20744.txt` —consolidado de
-InfoLEG, SHA-256 `6c7f515e…`, descargado el 13/9/2026— y contra el Decreto 407/2026.
+InfoLEG, SHA-256 `6c7f515e…`, descargado en septiembre de 2026— y contra el Decreto 407/2026.
 
 **Cada artículo tiene su propia fecha de corte y no es la del art. 245.** Rige la regla de
 5.1 —el acto extintivo se juzga por el texto vigente a su fecha— pero artículo por artículo.
 
 | Artículo | Texto vigente según | Sustituido desde |
-|---|---|---|
-| 240 · renuncia | art. 49 Ley 27.802 | 6/3/2026, con la ventana cautelar de 5.1 |
-| 241 · mutuo acuerdo | art. 50 Ley 27.802 | 6/3/2026, con la ventana cautelar de 5.1 |
-| 242 · justa causa | art. 94 Ley 27.742 | 9/7/2024 |
+| --- | --- | --- |
+| 240 · renuncia | art. 49 Ley 27.802 | 06/03/2026, con la ventana cautelar de 5.1 |
+| 241 · mutuo acuerdo | art. 50 Ley 27.802 | 06/03/2026, con la ventana cautelar de 5.1 |
+| 242 · justa causa | art. 94 Ley 27.742 | 09/07/2024 |
 | 243, 244, 246, 247 | texto de la Ley 20.744 | sin sustitución posterior |
 | 212, 213, 254 | texto de la Ley 20.744 | sin sustitución posterior |
 | 252 | art. 7° Ley 27.426 | 29/12/2017 |
-| 253 | Ley 24.347 y art. 8° Ley 27.426 | 29/6/1994 y 29/12/2017 |
+| 253 | Ley 24.347 y art. 8° Ley 27.426 | 29/06/1994 y 29/12/2017 |
 
-Para los arts. 240 y 241 no alcanza con mirar el 6/3/2026: la vigencia plena de la Ley 27.802
-es del 23/4/2026 y en el medio hubo cautelar. La cronología y su marcador están en 5.1.
+Para los arts. 240 y 241 no alcanza con mirar el 06/03/2026: la vigencia plena de la Ley 27.802
+es del 23/04/2026 y en el medio hubo cautelar. La cronología y su marcador están en 5.1.
 
 El consolidado de `fuentes/` trae **solo el texto vigente**. Para un acto extintivo anterior
 a la fecha de corte del artículo hay que ir a los antecedentes normativos de InfoLEG: el texto
@@ -814,7 +813,7 @@ Los despachos son gratuitos y se expiden requiriendo validación de identidad.
 
 Lo que abrió la Ley 27.802 fue el formato digital y la remisión a una reglamentación para la
 vía administrativa. **Esa reglamentación tiene un eslabón que falta.** El Decreto 407/2026
-(B.O. 1/6/2026), Anexo I art. 7, no fija el procedimiento: instruye a la Secretaría de
+(B.O. 01/06/2026), Anexo I art. 7, no fija el procedimiento: instruye a la Secretaría de
 Trabajo, Empleo y Seguridad Social a dictarlo, con registro y notificación fehaciente al
 empleador. Mientras ese procedimiento no exista, la vía administrativa del art. 240 no tiene
 forma determinada y el despacho telegráfico es el único camino sin discusión.
@@ -869,7 +868,7 @@ personales del caso. Ese tramo es el mismo desde 1976.
 **Lo que agregó la Ley 27.742** son tres capas distintas y conviene no tratarlas como una:
 
 | Capa | Texto |
-|---|---|
+| --- | --- |
 | Causal objetiva | La participación activa en bloqueos o tomas de establecimiento **podrá configurar** grave injuria laboral como causal objetiva de extinción |
 | Presunción | **Se presume** injuria grave cuando, durante una medida de acción directa: (a) se afecta la libertad de trabajo de quienes no adhieren, mediante actos, hechos, intimidaciones o amenazas; (b) se impide u obstruye total o parcialmente el ingreso o egreso de personas y/o cosas al establecimiento; (c) se ocasionan daños en personas o en cosas de la empresa o de terceros situadas en el establecimiento —instalaciones, mercaderías, insumos y materias primas, herramientas— o se las retiene indebidamente |
 | Carga previa | **Previo al distracto el empleador debe intimar al trabajador al cese de la conducta injuriosa**, excepto en el supuesto del inciso c), donde la producción del daño torna inoficiosa la intimación |
@@ -920,7 +919,7 @@ El art. 212 tiene **cuatro supuestos con tres consecuencias patrimoniales distin
 punto del módulo donde más caro sale equivocarse.
 
 | Supuesto del art. 212 | Qué debe el empleador |
-|---|---|
+| --- | --- |
 | 1º párr · Vigente el plazo de conservación del empleo, del accidente o enfermedad resulta disminución definitiva de la capacidad y el trabajador no puede hacer sus tareas anteriores | Asignarle otras que pueda ejecutar **sin disminución de su remuneración**. La relación continúa |
 | 2º párr · **No puede** asignarlas por causa que no le fuere imputable | Indemnización igual a la del **art. 247** —la mitad de la del art. 245— |
 | 3º párr · **Estando en condiciones de hacerlo**, no le asigna tareas compatibles con su aptitud física o psíquica | Indemnización igual a la del **art. 245**, completa |
@@ -992,7 +991,7 @@ antigüedad se computa desde la **fecha del acuerdo de la prestación**.
 #### 5.12.7 Qué se paga en cada modo
 
 | Modo | Antigüedad | Preaviso e integración | Rubro propio |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Renuncia (240) | no | no | — |
 | Mutuo acuerdo (241) | no | no | lo que las partes acuerden, con el control del art. 15 |
 | Voluntad concurrente por silencio de dos meses (241, últ. párr.) | no | no | — |
@@ -1021,10 +1020,10 @@ Orden de cálculo y bases, en 5.10. Intereses, en 5.5 y 5.5 bis.
 ### 5.13 Maternidad, estabilidad y excedencia (arts. 177 a 186)
 
 Articulado cotejado contra `fuentes/normas/lct-20744.txt`. **Sólo el art. 177 fue
-sustituido** —por el art. 93 de la Ley 27.742, B.O. 8/7/2024—. Los arts. 178 a 186 conservan
+sustituido** —por el art. 93 de la Ley 27.742, B.O. 08/07/2024—. Los arts. 178 a 186 conservan
 el texto de la Ley 20.744, y esa asimetría tiene consecuencias que se ven más abajo.
 
-`[VERIFICAR VIGENCIA: para un parto o un despido anterior al 9/7/2024 rige el texto anterior del art. 177 - antecedentes normativos de InfoLEG]`
+`[VERIFICAR VIGENCIA: para un parto o un despido anterior al 09/07/2024 rige el texto anterior del art. 177 - antecedentes normativos de InfoLEG]`
 
 #### 5.13.1 Licencia y conservación del empleo (art. 177)
 
@@ -1104,7 +1103,7 @@ Vencida la licencia, la trabajadora que tuvo un hijo y **continúa residiendo en
 puede optar entre tres caminos:
 
 | Opción | Qué implica | Requisito de antigüedad |
-|---|---|---|
+| --- | --- | --- |
 | a) Continuar trabajando | En las mismas condiciones en que lo venía haciendo | ninguno |
 | b) Rescindir el contrato | Cobra la compensación por tiempo de servicio del propio inciso, o los mayores beneficios del estatuto o CCT | **1 año** (art. 185) |
 | c) Excedencia | Período **no inferior a 3 ni superior a 6 meses**, sin remuneración, con derecho a reintegrarse a las tareas que desempeñaba a la época del alumbramiento | **1 año** (art. 185) |
@@ -1150,7 +1149,7 @@ defensas más usadas del otro lado.
 La salida del régimen —reincorporación, incapacidad y despido durante la licencia, arts. 212
 a 214— está en **5.12.5**. Acá va la entrada: plazos, aviso, acreditación y conservación.
 
-**Los arts. 209 y 210 fueron sustituidos por la Ley 27.802** (arts. 44 y 45, B.O. 6/3/2026,
+**Los arts. 209 y 210 fueron sustituidos por la Ley 27.802** (arts. 44 y 45, B.O. 06/03/2026,
 con la ventana cautelar de 5.1). Los arts. 208 y 211 conservan el texto de la Ley 20.744.
 
 > **Confusión que hay que desarmar antes de seguir.** El plazo del art. 208 y el del art. 211
@@ -1163,7 +1162,7 @@ con la ventana cautelar de 5.1). Los arts. 208 y 211 conservan el texto de la Le
 #### 5.14.1 Plazo de licencia paga (art. 208)
 
 | Antigüedad | Sin carga de familia | Con carga de familia |
-|---|---|---|
+| --- | --- | --- |
 | Menor de 5 años | 3 meses | 6 meses |
 | Mayor de 5 años | 6 meses | 12 meses |
 
@@ -1209,7 +1208,7 @@ son ahora legales, no reglamentarios:
   **firmado digitalmente** a través de las plataformas electrónicas autorizadas por la **Ley
   27.553** y su reglamentación.
 
-El **Decreto 407/2026**, Anexo I art. 6 (B.O. 1/6/2026), es el que baja eso a registros
+El **Decreto 407/2026**, Anexo I art. 6 (B.O. 01/06/2026), es el que baja eso a registros
 concretos: la licencia debe emitirse mediante sistema o plataforma digital registrada en el
 **Registro Nacional de Plataformas Digitales Sanitarias (ReNaPDiS)** y estar suscripta por
 profesional habilitado ante la **Red Federal de Registros de Profesionales de la Salud
@@ -1217,8 +1216,8 @@ profesional habilitado ante la **Red Federal de Registros de Profesionales de la
 
 Antes de construir una defensa sobre el formato del certificado, dos cosas:
 
-1. La exigencia de firma digital y de plataforma registrada es **posterior al 6/3/2026** en la
-   ley y al 1/6/2026 en el reglamento. Para inasistencias anteriores no se puede reprochar un
+1. La exigencia de firma digital y de plataforma registrada es **posterior al 06/03/2026** en la
+   ley y al 01/06/2026 en el reglamento. Para inasistencias anteriores no se puede reprochar un
    formato que no existía.
 2. Que el certificado sea formalmente deficiente no equivale, sin más, a que la enfermedad no
    exista. `[VERIFICAR CRITERIO DEL FUERO: efecto del certificado sin firma digital o de plataforma no registrada sobre la justificación de la inasistencia - fuero y sala actuante]`
@@ -1253,7 +1252,7 @@ art. 212 y ahí sí hay indemnización, según cuál de sus cuatro supuestos se 
 **La línea de tiempo completa**, que es lo que el perfil no permite ver:
 
 | Tramo | Norma | Paga | Puesto |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Licencia | art. 208 | sí, remuneración | conservado |
 | Año de reserva | art. 211 | no | conservado |
 | Después del año | art. 211 | no | subsiste hasta que una parte notifique; sin indemnización |
@@ -1270,7 +1269,7 @@ tolerancia de meses anteriores no purga el actual.
 ### 5.15 Suspensiones y poder disciplinario (arts. 67 a 69 y 218 a 224)
 
 Articulado cotejado contra `fuentes/normas/lct-20744.txt`. **Sólo el art. 68 fue sustituido**,
-por el art. 24 de la Ley 27.802 (B.O. 6/3/2026, con la ventana cautelar de 5.1). Los arts. 67,
+por el art. 24 de la Ley 27.802 (B.O. 06/03/2026, con la ventana cautelar de 5.1). Los arts. 67,
 69 y 218 a 224 conservan el texto de la Ley 20.744; el 223 bis viene de la Ley 24.700.
 
 #### 5.15.1 Los tres requisitos de validez (art. 218)
@@ -1293,7 +1292,7 @@ esas tres no hay suspensión válida.
 #### 5.15.2 Los plazos máximos, que son tres y se cuentan distinto
 
 | Causal | Tope | Cómputo |
-|---|---|---|
+| --- | --- | --- |
 | Disciplinarias **y** falta o disminución de trabajo, **sumadas** | **30 días en un año** | desde la primera suspensión |
 | Fuerza mayor debidamente comprobada | **75 días en un año** | desde la primera suspensión, **cualquiera fuese su motivo** |
 | Todas las causales **en conjunto** | **90 días en un año** | desde la primera suspensión |
@@ -1322,7 +1321,7 @@ los fusiona en una sola línea y se pierden las dos mitades.
 **Art. 67 · qué pasa con la sanción.** El empleador puede aplicar medidas disciplinarias
 **proporcionadas** a las faltas o incumplimientos **demostrados**. Dentro de los **treinta (30)
 días corridos** de notificada la medida el trabajador puede cuestionar su procedencia y el tipo
-o extensión, para que se la **suprima, sustituya por otra o limite**. Vencido el término, **se
+o extensión, para que se la **suprima, sustituya por otra o límite**. Vencido el término, **se
 tiene por consentida la sanción**.
 
 Tres precisiones sobre ese plazo: son **corridos**, no hábiles; corren desde la **notificación**
@@ -1371,7 +1370,7 @@ con él las diferencias de aportes, SAC, vacaciones y base indemnizatoria.
 #### 5.15.5 Suspensión preventiva por denuncia penal (art. 224)
 
 | Quién denunció | Qué pasa |
-|---|---|
+| --- | --- |
 | **El empleador**, y la denuncia se desestima o el trabajador es sobreseído provisoria o definitivamente | Debe **reincorporarlo** y **pagar los salarios perdidos** durante la suspensión preventiva, salvo que el trabajador opte por considerarse despedido. Si el empleador se niega a reincorporar: indemnización por despido **más** los salarios perdidos |
 | **Un tercero**, o proceso promovido de oficio, con **privación de la libertad** del trabajador | El empleador **no** está obligado a pagar la remuneración por el tiempo de la suspensión, **salvo** que se trate de un hecho relativo o producido **en ocasión del trabajo** |
 
@@ -1383,7 +1382,7 @@ hay que averiguar primero cuando aparece una suspensión preventiva en una liqui
 ### 5.16 Principios y orden público laboral (arts. 7 a 17 bis, 62 y 63)
 
 Articulado cotejado contra `fuentes/normas/lct-20744.txt`. **La Ley 27.802 sustituyó los arts.
-9, 11, 12, 15 y 16 e incorporó el 11 bis**, todos con vigencia del 6/3/2026 y la ventana
+9, 11, 12, 15 y 16 e incorporó el 11 bis**, todos con vigencia del 06/03/2026 y la ventana
 cautelar de 5.1. Los arts. 7, 8, 10, 13, 14, 17, 17 bis, 62 y 63 conservan el texto anterior.
 
 Esto no es preámbulo retórico: son las normas que deciden si una cláusula vale, si un acuerdo
@@ -1440,7 +1439,7 @@ paráfrasis "instituto por instituto".
 > hay prueba en contrario, y la usa para la carga probatoria. **El texto vigente del art. 9 no
 > tiene segundo párrafo.** La duda sobre los hechos y la prueba se resuelven hoy por las
 > presunciones concretas de 5.7 —arts. 55 y 57 LCT— y por las reglas procesales del fuero, no
-> por un párrafo del art. 9. Para actos anteriores al 6/3/2026 hay que cotejar el texto
+> por un párrafo del art. 9. Para actos anteriores al 06/03/2026 hay que cotejar el texto
 > entonces vigente antes de invocarlo.
 
 #### 5.16.4 Continuidad, buena fe y equidad (arts. 10, 11, 62 y 63)
@@ -1495,7 +1494,7 @@ Dos consecuencias prácticas:
   objeto principal. Se conecta con el estándar del Decreto 407/2026 para los acuerdos
   extintivos del art. 241: ver **5.12.2**.
 
-`[VERIFICAR VIGENCIA: alcance del párrafo de cosa juzgada del art. 15 para acuerdos homologados antes del 6/3/2026]`
+`[VERIFICAR VIGENCIA: alcance del párrafo de cosa juzgada del art. 15 para acuerdos homologados antes del 06/03/2026]`
 
 #### 5.16.7 No discriminación y compensación de desigualdades (arts. 17 y 17 bis)
 
@@ -1518,9 +1517,9 @@ encuadre no es este módulo.
 ### 5.17 Derecho colectivo — convenios colectivos (Ley 14.250)
 
 Articulado de la Ley 14.250 cotejado contra `fuentes/normas/ley-14250.txt` —texto actualizado
-de argentina.gob.ar, SHA-256 `af5efe2f…`, descargado el 13/9/2026—. **La Ley 27.802 rehizo
+de argentina.gob.ar, SHA-256 `af5efe2f…`, descargado en septiembre de 2026—. **La Ley 27.802 rehizo
 buena parte de esta ley**: sustituyó los arts. 4, 6, 7, 9, 13, 18 y 19 y derogó los arts. 10,
-16 y 21, todo con vigencia del 6/3/2026 y la ventana cautelar de 5.1.
+16 y 21, todo con vigencia del 06/03/2026 y la ventana cautelar de 5.1.
 
 Lo que sigue cubre el **convenio colectivo** —la Ley 14.250— y el **procedimiento para
 negociarlo** —la Ley 23.546, en 5.17.6—. La **ley sindical**, que es otra cosa, está en
@@ -1600,7 +1599,7 @@ iniciación de las negociaciones para una nueva convención.
 #### 5.17.4 Topes a los aportes convencionales (art. 9, texto Ley 27.802)
 
 | Destinatario | Tope sobre las remuneraciones |
-|---|---|
+| --- | --- |
 | Cámaras, asociaciones, agrupaciones o personas jurídicas integradas total o parcialmente por empleadores, o con órganos directivos integrados por representantes de los empleadores, por cualquier concepto y denominación, en beneficio directo o indirecto | **0,5 %** |
 | Asociaciones de trabajadores, por contribuciones y aportes válidos para afiliados **o no afiliados** comprendidos en el ámbito del convenio | **2 %** |
 
@@ -1691,14 +1690,14 @@ Ley 14.786** (art. 7), que está en 5.18.5.
 Articulado cotejado contra `fuentes/normas/ley-23551.txt` (texto actualizado de
 argentina.gob.ar), su **Decreto reglamentario 467/1988** y `fuentes/normas/ley-14786.txt`.
 
-**La Ley 27.802 sustituyó los arts. 50 y 52** —por sus arts. 143 y 144, B.O. 6/3/2026, con la
+**La Ley 27.802 sustituyó los arts. 50 y 52** —por sus arts. 143 y 144, B.O. 06/03/2026, con la
 ventana cautelar de 5.1— y **restringió la tutela de manera sustancial**. Los arts. 40, 41, 45
 a 49, 51 y 53 a 55 conservan el texto anterior.
 
 > **Contradicción nominada.** `kb/perfiles/laboral-CLAUDE.md` § Derecho colectivo describe la
 > tutela de los arts. 47 a 52 **sin el texto vigente**: dice que el delegado despedido sin
 > exclusión previa "puede optar entre la reinstalación o la indemnización agravada", sin
-> mencionar que desde el 6/3/2026 la tutela **no alcanza a los suplentes**, que los congresales
+> mencionar que desde el 06/03/2026 la tutela **no alcanza a los suplentes**, que los congresales
 > están limitados en número y en tiempo, y que la indemnización del candidato no electo **no es
 > acumulable con el art. 245 bis LCT**. Es una descripción pre-reforma presentada como vigente.
 
@@ -1722,7 +1721,7 @@ temporada**.
 **Cuántos (art. 45), a falta de norma convencional:**
 
 | Trabajadores en el establecimiento | Representantes |
-|---|---|
+| --- | --- |
 | 10 a 50 | 1 |
 | 51 a 100 | 2 |
 | 101 en adelante | 2 más **uno por cada 100** que excedan de 100 |
@@ -1777,7 +1776,7 @@ para la seguridad de las personas o bienes de la empresa o para su funcionamient
 **A quién alcanza ahora la tutela — el recorte de la reforma:**
 
 | Alcanzado | Detalle |
-|---|---|
+| --- | --- |
 | Delegados o representantes gremiales **legalmente electos que ocupen cargos de titulares** | sí |
 | **Congresales titulares** | hasta **dos** en grandes empresas y **uno** en pymes de la Ley 24.467; **sólo durante el tiempo en que asistan al congreso**, notificando al empleador la fecha de **inicio y conclusión** |
 | **Suplentes** | **no les es aplicable la tutela** |
@@ -1791,7 +1790,7 @@ empleador que no cumpla la decisión firme el juez puede aplicar el **art. 804 C
 **O la opción por el despido indirecto**, con dos cuantías distintas:
 
 | Quién | Además de las indemnizaciones por despido |
-|---|---|
+| --- | --- |
 | Delegado de personal o titular en la entidad con personería representativa | las remuneraciones del **tiempo faltante del mandato** **y del año de estabilidad posterior** |
 | **Candidato no electo** | las remuneraciones **del período de tutela aún no agotado** **más un (1) año** de remuneraciones, **no acumulables** con el art. 245 bis LCT |
 

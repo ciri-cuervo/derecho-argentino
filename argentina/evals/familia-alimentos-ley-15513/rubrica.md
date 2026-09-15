@@ -25,8 +25,8 @@ titulo: Alimentos en PBA tras la Ley 15.513 - etapa previa, provisorios y Canast
   como regla.
 - [ ] Emite `[VERIFICAR MONTO ACTUALIZADO: ...]` para el valor de la canasta en vez de
   consignar cifras de memoria.
-- [ ] **Retroactividad (art. 641):** hubo interpelación fehaciente el 12/2/2026 y la demanda se
-  interpuso el 3/9/2026, es decir **fuera de los seis meses**. Por lo tanto los efectos NO se
+- [ ] **Retroactividad (art. 641):** hubo interpelación fehaciente el 12/02/2026 y la demanda se
+  interpuso el 03/09/2026, es decir **fuera de los seis meses**. Por lo tanto los efectos NO se
   retrotraen a la interpelación: se retrotraen a la fecha de inicio de la etapa previa o de la
   demanda, la que fuese anterior. Como no hubo etapa previa, a la fecha de la demanda.
 - [ ] **Competencia (art. 716 CCyCN):** el juez del **centro de vida** de los niños, que está

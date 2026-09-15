@@ -1,17 +1,17 @@
-"""Localiza la raiz del repo de conocimiento juridico, sin ninguna ruta hardcodeada.
+"""Localiza la raíz del repo de conocimiento jurídico, sin ninguna ruta hardcodeada.
 
-La skill se instala como skill de cuenta y corre en cualquier maquina; el repo puede estar
-en cualquier lado y llamarse de cualquier forma. Esta resolucion es lo unico que sabe donde
-esta, y todos los scripts pasan por aca.
+La skill se instala como skill de cuenta y corre en cualquier máquina; el repo puede estar
+en cualquier lado y llamarse de cualquier forma. Esta resolución es lo unico que sabe donde
+esta, y todos los scripts pasan por acá.
 
-Orden de busqueda, del mas explicito al mas adivinado:
+Orden de busqueda, del más explícito al más adivinado:
 
 1. El argumento --repo, si el script lo recibe.
 2. La variable de entorno DERECHO_AR_REPO.
 3. La variable de entorno que define el agente al instalar el plugin. Cuales son, en
    ENV_PLUGIN: no se enumeran acá para que no queden dos listas que puedan diferir.
-4. El archivo de configuracion, por defecto ~/.config/derecho-argentino/config.json.
-5. Subiendo desde la ubicacion de este archivo, por si la skill vive dentro del repo.
+4. El archivo de configuración, por defecto ~/.config/derecho-argentino/config.json.
+5. Subiendo desde la ubicación de este archivo, por si la skill vive dentro del repo.
 6. Un puniado de ubicaciones habituales bajo el home.
 
 En los casos 5 y 6 se exige el marcador: no alcanza con que exista una carpeta con el
@@ -22,9 +22,9 @@ Dos disposiciones posibles, porque el marketplace publica el plugin desde argent
     repo clonado        <raiz>/argentina/fuentes/MANIFIESTO.md
     plugin instalado    <raiz>/fuentes/MANIFIESTO.md
 
-En la segunda, la carpeta argentina/ del repo ES la raiz instalada, y ademas llega
+En la segunda, la carpeta argentina/ del repo ES la raíz instalada, y además llega
 renombrada con el nombre del plugin y rodeada de los otros plugins: no se la reconoce ni
-por el nombre ni buscando argentina/ mas arriba. Por eso la raiz y la carpeta que contiene
+por el nombre ni buscando argentina/ más arriba. Por eso la raíz y la carpeta que contiene
 fuentes/ y kb/ son dos cosas distintas -- raiz_repo() devuelve la primera, base() la
 segunda -- y toda ruta de datos se arma con base(), nunca concatenando "argentina".
 """
@@ -43,16 +43,16 @@ ENV = "DERECHO_AR_REPO"
 # de la variable es lo unico que cambia entre uno y otro. Sumar un agente es sumar un nombre.
 #
 # Las dos primeras las define un agente real. La tercera NO la define ninguno hoy: es una
-# apuesta a la convencion generica que insinua el esquema agent-plugins.org, con el que Codex
-# valida su plugin.json. Cuesta una linea y no puede dar un falso positivo -si la variable no
-# esta, el bucle sigue; si esta y no apunta al repo, es_repo() la descarta-, pero esta escrita
-# a futuro y conviene no presentarla como algo que ya funciona en algun lado.
+# apuesta a la convención genérica que insinua el esquema agent-plugins.org, con el que Codex
+# valida su plugin.json. Cuesta una línea y no puede dar un falso positivo -si la variable no
+# esta, el bucle sigue; si esta y no apunta al repo, es_repo() la descarta-, pero está escrita
+# a futuro y conviene no presentarla como algo que ya funciona en algún lado.
 ENV_PLUGIN = ("CLAUDE_PLUGIN_ROOT", "CODEX_PLUGIN_ROOT", "AGENT_PLUGIN_ROOT")
 # Ubicaciones habituales bajo el home, todas con el nombre con el que el repo se
 # publica. Gana la primera que exista Y tenga el marcador; sin marcador no cuenta,
-# asi que una carpeta que solo se llame parecido no confunde la resolucion.
-# Un clon con otro nombre no se adivina: para eso estan --repo, DERECHO_AR_REPO y
-# el archivo de configuracion, que van antes que esta lista.
+# así que una carpeta que solo se llame parecido no confunde la resolución.
+# Un clon con otro nombre no se adivina: para eso están --repo, DERECHO_AR_REPO y
+# el archivo de configuración, que van antes que está lista.
 CANDIDATOS = [
     "Documents/derecho-argentino",
     "Downloads/derecho-argentino",
@@ -82,11 +82,11 @@ def es_repo(p: Path) -> bool:
 
 
 def base(raiz: Path) -> Path:
-    """La carpeta con fuentes/ y kb/ dentro de una raiz ya resuelta.
+    """La carpeta con fuentes/ y kb/ dentro de una raíz ya resuelta.
 
-    Es <raiz>/argentina en el repo clonado y la raiz misma en el plugin instalado. Alcanza
-    con que exista la subcarpeta: el marcador ya lo exigio quien resolvio la raiz, y pedirlo
-    de nuevo aca mandaria a leer la carpeta equivocada -- la raiz -- cuando falta.
+    Es <raiz>/argentina en el repo clonado y la raíz misma en el plugin instalado. Alcanza
+    con que exista la subcarpeta: el marcador ya lo exigio quien resolvió la raíz, y pedirlo
+    de nuevo acá mandaria a leer la carpeta equivocada -- la raíz -- cuando falta.
     """
     raiz = Path(raiz)
     sub = raiz / SUB
@@ -104,7 +104,7 @@ def leer_config() -> dict:
 
 
 def guardar_raiz(p: Path) -> Path:
-    """Deja la ruta en el archivo de configuracion. Devuelve la ruta del archivo."""
+    """Deja la ruta en el archivo de configuración. Devuelve la ruta del archivo."""
     p = Path(p).expanduser().resolve()
     if not es_repo(p):
         raise SystemExit(f"{p} no parece el repo: falta {MARCADOR}")
@@ -120,23 +120,23 @@ _aviso_dado = False
 
 
 def resolver(explicita=None, fijar=True, avisar=True):
-    """raiz_repo() + persistencia automatica del primer hallazgo.
+    """raiz_repo() + persistencia automática del primer hallazgo.
 
-    Instalar una skill no ejecuta nada: no hay paso de instalacion donde preguntar la ruta.
+    Instalar una skill no ejecuta nada: no hay paso de instalación donde preguntar la ruta.
     Entonces el primer uso que la necesite hace las dos cosas -- la encuentra y la fija --,
     para que no se resuelva por adivinanza cada vez. Solo se persiste lo que se hallo por
-    heuristica: si vino de --repo, de la variable de entorno o del propio config, no hay nada
+    heurística: si vino de --repo, de la variable de entorno o del propio config, no hay nada
     que guardar.
     """
     global _aviso_dado
     p, origen = raiz_repo(explicita)
-    if p and fijar and origen.startswith(("ubicacion habitual", "la skill vive")):
+    if p and fijar and origen.startswith(("ubicación habitual", "la skill vive")):
         try:
             destino = guardar_raiz(p)
             origen += " (queda fijada)"
             if avisar and not _aviso_dado:
                 print(f"  Repo encontrado en {p} y anotado en {destino}.")
-                print("  Los proximos usos lo toman de ahi. Para cambiarlo: configurar.py "
+                print("  Los próximos usos lo toman de ahí. Para cambiarlo: configurar.py "
                       "--repo <ruta>")
                 _aviso_dado = True
         except (OSError, SystemExit):
@@ -160,10 +160,10 @@ def raiz_repo(explicita=None):
         plug = os.environ.get(nombre)
         if not plug:
             continue
-        # La variable puede apuntar a la raiz del repo, a argentina/ dentro del repo, o a
+        # La variable puede apuntar a la raíz del repo, a argentina/ dentro del repo, o a
         # la copia que instala el marketplace, que es argentina/ renombrada y sin repo
         # arriba. Se busca primero el repo completo -- en la carpeta y en su madre -- para
-        # que cuando exista sea el que se reporte; recien despues se acepta la copia.
+        # que cuando exista sea el que se reporte; recién después se acepta la copia.
         dir_plug = Path(plug).expanduser()
         for p in (dir_plug, dir_plug.parent):
             if es_base(p / SUB):
@@ -185,13 +185,13 @@ def raiz_repo(explicita=None):
     for padre in aqui.parents:
         if es_base(padre):
             # Instalada por el marketplace: los datos viajan al lado de la skill. No se
-            # fija en el archivo de configuracion, porque esta ruta cambia al actualizar.
+            # fija en el archivo de configuración, porque esta ruta cambia al actualizar.
             return padre, "el plugin instalado trae los datos"
 
     for c in CANDIDATOS:
         p = Path.home() / c
         if es_repo(p):
-            return p.resolve(), f"ubicacion habitual ~/{c}"
+            return p.resolve(), f"ubicación habitual ~/{c}"
 
     return None, "no encontrado"
 
@@ -215,7 +215,7 @@ El repo se reconoce porque contiene {MARCADOR}."""
 
 
 def exigir_raiz(explicita=None, silencioso=False):
-    """Como raiz_repo, pero corta el programa con un mensaje util si no la encuentra."""
+    """Como raiz_repo, pero corta el programa con un mensaje útil si no la encuentra."""
     p, origen = raiz_repo(explicita)
     if p is None:
         if silencioso:
@@ -228,8 +228,8 @@ def exigir_raiz(explicita=None, silencioso=False):
 def datos(explicita=None):
     """Carpeta de datos del repo, o None si no hay repo configurado.
 
-    Es la puerta que usan las calculadoras. Pasa por resolver(), asi que el primer uso que
-    encuentre el repo por heuristica lo deja fijado.
+    Es la puerta que usan las calculadoras. Pasa por resolver(), así que el primer uso que
+    encuentre el repo por heurística lo deja fijado.
     """
     p, _ = resolver(explicita)
     return None if p is None else base(p) / "fuentes" / "datos"

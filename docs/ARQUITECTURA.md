@@ -1,4 +1,4 @@
-# Cómo está armado
+# 🧭 Cómo está armado
 
 El repositorio es a la vez el **marketplace** y el **plugin**. `.claude-plugin/marketplace.json`
 publica un solo plugin, `derecho`, cuyo `source` es `argentina/`. De ahí salen los nombres que se
@@ -96,7 +96,7 @@ conflicto, manda la skill. Ver `argentina/kb/project/README.md`.
 Son 30. Estos son los que se cargan más seguido; el listado completo está en el directorio.
 
 | Módulo | Sección | Qué cubre |
-|---|---|---|
+| --- | --- | --- |
 | `intake.md` | — | Qué datos pedir antes de analizar, según la tarea |
 | `sede-judicial-pba.md` | 1.6 | Desde el órgano: veredicto, sentencia, control de oficio, congruencia, costas, honorarios |
 | `parte.md` | 1.7 | Desde una parte: demanda, contestación, audiencia preliminar, prueba, recursos |
@@ -109,7 +109,7 @@ Son 30. Estos son los que se cargan más seguido; el listado completo está en e
 | `changelog-normativo.md` | 13 | Cambios recientes y estado de verificación por bloque |
 | `consumidor.md` | 17 | Relación de consumo, daño punitivo, gratuidad, prescripción |
 | `familia.md` | 18 | Fuero PBA, Consejero, alimentos y Ley 15.513, violencia |
-| `otras-ramas.md` | 19 | Ruteo a los once perfiles de área del repo |
+| `otras-ramas.md` | 19 | Ruteo a los perfiles de área del repo |
 | `prueba-pericial.md` | 20 | Designación, control, impugnación y valoración del dictamen |
 | `ejecucion.md` | 21 | Liquidación, embargo, excepciones, vía ejecutiva |
 | `notificaciones-pba.md` | 22 | Cédula electrónica, MEV, cuándo empieza a correr el plazo |

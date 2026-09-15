@@ -4,7 +4,7 @@ Este repositorio tiene **cuatro capas de autoría** con licencias distintas. Est
 mapa; cada licencia vive en su propio archivo y ninguna se modifica desde acá.
 
 | Capa | Licencia | Archivo |
-|---|---|---|
+| --- | --- | --- |
 | 1. Código base upstream de Anthropic | Apache License 2.0 | `LICENSE` |
 | 2. Contribuciones originales de Cristian Aboitiz | Dual: no comercial libre / comercial con autorización | `LICENSE-ABOITIZ.md` |
 | 3a. Contribuciones de este fork — **contenido** | CC BY-SA 4.0 | `LICENSE-CC-BY-SA-4.0.md` |
@@ -48,7 +48,7 @@ En síntesis, y sin sustituir ese texto: uso no comercial, académico o de inves
 manteniendo la nota de copyright y la atribución; **todo uso comercial requiere autorización
 previa y expresa** del titular (`cristianaboitiz@gmail.com`).
 
-**Qué cubre hoy: todo lo que está bajo `argentina/kb/`** — 109 archivos, unas 31.300 líneas, contando `kb/project/`.
+**Qué cubre hoy: todo lo que está bajo `argentina/kb/`** — 109 archivos, unas 31.500 líneas, contando `kb/project/`.
 
 Desde la reestructura de septiembre de 2026 **la frontera es estructural**: si el archivo está
 bajo `kb/`, es capa 2; si no, es capa 3 —contenido CC BY-SA 4.0, código MIT, según la sección 3—.
@@ -77,14 +77,14 @@ rutas y por la marca del repositorio** — las cuatro diferencias restantes est�
 **La frontera se cruza en los dos sentidos, y cada uno tiene su herramienta.**
 
 | Sentido | Qué sería | Qué lo vigila |
-|---|---|---|
+| --- | --- | --- |
 | Prosa de `kb/` que entra a un módulo | Copiar en vez de reescribir contra fuente primaria | `herramientas/fuga_textual.py` |
 | Texto propio que sale hacia `kb/` | Corregir el perfil heredado en el archivo del perfil | `herramientas/frontera_kb.py` |
 
 El segundo importa más de lo que parece, porque **desactiva al primero**: `fuga_textual.py`
 compara los módulos contra `kb/`, así que reescribir una línea de `kb/` con palabras propias
 hace desaparecer la coincidencia que el detector busca. `frontera_kb.py` guarda el sha256 de
-los 109 archivos en `herramientas/kb-procedencia.json` y sale con código 1 si alguno cambia. No
+cada archivo en `herramientas/kb-procedencia.json` y sale con código 1 si alguno cambia. No
 prohíbe editar `kb/` —corregir un error puntual es mantenimiento legítimo, y así lo dice
 `kb/README.md`— pero obliga a que el cambio sea deliberado y quede fechado.
 
@@ -118,11 +118,15 @@ Ese commit es el estado del fork de Cristian Aboitiz al 23/07/2026, y **todo lo 
 - `kb/contratos/` — perfil, red flags e índices
 - Transversales: `kb/marcadores-GLOSARIO.md`, `kb/transversales/plazos-SKILL.md`, `kb/transversales/diagnostico-SKILL.md`,
   `kb/transversales/bucles-SKILL.md`, `kb/transversales/fuentes-y-conectores.md`, `kb/ejemplos/`, `kb/CHANGELOG.md`
-- **Cuatro casos de `evals/`** y el README de evals — `administrativo-caba-recursos-agotamiento-via`,
+- **Cuatro casos de `evals/`** y `evals/README.md` — `administrativo-caba-recursos-agotamiento-via`,
   `consumidor-dano-punitivo-prescripcion`, `consumidor-garantia-producto-defectuoso` y
   `consumidor-prepaga-aumento-dnu70`, que son los que figuran en el commit de arriba. **Quedan
   fuera de `kb/`** por estar junto a los demás evals: son la excepción a la regla estructural y
-  se listan acá. Los otros trece se escribieron en este fork
+  se listan acá. Los otros trece se escribieron en este fork.
+  **El README de `evals/` se llama `evals-README.md` en el fork de origen** y acá se renombró a
+  `README.md`, que es el único nombre que GitHub muestra al abrir el directorio. Es un cambio de
+  nombre y nada más: el contenido es de su autor. Se anota porque para los archivos de capa 2 que
+  viven bajo `kb/` la procedencia la da la ruta, y para estas cinco excepciones la da esta lista
 
 > **Sobre la enumeración de la sección 2 de `LICENSE-ABOITIZ.md`.** Ese listado se escribió
 > cuando el repositorio tenía otra estructura y menciona `skills/` y `perfiles/`. Es, por sus
@@ -172,9 +176,9 @@ cita legal, dato o prosa copiada es una lectura, y por eso el resultado de haber
 registrado en `herramientas/fuga-revisada.json`. La corrida reporta sólo lo nuevo, que es lo
 único sobre lo que hay que decidir algo.
 
-La revisión del 13/09/2026 pasó por todos los módulos de `references/`. Las coincidencias que
-quedaron aceptadas son de cuatro tipos: texto legal citado, filas de tabla con norma y plazo,
-rutas de ruteo que apuntan a `kb/` por construcción, y las citas para crítica del punto
+La revisión de septiembre de 2026 pasó por todos los módulos de `references/`. Las coincidencias
+que quedaron aceptadas son de cuatro tipos: texto legal citado, filas de tabla con norma y
+plazo, rutas de ruteo que apuntan a `kb/` por construcción, y las citas para crítica del punto
 anterior. Las que no entraban en ninguno —siete al momento de la partición, más dos halladas
 en septiembre en el art. 76 ter y en la enumeración del art. 14 CP— se reescribieron contra
 fuente.
@@ -198,7 +202,7 @@ denominaciones que confundan sobre la autoría original, sin autorización escri
 ejecuta, con licencia de código.
 
 | | Licencia | Texto |
-|---|---|---|
+| --- | --- | --- |
 | **3a · Contenido** | **CC BY-SA 4.0** | `LICENSE-CC-BY-SA-4.0.md` |
 | **3b · Código y datos de máquina** | **MIT** | `LICENSE-MIT` |
 
@@ -211,7 +215,8 @@ que se distribuya adaptado lleva la misma licencia.
 - `argentina/commands/` — los **8 comandos slash**, que son instrucciones y no programas
 - `argentina/evals/` — los **17 casos** de verificación con su rúbrica y su resultado esperado
 - `argentina/fuentes/MANIFIESTO.md` y `argentina/fuentes/jurisprudencia/INDICE.md`
-- `README.md`, los **2 documentos** de `docs/`, `CHANGELOG.md`, `assets/marca/README.md` y este
+- `README.md`, `CLAUDE.md`, los **4 documentos** de `docs/`, `CHANGELOG.md`,
+  `assets/marca/README.md` y este
   archivo
 - `assets/marca/` — el sello, el ícono, las chapitas y el separador, con sus fuentes SVG
 - `assets/logos/` **queda afuera**: son marcas de terceros; ver sección 4
@@ -233,12 +238,14 @@ está pensada para servir.
 Permisiva, sin condiciones más allá de conservar el aviso de copyright: el código está para que se
 lo lleven a otro proyecto sin arrastrar nada.
 
-- `argentina/skills/derecho-argentino/scripts/` — los **9 scripts** de la skill con su suite de tests
-- `argentina/fuentes/scripts/` — los **6 descargadores y verificadores** de la capa de fuente primaria
-- `herramientas/` — las **8 herramientas** de control: frontera de licencia, calidad de OCR,
-  auditoría de fechas, cobertura normativa, generación de la marca y sus tests
-- Los `.json` de manifiesto y procedencia: `normas.json`, `fallos.json`, los `procedencia.json`,
-  `inhabiles.json`, `herramientas/lecturas-ocr.json`, `herramientas/fuga-revisada.json`
+- `argentina/skills/derecho-argentino/scripts/` — los scripts de la skill con su suite de tests
+- `argentina/fuentes/scripts/` — los descargadores y verificadores de la capa de fuente primaria
+- `herramientas/` — las **9 herramientas** de control: frontera de licencia, calidad de OCR,
+  auditoría de fechas, cobertura normativa, cifras de la documentación, reformas sin leer y sus
+  tests
+- Los `.json` de manifiesto, procedencia y veredicto: `normas.json`, `fallos.json`, los
+  `procedencia.json`, `inhabiles.json`, `herramientas/lecturas-ocr.json`,
+  `herramientas/fuga-revisada.json`, `herramientas/cifras.json` y los `-revisad*.json`
 - `.claude-plugin/marketplace.json` y `argentina/.claude-plugin/plugin.json`
 
 ### Lo que esta elección no toca

@@ -1,5 +1,5 @@
 ---
-titulo: Restitucion internacional - grave riesgo por violencia, oposicion del nino y regreso seguro
+titulo: Restitución internacional - grave riesgo por violencia, oposición del nino y regreso seguro
 ---
 # Resultado esperado · familia-restitucion-grave-riesgo-violencia
 
@@ -82,7 +82,7 @@ Estado de residencia habitual".
 
 ## 5. La cita del considerando 5 dice lo contrario
 
-**"M. S., M. G. c/ F., M. V."** (Fallos 347:1234, 17/9/2024) **ordenó la restitución** de un niño a
+**"M. S., M. G. c/ F., M. V."** (Fallos 347:1234, 17/09/2024) **ordenó la restitución** de un niño a
 España. Y es un fallo **per relationem con salvedades expresas**: la Corte se remitió a los
 fundamentos del dictamen del Procurador **excluyendo** los últimos tres párrafos del apartado V, la
 segunda cita del párrafo séptimo y la última parte del párrafo noveno de ese apartado, y los párrafos

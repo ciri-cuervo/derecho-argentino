@@ -6,7 +6,7 @@
   "normas": [
     {
       "slug": "caba-ley-6407",
-      "titulo": "Ley 6.407 CABA - Codigo Procesal de la Justicia en las Relaciones de Consumo",
+      "titulo": "Ley 6.407 CABA - Código Procesal de la Justicia en las Relaciones de Consumo",
       "jurisdiccion": "caba",
       "url": "https://juristeca.jusbaires.gob.ar/compilacion-normativa-juristeca/ley-6407/",
       "prioridad": 3,
@@ -15,21 +15,21 @@
     },
     {
       "slug": "ccycn-26994",
-      "titulo": "Ley 26.994 - Codigo Civil y Comercial (texto actualizado)",
+      "titulo": "Ley 26.994 - Código Civil y Comercial (texto actualizado)",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/235000-239999/235975/texact.htm",
       "prioridad": 1
     },
     {
       "slug": "cn-1994",
-      "titulo": "Constitucion de la Nacion Argentina (texto 1994, Ley 24.430)",
+      "titulo": "Constitución de la Nación Argentina (texto 1994, Ley 24.430)",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/0-4999/804/norma.htm",
       "prioridad": 1
     },
     {
       "slug": "cn-tratados-ddhh",
-      "titulo": "Constitucion Nacional con los tratados de DDHH con jerarquia constitucional - edicion oficial del Ministerio de Justicia",
+      "titulo": "Constitución Nacional con los tratados de DDHH con jerarquía constitucional - edición oficial del Ministerio de Justicia",
       "jurisdiccion": "nacional",
       "formato": "pdf",
       "url": null,
@@ -38,105 +38,105 @@
     },
     {
       "slug": "constitucion-caba",
-      "titulo": "Constitucion de Ciudad Autonoma de Buenos Aires (texto actualizado)",
+      "titulo": "Constitución de la Ciudad Autónoma de Buenos Aires (texto actualizado)",
       "jurisdiccion": "caba",
       "url": "https://www.argentina.gob.ar/normativa/provincial/ley-0-123456789-0abc-defg-000-0000xvorpyel/actualizacion",
       "prioridad": 3
     },
     {
       "slug": "constitucion-catamarca",
-      "titulo": "Constitucion de la Catamarca (texto actualizado)",
+      "titulo": "Constitución de la Provincia de Catamarca (texto actualizado)",
       "jurisdiccion": "catamarca",
       "url": "https://www.argentina.gob.ar/normativa/provincial/ley-0-123456789-0abc-defg-000-0000kvorpyel/actualizacion",
       "prioridad": 3
     },
     {
       "slug": "constitucion-chaco",
-      "titulo": "Constitucion de la Chaco (texto actualizado)",
+      "titulo": "Constitución de la Provincia de Chaco (texto actualizado)",
       "jurisdiccion": "chaco",
       "url": "https://www.argentina.gob.ar/normativa/provincial/ley-0-123456789-0abc-defg-000-0000hvorpyel/actualizacion",
       "prioridad": 3
     },
     {
       "slug": "constitucion-chubut",
-      "titulo": "Constitucion de la Chubut (texto actualizado)",
+      "titulo": "Constitución de la Provincia de Chubut (texto actualizado)",
       "jurisdiccion": "chubut",
       "url": "https://www.argentina.gob.ar/normativa/provincial/ley-0-123456789-0abc-defg-000-0000uvorpyel/actualizacion",
       "prioridad": 3
     },
     {
       "slug": "constitucion-cordoba",
-      "titulo": "Constitucion de la Cordoba (texto actualizado)",
+      "titulo": "Constitución de la Provincia de Córdoba (texto actualizado)",
       "jurisdiccion": "cordoba",
       "url": "https://www.argentina.gob.ar/normativa/provincial/ley-0-123456789-0abc-defg-000-0000ovorpyel/actualizacion",
       "prioridad": 3
     },
     {
       "slug": "constitucion-corrientes",
-      "titulo": "Constitucion de la Corrientes (texto actualizado)",
+      "titulo": "Constitución de la Provincia de Corrientes (texto actualizado)",
       "jurisdiccion": "corrientes",
       "url": "https://www.argentina.gob.ar/normativa/provincial/ley-0-123456789-0abc-defg-000-0001wvorpyel/actualizacion",
       "prioridad": 3
     },
     {
       "slug": "constitucion-entrerios",
-      "titulo": "Constitucion de la Entre Rios (texto actualizado)",
+      "titulo": "Constitución de la Provincia de Entre Ríos (texto actualizado)",
       "jurisdiccion": "entrerios",
       "url": "https://www.argentina.gob.ar/normativa/provincial/ley-0-123456789-0abc-defg-000-0001evorpyel/actualizacion",
       "prioridad": 3
     },
     {
       "slug": "constitucion-formosa",
-      "titulo": "Constitucion de la Formosa (texto actualizado)",
+      "titulo": "Constitución de la Provincia de Formosa (texto actualizado)",
       "jurisdiccion": "formosa",
       "url": "https://www.argentina.gob.ar/normativa/provincial/ley-0-123456789-0abc-defg-000-0001pvorpyel/actualizacion",
       "prioridad": 3
     },
     {
       "slug": "constitucion-jujuy",
-      "titulo": "Constitucion de la Jujuy (texto actualizado)",
+      "titulo": "Constitución de la Provincia de Jujuy (texto actualizado)",
       "jurisdiccion": "jujuy",
       "url": "https://www.argentina.gob.ar/normativa/provincial/ley-0-123456789-0abc-defg-000-0000yvorpyel/actualizacion",
       "prioridad": 3
     },
     {
       "slug": "constitucion-lapampa",
-      "titulo": "Constitucion de la La Pampa (texto actualizado)",
+      "titulo": "Constitución de la Provincia de La Pampa (texto actualizado)",
       "jurisdiccion": "lapampa",
       "url": "https://www.argentina.gob.ar/normativa/provincial/ley-0-123456789-0abc-defg-062-0000lvorpyel/actualizacion",
       "prioridad": 3
     },
     {
       "slug": "constitucion-larioja",
-      "titulo": "Constitucion de la La Rioja (texto actualizado)",
+      "titulo": "Constitución de la Provincia de La Rioja (texto actualizado)",
       "jurisdiccion": "larioja",
       "url": "https://www.argentina.gob.ar/normativa/provincial/ley-0-123456789-0abc-defg-000-0001fvorpyel/actualizacion",
       "prioridad": 3
     },
     {
       "slug": "constitucion-mendoza",
-      "titulo": "Constitucion de la Mendoza (texto actualizado)",
+      "titulo": "Constitución de la Provincia de Mendoza (texto actualizado)",
       "jurisdiccion": "mendoza",
       "url": "https://www.argentina.gob.ar/normativa/provincial/ley-0-123456789-0abc-defg-000-0000mvorpyel/actualizacion",
       "prioridad": 3
     },
     {
       "slug": "constitucion-misiones",
-      "titulo": "Constitucion de la Misiones (texto actualizado)",
+      "titulo": "Constitución de la Provincia de Misiones (texto actualizado)",
       "jurisdiccion": "misiones",
       "url": "https://www.argentina.gob.ar/normativa/provincial/ley-0-123456789-0abc-defg-000-0000nvorpyel/actualizacion",
       "prioridad": 3
     },
     {
       "slug": "constitucion-neuquen",
-      "titulo": "Constitucion de la Neuquen (texto actualizado)",
+      "titulo": "Constitución de la Provincia de Neuquén (texto actualizado)",
       "jurisdiccion": "neuquen",
       "url": "https://www.argentina.gob.ar/normativa/provincial/ley-0-123456789-0abc-defg-000-0000qvorpyel/actualizacion",
       "prioridad": 3
     },
     {
       "slug": "constitucion-rionegro",
-      "titulo": "Constitucion de la Provincia de Rio Negro (texto definitivo del digesto de la Legislatura)",
+      "titulo": "Constitución de la Provincia de Río Negro (texto definitivo del digesto de la Legislatura)",
       "jurisdiccion": "rionegro",
       "url": "https://web.legisrn.gov.ar/digesto/normas/documento?e=DEFINITIVO&id=1988060019",
       "prioridad": 3,
@@ -145,63 +145,63 @@
     },
     {
       "slug": "constitucion-salta",
-      "titulo": "Constitucion de la Salta (texto actualizado)",
+      "titulo": "Constitución de la Provincia de Salta (texto actualizado)",
       "jurisdiccion": "salta",
       "url": "https://www.argentina.gob.ar/normativa/provincial/ley-0-123456789-0abc-defg-000-0000avorpyel/actualizacion",
       "prioridad": 3
     },
     {
       "slug": "constitucion-sanjuan",
-      "titulo": "Constitucion de la San Juan (texto actualizado)",
+      "titulo": "Constitución de la Provincia de San Juan (texto actualizado)",
       "jurisdiccion": "sanjuan",
       "url": "https://www.argentina.gob.ar/normativa/provincial/ley-0-123456789-0abc-defg-000-0000jvorpyel/actualizacion",
       "prioridad": 3
     },
     {
       "slug": "constitucion-sanluis",
-      "titulo": "Constitucion de la San Luis (texto actualizado)",
+      "titulo": "Constitución de la Provincia de San Luis (texto actualizado)",
       "jurisdiccion": "sanluis",
       "url": "https://www.argentina.gob.ar/normativa/provincial/ley-0-123456789-0abc-defg-000-0000dvorpyel/actualizacion",
       "prioridad": 3
     },
     {
       "slug": "constitucion-santacruz",
-      "titulo": "Constitucion de la Santa Cruz (texto actualizado)",
+      "titulo": "Constitución de la Provincia de Santa Cruz (texto actualizado)",
       "jurisdiccion": "santacruz",
       "url": "https://www.argentina.gob.ar/normativa/provincial/ley-0-123456789-0abc-defg-000-0000zvorpyel/actualizacion",
       "prioridad": 3
     },
     {
       "slug": "constitucion-santafe",
-      "titulo": "Constitucion de la Santa Fe (texto actualizado)",
+      "titulo": "Constitución de la Provincia de Santa Fe (texto actualizado)",
       "jurisdiccion": "santafe",
       "url": "https://www.argentina.gob.ar/normativa/provincial/ley-0-123456789-0abc-defg-660-0000svorpyel/actualizacion",
       "prioridad": 3
     },
     {
       "slug": "constitucion-santiago",
-      "titulo": "Constitucion de la Santiago del Estero (texto actualizado)",
+      "titulo": "Constitución de la Provincia de Santiago del Estero (texto actualizado)",
       "jurisdiccion": "santiago",
       "url": "https://www.argentina.gob.ar/normativa/provincial/ley-0-123456789-0abc-defg-100-0000gvorpyel/actualizacion",
       "prioridad": 3
     },
     {
       "slug": "constitucion-tierradelfuego",
-      "titulo": "Constitucion de la Tierra del Fuego (texto actualizado)",
+      "titulo": "Constitución de la Provincia de Tierra del Fuego (texto actualizado)",
       "jurisdiccion": "tierradelfuego",
       "url": "https://www.argentina.gob.ar/normativa/provincial/ley-0-123456789-0abc-defg-426-0000vvorpyel/actualizacion",
       "prioridad": 3
     },
     {
       "slug": "constitucion-tucuman",
-      "titulo": "Constitucion de la Tucuman (texto actualizado)",
+      "titulo": "Constitución de la Provincia de Tucumán (texto actualizado)",
       "jurisdiccion": "tucuman",
       "url": "https://www.argentina.gob.ar/normativa/provincial/ley-0-123456789-0abc-defg-000-0000tvorpyel/actualizacion",
       "prioridad": 3
     },
     {
       "slug": "cp-11179",
-      "titulo": "Ley 11.179 - Codigo Penal (t.o. 1984 actualizado)",
+      "titulo": "Ley 11.179 - Código Penal (t.o. 1984 actualizado)",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/15000-19999/16546/texact.htm",
       "prioridad": 1
@@ -215,7 +215,7 @@
     },
     {
       "slug": "cppf-27063",
-      "titulo": "Codigo Procesal Penal Federal (t.o. 2019, Decreto 118/2019)",
+      "titulo": "Código Procesal Penal Federal (t.o. 2019, Decreto 118/2019)",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/235000-239999/239340/texact.htm",
       "prioridad": 1
@@ -229,14 +229,14 @@
     },
     {
       "slug": "decreto-407-2026",
-      "titulo": "Decreto 407/2026 - Reglamentacion de la Ley 27.802 (Modernizacion Laboral)",
+      "titulo": "Decreto 407/2026 - Reglamentación de la Ley 27.802 (Modernización Laboral)",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/425000-429999/426270/norma.htm",
       "prioridad": 1
     },
     {
       "slug": "decreto-467-1988",
-      "titulo": "Decreto 467/1988 - Reglamentacion de la Ley 23.551 (texto actualizado)",
+      "titulo": "Decreto 467/1988 - Reglamentación de la Ley 23.551 (texto actualizado)",
       "jurisdiccion": "nacional",
       "url": "https://www.argentina.gob.ar/normativa/nacional/decreto-467-1988-46044/actualizacion",
       "prioridad": 1
@@ -266,7 +266,7 @@
     },
     {
       "slug": "decreto-659-1996",
-      "titulo": "Decreto 659/96 - Tabla de Evaluacion de Incapacidades Laborales (texto actualizado)",
+      "titulo": "Decreto 659/96 - Tabla de Evaluación de Incapacidades Laborales (texto actualizado)",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/35000-39999/37573/texact.htm",
       "prioridad": 1,
@@ -327,14 +327,14 @@
     },
     {
       "slug": "ley-14786",
-      "titulo": "Ley 14.786 - Conflictos de trabajo, instancia obligatoria de conciliacion",
+      "titulo": "Ley 14.786 - Conflictos de trabajo, instancia obligatoria de conciliación",
       "jurisdiccion": "nacional",
       "url": "https://www.argentina.gob.ar/normativa/nacional/ley-14786-115423/texto",
       "prioridad": 1
     },
     {
       "slug": "ley-16986",
-      "titulo": "Ley 16.986 - Accion de amparo",
+      "titulo": "Ley 16.986 - Acción de amparo",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/45000-49999/46871/norma.htm",
       "prioridad": 1,
@@ -381,14 +381,14 @@
     },
     {
       "slug": "ley-22278",
-      "titulo": "Ley 22.278 - Regimen penal de la minoridad (texto actualizado)",
+      "titulo": "Ley 22.278 - Régimen penal de la minoridad (texto actualizado)",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/110000-114999/114167/texact.htm",
       "prioridad": 1
     },
     {
       "slug": "ley-22431",
-      "titulo": "Ley 22.431 - Sistema de proteccion integral de los discapacitados (texto actualizado)",
+      "titulo": "Ley 22.431 - Sistema de protección integral de los discapacitados (texto actualizado)",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/20000-24999/20620/texact.htm",
       "prioridad": 2
@@ -402,7 +402,7 @@
     },
     {
       "slug": "ley-23546",
-      "titulo": "Ley 23.546 - Procedimiento de la negociacion colectiva (texto actualizado)",
+      "titulo": "Ley 23.546 - Procedimiento de la negociación colectiva (texto actualizado)",
       "jurisdiccion": "nacional",
       "url": "https://www.argentina.gob.ar/normativa/nacional/ley-23546-21112/actualizacion",
       "prioridad": 1
@@ -455,7 +455,7 @@
     },
     {
       "slug": "ley-23857",
-      "titulo": "Ley 23.857 - aprueba el Convenio de La Haya de 1980 sobre aspectos civiles de la sustraccion internacional de menores",
+      "titulo": "Ley 23.857 - aprueba el Convenio de La Haya de 1980 sobre aspectos civiles de la sustracción internacional de menores",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/0-4999/257/norma.htm",
       "prioridad": 2,
@@ -463,7 +463,7 @@
     },
     {
       "slug": "ley-23928",
-      "titulo": "Ley 23.928 - Convertibilidad. Arts. 7 y 10, prohibicion de indexar (texto actualizado)",
+      "titulo": "Ley 23.928 - Convertibilidad. Arts. 7 y 10, prohibición de indexar (texto actualizado)",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/0-4999/328/texact.htm",
       "prioridad": 1,
@@ -485,14 +485,14 @@
     },
     {
       "slug": "ley-24449",
-      "titulo": "Ley 24.449 - Ley de Transito (texto actualizado)",
+      "titulo": "Ley 24.449 - Ley de Tránsito (texto actualizado)",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/0-4999/818/texact.htm",
       "prioridad": 2
     },
     {
       "slug": "ley-24455",
-      "titulo": "Ley 24.455 - Obras sociales: prestaciones obligatorias (VIH/sida, drogadependencia, prevencion)",
+      "titulo": "Ley 24.455 - Obras sociales: prestaciones obligatorias (VIH/sida, drogadependencia, prevención)",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/10000-14999/14919/norma.htm",
       "url_alternativa": "https://www.argentina.gob.ar/normativa/nacional/ley-24455-14919/texto",
@@ -517,7 +517,7 @@
     },
     {
       "slug": "ley-24632",
-      "titulo": "Ley 24.632 - Convencion de Belem do Para",
+      "titulo": "Ley 24.632 - Convención de Belém do Pará",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/35000-39999/36208/norma.htm",
       "prioridad": 3,
@@ -525,7 +525,7 @@
     },
     {
       "slug": "ley-24635",
-      "titulo": "Ley 24.635 - Instancia obligatoria de conciliacion laboral (SECLO)",
+      "titulo": "Ley 24.635 - Instancia obligatoria de conciliación laboral (SECLO)",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/35000-39999/36739/norma.htm",
       "prioridad": 1,
@@ -534,14 +534,14 @@
     },
     {
       "slug": "ley-24660",
-      "titulo": "Ley 24.660 - Ejecucion de la pena privativa de la libertad (texto actualizado)",
+      "titulo": "Ley 24.660 - Ejecución de la pena privativa de la libertad (texto actualizado)",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/35000-39999/37872/texact.htm",
       "prioridad": 1
     },
     {
       "slug": "ley-24754",
-      "titulo": "Ley 24.754 - Medicina prepaga: cobertura minima equivalente a obras sociales",
+      "titulo": "Ley 24.754 - Medicina prepaga: cobertura mínima equivalente a obras sociales",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/40000-44999/41166/norma.htm",
       "prioridad": 1,
@@ -549,7 +549,7 @@
     },
     {
       "slug": "ley-24901",
-      "titulo": "Ley 24.901 - Sistema de prestaciones basicas en habilitacion y rehabilitacion integral a favor de las personas con discapacidad (texto actualizado)",
+      "titulo": "Ley 24.901 - Sistema de prestaciones básicas en habilitación y rehabilitación integral a favor de las personas con discapacidad (texto actualizado)",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/45000-49999/47677/texact.htm",
       "prioridad": 2
@@ -565,7 +565,7 @@
     },
     {
       "slug": "ley-25323",
-      "titulo": "Ley 25.323 - Indemnizaciones laborales (duplicacion art. 1 y recargo art. 2)",
+      "titulo": "Ley 25.323 - Indemnizaciones laborales (duplicación art. 1 y recargo art. 2)",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64555/norma.htm",
       "prioridad": 1,
@@ -573,14 +573,14 @@
     },
     {
       "slug": "ley-25326",
-      "titulo": "Ley 25.326 - Proteccion de los datos personales (texto actualizado)",
+      "titulo": "Ley 25.326 - Protección de los datos personales (texto actualizado)",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/texact.htm",
       "prioridad": 2
     },
     {
       "slug": "ley-25358",
-      "titulo": "Ley 25.358 - aprueba la Convencion Interamericana sobre restitucion internacional de menores",
+      "titulo": "Ley 25.358 - aprueba la Convención Interamericana sobre restitución internacional de menores",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/65000-69999/65330/norma.htm",
       "prioridad": 2,
@@ -596,7 +596,7 @@
     },
     {
       "slug": "ley-26023",
-      "titulo": "Ley 26.023 - aprueba la Convencion Interamericana contra el Terrorismo",
+      "titulo": "Ley 26.023 - aprueba la Convención Interamericana contra el Terrorismo",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/105000-109999/105500/norma.htm",
       "prioridad": 3,
@@ -604,7 +604,7 @@
     },
     {
       "slug": "ley-26086",
-      "titulo": "Ley 26.086 - Concursos y quiebras: fuero de atraccion y verificacion",
+      "titulo": "Ley 26.086 - Concursos y quiebras: fuero de atracción y verificación",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/115000-119999/115424/norma.htm",
       "prioridad": 2,
@@ -612,7 +612,7 @@
     },
     {
       "slug": "ley-26122",
-      "titulo": "Ley 26.122 - Regimen legal de los DNU",
+      "titulo": "Ley 26.122 - Régimen legal de los DNU",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/115000-119999/118261/norma.htm",
       "prioridad": 1,
@@ -621,7 +621,7 @@
     },
     {
       "slug": "ley-26200",
-      "titulo": "Ley 26.200 - implementacion del Estatuto de Roma",
+      "titulo": "Ley 26.200 - implementación del Estatuto de Roma",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/120000-124999/123921/norma.htm",
       "prioridad": 3,
@@ -629,7 +629,7 @@
     },
     {
       "slug": "ley-26222",
-      "titulo": "Ley 26.222 - Libre opcion del regimen jubilatorio",
+      "titulo": "Ley 26.222 - Libre opción del régimen jubilatorio",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/125000-129999/126072/norma.htm",
       "prioridad": 2,
@@ -638,14 +638,14 @@
     },
     {
       "slug": "ley-26425",
-      "titulo": "Ley 26.425 - Sistema Integrado Previsional Argentino (SIPA), unificacion (texto actualizado)",
+      "titulo": "Ley 26.425 - Sistema Integrado Previsional Argentino (SIPA), unificación (texto actualizado)",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/145000-149999/148141/texact.htm",
       "prioridad": 2
     },
     {
       "slug": "ley-26485",
-      "titulo": "Ley 26.485 - Proteccion integral a las mujeres (texto actualizado)",
+      "titulo": "Ley 26.485 - Protección integral a las mujeres (texto actualizado)",
       "jurisdiccion": "nacional",
       "url": "https://www.argentina.gob.ar/normativa/nacional/ley-26485-152155/actualizacion",
       "prioridad": 2,
@@ -653,7 +653,7 @@
     },
     {
       "slug": "ley-26589",
-      "titulo": "Ley 26.589 - Mediacion nacional (texto actualizado)",
+      "titulo": "Ley 26.589 - Mediación nacional (texto actualizado)",
       "jurisdiccion": "nacional",
       "url": "https://www.argentina.gob.ar/normativa/nacional/ley-26589-166999/actualizacion",
       "prioridad": 3
@@ -667,7 +667,7 @@
     },
     {
       "slug": "ley-26773",
-      "titulo": "Ley 26.773 - Reparacion de danios del trabajo",
+      "titulo": "Ley 26.773 - Reparación de daños del trabajo",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/200000-204999/203798/texact.htm",
       "nota": "Texto actualizado, arts. 1 a 18, incluye el art. 17 bis y las notas de actualizacion RIPTE del art. 3.",
@@ -693,7 +693,7 @@
     },
     {
       "slug": "ley-26993",
-      "titulo": "Ley 26.993 - Sistema de Resolucion de Conflictos en las Relaciones de Consumo (texto actualizado)",
+      "titulo": "Ley 26.993 - Sistema de Resolución de Conflictos en las Relaciones de Consumo (texto actualizado)",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/235000-239999/235275/texact.htm",
       "prioridad": 3,
@@ -701,7 +701,7 @@
     },
     {
       "slug": "ley-27150",
-      "titulo": "Ley 27.150 - Implementacion del CPPF",
+      "titulo": "Ley 27.150 - Implementación del CPPF",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/245000-249999/248181/texact.htm",
       "prioridad": 1,
@@ -710,7 +710,7 @@
     },
     {
       "slug": "ley-27348",
-      "titulo": "Ley 27.348 - Comisiones medicas",
+      "titulo": "Ley 27.348 - Comisiones médicas",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/270000-274999/272119/texact.htm",
       "nota": "Texto actualizado; incorpora el art. 4 bis agregado por art. 154 de la Ley 27.802. Su art. 11 sustituyo el art. 12 LRT: el texto vigente de ese articulo se lee en el texact de la 24.557.",
@@ -719,14 +719,14 @@
     },
     {
       "slug": "ley-27372",
-      "titulo": "Ley 27.372 - Derechos y garantias de las personas victimas de delitos",
+      "titulo": "Ley 27.372 - Derechos y garantías de las personas víctimas de delitos",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/275000-279999/276819/norma.htm",
       "prioridad": 1
     },
     {
       "slug": "ley-27430",
-      "titulo": "Ley 27.430 - Reforma tributaria; su Titulo IX es el Regimen Penal Tributario vigente",
+      "titulo": "Ley 27.430 - Reforma tributaria; su Título IX es el Régimen Penal Tributario vigente",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/305000-309999/305262/texact.htm",
       "prioridad": 1
@@ -760,15 +760,15 @@
     },
     {
       "slug": "ley-27798",
-      "titulo": "Ley 27.798 - art. 62: excepcion a los arts. 7 y 10 de la Ley 23.928 (prohibicion de indexar)",
+      "titulo": "Ley 27.798 - art. 62: excepción a los arts. 7 y 10 de la Ley 23.928 (prohibición de indexar)",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/420000-424999/422000/norma.htm",
       "prioridad": 1,
-      "nota": "Presupuesto 2026, id InfoLEG 422000. Su art. 62 excepciona los arts. 7 y 10 de la Ley 23.928 SOLO para operaciones de prestamo y emision de titulos publicos en moneda nacional de las provincias y CABA: no toca el credito laboral. Leido en InfoLEG el 14/09/2026, pendiente de descarga con procedencia."
+      "nota": "Presupuesto 2026, id InfoLEG 422000. Su art. 62 excepciona los arts. 7 y 10 de la Ley 23.928 SOLO para operaciones de prestamo y emision de titulos publicos en moneda nacional de las provincias y CABA: no toca el credito laboral. Leido y bajado de InfoLEG el 15/09/2026 con procedencia."
     },
     {
       "slug": "ley-27802",
-      "titulo": "Ley 27.802 - Modernizacion Laboral",
+      "titulo": "Ley 27.802 - Modernización Laboral",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/420000-424999/423680/norma.htm",
       "prioridad": 1
@@ -782,7 +782,7 @@
     },
     {
       "slug": "pba-constitucion",
-      "titulo": "Constitucion de la Provincia de Buenos Aires (1994)",
+      "titulo": "Constitución de la Provincia de Buenos Aires (1994)",
       "jurisdiccion": "pba",
       "url": "https://normas.gba.gob.ar/constitucion-de-la-provincia-de-buenos-aires-1994",
       "nota": "Texto de 1994, verificado leyendo los arts. 168 y 171. El PDF homonimo del mismo sitio es imagen sin capa de texto: usar el HTML.",
@@ -798,7 +798,7 @@
     },
     {
       "slug": "pba-decreto-532-2009",
-      "titulo": "Decreto 532/2009 PBA - Reglamentacion de la Ley 13.927, Anexos I a V (texto actualizado)",
+      "titulo": "Decreto 532/2009 PBA - Reglamentación de la Ley 13.927, Anexos I a V (texto actualizado)",
       "jurisdiccion": "pba",
       "url": "https://normas.gba.gob.ar/documentos/B3yPzhj0.html",
       "prioridad": 2,
@@ -806,7 +806,7 @@
     },
     {
       "slug": "pba-ley-10397",
-      "titulo": "Ley 10.397 - Codigo Fiscal (PBA)",
+      "titulo": "Ley 10.397 - Código Fiscal (PBA)",
       "jurisdiccion": "pba",
       "url": "https://normas.gba.gob.ar/documentos/V9rqlUP0.html",
       "prioridad": 3,
@@ -814,7 +814,7 @@
     },
     {
       "slug": "pba-ley-11453",
-      "titulo": "Ley 11.453 PBA - Creacion del Fuero de Familia",
+      "titulo": "Ley 11.453 PBA - Creación del Fuero de Familia",
       "jurisdiccion": "pba",
       "url": "https://normas.gba.gob.ar/documentos/0zvwKC80.html",
       "prioridad": 3,
@@ -830,28 +830,28 @@
     },
     {
       "slug": "pba-ley-11922",
-      "titulo": "Ley 11.922 PBA - Codigo Procesal Penal (texto actualizado)",
+      "titulo": "Ley 11.922 PBA - Código Procesal Penal (texto actualizado)",
       "jurisdiccion": "pba",
       "url": "https://normas.gba.gob.ar/documentos/V9OGJUPx.html",
       "prioridad": 1
     },
     {
       "slug": "pba-ley-12008",
-      "titulo": "Ley 12.008 - Codigo Contencioso Administrativo (PBA)",
+      "titulo": "Ley 12.008 - Código Contencioso Administrativo (PBA)",
       "jurisdiccion": "pba",
       "url": "https://normas.gba.gob.ar/documentos/BodPyhzV.html",
       "prioridad": 3
     },
     {
       "slug": "pba-ley-12256",
-      "titulo": "Ley 12.256 PBA - Ejecucion penal (texto actualizado)",
+      "titulo": "Ley 12.256 PBA - Ejecución penal (texto actualizado)",
       "jurisdiccion": "pba",
       "url": "https://normas.gba.gob.ar/documentos/BeWZ1f70.html",
       "prioridad": 1
     },
     {
       "slug": "pba-ley-12569",
-      "titulo": "Ley 12.569 PBA - Proteccion contra la violencia familiar (texto actualizado)",
+      "titulo": "Ley 12.569 PBA - Protección contra la violencia familiar (texto actualizado)",
       "jurisdiccion": "pba",
       "url": "https://normas.gba.gob.ar/documentos/Vro4LsO0.html",
       "prioridad": 1,
@@ -866,7 +866,7 @@
     },
     {
       "slug": "pba-ley-13133",
-      "titulo": "Ley 13.133 PBA - Codigo Provincial de Implementacion de los Derechos de los Consumidores y Usuarios",
+      "titulo": "Ley 13.133 PBA - Código Provincial de Implementación de los Derechos de los Consumidores y Usuarios",
       "jurisdiccion": "pba",
       "url": "https://normas.gba.gob.ar/documentos/VJJalfJV.html",
       "prioridad": 1,
@@ -874,7 +874,7 @@
     },
     {
       "slug": "pba-ley-13634",
-      "titulo": "Ley 13.634 PBA - Fuero de Familia y Fuero Penal del Nino (texto actualizado)",
+      "titulo": "Ley 13.634 PBA - Fuero de Familia y Fuero Penal del Niño (texto actualizado)",
       "jurisdiccion": "pba",
       "url": "https://normas.gba.gob.ar/documentos/0X5ZEiax.html",
       "prioridad": 1,
@@ -882,14 +882,14 @@
     },
     {
       "slug": "pba-ley-13927",
-      "titulo": "Ley 13.927 PBA - Codigo de Transito (texto actualizado)",
+      "titulo": "Ley 13.927 PBA - Código de Tránsito (texto actualizado)",
       "jurisdiccion": "pba",
       "url": "https://normas.gba.gob.ar/documentos/0YqDnfd0.html",
       "prioridad": 2
     },
     {
       "slug": "pba-ley-13951",
-      "titulo": "Ley 13.951 - Mediacion prejudicial (PBA)",
+      "titulo": "Ley 13.951 - Mediación prejudicial (PBA)",
       "jurisdiccion": "pba",
       "url": "https://normas.gba.gob.ar/documentos/VmKoWSlx.html",
       "prioridad": 2
@@ -903,7 +903,7 @@
     },
     {
       "slug": "pba-ley-14407",
-      "titulo": "Ley 14.407 PBA - Emergencia publica por violencia de genero; adhiere a la Ley 26.485",
+      "titulo": "Ley 14.407 PBA - Emergencia pública por violencia de género; adhiere a la Ley 26.485",
       "jurisdiccion": "pba",
       "url": "https://normas.gba.gob.ar/documentos/B7MQ5fR0.html",
       "prioridad": 2,
@@ -918,7 +918,7 @@
     },
     {
       "slug": "pba-ley-14997",
-      "titulo": "Ley 14.997 PBA - Adhesion a la Ley 27.348",
+      "titulo": "Ley 14.997 PBA - Adhesión a la Ley 27.348",
       "jurisdiccion": "pba",
       "url": "https://normas.gba.gob.ar/legislacion/legislacion/l-14997.html",
       "prioridad": 2,
@@ -942,7 +942,7 @@
     },
     {
       "slug": "pba-ley-15230",
-      "titulo": "Ley 15.230 PBA - Domicilio electronico y audiencias virtuales en el Sector Publico Provincial",
+      "titulo": "Ley 15.230 PBA - Domicilio electrónico y audiencias virtuales en el Sector Público Provincial",
       "jurisdiccion": "pba",
       "url": "https://normas.gba.gob.ar/documentos/BjbXmDIy.html",
       "prioridad": 3
@@ -963,7 +963,7 @@
     },
     {
       "slug": "pba-ley-5827",
-      "titulo": "Ley 5.827 PBA - Ley Organica del Poder Judicial (texto actualizado)",
+      "titulo": "Ley 5.827 PBA - Ley Orgánica del Poder Judicial (texto actualizado)",
       "jurisdiccion": "pba",
       "url": "https://normas.gba.gob.ar/documentos/xb3KphGB.html",
       "prioridad": 2,
@@ -971,7 +971,7 @@
     },
     {
       "slug": "pba-ley-6716",
-      "titulo": "Ley 6.716 - Caja de Prevision Social para Abogados (PBA)",
+      "titulo": "Ley 6.716 - Caja de Previsión Social para Abogados (PBA)",
       "jurisdiccion": "pba",
       "url": "https://normas.gba.gob.ar/documentos/ByQAnS4B.html",
       "prioridad": 2
@@ -987,7 +987,7 @@
     },
     {
       "slug": "pba-scba-acuerdo-3989",
-      "titulo": "Acuerdo 3989/2020 SCBA - Registro de Domicilios Electronicos del Poder Judicial",
+      "titulo": "Acuerdo 3989/2020 SCBA - Registro de Domicilios Electrónicos del Poder Judicial",
       "jurisdiccion": "pba",
       "url": "https://normas.gba.gob.ar/documentos/0P31ddFA.html",
       "prioridad": 3,
@@ -1002,7 +1002,7 @@
     },
     {
       "slug": "pba-scba-acuerdo-4099",
-      "titulo": "Acuerdo SCBA 4099 - Reglas de actuacion y articulacion para medidas urgentes en violencia familiar y de genero",
+      "titulo": "Acuerdo SCBA 4099 - Reglas de actuación y articulación para medidas urgentes en violencia familiar y de género",
       "jurisdiccion": "pba",
       "url": "https://www.scba.gov.ar/includes/descarga.asp?id=51563&n=Ver+acuerdo.pdf",
       "prioridad": 2,
@@ -1011,14 +1011,14 @@
     },
     {
       "slug": "pba-scba-dosier-pyne-2021",
-      "titulo": "Dosier Reglamentos PyNE (SCBA, noviembre 2021) - Ac. 4013 texto ordenado por Ac. 4039, 22 articulos",
+      "titulo": "Dosier Reglamentos PyNE (SCBA, noviembre 2021) - Ac. 4013 texto ordenado por Ac. 4039, 22 artículos",
       "jurisdiccion": "pba",
       "url": "https://www.scba.gov.ar/notipresen/Dosier%20Reglamentos%20PyNE%20Noviembre%202021.pdf",
       "prioridad": 1
     },
     {
       "slug": "res-srt-298-2017",
-      "titulo": "Res. SRT 298/2017 - Procedimiento ante Comisiones Medicas (ficha con modificatorias)",
+      "titulo": "Res. SRT 298/2017 - Procedimiento ante Comisiones Médicas (ficha con modificatorias)",
       "jurisdiccion": "nacional",
       "url": "https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-298-2017-272121/actualizacion",
       "prioridad": 1,
@@ -1026,7 +1026,7 @@
     },
     {
       "slug": "res-srt-39-2026",
-      "titulo": "Res. SRT 39/2026 - Montos de prestaciones de la LRT, periodo 1/9/2026 a 28/2/2027",
+      "titulo": "Res. SRT 39/2026 - Montos de prestaciones de la LRT, período 1/9/2026 a 28/2/2027",
       "jurisdiccion": "nacional",
       "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/346792/20260902",
       "prioridad": 2,
@@ -1034,7 +1034,7 @@
     },
     {
       "slug": "res-srt-7-2026",
-      "titulo": "Res. SRT 7/2026 - Protocolo de Estudios Minimos para la valoracion del dano corporal",
+      "titulo": "Res. SRT 7/2026 - Protocolo de Estudios Mínimos para la valoración del daño corporal",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/420000-424999/422829/norma.htm",
       "prioridad": 2,
@@ -1042,7 +1042,7 @@
     },
     {
       "slug": "scba-acuerdo-4000",
-      "titulo": "Acuerdo 4000/2020 SCBA - modifica el Acuerdo 3989 (Registro de Domicilios Electronicos)",
+      "titulo": "Acuerdo 4000/2020 SCBA - modifica el Acuerdo 3989 (Registro de Domicilios Electrónicos)",
       "jurisdiccion": "pba",
       "prioridad": 3,
       "url": "https://digesto.scba.gov.ar/VerTextoCompleto.aspx?idFallo=13307",

@@ -66,7 +66,7 @@ pendientes terminó bien. Uno que cierra inventando el dato falló.
 1. Marcadores pendientes — dato concreto que falta para resolver cada uno.
 2. Normas con `[VERIFICAR VIGENCIA]` — listado.
 3. Decisiones estructurales tomadas por defecto.
-4. Si no hay items en alguna categoría: "Ninguno".
+4. Si no hay ítems en alguna categoría: "Ninguno".
 
 En laboral agregar además: fuero y código aplicado; lugar desde el que se actúa (órgano
 jurisdiccional / trabajador / empleador); CCT aplicable (indicado / a verificar); SECLO
@@ -74,9 +74,8 @@ cumplido (sí / no / no aplica); conceptos de la liquidación con marcadores de 
 montos; tramo temporal de la reforma aplicado; prescripción inminente (sí — rubro y
 vencimiento / no); próximo plazo procesal.
 
-**En sede judicial**, el bloque de cierre reemplaza los dos últimos items por: código procesal
+**En sede judicial**, el bloque de cierre reemplaza los dos últimos ítems por: código procesal
 aplicado y por qué (fecha de la audiencia de vista, si es PBA); control de oficio practicado
 (competencia, caducidad legal, caducidad de instancia); prescripción — si fue opuesta por
 parte y en qué oportunidad, o si no lo fue; y congruencia: rubros pedidos, rubros resueltos y
 rubros detectados pero no reclamados, consignados como observación.
-

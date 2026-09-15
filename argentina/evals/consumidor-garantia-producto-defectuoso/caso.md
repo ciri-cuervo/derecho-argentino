@@ -20,7 +20,7 @@ A mediados de diciembre de 2025 la heladera dejó de enfriar de manera uniforme.
 
 ### La respuesta del vendedor
 
-El 5/03/2026 LA COMPRADORA reclamó la solución definitiva. El vendedor respondió por correo que "la garantía de 90 días se encuentra vencida" y que nada corresponde. En sucesivos llamados, el centro de atención la derivó entre áreas, le prometió devoluciones de llamado que no se concretaron y, en una ocasión, le dijo que "deje de insistir".
+El 05/03/2026 LA COMPRADORA reclamó la solución definitiva. El vendedor respondió por correo que "la garantía de 90 días se encuentra vencida" y que nada corresponde. En sucesivos llamados, el centro de atención la derivó entre áreas, le prometió devoluciones de llamado que no se concretaron y, en una ocasión, le dijo que "deje de insistir".
 
 ### La situación actual
 

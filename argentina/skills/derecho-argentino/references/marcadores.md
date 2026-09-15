@@ -36,7 +36,7 @@ Primera mención de cualquier norma, sin excepción.
 El motivo se agrega cuando se sabe por qué hay que mirar, y **va en una sola línea**, porque el
 marcador se copia literal:
 
-`[VERIFICAR VIGENCIA: texto del articulo a la fecha del acto extintivo - antecedentes normativos si es anterior a la sustitucion]`
+`[VERIFICAR VIGENCIA: texto del artículo a la fecha del acto extintivo - antecedentes normativos si es anterior a la sustitución]`
 
 > **Una sola línea, con dos excepciones.** Los 24 marcadores de las series A, B y C se escriben en
 > una línea. **D2 y D3 son de dos líneas por diseño** —así están en el glosario heredado del que se
@@ -277,7 +277,7 @@ Los tres de red flags se usan en el análisis de contratos de `contratos.md` 7.
 Estas aparecen por costumbre y hay que reemplazarlas:
 
 | No usar | Usar |
-|---|---|
+| --- | --- |
 | `[VERIFICAR]` | `[VERIFICAR VIGENCIA]` |
 | `[VERIFICAR MONTO]`, `[VERIFICAR MONTO VIGENTE]` | `[VERIFICAR MONTO ACTUALIZADO: ...]` |
 | `[VERIFICAR VIGENCIA Y MONTO]` | A1 **y** A4, en corchetes separados |

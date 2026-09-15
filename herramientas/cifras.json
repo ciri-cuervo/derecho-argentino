@@ -1,0 +1,259 @@
+{
+  "_descripcion": "Registro de las cifras de inventario de la documentacion, para cifras.py. Declara que archivos se censan, como se mide cada cifra y donde va cada una. Lo consume `herramientas/cifras.py` y lo controla `herramientas/test_cifras.py`.",
+  "_criterio": "Una cifra escrita a mano sobre algo que crece envejece en silencio. Toda cifra de inventario que la documentacion afirme tiene que estar en una de tres listas: `anclas` si este script la genera, `cubiertas` si ya la mide otro test, o `cifras-revisadas.json` con motivo si no es inventario. Lo que no este en ninguna, rompe el censo. Y toda cifra sellada necesita una definicion ejecutable: la que no se pueda definir se saca de la prosa en vez de sellarse mal.",
+  "fijado": "2026-09-15",
+  "nota": "Estado inicial. Salio de censar los 15 archivos del alcance: 42 cifras, repartidas en 18 anclas, 5 cubiertas por otro test, 12 veredictos, y 7 que se sacaron de la prosa por indefinibles, por no informar o por estar repetidas en su propio archivo. Ampliado con el sustantivo `archivos`: destapo la cifra de la capa 2, escrita en tres lugares y sin control, y una repetida en LICENCIAS.md que se saco por la regla de unicidad. CLAUDE.md entro al alcance al crearse: son las reglas de trabajo sobre el repositorio y no lleva cifras de inventario a proposito.",
+  "alcance": [
+    "README.md",
+    "CLAUDE.md",
+    "LICENCIAS.md",
+    "SECURITY.md",
+    "docs/ARQUITECTURA.md",
+    "docs/DESARROLLO.md",
+    "docs/TERMINAL.md",
+    "assets/marca/README.md",
+    "argentina/fuentes/MANIFIESTO.md",
+    "argentina/fuentes/ccyc-comentado/INDICE.md",
+    "argentina/fuentes/datos/README.md",
+    "argentina/fuentes/jurisprudencia/INDICE.md",
+    "argentina/fuentes/normas/README.md",
+    "argentina/skills/derecho-argentino/SKILL.md",
+    "argentina/skills/derecho-argentino/scripts/README.md"
+  ],
+  "excluidos": {
+    "CHANGELOG.md": "Es historia. La entrada de 1.0.0 dice 110 normas y tiene razon: describe lo que habia ese dia. Y la entrada abierta se congela al publicarse, asi que sellarla seria programar una falsificacion futura.",
+    "docs/AUDITORIAS.md": "Auditorias fechadas: trece normas es lo que se reviso ese dia, no un inventario vivo.",
+    "LICENSE-ABOITIZ.md": "Texto de licencia de otro autor. No se edita.",
+    "LICENSE-CC-BY-SA-4.0.md": "Texto de licencia de Creative Commons. No se edita.",
+    "argentina/kb/": "Capa 2, de Cristian Aboitiz. Este script no le escribe: lo vigila frontera_kb.py.",
+    "argentina/commands/": "Instrucciones de comando: describen que hacer, no cuanto hay.",
+    "argentina/evals/": "Casos de prueba y sus resultados, no documentacion del repositorio. Su README.md tampoco: es una de las cinco excepciones de capa 2 que declara LICENCIAS.md, y esta lo tenia en el alcance. Estuvo sin consecuencia -ninguna ancla apuntaba ahi- pero era la puerta abierta: una ancla nueva y este script reescribia un archivo de otro autor.",
+    "argentina/skills/derecho-argentino/references/": "Ahi las cifras son derecho -48 articulos, tres etapas del art. 28 inc. h- y el censo se ahogaria en falsos positivos. La unica que se mide es la cantidad de entradas de danos-indice-doctrinario.md, y el ancla que la declara vive en SKILL.md."
+  },
+  "capa_2": {
+    "_motivo": "Material de Cristian Aboitiz: este script no le escribe ni lo censa. La frontera es la ruta -argentina/kb/- mas las cinco excepciones que la ruta no dice. La lista autoritativa esta en LICENCIAS.md seccion 2 y un test ata las dos.",
+    "rutas": [
+      "argentina/kb/",
+      "argentina/evals/administrativo-caba-recursos-agotamiento-via/",
+      "argentina/evals/consumidor-dano-punitivo-prescripcion/",
+      "argentina/evals/consumidor-garantia-producto-defectuoso/",
+      "argentina/evals/consumidor-prepaga-aumento-dnu70/",
+      "argentina/evals/README.md"
+    ]
+  },
+  "sustantivos": [
+    "tests",
+    "normas",
+    "fallos",
+    "módulos",
+    "casos",
+    "comandos",
+    "herramientas",
+    "evals",
+    "calculadoras",
+    "tomos",
+    "perfiles",
+    "entradas",
+    "documentos",
+    "scripts",
+    "descargadores",
+    "utilitarios",
+    "modelos",
+    "escritos",
+    "series",
+    "ramas",
+    "precedentes",
+    "institutos",
+    "marcadores",
+    "archivos"
+  ],
+  "metricas": {
+    "modulos": {
+      "tipo": "glob",
+      "patron": "argentina/skills/derecho-argentino/references/*.md"
+    },
+    "comandos": {
+      "tipo": "glob",
+      "patron": "argentina/commands/*.md"
+    },
+    "evals": {
+      "tipo": "carpetas",
+      "patron": "argentina/evals/*"
+    },
+    "herramientas": {
+      "tipo": "glob_excluye",
+      "patron": "herramientas/*.py",
+      "excluye": [
+        "test_*.py",
+        "_*.py"
+      ]
+    },
+    "tomos_ccyc": {
+      "tipo": "glob",
+      "patron": "argentina/fuentes/ccyc-comentado/*.pdf"
+    },
+    "normas_texto": {
+      "tipo": "glob",
+      "patron": "argentina/fuentes/normas/*.txt"
+    },
+    "docs": {
+      "tipo": "glob",
+      "patron": "docs/*.md"
+    },
+    "fallos": {
+      "tipo": "json_largo",
+      "archivo": "argentina/fuentes/jurisprudencia/fallos.json",
+      "clave": "fallos"
+    },
+    "perfiles_jurisdiccionales": {
+      "tipo": "glob",
+      "patron": "argentina/kb/jurisdicciones/administrativo/*.md"
+    },
+    "indice_danos": {
+      "tipo": "renglones",
+      "archivo": "argentina/skills/derecho-argentino/references/danos-indice-doctrinario.md",
+      "patron": "^### ",
+      "nota": "Las entradas por instituto son los encabezados de nivel 3 de la seccion `Doctrina por instituto`. NO son las filas de las dos tablas del archivo, que son el indice de capitulos de la obra: contar esas daba 34 y llevaba a corregir una cifra que estaba bien."
+    },
+    "archivos_kb": {
+      "tipo": "glob_excluye",
+      "patron": "argentina/kb/**/*",
+      "excluye": [
+        ".*"
+      ],
+      "nota": "Los archivos de la capa 2. Es la misma cifra que frontera_kb.py fija por sha256 en kb-procedencia.json, y por eso se mueve solo cuando alguien decide moverla."
+    }
+  },
+  "anclas": {
+    "README.md": [
+      {
+        "ancla": "**{n} módulos**",
+        "metrica": "modulos"
+      },
+      {
+        "ancla": "**{n} normas**",
+        "metrica": "normas_texto"
+      },
+      {
+        "ancla": "**{n} fallos**",
+        "metrica": "fallos"
+      }
+    ],
+    "LICENCIAS.md": [
+      {
+        "ancla": "**{n} módulos**",
+        "metrica": "modulos"
+      },
+      {
+        "ancla": "**{n} comandos slash**",
+        "metrica": "comandos"
+      },
+      {
+        "ancla": "**{n} casos**",
+        "metrica": "evals"
+      },
+      {
+        "ancla": "**{n} documentos**",
+        "metrica": "docs"
+      },
+      {
+        "ancla": "**{n} herramientas**",
+        "metrica": "herramientas"
+      },
+      {
+        "ancla": "{n} perfiles jurisdiccionales",
+        "metrica": "perfiles_jurisdiccionales"
+      },
+      {
+        "ancla": "{n} tomos",
+        "metrica": "tomos_ccyc",
+        "formato": "palabra"
+      },
+      {
+        "ancla": "{n} archivos",
+        "metrica": "archivos_kb"
+      }
+    ],
+    "docs/ARQUITECTURA.md": [
+      {
+        "ancla": "{n} comandos slash",
+        "metrica": "comandos",
+        "formato": "palabra"
+      },
+      {
+        "ancla": "{n} módulos",
+        "metrica": "modulos"
+      },
+      {
+        "ancla": "{n} tomos",
+        "metrica": "tomos_ccyc",
+        "formato": "palabra"
+      }
+    ],
+    "docs/DESARROLLO.md": [
+      {
+        "ancla": "{n} comandos slash",
+        "metrica": "comandos",
+        "formato": "palabra"
+      },
+      {
+        "ancla": "{n} casos",
+        "metrica": "evals"
+      },
+      {
+        "ancla": "{n} archivos",
+        "metrica": "archivos_kb"
+      }
+    ],
+    "argentina/fuentes/MANIFIESTO.md": [
+      {
+        "ancla": "{n} tomos",
+        "metrica": "tomos_ccyc",
+        "formato": "palabra"
+      }
+    ],
+    "argentina/skills/derecho-argentino/SKILL.md": [
+      {
+        "ancla": "{n} tomos",
+        "metrica": "tomos_ccyc",
+        "formato": "palabra"
+      },
+      {
+        "ancla": "{n} entradas por instituto",
+        "metrica": "indice_danos"
+      }
+    ]
+  },
+  "cubiertas": [
+    {
+      "archivo": "argentina/fuentes/MANIFIESTO.md",
+      "patron": "\\*\\*\\d+ entradas\\*\\*, \\d+ con URL",
+      "test": "TestManifiestoDeFuentes",
+      "suite": "argentina/skills/derecho-argentino/scripts/test_scripts.py"
+    },
+    {
+      "archivo": "argentina/fuentes/MANIFIESTO.md",
+      "patron": "\\*\\*\\d+ entradas sin URL\\*\\*",
+      "test": "TestManifiestoDeFuentes",
+      "suite": "argentina/skills/derecho-argentino/scripts/test_scripts.py"
+    },
+    {
+      "archivo": "argentina/fuentes/MANIFIESTO.md",
+      "patron": "\\*\\*\\d+ fallos\\*\\*",
+      "test": "TestManifiestoDeFuentes",
+      "suite": "argentina/skills/derecho-argentino/scripts/test_scripts.py"
+    },
+    {
+      "archivo": "argentina/skills/derecho-argentino/scripts/README.md",
+      "patron": "\\*\\*\\d+ tests\\*\\*",
+      "test": "TestREADMEDeScripts",
+      "suite": "argentina/skills/derecho-argentino/scripts/test_scripts.py"
+    },
+    {
+      "archivo": "docs/ARQUITECTURA.md",
+      "patron": "\\d+ modelos y \\d+ guías",
+      "test": "TestInventarioDeModelos",
+      "suite": "argentina/skills/derecho-argentino/scripts/test_scripts.py"
+    }
+  ]
+}

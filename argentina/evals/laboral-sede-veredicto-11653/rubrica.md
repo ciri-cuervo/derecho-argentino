@@ -10,8 +10,8 @@ Cada punto es binario: el sistema lo identifica o no.
 - [ ] Reconoce que se consulta **desde el órgano jurisdiccional** y trabaja en modo sede
   judicial: verifica en lugar de producir, no construye estrategia, no anticipa defensas.
 
-- [ ] Determina el **régimen procesal por la fecha de la audiencia de vista** (12/4/2024,
-  anterior al 3/7/2024): la causa continúa bajo la **Ley 11.653**. No aplica el rito de la
+- [ ] Determina el **régimen procesal por la fecha de la audiencia de vista** (12/04/2024,
+  anterior al 03/07/2024): la causa continúa bajo la **Ley 11.653**. No aplica el rito de la
   Ley 15.057 por ser la ley posterior.
 
 - [ ] Señala que la estructura del proyecto es **incorrecta**: bajo la Ley 11.653 hay que

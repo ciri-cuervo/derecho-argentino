@@ -3,7 +3,7 @@ titulo: Despido con registración deficiente - tramo Ley 27.742 y agravantes der
 area: laboral
 perfil: kb/perfiles/laboral-CLAUDE.md
 fuero: Juzgado del Trabajo PBA (Ley 15.057)
-problema: "riesgo de liquidar agravantes derogados (arts. 8, 9 y 10 Ley 24.013; art. 1 y 2 Ley 25.323; art. 45 Ley 25.345) en un acto extintivo posterior al 9/7/2024; riesgo de aplicar la base del art. 245 del régimen vigente desde el 6/3/2026 a un despido de 2025; riesgo de exigir SECLO en PBA; riesgo de citar la Ley 11.653 como código procesal vigente cuando fue derogada por el art. 88 de la Ley 15.057"
+problema: "riesgo de liquidar agravantes derogados (arts. 8, 9 y 10 Ley 24.013; art. 1 y 2 Ley 25.323; art. 45 Ley 25.345) en un acto extintivo posterior al 09/07/2024; riesgo de aplicar la base del art. 245 del régimen vigente desde el 06/03/2026 a un despido de 2025; riesgo de exigir SECLO en PBA; riesgo de citar la Ley 11.653 como código procesal vigente cuando fue derogada por el art. 88 de la Ley 15.057"
 ---
 
 # Caso · Despido sin causa con registración deficiente

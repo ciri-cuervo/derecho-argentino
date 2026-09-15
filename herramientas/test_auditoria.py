@@ -49,7 +49,7 @@ class TestFechaImpresa(unittest.TestCase):
         self.assertIsNone(auditor.fecha_impresa(texto))
 
     def test_no_mira_mas_alla_del_titulo(self):
-        # Una fecha que aparece mucho despues no es la del fallo.
+        # Una fecha que aparece mucho después no es la del fallo.
         texto = "FALLO DE LA CORTE SUPREMA\n" + "x" * 500 + "\nBuenos Aires, 1 de marzo de 1990."
         self.assertIsNone(auditor.fecha_impresa(texto))
 
