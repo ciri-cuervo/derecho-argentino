@@ -1,26 +1,26 @@
 #!/usr/bin/env python3
-"""Audita cada fallo bajado contra su propio texto: identidad primero, fecha despues.
+"""Audita cada fallo bajado contra su propio texto: identidad primero, fecha después.
 
 Dos controles.
 
-EL PRIMERO ES LA IDENTIDAD, y aplica sobre todo a la CSJN. Ahi el documento se pide por un
-identificador interno que no se deriva de la cita de Fallos y hay que curar a mano, asi que un
+EL PRIMERO ES LA IDENTIDAD, y aplica sobre todo a la CSJN. Ahí el documento se pide por un
+identificador interno que no se deriva de la cita de Fallos y hay que curar a mano, así que un
 id mal curado baja OTRO fallo: buscando "Acosta" -Fallos 331:858- aparece indexado un id que
 devuelve "Llerena, Horacio Luis s/ abuso de armas". El descargador ya lo controla cuando lo
-bajado es HTML, pero la CSJN devuelve PDF y ahi no puede: por eso el control vive tambien aca,
+bajado es HTML, pero la CSJN devuelve PDF y ahí no puede: por eso el control vive también acá,
 donde ya se extrae el texto con pdftotext.
 
 EL SEGUNDO ES LA FECHA, y aplica a la SCBA: las fechas de los fallos bonaerenses circulan mal. Las fuentes secundarias
 publican la fecha de la PRIMERA firma, la del juez que voto primero, y entre esa y la del
-actuario pueden pasar semanas. Por el art. 4 del Ac. SCBA 3971/20 la rubrica del acto se
+actuario pueden pasar semanas. Por el art. 4 del Ac. SCBA 3971/20 la rúbrica del acto se
 perfecciona cuando la suscribe el secretario o subsecretario: esa es la fecha del fallo, y
 los PDF la traen al pie en las constancias de firma digital. O sea que se puede comprobar
 contra el documento en vez de contra un portal.
 
-La primera corrida, el 13/9/2026, encontro cuatro fechas mal en el manifiesto, una de ellas
+La primera corrida, el 13/09/2026, encontró cuatro fechas mal en el manifiesto, una de ellas
 con dos meses de diferencia.
 
-Uso, desde la raiz del repositorio:
+Uso, desde la raíz del repositorio:
 
     python3 herramientas/auditar_fechas_fallos.py
 
@@ -53,7 +53,7 @@ def texto_de(ruta: pathlib.Path) -> str | None:
     """Texto plano del documento, sea PDF o HTML.
 
     No todo lo que se baja es PDF: un fallo tomado de JUBA viene en HTML, y pasarle pdftotext
-    devuelve vacio, que se confunde con un PDF escaneado. Son dos problemas distintos y el
+    devuelve vacío, que se confunde con un PDF escaneado. Son dos problemas distintos y el
     auditor tiene que poder distinguirlos.
     """
     crudo = ruta.read_bytes()
@@ -62,7 +62,7 @@ def texto_de(ruta: pathlib.Path) -> str | None:
             return subprocess.run(["pdftotext", "-q", str(ruta), "-"],
                                   capture_output=True, text=True, timeout=60).stdout
         except FileNotFoundError:
-            # Falta el binario: es un problema de la maquina, no del documento. Meterlo en
+            # Falta el binario: es un problema de la máquina, no del documento. Meterlo en
             # el mismo saco que un PDF roto hace que el resumen diga "0 A REVISAR" con el
             # auditor apagado. `main()` lo exige antes de empezar; esto es el cinturon.
             raise SystemExit(_externos.instruccion("pdftotext"))
@@ -82,9 +82,9 @@ def fecha_impresa(txt: str) -> str | None:
     """La fecha impresa en el cuerpo, para los tomos que no tienen firma digital.
 
     Los fallos de los 80 no traen constancias de firma: la fecha esta impresa en el tomo,
-    en la linea siguiente al titulo "FALLO DE LA CORTE SUPREMA". Se busca ahi y no en la
+    en la línea siguiente al titulo "FALLO DE LA CORTE SUPREMA". Se busca ahí y no en la
     primera "Buenos Aires" del documento, que suele ser la del dictamen del Procurador y
-    lleva otra fecha: en "Fiorentino" el dictamen es del 21/5/1984 y el fallo del 27/11/1984.
+    lleva otra fecha: en "Fiorentino" el dictamen es del 21/05/1984 y el fallo del 27/11/1984.
     """
     titulo = re.search(r"FALLO\s+DE\s+LA\s+CORTE\s+SUPREMA", txt, re.I)
     if not titulo:
@@ -107,7 +107,7 @@ def auditar(f: dict, proc: dict) -> str:
         return f"  ---       {f['slug']}: sin archivo bajado"
 
     # Si hay texto recuperado por OCR, se audita contra eso: para los seis documentos cuya capa
-    # de texto vino arruinada, pdftotext devuelve basura y el control no podia ni empezar.
+    # de texto vino arruinada, pdftotext devuelve basura y el control no podía ni empezar.
     recuperado = J / "ocr" / f"{f['slug']}.txt"
     desde_ocr = recuperado.exists()
     if desde_ocr:
@@ -144,7 +144,7 @@ def auditar(f: dict, proc: dict) -> str:
     act = [d for d, c in cargos if SECRE.search(c)]
     dd, mm, yy = (act[-1] if act else firmas[-1]).split("/")
     iso = f"{yy}-{mm}-{dd}"
-    nota = "" if act else "  (sin cargo de actuario: se usa la ultima firma)"
+    nota = "" if act else "  (sin cargo de actuario: se usa la última firma)"
     if iso == f.get("fecha"):
         return f"  OK        {f['slug']}{marca}: identidad y fecha confirmadas ({iso}){nota}"
     return f"  DIFIERE   {f['slug']}{marca}: manifiesto {f.get('fecha')} | actuario {iso}{nota}"
@@ -167,7 +167,7 @@ def main() -> int:
     # no coincide es su fecha. Contarlo como identidad sin confirmar la subdeclaraba.
     ident = sum(l.strip().startswith(("OK", "id ok", "DIFIERE")) for l in lineas)
     fecha = sum(l.strip().startswith("OK") for l in lineas)
-    # Por resta daba negativo cuando una fecha DIFIERE, porque esa linea cuenta en identidad
+    # Por resta daba negativo cuando una fecha DIFIERE, porque esa línea cuenta en identidad
     # y en graves a la vez. Se cuenta lo que efectivamente no se pudo auditar.
     sin = sum(l.strip().startswith(("---", "???")) for l in lineas)
     print(f"\n  {len(lineas)} fallos | identidad confirmada en {ident} | "

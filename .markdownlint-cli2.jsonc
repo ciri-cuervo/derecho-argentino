@@ -1,0 +1,67 @@
+// Configuración de markdownlint para las corridas de PROSPECCIÓN a mano. No está en el CI ni en
+// el checklist de cierre: el verificador del repositorio es `herramientas/test_markdown.py`, que
+// no tiene dependencias y comprueba lo que se rompe en silencio —links, anclas, tablas, cercas,
+// imágenes, acentos, cifras, marcadores enteros—. markdownlint sirve para lo otro: que un tercero
+// mire el árbol con otros ojos y aparezca algo que el propio verificador no busca.
+//
+//     npx --yes markdownlint-cli2
+//
+// Sin esta configuración devuelve 9.868 avisos y el 98% son dos reglas de estilo que este
+// repositorio decidió a propósito. Con ella, lo que queda se puede leer.
+{
+  "config": {
+    // ANCHO DE LÍNEA. La prosa se envuelve cerca de 100 por costumbre; 120 es el tope duro, no
+    // el objetivo. Las tablas quedan afuera porque una fila de Markdown NO se puede envolver: la
+    // más larga del repositorio tiene 1.545 caracteres y es correcta. Los bloques de código
+    // tampoco: son comandos y salidas literales.
+    "MD013": { "line_length": 120, "tables": false, "code_blocks": false },
+
+    // ESTILO DE TABLA: `compact`, un espacio de cada lado en toda celda, delimitador incluido
+    // -`| --- | --- |`-. Se adoptó con `--fix`, que lo arregla solo. El estilo va DICHO y no
+    // inferido: con el default `any` la regla elige por tabla el estilo más cercano, y en las de
+    // celda larga elegía `aligned`, que exige alinear los pipes en columna. Una celda de 1.545
+    // caracteres no se alinea, así que esas tablas quedaban sin arreglo posible.
+    // El parser de tablas de `pendientes.py` reconoce los dos estilos y tiene test: buscar la
+    // fila delimitadora con `startswith("|--")` fallaba EN SILENCIO con el estilo nuevo.
+    "MD060": { "style": "compact" },
+
+    // HTML EN LÍNEA. El README arma la marca con `<picture>` y `<img>` para el modo oscuro, y los
+    // logos de Claude y Codex van así por uso nominativo. No hay equivalente en Markdown.
+    "MD033": false,
+
+    // ÉNFASIS COMO ENCABEZADO. `**Lo que sí se hace.**` abriendo un párrafo es la voz de este
+    // repositorio, no un encabezado mal puesto.
+    "MD036": false,
+
+    // PRIMER RENGLÓN ENCABEZADO. Los casos de prueba arrancan con `titulo:`, que es un campo.
+    "MD041": false,
+
+    // URL DESNUDA. Una URL dentro de un marcador está para que el abogado la copie; envolverla en
+    // `<>` o en un link le agrega ruido a una cadena que se pega tal cual.
+    "MD034": false,
+
+    // ESTILO DE BLOQUE DE CÓDIGO. Se usan las dos formas a propósito: cercas para comandos, y
+    // sangría para los diagramas de árbol y el linaje de licencias.
+    "MD046": false,
+
+    // FRAGMENTOS DE LINK. Su slugger NO reproduce a GitHub: marca como roto `#-armar-el-proyecto`,
+    // que funciona, porque no sabe que un emoji al principio deja su guion. `TestAncla` sí lo
+    // reproduce, y sus casos se midieron contra encabezados renderizados.
+    "MD051": false
+  },
+  "globs": ["**/*.md"],
+  // CAPA 2 AFUERA, y no sólo `kb/`. Es material de otro autor: no se le opina el formato y sobre
+  // todo **no se le corre `--fix`**, que reescribe el archivo. Las cinco excepciones fuera de
+  // `kb/` están declaradas en LICENCIAS.md sección 2, y una de ellas tiene un marcador partido
+  // que se deja como está: figura anotado en `TestMarcadoresEnteros`.
+  // `_local/` son ejemplares de obras comerciales que no se versionan.
+  "ignores": ["argentina/kb/**",
+              "argentina/evals/administrativo-caba-recursos-agotamiento-via/**",
+              "argentina/evals/consumidor-dano-punitivo-prescripcion/**",
+              "argentina/evals/consumidor-garantia-producto-defectuoso/**",
+              "argentina/evals/consumidor-prepaga-aumento-dnu70/**",
+              "argentina/evals/README.md",
+              "argentina/fuentes/_local/**",
+              "LICENSE-ABOITIZ.md",
+              "LICENSE-CC-BY-SA-4.0.md"]
+}

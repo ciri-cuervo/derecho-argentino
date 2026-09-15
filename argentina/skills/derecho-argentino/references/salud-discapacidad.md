@@ -47,7 +47,7 @@ actualización.
 - El **art. 10 de la Ley 24.901** remite a este art. 3 y a las leyes provinciales análogas: la
   acreditación es la misma para las prestaciones básicas.
 
-`[VERIFICAR VIGENCIA: reglamentacion de la Ley 27.793 y lineamientos de certificacion de la Agencia Nacional de Discapacidad posteriores al 22/09/2025 - no estan cargados en fuentes/]`
+`[VERIFICAR VIGENCIA: reglamentación de la Ley 27.793 y lineamientos de certificación de la Agencia Nacional de Discapacidad posteriores al 22/09/2025 - no estan cargados en fuentes/]`
 
 ### 27.2 Quién tiene que cubrir, y con qué alcance
 
@@ -58,7 +58,7 @@ actualización.
 > publica anonimizada. Citar desde 34.6.
 
 | Sujeto obligado | Norma | Alcance |
-|---|---|---|
+| --- | --- | --- |
 | **Obras sociales** (las del art. 1 Ley 23.660) | Art. 2 Ley 24.901 | **Cobertura total** de las prestaciones básicas de la ley, **con carácter obligatorio**, para sus afiliados con discapacidad |
 | **Empresas de medicina prepaga** y demás sujetos del art. 1 Ley 26.682 | Art. 7 Ley 26.682 | Como **mínimo**: el **PMO vigente** y el **Sistema de Prestaciones Básicas de la Ley 24.901 y sus modificatorias** |
 | **El Estado** | Art. 4 Ley 22.431 y art. 4 Ley 24.901 | Para las personas con discapacidad **sin cobertura de obra social**, en la medida en que ellas o quienes dependan no puedan afrontarlas. Quien carece de obra social tiene derecho **a la totalidad** de las prestaciones básicas a través de los organismos del Estado |
@@ -100,7 +100,7 @@ aranceles del Sistema:
 > movilidad del Decreto 274/24 al período reclamado, y si el estudio anual de costo de esa
 > prestación ya se aplicó. Son dos mecanismos distintos y se acumulan.
 
-`[VERIFICAR MONTO ACTUALIZADO: aranceles del Sistema de Prestaciones Basicas - indice de movilidad del Decreto 274/24 al periodo reclamado, y estudio anual de costo del art. 7 bis Ley 24.901]`
+`[VERIFICAR MONTO ACTUALIZADO: aranceles del Sistema de Prestaciones Basicas - indice de movilidad del Decreto 274/24 al período reclamado, y estudio anual de costo del art. 7 bis Ley 24.901]`
 `[VERIFICAR VIGENCIA: Decreto 274/24 como norma de movilidad - el art. 7 bis preve expresamente que puede ser reemplazado]`
 
 ### 27.4 Medicina prepaga — Ley 26.682
@@ -125,7 +125,7 @@ parciales— la información al usuario **debe explicitar fehacientemente qué c
 **Los límites a la contratación y a la baja, que es donde vive la práctica:**
 
 | Instituto | Art. | Regla |
-|---|---|---|
+| --- | --- | --- |
 | **Carencias** | 10 | **Prohibidas** para todo lo incluido en el **PMO**. Las demás deben estar suficientemente explicitadas en el contrato **y aprobadas por la Autoridad de Aplicación** |
 | **Preexistencias** | 10 | Sólo pueden establecerse **a partir de la declaración jurada del usuario**, y **no pueden ser criterio de rechazo de admisión**. La Autoridad puede autorizar **valores diferenciales** justificados |
 | **Edad** | 11 | **No puede ser criterio de rechazo de admisión** |
@@ -167,7 +167,7 @@ a conciencia, no por costumbre.
 
 `[VERIFICAR CRITERIO DEL FUERO: procedencia de la cautelar de cobertura integral y alcance de la condena en amparos de salud - fuero y sala actuante]`
 **Para la cobertura de la Ley 24.901 por una prepaga, el precedente está bajado y leído:**
-*"Cambiaso Peres de Nealón"*, **Fallos 330:3725, 28/8/2007**, holding en `fallos-csjn.md` 34.6. La
+*"Cambiaso Peres de Nealón"*, **Fallos 330:3725, 28/08/2007**, holding en `fallos-csjn.md` 34.6. La
 cadena tiene tres eslabones y **los tres están cotejados contra el texto**:
 
 - **Art. 1 de la Ley 24.754** (`fuentes/normas/ley-24754.txt`): las empresas de medicina prepaga
@@ -191,7 +191,7 @@ vía se traslada el piso del art. 1 de la 24.455: **sida y drogadependencia no d
 prepaga los haya incluido en su plan**.
 
 > **Al transcribir el art. 1 de la Ley 24.754, cuidado con una palabra.** El texto publicado el
-> 2/1/1997 decía *"dispuestas **por** las obras sociales"* y una **fe de erratas** lo corrigió a
+> 02/01/1997 decía *"dispuestas **por** las obras sociales"* y una **fe de erratas** lo corrigió a
 > *"dispuestas **para** las obras sociales"*. No es lo mismo: "para" son las prestaciones que se
 > les imponen a las obras sociales, que es el piso que se traslada; "por" sugeriría que las fija
 > cada obra social. Las fuentes secundarias suelen reproducir el texto con el error.
@@ -214,11 +214,11 @@ cadena y aparecen en casos reales:
   partidas específicas destinadas a sus fines."* Es una condición que **el obligado puede
   invocar**, y el módulo no tiene un precedente propio sobre su oponibilidad: no afirmar que la
   defensa está descartada.
-  `[VERIFICAR CRITERIO DEL FUERO: oponibilidad de la condicion presupuestaria del art. 5 de la Ley 24.455 frente al reclamo de cobertura - fuero y sala actuante]`
+  `[VERIFICAR CRITERIO DEL FUERO: oponibilidad de la condición presupuestaria del art. 5 de la Ley 24.455 frente al reclamo de cobertura - fuero y sala actuante]`
 
 > **Al transcribir el art. 1 de la Ley 24.455, mirar el encabezado.** El texto que sirve InfoLEG
 > lo titula *"ARTCULO 1°"*, sin la I. Es un defecto de la fuente, no del articulado: es el mismo
-> artículo. Transcribir *"ARTÍCULO 1°"* y cotejar contra el Boletín Oficial del **8/3/1995, nro.
+> artículo. Transcribir *"ARTÍCULO 1°"* y cotejar contra el Boletín Oficial del **08/03/1995, nro.
 > 28.098, p. 1**. Un defecto así no lo detecta ninguna medida automática —deja una palabra que el
 > ojo completa solo— y por eso queda anotado acá.
 

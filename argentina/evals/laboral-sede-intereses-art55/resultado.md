@@ -7,8 +7,8 @@ Criterios mínimos de aprobación.
 
 ## Causa A — no corresponde "Barrios"
 
-La actora invoca "Barrios" (SCBA, C. 124.096, 17/4/2024) para una prestación dineraria de la
-LRT. El precedente aplicable es **"Galarza"** (SCBA, L. 132.729, 30/3/2026), que desestimó
+La actora invoca "Barrios" (SCBA, C. 124.096, 17/04/2024) para una prestación dineraria de la
+LRT. El precedente aplicable es **"Galarza"** (SCBA, L. 132.729, 30/03/2026), que desestimó
 expresamente ese traslado y convalidó el mecanismo del **art. 11 de la Ley 27.348**,
 modificatorio del art. 12 LRT: actualización del ingreso base por **RIPTE** más **tasa activa
 del Banco de la Nación Argentina** desde el accidente.
@@ -25,7 +25,7 @@ propio fallo fija como **techo del 6%** y no como tasa fija.
 
 Tres capas que no están articuladas entre sí:
 
-- **Art. 55 de la Ley 27.802**: régimen transitorio para juicios en trámite al 6/3/2026, tasa
+- **Art. 55 de la Ley 27.802**: régimen transitorio para juicios en trámite al 06/03/2026, tasa
   pasiva del BCRA con techo de IPC + 3% anual y piso del 67% de ese cálculo, declarado de
   orden público. Es norma **de la Ley 27.802, no de la LCT**.
 - **Art. 276 LCT** (texto art. 54 Ley 27.802): IPC Nivel General + 3% anual, para créditos

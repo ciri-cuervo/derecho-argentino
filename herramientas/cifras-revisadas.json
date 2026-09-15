@@ -1,0 +1,37 @@
+{
+  "_descripcion": "Las cifras contables que el censo de cifras.py encuentra en la documentacion y que NO son inventario del repositorio. Cada una con el motivo por el que no se sella. Lo consume `herramientas/cifras.py --censo`.",
+  "_criterio": "El censo no puede distinguir una cifra que cuenta el repositorio de una que cuenta cualquier otra cosa: eso es una lectura, y lo que queda registrado aca es el resultado de haberla hecho. La clave es el archivo y el texto literal de la cifra, y eso funciona por una razon y no por casualidad: un veredicto dice que esa cifra no sigue a nada, asi que no se mueve. Si alguien la cambia, el censo la reporta como nueva y hay que volver a leerla, que es exactamente lo que corresponde.",
+  "_vocabulario": {
+    "locucion": "La cifra es parte de una expresion del idioma y no cuenta nada.",
+    "congelada": "Es un hecho fechado o de licencia: describe lo que habia en un momento, no lo que hay.",
+    "subconjunto": "Nombra un grupo cualitativo dentro de un total, no el total.",
+    "de-terceros": "Cuenta algo de una obra ajena, no del repositorio.",
+    "editorial": "Es un rotulo que parte en dos algo que ya esta controlado por otro lado.",
+    "cita": "Reproduce la cifra que otro texto decia, para explicar por que estaba mal o que se corrigio. Sellarla destruiria el ejemplo: el error deja de ser legible.",
+    "estructura": "Cuenta las partes fijas de una pieza -los archivos de un caso, las columnas de una tabla-, no cuantas piezas hay."
+  },
+  "fijado": "2026-09-15",
+  "nota": "Estado inicial, del censo de los 15 archivos del alcance. Diecisiete veredictos: doce de la primera lectura, dos que aparecieron al hacer que el censo cruce los saltos de renglon, y tres que salieron de documentar el control en docs/DESARROLLO.md, donde se citan las cifras viejas para explicar el error. Cuatro veredictos más al ampliar el censo con `archivos`, todos sobre la forma de una pieza y no sobre el inventario. Veinte veredictos: el de `argentina/evals/README.md` se fue con el archivo, que salio del alcance por ser una de las cinco excepciones de capa 2 -material de otro autor, ni el contenido ni la ortografia se corrigen-.",
+  "cifras": {
+    "README.md | dos casos": "locucion — «en los dos casos» cierra una oracion sobre dos caminos de instalacion, no cuenta nada del repositorio.",
+    "LICENCIAS.md | Cuatro casos": "congelada — son los cuatro evals que venian del fork de Cristian Aboitiz, y por eso son capa 2. Es un hecho de licencia sobre un commit del 23/07/2026: no crece con los evals nuevos, que son diecisiete y estan sellados por el ancla de `**{n} casos**` en el mismo archivo.",
+    "docs/ARQUITECTURA.md | dos documentos": "locucion — es justamente la frase que advierte que «repetirla en dos documentos garantiza que uno de los dos mienta». Sellarla seria comico.",
+    "docs/DESARROLLO.md | 2 documentos": "cita — es lo que LICENCIAS.md declaraba cuando `docs/` ya tenia cuatro archivos. Es el ejemplo con el que la seccion explica para que existe el control: sellarlo a 4 borra el error que se esta contando.",
+    "docs/DESARROLLO.md | seis tomos": "cita — el segundo «seis tomos» de MANIFIESTO.md, el que se saco porque la cifra estaba escrita dos veces en el mismo archivo. Se nombra para explicar la regla de unicidad de las anclas.",
+    "docs/DESARROLLO.md | 9 scripts": "cita — lo que decia LICENCIAS.md antes de sacarle la cifra. El ejemplo es justamente que no estaba vencida sino indefinida: ocho sin contar la suite de tests, nueve contandola.",
+    "docs/DESARROLLO.md | Tres herramientas": "subconjunto — nombra las herramientas que necesitan binarios que no son de Python, no el inventario de `herramientas/`. Ese total lo sella el ancla de `**{n} herramientas**` en LICENCIAS.md.",
+    "docs/DESARROLLO.md | 64 fallos": "congelada — relata un incidente ya resuelto: poppler imprimia «0 A REVISAR» y los fallos de entonces pasaban sin mirarse. Es el numero que habia cuando paso, y el relato deja de ser cierto si se actualiza.",
+    "argentina/fuentes/MANIFIESTO.md | 116 normas": "congelada — medicion de una redescarga completa del 14/09/2026, con su fecha al lado. Actualizarla convertiria un dato medido en un dato inventado.",
+    "argentina/fuentes/ccyc-comentado/INDICE.md | 6 tomos": "de-terceros — es la identificacion bibliografica de la obra: los tomos que tiene el CCyC Comentado publicado por SAIJ-INFOJUS. Si el repositorio tuviera bajados cinco, la obra seguiria teniendo seis. Los que hay en disco los sella `tomos_ccyc`.",
+    "argentina/fuentes/datos/README.md | Dos series": "subconjunto — encabeza la seccion de las series que no consume ningun script. No es el inventario de series, y ademas es un titulo: cambiarlo mueve el ancla de los enlaces internos.",
+    "argentina/fuentes/jurisprudencia/INDICE.md | cinco fallos": "congelada — nota fechada el 13/09/2026 sobre lo que se cerro en esa sesion de trabajo.",
+    "argentina/skills/derecho-argentino/SKILL.md | dos módulos": "locucion — «son dos modulos espejo: el mismo expediente, dos trabajos distintos» contrasta `parte.md` con `sede-judicial-pba.md`. No cuenta los modulos de `references/`, que los sella el ancla de `**{n} modulos**` en README.md y LICENCIAS.md.",
+    "argentina/fuentes/jurisprudencia/INDICE.md | dos institutos": "locucion — «la gratuidad no exime de las costas. Son dos institutos distintos» es una afirmacion de derecho sobre dos figuras, no una cuenta de institutos cubiertos.",
+    "argentina/skills/derecho-argentino/SKILL.md | dos ramas": "locucion — «si el caso toca dos ramas, se leen los dos» es una regla de ruteo, no una cuenta de las ramas que cubre la skill.",
+    "argentina/skills/derecho-argentino/scripts/README.md | Cuatro calculadoras": "editorial — parte en dos la tabla de scripts de ese mismo README. Que ningun script falte en esa tabla ya lo mide TestREADMEDeScripts, que es el control que importa.",
+    "argentina/skills/derecho-argentino/scripts/README.md | tres utilitarios": "editorial — la otra mitad del rotulo anterior, con el mismo control detras.",
+    "docs/ARQUITECTURA.md | dos archivos": "locucion — describe que una pieza vive en dos archivos, no cuenta el inventario.",
+    "docs/DESARROLLO.md | tres archivos": "locucion — se refiere a los tres archivos que compone un caso de prueba, que es su estructura y no una cuenta que crezca.",
+    "argentina/fuentes/jurisprudencia/INDICE.md | dos archivos": "locucion — dice que un fallo queda en dos archivos, el PDF y su texto. Es la forma de guardarlo, no un inventario."
+  }
+}

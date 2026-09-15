@@ -1,5 +1,5 @@
 ---
-titulo: Prescripcion laboral - SECLO, suspension y el plazo que no esta en la ley
+titulo: Prescripción laboral - SECLO, suspensión y el plazo que no está en la ley
 ---
 # Criterios mínimos de aprobación
 

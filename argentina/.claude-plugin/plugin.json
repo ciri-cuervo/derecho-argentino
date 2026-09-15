@@ -1,7 +1,7 @@
 {
   "name": "derecho",
   "displayName": "Derecho argentino",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Análisis, redacción y revisión jurídica bajo derecho argentino, con una capa offline de fuente primaria con procedencia por hash y calculadoras deterministas que se niegan a inventar montos. En desarrollo: la cobertura auditada contra fuente primaria crece módulo por módulo, y la skill dice siempre qué material pasó esa auditoría y qué material no.",
   "author": {
     "name": "ciri-cuervo",

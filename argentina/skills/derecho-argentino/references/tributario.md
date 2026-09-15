@@ -19,11 +19,11 @@ en particular ni el Régimen Penal Tributario, que está en `penal.md` 24.9.5.
 
 ### 33.1 Prescripción — el art. 56 cambió en enero de 2026
 
-**Texto según el art. 30 de la Ley 27.799 (BO 2/1/2026).** Las acciones y poderes del Fisco para
+**Texto según el art. 30 de la Ley 27.799 (BO 02/01/2026).** Las acciones y poderes del Fisco para
 determinar y exigir el pago, y para aplicar y hacer efectivas multas y clausuras, prescriben:
 
 | Supuesto | Plazo |
-|---|---|
+| --- | --- |
 | **Contribuyentes inscriptos**; y **no inscriptos** que no tengan obligación legal de inscribirse, o que teniéndola **regularicen espontáneamente** | **5 años** |
 | **Inscripto que presentó la DDJJ en término** y, en su caso, **regularizó el saldo**, **siempre que el organismo no la impugne por discrepancia significativa** | **3 años** |
 | **Contribuyentes no inscriptos** | **10 años** |
@@ -49,7 +49,7 @@ de estas condiciones:
    de ella resulte un incremento del saldo a favor del Fisco o una reducción de quebrantos o
    saldos a favor.
 
-`[VERIFICAR MONTO ACTUALIZADO: umbral del art. 1 del Regimen Penal Tributario, Titulo IX de la Ley 27.430 - opera como condicion ii) de la discrepancia significativa del art. 56 y se actualiza por ley]`
+`[VERIFICAR MONTO ACTUALIZADO: umbral del art. 1 del Régimen Penal Tributario, Título IX de la Ley 27.430 - opera como condición ii) de la discrepancia significativa del art. 56 y se actualiza por ley]`
 
 ### 33.2 Los recursos del art. 76 — la opción que cierra puertas
 
@@ -60,7 +60,7 @@ casos del art. 81.
 **Plazo: quince días de notificado.** A opción del interesado:
 
 | Vía | Art. 76 | Cómo se interpone |
-|---|---|---|
+| --- | --- | --- |
 | **Reconsideración ante el superior** | inc. a | Ante **la misma autoridad** que dictó la resolución, por escrito directo o **entrega al correo en carta certificada con aviso de retorno** |
 | **Apelación ante el Tribunal Fiscal de la Nación**, cuando fuere viable | inc. b | **Se comunica a esa misma autoridad** por los mismos medios |
 
@@ -128,7 +128,7 @@ excesivo** respecto del que la ley le impone.
 6. **Si venció el plazo sin recurrir**, que en multas y repetición hay **cosa juzgada**, no sólo
    firmeza (art. 79).
 
-`[VERIFICAR VIGENCIA: competencia y funcionamiento del Tribunal Fiscal de la Nacion, y la denominacion del organismo recaudador - el texto consolidado alterna AFIP y Agencia de Recaudacion y Control Aduanero segun el tramo reformado]`
+`[VERIFICAR VIGENCIA: competencia y funcionamiento del Tribunal Fiscal de la Nación, y la denominación del organismo recaudador - el texto consolidado alterna AFIP y Agencia de Recaudación y Control Aduanero según el tramo reformado]`
 
 ---
 

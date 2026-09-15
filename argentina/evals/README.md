@@ -36,7 +36,7 @@ evals/
 > [!NOTE]
 > **Un caso está migrado a `claude plugin eval`.** `laboral-despido-tramos-reforma-pba` tiene,
 > además de los tres archivos de abajo, un `prompt.md` y una carpeta `graders/`: es el formato
-> que corre el harness de Claude Code sin intervención humana. Los otros 16 casos están solo en
+> que corre el harness de Claude Code sin intervención humana. Los demás casos están solo en
 > el formato manual. La migración está parada a propósito, y lo que costó averiguar probándola
 > quedó anotado en [`docs/DESARROLLO.md`](../../docs/DESARROLLO.md), sección *Qué queda
 > pendiente*.

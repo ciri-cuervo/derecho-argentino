@@ -22,7 +22,7 @@ estima el porcentaje "de referencia".
 ### 20.1 Qué régimen rige — determinar antes que nada
 
 | Proceso | Régimen de la pericia |
-|---|---|
+| --- | --- |
 | Laboral PBA, causa **con** vista de la causa celebrada antes de la Res. SC 1840/2024 | **Arts. 37 y 38 Ley 11.653**, con remisión expresa al art. 469 CPCCBA |
 | Laboral PBA, causa **sin** vista celebrada | **Arts. 44, 45 y 46 Ley 15.057** |
 | Civil y comercial PBA, familia PBA, consumo en sede judicial PBA | **Arts. 457 a 476 CPCCBA** |
@@ -49,7 +49,7 @@ complejidad del asunto.
 Diferencias entre los dos textos laborales que sí importan:
 
 | | Ley 11.653 art. 37 | Ley 15.057 art. 44 |
-|---|---|---|
+| --- | --- | --- |
 | Quién gradúa el número | El **Presidente del Tribunal** | El **Juez** |
 | Pericia médica | Puede hacerse por **perito único** sorteado entre los **médicos laboralistas de la nómina oficial**; sin ese cargo en la lista, sorteo entre especialistas de la oficina más próxima | No hay regla especial de perito médico único; rige el orden de suplencia del segundo párrafo |
 | Orden de suplencia | Técnicos forenses u organismos públicos nacionales, provinciales o municipales, por disposición del Presidente | Escalonado y taxativo: **1)** sorteo en la jurisdicción más cercana o entre peritos de la **Asesoría Pericial de la SCBA**; **2)** designación de común acuerdo por las partes; **3)** hospitales públicos nacionales, provinciales o municipales |
@@ -173,7 +173,7 @@ rigor técnico, no en la mera discrepancia.
 **En el fuero laboral bonaerense el estándar cambió con el régimen:**
 
 | | Norma | Estándar de valoración |
-|---|---|---|
+| --- | --- | --- |
 | Ley 11.653 | Art. 44 inc. d) | El veredicto se pronuncia sobre los hechos **"apreciando en conciencia la prueba rendida"** |
 | Ley 15.057 | Art. 54 | La sentencia se pronuncia sobre los hechos **"apreciando la prueba rendida de acuerdo a las reglas de la sana crítica"** |
 

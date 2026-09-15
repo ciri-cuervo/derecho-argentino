@@ -42,7 +42,7 @@ Cada una tiene el proceso de encuadre, la verificación normativa previa, la ele
 y su propio checklist de cierre. Leer la guía de la rama **antes** que el modelo.
 
 | Rama | Guía |
-|---|---|
+| --- | --- |
 | Civil y comercial | `kb/escritos/civil/escritos/escritos-civil-SKILL.md` |
 | Familia | `kb/escritos/familia/escritos/escritos-familia-SKILL.md` |
 | Consumidor | `kb/escritos/consumidor/escritos/escritos-consumidor-SKILL.md` |
@@ -54,7 +54,7 @@ y su propio checklist de cierre. Leer la guía de la rama **antes** que el model
 ### 23.3 Civil y comercial — `kb/escritos/civil/escritos/modelos/`
 
 | Escrito | Archivo |
-|---|---|
+| --- | --- |
 | Demanda de daños por accidente de tránsito | `kb/escritos/civil/escritos/modelos/demanda-danos-accidente-transito.md` |
 | Demanda de daños por mala praxis médica (art. 1768 CCyCN) | `kb/escritos/civil/escritos/modelos/demanda-danos-mala-praxis.md` |
 | Demanda de daños por incumplimiento contractual | `kb/escritos/civil/escritos/modelos/demanda-danos-incumplimiento-contractual.md` |
@@ -66,7 +66,7 @@ conectado.
 ### 23.4 Familia — `kb/escritos/familia/escritos/modelos/`
 
 | Escrito | Archivo |
-|---|---|
+| --- | --- |
 | Demanda de alimentos para hijos, con provisorios (arts. 658-670 CCyCN) | `kb/escritos/familia/escritos/modelos/demanda-alimentos.md` |
 | Convenio regulador de divorcio (art. 438 CCyCN) | `kb/escritos/familia/escritos/modelos/convenio-regulador-divorcio.md` |
 | Solicitud de medidas de protección por violencia familiar | `kb/escritos/familia/escritos/modelos/medidas-proteccion-violencia-familiar.md` |
@@ -80,7 +80,7 @@ provisorios en el primer auto, notificación por aplicaciones de mensajería, Ca
 ### 23.5 Consumidor — `kb/escritos/consumidor/escritos/modelos/`
 
 | Escrito | Archivo |
-|---|---|
+| --- | --- |
 | Demanda por daños y daño punitivo en relación de consumo | `kb/escritos/consumidor/escritos/modelos/demanda-dano-punitivo.md` |
 | Demanda por garantía y producto defectuoso (art. 11 LDC) | `kb/escritos/consumidor/escritos/modelos/demanda-garantia-producto.md` |
 | Amparo de salud contra empresa de medicina prepaga | `kb/escritos/consumidor/escritos/modelos/amparo-salud-prepaga.md` |
@@ -101,7 +101,7 @@ lo que exige cada norma, qué plazo rige de verdad y en qué orden van los actos
 Ocho bloques temáticos. **El telegrama es el acto que más caro sale mal redactado.**
 
 | Bloque | Archivo | Materia |
-|---|---|---|
+| --- | --- | --- |
 | 1 | `kb/escritos/laboral/telegrama/modelos/bloque-01-registro.md` | Registración, Ley 24.013, arts. 7 y ss. (el art. 11 está **derogado**) |
 | 2 | `kb/escritos/laboral/telegrama/modelos/bloque-02-estabilidad-despido.md` | Estabilidad, despido, injuria |
 | 3 | `kb/escritos/laboral/telegrama/modelos/bloque-03-salarios.md` | Salarios, diferencias, art. 74 LCT |
@@ -116,14 +116,14 @@ además como docs del Project (`derecho/telegramas-*.md`). **Verificar el tramo 
 rige** (5.1) antes de usar cualquier modelo: los apercibimientos y los plazos cambiaron con las
 Leyes 27.742 y 27.802.
 
-> **Defecto concreto, detectado el 13/9/2026, que hay que corregir a mano en cada uso.** Los
-> modelos del bloque 1 y el de despido por falta de registro del bloque 2 intiman **"en el plazo
-> de 30 días"** citando los **arts. 7 y 7 bis de la Ley 24.013**. Esos artículos **no contienen
-> ningún plazo**: el de 30 días lo fijaba el **art. 11 inc. a**, derogado por la Ley 27.742 junto
-> con los agravantes que habilitaba. Ver 5.3. Al usar esos modelos, reemplazar el plazo por uno
-> razonable según el caso —el art. 57 LCT exige que nunca sea inferior a dos días hábiles— y no
-> atribuirlo a los arts. 7 y 7 bis. Los apercibimientos de multa sí fueron depurados en una
-> consolidación anterior; el plazo quedó.
+> **Defecto concreto que hay que corregir a mano en cada uso.** Los modelos del bloque 1 y el de
+> despido por falta de registro del bloque 2 intiman **"en el plazo de 30 días"** citando los
+> **arts. 7 y 7 bis de la Ley 24.013**. Esos artículos **no contienen ningún plazo**: el de 30 días
+> lo fijaba el **art. 11 inc. a**, derogado por la Ley 27.742 junto con los agravantes que
+> habilitaba. Ver 5.3. Al usar esos modelos, reemplazar el plazo por uno razonable según el caso
+> —el art. 57 LCT exige que nunca sea inferior a dos días hábiles— y no atribuirlo a los
+> arts. 7 y 7 bis. Los apercibimientos de multa sí fueron depurados en una consolidación anterior;
+> el plazo quedó.
 
 Lo que sí conviene tomar de estos modelos es la **secuencia**: intimación, plazo, respuesta o
 silencio, y recién entonces el acto extintivo haciendo efectivo el apercibimiento. Esa estructura
@@ -149,7 +149,7 @@ a prueba (`kb/escritos/penal/escritos/modelos/solicitud-probation.md`).
 **Tránsito** — `kb/escritos/transito/descargos/modelos/`, siete descargos numerados:
 
 | Descargo | Archivo |
-|---|---|
+| --- | --- |
 | Nulidad por defectos formales del acta o fotomulta | `kb/escritos/transito/descargos/modelos/modelo-01-nulidad-formal.md` |
 | Estado de necesidad o fuerza mayor | `kb/escritos/transito/descargos/modelos/modelo-02-urgencia-fuerza-mayor.md` |
 | Denuncia de venta anterior al hecho | `kb/escritos/transito/descargos/modelos/modelo-03-denuncia-de-venta.md` |

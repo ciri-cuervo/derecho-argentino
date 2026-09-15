@@ -28,7 +28,7 @@ Es un índice doctrinario: sirve para ubicar rápido dónde la obra desarrolla u
 ## Mapa de la obra
 
 | Parte | Cap. | Título | Autor/a | Págs. |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Primera - Los principios generales en el derecho de daños | I | La evolución socio-jurídica y económica de la responsabilidad y los factores de atribución | Celia Weingarten | 4-19 |
 | | II | Las condiciones del daño para su reparabilidad | Carlos A. Ghersi | 20-28 |
 | | III | Los rubros del daño reparable | Celia Weingarten | 29-38 |
@@ -68,7 +68,7 @@ Prólogos e introducción general: pp. 1-3.
 
 **Normas**: arts. 14, 17, 19, 42, 43, 75 inc. 22 CN; arts. 512, 513, 521, 901-906, 907, 954, 1066, 1069, 1071, 1072, 1078, 1109, 1113, 1133, 1198, 2499, 2618 Cód. Civil; leyes 9688, 17.711, 24.240/24.999/26.361, 25.248 (leasing), 25.675.
 
-**Fallos**: CSJN "Aquino, Isacio c. Cargo Servicios Industriales", 21/9/2004, Fallos 327:3753; CSJN "Rodríguez, Juan R. c. Cía. Embotelladora", 15/4/1993 (citado críticamente).
+**Fallos**: CSJN "Aquino, Isacio c. Cargo Servicios Industriales", 21/09/2004, Fallos 327:3753; CSJN "Rodríguez, Juan R. c. Cía. Embotelladora", 15/04/1993 (citado críticamente).
 
 **Remisión**: Parte Primera, cap. I, acápites 1 a 5, pp. 4-8 y 15-17.
 
@@ -100,7 +100,7 @@ Prólogos e introducción general: pp. 1-3.
 
 **Normas**: arts. 1726, 1727, 1728, 1736 CCyCN; arts. 901-906 Cód. Civil; arts. 3 inc. c y 4 inc. c ley 26.944.
 
-**Fallos**: CNCiv., sala F, 9/5/2007, "Montenegro c. Feijó".
+**Fallos**: CNCiv., sala F, 09/05/2007, "Montenegro c. Feijó".
 
 **Remisión**: Parte Primera, cap. I, p. 11 y p. 13; cap. II, p. 20 y nota 3 (p. 26); Parte Segunda, cap. III, p. 139 y p. 142; Parte Cuarta, cap. III, pp. 286-287; Parte Séptima, pp. 403 (causalidad difusa) y 407.
 
@@ -112,7 +112,7 @@ Prólogos e introducción general: pp. 1-3.
 
 **Normas**: arts. 1721, 1722, 1723, 1742, 1750, 1755, 1756, 1757, 1758, 1767 CCyCN; arts. 907, 1071, 1113, 1198, 2618 Cód. Civil; arts. 4, 5, 8, 8 bis, 40 LDC; art. 42 CN.
 
-**Fallos**: CSJN "Ferreyra, Víctor D. c. VICOV S.A.", 21/3/2006 (confianza y apariencia, voto Lorenzetti); CSJN "Mosca c. Pcia. de Buenos Aires", 6/3/2007.
+**Fallos**: CSJN "Ferreyra, Víctor D. c. VICOV S.A.", 21/03/2006 (confianza y apariencia, voto Lorenzetti); CSJN "Mosca c. Pcia. de Buenos Aires", 06/03/2007.
 
 **Remisión**: Parte Primera, cap. I, pp. 7, 12-13 y 15-16; Parte Tercera, cap. I, pp. 159-162; Parte Sexta, cap. II, pp. 380-381.
 
@@ -134,7 +134,7 @@ Prólogos e introducción general: pp. 1-3.
 
 **Normas**: arts. 1737, 1738, 1739, 1740, 1741, 1742, 1744, 1749, 1750, 1751, 1752 CCyCN; arts. 519, 520, 1067, 1068, 1078, 1079, 1081, 1084, 2499, 2618 Cód. Civil; art. 40 LDC; art. 165 CPCCN.
 
-**Fallos**: CSJN "Aquino", 21/9/2004; CNCiv., sala H, 10/10/2007, "Fleitas c. Telecom"; CNCiv., sala E, 3/8/2007, "Patagonia Franca c. Cochico"; CCiv. y Com. San Isidro, sala II, 20/4/2007, "Díaz c. Massalin Particulares" (chance insignificante).
+**Fallos**: CSJN "Aquino", 21/09/2004; CNCiv., sala H, 10/10/2007, "Fleitas c. Telecom"; CNCiv., sala E, 03/08/2007, "Patagonia Franca c. Cochico"; CCiv. y Com. San Isidro, sala II, 20/04/2007, "Díaz c. Massalin Particulares" (chance insignificante).
 
 **Remisión**: Parte Primera, cap. II, completo, pp. 20-28 (crítica al art. 1740 en pp. 22-23; prueba, p. 25).
 
@@ -146,7 +146,7 @@ Prólogos e introducción general: pp. 1-3.
 
 **Normas**: arts. 1738, 1739, 1745, 1746 CCyCN; arts. 495, 519, 574, 616, 1068, 1069, 1079, 1084, 1085, 2311/2312 Cód. Civil.
 
-**Fallos**: CNCiv., sala C, 26/6/2008, "L.L., M.Y. c. Medic S.A."; CNCom., sala A, 17/8/2006, "G., L.O. c. Provincia de Buenos Aires" (chance del jockey aprendiz); CNCiv., sala H, 9/8/2005, "M., R.A. c. A., D.L." (chance por caducidad de instancia); CNCiv., sala K, 29/8/2006, "Rivas c. Seijas"; CNCom., sala B, 26/2/1992, "Distribuidora Aguapié c. AGIP Argentina" (valor llave).
+**Fallos**: CNCiv., sala C, 26/06/2008, "L.L., M.Y. c. Medic S.A."; CNCom., sala A, 17/08/2006, "G., L.O. c. Provincia de Buenos Aires" (chance del jockey aprendiz); CNCiv., sala H, 09/08/2005, "M., R.A. c. A., D.L." (chance por caducidad de instancia); CNCiv., sala K, 29/08/2006, "Rivas c. Seijas"; CNCom., sala B, 26/02/1992, "Distribuidora Aguapié c. AGIP Argentina" (valor llave).
 
 **Remisión**: Parte Primera, cap. III, acápites 2, 2.1, 5 y 6, pp. 29-38.
 
@@ -158,7 +158,7 @@ Prólogos e introducción general: pp. 1-3.
 
 **Normas**: art. 1740 CCyCN; arts. 21, 505 inc. 3, 522, 1071, 1078, 1083, 1198 Cód. Civil; art. 4 ley 25.675.
 
-**Fallos**: CSJN "Milone, Juan A. c. Asociart ART", 26/10/2004; CSJN "Arostegui c. Omega ART" y "Pametal Peluso", 8/4/2008; Corte IDH "Loayza Tamayo c. Perú" (reparaciones), 27/11/1998 (proyecto de vida).
+**Fallos**: CSJN "Milone, Juan A. c. Asociart ART", 26/10/2004; CSJN "Arostegui c. Omega ART" y "Pametal Peluso", 08/04/2008; Corte IDH "Loayza Tamayo c. Perú" (reparaciones), 27/11/1998 (proyecto de vida).
 
 **Remisión**: Parte Primera, cap. IV, completo, pp. 39-43.
 
@@ -170,7 +170,7 @@ Prólogos e introducción general: pp. 1-3.
 
 **Normas**: arts. 1745, 1746 CCyCN; arts. 1078, 1079, 1084, 1085, 1086 Cód. Civil; art. 30 Cód. Civil (persona física).
 
-**Fallos**: CSJN "Fernández, Alba O. c. Ballejo", 11/5/1993; CSJN "Aquino", 21/9/2004; CSJN "Pose, José D. c. Pcia. del Chubut", 1/12/1992; TSJ Córdoba, sala civ. y com., 25/6/2008, "Dutto c. Carranza" (incapacidad vital, tope 85 años en el caso); CNCiv., sala M, 17/10/2008, "Narváez c. Club Atlético Boca Juniors" (daño estético).
+**Fallos**: CSJN "Fernández, Alba O. c. Ballejo", 11/05/1993; CSJN "Aquino", 21/09/2004; CSJN "Pose, José D. c. Pcia. del Chubut", 01/12/1992; TSJ Córdoba, sala civ. y com., 25/06/2008, "Dutto c. Carranza" (incapacidad vital, tope 85 años en el caso); CNCiv., sala M, 17/10/2008, "Narváez c. Club Atlético Boca Juniors" (daño estético).
 
 **Remisión**: Parte Primera, cap. V, Secc. 1ª, acápites 1 a 2.3, pp. 44-54.
 
@@ -178,11 +178,11 @@ Prólogos e introducción general: pp. 1-3.
 
 ### 11. Legitimados activos por muerte y por incapacidad
 
-**Qué sostiene la obra.** Bajo el Cód. Civil distinguía damnificados presuntos (viuda e hijos, arts. 1084 y 1085) de los que debían probar daño y cuantía. Sostiene que la presunción sobrevive al CCyCN aunque este no la reitere: surge de las obligaciones alimentarias del parentesco y del carácter notorio del perjuicio (art. 1744 in fine), de modo que solo restaría probar la cuantía. Desarrolla en detalle los supuestos: hijos menores (presunción y variación del quántum por etapa educativa), hijos mayores (deben probar), hijos mayores discapacitados, hijos de matrimonios anteriores, padres por muerte de hijo -chance de ayuda en la vejez, condicionada a que el menor estuviera en condiciones de generar excedentes-, abuelos y nietos, cónyuge, conviviente y nuera. Para la incapacidad sobreviniente: la reparación suele ser mayor que por muerte, porque se acumulan gastos de asistencia y no se descuenta el consumo propio del damnificado, que sigue existiendo.
+**Qué sostiene la obra.** Bajo el Cód. Civil distinguía damnificados presuntos (viuda e hijos, arts. 1084 y 1085) de los que debían probar daño y cuantía. Sostiene que la presunción sobrevive al CCyCN aunque este no la reitere: surge de las obligaciones alimentarias del parentesco y del carácter notorio del perjuicio (art. 1744 in fine), de modo que solo restaría probar la cuantía. Desarrolla en detalle los supuestos: hijos menores (presunción y variación del quantum por etapa educativa), hijos mayores (deben probar), hijos mayores discapacitados, hijos de matrimonios anteriores, padres por muerte de hijo -chance de ayuda en la vejez, condicionada a que el menor estuviera en condiciones de generar excedentes-, abuelos y nietos, cónyuge, conviviente y nuera. Para la incapacidad sobreviniente: la reparación suele ser mayor que por muerte, porque se acumulan gastos de asistencia y no se descuenta el consumo propio del damnificado, que sigue existiendo.
 
 **Normas**: arts. 1741, 1744, 1745 CCyCN; arts. 265, 266, 267, 367, 370, 372, 1079, 1084, 1085, 1086 Cód. Civil; arts. 658, 659, 660, 663, 676 CCyCN (alimentos, progenitor afín, extensión a 25 años); leyes 20.475, 22.431, 24.308, 24.314.
 
-**Fallos**: CNCiv. en pleno, 4/4/1995, "Fernández, María C. c. El Puente S.A.T." (legitimación del conviviente); SCBA, 7/4/2004, "S., N.J. c. B., C.D."; CSJN "Peón, Juan c. Centro Médico del Sud" (chance por muerte de recién nacido); CSJN "Lacuadra c. Nestlé", 1/4/1997; CSJN "Saber c. Pcia. de Río Negro", 9/9/2005; CNCiv., sala M, 20/10/2006, "Avalle c. Mereles".
+**Fallos**: CNCiv. en pleno, 04/04/1995, "Fernández, María C. c. El Puente S.A.T." (legitimación del conviviente); SCBA, 07/04/2004, "S., N.J. c. B., C.D."; CSJN "Peón, Juan c. Centro Médico del Sud" (chance por muerte de recién nacido); CSJN "Lacuadra c. Nestlé", 01/04/1997; CSJN "Saber c. Pcia. de Río Negro", 09/09/2005; CNCiv., sala M, 20/10/2006, "Avalle c. Mereles".
 
 **Remisión**: Parte Primera, cap. V, Secc. 1ª, acápites 3 y 4, pp. 54-72.
 
@@ -194,7 +194,7 @@ Prólogos e introducción general: pp. 1-3.
 
 **Normas**: arts. 51, 52, 56, 1738, 1741 CCyCN; arts. 16, 522, 1078, 1079, 1080 Cód. Civil; art. 29 inc. 1 Cód. Penal; arts. 3, 4, 5, 6, 8, 8 bis, 10 bis, 24, 28, 37, 40, 65 LDC; art. 2 ley 26.529; art. 165 CPCCN.
 
-**Fallos**: CSJN "González, Eduardo A. c. Trenes de Buenos Aires", 7/2/2004 (elevación del daño moral sin método explicitado); CSJN "R.P.A. c. Estado Nacional", 15/7/1997 (suma global indiscriminada); CSJN "Aquino", 21/9/2004.
+**Fallos**: CSJN "González, Eduardo A. c. Trenes de Buenos Aires", 07/02/2004 (elevación del daño moral sin método explicitado); CSJN "R.P.A. c. Estado Nacional", 15/07/1997 (suma global indiscriminada); CSJN "Aquino", 21/09/2004.
 
 **Remisión**: Parte Primera, cap. V, Secc. 2ª, pp. 73-99 (ámbitos y regulación, pp. 77-80; unificación por LDC, p. 80; cuantificación, pp. 81-82; legitimación e inconstitucionalidad del art. 1078, pp. 82-84).
 
@@ -226,7 +226,7 @@ Prólogos e introducción general: pp. 1-3.
 
 **Normas**: arts. 732, 1753 CCyCN; arts. 43, 1109, 1113 1ª parte, 1123, 1195, 1198 Cód. Civil; art. 5 LCT; art. 54 ley 19.550; arts. 2, 5, 40 LDC.
 
-**Fallos**: CSJN "Cossio, Susana Inés c. Policía Federal", 24/11/2004 (ocasionalidad); CSJN "Rodríguez, Juan R. c. Cía. Embotelladora", 15/4/1993 (criterio restrictivo sobre solidaridad del art. 30 LCT, criticado); CNCiv., sala A, 25/2/1985, "Di Iorio c. Escribanía Zarlenga"; CNCiv., sala F, 9/2/1998, "Grynczyk c. Duarte"; CNCiv., sala I, 23/12/2003, "Santero c. Lobato" (dependencia ocasional y gratuita, club de rugby); CNCiv., sala K, 20/9/2002, "Guillaza c. Transportes Metropolitanos Gral. Roca"; CNCom., 21/5/1998, "Jaraguionis c. Banco de Boston".
+**Fallos**: CSJN "Cossio, Susana Inés c. Policía Federal", 24/11/2004 (ocasionalidad); CSJN "Rodríguez, Juan R. c. Cía. Embotelladora", 15/04/1993 (criterio restrictivo sobre solidaridad del art. 30 LCT, criticado); CNCiv., sala A, 25/02/1985, "Di Iorio c. Escribanía Zarlenga"; CNCiv., sala F, 09/02/1998, "Grynczyk c. Duarte"; CNCiv., sala I, 23/12/2003, "Santero c. Lobato" (dependencia ocasional y gratuita, club de rugby); CNCiv., sala K, 20/09/2002, "Guillaza c. Transportes Metropolitanos Gral. Roca"; CNCom., 21/05/1998, "Jaraguionis c. Banco de Boston".
 
 **Remisión**: Parte Segunda, cap. II, completo, pp. 127-135.
 
@@ -265,7 +265,7 @@ Prólogos e introducción general: pp. 1-3.
 
 **Normas**: arts. 1729, 1730, 1757, 1758, 1769 CCyCN; art. 1113 Cód. Civil; arts. 1, 23, 25, 36, 38, 39, 41, 44, 46, 48, 49, 51, 61, 64 ley 24.449 y dec. 779/95; ley 2148 CABA; dec.-ley 6582/58 (arts. 1, 15, 26, 27) y ley 22.977.
 
-**Fallos**: CNCiv. en pleno, 11/10/1994, "Valdez, Estanislao c. El Puente S.A.T." (no rige el art. 1109 en colisión plural); CSJN "Entel c. Pcia. de Buenos Aires", 22/12/1987; CNEsp. Civ. y Com. en pleno, 18/8/1980, "Morrazo c. Villarreal"; CNCiv. en pleno, 9/9/1993, "Morris de Sotham c. Besuzzo"; SC Mendoza, sala I, 26/3/2007, "Flores c. Cornejo Castro"; CNCiv., sala D, 21/11/2007, "Pueyo c. Bulgos".
+**Fallos**: CNCiv. en pleno, 11/10/1994, "Valdez, Estanislao c. El Puente S.A.T." (no rige el art. 1109 en colisión plural); CSJN "Entel c. Pcia. de Buenos Aires", 22/12/1987; CNEsp. Civ. y Com. en pleno, 18/08/1980, "Morrazo c. Villarreal"; CNCiv. en pleno, 09/09/1993, "Morris de Sotham c. Besuzzo"; SC Mendoza, sala I, 26/03/2007, "Flores c. Cornejo Castro"; CNCiv., sala D, 21/11/2007, "Pueyo c. Bulgos".
 
 **Remisión**: Parte Sexta, cap. I, completo, pp. 340-376 (peatón, pp. 342-344; colisión plural, pp. 344-346; infracciones, pp. 346-357; dueño y guardián, pp. 358-361; eximentes, pp. 361-364).
 
@@ -277,7 +277,7 @@ Prólogos e introducción general: pp. 1-3.
 
 **Normas**: arts. 42, 43 CN; art. 1113 Cód. Civil; arts. 4, 5, 40 LDC; art. 6 ley 26.944; ley 17.520 y ley 23.696; dec. 823/89; arts. 513, 514, 1198, 2499 Cód. Civil.
 
-**Fallos**: CSJN "Colavita c. Pcia. de Buenos Aires", 7/3/2000; CSJN "Bertinat c. Pcia. de Buenos Aires", 7/3/2000; CSJN "Expreso Hada c. Pcia. de San Luis", 28/5/2002; CSJN "Ferreyra, Víctor D. c. VICOV S.A.", 21/3/2006; CSJN "Bianchi, Isabel del Carmen Pereyra de c. Pcia. de Buenos Aires", 7/11/2006.
+**Fallos**: CSJN "Colavita c. Pcia. de Buenos Aires", 07/03/2000; CSJN "Bertinat c. Pcia. de Buenos Aires", 07/03/2000; CSJN "Expreso Hada c. Pcia. de San Luis", 28/05/2002; CSJN "Ferreyra, Víctor D. c. VICOV S.A.", 21/03/2006; CSJN "Bianchi, Isabel del Carmen Pereyra de c. Pcia. de Buenos Aires", 07/11/2006.
 
 **Remisión**: Parte Sexta, cap. II, completo, pp. 377-390 (obligación de indemnidad, pp. 380-382; eximentes, pp. 382-383; animales sueltos y evolución de la CSJN, pp. 383-384).
 
@@ -289,7 +289,7 @@ Prólogos e introducción general: pp. 1-3.
 
 **Normas**: arts. 42, 43 CN; arts. 1092, 1100, 1231, 1232 CCyCN; arts. 1, 2, 3, 4, 5, 8, 10 bis, 11, 24, 37, 40, 40 bis, 50, 52 bis, 53, 55, 59, 65 LDC (leyes 24.240, 24.999, 26.361, 26.993); arts. 902, 909, 1113, 1195, 1198 Cód. Civil; art. 17 ley 25.248.
 
-**Fallos**: CSJN "Mosca c. Pcia. de Buenos Aires", 6/3/2007; CSJN "Ferreyra c. VICOV", 21/3/2006; CNCiv., sala H, 23/8/2007, "Greenberg Lapid c. Coto CICSA"; CNCiv., sala H, 9/2/2006, "Schoenfeld c. Mitsu Car"; CNCom., sala C, 14/2/2003, "Buschiazzo c. Banco Bancosud" (marca); CNCom., sala A, 17/3/2003, "Repetto De Marino c. Electrodomésticos Aurora".
+**Fallos**: CSJN "Mosca c. Pcia. de Buenos Aires", 06/03/2007; CSJN "Ferreyra c. VICOV", 21/03/2006; CNCiv., sala H, 23/08/2007, "Greenberg Lapid c. Coto CICSA"; CNCiv., sala H, 09/02/2006, "Schoenfeld c. Mitsu Car"; CNCom., sala C, 14/02/2003, "Buschiazzo c. Banco Bancosud" (marca); CNCom., sala A, 17/03/2003, "Repetto De Marino c. Electrodomésticos Aurora".
 
 **Remisión**: Parte Tercera, cap. I, completo, pp. 158-175 (seguridad, pp. 160-161; art. 40, pp. 161-162; producto defectuoso, pp. 163-164; legitimados, pp. 164-169; eximentes y riesgos del desarrollo, pp. 169-170; leasing, pp. 170-172).
 
@@ -351,7 +351,7 @@ Prólogos e introducción general: pp. 1-3.
 
 **Normas**: arts. 902, 909, 954 Cód. Civil; art. 1725 CCyCN; arts. 11, 19, 20 ley 17.132; ley 26.529 (arts. 2, 5, 7, 9) y dec. 1089/2012; ley 23.798 y dec. 1244/89; art. 177 inc. 2 CPPN; leyes 23.849, 26.061.
 
-**Fallos**: CCiv. y Com. de Dolores, 8/10/2007, "I.F.B. c. K.V." (valor de la historia clínica e inversión de la carga); CFed. San Martín, sala 1ª, 21/10/1996, "G. de S.M.N. c. Clínica Privada M.C."; CNCiv., sala M, 18/12/2000, "Recamato de Mina c. Sanatorio Quintana" (infección intrahospitalaria y obligación tácita de seguridad).
+**Fallos**: CCiv. y Com. de Dolores, 08/10/2007, "I.F.B. c. K.V." (valor de la historia clínica e inversión de la carga); CFed. San Martín, sala 1ª, 21/10/1996, "G. de S.M.N. c. Clínica Privada M.C."; CNCiv., sala M, 18/12/2000, "Recamato de Mina c. Sanatorio Quintana" (infección intrahospitalaria y obligación tácita de seguridad).
 
 **Remisión**: Parte Cuarta, cap. III, completo, pp. 277-289 (obligaciones, pp. 279-285; diagnóstico y tratamiento, pp. 285-287; cargas dinámicas, p. 287).
 
@@ -375,7 +375,7 @@ La crítica a la **ley 26.944** es frontal y recorre todo el capítulo: le imput
 
 **Normas**: arts. 16, 17, 100 CN; arts. 33, 42, 43, 929, 1074, 1109, 1112, 1113 Cód. Civil; ley 26.944 (arts. 1, 2, 3, 4, 5, 6, 9); art. 804 CCyCN; art. 2550 CCyCN; arts. 4023, 4037, 3980 Cód. Civil; art. 40 LDC.
 
-**Fallos**: CSJN "Vadell, Jorge F. c. Pcia. de Buenos Aires", 1984; CSJN "Pistone, Ciro A. c. Estado Nacional", 29/8/2007 (sacrificio desigual); CSJN "Sánchez Granel c. DNV", Fallos 306:1409; CSJN "Juncalán Forestal c. Pcia. de Buenos Aires", Fallos 312:2266; CSJN "Furnier c. Pcia. de Buenos Aires", 27/9/1994; "Banco Crédito Liniers c. Pcia. de Buenos Aires", 6/10/1987 (omisión registral); CSJN "Aquino", 21/9/2004.
+**Fallos**: CSJN "Vadell, Jorge F. c. Pcia. de Buenos Aires", 1984; CSJN "Pistone, Ciro A. c. Estado Nacional", 29/08/2007 (sacrificio desigual); CSJN "Sánchez Granel c. DNV", Fallos 306:1409; CSJN "Juncalán Forestal c. Pcia. de Buenos Aires", Fallos 312:2266; CSJN "Furnier c. Pcia. de Buenos Aires", 27/09/1994; "Banco Crédito Liniers c. Pcia. de Buenos Aires", 06/10/1987 (omisión registral); CSJN "Aquino", 21/09/2004.
 
 **Remisión**: Parte Segunda, cap. III, completo, pp. 136-156 (presupuestos, pp. 138-140; actividad lícita, pp. 140-143; actos ilícitos y falta de servicio, pp. 143-146; funcionarios, pp. 146-151; prescripción, p. 151).
 
@@ -397,7 +397,7 @@ La crítica a la **ley 26.944** es frontal y recorre todo el capítulo: le imput
 
 **Normas**: arts. 1754, 1755, 643 CCyCN; arts. 126, 127, 128, 131, 133, 152 bis, 264, 264 ter, 265, 278, 306, 907, 1082, 1113, 1114, 1115, 1116, 1123 Cód. Civil; art. 10 Cód. Comercio.
 
-**Fallos**: CNCiv., sala C, 29/9/1989, "Lara c. Rodríguez" (convivencia); CCiv., Com. y Gar. Necochea, 19/5/2005, "Salerno c. Ferrazzini"; CNCiv., sala C, 12/12/2006, "M., R.A. c. P., S.A." (guarda ocasional); CNCiv., sala K, 27/8/1998, "R., M.T. c. Municipalidad de Buenos Aires".
+**Fallos**: CNCiv., sala C, 29/09/1989, "Lara c. Rodríguez" (convivencia); CCiv., Com. y Gar. Necochea, 19/05/2005, "Salerno c. Ferrazzini"; CNCiv., sala C, 12/12/2006, "M., R.A. c. P., S.A." (guarda ocasional); CNCiv., sala K, 27/08/1998, "R., M.T. c. Municipalidad de Buenos Aires".
 
 **Remisión**: Parte Quinta, cap. II, completo, pp. 312-320.
 
@@ -457,7 +457,7 @@ La crítica a la **ley 26.944** es frontal y recorre todo el capítulo: le imput
 **Qué sostiene la obra.** Tampoco tiene tratamiento unificado: aparece capítulo por capítulo, y mayormente referida a los plazos del Código Civil derogado, con menciones puntuales al nuevo régimen. Mapa de lo que la obra dice:
 
 | Supuesto | Plazo que indica la obra | Ubicación |
-|---|---|---|
+| --- | --- | --- |
 | Relaciones de consumo | 3 años, art. 50 LDC, y el más favorable al consumidor | p. 161; p. 435 |
 | Daños contra el Estado y funcionarios (act. ilícita y lícita) | 2 años, art. 4037 Cód. Civil; ley 26.944: 3 años, también para la repetición contra el funcionario | p. 151 |
 | Acción del cliente contra el abogado | decenal, art. 4023 Cód. Civil; CCyCN: 5 años genérico (art. 2560) y 3 años para daños (art. 2561); 3 años por LDC si hubo publicidad; 2 años si el dañado es tercero | pp. 273-274 |
@@ -495,7 +495,7 @@ La crítica a la **ley 26.944** es frontal y recorre todo el capítulo: le imput
 
 **Normas**: arts. 18, 43 CN; arts. 40 bis, 41 y ss., 50, 52 bis, 53, 54, 55, 59 LDC; ley 26.993; ley 24.573 y dec. 91/1998; dec. 276/98 y res. 212/98; arts. 520 y ss. CPCCN; arts. 1137, 1197 Cód. Civil.
 
-**Fallos**: CNFed. Civ. y Com., sala I, 16/3/2000, "Defensoría del Pueblo de la Ciudad de Buenos Aires c. Edesur"; CNCom., sala D, 4/12/2008, "Adecua c. Banco BNP Paribas" (alcance del beneficio de justicia gratuita).
+**Fallos**: CNFed. Civ. y Com., sala I, 16/03/2000, "Defensoría del Pueblo de la Ciudad de Buenos Aires c. Edesur"; CNCom., sala D, 04/12/2008, "Adecua c. Banco BNP Paribas" (alcance del beneficio de justicia gratuita).
 
 **Remisión**: Parte Octava, cap. II, completo, pp. 431-437.
 
@@ -513,7 +513,7 @@ La crítica a la **ley 26.944** es frontal y recorre todo el capítulo: le imput
 
 La obra se escribió en 2015, sobre el CCyCN recién sancionado y con el Código Civil de Vélez todavía como referencia constante. **Buena parte del articulado que cita como vigente -arts. 512, 522, 901-906, 907, 1066, 1067, 1068, 1069, 1071, 1078, 1079, 1083, 1084, 1085, 1086, 1109, 1112, 1113, 1114-1117, 1123, 1195, 1198, 2499, 2618, 4023, 4037 Cód. Civil- está derogado.** Las síntesis anteriores conservan esas citas porque son el texto sobre el que la obra razona, no porque sean derecho vigente. Puntos críticos a verificar antes de citar:
 
-1. **Código Civil derogado**. Toda referencia al Cód. Civil de Vélez debe reconducirse al CCyCN (ley 26.994, vigente desde 1/8/2015). El propio libro hace esa reconducción de modo desparejo: en algunos capítulos transcribe el artículo nuevo, en otros razona solo sobre el viejo.
+1. **Código Civil derogado**. Toda referencia al Cód. Civil de Vélez debe reconducirse al CCyCN (ley 26.994, vigente desde 01/08/2015). El propio libro hace esa reconducción de modo desparejo: en algunos capítulos transcribe el artículo nuevo, en otros razona solo sobre el viejo.
 
 2. **DNU 70/2023**. Alteró el régimen de locaciones y el de obligaciones en moneda extranjera del CCyCN. La obra no puede haberlo previsto. Además su vigencia y sus alcances han sido objeto de litigio: verificar estado actual, incluidas las leyes que derogaron el régimen de alquileres, antes de invocar cualquier consecuencia sobre cuantificación en moneda extranjera o sobre daños en locaciones.
 
@@ -527,7 +527,7 @@ La obra se escribió en 2015, sobre el CCyCN recién sancionado y con el Código
 
 7. **Régimen de familia**. El capítulo de familia razona sobre causales subjetivas de divorcio, patria potestad y arts. 264 y ss. Cód. Civil, todo ello sustituido por el régimen de responsabilidad parental y divorcio incausado del CCyCN. Verificar además las reformas posteriores en materia de capacidad y de curatela (apoyos), y la ley 27.360 y concordantes donde corresponda.
 
-8. **Plazos de prescripción**. Los cuadros del punto 35 mezclan plazos del Cód. Civil derogado con los del CCyCN. Hoy: art. 2561 CCyCN, 3 años para el reclamo de indemnización de daños derivados de responsabilidad civil; art. 2560, 5 años genérico; art. 2562 y ss. para plazos especiales; art. 50 LDC -cuyo texto fue modificado por la ley 26.994- exige lectura cuidadosa respecto de la prescripción de las acciones de daños en relaciones de consumo. Verificar además el régimen de derecho transitorio del art. 7 CCyCN para plazos en curso al 1/8/2015.
+8. **Plazos de prescripción**. Los cuadros del punto 35 mezclan plazos del Cód. Civil derogado con los del CCyCN. Hoy: art. 2561 CCyCN, 3 años para el reclamo de indemnización de daños derivados de responsabilidad civil; art. 2560, 5 años genérico; art. 2562 y ss. para plazos especiales; art. 50 LDC -cuyo texto fue modificado por la ley 26.994- exige lectura cuidadosa respecto de la prescripción de las acciones de daños en relaciones de consumo. Verificar además el régimen de derecho transitorio del art. 7 CCyCN para plazos en curso al 01/08/2015.
 
 9. **Normativa de tránsito y de datos personales**. La ley 24.449 y el dec. 779/95 tuvieron modificaciones posteriores, y los códigos locales -ley 2148 CABA, régimen bonaerense- deben verificarse por jurisdicción. La ley 25.326 de protección de datos personales tiene proyectos de reemplazo y abundante normativa reglamentaria posterior.
 

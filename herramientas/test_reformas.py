@@ -20,24 +20,42 @@ REGISTRO = RAIZ / "herramientas" / "reformas-revisadas.json"
 
 
 class TestExtraccionDeNotas(unittest.TestCase):
-    """La nota de reforma vive al pie del articulo y hay que emparejar ley con SU fecha."""
+    """La nota de reforma vive al pie del artículo y hay que emparejar ley con SU fecha.
 
-    def test_empareja_la_ley_con_su_propia_fecha(self):
-        nota = ("(Artículo sustituido por art. 7° de la Ley N° 27.786 B.O. 10/3/2025. Vigencia: "
-                "a partir del día siguiente.)")
-        self.assertEqual(detector.NOTA.findall(nota), [("27.786", "10", "3", "2025")])
+    InfoLEG escribe esa fecha de cuatro formas distintas, y no es una hipotesis: medido sobre
+    los textos bajados en `argentina/fuentes/normas/`, hay 1.394 notas `dd/mm`, 785 `dd/m`, 704
+    `d/m` y 113 `d/mm`. El detector tiene que leer las cuatro, así que las cuatro están acá.
+
+    Ese directorio queda afuera de cualquier normalización de fechas del repositorio, porque es
+    texto bajado y se coteja por hash: rellenar un cero ahí cambiaria el archivo respecto de su
+    fuente. Estos fixtures lo imitan, así que tampoco se normalizan.
+    """
+
+    # (forma, texto del B.O., dia y mes tal como los devuelve el regex)
+    FORMAS = (("dd/mm", "B.O. 10/03/2025", "10", "03", "2025"),
+              ("dd/m", "B.O. 14/4/2020", "14", "4", "2020"),
+              ("d/m", "B.O. 3/8/2017", "3", "8", "2017"),
+              ("d/mm", "B.O. 6/11/2009", "6", "11", "2009"))
+
+    def test_empareja_la_ley_con_su_propia_fecha_en_las_cuatro_formas(self):
+        for forma, bo, dia, mes, anio in self.FORMAS:
+            nota = (f"(Artículo sustituido por art. 7° de la Ley N° 27.786 {bo}. Vigencia: "
+                    f"a partir del día siguiente.)")
+            with self.subTest(forma):
+                self.assertEqual(detector.NOTA.findall(nota), [("27.786", dia, mes, anio)])
 
     def test_no_cruza_una_ley_con_la_fecha_de_otra_nota(self):
-        # Dos notas seguidas: cada ley tiene que quedar con la suya, no con la del vecino.
+        # Dos notas seguidas, y de formas distintas: cada ley tiene que quedar con la suya, no
+        # con la del vecino.
         texto = ("(Artículo sustituido por art. 1° de la Ley N° 25.561 B.O. 7/1/2002).\n\n"
-                 "(Artículo incorporado por art. 2° de la Ley N° 27.786 B.O. 10/3/2025.)")
+                 "(Artículo incorporado por art. 2° de la Ley N° 27.786 B.O. 10/03/2025.)")
         self.assertEqual(detector.NOTA.findall(texto),
-                         [("25.561", "7", "1", "2002"), ("27.786", "10", "3", "2025")])
+                         [("25.561", "7", "1", "2002"), ("27.786", "10", "03", "2025")])
 
     def test_una_fecha_imposible_no_rompe_la_corrida(self):
         # El script no adivina: descarta la nota y sigue.
-        self.assertEqual(detector.NOTA.findall("Ley N° 27.786 B.O. 31/2/2025"),
-                         [("27.786", "31", "2", "2025")])
+        self.assertEqual(detector.NOTA.findall("Ley N° 27.786 B.O. 31/02/2025"),
+                         [("27.786", "31", "02", "2025")])
         self.assertEqual(detector.ultima_reforma_por_norma(desde=9999), [])
 
 
@@ -53,7 +71,7 @@ class TestUltimaReforma(unittest.TestCase):
                 self.assertEqual(len(fechas), 1, f"{slug} quedó con más de una fecha")
 
     def test_el_codigo_penal_llega_hasta_la_ley_27786(self):
-        # Si el consolidado se rebaja a una version anterior, esto lo dice.
+        # Si el consolidado se rebaja a una versión anterior, esto lo dice.
         cp = [(c, l) for c, s, l in detector.ultima_reforma_por_norma(desde=0) if s == "cp-11179"]
         self.assertEqual(cp, [(date(2025, 3, 10), "27.786")])
 

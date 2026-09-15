@@ -18,7 +18,7 @@ Publicación de **distribución gratuita**; prohibida su venta. Los artículos c
 Cada tomo trae doble numeración: la **página impresa** (la del índice general de la obra) y la **página del PDF**. No coinciden, porque el PDF incluye la portada y la preliminar. El desfasaje es constante dentro de cada tomo y fue verificado contra los pies de página del cuerpo de la obra:
 
 | Tomo | Páginas PDF | Desfasaje | Conversión |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1 | 679 | +39 | página PDF = página impresa + 39 |
 | 2 | 639 | +23 | página PDF = página impresa + 23 |
 | 3 | 681 | +27 | página PDF = página impresa + 27 |
@@ -35,7 +35,7 @@ Cada tomo trae doble numeración: la **página impresa** (la del índice general
 Ruta en el repo: `argentina/fuentes/ccyc-comentado/`
 
 | Tomo | Artículos | Archivo | Contenido |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 1 | 1–400 | `CCyC-Comentado-Tomo-1-arts-1-400.pdf` | Título Preliminar y Libro Primero (Parte General): persona humana, persona jurídica, bienes, hechos y actos jurídicos. |
 | 2 | 401–723 | `CCyC-Comentado-Tomo-2-arts-401-723.pdf` | Libro Segundo (Relaciones de familia): matrimonio, régimen patrimonial, uniones convivenciales, parentesco, filiación, adopción, responsabilidad parental, procesos de familia. |
 | 3 | 724–1250 | `CCyC-Comentado-Tomo-3-arts-724-1250.pdf` | Libro Tercero (Derechos personales), primera parte: obligaciones en general, contratos en general, contratos de consumo, y contratos en particular hasta leasing. |
@@ -54,7 +54,7 @@ ISBN por tomo: T1 978-987-8338-43-9; T2 978-987-8338-42-2; T3 978-987-8338-41-5;
 Índice general del tomo: págs. PDF 28–39. Cuerpo comentado desde pág. PDF 40.
 
 | Nivel | Libro / Título / Capítulo | Arts. | Pág. PDF |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Título | &nbsp;&nbsp;Título Preliminar | 1–18 | 44 |
 | Capítulo | &nbsp;&nbsp;&nbsp;&nbsp;Capítulo 1. Derecho | 1–3 | 44 |
 | Capítulo | &nbsp;&nbsp;&nbsp;&nbsp;Capítulo 2. Ley | 4–8 | 57 |
@@ -97,7 +97,7 @@ ISBN por tomo: T1 978-987-8338-43-9; T2 978-987-8338-42-2; T3 978-987-8338-41-5;
 Índice general del tomo: págs. PDF 14–23. Cuerpo comentado desde pág. PDF 24.
 
 | Nivel | Libro / Título / Capítulo | Arts. | Pág. PDF |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Libro | Libro Segundo. Relaciones de familia | 401–723 | 24 |
 | Título | &nbsp;&nbsp;Título I. Matrimonio | 401–445 | 24 |
 | Capítulo | &nbsp;&nbsp;&nbsp;&nbsp;Capítulo 1. Principios de libertad y de igualdad | 401–402 | 24 |
@@ -157,7 +157,7 @@ ISBN por tomo: T1 978-987-8338-43-9; T2 978-987-8338-42-2; T3 978-987-8338-41-5;
 Índice general del tomo: págs. PDF 14–27. Cuerpo comentado desde pág. PDF 28.
 
 | Nivel | Libro / Título / Capítulo | Arts. | Pág. PDF |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Libro | Libro Tercero. Derechos Personales | 724–1250 | 28 |
 | Título | &nbsp;&nbsp;Título I. Obligaciones en general | 724–956 | 28 |
 | Capítulo | &nbsp;&nbsp;&nbsp;&nbsp;Capítulo 1. Disposiciones generales | 724–735 | 28 |
@@ -196,7 +196,7 @@ ISBN por tomo: T1 978-987-8338-43-9; T2 978-987-8338-42-2; T3 978-987-8338-41-5;
 Índice general del tomo: págs. PDF 14–29. Cuerpo comentado desde pág. PDF 30.
 
 | Nivel | Libro / Título / Capítulo | Arts. | Pág. PDF |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Libro | Libro Tercero. Derechos Personales | 1251–1881 | 30 |
 | Título | &nbsp;&nbsp;Título IV. Contratos en particular | 1251–1707 | 30 |
 | Capítulo | &nbsp;&nbsp;&nbsp;&nbsp;Capítulo 6. Obra y servicios | 1251–1279 | 30 |
@@ -238,7 +238,7 @@ ISBN por tomo: T1 978-987-8338-43-9; T2 978-987-8338-42-2; T3 978-987-8338-41-5;
 Índice general del tomo: págs. PDF 14–24. Cuerpo comentado desde pág. PDF 26.
 
 | Nivel | Libro / Título / Capítulo | Arts. | Pág. PDF |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Libro | Libro Cuarto. Derechos Reales | 1882–2276 | 26 |
 | Título | &nbsp;&nbsp;Título I. Disposiciones generales | 1882–1907 | 26 |
 | Capítulo | &nbsp;&nbsp;&nbsp;&nbsp;Capítulo 1. Principios comunes | 1882–1891 | 26 |
@@ -302,7 +302,7 @@ ISBN por tomo: T1 978-987-8338-43-9; T2 978-987-8338-42-2; T3 978-987-8338-41-5;
 Índice general del tomo: págs. PDF 14–25. Cuerpo comentado desde pág. PDF 26.
 
 | Nivel | Libro / Título / Capítulo | Arts. | Pág. PDF |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Libro | Libro Quinto. Transmisión de derechos por causa de muerte | 2277–2531 | 26 |
 | Título | &nbsp;&nbsp;Título I. Sucesiones | 2277–2285 | 26 |
 | Capítulo | &nbsp;&nbsp;&nbsp;&nbsp;Capítulo 1. Disposiciones generales | 2277–2280 | 26 |
@@ -362,6 +362,7 @@ ISBN por tomo: T1 978-987-8338-43-9; T2 978-987-8338-42-2; T3 978-987-8338-41-5;
 | Capítulo | &nbsp;&nbsp;&nbsp;&nbsp;Capítulo 1. Disposiciones generales | 2594–2600 | 347 |
 | Capítulo | &nbsp;&nbsp;&nbsp;&nbsp;Capítulo 2. Jurisdicción internacional | 2601–2612 | 360 |
 | Capítulo | &nbsp;&nbsp;&nbsp;&nbsp;Capítulo 3. Parte especial | 2613–2671 | 378 |
+
 ---
 
 ## Detalle de secciones — capítulos de uso frecuente
@@ -371,7 +372,7 @@ Las secciones se listan bajo el capítulo al que pertenecen (la numeración de s
 ### Responsabilidad civil — Tomo 4, Libro Tercero, Título V, Capítulo 1 (arts. 1708 a 1780)
 
 | Capítulo / Sección | Arts. | Pág. PDF |
-|---|---|---|
+| --- | --- | --- |
 | **Capítulo 1. Responsabilidad civil** | 1708–1780 | 445 |
 | &nbsp;&nbsp;Sección 1ª. Disposiciones generales | 1708–1709 | 445 |
 | &nbsp;&nbsp;Sección 2ª. Función preventiva y punición excesiva | 1710–1715 | 448 |
@@ -388,7 +389,7 @@ Las secciones se listan bajo el capítulo al que pertenecen (la numeración de s
 ### Obligaciones en general — Tomo 3, Libro Tercero, Título I (arts. 724 a 956)
 
 | Capítulo / Sección | Arts. | Pág. PDF |
-|---|---|---|
+| --- | --- | --- |
 | **Capítulo 1. Disposiciones generales** | 724–735 | 28 |
 | **Capítulo 2. Acciones y garantía común de los acreedores** | 736–745 | 40 |
 | &nbsp;&nbsp;Sección 1ª. Acción directa | 736–738 | 40 |
@@ -426,7 +427,7 @@ Las secciones se listan bajo el capítulo al que pertenecen (la numeración de s
 ### Compraventa — Tomo 3, Título IV, Capítulo 1 (arts. 1123 a 1171)
 
 | Capítulo / Sección | Arts. | Pág. PDF |
-|---|---|---|
+| --- | --- | --- |
 | **Capítulo 1. Compraventa** | 1123–1171 | 552 |
 | &nbsp;&nbsp;Sección 1ª. Disposiciones generales | 1123–1128 | 552 |
 | &nbsp;&nbsp;Sección 2ª. Cosa vendida | 1129–1132 | 556 |
@@ -440,7 +441,7 @@ Las secciones se listan bajo el capítulo al que pertenecen (la numeración de s
 ### Locación — Tomo 3, Título IV, Capítulo 4 (arts. 1187 a 1226)
 
 | Capítulo / Sección | Arts. | Pág. PDF |
-|---|---|---|
+| --- | --- | --- |
 | **Capítulo 4. Locación** | 1187–1226 | 593 |
 | &nbsp;&nbsp;Sección 1ª. Disposiciones generales | 1187–1191 | 593 |
 | &nbsp;&nbsp;Sección 2ª. Objeto y destino | 1192–1196 | 601 |
@@ -453,7 +454,7 @@ Las secciones se listan bajo el capítulo al que pertenecen (la numeración de s
 ### Obra y servicios — Tomo 4, Título IV, Capítulo 6 (arts. 1251 a 1279)
 
 | Capítulo / Sección | Arts. | Pág. PDF |
-|---|---|---|
+| --- | --- | --- |
 | **Capítulo 6. Obra y servicios** | 1251–1279 | 30 |
 | &nbsp;&nbsp;Sección 1ª. Disposiciones comunes a las obras y a los servicios | 1251–1261 | 30 |
 | &nbsp;&nbsp;Sección 2ª. Disposiciones especiales para las obras | 1262–1277 | 45 |
@@ -462,7 +463,7 @@ Las secciones se listan bajo el capítulo al que pertenecen (la numeración de s
 ### Prescripción y caducidad — Tomo 6, Libro Sexto, Título I (arts. 2532 a 2572)
 
 | Capítulo / Sección | Arts. | Pág. PDF |
-|---|---|---|
+| --- | --- | --- |
 | **Capítulo 1. Disposiciones comunes a la prescripción liberatoria y adquisitiva** | 2532–2553 | 298 |
 | &nbsp;&nbsp;Sección 1ª. Normas generales | 2532–2538 | 298 |
 | &nbsp;&nbsp;Sección 2ª. Suspensión de la prescripción | 2539–2543 | 304 |
@@ -474,6 +475,7 @@ Las secciones se listan bajo el capítulo al que pertenecen (la numeración de s
 | &nbsp;&nbsp;Sección 2ª. Plazos de prescripción | 2560–2564 | 318 |
 | **Capítulo 3. Prescripción adquisitiva** | 2565 | 326 |
 | **Capítulo 4. Caducidad de los derechos** | 2566–2572 | 327 |
+
 ---
 
 ## Ruteo rápido por instituto
@@ -481,7 +483,7 @@ Las secciones se listan bajo el capítulo al que pertenecen (la numeración de s
 Para ir directo mientras se redacta un escrito. La columna **Pág. PDF** indica dónde arranca el tratamiento en el PDF del tomo indicado.
 
 | Instituto | Arts. CCyC | Tomo | Pág. PDF | Ubicación y subdivisiones útiles |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | Persona humana (capacidad, nombre, domicilio, derechos personalísimos) | 19–140 | 1 | 87 | Libro Primero, Título I. Capacidad 22–50 (p. 93); derechos y actos personalísimos 51–61 (p. 163); nombre 62–72 (p. 189); domicilio 73–78 (p. 206). |
 | Persona jurídica | 141–224 | 1 | 323 | Libro Primero, Título II. Parte general 141–167 (p. 323); asociaciones civiles 168–192 (p. 357); fundaciones 193–224 (p. 379). |
 | Bienes y vivienda (protección de la vivienda, arts. 244–256) | 225–256 | 1 | 402 | Libro Primero, Título III. Función de garantía 242–243 (p. 446); vivienda 244–256 (p. 450). |

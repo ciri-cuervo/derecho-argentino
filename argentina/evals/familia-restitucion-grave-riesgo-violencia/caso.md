@@ -1,9 +1,9 @@
 ---
-titulo: Restitucion internacional - grave riesgo por violencia, oposicion del nino y regreso seguro
+titulo: Restitución internacional - grave riesgo por violencia, oposición del nino y regreso seguro
 area: familia
 perfil: derecho-argentino / references/familia.md y references/fallos-csjn.md
 fuero: Juzgado de Familia del Departamento Judicial de San Isidro
-problema: "riesgo de tener por configurado el grave riesgo con la sola existencia de violencia, cuando la CSJN la trata como una especie del genero grave riesgo y exige probar su efecto sobre el nino en forma prospectiva y la ausencia de medidas de proteccion; riesgo de tomar la preferencia del nino como oposicion sin la voluntad cualificada; riesgo de computar la integracion al nuevo ambiente como motivo autonomo de oposicion; riesgo de resolver el cuidado personal dentro del proceso de restitucion; riesgo de omitir las medidas de regreso seguro; riesgo de aplicar solo el CH 1980 cuando el pais requirente esta ligado por la Convencion Interamericana; riesgo de atribuir a la Corte en 347:1234 fundamentos de los parrafos del dictamen que excluyo expresamente"
+problema: "riesgo de tener por configurado el grave riesgo con la sola existencia de violencia, cuando la CSJN la trata como una especie del genero grave riesgo y exige probar su efecto sobre el nino en forma prospectiva y la ausencia de medidas de protección; riesgo de tomar la preferencia del nino como oposición sin la voluntad cualificada; riesgo de computar la integración al nuevo ambiente como motivo autónomo de oposición; riesgo de resolver el cuidado personal dentro del proceso de restitución; riesgo de omitir las medidas de regreso seguro; riesgo de aplicar solo el CH 1980 cuando el país requirente esta ligado por la Convención Interamericana; riesgo de atribuir a la Corte en 347:1234 fundamentos de los párrafos del dictamen que excluyo expresamente"
 ---
 
 # Caso · Sentencia de primera instancia en un pedido de restitución

@@ -5,14 +5,14 @@
     python3 herramientas/reocr_jurisprudencia.py                 # los defectuosos del veredicto
     python3 herramientas/reocr_jurisprudencia.py csjn-bazterrica-fallos-308-1392
 
-La basura de esos documentos no esta en el papel sino en una capa de texto vieja que
+La basura de esos documentos no está en el papel sino en una capa de texto vieja que
 `pdftotext` se limita a copiar: en "Bazterrica" devolvia `El] \\^<+]Ky puede P^+*+y un ^Fy dia`
-donde la pagina dice "El sujeto puede un dia probar la droga". Esto vuelve a leer las
-imagenes con tesseract y deja el resultado en `argentina/fuentes/jurisprudencia/ocr/`.
+donde la página dice "El sujeto puede un dia probar la droga". Esto vuelve a leer las
+imágenes con tesseract y deja el resultado en `argentina/fuentes/jurisprudencia/ocr/`.
 
-Lo que sale de aca NO es publicacion oficial ni reemplaza al PDF: es una relectura local, y
-cada cita literal se coteja contra la pagina antes de ir a un escrito. Por eso vive en su
-propia carpeta, con la procedencia y el hash del PDF del que salio.
+Lo que sale de acá NO es publicación oficial ni reemplaza al PDF: es una relectura local, y
+cada cita literal se coteja contra la página antes de ir a un escrito. Por eso vive en su
+propia carpeta, con la procedencia y el hash del PDF del que salió.
 
 Requiere `pdftoppm` (poppler) y `tesseract` con el idioma español: `brew install tesseract-lang`.
 """
@@ -77,10 +77,10 @@ def sha256(datos: bytes) -> str:
 
 
 def leer_pagina(pdf: Path, n: int, idioma: str, taller: Path) -> str:
-    """Una pagina: se rasteriza a PNG y se OCRea.
+    """Una página: se rasteriza a PNG y se OCRea.
 
     Va por archivo y no por tuberia porque la salida a stdout de pdftoppm devuelve cero bytes
-    en la build de poppler de Homebrew, sin error: el PNG intermedio es mas predecible.
+    en la build de poppler de Homebrew, sin error: el PNG intermedio es más predecible.
     """
     prefijo = taller / "pagina"
     png = prefijo.with_suffix(".png")
@@ -112,10 +112,14 @@ def encabezado(ficha: dict, pdf: Path, hash_pdf: str, total: int, idioma: str,
         f"Generado:         {date.today().isoformat()}",
         f"Herramienta:      {herramienta}, -l {idioma} --psm 6, pdftoppm -r {RESOLUCION}",
         "",
+        # El encabezado va SIN acentos y no se toca: queda escrito dentro de los .txt
+        # recuperados, y `lecturas-ocr.json` guarda el sha256 de cada uno para detectar
+        # una edición a mano. Cambiar esta línea exige volver a correr el OCR, no editar
+        # los archivos. Lo comprueba TestTextoRecuperadoPorOCR.
         "TEXTO RECUPERADO POR OCR LOCAL. No se bajo de la fuente: la capa de texto que traia el",
-        "PDF estaba arruinada y esto es una relectura de las imagenes de la pagina. NO es",
-        "publicacion oficial y no reemplaza al PDF. Para transcribir un considerando a un escrito,",
-        "cotejar contra la pagina del PDF: el numero de pagina esta marcado abajo.",
+        "PDF estaba arruinada y esto es una relectura de las imágenes de la página. NO es",
+        "publicación oficial y no reemplaza al PDF. Para transcribir un considerando a un escrito,",
+        "cotejar contra la página del PDF: el número de página está marcado abajo.",
         "",
         "Regenerar: python3 herramientas/reocr_jurisprudencia.py " + ficha["slug"],
         SEPARADOR,
@@ -205,8 +209,8 @@ def main() -> int:
         registro = json.loads((SALIDA / "procedencia.json").read_text(encoding="utf-8"))
     registro.setdefault("_descripcion",
                         "Texto recuperado por OCR local de PDF con la capa de texto arruinada. "
-                        "Derivacion, no descarga: no es publicacion oficial. "
-                        "sha256_pdf es el del PDF del que salio; si el PDF cambia, hay que "
+                        "Derivación, no descarga: no es publicación oficial. "
+                        "sha256_pdf es el del PDF del que salió; si el PDF cambia, hay que "
                         "regenerar.")
     registro.setdefault("fallos", {})
     for s in elegidos:

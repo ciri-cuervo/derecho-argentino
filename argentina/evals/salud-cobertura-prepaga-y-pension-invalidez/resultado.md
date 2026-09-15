@@ -1,5 +1,5 @@
 ---
-titulo: Amparo de salud - cobertura de prepaga por Ley 24.901 y pension por invalidez de un extranjero
+titulo: Amparo de salud - cobertura de prepaga por Ley 24.901 y pensión por invalidez de un extranjero
 ---
 # Resultado esperado · salud-cobertura-prepaga-y-pension-invalidez
 
@@ -13,9 +13,9 @@ normativo, `salud-discapacidad.md` 27.2.
 ## 1. Las carátulas, antes que nada
 
 - La oficial es **"Cambiaso Peres de Nealón, Celia María Ana y otros c/ Centro de Educación Médica e
-  Investigaciones Médicas"**, Fallos 330:3725, 28/8/2007. Circula como "Cambiaso Pereson", y el
+  Investigaciones Médicas"**, Fallos 330:3725, 28/08/2007. Circula como "Cambiaso Pereson", y el
   material heredado ya la traía mal y corregida a medias.
-- El otro se publica **anonimizado**: **"R. A., D. c/ Estado Nacional"**, Fallos 330:3853, 4/9/2007.
+- El otro se publica **anonimizado**: **"R. A., D. c/ Estado Nacional"**, Fallos 330:3853, 04/09/2007.
   "Reyes Aguilera, Daniela" es el nombre con el que se lo cita en doctrina, **no la carátula**.
 
 Citar mal la carátula no es un detalle de forma: es lo que hace que el tribunal no encuentre el fallo.

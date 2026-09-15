@@ -66,5 +66,36 @@ class TestCruceConEvals(unittest.TestCase):
             self.assertIn(esperado, sin_eval)
 
 
+class TestParserDeTabla(unittest.TestCase):
+    """La fila delimitadora se reconoce con y sin espacios alrededor del guion.
+
+    Buscarla con `startswith("|--")` andaba con `|---|---|` y fallaba EN SILENCIO con
+    `| --- | --- |`: la fila pasaba como dato, se leia "---" como nombre de bloque y el reporte
+    quedaba con una entrada fantasma que no dice nada. Un parser de tablas no puede depender de
+    si el que escribio la tabla puso espacios.
+    """
+
+    def test_reconoce_los_dos_estilos(self):
+        for fila in ("|---|---|", "| --- | --- |", "|---|---|---|---|---|",
+                     "| --- | --- | --- |", "|:--|--:|", "| :-- | --: |"):
+            with self.subTest(fila):
+                self.assertIsNotNone(pendientes.DELIMITADOR.fullmatch(fila),
+                                     "no reconoce esta fila delimitadora")
+
+    def test_no_confunde_una_fila_de_datos(self):
+        """MUTACION del patron: si se vuelve permisivo, se come filas con contenido."""
+        for fila in ("| Bloque | Modulo | Fecha |", "| **Transito** | `transito.md` | 14/09/2026 |",
+                     "| - | - fila con guiones de verdad | x |"):
+            with self.subTest(fila):
+                self.assertIsNone(pendientes.DELIMITADOR.fullmatch(fila),
+                                  "toma por delimitadora una fila con datos")
+
+    def test_la_tabla_de_verificacion_no_trae_filas_fantasma(self):
+        for campos in pendientes._filas_de_verificacion():
+            with self.subTest(campos[0][:30]):
+                self.assertNotRegex(campos[0], r"^[-:\s]*$",
+                                    "una fila delimitadora entro como dato")
+
+
 if __name__ == "__main__":
     unittest.main()

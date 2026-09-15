@@ -1,5 +1,5 @@
 ---
-titulo: Consumo en PBA - conciliacion previa, gratuidad, dano punitivo y prescripcion
+titulo: Consumo en PBA - conciliación previa, gratuidad, daño punitivo y prescripción
 ---
 ## Rúbrica · consumidor-dano-punitivo-gratuidad-pba
 
@@ -7,7 +7,7 @@ titulo: Consumo en PBA - conciliacion previa, gratuidad, dano punitivo y prescri
 
 - [ ] **Abre preguntando el rol y el fuero.** No asume.
 - [ ] **Conciliación previa: el planteo no prospera.** El COPREC fue **disuelto por el Decreto
-  55/2025**, con vigencia desde el **1/2/2025** — y no por el DNU 70/2023. En el orden nacional
+  55/2025**, con vigencia desde el **01/02/2025** — y no por el DNU 70/2023. En el orden nacional
   no hay instancia conciliatoria previa obligatoria.
 - [ ] Agrega que **en PBA la vía administrativa nunca fue previa obligatoria**: la Ley 13.133
   regula la denuncia ante OMIC y autoridad provincial, pero no condiciona la demanda judicial.
@@ -24,7 +24,7 @@ titulo: Consumo en PBA - conciliacion previa, gratuidad, dano punitivo y prescri
   opuesta, así que corresponde tratarla.
 - [ ] **Daño punitivo — detecta la trampa de las dos "Castelli".** La que cita el actor, con el
   estándar de dolo o grosera negligencia, es la de la **Cámara Primera de Bahía Blanca, Sala II
-  (causa 141.404, 28/8/2014)**. La **SCBA revisó ese estándar** en C. 119.562, 17/10/2018: el
+  (causa 141.404, 28/08/2014)**. La **SCBA revisó ese estándar** en C. 119.562, 17/10/2018: el
   art. 52 bis exige **un único requisito**, el incumplimiento. Señala que el actor se está
   exigiendo a sí mismo un estándar más alto que el vigente en PBA.
 - [ ] Consigna que **la jurisprudencia mayoritaria nacional sí exige factor calificado** y que

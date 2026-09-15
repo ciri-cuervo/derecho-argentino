@@ -27,7 +27,7 @@ páginas por HTTPS** a sitios oficiales, **escriben archivos** dentro del reposi
 con `pdftotext` y `tesseract`. Ahí es donde puede haber algo:
 
 | Superficie | Qué mirar |
-|---|---|
+| --- | --- |
 | Descargadores (`argentina/fuentes/scripts/`) | Escritura fuera del árbol previsto, redirecciones a otro host, tamaño sin límite |
 | Lectores de PDF (`herramientas/reocr_jurisprudencia.py`, `calidad_ocr.py`) | Un PDF preparado para explotar el binario externo |
 | Resolución de rutas (`_raiz.py`) | Que una variable de entorno haga leer o escribir fuera del repositorio |

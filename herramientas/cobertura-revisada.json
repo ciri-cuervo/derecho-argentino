@@ -6,7 +6,7 @@
     "bajar": "se usa como fuente de una regla y su texto no esta en fuentes/",
     "no-hace-falta": "el articulado que se cita pertenece a una ley que ya esta bajada, o la mencion es historica o bibliografica"
   },
-  "nota": "Se cierra la Ley 25.917, que entro citada al explicar el alcance del art. 62 de la Ley 27.798.",
+  "nota": "Se cierra la Ley 25.917, que entro citada al explicar el alcance del art. 62 de la Ley 27.798. Ampliado el motivo de la Ley 27.799: alcanza tambien al art. 2560 del CCyCN, no solo al art. 56 de la Ley 11.683.",
   "leyes": {
     "13101": {
       "motivo": "dio texto a la mayor parte de la Ley 12.008, que esta bajada",
@@ -121,7 +121,7 @@
       "veredicto": "bajar"
     },
     "24769": {
-      "motivo": "regimen penal tributario derogado por la Ley 27.430, cuyo Titulo IX esta bajado. Se la cita por su derogacion",
+      "motivo": "regimen penal tributario derogado por la Ley 27.430, cuyo Título IX esta bajado. Se la cita por su derogacion",
       "veredicto": "no-hace-falta"
     },
     "24830": {
@@ -213,7 +213,7 @@
       "veredicto": "bajar"
     },
     "27799": {
-      "motivo": "reescribio el art. 56 de la Ley 11.683, que esta bajada",
+      "motivo": "reescribio dos articulos de leyes que SI estan bajadas: el art. 56 de la Ley 11.683 -su art. 30- y el art. 2560 del CCyCN -su art. 34-. El motivo anterior nombraba solo el primero, y esa mitad faltante es la que dejo a civil.md atribuyendo el art. 2560 a la Ley 27.586 durante toda una version",
       "veredicto": "no-hace-falta"
     },
     "23857": {
@@ -239,6 +239,10 @@
     "25917": {
       "veredicto": "no-hace-falta",
       "motivo": "Regimen Federal de Responsabilidad Fiscal. laboral.md 5.5 la nombra solo para decir de que se trata la excepcion del art. 62 de la Ley 27.798 -sus arts. 25 y 26 son la autorizacion que esa excepcion exige-, y la conclusion es que la excepcion NO alcanza al credito laboral: no se apoya ninguna regla del modulo en su articulado"
+    },
+    "27586": {
+      "veredicto": "no-hace-falta",
+      "motivo": "mencion historica: civil.md la nombra para decir DE DONDE viene la imprescriptibilidad del art. 2560, no para citar su articulado. El texto que se cita es el del CCyCN consolidado, que esta bajado, y hoy proviene de la Ley 27.799. Aparecio como pendiente al reescribir ese parrafo, que es el detector haciendo bien su trabajo"
     }
   }
 }

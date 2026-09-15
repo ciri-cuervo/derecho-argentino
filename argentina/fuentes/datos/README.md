@@ -3,8 +3,8 @@
 Los montos no se citan de memoria (sección 2 de la skill). Salen de acá, o no salen.
 
 | Archivo | Contenido | Lo consume | Estado |
-|---|---|---|---|
-| `jus-scba.csv` | Valor del jus del art. 9 de la Ley 14.967 y del jus del dec-ley 8904/77 | `honorarios_pba.py` | Cargado hasta 1/8/2026 |
+| --- | --- | --- | --- |
+| `jus-scba.csv` | Valor del jus del art. 9 de la Ley 14.967 y del jus del dec-ley 8904/77 | `honorarios_pba.py` | Cargado hasta 01/08/2026 |
 | `inhabiles.json` | Ferias judiciales, puentes turísticos y asuetos | `plazos.py` | **Cargado** 2026; 2027 parcial |
 | `serie-ipc.csv` | IPC INDEC nivel general, índice base dic-2016 | `intereses.py` | Parcial: 2024-01 a 2026-08 |
 | `serie-ripte.csv` | RIPTE | `intereses.py` | Parcial: tres períodos |
@@ -57,7 +57,7 @@ Formato `periodo,indice`, período en `YYYY-MM`, una fila por mes. Las carga
 `serie_id` verificados:
 
 | Serie | serie_id | Organismo |
-|---|---|---|
+| --- | --- | --- |
 | IPC nivel general, índice base dic-2016 | `145.3_INGNACNAL_DICI_M_15` | INDEC |
 | RIPTE | `158.1_REPTE_0_0_5` | Sec. de Trabajo, Empleo y Seguridad Social |
 | CER diario, colapsado a fin de mes | `94.2_CD_D_0_0_10` | BCRA vía datos.gob.ar |

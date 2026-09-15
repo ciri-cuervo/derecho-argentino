@@ -1,9 +1,9 @@
 ---
-titulo: Consumo en PBA - conciliacion previa, gratuidad, dano punitivo y prescripcion
+titulo: Consumo en PBA - conciliación previa, gratuidad, daño punitivo y prescripción
 area: consumidor
 perfil: derecho-argentino / references/consumidor.md
 fuero: Juzgado Civil y Comercial PBA
-problema: "riesgo de exigir la conciliacion previa del COPREC, disuelto por el Decreto 55/2025; riesgo de exigir el agotamiento de la via administrativa en PBA, que no es obligatoria; riesgo de citar la sentencia de Camara en 'Castelli' como doctrina vigente sobre el requisito subjetivo del dano punitivo cuando la SCBA la reviso; riesgo de tomar el valor de la canasta de memoria; riesgo de aplicar el plazo trienal del art. 50 LDC a la accion judicial; riesgo de generalizar 'Toscano' fuera del contrato con plazo especial"
+problema: "riesgo de exigir la conciliación previa del COPREC, disuelto por el Decreto 55/2025; riesgo de exigir el agotamiento de la via administrativa en PBA, que no es obligatoria; riesgo de citar la sentencia de Cámara en 'Castelli' como doctrina vigente sobre el requisito subjetivo del daño punitivo cuando la SCBA la reviso; riesgo de tomar el valor de la canasta de memoria; riesgo de aplicar el plazo trienal del art. 50 LDC a la acción judicial; riesgo de generalizar 'Toscano' fuera del contrato con plazo especial"
 ---
 
 # Caso · Demanda de consumo con daño punitivo

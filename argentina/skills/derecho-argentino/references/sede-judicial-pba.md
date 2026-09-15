@@ -4,9 +4,9 @@
 > y coincide con la del SKILL.md: las remisiones cruzadas entre módulos siguen siendo válidas.
 > Las reglas de integridad de la sección 2 rigen acá también, y con más razón.
 >
-> Verificado contra fuente primaria el 13/09/2026, y las citas literales cotejadas contra los
-> textos consolidados de `argentina/fuentes/normas/`. Los puntos que la verificación no pudo
-> cerrar están listados al final, en "Puntos abiertos": no se los presenta como firmes.
+> Verificado contra fuente primaria, y las citas literales cotejadas contra los textos
+> consolidados de `argentina/fuentes/normas/`. Los puntos que la verificación no pudo cerrar
+> están listados al final, en "Puntos abiertos": no se los presenta como firmes.
 >
 > **Advertencia sobre la Ley 11.653:** el texto que publica `normas.gba.gob.ar` trae la
 > acentuación degradada en algunos pasajes ("deber" por "deberá", "m s" por "más", "m‚rito"
@@ -26,6 +26,7 @@ un resultado. La carga de la prueba deja de ser una ventaja táctica y pasa a se
 esta sede: **una regla de decisión** — quién soporta que un hecho no se haya probado.
 
 **Lo que sí se hace.**
+
 - **Verificar, no producir.** Recalcular la liquidación que trajo la parte y señalar
   diferencias, en vez de armar el reclamo. Contrastar cada rubro contra la norma que lo
   habilita y contra el tramo temporal de la reforma que corresponde al acto extintivo.
@@ -61,7 +62,7 @@ corriente ("rige la 15.057 porque derogó la 11.653") es incompleta en los tres 
 11.653 y sus modificatorias. Su art. 104 fijó la vigencia el primer día hábil de febrero de
 2020, pero la Res. SC 3199/19 suspendió su operatividad por no haberse creado los órganos.
 
-**Plano de la operatividad.** La **Res. SC 1840/2024** de la SCBA, registrada el **3/7/2024**
+**Plano de la operatividad.** La **Res. SC 1840/2024** de la SCBA, registrada el **03/07/2024**
 (expte. 3000-16902-2024), derogó la Res. 3199/19 y dispuso que las normas de la Ley 15.057
 replicadas en su Anexo son de **aplicación inmediata**, y — textual — *"aún respecto de los
 tribunales colegiados del Fuero Laboral"*. Su art. 3º **difirió** la operatividad de los
@@ -86,8 +87,8 @@ de citar un código procesal. Si no surge del material:
 
     [VACÍO PROBATORIO: fecha de la audiencia de vista de la causa - determina si el proceso continúa bajo la Ley 11.653 o si le es aplicable el rito de la Ley 15.057 conforme Res. SC 1840/2024]
 
-| Estado de la causa al 3/7/2024 | Rito | Estructura de la pieza |
-|---|---|---|
+| Estado de la causa al 03/07/2024 | Rito | Estructura de la pieza |
+| --- | --- | --- |
 | Audiencia de vista **ya celebrada** | Ley 11.653, por ultraactividad | **Veredicto + sentencia** (ver 1.6.2) |
 | Audiencia de vista **no celebrada**, y toda causa posterior | Ley 15.057, arts. del Anexo de la Res. SC 1840/24 | **Sentencia única** (ver 1.6.2) |
 
@@ -238,18 +239,18 @@ alguno de los jueces, o pronunciamiento por menos miembros de los que integran e
 `argentina/fuentes/jurisprudencia/`, de modo que se pueden citar (siempre acompañadas de
 `[VERIFICAR PRECEDENTE: ...]`):
 
-- **"Repartos Ya", L. 128.494, 9/4/2026** (RS-37-2026): el recurso de nulidad sólo procede por
+- **"Repartos Ya", L. 128.494, 09/04/2026** (RS-37-2026): el recurso de nulidad sólo procede por
   las **causales taxativas** de los arts. 168 y 171 — omisión de cuestión esencial, falta de
   fundamentación legal, incumplimiento de la formalidad del acuerdo y voto individual, o no
   concurrencia de mayoría. El error de juzgamiento es ajeno a esta vía.
-- **"Basualdo Lozano", L. 127.263, 26/5/2026** (RS-56-2026): los jueces del tribunal colegiado
+- **"Basualdo Lozano", L. 127.263, 26/05/2026** (RS-56-2026): los jueces del tribunal colegiado
   deben votar todas las cuestiones esenciales **mediante acuerdo previo y voto individual**,
   para dejar establecida la mayoría; por regla la formalidad del acuerdo es **requisito de
   validez** del fallo.
-- **"Rappi", L. 128.287, 9/4/2026** (RS-36-2026): rechaza la nulidad cuando los agravios son
+- **"Rappi", L. 128.287, 09/04/2026** (RS-36-2026): rechaza la nulidad cuando los agravios son
   errores de juzgamiento y no se denuncia infracción a los arts. 168 o 171. Sirve para separar
   el recurso de nulidad del de inaplicabilidad de ley.
-- **"Lastra", L. 135.213, 17/9/2025** (RR-1044-2025): hay fundamentación legal suficiente
+- **"Lastra", L. 135.213, 17/09/2025** (RR-1044-2025): hay fundamentación legal suficiente
   cuando el pronunciamiento se apoya en disposiciones legales expresas, con independencia del
   acierto de su aplicación. **Es una resolución, no una sentencia definitiva.**
 
@@ -307,12 +308,12 @@ gratuidad no es inmunidad a la condena en costas. Lo específico del trabajador 
   honorarios o responsabilidad por cautelares; sólo caución juratoria de pagar *"si mejorasen
   de fortuna"*.
 - **Art. 20 LCT**, gratuidad en el orden nacional. **Atención: fue alcanzado por la Ley
-  27.802 (vigencia 6/3/2026).** No citarlo sin cotejar el texto vigente a la fecha del acto.
+  27.802 (vigencia 06/03/2026).** No citarlo sin cotejar el texto vigente a la fecha del acto.
 
     [VERIFICAR VIGENCIA: art. 20 LCT - cotejar el texto anterior y el texto según Ley 27.802 y determinar cuál rige según la fecha del acto]
 
 **La gratuidad no exime de las costas.** Lo fija **"Gutiérrez Rellan", SCBA, L. 119.012,
-16/5/2018**: son dos institutos distintos. La imposición de costas se rige por el art. 19 de
+16/05/2018**: son dos institutos distintos. La imposición de costas se rige por el art. 19 de
 la Ley 11.653 y el art. 68 del CPCC; el beneficio de gratuidad, *"sin modificar en lo más
 mínimo la imposición de las"* costas, *"sólo favorece al litigante que logre probar en el
 proceso laboral la existencia del contrato de trabajo invocado en sustento de sus
@@ -519,7 +520,7 @@ Al controlar la admisibilidad, tres errores frecuentes:
    **Fisco Provincial**; bajo el art. 83, sólo el Fisco. No hay excepción genérica por
    dificultad económica — pero sí es admisible sustanciar un **incidente de eximición** por
    imposibilidad de afrontarlo, con prueba a cargo del incidentista: **"Diehl"**, SCBA,
-   L. 119.966, 3/5/2018.
+   L. 119.966, 03/05/2018.
 3. **El plazo no está en la ley laboral.** Ni la 11.653 ni la 15.057 lo fijan: rige el CPCCBA
    por supletoriedad (art. 63 / art. 89). Verificar el artículo antes de citarlo.
 
@@ -572,25 +573,25 @@ en la interlocutoria.
     Ley 14.967), valor del jus utilizado y su fecha, y aportes de la Ley 6.716.
 11. **Intereses**: criterio aplicado, norma o doctrina que lo sostiene, y fecha desde la cual
     corre cada tramo.
-12. Si no hay items en alguna categoría: "Ninguno".
+12. Si no hay ítems en alguna categoría: "Ninguno".
 
 ---
 
 ## Puntos abiertos
 
-La auditoría del 13/09/2026 no pudo cerrar estos puntos contra fuente primaria. **No
+La auditoría de septiembre de 2026 no pudo cerrar estos puntos contra fuente primaria. **No
 presentarlos como firmes**: al usarlos, acompañar con el marcador que corresponda.
 
 | Punto | Qué falta |
-|---|---|
+| --- | --- |
 | Res. SC 1840/2024 | Considerandos completos y Anexo literal. De ahí depende el criterio de corte por audiencia de vista celebrada y el alcance exacto de la ultraactividad de la 11.653. **El PDF ya está descargado** en `argentina/fuentes/normas/pba-res-sc-1840-2024.pdf`: falta leerlo |
-| ~~Constitución PBA, arts. 168 y 171~~ | **Cerrado el 13/09/2026.** Verificado contra el texto oficial de 1994 en normas.gba.gob.ar |
-| ~~Ley 15.057, art. 83~~ | **Cerrado el 13/09/2026** con el texto consolidado. Y **no** es equivalente al art. 56: ver 1.6.7 |
+| ~~Constitución PBA, arts. 168 y 171~~ | **Cerrado** Verificado contra el texto oficial de 1994 en normas.gba.gob.ar |
+| ~~Ley 15.057, art. 83~~ | **Cerrado** con el texto consolidado. Y **no** es equivalente al art. 56: ver 1.6.7 |
 | Ley 15.057, art. 72 | Extensión exacta del enunciado. Firme: 10 días, se interpone y funda en el mismo acto, efecto suspensivo, trámite inmediato |
 | Plazo de los recursos extraordinarios | Artículo del CPCCBA aplicable por supletoriedad, y monto mínimo del art. 278 |
-| ~~Ley 14.967, art. 28~~ | **Cerrado el 13/09/2026**: inc. h, tres etapas. Ver 1.6.6 |
+| ~~Ley 14.967, art. 28~~ | **Cerrado**: inc. h, tres etapas. Ver 1.6.6 |
 | Art. 20 LCT | Cotejo del texto anterior contra el texto según Ley 27.802 |
-| ~~Gratuidad y costas~~ | **Cerrado el 13/09/2026** con "Gutiérrez Rellan" (L. 119.012). Queda abierto sólo su traslado al art. 27 de la Ley 15.057 |
+| ~~Gratuidad y costas~~ | **Cerrado** con "Gutiérrez Rellan" (L. 119.012). Queda abierto sólo su traslado al art. 27 de la Ley 15.057 |
 | Ley 11.653, art. 48 (texto Ley 14.399) | **Parcialmente cerrado**: "Abraham" (L. 108.164, 13/11/2013) declaró inconstitucional la Ley 14.399. El artículo sigue publicado con la regla de la tasa activa: leerlo con esa advertencia. La tasa aplicable hoy es la de 1.6.8 |
 | Composición de la Cámara de Apelación del Trabajo de Azul | Art. 92 de la Ley 15.057, en su texto literal. Hoy es abstracto: el artículo no está operativo |
 
@@ -600,7 +601,7 @@ Los fallos citados en este módulo están descargados en
 Fuentes primarias de este módulo, para cerrar los puntos abiertos:
 Ley 11.653 https://normas.gba.gob.ar/documentos/BE3q5SQ0.html ·
 Ley 15.057 https://normas.gba.gob.ar/documentos/xAzwAFoB.html ·
-Res. SC 1840/24 https://www.scba.gov.ar/includes/descarga.asp?id=54872&n=Ver+Resolucion+SC1840.pdf ·
+Res. SC 1840/24 https://www.scba.gov.ar/includes/descarga.asp?id=54872&n=Ver+Resolución+SC1840.pdf ·
 Ley 14.967 https://normas.gba.gob.ar/documentos/BOa6XTk0.html ·
 Ley 6.716 https://normas.gba.gob.ar/documentos/ByQAnS4B.html ·
 Ley 15.563 https://normas.gba.gob.ar/documentos/Bg1pRNTp.html ·

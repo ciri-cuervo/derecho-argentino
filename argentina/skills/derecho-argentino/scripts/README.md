@@ -6,7 +6,7 @@ del modelo**. Un error de cálculo en una liquidación o en un vencimiento es ta
 cita inventada y bastante más difícil de ver leyendo.
 
 | Script | Para qué |
-|---|---|
+| --- | --- |
 | `liquidacion_lct.py` | Liquidación por extinción del contrato de trabajo, por tramo de reforma |
 | `plazos.py` | Vencimiento en días hábiles judiciales, corridos, meses o años |
 | `intereses.py` | Actualización por índice más interés puro, o tasa nominal |
@@ -54,7 +54,7 @@ Los marcadores que devuelven son canónicos: se copian tal cual al escrito, sin 
 ## Datos que consumen
 
 | Archivo | Lo usa | Estado |
-|---|---|---|
+| --- | --- | --- |
 | `argentina/fuentes/datos/jus-scba.csv` | `honorarios_pba.py` | 6 períodos: 1/2026 a 8/2026 |
 | `argentina/fuentes/datos/inhabiles.json` | `plazos.py` | 2026 completo (Nación y PBA); 2027 sólo feria de enero |
 | `argentina/fuentes/datos/serie-ipc.csv` | `intereses.py` | 117 períodos: 2016-12 a 2026-08 |
@@ -74,13 +74,13 @@ degradación silenciosa.
   régimen rige** el crédito lo resuelve `references/laboral.md` 5.5 bis.
 - No liquidan intereses dentro de `liquidacion_lct.py`: son dos pasos separados a propósito.
 - No regulan honorarios periciales: la Ley 14.967 no los rige.
-- No reemplazan la verificación de cierre de la sección 8.6.
+- No reemplazan la verificación de cierre de `plazos.md` 8.6.
 
 ## Tests
 
     python3 -m unittest discover -s . -p 'test_*.py' -v
 
-**128 tests**, sin dependencias externas, en dos grupos.
+**150 tests**, sin dependencias externas, en dos grupos.
 
 **Aritmética.** Cómputo de antigüedad y tramos, cómputo de Pascua y feriados móviles, descuento
 de ferias y asuetos, suma de meses del art. 6 CCyCN, mínimo del art. 22 y monto en jus de la
@@ -89,7 +89,9 @@ caso de la skill instalada fuera de él y el de que no haya repo, donde el scrip
 negarse a calcular—.
 
 **Afirmaciones de la documentación**, que son las que se vencen en silencio: que los números de
-`fuentes/MANIFIESTO.md` coincidan con lo que hay en disco, que los contadores de
+`fuentes/MANIFIESTO.md` coincidan con lo que hay en disco —los de la tabla, los de la frase que
+los explica, y que la fecha con que encabeza su foto no sea anterior a la última norma bajada—,
+que los contadores de
 `references/fallos-csjn.md` coincidan con sus propias tablas, que el texto recuperado por OCR
 siga derivando del PDF que dice, que **toda ruta que un módulo cita exista**, que **toda cita
 entrecomillada de un bloque de contradicciones nominadas esté literal en `kb/`**, y que este

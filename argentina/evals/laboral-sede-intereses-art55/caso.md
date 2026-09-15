@@ -25,7 +25,7 @@ Ley 27.348: RIPTE más tasa activa del Banco de la Nación Argentina.
 ## Causa B — Despido sin causa
 
 Indemnizaciones de la LCT. Acto extintivo del **3 de octubre de 2024**. Demanda promovida en
-marzo de 2025, en trámite al 6/3/2026.
+marzo de 2025, en trámite al 06/03/2026.
 
 La actora pide que se declare la **inconstitucionalidad del art. 55 de la Ley 27.802** y se
 apliquen IPC más 6% anual. Cita "un fallo reciente del Tribunal del Trabajo N° 2 de La Plata

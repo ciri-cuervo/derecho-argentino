@@ -1,4 +1,9 @@
-# Desarrollar el plugin
+# 🔧 Desarrollar el plugin
+
+Acá está lo operativo: cómo probar, qué correr antes de cerrar un cambio y las convenciones de
+código. Las reglas de criterio —la frontera de licencia, la disciplina de verificación, qué no
+se asume del derecho argentino y cómo se escribe acá— están en [`CLAUDE.md`](../CLAUDE.md), en
+la raíz del repositorio.
 
 ## Probar sin instalar
 
@@ -42,7 +47,7 @@ Tres herramientas necesitan binarios que no son de Python, y **ninguna de ellas 
 para usar la skill** — son de auditoría del repositorio:
 
 | Herramienta | Necesita | macOS | Linux | Windows |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | `auditar_fechas_fallos.py` · `calidad_ocr.py` | `pdftotext` | `brew install poppler` | `apt install poppler-utils` | `choco install poppler` |
 | `reocr_jurisprudencia.py` | `pdfinfo`, `pdftoppm`, `tesseract` con español | `brew install poppler tesseract tesseract-lang` | `apt install poppler-utils tesseract-ocr tesseract-ocr-spa` | `choco install poppler tesseract` |
 
@@ -52,16 +57,15 @@ Si falta el binario, la herramienta **se planta con un mensaje que dice qué ins
 poppler imprimía `0 A REVISAR` y salía con código 0 — los 64 fallos pasaban sin mirarse. **Si la
 herramienta no puede medir, lo dice y se planta**; no hay verde por ausencia de instrumento.
 
-
 ### Fines de línea
 
 `.gitattributes` fija `eol=lf` para todo el repositorio. **No es cosmética tampoco.**
 `frontera_kb.py` es el guardarraíl de la frontera de licencia: fija el sha256 de los 109
 archivos de `argentina/kb/`, que son capa 2 y de otro autor. Medido: con un checkout CRLF
-cambian **los 109 hashes** sin que cambie una letra, y con las claves en formato nativo **106
-de 109 dejan de matchear**. El script reportaría la capa 2 entera como alterada, y una alarma
-que suena entera se calla con `--fijar` — que acepta a ciegas el estado de `kb/`, justo lo que
-el guardarraíl existe para impedir.
+**cambian todos los hashes** sin que cambie una letra, y con las claves en formato nativo
+**dejan de matchear todos menos tres**. El script reportaría la capa 2 entera como alterada, y
+una alarma que suena entera se calla con `--fijar` — que acepta a ciegas el estado de `kb/`,
+justo lo que el guardarraíl existe para impedir.
 
 Por eso hay dos defensas y no una: `.gitattributes` normaliza en el checkout, y `huella()`
 hashea el **texto con los saltos normalizados** y arma las claves con `as_posix()`, por si el
@@ -78,6 +82,7 @@ python3 herramientas/test_auditoria.py
 python3 herramientas/test_pendientes.py
 python3 herramientas/test_reformas.py
 python3 herramientas/test_markdown.py
+python3 herramientas/test_cifras.py
 python3 argentina/skills/derecho-argentino/scripts/estado.py
 python3 herramientas/fuga_textual.py argentina/skills/derecho-argentino/SKILL.md \
     argentina/skills/derecho-argentino/references/*.md argentina/evals/*/*.md
@@ -90,7 +95,7 @@ dicen; que la documentación no tenga links, anclas, tablas ni bloques rotos; qu
 bloques de datos estén al día; que no se haya filtrado prosa de `kb/` a un
 módulo de la capa 3; y que `kb/` —que es de otro autor— no haya cambiado sin que nadie lo decida.
 
-**Los seis suites van todos.** Un test que no está en el checklist es un test apagado, y uno
+**El checklist va entero.** Un test que no está en el checklist es un test apagado, y uno
 apagado es peor que uno que no existe: figura en el conteo y nadie lo corre. `test_scripts.py`
 comprueba dos cosas para que eso no dependa de acordarse: que **cada `herramientas/test_*.py` esté
 nombrado en este bloque**, y que **`.github/workflows/tests.yml` corra los mismos**. Un suite nuevo
@@ -98,7 +103,7 @@ rompe los tests hasta que entre a los dos lugares.
 
 ### Que no dependa de acordarse
 
-El checklist de arriba es un procedimiento, y un procedimiento se olvida. Los mismos seis suites
+El checklist de arriba es un procedimiento, y un procedimiento se olvida. Los mismos suites
 corren solos en dos lugares:
 
 ```sh
@@ -110,7 +115,7 @@ verificador de documentación —un segundo— y frena el commit si encuentra al
 `git config` porque `.git/hooks/` no se versiona**: un hook suelto ahí adentro no viaja a un clon.
 Se saltea con `--no-verify`, a propósito: es una ayuda, no una aduana.
 
-La aduana es `.github/workflows/tests.yml`, que corre los seis suites en cada push y en cada pull
+La aduana es `.github/workflows/tests.yml`, que corre los mismos suites en cada push y en cada pull
 request. Eso no se saltea y no hay que instalarlo. El hook es apenas el eco local y rápido de lo
 mismo, para enterarse antes de pushear y no después.
 
@@ -122,7 +127,7 @@ un detector se pierde el día en que su salida deja de mirarse, y eso pasa cuand
 en vez de bajar. El archivo de veredicto es lo que la hace bajar: guarda **lo que alguien leyó**,
 con fecha.
 
-Son seis y comparten un sobre. `kb-procedencia.json` ya lo tenía y sirvió de modelo:
+Todos comparten un sobre. `kb-procedencia.json` ya lo tenía y sirvió de modelo:
 
 ```json
 {
@@ -136,26 +141,133 @@ Son seis y comparten un sobre. `kb-procedencia.json` ya lo tenía y sirvió de m
 ```
 
 | Archivo | Carga | Lo consume |
-|---|---|---|
+| --- | --- | --- |
 | `herramientas/fuga-revisada.json` | `secuencias` | `fuga_textual.py` |
 | `herramientas/cobertura-revisada.json` | `leyes` | `cobertura_normativa.py` |
 | `herramientas/lecturas-ocr.json` | `lecturas` | `calidad_ocr.py`, `reocr_jurisprudencia.py` |
 | `herramientas/kb-procedencia.json` | `archivos` | `frontera_kb.py` |
 | `herramientas/reformas-revisadas.json` | `reformas` | `reformas_no_leidas.py` |
+| `herramientas/cifras-revisadas.json` | `cifras` | `cifras.py` |
 | `argentina/fuentes/normas/revisiones.json` | `revisiones` | `descargar_normas.py` |
 
 **La carga no se unifica, y es a propósito.** Son tres formas honestas y distintas: un conjunto
-de pertenencia (`secuencias`, 774 entradas sin veredicto individual), un mapa de veredictos
+de pertenencia (`secuencias`, sin veredicto individual), un mapa de veredictos
 (`leyes`, `lecturas`) y un mapa de listas (`revisiones`, porque una norma puede volver con más
-de un defecto). Forzar las tres a `items: {clave: {veredicto, fecha}}` inflaría la primera diez
-veces y registraría 774 veredictos que nadie tomó. **Un formato único que miente sobre el
-contenido es peor que tres formatos que lo dicen.**
+de un defecto). Forzar las tres a `items: {clave: {veredicto, fecha}}` inflaría la primera cientos
+de veces y registraría un veredicto por secuencia que nadie tomó. **Un formato único que miente
+sobre el contenido es peor que tres formatos que lo dicen.**
 
 **Tampoco hay un loader único**, y por una razón de arquitectura: `revisiones.json` vive dentro
 del plugin, que tiene que ser autocontenido para poder instalarse y no puede importar de
-`herramientas/`. Los otros cinco pasan por `herramientas/_veredictos.py`; ése carga su sobre en
-`_comun.py`. Lo que los mantiene alineados es `TestSobreDeLosVeredictos`, que lee los seis — y
-que además falla si aparece un sexto sin declarar.
+`herramientas/`. Los demás pasan por `herramientas/_veredictos.py`; ése carga su sobre en
+`_comun.py`. Lo que los mantiene alineados es `TestSobreDeLosVeredictos`, que los lee a todos — y
+que además falla si aparece uno nuevo sin declarar.
+
+## Lo que un script imprime tiene que entrar en cp1252
+
+En Windows la consola suele estar en **cp1252**, y un `print()` de un carácter que no entra en esa
+página de códigos termina en `UnicodeEncodeError`. El script muere **después** de haber hecho el
+trabajo, y quien lo corre cree que falló la medición. Peor todavía si ya escribió: `cifras.py
+--sellar` reescribe archivos y **después** informa qué selló.
+
+**Los acentos no son el problema.** `á é í ó ú ñ ü · —` están todos en cp1252, y `pendientes.py`
+los imprime sin inconveniente. Lo que rompe es otra cosa:
+
+| Carácter | Entra en cp1252 |
+| --- | --- |
+| `á` `é` `í` `ó` `ú` `ñ` `ü` `·` `—` `«` `»` `¿` `¡` | **Sí.** Se pueden imprimir |
+| `→` `✔` `≥` `│` `─` y el resto de flechas, tildes y caracteres de dibujo | **No.** Rompen la corrida |
+
+Así que la regla es una sola y se verifica corriendo los scripts de verdad: **toda la salida tiene
+que poder codificarse en cp1252.** El test lo comprueba sobre las herramientas que no necesitan
+binarios externos ni red.
+
+**Pero la salida sí va acentuada.** Lo que un script imprime es texto que alguien lee, y en el caso
+de las calculadoras es texto que **se copia a un escrito**: un rubro que dijera
+`Indemnizacion por antiguedad` entra así a una demanda. Eso está en el mismo cajón que las carátulas de los fallos, no
+en el de las convenciones.
+
+**En el fuente** —comentarios y docstrings— la costumbre es escribir sin acentos, y conviene seguirla
+por consistencia. Eso es estilo y no tiene test.
+
+**Y los identificadores nunca se acentúan.** Aprendido a fuerza de romperlo diez veces: el nombre del
+tramo `modernizacion` que el código compara, las claves de `inhabiles.json`, los valores de `--tipo`,
+las claves del JSON del perfil, un componente de ruta y las variables dentro de las llaves de una
+f-string. Son ASCII a propósito, y acentuarlos rompe la interfaz o la lectura del dato — a veces con
+un `KeyError` y a veces en silencio. La línea es: **si se muestra, se acentúa; si se compara, no.**
+
+**Y no alcanza a los datos.** Una carátula de fallo lleva sus acentos porque es texto que se cita,
+y hay un test que lo exige — ver `TestCaratulasAcentuadas`.
+
+## Las cifras de la documentación no se escriben a mano
+
+Cada vez que un documento dice cuántos módulos, normas, fallos o casos de prueba hay, está
+afirmando algo que envejece solo. `LICENCIAS.md` declaraba **2 documentos** en `docs/` cuando ya
+había cuatro, y no lo atrapó nada: la cobertura era opt-in, así que cada cifra necesitaba que
+alguien se acordara de escribirle un test, y el que no se acuerda no rompe nada.
+
+```sh
+python3 herramientas/cifras.py            # verifica y censa
+python3 herramientas/cifras.py --sellar   # reescribe cada cifra con lo que hay en disco
+```
+
+**El ancla es el patrón de texto que rodea la cifra, no un marcador en el archivo.** Los `.md` no
+llevan nada raro adentro: la cifra se escribe como se escribiría igual. Es a propósito, porque la
+mitad de estos archivos viajan dentro del plugin y los lee el modelo, y un
+`<!--#normas-->132<!--/-->` ahí no es invisible: es ruido en las instrucciones. El registro está en
+`herramientas/cifras.json`.
+
+**Y el censo es la parte que importa.** Busca *cualquier* cifra pegada a un sustantivo de inventario
+y exige que esté declarada en uno de tres lugares: el registro de anclas, la lista de las que ya
+mide otro test, o `cifras-revisadas.json` con motivo si no es inventario. Lo que no esté en ninguno,
+rompe. Eso invierte el default: **una cifra nueva sin declarar ya no pasa desapercibida.**
+
+Tres reglas que salieron de armarlo, y que conviene saber antes de tocar una cifra:
+
+- **Un ancla tiene que enganchar exactamente una vez.** Si engancha dos, la cifra está escrita dos
+  veces en el mismo archivo. La salida no es alargar el ancla hasta que sea única —eso la apoya en
+  una coma o en un nombre de archivo que no tienen nada que ver con la cuenta— sino **sacar la
+  repetida**. Así se fue el segundo *"seis tomos"* de `MANIFIESTO.md`.
+- **Toda cifra sellada necesita una definición ejecutable.** `LICENCIAS.md` decía *"los 9 scripts
+  de la skill"* y hay ocho sin contar la suite, nueve contándola: no estaba vencida, estaba
+  indefinida. Una cifra que no se puede definir no se puede verificar con ningún mecanismo, así que
+  **se saca de la prosa**.
+- **Si la cifra no informa, mejor que no esté.** Es lo más barato de mantener y no hay que
+  declararlo en ninguna parte.
+
+## markdownlint sirve para prospectar, no para bloquear
+
+El verificador del repositorio es `herramientas/test_markdown.py`: no tiene dependencias, corre en
+el CI y comprueba lo que se rompe **en silencio** —links, anclas, cercas, imágenes que dejaron de
+renderizar, acentos, cifras, marcadores partidos—. `markdownlint` es lo otro: un tercero que mira el
+árbol con otros ojos y encuentra lo que nuestro verificador no busca.
+
+```sh
+npx --yes markdownlint-cli2          # avisa
+npx --yes markdownlint-cli2 --fix    # arregla lo mecánico
+```
+
+No está en el checklist de cierre ni en el CI, y es deliberado: agregar Node al camino de un
+repositorio que hoy corre con Python de fábrica es un costo que el usuario del plugin no debería
+pagar. **Lo que valga la pena de una corrida se implementa en `test_markdown.py`**, que sí corre
+siempre. Así llegó el control de marcadores partidos: de los 9.868 avisos de la primera corrida, ése
+fue el único defecto real, y es un invariante nuestro que ningún linter tiene.
+
+La configuración está en `.markdownlint-cli2.jsonc` con el motivo de cada regla apagada al lado.
+Dos cosas que conviene tener presentes:
+
+- **`--fix` reescribe archivos**, así que su `ignores` tiene que dejar afuera la capa 2: `kb/` y las
+  cinco excepciones de [`LICENCIAS.md`](../LICENCIAS.md). Un test lo controla, porque es la única
+  herramienta del repositorio capaz de editarle a otro autor sin que nadie se lo pida.
+- **El estilo de tabla va dicho, no inferido.** MD060 con el default `any` elige por tabla el estilo
+  más cercano, y en las de celda larga elegía `aligned`, que exige alinear los pipes en columna: una
+  celda de 1.545 caracteres no se alinea. Fijado en `compact` —un espacio de cada lado en toda
+  celda, delimitador incluido— el `--fix` normaliza el árbol entero.
+
+Un cambio de estilo de tabla no es cosmético: lo primero que hay que revisar es **quién parsea
+tablas**. `pendientes.py` buscaba la fila delimitadora con `startswith("|--")`, que reconoce
+`|---|---|` y no `| --- | --- |`, y el modo de falla era mudo: la fila pasaba como dato, `"---"` se
+leía como nombre de bloque y el script no reportaba nada.
 
 ## Si escribís contenido
 
@@ -163,7 +275,7 @@ que además falla si aparece un sexto sin declarar.
 el mapa completo en [`LICENCIAS.md`](../LICENCIAS.md):
 
 | Lo que escribís | Licencia |
-|---|---|
+| --- | --- |
 | Un módulo de `references/`, un comando, un eval, documentación | **CC BY-SA 4.0**: atribución y **CompartirIgual** |
 | Un script, una herramienta, un manifiesto `.json` | **MIT** |
 | Cualquier cosa bajo `argentina/kb/` | **No se escribe ahí.** Es capa 2, de Cristian Aboitiz |
@@ -323,7 +435,7 @@ mensaje de commit. Hay que anotarlo, **pero cada cosa en su lugar**, o el regist
 diario de trabajo que nadie lee:
 
 | Qué cambió | Dónde se anota |
-|---|---|
+| --- | --- |
 | La versión del plugin | [`CHANGELOG.md`](../CHANGELOG.md), **sólo al publicar una versión** |
 | Contenido normativo o jurisprudencial | La tabla de estado de verificación de `references/changelog-normativo.md`, con fecha y volatilidad |
 | Una auditoría contra fuente primaria, con lo que se leyó y lo que se encontró | [`AUDITORIAS.md`](AUDITORIAS.md) |

@@ -42,7 +42,7 @@ contraria de que no se miró la ley.
 ### 25.2 Qué exige cada norma — tabla de control
 
 | Acto | Norma | Lo que la norma exige |
-|---|---|---|
+| --- | --- | --- |
 | **Emplazamiento genérico** | art. 57 LCT | Intimación **fehaciente**; plazo razonable, **nunca menor a dos días hábiles**, para que el silencio valga como presunción |
 | **Despido con justa causa** | art. 243 LCT | Por escrito, **motivos suficientemente claros**; causal **invariable** después |
 | **Despido indirecto** | arts. 242, 243 y 246 LCT | Injuria que **por su gravedad no consienta la prosecución**; comunicada con la misma exigencia del 243; da derecho a las indemnizaciones de los arts. 232, 233 y 245 |
@@ -130,7 +130,7 @@ que intimaba en el que incumplió.
 4. **Qué artículo funda cada plazo que se escribe.** Si no se puede nombrar, no se escribe.
 5. **Los hechos, con fecha y detalle suficiente**, porque el art. 243 no deja agregarlos después.
 6. **El apercibimiento**, y que sea uno que exista hoy: los agravantes de la Ley 24.013 y de la
-   Ley 25.323 están derogados desde el 9/7/2024 (5.3).
+   Ley 25.323 están derogados desde el 09/07/2024 (5.3).
 7. **Constancia**: número de pieza, fecha de imposición y de entrega. Sin eso no hay
    fehaciencia, y la fehaciencia es lo que el art. 57 exige.
 

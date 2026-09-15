@@ -51,7 +51,7 @@ Portales oficiales. Ante cualquier discrepancia, prevalece el texto que publican
 ### Portales
 
 | Fuente | Qué tiene | Enlace |
-|---|---|---|
+| --- | --- | --- |
 | InfoLEG | Texto actualizado de normas nacionales | https://www.infoleg.gob.ar |
 | Boletín Oficial | Publicación oficial, edición diaria y búsqueda por fecha | https://www.boletinoficial.gob.ar |
 | Normativa nacional (arg.gob.ar) | Textos actualizados con listado de normas modificatorias | https://www.argentina.gob.ar/normativa |
@@ -73,7 +73,7 @@ Portales oficiales. Ante cualquier discrepancia, prevalece el texto que publican
 **Laboral**
 
 | Norma | Enlace |
-|---|---|
+| --- | --- |
 | LCT (Ley 20.744), texto actualizado | https://servicios.infoleg.gob.ar/infolegInternet/anexos/25000-29999/25552/texact.htm |
 | Ley 27.802 (Modernización Laboral) | https://servicios.infoleg.gob.ar/infolegInternet/anexos/420000-424999/423680/norma.htm |
 | Ley 27.742 (Bases) | https://servicios.infoleg.gob.ar/infolegInternet/verNorma.do?id=401266 |
@@ -87,7 +87,7 @@ Portales oficiales. Ante cualquier discrepancia, prevalece el texto que publican
 **Civil, comercial y consumo**
 
 | Norma | Enlace |
-|---|---|
+| --- | --- |
 | CCyCN (Ley 26.994), texto | https://servicios.infoleg.gob.ar/infolegInternet/anexos/235000-239999/235975/texact.htm |
 | LDC (Ley 24.240), texto actualizado | https://servicios.infoleg.gob.ar/infolegInternet/anexos/0-4999/638/texact.htm |
 | Ley 17.418 (Seguros) | https://servicios.infoleg.gob.ar/infolegInternet/anexos/35000-39999/39520/norma.htm |
@@ -97,7 +97,7 @@ Portales oficiales. Ante cualquier discrepancia, prevalece el texto que publican
 **Procesal y administrativo**
 
 | Norma | Enlace |
-|---|---|
+| --- | --- |
 | CPCCN (Ley 17.454), texto actualizado | https://www.argentina.gob.ar/normativa/nacional/ley-17454-16547/actualizacion |
 | **CPCCBA (Decreto-Ley 7425/68)** | https://normas.gba.gob.ar/documentos/VrQlgSOB.html |
 | **Ley 13.951 (Mediación PBA)** | https://normas.gba.gob.ar/documentos/VmKoWSlx.html |
@@ -122,7 +122,7 @@ No abrir los PDFs a ciegas: **`argentina/fuentes/ccyc-comentado/INDICE.md` rutea
 artículos a su tomo y a la página exacta.** Puntos de entrada más usados (página del PDF):
 
 | Instituto | Arts. | Tomo y página |
-|---|---|---|
+| --- | --- | --- |
 | Obligaciones en general | 724-956 | T3 p. 28 |
 | Contratos en general | 957-1091 | T3 p. 359 |
 | Contratos de consumo | 1092-1122 | T3 p. 515 |
@@ -140,4 +140,3 @@ Dos advertencias del índice: "contratos en particular" queda **partido entre lo
 (compraventa en T3, obra y servicios en adelante en T4), que es el error de navegación más
 frecuente; y cada tomo tiene doble numeración — las páginas de arriba son **páginas del PDF**,
 no impresas (desfasaje T1 +39, T2 +23, T3 +27, T4 +29, T5 +25, T6 +25).
-

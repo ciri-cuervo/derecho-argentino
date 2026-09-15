@@ -10,7 +10,7 @@ entre acá puede contener datos de expedientes.
 ## Estructura
 
 | Carpeta | Qué es | Licencia / uso |
-|---|---|---|
+| --- | --- | --- |
 | `normas/` | Texto consolidado de las normas de uso diario, con encabezado de procedencia y hash | Normas jurídicas: reproducción libre |
 | `jurisprudencia/` | Precedentes verificados con enlace a la sentencia oficial. `INDICE.md` es la entrada | Sentencias: reproducción libre |
 | `jurisprudencia/ocr/` | Texto **recuperado por OCR local** de los PDF que vinieron con la capa de texto arruinada. Es una derivación, no una descarga: ver abajo | Sentencias: reproducción libre |
@@ -45,7 +45,7 @@ descargador la saltea e informa.
 
 - **Constitución Nacional con los tratados** de jerarquía constitucional: se consolidó a mano y no
   tiene una URL única.
-- **Ley 13.478**, de 1948: **InfoLEG no publica normas de esa época.** Buscada el 14/9/2026 en
+- **Ley 13.478**, de 1948: **InfoLEG no publica normas de esa época.** Buscada en septiembre de 2026 en
   InfoLEG, argentina.gob.ar y SAIJ; sólo hay fuentes secundarias. Su art. 9 se cotejo contra el
   Boletín Oficial de 1948 o contra el texto transcripto en el propio fallo que lo discute.
 
@@ -56,7 +56,7 @@ El de argentina.gob.ar **sí tiene captcha** (Turnstile), así que no sirve para
 15/09/2026:
 
 | Norma | id | Qué se confirmó al abrirla |
-|---|---|---|
+| --- | --- | --- |
 | **Ley 27.798** | 422000 | Presupuesto 2026. Su art. 62 excepciona los arts. 7 y 10 de la Ley 23.928 **sólo para préstamos y títulos públicos provinciales y de CABA**: no alcanza al crédito laboral |
 | **Ley 23.857** | 257 | Trae el **Convenio de La Haya completo** como anexo, con el art. 13 inc. b —grave riesgo— |
 | **Ley 25.358** | 65330 | Convención Interamericana sobre restitución internacional |
@@ -151,10 +151,10 @@ cuál hay que mirar. Cuando el cambio es de fondo, anotarlo en
 
 Cada texto lleva **dos**. El **crudo** es de los bytes que sirvió el servidor; el **de texto**,
 del articulado extraído, sin el encabezado de procedencia. Se necesitan los dos porque el crudo
-se mueve solo: en una redescarga completa del 14/09/2026, **37 de 116 normas cambiaron el hash
-crudo y sólo 3 el de texto** —33 de esas 37 son de `argentina.gob.ar`, que reescribe el HTML en
-cada pedido—. Por eso `verificar_normas.py`, cuando el crudo no coincide, no grita: vuelve a
-extraer el texto y compara ese hash, y recién ahí dice `CAMBIO`.
+se mueve solo: en una redescarga, **37 de 116 normas cambiaron el hash crudo y sólo 3 el detexto**
+—33 de esas 37 son de `argentina.gob.ar`, que reescribe el HTML en cada pedido—. Por eso
+`verificar_normas.py`, cuando el crudo no coincide, no grita: vuelve a extraer el texto y compara
+ese hash, y recién ahí dice `CAMBIO`.
 
 Lo que el hash de texto **no** filtraba era el cromo con fecha de hoy que el **Boletín Oficial**
 y **JURISTECA** imprimen dentro del cuerpo, encima de la norma. Eran las tres del párrafo
@@ -166,10 +166,10 @@ del … Ediciones Anteriores", "Saltar al contenido … Las fuentes del Derecho"
 expresión que busque fechas: eso se comería las de sanción, promulgación y vigencia, que son
 parte de la norma y cuya desaparición es justo lo que hay que detectar. Donde estaba queda
 `[fecha del portal, no es parte de la norma]`, para que quien lea el `.txt` vea que ahí se sacó
-algo a propósito. Tres tests lo fijan, incluido el que comprueba que una fecha suelta, sin esos
+algo a propósito. Hay tests que lo fijan, incluido el que comprueba que una fecha suelta, sin esos
 rótulos, no se toca.
 
-## Estado al 13/09/2026
+## Estado a septiembre de 2026
 
 Esta tabla es una foto, y las fotos se vencen. La medición viva la da
 `python3 argentina/skills/derecho-argentino/scripts/estado.py`, que lee los archivos en vez de
@@ -177,21 +177,22 @@ recordarlos. Para que la foto no se separe del repo en silencio, `test_scripts.p
 números y los compara contra lo que hay: si alguno deja de coincidir, los tests fallan.
 
 | Pieza | Estado |
-|---|---|
-| `ccyc-comentado/` | Completo, seis tomos con índice de ruteo |
+| --- | --- |
+| `ccyc-comentado/` | Completo, con índice de ruteo |
 | `normas/normas.json` | **138 entradas**, 136 con URL verificada |
 | `normas/*.txt` | **132 descargadas**; `procedencia.json` registra **137 textos con hash** |
 | `jurisprudencia/fallos.json` | **64 fallos**, todos con URL |
 | `jurisprudencia/*.pdf` | **63 descargados** |
-| `datos/jus-scba.csv` | **6 filas**, cargado hasta el 1/8/2026 |
+| `datos/jus-scba.csv` | **6 filas**, cargado hasta el 01/08/2026 |
 | `datos/inhabiles.json` | Cargado: 2026 completo para Nación y PBA; 2027 sólo la feria de enero |
 | `datos/serie-ipc.csv` | **Completa**: 117 períodos, 2016-12 a 2026-08 |
 | `datos/serie-ripte.csv` | **Completa**: 385 períodos, 1994-07 a 2026-07 |
 | `datos/serie-cer.csv` | **Completa**: 117 períodos, 2016-12 a 2026-08 |
 
-Los tres números de `normas/` cuentan cosas distintas y no tienen por qué coincidir: 112 es lo
-que la skill espera encontrar, 111 es lo que se bajó y tiene hash, y 106 son los `.txt` en
-disco. La diferencia son entradas sin URL propia y textos consolidados a mano.
+Los tres números de `normas/` cuentan cosas distintas y no tienen por qué coincidir: **138** es lo
+que la skill espera encontrar, **137** es lo que tiene texto bajado con hash registrado, y **132**
+son los `.txt` en disco, porque los **5** restantes son PDF. La única entrada declarada que no
+tiene texto es la Ley 13.478, por lo dicho arriba: está en el catálogo para que se vea que falta.
 
 ## Qué hacer con esto ya cargado
 

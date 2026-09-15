@@ -18,7 +18,7 @@ python3 test_marca.py
 ## Archivos
 
 | Archivo | Uso |
-|---|---|
+| --- | --- |
 | `banner-claro.png` · `.svg` | Encabezado del README, tinta oscura. 1280 × 320, sin fondo. |
 | `banner-oscuro.png` · `.svg` | Lo mismo con tinta clara; el README elige con `<picture>`. |
 | `chapa-version` · `chapa-licencia` · `chapa-python` · `chapa-agentes` | La fila de etiquetas bajo el título. Alto 64, al doble: se muestran a la mitad. |
@@ -44,7 +44,7 @@ mano. Si cambia y el texto queda más ancho, `test_marca.py` avisa que hay que c
 ## Paleta
 
 | | |
-|---|---|
+| --- | --- |
 | papel | `#F7F5F0` |
 | tinta | `#1C1C1A` |
 | celeste | `#5B93C7` |

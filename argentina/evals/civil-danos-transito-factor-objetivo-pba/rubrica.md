@@ -6,7 +6,7 @@ titulo: Daños por accidente de tránsito - factor objetivo, prescripción y cit
 ### Obligatorios (el sistema debe identificar todos)
 
 - [ ] Emite `[ALERTA PLAZO FATAL: art. 2561 CCyCN - 3 años - desde el hecho dañoso
-  (12/5/2023) - vencimiento sin suspensión: 12/5/2026]` **antes** de analizar el fondo.
+  (12/05/2023) - vencimiento sin suspensión: 12/05/2026]` **antes** de analizar el fondo.
 
 - [ ] **Advierte que la mediación prejudicial de PBA NO suspende como la nacional.** El
   **art. 40 de la Ley 13.951** le asigna a la mediación bonaerense **carácter de
@@ -16,12 +16,12 @@ titulo: Daños por accidente de tránsito - factor objetivo, prescripción y cit
   Ley 26.589** (suspensión durante todo el procedimiento con reanudación a los 20 días del
   acta de cierre), que es el régimen nacional/CABA.
 
-- [ ] **Computa sobre esa base.** Prescripción del art. 2561 al **12/5/2026**; mediación
-  iniciada el **10/3/2026**, dentro del plazo; la suspensión semestral del art. 2541 lleva
+- [ ] **Computa sobre esa base.** Prescripción del art. 2561 al **12/05/2026**; mediación
+  iniciada el **10/03/2026**, dentro del plazo; la suspensión semestral del art. 2541 lleva
   el vencimiento a **alrededor del 12/11/2026**. Conclusión: a la fecha de la consulta
-  (**20/8/2026**) **la acción sigue viva, pero por poco**. El análisis debe decirlo con
+  (**20/08/2026**) **la acción sigue viva, pero por poco**. El análisis debe decirlo con
   todas las letras y recomendar demandar de inmediato. La fecha del acta de cierre
-  (22/4/2026) **no** desplaza el cómputo: el efecto suspensivo es el plazo fijo de seis
+  (22/04/2026) **no** desplaza el cómputo: el efecto suspensivo es el plazo fijo de seis
   meses, no el tiempo que insumió el trámite.
 
 - [ ] Emite el marcador de verificación del punto, por ejemplo `[VERIFICAR VIGENCIA: art. 40
@@ -97,7 +97,7 @@ titulo: Daños por accidente de tránsito - factor objetivo, prescripción y cit
   20 días del acta de cierre". En PBA rige el art. 40 de la Ley 13.951 (interpelación del
   art. 2541 CCyCN: seis meses, una sola vez).
 
-- [ ] No debe afirmar que la acción está prescripta al 20/8/2026: con la suspensión
+- [ ] No debe afirmar que la acción está prescripta al 20/08/2026: con la suspensión
   semestral el vencimiento se corre a alrededor del 12/11/2026.
 
 - [ ] No debe atribuir al **art. 64 de la Ley 24.449** la consagración de la

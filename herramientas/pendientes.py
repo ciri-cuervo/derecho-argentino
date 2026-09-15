@@ -4,15 +4,15 @@
     python3 herramientas/pendientes.py
 
 Un archivo de pendientes escrito a mano se vence igual que cualquier otra cifra escrita a
-mano, y encima duplica lo que ya esta anotado en su lugar. Este script no guarda nada: junta
-lo que los propios modulos declaran como faltante y lo ordena.
+mano, y encima duplica lo que ya está anotado en su lugar. Este script no guarda nada: junta
+lo que los propios módulos declaran como faltante y lo ordena.
 
 De donde sale cada bloque:
 
   institutos sin precedente   marcadores [INSERTAR FALLO VERIFICADO: ...] en references/
   deuda por bloque            columna "Como revalidar" de references/changelog-normativo.md
-  verificacion vencida        columna de fecha de esa misma tabla, con la regla de 6 meses
-  modulos sin eval            ningun caso de evals/ los menciona
+  verificación vencida        columna de fecha de esa misma tabla, con la regla de 6 meses
+  módulos sin eval            ningún caso de evals/ los menciona
 
 Lo que miden otras herramientas se referencia al final en vez de repetirse. Cero dependencias.
 """
@@ -27,12 +27,18 @@ SKILL = RAIZ / "argentina" / "skills" / "derecho-argentino"
 REFERENCIAS = SKILL / "references"
 EVALS = RAIZ / "argentina" / "evals"
 
-# La tabla de verificacion fija su propia regla: pasados los seis meses, el bloque se usa con
+# La tabla de verificación fija su propia regla: pasados los seis meses, el bloque se usa con
 # [VERIFICAR VIGENCIA] reforzado hasta revalidarlo.
 DIAS_DE_GRACIA = 180
 
-# El marcador tambien aparece definido en marcadores.md y explicado en prosa. Se los distingue
-# por el payload: la definicion lleva el texto plantilla y la prosa lleva puntos suspensivos.
+# La fila delimitadora de una tabla, en los dos estilos: `|---|---|` y `| --- | --- |`.
+# Buscarla con startswith("|--") funcionaba con el compacto y fallaba EN SILENCIO con el
+# otro: la fila pasaba como dato, se parseaba "---" como nombre de bloque y no reportaba
+# nada. Un parser de tablas no puede depender de si hay espacios alrededor del guion.
+DELIMITADOR = re.compile(r"\|[\s:|-]+\|")
+
+# El marcador también aparece definido en marcadores.md y explicado en prosa. Se los distingue
+# por el payload: la definición lleva el texto plantilla y la prosa lleva puntos suspensivos.
 # Un hueco real dice de que instituto se trata.
 PAYLOAD_GENERICO = re.compile(r"^(doctrina requerida\b|\.\.\.)")
 MARCADOR = re.compile(r"\[INSERTAR FALLO VERIFICADO: ([^\]]+)\]")
@@ -40,8 +46,8 @@ MARCADOR = re.compile(r"\[INSERTAR FALLO VERIFICADO: ([^\]]+)\]")
 ARRANQUE_DEUDA = re.compile(
     r"Falta[n]?\s|PENDIENTE\s|[Ss]in fallo[s]?\s+cargado|no est[aá]\s+cargad[oa]"
     r"|NO est[aá]\s+bajad[oa]|Queda abierto")
-# Fin de oracion: un punto seguido de mayuscula. Asi "art. 44" y "Ley 23.551" no la cortan.
-FIN_DE_ORACION = re.compile(r"\.\s+(?=[A-ZÁÉÍÓÚÑ])|$")
+# Fin de oración: un punto seguido de mayúscula. Así "art. 44" y "Ley 23.551" no la cortan.
+FIN_DE_ORACION = re.compile(r"\.\s+(?=[A-ZÁÉÍÓÚÜÑ])|$")
 
 
 def institutos_sin_precedente() -> list[tuple[str, int, str]]:
@@ -62,7 +68,7 @@ def _filas_de_verificacion() -> list[list[str]]:
         return []
     filas = []
     for linea in tabla[1].splitlines():
-        if not linea.startswith("|") or linea.startswith("|--"):
+        if not linea.startswith("|") or DELIMITADOR.fullmatch(linea.strip()):
             continue
         campos = [c.strip() for c in linea.strip("|").split("|")]
         if len(campos) >= 5 and campos[0] != "Bloque":
@@ -95,10 +101,10 @@ def verificacion_vencida(hoy: date) -> list[tuple[str, str, int]]:
 
 
 def modulos_sin_eval() -> list[str]:
-    """Un modulo esta ejercitado si algun eval lo nombra o si el slug del caso arranca con el.
+    """Un módulo esta ejercitado si algún eval lo nombra o si el slug del caso arranca con el.
 
     Lo segundo hace falta porque varios casos identifican la rama en el nombre del directorio
-    -`civil-danos-transito-...`- y despues citan la seccion sin repetir el nombre del archivo.
+    -`civil-danos-transito-...`- y después citan la sección sin repetir el nombre del archivo.
     """
     if not EVALS.is_dir():
         return []
@@ -121,22 +127,22 @@ def main() -> int:
 
     institutos = institutos_sin_precedente()
     print(f"\nINSTITUTOS SIN PRECEDENTE PROPIO — {len(institutos)}")
-    print("  Hoy la skill entrega ahi doctrina de kb/ sin auditar, avisando que falta.")
+    print("  Hoy la skill entrega ahí doctrina de kb/ sin auditar, avisando que falta.")
     for archivo, numero, payload in institutos:
         print(f"  · {archivo}:{numero}")
         print(f"      {payload[:110]}")
 
     deudas = deuda_por_bloque()
     print(f"\nDEUDA DECLARADA POR BLOQUE — {len(deudas)}")
-    print("  Lo que la propia tabla de verificacion dice que le falta.")
+    print("  Lo que la propia tabla de verificación dice que le falta.")
     for bloque, modulo, texto in deudas:
         print(f"  · {bloque} ({modulo})")
         print(f"      {texto[:110]}")
 
     vencidos = verificacion_vencida(hoy)
-    print(f"\nVERIFICACION VENCIDA (mas de {DIAS_DE_GRACIA} dias) — {len(vencidos)}")
+    print(f"\nVERIFICACIÓN VENCIDA (más de {DIAS_DE_GRACIA} dias) — {len(vencidos)}")
     if not vencidos:
-        print("  Ninguna. Todos los bloques estan dentro de los seis meses.")
+        print("  Ninguna. Todos los bloques están dentro de los seis meses.")
     for bloque, modulo, dias in vencidos:
         print(f"  · {bloque} ({modulo}): {dias} dias")
 
@@ -149,13 +155,13 @@ def main() -> int:
         print(f"  · {nombre}")
 
     print("\nLO QUE MIDEN OTRAS HERRAMIENTAS")
-    print("  reformas que estan en el texto bajado y ningun modulo leyo")
+    print("  reformas que están en el texto bajado y ningún módulo leyó")
     print("    python3 herramientas/reformas_no_leidas.py")
     print("  normas citadas con articulado y sin bajar")
     print("    python3 herramientas/cobertura_normativa.py")
     print("  documentos de jurisprudencia sin leer o con defecto de OCR")
     print("    python3 herramientas/calidad_ocr.py --pendientes")
-    print("  prosa candidata en los evals, que estan fuera del checklist")
+    print("  prosa candidata en los evals, que están fuera del checklist")
     print("    python3 herramientas/fuga_textual.py argentina/evals/*/*.md")
     print()
     return 0

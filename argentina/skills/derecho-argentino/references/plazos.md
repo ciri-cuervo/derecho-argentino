@@ -38,7 +38,7 @@ notificación, emitir `[VACÍO PROBATORIO: ...]` y **no** calcular vencimiento.
 ### 8.2 Plazo de gracia — no es igual en los dos fueros
 
 | Fuero | Norma | Plazo |
-|---|---|---|
+| --- | --- | --- |
 | Nacional | Art. 124 CPCCN | **Dos** primeras horas del despacho del día hábil inmediato |
 | PBA | Art. 124 CPCCBA | **Cuatro** primeras horas del despacho del día hábil inmediato |
 
@@ -61,7 +61,7 @@ el día de la semana en el año del cómputo antes de descontarlos.
 ### 8.4 Suspensión por conciliación o mediación — los regímenes NO son equivalentes
 
 | Régimen | Norma | Efecto |
-|---|---|---|
+| --- | --- | --- |
 | Mediación prejudicial nacional | Art. 18 Ley 26.589 | Suspende prescripción y caducidad durante **todo el procedimiento**; se reanuda a los **20 días** del acta de cierre. El dies a quo varía según sea por acuerdo de partes, por sorteo o a propuesta del requirente. |
 | **Mediación prejudicial PBA** | **Art. 40 Ley 13.951** | **No suspende como la nacional.** La ley le asigna *carácter de intimación*, con los efectos del segundo párrafo del art. 3986 del Código Civil — norma derogada, hoy reconducida al **art. 2541 CCyCN: suspensión por interpelación fehaciente, por una sola vez y por seis meses**. |
 | SECLO (laboral nacional) | Art. 7 Ley 24.635 | La presentación **suspende** *"por el término que establece el art. 257 de la ley de contrato de trabajo"*, que es de **seis meses como máximo**. El art. 257 LCT dice **interrumpirá**, no suspenderá, y la remisión crea el conflicto. **El plazo de 30 días desde la clausura NO está en la Ley 24.635**: ver `laboral.md` 5.6. |
@@ -73,7 +73,7 @@ Ante un cómputo de prescripción en PBA con mediación de por medio, emitir
 ### 8.5 Plazos frecuentes
 
 | Acto | Plazo | Norma |
-|---|---|---|
+| --- | --- | --- |
 | Apelación (Nación y PBA) | 5 días hábiles | Art. 244 CPCCN / art. 244 CPCCBA |
 | Recurso extraordinario federal | 10 días hábiles | Art. 257 CPCCN |
 | Queja por REF denegado | 5 días hábiles | **Art. 285 en función del art. 282** CPCCN |
@@ -86,15 +86,15 @@ Ante un cómputo de prescripción en PBA con mediación de por medio, emitir
 > **Los diez días del REF se cuentan con el calendario del tribunal apelado, no con el de la
 > Corte.** Es el error que se paga más caro, porque se descubre cuando ya venció. *"Vallejos,
 > Julio César y otro c/ Hospital Interzonal Dr. José Penna y otros s/ daños y perjuicios"*,
-> **Fallos 344:1785, 8/7/2021** — leído contra el documento, `fallos-csjn.md` 34.4. La Corte
+> **Fallos 344:1785, 08/07/2021** — leído contra el documento, `fallos-csjn.md` 34.4. La Corte
 > **desestimó la queja**: el plazo del art. 257 CPCCN *"se computa teniendo en cuenta los días
 > hábiles para actuar ante el tribunal apelado, en cuyo estrado debe cumplirse con la actuación
 > de que se trata"* (Fallos 212:85, 227:68, 254:305).
 >
 > **En la práctica bonaerense eso significa el calendario de la SCBA**: sus ferias, sus asuetos
-> y sus suspensiones. En "Vallejos" fue decisivo — con la notificación del 13/3/2020 y el asueto
-> por pandemia que suspendió plazos desde el 16/3 hasta el 6/5/2020, la presentación del
-> 13/8/2020 llegó tarde, y **no se había invocado incompatibilidad** con las restricciones
+> y sus suspensiones. En "Vallejos" fue decisivo — con la notificación del 13/03/2020 y el asueto
+> por pandemia que suspendió plazos desde el 16/3 hasta el 06/05/2020, la presentación del
+> 13/08/2020 llegó tarde, y **no se había invocado incompatibilidad** con las restricciones
 > sanitarias.
 >
 > Y la otra mitad de la regla, que parece contradictoria y no lo es: **el régimen procesal del
@@ -102,7 +102,7 @@ Ante un cómputo de prescripción en PBA con mediación de por medio, emitir
 > el del art. 257, y **los días hábiles** los pone el tribunal ante el que se presenta.
 
 **Contencioso administrativo — art. 25 LNPA:** **180 días hábiles judiciales** para actos
-notificados **desde el 9/7/2024** (texto art. 43 Ley 27.742); 90 días para actos anteriores.
+notificados **desde el 09/07/2024** (texto art. 43 Ley 27.742); 90 días para actos anteriores.
 No aplicar el plazo federal por analogía a **CABA** (90 días, art. 7 Ley 189) ni a **PBA**
 (90 días, art. 18 Ley 12.008, texto Ley 13.101). Para PBA, el cómputo por inciso y todo lo que
 lo condiciona están en `contencioso-pba.md` 26.6.
@@ -116,7 +116,7 @@ prescripciones, así que **no se suspenden ni se interrumpen** y no las alcanza 
 entrevista.
 
 | Acción | Plazo | Desde | Norma |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Compensación económica · divorcio** | 6 meses, **caducidad** | la **sentencia de divorcio** | Art. 442, último párrafo |
 | **Compensación económica · unión convivencial** | 6 meses, **caducidad** | **cualquiera de las causas de cese** del art. 523 | Art. 525, último párrafo |
 | Atribución del uso de la vivienda · unión convivencial | tope de **2 años** de duración | el **cese de la convivencia** (art. 523) | Art. 526 |
@@ -158,4 +158,3 @@ darlo: mes por mes, contando los días de cada uno, en vez de resolverlo como un
 meses de 28, 30 y 31 días y los años bisiestos son donde aparece la diferencia. **Al usuario le
 llega el número ya recorrido, nunca el de la primera pasada**, y cuando el cómputo lo hizo
 `scripts/plazos.py` se transcribe su salida, que ya trae la traza.
-

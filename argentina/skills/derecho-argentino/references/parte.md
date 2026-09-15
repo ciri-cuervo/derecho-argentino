@@ -3,8 +3,8 @@
 > Módulo de referencia de la skill `derecho-argentino`. La numeración es global y coincide
 > con la del SKILL.md. Es el espejo de `sede-judicial-pba.md`: mismo expediente, otro trabajo.
 >
-> Verificado contra los textos consolidados de `argentina/fuentes/normas/` el 13/09/2026. Lo
-> procesal es del fuero laboral de la PBA; para el fuero nacional, Ley 18.345 (ver 5.9).
+> Verificado contra los textos consolidados de `argentina/fuentes/normas/`. Lo procesal es del
+> fuero laboral de la PBA; para el fuero nacional, Ley 18.345 (ver 5.9).
 
 ---
 
@@ -35,7 +35,7 @@ tienen costo:
   la Ley 15.057 lo incluye entre los contenidos del fallo.
 - **Gratuidad no es impunidad en costas.** El trabajador vencido carga con ellas: el beneficio
   cubre tasas, gastos y sellados, y sólo lo exime de soportarlas si acreditó el contrato de
-  trabajo — "Gutiérrez Rellan", SCBA, L. 119.012, 16/5/2018. Prometer que "no hay riesgo de
+  trabajo — "Gutiérrez Rellan", SCBA, L. 119.012, 16/05/2018. Prometer que "no hay riesgo de
   costas" es un error de asesoramiento.
 
 ---
@@ -150,7 +150,7 @@ para el lado de parte, donde el caso se ordena o se pierde. Art. 38: se cita den
 Qué pasa ahí, y qué hay que llevar preparado:
 
 | En la audiencia | Lo que se juega |
-|---|---|
+| --- | --- |
 | Invitación a conciliar | Ir con un número propio, no improvisado |
 | Sentencia interlocutoria de saneamiento | Los vicios que no se planteen quedan atrás |
 | **Fijación de los hechos controvertidos y conducentes** | Es el objeto de la prueba. Un hecho que no se fija, no se prueba |
@@ -222,7 +222,7 @@ civil del demandado declarados judicialmente y por recurso del Fisco; el art. 83
 deja **sólo el Fisco**.
 
 Si el depósito es materialmente imposible, la vía es el **incidente de eximición** con prueba
-a cargo de quien lo deduce — "Diehl", SCBA, L. 119.966, 3/5/2018. No hay dispensa genérica por
+a cargo de quien lo deduce — "Diehl", SCBA, L. 119.966, 03/05/2018. No hay dispensa genérica por
 dificultad económica.
 
 **Preparar el recurso durante el juicio, no después.** El art. 46 de la Ley 11.653, texto
@@ -235,7 +235,7 @@ extraordinarios**. Lo que no se dejó asentado ahí, difícilmente se recupere.
 lo fija directamente en **500 jus**. El recurso extraordinario de **nulidad** no tiene tope de
 monto: si el agravio es omisión de cuestión esencial, falta de mayoría o falta de
 fundamentación legal, esa es la vía — y no la de inaplicabilidad, que es para el error de
-juzgamiento ("Repartos Ya", SCBA, L. 128.494, 9/4/2026).
+juzgamiento ("Repartos Ya", SCBA, L. 128.494, 09/04/2026).
 
     [VERIFICAR PLAZO: interposición del recurso extraordinario - artículo del CPCCBA aplicable por supletoriedad (art. 63 Ley 11.653 / art. 89 Ley 15.057)]
 
@@ -249,9 +249,9 @@ determina qué se puede reclamar. Modelos y reglas en el repo, `argentina/kb/esc
 del Project.
 
 Tres cosas a verificar antes de usar cualquier modelo: que los agravantes que se invocan
-**existan al tramo temporal** del caso (5.3: desde el 9/7/2024 los de la Ley 24.013 y la
+**existan al tramo temporal** del caso (5.3: desde el 09/07/2024 los de la Ley 24.013 y la
 Ley 25.323 están derogados); que la intimación de registro se funde en los **arts. 7, 7 bis,
-7 ter y 7 quáter** de la Ley 24.013 y no en el art. 11, que quedó comprendido en el bloque
+7 ter y 7 quater** de la Ley 24.013 y no en el art. 11, que quedó comprendido en el bloque
 derogado; y **el plazo que se otorga**, porque los modelos traen treinta días y ese plazo lo
 fijaba justamente el art. 11 inc. a. Rige el plazo razonable del **art. 57 LCT**, nunca inferior
 a dos días hábiles (5.3).
@@ -279,14 +279,14 @@ Reemplaza al de la sección 11 cuando se actúa por una parte:
    toda en la demanda o contestación.
 9. **Defensas de la contraria previsibles** y con qué se responden.
 10. **Próximo plazo procesal**, con fecha.
-11. Si no hay items en alguna categoría: "Ninguno".
+11. Si no hay ítems en alguna categoría: "Ninguno".
 
 ---
 
 ## Puntos abiertos
 
 | Punto | Qué falta |
-|---|---|
+| --- | --- |
 | Art. 20 LCT | Cotejo del texto anterior contra el texto según Ley 27.802, para pluspetición y gratuidad |
 | Art. 275 LCT | Si subsiste y con qué texto tras la Ley 27.802 |
 | Instancia conciliatoria previa en PBA | Qué instancia satisface el art. 31 inc. i de la Ley 15.057, y en qué casos "corresponde" |

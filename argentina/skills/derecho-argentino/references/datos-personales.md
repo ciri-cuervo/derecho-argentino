@@ -17,7 +17,7 @@ Verificado contra el texto consolidado de la **Ley 25.326** en `fuentes/normas/l
 ### 30.1 Los dos derechos previos y sus plazos
 
 | Derecho | Art. | Plazo del responsable | Qué habilita su incumplimiento |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | **Acceso** | 14 | **10 días corridos** desde la intimación fehaciente | Vencido sin satisfacer el pedido, **o evacuado de forma insuficiente**, queda expedita la acción |
 | **Rectificación, actualización o supresión** | 16 | **5 días hábiles**, contados desde que recibe el reclamo del titular o desde que advierte el error o la falsedad | Habilita a **promover sin más** la acción |
 
@@ -108,7 +108,7 @@ consentimiento; y también los relativos al **cumplimiento o incumplimiento de o
 patrimoniales** facilitados por el acreedor o quien actúe por su cuenta.
 
 | Regla | Contenido |
-|---|---|
+| --- | --- |
 | **Archivo, registro y cesión** | Sólo los datos **significativos para evaluar la solvencia** de los **últimos cinco años** |
 | **Si el deudor canceló o extinguió la obligación** | El plazo **se reduce a dos años**, y **debe hacerse constar ese hecho** |
 | **A pedido del titular** | Deben comunicársele las informaciones, evaluaciones y apreciaciones **comunicadas durante los últimos seis meses**, y el **nombre y domicilio del cesionario** si los datos vinieron por cesión |
@@ -165,7 +165,7 @@ su carácter discriminatorio, falso o inexacto**.
 **Trámite, con sus plazos (arts. 39 a 43):**
 
 | Acto | Plazo |
-|---|---|
+| --- | --- |
 | Informe del archivo requerido por el juez (art. 39) | **No mayor de cinco días hábiles**, ampliable prudencialmente |
 | Ampliación de la demanda tras el informe (art. 42) | **3 días**, ofreciendo prueba; traslado al demandado por **3 días** |
 | Sentencia (art. 43) | Especifica **si el dato debe suprimirse, rectificarse, actualizarse o declararse confidencial**, con **plazo para cumplir** |
@@ -200,8 +200,8 @@ donde queda fijada su posición.
 7. **Pedir el asiento de "sometido a proceso judicial"** y, si el vicio es manifiesto, el
    **bloqueo provisional** del art. 38.
 
-`[VERIFICAR VIGENCIA: autoridad de aplicacion y regimen sancionatorio de la Ley 25.326 - la estructura institucional cambio y el Decreto 1558/2001 reglamentario no esta cargado en fuentes/]`
-`[VERIFICAR MONTO ACTUALIZADO: sanciones administrativas de la Ley 25.326 - fijadas por la autoridad de aplicacion, no por la ley]`
+`[VERIFICAR VIGENCIA: autoridad de aplicación y régimen sancionatorio de la Ley 25.326 - la estructura institucional cambió y el Decreto 1558/2001 reglamentario no está cargado en fuentes/]`
+`[VERIFICAR MONTO ACTUALIZADO: sanciones administrativas de la Ley 25.326 - fijadas por la autoridad de aplicación, no por la ley]`
 
 ---
 

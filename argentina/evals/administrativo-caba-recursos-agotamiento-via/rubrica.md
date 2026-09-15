@@ -36,7 +36,7 @@ titulo: Recursos administrativos CABA y plazo de caducidad art. 7 CCAyT
 - [ ] Señala que el art. 123 LPA CABA establece expresamente que la
       presentación de esos recursos suspende el curso del plazo para interponer
       la demanda judicial, lo que confirma que durante la tramitación del
-      recurso del 6/01/2026 al 26/02/2026 el plazo del art. 7 CCAyT estuvo
+      recurso del 06/01/2026 al 26/02/2026 el plazo del art. 7 CCAyT estuvo
       suspendido.
 
 - [ ] Advierte que si la notificación de la Res. CM N° 20/2026 se demoró,

@@ -3,7 +3,7 @@ titulo: Habeas data contra informe crediticio - el secreto del art. 39 y las ope
 area: datos personales
 perfil: derecho-argentino / references/datos-personales.md
 fuero: Justicia Nacional en lo Civil y Comercial Federal
-problema: "riesgo de aceptar el secreto financiero del art. 39 de la Ley 21.526 como defensa frente a un pedido sobre historial crediticio, cuando ese articulo alcanza solo a las operaciones PASIVAS; riesgo de leer la excepcion al consentimiento del art. 5 inc. e de la LPDP con mas amplitud que la remision que la sostiene; riesgo de no aplicar los plazos del art. 26 inc. 4 -cinco anios, dos si se cancelo-; riesgo de confundir el deber de informar del art. 26 inc. 3 con el derecho de acceso del art. 14"
+problema: "riesgo de aceptar el secreto financiero del art. 39 de la Ley 21.526 como defensa frente a un pedido sobre historial crediticio, cuando ese artículo alcanza solo a las operaciones PASIVAS; riesgo de leer la excepción al consentimiento del art. 5 inc. e de la LPDP con más amplitud que la remisión que la sostiene; riesgo de no aplicar los plazos del art. 26 inc. 4 -cinco años, dos si se cancelo-; riesgo de confundir el deber de informar del art. 26 inc. 3 con el derecho de acceso del art. 14"
 ---
 
 # Caso · Un pedido de acceso y una negativa fundada en el secreto bancario
