@@ -2277,5 +2277,74 @@ class TestRaizEnLosComandos(unittest.TestCase):
         self.assertGreaterEqual(nombrados, 5, "los patrones dejaron de nombrar scripts")
 
 
+class TestManifiestoDeCodex(unittest.TestCase):
+    """Codex lee este manifiesto con reglas estrechas, y cuando algo no encaja no protesta.
+
+    Tres cosas, todas leídas del código de `openai/codex` y todas silenciosas si fallan:
+
+    1. Elige el `plugin.json` de la raíz del plugin SÓLO si su `$schema` empieza con la URL de
+       agent-plugins.org; si no, lo ignora y cae a `.codex-plugin/plugin.json`, que acá no
+       existe. Un `$schema` cambiado deja al plugin sin manifiesto.
+    2. `interface` lo lee del PRIMER NIVEL. Anidado bajo `extensions` no llega: serde descarta
+       la clave que no conoce y el ícono no aparece, sin error.
+    3. Las rutas de los assets tienen que empezar literalmente con `./`, no llevar `..` y
+       resolver bajo la raíz del plugin. Cualquier otra cosa se descarta con un warning.
+
+    El espejo bajo `extensions` se conserva aparte: la app de escritorio muestra el
+    `shortDescription`, que por el camino de arriba no debería ver. Mientras las dos lecturas no
+    coincidan se sirven las dos, y este test las mantiene iguales para que no se despeguen.
+    """
+
+    RAIZ = Path(__file__).resolve().parents[3]
+    ESQUEMA = "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+
+    def setUp(self):
+        manifiesto = self.RAIZ / "plugin.json"
+        self.assertTrue(manifiesto.exists(), f"falta {manifiesto}")
+        self.datos = json.loads(manifiesto.read_text(encoding="utf-8"))
+        self.interface = self.datos.get("interface")
+
+    def test_el_schema_es_el_que_codex_reconoce(self):
+        self.assertEqual(self.datos.get("$schema"), self.ESQUEMA,
+                         "con otro $schema Codex ignora este archivo y busca .codex-plugin/")
+
+    def test_el_interface_esta_en_el_primer_nivel(self):
+        self.assertIsNotNone(self.interface,
+                             "`interface` sólo se lee del primer nivel: bajo `extensions` no llega")
+        self.assertIn("displayName", self.interface)
+
+    def test_el_espejo_de_extensions_dice_lo_mismo(self):
+        espejo = self.datos["extensions"]["com.openai"]["interface"]
+        self.assertEqual(self.interface, espejo,
+                         "el `interface` de primer nivel y el de `extensions` se despegaron")
+
+    def test_toda_ruta_de_asset_es_relativa_y_existe(self):
+        rutas = {c: v for c, v in self.interface.items()
+                 if isinstance(v, str) and ("/" in v or v.endswith(".png"))}
+        self.assertTrue(rutas, "el interface no declara ninguna ruta: el test mira nada")
+        for campo, ruta in sorted(rutas.items()):
+            if ruta.startswith("http"):
+                continue
+            with self.subTest(campo):
+                self.assertTrue(ruta.startswith("./"),
+                                f"`{campo}` vale {ruta}: Codex exige que empiece con `./`")
+                self.assertNotIn("..", ruta, f"`{campo}` sale de la raíz del plugin")
+                self.assertTrue((self.RAIZ / ruta[2:]).exists(),
+                                f"`{campo}` apunta a {ruta}, que no existe bajo {self.RAIZ.name}/")
+
+    def test_los_iconos_del_plugin_son_identicos_a_los_de_la_marca(self):
+        # El generador de la marca no escribe estas copias y `test_marca.py` no sabe que existen:
+        # son las que se despegan sin que nadie se entere. Byte a byte, no parecido.
+        for nombre in ("icono.png", "icono-oscuro.png"):
+            copia = self.RAIZ / "assets" / nombre
+            fuente = self.RAIZ.parent / "assets" / "marca" / nombre
+            with self.subTest(nombre):
+                for ruta in (copia, fuente):
+                    self.assertTrue(ruta.exists(), f"falta {ruta}")
+                self.assertEqual(copia.read_bytes(), fuente.read_bytes(),
+                                 f"{nombre} del plugin se despegó del que genera la marca: "
+                                 f"copiá assets/marca/{nombre} a argentina/assets/, no lo edites acá")
+
+
 if __name__ == "__main__":
     unittest.main()

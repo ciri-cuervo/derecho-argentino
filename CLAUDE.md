@@ -24,11 +24,21 @@ cientos de rutas para algo que el usuario no ve.
 sólo de Claude Code** — en Codex se pide en castellano. Nada del repo debe suponer un solo agente;
 si algo funciona en uno solo, se dice cuál.
 
+**El piso es Python 3.13**, que es lo que fija el workflow de `.github/workflows/tests.yml`. No
+hay que escribir para versiones anteriores ni evitar sintaxis nueva por las dudas.
+
 ## Un solo commit, y el usuario lo hace
 
 Publicado en `github.com/ciri-cuervo/derecho-argentino`, **un solo commit sin padres**: lo que se
 ofrece para instalar es el estado revisado, no las etapas. Se trabaja con `--amend`, no se agregan
-commits, y cada amend necesita `git push --force`. **Vos dejás listo; el usuario commitea.**
+commits, y cada amend necesita `git push --force`.
+
+**No se commitea hasta que el usuario lo ordene, y lo ordena él.** Nunca corras `git add`,
+`git commit` ni `git push` por tu cuenta: ni con todo en verde, ni cuando el cambio parezca
+terminado, ni porque te pidieron "cerrar" o "dejar listo" — eso significa exactamente dejar el
+árbol listo y decir qué queda pendiente, no commitear. El commit es el acto por el que el
+usuario se hace cargo de lo que se publica, y con un solo commit y `--force` no hay a dónde
+volver si se equivocó el momento.
 
 Dos consecuencias de no tener historial:
 
