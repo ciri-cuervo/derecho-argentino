@@ -1,0 +1,50 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "derecho",
+  "version": "1.1.1",
+  "description": "Análisis, redacción y revisión jurídica bajo derecho argentino, con una capa offline de fuente primaria con procedencia por hash y calculadoras deterministas que se niegan a inventar montos. En desarrollo: la cobertura auditada contra fuente primaria crece módulo por módulo, y la skill dice siempre qué material pasó esa auditoría y qué material no.",
+  "author": {
+    "name": "ciri-cuervo",
+    "url": "https://github.com/ciri-cuervo"
+  },
+  "license": "SEE LICENCIAS.md",
+  "homepage": "https://github.com/ciri-cuervo/derecho-argentino",
+  "repository": "https://github.com/ciri-cuervo/derecho-argentino",
+  "keywords": [
+    "derecho",
+    "argentina",
+    "legal-es",
+    "jurisprudencia",
+    "ccycn",
+    "lct",
+    "plazos",
+    "escritos"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Derecho argentino",
+    "shortDescription": "Derecho argentino con fuente primaria offline y cálculo determinista.",
+    "developerName": "ciri-cuervo",
+    "category": "Legal",
+    "websiteURL": "https://github.com/ciri-cuervo/derecho-argentino",
+    "brandColor": "#2F6B9E",
+    "composerIcon": "./assets/icono.png",
+    "logo": "./assets/icono.png",
+    "logoDark": "./assets/icono-oscuro.png"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Derecho argentino",
+        "shortDescription": "Derecho argentino con fuente primaria offline y cálculo determinista.",
+        "developerName": "ciri-cuervo",
+        "category": "Legal",
+        "websiteURL": "https://github.com/ciri-cuervo/derecho-argentino",
+        "brandColor": "#2F6B9E",
+        "composerIcon": "./assets/icono.png",
+        "logo": "./assets/icono.png",
+        "logoDark": "./assets/icono-oscuro.png"
+      }
+    }
+  }
+}

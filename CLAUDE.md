@@ -9,15 +9,24 @@ Español rioplatense y tuteo, siempre.
 veredicto, la marca y el procedimiento de publicación viven en
 **[`docs/DESARROLLO.md`](docs/DESARROLLO.md)**. El árbol y las capas, en
 [`docs/ARQUITECTURA.md`](docs/ARQUITECTURA.md). Las licencias, en [`LICENCIAS.md`](LICENCIAS.md).
-El estado de las fuentes, en [`argentina/fuentes/MANIFIESTO.md`](argentina/fuentes/MANIFIESTO.md).
+El estado de las fuentes, en [`derecho/fuentes/MANIFIESTO.md`](derecho/fuentes/MANIFIESTO.md).
 Este archivo tiene lo que hay que **tener en la cabeza antes de tocar algo**.
 
-## Tres nombres que se confunden
+## Dos nombres, y cada uno significa una cosa
 
-El marketplace es `derecho-argentino`, el plugin es `derecho` y la skill es `derecho-argentino`.
-De ahí sale `derecho@derecho-argentino`, que es plugin@marketplace. **Quedan así:** el comando ya
-está publicado. El directorio del plugin se llama `argentina/` a propósito — renombrarlo tocaría
-cientos de rutas para algo que el usuario no ve.
+**`derecho-argentino` es el catálogo y el contenido:** el repo, el marketplace y la skill.
+**`derecho` es el paquete instalable:** el plugin y su directorio. De ahí sale
+`derecho@derecho-argentino`, que es plugin@marketplace, y el prefijo `/derecho:` de los comandos.
+
+**Quedan así.** Unificar todo en un nombre dejaría el id `derecho-argentino@derecho-argentino` y
+cada comando doce caracteres más largo, para que nadie gane nada: el nombre del plugin sólo se ve
+al instalar.
+
+**El directorio del plugin se llama `derecho/`, igual que la copia que instala el marketplace**, y
+eso hay que tenerlo en la cabeza antes de tocar `_raiz.py`: las dos disposiciones no se distinguen
+por el nombre. Las separa `es_clon()`, por una marca estructural —sólo el repo trae
+`.claude-plugin/marketplace.json`—, y confundirlas fija en la configuración una ruta que cambia
+en cada actualización.
 
 **Corre en Claude y en Codex**, en Windows, Linux y macOS. Los dos leen el mismo `SKILL.md` con
 `references/` y `scripts/`; lo que cambia es el envoltorio y que **los comandos `/derecho:...` son
@@ -51,24 +60,28 @@ Dos consecuencias de no tener historial:
 | Versión del plugin | `CHANGELOG.md`, **sólo** al publicar una versión |
 | Contenido normativo | `references/changelog-normativo.md`, con fecha y volatilidad |
 | Auditoría contra fuente primaria | `docs/AUDITORIAS.md` |
-| Estado de la capa offline | `argentina/fuentes/MANIFIESTO.md` |
+| Estado de la capa offline | `derecho/fuentes/MANIFIESTO.md` |
 | Si un fallo se puede transcribir | `herramientas/lecturas-ocr.json` |
 | Algo tocado bajo `kb/` | `kb/CHANGELOG.md` **y** `frontera_kb.py --fijar --nota '...'` |
 
 **El repositorio es PÚBLICO.** Nunca subir piezas, liquidaciones, datos de expedientes, partes ni
 montos de casos reales. Ni siquiera en un eval: los casos de prueba se inventan.
-`argentina/fuentes/_local/` está en `.gitignore` para obras comerciales: no tocarlo.
+`derecho/fuentes/_local/` está en `.gitignore` para obras comerciales: no tocarlo.
 
 ## La frontera de licencia — la regla que más se viola sin querer
 
-**Bajo `argentina/kb/` es capa 2 —Cristian Aboitiz, uso comercial con autorización previa— y
+**Bajo `derecho/kb/` es capa 2 —Cristian Aboitiz, uso comercial con autorización previa— y
 fuera es de este fork. La frontera es la ruta.** El mapa completo, con el commit de origen para
 reconstruir el corte, está en `LICENCIAS.md`.
+
+**La prosa de `kb/` cita sus rutas como `argentina/kb/...`, y la ruta viva es `derecho/kb/...`.**
+**No se corrigen**, por la misma regla que el resto de su contenido: la discrepancia se nombra
+acá, no se arregla allá. Al leer una ruta en un archivo de `kb/`, traducirla.
 
 **Hay excepciones fuera de `kb/`, y son cinco:** los evals
 `administrativo-caba-recursos-agotamiento-via`, `consumidor-dano-punitivo-prescripcion`,
 `consumidor-garantia-producto-defectuoso`, `consumidor-prepaga-aumento-dnu70` y
-`argentina/evals/README.md`. Son capa 2 aunque la ruta no lo diga, y `frontera_kb.py` no las
+`derecho/evals/README.md`. Son capa 2 aunque la ruta no lo diga, y `frontera_kb.py` no las
 vigila. No se corrigen: **ni el contenido ni la ortografía.**
 
 `kb/` queda, con atribución y licencia propia. Lo que ordena la convivencia son dos cosas de los
@@ -239,7 +252,7 @@ moverla a `_to_delete/` **en el mismo acto**, y avisar de `rm -rf _to_delete` an
 
 ```sh
 python3 herramientas/pendientes.py            # doctrina, evals y verificación vencida
-python3 argentina/skills/derecho-argentino/scripts/estado.py   # datos y series
+python3 derecho/skills/derecho-argentino/scripts/estado.py   # datos y series
 python3 herramientas/cobertura_normativa.py   # normas citadas sin bajar
 python3 herramientas/calidad_ocr.py --pendientes   # jurisprudencia sin leer
 python3 herramientas/cifras.py                # cifras de la documentación y censo

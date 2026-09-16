@@ -23,9 +23,9 @@ from datetime import date
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
-SKILL = RAIZ / "argentina" / "skills" / "derecho-argentino"
+SKILL = RAIZ / "derecho" / "skills" / "derecho-argentino"
 REFERENCIAS = SKILL / "references"
-EVALS = RAIZ / "argentina" / "evals"
+EVALS = RAIZ / "derecho" / "evals"
 
 # La tabla de verificación fija su propia regla: pasados los seis meses, el bloque se usa con
 # [VERIFICAR VIGENCIA] reforzado hasta revalidarlo.
@@ -162,7 +162,7 @@ def main() -> int:
     print("  documentos de jurisprudencia sin leer o con defecto de OCR")
     print("    python3 herramientas/calidad_ocr.py --pendientes")
     print("  prosa candidata en los evals, que están fuera del checklist")
-    print("    python3 herramientas/fuga_textual.py argentina/evals/*/*.md")
+    print("    python3 herramientas/fuga_textual.py derecho/evals/*/*.md")
     print()
     return 0
 

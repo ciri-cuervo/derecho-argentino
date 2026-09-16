@@ -9,7 +9,7 @@ un módulo. Se escapó de todas las redes por una razón concreta: la corrida en
 a las demás -`TestSalidaCodificable`- las llama sin argumentos, y ésta necesita rutas.
 
 La prosa de prueba es INVENTADA y el corpus de capa 2 se arma en un directorio temporal. No se
-copia texto de `argentina/kb/` a un archivo de este repositorio: eso es exactamente lo que la
+copia texto de `derecho/kb/` a un archivo de este repositorio: eso es exactamente lo que la
 herramienta existe para impedir.
 """
 import importlib.util
@@ -50,10 +50,10 @@ class TestFuncionesPuras(unittest.TestCase):
         cualquier archivo llamado así en cualquier parte quedaba sin medir, y ya había uno -- el
         grader homónimo de los evals -- que dejó de medirse sin que nadie lo pidiera.
         """
-        exceptuada = Path("argentina/skills/derecho-argentino/references/marcadores.md")
+        exceptuada = Path("derecho/skills/derecho-argentino/references/marcadores.md")
         self.assertTrue(self.f.es_excepcion(exceptuada))
         self.assertTrue(self.f.es_excepcion(Path("/abs") / exceptuada))
-        self.assertFalse(self.f.es_excepcion(Path("argentina/evals/x/graders/marcadores.md")),
+        self.assertFalse(self.f.es_excepcion(Path("derecho/evals/x/graders/marcadores.md")),
                          "un homónimo en otra carpeta no puede quedar sin medir")
         self.assertFalse(self.f.es_excepcion(Path("marcadores.md")))
 
@@ -61,7 +61,7 @@ class TestFuncionesPuras(unittest.TestCase):
         # Backticks, rutas y la cita entrecomillada del perfil: los tres comparten cadenas con
         # kb/ por construcción, y eso es la referencia funcionando.
         self.assertNotIn("codigo", self.f.normalizar("texto `codigo` texto"))
-        self.assertNotIn("json", self.f.normalizar("ver argentina/kb/perfiles/x.json aca"))
+        self.assertNotIn("json", self.f.normalizar("ver derecho/kb/perfiles/x.json aca"))
         self.assertNotIn("citada", self.f.normalizar('dice *"una frase citada del perfil"* y no'))
 
     def test_normalizar_conserva_las_letras_del_castellano(self):
@@ -95,8 +95,8 @@ class TestCorridaCompleta(unittest.TestCase):
                               capture_output=True, text=True, cwd=cwd)
 
     def armar(self, d: Path, prosa_del_modulo: str) -> Path:
-        (d / "argentina" / "kb").mkdir(parents=True)
-        (d / "argentina" / "kb" / "perfil-CLAUDE.md").write_text(
+        (d / "derecho" / "kb").mkdir(parents=True)
+        (d / "derecho" / "kb" / "perfil-CLAUDE.md").write_text(
             "# Perfil heredado\n\n" + PROSA_DE_CAPA_2 + "\n", encoding="utf-8")
         modulo = d / "modulo.md"
         modulo.write_text("# Modulo propio\n\n" + prosa_del_modulo + "\n", encoding="utf-8")
@@ -127,13 +127,13 @@ class TestCorridaCompleta(unittest.TestCase):
             (d / "modulo.md").write_text("# vacio\n", encoding="utf-8")
             hecho = self.correr("modulo.md", cwd=d)
             self.assertEqual(hecho.returncode, 2, "midió sin corpus de capa 2")
-            self.assertIn("argentina/kb", hecho.stderr + hecho.stdout)
+            self.assertIn("derecho/kb", hecho.stderr + hecho.stdout)
 
     def test_el_grader_homonimo_se_mide_y_el_glosario_no(self):
         with tempfile.TemporaryDirectory() as tmp:
             d = Path(tmp)
             self.armar(d, "texto propio cualquiera")
-            grader = d / "argentina" / "evals" / "caso" / "graders" / "marcadores.md"
+            grader = d / "derecho" / "evals" / "caso" / "graders" / "marcadores.md"
             grader.parent.mkdir(parents=True)
             grader.write_text("# grader\n\n" + PROSA_DE_CAPA_2 + "\n", encoding="utf-8")
             glosario = d / "references" / "marcadores.md"

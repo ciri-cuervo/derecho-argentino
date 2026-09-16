@@ -13,7 +13,7 @@ decisiones de quien escribe. Un verificador que las discute termina apagado, y u
 peor que uno que no existe. Para dimensionarlo: con las reglas de ancho de un linter genérico
 este repo devuelve más de veinte mil avisos, casi todos deliberados.
 
-**Ámbito: todo el repositorio menos `argentina/kb/`.** Esa capa es material heredado de otro
+**Ámbito: todo el repositorio menos `derecho/kb/`.** Esa capa es material heredado de otro
 autor, no sigue estas convenciones y no se toca sin decisión previa; su deuda está anotada en
 `docs/DESARROLLO.md`. Todo lo demas -- README, docs/, la skill, los evals, las herramientas --
 entra.
@@ -23,7 +23,7 @@ import unittest
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
-FUERA = ("argentina/kb", "argentina/fuentes/_local")
+FUERA = ("derecho/kb", "derecho/fuentes/_local")
 ALERTAS = ("NOTE", "TIP", "IMPORTANT", "WARNING", "CAUTION")
 
 
@@ -95,7 +95,7 @@ class TestAmbito(unittest.TestCase):
 
     def test_kb_queda_afuera(self):
         for p in ARCHIVOS:
-            self.assertNotIn("argentina/kb/", p.as_posix())
+            self.assertNotIn("derecho/kb/", p.as_posix())
 
 
 class TestAncla(unittest.TestCase):
@@ -316,7 +316,7 @@ class TestMarcadoresEnteros(unittest.TestCase):
     REINTERPRETA = re.compile(r"^\s*(?:[-*+]\s|\d+[.)]\s|#{1,6}\s|\||```)")
 
     # Capa 2 fuera de `kb/`: son de Cristian Aboitiz y no se corrigen, ni el contenido ni la
-    # forma. `argentina/evals/administrativo-caba-recursos-agotamiento-via/resultado.md:19`
+    # forma. `derecho/evals/administrativo-caba-recursos-agotamiento-via/resultado.md:19`
     # TIENE el defecto -- un [ALERTA PLAZO FATAL: ...] partido por un renglon que arranca con
     # `- ` -- y queda anotado aca en vez de arreglado. Ver LICENCIAS.md seccion 2.
     AJENOS = ("administrativo-caba-recursos-agotamiento-via",
@@ -341,7 +341,7 @@ class TestMarcadoresEnteros(unittest.TestCase):
         configuración lleva comentarios y no es JSON parseable sin sacarlos."""
         config = (RAIZ / ".markdownlint-cli2.jsonc").read_text(encoding="utf-8")
         ignorados = config.split('"ignores"', 1)[1]
-        for nombre in ("argentina/kb/**",) + self.AJENOS:
+        for nombre in ("derecho/kb/**",) + self.AJENOS:
             with self.subTest(nombre):
                 self.assertIn(nombre, ignorados,
                               "markdownlint podría reescribir un archivo de capa 2 con --fix")

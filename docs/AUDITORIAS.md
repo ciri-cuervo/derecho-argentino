@@ -1,10 +1,10 @@
 # 📋 Auditorías contra fuente primaria
 
-Registro de las auditorías que este fork corre contra `argentina/fuentes/`: qué se leyó, contra
+Registro de las auditorías que este fork corre contra `derecho/fuentes/`: qué se leyó, contra
 qué texto, y qué se encontró. Es **capa 3a, CC BY-SA 4.0** — ver [`LICENCIAS.md`](../LICENCIAS.md).
 
 **Una auditoría vale por su fecha**, así que cada entrada la lleva: dice contra qué texto se
-cotejó y cuándo, no qué se cambió. Va acá y no en `argentina/kb/CHANGELOG.md` porque ese archivo
+cotejó y cuándo, no qué se cambió. Va acá y no en `derecho/kb/CHANGELOG.md` porque ese archivo
 es el historial de la base heredada, capa 2, y la frontera de licencia es la ruta.
 
 Lo que va en cada lugar:
@@ -13,7 +13,7 @@ Lo que va en cada lugar:
 | --- | --- |
 | Una auditoría de este fork contra fuente primaria | **Este archivo** |
 | El estado de verificación por bloque, con fecha y volatilidad | `references/changelog-normativo.md` |
-| Un cambio en la base heredada | `argentina/kb/CHANGELOG.md`, y sólo si se tocó `kb/` |
+| Un cambio en la base heredada | `derecho/kb/CHANGELOG.md`, y sólo si se tocó `kb/` |
 | La versión del plugin | [`CHANGELOG.md`](../CHANGELOG.md), sólo al publicar |
 
 ---
@@ -25,7 +25,7 @@ Dos obras de referencia sumadas al repositorio, con tratamiento distinto según 
 **Código Civil y Comercial de la Nación Comentado (SAIJ-INFOJUS, 2ª ed. actualizada 2022).**
 Directores: Marisa Herrera, Gustavo Caramelo y Sebastián Picasso. Publicación de distribución
 gratuita del Ministerio de Justicia y Derechos Humanos, de libre reproducción total o parcial
-citando la fuente. Los seis tomos se incorporan completos en `argentina/fuentes/ccyc-comentado/`
+citando la fuente. Los seis tomos se incorporan completos en `derecho/fuentes/ccyc-comentado/`
 (~18 MB), junto con `INDICE.md`, que:
 
 - mapea cada tomo a su rango de artículos y al archivo PDF correspondiente;
@@ -43,7 +43,7 @@ citando la fuente. Los seis tomos se incorporan completos en `argentina/fuentes/
 **Manual de Derecho de Daños, 2ª ed. (Weingarten -dir.-, La Ley, 2015).** Obra comercial con
 todos los derechos reservados: el editor prohíbe expresamente su reproducción total o parcial.
 Como este repositorio es público, **el PDF no se incorpora y no debe incorporarse**. En su lugar
-se agrega `argentina/kb/doctrina/civil-DOCTRINA-danos.md`, un índice doctrinario con 38 entradas por
+se agrega `derecho/kb/doctrina/civil-DOCTRINA-danos.md`, un índice doctrinario con 38 entradas por
 instituto, cada una con síntesis propia, artículos del CCCN y del Código derogado, fallos
 citados y remisión a capítulo y página. No contiene transcripción de la obra: el texto
 entrecomillado corresponde a carátulas de fallos y a expresiones de la ley.
@@ -57,7 +57,7 @@ básicas por la Ley 27.701, y las fórmulas de cuantificación, que no tienen co
 Se deja señalado que la obra atribuye el art. 52 bis LDC a la "ley 26.367" cuando corresponde a
 la Ley 26.361.
 
-**Regla nueva de higiene del repositorio.** Se agrega `argentina/fuentes/_local/` al `.gitignore`:
+**Regla nueva de higiene del repositorio.** Se agrega `derecho/fuentes/_local/` al `.gitignore`:
 es la carpeta donde el abogado guarda su ejemplar de obras comerciales, que nunca se commitean.
 El criterio: una obra entra al repositorio solo si su propia licencia lo permite. Las que no,
 entran como doctrina destilada con remisión, nunca como texto.

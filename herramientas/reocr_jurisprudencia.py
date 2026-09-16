@@ -8,7 +8,7 @@
 La basura de esos documentos no está en el papel sino en una capa de texto vieja que
 `pdftotext` se limita a copiar: en "Bazterrica" devolvia `El] \\^<+]Ky puede P^+*+y un ^Fy dia`
 donde la página dice "El sujeto puede un dia probar la droga". Esto vuelve a leer las
-imágenes con tesseract y deja el resultado en `argentina/fuentes/jurisprudencia/ocr/`.
+imágenes con tesseract y deja el resultado en `derecho/fuentes/jurisprudencia/ocr/`.
 
 Lo que sale de acá NO es publicación oficial ni reemplaza al PDF: es una relectura local, y
 cada cita literal se coteja contra la página antes de ir a un escrito. Por eso vive en su
@@ -34,7 +34,7 @@ import _externos
 import _veredictos
 
 RAIZ = Path(__file__).resolve().parent.parent
-JURIS = RAIZ / "argentina" / "fuentes" / "jurisprudencia"
+JURIS = RAIZ / "derecho" / "fuentes" / "jurisprudencia"
 SALIDA = JURIS / "ocr"
 MANIFIESTO = JURIS / "fallos.json"
 VEREDICTOS = RAIZ / "herramientas" / "lecturas-ocr.json"

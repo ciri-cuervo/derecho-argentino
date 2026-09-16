@@ -28,7 +28,7 @@ con `pdftotext` y `tesseract`. Ahí es donde puede haber algo:
 
 | Superficie | Qué mirar |
 | --- | --- |
-| Descargadores (`argentina/fuentes/scripts/`) | Escritura fuera del árbol previsto, redirecciones a otro host, tamaño sin límite |
+| Descargadores (`derecho/fuentes/scripts/`) | Escritura fuera del árbol previsto, redirecciones a otro host, tamaño sin límite |
 | Lectores de PDF (`herramientas/reocr_jurisprudencia.py`, `calidad_ocr.py`) | Un PDF preparado para explotar el binario externo |
 | Resolución de rutas (`_raiz.py`) | Que una variable de entorno haga leer o escribir fuera del repositorio |
 
@@ -51,9 +51,9 @@ se corrige y se acredita a quien lo reportó.
 > **El repositorio es público.** Nunca subas —ni en un issue, ni en una discusión, ni en un caso de
 > prueba— carátulas, partes, montos, liquidaciones ni piezas de un expediente real. Para mostrar un
 > problema alcanza con inventar el caso, y es exactamente lo que hace este repositorio en sus
-> propios [casos de prueba](argentina/evals/).
+> propios [casos de prueba](derecho/evals/).
 
-`argentina/fuentes/_local/` está en `.gitignore` y es donde el abogado deja ejemplares de obras
+`derecho/fuentes/_local/` está en `.gitignore` y es donde el abogado deja ejemplares de obras
 comerciales con derechos reservados. **No se commitea nada de ahí.**
 
 **Si algo se filtró igual** —tuyo o de un tercero— avisá por el canal privado de arriba y se saca.

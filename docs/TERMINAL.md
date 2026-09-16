@@ -39,7 +39,7 @@ donde Codex busca las suyas. Una sola vez, en una terminal.
 ```sh
 git clone https://github.com/ciri-cuervo/derecho-argentino.git
 mkdir -p ~/.agents/skills
-cp -R derecho-argentino/argentina/skills/derecho-argentino ~/.agents/skills/
+cp -R derecho-argentino/derecho/skills/derecho-argentino ~/.agents/skills/
 ```
 
 **Windows (PowerShell)**

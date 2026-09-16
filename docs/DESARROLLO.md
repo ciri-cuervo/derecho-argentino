@@ -61,7 +61,7 @@ herramienta no puede medir, lo dice y se planta**; no hay verde por ausencia de 
 
 `.gitattributes` fija `eol=lf` para todo el repositorio. **No es cosmética tampoco.**
 `frontera_kb.py` es el guardarraíl de la frontera de licencia: fija el sha256 de los 109
-archivos de `argentina/kb/`, que son capa 2 y de otro autor. Medido: con un checkout CRLF
+archivos de `derecho/kb/`, que son capa 2 y de otro autor. Medido: con un checkout CRLF
 **cambian todos los hashes** sin que cambie una letra, y con las claves en formato nativo
 **dejan de matchear todos menos tres**. El script reportaría la capa 2 entera como alterada, y
 una alarma que suena entera se calla con `--fijar` — que acepta a ciegas el estado de `kb/`,
@@ -75,8 +75,8 @@ mutación que lo comprueban en las dos direcciones.
 ## Antes de dar por terminado un cambio
 
 ```sh
-claude plugin validate ./argentina --strict
-python3 argentina/skills/derecho-argentino/scripts/test_scripts.py
+claude plugin validate ./derecho --strict
+python3 derecho/skills/derecho-argentino/scripts/test_scripts.py
 python3 herramientas/test_frontera.py
 python3 herramientas/test_auditoria.py
 python3 herramientas/test_pendientes.py
@@ -85,9 +85,9 @@ python3 herramientas/test_markdown.py
 python3 herramientas/test_cifras.py
 python3 herramientas/test_fuga.py
 python3 herramientas/test_cobertura.py
-python3 argentina/skills/derecho-argentino/scripts/estado.py
-python3 herramientas/fuga_textual.py argentina/skills/derecho-argentino/SKILL.md \
-    argentina/skills/derecho-argentino/references/*.md argentina/evals/*/*.md
+python3 derecho/skills/derecho-argentino/scripts/estado.py
+python3 herramientas/fuga_textual.py derecho/skills/derecho-argentino/SKILL.md \
+    derecho/skills/derecho-argentino/references/*.md derecho/evals/*/*.md
 python3 herramientas/frontera_kb.py
 ```
 
@@ -150,7 +150,7 @@ Todos comparten un sobre. `kb-procedencia.json` ya lo tenía y sirvió de modelo
 | `herramientas/kb-procedencia.json` | `archivos` | `frontera_kb.py` |
 | `herramientas/reformas-revisadas.json` | `reformas` | `reformas_no_leidas.py` |
 | `herramientas/cifras-revisadas.json` | `cifras` | `cifras.py` |
-| `argentina/fuentes/normas/revisiones.json` | `revisiones` | `descargar_normas.py` |
+| `derecho/fuentes/normas/revisiones.json` | `revisiones` | `descargar_normas.py` |
 
 **La carga no se unifica, y es a propósito.** Son tres formas honestas y distintas: un conjunto
 de pertenencia (`secuencias`, sin veredicto individual), un mapa de veredictos
@@ -280,13 +280,13 @@ el mapa completo en [`LICENCIAS.md`](../LICENCIAS.md):
 | --- | --- |
 | Un módulo de `references/`, un comando, un eval, documentación | **CC BY-SA 4.0**: atribución y **CompartirIgual** |
 | Un script, una herramienta, un manifiesto `.json` | **MIT** |
-| Cualquier cosa bajo `argentina/kb/` | **No se escribe ahí.** Es capa 2, de Cristian Aboitiz |
+| Cualquier cosa bajo `derecho/kb/` | **No se escribe ahí.** Es capa 2, de Cristian Aboitiz |
 
 Que el contenido sea CompartirIgual tiene una consecuencia si aceptás aportes: **el autor puede
 relicenciar su propia obra, pero lo que aporte un tercero bajo CC BY-SA no**, salvo cesión expresa.
 
 La regla que más se viola sin querer es la frontera con la capa 2, y es la ruta: bajo
-`argentina/kb/` es capa 2 —Cristian Aboitiz, uso comercial con autorización previa—, fuera es de
+`derecho/kb/` es capa 2 —Cristian Aboitiz, uso comercial con autorización previa—, fuera es de
 este fork. **Se cruza en los dos sentidos y los dos importan.**
 
 **Sentido uno: prosa de `kb/` que entra a un módulo.** Nunca se copia. Para llevar un instituto de
@@ -317,7 +317,7 @@ si el cambio es querido, se fija con `--fijar --nota '...'`.
 > coincidencias con `kb/` son articulado y carátulas de fallos, que se mueven libres. Un caso
 > nuevo que copie prosa rompe el checklist, que es exactamente para lo que está.
 
-> **Deuda conocida: `argentina/kb/` está fuera del verificador de documentación.** Esa capa es
+> **Deuda conocida: `derecho/kb/` está fuera del verificador de documentación.** Esa capa es
 > de otro autor y no sigue estas convenciones: tiene **312 líneas con espacios al final** en 6
 > archivos, **2 tablas con filas de distinto ancho** —`administrativo-SALTA` y
 > `administrativo-TUCUMAN`— y **un bloque de código sin cerrar** en
@@ -353,7 +353,7 @@ si el cambio es querido, se fija con `--fijar --nota '...'`.
 > piloto y correrlo con `runs: 3`, para que el puntaje donde se estabilice sea el `--threshold`
 > honesto.
 
-Y antes de escribir sobre un instituto: leer el texto en `argentina/fuentes/normas/`, que está
+Y antes de escribir sobre un instituto: leer el texto en `derecho/fuentes/normas/`, que está
 consolidado con URL, fecha y hash. El vocabulario de marcadores válido es el de
 `references/marcadores.md`. Cuando se agrega o corrige contenido normativo, actualizar la tabla de
 estado de verificación de `references/changelog-normativo.md` con la fecha y la volatilidad.
@@ -418,13 +418,13 @@ escritorio, pedírselo en castellano. A mano:
 
 ```sh
 # ¿cambió alguna norma del manifiesto?
-python3 argentina/fuentes/scripts/verificar_normas.py
+python3 derecho/fuentes/scripts/verificar_normas.py
 
 # tests de los scripts de la skill
-python3 argentina/skills/derecho-argentino/scripts/test_scripts.py
+python3 derecho/skills/derecho-argentino/scripts/test_scripts.py
 
 # diagnóstico de conectividad de los descargadores
-python3 argentina/fuentes/scripts/diagnostico.py
+python3 derecho/fuentes/scripts/diagnostico.py
 ```
 
 `references/changelog-normativo.md` lleva la tabla de **estado de verificación por bloque**, con
@@ -474,9 +474,9 @@ diario de trabajo que nadie lee:
 | La versión del plugin | [`CHANGELOG.md`](../CHANGELOG.md), **sólo al publicar una versión** |
 | Contenido normativo o jurisprudencial | La tabla de estado de verificación de `references/changelog-normativo.md`, con fecha y volatilidad |
 | Una auditoría contra fuente primaria, con lo que se leyó y lo que se encontró | [`AUDITORIAS.md`](AUDITORIAS.md) |
-| Algo que se tocó bajo `argentina/kb/` | `argentina/kb/CHANGELOG.md`, y además `python3 herramientas/frontera_kb.py --fijar --nota '...'` |
+| Algo que se tocó bajo `derecho/kb/` | `derecho/kb/CHANGELOG.md`, y además `python3 herramientas/frontera_kb.py --fijar --nota '...'` |
 | La doctrina de un fallo | El módulo que la usa, leída contra el documento |
-| El estado de la capa offline | `argentina/fuentes/MANIFIESTO.md`, que además tiene guardarraíl en los tests |
+| El estado de la capa offline | `derecho/fuentes/MANIFIESTO.md`, que además tiene guardarraíl en los tests |
 | Que un documento se puede o no transcribir | `herramientas/lecturas-ocr.json`, con la fecha y lo que se vio |
 
 `CHANGELOG.md` **no se toca en cada sesión**: lleva versiones, no avances. Si un cambio no cambia la

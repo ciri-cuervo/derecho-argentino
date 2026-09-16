@@ -19,7 +19,7 @@ jobs:
       # Los suites del checklist de docs/DESARROLLO.md, en el mismo orden.
       # test_scripts.py comprueba que esta lista y la del checklist digan lo mismo.
       - name: calculadoras y modulos
-        run: python3 argentina/skills/derecho-argentino/scripts/test_scripts.py
+        run: python3 derecho/skills/derecho-argentino/scripts/test_scripts.py
       - name: frontera de licencia
         run: python3 herramientas/test_frontera.py
       - name: auditoria de fechas

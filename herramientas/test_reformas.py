@@ -23,7 +23,7 @@ class TestExtraccionDeNotas(unittest.TestCase):
     """La nota de reforma vive al pie del artículo y hay que emparejar ley con SU fecha.
 
     InfoLEG escribe esa fecha de cuatro formas distintas, y no es una hipotesis: medido sobre
-    los textos bajados en `argentina/fuentes/normas/`, hay 1.394 notas `dd/mm`, 785 `dd/m`, 704
+    los textos bajados en `derecho/fuentes/normas/`, hay 1.394 notas `dd/mm`, 785 `dd/m`, 704
     `d/m` y 113 `d/mm`. El detector tiene que leer las cuatro, así que las cuatro están acá.
 
     Ese directorio queda afuera de cualquier normalización de fechas del repositorio, porque es

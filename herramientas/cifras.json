@@ -13,33 +13,33 @@
     "docs/DESARROLLO.md",
     "docs/TERMINAL.md",
     "assets/marca/README.md",
-    "argentina/fuentes/MANIFIESTO.md",
-    "argentina/fuentes/ccyc-comentado/INDICE.md",
-    "argentina/fuentes/datos/README.md",
-    "argentina/fuentes/jurisprudencia/INDICE.md",
-    "argentina/fuentes/normas/README.md",
-    "argentina/skills/derecho-argentino/SKILL.md",
-    "argentina/skills/derecho-argentino/scripts/README.md"
+    "derecho/fuentes/MANIFIESTO.md",
+    "derecho/fuentes/ccyc-comentado/INDICE.md",
+    "derecho/fuentes/datos/README.md",
+    "derecho/fuentes/jurisprudencia/INDICE.md",
+    "derecho/fuentes/normas/README.md",
+    "derecho/skills/derecho-argentino/SKILL.md",
+    "derecho/skills/derecho-argentino/scripts/README.md"
   ],
   "excluidos": {
     "CHANGELOG.md": "Es historia. La entrada de 1.0.0 dice 110 normas y tiene razon: describe lo que habia ese dia. Y la entrada abierta se congela al publicarse, asi que sellarla seria programar una falsificacion futura.",
     "docs/AUDITORIAS.md": "Auditorias fechadas: trece normas es lo que se reviso ese dia, no un inventario vivo.",
     "LICENSE-ABOITIZ.md": "Texto de licencia de otro autor. No se edita.",
     "LICENSE-CC-BY-SA-4.0.md": "Texto de licencia de Creative Commons. No se edita.",
-    "argentina/kb/": "Capa 2, de Cristian Aboitiz. Este script no le escribe: lo vigila frontera_kb.py.",
-    "argentina/commands/": "Instrucciones de comando: describen que hacer, no cuanto hay.",
-    "argentina/evals/": "Casos de prueba y sus resultados, no documentacion del repositorio. Su README.md tampoco: es una de las cinco excepciones de capa 2 que declara LICENCIAS.md, y esta lo tenia en el alcance. Estuvo sin consecuencia -ninguna ancla apuntaba ahi- pero era la puerta abierta: una ancla nueva y este script reescribia un archivo de otro autor.",
-    "argentina/skills/derecho-argentino/references/": "Ahi las cifras son derecho -48 articulos, tres etapas del art. 28 inc. h- y el censo se ahogaria en falsos positivos. La unica que se mide es la cantidad de entradas de danos-indice-doctrinario.md, y el ancla que la declara vive en SKILL.md."
+    "derecho/kb/": "Capa 2, de Cristian Aboitiz. Este script no le escribe: lo vigila frontera_kb.py.",
+    "derecho/commands/": "Instrucciones de comando: describen que hacer, no cuanto hay.",
+    "derecho/evals/": "Casos de prueba y sus resultados, no documentacion del repositorio. Su README.md tampoco: es una de las cinco excepciones de capa 2 que declara LICENCIAS.md, y esta lo tenia en el alcance. Estuvo sin consecuencia -ninguna ancla apuntaba ahi- pero era la puerta abierta: una ancla nueva y este script reescribia un archivo de otro autor.",
+    "derecho/skills/derecho-argentino/references/": "Ahi las cifras son derecho -48 articulos, tres etapas del art. 28 inc. h- y el censo se ahogaria en falsos positivos. La unica que se mide es la cantidad de entradas de danos-indice-doctrinario.md, y el ancla que la declara vive en SKILL.md."
   },
   "capa_2": {
-    "_motivo": "Material de Cristian Aboitiz: este script no le escribe ni lo censa. La frontera es la ruta -argentina/kb/- mas las cinco excepciones que la ruta no dice. La lista autoritativa esta en LICENCIAS.md seccion 2 y un test ata las dos.",
+    "_motivo": "Material de Cristian Aboitiz: este script no le escribe ni lo censa. La frontera es la ruta -derecho/kb/- mas las cinco excepciones que la ruta no dice. La lista autoritativa esta en LICENCIAS.md seccion 2 y un test ata las dos.",
     "rutas": [
-      "argentina/kb/",
-      "argentina/evals/administrativo-caba-recursos-agotamiento-via/",
-      "argentina/evals/consumidor-dano-punitivo-prescripcion/",
-      "argentina/evals/consumidor-garantia-producto-defectuoso/",
-      "argentina/evals/consumidor-prepaga-aumento-dnu70/",
-      "argentina/evals/README.md"
+      "derecho/kb/",
+      "derecho/evals/administrativo-caba-recursos-agotamiento-via/",
+      "derecho/evals/consumidor-dano-punitivo-prescripcion/",
+      "derecho/evals/consumidor-garantia-producto-defectuoso/",
+      "derecho/evals/consumidor-prepaga-aumento-dnu70/",
+      "derecho/evals/README.md"
     ]
   },
   "sustantivos": [
@@ -71,15 +71,15 @@
   "metricas": {
     "modulos": {
       "tipo": "glob",
-      "patron": "argentina/skills/derecho-argentino/references/*.md"
+      "patron": "derecho/skills/derecho-argentino/references/*.md"
     },
     "comandos": {
       "tipo": "glob",
-      "patron": "argentina/commands/*.md"
+      "patron": "derecho/commands/*.md"
     },
     "evals": {
       "tipo": "carpetas",
-      "patron": "argentina/evals/*"
+      "patron": "derecho/evals/*"
     },
     "herramientas": {
       "tipo": "glob_excluye",
@@ -91,11 +91,11 @@
     },
     "tomos_ccyc": {
       "tipo": "glob",
-      "patron": "argentina/fuentes/ccyc-comentado/*.pdf"
+      "patron": "derecho/fuentes/ccyc-comentado/*.pdf"
     },
     "normas_texto": {
       "tipo": "glob",
-      "patron": "argentina/fuentes/normas/*.txt"
+      "patron": "derecho/fuentes/normas/*.txt"
     },
     "docs": {
       "tipo": "glob",
@@ -103,22 +103,22 @@
     },
     "fallos": {
       "tipo": "json_largo",
-      "archivo": "argentina/fuentes/jurisprudencia/fallos.json",
+      "archivo": "derecho/fuentes/jurisprudencia/fallos.json",
       "clave": "fallos"
     },
     "perfiles_jurisdiccionales": {
       "tipo": "glob",
-      "patron": "argentina/kb/jurisdicciones/administrativo/*.md"
+      "patron": "derecho/kb/jurisdicciones/administrativo/*.md"
     },
     "indice_danos": {
       "tipo": "renglones",
-      "archivo": "argentina/skills/derecho-argentino/references/danos-indice-doctrinario.md",
+      "archivo": "derecho/skills/derecho-argentino/references/danos-indice-doctrinario.md",
       "patron": "^### ",
       "nota": "Las entradas por instituto son los encabezados de nivel 3 de la seccion `Doctrina por instituto`. NO son las filas de las dos tablas del archivo, que son el indice de capitulos de la obra: contar esas daba 34 y llevaba a corregir una cifra que estaba bien."
     },
     "archivos_kb": {
       "tipo": "glob_excluye",
-      "patron": "argentina/kb/**/*",
+      "patron": "derecho/kb/**/*",
       "excluye": [
         ".*"
       ],
@@ -206,14 +206,14 @@
         "metrica": "archivos_kb"
       }
     ],
-    "argentina/fuentes/MANIFIESTO.md": [
+    "derecho/fuentes/MANIFIESTO.md": [
       {
         "ancla": "{n} tomos",
         "metrica": "tomos_ccyc",
         "formato": "palabra"
       }
     ],
-    "argentina/skills/derecho-argentino/SKILL.md": [
+    "derecho/skills/derecho-argentino/SKILL.md": [
       {
         "ancla": "{n} tomos",
         "metrica": "tomos_ccyc",
@@ -227,34 +227,34 @@
   },
   "cubiertas": [
     {
-      "archivo": "argentina/fuentes/MANIFIESTO.md",
+      "archivo": "derecho/fuentes/MANIFIESTO.md",
       "patron": "\\*\\*\\d+ entradas\\*\\*, \\d+ con URL",
       "test": "TestManifiestoDeFuentes",
-      "suite": "argentina/skills/derecho-argentino/scripts/test_scripts.py"
+      "suite": "derecho/skills/derecho-argentino/scripts/test_scripts.py"
     },
     {
-      "archivo": "argentina/fuentes/MANIFIESTO.md",
+      "archivo": "derecho/fuentes/MANIFIESTO.md",
       "patron": "\\*\\*\\d+ entradas sin URL\\*\\*",
       "test": "TestManifiestoDeFuentes",
-      "suite": "argentina/skills/derecho-argentino/scripts/test_scripts.py"
+      "suite": "derecho/skills/derecho-argentino/scripts/test_scripts.py"
     },
     {
-      "archivo": "argentina/fuentes/MANIFIESTO.md",
+      "archivo": "derecho/fuentes/MANIFIESTO.md",
       "patron": "\\*\\*\\d+ fallos\\*\\*",
       "test": "TestManifiestoDeFuentes",
-      "suite": "argentina/skills/derecho-argentino/scripts/test_scripts.py"
+      "suite": "derecho/skills/derecho-argentino/scripts/test_scripts.py"
     },
     {
-      "archivo": "argentina/skills/derecho-argentino/scripts/README.md",
+      "archivo": "derecho/skills/derecho-argentino/scripts/README.md",
       "patron": "\\*\\*\\d+ tests\\*\\*",
       "test": "TestREADMEDeScripts",
-      "suite": "argentina/skills/derecho-argentino/scripts/test_scripts.py"
+      "suite": "derecho/skills/derecho-argentino/scripts/test_scripts.py"
     },
     {
       "archivo": "docs/ARQUITECTURA.md",
       "patron": "\\d+ modelos y \\d+ guías",
       "test": "TestInventarioDeModelos",
-      "suite": "argentina/skills/derecho-argentino/scripts/test_scripts.py"
+      "suite": "derecho/skills/derecho-argentino/scripts/test_scripts.py"
     }
   ]
 }

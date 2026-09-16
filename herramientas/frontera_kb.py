@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Fija el estado de `argentina/kb/`, que es capa 2 y de otro autor.
+"""Fija el estado de `derecho/kb/`, que es capa 2 y de otro autor.
 
     python3 herramientas/frontera_kb.py            # informa lo que cambió
     python3 herramientas/frontera_kb.py --fijar    # acepta el estado actual
 
-`argentina/kb/` es la contribución de Cristian Aboitiz. La frontera de licencia es la ruta,
+`derecho/kb/` es la contribución de Cristian Aboitiz. La frontera de licencia es la ruta,
 así que un texto propio guardado ahí queda clasificado como obra de otro autor. Este script
 guarda el sha256 de cada archivo en `kb-procedencia.json` y avisa cuando alguno cambia: no
 prohíbe editar, obliga a que el cambio sea deliberado y quede registrado.
@@ -19,7 +19,7 @@ from datetime import date
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
-KB = RAIZ / "argentina" / "kb"
+KB = RAIZ / "derecho" / "kb"
 REGISTRO = Path(__file__).resolve().parent / "kb-procedencia.json"
 
 
@@ -94,7 +94,7 @@ def main() -> int:
     total = len(nuevos) + len(faltantes) + len(cambiados)
     if total:
         print(f"\ncapa 2 alterada: {total} archivos. Si el cambio es querido, correr con "
-              f"--fijar --nota '...' y anotarlo en argentina/kb/CHANGELOG.md.")
+              f"--fijar --nota '...' y anotarlo en derecho/kb/CHANGELOG.md.")
         return 1
     print(f"capa 2 sin cambios: {len(actual)} archivos, fijados el {registro['fijado']}")
     return 0

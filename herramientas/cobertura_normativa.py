@@ -52,8 +52,8 @@ import sys
 from collections import Counter
 
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
-NORMAS = RAIZ / "argentina" / "fuentes" / "normas" / "normas.json"
-REFS = RAIZ / "argentina" / "skills" / "derecho-argentino" / "references"
+NORMAS = RAIZ / "derecho" / "fuentes" / "normas" / "normas.json"
+REFS = RAIZ / "derecho" / "skills" / "derecho-argentino" / "references"
 
 CITA = re.compile(r"[Ll]ey(?:es)?\s+(?:N[°º]\s*)?(\d{2}\.?\d{3})")
 ARTICULO = re.compile(r"\barts?\.\s*\d+|\bartículos?\s+\d+|\binc\.")
