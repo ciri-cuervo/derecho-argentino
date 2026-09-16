@@ -1,20 +1,20 @@
 # 🧭 Cómo está armado
 
 El repositorio es a la vez el **marketplace** y el **plugin**. `.claude-plugin/marketplace.json`
-publica un solo plugin, `derecho`, cuyo `source` es `argentina/`. De ahí salen los nombres que se
+publica un solo plugin, `derecho`, cuyo `source` es `derecho/`. De ahí salen los nombres que se
 ven en Claude: la skill queda como `derecho:derecho-argentino` —igual en la app de escritorio que
 en la consola— y, en Claude Code, los comandos como `/derecho:...`.
 
-El directorio se sigue llamando `argentina/` a propósito: es el `source` del plugin y renombrarlo
+El directorio se sigue llamando `derecho/` a propósito: es el `source` del plugin y renombrarlo
 tocaría cientos de rutas en los módulos, para algo que el usuario no ve.
 
 **Codex apunta a la misma carpeta.** `.agents/plugins/marketplace.json` —la ubicación que pide el
-formato Agent Plugins— declara el mismo `./argentina` como `source`. La ruta se resuelve **desde la
+formato Agent Plugins— declara el mismo `./derecho` como `source`. La ruta se resuelve **desde la
 raíz del marketplace, que es la raíz del repositorio, y no desde la carpeta que contiene el
 `marketplace.json`**: esa confusión costó una versión entera apuntando a un `plugins/` que no
-existe. Con `argentina/` como raíz del plugin, la disposición es la que el formato espera sin
-inventar nada: el manifiesto portable en `argentina/plugin.json` y las skills en
-`argentina/skills/`, que Codex descubre por convención. `.claude-plugin/` es el manifiesto de
+existe. Con `derecho/` como raíz del plugin, la disposición es la que el formato espera sin
+inventar nada: el manifiesto portable en `derecho/plugin.json` y las skills en
+`derecho/skills/`, que Codex descubre por convención. `.claude-plugin/` es el manifiesto de
 compatibilidad de Claude sobre esa misma raíz.
 
 ## El árbol
@@ -28,7 +28,7 @@ SECURITY.md                         # qué reportar, por dónde, y qué NO subir
 .claude-plugin/marketplace.json     # el marketplace de Claude: un solo plugin
 .agents/plugins/marketplace.json    # el mismo plugin en formato Agent Plugins (Codex)
 .github/workflows/tests.yml         # los seis suites en cada push y cada pull request
-argentina/                          # el plugin
+derecho/                          # el plugin
   .claude-plugin/plugin.json        # manifiesto de Claude
   plugin.json                       # manifiesto portable, el que lee Codex
   commands/                         # ocho comandos slash
@@ -66,13 +66,13 @@ docs/
 
 ## La frontera de licencia es la ruta
 
-**`argentina/kb/` es de otro autor.** Es la contribución original de Cristian Aboitiz, con uso
+**`derecho/kb/` es de otro autor.** Es la contribución original de Cristian Aboitiz, con uso
 comercial **sujeto a autorización previa**. Bajo `kb/`, capa 2. Fuera, este fork, con dos licencias
 según qué sea el archivo: **el contenido es CC BY-SA 4.0** —los módulos, los comandos, los evals, la
 documentación y la marca— y **el código es MIT** —los scripts, los descargadores y las
 herramientas—. Las dos permiten el uso comercial; el contenido pide atribución y CompartirIgual. El
 mapa completo, en [`LICENCIAS.md`](../LICENCIAS.md), y el detalle de `kb/` en
-`argentina/kb/README.md`.
+`derecho/kb/README.md`.
 
 Ese material **no pasó la auditoría contra fuente primaria** que sí pasaron los módulos de
 `references/`, y en varios puntos los contradice en derecho aplicable, no en vigencia. Cada tabla
@@ -85,11 +85,11 @@ texto propio hacia `kb/` —que es el sentido fácil de cruzar sin darse cuenta,
 corrigiendo el perfil heredado, y además desactiva al primero—. Detalle en
 [`LICENCIAS.md`](../LICENCIAS.md) §2.
 
-`argentina/kb/project/` es la arquitectura previa a la skill y **Claude Code no la carga**: un
+`derecho/kb/project/` es la arquitectura previa a la skill y **Claude Code no la carga**: un
 perfil general para pegar en un Project de claude.ai más la entrevista de configuración que lo
 personaliza. Se superpone con la skill y en un punto la contradice —fija un fuero por defecto,
 que es justo lo que la sección 0.1 prohíbe—. Sigue ahí porque funciona sin Claude Code. Ante
-conflicto, manda la skill. Ver `argentina/kb/project/README.md`.
+conflicto, manda la skill. Ver `derecho/kb/project/README.md`.
 
 ## Los módulos de `references/`
 
@@ -160,11 +160,11 @@ ubicación de la skill, y unas pocas ubicaciones habituales bajo el home. El pri
 heurística queda fijado solo. Para fijarlo a mano:
 
 ```sh
-python3 argentina/skills/derecho-argentino/scripts/configurar.py --repo /ruta/al/repo
+python3 derecho/skills/derecho-argentino/scripts/configurar.py --repo /ruta/al/repo
 ```
 
-También se puede clonar el repo y copiar `argentina/skills/derecho-argentino/` a
-`~/.claude/skills/`, o cargar los perfiles de `argentina/` en un Project de claude.ai.
+También se puede clonar el repo y copiar `derecho/skills/derecho-argentino/` a
+`~/.claude/skills/`, o cargar los perfiles de `derecho/` en un Project de claude.ai.
 
 ---
 

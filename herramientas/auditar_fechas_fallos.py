@@ -27,14 +27,14 @@ Uso, desde la raíz del repositorio:
 Requiere `pdftotext` (poppler-utils). Los fallos escaneados o guardados como HTML no traen
 constancias y salen como ??? : esos hay que mirarlos a mano.
 
-No se instala con el plugin: vive fuera de `argentina/`.
+No se instala con el plugin: vive fuera de `derecho/`.
 """
 import json, re, subprocess, pathlib, sys, unicodedata
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import _externos
 
-J = pathlib.Path("argentina/fuentes/jurisprudencia")
+J = pathlib.Path("derecho/fuentes/jurisprudencia")
 SECRE = re.compile(r"SECRETARI|ACTUARI|SUBSECRETARI", re.I)
 
 

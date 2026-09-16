@@ -7,5 +7,5 @@ __pycache__/
 /.playwright-mcp/
 
 # Obras comerciales con derechos reservados: ejemplares locales del abogado.
-# NO commitear. La sintesis citable esta en argentina/skills/derecho-argentino/references/danos-indice-doctrinario.md.
-argentina/fuentes/_local/
+# NO commitear. La sintesis citable esta en derecho/skills/derecho-argentino/references/danos-indice-doctrinario.md.
+derecho/fuentes/_local/

@@ -8,10 +8,18 @@ Lleva versiones, no sesiones de trabajo. El detalle de cada cambio vive donde se
 | Qué | Dónde |
 | --- | --- |
 | Qué cubre cada módulo y cómo está armado el repo | [`docs/ARQUITECTURA.md`](docs/ARQUITECTURA.md) |
-| Cuándo se verificó cada instituto contra fuente primaria, y su volatilidad | `argentina/skills/derecho-argentino/references/changelog-normativo.md` |
-| Qué hay cargado en la capa offline | `argentina/fuentes/MANIFIESTO.md` |
+| Cuándo se verificó cada instituto contra fuente primaria, y su volatilidad | `derecho/skills/derecho-argentino/references/changelog-normativo.md` |
+| Qué hay cargado en la capa offline | `derecho/fuentes/MANIFIESTO.md` |
 | La doctrina de cada precedente | El módulo que la usa; el índice, en `references/fallos-csjn.md` |
 | Si el texto de un fallo se puede transcribir | `herramientas/lecturas-ocr.json` |
+
+## [1.1.1] — 2026-09-15
+
+Procedencia y rutas internas: no entran normas ni fallos nuevos y ningún cálculo cambia de
+resultado. **No hay nada que reinstalar** — el plugin sigue siendo `derecho@derecho-argentino` y
+los comandos, `/derecho:...`. Cada archivo bajado se coteja contra su propio hash sin salir a la
+red; de un fallo de JUBA se guarda la sentencia y no la página entera; y el directorio del plugin
+se llama `derecho/`, como el plugin.
 
 ## [1.1.0] — 2026-09-15
 
@@ -70,7 +78,7 @@ publicable de un proyecto en desarrollo: la cobertura auditada crece módulo por
   verificados, más el CCyC Comentado de SAIJ-INFOJUS y las series de índices.
 - **Cuatro calculadoras deterministas** sin dependencias externas, que piden el dato que falta en
   lugar de estimarlo y salen con código 2 antes que inventar un número.
-- Texto **recuperado por OCR local** en `argentina/fuentes/jurisprudencia/ocr/` para los seis fallos
+- Texto **recuperado por OCR local** en `derecho/fuentes/jurisprudencia/ocr/` para los seis fallos
   cuyo PDF trae la capa de texto arruinada. Es una derivación, no una descarga.
 - La marca del repositorio en [`assets/marca/`](assets/marca/).
 

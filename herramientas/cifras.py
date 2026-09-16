@@ -63,7 +63,7 @@ def _alternancia(palabras) -> str:
 def cargar():
     reg = json.loads(REGISTRO.read_text(encoding="utf-8"))
     # La capa 2 se sale por la ruta y por cinco excepciones que la ruta NO dice. Comprobar sólo
-    # `argentina/kb/` dejaba en el alcance a `argentina/evals/README.md`, que es una de ellas.
+    # `derecho/kb/` dejaba en el alcance a `derecho/evals/README.md`, que es una de ellas.
     # Es el error que este repositorio comete sin querer: se cruza la frontera corrigiendo.
     for archivo in list(reg["anclas"]) + list(reg["alcance"]):
         for ruta in reg["capa_2"]["rutas"]:

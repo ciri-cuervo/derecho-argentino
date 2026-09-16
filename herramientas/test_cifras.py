@@ -53,7 +53,7 @@ class TestCifrasDelRepo(unittest.TestCase):
 
     def test_ningun_archivo_de_capa_2_entra_al_alcance(self):
         """La frontera de licencia es la ruta, más cinco excepciones que la ruta no dice, y una
-        de ellas -`argentina/evals/README.md`- estuvo en el alcance de este script. No tuvo
+        de ellas -`derecho/evals/README.md`- estuvo en el alcance de este script. No tuvo
         consecuencia porque ninguna ancla apuntaba ahí, pero `--sellar` reescribe el archivo del
         ancla: era una puerta, no un incidente.
         """
@@ -67,7 +67,7 @@ class TestCifrasDelRepo(unittest.TestCase):
         """La mutación del test anterior: sin esto, el control vive sólo en el registro y una
         ancla nueva pasa igual."""
         reg = json.loads((AQUI / "cifras.json").read_text(encoding="utf-8"))
-        reg["alcance"].append("argentina/evals/consumidor-dano-punitivo-prescripcion/caso.md")
+        reg["alcance"].append("derecho/evals/consumidor-dano-punitivo-prescripcion/caso.md")
         with tempfile.TemporaryDirectory() as tmp:
             falso = Path(tmp) / "cifras.json"
             falso.write_text(json.dumps(reg, ensure_ascii=False), encoding="utf-8")
@@ -196,12 +196,12 @@ class TestMecanicaDelSellado(unittest.TestCase):
                     self.mod.compilar(ancla, "digito")
 
     def test_el_registro_no_puede_apuntar_a_kb(self):
-        """MUTACIÓN: `argentina/kb/` es capa 2 y de otro autor. Un script que le escriba rompe
+        """MUTACIÓN: `derecho/kb/` es capa 2 y de otro autor. Un script que le escriba rompe
         la frontera de licencia, y el que la vigila es `frontera_kb.py`, no este."""
         with tempfile.TemporaryDirectory() as d:
             falso = Path(d) / "cifras.json"
             reg = json.loads((AQUI / "cifras.json").read_text(encoding="utf-8"))
-            reg["anclas"]["argentina/kb/laboral-CLAUDE.md"] = [
+            reg["anclas"]["derecho/kb/laboral-CLAUDE.md"] = [
                 {"ancla": "**{n} módulos**", "metrica": "modulos"}]
             falso.write_text(json.dumps(reg, ensure_ascii=False), encoding="utf-8")
             verdadero = self.mod.REGISTRO

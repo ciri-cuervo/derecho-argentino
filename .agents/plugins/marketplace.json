@@ -8,7 +8,7 @@
       "name": "derecho",
       "source": {
         "source": "local",
-        "path": "./argentina"
+        "path": "./derecho"
       },
       "policy": {
         "installation": "AVAILABLE"

@@ -59,7 +59,7 @@ class TestManifiestoDeFallos(unittest.TestCase):
         # Un 1 de enero en este manifiesto es relleno de una fecha que no se pudo leer, no una
         # fecha: los tres que quedaban se recuperaron del tomo el 14/09/2026.
         fallos = json.loads(
-            (RAIZ / "argentina" / "fuentes" / "jurisprudencia" / "fallos.json")
+            (RAIZ / "derecho" / "fuentes" / "jurisprudencia" / "fallos.json")
             .read_text(encoding="utf-8"))["fallos"]
         rellenos = [f["slug"] for f in fallos if str(f.get("fecha", "")).endswith("-01-01")]
         self.assertEqual(rellenos, [], "fecha sin confirmar: correr auditar_fechas_fallos.py")

@@ -28,9 +28,9 @@ defecto). Forzar las tres a `ítems: {clave: {veredicto, fecha}}` inflaria la pr
 veces y registraria un veredicto por secuencia que nadie tomo. Un formato unico que miente
 sobre el contenido es peor que tres formatos que lo dicen.
 
-`argentina/fuentes/normas/revisiones.json` usa el mismo sobre pero NO pasa por acá: vive dentro
+`derecho/fuentes/normas/revisiones.json` usa el mismo sobre pero NO pasa por acá: vive dentro
 del plugin, que tiene que ser autocontenido para poder instalarse, y no puede importar de
-`herramientas/`. Lo carga `argentina/fuentes/scripts/_comun.py`. Lo que los mantiene juntos es
+`herramientas/`. Lo carga `derecho/fuentes/scripts/_comun.py`. Lo que los mantiene juntos es
 el test del sobre, que los lee a los seis.
 """
 import datetime

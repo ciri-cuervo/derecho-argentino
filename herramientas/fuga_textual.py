@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Detector de fuga textual desde `argentina/kb/` hacia el resto del repositorio.
+"""Detector de fuga textual desde `derecho/kb/` hacia el resto del repositorio.
 
 La frontera de licencia de este repo es la ruta: lo que está bajo `kb/` es obra de
 Cristian Aboitiz -capa 2, uso comercial con autorización previa- y lo que está afuera
@@ -16,11 +16,11 @@ reescribir.
 
 Uso, desde la raíz del repositorio:
 
-    python3 herramientas/fuga_textual.py argentina/skills/derecho-argentino/references/*.md
+    python3 herramientas/fuga_textual.py derecho/skills/derecho-argentino/references/*.md
 
 Sale con código 1 si encontró prosa, para poder encadenarlo.
 
-No se instala con el plugin: vive fuera de `argentina/`.
+No se instala con el plugin: vive fuera de `derecho/`.
 """
 
 import re
@@ -28,8 +28,8 @@ import sys
 import pathlib
 
 N = 9
-RAIZ_KB = pathlib.Path("argentina/kb")
-RAIZ_FUENTES = pathlib.Path("argentina/fuentes/normas")
+RAIZ_KB = pathlib.Path("derecho/kb")
+RAIZ_FUENTES = pathlib.Path("derecho/fuentes/normas")
 
 
 CODIGO = re.compile(r"`[^`\n]*`")
@@ -149,8 +149,8 @@ def es_excepcion(archivo: pathlib.Path) -> bool:
 # se los deja en el corpus, el detector compara nuestro texto contra si mismo y reporta como
 # fuga la regla del CCT o la advertencia sobre la Ley 11.653, que son nuestras. Registrado en
 # LICENCIAS.md, sección 2.
-NO_SON_CAPA_2 = {pathlib.Path("argentina/kb/project/README.md"),
-                 pathlib.Path("argentina/kb/README.md")}
+NO_SON_CAPA_2 = {pathlib.Path("derecho/kb/project/README.md"),
+                 pathlib.Path("derecho/kb/README.md")}
 
 
 def main(argv: list[str]) -> int:

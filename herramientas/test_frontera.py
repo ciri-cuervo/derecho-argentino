@@ -14,13 +14,13 @@ import unittest
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
-KB = RAIZ / "argentina" / "kb"
+KB = RAIZ / "derecho" / "kb"
 HERRAMIENTA = RAIZ / "herramientas" / "frontera_kb.py"
 REGISTRO = RAIZ / "herramientas" / "kb-procedencia.json"
 
 
 class TestFronteraKB(unittest.TestCase):
-    """`argentina/kb/` es de otro autor: cualquier cambio tiene que ser deliberado.
+    """`derecho/kb/` es de otro autor: cualquier cambio tiene que ser deliberado.
 
     La frontera se cruza corrigiendo: el perfil heredado dice algo mal y la tentación es
     arreglarlo donde se lee. El registro de huellas hace visible esa deriva, y obliga a que

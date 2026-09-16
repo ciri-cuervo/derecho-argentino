@@ -71,7 +71,7 @@ UMBRAL_BASURA = 0.06
 
 RAIZ = pathlib.Path(__file__).resolve().parent
 LECTURAS = RAIZ / "lecturas-ocr.json"
-CORPUS = RAIZ.parent / "argentina" / "fuentes" / "jurisprudencia"
+CORPUS = RAIZ.parent / "derecho" / "fuentes" / "jurisprudencia"
 
 
 def proporcion_sucia(texto: str) -> float | None:

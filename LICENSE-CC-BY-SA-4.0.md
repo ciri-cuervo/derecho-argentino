@@ -41,8 +41,8 @@ restrictiva que le aplique.
 | No cubierto por CC BY-SA | Qué rige |
 |---|---|
 | Los scripts y las herramientas | MIT — [`LICENSE-MIT`](LICENSE-MIT) |
-| `argentina/kb/` | Licencia dual de Cristian Aboitiz — [`LICENSE-ABOITIZ.md`](LICENSE-ABOITIZ.md) |
-| `argentina/fuentes/` — normas, sentencias, CCyC Comentado | Su propio régimen de libre reproducción |
+| `derecho/kb/` | Licencia dual de Cristian Aboitiz — [`LICENSE-ABOITIZ.md`](LICENSE-ABOITIZ.md) |
+| `derecho/fuentes/` — normas, sentencias, CCyC Comentado | Su propio régimen de libre reproducción |
 | El código base heredado de Anthropic | Apache 2.0 — [`LICENSE`](LICENSE) |
 
 **Sin garantías.** El material se ofrece tal como está. No reemplaza el criterio profesional de

@@ -33,7 +33,7 @@ sobre su oscuro, se notan—. Eso obliga a que el desgaste del sello **borre** e
 del color del fondo: en el PNG se resta del canal alfa y en el SVG es una `<mask>`. El ícono y el
 social preview sí llevan fondo: son imágenes que se ven solas.
 
-La versión de `chapa-version` sale de `argentina/.claude-plugin/plugin.json`, no está escrita a
+La versión de `chapa-version` sale de `derecho/.claude-plugin/plugin.json`, no está escrita a
 mano. Si cambia y el texto queda más ancho, `test_marca.py` avisa que hay que corregir el atributo
 `width` del README.
 

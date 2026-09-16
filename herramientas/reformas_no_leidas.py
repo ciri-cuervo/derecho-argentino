@@ -29,8 +29,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import _veredictos
 
 RAIZ = Path(__file__).resolve().parent.parent
-NORMAS = RAIZ / "argentina" / "fuentes" / "normas"
-SKILL = RAIZ / "argentina" / "skills" / "derecho-argentino"
+NORMAS = RAIZ / "derecho" / "fuentes" / "normas"
+SKILL = RAIZ / "derecho" / "skills" / "derecho-argentino"
 REGISTRO = Path(__file__).resolve().parent / "reformas-revisadas.json"
 
 # "(Artículo sustituido por art. 7° de la Ley N° 27.786 B.O. 10/03/2025 ...)". La ventana entre

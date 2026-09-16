@@ -48,7 +48,7 @@ En síntesis, y sin sustituir ese texto: uso no comercial, académico o de inves
 manteniendo la nota de copyright y la atribución; **todo uso comercial requiere autorización
 previa y expresa** del titular (`cristianaboitiz@gmail.com`).
 
-**Qué cubre hoy: todo lo que está bajo `argentina/kb/`** — 109 archivos, unas 31.500 líneas, contando `kb/project/`.
+**Qué cubre hoy: todo lo que está bajo `derecho/kb/`** — 109 archivos, unas 31.500 líneas, contando `kb/project/`.
 
 Desde la reestructura de septiembre de 2026 **la frontera es estructural**: si el archivo está
 bajo `kb/`, es capa 2; si no, es capa 3 —contenido CC BY-SA 4.0, código MIT, según la sección 3—.
@@ -70,7 +70,7 @@ subdirectorio. Hay **una sola excepción, en el sentido inverso**, declarada aba
 
 ### El estado de la capa 2, y cómo se sostiene
 
-`argentina/kb/` difiere del fork de Cristian Aboitiz al 23/07/2026 **sólo por reescritura de
+`derecho/kb/` difiere del fork de Cristian Aboitiz al 23/07/2026 **sólo por reescritura de
 rutas y por la marca del repositorio** — las cuatro diferencias restantes están en
 `kb/project/CLAUDE.md` y son de ese tipo.
 
@@ -105,7 +105,7 @@ git ls-tree -r --name-only 224c8401fcb0463d9646ab00a1fedd71fde3e878
 ```
 
 Ese commit es el estado del fork de Cristian Aboitiz al 23/07/2026, y **todo lo que liste bajo
-`argentina/` es capa 2**, esté hoy donde esté en este árbol. Lo que no figure ahí es de la capa
+`derecho/` es capa 2**, esté hoy donde esté en este árbol. Lo que no figure ahí es de la capa
 3 o de la 4. Contenido de la capa 2:
 
 - Perfiles de área: `*-CLAUDE.md` y `*-DOCTRINA*.md` de laboral, civil, penal, previsional,
@@ -132,12 +132,12 @@ Ese commit es el estado del fork de Cristian Aboitiz al 23/07/2026, y **todo lo 
 > cuando el repositorio tenía otra estructura y menciona `skills/` y `perfiles/`. Es, por sus
 > propios términos, *"sin limitación"*: describe, no delimita. La lista de arriba no lo
 > reinterpreta ni lo recorta — dice qué archivos de los que hoy están en el árbol venían de su
-> fork. `argentina/skills/` **no** es uno de ellos: ese directorio no existía en su fork y su
+> fork. `derecho/skills/` **no** es uno de ellos: ese directorio no existía en su fork y su
 > contenido se escribió en este, como muestra el historial.
 
 ### Una precisión sobre el vocabulario de marcadores
 
-La skill **usa los mismos identificadores de marcador** que `argentina/kb/marcadores-GLOSARIO.md`
+La skill **usa los mismos identificadores de marcador** que `derecho/kb/marcadores-GLOSARIO.md`
 — `[ALERTA PLAZO FATAL: ...]`, `[SIN PERFIL DE ÁREA CARGADO: ...]`, `[VERIFICAR PRECEDENTE: ...]`
 y los demás—, y eso es deliberado y necesario: son un **vocabulario controlado**, no prosa. La
 sintaxis tiene que ser exacta porque los scripts emiten esas cadenas y las salidas se auditan
@@ -146,7 +146,7 @@ funcionales**.
 
 Desde septiembre de 2026 la **definición** de ese vocabulario —qué significa cada marcador,
 cuándo corresponde, qué campos lleva y qué formas hay que reemplazar— está escrita de cero en
-`argentina/skills/derecho-argentino/references/marcadores.md`, que es capa 3a (CC BY-SA 4.0) y es la
+`derecho/skills/derecho-argentino/references/marcadores.md`, que es capa 3a (CC BY-SA 4.0) y es la
 fuente de verdad de la skill. El glosario heredado permanece bajo la licencia de la capa 2 y
 ya no es consultado por ningún módulo. Esta nota queda acá para que el punto esté declarado y
 no descubierto.
@@ -211,16 +211,16 @@ ejecuta, con licencia de código.
 Atribución y **CompartirIgual**: se usa y se adapta libremente, **incluido el uso comercial**, y lo
 que se distribuya adaptado lleva la misma licencia.
 
-- `argentina/skills/derecho-argentino/SKILL.md` y los **31 módulos** de `references/`
-- `argentina/commands/` — los **8 comandos slash**, que son instrucciones y no programas
-- `argentina/evals/` — los **18 casos** de verificación con su rúbrica y su resultado esperado
-- `argentina/fuentes/MANIFIESTO.md` y `argentina/fuentes/jurisprudencia/INDICE.md`
+- `derecho/skills/derecho-argentino/SKILL.md` y los **31 módulos** de `references/`
+- `derecho/commands/` — los **8 comandos slash**, que son instrucciones y no programas
+- `derecho/evals/` — los **18 casos** de verificación con su rúbrica y su resultado esperado
+- `derecho/fuentes/MANIFIESTO.md` y `derecho/fuentes/jurisprudencia/INDICE.md`
 - `README.md`, `CLAUDE.md`, los **5 documentos** de `docs/`, `CHANGELOG.md`,
   `assets/marca/README.md` y este
   archivo
 - `assets/marca/` — el sello, el ícono, las chapitas y el separador, con sus fuentes SVG
 - `assets/logos/` **queda afuera**: son marcas de terceros; ver sección 4
-- `argentina/skills/derecho-argentino/references/danos-indice-doctrinario.md` — índice destilado de
+- `derecho/skills/derecho-argentino/references/danos-indice-doctrinario.md` — índice destilado de
   obra de terceros; ver sección 4
 
 **Por qué CompartirIgual y no MIT.** El valor de esta capa no es el texto sino **el trabajo de
@@ -238,15 +238,15 @@ está pensada para servir.
 Permisiva, sin condiciones más allá de conservar el aviso de copyright: el código está para que se
 lo lleven a otro proyecto sin arrastrar nada.
 
-- `argentina/skills/derecho-argentino/scripts/` — los scripts de la skill con su suite de tests
-- `argentina/fuentes/scripts/` — los descargadores y verificadores de la capa de fuente primaria
+- `derecho/skills/derecho-argentino/scripts/` — los scripts de la skill con su suite de tests
+- `derecho/fuentes/scripts/` — los descargadores y verificadores de la capa de fuente primaria
 - `herramientas/` — las **9 herramientas** de control: frontera de licencia, calidad de OCR,
   auditoría de fechas, cobertura normativa, cifras de la documentación, reformas sin leer y sus
   tests
 - Los `.json` de manifiesto, procedencia y veredicto: `normas.json`, `fallos.json`, los
   `procedencia.json`, `inhabiles.json`, `herramientas/lecturas-ocr.json`,
   `herramientas/fuga-revisada.json`, `herramientas/cifras.json` y los `-revisad*.json`
-- `.claude-plugin/marketplace.json` y `argentina/.claude-plugin/plugin.json`
+- `.claude-plugin/marketplace.json` y `derecho/.claude-plugin/plugin.json`
 
 ### Lo que esta elección no toca
 
@@ -261,16 +261,16 @@ reproducción, y el linaje de Anthropic con Apache 2.0.
 
 ## 4 · Fuentes oficiales y material de terceros
 
-**Textos normativos y sentencias** (`argentina/fuentes/normas/`, `jurisprudencia/`): normas y
+**Textos normativos y sentencias** (`derecho/fuentes/normas/`, `jurisprudencia/`): normas y
 sentencias de organismos públicos argentinos, de libre reproducción y sin derechos de autor
 (art. 1 de la Ley 11.723 y su interpretación corriente). Cada archivo lleva su URL de origen,
 fecha de descarga y hash en `procedencia.json`.
 
-**Código Civil y Comercial Comentado** (`argentina/fuentes/ccyc-comentado/`, seis tomos):
+**Código Civil y Comercial Comentado** (`derecho/fuentes/ccyc-comentado/`, seis tomos):
 publicación oficial de **SAIJ - INFOJUS**, Ministerio de Justicia y Derechos Humanos de la
 Nación, 2022, **de libre reproducción**. Se puede citar y transcribir.
 
-**Series de datos** (`argentina/fuentes/datos/`): IPC, RIPTE y CER de la API de Series de
+**Series de datos** (`derecho/fuentes/datos/`): IPC, RIPTE y CER de la API de Series de
 Tiempo del Estado; valor del jus de la SCBA. Datos públicos.
 
 **Logos de Claude y de Codex** (`assets/logos/`): son **marcas registradas de sus titulares**
@@ -281,11 +281,11 @@ modificarlos y sin quedar más prominentes que la marca propia, que es la condic
 OpenAI en sus [pautas de marca](https://openai.com/brand/). Si alguno de los dos titulares pide
 retirarlos, se retiran y los encabezados siguen diciendo lo mismo en texto.
 
-**Obras comerciales — no están en el repositorio.** `argentina/skills/derecho-argentino/references/danos-indice-doctrinario.md` es un
+**Obras comerciales — no están en el repositorio.** `derecho/skills/derecho-argentino/references/danos-indice-doctrinario.md` es un
 índice destilado del *Manual de Derecho de Daños* (2ª ed., Weingarten -dir.-, La Ley, 2015):
 entradas por instituto con síntesis y remisión a capítulo y página. **La obra tiene derechos
 reservados: su PDF no está acá y no debe incorporarse.** En un escrito se cita la obra, nunca
-el archivo. `argentina/fuentes/_local/` está en `.gitignore` justamente para que los
+el archivo. `derecho/fuentes/_local/` está en `.gitignore` justamente para que los
 ejemplares locales de obras comerciales no se suban nunca.
 
 ---

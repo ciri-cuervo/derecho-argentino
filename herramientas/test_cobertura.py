@@ -16,7 +16,7 @@ from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 HERRAMIENTA = RAIZ / "herramientas" / "cobertura_normativa.py"
-NORMAS = RAIZ / "argentina" / "fuentes" / "normas" / "normas.json"
+NORMAS = RAIZ / "derecho" / "fuentes" / "normas" / "normas.json"
 
 
 def cargar():

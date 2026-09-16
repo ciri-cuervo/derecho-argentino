@@ -9,7 +9,7 @@
 # Derecho argentino · skill para agentes de IA
 
 <p align="center">
-  <a href="CHANGELOG.md"><img src="assets/marca/chapa-version.png" width="106" height="32" alt="Versión 1.1.0"></a>
+  <a href="CHANGELOG.md"><img src="assets/marca/chapa-version.png" width="105" height="32" alt="Versión 1.1.1"></a>
   <a href="LICENCIAS.md"><img src="assets/marca/chapa-licencia.png" width="168" height="32" alt="Licencias: contenido CC BY-SA 4.0, código MIT"></a>
   <img src="assets/marca/chapa-python.png" width="135" height="32" alt="Requiere Python 3">
   <img src="assets/marca/chapa-agentes.png" width="172" height="32" alt="Corre en Claude y Codex (ChatGPT)">
@@ -76,7 +76,7 @@ codificación, dentro de ChatGPT—, instalalo y abrilo. La primera vez pide ini
 
 **2 · Agregá el marketplace.** En **Complementos** → botón **Agregar** → *Agregar marketplace*.
 En *Origen* pegá `ciri-cuervo/derecho-argentino` o la dirección web de este sitio; en *Referencia de Git* y
-*Rutas dispersas* se dejá vacío.
+*Rutas dispersas* dejá vacío.
 
 **3 · Instalá el plugin.** Este es el paso que no se adivina: el plugin **no aparece en la
 pestaña *Público*** junto a los conectores conocidos. Está en la pestaña **Personal**, bajo el
@@ -228,7 +228,7 @@ un juez, un empleado de un tribunal— ni régimen por defecto: en el fuero labo
 conviven la Ley 11.653 y la Ley 15.057 según la fecha de la audiencia de vista, y la skill
 pregunta esa fecha antes de citar un código procesal.
 
-**Fuente primaria offline.** `argentina/fuentes/` guarda el texto consolidado de **142 normas** y
+**Fuente primaria offline.** `derecho/fuentes/` guarda el texto consolidado de **142 normas** y
 **70 fallos**, cada uno con su URL, su fecha de descarga y su hash SHA-256. `verificar_normas.py`
 vuelve a pedirlos y sale con código 1 si alguno cambió: es una alarma de reforma legislativa, no
 un backup.
@@ -256,7 +256,7 @@ trae de la fuente oficial. `/derecho:verificar` es lo otro, y es distinto: vuelv
 norma del manifiesto y compara el hash, para detectar una reforma legislativa.
 
 **El repositorio es público y es solo base de conocimiento.**
-`argentina/fuentes/_local/` está en `.gitignore`: es donde el abogado deja ejemplares de obras
+`derecho/fuentes/_local/` está en `.gitignore`: es donde el abogado deja ejemplares de obras
 comerciales con derechos reservados. No commitear nada de ahí, ni piezas, liquidaciones o datos de
 expedientes.
 
@@ -279,7 +279,7 @@ Eso sólo lo sabe quien la usa.
 > [!IMPORTANT]
 > **Nunca pegues datos de un expediente real** — ni carátulas, ni partes, ni montos, ni piezas.
 > Esto es público y queda indexado. Para mostrar un problema alcanza con inventar el caso: es
-> exactamente lo que hace este repositorio en sus propios [casos de prueba](argentina/evals/).
+> exactamente lo que hace este repositorio en sus propios [casos de prueba](derecho/evals/).
 
 **Si vas a reportar un error de derecho, lo que más ayuda son tres cosas:** qué te contestó la
 skill, qué debería haber contestado, y **la fuente** —artículo, fallo con carátula y fecha, o el
@@ -307,7 +307,7 @@ libremente, **incluido el uso comercial**, con dos condiciones —atribuir, y pu
 licencia lo que se distribuya adaptado—. El código es MIT, sin condiciones más allá del aviso de
 copyright.
 
-**La excepción son los perfiles de área heredados**, bajo `argentina/kb/`: **su uso comercial
+**La excepción son los perfiles de área heredados**, bajo `derecho/kb/`: **su uso comercial
 requiere autorización de su autor**. La skill los abre como complemento y avisa cada vez. Antes de
 usarlos comercialmente, leé [`LICENCIAS.md`](LICENCIAS.md).
 

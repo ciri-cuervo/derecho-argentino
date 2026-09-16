@@ -55,13 +55,13 @@
   // `kb/` están declaradas en LICENCIAS.md sección 2, y una de ellas tiene un marcador partido
   // que se deja como está: figura anotado en `TestMarcadoresEnteros`.
   // `_local/` son ejemplares de obras comerciales que no se versionan.
-  "ignores": ["argentina/kb/**",
-              "argentina/evals/administrativo-caba-recursos-agotamiento-via/**",
-              "argentina/evals/consumidor-dano-punitivo-prescripcion/**",
-              "argentina/evals/consumidor-garantia-producto-defectuoso/**",
-              "argentina/evals/consumidor-prepaga-aumento-dnu70/**",
-              "argentina/evals/README.md",
-              "argentina/fuentes/_local/**",
+  "ignores": ["derecho/kb/**",
+              "derecho/evals/administrativo-caba-recursos-agotamiento-via/**",
+              "derecho/evals/consumidor-dano-punitivo-prescripcion/**",
+              "derecho/evals/consumidor-garantia-producto-defectuoso/**",
+              "derecho/evals/consumidor-prepaga-aumento-dnu70/**",
+              "derecho/evals/README.md",
+              "derecho/fuentes/_local/**",
               "LICENSE-ABOITIZ.md",
               "LICENSE-CC-BY-SA-4.0.md"]
 }
