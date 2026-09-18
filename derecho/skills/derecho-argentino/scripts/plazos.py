@@ -8,13 +8,13 @@ pueden calcular: se leen de `derecho/fuentes/datos/inhabiles.json` y, si ese arc
 tiene cargado el año del cómputo, el script lo dice y emite el marcador.
 
 Uso:
-    python3 plazos.py --tipo hábiles --dias 5 --desde 2026-09-10 --fuero pba
+    python3 plazos.py --tipo habiles --dias 5 --desde 2026-09-10 --fuero pba
     python3 plazos.py --tipo corridos --dias 30 --desde 2026-09-10
     python3 plazos.py --tipo meses --cantidad 6 --desde 2026-03-31
-    python3 plazos.py --tipo años --cantidad 2 --desde 2024-05-10
+    python3 plazos.py --tipo anios --cantidad 2 --desde 2024-05-10
 
-`--desde` es la fecha de NOTIFICACIÓN en los plazos judiciales: el cómputo arranca al dia
-siguiente y no cuenta el dia de la notificación (art. 156 CPCCN / art. 156 CPCCBA).
+`--desde` es la fecha de NOTIFICACIÓN en los plazos judiciales: el cómputo arranca al día
+siguiente y no cuenta el día de la notificación (art. 156 CPCCN / art. 156 CPCCBA).
 Ver `references/plazos.md`.
 """
 
@@ -23,9 +23,14 @@ from __future__ import annotations
 import argparse
 import json
 from datetime import date, timedelta
-from pathlib import Path
 
 from _raiz import datos
+
+# El día de la semana NO sale de `strftime("%A")`: eso depende del locale de la máquina y
+# escribe "Monday" en una consola en ingles. Una calculadora determinista no puede dar un
+# texto distinto según donde corra, y menos el que se copia a un escrito.
+DIAS_DE_LA_SEMANA = ("lunes", "martes", "miércoles", "jueves", "viernes", "sábado",
+                     "domingo")
 
 FUEROS = {
     "nacional": {"gracia_horas": 2, "norma_gracia": "art. 124 CPCCN"},
@@ -50,9 +55,9 @@ def pascua(anio: int) -> date:
 
 def trasladar(f: date) -> date:
     """Art. 6 Ley 27.399: los feriados trasladables del art. 1 inc. b que caen martes o
-    miercoles pasan al lunes anterior; los que caen jueves o viernes, al lunes siguiente.
+    miércoles pasan al lunes anterior; los que caen jueves o viernes, al lunes siguiente.
 
-    Sabado y domingo quedan sin mover por esta función: el Decreto 614/2025 habilita a la
+    Sábado y domingo quedan sin mover por esta función: el Decreto 614/2025 habilita a la
     Jefatura de Gabinete a llevarlos al viernes anterior o al lunes posterior, y esa opción
     no es calculable. Esos casos se informan aparte (ver `trasladables_dudosos`)."""
     if f.weekday() in (1, 2):
@@ -63,7 +68,7 @@ def trasladar(f: date) -> date:
 
 
 def trasladables_dudosos(anio: int) -> list:
-    """Trasladables que caen sabado o domingo: ubicación indeterminada hasta que la
+    """Trasladables que caen sábado o domingo: ubicación indeterminada hasta que la
     Jefatura de Gabinete ejerza la opción del Decreto 614/2025."""
     base = {date(anio, 6, 17): "Güemes", date(anio, 8, 17): "San Martín",
             date(anio, 10, 12): "Diversidad Cultural", date(anio, 11, 20): "Soberanía Nacional"}
@@ -182,8 +187,8 @@ def computar_habiles(desde: date, dias: int, jurisdiccion: str, repo=None):
 
 
 def sumar_meses(f: date, cantidad: int) -> date:
-    """Arts. 6 y 7 CCyCN: de fecha a fecha; si el mes de vencimiento no tiene el dia
-    equivalente, vence el último dia de ese mes."""
+    """Arts. 6 y 7 CCyCN: de fecha a fecha; si el mes de vencimiento no tiene el día
+    equivalente, vence el último día de ese mes."""
     import calendar
     mes = f.month - 1 + cantidad
     anio = f.year + mes // 12
@@ -202,9 +207,9 @@ def main():
     p.add_argument("--dias", type=int, help="Para --tipo habiles o corridos")
     p.add_argument("--cantidad", type=int, help="Para --tipo meses o anios")
     p.add_argument("--fuero", default="pba", choices=list(FUEROS))
-    p.add_argument("--traza", action="store_true", help="Imprime el detalle dia por dia")
+    p.add_argument("--traza", action="store_true", help="Imprime el detalle día por día")
     p.add_argument("--repo", default=None,
-                   help="Raiz del repo. Si se omite se resuelve sola (ver configurar.py)")
+                   help="Raíz del repo. Si se omite se resuelve sola (ver configurar.py)")
     a = p.parse_args()
 
     print(f"CÓMPUTO DE PLAZO - tipo: {a.tipo} - fuero: {a.fuero}")
@@ -213,12 +218,12 @@ def main():
 
     if a.tipo == "habiles":
         if not a.dias:
-            raise SystemExit("--dias es obligatorio para --tipo hábiles")
+            raise SystemExit("--dias es obligatorio para --tipo habiles")
         venc, traza, metas = computar_habiles(a.desde, a.dias, a.fuero, a.repo)
         atravesados = set(range(a.desde.year, venc.year + 1))
         metas = [m for m in metas if m["anio"] in atravesados]
         print(f"  Plazo: {a.dias} días hábiles judiciales")
-        print(f"  VENCIMIENTO: {venc.isoformat()} ({venc.strftime('%A')})")
+        print(f"  VENCIMIENTO: {venc.isoformat()} ({DIAS_DE_LA_SEMANA[venc.weekday()]})")
         g = FUEROS[a.fuero]
         print(f"  Plazo de gracia: primeras {g['gracia_horas']} horas de despacho del día "
               f"hábil siguiente ({g['norma_gracia']}) -> {(venc + timedelta(days=1)).isoformat()} o el hábil posterior")
@@ -252,8 +257,8 @@ def main():
         if not a.dias:
             raise SystemExit("--dias es obligatorio para --tipo corridos")
         venc = a.desde + timedelta(days=a.dias)
-        print(f"  Plazo: {a.dias} dias corridos (art. 6 CCyCN)")
-        print(f"  VENCIMIENTO: {venc.isoformat()} ({venc.strftime('%A')})")
+        print(f"  Plazo: {a.dias} días corridos (art. 6 CCyCN)")
+        print(f"  VENCIMIENTO: {venc.isoformat()} ({DIAS_DE_LA_SEMANA[venc.weekday()]})")
         print("  Sin traslado por vencimiento en inhábil, salvo norma expresa.")
     else:
         if not a.cantidad:
@@ -261,7 +266,7 @@ def main():
         n = a.cantidad * (12 if a.tipo == "anios" else 1)
         venc = sumar_meses(a.desde, n)
         print(f"  Plazo: {a.cantidad} {a.tipo} (arts. 6 y 7 CCyCN, de fecha a fecha)")
-        print(f"  VENCIMIENTO: {venc.isoformat()} ({venc.strftime('%A')})")
+        print(f"  VENCIMIENTO: {venc.isoformat()} ({DIAS_DE_LA_SEMANA[venc.weekday()]})")
 
     marcadores.append(
         "[VERIFICAR PLAZO: acto procesal - confirmar la norma de la jurisdicción que fija "

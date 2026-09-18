@@ -1,10 +1,13 @@
 ---
 type: llm
 criteria: |
-  En la liquidación NO incluye ningún monto por los arts. 8, 9 o 10 de la Ley 24.013, ni por
-  los arts. 1 o 2 de la Ley 25.323, ni por el art. 45 de la Ley 25.345. Nombrar esas normas
-  para decir que están derogadas no cuenta como incluirlas: lo que se mide es si les asigna
-  un importe o las suma al reclamo.
+  En el cuadro de rubros, los agravantes por registración de la Ley 24.013, la Ley 25.323 y la
+  Ley 25.345 aparecen con la leyenda de derogados o con importe cero, y no suman al total.
 ---
 
 Este es el error caro del caso: un rubro derogado liquidado es plata reclamada que no existe.
+
+**Dicho en positivo a propósito.** La redacción anterior decía *"NO incluye ningún monto"* con la
+aclaración de que nombrarlos para decir que están derogados no contaba como incluirlos — y el juez
+reprobó igual una respuesta que traía la tabla *"Arts. 8 a 17 Ley 24.013 | Derogados por el art. 99
+Ley 27.742"*. Medido contra la traza el 17/09/2026.

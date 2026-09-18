@@ -3,7 +3,7 @@
 
     python3 herramientas/test_cobertura.py
 
-`cobertura_normativa.py` contesta la pregunta previa a todos los descargadores: QUE norma
+`cobertura_normativa.py` contesta la pregunta previa a todos los descargadores: QUÉ norma
 debería estar en el catálogo. Lo que decide si su lista sirve o si nadie la mira es una sola
 regla -- separar la ley que es FUENTE de una regla de la que sólo REFORMÓ a otra ya bajada --,
 y esa regla no tenía un test.
@@ -74,7 +74,7 @@ class TestCitaYDeclaradas(unittest.TestCase):
                 self.assertEqual(hallado.group(1), esperado)
 
     def test_declaradas_sale_del_slug_y_no_del_titulo(self):
-        """MUTACION VIVIDA: los números salían de `titulo` + `slug`.
+        """MUTACIÓN VIVIDA: los números salían de `titulo` + `slug`.
 
         El título es prosa y nombra otras leyes -- "Reglamentación de la Ley 25.326",
         "abrogado por la Ley 27.063" --, así que cada una de esas quedaba declarada por
@@ -84,9 +84,14 @@ class TestCitaYDeclaradas(unittest.TestCase):
         declaradas = self.c.declaradas()
         entradas = json.loads(NORMAS.read_text(encoding="utf-8"))["normas"]
         slugs = " ".join(e.get("slug", "") for e in entradas)
+        # Un decreto o acuerdo se declara `decreto-84-2026` y se guarda `84/2026`: la barra es
+        # la forma normalizada, no una laxitud. Se compara contra el slug con la MISMA
+        # normalización, así que un número que no esté en ningún slug sigue saltando.
+        slugs_norm = slugs.replace("-", "/")
         for numero in declaradas:
             with self.subTest(numero):
-                self.assertRegex(slugs, re.escape(numero),
+                donde = slugs_norm if "/" in numero else slugs
+                self.assertRegex(donde, re.escape(numero),
                                  f"{numero} se declara sin estar en ningún slug: salió de "
                                  f"la prosa de un título")
 
@@ -117,8 +122,14 @@ class TestCorridaCompleta(unittest.TestCase):
         sin_veredicto = []
         for archivo in sorted(c.REFS.glob("*.md")):
             texto = archivo.read_text(encoding="utf-8")
-            for m in c.CITA.finditer(texto):
-                numero = m.group(1).replace(".", "")
+            # Las dos familias, porque un decreto se cita como fuente de una regla igual que
+            # una ley. Mirar sólo `CITA` deja sin veredicto a los decretos, las resoluciones y
+            # los acuerdos, y el control reporta verde sin haberlos visto.
+            for m in list(c.CITA.finditer(texto)) + list(c.CITA_OTROS.finditer(texto)):
+                if m.re is c.CITA:
+                    numero = m.group(1).replace(".", "")
+                else:
+                    numero = f"{m.group(1)}/{c.anio_largo(m.group(2))}"
                 if numero in tengo or numero in ya:
                     continue
                 ventana = texto[max(0, m.start() - c.VENTANA):m.end() + c.VENTANA]

@@ -1,28 +1,70 @@
 {
-  "_descripcion": "Veredictos de lectura sobre las marcas que revisar_texto() pone en una norma recien bajada. Lo consume scripts/descargar_normas.py.",
-  "_criterio": "revisar_texto() reporta CANDIDATOS, no defectos probados: hay leyes legitimamente cortas y portales que envuelven un articulado sano. La marca se apaga leyendo el texto y anotando aca que se vio, con fecha. Sin esto la misma marca vuelve a sonar en cada descarga y deja de mirarse. La entrada se indexa por el texto EXACTO del problema. Si revisar_texto() cambia como lo redacta, o si la norma vuelve con un defecto distinto, el veredicto deja de aplicar y la marca vuelve a sonar. Es deliberado: un veredicto vale para lo que se leyo, no para el slug.",
-  "fijado": "2026-09-15",
-  "nota": "Un veredicto por norma leida, sin contarlos aca: el numero lo da este archivo. La 24.754 es corta de verdad. La 26.023 y el Decreto 84/2026 son el mismo caso: la parte dispositiva remite a un anexo y el detector leyo la remision sin ver que la transcripcion viene abajo, en el mismo archivo.",
+  "_descripcion": "Veredictos de lectura sobre las marcas que revisar_texto() pone en una norma recién bajada. Lo consume scripts/descargar_normas.py.",
+  "_criterio": "revisar_texto() reporta CANDIDATOS, no defectos probados: hay leyes legítimamente cortas y portales que envuelven un articulado sano. La marca se apaga leyendo el texto y anotando acá que se vio, con fecha. Sin esto la misma marca vuelve a sonar en cada descarga y deja de mirarse. La entrada se indexa por el texto EXACTO del problema. Si revisar_texto() cambia como lo redacta, o si la norma vuelve con un defecto distinto, el veredicto deja de aplicar y la marca vuelve a sonar. Es deliberado: un veredicto vale para lo que se leyó, no para el slug.",
+  "fijado": "2026-09-17",
+  "nota": "Cuatro veredictos de septiembre de 2026, los cuatro falsos positivos de longitud o de anexo: ley-24754, pba-ley-14731, decreto-659-1996 y pba-ley-14997. Este último es el que enseña el mecanismo: la marca vieja -«no se encontró ni un artículo»- era real y se levantó corrigiendo la URL, y la que quedó después es otra, sobre el texto correcto. Un veredicto vale para lo que se leyó, no para el slug.",
   "revisiones": {
+    "decreto-658-1996": [
+      {
+        "problema": "parece la ley APROBATORIA y no su contenido: solo 5 artículos y el texto remite a un anexo. Buscar una fuente que transcriba el anexo",
+        "veredicto": "Falso positivo, igual que en el Decreto 659/1996. Los 5 artículos son la parte dispositiva y el LISTADO DE ENFERMEDADES PROFESIONALES viene transcripto a continuación: 86 KB con 187 entradas «AGENTE:», cada una con sus enfermedades y la lista de actividades que generan exposición. Acá el anexo es prosa, no tabla, y por eso entra entero.",
+        "fecha": "2026-09-17"
+      }
+    ],
+    "decreto-659-1996": [
+      {
+        "problema": "parece la ley APROBATORIA y no su contenido: solo 8 artículos y el texto remite a un anexo. Buscar una fuente que transcriba el anexo",
+        "veredicto": "Falso positivo. El archivo trae las dos cosas. Los 8 artículos son la parte dispositiva -el art. 1 aprueba la Tabla de Evaluación de Incapacidades Laborales como ANEXO I- y el ANEXO I viene transcripto a continuación, en el texto sustituido por el art. 1 del Decreto 549/2025. Son 98 KB y 200 menciones de incapacidad: la tabla está.",
+        "fecha": "2026-09-16"
+      }
+    ],
+    "decreto-84-2026": [
+      {
+        "problema": "parece la ley APROBATORIA y no su contenido: solo 23 artículos y el texto remite a un anexo. Buscar una fuente que transcriba el anexo",
+        "veredicto": "Falso positivo. La parte dispositiva son 23 artículos y remite a anexos, pero InfoLEG los transcribe a continuación: el ANEXO I -reglamentación de la Ley 27.793, 21 artículos- arranca en el renglón 244 y el ANEXO II -Pensión no Contributiva por Discapacidad para Protección Social- en el 467, los dos bajo la nota del BORA que dice que fueron extraídos de su edición web. El archivo cierra con el IF-2026-12201515-APN-UGA#MS del ANEXO II, así que no está truncado. La medida cuenta los artículos de la parte dispositiva y no ve el anexo, que es lo correcto para el caso general.",
+        "fecha": "2026-09-15"
+      }
+    ],
+    "ley-23619": [
+      {
+        "problema": "parece la ley APROBATORIA y no su contenido: solo 3 artículos y el texto remite a un anexo. Buscar una fuente que transcriba el anexo",
+        "veredicto": "Falso positivo. El archivo trae las dos cosas: la ley aprobatoria -arts. 1, 2 y 3- y después la Convención de Nueva York transcripta entera como anexo, del Artículo I al XVI. Se comprobó leyendo el texto: el art. V.2.b está verbatim -«Que el reconocimiento o la ejecución de la sentencia serían contrarios al orden público de ese país»- y es el que cita dipr.md 35.3.1. Los tres artículos que el detector contó son los de la ley aprobatoria; el articulado del convenio usa numeración romana y por eso no los ve.",
+        "fecha": "2026-09-17"
+      }
+    ],
+    "ley-24425": [
+      {
+        "problema": "parece la ley APROBATORIA y no su contenido: solo 2 artículos y el texto remite a un anexo. Buscar una fuente que transcriba el anexo",
+        "veredicto": "NO es falso positivo: la marca acierta y el anexo falta de verdad. El archivo trae la ley aprobatoria -arts. 1 y 2- y después SOLO LA LISTA de anexos, con los títulos de cada acuerdo. El propio InfoLEG lo dice al pie: «A causa de la extensión de los presentes anexos, los mismos pueden ser consultados en forma separada accediendo al link correspondiente». O sea que el articulado del ADPIC -que es lo que esta ley aporta a la materia- no está en este texto ni puede estarlo desde esta URL. No se vuelve a bajar: hace falta la fuente del anexo. La consecuencia ya está declarada donde importa, en propiedad-industrial.md 40.6, con REVISIÓN NORMATIVA REQUERIDA: no se cita un artículo del ADPIC desde este repositorio.",
+        "fecha": "2026-09-17"
+      }
+    ],
     "ley-24754": [
       {
         "problema": "solo 2 articulos en 1430 caracteres: sospechosamente corto",
-        "veredicto": "Falso positivo. La ley son dos articulos: el 1, sustantivo, que extiende a las prepagas la cobertura minima exigible a las obras sociales conforme las Leyes 23.660, 23.661 y 24.455; y el 2, de forma. 1.430 caracteres es la ley entera, más la fe de erratas que corrige 'dispuestas por las obras sociales' por 'dispuestas para las obras sociales'.",
+        "veredicto": "Falso positivo. La ley son dos artículos: el 1, sustantivo, que extiende a las prepagas la cobertura mínima exigible a las obras sociales conforme las Leyes 23.660, 23.661 y 24.455; y el 2, de forma. 1.430 caracteres es la ley entera, más la fe de erratas que corrige 'dispuestas por las obras sociales' por 'dispuestas para las obras sociales'.",
         "fecha": "2026-09-14"
       }
     ],
     "ley-26023": [
       {
-        "problema": "parece la ley APROBATORIA y no su contenido: solo 23 articulos y el texto remite a un anexo. Buscar una fuente que transcriba el anexo",
-        "veredicto": "Falso positivo. El archivo trae las dos cosas: la ley aprobatoria -ARTICULO 1o y 2o- y despues la Convencion entera transcripta como anexo, del Articulo 1 al 23. Los 23 articulos que el detector leyo como sospechosos son los del convenio, no una remision vacia: el art. 1 de la ley dice que consta de 23 articulos 'cuya fotocopia autenticada forma parte de la presente ley', y esa fotocopia esta transcripta abajo. El art. 2 del convenio -Instrumentos internacionales aplicables-, que es el que penal.md 24.2.1 necesita para delimitar el ambito del juicio en ausencia, esta completo con su listado.",
+        "problema": "parece la ley APROBATORIA y no su contenido: solo 23 artículos y el texto remite a un anexo. Buscar una fuente que transcriba el anexo",
+        "veredicto": "Falso positivo. El archivo trae las dos cosas: la ley aprobatoria -ARTICULO 1o y 2o- y después la Convención entera transcripta como anexo, del Artículo 1 al 23. Los 23 artículos que el detector leyó como sospechosos son los del convenio, no una remisión vacía: el art. 1 de la ley dice que consta de 23 artículos 'cuya fotocopia autenticada forma parte de la presente ley', y esa fotocopia está transcripta abajo. El art. 2 del convenio -Instrumentos internacionales aplicables-, que es el que penal.md 24.2.1 necesita para delimitar el ámbito del juicio en ausencia, está completo con su listado.",
         "fecha": "2026-09-14"
       }
     ],
-    "decreto-84-2026": [
+    "pba-ley-14731": [
       {
-        "problema": "parece la ley APROBATORIA y no su contenido: solo 23 articulos y el texto remite a un anexo. Buscar una fuente que transcriba el anexo",
-        "veredicto": "Falso positivo. La parte dispositiva son 23 articulos y remite a anexos, pero InfoLEG los transcribe a continuacion: el ANEXO I -reglamentacion de la Ley 27.793, 21 articulos- arranca en el renglon 244 y el ANEXO II -Pension no Contributiva por Discapacidad para Proteccion Social- en el 467, los dos bajo la nota del BORA que dice que fueron extraidos de su edicion web. El archivo cierra con el IF-2026-12201515-APN-UGA#MS del ANEXO II, asi que no esta truncado. La medida cuenta los articulos de la parte dispositiva y no ve el anexo, que es lo correcto para el caso general.",
-        "fecha": "2026-09-15"
+        "problema": "solo 2 artículos en 590 caracteres: sospechosamente corto",
+        "veredicto": "Falso positivo. La ley entera son dos artículos y está completa: el 1 extiende por dos años la vigencia de la Ley 14.407 -emergencia pública en materia social por violencia de género- y el 2 es de forma. Leído entero contra el archivo bajado, incluida la fórmula de sanción y la fecha.",
+        "fecha": "2026-09-16"
+      }
+    ],
+    "pba-ley-14997": [
+      {
+        "problema": "solo 2 artículos en 488 caracteres: sospechosamente corto",
+        "veredicto": "Falso positivo, y el bueno: esta marca REEMPLAZÓ a «no se encontró ni un artículo», que era real. La URL vieja devolvía la ficha del portal; con la de `/documentos/` llega el articulado, y la ley entera son dos artículos: el 1 adhiere a la Ley 27.348 y el 2 es de forma. Leído entero contra el archivo bajado, con la fórmula de sanción y la fecha del 14/12/2017. Las condiciones que suelen citarse de esta adhesión están en los fundamentos, que no son articulado.",
+        "fecha": "2026-09-16"
       }
     ]
   }

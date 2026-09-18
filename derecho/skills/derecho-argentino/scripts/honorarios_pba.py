@@ -3,7 +3,7 @@
 
 Calculadora determinista para la skill `derecho-argentino`. El valor del jus NO se toma de
 memoria: se pasa con --valor-jus o se lee de `derecho/fuentes/datos/jus-scba.csv`, y el
-script informa siempre a que fecha corresponde el valor usado.
+script informa siempre a qué fecha corresponde el valor usado.
 
 Uso:
     python3 honorarios_pba.py --monto 22768351.81 --porcentaje 17.5
@@ -22,9 +22,7 @@ from __future__ import annotations
 
 import argparse
 import csv
-from datetime import date
 from decimal import Decimal, ROUND_HALF_UP
-from pathlib import Path
 
 from _raiz import datos
 
@@ -66,7 +64,7 @@ def main():
                    help="Porcentaje de la escala del art. 21 (entre 10 y 25)")
     p.add_argument("--valor-jus", type=Decimal, default=None)
     p.add_argument("--repo", default=None,
-                   help="Raiz del repo. Si se omite se resuelve sola (ver configurar.py)")
+                   help="Raíz del repo. Si se omite se resuelve sola (ver configurar.py)")
     p.add_argument("--etapas-cumplidas", type=int, default=None)
     p.add_argument("--etapas-totales", type=int, default=None,
                    help="En procesos orales ante tribunales colegiados son 3 (art. 28 inc. h)")
@@ -94,7 +92,7 @@ def main():
 
     if not (ESCALA_MIN <= a.porcentaje <= ESCALA_MAX):
         raise SystemExit(
-            f"El porcentaje {a.porcentaje} esta fuera de la escala del art. 21 "
+            f"El porcentaje {a.porcentaje} está fuera de la escala del art. 21 "
             f"({ESCALA_MIN}% a {ESCALA_MAX}%).")
     if a.porcentaje < MEDIA_ESCALA:
         advertencias.append(
@@ -114,7 +112,7 @@ def main():
                                "2) prueba anterior a la vista; 3) audiencia de vista")
         else:
             advertencias.append(
-                f"Se dividio en {a.etapas_totales} etapas. En procesos orales ante tribunales "
+                f"Se dividió en {a.etapas_totales} etapas. En procesos orales ante tribunales "
                 "colegiados el art. 28 inc. h prevé TRES: demanda y contestaciones, prueba "
                 "anterior a la vista, y audiencia de vista de la causa.")
 
@@ -176,7 +174,7 @@ def main():
 
     print("\n  Art. 15: la regulación debe ser fundada, indicar el monto del juicio, "
           "referenciar los\n  antecedentes, precisar las pautas del art. 16 y detallar cada "
-          "tarea; y su inc. d exige\n  que el monto este expresado en jus, cuyo valor "
+          "tarea; y su inc. d exige\n  que el monto esté expresado en jus, cuyo valor "
           "definitivo se establece AL PAGO, no a la\n  regulación. Todo bajo pena de nulidad."
           "\n  Art. 51: la regulación se hace de oficio al dictar sentencia, aun sin petición "
           "de parte.")

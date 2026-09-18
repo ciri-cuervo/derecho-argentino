@@ -10,11 +10,14 @@
 // repositorio decidió a propósito. Con ella, lo que queda se puede leer.
 {
   "config": {
-    // ANCHO DE LÍNEA. La prosa se envuelve cerca de 100 por costumbre; 120 es el tope duro, no
-    // el objetivo. Las tablas quedan afuera porque una fila de Markdown NO se puede envolver: la
-    // más larga del repositorio tiene 1.545 caracteres y es correcta. Los bloques de código
-    // tampoco: son comandos y salidas literales.
-    "MD013": { "line_length": 120, "tables": false, "code_blocks": false },
+    // ANCHO DE LÍNEA. Apagada, y no con el tope alto: con 120 y las tablas y el código afuera
+    // seguía dando 273 avisos, y una regla que avisa siempre es una regla que nadie mira. Los
+    // 273 son de tres clases y ninguna es un defecto: una ruta larga entre backticks --
+    // `${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/skills/...`, que no se puede partir--, los
+    // párrafos sin envolver de `danos-indice-doctrinario.md` -- hasta 537 caracteres, 130 de
+    // los 273 --, y prosa que pasó el margen por unas pocas letras. El ancho de línea es
+    // exactamente lo que `test_markdown.py` declara que NO mide: «no opina de estilo».
+    "MD013": false,
 
     // ESTILO DE TABLA: `compact`, un espacio de cada lado en toda celda, delimitador incluido
     // -`| --- | --- |`-. Se adoptó con `--fix`, que lo arregla solo. El estilo va DICHO y no
@@ -43,6 +46,17 @@
     // ESTILO DE BLOQUE DE CÓDIGO. Se usan las dos formas a propósito: cercas para comandos, y
     // sangría para los diagramas de árbol y el linaje de licencias.
     "MD046": false,
+
+    // PUNTUACIÓN AL FINAL DE UN ENCABEZADO. Los 21 avisos son todos de `derecho/evals/RUTEO.md`,
+    // donde el encabezado ES la consulta textual del usuario -«### R24 · Necesito cuantificar la
+    // incapacidad sobreviniente en un juicio de daños.»-. Es una oración, no un título, y
+    // sacarle el punto la desfigura. `ruteo.py` la lee con `^### (R\d+) · (.+?)$`.
+    "MD026": false,
+
+    // BLANCO DENTRO DE UNA CITA. Los 13 avisos son dos citas de bloque seguidas, separadas por un
+    // blanco a propósito: son dos notas distintas y GitHub las renderiza en dos cajas. La regla
+    // avisa por si fuera una sola partida; acá no lo es en ningún caso, medido uno por uno.
+    "MD028": false,
 
     // FRAGMENTOS DE LINK. Su slugger NO reproduce a GitHub: marca como roto `#-armar-el-proyecto`,
     // que funciona, porque no sabe que un emoji al principio deja su guion. `TestAncla` sí lo

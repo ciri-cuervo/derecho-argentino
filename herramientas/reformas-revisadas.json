@@ -1,60 +1,140 @@
 {
-  "_descripcion": "Veredicto de cada reforma que esta en el texto consolidado de fuentes/normas/ y ningun modulo nombra. Lo consume herramientas/reformas_no_leidas.py.",
-  "fijado": "2026-09-14",
-  "_criterio": "La capa de fuente primaria se actualiza sola y los modulos no: entre las dos cosas se abre una ventana en la que el repo tiene el articulo nuevo y la skill explica el viejo. El detector reporta candidatos; el veredicto se toma abriendo el modulo.",
+  "_descripcion": "Veredicto de cada reforma que está en el texto consolidado de fuentes/normas/ y ningún módulo nombra. Lo consume herramientas/reformas_no_leidas.py.",
+  "fijado": "2026-09-17",
+  "_criterio": "La capa de fuente primaria se actualiza sola y los módulos no: entre las dos cosas se abre una ventana en la que el repo tiene el artículo nuevo y la skill explica el viejo. El detector reporta candidatos; el veredicto se toma abriendo el módulo.",
   "_vocabulario": {
-    "no-toca-el-modulo": "la reforma cambia un articulo que el modulo no cubre: es correcto que no la nombre",
-    "absorbida": "el modulo ya explica la regla nueva, aunque no nombre la ley que la introdujo"
+    "no-toca-el-modulo": "la reforma cambia un artículo que el módulo no cubre: es correcto que no la nombre",
+    "absorbida": "el módulo ya explica la regla nueva, aunque no nombre la ley que la introdujo"
   },
-  "nota": "Repaso por modulo, no solo por norma: se agregan las dos reformas del art. 6 de la Ley 26.485 que familia.md tiene absorbidas en su catalogo de modalidades.",
+  "nota": "Repaso de septiembre de 2026, con la comparación por artículo además de la que va por norma. Los tres candidatos se leyeron contra el texto bajado: uno está absorbido en el módulo, uno es un artículo con sufijo que el detector atribuye al anterior, y uno toca un módulo que no trabaja ese articulado.",
   "reformas": {
     "cpccn-17454:27.500": {
-      "motivo": "declaro dia no laborable, sin articulado procesal; plazos.md 8 usa el CPCCN por sus arts. 124, 152 a 158, 244, 257, 282 y 285",
+      "motivo": "declaró día no laborable, sin articulado procesal; plazos.md 8 usa el CPCCN por sus arts. 124, 152 a 158, 244, 257, 282 y 285",
       "veredicto": "no-toca-el-modulo"
     },
     "ley-19032:26.422": {
-      "motivo": "art. 8, financiamiento del PAMI; salud-discapacidad.md 27 la cita por la cobertura de la poblacion pasiva, no por su financiamiento",
+      "motivo": "art. 8, financiamiento del PAMI; salud-discapacidad.md 27 la cita por la cobertura de la población pasiva, no por su financiamiento",
+      "veredicto": "no-toca-el-modulo"
+    },
+    "ley-19550:27.444": {
+      "motivo": "art. 8, organización del Registro Nacional de Sociedades por Acciones; societario.md 31 cubre contra quién se demanda y la responsabilidad de socios, administradores y directores, no el funcionamiento del registro",
       "veredicto": "no-toca-el-modulo"
     },
     "ley-19550:27.541": {
-      "motivo": "emergencia publica: toca los arts. 94 y 206 -disolucion por perdida del capital-, suspendidos por la emergencia; societario.md 31 cubre responsabilidad, arts. 21 a 26, 54, 55, 59, 60 y 274",
+      "motivo": "emergencia pública: toca los arts. 94 y 206 -disolución por pérdida del capital-, suspendidos por la emergencia; societario.md 31 cubre responsabilidad, arts. 21 a 26, 54, 55, 59, 60 y 274",
       "veredicto": "no-toca-el-modulo"
     },
     "ley-21526:26.173": {
-      "motivo": "arts. 9, 18 y 26 -sucursales de entidades extranjeras-; el unico modulo que la cita es datos-personales.md, y por el secreto financiero del art. 39",
+      "motivo": "arts. 9, 18 y 26 -sucursales de entidades extranjeras-; el único módulo que la cita es datos-personales.md, y por el secreto financiero del art. 39",
       "veredicto": "no-toca-el-modulo"
     },
     "ley-23592:25.608": {
-      "motivo": "sustituyo el art. 6 -multa a locales bailables-, no el art. 1, que es el unico que usa laboral.md 5.2 bis.1 para el despido discriminatorio",
+      "motivo": "sustituyó el art. 6 -multa a locales bailables-, no el art. 1, que es el único que usa laboral.md 5.2 bis.1 para el despido discriminatorio",
       "veredicto": "no-toca-el-modulo"
     },
     "ley-23737:27.502": {
-      "motivo": "incorporo sustancias al listado de estupefacientes por via del Decreto 560/19; penal.md 24.9.2 rutea el listado al decreto reglamentario en vez de transcribirlo, que es lo correcto porque se actualiza",
+      "motivo": "incorporó sustancias al listado de estupefacientes por vía del Decreto 560/19; penal.md 24.9.2 rutea el listado al decreto reglamentario en vez de transcribirlo, que es lo correcto porque se actualiza",
       "veredicto": "absorbida"
     },
+    "ley-23928:26.739": {
+      "motivo": "derogó los arts. 4 y 5, sobre el respaldo de la base monetaria en reservas; laboral.md cita la 23.928 por la prohibición de indexar de sus arts. 7 y 10, que siguen vigentes",
+      "veredicto": "no-toca-el-modulo"
+    },
+    "ley-24241:27.574": {
+      "motivo": "art. 77, inversiones del Fondo de Garantía de Sustentabilidad; previsional.md 32 cubre PBU, prestación compensatoria, retiro por invalidez y pensión, no la cartera del FGS",
+      "veredicto": "no-toca-el-modulo"
+    },
     "ley-24522:27.170": {
-      "motivo": "arts. 32, 200 y 288 -aranceles de verificacion y pequeno concurso-; concursos.md 29 cubre el cruce laboral: arts. 16, 21, 22, 132, 133, 241 y 246",
+      "motivo": "arts. 32, 200 y 288 -aranceles de verificación y pequeño concurso-; concursos.md 29 cubre el cruce laboral: arts. 16, 21, 22, 132, 133, 241 y 246",
       "veredicto": "no-toca-el-modulo"
     },
     "ley-25212:26.941": {
-      "motivo": "actualizo la escala de sanciones del Anexo II; laboral.md 5.18 ya advierte que esos importes estan viejos y manda verificarlos, que es la conclusion correcta cualquiera sea la ultima reforma",
+      "motivo": "actualizó la escala de sanciones del Anexo II; laboral.md 5.18 ya advierte que esos importes están viejos y manda verificarlos, que es la conclusión correcta cualquiera sea la última reforma",
       "veredicto": "no-toca-el-modulo"
     },
     "ley-25326:26.343": {
-      "motivo": "art. 47, amnistia de registros no inscriptos, agotada; datos-personales.md 30 cubre arts. 5 a 8, 14 a 17, 26, 27 y 33 a 43",
+      "motivo": "art. 47, amnistía de registros no inscriptos, agotada; datos-personales.md 30 cubre arts. 5 a 8, 14 a 17, 26, 27 y 33 a 43",
+      "veredicto": "no-toca-el-modulo"
+    },
+    "ley-26061:27.576": {
+      "motivo": "incorporó los incisos t), u) y v) al art. 44: plataformas digitales de información y asesoramiento, directrices para tratar la información que producen y campañas de difusión. Son funciones de la Secretaría Nacional de Niñez, Adolescencia y Familia; ningún módulo describe las competencias de ese órgano. La 26.061 se bajó como marco del sistema de protección integral que nombran penal-juvenil-pba.md 36 y familia.md 18",
       "veredicto": "no-toca-el-modulo"
     },
     "ley-26425:27.574": {
       "motivo": "cita al art. 75 de otra ley dentro de una nota; previsional.md 32 tiene absorbidos los arts. 1, 3 a 6, 16, 17, 18 y 20, que son los que usa",
       "veredicto": "no-toca-el-modulo"
     },
-    "ley-26485:27.533": {
-      "veredicto": "absorbida",
-      "motivo": "incorporo al art. 6 la modalidad de violencia publica-politica, inc. h; familia.md 18.6 ya enumera el catalogo completo de modalidades incluidas esa y la digital de la Ley 27.736, sin nombrar la ley que introdujo cada una"
-    },
     "ley-26485:27.501": {
       "veredicto": "absorbida",
-      "motivo": "incorporo al art. 6 la modalidad de violencia contra las mujeres en el espacio publico, inc. g; familia.md 18.6 ya enumera el catalogo completo de modalidades incluidas esa y la digital de la Ley 27.736, sin nombrar la ley que introdujo cada una"
+      "motivo": "incorporó al art. 6 la modalidad de violencia contra las mujeres en el espacio público, inc. g; familia.md 18.6 ya enumera el catálogo completo de modalidades incluidas esa y la digital de la Ley 27.736, sin nombrar la ley que introdujo cada una"
+    },
+    "ley-26485:27.533": {
+      "veredicto": "absorbida",
+      "motivo": "incorporó al art. 6 la modalidad de violencia pública-política, inc. h; familia.md 18.6 ya enumera el catálogo completo de modalidades incluidas esa y la digital de la Ley 27.736, sin nombrar la ley que introdujo cada una"
+    },
+    "ley-26589:27.222": {
+      "motivo": "art. 18, suspensión de la prescripción y la caducidad por la mediación prejudicial nacional; plazos.md 8 ya explica la regla con el texto reformado -dies a quo distinto según sea por acuerdo de partes, por sorteo o a propuesta del requirente- sin nombrar la ley que lo introdujo",
+      "veredicto": "absorbida"
+    },
+    "ley-26993:27.442": {
+      "motivo": "derogó los arts. 65 a 69, que eran la parte de defensa de la competencia; consumidor.md 17 cubre la relación de consumo y el sistema de resolución de conflictos, no la competencia",
+      "veredicto": "no-toca-el-modulo"
+    },
+    "ley-27150:27.482": {
+      "motivo": "sustituyó la denominación del título de la ley; penal.md 24 la cita por el cronograma de implementación del CPPF por distrito, que el cambio de título no mueve",
+      "veredicto": "no-toca-el-modulo"
+    },
+    "lnpa-19549:1:27.742": {
+      "veredicto": "no-toca-el-modulo",
+      "motivo": "el «art. 1» que amparo.md tiene junto a la mención de la Ley 19.549 es el art. 1 de la Ley 16.986 -el que excluye el hábeas corpus-, no el de la LNPA: las dos menciones caen en el mismo bloque de lista. Es la imprecisión conocida del método, que busca el artículo adentro del bloque y no sabe de cuál norma es"
+    },
+    "pba-ley-10397:15.558": {
+      "motivo": "art. 24, responsabilidad solidaria de los responsables por deuda ajena; tributario.md 33 cubre la prescripción del art. 56, la opción de recursos del art. 76 y la clausura, y no trata ese artículo",
+      "veredicto": "no-toca-el-modulo"
+    },
+    "pba-ley-11453:12.318": {
+      "motivo": "art. 3, integración de los Tribunales Colegiados de Instancia Única del Fuero de Familia; esos tribunales fueron disueltos por el art. 8 de la Ley 13.634 y familia.md 18 explica la estructura vigente, no la anterior",
+      "veredicto": "no-toca-el-modulo"
+    },
+    "pba-ley-12008:14.437": {
+      "motivo": "art. 51, costas en el proceso contencioso administrativo bonaerense; contencioso-pba.md 26 cubre materia, agotamiento, silencio, plazo, pago previo, cautelares y recursos, y no desarrolla el régimen de costas",
+      "veredicto": "no-toca-el-modulo"
+    },
+    "pba-ley-13074:15.520": {
+      "motivo": "art. 3, quién se inscribe en el Registro de Deudores Alimentarios Morosos; familia.md 18 ya lo describe con el texto reformado -sentencia firme, convenio homologado o resolución, previa intimación- sin nombrar la ley que lo introdujo",
+      "veredicto": "absorbida"
+    },
+    "pba-ley-13133:1:15.407": {
+      "veredicto": "no-toca-el-modulo",
+      "motivo": "el art. 1 de la Ley 13.133 es la cláusula de objeto del régimen provincial de consumo. Quien lo trabaja es consumidor.md; danos-indice-doctrinario.md es el índice de una obra comercial y lo nombra de costado, no explica su articulado"
+    },
+    "pba-ley-13133:3:15.410": {
+      "motivo": "art. 3, objetivos de la acción gubernamental de protección al consumidor -políticas de regulación, acceso, educación y solución de conflictos-. Es programático y ningún módulo lo cubre: de la Ley 13.133 se trabajan los arts. 1, 6, 14, 19, 25, 52, 53 y 55, que son procedimiento y sanciones. El candidato salió de una fila del changelog que nombra «arts. 3, 4, 4 bis y 5» de un acuerdo de la SCBA, no de esta ley",
+      "veredicto": "no-toca-el-modulo"
+    },
+    "pba-ley-13298:14.537": {
+      "motivo": "art. 19, funciones de los Servicios Locales de Protección de Derechos; penal-juvenil-pba.md 36 los describe desde el art. 18 y remite al 19 por sus funciones, con el texto ya bajado",
+      "veredicto": "absorbida"
+    },
+    "pba-ley-13927:48:15.143": {
+      "veredicto": "absorbida",
+      "motivo": "la Ley 15.143 dio al art. 48 el texto que exige casco homologado y chaleco reflectante, y transito.md 28 lo explica así -«casco y chaleco reflectante en moto, ciclomotor o triciclo»- cotejado contra el texto bajado. Explica la regla vigente sin nombrar la ley que la introdujo"
+    },
+    "pba-ley-13927:48:15.321": {
+      "veredicto": "no-toca-el-modulo",
+      "motivo": "la nota dice «Artículo incorporado por Ley 15.321» y corresponde a un artículo con sufijo -48 bis-, no al 48: el detector se lo atribuye al último artículo de numeración simple que lo precede. El art. 48 sigue con el texto de la Ley 15.143"
+    },
+    "pba-ley-13951:15.182": {
+      "motivo": "art. 15, comparecencia personal de las partes en la mediación presencial; los módulos citan la 13.951 por el efecto de su art. 40 sobre la prescripción -plazos.md 8- y no por el régimen de asistencia a las sesiones",
+      "veredicto": "no-toca-el-modulo"
+    },
+    "pba-ley-15170:15.079": {
+      "motivo": "art. 91, sustituye una fecha dentro del art. 1 de la Ley 11.518; ningún módulo cubre esa ley ni esa prórroga",
+      "veredicto": "no-toca-el-modulo"
+    },
+    "pba-ley-5827:15.483": {
+      "motivo": "art. 33, número de miembros y salas de cada Cámara de Apelación; familia.md cita la Ley 5.827 por su art. 38, que es qué órgano es la alzada, no por cuántos jueces la integran",
+      "veredicto": "no-toca-el-modulo"
     }
   }
 }

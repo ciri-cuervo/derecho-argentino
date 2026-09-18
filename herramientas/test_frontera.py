@@ -92,7 +92,7 @@ class TestFronteraPortatil(unittest.TestCase):
     def test_fijar_no_se_come_el_sobre(self):
         """REGRESIÓN: `--fijar` escribía el registro de cero y borraba `_descripcion` y
         `_criterio`, que son lo que explica qué es ese archivo. El test que exige el sobre
-        completo vive en otro suite, así que el repo quedaba roto recién después de fijar,
+        completo vive en otra suite, así que el repo quedaba roto recién después de fijar,
         que es la única vez que nadie mira. Acá se fija contra una copia, no contra el
         registro de verdad."""
         with tempfile.TemporaryDirectory() as d:

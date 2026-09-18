@@ -1,14 +1,14 @@
 Decreto 84/2026 - Reglamentación de la Ley 27.793 (Emergencia Nacional en Discapacidad)
 ==============================================================================
-Jurisdiccion:     nacional
+Jurisdicción:     nacional
 Fuente:           https://servicios.infoleg.gob.ar/infolegInternet/anexos/420000-424999/422915/norma.htm
-Descargado:       2026-09-15
+Descargado:       2026-09-17
 SHA-256 (crudo):  cef57e7dc19b83ff72672ec6e76e441867aad0d9f3679b47f5d3be33f06fe37c
 Charset:          ISO-8859-1
 
-Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
-NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
-Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
 el manifiesto `normas.json`.
 ==============================================================================
 

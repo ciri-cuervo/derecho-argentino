@@ -1,12 +1,14 @@
 # Fallos de la CSJN verificados · índice
 
-> Módulo de referencia de la skill `derecho-argentino`. Numeración global, sección 34.
+> Módulo de referencia de la skill `derecho-argentino`. Numeración global: las remisiones cruzadas
+> entre módulos siguen siendo válidas. **Rigen las reglas de integridad de la sección 2 del
+> SKILL.md.**
 
 ---
 
 ## 34 · Leading cases de la Corte Suprema
 
-Los 39 fallos de la CSJN que están **descargados en `fuentes/jurisprudencia/`**, con su hash de
+Los fallos de la CSJN **descargados en `fuentes/jurisprudencia/`**, con su hash de
 procedencia. Para cada uno: la **carátula oficial**, la cita de la colección **Fallos** y la
 **fecha**, todo tomado del registro de la Secretaría de Jurisprudencia — no de una fuente
 secundaria.
@@ -85,11 +87,12 @@ Con eso el auditor confirma **identidad en los 64** y ya no queda ningún fallo 
 > medidas automáticas que fallaban contra un caso conocido, y tres de ellas buscaban detectar
 > la "mezcla" que después resultó no existir: estaban midiendo un fenómeno inventado.
 >
-> **Los 63 documentos están leídos**, uno por uno, cabecera y una franja del medio —el medio
-> importa: "Santa Coloma" tiene la cabecera impecable y las sustituciones aparecen en el
-> cuerpo—. Al 14/09/2026: **53 se transcriben sin más**, **4 piden `-layout`** y **6 tienen
-> defecto real** —tres destruidos y tres con sustituciones—. Los seis tienen su copia recuperada
-> en `ocr/`, así que **hoy hay texto legible de los 63**: 57 directo del PDF y 6 por relectura,
+> **Cada documento se lee uno por uno**, cabecera y una franja del medio —el medio importa:
+> "Santa Coloma" tiene la cabecera impecable y las sustituciones aparecen en el cuerpo—. El
+> repaso del **14/09/2026** cerró sobre 63 documentos: **53 se transcribían sin más**, **4 pedían
+> `-layout`** y **6 tenían defecto real** —tres destruidos y tres con sustituciones—. Los seis
+> quedaron con su copia recuperada en `ocr/`, así que había texto legible de los 63: 57 directo
+> del PDF y 6 por relectura,
 > éstos con cotejo obligatorio.
 >
 > Ese reparto cambió dos veces y las dos por leer, no por estimar. Primero, cinco documentos que
@@ -169,7 +172,7 @@ O'Connor, Belluscio, Boggiano, López, Bossert y Vázquez, con **Petracchi en di
 > confundirlos: en 1986 la Corte declaró inconstitucional la incriminación de la tenencia para
 > consumo personal, en 1990 "Montalvo" volvió sobre sus pasos, y en 2009 "Arriola" retomó la
 > línea de "Bazterrica". El material heredado los tenía etiquetados como si fueran el mismo
-> fallo. Para el encuadre vigente, `penal.md` 24.9.2.
+> fallo. Para el encuadre vigente, `penal-leyes-especiales.md` 24.9.2.
 
 Los tres holdings que siguen se escribieron el 14/09/2026 **contra el texto recuperado en `ocr/`**,
 porque la capa de texto de estos PDF está destruida. Las citas literales se cotejaron contra la
@@ -251,7 +254,7 @@ formado la mayoría de "Bazterrica".
 > **Cómo se cita esta línea sin equivocarse.** "Montalvo" es de 1990 y **"Arriola" (Fallos
 > 332:1963, 25/08/2009) declaró la inconstitucionalidad del art. 14, segundo párrafo, de la ley
 > 23.737** —el mismo texto que "Montalvo" llama "segunda parte"— aplicando el estándar de
-> "Bazterrica": el alcance exacto, leído contra el documento, está en `penal.md` 24.9.2. O sea que
+> "Bazterrica": el alcance exacto, leído contra el documento, está en `penal-leyes-especiales.md` 24.9.2. O sea que
 > **"Montalvo" ya no es el derecho vigente sobre el punto**: sirve para reconstruir la línea o para
 > el período en que rigió, no para fundar una punición hoy. Y del otro lado, "Bazterrica" resolvió
 > sobre el art. 6º de la ley 20.771, que "Montalvo" ya trata como ley anterior reemplazada por el
@@ -264,7 +267,7 @@ formado la mayoría de "Bazterrica".
 | --- | --- | --- | --- |
 | **Aquino, Isacio c/ Cargo Servicios Industriales S.A.** | Fallos 327:3753 | 21/09/2004 | `csjn-aquinoisacio-fallos-327-3753` |
 | **Aróstegui, Pablo Martín c/ Omega ART S.A. y Pametal Peluso y Cía. S.R.L.** | Fallos 331:570 | 08/04/2008 | `csjn-arosteguipablomartin-fallos-331-570` |
-| **Pogonza, Jonathan Jesús c/ Galeno ART S.A. s/ accidente — ley especial** | CNT 14604/2018/1/RH1 | 02/09/2021 | `csjn-pogonza-2021-09-02` |
+| **Pogonza, Jonathan Jesús c/ Galeno ART S.A. s/ accidente — ley especial** | Fallos 344:2307 · CNT 14604/2018/1/RH1 | 02/09/2021 | `csjn-pogonza-2021-09-02` |
 
 **"Aquino"** (verificado contra el documento): la Cámara había declarado inconstitucional el
 **art. 39 inc. 1 de la Ley 24.557** —que exime al empleador de responsabilidad civil frente al
@@ -276,8 +279,8 @@ Encuadre en `laboral.md` 5.8.
 había rechazado la reparación con base en el derecho común, y devolvió para nuevo
 pronunciamiento. Se cita por el estándar de reparación y por el modo de cuantificar.
 
-**"Pogonza, Jonathan Jesús c/ Galeno ART S.A."** (CNT 14604/2018/1/RH1, 02/09/2021), leído contra el
-documento el 14/09/2026. **Es el fallo que valida la instancia administrativa previa ante las
+**"Pogonza, Jonathan Jesús c/ Galeno ART S.A."** (Fallos 344:2307, CNT 14604/2018/1/RH1,
+02/09/2021), leído contra el documento el 14/09/2026. **Es el fallo que valida la instancia administrativa previa ante las
 comisiones médicas** de la Ley 27.348: la Corte **confirmó** la sentencia que había ordenado el
 archivo por no estar cumplida esa instancia, o sea **rechazó el planteo de inconstitucionalidad**.
 Firman Rosenkrantz, Highton y Maqueda; costas por su orden.
@@ -312,7 +315,7 @@ contingentes". Sobre eso, la Corte verifica cuatro recaudos:
 > ley 27.348) — posibilidad que la ley 24.557 original había vedado, y que por eso cayó en
 > **"Aquino"**. La instancia previa es un requisito de acceso, no una renuncia a la vía civil.
 
-`[INSERTAR FALLO VERIFICADO: doctrina de la CSJN sobre las CONDICIONES de la opción del art. 4 de la Ley 26.773 -momento, forma y efectos de la renuncia- que ninguno de los cargados desarrolla. "Pogonza" (2021) menciona ese artículo para decir que la instancia previa no cierra la via civil, y hasta ahi llega. Ver laboral.md 5.8.6 y el marcador de "Vera"]`
+`[INSERTAR FALLO VERIFICADO: doctrina de la CSJN sobre las CONDICIONES de la opción del art. 4 de la Ley 26.773 -momento, forma y efectos de la renuncia- que ninguno de los cargados desarrolla. "Pogonza" (2021) menciona ese artículo para decir que la instancia previa no cierra la vía civil, y hasta ahi llega. Ver laboral.md 5.8.6 y el marcador de "Vera"]`
 
 ### 34.4 Civil y daños
 
@@ -702,7 +705,7 @@ se la negaron porque el art. 1.e del anexo I del **decreto 432/97** (texto origi
 extranjeros **20 años de residencia**. La Corte revocó. **5 a 2**: Fayt y Zaffaroni, con Petracchi,
 Maqueda y Argibay según sus votos; **Lorenzetti y Highton en disidencia**.
 
-`[VERIFICAR VIGENCIA: art. 9 de la Ley 13.478, pensión por invalidez - la ley es de 1948 e InfoLEG no publica normas de esa epoca; cotejar contra el Boletin Oficial de 1948 o contra el texto transcripto en el propio fallo, nunca contra una fuente secundaria]`
+`[VERIFICAR VIGENCIA: art. 9 de la Ley 13.478, pensión por invalidez - la ley es de 1948 e InfoLEG no publica normas de esa época; cotejar contra el Boletín Oficial de 1948 o contra el texto transcripto en el propio fallo, nunca contra una fuente secundaria]`
 
 - **Primero desarma el argumento de la no justiciabilidad**, que es lo que había usado la cámara: el
   beneficio no deriva de la facultad de "dar pensiones" del art. 75.20 CN —las graciables— sino de
@@ -733,13 +736,13 @@ Maqueda y Argibay según sus votos; **Lorenzetti y Highton en disidencia**.
 
 ### 34.7 Las nueve citas que no tienen documento
 
-Aparecen en el material heredado pero **el buscador de la Secretaría no devuelve un documento
+Aparecen en el material heredado, pero **el buscador de la Secretaría no devuelve un documento
 descargable** para ellas. No se les inventa URL: van con marcador hasta que se resuelvan por otra
 vía —el tomo impreso, o `sjservicios.csjn.gov.ar/sj/verTomo`, según `fuentes/jurisprudencia/INDICE.md`,
 con las tres limitaciones que ese archivo describe—.
 
-**Lo que importa no es que falten, sino en qué rol se usan.** Medido en septiembre de 2026 sobre SKILL.md y
-los 30 módulos: **ninguna de las nueve se cita como autoridad propia**. Las cuatro que están en
+**Lo que importa no es que falten, sino en qué rol se usan.** Medido en septiembre de 2026 sobre
+`SKILL.md` y los módulos de `references/`: **ninguna de las nueve se cita como autoridad propia**. Las cuatro que están en
 juego se citan **a través de un fallo que sí está bajado y leído**, que es el modo correcto, y
 cuatro no las usa nadie.
 
@@ -757,10 +760,28 @@ atribuye así. Bajar los tomos sigue siendo deseable —para poder transcribir "
 referirlo por "Quaranta"—, pero no es una deuda de integridad.
 
 De **312:201** y **343:1691** el buscador directamente no devolvió resultados, y no las usa ningún
-módulo: antes de darlas por existentes hay que cotejar la cita, que puede estar mal en el material
-heredado.
+módulo. **Pero las dos ausencias no valen lo mismo, y conviene no leerlas juntas.**
 
-`[VERIFICAR CITA DE FALLOS: Fallos 312:201 y 343:1691 - el buscador de la Secretaria de Jurisprudencia no devuelve resultados para esas dos citas. Cotejar tomo y pagina antes de usarlas]`
+El año del tomo sale de los fallos ya verificados de este repositorio, no de memoria: el 342 es
+de 2019 y el 344 de 2021, así que **el 343 es de 2020**; y el 312 cae entre el 308, de 1986, y el
+313, de 1990.
+
+- **343:1691 es de 2020.** Consultado el **17/09/2026** por `tomo:página` encadenando las dos
+  llamadas desde un navegador, el formulario contestó *"No hay resultados para la búsqueda
+  ingresada"* y el paginador devolvió una colección vacía. La consulta **corrió**: la respuesta
+  es un vacío legítimo, no un error.
+  **De ahí todavía no se concluye que la cita esté mal.** Esa URL es de `consultaSumarios`, y la
+  base de sumarios va de 1863 a 2026: un nulo puede querer decir que no hay **sumario** indexado
+  en esa página, no que no haya fallo. Distinguir las dos cosas exige correr el mismo camino
+  sobre una cita **conocida** de la misma época y ver si la devuelve; hasta eso, la ausencia se
+  anota y no se interpreta.
+- **312:201 es de alrededor de 1989, antes del corte.** Su ausencia es la ordinaria y **no dice
+  nada sobre la cita**, en un sentido ni en el otro — con la salvedad de que el corte es blando y
+  hay fallos anteriores que sí tienen `idFallo`.
+
+`[VERIFICAR CITA DE FALLOS: Fallos 343:1691 - el tomo 343 es de 2020 y queda dentro de la cobertura declarada de la base, así que el resultado nulo del buscador apunta a un error de la cita heredada. Cotejar tomo y página contra el documento antes de usarla]`
+
+`[VERIFICAR CITA DE FALLOS: Fallos 312:201 - el tomo 312 es de alrededor de 1989 y el buscador no devuelve resultados, pero esa ausencia se explica por el corte de cobertura y no prueba que la cita esté mal. Resolver por el tomo, no por el buscador]`
 
 ### 34.8 Estado de los holdings
 

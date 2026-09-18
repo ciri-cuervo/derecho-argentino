@@ -1,0 +1,336 @@
+Acuerdo 4013/2021 SCBA - Reglamento para las Notificaciones y Presentaciones Electrónicas (texto en normas.gba)
+==============================================================================
+Jurisdicción:     pba
+Fuente:           https://normas.gba.gob.ar/documentos/VNaMzNFM.html
+Descargado:       2026-09-17
+SHA-256 (crudo):  4ca39643c8a6c43614020160f65d7c7f441d3878a4ae5b60403744375f56c9f2
+Charset:          UTF-8
+
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
+el manifiesto `normas.json`.
+==============================================================================
+
+Resolución 4013/2021
+
+SUPREMA CORTE DE JUSTICIA
+
+
+
+Nuevo reglamento de presentaciones electrónicas
+
+
+
+Acuerdo Nº 4013
+
+
+
+
+
+
+VISTO: La persistencia de la pandemia de COVID-19 (coronavirus), en la Provincia de Buenos, el estado de emergencia sanitaria, el desarrollo de la situación epidemiológica y la continuidad de las limitaciones a las actividades presenciales y de medidas de distanciamiento social, así como la necesidad de actualizar los instrumentos reglamentarios y técnicos para mejorar la eficacia del servicio de justicia; y,
+
+
+
+CONSIDERANDO:
+
+
+
+1º) Que esta Suprema Corte de Justicia ha realizado una tarea continua, orientada a la consolidación de grados crecientes de mejora en la gestión por medio del uso intensivo de las tecnologías de la información y la comunicación aplicadas al servicio.
+
+
+
+2º) Que, en el último año, signado por un entorno de extrema dificultad, ello se ha profundizado de manera ostensible, en celeridad, dirección estratégica y efectividad. Cierto es que la transformación del desempeño judicial, en gran medida ha sido acelerada por la crisis derivada de la grave pandemia de COVID-19 (coronavirus) por la que atraviesa toda la humanidad y a la que no escapa nuestro país. Pero importantes reformas tuvieron comienzo en períodos anteriores.
+
+
+
+3º) Que, así, respecto de ambos períodos, cabe mencionar a título meramente ejemplificativo, los siguientes instrumentos: i] la organización de la "Mesa de Entrada Virtual" (Resoluciones N° 545/2006, 2234/2014, 2678/2017 y modificatorias); ii] la interacción con sistemas digitales de variadas organizaciones, a partir de un marco general (acuerdo N° 3733) reguladora de la celebración de Convenios de Colaboración Tecnológica; iii] la subasta judicial electrónica (acuerdo N° 3604; Resoluciones N° 2235/2015; 289/2019; y, 2129/2015); iv] el inicio remoto de procesos (Resoluciones N° 3563/2011; 3027/2014; 662/2009, 753/2008; 2/2008; 912/2008; 2088/2017, 593/20); v] la puesta en macha de los Registros Públicos de datos informatizados, de Violencia Familiar (acuerdo N° 3690 y Resolución del Presidente N° 140/2015); de Procesos Colectivos (acuerdo N° 3660); y de Datos Genéticos (Resolución N° 37/2019); vi] la generalización de la firma digital (Acuerdos N° 3891 y 3971); vii] el pago electrónico de la tasa de justicia (Resolución N° 761/20); viii] las pautas de actuación al procedimiento aplicable en los fueros Penal y de Responsabilidad Penal Juvenil (Resolución N° 567/20); ix] la configuración integral del expediente digital (acuerdo N° 3975); x] los protocolos para la realización de audiencias total o parcialmente telemáticas (Resoluciones N° 816/20 y 1249/20); xi] las pautas de actividad para los órganos jurisdiccionales y administrativos pertenecientes de las cabeceras departamentales (Resolución N° 1250/20); y, xii] el Registro de Domicilios Electrónicos (Acuerdo N° 3989 t.o.), entre otros,
+
+
+
+4º) Que por obra de la adaptación al quehacer cotidiano de una serie de innovaciones tecnológicas en correspondencia con una multiplicidad de cambios en los procesos de trabajo y de la implantación de un agregado sistemático de reformas normativas, el funcionamiento en el Poder Judicial de la provincia -casi en la totalidad de las oficinas y órganos que lo componen- opera en fase digital. En la generalidad de los casos, las decisiones, actuaciones y trámites judiciales, las intervenciones de los auxiliares de la justicia y las presentaciones de los letrados, son generadas y firmadas digitalmente, salvo cuando circunstancias graves y excepcionales o la especial naturaleza del trámite impidan esa modalidad. Y gran parte de ellas se trabajan y rubrican a distancia.
+
+
+
+5º) Que, desde luego, para hacer viable esa pauta general de actuación, tanto el sistema de notificaciones electrónicas (acuerdo N° 3845) como el régimen de presentaciones por medios electrónicos (acuerdo N° 3886) son esenciales, pues en gran medida en ellos anida la clave de una eficaz gestión digital de los procesos.
+
+
+
+6º) Que, por lo demás, no sobreabunda señalar que, como se dijera en la Resolución N° 480/20, los esfuerzos de la Administración de Justicia destinados a procurar el mayor aprovechamiento de las funcionalidades técnicas disponibles para hacer posible la tramitación remota de procesos mediante el trabajo domiciliario por medios informáticos, han sido realizados, se mantienen y perfeccionan, en un contexto de estrechez presupuestaria.
+
+
+
+7º) Que la experiencia acumulada, la práctica judicial y las aportaciones recibidas de diferentes profesionales del derecho, determinan la necesidad de actualizar algunos de los contenidos previstos de estos instrumentos, y de unificarlos en un régimen común de gestión.
+
+
+
+8º) Que con esa finalidad cabe sancionar el presente acuerdo que demarca una nueva fase en el proceso de trasformación del sistema jurisdiccional.
+
+
+
+9º) Que la norma deroga los acuerdos N° 3845 y N° 3886 para refundir sus respectivos contenidos sustantivos en un reglamento unificado y actualizado.
+
+
+
+10º) Que, en materia de notificaciones, se generaliza la notificación automática o autonotificable. Ello lleva a superar en los hechos la funcionalidad de la distinción entre las notificaciones ministerio legis y por cédula, a favor de la expansión casi absoluta del sistema automático de comunicación de los actos procesales.
+
+
+
+11°) Que, de tal modo, en relación con las notificaciones por ministerio de la ley, el nuevo régimen con su propia dinámica y estructura de funcionamiento, toma innecesario el asiento de la nota en el libro de asistencia.
+
+
+
+12°) Que, al tiempo que el reglamento establece los supuestos de exclusión de la modalidad de notificación automática (entre otros, los casos de traslado de la demanda, citación de terceros y mandamientos, ciertas medidas cautelares), en el texto del presente acuerdo se han previsto normas específicas destinadas a atender situaciones especiales.
+
+
+
+13°) Que, en orden al punto de partida de los efectos derivados de los actos de comunicación, se mantiene la modalidad de cómputo vigente. De tal suerte, todas las notificaciones electrónicas, por regla, se tienen por notificadas los días martes y viernes posteriores a su dictado.
+
+
+
+14°) Que, por último, se prevé el uso del telegrama electrónico (nuevo artículo 2 bis del Acuerdo N° 3989), como un nuevo medio de notificación, fundado en el régimen al que alude el artículo 12 de la ley 15.230, en la admisión o habilitación competencial que esta norma legal hace en favor de la potestad reglamentaria de la Suprema Corte, y que se encontraba contemplado en el propio art. 9 del acuerdo N° 3989. Una vez completada su instrumentación será aplicable en todos los casos en los que -por cualquier motivo- no se pueda utilizar el régimen de notificación electrónica.
+
+
+
+15°) Que, en materia de presentaciones, se reafirma la generalización de los escritos electrónicos, limitándose los supuestos de articulación en soporte papel a hipótesis excepcionales.
+
+
+
+16°) Que, en atención a la actividad desplegada el año pasado, se ha resuelto incorporar al sistema general que se organiza en este acuerdo, las normas de la Resolución N° 34/10 de esta Suprema Corte relativas a la presentación en formato PDF de escritos con firma del patrocinado.
+
+
+
+17°) Que, asimismo, se extiende el ingreso electrónico de documentos. Todos ellos por principio deben ser agregados al proceso de manera digital.
+
+
+
+18°) Que, a la vez, la exigencia del acompañamiento de copias en soporte papel, evidentemente cede ante la copia en formato digital (demanda, traslados) o la individualización precisa de las piezas digitales que obran en el expediente (v.gr. recursos de queja), evitándose con ello la adopción de soluciones caracterizadas por un excesivo rigor formal.
+
+
+
+19°) Que, por fin, se dispone la conformación de Mesas de Ayuda para asistencia de los justiciables en materia de notificaciones electrónicas respecto de los medios de acceder a la documentación, se establecen reglas puntuales sobre elaboración y suscripción digital de oficios y se instituye un régimen especial para personas con capacidades disminuidas en el orden visual. A este respecto se permite continuar con la tramitación en papel, confiriéndose a los órganos judiciales facultades para disponer el mejor modo de garantizar la accesibilidad y utilización de los documentos involucrados en el proceso.
+
+
+
+20º) Que la limitación contenida en el primer párrafo del inc. Io del art. 166 del CPCC debe ser interpretada sobre la base de una inteligencia que armonice con las exigencias impuestas por el funcionamiento digital de la Administración de Justicia y las propias que resultan del régimen de notificaciones automatizadas. Por eso, así como la ley ritual permite el ejercicio de la facultad correctiva respecto de los errores puramente numéricos, difiriéndolo bastante más allá de notificado el acto (art. 166 cit., inc. Io, último párrafo), en este reglamento se habilita una potestad excepcional para la rectificación de errores materiales. Ella debe efectuarse de manera prácticamente inmediata, esto es, dentro de los dos (2) días de firmada la sentencia definitiva, y mediante otro pronunciamiento expreso.
+
+
+
+21°) Que, de conformidad con lo oportunamente dispuesto por Resolución de Presidencia SPL N° 14/20 y en atención que existe un universo de personas no videntes o con disminución visual que no manejan ni cuentan con las herramientas tecnológicas necesarias para su correcto y completo desenvolvimiento en las causas en las que intervienen cualquiera sea su rol, también se ha previsto la excepción o no obligatoriedad de las mismas al régimen instituido por el presente. Ello así, sin perjuicio de los desarrollos que a tal fin lleven adelante la Subsecretaría de Tecnología Informática en colaboración con las demás áreas competentes de la Suprema Corte de Justicia y la Comisión de Discapacidad del Colegio de Abogados de la Provincia de Buenos Aires.
+
+
+
+22°) Que, a tenor del Informe Anual de Gestión (2020 - 2021) publicado el 13 de abril del corriente en el sitio web de esta Suprema Corte, la intensificación de la administración digital y a distancia ha sido la clave para evitar la parálisis a la que, de no haberse emprendido ese camino, hubiera conducido la vigencia de las severas restricciones impuestas por la pandemia. Así, en vista de las graves circunstancias, se ha logrado en un adecuado nivel de actividad de todos los fueros e instancias de la Administración de Justicia. En tal sentido, valorando todo el período de la emergencia sanitaria, entre abril de 2020 y marzo de 2021, se efectuaron 30.146.440 trámites judiciales, lo que representa el 86% en relación con el mismo lapso de 2019/2020.
+
+
+
+23°) Que al mismo tiempo se registraron 19.307.135 notificaciones y presentaciones electrónicas, superando en 2.992.865 las realizadas en idéntico ciclo 2019/2020.
+
+
+
+24°) Que, entre abril de 2020 y marzo de 2021 ingresaron a los organismos jurisdiccionales de los distintos fueros e instancias 840.588 causas, lo que representa el 76% de las causas ingresadas en el mismo período de 2019/2020. De ese universo, 64.867 corresponden al bimestre abril- mayo 2020; 126.635 a los meses de junio-julio 2020; 148.064 al período agosto-septiembre 2020; 162.809 a octubre-noviembre 2020; 144.069 al ciclo diciembre 2020-enero 2021; y 194.144 a febrero-marzo 2021, cifras que evidencian una evolución firme y sostenida.
+
+
+
+25°) Que la profundización del uso de las tecnologías ha redundado en un incremento de la cantidad de sentencias expedidas por los tribunales de alzada. Desde el inicio de la emergencia hasta el mes de marzo de 2021 inclusive, la Suprema Corte emitió 7.103 sentencias y resoluciones registrables, un 48 % más que en el mismo período de 2019-2020. Las Cámaras de Apelaciones de todos los fueros dictaron 103.607 sentencias y resoluciones registrables entre abril 2020 - marzo 2021, un 14% más de las pronunciadas en el mismo ciclo de 2019-2020. En cuanto concierne a los órganos de primera instancia, la performance fue equivalente al 75 % de las sentencias pronunciadas en el período 2019-2020. Finalmente, la Justicia de Paz, entre abril 2020 y marzo 2021, dictó 80.168 fallos y resoluciones, el 87% de lo dispuesto en el mismo calendario de 2019-2020.
+
+
+
+26°) Que estos registros objetivos ponen de relieve que, aún frente a las gravísimas dificultades generadas por la pandemia, el servicio de justicia no sólo no se ha detenido, sino que ha innovado progresivamente su funcionamiento, entre otros motivos, por el tipo de regulaciones establecidas en dicho período por esta Corte que han viabilizado un mejor aprovechamiento de las tecnologías de la información y las telecomunicaciones. 27°) Que las reformas que el presente acuerdo aprueba se inscriben en la dirección señalada: consolidar y optimizar, en términos de economía de trámites y celeridad, los estándares logrados. En este plano el sistema de presentaciones y comunicaciones por medios electrónicos constituye una pieza fundamental para el desenvolvimiento eficaz de los órganos jurisdiccionales. 28°) Que, sin perjuicio de lo expuesto, se estima pertinente someter la presente normativa a una instancia de participación abierta a la comunidad jurídica, para lo cual se habilita a la presidencia de la Suprema Corte la convocatoria a una consulta a los fines de recibir sugerencias y observaciones que contribuyan a perfeccionar el régimen diseñado en este acuerdo. 29°) Que, en definitiva, las trasformaciones mencionadas han de coadyuvar al afianzamiento de la tutela judicial efectiva de los derechos de las personas (art. 15 de la Const. prov.).
+
+
+
+POR ELLO, la Suprema Corte, en ejercicio de sus atribuciones (arts. 32, inc. “s” de la ley 5827, 8 de la ley 14142 y 12 de la ley 15230; 143 bis y 834, del CPCC; y con arreglo a lo dispuesto en el artículo 4 del Acuerdo N 3971).
+
+
+
+ACUERDA
+
+
+
+Artículo 1º: Se aprueba el nuevo "Reglamento para las presentaciones y las notificaciones por medios electrónicos" que, como Anexo I, forma parte integrante del presente. Dicho reglamento se aplicará en forma obligatoria a todos los procesos en los que sean aplicables las normas sobre notificaciones, comunicaciones y presentaciones previstas en el Código Procesal Civil y Comercial de la Provincia o en los que éste se aplique supletoriamente. La Presidencia del tribunal queda autorizada a organizar e implementar los mecanismos de consulta participativos que estimare convenientes a los fines de recibir sugerencias y observaciones orientadas al perfeccionamiento de la normativa comprendida en el presente acuerdo.
+
+
+
+Artículo 2º: Se aprueba el modelo de formulario de Notificación Electrónica, que como Anexo II forma parte integrante del presente. Dicho instrumento será utilizado para la notificación electrónica de los actos enumerados en el Artículo 1 Io inc. “c” del Anexo I.
+
+
+
+Artículo 3º: En aquellos casos en los que, por no resultar de aplicación lo dispuesto en el capítulo II del Anexo I, fuere indispensable la notificación por cédula, se observarán las reglas establecidas en el Anexo III, que por el presente se aprueba.
+
+
+
+Artículo 4º: Se incorpora como artículo 2 bis del Acuerdo 3989, texto ordenado, y modificatorios el siguiente: Artículo 2 bis: “En los casos en que se disponga el traslado de la demanda, la intimación de pago, la citación como tercero, la intervención de la contraria en los supuestos de diligencias preliminares y cautelares anticipadas, y siempre que el destinatario no tuviere un domicilio electrónico inscripto en el Registro de Domicilios Electrónicos por no estar comprendido en el ámbito de aplicación de este reglamento, la notificación podrá diligenciarse, a opción de la parte interesada, a través de telegrama electrónico, de conformidad a la reglamentación específica que dicte el Tribunal y los convenios que hubiera celebrado de acuerdo a ¡o prescripto en el artículo 9 apartado (i) ”.
+
+
+
+Artículo 5º: La Subsecretaría de Tecnología Informática implementará las medidas necesarias para el pleno funcionamiento del presente régimen en un plazo no mayor de 45 (cuarenta y cinco) días corridos contados desde la fecha de perfeccionamiento de este Acuerdo. La Secretaría de Planificación tendrá un plazo de 15 (quince) días corridos contados desde la fecha de terminación de la instancia participativa a la que se refiere el artículo primero último párrafo de este Acuerdo, para procesar y elaborar el informe final relativo a los aportes recibidos y elevarlos a la Presidencia de este Tribunal.
+
+
+
+Artículo 6º: La Presidencia de la Suprema Corte de Justicia realizará y publicará en el Boletín Oficial, así como en el sitio web del Tribunal, un texto ordenado del Acuerdo 3989. Artículo 7º: La Suprema Corte de Justicia implementará canales de consulta y asesoramiento a fin de brindar asistencia técnica a las personas humanas destinatarias de los actos procesales de comunicación regidos por el presente Acuerdo y por el Acuerdo 3989, a fin de facilitarles el acceso a la documentación involucrada en los mismos y la comprensión de los alcances del acto comunicado, prestando atención preferencial a los sujetos que integren grupos especialmente vulnerables. Artículo 8º: El régimen aprobado por el presente Acuerdo, integrado en su caso con los aportes y revisiones resultantes de la instancia participativa prevista en el artículo 1 °, último párrafo, entrará en vigencia a los 60 (sesenta) días corridos de perfeccionado el trámite de su rúbrica. A partir de esta entrada en vigencia quedarán derogados los Acuerdos 3845 y 3886. Las normas contenidas en el artículo 18° entrarán en vigencia de manera inmediata, sin perjuicio de su consideración en la instancia de participación antes mencionada. Artículo 9o: Regístrese, comuníquese vía electrónica, publíquese en el Boletín Oficial y en la página Web de la Suprema Corte de Justicia, encomendando a la Dirección de Comunicación y Prensa su difusión en los medios de comunicación masiva.
+
+
+
+ANEXO I
+
+
+
+REGLAMENTO PARA LAS PRESENTACIONES Y LA NOTIFICACIÓN POR MEDIOS ELECTRÓNICOS
+
+
+
+CAPÍTULO I
+
+
+
+DE LAS PRESENTACIONES ELECTRÓNICAS
+
+
+
+Artículo 1º. Obligación de efectuar presentaciones electrónicas. Todas las presentaciones que deban realizarse en un proceso judicial alcanzado por el artículo 10 del Acuerdo que aprueba este reglamento serán generadas y efectuadas en soporte digital, así como rubricadas con tecnología de firma electrónica/digital A tales efectos se requerirá la utilización de certificados digitales emitidos bajo la legislación vigente en el país, los cuales serán aportados por los interesados o emitidos por la Suprema Corte en los casos que ésta lo disponga.
+
+
+
+Artículo 2º. Constitución de domicilio electrónico. De conformidad a lo dispuesto por el art. 40 del Código Procesal Civil y Comercial, toda persona que tenga que constituir domicilio en un proceso judicial deberá indicar su domicilio electrónico, sin perjuicio de lo normado en el Acuerdo 3989 t. o. y sus modificatorios. Las partes tendrán que constituir su único domicilio electrónico en el de un letrado, aun cuando no sea el de quien las patrocina en el proceso. Sin embargo, si las partes tuvieran un certificado propio, emitido bajo legislación vigente en el país, podrán requerir a la Subsecretaría de Tecnología Informática la asignación de un domicilio electrónico vinculado con aquél. La Subsecretaría de Tecnología Informática proveerá lo conducente para el acceso a los certificados digitales a los fines indicados y de conformidad a las reglamentaciones vigentes.
+
+
+
+Artículo 3º. Presentaciones en papel. Los órganos judiciales no recibirán escritos en soporte papel, con excepción de los supuestos previstos en las normas reglamentarias emanadas de la Suprema Corte de Justicia. Las presentaciones en formato papel, así como los documentos con ellas acompañados, serán digitalizados e incorporados al sistema de gestión judicial por los funcionarios o agentes definidos por cada órgano judicial, simultáneamente con el dictado de la providencia que dichos escritos generen. Si los órganos judiciales recibieran un escrito en formato papel que no encuadrare en las excepciones antes mencionadas, se limitarán a señalar que el peticionario no cumplió con lo dispuesto en este Reglamento. Sin perjuicio de ello, en estos casos podrán dar curso a las peticiones que no admitieren demora en su proveimiento.
+
+
+
+Artículo 4º. Presentaciones de “mero trámite”. Las presentaciones de ‘mero trámite’ serán exclusivamente generadas en soporte digital y firmadas electrónica / digitalmente por los letrados.
+
+
+
+Artículo 5º. Presentaciones que no se consideren de “mero trámite”. En los casos que la parte actúe por propio derecho y no haya celebrado un convenio con esta Suprema Corte ni se encuentre alcanzado por normas que la habiliten a realizar las presentaciones en forma electrónica, el escrito será firmado ológrafamente en presencia de su abogado. Éste generará una copia digitalizada del escrito firmado por el litigante y la adjuntará a una presentación electrónica firmada electrónica /digitalmente a través del sitio web seguro del sistema de Notificaciones y Presentaciones Electrónicas. El ingreso en dicho sistema de una presentación de estas características implicará la presentación formal del escrito, la declaración jurada del abogado de que se ha cumplido con lo previsto en el párrafo anterior y, a su vez, la asunción de las obligaciones propias del depositario del escrito firmado en forma ológrafa. El órgano judicial podrá, de oficio o a pedido de parte, ordenar por resolución fundada la exhibición del escrito en soporte papel, bajo apercibimiento de que la presentación se tenga por no formulada en caso de incumplimiento. El requerimiento previsto en el párrafo anterior podrá ser efectuado de oficio sólo mientras la presentación respectiva no haya sido proveída por el órgano judicial; el pedido de parte podrá ser instado dentro de los cinco (5) días posteriores a la fecha en que se notifique el auto o resolución por el que se provea la presentación. Con posterioridad, el escrito en copia digital quedará definitivamente incorporado a la causa y no se requerirá en lo sucesivo su exhibición, salvo que mediaren causas graves debidamente fundadas que tomen imprescindible su presentación. En cualquiera de los supuestos, si se hubiera tomado imposible la exhibición del original y no mediara culpa del depositario, se citará personalmente a la parte patrocinada a fin de que ratifique la autoría de la presentación, sin perjuicio de la facultad del órgano judicial de adoptar otras medidas pertinentes a tales efectos.
+
+
+
+Artículo 6º. Incorporación de documentos. Los documentos que deban presentarse en un proceso judicial serán acompañados en soporte digital a través del sistema de Notificaciones y Presentaciones Electrónicas, como archivos adjuntos a presentaciones electrónicas. Al efecto, los documentos originariamente existentes en soporte papel deberán ser digitalizados e incluidos como archivo adjunto de la presentación electrónica respectiva, excepto que se peticione según lo establecido en el artículo 121 del Código Procesal Civil y Comercial. El ingreso de las copias digitales bajo la modalidad referida representará la adjunción de los documentos respectivos, la declaración jurada del abogado acerca de su correspondencia con los originales y, a su vez, la asunción de las obligaciones propias del depositario de la documentación original. El órgano judicial podrá, de oficio o a pedido de parte, ordenar la exhibición del documento original, bajo apercibimiento de tenerlo por no acompañado en caso de incumplimiento. El requerimiento previsto en el párrafo anterior podrá ser efectuado de oficio sólo mientras la presentación con la cual se incorpora la copia digital del documento no haya sido proveída por el órgano judicial; el pedido de parte podrá ser instado dentro de los cinco (5) días posteriores a la fecha en que se notifique el auto o resolución por el que se tengan por presentados los documentos. Con posterioridad, los documentos presentados en copia digital quedarán definitivamente incorporados a la causa en ese formato, sin perjuicio del deber de exhibición de aquellos que hayan ingresado como resultado de la actividad probatoria producida de las partes, en cuyo caso podrá requerirse su exhibición, para la realización de las diligencias que resulten pertinentes a esos fines. El órgano judicial, a requerimiento de la parte interesada, podrá disponer lo necesario a fin de instrumentar el aporte en formato digital de aquellos documentos que, por su volumen, no puedan ser ingresados a través del sistema de Notificaciones y Presentaciones Electrónicas. Los documentos cuya digitalización fuese dificultosa por su número, extensión, o cualquier otra razón atendible, o de imposible realización de acuerdo su naturaleza, serán conservadas en poder de la parte que las haya ofrecido o deba acompañarlas al proceso, quien asume el carácter de depositario de las mismas, quien deberá presentarlos en la sede del órgano judicial cuando le sea requerido, en el plazo y bajo el apercibimiento que el juez disponga.
+
+
+
+Artículo 7º. Coplas en papel de escritos y documentos. En los casos en que la legislación procesal requiera el acompañamiento de copias de escritos y/o documentos, dicha carga se tendrá por cumplida con la agregación del documento en formato digital o de su copia digitalizada, salvo cuando se trate de piezas obrantes en el expediente digital en cuyo caso bastará con su individualización precisa y la indicación sobre su disponibilidad a través de los sistemas de consulta telemáticos disponibles.
+
+
+
+Artículo 8º. Comprobante de las presentaciones electrónicas. Las presentaciones electrónicas se tendrán por efectuadas en la fecha y hora que registre el sistema informático, el que asentará -para cada presentación- el momento exacto en que ellas fueron presentadas en el sistema de Notificaciones y Presentaciones Electrónicas, así como los usuarios que las enviaron. Luego de cada presentación el sistema generará automáticamente un comprobante con tales datos que podrá ser descargado en todo momento por los presentantes.
+
+
+
+Artículo 9º. Descarga de las presentaciones electrónicas. Las presentaciones electrónicas podrán ser ingresadas en cualquier día y hora. Si lo fueren en tiempo inhábil, el cómputo del plazo para su proveimiento comenzará a partir del día y hora hábil siguiente. Los funcionarios o agentes definidos por cada órgano judicial deberán compulsar con la periodicidad necesaria el sistema de Notificaciones y Presentaciones a fin de posibilitar el pronto despacho de las peticiones.
+
+
+
+CAPÍTULO II
+
+
+
+DE LA NOTIFICACIÓN POR MEDIOS ELECTRÓNICOS
+
+
+
+Artículo 10°. Sistema general de notificaciones electrónicas. Fuera de los supuestos de excepción previstos en el artículo 11° del presente reglamento, la notificación de todas las providencias, resoluciones y sentencias pronunciadas en los procesos civiles, comerciales, laborales, de familia y contencioso administrativos, así como en las ejecuciones tributarias, que tramiten ante los órganos jurisdiccionales de todas las instancias, incluyendo los procesos correspondientes a la jurisdicción originaria de la Suprema Corte de Justicia, se realizarán a los domicilios electrónicos, de manera automatizada, bajo el régimen previsto en este reglamento. El sistema de gestión judicial predeterminará la comunicación automatizada asociada a la firma del respectivo acto procesal. De tal modo, al perfeccionarse el acto respectivo con la firma digital del magistrado o funcionario según correspondiere, sea en modo individual o bajo la modalidad de “firma ágil” prevista en aquel sistema, se producirá la inmediata notificación automatizada a los domicilios electrónicos de los destinatarios con la adjunción de la resolución notificada. El sistema de gestión permitirá individualizar los domicilios electrónicos a los que no deba cursarse la notificación automatizada. A los fines del cómputo de dicha notificación se aplicará lo dispuesto en el artículo 13° del presente Reglamento. En caso de ser necesario adjuntar copias digitales de documentación o presentaciones previamente incorporadas a la causa en soporte electrónico, el organismo judicial deberá añadir al proveído el o los trámites que correspondan a través de la referencia “Trámite Adjunto” que provee el sistema de gestión judicial. Excepcionalmente, si dichas constancias no estuvieran previamente incorporadas al expediente en forma electrónica, deberán añadirse al proveído como “archivo adjunto”. Hasta tanto fuere notificada al domicilio electrónico del destinatario en la forma prevista en esta reglamentación, la resolución judicial se tendrá por no emitida, aun cuando hubiera sido firmada por el magistrado o funcionario correspondiente.
+
+
+
+Artículo 11°. Exclusiones. Quedan exceptuados de la automaticidad y/o de las formas previstas en el presente régimen los supuestos siguientes: a) Cuando el sujeto destinatario no haya constituido domicilio electrónico en el proceso en los términos del artículo 2 de este Reglamento ni cuente con un domicilio electrónico inscripto en el Registro de Domicilios Electrónicos establecido en el Acuerdo 3989, por no estar comprendido en su ámbito de aplicación. En los casos de falta de constitución y denuncia de domicilio electrónico (art. 41 primer párrafo del Código Procesal Civil y Comercial), y en los que haya sido decretada y notificada la declaración de rebeldía del destinatario (art. 59 del mismo ordenamiento), y siempre que no sea de aplicación el régimen del Acuerdo 3989 (art. l, último párrafo) las resoluciones judiciales se tendrán por notificadas los días martes y viernes, o el siguiente hábil si este fuera feriado, mediante su publicación en la Mesa de Entradas Virtual (MEV). b) La resolución que, de acuerdo a la legislación vigente deba ser notificada por edictos o por los medios de radiodifusión y televisión. c) La resolución que disponga el traslado de la demanda, la intimación de pago o la citación de terceros, quedará diferida hasta tanto el interesado solicite expresamente que se practique de manera automatizada. d) Las resoluciones dictadas en aquellos casos en los que el órgano judicial disponga la excepción por la índole o el contenido de la medida adoptada, el estado del proceso o por otra razón grave debidamente justificada.
+
+
+
+Artículo 12°. Constancia de notificación. En el sistema se registrará, al menos: a) fecha y hora en que la notificación quedó disponible para su destinatario, dato que se encontrará visible en todo momento; b) fecha y hora en las que el destinatario compulsó la notificación. Los interesados podrán verificar en el sistema de Notificaciones y Presentaciones Electrónicas si la comunicación efectivamente se llevó a cabo. Sin perjuicio de ello, la Subsecretaría de Tecnología Informática mantendrá el "Aviso de Cortesía", que enviará diariamente a los usuarios del sistema un correo electrónico recordándoles sobre el estado de su domicilio electrónico y que incluirá un informe sobre la cantidad de notificaciones recibidas y presentaciones electrónicas que cambiaron de estado desde su último ingreso al sistema.
+
+
+
+Artículo 13°. Momento en que se perfecciona la notificación. En los casos previstos en el artículo 10°, la notificación se tendrá por cumplida el día martes o viernes inmediato posterior - o el siguiente día hábil si alguno de ellos no lo fuere- a aquel en que la resolución judicial hubiere quedado disponible para su destinatario en el sistema de Notificaciones y Presentaciones Electrónicas. En los casos de urgencia -que tendrán que ser debidamente justificados en la providencia respectiva-, la notificación se producirá en el momento en que la resolución se encuentre disponible para su destinatario en el sistema de Notificaciones y Presentaciones Electrónicas.
+
+
+
+Artículo 14°. Aclaratoria inmediata. Rubricada una sentencia definitiva sujeta a la notificación electrónica automatizada, el órgano judicial emisor solo podrá, de oficio y por medio de otro acto expreso, corregir errores materiales o aclarar conceptos oscuros equivalentes al error material. Esta facultad podrá ser ejercida dentro del plazo de dos (2) días siguientes al del perfeccionamiento del acto respectivo con la firma digital del magistrado o funcionario que correspondiere.
+
+
+
+CAPÍTULO III
+
+
+
+DISPOSICIONES COMPLEMENTARIAS
+
+
+
+Artículo 15°. Oficios judiciales. Los oficios judiciales serán generados y suscriptos digitalmente. Si el destinatario tuviera un domicilio electrónico inscripto en el Régimen de Domicilios Electrónicos establecido en el Acuerdo 3989 y modificatorios, se aplicará en lo pertinente lo dispuesto en el artículo 10° de este Reglamento. En los demás supuestos, serán de aplicación las siguientes reglas: Los documentos electrónicos respectivos se confeccionarán y confrontarán en lo pertinente de acuerdo a las pautas establecidas en los apartados I a IH del Anexo III (Notificación por cédula) del Acuerdo al que accede este Reglamento, adicionándose la firma digital del funcionario y/o de los magistrados cuando fuera necesario. Si se requiriera incorporar copias digitales a los oficios, deberán insertarse como archivos adjuntos al momento de generarse el documento electrónico respectivo. En el caso de no ser observados, los oficios judiciales se diligenciarán en el domicilio electrónico de sus destinatarios registrado en el Sistema de Notificaciones y Presentaciones Electrónicas. Si el destinatario del oficio judicial no tuviere domicilio electrónico, el documento -una vez confrontado y en su caso firmado por el funcionario y/o magistrado- será enviado al domicilio electrónico del interesado para que éste lo diligencie. El sistema informático generará en forma automática un código verificador y un código QR que se insertará al pie del oficio judicial. Dicho sistema también generará de manera automática una leyenda que indique al destinatario que el documento fue suscripto con firma digital y las instrucciones para verificar su autoría e integridad y para acceder a los archivos adjuntos.
+
+
+
+Artículo 16°. Comunicaciones entre órganos y dependencias judiciales.
+
+
+
+Las comunicaciones entre órganos y dependencias judiciales en el marco de un proceso, y que no requieran la remisión del expediente, se realizarán de oficio por el órgano requirente mediante el sistema de comunicación automatizada prevista en el presente reglamento. Cuando los requerimientos sean dirigidos a la Suprema Corte de Justicia, se enviarán a los domicilios electrónicos de las dependencias que integran su estructura, según las funciones atribuidas respectivamente en la reglamentación vigente (conf. Ac. 3536). Los titulares de los juzgados, los presidentes de los tribunales colegiados, y de las Cámaras de Apelaciones, y los funcionarios a cargo de las dependencias de la Suprema Corte arbitrarán los medios para verificar diariamente si se han recibido comunicaciones de otros órganos. Cuando la comunicación entre órganos jurisdiccionales se refiera a una causa judicial ya existente en el órgano destinatario, el órgano emisor deberá emplear a los fines de su concreción la herramienta informática “PREPARAR PRESENTACIÓN” que provee el sistema de gestión judicial. Esta regla será de aplicación a los oficios, exhortos, rogatorias y demás comunicaciones entre órganos.
+
+
+
+Artículo 17°. Supletoriedad.
+
+
+
+Las reglas precedentemente dispuestas serán de aplicación supletoria cuando las disposiciones específicas que rijan el vínculo con organismos públicos municipales, provinciales y nacionales establezcan una modalidad diferente.
+
+
+
+Artículo 18°. Personas con Discapacidad Visual.
+
+
+
+El presente régimen no será obligatorio para las personas con discapacidad visual, que así lo solicitaren en cada proceso en el que intervengan, quienes deberán acreditar la capacidad diferente invocada con el correspondiente certificado expedido por autoridad competente, dentro del plazo de sesenta (60) días de conferida la dispensa. Esta disposición subsistirá hasta tanto el sistema de gestión judicial resulte compatible con la tecnología asociada a los sistemas lectoparlantes o de cualquier otro tipo existentes en el mercado, que permitan su accesibilidad y utilización en igualdad de condiciones con los demás. Las personas comprendidas en el presente artículo podrán continuar realizando las presentaciones en formato papel total o parcialmente, siendo de aplicación lo dispuesto en el segundo párrafo del artículo 3º. Estarán dispensadas del cumplimiento de lo normado en el Capítulo II (“NOTIFICACIÓN POR MEDIOS ELECTRÓNICOS”) del presente reglamento y en los Acuerdos 3975, sus modificatorios y complementarios, en cuanto imponen el uso de los sistemas de gestión judicial. También podrán concurrir a la sede de los órganos jurisdiccionales y dependencias de la Suprema Corte de Justicia sin necesidad de tumo previo, cumplimentando las medidas de seguridad, higiene u organización que se hubiesen dispuesto. Los titulares de los órganos judiciales deberán disponer lo necesario a fin de garantizar a las personas comprendidas en este artículo el acceso real y oportuno a las constancias documentales obrantes en el expediente y a las novedades que se produzcan en el mismo, en igualdad de condiciones con los demás. En su primera presentación, el interesado podrá sugerir las alternativas que resulten más convenientes a esos fines. La Subsecretaría de Tecnología Informática, en colaboración con las demás áreas competentes de la Suprema Corte de Justicia y previa opinión de la Comisión de Discapacidad del Colegio de Abogados de la Provincia de Buenos Aires, desarrollará mecanismos complementarios inclusivos para las personas con impedimentos visuales que garanticen su adecuada intervención en el proceso y permitan su accesibilidad y utilización en igualdad de condiciones con los demás.
+
+
+
+Artículo 19°. Sitio web seguro.
+
+
+
+La Subsecretaría de Tecnología Informática tiene a su cargo implementar y mantener en condiciones los recursos técnicos necesarios para garantizar el funcionamiento del sitio web seguro que sirve como soporte del sistema de Notificaciones y Presentaciones Electrónicas, en cuya base de datos constarán las presentaciones y comunicaciones, suscriptas con la tecnología de firma digital. Dicha dependencia deberá monitorear constantemente el estado del sistema e informar inmediatamente a la Presidencia de la Suprema Corte de Justicia cualquier dificultad o disfuncionalidad significativa del sistema de Notificaciones y Presentaciones Electrónicas. La base de datos del sistema de Notificaciones y Presentaciones Electrónicas podrá ser auditada por orden judicial, dictada de oficio o a pedido de parte, en cuyo caso se requerirá a la mencionada Subsecretaría que produzca un informe circunstanciado de los antecedentes existentes en el servidor vinculados con determinada presentación. Además de los datos necesarios para la aplicación del presente Reglamento, el sistema de gestión registrará la fecha y hora en las que el destinatario de los actos procesales de comunicación accedió a la documentación adjunta en caso de estar acompañada de documentos y si su descarga se ha realizado exitosamente.
+
+
+
+Artículo 20°. Creación de archivos en formato “PDF”.
+
+
+
+Serán de aplicación a lo dispuesto en este Reglamento las “Reglas de Buenas Prácticas en la creación de archivos en formato ‘PDF.'” establecidas en el Anexo I de la Resolución de Presidencia N° 3/20 del Registro de la Secretaría de Planificación o las que en el futuro las reemplacen, las que deberán ser observadas por todos los sujetos en la generación e incorporación de documentos digitalizados en ese formato, tanto al Portal de Notificaciones y Presentaciones Electrónicas como al sistema de gestión judicial.
+
+
+
+ANEXO II
+
+
+
+PODER JUDICIAL DE LA PROVINCIA DE BUENOS AIRES NOTIFICACIÓN ELECTRÓNICA
+
+
+
+(referencia automática: datos del destinatario: nombre y apellido/designación) (referencia automática: domicilio electrónico) Se notifica a Ud. que en los autos caratulados “(referencia automática: carátula de la causa)”, expediente número (referencia automática: identificación del expediente), de trámite ante el (referencia automática: datos del organismo), se ha resuelto: (fecha y texto de la resolución/proveído que se notifica). (referencia automática -incluye leyenda sólo en caso de que se tilde una opción en el sistema-: La presente notificación reviste carácter de urgente, por lo que queda perfeccionada en el día de su recepción). (referencia automática variable: Opción 1 -sin copias-: Se deja constancia que la presente comunicación electrónica no tiene copias de traslado asociadas. Opción 2 -con copias-: Se deja constancia que la presente comunicación electrónica contiene asociadas copias digitales de traslado, que podrán consultarse y descargarse accediendo al link ubicado al pie) QUEDA UD. DEBIDAMENTE NOTIFICADO/A
+
+
+
+ANEXO III
+
+
+
+NOTIFICACIÓN POR CÉDULA.
+
+
+
+I- (Supuestos de notificación por cédula. Confección). Los interesados en su producción -en los términos del art. 137, primer párrafo, del Código Procesal Civil y Comercialconfeccionarán las cédulas de conformidad a los modelos incorporados al Anexo III del Ac. 3397 o los que en el futuro los reemplacen, las signarán con tecnología de firma digital/ electrónica y las ingresarán y presentarán en el sistema de Notificaciones y Presentaciones Electrónicas. Cuando sea obligatorio que la comunicación se curse con copias, esa carga sólo se tendrá por cumplida mediante su adjunción en soporte digital a la cédula electrónica.
+
+
+
+La confección y rúbrica del respectivo documento y, en su caso, la adjunción de las copias digitales como archivos adjuntos, recaerá en el letrado de la parte interesada en practicar la notificación, salvo los supuestos en los que las legislaciones adjetivas le impongan específicamente esa carga al órgano jurisdiccional. A tales efectos, quien genere la cédula, previo a su remisión, deberá comprobar la integridad y legibilidad de las copias adjuntadas. El sistema informático generará en forma automática una leyenda al pie del instrumento que indique al destinatario que el documento fue suscripto con firma digital/ electrónica y las instrucciones para verificar su autoría e integridad, como así también los mecanismos para acceder a la documentación adjunta. En los supuestos fijados en el art. 137, segundo párrafo, del Código Procesal Civil y Comercial y, en general, cuando la notificación sea instada por Secretaria, los funcionarios sindicados en cada órgano por los magistrados tendrán que cumplir los recaudos previstos en este artículo. II- (Notificación por cédula. Confronte de los instrumentos. Diligenciamiento. Remisión). Los funcionarios o agentes que correspondieren confrontarán las cédulas dentro del día hábil posterior al de su ingreso al sistema de Notificaciones y Presentaciones Electrónicas por los interesados, observándolas cuando no cumplan los recaudos previstos en la normativa para su validez o disponiendo sin más trámite su remisión a las Oficinas y Delegaciones de Mandamientos y Notificaciones, los Juzgados de Paz o los Oficiales Ad Hoc, según corresponda, lo que se hará por medios electrónicos. A tales efectos, deberán compulsar el sistema con la periodicidad necesaria, a fin de verificar la recepción de los instrumentos correspondientes. Si se hubiera designado a más de un Oficial Ad Hoc se remitirá la cédula a todos, pudiendo realizar la diligencia en cuestión cualquiera de ellos. En el sistema se registrará al menos, la fecha y hora en las que la cédula quedó a disposición del órgano jurisdiccional para su confronte. Los Oficiales Ad Hoc deberán contar con un domicilio electrónico inscripto en el Sistema de Notificaciones y Presentaciones Electrónicas. Las Oficinas, Delegaciones o los Oficiales Ad Hoc que deban realizar las notificaciones se encargarán de imprimir los instrumentos para su diligenciamiento, pero en ningún caso lo harán con los documentos adjuntos a aquellos. El destinatario de la diligencia, a los fines de verificar la autenticidad e integridad del documento y, en su caso, tomar conocimiento de la documentación digital adjunta, deberá acceder al subsitio web habilitado por la Suprema Corte e ingresar manualmente el código verificador o bien escanear el código QR a través de un dispositivo móvil, los que deberán generarse automáticamente por el sistema informático y visualizarse al pie del instrumento impreso. El informe sobre el resultado de las cédulas luego de practicada la diligencia, conjuntamente con la documentación involucrada en dicha actuación, se remitirá al organismo judicial mterviniente en fonna electrónica. A tal fin, las oficinas u Oficiales Ad Hoc que hubieren practicado la notificación informarán y/o acompañarán el resultado de la misma mediante presentación electrónica en la causa respectiva; y conservarán los originales por el plazo que establecerá la reglamentación que dicte la Suprema Corte de Justicia. Los interesados podrán verificar a través de los sistemas de consulta telemáticos disponibles el resultado de las diligencias. III - (Mandamientos). Las disposiciones de este artículo se aplicarán en lo pertinente a los mandamientos.
+
+
+
+Daniel Fernando Soria, Luis Esteban Genoud, Hilda Kogan, Eduardo Julio Pettigiani, Sergio Gabriel Torres. Ante Mí: Néstor Antonio Trabucco, Matias José Álvarez.

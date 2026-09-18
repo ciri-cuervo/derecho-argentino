@@ -1,0 +1,6 @@
+{
+  "claudeMdExcludes": [
+    "**/derecho/kb/project/CLAUDE.md",
+    "**/derecho/kb/contratos/CLAUDE.md"
+  ]
+}

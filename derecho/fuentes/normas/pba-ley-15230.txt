@@ -1,14 +1,14 @@
-Ley 15.230 PBA - Domicilio electronico y audiencias virtuales en el Sector Publico Provincial
+Ley 15.230 PBA - Domicilio electrónico y audiencias virtuales en el Sector Público Provincial
 ==============================================================================
-Jurisdiccion:     pba
+Jurisdicción:     pba
 Fuente:           https://normas.gba.gob.ar/documentos/BjbXmDIy.html
-Descargado:       2026-09-14
+Descargado:       2026-09-17
 SHA-256 (crudo):  3c5fb3dea429bc771a343b5c6665ae9f9b89f4b66a8fc1c50985340d589fb26c
 Charset:          UTF-8
 
-Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
-NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
-Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
 el manifiesto `normas.json`.
 ==============================================================================
 

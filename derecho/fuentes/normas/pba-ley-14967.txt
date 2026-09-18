@@ -1,14 +1,14 @@
 Ley 14.967 - Honorarios de abogados y procuradores (PBA)
 ==============================================================================
-Jurisdiccion:     pba
+Jurisdicción:     pba
 Fuente:           https://normas.gba.gob.ar/documentos/BOa6XTk0.html
-Descargado:       2026-09-14
+Descargado:       2026-09-17
 SHA-256 (crudo):  f0a191dee5c27759ed7da83f65a9a4773000364a8de725011201bcf834f0abd2
 Charset:          UTF-8
 
-Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
-NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
-Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
 el manifiesto `normas.json`.
 ==============================================================================
 

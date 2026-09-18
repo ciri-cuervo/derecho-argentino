@@ -1,14 +1,14 @@
-Ley 24.660 - Ejecucion de la pena privativa de la libertad (texto actualizado)
+Ley 24.660 - Ejecución de la pena privativa de la libertad (texto actualizado)
 ==============================================================================
-Jurisdiccion:     nacional
+Jurisdicción:     nacional
 Fuente:           https://servicios.infoleg.gob.ar/infolegInternet/anexos/35000-39999/37872/texact.htm
-Descargado:       2026-09-14
+Descargado:       2026-09-17
 SHA-256 (crudo):  9d6f5c879c02c028097e5f43f315325b58d6a1bd416d5a8ade1fd9b086f4ab19
 Charset:          windows-1252
 
-Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
-NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
-Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
 el manifiesto `normas.json`.
 ==============================================================================
 

@@ -1,6 +1,8 @@
 # Modelos de escritos del repo · mapa y criterio de uso
 
-> Módulo de referencia de la skill `derecho-argentino`. Numeración global, sección 23.
+> Módulo de referencia de la skill `derecho-argentino`. Numeración global: las remisiones cruzadas
+> entre módulos siguen siendo válidas. **Rigen las reglas de integridad de la sección 2 del
+> SKILL.md.**
 
 ---
 
@@ -8,7 +10,7 @@
 
 `escritos.md` (secciones 9 a 11) tiene el **método**: cómo diagnosticar un escrito aportado,
 cómo armar uno desde cero y cuál es el criterio de salida. Este módulo tiene el **inventario**:
-treinta y cuatro modelos y siete guías de armado por rama que están en el repo y que, sin esta
+34 modelos y siete guías de armado por rama que están en el repo y que, sin esta
 tabla, no se encuentran.
 
 **Cuándo abrirlo.** Antes de redactar un escrito desde cero, siempre — no para copiarlo, sino
@@ -132,7 +134,7 @@ verifica contra `laboral.md` cada vez.
 
 ### 23.7 Ramas sin módulo propio
 
-Se usan junto con `otras-ramas.md` (sección 19) y con el perfil de la rama, que es donde está
+Se usan junto con `perfiles-heredados.md` (sección 19) y con el perfil de la rama, que es donde está
 el encuadre. Aplica en pleno la advertencia del punto 23.1.6.
 
 **Penal** — `kb/escritos/penal/escritos/modelos/`: excarcelación y cese de prisión preventiva

@@ -1,7 +1,8 @@
 # Familia
 
-> Módulo de referencia de la skill `derecho-argentino`. Numeración global, sección 18.
-> Verificado contra fuente primaria. Lo procesal es de PBA; para otra jurisdicción, no
+> Módulo de referencia de la skill `derecho-argentino`. Numeración global: las remisiones cruzadas
+> entre módulos siguen siendo válidas. **Rigen las reglas de integridad de la sección 2 del
+> SKILL.md.** Verificado contra fuente primaria. Lo procesal es de PBA; para otra jurisdicción, no
 > transpolar. Los puntos que no se pudieron cerrar están al final.
 
 > Transversales: `prueba-pericial.md` (sección 20) —pericias psicológicas y del equipo
@@ -23,6 +24,10 @@ que se superponen por capas.
 - **Ley 13.634** (B.O. 02/02/2007) es la que hoy manda. Su **art. 16 sustituyó íntegramente el
   Libro VIII del CPCCBA**; su art. 8 disolvió los Tribunales de Familia y los transformó en
   **Juzgados de Familia unipersonales**.
+
+**La Ley 13.634 tiene otro título que no es de este módulo.** Su Título III crea el **Fuero de la
+Responsabilidad Penal Juvenil**, con sus propios órganos, plazos y medidas, y está en
+`penal-juvenil-pba.md` 36. Acá va sólo el Título II, el de familia.
 
 **Estructura actual.** Art. 12 de la Ley 13.634: un juez de primera instancia por juzgado, un
 **Consejero de Familia** —la SCBA puede autorizar un segundo según litigiosidad— y un **Equipo
@@ -258,6 +263,39 @@ garantías mínimas: gratuidad, ser oída personalmente, **amplitud probatoria**
 evitando la **revictimización**. Su **art. 26** amplía las medidas, incluida la **supresión de
 contenidos digitales violentos** que incorporó la Ley 27.736.
 
+**Y del lado del Estado hay un deber propio, que no es de este expediente pero se cruza.** La
+**Ley 27.499 —Ley Micaela—** impone capacitación obligatoria en género y violencia contra las
+mujeres a quienes se desempeñan en la función pública de los tres poderes, y su art. 8 convierte
+en **falta grave** el incumplimiento de la intimación a capacitarse. Está desarrollada en
+`empleo-publico.md` (sección 49.5.1), porque donde pega es en el régimen disciplinario. En PBA
+rige la **Ley 15.134**, con trece artículos propios y cuatro diferencias de fondo, entre ellas que
+hace de la capacitación un **requisito para la promoción** en la carrera.
+
+**Cuando el femicidio ya ocurrió: la reparación de la Ley 27.452 —Ley Brisa.** Cotejada contra
+`fuentes/normas/ley-27452.txt`. Crea una **reparación económica** a cargo del **Estado nacional**
+para niñas, niños y adolescentes, y conviene tener presente cómo está construida porque **es más
+amplia que "hijo de víctima de femicidio"**:
+
+- **El hecho que la dispara (art. 1)** no es la condena: basta que el progenitor o progenitor afín
+  **haya sido procesado** como autor, coautor, instigador o cómplice del homicidio de la
+  progenitora — y también cubre el caso en que **la acción penal se haya extinguido**, típicamente
+  por muerte del imputado.
+- **Los destinatarios (art. 2)** son **menores de veintiún años o personas con discapacidad sin
+  límite de edad**, y el inciso b) alcanza a quien sea **hijo de un progenitor fallecido a causa de
+  violencia intrafamiliar y/o de género**, sin exigir la figura del femicidio.
+- **El monto (art. 3)** es **un haber jubilatorio mínimo mensual**, con la movilidad de la Ley
+  26.417, **inembargable**, **por cada** destinatario, y **retroactivo al momento del hecho**.
+- **Y es compatible con todo (art. 5):** AUH, asignaciones familiares, pensiones, **los alimentos**
+  que perciban del progenitor u otro familiar, y cualquier otra prestación. Pedirla no hace perder
+  nada ni sustituye el reclamo alimentario.
+
+**Educación sexual integral — Ley 26.150.** No es materia de este expediente, pero aparece cuando
+se discute el contenido de la escolarización: su **art. 1** da a todos los educandos el derecho a
+recibirla **en los establecimientos públicos de gestión estatal y privada**, en las cuatro
+jurisdicciones, y su **art. 5** manda acciones educativas **sistemáticas y obligatorias a lo largo
+del ciclo lectivo**, con adaptación por cada comunidad educativa. Está bajada en
+`fuentes/normas/ley-26150.txt` y **este repositorio no la recorre más allá de esto**.
+
 > **Cuidado acá, porque el art. 26 no rige en PBA por ser la 26.485 de orden público.** La
 > cadena, cotejada contra los tres textos en `fuentes/normas/`:
 >
@@ -308,7 +346,7 @@ contenidos digitales violentos** que incorporó la Ley 27.736.
 > repositorio del MPD, no del registro del tribunal: autoridad débil, y así están marcadas en
 > `fallos.json` con su campo `origen`.
 >
-> `[INSERTAR FALLO VERIFICADO: supresión de contenidos digitales en violencia familiar resuelta por CAMARA o por la SCBA - lo verificado es todo de primera instancia, y no hay nada de alzada en el registro oficial]`
+> `[INSERTAR FALLO VERIFICADO: supresión de contenidos digitales en violencia familiar resuelta por CÁMARA o por la SCBA - lo verificado es todo de primera instancia, y no hay nada de alzada en el registro oficial]`
 >
 > **Verificado el 15/09/2026, y el resultado refuerza el punto: la emergencia está vencida.**
 > La 14.407 corre **dos años desde su sanción, el 18/10/2012** —su art. 1 dice "a partir de la
@@ -338,7 +376,7 @@ sancionar, con procedimientos justos y eficaces (art. 7). **No tiene jerarquía 
 amplía el catálogo; Belém do Pará sostiene la interpretación más protectoria de las dos.
 
 **Reglas de la SCBA.** El **Acuerdo 3964** (11/12/2019) fijó reglas de actuación y articulación
-para medidas urgentes, y el **Acuerdo 4099** (marzo de 2023) sustituyó su anexo por reglas
+para medidas urgentes, y el **Acuerdo 4099/2023** (marzo de 2023) sustituyó su anexo por reglas
 nuevas aplicables a los fueros de Paz, Familia, Penal y Responsabilidad Penal Juvenil, con
 énfasis en el **informalismo** de la denuncia, la competencia entre Paz y Familia, la
 articulación con el fuero penal, y el **formulario único de denuncia** de la Res. SC 2209/21.
@@ -369,6 +407,37 @@ Las tres están cotejadas contra el PDF oficial. Al citarlas, acompañar con
   el derecho a vínculos fluidos con ambos progenitores **con independencia de la distancia
   territorial** entre los domicilios.
 
+### 18.7.1 Autonomía progresiva — el precedente que la trata como tal
+
+**SCBA, causa C. 123.064, "A. C., S. A. E. contra G., R. E. Incidente de modificación de tenencia
+de hijos", 30/08/2021.** Voto de Soria, con la adhesión de Kogan, Pettigiani y Torres. Bajado de
+JUBA. Revoca la sentencia de Cámara que había otorgado el **cuidado unilateral** al padre y
+restablece el **compartido indistinto**, con residencia principal en el domicilio paterno.
+
+**Qué hace la autonomía progresiva acá.** No es una invocación de principio: es el fundamento que
+decide. La Corte prioriza **"la opinión de los menores más cercana en el tiempo"**, y lo encuadra
+en **"el principio de capacidad o autonomía progresiva (arts. 26, 639, 653 inc. 'c', 707 y concs.,
+Cód. Civ. y Com.)"**. Es la regla del **art. 639 inc. b** llevada a un caso: *"a mayor autonomía,
+disminuye la representación de los progenitores"*.
+
+**Y escuchó a los chicos ella misma.** El 25/03/2021 celebró **audiencia para tomar contacto
+directo** con los niños, antes de resolver. Es lo que hace que la opinión "más cercana en el
+tiempo" sea la de la Corte y no la del expediente.
+
+**La preferencia legal del art. 651 hay que vencerla, no discutirla.** El compartido indistinto es
+**"primera alternativa"** por texto expreso, y la Corte revoca porque **"no se observan motivos
+válidos para justificar el apartamiento"** de esa preferencia. Quien pide el unilateral carga con
+los presupuestos del art. 653, cuyo inc. c es, otra vez, la opinión del hijo.
+
+**El remedio viene con control.** La decisión queda **subordinada a informes ambientales y
+psicológicos semestrales** —sobre los niños y sobre los progenitores— por el cuerpo de peritos del
+juzgado (art. 289 inc. 2 CPCC). No es una sentencia que cierra: es una que se revisa.
+
+*Cómo se usa.* Sirve para sostener que la opinión del hijo, actualizada y escuchada directamente,
+puede **modificar un cuidado personal ya resuelto en alzada**, y para exigir que quien pretende el
+unilateral pruebe por qué no es posible el compartido. **No sirve** como regla de edad: la Corte
+no fija umbral etario, pondera madurez y circunstancias del caso.
+
 ---
 
 ## 18.8 · Institutos de fondo — dónde están en el repo
@@ -397,11 +466,11 @@ se verifica antes de usarlo.
 | Adopción, guarda con fines de adopción, entrega directa | `kb/perfiles/familia-CLAUDE.md` § Adopción | `fallos-csjn.md` 34.5 — "D., H. C. y otros s/ guarda con fines de adopción", Fallos 346:287 |
 | Violencia familiar y de género | 18.6 de este módulo | `fallos-csjn.md` 34.5 — "Winteker", Fallos 329:5514, **pero es una decisión de competencia y nada más**: leer la nota de 34.5 antes de citarla |
 | **Sustracción internacional de menores** (La Haya 1980, Ley 23.857; Convención Interamericana, Ley 25.358) | **`fallos-csjn.md` 34.5**, con los holdings leídos contra el documento. `kb/perfiles/familia-CLAUDE.md` § Sustracción internacional queda como complemento **sin auditar** | `fallos-csjn.md` 34.5 — cuatro con holding escrito: Fallos 336:849 (voluntad cualificada y umbral del grave riesgo), 344:3078 (oposición del niño), 345:358 (violencia de género como especie del grave riesgo) y 347:1234 |
-| Interés superior, derecho a ser oído, autonomía progresiva | 18.4 de este módulo | `fallos-csjn.md` 34.5 — Fallos 346:287, cons. 6º (el interés superior "no puede ser aprehendido ni entenderse satisfecho sino en la medida de las circunstancias comprobadas en cada asunto") y cons. 11 (escuchar al niño: arts. 12 CDN y 707 CCyCN). Para **autonomía progresiva** en particular, `[INSERTAR FALLO VERIFICADO: autonomia progresiva, arts. 26 y 639 inc. b CCyCN - no hay precedente bajado que la trate como tal]` |
+| Interés superior, derecho a ser oído, autonomía progresiva | 18.4 de este módulo | `fallos-csjn.md` 34.5 — Fallos 346:287, cons. 6º (el interés superior "no puede ser aprehendido ni entenderse satisfecho sino en la medida de las circunstancias comprobadas en cada asunto") y cons. 11 (escuchar al niño: arts. 12 CDN y 707 CCyCN). Para **autonomía progresiva** en particular, **18.7.1** — SCBA C. 123.064 (30/08/2021), leído contra el documento |
 | Autorización judicial para actos del hijo menor | `kb/perfiles/familia-CLAUDE.md` § Procesos especiales | — |
 | Tutela, inhabilitación y curatela | `kb/perfiles/familia-CLAUDE.md` § Procesos especiales | — |
 
-#### Contradicciones nominadas — el perfil quedó atrás
+### Contradicciones nominadas — el perfil quedó atrás
 
 | El perfil dice | Lo correcto |
 | --- | --- |
@@ -609,3 +678,16 @@ al lado es el error a evitar.
 | Ac. SCBA 4099 | Fecha exacta y detalle operativo de guardias del anexo |
 | Arts. 705 a 723 CCyCN | Literal cotejado contra fuente primaria: las bases truncan el texto antes del Libro Segundo, Título VIII |
 | Código Procesal de Familias PBA | Hubo un anteproyecto en discusión; no consta sanción |
+
+---
+
+## 18.11 · Lo que este módulo NO hace
+
+- **Es de PBA.** El fuero, la competencia del art. 827 CPCCBA, la etapa previa ante el Consejero
+  y la Ley 15.513 son bonaerenses. El CCyCN sí es común; lo procesal no se transpola.
+- **No cubre al menor imputado de un delito**, que es el fuero de la Ley 13.634 Título III:
+  `penal-juvenil-pba.md` 36.
+- **No cubre capacidad ni internación por padecimiento mental**, que tienen régimen propio en
+  `salud-mental.md`.
+- **No cubre la sucesión.** Quién hereda, la legítima y el testamento son `sucesiones.md`.
+- **No cubre la restitución internacional ni el matrimonio con elemento extranjero**: `dipr.md`.

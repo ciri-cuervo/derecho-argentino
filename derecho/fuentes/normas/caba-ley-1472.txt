@@ -1,0 +1,2979 @@
+Ley 1.472 CABA - Código Contravencional
+==============================================================================
+Jurisdicción:     CABA
+Fuente:           https://juristeca.jusbaires.gob.ar/compilacion-normativa-juristeca/ley-1472/
+Descargado:       2026-09-18
+SHA-256 (crudo):  a156d581c52827c92a9a56b1956a4269c34dcc5f31273c5a134dd4012e9d07be
+Charset:          UTF-8
+
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
+el manifiesto `normas.json`.
+==============================================================================
+
+Ley 1472 – Código contravencional de la Ciudad Autónoma de Buenos Aires – JURISTECA
+
+Saltar al contenido
+
+[fecha del portal, no es parte de la norma]
+
+Las fuentes del Derecho a tu alcance
+
+SERVICIO DE APOYO A LA JURISDICCIÓN
+
+Inicio
+
+Buscador JURISTECA
+Búsqueda avanzada de Jurisprudencia
+
+Búsqueda avanzada Biblioteca
+
+Búsqueda de normativa
+
+Compilación normativa JURISTECA
+Normas por fuero
+CAyTyRC
+
+PPJCyF
+
+Normas constitucionales
+
+Normas institucionales
+
+Normas electorales
+
+Normas procesales
+
+Normas laborales
+
+Normas adicionales
+
+Códigos fiscales CABA
+
+Boletín oficial CABA
+
+Desarrollo de contenidos
+
+Newsletter
+
+Biblioteca
+Novedades bibliográficas
+
+Alta usuario
+
+Buscador Biblioteca
+
+JURISTECA somos
+
+Compilación normativa JURISTECA
+
+Selección, edición y sistematización de leyes de aplicación para el Poder Judicial de la Ciudad Autónoma de Buenos Aires
+
+Quinta actualización del Digesto Jurídico CABA
+
+Antecedentes de la Ley Nº 1.472
+
+Todos los artículos de este texto provienen del Texto Ordenado por el Decreto Nº 362/24 publicado en el Boletín Oficial de la Ciudad el 20/11/24, entrado en vigencia el día de su publicación.
+
+La numeración de los artículos también se corresponde con la Quinta actualización del Digesto Jurídico CABA, texto consolidado al 29/02/2024 por Ley Nº 6.764 de fecha 12/12/2024.
+
+Antecedentes relacionados
+La presente ley incluye los textos anteriores al vigente, correspondiente a las modificaciones sufridas desde de la Segunda actualización del Digesto jurídico CABA (Ley Nº 6.017, BOCABA N° 5.485 del día 25/10/2018, con fecha de corte 28/02/2018) hasta el día de la fecha.
+Dicha información se encuentra disponible debajo de cada artículo en el botón “Antecedentes relacionados”.
+
+*Actualización JURISTECA
+
+Conforme
+
+BOCABA
+
+Modifica
+
+Ley Nº 6.961
+
+19/06/2026
+
+Arts.
+91 ,
+92 .
+
+Ley Nº 6.839
+
+20/10/2025
+
+Arts.
+23 ,
+25 ,
+29 ,
+
+59 ,
+140 ,
+141 ,
+142 y
+143 .
+
+Incorpora Arts. 51 bis ,
+142 bis y
+143 bis .
+
+LEY N° 1.472*
+
+Código Contravencional de la Ciudad Autónoma de Buenos Aires
+
+(Texto Ordenado 2024)
+
+LIBRO I
+
+DISPOSICIONES GENERALES
+
+TÍTULO I
+
+INTERPRETACIÓN Y APLICACIÓN DE LA LEY
+
+Art. 1° – Lesividad
+
+El Código Contravencional de la Ciudad Autónoma de Buenos Aires sanciona las conductas que por acción u omisión dolosa o culposa implican daño o peligro cierto para los bienes jurídicos individuales o colectivos protegidos.
+
+Art. 2° – Ámbito de aplicación
+
+El Código Contravencional se aplica a las contravenciones que se cometan en el territorio de la Ciudad Autónoma de Buenos Aires y a las que produzcan sus efectos en ella.
+
+Las disposiciones generales de este Código son aplicables a todas las Leyes especiales que establecen contravenciones.
+
+Art. 3° – Principios generales
+
+En la aplicación de este Código resultan operativos todos los principios, derechos y garantías consagrados en la Constitución de la Nación Argentina, en los Tratados de Derechos Humanos que forman parte de la Constitución Nacional (artículo 75, Inc. 22) en los demás tratados ratificados por el Congreso de la Nación (artículo 31 de la Constitución Nacional) y en la Constitución de la Ciudad Autónoma de Buenos Aires.
+
+Art. 4° – Principio de legalidad
+
+Ningún proceso contravencional puede ser iniciado sin imputación de acciones u omisiones tipificadas por Ley dictada con anterioridad al hecho e interpretada en forma estricta.
+
+Art. 5° – Prohibición de analogía
+
+Ninguna disposición de este Código puede interpretarse o integrarse en forma analógica en perjuicio del imputado/a.
+
+Art. 6° – Principio de culpabilidad
+
+Las contravenciones son dolosas o culposas. La forma culposa debe estar expresamente prevista en la Ley.
+
+Art. 7° – Presunción de inocencia
+
+Toda persona a quien se le imputa la comisión de una contravención tiene derecho a que se presuma su inocencia mientras no se establezca legalmente su culpabilidad.
+
+Art. 8° – Non bis in ídem
+
+Nadie puede ser juzgado más de una vez por el mismo hecho.
+
+Art. 9° – Ley más benigna
+
+Si la Ley vigente al tiempo de cometerse la contravención fuera distinta de la existente al momento de pronunciarse el fallo, o en el tiempo intermedio, se debe aplicar siempre la más benigna.
+
+Si durante la condena se sanciona una ley más benigna, la sanción aplicada debe adecuarse, de oficio, a la establecida por esa ley, quedando firme el cumplimiento parcial de la condena que hubiera tenido lugar.
+
+En todos los casos, los efectos de la Ley más benigna operan de pleno derecho.
+
+Art. 10 – In dubio pro reo
+
+En caso de duda debe estarse siempre a lo que sea más favorable al contraventor.
+
+Art. 11 – Causales de inimputabilidad
+
+No son punibles las personas menores de 18 años, excepto cuando se impute la comisión de contravenciones de tránsito, en cuyo caso la edad de punibilidad es la requerida para obtener licencia para conducir.
+
+En estos casos, no se aplica sanción de arresto.
+
+Que al momento de cometer la contravención no puedan comprender el alcance de sus actos o dirigir sus acciones.
+
+Que al momento de cometer la contravención se encuentren violentadas por fuerza física irresistible o amenazas de sufrir un mal grave o inminente.
+
+Que obraren en cumplimiento de un deber o en el legítimo ejercicio de su derecho, autoridad o cargo.
+
+Que causen un mal por evitar otro mayor inminente al que han sido extraña.
+
+Que actúen en defensa propia o de terceros, siempre que concurran las siguientes circunstancias:
+
+a) Agresión ilegítima.
+
+b) Necesidad racional del medio empleado para impedir o repeler la agresión ilegítima.
+
+c) Falta de provocación suficiente por parte del que se defiende.
+
+Que, en estado de necesidad, para evitar un mal propio o ajeno lesionen un bien jurídico de otra persona o infrinjan un deber, siempre que concurran los siguientes requisitos:
+
+a) Que el mal causado no sea mayor que el que se trate de evitar.
+
+b) Que la situación de necesidad no haya sido provocada intencionadamente por el sujeto.
+
+Antecedentes relacionados
+
+Nota de redacción: conforme texto art. 1º de la Ley Nº 6.128, BOCABA Nº 5.531 del 07/01/2019.
+
+Texto anterior:
+
+Art 11 – Causales de inimputabilidad
+
+Causales de inimputabilidad -. No son punibles las personas:
+
+Menores de dieciocho (18) años, excepto cuando se impute la comisión de contravenciones de tránsito, en cuyo caso la edad de punibilidad es la requerida para obtener licencia para conducir. En estos casos no se aplica sanción de arresto.
+
+Que al momento de cometer la contravención no puedan comprender el alcance de sus actos o dirigir sus acciones.
+
+Que al momento de cometer la contravención se encuentren violentadas por fuerza física irresistible o amenazas de sufrir un mal grave e inminente.
+
+Que obraren en cumplimiento de un deber o en el legítimo ejercicio de su derecho, autoridad o cargo.
+
+Que causen un mal por evitar otro mayor inminente al que han sido extraña.
+
+Que actúen en defensa propia o de terceros, siempre que concurran las siguientes circunstancias:
+
+a) Agresión ilegítima.
+
+b) Necesidad racional del medio empleado para impedir o repeler la agresión ilegítima.
+
+c) Falta de provocación suficiente por parte del que se defiende.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA Nº 5.485)
+
+Art. 12 – Tentativa y Participación. La tentativa no es punible
+
+Quien interviene en la comisión de una contravención, como partícipe necesario o instigador, tiene la misma sanción prevista para el autor/a, sin perjuicio de graduar la sanción con arreglo a su respectiva participación y lo dispuesto en el artículo 26.
+
+La sanción se reduce en un tercio para quienes intervienen como partícipes secundarios.
+
+Art. 13 – Responsabilidad de la persona de existencia ideal
+
+Cuando una contravención se comete en ocasión del desarrollo de actividades realizadas en nombre, al amparo o beneficio de una persona de existencia ideal, esta es pasible de las sanciones que establece este Código cuya aplicación fuere procedente, sin perjuicio de la responsabilidad de los autores/as materiales.
+
+Art. 14 – Representación
+
+El/la que actúa en representación o en lugar de otro/a responde personalmente por la contravención aunque no concurran en él y sí en el otro las calidades exigidas por la figura para ser sujeto activo de la contravención.
+
+Art. 15 – Concurso entre delito y contravención
+
+No hay concurso ideal entre delito y contravención. El ejercicio de la acción penal desplaza al de la acción contravencional.
+
+Art. 16 – Concurso de contravenciones
+
+Cuando concurren varios hechos contravencionales independientes reprimidos con una misma especie de sanción, el mínimo aplicable es el mínimo mayor, y el máximo es la suma de los máximos acumulados. Ese máximo no puede exceder los topes previstos en el artículo 25.
+
+Cuando las sanciones son de distinta especie se aplica la más grave. A tal efecto, la gravedad relativa de las sanciones de diferente naturaleza se determina por el orden de enumeración del artículo 22, debiendo en tal sentido entenderse que las mismas se hallan allí enunciadas de menor a mayor.
+
+Las sanciones establecidas como accesorias se aplican sin sujeción a lo dispuesto en los párrafos precedentes.
+
+Cuando un hecho recae bajo más de una sanción contravencional, se aplica solamente la escala mayor.
+
+Art. 17 – Reincidencia
+
+El/la condenado/a por sentencia firme que comete una nueva contravención que afecta o lesiona el mismo bien jurídico, dentro de los dos años de dictada aquella, es declarado/a reincidente y la nueva sanción que se le impone se agrava en un tercio.
+
+Se entiende que una nueva contravención afecta o lesiona el mismo bien jurídico cuando está contenida dentro del mismo capítulo.
+
+Art. 18 – Funcionario público. Agravante
+
+La sanción se eleva en un tercio en aquellos casos en los que el autor, partícipe o instigador de la contravención es un funcionario público y desarrolla su conducta en ejercicio o en ocasión del ejercicio de su cargo.
+
+Art. 19 – Acción de oficio y acción dependiente de instancia privada
+
+Se inician de oficio todas las acciones contravencionales, salvo cuando afectan a personas de existencia ideal, consorcios de propiedad horizontal o personas físicas determinadas, o en los casos en que estuviera expresamente previsto en el Libro II de la presente, en cuyo caso la acción es dependiente de instancia privada.
+
+Art. 20 – Aplicación Supletoria
+
+Las disposiciones generales del Código Penal de la Nación son aplicables supletoriamente siempre que no estén excluidas por este Código.
+
+TÍTULO II
+
+DE LAS SANCIONES
+
+Art. 21 – Enumeración
+
+Las sanciones que este Código establece son principales, accesorias y sustitutivas.
+
+Art. 22 – Sanciones principales
+
+Son sanciones principales:
+
+Trabajo de utilidad pública.
+
+Multa.
+
+Arresto.
+
+Art. 23 – Sanciones accesorias
+
+Son sanciones accesorias:
+
+– Clausura.
+
+– Inhabilitación.
+
+– Comiso.
+
+– Prohibición de concurrencia.
+
+– Reparación del daño.
+
+– Interdicción de cercanía.
+
+– Prohibición de tutela y contacto con animales domésticos.
+
+– Instrucciones especiales.
+
+Las sanciones accesorias sólo pueden imponerse juntamente con algunas de las establecidas como principales, cuando a criterio del/la juez/a resulten procedentes en atención a las circunstancias del caso.
+
+En los casos de los/las condenados/as por la contravención establecida en el artículo 131 del presente Código, la sanción de inhabilitación para conducir vehículos automotores se impondrá, en todos los casos, en forma conjunta con la de multa o arresto.
+
+En los casos de los/las condenados/as por las contravenciones establecidas en los artículos 141, 143 y 143 bis del presente Código, la sanción de prohibición de tutela y contacto con animales domésticos se impondrá, en todos los casos, en forma conjunta con la de días de trabajo de utilidad pública o multa o arresto.
+
+(Conforme texto art. 1º de la Ley Nº 6.839, BOCABA Nº 7.228 del 20/10/2025)
+
+Antecedentes relacionados
+
+Texto anterior:
+
+Art. 23 – Sanciones accesorias
+
+Son sanciones accesorias:
+
+– Clausura.
+
+– Inhabilitación.
+
+– Comiso.
+
+– Prohibición de concurrencia.
+
+– Reparación del daño.
+
+– Interdicción de cercanía.
+
+– Instrucciones especiales.
+
+Las sanciones accesorias sólo pueden imponerse juntamente con algunas de las establecidas como principales, cuando a criterio del juez/a resulten procedentes en atención a las circunstancias del caso.
+
+En los casos de los/las condenados/as por la contravención establecida en el artículo 131 del presente Código, la sanción de inhabilitación para conducir vehículos automotores se impondrá, en todos los casos, en forma conjunta con la de multa o arresto.
+
+(Último párrafo incorporado por el art. 30 de la Ley Nº 6.486, BOCABA Nº 6.286 del 30/12/2021)
+
+Texto anterior:
+
+Art. 23 – Sanciones accesorias
+
+Son sanciones accesorias:
+
+Clausura.
+
+Inhabilitación.
+
+Comiso.
+
+Prohibición de concurrencia.
+
+Reparación del daño.
+
+Interdicción de cercanía.
+
+Instrucciones especiales.
+
+Las sanciones accesorias sólo pueden imponerse juntamente con algunas de las establecidas como principales, cuando a criterio del juez/a resulten procedentes en atención a las circunstancias del caso.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA Nº 5.485)
+
+Art. 24 – Sanciones sustitutivas
+
+Cuando el contraventor injustificadamente no cumpla o quebrante las sanciones impuestas, el Juez puede sustituirlas por trabajos de utilidad pública o excepcionalmente arresto. Esta medida puede cesar cuando el contraventor manifiesta su decisión de cumplir la sanción originalmente impuesta, o el resto de ella.
+
+En los casos que fuera procedente la medida referida en el párrafo precedente, el juez/a efectúa la conversión a razón de un (1) día de arresto o un (1) día de trabajos de utilidad pública por cada dos mil ochocientos cincuenta y tres pesos ($ 2.853) de multa o por cada día de trabajo de utilidad pública no cumplidos.
+
+En tal supuesto, la sanción sustitutiva a aplicarse no puede exceder el máximo previsto para dicha especie de sanción en el tipo contravencional respectivo.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 24 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación.
+
+Texto anterior:
+
+Art. 24 – Sanciones sustitutivas
+
+Cuando el contraventor injustificadamente no cumpla o quebrante las sanciones impuestas, el Juez puede sustituirlas por trabajos de utilidad pública o excepcionalmente arresto. Esta medida puede cesar cuando el contraventor manifiesta su decisión de cumplir la sanción originalmente impuesta, o el resto de ella.
+
+En los casos que fuera procedente la medida referida en el párrafo precedente, el juez/a efectúa la conversión a razón de un (1) día de arresto o un (1) día de trabajos de utilidad pública por cada dos mil pesos ($ 2.000) de multa o por cada día de trabajo de utilidad pública no cumplidos.
+
+En tal supuesto, la sanción sustitutiva a aplicarse no puede exceder el máximo previsto para dicha especie de sanción en el tipo contravencional respectivo.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art 25 – Extensión de las sanciones
+
+Las sanciones no pueden exceder:
+
+– Trabajo de utilidad pública, hasta noventa (90) días.
+
+-Multa hasta 23.500 Unidades Fijas.
+
+-Arresto, hasta sesenta (60) días, excepto en lo dispuesto en Libro II, Título I, Capítulo III y el Título V en los que no puede exceder los noventa (90) días.
+
+-Clausura, hasta ciento ochenta (180) días.
+
+-Inhabilitación, hasta dos (2) años, excepto en lo dispuesto respecto del Título V. Prohibición de concurrencia hasta un (1) año.
+
+-Interdicción de cercanía, hasta un máximo de doscientos (200) metros.
+
+-Instrucciones especiales, hasta doce (12) meses.
+
+-Prohibición de tutela y contacto con animales domésticos hasta dos (2) años.
+
+(Conforme texto art. 2º de la Ley Nº 6.839, BOCABA Nº 7.228 del 20/10/2025)
+
+Antecedentes relacionados
+
+Texto anterior:
+
+Art. 25 – Extensión de las sanciones
+
+Las sanciones no pueden exceder:
+
+– Trabajo de utilidad pública, hasta noventa (90) días.
+
+– Multa hasta 23.500 Unidades Fijas
+
+– Arresto, hasta sesenta (60) días, excepto en lo dispuesto en Libro II, Título I, Capítulo III y el Titulo V en los que no puede exceder los noventa (90) días.
+
+– Clausura, hasta ciento ochenta (180) días
+
+– Inhabilitación, hasta dos (2) años, excepto en lo dispuesto respecto del Título V.
+
+– Prohibición de concurrencia hasta un (1) año.
+
+– Interdicción de cercanía, hasta un máximo de doscientos (200) metros.
+
+– Instrucciones especiales, hasta doce (12) meses.
+
+(Conforme texto art. 3º de la Ley Nº 6.015, BOCABA Nº 5.488 del 30/10/2018, entrada en vigencia el 01/11/2018)
+
+Texto anterior:
+
+Art. 25 – Extensión de las sanciones
+
+Las sanciones no pueden exceder:
+
+– Trabajos de utilidad pública, hasta noventa (90) días.
+
+– Multa, hasta pesos trescientos mil ($ 300.000).
+
+– Arresto, hasta sesenta (60) días, excepto en lo dispuesto en Libro II, Título I, Capítulo III y el Título V en los que no puede exceder los noventa (90) días.
+
+– Clausura, hasta ciento ochenta (180) días.
+
+– Inhabilitación, hasta dos (2) años, excepto en lo dispuesto respecto del Título V.
+
+– Prohibición de concurrencia hasta un (1) año.
+
+– Interdicción de cercanía, hasta un máximo de doscientos (200) metros.
+
+– Instrucciones especiales, hasta doce (12) meses.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA Nº 5.485)
+
+Art. 26 – Graduación de la sanción
+
+La sanción en ningún caso debe exceder la medida del reproche por el hecho. Para elegir y graduar la sanción se deben considerar las circunstancias que rodearon al hecho, la extensión del daño causado y en caso de acción culposa la gravedad de la infracción al deber de cuidado. Deben ser tenidos en cuenta los motivos, la conducta anterior al hecho, las circunstancias económicas, sociales y culturales y el comportamiento posterior, especialmente la disposición para, reparar el daño, resolver el conflicto, mitigar sus efectos y los antecedentes penales, contravencionales y de faltas por otros hechos que afecten bienes jurídicos afines con el hecho del caso. Solo se tendrán en consideración al efecto los antecedentes de faltas y contravencionales ocurridos en los dos (2) años anteriores al hecho del juzgamiento.
+
+No son punibles las conductas que no resultan significativas para ocasionar daño o peligro cierto para los bienes jurídicos individuales o colectivos protegidos.
+
+Antecedentes relacionados
+
+Nota de redacción: conforme texto art. 1º de la Ley Nº 6.283, BOCABA Nº 5.779 del 14/01/2020.
+
+Texto anterior:
+
+Art. 26 – Graduación de la sanción
+
+La sanción en ningún caso debe exceder la medida del reproche por el hecho.
+
+Para elegir y graduar la sanción se deben considerar las circunstancias que rodearon al hecho, la extensión del daño causado y en caso de acción culposa la gravedad de la infracción al deber de cuidado. Deben ser tenidos en cuenta los motivos, la conducta anterior al hecho, las circunstancias económicas, sociales y culturales y el comportamiento posterior, especialmente la disposición para, reparar el daño, resolver el conflicto, mitigar sus efectos y los antecedentes contravencionales en los dos (2) años anteriores al hecho del juzgamiento.
+
+No son punibles las conductas que no resultan significativas para ocasionar daño o peligro cierto para los bienes jurídicos individuales o colectivos protegidos.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA Nº 5.485)
+
+Art. 27 – Acumulación de sanciones
+
+Sólo pueden acumularse como máximo una (1) sanción principal y dos (2) accesorias, optando dentro de estas últimas por las más eficaces para prevenir la reiteración, reparar el daño o resolver el conflicto.
+
+El máximo de la sanción se reduce en un tercio cuando al contraventor/a le fuera imputable un accionar culposo, siempre que la forma culposa estuviere expresamente prevista en la figura.
+
+Art. 28 – Trabajo de utilidad pública
+
+El trabajo de utilidad pública se debe prestar en lugares y horarios que determine el juez/a, fuera de la jornada de actividades laborales y educativas del contraventor/a.
+
+El trabajo de utilidad pública debe realizarse en establecimientos públicos tales como escuelas, hospitales, geriátricos u otras instituciones dependientes de los Poderes de Gobierno de la Ciudad Autónoma de Buenos Aires, o sobre bienes de dominio público.
+
+Esta sanción debe adecuarse a las capacidades físicas y psíquicas del contraventor/a y deben tenerse especialmente en cuenta las habilidades o conocimientos especiales que el contraventor/a pueda aplicar en beneficio de la comunidad.
+
+El juez/a debe controlar el cumplimiento de los trabajos de utilidad pública, tomar las medidas que sean necesarias para su efectivo control e instruir al contraventor/a para que comparezca periódicamente a dar cuenta de su cumplimiento.
+
+El juez/a que compruebe que el contraventor/a sin causa justificada no cumple con el trabajo de utilidad pública podrá sustituir cada día de trabajo de utilidad pública por un día de arresto.
+
+Art. 29 – Multa
+
+La multa es la sanción pecuniaria a pagar por el/la contraventor/a, en moneda de curso legal.
+
+La multa será determinada en Unidades Fijas (UF). Cada Unidad Fija tendrá un valor equivalente a medio litro de nafta del mayor octanaje informado por el Automóvil Club Argentino sede Central y se actualizará por períodos semestrales. La Unidad Fija se convertirá en moneda de curso legal al momento en que el contraventor efectúe el pago.
+
+Los importes percibidos por multas deben destinarse a financiar los programas de educación, deportes, promoción social y salud del Gobierno de la Ciudad Autónoma de Buenos Aires.
+
+Los importes percibidos por multas previstas en el Título VI “Protección y cuidado de animales domésticos” deben destinarse al financiamiento de programas del Gobierno de la Ciudad Autónoma de Buenos Aires en materia de bienestar animal.
+
+La sanción de multa no permite su cumplimiento en suspenso.
+
+No se impone la sanción de multa a quien no tiene capacidad de pago.
+
+(Conforme texto art. 3º de la Ley Nº 6.839, BOCABA Nº 7.228 del 20/10/2025)
+
+Antecedentes relacionados
+
+Texto anterior:
+
+Art. 29 – Multa
+
+La multa es la sanción pecuniaria a pagar por el contraventor/a, en moneda de curso legal.
+
+La multa será determinada en Unidades Fijas (UF). Cada Unidad Fija tendrá un valor equivalente a medio litro de nafta del mayor octanaje informado por el Automóvil Club Argentino sede Central y se actualizará por períodos semestrales. La Unidad Fija se convertirá en moneda de curso legal al momento en que el contraventor efectúe el pago.
+
+Los importes percibidos por multas deben destinarse a financiar los programas de educación, deportes, promoción social y salud del Gobierno de la Ciudad Autónoma de Buenos Aires.
+
+La sanción de multa no permite su cumplimiento en suspenso.
+
+No se impone la sanción de multa a quien no tiene capacidad de pago.
+
+(Conforme texto art. 2º de la Ley Nº 6.015, BOCABA Nº 5.488 del 30/10/2018, entrada en vigencia el 01/11/2018)
+
+Texto anterior:
+
+Art. 29 – Multa
+
+La multa es la sanción pecuniaria a pagar por el contraventor/a, en moneda de curso legal.
+
+Los importes percibidos por multas deben destinarse a financiar los programas de educación, deportes, promoción social y salud del Gobierno de la Ciudad Autónoma de Buenos Aires.
+
+No se impone la sanción de multa a quien no tiene capacidad de pago.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018,
+BOCABA Nº 5.485)
+
+Art. 30 – Multa. Pago. Reemplazo
+
+El Juez/a puede autorizar al contraventor/a a pagar la multa en cuotas, fijando el importe y las fechas de los pagos, cuando el monto de la multa y la situación económica del condenado/a así lo aconseje.
+
+Si por causas sobrevinientes a la sentencia condenatoria, el contraventor/a demuestra carecer totalmente de bienes, el juez/a puede reemplazar la multa no cumplida por la sanción de trabajos de utilidad pública.
+
+En caso de incumplimiento injustificado de la sanción de multa se aplica lo dispuesto en el artículo 24, excepto en los casos en que el condenado sea una persona de existencia ideal, en los que se procede a la ejecución forzada de la sanción.
+
+Art. 31 – Arresto
+
+La sanción de arresto debe cumplirse en establecimientos que cumplan con los recaudos previstos por el Art. 13 de la Constitución de la Ciudad, en ningún caso pueden utilizarse a tal fin reparticiones policiales ni otras destinadas a la detención de personas procesadas o condenadas por delitos.
+
+El juez/a puede fraccionar el arresto a efectos de que sea cumplido en días no laborables, atendiendo a las circunstancias del caso.
+
+Art. 32 – Arresto domiciliario
+
+La sanción de arresto puede cumplirse en el domicilio del contraventor/a cuando se trate de:
+
+– Mujer en estado de gravidez o lactancia o personas que tengan menores de dieciocho (18) años a su exclusivo cargo.
+
+– Enfermos que exhiban certificado médico oficial que así lo aconseje.
+
+– Personas con discapacidad o quienes las tengan a su cargo.
+
+– Mayores de setenta (70) años.
+
+El contraventor/a que quebrante el arresto domiciliario debe cumplir el resto de la sanción impuesta en el establecimiento que correspondiere.
+
+Art. 33 – Clausura
+
+La clausura importa el cierre por el tiempo que disponga la sentencia del establecimiento o local donde se comete la contravención.
+
+Art. 34 – Inhabilitación
+
+La inhabilitación importa la prohibición de ejercer empleo, profesión o actividad sobre la que recayere y la incapacidad para obtener otro/a del mismo género durante la condena. Podrá aplicarse cuando la contravención se produce por incompetencia, negligencia o abuso en el ejercicio de un empleo, profesión, servicio o actividad dependiente de una autorización, permiso, licencia o habilitación de autoridad competente.
+
+En todos los casos previstos por el artículo 131 del presente Código se impondrá inhabilitación para conducir vehículos automotores de cuatro (4) meses a dos (2) años, como pena conjunta.
+
+El condenado/a por las contravenciones tipificadas en el Título V es pasible de inhabilitación entre cinco (5) y diez (10) años para obtener cualquier autorización, habilitación o licencia para organizar, promover, explotar o comerciar sorteos, apuestas o juegos.
+
+La sanción de inhabilitación no podrá ser dejada en suspenso.
+
+Antecedentes relacionados
+
+Nota de redacción: conforme texto art. 31 de la Ley Nº 6.486, BOCABA Nº 6.286 del 30/12/2021.
+
+Texto anterior:
+
+Art. 34 – Inhabilitación
+
+La inhabilitación importa la prohibición de ejercer empleo, profesión o actividad y sólo puede aplicarse cuando la contravención se produce por incompetencia, negligencia o abuso en el ejercicio de un empleo, profesión, servicio o actividad dependiente de una autorización, permiso, licencia o habilitación de autoridad competente.
+
+El condenado/a por las contravenciones tipificadas en el Título V es pasible de inhabilitación entre cinco (5) y diez años (10) para obtener cualquier autorización, habilitación o licencia para organizar, promover, explotar o comerciar sorteos, apuestas o juegos
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018,
+BOCABA Nº 5.485)
+
+Art. 35 – Rehabilitación
+
+En caso de primera condena, el condenado a inhabilitación puede ser rehabilitado, transcurrida la mitad del plazo de la condena, si demuestra haber remediado su incompetencia mediante la acreditación de la aprobación del curso específico de educación vial.
+
+Antecedentes relacionados
+
+Nota de redacción: incorporado como art. 34 bis por art. 32 de la Ley Nº 6.486, BOCABA Nº 6.286 del 30/12/2021.
+
+Art. 36 – Comiso
+
+La condena por una contravención comprende el comiso de las cosas que han servido para cometer el hecho.
+
+Los bienes que puedan ser de utilidad para algún establecimiento oficial o de bien público, deben entregarse a éste en propiedad. Los bienes que no posean valor lícito algunos se destruirán.
+
+El juez/a puede disponer la restitución de los bienes cuando su comiso importe, por las características del caso, una evidente desproporción punitiva.
+
+No se aplica el comiso en materia de vehículos.
+
+En todos los casos de condena por contravención tipificada en el Título V, se entiende que el término “cosa” también resulta comprensivo del dinero apostado o en juego.
+
+Art. 37 – Prohibición de concurrencia
+
+La prohibición de concurrencia es la sanción impuesta al contraventor/a de no concurrir a ciertos lugares por un determinado período de tiempo.
+
+Art. 38 – Reparación del daño causado
+
+Cuando la contravención hubiere causado un perjuicio a una persona determinada y no resultaren afectados el interés público o de terceros, el juez/a puede ordenar la reparación del daño a cargo del contraventor o de su responsable civil.
+
+La reparación dispuesta en el fuero contravencional es sin perjuicio del derecho de la víctima a demandar la indemnización en el fuero pertinente.
+
+Art. 39 – Interdicción de cercanía
+
+La interdicción de cercanía es la prohibición impuesta al contraventor/a de acercarse a menos de determinada distancia, de lugares o personas.
+
+Art. 40 – Instrucciones especiales
+
+Las instrucciones especiales consisten en el sometimiento del contraventor/a a un plan de acciones establecido por el juez/a. Las instrucciones pueden consistir entre otras, en asistir a determinados cursos especiales, en participar en programas individuales o de grupos de organismos públicos o privados, que le permitan modificar los comportamientos que hayan incidido en la realización de la conducta sancionada.
+
+El juez/a no puede impartir instrucciones especiales cuyo cumplimiento sea vejatorio para el contraventor/a, que afecten sus convicciones, su privacidad, que sean discriminatorias o que se refieran a pautas de conductas no directamente relacionadas con la contravención cometida.
+
+El juez/a debe controlar el cumplimiento de las instrucciones especiales y tomar las medidas que sean necesarias para su efectivo control e instruir al contraventor/a para que comparezca periódicamente a dar cuenta de su cumplimiento.
+
+En caso de que una contravención se hubiera cometido en ocasión del desarrollo de actividades realizadas en nombre, al amparo o beneficio de una persona de existencia ideal, el juez/a puede ordenar, a cargo de ésta, la publicación de la parte dispositiva de la sentencia condenatoria en el Boletín Oficial de la Ciudad y en un medio gráfico.
+
+TÍTULO III
+
+EXTINCIÓN DE LAS ACCIONES Y LAS SANCIONES
+
+Art. 41 – Extinción
+
+La acción se extingue por:
+
+Conciliación o autocomposición homologada judicialmente.
+
+Muerte del imputado o condenado.
+
+Prescripción.
+
+Cumplimiento de la sanción o del compromiso establecido en el artículo 47.
+
+La renuncia del damnificado respecto de las contravenciones de acción dependiente de instancia privada.
+
+En el caso del inciso 5 es necesario el consentimiento del imputado, sin perjuicio de la facultad del Juez de revisar el acto cuando tuviere fundados motivos para estimar que la denuncia fue falsa o que algunos de los intervinientes han actuado bajo coacción o amenaza.
+
+La sanción se extingue en los supuestos establecidos en los incisos 2), 3) y 4) estipulados precedentemente.
+
+Art. 42 – Conciliación o autocomposición
+
+Existe conciliación o autocomposición cuando el imputado/a y la víctima llegan a un acuerdo sobre la reparación del daño o resuelven el conflicto que generó la contravención y siempre que no resulte afectado el interés público o de terceros.
+
+La conciliación o autocomposición puede concretarse en cualquier estado del proceso. El fiscal debe procurar que las partes manifiesten cuáles son las condiciones en que aceptarían conciliarse o llegar a la autocomposición.
+
+Cuando se produzca la conciliación o autocomposición el juez debe homologar los acuerdos y declarar extinguida la acción contravencional.
+
+El juez puede no aprobar la conciliación o autocomposición cuando tenga fundados motivos para estimar que alguno de los intervinientes no está en condiciones de igualdad para negociar o ha actuado bajo coacción o amenaza.
+
+Mediación. El fiscal puede solicitar el asesoramiento y el auxilio de personas o entidades especializadas para procurar el acuerdo de las partes en conflicto o instar a los interesados para que designen un mediador.
+
+El Juez y/o el fiscal deben poner en conocimiento de la víctima la existencia de estos mecanismos alternativos de resolución de conflictos.
+
+Art. 43 – Prescripción de la acción
+
+La acción prescribe a los dieciocho meses de cometida la contravención o de la cesación de la misma si fuera permanente. En los casos de contravenciones de tránsito o de las del Título V la prescripción de la acción se producirá a los dos (2) años.
+
+Art. 44 – Prescripción de la sanción
+
+La sanción prescribe a los dieciocho meses de la fecha en que la sentencia quedó firme o desde el quebrantamiento de la condena, si ésta hubiera empezado a cumplirse. La prescripción será a los dos años en los casos de contravenciones de tránsito y de las del Título V.
+
+Art. 45 – Interrupción de la prescripción
+
+La prescripción de la acción se interrumpe por:
+
+a) la celebración de la primera audiencia de juicio
+
+b) la declaración de rebeldía del imputado/a.
+
+En ambos casos corren y se interrumpen separadamente para cada uno de los partícipes de la infracción.
+
+Antecedentes relacionados
+
+Nota de redacción: conforme texto art. 2º de la Ley Nº 6.283, BOCABA Nº 5.779 del 14/01/2020.
+Al momento de la modificación la numeración del texto se correspondía con el art. 44, hoy art. 45.
+
+Texto anterior:
+
+Art. 44 – Interrupción de la prescripción
+
+La prescripción de la acción sólo se interrumpe por la celebración de la audiencia de juicio o por la rebeldía del imputado/a. En ambos casos corren y se interrumpen separadamente para cada uno de los partícipes de la infracción.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018,
+BOCABA Nº 5.485)
+
+Art. 46 – Suspensión de la prescripción de la acción
+
+La prescripción de la acción se suspende por:
+
+a) la concesión de la suspensión del proceso a prueba desde la notificación al encausado/a de la aplicación del instituto, hasta la revocatoria, en su caso, por parte del juez/a.
+
+b) la iniciación de un nuevo proceso contravencional, si en este se dicta sentencia condenatoria.
+
+c) la interposición del recurso de inconstitucionalidad ante el Tribunal Superior de Justicia.
+
+d) la interposición del recurso de queja ante el Tribunal Superior de Justicia por haber sido denegado el arriba antes mencionado.
+
+En los últimos dos casos se computará la suspensión desde la fecha de su interposición ante el tribunal superior de la causa y hasta el dictado de la decisión firme que lo acepte o rechace.
+
+En todos los casos corren y se suspenden separadamente para cada uno de los partícipes de la infracción.
+
+Antecedentes relacionados
+
+Nota de redacción: incorporado como art. 44 bis por art. 3º de la Ley Nº 6.283, BOCABA Nº 5.779 del 14/01/2020.
+
+Art. 47 – Suspensión del proceso a prueba
+
+El imputado/a de una contravención que no registre condena Contravencional en los dos (2) años anteriores al hecho, puede acordar con el Ministerio Público Fiscal la suspensión del proceso a prueba sin que ello implique admitir su responsabilidad.
+
+El Juez resuelve sobre el acuerdo, teniendo la facultad de no aprobarlo cuando tuviere fundados motivos para estimar que alguno de los intervinientes no estuvo en igualdad de condiciones para negociar o que ha actuado bajo coacción o amenaza.
+
+El imputado/a debe abandonar a favor del Estado los bienes que necesariamente resultarían decomisados en caso que recayere condena.
+
+El acuerdo debe contemplar el compromiso de cumplir, por un lapso que no excederá de un año, una o más de las siguientes reglas de conducta:
+
+Fijar residencia y comunicar a la Fiscalía el cambio de ésta
+
+Cumplir con las citaciones o requerimientos que la Fiscalía o el Juzgado hiciere.
+
+Realizar tareas comunitarias.
+
+Abstenerse de concurrir a determinados lugares o de tomar contacto con determinadas personas.
+
+Abstenerse de realizar alguna actividad.
+
+Abstenerse de ingerir bebidas alcohólicas.
+
+Cumplir instrucciones especiales que se le impartan.
+
+Cumplido el compromiso sin que el imputado/a cometa alguna contravención, se extinguirá la acción.
+
+En caso contrario, se continuará con el proceso.
+
+La suspensión del proceso a prueba suspende el curso de la prescripción. También lo suspende la iniciación de un nuevo proceso contravencional, si en éste se dicta sentencia condenatoria.
+
+La suspensión del proceso a prueba no obstará a que en los casos previstos en los artículos 131, 132 y 133 del Título IV, Capítulo III de este Código el Juez Contravencional notifique al Poder Ejecutivo para que se adopten las medidas administrativas previstas en el Título Undécimo del Código de Tránsito y Transporte, que resultarían aplicables en el caso que recayera condena.
+
+Art. 48 – Condena en suspenso
+
+En los casos de primera condena si el juez/a, atendiendo a los antecedentes personales, modo de vida, con especial ponderación en las condiciones socio económicas, naturaleza, modalidades y móviles de la contravención, presume que el condenado/a no volverá a incurrir en una nueva contravención de la misma especie, podrá dejar en suspenso su cumplimiento.
+
+Al suspender la ejecución de la condena el juez/a dispone que el condenado/a cumpla una o más de las reglas de conducta prevista en el tercer párrafo del artículo 47, durante un lapso que no puede exceder del allí estipulado, en tanto resulten adecuadas para prevenir la comisión de nuevas contravenciones.
+
+Las reglas de conducta pueden ser modificadas por el juez/a según resulte conveniente al caso. Si el condenado/a no cumple con alguna regla de conducta el juez/a puede revocar la suspensión de la ejecución de la condena y el condenado/a debe cumplir la totalidad de la sanción impuesta.
+
+Si dentro del término de dos (2) años de la sentencia condenatoria el condenado/a no comete una nueva contravención, la condena se tendrá por no pronunciada. En caso contrario, se hará efectiva la primera sentencia, además de la segunda, y el contraventor/a será considerado como reincidente si reúne los requisitos establecidos por el artículo 17.
+
+La sanción de inhabilitación no podrá ser dejada en suspenso.
+
+Antecedentes relacionados
+
+Nota de redacción: último párrafo incorporado por art. 33 de la Ley Nº 6.486, BOCABA Nº 6.286 del 30/12/2021. Al momento de la incorporación la numeracion del texto se correspondía con el art. 47, hoy art. 48.
+
+Texto anterior:
+
+Art. 46 – Condena en suspenso
+
+En los casos de primera condena si el juez/a, atendiendo a los antecedentes personales, modo de vida, con especial ponderación en las condiciones socio económicas, naturaleza, modalidades y móviles de la contravención, presume que el condenado/a no volverá a incurrir en una nueva contravención de la misma especie, podrá dejar en suspenso su cumplimiento.
+
+Al suspender la ejecución de la condena el juez/a dispone que el condenado/a cumpla una o más de las reglas de conducta prevista en el tercer párrafo del artículo 47, durante un lapso que no puede exceder del allí estipulado, en tanto resulten adecuadas para prevenir la comisión de nuevas contravenciones.
+
+Las reglas de conducta pueden ser modificadas por el juez/a según resulte conveniente al caso. Si el condenado/a no cumple con alguna regla de conducta el juez/a puede revocar la suspensión de la ejecución de la condena y el condenado/a debe cumplir la totalidad de la sanción impuesta.
+
+Si dentro del término de dos (2) años de la sentencia condenatoria el condenado/a no comete una nueva contravención, la condena se tendrá por no pronunciada. En caso contrario, se hará efectiva la primera sentencia, además de la segunda, y el contraventor/a será considerado como reincidente si reúne los requisitos establecidos por el artículo 17.
+
+(Conforme texto art. 13 de la Ley Nº 6.128, BOCABA Nº 5.531 del 07/01/2019. Al momento de la modificación la numeración del texto se correspondía con el art. 46, hoy art. 48.)
+
+Texto anterior:
+
+Art. 46 – Condena en suspenso
+
+En los casos de primera condena si el juez/a, atendiendo a los antecedentes personales, modo de vida, naturaleza, modalidades y móviles de la contravención, presume que el condenado/a no volverá a incurrir en una nueva contravención de la misma especie, podrá dejar en suspenso su cumplimiento.
+
+Al suspender la ejecución de la condena el juez/a dispone que el condenado/a cumpla una o más de las reglas de conducta prevista en el tercer párrafo del artículo 45, durante un lapso que no puede exceder del allí estipulado, en tanto resulten adecuadas para prevenir la comisión de nuevas contravenciones.
+
+Las reglas de conducta pueden ser modificadas por el juez/a según resulte conveniente al caso. Si el condenado/a no cumple con alguna regla de conducta el juez/a puede revocar la suspensión de la ejecución de la condena y el condenado/a debe cumplir la totalidad de la sanción impuesta.
+
+Si dentro del término de dos (2) años de la sentencia condenatoria el condenado/a no comete una nueva contravención, la condena se tendrá por no pronunciada. En caso contrario, se hará efectiva la primera sentencia, además de la segunda, y el contraventor/a será considerado como reincidente si reúne los requisitos establecidos por el artículo 17.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA Nº 5.485)
+
+Art. 49 – Eximición de la sanción
+
+El juez/a puede eximir mediante sentencia la sanción, siempre que el imputado no registre condena contravencional anterior, cuando exista alguna circunstancia de atenuación, y por ello la sanción mínima a aplicar resulte demasiado severa.
+
+El beneficio de la eximición judicial no rige a los fines de la reincidencia.
+
+TÍTULO IV
+
+REGISTRO DE CONTRAVENCIONES
+
+Art. 50 – Remisión de sentencias y notificación de rebeldías
+
+El/la juez/a debe remitir todas las sentencias y notificación de rebeldías. El/la Juez/a debe remitir todas las sentencias y notificar las rebeldías al Registro de Contravenciones de la Ciudad Autónoma de Buenos Aires, acompañando el correspondiente juego de fichas dactiloscópicas.
+
+Antecedentes relacionados
+
+Nota de redacción: conforme texto art. 4º de la Ley Nº 6.283, BOCABA Nº 5.779 del 14/01/2020. Al momento de la modificación la numeración del texto se correspondía con el art. 48, hoy art. 50.
+
+Texto anterior:
+
+Art. 48 – Remisión de sentencias y notificación de rebeldías
+
+El juez/a debe remitir todas las sentencias condenatorias y notificar las rebeldías al Registro de Contravenciones de la Ciudad Autónoma de Buenos Aires.
+
+Sin perjuicio de lo anterior, el juez/a remite todas las sentencias condenatorias firmes, previa eliminación de los datos identificatorios de las partes, excepto las contravenciones de tránsito, al Registro Estadístico de Contravenciones y Faltas de la Ciudad Autónoma de Buenos Aires.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018,
+BOCABA Nº 5.485)
+
+Art. 51 – Solicitud de antecedentes
+
+Antes de dictar sentencia la autoridad judicial debe requerir al Registro información sobre la existencia de condenas y rebeldías del/de la imputado/a tanto penales, contravencionales y de faltas.
+
+En función de lo previsto en el artículo 26 de la Ley 12, el juez ordenará al Registro Judicial de Contravenciones, cuando así lo hayan convenido las partes, que la sentencia condenatoria no sea incluida en los informes solicitados por el interesado.
+
+No obstante, dicha reserva de información no impedirá que el antecedente sea computado como agravante a los fines previstos en el artículo 17.
+
+Antecedentes relacionados
+
+Nota de redacción: conforme texto art. 5º de la Ley Nº 6.283, BOCABA Nº 5.779 del 14/01/2020.
+Al momento de la modificación la numeración del texto se correspondía con el art. 49, hoy art. 51.
+
+Texto anterior:
+
+Art. 49 – Solicitud de antecedentes
+
+Antes de dictar sentencia el juez/a debe requerir al Registro información sobre la existencia de condenas y rebeldías del imputado/a.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018,
+BOCABA Nº 5.485)
+
+Art. 51 bis – El Registro de Contravenciones debe contar con un apartado denominado “Registro de infractores a la Ley de Maltrato Animal”, en el que se registre a las personas condenadas por las contravenciones previstas en los artículos 141, 143 y 143 bis. El Registro de infractores a la Ley de Maltrato Animal, debe expedir, en forma gratuita y a solicitud de la persona titular de los datos, los certificados relativos a dichas inscripciones.
+
+(Incorporado por art. 4º de la Ley Nº 6.839, BOCABA Nº 7.228 del 20/10/2025)
+
+Art. 52 – Cancelación de registros
+
+Los registros se cancelan automáticamente a los cinco (5) años de la fecha de la condena si el contraventor/a no ha cometido una nueva contravención.
+
+Antecedentes relacionados
+
+Nota de redacción: conforme texto art. 6º de Ley Nº 6.283, BOCABA Nº 5.779 del 14/01/2020.
+Al momento de la modificación la numeración del texto se correspondía con el art. 50, hoy art. 52.
+
+Texto anterior:
+
+Art. 50 – Cancelación de registros
+
+Los registros se cancelan automáticamente a los cuatro (4) años de la fecha de la condena si el contraventor/a no ha cometido una nueva contravención.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018,
+BOCABA Nº 5.485)
+
+LIBRO II
+
+CONTRAVENCIONES
+
+TÍTULO I
+
+PROTECCIÓN INTEGRAL DE LAS PERSONAS
+
+CAPÍTULO I
+
+INTEGRIDAD FÍSICA
+
+Art. 53 – Pelear
+
+Tomar parte en una agresión. Quien pelea o toma parte en una agresión en lugar público o de acceso público es sancionado con uno (1) a cinco (5) días de trabajo de utilidad
+pública, multa de ochenta y una (81) a cuatrocientas seis (406) unidades fijas o uno (1) a cinco (5) días de arresto.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 53 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 51 pasa a ser art. 53.
+
+Texto anterior:
+
+Art. 51 – Pelear
+
+Tomar parte en una agresión. Quien pelea o toma parte en una agresión en lugar público o de acceso público es sancionado con uno (1) a cinco (5) días de trabajo de utilidad pública, multa de doscientos ($ 200) a un mil ($ 1.000) pesos o uno (1) a cinco (5) días de arresto.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 54 – Hostigar. Intimidar
+
+Quien intimida u hostiga de modo amenazante a otro, siempre que el hecho no constituya delito, es sancionado con uno (1) a cinco (5) días de trabajo de utilidad pública, multa ochenta (80) a cuatrocientas (400) unidades fijas y/o uno (1) a cinco (5) días de arresto. La acción será dependiente de instancia privada con excepción de los casos donde la víctima fuese menor de 18 años de edad.
+
+Antecedentes relacionados
+
+Nota de redacción: conforme texto art. 2º de la Ley Nº 6.128, BOCABA Nº 5.531 del 07/01/2019
+Al momento de la modificación la numeración del texto se correspondía con el art. 52, hoy art. 54.
+
+Texto anterior:
+
+Art. 52 – Hostigar. Maltratar. Intimidar
+
+Quien intimida u hostiga de modo amenazante o maltrata físicamente a otro, siempre que el hecho no constituya delito, es sancionado con uno (1) a cinco (5) días de trabajo de utilidad pública, multa de doscientos ($ 200) a un mil ($ 1.000) pesos o uno (1) a cinco (5) días de arresto.
+
+Acción dependiente de instancia privada.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA Nº 5.485)
+
+Art. 55 – Maltratar
+
+Quien ejerce violencia, maltrata físicamente o psíquicamente a otro mediante humillaciones, vejaciones, malos tratos verbales o físicos o cualquier otra forma de ataque a la dignidad, siempre que el hecho no constituya delito, es sancionado con dos (2) a diez (10) días de trabajo de utilidad pública, multa de ochenta (80) a cuatrocientas (400) unidades fijas y/o uno (1) a cinco (5) días de arresto. La acción será dependiente de instancia privada con excepción de los casos donde la víctima fuese menor de 18 años de edad.
+
+Antecedentes relacionados
+
+Nota de redacción: conforme texto art. 3º de la Ley Nº 6.128, BOCABA Nº 5.531 del 07/01/2019.
+Al momento de la modificación la numeración del texto se correspondía con el art. 53, hoy art. 55.
+
+Texto anterior:
+
+Art. 53 – Agravantes
+
+En las conductas descriptas en los artículos 51 y 52 la sanción se eleva al doble:
+
+1 – Para el jefe, promotor u organizador.
+
+2 – Cuando exista previa organización.
+
+3 – Cuando la víctima es persona menor de dieciocho (18) años, mayor de setenta (70) o con discapacidad.
+
+4 – Cuando la contravención se cometa con el concurso de dos (2) o más personas.
+
+5 – Cuando la conducta está basada en la desigualdad de género y es realizada de forma unilateral en lugares públicos o privados de acceso público.
+
+6 – Cuando la víctima es trabajador de la educación, sea docente o no, o trabajador de la salud, sea profesional o no, y el hecho tiene lugar dentro del establecimiento donde se desempeña, o fuera de él siempre que la conducta esté motivada en razón de su tarea, función o cargo.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA Nº 5.485)
+
+Art. 56 – Agravantes
+
+En las conductas descriptas en los artículos 53, 54 y 55 la sanción se eleva al doble:
+
+1. Para el jefe, promotor u organizador.
+
+2. Cuando exista previa organización.
+
+3. Cuando la víctima es persona menor de dieciocho (18) años, mayor de setenta (70) o con discapacidad.
+
+4. Cuando la contravención se cometa con el concurso de dos (2) o más personas.
+
+5. Cuando la conducta está basada en la desigualdad de género.
+
+6. Cuando la víctima es trabajador de la educación, sea docente o no, o trabajador de la salud, policial o judicial, sea profesional o no, y el hecho tiene lugar dentro del establecimiento donde se desempeña, o fuera de él siempre que la conducta esté motivada en razón de su tarea, función o cargo.
+
+Cuando la conducta objeto del presente agravante esté motivada en razón de haber estado en contacto con personas infectadas o casos denominados sospechosos de alguna enfermedad contagiosa, o porque su tarea se desarrolla o presumiblemente se desarrolla en espacios donde puede tener contacto con enfermedades "contagiosas", la persona sancionada deberá realizar un curso de inducción vinculado con dichas circunstancias.
+
+7. Cuando la contravención sea cometida por el/la cónyuge, ex cónyuge, o a la persona con quien mantiene o ha mantenido una relación de pareja, mediare o no convivencia.
+
+8. Cuando la contravención sea cometida por un familiar de hasta el cuarto grado de consanguinidad o hasta el segundo grado de afinidad.
+
+9. Cuando la contravención sea cometida con información que no habría sido develada sin que medie el engaño.
+
+10. Cuando la contravención sea cometida mediante la utilización de identidades falsas o anónimas o mediando la suplantación de la identidad de otra persona humana o jurídica.
+
+11. Cuando la contravención se cometa por placer, codicia, odio racial, religioso, de género o a la orientación sexual, identidad de género o su expresión.
+
+Antecedentes relacionados
+
+Nota de redacción: incorporado como art. 53 bis por el art. 4º de la Ley Nº 6.128, BOCABA Nº 5.531 del 07/01/2019.
+Al momento de la incorporación del artículo se correspondía con el art. 53 bis, hoy art. 56.
+
+Art. 57 – Colocar o arrojar sustancias insalubres o cosas dañinas en lugares públicos
+
+Quien coloca o arroja sustancias insalubres o cosas capaces de producir un daño, en lugares públicos o privados de acceso público, es sancionado con multa de doscientas cuarenta y tres (243) a seis mil
+ochenta y cuatro (6.084) unidades fijas o tres (3) a treinta (30) días de arresto.
+
+La sanción se eleva al doble cuando la conducta se realiza en espacios donde concurren niños/as.
+
+Idéntica sanción de multa le corresponde a las personas de existencia ideal cuando la acción se realiza en nombre, al amparo, en beneficio o con autorización de las mismas.
+
+Admite culpa.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 57 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 54 pasa a ser art. 57.
+
+Texto anterior:
+
+Art. 54 – Colocar o arrojar sustancias insalubres o cosas dañinas en lugares públicos
+
+Quien coloca o arroja sustancias insalubres o cosas capaces de producir un daño, en lugares públicos o privados de acceso público, es sancionado con multa de seiscientos ($ 600) a quince mil ($ 15.000) pesos o tres (3) a treinta (30) días de arresto.
+
+La sanción se eleva al doble cuando la conducta se realiza en espacios donde concurren niños/as. Idéntica sanción de multa le corresponde a las personas de existencia ideal cuando la acción se realiza en nombre, al amparo, en beneficio o con autorización de las mismas.
+
+Admite culpa.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 58 – Organizar o promover juegos o competencias de consumo de alcohol
+
+Quien organiza o promueve juegos o competencias consistentes en el consumo de bebidas alcohólicas es sancionado/a con multa de cuatrocientas seis (406) a seis mil ochenta y cuatro (6.084) unidades fijas
+o dos (2) a quince (15) días de arresto.
+
+La sanción se eleva al doble cuando en el juego o competencia intervienen personas menores de dieciocho (18) años. En este único supuesto se admite la forma culposa.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 58 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 55 pasa a ser art. 58.
+
+Texto anterior:
+
+Art. 55 – Organizar o promover juegos o competencias de consumo de alcohol
+
+Quien organiza o promueve juegos o competencias consistentes en el consumo de bebidas alcohólicas es sancionado/a con multa de un mil ($ 1000) a quince mil ($ 15.000) pesos o dos (2) a quince (15) días de arresto.
+
+La sanción se eleva al doble cuando en el juego o competencia intervienen personas menores de dieciocho (18) años. En este único supuesto se admite la forma culposa.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 59 – Espantar, Azuzar u hostigar animales
+
+Quien deliberadamente espanta, azuza u hostiga a un animal con peligro para éste o para terceros, y siempre que la conducta no implique delito, es sancionado/a con quince (15) a treinta (30) días de trabajo de utilidad pública o multa de mil (1.000) a dos mil quinientas (2.500) unidades fijas. Idéntica sanción corresponde a quien omita los recaudos de cuidado respecto de un animal que se encuentra a su cargo con peligro para terceros. En ambos casos la sanción se eleva al doble cuando por esa conducta se pone en peligro a una persona menor de dieciocho (18) años o mayor de setenta (70) años o con discapacidad.
+
+(Conforme texto art. 5º de la Ley Nº 6.839, BOCABA Nº 7.228 del 20/10/2025)
+
+Antecedentes relacionados
+
+Texto anterior:
+
+Art. 59 – Espantar o azuzar animales
+
+Quien deliberadamente espanta o azuza un animal con peligro para terceros es sancionado/a con uno (1) a tres (3) días de trabajo de utilidad pública o multa
+de ochenta y una (81) a doscientas cuarenta y tres (243) unidades fijas.
+
+Idéntica sanción corresponde a quien omita los recaudos de cuidado respecto de un animal que se encuentra a su cargo con peligro para terceros.
+
+En ambos casos la sanción se eleva al doble cuando por esa conducta se pone en peligro a una persona menor de dieciocho (18) años o mayor de setenta (70) años o con discapacidad.
+
+(Conforme texto art. 59 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 56 pasa a ser art. 59)
+
+Texto anterior:
+
+Art. 56 – Espantar o azuzar animales
+
+Quien deliberadamente espanta o azuza un animal con peligro para terceros es sancionado/a con uno (1) a tres (3) días de trabajo de utilidad pública o multa de doscientos ($ 200) a seiscientos ($ 600) pesos.
+
+Idéntica sanción corresponde a quien omita los recaudos de cuidado respecto de un animal que se encuentra a su cargo con peligro para terceros.
+
+En ambos casos la sanción se eleva al doble cuando por esa conducta se pone en peligro a una persona menor de dieciocho (18) años o mayor de setenta (70) años o con discapacidad.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+CAPÍTULO II
+
+LIBERTAD PERSONAL
+
+Art. 60 – Obstaculizar ingreso o salida
+
+Quien impide u obstaculiza intencionalmente y sin causa justificada el ingreso o salida de lugares públicos o privados es sancionado/a, con dos (2) a diez (10) días de trabajo de utilidad pública o multa de dieciocho (18) a noventa y tres (93) unidades fijas. El propietario/a, gerente/a, empresario/a, encargado/a o responsable del comercio o establecimiento que disponga, permita o tolere que se realice la conducta precedente, es sancionado con multa de cuarenta y seis (46) a cuatrocientas sesenta y siete (467) unidades fijas o uno (1) a diez (10) días de arresto. Este último supuesto admite culpa.
+
+Las sanciones se elevan al doble cuando estas contravenciones sean cometidas contra un trabajador de la salud, sea profesional o no, personal policial o judicial, y la conducta esté motivada en razón de haber estado en contacto durante el desempeño de su función laboral con personas infectadas o casos denominados sospechosos de alguna enfermedad contagiosa o porque su tarea se desarrolla o presumiblemente se desarrolla en espacios donde puede tener contacto con enfermedades "contagiosas”.
+
+Antecedentes relacionados
+
+Nota de redacción: conforme texto art. 2º de la Ley Nº 6.307, BOCABA Nº 5.887 del 09/06/2020.
+Al momento de la modificación la numeración del texto se correspondía con el art. 57, hoy art. 60.
+
+Texto anterior:
+
+Art. 57 – Obstaculizar ingreso o salida
+
+Quien impide u obstaculiza intencionalmente y sin causa justificada el ingreso o salida de lugares públicos o privados es sancionado/a, con dos (2) a diez (10) días de trabajo de utilidad pública o multa de cuatrocientos ($ 400) a dos mil ($ 2.000) pesos.
+
+El propietario/a, gerente/a, empresario/a, encargado/a o responsable del comercio o establecimiento que disponga, permita o tolere que se realice la conducta precedente, es sancionado con multa de un mil ($ 1.000) a diez mil ($ 10.000) pesos o uno (1) a diez (10) días de arresto. Este último supuesto admite culpa.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA Nº 5.485)
+
+Art. 61 – Ingresar o permanecer contra la voluntad del titular del derecho de admisión
+
+Quien ingresa o permanece en lugares públicos, o de acceso público o privado, contra la voluntad expresa de quien tiene el derecho de admisión es sancionado/a con uno (1) a cinco (5) días de trabajo de
+utilidad pública o multa de ochenta y una (81) a cuatrocientas seis (406) unidades fijas.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 61 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 58 pasa a ser art. 61.
+
+Texto anterior:
+
+Art. 58 – Ingresar o permanecer contra la voluntad del titular del derecho de admisión
+
+Quien ingresa o permanece en lugares públicos, o de acceso público o privado, contra la voluntad expresa de quien tiene el derecho de admisión es sancionado/a con uno (1) a cinco (5) días de trabajo de utilidad pública o multa de doscientos ($ 200) a un mil ($ 1.000) pesos.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 62 – Derecho de admisión
+
+Quien ingresa o permanece en un evento futbolístico, fehacientemente notificado de su impedimento de ingresar o permanecer en el estadio, será sancionado con uno (1) a cinco (5) días de arresto o multa de doscientas una (201) a ochocientas
+cuatro (804) unidades fijas.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 62 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 59 pasa a ser art. 62.
+
+Texto anterior:
+
+Art. 59 – Derecho de admisión
+
+Quien ingresa o permanece en un evento futbolístico, fehacientemente notificado de su impedimento de ingresar o permanecer en el estadio, será sancionado con uno (1) a cinco (5) días de arresto o multa de dos mil quinientos ($ 2.500) a diez mil ($10.000) pesos.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+CAPÍTULO III
+
+NIÑOS, NIÑAS Y ADOLESCENTES
+
+Art. 63 – Inducir a menor de edad a mendigar
+
+Quien induce a una persona menor de edad o con discapacidad a pedir limosna o contribuciones en su beneficio o de terceros es sancionado/a con uno (1) a veinte (20) días de trabajos de utilidad pública.
+
+La sanción es de cinco (5) a treinta (30) días de arresto cuando exista previa organización.
+
+El juez/a puede eximir de pena al autor/a en razón del superior interés del niño, niña o adolescente.
+
+Art. 64 – Actos de contenido sexual que involucren menores
+
+Quien promocione, publicite o
+informe de manera explícita o implícita, por cualquier medio, ayuda, oportunidad, sitio, servicios y/o
+elementos adecuados o necesarios a fin que terceros participen o intervengan en actos de contenido
+sexual que involucren a niños, niñas y adolescentes, será sancionado con arresto de diez (10) a
+sesenta (60) días o multa de entre mil quinientas cuarenta y ocho (1.548) y quince mil cuatrocientas
+setenta y nueve (15.479) unidades fijas. Quien conduzca a terceros a establecimientos o lugares
+donde se oferte a menores de dieciocho años, para su utilización en actos de contenido sexual, será
+sancionado con arresto de diez (10) a sesenta (60) días o multa de entre mil quinientas cuarenta y
+ocho (1.548) y quince mil cuatrocientas setenta y nueve (15.479) unidades fijas.
+
+Si en las conductas precedentes intervienen prestadores de servicios turísticos, individual, colectiva,
+u organizadamente, o al amparo de agencias u otras organizaciones turísticas serán sancionados
+con treinta (30) a noventa (90) días de arresto o el pago de una multa de nueve mil doscientas
+ochenta y ocho (9.288) a treinta mil novecientas cincuenta y ocho (30.958) unidades fijas.
+
+Igual sanción será aplicable si actuando en vinculación con agencias u organizaciones prestadoras
+de servicios turísticos, las conductas precedentes fueran cometidas por titulares responsables de
+bares y demás lugares de expendio de bebidas o titulares y conductores de ómnibus, camiones,
+taxis, remises o cualquier otro medio de transporte.
+
+Cuando los actos prohibidos sean cometidos, con o sin fines de lucro, por una persona jurídica, ésta
+será sancionada con la multa de veintitrés mil quinientas (23.500) unidades fijas y clausura del
+establecimiento e inhabilitación, ambas por el plazo máximo establecido por la ley.
+
+Si los hechos fuesen reputados presuntamente delictuosos se dará inmediata intervención al Juez
+órgano jurisdiccional correspondiente, poniéndose a los arrestados a disposición de las autoridades
+judiciales pertinentes, según lo previsto por el artículo 15 de la presente Ley.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 64 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 61 pasa a ser art. 64.
+
+Texto anterior:
+
+Art. 61 – Actos de contenido sexual que involucren menores
+
+Quien promocione, publicite o informe de manera explícita o implícita, por cualquier medio, ayuda, oportunidad, sitio, servicios y/o elementos adecuados o necesarios a fin que terceros participen o intervengan en actos de contenido sexual que involucren a niños, niñas y adolescentes, será sancionado con arresto de diez (10) a sesenta (60) días o multa de entre cinco mil (5.000) y cincuenta mil (50.000) pesos. Quien conduzca a terceros a establecimientos o lugares donde se oferte a menores de dieciocho años, para su utilización en actos de contenido sexual, será sancionado con arresto de diez (10) a sesenta (60) días o multa de entre cinco mil (5.000) y cincuenta mil (50.000) pesos.
+
+Si en las conductas precedentes intervienen prestadores de servicios turísticos, individual, colectiva, u organizadamente, o al amparo de agencias u otras organizaciones turísticas serán sancionados con treinta (30) a noventa (90) días de arresto o el pago de una multa de treinta mil (30.000) a cien mil (100.000) pesos.
+
+Igual sanción será aplicable si actuando en vinculación con agencias u organizaciones prestadoras de servicios turísticos, las conductas precedentes fueran cometidas por titulares responsables de bares y demás lugares de expendio de bebidas o titulares y conductores de ómnibus, camiones, taxis, remises o cualquier otro medio de transporte.
+
+Cuando los actos prohibidos sean cometidos, con o sin fines de lucro, por una persona jurídica, ésta será sancionada con la multa de cien mil (100.000) pesos y clausura del establecimiento e inhabilitación, ambas por el plazo máximo establecido por la ley.
+
+Si los hechos fuesen reputados presuntamente delictuosos se dará inmediata intervención al Juez órgano jurisdiccional correspondiente, poniéndose a los arrestados a disposición de las autoridades judiciales pertinentes, según lo previsto por el artículo 15 de la presente Ley.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 65 – Suministrar alcohol a personas menores de edad
+
+El propietario/a, gerente/a, empresario/a, encargado/a o responsable y/o titular o co-titular de un comercio o establecimiento de cualquier actividad que suministra o permite el consumo de bebidas alcohólicas a personas menores de dieciocho (18) años es sancionado/con dos (2) a veinte (20) días de arresto y la clausura del establecimiento y/o la inhabilitación.
+
+La sanción se incrementa al doble si se trata de salas de espectáculos o diversión en horarios en donde se permite el acceso a personas menores de edad o si no cuenta con la licencia especial para la venta de bebidas alcohólicas. Admite culpa.
+
+No es de aplicación lo establecido en los artículos 47 y 48 del Título III.
+
+Art. 66 – Tolerar o admitir la presencia de personas menores en lugares no autorizados
+
+El propietario/a, gerente/a, empresario/a, encargado/a o responsable de un local de espectáculos públicos, de baile o de entretenimientos, que tolera o admite la entrada o permanencia de una
+persona menor de dieciocho años fuera del horario permitido es sancionado/a con doscientas tres (203) a ochocientas once (811) unidades fijas de multa.
+
+Admite culpa.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 66 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 63 pasa a ser art. 66.
+
+Texto anterior:
+
+Art. 63 – Tolerar o admitir la presencia de personas menores en lugares no autorizados
+
+El propietario/a, gerente/a, empresario/a, encargado/a o responsable de un local de espectáculos públicos, de baile o de entretenimientos, que tolera o admite la entrada o permanencia de una persona menor de dieciocho años fuera del horario permitido es sancionado/a con quinientos ($ 500 a dos mil ($ 2.000) pesos de multa.
+
+Admite culpa.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 67 – Suministrar material pornográfico
+
+Quien suministra o permite a una persona menor de dieciocho (18) años el acceso a material pornográfico es sancionado/a con uno (1) a cinco (5) días de trabajo de utilidad pública, ochenta y una (81) a cuatrocientas seis (406) unidades fijas de multa
+o un (1) a cinco (5) días de arresto.
+
+La sanción se eleva al doble en caso que tal conducta se dirija a una persona menor de dieciséis (16) años.
+
+Admite culpa.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 67 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 64 pasa a ser art. 67.
+
+Texto anterior:
+
+Art. 64 – Suministrar material pornográfico
+
+Quien suministra o permite a una persona menor de dieciocho (18) años el acceso a material pornográfico es sancionado/a con uno (1) a cinco (5) días de trabajo de utilidad pública, doscientos ($ 200) a un mil ($ 1.000) pesos de multa o un (1) a cinco (5) días de arresto.
+
+La sanción se eleva al doble en caso que tal conducta se dirija a una persona menor de dieciséis (16) años.
+
+Admite culpa.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 68 – Suministrar objetos peligrosos a menores
+
+Quien suministra a una persona menor de dieciocho (18) años cualquier tipo de arma no convencional, de aire o gas comprimido, arma blanca u objetos cortantes o contundentes inequívocamente destinados a ejercer violencia o agredir, es
+sancionado/a con ciento sesenta y dos (162) a mil doscientas diecisiete (1.217) unidades fijas de multa o dos (2) a quince (15) días de arresto.
+
+La sanción se eleva al doble si se suministran materias explosivas o sustancias venenosas.
+
+Admite culpa.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 68 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 65 pasa a ser art. 68.
+
+Texto anterior:
+
+Art. 65 – Suministrar objetos peligrosos a menores
+
+Quien suministra a una persona menor de dieciocho (18) años cualquier tipo de arma no convencional, de aire o gas comprimido, arma blanca u objetos cortantes o contundentes inequívocamente destinados a ejercer violencia o agredir, es sancionado/a con cuatrocientos ($ 400) a tres mil ($ 3.000) pesos de multa o dos (2) a quince (15) días de arresto.
+
+La sanción se eleva al doble si se suministran materias explosivas o sustancias venenosas.
+
+Admite culpa.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 69 – Suministrar indebidamente productos industriales o farmacéuticos
+
+Quien suministra indebidamente a una persona menor de dieciocho años productos industriales o farmacéuticos, de los que emanen gases o vapores tóxicos que al ser inhalados o ingeridos sean susceptibles de producir trastornos en la conducta y daños en la salud, es sancionado/a con arresto de dos (2) a quince (15) días.
+
+La sanción se incrementa al doble cuando la acción se dirija a una persona menor de dieciséis (16) años o los hechos se cometen en el interior o en las adyacencias de un establecimiento escolar o educativo, o en ocasión de las entradas o salidas de los alumnos.
+
+Admite culpa.
+
+CAPÍTULO IV
+
+DERECHOS PERSONALÍSIMOS
+
+Art. 70 – Acoso Sexual
+
+Quien acosare sexualmente a otro en lugares públicos o privados de acceso público, es sancionado con dos (2) a diez (10) días de trabajo de utilidad pública, multa de ochenta (80) a cuatrocientas (400) unidades fijas o uno (1) a cinco (5) días de arresto. La sanción se elevará al doble cuando:
+
+La víctima sea menor de dieciocho (18) años, mayor de setenta (70) años o con discapacidad.
+
+La contravención se cometa con el concurso de dos (2) o más personas.
+
+La conducta esté basada en la desigualdad de género.
+
+Antecedentes relacionados
+
+Nota de redacción: conforme texto art. 5º de la Ley Nº 6.128, BOCABA Nº 5.531 del 07/01/2019.
+Al momento de la modificación la numeración del texto se correspondía con el art. 67, hoy art. 70.
+
+Texto anterior:
+
+Art. 67- Acoso sexual en espacios públicos o de acceso público
+Quien acosare sexualmente a otro, en lugares públicos o privados de acceso público, siempre que el hecho no constituya delito, es sancionado con dos (2) a diez (10) días de trabajo de utilidad pública, multa de doscientos ($ 200) a un mil ($ 1.000) pesos.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018,
+BOCABA 5.485)
+
+Art. 71 – Discriminar
+
+Quien discrimina a otro por razones de raza, etnia, género, orientación sexual, edad, religión, ideología, opinión, nacionalidad, caracteres físicos, condición psicofísica, social, económica, laboral o por cualquier otra circunstancia que implique exclusión, restricción o menoscabo de derechos y garantías reconocidos por la Constitución Nacional, los Tratados Internacionales de Derechos Humanos o la Constitución de la Ciudad Autónoma de Buenos Aires, es sancionado/a con dos (2) a diez (10) días de trabajo de utilidad pública o ciento cincuenta y ocho (158) a setecientas noventa y tres (793) unidades fijas de multa.
+
+Acción dependiente de instancia privada.
+
+Cuando la conducta objeto del presente esté motivada en razón de que por su condición laboral la persona afectada se encuentre en contacto con personas infectadas o casos denominados sospechosos de alguna enfermedad contagiosa, o porque su tarea se desarrolla o presumiblemente se desarrolla en espacios donde puede tener contacto con enfermedades "contagiosas", la persona sancionada deberá realizar un curso de inducción vinculado con dichas circunstancias.
+
+Antecedentes relacionados
+
+Nota de redacción: conforme texto art. 3º de la Ley Nº 6.307, BOCABA Nº 5.887 del 09/06/2020.
+Al momento de la modificación la numeración del texto se correspondía con el art. 68, hoy art. 71.
+
+Texto anterior:
+
+Art 68 – Discriminar
+
+Quien discrimina a otro por razones de raza, etnia, género, orientación sexual, edad, religión, ideología, opinión, nacionalidad, caracteres físicos, condición psicofísica, social, económica o cualquier circunstancia que implique exclusión, restricción o menoscabo, es sancionado/a con dos (2) a diez (10) días de trabajo de utilidad pública o cuatrocientos ($ 400) a dos mil ($ 2.000) pesos de multa.
+
+Acción dependiente de instancia privada.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018,
+BOCABA 5.485)
+
+Art. 72 – Alterar identificación de las sepulturas
+
+Quien altera o suprime la identificación de una sepultura es sancionado/a con ochenta y una (81) a ochocientas once (811) unidades fijas de multa o uno (1) a cinco (5) días de arresto.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 72 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 69 pasa a ser art. 72.
+
+Texto anterior:
+
+Art. 69 – Alterar identificación de las sepulturas
+
+Quien altera o suprime la identificación de una sepultura es sancionado/a con doscientos ($ 200) a dos mil ($ 2.000) pesos de multa o uno (1) a cinco (5) días de arresto.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 73 – Inhumar, exhumar o profanar cadáveres humanos, violar sepulcros, dispersar cenizas
+
+Quien inhuma o exhuma clandestinamente o profana un cadáver humano, viola un sepulcro o sustrae y dispersa restos o cenizas humanos se sanciona con ciento sesenta y dos (162) a mil seiscientas
+veintitres (1.623) unidades fijas de multa o dos (2) a diez (10) días de arresto.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 73 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 70 pasa a ser art. 73.
+
+Texto anterior:
+
+Art. 70 – Inhumar, exhumar o profanar cadáveres humanos, violar sepulcros, dispersar cenizas
+
+Quien inhuma o exhuma clandestinamente o profana un cadáver humano, viola un sepulcro o sustrae y dispersa restos o cenizas humanos se sanciona con cuatrocientos ($ 400) a cuatro mil ($ 4.000) pesos de multa o dos (2) a diez (10) días de arresto.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 74 – Perturbar ceremonias religiosas o servicios fúnebres
+
+Quien impide o perturba la realización de ceremonias religiosas o de un servicio fúnebre es sancionado/a con uno (1) a tres (3)días de trabajo de utilidad pública o ochenta y una (81) a doscientas cuarenta y tres (243) unidades
+fijas de multa o uno (1) a tres (3) días de arresto.
+
+La sanción se eleva al doble si se produce el ultraje o profanación de objetos o símbolos en ofensa a los sentimientos religiosos.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 74 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 71 pasa a ser art. 74.
+
+Texto anterior:
+
+Art. 71 – Perturbar ceremonias religiosas o servicios fúnebres
+
+Quien impide o perturba la realización de ceremonias religiosas o de un servicio fúnebre es sancionado/a con uno (1) a tres (3) días de trabajo de utilidad pública o doscientos ($ 200) a seiscientos ($ 600) pesos de multa o uno (1) a tres (3) días de arresto.
+
+La sanción se eleva al doble si se produce el ultraje o profanación de objetos o símbolos en ofensa a los sentimientos religiosos.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+CAPÍTULO V
+
+IDENTIDAD DIGITAL DE LAS PERSONAS
+
+Antecedentes relacionados
+
+Nota de redacción: capítulo incorporado por art. 6º de la Ley Nº 6.128, BOCABA Nº 5.531 del 07/01/2019.
+
+Art. 75 – Difusión no autorizada de imágenes o grabaciones íntimas
+
+Quien difunda, publique, distribuya, facilite, ceda y/o entregue a terceros imágenes, grabaciones y/o filmaciones de carácter íntimo sin el consentimiento de la persona y a través de cualquier tipo de comunicación electrónica, de trasmisión de datos, páginas web y/o a través de cualquier otro medio de comunicación, siempre que el hecho no constituya delito, es sancionado con una multa de cuatrocientas (400) a mil novecientas cincuenta (1950) unidades fijas o cinco (5) a quince (15) días de trabajo de utilidad pública o con tres (3) a diez (10) días de arresto. El consentimiento de la víctima para la difusión, siendo menor de 18 años, no será considerado válido.
+
+Tampoco podrá alegarse el consentimiento de la víctima en la generación del contenido como defensa a la realización de la presente conducta.
+
+Acción dependiente de instancia privada con excepción de los casos donde la víctima sea menor de 18 años de edad.
+
+No configura contravención el ejercicio del derecho a la libertad de expresión.
+
+Antecedentes relacionados
+
+Nota de redacción: Incorporado como art. 71 bis por el art. 6º de la Ley Nº 6.128, BOCABA Nº 5.531 del 07/01/2019.
+Al momento de la incorporación del artículo se correspondía con el art. 71 bis, hoy art. 75.
+
+Art. 76 – Hostigamiento digital
+
+Quien intimide u hostigue a otro mediante el uso de cualquier medio digital, siempre que el hecho no constituya delito, es sancionado con multa de ciento sesenta (160) a ochocientas (800) unidades fijas, tres (3) a diez (10) días de trabajo de utilidad pública, o uno (1) a cinco (5) días de arresto.
+
+Acción será dependiente de instancia privada con excepción de los casos donde la víctima fuese menor de 18 años de edad.
+
+No configura hostigamiento digital el ejercicio del derecho a la libertad de expresión.
+
+Antecedentes relacionados
+
+Nota de redacción: incorporado como art. 71 ter por el art. 6º de la Ley Nº 6.128, BOCABA Nº 5.531 del 07/01/2019.
+Al momento de la incorporación del artículo se correspondía con el art. 71 ter, hoy art. 76.
+
+Art. 77 – Agravantes
+
+En las conductas descriptas en los artículos 75 y 76, las sanciones se elevan al doble cuando son realizadas:
+
+Cuando la víctima fuera menor de 18 años, mayor de 70 años, o con discapacidad.
+
+Cuando la contravención se cometa con el concurso de dos (2) o más personas.
+
+Cuando la contravención sea cometida por el/la jefe, promotor u organizador de un evento o su representante artístico.
+
+Cuando la contravención sea cometida por el/la cónyuge, ex cónyuge, o a la persona con quien mantiene o ha mantenido una relación de pareja, mediare o no convivencia.
+
+Cuando la contravención sea cometida por un familiar en el 4to. grado de consanguinidad o 2do. grado de afinidad.
+
+Cuando la contravención se cometa con información que no habría sido develada sin que medie el engaño.
+
+Cuando la contravención sea cometida mediante la utilización de identidades falsas o anónimas o mediando la suplantación de la identidad de otra persona humana o jurídica.
+
+Antecedentes relacionados
+
+Nota de redacción: incorporado como art. 71 quater por el art. 6º de la Ley Nº 6.128, BOCABA Nº 5.531 del 07/01/2019.
+Al momento de la incorporación del artículo se correspondía con el art. 71 quater, hoy art. 77.
+
+Art. 78 – Suplantación digital de la Identidad
+
+Quien utiliza la imagen y/o datos filiatorios de una persona o crea una identidad falsa con la imagen y/o datos filiatorios de una persona mediante la utilización de cualquier tipo de comunicación electrónica, transmisión de datos, página web y/o cualquier otro medio y se haya realizado sin mediar consentimiento de la víctima, siempre que el hecho no constituya delito, es sancionado con una multa de Ciento sesenta (160) a cuatrocientas (400) unidades fijas o uno (1) a cinco (5) días de trabajo de utilidad pública o de uno (1) a cinco (5) días de arresto.
+
+Las sanciones se elevan al doble cuando:
+
+a) La conducta sea realizada con la finalidad de realizar un banco de datos con la información obtenida.
+
+b) La víctima fuera menor de dieciocho (18) años, mayor de 70 años, o con discapacidad.
+
+c) La contravención sea cometida por el/la cónyuge, ex cónyuge, o a la persona con quien mantiene o ha mantenido una relación de pareja, mediare o no convivencia.
+
+d) La contravención sea cometida por un familiar de hasta el cuarto grado de consanguinidad o segundo grado de afinidad.
+
+e) La contravención sea cometida con el objeto de realizar una oferta de servicios sexuales a través de cualquier medio de comunicación.
+
+El consentimiento de la víctima, siendo menor de 18 años, no será considerado válido.
+
+Acción dependiente de instancia privada con excepción de los casos donde la víctima fuere menor de 18 años de edad.
+
+No configura suplantación de identidad el ejercicio del derecho a la libertad de expresión.
+
+Antecedentes relacionados
+
+Nota de redacción: incorporado como art. 71 quinquies por el art. 6º de la Ley Nº 6.128, BOCABA Nº 5.531 del 07/01/2019.
+Al momento de la incorporación del artículo se correspondía con el art. 71 quinquies, hoy art. 78.
+
+TÍTULO II
+
+PROTECCIÓN DE LA PROPIEDAD PÚBLICA Y PRIVADA
+
+CAPÍTULO I
+
+ADMINISTRACIÓN PÚBLICA Y SERVICIOS PÚBLICOS
+
+Art. 79 – Afectar el funcionamiento de servicios públicos
+
+Quien afecta intencionalmente el funcionamiento de los servicios públicos sanitarios, hospitalarios, de alumbrado, limpieza, gas, electricidad, agua, teléfono, transporte, correo o transmisión de datos, es sancionado/a con cuatrocientas seis (406) a dos mil veintiocho (2.028) unidades fijas de multa o arresto de dos (2) a
+diez (10) días. Igual sanción se aplica a quien abra, remueva o afecte bocas de incendio, tapas de desagües o sumideros. Este supuesto admite culpa.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 79 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 72 pasa a ser art. 79.
+
+Texto anterior:
+
+Art. 72 – Afectar el funcionamiento de servicios públicos
+
+Quien afecta intencionalmente el funcionamiento de los servicios públicos sanitarios, hospitalarios, de alumbrado, limpieza, gas, electricidad, agua, teléfono, transporte, correo o transmisión de datos, es sancionado/a con un mil ($ 1.000) a cinco mil ($ 5.000) pesos de multa o arresto de dos (2) a diez (10) días. Igual sanción se aplica a quien abra, remueva o afecte bocas de incendio, tapas de desagües o sumideros. Este supuesto admite culpa.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 80 – Afectar la señalización dispuesta por autoridad pública
+
+Quien altera, remueve, simula, suprime, torna confusa, hace ilegible o sustituye señales colocadas por la autoridad pública para identificar calles o su numeración o cualquier otra indicación con fines de orientación pública de
+lugares, actividades o de seguridad, es sancionado/a con uno (1) a diez (10) días de trabajos de utilidad pública o ochenta y una (81) a ochocientas once (811) unidades fijas de multa.
+
+La misma sanción se aplica a quien impide colocar la señalización reglamentaria.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 80 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 73 pasa a ser art. 80.
+
+Texto anterior:
+
+Art. 73 – Afectar la señalización dispuesta por autoridad pública
+
+Quien altera, remueve, simula, suprime, torna confusa, hace ilegible o sustituye señales colocadas por la autoridad pública para identificar calles o su numeración o cualquier otra indicación con fines de orientación pública de lugares, actividades o de seguridad, es sancionado/a con uno (1) a diez (10) días de trabajos de utilidad pública o doscientos ($ 200) a dos mil ($ 2.000) pesos de multa.
+
+La misma sanción se aplica a quien impide colocar la señalización reglamentaria.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 81 – Afectar servicios de emergencia o seguridad
+
+Quien requiere sin motivo un servicio de emergencia, seguridad o servicio público afectado a una emergencia, es sancionado/a con dos (2) a diez (10) días de trabajos de utilidad pública o ciento sesenta y dos (162) a ochocientas once (811)
+unidades fijas de multa.
+
+Quien impide u obstaculiza intencionalmente tales servicios es sancionado con multa de cuatrocientas seis (406) a dos mil veintiocho (2.028) unidades fijas o arresto de dos (2) a diez (10)
+días.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 81 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 74 pasa a ser art. 81.
+
+Texto anterior:
+
+Art. 74 – Afectar servicios de emergencia o seguridad
+
+Quien requiere sin motivo un servicio de emergencia, seguridad o servicio público afectado a una emergencia, es sancionado/a con dos (2) a diez (10) días de trabajos de utilidad pública o cuatrocientos ($ 400) a dos mil ($ 2.000) pesos de multa.
+
+Quien impide u obstaculiza intencionalmente tales servicios es sancionado con multa de un mil ($ 1.000) a cinco mil ($ 5.000) pesos o arresto de dos (2) a diez (10) días.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 82 – Falsa denuncia
+
+Quien denuncia falsamente una contravención o una falta ante la autoridad, es sancionado/a con un (1) a cinco (5) días de trabajos de utilidad pública o ochenta y una
+(81) a cuatrocientas seis (406) unidades fijas de multa o un (1) a cinco (5) días de arresto.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 82 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 75 pasa a ser art. 82.
+
+Texto anterior:
+
+Art. 75 – Falsa denuncia
+
+Quien denuncia falsamente una contravención o una falta ante la autoridad, es sancionado/a con un (1) a cinco (5) días de trabajos de utilidad pública o doscientos ($ 200) a un mil ($ 1.000) pesos de multa o un (1) a cinco (5) días de arresto.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 83
+
+a) Violar Clausura. El titular del establecimiento donde se viole una clausura impuesta por autoridad judicial o administrativa, es sancionado/a con dos mil trescientas noventa y ocho (2.398) a
+cuatro mil setecientas noventa y cinco (4.795) unidades fijas de multa o cinco (5) a veinte (20) días de arresto.
+
+Cuando se viole una clausura impuesta sobre los establecimientos y actividades previstos en la Ley
+2553 es sancionado/a con cuatro mil setecientas noventa y cinco (4.795) a nueve mil quinientas
+noventa y una (9591) unidades fijas de multa o arresto de siete (7) a veinticinco (25) días.
+
+La pena deberá fijarse entre la mitad del mínimo y la mitad del máximo previsto para esta contravención cuando se trate de los establecimientos previstos por las leyes 2147, 2321, 2323, 2324, 2542 y 5240.
+
+Sin perjuicio de lo dispuesto en el artículo 17 de la presente ley los responsables de las violaciones de clausura que reiteren la misma contravención dentro del período de tres (3) años inmediatos a la primera condena, serán sancionados por el Juez agravando su pena en un tercio por la primera reiteración, en dos tercios por la segunda reiteración, y el doble del máximo de la sanción desde la tercera reiteración en adelante.
+
+Cuando los responsables de violación de clausuras en establecimientos o actividades descriptas en la Ley 2553 reiteren esa contravención serán sancionados como lo indica el párrafo anterior y además el Juez aplicará la sanción accesoria de inhabilitación o comiso, según considere oportuno para la cesación de la reiteración de dicha contravención. Asimismo cuando supere la tercera reiteración en el término de tres (3) años será aplicable la clausura.
+
+La sanción sustitutiva de realizar trabajos de utilidad pública será aplicable a estos contraventores únicamente cuando:
+
+No hayan cometido violación de clausura en los últimos tres (3) años.
+
+No se trate de una actividad comprendida en la Ley 2553;
+
+Por la actividad que realicen queden autorizados para funcionar con la mera iniciación del trámite de habilitación;
+
+Se acredite el supuesto del segundo párrafo del artículo 30 del presente Código.
+
+Se realicen en establecimientos dónde se desarrollen actividades sociales, culturales o vinculadas a derechos humanos.
+
+b) El que incumple una sanción sustitutiva o accesoria impuesta por infracción al régimen de
+faltas por sentencia firme de autoridad judicial es sancionado/a con tres mil ciento noventa y siete
+(3.197) a cinco mil quinientas noventa y cinco (5.595) unidades fijas de multa o cinco (5) a quince
+(15) días de arresto.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 83 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 76 pasa a ser art. 83.
+
+Texto anterior:
+
+Art. 76
+
+a) Violar Clausura. El titular del establecimiento donde se viole una clausura impuesta por autoridad judicial o administrativa, es sancionado/a con treinta mil pesos ($ 30.000) a sesenta mil pesos ($ 60.000) de multa o cinco (5) a veinte (20) días de arresto.
+
+Cuando se viole una clausura impuesta sobre los establecimientos y actividades previstos en la Ley 2553 es sancionado/a con sesenta mil pesos ($ 60.000) a ciento veinte mil pesos ($ 120.000) de multa o arresto de siete (7) a veinticinco (25) días.
+
+La pena deberá fijarse entre la mitad del mínimo y la mitad del máximo previsto para esta contravención cuando se trate de los establecimientos previstos por las leyes 2147, 2321, 2323, 2324, 2542 y 5240.
+
+Sin perjuicio de lo dispuesto en el artículo 17 de la presente ley los responsables de las violaciones de clausura que reiteren la misma contravención dentro del período de tres (3) años inmediatos a la primera condena, serán sancionados por el Juez agravando su pena en un tercio por la primera reiteración, en dos tercios por la segunda reiteración, y el doble del máximo de la sanción desde la tercera reiteración en adelante.
+
+Cuando los responsables de violación de clausuras en establecimientos o actividades descriptas en la Ley 2553 reiteren esa contravención serán sancionados como lo indica el párrafo anterior y además el Juez aplicará la sanción accesoria de inhabilitación o comiso, según considere oportuno para la cesación de la reiteración de dicha contravención. Asimismo cuando supere la tercera reiteración en el término de tres (3) años será aplicable la clausura.
+
+La sanción sustitutiva de realizar trabajos de utilidad pública será aplicable a estos contraventores únicamente cuando:
+
+No hayan cometido violación de clausura en los últimos tres (3) años.
+
+No se trate de una actividad comprendida en la Ley 2553;
+
+Por la actividad que realicen queden autorizados para funcionar con la mera iniciación del trámite de habilitación;
+
+Se acredite el supuesto del segundo párrafo del artículo 30 del presente Código.
+
+Se realicen en establecimientos dónde se desarrollen actividades sociales, culturales o vinculadas a derechos humanos.
+
+b) El que incumple una sanción sustitutiva o accesoria impuesta por infracción al régimen de faltas por sentencia firme de autoridad judicial es sancionado/a con cuarenta mil pesos ($ 40.000) a setenta mil pesos ($ 70.000) de multa o cinco (5) a quince (15) días de arresto.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 84 – Violar inhabilitación para conducir
+
+Quien viola una inhabilitación para conducir
+impuesta por autoridad judicial o administrativa es sancionado/a con ciento setenta y tres (173) a mil
+setecientas veinticinco (1.725) unidades fijas de multa o arresto de tres (3) a diez (10) días.
+
+Art. 85 – Asunción falsa de contravención o falta
+
+Quien manifestare o asumiere falsamente la
+comisión de una falta o contravención, u ofreciere a un tercero para ello a los fines de evitar las
+medidas administrativas previstas en el punto 11.1.4 del Título Undécimo del Código de Tránsito y
+Transporte, es sancionado/a con ciento setenta y tres (173) a mil setecientas veinticinco (1.725)
+unidades fijas de multa o arresto de tres (3) a diez (10) días.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 85 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 78 pasa a ser art. 85.
+
+Texto anterior:
+
+Art. 78 – Asunción falsa de contravención o falta
+
+Quien manifestare o asumiere falsamente la comisión de una falta o contravención, u ofreciere a un tercer para ello a los fines de evitar las medidas administrativas previstas en el punto 11.1.4 del Título Undécimo del Código de Tránsito y Transporte, es sancionado/a con seiscientos ($600) a seis mil ($6000) pesos de multa o arresto de tres (3) a diez (10) días.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 86 – Ejercer ilegítimamente una actividad
+
+Quien ejerce actividad para la cual se le ha
+revocado la licencia o autorización, o viola la inhabilitación o excede los límites de la licencia es
+sancionado/a con dos (02) a diez (10) días de trabajo de utilidad pública, multa de mil trescientas
+sesenta (1.360) a trece mil seiscientas tres (13.603) unidades fijas o arresto de dos (02) a diez (10)
+días
+
+Admite culpa.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 86 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 79 pasa a ser art. 86.
+
+Texto anterior:
+
+Art. 79 – Ejercer ilegítimamente una actividad
+
+Quien ejerce actividad para la cual se le ha revocado la licencia o autorización, o viola la inhabilitación o excede los límites de la licencia es sancionado/a con dos (02) a diez (10) días de trabajo de utilidad pública, multa de $ 5.000 (pesos cinco mil) a $ 50.000 (pesos cincuenta mil) o arresto de dos (02) a diez (10) días. Admite culpa.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+CAPÍTULO II
+
+FE PÚBLICA
+
+Art. 87 – Usar indebidamente credencial o distintivo
+
+El/la funcionario/a público que, habiendo cesado en su función o cargo, usa indebidamente su credencial o distintivos del cargo es sancionado/a con uno (1) a dos (2) días de trabajos de utilidad pública u ochenta y una (81) a ciento
+sesenta y dos (162) unidades fijas de multa.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 87 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 80 pasa a ser art. 87.
+
+Texto anterior:
+
+Art. 80 – Usar indebidamente credencial o distintivo
+
+El/la funcionario/a público que, habiendo cesado en su función o cargo, usa indebidamente su credencial o distintivos del cargo es sancionado/a con uno (1) a dos (2) días de trabajos de utilidad pública o doscientos ($ 200) a cuatrocientos ($ 400) pesos de multa.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 88 – Apariencia falsa
+
+Quien aparenta o invoca falsamente el desempeño de un trabajo o función, de un estado de necesidad, accidente o vínculo, para que se le permita o facilite la entrada a un domicilio o lugar privado es sancionado con arresto de dos (2) a diez (10) días.
+
+Art. 89 – Frustrar una subasta pública
+
+Quien perturba, obstaculiza el derecho de ofertar
+libremente, manipula la oferta o de cualquier otro modo contribuye a frustrar en todo o en parte el
+normal desarrollo o el resultado de una subasta pública, es sancionado/a con ochenta y una (81) a
+cuatrocientas seis (406) unidades fijas de multa o uno (1) a cinco (5) días de arresto.
+
+La sanción se incrementa al doble cuando las conductas se producen a cambio de un ofrecimiento dinerario u otra dádiva, o si existiera previa organización.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 89 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 82 pasa a ser art. 89.
+
+Texto anterior:
+
+Art. 82 – Frustrar una subasta pública
+
+Quien perturba, obstaculiza el derecho de ofertar libremente, manipula la oferta o de cualquier otro modo contribuye a frustrar en todo o en parte el normal desarrollo o el resultado de una subasta pública, es sancionado/a con doscientos ($ 200) a un mil ($ 1.000) pesos de multa o uno (1) a cinco (5) días de arresto.
+
+La sanción se incrementa al doble cuando las conductas se producen a cambio de un ofrecimiento dinerario u otra dádiva, o si existiera previa organización.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+TÍTULO III
+
+PROTECCIÓN DEL USO DEL ESPACIO PÚBLICO O PRIVADO
+
+CAPÍTULO I
+
+LIBERTAD DE CIRCULACIÓN
+
+Art. 90 – Obstrucción de la vía pública
+
+Quien impide u obstaculiza la circulación de vehículos
+por la vía pública o espacios públicos, es sancionado/a con uno (1) a cinco (5) días de trabajo de
+utilidad pública o multa de ochenta y una (81) a cuatrocientas seis (406) unidades fijas. El ejercicio
+regular de los derechos constitucionales no constituye contravención. A tal fin deberá, con razonable
+anticipación, darse aviso a la autoridad competente, debiendo respetarse las indicaciones de ésta, si
+las hubiere, respecto al ordenamiento.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 90 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 83 pasa a ser art. 90.
+
+Texto anterior:
+
+Art. 83 – Obstrucción de la vía pública
+
+Quien impide u obstaculiza la circulación de vehículos por la vía pública o espacios públicos, es sancionado/a con uno (1) a cinco (5) días de trabajo de utilidad pública o multa de doscientos ($ 200) a un mil ($ 1.000) pesos. El ejercicio regular de los derechos constitucionales no constituye contravención. A tal fin deberá, con razonable anticipación, darse aviso a la autoridad competente, debiendo respetarse las indicaciones de ésta, si las hubiere, respecto al ordenamiento.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+CAPÍTULO II
+
+USO DEL ESPACIO PÚBLICO Y PRIVADO
+
+Art. 91 – Prestar servicios de estacionamiento, cuidado de coches o limpieza de vidrios sin autorización legal
+
+Prestar servicios de estacionamiento, cuidado de coches o limpieza de vidrios sin autorización legal. Quien sin autorización legal ofrece o presta en la vía pública, de manera directa o indirecta, servicios de estacionamiento, cuidado de coches o limpieza de vidrios, es sancionado con diez (10) a treinta (30) días de arresto, veinte (20) a cuarenta y cinco (45) días de trabajos de utilidad pública o multa de mil doscientas (1200) a siete mil (7000) unidades fijas. Se le aplicarán además al/la contraventor/a las sanciones de prohibición de concurrencia y/o de interdicción de cercanía al lugar donde haya cometido la contravención, en los términos de los artículos 37 y 39.
+
+El magistrado interviniente informará al/la contraventor/a de los programas de asistencia previstos en el Ministerio de Desarrollo Humano y Hábitat o el organismo que en el futuro lo reemplace.
+
+Cuando la conducta esté basada en la desigualdad de género o sea realizada con intimidación y/o persistencia y/o cometida aprovechando la vulnerabilidad del conductor o del entorno, siempre que el hecho no constituya delito, la pena se elevará al doble.
+
+Cuando exista organización previa, la sanción para los/as contraventores/as y partícipes es de veinte (20) a cincuenta (50) días de arresto, y para los jefes/as, coordinadores/as, organizadores/as y/o promotores/as, es de cuarenta y cinco (45) a sesenta (60) días de arresto. Asimismo, podrá disponerse la inhabilitación para acceder a programas sociales, subsidios o beneficios estatales por un plazo de hasta dos (2) años.
+
+(Conforme texto art. 1° de la Ley Nº 6.961, BOCABA Nº 7.391 del 19/06/2026)
+
+Antecedentes relacionados
+
+Texto anterior:
+
+Art. 91 – Prestar servicios de estacionamiento, cuidado de coches o limpieza de vidrios sin autorización legal
+
+Quien sin autorización legal ofrece o presta en la vía pública, de manera directao indirecta, servicios de estacionamiento, cuidado de coches o limpieza de vidrios, es sancionado con uno (1) a dos (2) días de utilidad pública o multa de cincuenta (50) a trescientas (300) unidades fijas. El magistrado interviniente informará al contraventor/a de los programas de asistencia previstos en el Ministerio de Desarrollo Humano y Hábitat u organismo que en el futuro lo reemplace.
+
+Cuando la conducta está basada en la desigualdad de género la pena se elevará al doble.
+
+Cuando exista organización previa, la sanción para los/as partícipes es de cinco (5) a quince (15) días de arresto y se eleva al cuádruple para los jefes/as y/o coordinadores/as.
+
+(Conforme texto art. 7º de la Ley Nº 6.128, BOCABA Nº 5.531 del 07/01/2019. Al momento de la modificación la numeración del texto se correspondía con el art. 84, hoy art. 91)
+
+Texto anterior:
+
+Art. 84 – Cuidar coches sin autorización legal
+
+Quien exige retribución por el estacionamiento o cuidado de vehículos en la vía pública sin autorización legal, es sancionado/a con uno (1) a dos (2) días de trabajo de utilidad pública o multa de doscientos ($ 200) a cuatrocientos ($ 400) pesos.
+
+Cuando exista previa organización, la sanción se eleva al doble para el organizador.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA Nº 5.485)
+
+Art. 92 – Prestar servicios de estacionamiento, cuidado de coches o limpieza de vidrios sin autorización legal en grandes parques o en oportunidad de eventos masivos
+
+Cuando las contravenciones del artículo 91 ocurran en los alrededores de los grandes parques o dentro de un radio de hasta cincuenta (50) cuadras del lugar donde esté programado un evento masivo de carácter deportivo, artístico o de cualquier otra índole, desde las seis (6) horas antes de su inicio y hasta tres (3) horas después de su finalización, la sanción para los/as contraventores/as y partícipes es de quince (15) a cincuenta (50) días de arresto, y para los jefes/as, coordinadores/as, organizadores/as y/o promotores/as, es de cuarenta y cinco (45) a sesenta (60) días de arresto.
+
+Se les aplicará además a los/as contraventores/as las sanciones de prohibición de concurrencia y/o de interdicción de cercanía al lugar donde haya cometido la contravención, en los términos de los artículos 37 y 39.
+
+El magistrado interviniente informará al/la contraventor/a de los programas de asistencia previstos en el Ministerio de Desarrollo Humano y Hábitat, o el organismo que en el futuro lo reemplace.
+
+El Ministerio Público Fiscal de la Ciudad Autónoma de Buenos Aires podrá, en coordinación con los Ministerios de Justicia y Seguridad de la Ciudad Autónoma de Buenos Aires, o los organismos que en el futuro los reemplacen, teniendo presente las características del evento, disponer de Oficinas Móviles dentro de los límites geográficos y temporales dispuestos a efectos de recibir las denuncias de particulares.
+
+En caso de tratarse de un estadio y probarse la participación directa o indirecta de personas vinculadas al club, institución u organizador, se sanciona a la entidad con multa de diez mil (10.000) a veinte mil (20.000) unidades fijas y clausura de sus instalaciones de treinta (30) a noventa (90) días, sin perjuicio de la responsabilidad de los autores/as materiales.
+
+(Conforme texto art. 2° de la Ley Nº 6.961, BOCABA Nº 7.391 del 19/06/2026)
+
+Antecedentes relacionados
+
+Texto anterior:
+
+Art. 92 – Prestar servicios de estacionamiento, cuidado de coches o limpieza de vidrios sin autorización legal en grandes parques o en oportunidad de eventos masivos
+
+Cuando las contravenciones del artículo 90 ocurran en los alrededores de los grandes parques durante los fines de semana o dentro de un radio de hasta treinta (30) cuadras del lugar donde esté programado un evento masivo de carácter deportivo o artístico, desde las tres (3) horas antes de su inicio y hasta (2) dos horas posterior a su finalización, se aplican las sanciones establecidas por el mismo para los casos de organización previa.
+
+El Ministerio Público Fiscal de la Ciudad Autónoma de Buenos Aires podrá disponer, en coordinación con el Ministerio de Justicia y Seguridad de local u organismo que en el futuro lo reemplace, teniendo presente las características del evento, de Oficinas Móviles dentro de los límites geográficos y temporales dispuestos a efectos de recibir las denuncias de particulares.
+
+En caso de tratarse de un estadio y probarse la participación directa o indirecta de personas vinculadas al club, institución u organizador, se sanciona a la entidad con multa de cinco mil (5.000) a diez mil (10.000) unidades fijas y clausura de sus instalaciones de 15 a 30 días sin perjuicio de la responsabilidad de los autores/as materiales.
+
+(Incorporado como art. 84 bis por el art. 8º de la Ley Nº 6.128, BOCABA Nº 5.531 del 07/01/2019.
+Al momento de la incorporación del artículo se correspondía con el art. 84 bis, hoy art. 92.)
+
+Art. 93 – Connivencia policial
+
+El funcionario/a policial que consienta u omita disuadir o perseguir las contravenciones previstas en los artículos 91 y 92, deberá ser sometido al correspondiente sumario administrativo.
+
+Cuando resulte comprobada la responsabilidad del funcionario/a, es sancionado disciplinariamente con su exoneración, sin perjuicio de la posibilidad de considerarlo partícipe necesario de las contravenciones y sujeto a lo establecido en el artículo 18 del presente Código.
+
+Antecedentes relacionados
+
+Nota de redacción: incorporado como art. 84 ter por el art. 9º de la Ley Nº 6.128, BOCABA Nº 5.531 del 07/01/2019.
+Al momento de la incorporación del artículo se correspondía con el art. 84 ter, hoy art. 93.
+
+Art. 94 – Ensuciar Bienes
+
+Quien mancha o ensucia por cualquier medio bienes de propiedad
+pública o privada, es sancionado/a con uno (1) a quince (15) días de trabajos de utilidad pública o
+ochenta y una (81) a mil doscientas diecisiete (1.217) unidades fijas de multa.
+
+La sanción se eleva al doble cuando la acción se realiza desde un vehículo motorizado o cuando se efectúa sobre estatuas, monumentos, templos religiosos, establecimientos educativos y hospitalarios, edificios o lugares públicos, estaciones y vagones de subterráneos o de trenes.
+
+En caso de que se trate de bienes de propiedad privada, la acción es dependiente de instancia privada, excepto en el caso de templos religiosos.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 94 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 85 pasa a ser art. 94.
+
+Texto anterior:
+
+Art. 85 – Ensuciar Bienes
+
+Quien mancha o ensucia por cualquier medio bienes de propiedad pública o privada, es sancionado/a con uno (1) a quince (15) días de trabajos de utilidad pública o doscientos ($ 200) a tres mil ($ 3.000) pesos de multa.
+
+La sanción se eleva al doble cuando la acción se realiza desde un vehículo motorizado o cuando se efectúa sobre estatuas, monumentos, templos religiosos, establecimientos educativos y hospitalarios, edificios o lugares públicos, estaciones y vagones de subterráneos o de trenes.
+
+En caso de que se trate de bienes de propiedad privada, la acción es dependiente de instancia privada, excepto en el caso de templos religiosos
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 95 – Carteles. Afiches. Volantes
+
+Quien fije o haga fijar carteles y/o afiches y/o volantes en la vía pública en lugares no habilitados para tal fin y persiguiendo fines de lucro con la publicidad de los mismos, es sancionado/a con uno (1) a quince (15) días de trabajo de utilidad pública o multa de un mil (1000) a cinco mil (5.000) unidades fijas o arresto de uno (1) a cinco (5) días y decomiso de los carteles, afiches o volantes.
+
+La sanción se eleva de cinco (5) a diez (10) días de arresto y decomiso de los carteles cuando existiera previa organización.
+
+Cuando la conducta se realiza en nombre, al amparo, en beneficio o con autorización de una persona de existencia ideal o del titular de una explotación o actividad, se sancionará a éstos con la pena accesoria de clausura de cinco (5) a diez (10) días.
+
+Las conductas descriptas en los párrafos precedentes admiten culpa.
+
+Antecedentes relacionados
+
+Nota de redacción: incorporado como art. 85 bis por art. 10 de la Ley Nº 6.128, BOCABA Nº 5.531 del 07/01/2019.
+Al momento de la incorporación del artículo se correspondía con el art. 85 bis, hoy art. 95.
+
+Art. 96 – Quien haga distribuir en la vía pública o haga colocar en las puertas de acceso de locales en general, carteles, volantes y/o afiches que persigan o no finalidad comercial y que tengan por objeto la promoción explícita o implícita de la oferta sexual que se desarrolla y/o facilita en establecimientos y que hagan explícita o implícita referencia a la solicitud de personas destinadas al comercio sexual o los que incluyan imágenes de contenido sexual vinculados con la promoción de la oferta o comercio de sexo que lesionen la dignidad de la persona, siempre que no constituyan delito, es sancionado/a con cinco (5) a treinta (30) días de arresto, y decomiso de los carteles, afiches y/o volantes y clausura de cinco (5) a veinte (20) días.
+
+Admite culpa.
+
+Antecedentes relacionados
+
+Nota de redacción: incorporado como art. 85 ter por art. 11 de la Ley Nº 6.128, BOCABA Nº 5.531 del 07/01/2019.
+Al momento de la incorporación del artículo se correspondía con el art. 85 ter, hoy art. 96.
+
+Art. 97 – Oferta y demanda de sexo en los espacios públicos
+
+Quien ofrece o demanda en forma ostensible servicios de carácter sexual en los espacios públicos no autorizados o fuera de las condiciones en que fuera autorizada la actividad, es sancionado/a con uno (1) a cinco (5) días de
+trabajo de utilidad pública o multa de ochenta y una (81) a ciento sesenta y dos (162) unidades fijas.
+
+En ningún caso procede la contravención en base a apariencia, vestimenta o modales.
+
+En las contravenciones referidas en el párrafo precedente, la autoridad preventora sólo puede proceder al inicio de actuaciones por decisión de un representante del Ministerio Público Fiscal.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 97 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 86 pasa a ser art. 97.
+
+Texto anterior:
+
+Art. 86 – Oferta y demanda de sexo en los espacios públicos
+
+Quien ofrece o demanda en forma ostensible servicios de carácter sexual en los espacios públicos no autorizados o fuera de las condiciones en que fuera autorizada la actividad, es sancionado/a con uno (1) a cinco (5) días de trabajo de utilidad pública o multa de doscientos ($ 200) a cuatrocientos ($ 400) pesos. En ningún caso procede la contravención en base a apariencia, vestimenta o modales.
+
+En las contravenciones referidas en el párrafo precedente, la autoridad preventora sólo puede proceder al inicio de actuaciones por decisión de un representante del Ministerio Público Fiscal.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 98 – Ruidos Molestos
+
+Quien perturba el descanso o la tranquilidad pública mediante ruidos que por su volumen, reiteración o persistencia excedan la normal tolerancia, es sancionado/a con uno (1) a cinco (5) días de trabajo de utilidad pública o multa cincuenta (50) a cien (100) unidades fijas.
+
+Cuando el origen de los ruidos provengan de la vía pública con excepción de las manifestaciones artístico-culturales a la gorra y todas las actividades culturales que cuenten con permiso de los organismos competentes de la Administración Pública, la sanción es de dos (2) a diez (10) días de trabajo de utilidad pública, multa de cincuenta (50) a doscientas (200) unidades fijas o arresto de uno (1) a cinco (5) días.
+
+Cuando la conducta se realiza en nombre, al amparo, en beneficio o con autorización de una persona de existencia ideal o del titular de una explotación o actividad, son sancionados éstos con multa de cien (100) a mil (1000) unidades fijas o clausura del establecimiento de uno (1) a diez (10) días.
+
+No constituye contravención el ensayo o práctica de música fuera de los horarios de descanso siempre que se utilicen dispositivos de amortiguación del sonido de los instrumentos o equipos, cuando ello fuera necesario.
+
+Tampoco las manifestaciones artísticos-culturales a la gorra y todas las actividades culturales que cuenten con permiso de los organismos competentes de la Administración Pública. La responsabilidad de los titulares de los establecimientos culturales se limita a su ámbito de prestación de servicios a excepción de la conducta de sus dependientes en beneficio publicitario de éstos.
+
+Admite culpa. Acción dependiente de instancia privada con excepción de los casos donde el origen de los ruidos molestos provenga de la vía pública.
+
+Antecedentes relacionados
+
+Nota de redacción: conforme texto art. 12 de la Ley Nº 6.128, BOCABA Nº 5.531 del 07/01/2019.
+Al momento de la modificación la numeración del texto se correspondía con el art. 87, hoy art. 98.
+
+Texto anterior:
+
+Art. 87 – Ruidos molestos
+
+Quien perturba el descanso o la tranquilidad pública mediante ruidos que por su volumen, reiteración o persistencia excedan la normal tolerancia, es sancionado/a con uno (1) a cinco (5) días de trabajo de utilidad pública o multa de doscientos ($ 200) a un mil ($ 1.000) pesos.
+
+Cuando la conducta se realiza en nombre, al amparo, en beneficio o con autorización de una persona de existencia ideal o del titular de una explotación o actividad, se sanciona a éstos con multa de seiscientos ($ 600) a diez mil ($ 10.000) pesos.
+
+No constituye contravención el ensayo o práctica de música fuera de los horarios de descanso siempre que se utilicen dispositivos de amortiguación del sonido de los instrumentos o equipos, cuando ello fuera necesario.
+
+Admite culpa.
+
+Acción dependiente de instancia privada.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA Nº 5.485)
+
+Art. 99 – Usar indebidamente el espacio público
+
+Quien realiza actividades lucrativas no
+autorizadas en el espacio público es sancionado/a con multa de ciento cinco (105) a doscientas
+nueve (209) unidades fijas.
+
+Quien organiza actividades lucrativas no autorizadas en el espacio público, en volúmenes y
+modalidades similares a las del comercio establecido, es sancionado/a con multa de dos mil noventa
+y una (2.091) a doce mil quinientas cuarenta y siete (12.547) unidades fijas.
+
+No constituye contravención la venta ambulatoria en la vía pública o en transportes públicos de baratijas o artículos similares, artesanías y, en general, la venta que no implique una competencia desleal efectiva para con el comercio establecido, ni la actividad de los artistas callejeros en la medida que no exijan contraprestación pecuniaria.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 99 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 88 pasa a ser art. 99.
+
+Texto anterior:
+
+Art. 88 – Usar indebidamente el espacio público
+
+Quien realiza actividades lucrativas no autorizadas en el espacio público es sancionado/a con multa de quinientos ($ 500) a mil ($ 1.000) pesos.
+
+Quien organiza actividades lucrativas no autorizadas en el espacio público, en volúmenes y modalidades similares a las del comercio establecido, es sancionado/a con multa de diez mil ($ 10.000) a sesenta mil ($ 60.000) pesos.
+
+No constituye contravención la venta ambulatoria en la vía pública o en transportes públicos de baratijas o artículos similares, artesanías y, en general, la venta que no implique una competencia desleal efectiva para con el comercio establecido, ni la actividad de los artistas callejeros en la medida que no exijan contraprestación pecuniaria.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 100 – Ocupar la vía pública
+
+Quien ocupa la vía pública en ejercicio de una actividad lucrativa
+excediendo las medidas autorizadas o el permiso de uso de las aceras, es sancionado/a con multa
+de ciento sesenta y dos (162) a ochocientas once (811) unidades fijas.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 100 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 89 pasa a ser art. 100.
+
+Texto anterior:
+
+Art. 100 – Ocupar la vía pública
+
+Quien ocupa la vía pública en ejercicio de una actividad lucrativa excediendo las medidas autorizadas o el permiso de uso de las aceras, es sancionado/a con multa de cuatrocientos ($ 400) a dos mil ($ 2.000) pesos.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 101 – Actividades lucrativas o de intermediación sin habilitación
+
+Quien organice, administre y/o represente una persona humana o jurídica que a través de una plataforma digital intermedie en la prestación por terceros de servicios y/o actividades de transporte de mensajería y/o reparto a domicilio de sustancias alimenticias sin contar con la habilitación vigente en la Ciudad Autónoma de Buenos Aires, será sancionado con diez (10) a treinta (30) días de arresto o multa de entre cuatro mil (4.000) y veinte mil (20.000) unidades fijas.
+
+Antecedentes relacionados
+
+Nota de redacción: incorporado como art. 89 bis por el art. 16 de la Ley Nº 6.314, BOCABA Nº 5.930 del 11/08/2020.
+Al momento de la incorporación del artículo se correspondía con el art. 89 bis, hoy art. 101.
+
+Art. 102 – Actividades lucrativas sin habilitación
+
+Quien organice una actividad lucrativa relacionada con servicios y/o actividades de transporte de mensajería y/o reparto a domicilio de sustancias alimenticias sin contar con la habilitación vigente en la Ciudad Autónoma de Buenos Aires, será sancionado con diez (10) a treinta (30) días de arresto o multa de entre cuatro mil (4.000) y veinte mil (20.000) unidades fijas.
+
+Antecedentes relacionados
+
+Nota de redacción: incorporado como art. 89 ter por el art. 17 de la Ley Nº 6.314, BOCABA Nº 5.930 del 11/08/2020.
+Al momento de la incorporación del artículo se correspondía con el art. 89 ter, hoy art. 102.
+
+TÍTULO IV
+
+PROTECCIÓN DE LA SEGURIDAD Y LA TRANQUILIDAD
+
+CAPÍTULO I
+
+SEGURIDAD PÚBLICA
+
+Art. 103 – Portar armas no convencionales
+
+Quien porta en la vía pública, sin causa que lo
+justifique, cualquier tipo de arma no convencional, de aire o gas comprimido, arma blanca u objetos
+cortantes o contundentes inequívocamente destinados a ejercer violencia o agredir, es sancionado/a
+con multa de cuatrocientas seis (406) a mil doscientas diecisiete (1.217) unidades fijas o cinco (5) a
+quince (15) días de arresto.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 103 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 90 pasa a ser art. 103.
+
+Texto anterior:
+
+Art. 90 – Portar armas no convencionales
+
+Quien porta en la vía pública, sin causa que lo justifique, cualquier tipo de arma no convencional, de aire o gas comprimido, arma blanca u objetos cortantes o contundentes inequívocamente destinados a ejercer violencia o agredir, es sancionado/a con multa de un mil ($ 1.000) a tres mil ($ 3.000) pesos o cinco (5) a quince (15) días de arresto.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 104 – Entregar indebidamente armas, explosivos o sustancias venenosas
+
+Quien entrega un arma, explosivos o sustancias venenosas a una persona declarada judicialmente insana, o con las facultades mentales notoriamente alteradas, o en estado de intoxicación alcohólica o bajo los efectos de estupefacientes, es sancionado/a con diez (10) a treinta (30) días de arresto.
+
+Art. 105 – Usar indebidamente armas
+
+Quien ostente indebidamente un arma de fuego, aun hallándose autorizado legalmente a portarla, es sancionado/a con cinco (5) a quince (15) días de arresto.
+
+Quien dispara un arma de fuego fuera de los ámbitos autorizados por la Ley, y siempre que la conducta no implique delito, es sancionado/a con diez (10) a treinta (30) días de arresto.
+
+Art. 106 – Fabricar, transportar, almacenar, guardar o comercializar sin autorización artefactos pirotécnicos
+
+Quien sin autorización fabrica artefactos pirotécnicos, es sancionado/a con multa de
+cuatro mil cincuenta y seis (4.056) a veinte mil doscientas ochenta y dos (20.282) unidades fijas o
+quince (15) a cuarenta y cinco (45) días de arresto.
+
+Quien sin autorización transporta, almacena, guarda o comercializa artefactos pirotécnicos, sean
+estos legales o no, es sancionado/a con multa de cuatrocientas seis (406) a ocho mil ciento trece
+(8.113) unidades fijas o cinco (5) a veinticinco (25) días de arresto.
+
+Quien vende o suministra a cualquier título artefactos pirotécnicos a personas menores de dieciocho
+(18) años, es sancionado/a con multa de ochenta y una (81) a mil doscientas diecisiete (1.217)
+unidades fijas o uno (1) a quince (15) días de arresto. En este supuesto se admite la forma culposa.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 106 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 93 pasa a ser art. 106.
+
+Texto anterior:
+
+Art. 93 – Fabricar, transportar, almacenar, guardar o comercializar sin autorización artefactos pirotécnicos
+
+Quien sin autorización fabrica artefactos pirotécnicos, es sancionado/a con multa de diez mil ($ 10.000) a cincuenta mil ($ 50.000) pesos o quince (15) a cuarenta y cinco (45) días de arresto.
+
+Quien sin autorización transporta, almacena, guarda o comercializa artefactos pirotécnicos, sean estos legales o no, es sancionado/a con multa de un mil ($ 1.000) a veinte mil ($ 20.000) pesos o cinco (5) a veinticinco (25) días de arresto.
+
+Quien vende o suministra a cualquier título artefactos pirotécnicos a personas menores de dieciocho (18) años, es sancionado/a con multa de doscientos ($ 200) a tres mil ($ 3.000) pesos o uno (1) a quince (15) días de arresto. En este supuesto se admite la forma culposa.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+CAPÍTULO II
+
+ESPECTÁCULOS ARTÍSTICOS Y DEPORTIVOS
+
+Art. 107 – Perturbar filas, ingreso o no respetar vallado
+
+Quien perturba el orden de las filas formadas para la compra de entradas o para el ingreso al lugar donde se desarrolla un espectáculo masivo, de carácter artístico o deportivo, o no respeta el vallado perimetral para el control, es
+sancionado/a con uno (1) a cinco (5) días de trabajo de utilidad pública o multa de ochenta y una (81) a cuatrocientas seis (406) unidades fijas.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 107 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 94 pasa a ser art. 107.
+
+Texto anterior:
+
+Art. 94 – Perturbar filas, ingreso o no respetar vallado
+
+Quien perturba el orden de las filas formadas para la compra de entradas o para el ingreso al lugar donde se desarrolla un espectáculo masivo, de carácter artístico o deportivo, o no respeta el vallado perimetral para el control, es sancionado/a con uno (1) a cinco (5) días de trabajo de utilidad pública o multa de doscientos ($ 200) a un mil ($ 1.000) pesos.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 108 – Revender entradas
+
+Quien revende, por cualquier medio, con fines de lucro, una o más
+entradas para un espectáculo masivo, de carácter artístico o deportivo, es sancionado/a con multa
+de doscientas ochenta y tres (283) a cuatro mil doscientas cuarenta y siete (4.247) unidades fijas o
+dos (2) a diez (10) días de arresto.
+
+En la misma pena incurre quien vende al menos una entrada de las referidas en el párrafo anterior
+cuando éstas no hubiesen sido puestas a la venta por los responsables de la organización por ser
+de cortesía, protocolo u otro tipo de invitación de similares características.
+
+Cuando estas conductas fueran cometidas por cualquier persona responsable de la organización,
+con su participación o connivencia, es sancionado/a con multa de mil cuatrocientas dieciséis (1.416)
+a siete mil setenta y ocho (7.078) unidades fijas o tres (3) a treinta (30) días de arresto.
+
+Si la realización de cualquiera de estas conductas produjere alteraciones al orden público, la escala de la sanción se eleva al doble. Igual incremento de pena corresponde cuando el interviniente se dedicare reiteradamente a estas actividades.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 108 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 95 pasa a ser art. 108.
+
+Texto anterior:
+
+Art. 95 – Revender entradas
+
+Quien revende, por cualquier medio, con fines de lucro, una o más entradas para un espectáculo masivo, de carácter artístico o deportivo, es sancionado/a con multa de dos mil ($2.000) a treinta mil ($30.000) pesos o dos (2) a diez (10) días de arresto.
+
+En la misma pena incurre quien vende al menos una entrada de las referidas en el párrafo anterior cuando éstas no hubiesen sido puestas a la venta por los responsables de la organización por ser de cortesía, protocolo u otro tipo de invitación de similares características.
+
+Cuando estas conductas fueran cometidas por cualquier persona responsable de la organización, con su participación o connivencia, es sancionado/a con multa de diez mil ($10.000) a cincuenta mil ($50.000) pesos o tres (3) a treinta (30) días de arresto.
+
+Si la realización de cualquiera de estas conductas produjere alteraciones al orden público, la escala de la sanción se eleva al doble. Igual incremento de pena corresponde cuando el interviniente se dedicare reiteradamente a estas actividades.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 109 – Vender entradas o permitir ingreso en exceso
+
+Quien dispone la venta de entradas
+en exceso o permite el ingreso de una mayor cantidad de asistentes que la autorizada a un
+espectáculo masivo, de carácter artístico o deportivo, es sancionado/a con multa de dos mil
+veintiocho (2.028) a doce mil ciento sesenta y nueve (12.169) unidades fijas o diez (10) a treinta (30)
+días de arresto.
+
+La sanción se eleva al doble si se producen desórdenes, aglomeraciones o avalanchas.
+
+Admite culpa.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 109 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 96 pasa a ser art. 109.
+
+Texto anterior:
+
+Art. 96 – Vender entradas o permitir ingreso en exceso
+
+Quien dispone la venta de entradas en exceso o permite el ingreso de una mayor cantidad de asistentes que la autorizada a un espectáculo masivo, de carácter artístico o deportivo, es sancionado/a con multa de cinco mil ($ 5.000) a treinta mil ($ 30.000) pesos o diez (10) a treinta (30) días de arresto.
+
+La sanción se eleva al doble si se producen desórdenes, aglomeraciones o avalanchas
+
+Admite culpa.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 110 – Ingresar sin entrada, autorización o invitación
+
+Quien accede sin entrada, autorización
+o invitación especial a un espectáculo masivo, de carácter artístico o deportivo, es sancionado/a con
+uno (1) a cinco (5) días de trabajo de utilidad pública o multa de ochenta y una (81) a cuatrocientas
+seis (406) unidades fijas.
+
+La sanción se eleva al doble para quien permite ilegítimamente a otros el acceso.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 110 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 97 pasa a ser art. 110.
+
+Texto anterior:
+
+Art. 97 – Ingresar sin entrada, autorización o invitación
+
+Quien accede sin entrada, autorización o invitación especial a un espectáculo masivo, de carácter artístico o deportivo, es sancionado/a con uno (1) a cinco (5) días de trabajo de utilidad pública o multa de doscientos ($ 200) a un mil ($ 1.000) pesos.
+
+La sanción se eleva al doble para quien permite ilegítimamente a otros el acceso.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 111 – Ingresar sin autorización a lugares reservados
+
+Quien ingresa al campo de juego, a
+los vestuarios o a cualquier otro lugar reservado a los participantes del espectáculo masivo, de
+carácter artístico o deportivo, sin estar autorizado reglamentariamente, es sancionado/a con uno (1)
+a cinco (5) días de trabajo de utilidad pública o multa de ochenta y una (81) a cuatrocientas seis (406)
+unidades fijas.
+
+La sanción se eleva al doble si se producen desórdenes, aglomeraciones o avalanchas.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 111 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 98 pasa a ser art. 111.
+
+Texto anterior:
+
+Art. 98 – Ingresar sin autorización a lugares reservados
+
+Quien ingresa al campo de juego, a los vestuarios o a cualquier otro lugar reservado a los participantes del espectáculo masivo, de carácter artístico o deportivo, sin estar autorizado reglamentariamente, es sancionado/a con uno (1) a cinco (5) días de trabajo de utilidad pública o multa de doscientos ($ 200) a un mil ($ 1.000) pesos. La sanción se eleva al doble si se producen desórdenes, aglomeraciones o avalanchas.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 112 – Omitir recaudos durante un evento masivo
+
+Quien omite los recaudos exigidos por la
+legislación vigente o por la autoridad de aplicación competente durante un evento masivo, es
+sancionado/a con multa de nueve mil ciento ochenta y una (9.181) unidades fijas o arresto de sesenta
+(60) días, clausura del establecimiento e inhabilitación por el plazo máximo establecido por la ley
+para obtener cualquier autorización, habilitación o licencia para organizar o promover tales eventos.
+
+Cuando la contravención sea cometida por una persona de existencia ideal, la inhabilitación se hará extensiva a sus directores o representantes legales por el mismo plazo.
+
+Admite culpa.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 112 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 99 pasa a ser art. 112.
+
+Texto anterior:
+
+Art. 99 – Omitir recaudos durante un evento masivo
+
+Quien omite los recaudos exigidos por la legislación vigente o por la autoridad de aplicación competente durante un evento masivo, es sancionado/a con multa de cien mil (100.000) pesos o arresto de sesenta (60) días, clausura del establecimiento e inhabilitación por el plazo máximo establecido por la ley para obtener cualquier autorización, habilitación o licencia para organizar o promover tales eventos.
+
+Cuando la contravención sea cometida por una persona de existencia ideal, la inhabilitación se hará extensiva a sus directores o representantes legales por el mismo plazo.
+
+Admite culpa.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 113 – Acceder a lugares distintos según entrada o autorización
+
+Quien accede a un sector
+diferente al que le corresponde conforme a la clase de entrada adquirida, o ingresa a un lugar distinto
+del que le fue determinado por la organización del espectáculo masivo, de carácter artístico o
+deportivo, o por la autoridad pública competente, es sancionado/a con uno (1) a cinco (5) días de
+trabajo de utilidad pública o multa de ochenta y una (81) a cuatrocientas seis (406) unidades fijas.
+
+La sanción se eleva al doble si se producen desórdenes, aglomeraciones o avalanchas.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 113 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 100 pasa a ser art. 113.
+
+Texto anterior:
+
+Art. 100 – Acceder a lugares distintos según entrada o autorización
+
+Quien accede a un sector diferente al que le corresponde conforme a la clase de entrada adquirida, o ingresa a un lugar distinto del que le fue determinado por la organización del espectáculo masivo, de carácter artístico o deportivo, o por la autoridad pública competente, es sancionado/a con uno (1) a cinco (5) días de trabajo de utilidad pública o multa de doscientos ($ 200) a un mil ($ 1.000) pesos.
+
+La sanción se eleva al doble si se producen desórdenes, aglomeraciones o avalanchas.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 114 – Omitir recaudos de organización y seguridad
+
+Quien omite los recaudos de
+organización o seguridad exigidos por la legislación vigente o por la Autoridad de Aplicación respecto
+de un espectáculo masivo, de carácter artístico o deportivo, es sancionado/a con multa de
+ochocientas cuatro (804) a cuatro mil diecinueve (4.019) unidades fijas o arresto de cinco (5) a treinta
+(30) días.
+
+La sanción se eleva al doble si se producen desórdenes, aglomeraciones o avalanchas, o si la
+persona imputada es miembro de Comisión Directiva de Asociación civil organizadora de espectáculo
+deportivo masivo.
+
+Admite culpa.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 114 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 101 pasa a ser art. 114.
+
+Texto anterior:
+
+Art. 101 – Omitir recaudos de organización y seguridad
+
+Quien omite los recaudos de organización o seguridad exigidos por la legislación vigente o por la Autoridad de Aplicación respecto de un espectáculo masivo, de carácter artístico o deportivo, es sancionado/a con multa de diez mil ($ 10.000) a cincuenta mil ($ 50.000) pesos o arresto de cinco (5) a treinta (30) días.
+
+La sanción se eleva al doble si se producen desórdenes, aglomeraciones o avalanchas, o si la
+persona imputada es miembro de Comisión Directiva de Asociación civil organizadora de espectáculo deportivo masivo.
+
+Admite culpa.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 115 – Alterar programa
+
+Quien, sin existir motivos de fuerza mayor, sustituye atletas,
+jugadores o artistas que por su nombre puedan determinar la asistencia de público a un espectáculo
+masivo, de carácter artístico o deportivo, sin hacerlo saber con la suficiente antelación, es
+sancionado/a con multa cuatrocientas seis (406) a doce mil ciento sesenta y nueve (12.169) unidades
+fijas.
+
+La sanción se eleva al doble si por tal motivo se producen desórdenes, aglomeraciones o avalanchas.
+
+Admite culpa.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 115 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 102 pasa a ser art. 115.
+
+Texto anterior:
+
+Art. 102 – Alterar programa
+
+Quien, sin existir motivos de fuerza mayor, sustituye atletas, jugadores o artistas que por su nombre puedan determinar la asistencia de público a un espectáculo masivo, de carácter artístico o deportivo, sin hacerlo saber con la suficiente antelación, es sancionado/a con multa de un mil ($ 1.000) a treinta mil ($ 30.000) pesos.
+
+La sanción se eleva al doble si por tal motivo se producen desórdenes, aglomeraciones o avalanchas.
+
+Admite culpa.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 116 – Provocar a la parcialidad contraria
+
+Quien en ocasión de un espectáculo deportivo
+masivo lleva o exhibe banderas, trofeos o símbolos de divisas distintas de la propia y las utiliza para
+provocar a la parcialidad contraria, sin importar la presencia o no del público rival, es sancionado/a
+con multa de ochocientas cuatro (804) a cuatro mil diecinueve (4.019) unidades fijas o arresto de
+cinco (5) a treinta (30) días.
+
+La sanción se eleva al doble para quien consiente o permite que las banderas, trofeos o símbolos descriptos se guarden en el lugar donde se desarrolle el espectáculo, o si la persona imputada es miembro de Comisión Directiva de Asociación civil organizadora del espectáculo.
+
+Admite culpa.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 116 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 103 pasa a ser art. 116.
+
+Texto anterior:
+
+Art. 103 – Provocar a la parcialidad contraria
+
+Quien en ocasión de un espectáculo deportivo masivo lleva o exhibe banderas, trofeos o símbolos de divisas distintas de la propia y las utiliza para provocar a la parcialidad contraria, sin importar la presencia o no del público rival, es sancionado/a con multa de diez mil ($ 10.000) a cincuenta mil ($ 50.000) pesos o arresto de cinco (5) a treinta (30) días.
+
+La sanción se eleva al doble para quien consiente o permite que las banderas, trofeos o símbolos descriptos se guarden en el lugar donde se desarrolle el espectáculo, o si la persona imputada es miembro de Comisión Directiva de Asociación civil organizadora del espectáculo. Admite culpa.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 117 – Afectar el desarrollo del espectáculo
+
+Quien afecta el normal desarrollo de un
+espectáculo masivo, de carácter artístico o deportivo, que se realiza en un lugar público o privado de
+acceso público, es sancionado/a con multa de doscientas cuarenta y tres (243) a ochocientas once
+(811) unidades fijas o tres (3) a diez (10) días de arresto.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 117 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 104 pasa a ser art. 117.
+
+Texto anterior:
+
+Art. 104 – Afectar el desarrollo del espectáculo
+
+Quien afecta el normal desarrollo de un espectáculo masivo, de carácter artístico o deportivo, que se realiza en un lugar público o privado de acceso público, es sancionado/a con multa de seiscientos ($ 600) a dos mil ($ 2.000) pesos o tres (3) a diez (10) días de arresto.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 118 – Producir avalanchas o aglomeraciones
+
+Quien produce por cualquier medio una
+avalancha o aglomeración en ocasión de un espectáculo masivo, de carácter artístico o deportivo,
+es sancionado/a con multa de doscientas cuarenta y tres (243) a ochocientas once (811) unidades
+fijas o arresto de tres (3) a diez (10) días.
+
+Admite culpa.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 118 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 105 pasa a ser art. 118.
+
+Texto anterior:
+
+Art. 105 – Producir avalanchas o aglomeraciones
+
+Quien produce por cualquier medio una avalancha o aglomeración en ocasión de un espectáculo masivo, de carácter artístico o deportivo, es sancionado/a con multa de seiscientos ($ 600) a dos mil ($ 2.000) pesos o arresto de tres (3) a diez (10) días.
+
+Admite culpa.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 119 – Incitar al desorden
+
+Quien incita al desorden, con motivo o en ocasión de un
+espectáculo masivo, de carácter artístico o deportivo, es sancionado/a con multa de ochocientas
+cuatro (804) a cuatro mil diecinueve (4.019) unidades fijas o arresto de cinco (5) a treinta (30) días.
+
+La sanción se eleva al doble cuando la acción la realiza un deportista, dirigente o se utiliza un medio
+de comunicación masiva.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 119 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 106 pasa a ser art. 119.
+
+Texto anterior:
+
+Art. 106 – Incitar al desorden
+
+Quien incita al desorden, con motivo o en ocasión de un espectáculo masivo, de carácter artístico o deportivo, es sancionado/a con multa de diez mil ($ 10.000) a cincuenta mil ($ 50.000) pesos o arresto de cinco (5) a treinta (30) días.
+
+La sanción se eleva al doble cuando la acción la realiza un deportista, dirigente o se utiliza un medio de comunicación masiva.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 120 – Arrojar cosas o sustancias
+
+Quien arroja cosas o sustancias que puedan causar
+lesiones, daños o molestias a terceros, en ocasión de un espectáculo masivo, de carácter artístico o
+deportivo, es sancionado/a con uno (1) a diez (10) días de trabajo de utilidad pública o arresto de
+uno (1) a diez (10) días.
+
+Admite culpa.
+
+Art. 121 – Suministrar elementos aptos para agredir
+
+Quien vende o suministra en el lugar en que
+se desarrolla un espectáculo masivo, de carácter artístico o deportivo, objetos que por sus
+características pueden ser utilizados como elementos de agresión, es sancionado/a con multa de
+ochenta y una (81) a cuatrocientas seis (406) unidades fijas.
+
+Admite culpa.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 121 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 108 pasa a ser art. 121.
+
+Texto anterior:
+
+Art. 108 – Suministrar elementos aptos para agredir
+
+Quien vende o suministra en el lugar en que se desarrolla un espectáculo masivo, de carácter artístico o deportivo, objetos que por sus características pueden ser utilizados como elementos de agresión, es sancionado/a con multa de doscientos ($ 200) a un mil ($ 1.000) pesos.
+
+Admite culpa.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 122 – Suministrar o guardar bebidas alcohólicas
+
+Quien con motivo o en ocasión de un
+espectáculo masivo, de carácter artístico o deportivo, guarda bebidas alcohólicas en dependencias
+del lugar en el que se desarrollan tales actividades, es sancionado/a con multa de cuatrocientas seis
+(406) a dos mil veintiocho (2.028) unidades fijas. Quien vende o suministra bebidas alcohólicas en el
+lugar donde se desarrolla un espectáculo masivo, de carácter artístico o deportivo, o en un perímetro
+de quinientos (500) metros alrededor de donde se desarrolla en evento, en el período comprendido
+entre las cuatro (4) horas previas a la iniciación y una hora posterior a su finalización es sancionado
+con multa de cuatrocientas seis (406) a dos mil veintiocho (2.028) unidades fijas y clausura e
+inhabilitación. El/la dirigente, miembro de comisiones directivas o subcomisiones, o persona con igual
+poder de decisión que guarda, suministra o permite la guarda o suministro de bebidas alcohólicas en
+dependencias del lugar donde se desarrollan tales actividades, es sancionado/a con multa de dos
+mil veintiocho (2.028) a diez mil ciento cuarenta y una (10.141) unidades fijas o arresto de cinco (5)
+a quince (15) días.
+
+Toda autorización de excepción debe otorgarse en forma escrita por autoridad competente a los
+organizadores del evento.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 122 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 109 pasa a ser art. 122.
+
+Texto anterior:
+
+Art. 109 – Suministrar o guardar bebidas alcohólicas
+
+Quien con motivo o en ocasión de un espectáculo masivo, de carácter artístico o deportivo, guarda bebidas alcohólicas en dependencias del lugar en el que se desarrollan tales actividades, es sancionado/a con multa de un mil ($ 1.000) a cinco mil ($ 5.000) pesos. Quien vende o suministra bebidas alcohólicas en el lugar donde se desarrolla un espectáculo masivo, de carácter artístico o deportivo, o en un perímetro de quinientos (500) metros alrededor de donde se desarrolla en evento, en el período comprendido entre las cuatro (4) horas previas a la iniciación y una hora posterior a su finalización es sancionado con multa de un mil ($ 1.000) a cinco mil ($ 5.000) pesos y clausura e inhabilitación. El/la dirigente, miembro de comisiones directivas o subcomisiones, o persona con igual poder de decisión que guarda, suministra o permite la guarda o suministro de bebidas alcohólicas en dependencias del lugar donde se desarrollan tales actividades, es sancionado/a con multa de cinco mil ($ 5.000) a veinticinco mil ($ 25.000) pesos o arresto de cinco (5) a quince (15) días.
+
+Toda autorización de excepción debe otorgarse en forma escrita por autoridad competente a los organizadores del evento.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 123 – Ingresar o consumir bebidas alcohólicas
+
+Quien ingresa o consume bebidas
+alcohólicas en un espectáculo masivo, de carácter artístico o deportivo, es sancionado/a con uno (1)
+a cinco (5) días de trabajo de utilidad pública o multa de ochenta y una (81) a cuatrocientas seis (406)
+unidades fijas.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 123 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 110 pasa a ser art. 123.
+
+Texto anterior:
+
+Art. 110 – Ingresar o consumir bebidas alcohólicas
+
+Quien ingresa o consume bebidas alcohólicas en un espectáculo masivo, de carácter artístico o deportivo, es sancionado/a con uno (1) a cinco (5) días de trabajo de utilidad pública o multa de doscientos ($ 200) a un mil ($ 1.000) pesos.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 124 – Ingresar artefactos pirotécnicos
+
+Quien ingresa o lleva consigo artefactos pirotécnicos
+a un espectáculo masivo, de carácter artístico o deportivo, es sancionado/a con diez (10) a cuarenta
+y cinco (45) días de trabajo de utilidad pública o arresto de cinco (5) a treinta (30) días.
+La sanción se eleva al doble si los artefactos son encendidos o arrojados, o si la persona imputada
+es miembro de Comisión Directiva de Asociación civil deportiva participante del espectáculo.
+
+Toda autorización de excepción debe otorgarse en forma escrita por autoridad competente a los organizadores del evento.
+
+Admite culpa.
+
+Art. 125 – Banderas
+
+Quien dentro de las instalaciones de los estadios coloque telas u otros elementos similares que obstaculicen la visión del espectáculo deportivo; o quien ingrese o coloque banderas u otros elementos similares que contengan leyendas y/o imágenes que inciten a la violencia, amenacen, discriminen u ofendan; o quien ingrese a los estadios astas de bandera que no sean huecas de plástico flexible que excedan del metro y medio (1,5 m) de longitud y de los tres centímetros (3 cm) de diámetro es sancionado/a con diez (10) a cuarenta y cinco (45) días de trabajo de utilidad pública o arresto de cinco (5) a treinta (30) días. La sanción se eleva al doble si la persona imputada es miembro de Comisión Directiva de Asociación civil deportiva participante del espectáculo.
+
+Toda autorización de excepción debe otorgarse en forma escrita por autoridad competente a los organizadores del evento.
+
+Art. 126 – Guardar artefactos pirotécnicos
+
+Quien con motivo o en ocasión de un espectáculo
+masivo, de carácter artístico o deportivo, guarda artefactos pirotécnicos en dependencias del lugar
+en el que se desarrollan tales actividades, es sancionado/a con multa de ochocientas once (811) a
+cuatro mil cincuenta y seis (4.056) unidades fijas o arresto de dos (2) a diez (10) días.
+
+El/la dirigente, miembro de comisiones directivas o subcomisiones, o persona con igual poder de
+decisión que en idéntica situación descripta en el párrafo precedente guarda o permite la guarda de
+artefactos pirotécnicos, es sancionado/a con multa de cuatro mil cincuenta y seis (4.056) a veinte mil
+doscientas ochenta y dos (20.282) unidades fijas o arresto de cinco (5) a veinte (20) días.
+
+Toda autorización de excepción debe otorgarse en forma escrita por autoridad competente a los organizadores del evento.
+
+Admite culpa.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 126 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 113 pasa a ser art. 126.
+
+Texto anterior:
+
+Art. 113 – Guardar artefactos pirotécnicos
+
+Quien con motivo o en ocasión de un espectáculo masivo, de carácter artístico o deportivo, guarda artefactos pirotécnicos en dependencias del lugar en el que se desarrollan tales actividades, es sancionado/a con multa de dos mil ($ 2.000) a diez mil ($ 10.000) pesos o arresto de dos (2) a diez (10) días.
+
+El/la dirigente, miembro de comisiones directivas o subcomisiones, o persona con igual poder de decisión que en idéntica situación descripta en el párrafo precedente guarda o permite la guarda de artefactos pirotécnicos, es sancionado/a con multa de diez mil ($ 10.000) a cincuenta mil ($ 50.000) pesos o arresto de cinco (5) a veinte (20) días
+
+Toda autorización de excepción debe otorgarse en forma escrita por autoridad competente a los organizadores del evento.
+
+Admite culpa.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 127 – Portar elementos aptos para la violencia
+
+Quien en ocasión de un espectáculo masivo, de carácter artístico o deportivo, introduce, tiene en su poder o porta armas blancas o elementos destinados inequívocamente a ejercer violencia o a agredir, es sancionado/a con arresto de cinco (5) a veinte (20) días. La sanción se eleva al doble si los elementos son introducidos o portados por miembro de Comisión Directiva de Asociación civil deportiva participante del espectáculo.
+
+Art. 128 – Guardar elementos aptos para la violencia
+
+Quien con motivo o en ocasión de un
+espectáculo masivo, de carácter artístico o deportivo, guarda elementos inequívocamente destinados
+a ejercer violencia o a agredir en dependencias del lugar en el que se desarrollan tales actividades,
+es sancionado/a con multa de mil doscientas diecisiete (1.217) a seis mil ochenta y cuatro (6.084)
+unidades fijas o arresto de tres (3) a diez (10) días.
+
+El/la dirigente, miembro de comisiones directivas o subcomisiones, o persona con igual poder de
+decisión que en idéntica situación descripta en el párrafo precedente guarda o permite la guarda de
+elementos inequívocamente destinados a ejercer violencia o a agredir, es sancionado/a con multa
+de seis mil ochenta y cuatro (6.084) a veinte mil doscientas ochenta y dos (20.282) unidades fijas o
+arresto de cinco (5) a veinticinco (25) días.
+
+Admite culpa.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 128 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 115 pasa a ser art. 128.
+
+Texto anterior:
+
+Art. 115 – Guardar elementos aptos para la violencia
+
+Quien con motivo o en ocasión de un espectáculo masivo, de carácter artístico o deportivo, guarda elementos inequívocamente destinados a ejercer violencia o a agredir en dependencias del lugar en el que se desarrollan tales actividades, es sancionado/a con multa de tres mil ($ 3.000) a quince mil ($ 15.000) pesos o arresto de tres (3) a diez (10) días.
+
+El/la dirigente, miembro de comisiones directivas o subcomisiones, o persona con igual poder de decisión que en idéntica situación descripta en el párrafo precedente guarda o permite la guarda de elementos inequívocamente destinados a ejercer violencia o a agredir, es sancionado/a con multa de quince mil ($ 15.000) a cincuenta mil ($ 50.000) pesos o arresto de cinco (5) a veinticinco (25) días.
+
+Admite culpa.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 129 – Obstruir salida o desconcentración
+
+Quien obstruye el egreso o perturba la
+desconcentración de un espectáculo masivo, de carácter artístico o deportivo, es sancionado/a con
+uno (1) a cinco (5) días de trabajo de utilidad pública o multa de ochenta y una (81) a cuatrocientas
+seis (406) unidades fijas.
+
+El/la dirigente, miembro de comisiones directivas o subcomisiones, o persona con igual poder de
+decisión que obstruye o dispone la obstrucción del egreso de un (1) espectáculo masivo, de carácter
+artístico o deportivo, es sancionado/a con multa de mil doscientas diecisiete (1.217) a seis mil
+ochenta y cuatro (6.084) unidades fijas o arresto de tres (3) a diez (10) días.
+
+Admite culpa.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 129 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 116 pasa a ser art. 129.
+
+Texto anterior:
+
+Art. 116 – Obstruir salida o desconcentración
+
+Quien obstruye el egreso o perturba la desconcentración de un espectáculo masivo, de carácter artístico o deportivo, es sancionado/a con uno (1) a cinco (5) días de trabajo de utilidad pública o multa de doscientos ($ 200) a un mil ($ 1.000) pesos.
+
+El/la dirigente, miembro de comisiones directivas o subcomisiones, o persona con igual poder de decisión que obstruye o dispone la obstrucción del egreso de un (1) espectáculo masivo, de carácter artístico o deportivo, es sancionado/a con multa de tres mil ($ 3.000) a quince mil ($ 15.000) pesos o arresto de tres (3) a diez (10) días.
+
+Admite culpa.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 130 – Encubrimiento de actividades de baile o locales habilitados para el ingreso masivo de personas
+
+El/la que, mediante cualquier artificio, ocultamiento y/o engaño, encubra actividades de baile o de locales habilitados para el ingreso masivo de personas para las cuales no posee la habilitación correspondiente es sancionado con multa de quinientos (500) a dos mil (2.000) unidades fijas.
+
+Cuando el imputado/a cometa la misma falta dentro del término de trescientos sesenta y cinco días a contar desde la sanción judicial firme los montos mínimo y máximo de la multa se elevarán al doble.
+
+CAPÍTULO III
+
+SEGURIDAD Y ORDENAMIENTO EN EL TRÁNSITO
+
+Art. 131 – Conducir con mayor cantidad de alcohol en sangre del permitido o bajo los efectos de estupefacientes
+
+Quien conduce un vehículo con un nivel de alcohol en sangre igual o superior a un (1.0) gramo de alcohol por litro de sangre, o bajo la acción de otras sustancias que disminuyan la aptitud para hacerlo, es sancionado/a con multa de trescientas (300) a dos mil (2000) unidades fijas o uno (1) a diez (10) días de arresto. En todos los casos se aplicará conjuntamente la sanción de inhabilitación para conducir de cuatro (4) meses a dos (2) años, prevista en el artículo 34 del presente Código.
+
+Antecedentes relacionados
+
+Nota de redacción: texto conforme art. 34 Ley Nº 6.486, BOCABA Nº 6.286 del 30/12/2021. Al momento de la modificación del artículo se correspondía con el art. 130, hoy art. 131.
+
+Texto anterior:
+
+Art. 114 – Conducir con mayor cantidad de alcohol en sangre del permitido o bajo los efectos de estupefacientes
+
+Quien conduce un vehículo superando los límites permitidos de alcohol en sangre o bajo la acción de otras sustancias que disminuyan la aptitud para hacerlo, es sancionado/a con ciento cincuenta (150) a mil (1000) unidades fijas o uno (1) a diez (10) días de arresto. Admite culpa.
+
+(Conforme texto art. 4º de la Ley Nº 6.015, BOCABA Nº 5.488 del 30/10/2018.
+Al momento de la modificación del artículo se correspondía con el art. 114 ya que realiza la modificación sobre el texto consolidado según Ley Nº 5.666, hoy art. 131)
+
+Texto anterior:
+
+Art. 118 – Conducir con mayor cantidad de alcohol en sangre del permitido o bajo los efectos de estupefacientes
+
+Quien conduce un vehículo superando los límites permitidos de alcohol en sangre o bajo la acción de otras sustancias que disminuyan la aptitud para hacerlo, es sancionado/a con doscientos ($200) a dos mil ($2000) pesos de multa o uno (1) a diez (10) días de arresto. Admite culpa.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018,
+BOCABA Nº 5.485)
+
+Art. 132 – Participar, disputar u organizar competencias de velocidad o destreza en vía pública
+
+Quien participa, disputa u organiza competencias de destreza o velocidad con vehículos motorizados en la vía pública, violando las normas reglamentarias de tránsito, es sancionado/a con cinco (5) a treinta (30) días de arresto.
+
+La sanción se eleva al doble cuando la conducta descripta precedentemente se realiza mediante el empleo de un vehículo modificado o preparado especialmente para dicho tipo de competencias.
+
+Art. 133 – Incumplir obligaciones legales
+
+Quien al conducir un vehículo participa de un accidente
+de tránsito y no cumple con las obligaciones legales a su cargo, es sancionado/a con ochenta y una
+(81) a ochocientas once (811) unidades fijas de multa.
+
+La sanción se incrementa al doble en caso de fuga.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 133 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 120 pasa a ser art. 133.
+
+Texto anterior:
+
+Art. 120 – Incumplir obligaciones legales
+
+Quien al conducir un vehículo participa de un accidente de tránsito y no cumple con las obligaciones legales a su cargo, es sancionado/a con doscientos ($ 200) a dos mil ($ 2.000) pesos de multa.
+
+La sanción se incrementa al doble en caso de fuga.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 134 – Agravantes genéricos
+
+Sin perjuicio de los agravantes particulares previstos en los artículos precedentes, las sanciones de las contravenciones previstas en este Capítulo se elevan:
+
+Al doble cuando son cometidas por el conductor/a de un vehículo motorizado de carga o de transporte de pasajeros en servicio.
+
+Al doble cuando el conductor/a finge la prestación de un servicio de urgencia, de emergencia u oficial o abusa de reales situaciones de emergencia o cumplimiento de un servicio oficial
+
+Al triple cuando son cometidas por el conductor/a de un vehículo de transporte escolar o de personas con necesidades especiales.
+
+TÍTULO V
+
+JUEGOS DE APUESTAS
+
+CAPÍTULO ÚNICO
+
+JUEGOS DE APUESTAS
+
+Art. 135 – Organizar y explotar juego
+
+Quien organiza o explota, sin autorización, habilitación o licencia o en exceso de los límites en que ésta fue obtenida, sorteos, apuestas o juegos, sea por procedimientos mecánicos, electromecánicos, electrónicos, informáticos, o por cualquier otro medio en los que se prometan premios en dinero, bienes muebles o inmuebles o valores y dependan en forma exclusiva o preponderante del alea, la suerte o la destreza, es sancionado/a con arresto de quince (15) a cuarenta y cinco (45) días.
+
+En caso de que la comisión de la conducta descripta precedentemente se realice con la cooperación de personas menores de dieciocho (18) años de edad o de funcionarios/as públicos con poder decisorio, se aplica la sanción de arresto de treinta (30) a sesenta (60) días.
+
+Art. 136 – Promover, comerciar u ofertar
+
+Quien promueve, comercia u ofrece los sorteos o
+juegos a que se refiere el artículo anterior, es sancionado/a con multa de ocho mil ciento trece (8.113)
+a veintitrés mil quinientas (23.500) unidades fijas o arresto de diez (10) a treinta (30) días.
+En caso de que la comisión de la conducta descripta precedentemente se realice con la cooperación
+de menores de dieciocho (18) años de edad o de funcionarios/as públicos con poder decisorio, se
+aplica multa de doce mil ciento sesenta y nueve (12.169) a treinta y seis mil quinientas siete (36.507)
+unidades fijas o arresto de quince (15) a cuarenta y cinco (45) días.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 136 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 123 pasa a ser art. 136.
+
+Texto anterior:
+
+Art. 123 – Promover, comerciar u ofertar
+
+Quien promueve, comercia u ofrece los sorteos o juegos a que se refiere el artículo anterior, es sancionado/a con multa de veinte mil ($ 20.000) a sesenta mil ($ 60.000) pesos o arresto de diez (10) a treinta (30) días.
+
+En caso de que la comisión de la conducta descripta precedentemente se realice con la cooperación de menores de dieciocho (18) años de edad o de funcionarios/as públicos con poder decisorio, se aplica multa de treinta mil ($ 30.000) a noventa mil ($ 90.000) pesos o arresto de quince (15) a cuarenta y cinco (45) días.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 137 – Violar reglamentación
+
+Quien desarrolla sorteos, apuestas o juegos permitidos o
+autorizados por las Leyes locales, en lugar distinto al indicado por la Ley o que de cualquier modo
+violen reglamentaciones al respecto, es sancionado/a con multa de cuatro mil cincuenta y seis (4.056)
+a doce mil ciento sesenta y nueve (12.169) unidades fijas o arresto de cinco (5) a quince (15) días.
+
+Antecedentes relacionados
+
+Nota de redacción: Conforme texto art. 137 del Anexo I del Decreto Nº 362/24, BOCABA Nº 7.002 del 20/11/2024, entrado en vigencia el día de su publicación. A raíz de incorporaciones en la Tercera y Cuarta actualización del Digesto Jurídico CABA, lo que era art. 124 pasa a ser art. 137.
+
+Texto anterior:
+
+Art. 124 – Violar reglamentación
+
+Quien desarrolla sorteos, apuestas o juegos permitidos o autorizados por las Leyes locales, en lugar distinto al indicado por la Ley o que de cualquier modo violen reglamentaciones al respecto, es sancionado/a con multa de diez mil ($ 10.000) a treinta mil ($ 30.000) pesos o arresto de cinco (5) a quince (15) días.
+
+(Conforme texto Segunda Actualización del Digesto Jurídico CABA, aprobado por Ley Nº 6.017, con fecha de corte 28/02/2018, BOCABA 5.485)
+
+Art. 138 – Publicidad de juegos de apuesta en contravención
+
+El titular y/o responsable de medios de información, comunicación, plataformas cualquiera sea el soporte que realicen publicidad en cualquiera de sus modalidades de juegos de apuesta en contravención a la normativa y/o incumplan las obligaciones a su cargo, serán sancionadas con multa de 25.000 a 75.000 unidades fijas y decomiso.
+
+Antecedentes relacionados
+
+Nota de redacción: incorporado como art. 118 bis por art. 37 de la Ley Nº 6.330, BOCABA Nº 5.984 del 26/10/2020.
+Al momento de la incorporación del artículo se correspondía con el art. 118 bis, hoy art. 138.
+
+En la “Observación general 10” de la Cuarta actualización del Digesto se encuentran los siguientes textos: “La Ley N° 6.330, BOCBA 5984 del 26/10/2020, por su Artículo 37 erróneamente incorpora a la presente el artículo 118 bis del título V -Juegos de Apuestas- Capítulo Único –Juegos de Apuestas-, debiendo incorporar el artículo 136 bis. El artículo 136 bis fue renumerado en el presente Texto Definitivo como artículo 138.”
+
+A su vez, en la “Observación general 11” se encuentra el siguiente texto: “Se deja constancia que en virtud de la regla de Técnica Legislativa de Uniformidad del Epigrafiado se agregó en el Artículo 138 de la presente el epígrafe -Publicidad de juegos de apuestas en contravención –.”
+
+Art. 139 – Prácticas no punibles
+
+No son punibles las prácticas incluidas en el presente capítulo que por su insignificancia o por hallarse incorporadas por la costumbre o la tradición no importan peligro para la convivencia ni para el patrimonio de las personas.
+
+TÍTULO VI
+
+PROTECCIÓN Y CUIDADO DE ANIMALES DOMÉSTICOS
+
+Antecedentes relacionados
+
+Nota de redacción: título incorporado por art. 1 de la Ley Nº 6.173, BOCABA Nº 5.668 del 31/07/2019.
+
+Art. 140 – Omitir recaudos de cuidado responsable respecto de un animal doméstico a cargo
+
+Quien omite recaudos de cuidado respecto de un animal a cargo, y siempre que la conducta no implique delito, es sancionado/a con quince (15) a treinta (30) días de trabajo de utilidad pública o multa de mil (1.000) a dos mil quinientas (2.500) unidades fijas.
+
+(Conforme texto art. 6º de la Ley Nº 6.839, BOCABA Nº 7.228 del 20/10/2025)
+
+Antecedentes relacionados
+
+Texto anterior:
+
+Art. 140 – Omitir recaudos de cuidado responsable respecto de un animal doméstico a cargo
+
+Quien omite recaudos de cuidado respecto de un animal a cargo, y siempre que la conducta no implique delito, es sancionado/a con tres (3) a cinco (5) días de trabajo de utilidad pública y/o multa de trescientas (300) a mil (1.000) Unidades Fijas.
+
+(Incorporado como art. 126 por art. 1º de la Ley Nº 6.173, BOCABA Nº 5.668 del 31/07/2019. Al momento de la incorporación del artículo se correspondía con el art. 126, hoy art. 140)
+
+Art. 141 – Abandonar un animal doméstico
+
+Quien abandona un animal doméstico en espacios públicos, en lugares privados de acceso público o si fuese en ocasión de la intervención de una entidad pública de Zoonosis, y siempre que la conducta no implique delito, es sancionado/a con sesenta (60) a noventa (90) días de trabajo de utilidad pública o multa de tres mil (3.000) a cinco mil (5.000) unidades fijas o quince (15) a treinta (30) días de arresto.
+
+En todos los casos se aplica conjuntamente la sanción de prohibición de tutela y de contacto con animales domésticos por el plazo de seis (6) meses hasta dos (2) años. La prohibición comprende la restricción para el/la condenado/a de interactuar de cualquier forma con animales domésticos.
+
+(Conforme texto art. 7º de la Ley Nº 6.839, BOCABA Nº 7.228 del 20/10/2025)
+
+Antecedentes relacionados
+
+Texto anterior:
+
+Art. 141 – Abandonar un animal doméstico
+
+Quien abandona un animal doméstico en espacios públicos, en lugares privados de acceso público o si fuese en ocasión de la intervención de una entidad pública de Zoonosis, será sancionado con multa de tres (3) a cinco (5) días de trabajo de utilidad pública y/o multa de mil (1.000) a dos mil (2.000) Unidades Fijas.
+
+(Incorporado como art. 127 por art. 1º de la Ley Nº 6.173, BOCABA Nº 5.668 del 31/07/2019.
+Al momento de la incorporación del artículo se correspondía con el art. 127, hoy art. 141)
+
+Art. 142 – Mantener animales domésticos en instalaciones o en espacios cerrados inadecuados
+
+Quien mantiene animales domésticos en instalaciones o en espacios cerrados e inadecuados, y afecte su salud, higiene o esparcimiento, y siempre que la conducta no implique delito, es sancionado/a con treinta (30) a sesenta (60) días de trabajo de utilidad pública o multa de dos mil (2.000) a tres mil quinientas (3.500) Unidades Fijas.
+
+(Conforme texto art. 8º de la Ley Nº 6.839, BOCABA Nº 7.228 del 20/10/2025)
+
+Antecedentes relacionados
+
+Texto anterior:
+
+Art. 142 – Mantener animales domésticos en instalaciones o en espacios inadecuados
+
+Quien mantiene animales domésticos en instalaciones o en espacios inadecuados respecto a su bienestar, afectando su salud, higiene o esparcimiento, y siempre que la conducta no implique delito, es sancionado/a con tres (3) a cinco (5) días de trabajo de utilidad pública y/o multa de quinientas (500) a mil (1.000) Unidades Fijas.
+
+(Incorporado como art. 128 por art. 1º de la Ley Nº 6.173, BOCABA Nº 5.668 del 31/07/2019.
+Al momento de la incorporación del artículo se correspondía con el art. 128, hoy art. 142)
+
+Art. 142 bis – Dejar a un animal doméstico en un vehículo cerrado
+
+Quien deje a un animal doméstico en un vehículo sin circulación de aire adecuada y por un tiempo desproporcionado que pueda afectar su integridad física o emocional, y siempre que laconducta no implique delito, es sancionado/a con treinta (30) a sesenta (60) días de
+trabajo de utilidad pública o multa de dos mil (2.000) a tres mil quinientas (3.500)Unidades Fijas.
+
+(Incorporado por art. 9º de la Ley Nº 6.839, BOCABA Nº 7.228 del 20/10/2025)
+
+Art. 143 – Menoscabar la integridad de un animal doméstico
+
+Quien menoscabe la integridad de un animal doméstico, y siempre que la conducta no implique delito, es sancionado/a con treinta (30) a sesenta (60) días de trabajo de utilidad pública o multa de dos mil (2.000) a tres mil quinientas (3.500) Unidades Fijas.
+
+En todos los casos se aplica conjuntamente la sanción de prohibición de tutela y de contacto con animales domésticos por el plazo de seis (6) meses hasta dos (2) años. La prohibición comprende la restricción para el/la condenado/a de interactuar de cualquier forma con animales domésticos.
+
+Se entiende por menoscabo a la integridad del animal:
+
+a) Pintar, teñir, decolorar y/o aplicar sustancias tóxicas en el pelaje, piel o cualquier parte del cuerpo del animal con fines degradantes o estigmatizantes;
+
+b) Someter al animal a prácticas, manipulaciones o procedimientos innecesarios que generen dolor, sufrimiento, estrés o afectación de su comportamiento natural;
+
+c) Exponer al animal a situaciones de vulnerabilidad, peligro, explotación o trato degradante que atenten contra su bienestar.
+
+(Conforme texto art. 10 de la Ley Nº 6.839, BOCABA Nº 7.228 del 20/10/2025)
+
+Antecedentes relacionados
+
+Texto anterior:
+
+Art. 143 – Menoscabar la integridad de un animal doméstico
+
+Quien menoscabe la integridad de un animal doméstico ya sea por pintarlo, teñirle el pelo o cualquier otro acto que pueda provocar un perjuicio para su salud física o psíquica del animal exponiéndolo a una situación de vulnerabilidad, y siempre que la conducta no implique delito, es sancionado/a con tres (3) a cinco (5) días de trabajo de utilidad pública y/ó multa de trescientas (300) a mil (1.000) Unidades Fijas.
+
+(Incorporado como art. 129 por art. 1º de la Ley Nº 6.173, BOCABA Nº 5.668 del 31/07/2019.
+Al momento de la incorporación del artículo se correspondía con el art. 129, hoy art. 143)
+
+Art. 143 bis – Cría ilegal de animales
+
+Quien instale o mantenga en funcionamiento criaderos de animales en el ámbito de la Ciudad, y siempre que la conducta no implique delito, es sancionado/a con sesenta (60) a noventa (90) días de trabajo de utilidad pública o multa de tres mil (3.000) a cinco mil (5.000) Unidades fijas o treinta (30) a sesenta (60) días de arresto, además del secuestro de los animales vinculados a la conducta ilegal.
+
+En todos los casos se aplica conjuntamente la sanción de prohibición de tutela y de contacto con animales domésticos por el plazo de seis (6) meses hasta dos (2) años. La prohibición comprende la restricción para el/la condenado/a de interactuar de cualquier forma con animales domésticos.
+
+(Incorporado por art. 11 de la Ley Nº 6.839, BOCABA Nº 7.228 del 20/10/2025)
+
+DISPOSICIÓN COMPLEMENTARIA
+
+Art. 144 – Oficina de coordinación y seguimiento de ejecución de sanciones
+
+El Consejo de la Magistratura adoptará los recaudos necesarios para la puesta en marcha de una oficina judicial de coordinación y seguimiento de las reglas de conducta y sanciones que se impartan, excepto las de multa y arresto.
+
+El juez/a debe remitir a dicha oficina todas las sentencias que impartan, y debe ser informado por la misma conforme a la metodología que se determine por vía reglamentaria al efecto.
+
+DISPOSICIONES TRANSITORIAS
+
+CLÁUSULA TRANSITORIA: Hasta tanto se apruebe la autorización a la que se hace referencia en el artículo 97, no se permite la oferta y demanda ostensible de servicios de carácter sexual en espacios públicos localizados frente a viviendas, establecimientos educativos o templos o en sus adyacencias.
+
+En ningún caso procede la contravención en base a apariencia, vestimenta o modales. Se entiende por “adyacencias” una distancia menor de doscientos (200) metros de las localizaciones descriptas precedentemente.
+
+En las contravenciones referidas en el párrafo precedente, la autoridad preventora sólo podrá proceder al inicio de actuaciones por decisión de un representante del Ministerio Público Fiscal.
+
+Ley Nº 1.472
+
+×
+
+Código Contravencional CABA
+
+Disposiciones generales
+
+Interpretación y aplicación de la ley
+
+De las sanciones
+
+Extinción de las acciones y las sanciones
+
+Registro de contravenciones
+
+Contravenciones
+
+Protección integral de las personas
+
+Protección de la propiedad pública y privada
+
+Protección del uso del espacio público y privado
+
+Protección de la seguridad y la tranquilidad
+
+Juegos de apuestas
+
+Protección y cuidado de animales domésticos
+
+Las fuentes del Derecho a tu alcance
+
+Responsables
+
+Secretaría de Apoyo Administrativo Jurisdiccional
+Sergio J. Gargiulo
+
+Dirección de Apoyo Operativo
+Fabio D. Ona
+
+JURISTECA – Departamento de Biblioteca y Jurisprudencia
+Vanesa Jurado Giménez
+
+Menú
+
+Inicio
+
+Buscador Juristeca
+
+Compilación normativa Juristeca
+
+Desarrollo de contenidos
+
+Newsletter
+
+Novedades bibliogáficas
+
+Contacto
+
+Consejo de la Magistratura de la Ciudad de Buenos Aires.
+Av. julio A. Roca 516 (C1067ABN) C.A.B.A.
+
+
+
+
+
+Skip to content
+
+Open toolbar
+
+Juristeca Accesible
+
+Juristeca Accesible
+
+Aumentar textoAumentar texto
+
+Achicar textoAchicar texto
+
+Escala de grisesEscala de grises
+
+Alto contrasteAlto contraste
+
+Contraste negativoContraste negativo
+
+Fondo blancoFondo blanco
+
+Subrayar linksSubrayar links
+
+Fuente legibleFuente legible
+
+Reset
+Reset

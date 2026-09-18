@@ -1,14 +1,14 @@
 Ley 23.551 - Asociaciones sindicales (texto actualizado)
 ==============================================================================
-Jurisdiccion:     nacional
+Jurisdicción:     nacional
 Fuente:           https://www.argentina.gob.ar/normativa/nacional/ley-23551-20993/actualizacion
-Descargado:       2026-09-14
-SHA-256 (crudo):  a294af906f9a3881b6a3044e3727e9783a60614202030e3ac314841015289869
+Descargado:       2026-09-17
+SHA-256 (crudo):  b005009ca83e2ce0769f55f6f0359185df68ad656f7f175a712a3d12ac12b8b1
 Charset:          utf-8
 
-Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
-NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
-Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
 el manifiesto `normas.json`.
 ==============================================================================
 

@@ -1,7 +1,7 @@
 ---
 titulo: Proyecto de sentencia en Tribunal del Trabajo - estructura, cuestiones esenciales y honorarios
 area: laboral
-perfil: derecho-argentino / references/sede-judicial-pba.md
+perfil: derecho-argentino / references/sede-judicial.md + references/sede-judicial-pba.md
 fuero: Tribunal del Trabajo PBA (Ley 11.653, causa con vista de causa celebrada)
 problema: "riesgo de redactar con la estructura del fuero nacional (vistos-considerandos-resuelve) en lugar de veredicto y sentencia; riesgo de omitir el tratamiento por separado de cada cuestión y la individualización de los elementos de juicio meritados (art. 47); riesgo de no verificar la mayoría sobre cada cuestión (art. 168 Const. PBA y art. 44 inc. f); riesgo de declarar de oficio la prescripción; riesgo de incorporar un rubro no reclamado; riesgo de regular honorarios sin expresarlos en jus (art. 15 Ley 14.967)"
 ---

@@ -1,26 +1,26 @@
 """Localiza la raíz del repo de conocimiento jurídico, sin ninguna ruta hardcodeada.
 
 La skill se instala como skill de cuenta y corre en cualquier máquina; el repo puede estar
-en cualquier lado y llamarse de cualquier forma. Esta resolución es lo unico que sabe donde
-esta, y todos los scripts pasan por acá.
+en cualquier lado y llamarse de cualquier forma. Esta resolución es lo único que sabe donde
+está, y todos los scripts pasan por acá.
 
-Orden de busqueda, del más explícito al más adivinado:
+Orden de búsqueda, del más explícito al más adivinado:
 
 1. El argumento --repo, si el script lo recibe.
 2. La variable de entorno DERECHO_AR_REPO.
-3. La variable de entorno que define el agente al instalar el plugin. Cuales son, en
+3. La variable de entorno que define el agente al instalar el plugin. Cuáles son, en
    ENV_PLUGIN: no se enumeran acá para que no queden dos listas que puedan diferir.
 4. El archivo de configuración, por defecto ~/.config/derecho-argentino/config.json.
 5. Subiendo desde la ubicación de este archivo, por si la skill vive dentro del repo.
-6. Un puniado de ubicaciones habituales bajo el home.
+6. Un puñado de ubicaciones habituales bajo el home.
 
 En los casos 5 y 6 se exige el marcador: no alcanza con que exista una carpeta con el
 nombre parecido, tiene que ser el repo.
 
 Dos disposiciones posibles, porque el marketplace publica el plugin desde derecho/:
 
-    repo clonado        <raiz>/derecho/fuentes/MANIFIESTO.md
-    plugin instalado    <raiz>/fuentes/MANIFIESTO.md
+    repo clonado        <raíz>/derecho/fuentes/MANIFIESTO.md
+    plugin instalado    <raíz>/fuentes/MANIFIESTO.md
 
 En la segunda, la carpeta derecho/ del repo ES la raíz instalada, rodeada de los otros
 plugins. Por eso la raíz y la carpeta que contiene fuentes/ y kb/ son dos cosas distintas
@@ -30,7 +30,7 @@ base(), nunca concatenando "derecho".
 Y las dos disposiciones se parecen mucho: `<plugins>/derecho/fuentes/` y
 `<repo>/derecho/fuentes/` tienen la misma forma, porque el marketplace instala la carpeta
 con el nombre del plugin y la carpeta del repo se llama igual. Distinguirlas por el nombre
-no alcanza, y confundirlas tiene consecuencia: la copia instalada quedaria fijada en el
+no alcanza, y confundirlas tiene consecuencia: la copia instalada quedaría fijada en el
 archivo de configuración, con una ruta que cambia en cada actualización. La discriminación
 la hace es_clon(), y es estructural -- sólo el repo trae el manifiesto del marketplace --
 porque el nombre lo elige quien empaqueta y la estructura no.
@@ -50,7 +50,7 @@ ENV = "DERECHO_AR_REPO"
 # de la variable es lo único que cambia entre uno y otro. Sumar un agente es sumar un nombre.
 #
 # Las dos primeras las define un agente real. La tercera NO la define ninguno hoy: es una
-# apuesta a la convención genérica que insinua el esquema agent-plugins.org, con el que Codex
+# apuesta a la convención genérica que insinúa el esquema agent-plugins.org, con el que Codex
 # valida su plugin.json. Cuesta una línea y no puede dar un falso positivo -si la variable no
 # está, el bucle sigue; si está y no apunta al repo, es_repo() la descarta-, pero está escrita
 # a futuro y conviene no presentarla como algo que ya funciona en algún lado.
@@ -115,9 +115,9 @@ def es_repo(p: Path) -> bool:
 def base(raiz: Path) -> Path:
     """La carpeta con fuentes/ y kb/ dentro de una raíz ya resuelta.
 
-    Es <raiz>/argentina en el repo clonado y la raíz misma en el plugin instalado. Alcanza
-    con que exista la subcarpeta: el marcador ya lo exigio quien resolvió la raíz, y pedirlo
-    de nuevo acá mandaria a leer la carpeta equivocada -- la raíz -- cuando falta.
+    Es <raíz>/argentina en el repo clonado y la raíz misma en el plugin instalado. Alcanza
+    con que exista la subcarpeta: el marcador ya lo exigió quien resolvió la raíz, y pedirlo
+    de nuevo acá mandaría a leer la carpeta equivocada -- la raíz -- cuando falta.
     """
     raiz = Path(raiz)
     sub = raiz / SUB
@@ -155,7 +155,7 @@ def resolver(explicita=None, fijar=True, avisar=True):
 
     Instalar una skill no ejecuta nada: no hay paso de instalación donde preguntar la ruta.
     Entonces el primer uso que la necesite hace las dos cosas -- la encuentra y la fija --,
-    para que no se resuelva por adivinanza cada vez. Solo se persiste lo que se hallo por
+    para que no se resuelva por adivinanza cada vez. Solo se persiste lo que se halló por
     heurística: si vino de --repo, de la variable de entorno o del propio config, no hay nada
     que guardar.
     """
@@ -227,20 +227,20 @@ def raiz_repo(explicita=None):
     return None, "no encontrado"
 
 
-AYUDA = f"""No encuentro el repo de conocimiento juridico.
+AYUDA = f"""No encuentro el repo de conocimiento jurídico.
 
-Los datos que este script necesita -- valor del jus, calendario de inhabiles, series de
-indices -- viven ahi, y sin ellos no se puede calcular: estimarlos seria inventar montos,
-que es justo lo que la seccion 2 de la skill prohibe.
+Los datos que este script necesita -- valor del jus, calendario de inhábiles, series de
+índices -- viven ahí, y sin ellos no se puede calcular: estimarlos sería inventar montos,
+que es justo lo que la sección 2 de la skill prohíbe.
 
-Para dejarlo configurado una sola vez en esta maquina:
+Para dejarlo configurado una sola vez en esta máquina:
 
     python3 {Path(__file__).parent / 'configurar.py'} --repo /ruta/al/repo
 
-Alternativas, si preferis no escribir configuracion:
+Alternativas, si preferís no escribir configuración:
 
     export {ENV}=/ruta/al/repo          # en el perfil del shell
-    <script> --repo /ruta/al/repo       # por unica vez
+    <script> --repo /ruta/al/repo       # por única vez
 
 El repo se reconoce porque contiene {MARCADOR}."""
 

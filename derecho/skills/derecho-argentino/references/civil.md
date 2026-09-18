@@ -1,8 +1,8 @@
 # Civil y comercial · CCyCN
 
-> Módulo de referencia de la skill `derecho-argentino`. La numeración de secciones es global y
-> se mantiene igual que en el SKILL.md original: las remisiones cruzadas entre módulos siguen siendo
-> válidas. Las reglas de integridad de la sección 2 rigen acá también.
+> Módulo de referencia de la skill `derecho-argentino`. Numeración global: las remisiones cruzadas
+> entre módulos siguen siendo válidas. **Rigen las reglas de integridad de la sección 2 del
+> SKILL.md.**
 
 > Transversales: `prueba-pericial.md` (sección 20) para el control del dictamen médico o
 > técnico, `ejecucion.md` (sección 21) para el cobro de la sentencia y de los honorarios, y
@@ -20,6 +20,42 @@ celebrados antes: rige el código vigente a su celebración (art. 7 CCyCN); a lo
 en curso se aplica el CCyCN a las consecuencias no consumadas.
 
     [VERIFICAR VIGENCIA: régimen aplicable - hecho o contrato anterior al CCyCN, determinar si rige CC/CCom o CCyCN]
+
+### 6.1 bis Identidad de género — la rectificación registral y lo que cambió en 2025
+
+**Ley 26.743**, cotejada contra `fuentes/normas/ley-26743.txt`. Quince artículos, y para un escrito
+lo que importa es separar **dos trámites que la ley trata por separado** y que la reforma de 2025
+alcanzó de distinto modo.
+
+**El trámite registral (arts. 3 a 8).** Toda persona puede pedir **la rectificación registral del
+sexo y el cambio de nombre de pila e imagen** cuando no coincidan con su identidad de género
+autopercibida (art. 3). Los requisitos del art. 4 son **tres y ninguno es médico**: dieciocho años
+—con la excepción del art. 5—, solicitud ante el Registro Nacional de las Personas, y expresar el
+nombre elegido. **No hace falta autorización judicial ni pericia.**
+
+**El art. 5 sigue habilitando a los menores de edad**, por sus representantes legales y **con
+expresa conformidad del menor**, según los principios de **capacidad progresiva e interés superior**
+y con **abogado del niño** del art. 27 de la Ley 26.061. Si un representante se niega o no puede
+prestar el consentimiento, se abre **la vía sumarísima**.
+
+> **La reforma de 2025 tocó el art. 11, no el art. 5.** El art. 11 —intervenciones quirúrgicas y
+> tratamientos hormonales— **fue sustituido por el art. 1 del Decreto 62/2025, B.O. 06/02/2025**,
+> con vigencia desde el día siguiente, y hoy limita esas prestaciones a **mayores de dieciocho
+> años**. La consecuencia práctica: **el trámite registral del art. 5 y el acceso a tratamientos
+> del art. 11 dejaron de ir juntos para un menor de edad**, y un escrito que los trate como un
+> bloque está citando un texto sustituido. Toda doctrina anterior a febrero de 2025 se escribió
+> sobre otro artículo.
+
+**Dos reglas que se usan poco y rinden mucho.** El **art. 12** impone el **trato digno**: a solo
+requerimiento, el nombre de pila adoptado debe usarse *"para la citación, registro, legajo, llamado
+y cualquier otra gestión o servicio, tanto en los ámbitos públicos como privados"* — alcanza a un
+expediente judicial. Y el **art. 13** es una regla de interpretación: ninguna norma o procedimiento
+puede limitar el ejercicio del derecho, *"debiendo interpretarse y aplicarse las normas siempre a
+favor del acceso al mismo"*.
+
+`[VERIFICAR VIGENCIA]` El art. 11 lleva texto según el Decreto 62/2025 y ese decreto fue objeto de
+cuestionamientos judiciales. Antes de afirmar su aplicación a un caso concreto, verificar si está
+suspendido o fue declarado inconstitucional con alcance al caso.
 
 ### 6.2 Responsabilidad civil
 
@@ -89,7 +125,7 @@ general posterior no deroga la especial anterior.
 Con eso, en la práctica: **verificar la póliza es el primer paso, no el último**, porque una
 exclusión acreditada cierra el reclamo contra la aseguradora aunque el daño esté probado.
 
-`[VERIFICAR CRITERIO DEL FUERO: como aplica la sala interviniente la doctrina de "Buffoni" a exclusiones distintas de la del transportado en lugar no habilitado, y a polizas posteriores a la Res. SSN 34.225/09]`
+`[VERIFICAR CRITERIO DEL FUERO: cómo aplica la sala interviniente la doctrina de "Buffoni" a exclusiones distintas de la del transportado en lugar no habilitado, y a pólizas posteriores a la Res. SSN 34.225/09]`
 
 ### 6.3 Prescripción civil
 
@@ -194,12 +230,12 @@ mes y el preaviso mensual pertenecen al texto anterior y rigen solo para contrat
 bajo aquel régimen. Discutido si el 10% es supletorio (lectura dominante, arts. 958, 962 y
 1199) o piso indisponible.
 
-Vigencia del DNU 70/2023: el Senado lo rechazó el 14/03/2024 pero Diputados nunca lo trató;
+Vigencia del DNU 70/2023: el Senado lo rechazó el 14/03/2024, pero Diputados nunca lo trató;
 conforme el art. 24 de la Ley 26.122 se requiere el rechazo de **ambas** cámaras, de modo que
 el capítulo de locaciones sigue vigente. Las cautelares afectaron el Título IV (laboral).
 
 **Art. 24 de la Ley 26.122, cotejado** (`fuentes/normas/ley-26122.txt`): *"El rechazo por ambas Cámaras del Congreso del decreto de que se trate implica su derogación"*, y agrega lo que suele olvidarse — **quedan a salvo los derechos adquiridos durante su vigencia**—. La remisión del propio artículo es al *"artículo 2º del Código Civil"*, hoy derogado: se reconduce al art. 5 CCyCN.
-`[VERIFICAR VIGENCIA: art. 24 de la Ley 26.122 remite al art. 2 del Código Civil de Velez, derogado - usar el art. 5 CCyCN y confirmar que no cambió el trámite de los DNU]`
+`[VERIFICAR VIGENCIA: art. 24 de la Ley 26.122 remite al art. 2 del Código Civil de Vélez, derogado - usar el art. 5 CCyCN y confirmar que no cambió el trámite de los DNU]`
 
 *Límite de la analogía consumeril en locación:* el estatuto protectorio exige que el
 locador sea **proveedor profesional** (art. 1093: actuación organizada, habitual y
@@ -249,7 +285,7 @@ se verifica antes de usarlo.
 | Vicios de la voluntad, lesión e imprevisión (arts. 265-278, 332, 1091) | **6.8** de este módulo. Absorbido: ya no se rutea al perfil | — |
 | Medidas cautelares (arts. 195-233 CPCCBA) y acción preventiva | **6.9** de este módulo. Absorbido: ya no se rutea al perfil | — |
 | Proceso sumarísimo | `kb/perfiles/civil-CLAUDE.md` § Procesos especiales | — |
-| Responsabilidad del Estado en sede civil | `kb/perfiles/civil-CLAUDE.md` § Responsabilidad del Estado | ver también `otras-ramas.md` |
+| Responsabilidad del Estado en sede civil | `kb/perfiles/civil-CLAUDE.md` § Responsabilidad del Estado | ver también `perfiles-heredados.md` |
 
 #### Contradicción nominada
 
@@ -291,7 +327,7 @@ de Fallos atribuidas a la causa equivocada.
 
 `danos-indice-doctrinario.md` **sí tiene** capítulo propio de antijuridicidad (§ 3), relación de
 causalidad (§ 4), eximentes (§ 34) y prescripción (§ 35) — verificado contra el archivo.
-Además desarrolla institutos que esta tabla no rutea y conviene tener presentes: vicios
+Además, desarrolla institutos que esta tabla no rutea y conviene tener presentes: vicios
 redhibitorios (§ 22), bancos de datos e informes crediticios (§ 23-24), responsabilidad
 profesional y **mala praxis médica** (§ 25-27), daños en las relaciones de familia y
 responsabilidad de padres, tutores y establecimientos educativos (§ 29-32), daño ambiental
@@ -705,7 +741,7 @@ por ambas partes**. Faltando uno, no hay nulidad.
 
 **Dolo incidental (art. 273):** no es determinante de la voluntad y **no afecta la validez**
 del acto. Pero eso no lo deja sin consecuencias: el art. 275 obliga a reparar el daño **tanto
-en el esencial como en el incidental**. Es la salida cuando el dolo existió pero el acto no se
+en el esencial como en el incidental**. Es la salida cuando el dolo existió, pero el acto no se
 cae.
 
 **Quién (arts. 274 y 275).** El autor puede ser **una de las partes o un tercero**. Responde
@@ -961,3 +997,17 @@ responsable sería un tercero— y a **no agravar** el daño ya producido.
 Pedirla como cautelar la expone a la caducidad del art. 207 CPCCBA y a la contracautela del
 art. 199, que no le corresponden. Encuadrarla como pretensión de fondo, con medida cautelar
 accesoria si hace falta, es lo que el articulado sostiene.
+
+---
+
+### 6.10 Lo que este módulo NO hace
+
+- **No cubre la relación de consumo.** Cuando hay proveedor y consumidor cambia el régimen
+  entero —plazos, gratuidad, daño punitivo—: `consumidor.md`, y en la Ciudad `consumo-caba.md`.
+- **No analiza ni redacta un contrato aportado.** Eso es `contratos.md`, con sus red-flags.
+- **Las cautelares de 6.9 son del CPCCBA.** Para la justicia nacional y federal,
+  `proceso-nacional.md` 44.6; la numeración se parece y el contenido no siempre.
+- **No trae las materias civiles con módulo propio**: sucesiones, derechos reales, locación,
+  seguros, salud mental, títulos ejecutivos y el elemento extranjero de `dipr.md`.
+- **La doctrina de daños no está acá.** `danos-indice-doctrinario.md` ubica dónde la obra
+  desarrolla cada instituto, con sus reservas.

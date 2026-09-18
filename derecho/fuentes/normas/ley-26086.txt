@@ -1,14 +1,14 @@
-Ley 26.086 - Concursos y quiebras: fuero de atraccion y verificacion
+Ley 26.086 - Concursos y quiebras: fuero de atracción y verificación
 ==============================================================================
-Jurisdiccion:     nacional
+Jurisdicción:     nacional
 Fuente:           https://servicios.infoleg.gob.ar/infolegInternet/anexos/115000-119999/115424/norma.htm
-Descargado:       2026-09-14
+Descargado:       2026-09-17
 SHA-256 (crudo):  410e7394ced9b70fd2a5002cb380133f7255cb27f7eacfa523ef1a28e61337db
 Charset:          windows-1252
 
-Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
-NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
-Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
 el manifiesto `normas.json`.
 ==============================================================================
 

@@ -1,0 +1,16 @@
+# Valor de la UMA - Unidad de Medida Arancelaria, art. 19 de la Ley 27.423.
+# Equivale al 3% de la remuneración básica del cargo de juez federal de primera instancia.
+# Rige en la justicia NACIONAL y FEDERAL. No es el jus de PBA: ese está en jus-scba.csv y
+#   sale de otra ley. Aplicar uno donde rige el otro da un número con cara de correcto.
+# La fija la Secretaría General de Administración de la CSJN por resolución, y desde octubre
+#   de 2023 se publica junto con cada modificación salarial, no en una fecha fija del mes.
+# Consulta oficial: https://www.csjn.gov.ar/transparencia/uma
+# NO HAY DESCARGADOR, y no lo va a haber: esa página es un FORMULARIO de búsqueda, no una
+#   tabla. Es la pared que docs/PENDIENTES.md anota en el punto 7 - los registros judiciales
+#   se abren, no se buscan. Los valores se cargan a mano, leídos de la consulta oficial.
+# verificado:
+# La línea de arriba la lee `estado.py` y su forma es contrato: `# verificado: AAAA-MM-DD`,
+#   la fecha en que alguien ABRIÓ la consulta oficial. Vacía significa que nadie la abrió
+#   todavía, y estado.py lo reporta como SIN CARGAR: no hay verde por ausencia de dato.
+#   Lo que vence no es el valor, es la mirada.
+vigencia_desde,uma,resolucion,fuente

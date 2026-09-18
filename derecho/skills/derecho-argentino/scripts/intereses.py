@@ -6,11 +6,11 @@ leen de `derecho/fuentes/datos/serie-<nombre>.csv` y las tasas se pasan como ent
 serie no está cargada, el script no estima: emite el marcador y corta.
 
 Dos modos, que corresponden a dos regímenes distintos. Elegir el modo NO es una decisión
-técnica: depende de que norma o doctrina rige el crédito. Ver `references/laboral.md` 5.5
+técnica: depende de qué norma o doctrina rige el crédito. Ver `references/laboral.md` 5.5
 (fuero nacional) y 5.5 bis (PBA), y `references/sede-judicial-pba.md` 1.6.8.
 
     # Actualización por índice + interés puro (esquema tipo "Barrios", o art. 276 LCT)
-    python3 intereses.py --modo índice --capital 22768351.81 \
+    python3 intereses.py --modo indice --capital 22768351.81 \
         --desde 2024-05-10 --hasta 2026-08-31 --serie ipc --interes-puro 6
 
     # Tasa nominal anual sobre capital nominal
@@ -24,7 +24,6 @@ import argparse
 import csv
 from datetime import date
 from decimal import Decimal, ROUND_HALF_UP
-from pathlib import Path
 
 from _raiz import datos
 
@@ -62,7 +61,7 @@ def main():
                    help="Interés puro anual. 'Barrios' fija un TECHO del 6%%, no una tasa fija")
     p.add_argument("--tna", type=Decimal, default=None, help="Tasa nominal anual, modo tasa")
     p.add_argument("--repo", default=None,
-                   help="Raiz del repo. Si se omite se resuelve sola (ver configurar.py)")
+                   help="Raíz del repo. Si se omite se resuelve sola (ver configurar.py)")
     a = p.parse_args()
 
     if a.hasta < a.desde:
@@ -72,7 +71,7 @@ def main():
 
     print("ACTUALIZACIÓN E INTERESES\n")
     print(f"  Capital           {float(q(a.capital)):>18,.2f}")
-    print(f"  Periodo           {a.desde.isoformat()} a {a.hasta.isoformat()}  ({dias} dias)")
+    print(f"  Período           {a.desde.isoformat()} a {a.hasta.isoformat()}  ({dias} días)")
 
     if a.modo == "indice":
         serie, ruta = cargar_serie(a.serie, a.repo)
@@ -95,12 +94,12 @@ def main():
         actualizado = a.capital * coef
         puro = actualizado * a.interes_puro / 100 * Decimal(dias) / Decimal(365)
         print(f"  Serie             {a.serie.upper()}  ({ruta})")
-        print(f"  Indice {p0}    {float(serie[p0]):>18,.4f}")
-        print(f"  Indice {p1}    {float(serie[p1]):>18,.4f}")
+        print(f"  Índice {p0}    {float(serie[p0]):>18,.4f}")
+        print(f"  Índice {p1}    {float(serie[p1]):>18,.4f}")
         print(f"  Coeficiente       {float(coef):>18,.6f}")
         print()
         print(f"  Capital actualizado          {float(q(actualizado)):>18,.2f}")
-        print(f"  Interes puro {float(a.interes_puro)}% anual      "
+        print(f"  Interés puro {float(a.interes_puro)}% anual      "
               f"{float(q(puro)):>18,.2f}")
         print(f"  TOTAL                        {float(q(actualizado + puro)):>18,.2f}")
         marcadores.append(
@@ -115,9 +114,9 @@ def main():
             raise SystemExit("--tna es obligatorio en modo tasa")
         interes = a.capital * a.tna / 100 * Decimal(dias) / Decimal(365)
         print(f"  TNA               {float(a.tna):>18,.2f} %")
-        print(f"  Base de calculo   dias/365, sobre capital nominal, sin capitalizacion")
+        print("  Base de cálculo   días/365, sobre capital nominal, sin capitalización")
         print()
-        print(f"  Interes                      {float(q(interes)):>18,.2f}")
+        print(f"  Interés                      {float(q(interes)):>18,.2f}")
         print(f"  TOTAL                        {float(q(a.capital + interes)):>18,.2f}")
         marcadores.append(
             "[VERIFICAR TASA VIGENTE: fuero - instrumento que fija la tasa y su valor para "
@@ -131,7 +130,7 @@ def main():
     print("\n  MARCADORES")
     for m in marcadores:
         print(f"    {m}")
-    print("\n  Este script calcula un tramo unico. Si el crédito tiene tramos con criterios "
+    print("\n  Este script calcula un tramo único. Si el crédito tiene tramos con criterios "
           "distintos\n  (por ejemplo, hasta la cuantificación y desde ahí al pago), correrlo "
           "una vez por tramo.")
 

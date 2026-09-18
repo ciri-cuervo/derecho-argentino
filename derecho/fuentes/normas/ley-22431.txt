@@ -1,14 +1,14 @@
-Ley 22.431 - Sistema de proteccion integral de los discapacitados (texto actualizado)
+Ley 22.431 - Sistema de protección integral de los discapacitados (texto actualizado)
 ==============================================================================
-Jurisdiccion:     nacional
+Jurisdicción:     nacional
 Fuente:           https://servicios.infoleg.gob.ar/infolegInternet/anexos/20000-24999/20620/texact.htm
-Descargado:       2026-09-14
+Descargado:       2026-09-17
 SHA-256 (crudo):  b1b7b95f434e8cc8bb4a206ade6466195188f07ee3de4b6e3bb8b41d2a2854bf
 Charset:          windows-1252
 
-Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
-NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
-Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
 el manifiesto `normas.json`.
 ==============================================================================
 

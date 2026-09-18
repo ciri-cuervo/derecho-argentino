@@ -1,14 +1,14 @@
-Res. SRT 39/2026 - Montos de prestaciones de la LRT, periodo 1/9/2026 a 28/2/2027
+Res. SRT 39/2026 - Montos de prestaciones de la LRT, período 1/9/2026 a 28/2/2027
 ==============================================================================
-Jurisdiccion:     nacional
+Jurisdicción:     nacional
 Fuente:           https://www.boletinoficial.gob.ar/detalleAviso/primera/346792/20260902
-Descargado:       2026-09-14
-SHA-256 (crudo):  79f182d99bbc03eb5f291b472a35afc0cd8c4638123ef06ba289bf9e688d6452
+Descargado:       2026-09-17
+SHA-256 (crudo):  fa8c1694fc16bbd25b5895ac227b32edd0c162f6e3f391be4a2dfe64a7c5cb09
 Charset:          UTF-8
 
-Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
-NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
-Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
 el manifiesto `normas.json`.
 ==============================================================================
 

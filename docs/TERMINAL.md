@@ -9,7 +9,7 @@ biblioteca estándar. Para saber si ya lo tenés: `python3 --version` —en Wind
 `python --version`—. Si responde un número, está.
 
 > [!IMPORTANT]
-> **La descarga son unos 70 MB** y son casi todo normas y fallos, para que la skill pueda
+> **La descarga son unos 83 MB** y son casi todo normas y fallos, para que la skill pueda
 > trabajar sin conexión. Tarda un rato la primera vez y no hay que volver a hacerlo.
 
 ## En Claude Code
@@ -20,7 +20,7 @@ sesión: se abre el navegador y listo.
 
 **2 · Instalá la skill.** Ya dentro de Claude Code, estas dos líneas, una después de la otra:
 
-```
+```sh
 /plugin marketplace add ciri-cuervo/derecho-argentino
 /plugin install derecho@derecho-argentino
 ```
@@ -57,12 +57,9 @@ recordar. Por marketplace esto no pasa, porque la instalación se lleva los dato
 
 ## Comprobar que quedó bien
 
-En Claude Code, dentro de la sesión: `/derecho:estado`. Informa si encontró el repositorio y por
-qué camino, qué datos tiene cargados, cuántos días pasaron desde la última verificación contra
-fuente primaria y si los tests pasan.
-
-Si instalaste a mano en Codex, pedíselo en castellano: *"corré el estado de la skill de derecho
-argentino"*.
+En Claude Code, dentro de la sesión: `/derecho:estado`. Si instalaste a mano en Codex,
+pedíselo en castellano: *"corré el estado de la skill de derecho argentino"*. Qué informa está
+en el [README](../README.md), «Comprobar que quedó bien».
 
 ---
 

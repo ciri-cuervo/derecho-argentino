@@ -1,14 +1,14 @@
-Ley 24.455 - Obras sociales: prestaciones obligatorias (VIH/sida, drogadependencia, prevencion)
+Ley 24.455 - Obras sociales: prestaciones obligatorias (VIH/sida, drogadependencia, prevención)
 ==============================================================================
-Jurisdiccion:     nacional
+Jurisdicción:     nacional
 Fuente:           https://servicios.infoleg.gob.ar/infolegInternet/anexos/10000-14999/14919/norma.htm
-Descargado:       2026-09-14
+Descargado:       2026-09-17
 SHA-256 (crudo):  6a1b4a01a71c6fe3a0fc28d5f7762b312cdd7550b2414db154bfdedf1e741027
 Charset:          windows-1252
 
-Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
-NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
-Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
 el manifiesto `normas.json`.
 ==============================================================================
 

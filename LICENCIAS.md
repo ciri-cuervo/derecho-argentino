@@ -19,7 +19,7 @@ mapa; cada licencia vive en su propio archivo y ninguna se modifica desde acá.
 
     Anthropic, Inc.  ·  claude-for-legal              Apache 2.0
         └─ Probanza-ar  ·  Cristian Aboitiz           licencia dual
-             └─ ciri-cuervo  ·  este repositorio      CC BY-SA 4.0 el contenido, MIT el codigo
+             └─ ciri-cuervo  ·  este repositorio      CC BY-SA 4.0 el contenido, MIT el código
 
 Cada eslabón agrega contenido propio sin poder relicenciar el anterior.
 
@@ -211,13 +211,12 @@ ejecuta, con licencia de código.
 Atribución y **CompartirIgual**: se usa y se adapta libremente, **incluido el uso comercial**, y lo
 que se distribuya adaptado lleva la misma licencia.
 
-- `derecho/skills/derecho-argentino/SKILL.md` y los **31 módulos** de `references/`
+- `derecho/skills/derecho-argentino/SKILL.md` y los **61 módulos** de `references/`
 - `derecho/commands/` — los **8 comandos slash**, que son instrucciones y no programas
-- `derecho/evals/` — los **18 casos** de verificación con su rúbrica y su resultado esperado
+- `derecho/evals/` — los **49 casos** de verificación con su rúbrica y su resultado esperado
 - `derecho/fuentes/MANIFIESTO.md` y `derecho/fuentes/jurisprudencia/INDICE.md`
-- `README.md`, `CLAUDE.md`, los **5 documentos** de `docs/`, `CHANGELOG.md`,
-  `assets/marca/README.md` y este
-  archivo
+- `README.md`, `AGENTS.md`, `CLAUDE.md`, `.claude/rules/`, los **6 documentos** de `docs/`,
+  `CHANGELOG.md`, `assets/marca/README.md` y este archivo
 - `assets/marca/` — el sello, el ícono, las chapitas y el separador, con sus fuentes SVG
 - `assets/logos/` **queda afuera**: son marcas de terceros; ver sección 4
 - `derecho/skills/derecho-argentino/references/danos-indice-doctrinario.md` — índice destilado de
@@ -240,9 +239,9 @@ lo lleven a otro proyecto sin arrastrar nada.
 
 - `derecho/skills/derecho-argentino/scripts/` — los scripts de la skill con su suite de tests
 - `derecho/fuentes/scripts/` — los descargadores y verificadores de la capa de fuente primaria
-- `herramientas/` — las **9 herramientas** de control: frontera de licencia, calidad de OCR,
-  auditoría de fechas, cobertura normativa, cifras de la documentación, reformas sin leer y sus
-  tests
+- `herramientas/` — las **15 herramientas** de control: frontera de licencia, calidad de OCR,
+  auditoría de fechas, cobertura normativa, cifras de la documentación, reformas sin leer,
+  verificación de marcadores de una respuesta, mapa de ruteo, ortografía, y sus tests
 - Los `.json` de manifiesto, procedencia y veredicto: `normas.json`, `fallos.json`, los
   `procedencia.json`, `inhabiles.json`, `herramientas/lecturas-ocr.json`,
   `herramientas/fuga-revisada.json`, `herramientas/cifras.json` y los `-revisad*.json`
@@ -283,7 +282,7 @@ retirarlos, se retiran y los encabezados siguen diciendo lo mismo en texto.
 
 **Obras comerciales — no están en el repositorio.** `derecho/skills/derecho-argentino/references/danos-indice-doctrinario.md` es un
 índice destilado del *Manual de Derecho de Daños* (2ª ed., Weingarten -dir.-, La Ley, 2015):
-entradas por instituto con síntesis y remisión a capítulo y página. **La obra tiene derechos
+38 entradas por instituto con síntesis y remisión a capítulo y página. **La obra tiene derechos
 reservados: su PDF no está acá y no debe incorporarse.** En un escrito se cita la obra, nunca
 el archivo. `derecho/fuentes/_local/` está en `.gitignore` justamente para que los
 ejemplares locales de obras comerciales no se suban nunca.

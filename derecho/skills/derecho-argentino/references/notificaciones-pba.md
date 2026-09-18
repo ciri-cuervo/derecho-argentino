@@ -1,8 +1,8 @@
 # Notificaciones y expediente digital en PBA
 
-> Módulo de referencia de la skill `derecho-argentino`. La numeración de secciones es global y
-> se mantiene igual que en el SKILL.md original: las remisiones cruzadas entre módulos siguen siendo
-> válidas. Las reglas de integridad de la sección 2 rigen acá también.
+> Módulo de referencia de la skill `derecho-argentino`. Numeración global: las remisiones cruzadas
+> entre módulos siguen siendo válidas. **Rigen las reglas de integridad de la sección 2 del
+> SKILL.md.**
 
 ---
 
@@ -30,12 +30,12 @@ al *"Acuerdo N° 3989/2020 **y modificatorios**"*, y ésos son la cadena que hay
 
 | Norma | Fecha | Qué hizo |
 | --- | --- | --- |
-| **Ac. 3989** | BO 28925, **31/12/2020** | Crea el Registro de Domicilios Electrónicos del Poder Judicial (RDE), 13 artículos |
+| **Ac. 3989/2020** | BO 28925, **31/12/2020** | Crea el Registro de Domicilios Electrónicos del Poder Judicial (RDE), 13 artículos |
 | **t.o. Res. Pres. SPL N° 74/20** | 2020 | Texto ordenado del 3989 |
 | **Ley 15.230** | BO 22/12/2020 | Lo **ratifica** —y se autoexcluye del expediente judicial, ver abajo— |
-| **Ac. 4000** | **23/12/2020** | Modifica el 3989 |
+| **Ac. 4000/2020** | **23/12/2020** | Modifica el 3989 |
 | **Res. 1472/20** | 2020 | Reglamento del RDE |
-| **Ac. 4113** | **02/08/2023** | Última modificatoria: ajusta el 3989 **y** el reglamento de la Res. 1472/20 |
+| **Ac. 4113/2023** | **02/08/2023** | Última modificatoria: ajusta el 3989 **y** el reglamento de la Res. 1472/20 |
 
 La cadena sale del propio **VISTO del Ac. 4113**, que la enumera: *"El Acuerdo N° 3989 (t.o. Res.
 Pres. SPL N° 74/20 y ratificado por Ley N° 15.230) por el que se creó el Registro de Domicilios
@@ -228,11 +228,53 @@ sobre el exceso ritual es transpolable; su encuadre reglamentario, no.
 > secundarias publican la primera firma, y así se propaga el error: al citar un fallo bonaerense
 > firmado digitalmente, tomar **la última** constancia, no la primera. La ficha de JUBA consigna
 > la fecha correcta.
+>
+> **Cotejado contra `fuentes/normas/scba-acuerdo-3971-2020.txt`, y con tres precisiones que cambian el
+> cómputo.** Primero, **la cita correcta lleva la modificatoria**: los arts. 3, 4, 4 bis y 5 son
+> *"texto según AC 3976"*, así que se cita **art. 4 del Ac. 3971/20, texto según Ac. 3976**.
+>
+> Segundo, **la fecha de un acto jurisdiccional de la SCBA cae siempre en día hábil**: el
+> secretario o subsecretario *"deberá rubricarlos en día hábil, sea en hora hábil o inhábil"*. En
+> cambio los **actos de superintendencia** —acordadas y resoluciones— pueden rubricarse *"incluso
+> en día y hora inhábiles"*, y por eso una acordada sí puede llevar fecha de sábado.
+>
+> Tercero, **la feria está exceptuada** (art. 4 bis): en ese período, para dictar actos
+> jurisdiccionales **deben habilitarse días y horas**. Un fallo con fecha de feria supone una
+> habilitación, y eso se mira antes de contar desde ahí.
 
-`[VERIFICAR VIGENCIA]` No se localizó doctrina legal de la SCBA que interprete directamente el
-art. 13 del Ac. 4013 t.o. 4039. Antes de afirmar que existe, buscar en JUBA. Si la consulta
-requiere ese respaldo:
-`[INSERTAR FALLO VERIFICADO: SCBA - interpretación del art. 13 del Ac. 4013 t.o. 4039 sobre perfeccionamiento de la notificación electrónica]`.
+**Cámara II de Apelación en lo Civil y Comercial de La Plata, Sala I, causa 141.806, "Bareiro
+Baez y otros c/ Servicios JM S.R.L. y otro/a", 30/12/2025 (RS-730).** Voto de Sosa Aubone y López
+Muro. **Es el precedente que aplica el art. 13 vigente**, y deja tres cosas.
+
+**Uno: transcribe la regla y la usa para contar.** El art. 13 tiene **dos regímenes**, y la
+diferencia entre uno y otro fue todo el pleito. El ordinario: la notificación **"se tendrá por
+cumplida el día martes o viernes inmediato posterior -o el siguiente día hábil si alguno de ellos
+no lo fuere- a aquel en que la resolución judicial hubiere quedado disponible"**. El de urgencia:
+**"la notificación se producirá en el momento en que la resolución se encuentre disponible"**. Con
+un proveído del miércoles 29/10, el ordinario notificaba el **viernes 31/10** y el de urgencia el
+**mismo 29/10**: seis días de diferencia en el vencimiento.
+
+**Dos: la urgencia hay que justificarla en la providencia, y acá no se hizo.** La Cámara lo dice
+—**"Si bien no surge tal justificación en el auto apelado"**— pero **no anula por eso**: en los
+trámites anteriores de la misma causa se había notificado igual sin que nadie lo objetara, así
+que la forma quedó **consentida y precluida**. La consecuencia práctica es de oportunidad: el
+carácter urgente de un proveído se discute **cuando se dicta**, no cuando vence el plazo.
+
+**Tres: revoca por otra cosa.** Tiene por contestado el traslado en término, y no porque el
+cómputo del art. 13 diera bien, sino porque lo que se presentaba era la **impugnación de una
+pericia mecánica**, *"un medio probatorio de singular relevancia"*, y pesan la **amplitud
+probatoria**, el **deber de procurar la verdad material** y la **tutela judicial efectiva** (arts.
+34 inc. 4 y 150 CPCC; 75 inc. 22 CN; 15 Const. PBA). El propio fallo registra que el juzgado ya
+había tenido por tempestiva otra presentación que, con el mismo cómputo, también estaba vencida.
+
+*Cómo se usa.* Sirve para sostener el cómputo del art. 13 y para discutir un proveído marcado como
+urgente sin fundar. **No sirve** para prometer que un vencimiento se salva: lo que se salvó acá
+fue una impugnación de pericia, con el argumento probatorio y no con el reglamentario.
+
+`[VERIFICAR VIGENCIA]` Es un fallo de cámara: **no hay doctrina legal de la SCBA** que interprete
+directamente el art. 13 del Ac. 4013 t.o. 4039, y en JUBA no está. Antes de afirmar que existe,
+volver a buscar. Si la consulta requiere ese respaldo:
+`[INSERTAR FALLO VERIFICADO: SCBA - interpretación del art. 13 del Ac. 4013 t.o. 4039 sobre perfeccionamiento de la notificación electrónica - lo cargado es de cámara]`.
 
 ### 22.8 Cómo se conecta con el cómputo de plazos
 

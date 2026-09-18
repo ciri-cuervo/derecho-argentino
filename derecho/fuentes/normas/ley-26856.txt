@@ -1,14 +1,14 @@
 Ley 26.856 - Publicidad de actos del Poder Judicial
 ==============================================================================
-Jurisdiccion:     nacional
+Jurisdicción:     nacional
 Fuente:           https://servicios.infoleg.gob.ar/infolegInternet/anexos/215000-219999/215004/norma.htm
-Descargado:       2026-09-14
+Descargado:       2026-09-17
 SHA-256 (crudo):  461ba39177ee671400fede429fea3b892b24239fbc9d6cfc2ce98cfbb4f5812c
 Charset:          ISO-8859-1
 
-Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
-NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
-Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
 el manifiesto `normas.json`.
 ==============================================================================
 

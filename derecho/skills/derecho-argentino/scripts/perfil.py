@@ -5,20 +5,20 @@
     python3 perfil.py --set modo=sede-judicial --set jurisdicciones=pba,nacional
     python3 perfil.py --set rol=empleado-tribunal --set rol-fijo=si
     python3 perfil.py --borrar
-    python3 perfil.py --json                  # para consumo programatico
+    python3 perfil.py --json                  # para consumo programático
 
-QUE ES Y QUE NO ES
+QUÉ ES Y QUÉ NO ES
 ------------------
 El perfil **no elige por el usuario**. La sección 0.1 de la skill prohíbe asumir el rol y el
 fuero, y esta herramienta no la deroga: lo que hace el perfil es **ordenar la pregunta** --
-poner primero las opciones probables-- y **fijar el modo de trabajo**, que si cambia
-legitimamente la profundidad y el andamiaje de la respuesta.
+poner primero las opciones probables-- y **fijar el modo de trabajo**, que sí cambia
+legítimamente la profundidad y el andamiaje de la respuesta.
 
 La única excepción es `rol-fijo`, que el usuario tiene que pedir expresamente ("no me
 preguntes más el rol"). Aun así la skill enuncia el rol asumido en la primera línea, para que
 corregirlo cueste una palabra.
 
-QUE NO SE GUARDA, NUNCA
+QUÉ NO SE GUARDA, NUNCA
 -----------------------
 - El CCT. No es dato de cartera: surge de lo que las partes invocan y prueban en cada causa.
 - Datos de expedientes, partes, montos o cualquier cosa de un caso concreto.
@@ -29,9 +29,22 @@ from __future__ import annotations
 
 import argparse
 import json
-from datetime import date
+from datetime import datetime, timedelta, timezone
 
 from _raiz import archivo_config, leer_config
+
+# La misma zona que `derecho/fuentes/scripts/_comun.py` y `herramientas/_veredictos.py`, y por
+# los mismos dos motivos: una fecha de este repositorio se lee como "el día en que lo hicimos", y
+# el offset va FIJO porque el workflow de CI corre en UTC y `astimezone()` haría fechar distinto
+# según dónde se corra. Vive acá y no en `_raiz.py` porque ese archivo resuelve rutas y nada más,
+# y porque `estado.py` ya importa este módulo. Que las tres no se separen lo sostiene
+# `TestUnaSolaZonaHoraria`.
+ARGENTINA = timezone(timedelta(hours=-3))
+
+
+def hoy():
+    """La fecha de hoy en hora argentina."""
+    return datetime.now(ARGENTINA).date()
 
 VERSION_PERFIL = 1
 
@@ -45,7 +58,7 @@ ROLES = {
     "juez": "Juez o jueza",
     "empleado-tribunal": "Empleado o funcionario de un tribunal",
     "abogado-parte": "Abogado o abogada de parte",
-    "ministerio-publico": "Ministerio Publico fiscal o de la defensa",
+    "ministerio-publico": "Ministerio Público fiscal o de la defensa",
     "asesor-perito": "Asesor, perito o cuerpo técnico",
     "estudiante": "Estudiante o docente",
     "otro": "Otro",
@@ -92,7 +105,7 @@ def guardar(perfil: dict):
     f.parent.mkdir(parents=True, exist_ok=True)
     cfg = leer_config()
     perfil["version"] = VERSION_PERFIL
-    perfil["actualizado"] = date.today().isoformat()
+    perfil["actualizado"] = hoy().isoformat()
     cfg["perfil"] = perfil
     f.write_text(json.dumps(cfg, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return f
@@ -124,7 +137,7 @@ def aplicar(perfil: dict, asignaciones):
             malos = [x for x in vals if x not in LISTAS[k]]
             if malos:
                 errores.append(f"{k}: {', '.join(malos)} no son opciones. "
-                               f"Validas: {', '.join(LISTAS[k])}.")
+                               f"Válidas: {', '.join(LISTAS[k])}.")
             else:
                 perfil[_clave(k)] = vals
         elif k in LIBRES:
@@ -183,7 +196,7 @@ def main():
 
     if a.borrar:
         guardar(dict(VACIO))
-        print(f"  Perfil borrado. La configuracion del repo no se toca.")
+        print("  Perfil borrado. La configuración del repo no se toca.")
         return
 
     perfil = leer()

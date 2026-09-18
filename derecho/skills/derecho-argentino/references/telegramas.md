@@ -1,6 +1,8 @@
 # Telegramas y comunicaciones del contrato de trabajo · reglas verificadas
 
-> Módulo de referencia de la skill `derecho-argentino`. Numeración global, sección 25.
+> Módulo de referencia de la skill `derecho-argentino`. Numeración global: las remisiones cruzadas
+> entre módulos siguen siendo válidas. **Rigen las reglas de integridad de la sección 2 del
+> SKILL.md.**
 
 ---
 
@@ -82,7 +84,7 @@ identidad**. La alternativa ante la autoridad administrativa quedó remitida a l
 Antes de discutir la validez de una renuncia, verificar por cuál de las dos vías se hizo y si se
 cumplió la validación.
 
-`[VERIFICAR VIGENCIA: reglamentación de la renuncia ante la autoridad administrativa del art. 240 LCT texto Ley 27.802 - el Decreto 407/2026 regula renuncia y acuerdos extintivos, cotejar su alcance antes de afirmar la via]`
+`[VERIFICAR VIGENCIA: reglamentación de la renuncia ante la autoridad administrativa del art. 240 LCT texto Ley 27.802 - el Decreto 407/2026 regula renuncia y acuerdos extintivos, cotejar su alcance antes de afirmar la vía]`
 
 **El certificado médico se firma digitalmente (art. 210, texto Ley 27.802).** Debe contener
 diagnóstico, tratamiento y cantidad de días de reposo, y ser emitido por profesional habilitado

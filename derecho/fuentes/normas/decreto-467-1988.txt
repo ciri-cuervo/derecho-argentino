@@ -1,14 +1,14 @@
-Decreto 467/1988 - Reglamentacion de la Ley 23.551 (texto actualizado)
+Decreto 467/1988 - Reglamentación de la Ley 23.551 (texto actualizado)
 ==============================================================================
-Jurisdiccion:     nacional
+Jurisdicción:     nacional
 Fuente:           https://www.argentina.gob.ar/normativa/nacional/decreto-467-1988-46044/actualizacion
-Descargado:       2026-09-14
-SHA-256 (crudo):  0eeeec4a7df7d539dd1a2638468dac763d9760745221e6378d2ee35ecec09e1c
+Descargado:       2026-09-17
+SHA-256 (crudo):  53067a64c868f9b579b52d040a59ab7e3e74767ba31c34a8e03faaa16bf9c550
 Charset:          utf-8
 
-Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
-NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
-Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
 el manifiesto `normas.json`.
 ==============================================================================
 

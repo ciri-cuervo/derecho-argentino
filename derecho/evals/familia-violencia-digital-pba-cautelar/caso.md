@@ -1,9 +1,9 @@
 ---
-titulo: Violencia digital en PBA - por que via se pide la supresión de contenidos
+titulo: Violencia digital en PBA - por qué vía se pide la supresión de contenidos
 area: familia
 perfil: derecho-argentino / references/familia.md
 fuero: Juzgado de Familia de la Provincia de Buenos Aires
-problema: "riesgo de aplicar el art. 26 de la Ley 26.485 en PBA como si fuera de orden publico, cuando el art. 1 exceptúa las disposiciones procesales del Capítulo II del Título III y el art. 26 esta ahí; riesgo de invocar la Ley 14.407 como adhesión permanente cuando declara una emergencia de dos años desde 2012; riesgo de no encontrar la via provincial, que es el inc. n del art. 7 de la Ley 12.569; riesgo de omitir el plazo de 48 horas del mismo artículo"
+problema: "riesgo de aplicar el art. 26 de la Ley 26.485 en PBA como si fuera de orden público, cuando el art. 1 exceptúa las disposiciones procesales del Capítulo II del Título III y el art. 26 está ahí; riesgo de invocar la Ley 14.407 como adhesión permanente cuando declara una emergencia de dos años desde 2012; riesgo de no encontrar la vía provincial, que es el inc. n del art. 7 de la Ley 12.569; riesgo de omitir el plazo de 48 horas del mismo artículo"
 ---
 
 # Caso · Pedido de medidas urgentes con difusión de material íntimo

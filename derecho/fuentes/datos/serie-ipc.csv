@@ -1,9 +1,9 @@
-# IPC INDEC - Nivel General Nacional, indice, base diciembre 2016 = 100
+# IPC INDEC - Nivel General Nacional, índice, base diciembre 2016 = 100
 # Organismo: INDEC - frecuencia: mensual
 # serie_id: 145.3_INGNACNAL_DICI_M_15
 # Fuente: https://apis.datos.gob.ar/series/api/series/?ids=145.3_INGNACNAL_DICI_M_15&format=csv&start_date=2016-12
-# Descargado: 2026-09-13  (117 periodos, 2016-12 a 2026-08)
-# NO confundir con 145.3_INGNACUAL_DICI_M_38, que es la variacion mensual y no el indice.
+# Descargado: 2026-09-17  (117 períodos, 2016-12 a 2026-08)
+# NO confundir con 145.3_INGNACUAL_DICI_M_38, que es la variación mensual y no el índice.
 periodo,indice
 2016-12,100.0
 2017-01,101.5859

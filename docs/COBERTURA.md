@@ -44,8 +44,8 @@ equivocado; hay que usar la unión y anotar cuál la reclama.
 **Y el Tesauro tiene dos defectos que conviene saber antes de apoyarse en él.** Es de **enero de
 2011**, o sea **anterior al CCyC**. Y se contradice a sí mismo sobre cuántas facetas tiene: el
 cuerpo dice un número, después otro, y la enumeración da un tercero — la discrepancia está en la
-fuente. Además `saij.gob.ar` responde 403 a los agentes, así que el PDF se leyó de un espejo de la
-Legislatura de La Rioja: es el documento oficial del Ministerio, servido por un tercero.
+fuente. El PDF se leyó de un espejo de la Legislatura de La Rioja: es el documento oficial del
+Ministerio, servido por un tercero, y la URL de la tabla es ésa y no una de `saij.gob.ar`.
 
 **No existe una nómina pública de "abogado especialista".** Se buscó en CPACF, COLPROBA, CASI,
 CALP y CASM: la guía de matriculados del CPACF sólo busca por apellido, nombre, tomo y folio, sin
@@ -55,16 +55,22 @@ lo más cercano que los colegios publican como taxonomía por materia.
 ## El cruce judicial, que es el test chico y honesto
 
 **Fueros de la Provincia de Buenos Aires.** Con módulo: civil y comercial (`civil.md`),
-contencioso administrativo (`contencioso-pba.md`), familia (`familia.md`), laboral (`laboral.md`)
-y penal (`penal.md`). **Sin módulo: responsabilidad penal juvenil** —hay
-`pba-ley-13634` bajada y `penal.md` toca la Ley 22.278, pero el fuero no tiene desarrollo propio— y
-**justicia de paz**, que no aparece en ningún módulo.
+contencioso administrativo (`contencioso-pba.md`), familia (`familia.md`), laboral
+(`laboral.md` para el individual y `laboral-colectivo.md` para convenios, sindicatos y
+conflicto),
+penal (`penal.md` para el proceso y la parte general, `penal-leyes-especiales.md` para los ocho
+cuerpos que están fuera del Código y `ejecucion-penal.md` para lo que sigue a la condena firme) y
+responsabilidad penal juvenil (`penal-juvenil-pba.md`, el Título III de la Ley 13.634; el régimen
+de fondo de la **Ley 27.801** está en `penal-leyes-especiales.md`). **Sin módulo: justicia
+de paz**, que no aparece en ninguno.
 
 **Fueros nacionales y federales.** Con módulo: civil, criminal y correccional, trabajo, y seguridad
 social por vía de `previsional.md`; comercial queda cubierto en parte entre `societario.md` y
 `concursos.md`. **Sin módulo: contencioso administrativo federal** —`contencioso-pba.md` es
-provincial y no se traslada—, **electoral**, **penal económico**, **civil y comercial federal** y
-**casación penal**.
+provincial y no se traslada—, **penal económico**, **civil y comercial federal** y **casación
+penal**. Del **electoral** está cubierta su materia penal y contravencional —delitos y faltas,
+deber de votar, doble instancia del art. 146— en `penal-leyes-especiales.md` 24.9.7; **lo que no
+tiene módulo es el contencioso electoral**: oficialización de listas, impugnaciones y escrutinio.
 
 ## Materias con módulo que no son un fuero
 
@@ -77,11 +83,35 @@ tiene desarrollo propio que ninguna taxonomía judicial muestra:
 | Salud y discapacidad | `salud-discapacidad.md` | Civil o federal, por amparo |
 | Tránsito | `transito.md` | Faltas, y el encuadre civil del accidente |
 | Tributario | `tributario.md` | Contencioso administrativo y penal económico |
+| Tributario de la Provincia de Buenos Aires | `tributario-pba.md` | Tribunal Fiscal de Apelación de PBA, y contencioso administrativo bonaerense con pago previo |
 | Consumidor | `consumidor.md` | Civil y comercial, y sede administrativa |
 | Concursos | `concursos.md` | Comercial, con el cruce laboral |
 | Societario | `societario.md` | Comercial |
-| Previsional | `previsional.md` | Seguridad social en Nación; en PBA va por el laboral |
+| Previsional | `previsional.md` | Seguridad social en Nación |
+| Previsional de la Provincia de Buenos Aires (IPS) | `previsional-pba.md` | Contencioso administrativo bonaerense: el art. 5 inc. b de la Ley 12.008 le da regla de competencia propia |
+| Proceso de consumo de la Ciudad | `consumo-caba.md` | Justicia en las Relaciones de Consumo de CABA |
+| Contravencional y faltas de la Ciudad | `contravencional-caba.md` | Fuero Penal, Contravencional y de Faltas de CABA, después de la vía administrativa en faltas |
+| Tributario y contencioso administrativo de la Ciudad | `tributario-caba.md` | Fuero Contencioso Administrativo y Tributario de CABA, después de agotar la vía ante AGIP |
+| Ejecución de la pena | `ejecucion-penal.md` | Juzgados de ejecución penal, federales y de PBA, después de la condena firme |
+| Procedimiento administrativo nacional | `administrativo-nacional.md` | Contencioso administrativo federal |
+| Empleo público nacional | `empleo-publico.md` | Contencioso administrativo federal, no laboral |
+| Defensa de la competencia | `competencia.md` | Civil y comercial; sede administrativa ante la autoridad de competencia |
+| Firma digital y documento electrónico | `firma-digital.md` | Transversal: prueba en cualquier fuero |
+| Salud mental | `salud-mental.md` | Civil y familia; cruza capacidad y cobertura |
+| Pagaré y cheque | `titulos-ejecutivos.md` | Civil y comercial, por juicio ejecutivo |
+| Locación de inmuebles | `locacion.md` | Civil y comercial; el desalojo, en el fuero que corresponda |
+| Derechos reales y propiedad horizontal | `derechos-reales.md` | Civil y comercial |
+| Proceso civil y comercial de la Nación | `proceso-nacional.md` | Justicia nacional y federal; no se transpola a PBA |
+| Proceso civil y comercial de la PBA | `proceso-pba.md` 58 | Justicia provincial. El fuero laboral tiene rito propio y el CPCCBA le es supletorio |
+| Amparo | `amparo.md` | Transversal: es la vía, no la materia. Entra por él salud, ambiental, datos y consumo |
+| Ambiental | `ambiental.md` | Civil, contencioso administrativo y federal penal por residuos peligrosos |
+| Propiedad industrial e intelectual | `propiedad-industrial.md` | Civil y comercial federal |
+| Seguros | `seguros.md` | Civil y comercial, casi siempre adentro de un juicio de daños |
+| Sucesiones, porción legítima y testamentos | `sucesiones.md` | Civil, o el fuero que cada provincia asigne al sucesorio |
 | Derecho internacional privado | `dipr.md` | Transversal: no tiene fuero, se plantea dentro del que corresponda |
+| Modo órgano jurisdiccional | `sede-judicial.md` | Transversal: no tiene fuero. La pieza y la alzada sí, y van por fuero |
+| La pieza que firma el órgano | `sede-judicial-pba.md` (laboral PBA), `sede-judicial-nacional.md` 1.8 (justicia nacional y federal) y `sede-judicial-caba.md` 1.9 (CAyT de la Ciudad) | Sin módulo: la sentencia penal, la de familia y la de cualquier otra provincia |
+| Honorarios de abogados y auxiliares | `honorarios-nacional.md` 37 (Ley 27.423), `honorarios-caba.md` 42 (Ley 5.134) y `honorarios-pba.md` 1.6.6 (Ley 14.967) | Dentro del proceso donde se regula, en cualquier fuero. Sin módulo: las leyes arancelarias de las demás provincias |
 
 Esta tabla es la que explica por qué la vara judicial sola no alcanza: **`transito.md` y
 `datos-personales.md` no tienen fuero propio y son de los módulos más usados.**
@@ -95,22 +125,18 @@ primeras; salud está cubierta pero acotada a discapacidad y prepagas.
 
 ## Huecos con respaldo cruzado en varias fuentes
 
-- **Sucesiones** — UBA, UNLP y CPACF. Es de los expedientes más frecuentes de cualquier estudio y
-  el articulado ya está en `fuentes/normas/ccycn-26994.txt`.
-- **Derechos reales** — UBA y CPACF. Mismo caso: el texto ya está en casa.
-- **Seguros** — CPACF y CALP. La **Ley 17.418 ya está bajada** y hoy se usa sólo de costado.
-- **Ambiental y recursos naturales** — facetas propias en el Tesauro, dos especializaciones en UBA,
-  materias en UNLP y UNC, institutos en los dos colegios.
-- **Propiedad industrial** — instituto propio en CPACF. El repositorio no lo cubre, y el art. 2609
-  inc. c) del CCyCN ya lo nombra: los jueces argentinos tienen jurisdicción **exclusiva** sobre
-  validez de patentes y marcas registradas acá (`dipr.md` 35.6).
+- **Derechos reales** y **propiedad horizontal** — UBA y CPACF. El articulado está en casa, en
+  `fuentes/normas/ccycn-26994.txt`: Libro IV y arts. 2037 y siguientes. **No esperan descarga,
+  esperan módulo.**
+- **Los aranceles locales que no son el de PBA, el nacional ni el de CABA.** Están cargados el
+  bonaerense (Ley 14.967, con calculadora), el nacional y federal (Ley 27.423) y el de la justicia
+  de la Ciudad (Ley 5.134). Falta el resto de las provincias, y ninguna serie de valores está
+  cargada: ni la del jus porteño ni la de las dos UMA.
 
 ## Cómo entra una rama nueva
 
-No por este documento. La regla está en [`../CLAUDE.md`](../CLAUDE.md) y no se relaja: **un fuero
-nuevo entra entero o no entra** — módulo con fuente primaria a la vista, normas bajadas por el
-descargador, fallos **leídos** y su caso de prueba. Sin el caso, `pendientes.py` lo reporta como
-módulo que ningún eval nombra, y tiene razón.
+No por este documento. **Un fuero nuevo entra entero o no entra**, y qué significa entero está
+escrito en [`PENDIENTES.md`](PENDIENTES.md), bajo *El trabajo de fondo*.
 
 Este mapa dice **en qué orden conviene**, no autoriza a saltearse ningún paso.
 

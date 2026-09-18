@@ -1,6 +1,6 @@
 {
   "name": "derecho-argentino",
-  "description": "Marketplace de un solo plugin: derecho argentino, con fuente primaria offline y cálculo determinista.",
+  "description": "Marketplace de un solo plugin: derecho argentino, con fuente primaria offline verificada por hash y cálculo determinista que se planta antes de inventar un monto.",
   "owner": {
     "name": "ciri-cuervo",
     "url": "https://github.com/ciri-cuervo"
@@ -10,8 +10,8 @@
       "name": "derecho",
       "displayName": "Derecho argentino",
       "source": "./derecho",
-      "version": "1.1.1",
-      "description": "Análisis, redacción y revisión jurídica bajo derecho argentino. Aporta la skill derecho-argentino, una capa offline de fuente primaria con procedencia por hash y calculadoras deterministas. En desarrollo: la cobertura auditada crece módulo por módulo.",
+      "version": "1.2.0",
+      "description": "Análisis, redacción y revisión jurídica bajo derecho argentino, desde una parte o desde el órgano jurisdiccional. Lo que la define es lo que se niega a hacer: no cita un fallo sin carátula, causa y fecha verificadas, no da un monto de memoria y no supone el rol ni el régimen aplicable — cuando le falta un dato lo dice y se planta. Trae la skill derecho-argentino con su capa offline de fuente primaria, procedencia por hash y calculadoras deterministas. En desarrollo: la cobertura auditada crece módulo por módulo, y la skill dice siempre qué material pasó esa auditoría y qué material no.",
       "author": {
         "name": "ciri-cuervo",
         "url": "https://github.com/ciri-cuervo"
@@ -20,7 +20,33 @@
       "homepage": "https://github.com/ciri-cuervo/derecho-argentino",
       "repository": "https://github.com/ciri-cuervo/derecho-argentino",
       "category": "legal",
-      "keywords": ["derecho", "argentina", "legal-es", "jurisprudencia", "ccycn", "lct"]
+      "keywords": [
+        "derecho",
+        "argentina",
+        "legal-es",
+        "jurisprudencia",
+        "ccycn",
+        "lct",
+        "plazos",
+        "escritos",
+        "penal",
+        "previsional",
+        "tributario",
+        "consumo",
+        "familia",
+        "societario",
+        "ambiental",
+        "amparo",
+        "servicios-publicos",
+        "transporte",
+        "cooperativas",
+        "migraciones",
+        "electoral",
+        "caba",
+        "contravencional",
+        "faltas",
+        "ejecucion-penal"
+      ]
     }
   ]
 }

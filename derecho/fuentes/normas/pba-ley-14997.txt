@@ -1,115 +1,37 @@
-Ley 14.997 PBA - Adhesion a la Ley 27.348
+Ley 14.997 PBA - Adhesión a la Ley 27.348
 ==============================================================================
-Jurisdiccion:     pba
-Fuente:           https://normas.gba.gob.ar/legislacion/legislacion/l-14997.html
-Descargado:       2026-09-14
-SHA-256 (crudo):  86f4021e7306fab8c159afea2de12d474f99e1baa7ae58bf41300dcd67fdfb40
-Charset:          utf-8
+Jurisdicción:     pba
+Fuente:           https://normas.gba.gob.ar/documentos/VRN88f5V.html
+Descargado:       2026-09-17
+SHA-256 (crudo):  dfc6fa8784bdf66766e85644f3a1fec083de2000111badf79c65294daec73bc8
+Charset:          UTF-8
 
-Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
-NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
-Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
 el manifiesto `normas.json`.
 ==============================================================================
 
-Sistema de Información Normativa y Documental Malvinas Argentinas - Ley 14997
-
-home
-
-search
-
-account_balance
-
-library_books
-
-filter_none
-
-menu
-
-homeInicio
-
-searchBúsqueda avanzada
-
-account_balanceConstitución Provincial
-
-library_booksCódigos Provinciales
-
-filter_noneCompendios, Dossiers y Libros
-
 Ley 14997
 
-Fecha de promulgación: 02/01/2018
-
-Fecha de publicación: 08/01/2018
-
-Número de Boletín Oficial: 28190
-
-Tipo de publicación: Integra
-
-Resumen
-ADHIERE A LA LEY NACIONAL N° 27348, LEY COMPLEMENTARIA DE LA LEY SOBRE RIESGOS DEL TRABAJO, LEY 24557 (COMISIÓN MÉDICA CENTRAL-ART-AUTOSEGURO PÚBLICO).
+LEY 14997
 
 
 
-ObservacionesSin observaciones.
+EL SENADO Y LA CÁMARA DE DIPUTADOS DE LA PROVINCIA DE BUENOS AIRES, SANCIONAN CON FUERZA DE
 
-Documentos
-picture_as_pdfVer copia texto originaldescriptionVer texto actualizadolocal_libraryVer fundamentos
 
-AnexosNinguno.
 
-Normas relacionadas con Ley 14997
+LEY
 
-NormaResumen
 
-Resolución 40/2019
-de la Subsecretaría de Capital Humano del Ministerio de Jefatura de Gabinete de Ministros
-(Derogada por Resolución 39/2025 SSRHSGG) MODIFICA EL SEGUNDO PÁRRAFO PUNTO PATROCINIO LETRADO Y REEMPLAZA EL ANEXO II MODELO DE PROPUESTA CONVENIO PROCEDIMIENTO PARA PAGO DE PRESTACIONES DINERARIAS EN ACCIDENTES MORTALES DE LA RESOLUCIÓN Nº 2/19 (ACCIDENTE DE TRABAJO - LEY 27348)
 
-Última actualizacion: 08/07/2024 15:07
+ARTÍCULO 1°.- Adhiérese a la Ley Nacional N° 27348, Ley Complementaria de la Ley sobre Riesgos del Trabajo, Ley N° 24557.
 
-Redes Sociales
 
-Contacto
 
-Autoridad de Aplicación
+ARTÍCULO 2°.- Comuníquese al Poder Ejecutivo.
 
-Secretaría General
 
-Subsecretaría Legal y Técnica
 
-Guía Servicios
-
-Portal de trámites
-
-Expedientes
-
-Seguridad Vial
-
-ARBA
-
-Boletín Oficial
-
-Registro de las Personas
-
-Contrataciones
-
-Ver Todos
-
-Políticas de privacidad
-
-Uso Interno
-
-Webmail (gba.gob.ar)
-
-Webmail HORDE
-
-Sistemas
-
-GDEBA
-
-Portal del Empleado
-
-Mesa de Ayuda
-
-SIAPE
+Dada en la Sala de Sesiones de la Honorable Legislatura de la Provincia de Buenos Aires, en la ciudad de La Plata, a los catorce días del mes de Diciembre del dos mil diecisiete.

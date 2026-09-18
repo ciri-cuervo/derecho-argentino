@@ -2,7 +2,7 @@
 """Binarios que no son Python y que algunas herramientas necesitan.
 
 Existe por un modo de fallar específico: cuando falta `pdftotext`, el auditor de fechas
-metia el `FileNotFoundError` en el mismo `except` que usa para un PDF roto y seguia. El
+metía el `FileNotFoundError` en el mismo `except` que usa para un PDF roto y seguía. El
 resumen final decía `0 A REVISAR` con el auditor apagado -- en una máquina sin poppler, los
 64 fallos pasaban sin mirarse y el código de salida era 0.
 

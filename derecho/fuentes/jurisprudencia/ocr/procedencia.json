@@ -1,58 +1,69 @@
 {
-  "_descripcion": "Texto recuperado por OCR local de PDF con la capa de texto arruinada. Derivacion, no descarga: no es publicacion oficial. sha256_pdf es el del PDF del que salio; si el PDF cambia, hay que regenerar.",
+  "_descripcion": "Texto recuperado por OCR local de PDF con la capa de texto arruinada. Derivación, no descarga: no es publicación oficial. sha256_pdf es el del PDF del que salió; si el PDF cambia, hay que regenerar.",
   "fallos": {
     "csjn-santacoloma-fallos-308-1160": {
       "archivo": "csjn-santacoloma-fallos-308-1160.txt",
       "pdf": "csjn-santacoloma-fallos-308-1160.pdf",
       "sha256_pdf": "5bba0fbcde4d5e098073446d3a8d899605edcabc17d96b221c944869360a70b4",
-      "sha256_texto": "e11cb53d6650e5ae910d63cc8e199bd7b7eac2fb25c6a9ce680fcda77537af74",
+      "sha256_texto": "e2a86917f792e8fef0a9e22cf108c9a2ec0ad155203a2c7e6735f8d4d5f0a7e3",
       "paginas": 12,
-      "generado": "2026-09-14",
+      "generado": "2026-09-16",
       "herramienta": "tesseract 5.5.3, -l spa --psm 6, pdftoppm -r 300"
     },
     "csjn-bazterrica-fallos-308-1392": {
       "archivo": "csjn-bazterrica-fallos-308-1392.txt",
       "pdf": "csjn-bazterrica-fallos-308-1392.pdf",
       "sha256_pdf": "1b052cc2cbdf373b8b9411e464024aa374fd66f21afaeb3175985ef1499a1b7e",
-      "sha256_texto": "f242bded10b8fcc05beb8b7b8ddb800c5c5b268a6ab5d94efc156eecba0e0371",
+      "sha256_texto": "2d21c81f0bac202909a6bd0664f53a994c80f3d8984ff67b174239011e01b347",
       "paginas": 87,
-      "generado": "2026-09-14",
+      "generado": "2026-09-16",
       "herramienta": "tesseract 5.5.3, -l spa --psm 6, pdftoppm -r 300"
     },
     "csjn-fiorentino-fallos-306-1752": {
       "archivo": "csjn-fiorentino-fallos-306-1752.txt",
       "pdf": "csjn-fiorentino-fallos-306-1752.pdf",
       "sha256_pdf": "9b29c79470060f73c87aaa51edc6fd2b743947fcfe7dbc357795f085503d9319",
-      "sha256_texto": "cad476be336f420d96e9fb97b0cebe6dafa3b17e252a5c3c75084641f6efb00d",
+      "sha256_texto": "cb174976be80249e415bcecedfc6b1a8b0196ab47510820b6c8bbf33ed365c93",
       "paginas": 27,
-      "generado": "2026-09-14",
-      "herramienta": "tesseract 5.5.3, -l spa --psm 6, pdftoppm -r 300"
+      "generado": "2026-09-16",
+      "herramienta": "tesseract 5.5.3, -l spa --psm 6, pdftoppm -r 300",
+      "cotejado": "2026-09-16",
+      "correcciones": 25
     },
     "csjn-montalvo-fallos-313-1333": {
       "archivo": "csjn-montalvo-fallos-313-1333.txt",
       "pdf": "csjn-montalvo-fallos-313-1333.pdf",
       "sha256_pdf": "18d6dd526d54d64b73908a611be0ca13b005f09d7f60ff69d7405e9c896f9f14",
-      "sha256_texto": "143ebfeba393b8e991e15ecce66c91653203dc0975b38536f565f712bc88386c",
+      "sha256_texto": "904590104021234afbc6af1e8ef57990a69128d334e82a28fc2421dcb35a11a3",
       "paginas": 34,
-      "generado": "2026-09-14",
+      "generado": "2026-09-16",
       "herramienta": "tesseract 5.5.3, -l spa --psm 6, pdftoppm -r 300"
     },
     "csjn-reintegro-de-hijo-fallos-336-849": {
       "archivo": "csjn-reintegro-de-hijo-fallos-336-849.txt",
       "pdf": "csjn-reintegro-de-hijo-fallos-336-849.pdf",
       "sha256_pdf": "4c5fef748717473c6457ff23a2b6e9f773518bc18bdaeac7832e45f11f9d1860",
-      "sha256_texto": "6cc5aa8cd5c0d377248579e8f09fc6edf94af1ba5c424469f46210e691cda6fd",
+      "sha256_texto": "76a1caff04b0f4a6e181c232233361761495b4f4303c73d9582e98293f23030d",
       "paginas": 14,
-      "generado": "2026-09-14",
+      "generado": "2026-09-16",
       "herramienta": "tesseract 5.5.3, -l spa --psm 6, pdftoppm -r 300"
     },
     "csjn-rodriguezpereyrajorgel-fallos-335-2333": {
       "archivo": "csjn-rodriguezpereyrajorgel-fallos-335-2333.txt",
       "pdf": "csjn-rodriguezpereyrajorgel-fallos-335-2333.pdf",
       "sha256_pdf": "cd8556e1ebe2067a6a0d1ed49472d1fc38f78aa46ac09f3250eda2f2d897139a",
-      "sha256_texto": "87ca0590277b21aa197ee653eb91d9d8effea5a0ad7d21a246ce3d1f78fc2659",
+      "sha256_texto": "7d0576a7bccf65285225dfce8fd49141ce01ebe63b162ec0e9ee0f0e17ae12ab",
       "paginas": 30,
-      "generado": "2026-09-14",
+      "generado": "2026-09-16",
+      "herramienta": "tesseract 5.5.3, -l spa --psm 6, pdftoppm -r 300"
+    },
+    "csjn-bodegasyvinedosgiol-fallos-310-380": {
+      "archivo": "csjn-bodegasyvinedosgiol-fallos-310-380.txt",
+      "pdf": "csjn-bodegasyvinedosgiol-fallos-310-380.pdf",
+      "sha256_pdf": "455a64aabb80463e44ba61205ce92fbc0110f90390a6aae02187d6546c041da2",
+      "sha256_texto": "374b2d6d61dca592386c54249ff6abbdf8f11bcbfaac0ec32e3280f5941e342a",
+      "paginas": 13,
+      "generado": "2026-09-17",
       "herramienta": "tesseract 5.5.3, -l spa --psm 6, pdftoppm -r 300"
     }
   }

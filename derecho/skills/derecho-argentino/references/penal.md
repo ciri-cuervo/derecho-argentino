@@ -1,7 +1,8 @@
 # Penal · régimen aplicable, proceso y ejecución
 
-> Módulo de referencia de la skill `derecho-argentino`. Numeración global, sección 24. Las
-> reglas de integridad de la sección 2 rigen acá también.
+> Módulo de referencia de la skill `derecho-argentino`. Numeración global: las remisiones cruzadas
+> entre módulos siguen siendo válidas. **Rigen las reglas de integridad de la sección 2 del
+> SKILL.md.**
 
 Articulado cotejado contra `fuentes/normas/`: `cp-11179.txt` (Código Penal, t.o. 1984
 actualizado), `cppf-27063.txt` (CPPF t.o. 2019), `cppn-23984.txt` (Ley 23.984),
@@ -84,6 +85,45 @@ Dos consecuencias que conviene tener a la vista:
 > confirmarla**, y nunca al revés.
 > `[VERIFICAR VIGENCIA: fecha de entrada en vigencia del CPPF en la jurisdicción del caso - resoluciones del Ministerio de Justicia posteriores a septiembre de 2026]`
 
+### 24.1.2 bis La Ciudad de Buenos Aires — primero la competencia, después el código
+
+**Acá la pregunta previa no es cuál código rige: es si el hecho es del fuero porteño.** Y eso no
+sale del código procesal sino de las **leyes de transferencia**: la **25.752**, la **26.357** y la
+**26.702**, esta última cotejada contra `fuentes/normas/ley-26702.txt`, que trae su Anexo completo.
+
+**El Anexo de la Ley 26.702 agrupa lo transferido en cuatro bloques**, y conviene tenerlos
+presentes porque son materias enteras y no artículos sueltos:
+
+| Bloque | Qué comprende |
+| --- | --- |
+| **Primero** — delitos complementarios de lo ya transferido por las Leyes 25.752 y 26.357 | Lesiones (arts. 89 a 94), duelo (97 a 103), **abuso de armas** (104 y 105), **violación de domicilio** (150 a 152), **incendio y otros estragos** (186 a 189), **tenencia y portación de armas** del art. 189 bis acápites 2 y 4, **impedimento de contacto** (Ley 24.270), **actos discriminatorios** (Ley 23.592) y delitos en el deporte (Leyes 20.655 y 23.184) |
+| **Segundo** — delitos contra la administración pública | Entre otros, **cohecho y tráfico de influencias** (256 a 259), **malversación** (260 a 264), **negociaciones incompatibles** (265), **exacciones** (266 a 268), **enriquecimiento ilícito** (268 (1) a (3)), **prevaricato** (269 a 272), **falso testimonio** (275 y 276) y **evasión y quebrantamiento de pena** (280, 281 y 281 bis) |
+| **Tercero** — delitos contra la fe pública | Falsificación de sellos, timbres y marcas y de documentos (288 a 298), **siempre que se trate de instrumentos emitidos por la Ciudad o de su competencia para emitirlos** |
+| **Cuarto** — vinculados a materia de competencia pública local | Delitos de funcionarios contra la libertad individual (143 a 144 quinto), **siempre que los cometa un miembro de los poderes públicos de la Ciudad** |
+
+**Dos filtros que el propio anexo pone y se olvidan:** la tenencia de armas del bloque primero
+**excluye** los casos cometidos por funcionario público federal o conexos con delito federal; y los
+bloques tercero y cuarto **sólo** operan cuando el instrumento o el funcionario son porteños.
+
+> **Y hay un artículo que cambia el razonamiento entero, el art. 2 de la Ley 26.702.** Asigna al
+> Poder Judicial de la Ciudad la competencia sobre **los nuevos delitos de competencia penal
+> ordinaria que se establezcan en lo sucesivo en toda ley de la Nación, salvo que expresamente se
+> disponga lo contrario**. Es una cláusula **prospectiva**: un delito ordinario creado después de
+> 2011 es porteño **por defecto**, sin necesidad de un convenio nuevo. No alcanza con leer el
+> Anexo — hay que preguntar también **cuándo se creó la figura**.
+
+**Y la lista está en movimiento.** El **Decreto 547/2026** (B.O. 25/06/2026, en
+`fuentes/normas/decreto-547-2026.txt`) **delega en el Ministerio de Justicia la facultad de
+celebrar convenios** de transferencia: **no transfiere por sí**. Las tres transferencias vigentes
+llegaron por **ley del Congreso**, y qué necesita para regir un convenio firmado bajo esa
+delegación **no está verificado acá**.
+
+`[REVISIÓN NORMATIVA REQUERIDA: estado de las transferencias de competencia penal a CABA posteriores a la Ley 26.702 - el Decreto 547/2026 delega la facultad de convenir y hubo anuncios oficiales de convenios firmados en 2026. Confirmar si alguno fue ratificado por ley antes de afirmar que un delito es de competencia porteña por esa vía]`
+
+**Resuelta la competencia, el código es la Ley 2.303**, Código Procesal Penal de la Ciudad, texto
+consolidado al 29/02/2024 por la Ley 6.764, en `fuentes/normas/caba-ley-2303.txt`. Su coerción
+está en 24.3.4 y sus recursos en 24.6.5.
+
 ### 24.1.3 Qué preguntar al abrir un caso penal
 
 La skill no asume el fuero ni el rol, y en penal eso incluye el código. Antes de analizar:
@@ -157,7 +197,7 @@ genocidio, crímenes de lesa humanidad y crímenes de guerra.
 > caso de agresión hay que verificar **por qué instrumento entró el art. 8 bis al derecho
 > argentino** antes de decir que el juicio en ausencia procede.
 >
-> `[VERIFICAR VIGENCIA: instrumento por el que el art. 8 bis del Estatuto de Roma -crimen de agresión, enmiendas de 2010- se incorporo al derecho argentino: no está en el anexo de la Ley 25.390 y el art. 343 bis CPPF lo cita]`
+> `[VERIFICAR VIGENCIA: instrumento por el que el art. 8 bis del Estatuto de Roma -crimen de agresión, enmiendas de 2010- se incorporó al derecho argentino: no está en el anexo de la Ley 25.390 y el art. 343 bis CPPF lo cita]`
 
 **Fuera de esos dos supuestos no procede**, y la enumeración es cerrada: la Ley 27.784 no montó
 una modalidad general de juicio sin el imputado presente. Confundirla con eso es el error
@@ -357,6 +397,41 @@ audiencia **notificada con 48 horas de anticipación**, a pedido de parte o por 
 
 ---
 
+### 24.3.4 CPP CABA — los dos peligros, y una reiterancia con excepción escrita
+
+Ley 2.303, cotejada contra `fuentes/normas/caba-ley-2303.txt`. **Antes de usar esta sección hay
+que haber resuelto la competencia** de 24.1.2 bis: si el delito no fue transferido, el fuero es
+otro y el código también.
+
+**La regla (art. 181).** Las únicas medidas de coerción admisibles son las autorizadas por el
+Código, **su carácter es excepcional** y duran **el tiempo mínimo razonable** dentro de los máximos
+legales. La libertad ambulatoria sólo se limita por **peligro de fuga o entorpecimiento del
+proceso** — los mismos dos que el art. 17 CPPF, y no los requisitos conjuntos del CPP PBA de
+24.3.3.
+
+**Peligro de fuga (art. 182):** se valora objetivamente y el artículo enumera siete circunstancias.
+
+| Inc. | Circunstancia |
+| --- | --- |
+| **1** | **Arraigo**, y una regla poco citada: *"la falsedad o la falta de información al respecto constituirán presunción de fuga"* |
+| **2** | Magnitud de la pena, **especialmente** si el máximo supera los **ocho (8) años** y se estima fundadamente que no procedería la condena condicional |
+| **3** | Comportamiento en éste **o en otro proceso**, en la medida que indique voluntad de no someterse |
+| **4** | **Pedido fiscal de pena de efectivo cumplimiento** en los alegatos del debate |
+| **5** | **Sentencia condenatoria** a pena de efectivo cumplimiento, en primera o segunda instancia |
+| **6** | **Rechazo del recurso de inconstitucionalidad** contra esa condena, por la Cámara o por el **Tribunal Superior de Justicia** |
+| **7** | **Reiteración delictiva**: más de un proceso en trámite con requerimiento de juicio por delitos dolosos con pena privativa de libertad |
+
+> **El inc. 7 es el mismo instituto que la Ley 27.785 llevó al CPPF** —arts. 210, 218 y 222 bis,
+> en 24.3.1—, **pero acá viene con una excepción escrita en el texto**: quedan exceptuados *"los
+> hechos investigados en el marco del ejercicio de la libertad de expresión, a manifestarse o a
+> peticionar frente a las autoridades"*, siempre que no concurran con delitos contra las personas o
+> daños a la propiedad. Es texto según el art. 5 de la Ley 6.729 (BOCABA 04/07/2024), y no tiene
+> equivalente en los otros tres códigos.
+
+**Y los incisos 4, 5 y 6 arman una escalera procesal**: el peligro de fuga se va agravando con el
+pedido fiscal, con la condena y con el rechazo del recurso. Quien discute una preventiva después
+de la condena no discute lo mismo que antes del debate.
+
 ## 24.4 · Extinción de la acción, prescripción y suspensión del juicio a prueba
 
 Cotejado contra `fuentes/normas/cp-11179.txt`. El fondo es común a los tres códigos
@@ -452,7 +527,7 @@ prescriba el haber integrado el grupo que los cometía.
 > **Fue 4 a 3.** Belluscio, Fayt y Vázquez votaron en disidencia, y Petracchi y Boggiano según
 > su voto. Es una mayoría dividida sobre una cuestión —la aplicación de la Convención a hechos
 > anteriores a su incorporación— que sigue siendo materia de debate.
-> `[VERIFICAR PRECEDENTE: "Arancibia Clavel" tiene más de veinte años y la composición del Tribunal cambió por completo - confirmar la linea vigente antes de invocarlo]`
+> `[VERIFICAR PRECEDENTE: "Arancibia Clavel" tiene más de veinte años y la composición del Tribunal cambió por completo - confirmar la línea vigente antes de invocarlo]`
 
 **Para el cómputo:** si el hecho encuadra como delito de lesa humanidad, **el art. 62 no se
 aplica** y la discusión no es de plazos sino de calificación. Es el primer punto a resolver,
@@ -644,6 +719,57 @@ no tiene que estar entera en el auto. Entonces el planteo de nulidad no se agota
 sea escueta: hay que mostrar que **en el expediente tampoco** había motivos, porque si los hay,
 "Minaglia" los da por suficientes. Highton de Nolasco y Fayt firmaron el voto que rechaza; hubo
 disidencia.
+
+### 24.5.1 bis Prueba de origen en inteligencia — Ley 25.520
+
+**La ley de inteligencia no es materia ajena al penal: es la puerta por la que entra prueba que
+después hay que discutir.** Articulado cotejado contra el texto actualizado de
+`fuentes/normas/ley-25520.txt`, que ya incorpora el **Decreto 941/2025 (B.O. 02/01/2026)**, bajado
+aparte en `decreto-941-2025.txt`.
+
+**Las prohibiciones del art. 4 siguen, pero ahora cada una tiene su excepción**, y eso es lo que
+cambió. Ningún órgano de inteligencia puede:
+
+| Inc. | Prohibición | Excepción que el texto vigente le puso |
+| --- | --- | --- |
+| **1** | Cumplir funciones policiales o de investigación judicial o criminal | **Las del art. 4 bis** |
+| **2** | Tareas represivas o facultades compulsivas | Las necesarias para **contrainteligencia** y para el **art. 10 nonies** |
+| **3** | Producir inteligencia sobre personas **por su raza, fe, acciones privadas, opinión política**, o pertenencia a organizaciones partidarias, sociales, sindicales, comunitarias, cooperativas, asistenciales, culturales o laborales, ni por su **actividad lícita** | **Ninguna.** Ésta quedó entera |
+| **4** | Influir en la situación institucional, política, militar, policial, social o económica, en la vida interna de los partidos, en la opinión pública, en personas o en medios | Las de **contrainteligencia del art. 2 quater** |
+| **5** | Revelar o difundir información sobre un habitante o una persona jurídica | Orden o dispensa judicial, **o autorización expresa en el marco de convenios celebrados por la SIDE** |
+
+> **El inciso 3 es el que no admite excepción, y por eso es el que se plantea.** Si lo que
+> originó la pesquisa fue la pertenencia sindical, partidaria o comunitaria del imputado, o su
+> actividad lícita, el vicio está en el origen y se discute por la regla de exclusión de 24.5.1,
+> no como una irregularidad formal.
+
+**Cómo puede llegar legítimamente (art. 4 bis, incorporado por el Decreto 614/2024).** Si en sus
+actividades los organismos obtienen información **de interés para una investigación judicial**, o
+detectan **líneas nuevas** a partir de las existentes, **pueden informarla** a los órganos
+competentes **preservando fuentes y métodos** y **absteniéndose de desarrollar tareas de
+investigación criminal**. Y, **excepcionalmente y de manera fundada**, el órgano judicial puede
+requerir su auxilio en tareas de su especialidad.
+
+> **"Preservando fuentes y métodos" es la tensión de todo el planteo.** La defensa no puede
+> controlar lo que no se le muestra, y el art. 4 bis autoriza a no mostrarlo. Lo que sí es
+> controlable es el **límite**: la ley les prohíbe *investigar*, y les permite *informar*. Un
+> organismo que dirigió la pesquisa en vez de aportar un dato excedió el art. 4 bis, y ésa es la
+> nulidad que se plantea.
+
+**La aprehensión por personal de inteligencia existe y tiene forma (art. 10 nonies).** En el marco
+de actividades de inteligencia, de auxilio o requerimiento judicial, **o de comisión de delitos en
+flagrancia**, el personal **puede aprehender personas**, con **aviso inmediato a las fuerzas
+policiales y de seguridad competentes**. Los presupuestos son acotados y el aviso es exigible:
+verificarlos es lo primero que se hace con un acta que registre una detención así.
+
+**Y el art. 5 no se movió:** las comunicaciones y los archivos, registros y documentos privados
+**son inviolables**, salvo **orden o dispensa judicial**. Interceptar indebidamente participando
+de estas tareas tiene pena propia —**tres a diez años** e inhabilitación por doble tiempo,
+art. 42—, y omitir destruir los soportes cuando se está obligado, **dos a seis años** (art. 43).
+
+`[REVISIÓN NORMATIVA REQUERIDA: el Decreto 941/2025 es un decreto de necesidad y urgencia que reforma una ley del Congreso - confirmar su trámite ante la Comisión Bicameral Permanente del art. 99 inc. 3 CN y el estado de los planteos de inconstitucionalidad antes de razonar sobre el texto vigente]`
+
+`[INSERTAR FALLO VERIFICADO: validez de la prueba aportada por organismos de inteligencia bajo el art. 4 bis de la Ley 25.520, y alcance del control de la defensa cuando se preservan fuentes y métodos. No hay precedente bajado sobre este articulado]`
 
 ### 24.5.2 Cuándo un acto es nulo — el criterio es el mismo en los tres
 
@@ -940,6 +1066,42 @@ los nuevos hechos o elementos de prueba, o los motivos especiales del art. 467, 
 
 ---
 
+### 24.6.5 CPP CABA — apelación, y los plazos son cortos
+
+Ley 2.303. **Las resoluciones son recurribles sólo por los medios y en los casos expresamente
+establecidos** (art. 280), y el derecho corresponde a quien lo tenga acordado **con interés
+directo**; cuando la ley no distingue entre partes, **todas pueden recurrir**.
+
+**Tres reglas generales que conviene invocar:**
+
+| Art. | Regla |
+| --- | --- |
+| **282** | Los recursos se interponen **bajo consecuencia de inadmisibilidad** en tiempo y forma — y **los tribunales no pueden exigir más requisitos formales que los previstos expresamente** |
+| **283** | **Efecto suspensivo como regla general**: las resoluciones no se ejecutan durante el término para recurrir ni durante el trámite, salvo disposición expresa o que se hubiera ordenado la **libertad** del imputado |
+| **289** | El alzada conoce **sólo los puntos alcanzados por los agravios**; el recurso fiscal **permite modificar o revocar en favor** del imputado; y si recurrió sólo el imputado o alguien a su favor, **la resolución no puede modificarse en su perjuicio** |
+
+**Adhesión y extensión.** Quien tenga derecho a recurrir **puede adherir** al recurso concedido a
+otro dentro del emplazamiento (art. 284), y con varios imputados **el recurso de uno favorece a los
+demás** salvo que se funde en motivos estrictamente personales (art. 285).
+
+**Los plazos, que son el punto donde más se pierde:**
+
+| Recurso | Plazo | Contra qué |
+| --- | --- | --- |
+| **Reposición** (art. 290) | **3 días** de notificado, interpuesto **y fundado** | Decretos o autos que causen gravamen, para que el mismo tribunal los revoque por contrario imperio |
+| **Apelación** contra decretos y autos (arts. 292 y 293) | **5 días**, salvo disposición en contrario | Los expresamente declarados apelables **o que causen gravamen irreparable** |
+| **Apelación** contra sentencias (art. 293) | **10 días** | Ídem |
+
+> **Y en la etapa de juicio sólo hay reposición (art. 286).** Antes del debate se resuelve
+> inmediatamente antes de éste sin más trámite; interpuesta durante el debate, se resuelve de
+> inmediato o con la sentencia, **y su trámite no suspende la audiencia**.
+
+> **Cuidado con la numeración de este código.** El texto consolidado intercala bloques de
+> *"Antecedentes relacionados / Texto anterior"* con la numeración vieja: la apelación es hoy el
+> **art. 292** y el propio archivo aclara que *"al momento de la modificación la numeración se
+> correspondía con el art. 279"*. Es la misma trampa que `contravencional-caba.md` 56 registra
+> para el Código Contravencional.
+
 ## 24.7 · Parte general aplicada
 
 > Esta sección es la que decide cuánta pena hay y si se cumple. Se la saltea seguido porque
@@ -987,7 +1149,21 @@ mitad** y puede reducirse al mínimo legal o eximirse de ella.
 > ahí sale la discusión clásica sobre cómo se arma la escala de la tentativa. **No está resuelta
 > en el texto legal.**
 >
-> `[INSERTAR FALLO VERIFICADO: doctrina de la CSJN o de la casación sobre la construcción de la escala del art. 44 - no hay fallo cargado en fuentes/]`
+> `[INSERTAR FALLO VERIFICADO: cómo se construye la escala del art. 44 -a qué extremo se aplica cada fracción- sigue sin fallo cargado. Lo bajado dice que el art. 44 es regla general y que una ley especial puede apartarse, no cómo se arma la escala]`
+>
+> **Lo que sí está cargado es el estatuto del art. 44 como regla, y su excepción.** En
+> *"Chukwudi"* (CSJN, Fallos 344:3458, 11/11/2021), leído contra el documento, la Corte rechaza
+> el planteo de inconstitucionalidad contra la **equiparación de penas entre tentativa y
+> consumación del contrabando** (arts. 862 a 867 del Código Aduanero). Dice que **"es indiscutible
+> que el art. 44 del Código Penal prevé una reducción de la sanción del delito tentado"** y que
+> eso es *"una regla, en principio general"* fundada en que **la ausencia de disvalor de resultado
+> conduce a un menor contenido de ilicitud**. Pero esa regla *"convive con otros supuestos del
+> mismo código"* donde el legislador decidió otra cosa, y **apartarse está habilitado por el art.
+> 4 CP**, que aplica las disposiciones generales a las leyes especiales *"en cuanto éstas no
+> dispusieran lo contrario"*. Por eso la equiparación no vulnera lesividad, culpabilidad ni
+> proporcionalidad. **Lo que el fallo NO hace es armar la escala:** no dice a qué extremo se
+> aplica el tercio ni la mitad, y lo aclara al reservar expresamente *"la constitucionalidad de
+> otras cuestiones ajenas a esta litis"*.
 >
 > **Lo que sí hay bajado toca el art. 44 por un costado y no resuelve esto.** En *"Maldonado"*
 > (Fallos 328:4343, ver 24.7.8) la Corte trabaja con el **art. 44 tercer párrafo** por remisión
@@ -1191,495 +1367,27 @@ en su peligrosidad futura, en vez de en el hecho. La Corte lo dice contra la ide
 > "Maldonado". El segundo sirve también fuera del régimen de menores, porque la proscripción del
 > derecho penal de autor no depende de la edad.
 
-## 24.8 · Ejecución de la pena
-
-> Dos leyes distintas para lo mismo, y **no se estructuran igual**. La **Ley 24.660** organiza
-> la ejecución como un **régimen progresivo por períodos sucesivos**; la **Ley 12.256** de PBA
-> organiza regímenes **"de utilización alternativa y no necesariamente secuencial"** (arts. 6 y
-> 94). No es una diferencia de vocabulario: en el orden federal se pide el paso al período
-> siguiente; en PBA se pide la reubicación en otro régimen. Un escrito que pida "el ingreso al
-> período de prueba" ante un juez de ejecución bonaerense está pidiendo algo que esa ley no
-> tiene.
-
-**Y hay un piso que rige por debajo de las dos, fijado por la Corte para PBA.** *"Verbitsky,
-Horacio s/ hábeas corpus"*, **Fallos 328:1146, 03/05/2005** — leído contra el documento,
-`fallos-csjn.md` 34.2. Es el fallo que hay que tener a mano cuando lo que se discute son las
-**condiciones** de detención y no el régimen.
-
-Lo que declaró y ordenó, que es inusualmente concreto:
-
-| | |
-| --- | --- |
-| **La regla de fondo** | Las **Reglas Mínimas para el Tratamiento de Reclusos de la ONU**, recogidas por la Ley 24.660, **configuran las pautas fundamentales a las que debe adecuarse toda detención**. No son una recomendación |
-| **La vía** | Admitió el **hábeas corpus colectivo** en protección de las condiciones de detención de **todos** los privados de libertad en PBA, con legitimación de una persona colectiva distinta de los afectados. Calificó de **error conceptual** sostener que la cuestión debía debatirse individualmente ante cada juez |
-| **Menores y enfermos** | Ordenó a la SCBA hacer **cesar en sesenta días** su detención en **comisarías** de la provincia |
-| **Todos los tribunales de PBA** | Instruidos a hacer cesar **toda** situación de agravamiento que importe trato cruel, inhumano o degradante, o que pueda acarrear responsabilidad internacional del Estado Federal |
-| **El informe** | Ordenó al PE provincial remitir a los jueces un **informe pormenorizado de las condiciones concretas** —celda, camas, higiene, servicios sanitarios— para que **ponderen la necesidad de mantener la detención** o dispongan medidas menos lesivas |
-| **Al legislador** | Exhortó a los poderes Ejecutivo y Legislativo de PBA a **adecuar su legislación procesal penal en prisión preventiva y excarcelación** y su legislación de ejecución |
-
-**Por qué importa para un escrito y no sólo como cita.** El punto del informe convierte las
-condiciones concretas de alojamiento en **materia que el juez debe ponderar al decidir si
-mantiene la detención**: es el puente entre la queja por condiciones y el pedido de morigeración
-o de cese, que si no quedan en carriles separados. Y la admisión del colectivo es lo que permite
-plantear por el conjunto sin ir causa por causa.
-
-`[VERIFICAR PRECEDENTE: "Verbitsky" tiene veinte años y su cumplimiento fue objeto de resoluciones posteriores de la propia Corte y de la SCBA - confirmar el estado de la ejecución del fallo antes de invocarlo como vigente]`
-
-### 24.8.1 Ley 24.660 — la progresividad y sus cuatro períodos
-
-**Art. 12:** el régimen es **progresivo** y consta de **observación**, **tratamiento**,
-**prueba** y **libertad condicional**.
-
-**Período de observación (art. 13, texto Ley 27.375).** Estudio médico-psicológico-social,
-diagnóstico y pronóstico criminológicos. Arranca con la recepción del testimonio de sentencia
-en el organismo técnico-criminológico, que **debe expedirse dentro de los 30 días**. De ahí
-sale la historia criminológica, la fase de tratamiento propuesta y el tiempo mínimo para
-verificar resultados.
-
-**Período de prueba (art. 15, texto Ley 27.375).** Comprende, sucesivamente, el
-establecimiento abierto o semiabierto, la posibilidad de **salidas transitorias** y la
-**semilibertad**. Cuatro requisitos de ingreso:
-
-| Requisito | Contenido |
-| --- | --- |
-| Propuesta | Que emane del resultado del período de observación y de la verificación de tratamiento |
-| **Tiempo mínimo** | Pena temporal sin accesoria del art. 52 CP: **la mitad de la condena**. Perpetua sin accesoria: **15 años**. Con accesoria del art. 52, cumplida la pena: **3 años** |
-| Causas | **No tener causa abierta ni otra condena pendiente** |
-| Calificación | **Conducta ejemplar y concepto ejemplar** |
-
-Resuelve **el director del establecimiento**, en forma fundada, comunicando al juez de
-ejecución y al organismo técnico-criminológico. El ingreso al período de prueba es
-administrativo; lo que viene después es judicial.
-
-**Salidas transitorias (arts. 16 a 19, texto Ley 27.375).** Se clasifican por **tiempo** (12,
-24 y, en casos excepcionales, **72 horas**), por **motivo** (lazos familiares y sociales;
-estudios; programas de prelibertad ante la inminencia del egreso) y por **nivel de confianza**
-(acompañado por un empleado **no uniformado**, confiado a un familiar o persona responsable, o
-bajo palabra de honor). En todos los casos las supervisa un profesional del servicio social.
-
-**Requisitos de la salida transitoria y de la semilibertad (art. 17):**
-
-1. **Tiempo desde el ingreso al período de prueba**, escalonado por la pena: más de 10 años,
-   **un año**; más de 5 años, **seis meses**; menos de 5 años, **desde el ingreso**.
-2. No tener causa abierta donde interese su detención ni otra condena pendiente.
-3. **Conducta ejemplar** —o el grado máximo alcanzable según el tiempo de internación— durante
-   el último año desde la petición; y conducta y concepto **como mínimo Buena durante al menos
-   dos tercios de la condena cumplida** al momento de pedir. Es el requisito que más pedidos
-   frustra y se computa hacia atrás, no sobre el último tramo.
-4. Informe favorable **del director, del organismo técnico-criminológico y del Consejo
-   Correccional**.
-5. No estar comprendido en el **art. 56 bis**.
-6. En los delitos de los arts. 128 tercer párrafo, 129 segundo párrafo y 131 CP, informe del
-   equipo interdisciplinario del juzgado y **notificación a la víctima**, que será escuchada si
-   quiere; interno y víctima pueden proponer **peritos a su cargo** con informe propio.
-
-**Quién decide (arts. 18 y 19).** Propone el director por resolución fundada, precisando lugar
-o distancia máxima, normas a observar y nivel de confianza. **Dispone el juez de ejecución**,
-previos informes fundados, y **suspende o revoca si el incumplimiento es grave o reiterado**.
-
-**Prisión domiciliaria (arts. 33 y 34).** La dispone el juez de ejecución. En los supuestos a),
-b) y c) del art. 32 la decisión **debe fundarse en informes médico, psicológico y social**.
-Supervisa el patronato de liberados o un servicio social calificado: **en ningún caso queda a
-cargo de organismos policiales o de seguridad**. Al concederla **se exige dispositivo
-electrónico de control**, dispensable sólo por decisión judicial con informe favorable. Se
-revoca por quebrantamiento injustificado, por resultado de la supervisión, o por modificarse
-las condiciones que la motivaron.
-
-**Prisión discontinua y semidetención (arts. 35 a 42).** Proceden, a pedido o con
-consentimiento del condenado y **si no está incluido en el art. 56 bis**, en cuatro supuestos:
-revocada la domiciliaria; convertida la multa en prisión (art. 21 párr. 2 CP); revocada la
-condicional por incumplir el art. 27 bis CP; y revocada la libertad condicional del art. 15 CP
-**por violar la obligación de residencia**. La discontinua se cumple por fracciones **no
-menores de 36 horas**, procurando que coincidan con los días no laborables, **se computa un día
-de pena por cada noche**, y el juez puede autorizar a no presentarse **24 horas cada dos
-meses**. La semidetención es permanencia ininterrumpida durante la fracción del día no
-destinada a obligaciones familiares, laborales o educativas, en dos modalidades: **diurna**
-(de 8 a 17) y **nocturna**.
-
-**Libertad asistida (art. 54, texto Ley 27.375).** Egreso anticipado **tres meses antes** del
-agotamiento de la pena temporal, para condenados **no incluidos en el art. 56 bis** y sin la
-accesoria del art. 52 CP. La dispone el juez a pedido del condenado, previos informes, y exige
-**el grado máximo de conducta** alcanzable según el tiempo de internación. El juez **debe
-denegarla** si el condenado está en el art. 56 bis, y **también** cuando considere que el
-egreso puede constituir **grave riesgo para el condenado, la víctima o la sociedad** — esa
-segunda causal es discrecional y es donde se juega el pedido. Al concederla **se exige
-dispositivo electrónico de control**. Para los delitos de los arts. 128 tercer párrafo, 129
-segundo párrafo y 131 CP, el juez **debe tomar conocimiento directo del condenado**, se
-notifica a la víctima, y ambos pueden proponer peritos a su cargo.
-
-**Art. 56 bis — la lista que bloquea (texto Ley 27.375).** Los condenados por los delitos que
-enumera **no pueden acceder a los beneficios del período de prueba**, y el último párrafo
-agrega que tampoco a **prisión discontinua, semidetención ni libertad asistida**. Antes de
-calcular cualquier fecha, mirar si el delito está en la lista: si está, el cálculo sobra.
-
-**Art. 56 quater — lo que sí queda para los del 56 bis.** Régimen preparatorio para la
-liberación, por programa individual. **Un año antes** del cumplimiento de la condena, con
-regularidad en los reglamentos e informes de la dirección y de peritos con pronóstico
-individualizado y favorable: **tres meses** de preparación dentro del establecimiento, **seis
-meses** de salidas con acompañamiento y **tres meses** finales de salidas sin supervisión.
-Siempre **diurnas y por no más de 12 horas**. Es la vía que hay que pedir cuando el 56 bis
-cierra las otras.
-
-`[VERIFICAR VIGENCIA: art. 56 bis Ley 24.660 y su articulación con el art. 14 CP - dos listas de delitos distintas que se citan como si fueran una]`
-`[INSERTAR FALLO VERIFICADO: constitucionalidad del art. 56 bis Ley 24.660 texto Ley 27.375 - aportar sala, fuero y año]`
-
-**Art. 56 quinquies.** El juez remite al **Renabem**, dentro de los cinco días de firmes, copia
-de las resoluciones sobre salidas transitorias, semilibertad, prisión discontinua,
-semidetención, prisión nocturna, domiciliaria, libertad asistida y libertad condicional.
-
-### 24.8.2 PBA — Ley 12.256
-
-**Estructura (arts. 6 y 94).** El régimen de condenados comprende los regímenes **abierto,
-semi-abierto y cerrado**, **alternativos y no necesariamente secuenciales**. El recorrido
-empieza con la evaluación y transita por regímenes, con salidas preparatorias como paso previo
-inmediato al cumplimiento. **Ubica y reubica la Jefatura del Servicio Penitenciario** a
-propuesta de la **Junta de Selección** (art. 95), y el juez de ejecución **constituye la
-instancia de apelación** de esas ubicaciones y reubicaciones (art. 99).
-
-**Cómo se resuelve, que es lo más distinto (art. 3, texto Ley 15.232).** Las decisiones del
-juez de ejecución se adoptan como manda el art. 497 y ss. del CPP PBA, **salvo** las de
-salidas transitorias, libertad asistida, libertad condicional y cese de medidas de seguridad,
-donde rigen reglas propias:
-
-- **Oralidad obligatoria:** resolución oral, previa **audiencia pública y contradictoria**, con
-  el imputado, su defensa, el MPF, el particular damnificado y la víctima si lo solicita.
-- **Víctima:** la que lo pida expresamente es notificada de cada audiencia, puede expresar su
-  opinión, y **el juez debe valorar lo manifestado al resolver**. Con motivos fundados el
-  imputado puede ser excluido de la sala mientras dure la presencia de la víctima, plenamente
-  representado por su defensor.
-- **Acta y grabación íntegra** de lo actuado.
-- **Los recursos de reposición y apelación se interponen oralmente en la misma audiencia.** No
-  hay escrito posterior: quien no recurre ahí, no recurre.
-- La apelación **se mantiene, mejora y resuelve en audiencia oral dentro del quinto día** de
-  radicada en la Cámara.
-- **Denegado el beneficio**, los pedidos formulados dentro de los **ocho meses** siguientes
-  pueden tramitarse **por escrito**, igual que cuando no concurre el requisito temporal.
-
-**Salidas transitorias y régimen abierto (art. 100, texto Ley 15.232).** Los autoriza el juez
-de ejecución previo asesoramiento de la **Junta de Selección** sobre evaluación criminológica,
-y el juez **puede apartarse por resolución fundada** del resultado de la Junta, o suplir o
-complementar el informe con el de otros equipos interdisciplinarios. La víctima, aun sin ser
-particular damnificado, **debe ser comunicada** del inicio del trámite si manifestó su voluntad
-de ser informada, y **oída en audiencia** si lo pide.
-
-> **La lista de exclusión bonaerense NO es la del art. 56 bis nacional.** La del art. 100
-> incluye el **homicidio simple del art. 79 CP**, que no está en la lista nacional, y está
-> armada con otros siete supuestos: homicidios agravados (art. 80); delitos contra la
-> integridad sexual del Título III del Libro Segundo; privación ilegal de la libertad coactiva
-> seguida de muerte (art. 142 bis último párrafo); tortura seguida de muerte (art. 144 tercero
-> inc. 2); homicidio en ocasión de robo (art. 165); y secuestro extorsivo con muerte
-> intencional (art. 170 anteúltimo párrafo). Citar una lista por la otra cambia el resultado.
-
-La exclusión del art. 100 alcanza además a **libertad asistida, prisión discontinua o
-semidetención, trabajos para la comunidad, semilibertad y salidas a prueba** (arts. 104, 123,
-123 bis, 146, 147 bis y 160).
-
-**Lo que sí les queda, y no tiene equivalente nacional.** Los condenados por los incisos 1 a 7
-del art. 100, **en los últimos seis meses de condena previos a la libertad condicional**,
-pueden obtener salidas transitorias **a razón de un día por cada año de prisión o reclusión
-cumplida en los que hayan efectivamente trabajado o estudiado**. Por estudio hay que aprobar
-las evaluaciones (arts. 31 a 33); por trabajo, que la labor se haya prestado bajo dirección y
-control del Servicio Penitenciario (arts. 34 a 39). **Se computa y se acredita**: es un cálculo
-que se hace con las constancias, no un pedido genérico.
-
-**Libertad asistida (arts. 104 a 108, texto Ley 14.296).** Egreso anticipado **seis meses**
-antes del agotamiento de la pena temporal —el doble que en el orden federal—. Y además puede
-otorgarse al condenado a **penas perpetuas o mayores de tres años**, **seis meses antes** del
-término del art. 13 CP para la libertad condicional, si concurren los demás requisitos de ese
-instituto y el condenado tiene el **grado máximo de conducta** alcanzable según el tiempo de
-internación. La dispone el juez a pedido del condenado con asesoramiento de la Junta de
-Selección; **la denegatoria debe ser fundada**. Se revoca por nuevo delito o por incumplimiento
-reiterado de las obligaciones del art. 106 (art. 107).
-
-**Supervisión (art. 20, texto Ley 14.296).** Libertad condicional, libertad asistida, salidas
-transitorias, detención o prisión domiciliaria y arresto domiciliario con monitoreo los
-supervisa el **Cuerpo de Agentes de Prueba del Patronato de Liberados Bonaerense**.
-
-### 24.8.3 Los plazos que divergen
-
-| Instituto | Ley 24.660 | Ley 12.256 PBA |
-| --- | --- | --- |
-| **Libertad asistida** | **3 meses** antes del agotamiento de la pena temporal (art. 54) | **6 meses** antes del agotamiento; y **6 meses** antes del término del art. 13 CP para perpetuas o penas mayores de 3 años (art. 104) |
-| **Aviso al patronato** | **6 meses** antes del mínimo exigible (art. 54 bis) | **6 meses** antes del mínimo exigible (art. 102) |
-| **Estructura** | Períodos **sucesivos** (art. 12) | Regímenes **alternativos, no necesariamente secuenciales** (arts. 6 y 94) |
-| **Quién ubica** | Director del establecimiento para el período de prueba (art. 15) | Jefatura del SPB a propuesta de la Junta de Selección (art. 95), apelable ante el juez (art. 99) |
-| **Cómo se recurre** | Según el código procesal aplicable (24.6) | **Oralmente, en la misma audiencia** (art. 3 inc. c) |
-| **Repetir el pedido denegado** | Sin regla propia en la ley | Dentro de **8 meses**, por escrito (art. 3 inc. e) |
-
-### 24.8.4 Antes de pedir un egreso
-
-1. **Qué ley rige la ejecución** — federal o PBA. Define el nombre del instituto, el órgano y
-   la forma del pedido.
-2. **Si el delito está en la lista de exclusión que corresponde** —art. 56 bis nacional o
-   art. 100 bonaerense, que **no coinciden**—. Si está, la vía es el art. 56 quater o el cómputo
-   del último párrafo del art. 100, no el instituto general.
-3. **Conducta y concepto, con su historia**: en el orden federal, el art. 17 mira **dos tercios
-   de la condena cumplida**, no el último tramo.
-4. **Qué informes hacen falta y quién los produce** — organismo técnico-criminológico y Consejo
-   Correccional en nación; Junta de Selección y grupos de admisión y seguimiento en PBA.
-5. **Si hay víctima que pidió ser informada**, porque en los dos regímenes su intervención está
-   prevista y su omisión es materia de nulidad.
-6. **En PBA, llegar a la audiencia con el recurso preparado**: si se deniega, se recurre ahí
-   mismo y oralmente.
-
----
-
-## 24.9 · Leyes especiales
-
-### 24.9.1 Hábeas corpus — Ley 23.098
-
-**Alcance (art. 1).** Rige en todo el territorio, cualquiera sea el tribunal que la aplique,
-**sin obstar a la aplicación de las constituciones provinciales o de sus leyes cuando otorguen
-protección más eficiente**. La ley nacional es piso, no techo: en PBA conviene mirar también la
-Constitución provincial antes de elegir la vía.
-
-**Los dos supuestos (art. 3), y el segundo es el que más se olvida:**
-
-1. **Limitación o amenaza actual** de la libertad ambulatoria **sin orden escrita de autoridad
-   competente**.
-2. **Agravación ilegítima de la forma y condiciones** en que se cumple la privación de la
-   libertad — sin perjuicio de las facultades del juez del proceso. Es el **hábeas corpus
-   correctivo**: no discute la detención, discute cómo se ejecuta.
-
-**Bajo estado de sitio (art. 4)** el procedimiento puede tender a comprobar la legitimidad de
-la declaración, la correlación entre la orden y la situación que la originó, la agravación
-ilegítima —que **en ningún caso puede hacerse efectiva en establecimientos de ejecución de
-penas**— y el efectivo ejercicio del **derecho de opción** del art. 23 CN.
-
-**Quién denuncia (art. 5).** El afectado **o cualquier otra persona en su favor**. No hace falta
-poder, patrocinio ni vínculo.
-
-**Inconstitucionalidad de oficio (art. 6).** Los jueces **pueden declararla de oficio en el caso
-concreto** cuando la limitación se lleva a cabo por orden escrita de una autoridad que obra en
-virtud de un precepto contrario a la CN. Y las sentencias de los tribunales superiores en este
-procedimiento **se consideran definitivas** a los efectos del recurso ante la CSJN (art. 7).
-
-**Trámite, que es todo de horas:**
-
-| Acto | Regla |
-| --- | --- |
-| **Forma de la denuncia** (art. 9) | A **cualquier hora del día**, por escrito **u oralmente en acta** ante el secretario |
-| **Defectos formales** (art. 10) | El juez **no puede rechazar por defectos formales**: provee de inmediato las medidas para subsanarlos |
-| **Desestimación o incompetencia** (art. 10) | Se eleva **en consulta** a la Cámara, que decide **dentro de las 24 horas** |
-| **Auto de hábeas corpus** (art. 11) | Orden inmediata de presentar al detenido con **informe circunstanciado**; si se ignora quién lo detiene, se libra a los superiores jerárquicos; el juez puede emitirla **oralmente** si se constituye en el lugar |
-| **De oficio** (art. 11 último párrafo) | Con prueba satisfactoria de que se teme el traslado fuera de la jurisdicción o un perjuicio irreparable, el tribunal **lo expide de oficio** |
-| **Audiencia** (art. 14) | Oral. **La persona privada de libertad debe estar siempre presente.** Empieza con la lectura de la denuncia y el informe |
-| **Prueba** (art. 15) | Se incorpora en el acto; de no ser posible, continúa la audiencia **en no más de 24 horas** |
-| **Decisión** (art. 17) | **Inmediata**, al terminar la audiencia; si acoge, ordena **la libertad inmediata o la cesación del acto lesivo** |
-| **Apelación** (art. 19) | **24 horas**, por escrito u oralmente en acta, pudiendo ser fundado. Efecto **suspensivo salvo en cuanto a la libertad**, que se hace efectiva |
-| **Queja** (art. 19) | La Cámara resuelve **dentro de 24 horas** |
-| **Emplazamiento en alzada** (art. 20) | **24 horas** para comparecer ante el superior, poniendo el detenido a su disposición |
-
-**No se admite recusación** (art. 13), aunque el juez que se considere inhabilitado por temor de
-parcialidad lo declara y pasa al que sigue en turno.
-
-**Costas y sanciones (arts. 23 y 24).** Acogida la denuncia, las costas son **del funcionario
-responsable del acto lesivo**. Y los jueces y funcionarios que incurran injustificadamente en
-**incumplimiento de los plazos** de la ley **son sancionados con multa**. Los plazos de esta ley
-tienen sanción propia: conviene decirlo en el escrito.
-
-`[VERIFICAR VIGENCIA: art. 8 Ley 23.098 - la competencia que asigna a los jueces de instrucción de Capital Federal debe leerse contra el régimen procesal vigente en el distrito, ver 24.1. El texto cargado en fuentes/ es el original, no un consolidado]`
-
-### 24.9.2 Estupefacientes — Ley 23.737
-
-**Competencia (art. 34, texto Ley 26.052) — desfederalización parcial.** Los delitos de la ley
-son de **competencia federal en todo el país**, **salvo** en las provincias y en CABA que
-**por ley de adhesión** hayan optado por asumirla, y **sólo** respecto de: art. 5 incs. c) y e)
-cuando se comercie, entregue, suministre o facilite estupefacientes **fraccionados en dosis
-destinadas directamente al consumidor**; art. 5 penúltimo y último párrafos; **art. 14**;
-art. 29; y arts. 204, 204 bis, 204 ter y 204 quater CP.
-
-> **Antes de discutir el fondo, resolver el fuero.** La competencia depende de si la
-> jurisdicción adhirió y de si el hecho entra en esa lista acotada. Un mismo hecho es federal o
-> provincial según dónde ocurrió, y eso cambia el código procesal aplicable (24.1), el fiscal y
-> la cámara.
-
-`[VERIFICAR VIGENCIA: leyes provinciales de adhesión al art. 34 Ley 23.737 - la lista de jurisdicciones adheridas cambia y no está cargada en fuentes/]`
-
-**Tenencia (art. 14).** Prisión de **uno a seis años** y multa para quien tuviere en su poder
-estupefacientes. **Segundo párrafo:** **un mes a dos años** cuando por su **escasa cantidad y
-demás circunstancias** surja **inequívocamente** que la tenencia es **para uso personal**.
-
-**Hoja de coca (art. 15).** La tenencia y el consumo de hojas de coca en estado natural para el
-**coqueo o masticación**, o como infusión, **no se considera** tenencia ni consumo de
-estupefacientes.
-
-**Ese segundo párrafo está declarado inconstitucional, y con un alcance preciso.**
-*"Arriola, Sebastián y otros s/ causa n° 9080"*, **Fallos 332:1963, 25/08/2009** — leído contra
-el documento, `fallos-csjn.md` 34.2. La Corte hizo lugar a la queja, declaró procedente el
-extraordinario, **declaró la inconstitucionalidad del art. 14 segundo párrafo de la Ley 23.737**
-y dejó sin efecto la sentencia apelada. Aplicó el estándar de **"Bazterrica"**: debe respetarse
-el ámbito de la libertad personal cuando no hay daño o peligro concreto para terceros, y **no son
-admisibles los delitos de peligro abstracto**.
-
-**El alcance es lo que se cita mal.** La declaración va (considerando 18) *en cuanto incrimina la
-tenencia para uso personal que se realice en condiciones tales que no traigan aparejado un peligro
-concreto o un daño a derechos o bienes jurídicos de terceros*. **No** es una declaración en
-abstracto ni deroga el tipo: quien invoque "Arriola" tiene que mostrar esas condiciones en el caso.
-La propia Corte aclara en el considerando 19 que el consumo que lesiona o pone en peligro concreto
-a terceros, y la distribución, siguen alcanzados.
-
-**Y el fallo trae un punto II que suele omitirse:** exhorta a todos los poderes públicos a asegurar
-una política de Estado contra el tráfico ilícito y a adoptar medidas de salud preventivas.
-
-> **No confundir la línea.** "Bazterrica" (**Fallos 308:1392**, 1986) declaró la
-> inconstitucionalidad; **"Montalvo" (Fallos 313:1333, 1990) volvió sobre sus pasos**; y
-> "Arriola" (**Fallos 332:1963**, 2009) retomó "Bazterrica". Los tres están bajados
-> —34.1 y 34.2—, pero de "Bazterrica" y "Montalvo" **no se puede transcribir un considerando
-> desde el repo**: el OCR de los dos salió destruido. De "Arriola" sí, y es de donde vienen las
-> citas de arriba.
-
-`[VERIFICAR PRECEDENTE: "Arriola" tiene dieciseis años y la Ley 23.737 fue modificada después - confirmar que el segundo párrafo del art. 14 conserva el texto que la Corte invalido y que la doctrina sigue vigente en la sala interviniente]`
-
-**Las tres salidas curativas, que se confunden entre sí:**
-
-| Artículo | Momento | Qué pasa si el tratamiento resulta bien | Si a los dos años no hay recuperación por falta de colaboración |
-| --- | --- | --- | --- |
-| **16** | Condenado por **cualquier** delito con dependencia física o psíquica | Medida de seguridad curativa **además de la pena**; cesa por resolución judicial previo dictamen pericial | — |
-| **17** | Art. 14 segundo párrafo, **acreditada la tenencia para uso personal y declarada la culpabilidad**, con dependencia | El juez **puede dejar en suspenso la pena**; acreditado el resultado satisfactorio, **se lo exime de la pena** | **Se aplica la pena** y continúa la medida, o sólo la medida |
-| **18** | Art. 14 segundo párrafo, **durante el sumario**, con semiplena prueba de uso personal, indicios de responsabilidad, dependencia y **consentimiento** | **Se suspende el trámite del sumario**; acreditado el resultado, **sobreseimiento definitivo** | Se **reanuda el trámite** y en su caso se aplica la pena, continuando el tratamiento, o sólo la medida |
-
-La diferencia operativa: el **art. 18 actúa antes**, suspende el proceso y termina en
-sobreseimiento; el **art. 17 actúa después** de la culpabilidad declarada y termina en exención
-de pena. Pedir uno cuando corresponde el otro cuesta la etapa.
-
-**Dónde se cumple (art. 19).** En establecimientos de una **lista oficial** de instituciones bajo
-conducción profesional, reconocidas, evaluadas periódicamente, registradas y habilitadas por la
-autoridad sanitaria, que actualiza la lista mensualmente al Poder Judicial. Puede aplicarse
-**preventivamente al procesado** con su consentimiento, o **cuando exista peligro de que se
-dañe a sí mismo o a los demás**.
-
-**Quién paga el tratamiento — art. 2 de la Ley 24.455** (`fuentes/normas/ley-24455.txt`). Los
-tratamientos de desintoxicación y rehabilitación de los **arts. 16, 17, 18 y 19** los cubre **la
-obra social de la que el beneficiario es afiliado**, y la iniciativa es del tribunal: *"el Juez de
-la causa deberá dirigirse a la obra social que corresponda a fin de indicarle la necesidad y
-condiciones del tratamiento"*. No hay que mandar al imputado a reclamar por su cuenta antes de
-pedir la medida: el oficio sale del expediente penal. Si el obligado es una **prepaga**, el piso
-llega por el art. 1 de la Ley 24.754 — la cadena está en `salud-discapacidad.md` 27.5.
-`[VERIFICAR VIGENCIA: art. 2 de la Ley 24.455 y su art. 5, que condiciona la ejecutoriedad a la existencia de partida presupuestaria]`
-
-**Anonimato del denunciante (art. 34 bis, incorporado por Ley 24.424).**
-
-### 24.9.3 Derechos de la víctima — Ley 27.372
-
-Esta ley **no crea un fuero ni un procedimiento**: crea derechos que se ejercen dentro del
-proceso penal que corresponda, y **su omisión es materia de planteo**. Conviene leerla junto con
-lo ya visto: el motivo propio de la víctima contra la absolución en el CPPF (24.6.2), su
-intervención en la ejecución (24.8) y la audiencia del art. 3 de la Ley 12.256.
-
-**Quién es víctima (art. 2).** El ofendido directo, y también **el cónyuge, conviviente, padres,
-hijos, hermanos, tutores o guardadores** en los delitos **cuyo resultado sea la muerte** de la
-persona con la que tuvieren ese vínculo, **o si el ofendido sufrió una afectación psíquica o
-física que le impida ejercer sus derechos**. El segundo supuesto no requiere muerte y se pasa
-por alto seguido.
-
-**Principios (art. 4):** **rápida intervención** —lo apremiante se satisface de inmediato—,
-**enfoque diferencial** según el grado de vulnerabilidad, y **no revictimización**: la víctima
-no será tratada como responsable del hecho, y las molestias del proceso **se limitan a las
-estrictamente imprescindibles**.
-
-**Los derechos del art. 5 que más se usan en un escrito:**
-
-- **Ser escuchada antes de cada decisión** que implique **extinción o suspensión de la acción
-  penal**, y antes de las que dispongan **medidas de coerción o la libertad del imputado**
-  durante el proceso — **siempre que lo solicite expresamente** (inc. k). La solicitud expresa
-  es la condición: se pide una vez, por escrito, y queda.
-- **Ser notificada de las resoluciones** que puedan afectar su derecho a ser escuchada (inc. l).
-- **Solicitar la revisión** de la desestimación, el archivo o la aplicación de un criterio de
-  oportunidad pedido por el fiscal, **cuando hubiera intervenido como querellante** (inc. m).
-- **Intervenir como querellante o actor civil** conforme a las leyes de procedimiento locales
-  (inc. h); **examinar documentos y actuaciones** y ser informada verbalmente del estado del
-  proceso y de la situación del imputado (inc. i); **aportar información y pruebas** (inc. j).
-- **Medidas de protección** para sí, sus familiares y los testigos que declaren en su interés
-  (inc. d), y **atención especializada** para su recuperación (inc. e).
-- **Sufragio de los gastos** que demande el ejercicio de sus derechos si está económicamente
-  imposibilitada (inc. o).
-
-**La enumeración del art. 5 no es taxativa** y no se entiende como negación de otros derechos.
-
-**Vulnerabilidad presumida (art. 6).** Se **presume** situación de especial vulnerabilidad si la
-víctima es **menor de edad o mayor de 70 años**, o **persona con discapacidad**; y si existe una
-**relación de dependencia económica, afectiva, laboral o de subordinación** entre la víctima y el
-supuesto autor. Presumida la vulnerabilidad, la atención especializada es un deber, no una
-gestión.
-
-**Deberes de quien recibe la denuncia (art. 7):** asesorar sobre los derechos y los medios para
-hacerlos valer; **informar los nombres del juez y del fiscal** que intervendrán y la ubicación de
-sus despachos; e informar dónde está el centro de asistencia más cercano, **trasladándola** si lo
-pide y no tiene medio propio.
-
-**Peligro presumido (art. 8).** Para las medidas de protección del art. 5 inc. d), la ley
-**presume la existencia de peligro** en una lista de delitos.
-
-### 24.9.4 Régimen penal de la minoridad — Ley 22.278
-
-> Antes de cualquier cosa: esta ley es de **1980**, con las reformas de las Leyes 22.803, 23.264
-> y 23.742, y su texto conserva el vocabulario y la lógica tutelar de esa época —"disposición"
-> del menor, patronato, internación por problemas de conducta—. Se aplica junto con la CN y los
-> tratados del art. 75 inc. 22, y ahí es donde vive la mayor parte de la discusión.
-
-**No punibilidad (art. 1, texto Ley 22.803).** No es punible:
-
-- **quien no haya cumplido 16 años**; ni
-- **quien no haya cumplido 18** respecto de **delitos de acción privada**, o de los reprimidos
-  con **pena privativa de la libertad que no exceda de dos (2) años, con multa o con
-  inhabilitación**.
-
-Habiendo imputación, la autoridad judicial igualmente **dispone provisionalmente**, comprueba el
-delito, **toma conocimiento directo** del menor y de sus padres, tutor o guardador, y ordena los
-informes y peritaciones sobre su personalidad y sus condiciones familiares y ambientales.
-
-**Punibilidad (art. 2, texto Ley 22.803).** Es punible el menor **de 16 a 18 años** que incurra
-en un delito no comprendido en el art. 1. Se lo somete al proceso y **se lo dispone
-provisionalmente** durante su trámite, para habilitar las facultades del art. 4.
-
-**Los tres requisitos para imponer pena (art. 4), acumulativos:**
-
-1. Que **previamente se haya declarado su responsabilidad penal** —y la civil si correspondiere—
-   conforme a las normas procesales.
-2. Que **haya cumplido 18 años**.
-3. Que **haya sido sometido a tratamiento tutelar no inferior a un año**, prorrogable en caso
-   necesario hasta la mayoría de edad.
-
-Cumplidos los tres, si las modalidades del hecho, los antecedentes, el resultado del tratamiento
-tutelar y la impresión directa del juez hacen **necesario** sancionar, así lo resuelve, **pudiendo
-reducir la pena en la forma prevista para la tentativa**. Si fuese **innecesario** aplicarle
-sanción, **lo absuelve**, y en ese caso **puede prescindir del requisito del inciso 2**.
-
-> **La reducción del art. 4 es facultativa y hay que pedirla fundada.** Y la absolución por
-> innecesariedad de pena es una decisión expresamente prevista en el texto, no una construcción:
-> es el pedido que corresponde cuando el tratamiento tutelar dio resultado.
-
-**Reincidencia (art. 5).** Las disposiciones sobre reincidencia **no se aplican** al juzgado
-exclusivamente por hechos cometidos **antes de los 18 años**. Si después es juzgado por un delito
-posterior a esa edad, las sanciones por aquellos hechos **podrán ser tenidas en cuenta, o no**.
-Concuerda con el art. 50 CP, que excluye de la reincidencia las penas por delitos cometidos por
-menores de 18 (24.7.5).
-
-**Cumplimiento (arts. 6 y 10).** Las penas privativas de libertad se hacen efectivas **en
-institutos especializados**; alcanzada la mayoría de edad en esa situación, el resto se cumple en
-establecimientos para adultos. La privación de libertad de quien delinquió **entre los 18 años y
-la mayoría de edad** se cumple, durante ese lapso, en esos mismos institutos.
-
-**Proceso iniciado o reanudado después de los 18 (art. 8).** El requisito del tratamiento tutelar
-se cumple **en cuanto fuere posible**, complementado con amplia información sobre su conducta; si
-ya es mayor de edad, **esa información suple el tratamiento**.
-
-**Cese de la disposición (art. 3).** Puede cesar en cualquier momento por resolución judicial
-fundada y **concluye de pleno derecho cuando el menor alcanza la mayoría de edad**.
-
-`[REVISIÓN NORMATIVA REQUERIDA: estado legislativo del régimen penal juvenil - la Ley 22.278 es de 1980 y su reemplazo ha sido objeto de proyectos sucesivos. Confirmar que sigue vigente sin sustitución a la fecha de la consulta]`
-
-### 24.9.5 Régimen penal tributario
-
-Está en el **Título IX de la Ley 27.430**, que derogó la Ley 24.769. Lo que hay que resolver
-antes de avanzar es la exclusión de la probation: el art. 76 bis último párrafo CP excluye los
-ilícitos **"de la Ley 24.769"**, que ya no existe (24.4).
-
-`[REVISIÓN NORMATIVA REQUERIDA: alcance de la exclusión del art. 76 bis último párrafo CP respecto del Título IX de la Ley 27.430 tras la derogación de la Ley 24.769, y umbrales de punibilidad vigentes a la fecha de la consulta]`
-`[VERIFICAR MONTO ACTUALIZADO: umbrales de punibilidad del Título IX de la Ley 27.430 - se actualizan por ley y quedan desactualizados rapido]`
-
----
+> **Y hay que mirar la fecha del hecho antes de invocar el primero.** El art. 4 de la Ley 22.278
+> —el que remitía a la escala de la tentativa— **está derogado** por el art. 48 de la **Ley
+> 27.801**, vigente desde el **05/09/2026** (`penal-leyes-especiales.md` 24.9.4). Y el texto de
+> la 27.801 **no contiene ninguna remisión al art. 44 CP ni a la escala de la tentativa**:
+> comprobado contra `fuentes/normas/ley-27801.txt`. Lo que trae en su lugar es otra cosa —la
+> sustitución de la prisión del art. 11 y el tope de quince años del art. 19—.
+>
+> Para un hecho **anterior**, "Maldonado" se cita como siempre, porque el art. 2 CP hace regir la
+> ley más benigna. Para uno **posterior**, **el vehículo legal del primer agravio ya no está en
+> la ley**: queda el fundamento —la culpabilidad medida por el hecho y la reducción derivada de
+> la inmadurez—, que es constitucional y convencional, pero eso es un argumento que hay que
+> construir y no una remisión que el texto conceda.
+
+`[INSERTAR FALLO VERIFICADO: aplicación de la doctrina de "Maldonado" bajo la Ley 27.801 - si la culpabilidad disminuida del adolescente sigue obligando a fundar la graduación de la pena sin la remisión del derogado art. 4 de la Ley 22.278. No hay precedente bajado sobre la ley nueva]`
+
+## 24.8 · Ejecución de la pena — está en `ejecucion-penal.md`
+
+**Lo que pasa después de la condena firme salió a su propio módulo.** La progresividad de la Ley
+24.660, los regímenes de la Ley 12.256 de PBA —que **no se estructuran igual**—, el piso de
+condiciones de *"Verbitsky"* y los plazos que divergen están en **`ejecucion-penal.md` 24.8**, con
+la misma numeración. Acá queda el proceso, que es lo que se lee antes.
 
 ## 24.10 · Lo que este módulo todavía no cubre
 
@@ -1702,4 +1410,4 @@ ilícitos **"de la Ley 24.769"**, que ya no existe (24.4).
   ninguna opción: ésos sirven para citar, no para copiar un considerando. El estado de cada
   uno, en 34.1.
 
-Para la parte especial rige el ruteo de `otras-ramas.md` sección 19, **con su advertencia**.
+Para la parte especial rige el ruteo de `perfiles-heredados.md` sección 19, **con su advertencia**.

@@ -1,14 +1,14 @@
-Ley 24.901 - Sistema de prestaciones basicas en habilitacion y rehabilitacion integral a favor de las personas con discapacidad (texto actualizado)
+Ley 24.901 - Sistema de prestaciones básicas en habilitación y rehabilitación integral a favor de las personas con discapacidad (texto actualizado)
 ==============================================================================
-Jurisdiccion:     nacional
+Jurisdicción:     nacional
 Fuente:           https://servicios.infoleg.gob.ar/infolegInternet/anexos/45000-49999/47677/texact.htm
-Descargado:       2026-09-14
+Descargado:       2026-09-17
 SHA-256 (crudo):  c2c46087b5923d70e926c564d92c7bb75117fc6f7f3250e01b69d941d88ff7af
 Charset:          windows-1252
 
-Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
-NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
-Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
 el manifiesto `normas.json`.
 ==============================================================================
 

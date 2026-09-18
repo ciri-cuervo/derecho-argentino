@@ -1,17 +1,17 @@
 {
-  "_descripcion": "Días inhabiles que NO se pueden calcular: ferias judiciales, puentes turísticos y asuetos. Los feriados de la Ley 27.399 los calcula scripts/plazos.py, incluidos Carnaval y Viernes Santo por computo de Pascua, y no van aca.",
+  "_descripcion": "Días inhábiles que NO se pueden calcular: ferias judiciales, puentes turísticos y asuetos. Los feriados de la Ley 27.399 los calcula scripts/plazos.py, incluidos Carnaval y Viernes Santo por cómputo de Pascua, y no van acá.",
   "_campos": {
-    "ferias": "Periodos de feria judicial. Se descuentan siempre.",
+    "ferias": "Períodos de feria judicial. Se descuentan siempre.",
     "puentes_y_asuetos": "Días no laborables o de asueto que alcanzan a TODA la jurisdicción. Se descuentan siempre.",
-    "asuetos_distritales": "Asuetos que alcanzan solo a un partido o dependencia. NO se descuentan automaticamente: el script los informa y el usuario decide si corresponden a la causa.",
-    "trasladables_verificados": "Ubicación efectiva de los feriados trasladables del art. 1 inc. b de la Ley 27.399. El script compara su propio calculo contra esta lista y avisa si difieren.",
-    "pendientes": "Lo que todavia no se dicto o no se pudo verificar. Si no esta vacio, el script emite marcador."
+    "asuetos_distritales": "Asuetos que alcanzan solo a un partido o dependencia. NO se descuentan automáticamente: el script los informa y el usuario decide si corresponden a la causa.",
+    "trasladables_verificados": "Ubicación efectiva de los feriados trasladables del art. 1 inc. b de la Ley 27.399. El script compara su propio cálculo contra esta lista y avisa si difieren.",
+    "pendientes": "Lo que todavía no se dictó o no se pudo verificar. Si no está vacío, el script emite marcador."
   },
   "_fuentes": {
     "nacional": "Feria de enero: permanente, art. 2 del Reglamento para la Justicia Nacional. Feria de invierno: acordada anual de la CSJN. Puentes: resolución de la Jefatura de Gabinete conforme art. 7 Ley 27.399.",
     "pba": "Feria de enero: permanente, art. 1 del Decreto-ley 7951/1972 (t.o. leyes 11.141, 11.559 y 11.765). Feria de invierno: diez días hábiles que fija la SCBA por acuerdo. Asuetos distritales: resoluciones mensuales de Presidencia de la SCBA."
   },
-  "_advertencia_2027": "A septiembre de 2026 no estan dictadas ni la feria de invierno 2027 (Nación ni PBA) ni los puentes 2027. La feria de enero si esta, porque es permanente por norma. Los feriados trasladables de 2027 quedan al calculo del script, con una salvedad: el 20/11/2027 cae sábado y el Decreto 614/2025 habilita a la Jefatura de Gabinete a moverlo al viernes anterior o al lunes posterior. Hasta que lo resuelva, ese dia esta indeterminado.",
+  "_advertencia_2027": "A septiembre de 2026 no están dictadas ni la feria de invierno 2027 (Nación ni PBA) ni los puentes 2027. La feria de enero sí está, porque es permanente por norma. Los feriados trasladables de 2027 quedan al cálculo del script, con una salvedad: el 20/11/2027 cae sábado y el Decreto 614/2025 habilita a la Jefatura de Gabinete a moverlo al viernes anterior o al lunes posterior. Hasta que lo resuelva, ese día está indeterminado.",
   "verificado": "2026-09-13",
   "anios": {
     "2026": {
@@ -45,7 +45,7 @@
         "pendientes": [],
         "notas": [
           "Puentes fijados por Resolución 164/2025 de la Jefatura de Gabinete (BO 26/12/2025): https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-164-2025-421799/texto",
-          "La Acordada CSJN 11/2026 instruye a las Camaras Federales del interior a fijar sus propios diez días hábiles conforme Acordada 30/1984: en el interior las fechas pueden diferir"
+          "La Acordada CSJN 11/2026 instruye a las Cámaras Federales del interior a fijar sus propios diez días hábiles conforme Acordada 30/1984: en el interior las fechas pueden diferir"
         ]
       },
       "pba": {
@@ -75,7 +75,7 @@
             "alcance": "Partido de Laprida, Departamento Judicial de Azul",
             "motivo": "aniversario fundacional",
             "norma": "Res. RP 1140/26 SCBA",
-            "efecto": "asueto judicial con suspensión de terminos"
+            "efecto": "asueto judicial con suspensión de términos"
           }
         ],
         "trasladables_verificados": [
@@ -86,11 +86,11 @@
         ],
         "pendientes": [
           "Asuetos distritales de octubre a diciembre de 2026: la SCBA los publica mes a mes por resolución de Presidencia y a septiembre de 2026 no estaban dictados",
-          "Asuetos distritales de enero, marzo, abril, mayo y julio de 2026 (Res. RP 1605/25, 99/26, 297/26, 446/26, 493/26, 779/26 y 857/26): publicados como PDF escaneados sin capa de texto, no se pudieron leer. Podria figurar Tandil, aniversario fundacional del 4 de abril"
+          "Asuetos distritales de enero, marzo, abril, mayo y julio de 2026 (Res. RP 1605/25, 99/26, 297/26, 446/26, 493/26, 779/26 y 857/26): publicados como PDF escaneados sin capa de texto, no se pudieron leer. Podría figurar Tandil, aniversario fundacional del 4 de abril"
         ],
         "notas": [
-          "El 17/07/2026 hubo suspensión de terminos en todo el ambito del Poder Judicial de PBA por contingencia del Centro de Datos (Res. RP 863/26): https://www.scba.gov.ar/institucional/nota.asp?id=59590&veradjuntos=no",
-          "Las ferias de PBA y de la Nación coincidieron en 2026, pero por acordadas distintas y autonomas. No presumir coincidencia en otros años",
+          "El 17/07/2026 hubo suspensión de términos en todo el ámbito del Poder Judicial de PBA por contingencia del Centro de Datos (Res. RP 863/26): https://www.scba.gov.ar/institucional/nota.asp?id=59590&veradjuntos=no",
+          "Las ferias de PBA y de la Nación coincidieron en 2026, pero por acordadas distintas y autónomas. No presumir coincidencia en otros años",
           "Resoluciones de asuetos: https://www.scba.gov.ar/actualidad.asp?expre=asueto"
         ]
       }

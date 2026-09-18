@@ -19,7 +19,7 @@ compatibilidad de Claude sobre esa misma raíz.
 
 ## El árbol
 
-```
+```text
 README.md                           # la puerta de entrada: instalar, usar, reportar
 CHANGELOG.md                        # versiones del plugin (SemVer)
 LICENCIAS.md                        # mapa de las cuatro capas de autoría
@@ -27,14 +27,15 @@ LICENSE · LICENSE-ABOITIZ.md · LICENSE-MIT · LICENSE-CC-BY-SA-4.0.md
 SECURITY.md                         # qué reportar, por dónde, y qué NO subir
 .claude-plugin/marketplace.json     # el marketplace de Claude: un solo plugin
 .agents/plugins/marketplace.json    # el mismo plugin en formato Agent Plugins (Codex)
-.github/workflows/tests.yml         # los seis suites en cada push y cada pull request
+.claude/rules/                      # reglas que cargan siempre; sólo las lee Claude Code
+.github/workflows/tests.yml         # descubre y corre los dos árboles de suites en cada push y PR
 derecho/                          # el plugin
   .claude-plugin/plugin.json        # manifiesto de Claude
   plugin.json                       # manifiesto portable, el que lee Codex
   commands/                         # ocho comandos slash
   skills/derecho-argentino/
     SKILL.md                        # núcleo: apertura, integridad, marcadores, ruteo
-    references/                     # 31 módulos, numeración global estable, carga bajo demanda
+    references/                     # 61 módulos, numeración global estable, carga bajo demanda
     scripts/                        # calculadoras, perfil, diagnóstico y tests
   fuentes/                          # capa de fuente primaria offline
     MANIFIESTO.md                   # qué hay bajado, de dónde y con qué fecha
@@ -54,7 +55,8 @@ derecho/                          # el plugin
     marcadores-GLOSARIO.md          # glosario heredado; la skill ya no depende de él
     CHANGELOG.md                    # historial de la base de conocimiento
     project/                        # camino anterior: perfil para pegar en un Project
-herramientas/                       # control de la frontera de licencia, en los dos sentidos, y del OCR
+herramientas/                       # detectores y medidas del repo: frontera de licencia, cobertura,
+                                    # OCR, cifras, ruteo y ramas. Cada uno con su archivo de veredicto
 assets/marca/                       # sello, ícono, chapitas y separadores; salen de un script
 assets/logos/                       # logos de Claude y Codex, para las instrucciones de instalación
 docs/
@@ -62,6 +64,8 @@ docs/
   DESARROLLO.md                     # cómo se trabaja sobre el plugin y qué se corre antes de cerrar
   TERMINAL.md                       # instalar por consola: Claude Code y Codex a mano
   AUDITORIAS.md                     # qué se verificó contra fuente primaria, y cuándo
+  COBERTURA.md                      # el mapa de materias, para decidir por dónde crece lo cubierto
+  PENDIENTES.md                     # lo que ninguna herramienta mide, con el motivo de cada uno
 ```
 
 ## La frontera de licencia es la ruta
@@ -93,30 +97,13 @@ conflicto, manda la skill. Ver `derecho/kb/project/README.md`.
 
 ## Los módulos de `references/`
 
-Son 30. Estos son los que se cargan más seguido; el listado completo está en el directorio.
-
-| Módulo | Sección | Qué cubre |
-| --- | --- | --- |
-| `intake.md` | — | Qué datos pedir antes de analizar, según la tarea |
-| `sede-judicial-pba.md` | 1.6 | Desde el órgano: veredicto, sentencia, control de oficio, congruencia, costas, honorarios |
-| `parte.md` | 1.7 | Desde una parte: demanda, contestación, audiencia preliminar, prueba, recursos |
-| `laboral.md` | 5 | Tramos de reforma, extinción, intereses, prescripción, riesgos del trabajo, liquidación |
-| `civil.md` | 6 | Derecho intertemporal, responsabilidad, prescripción, contratos de entrada |
-| `contratos.md` | 7 | Revisión y redacción, red flags |
-| `plazos.md` | 8 | Tipos de plazo, gracia, ferias, suspensión por mediación |
-| `escritos.md` | 9-11 | Diagnóstico, armado desde cero, formato de salida |
-| `kb/transversales/fuentes-y-conectores.md` | 14 | Dónde verificar una norma, un fallo o un monto |
-| `changelog-normativo.md` | 13 | Cambios recientes y estado de verificación por bloque |
-| `consumidor.md` | 17 | Relación de consumo, daño punitivo, gratuidad, prescripción |
-| `familia.md` | 18 | Fuero PBA, Consejero, alimentos y Ley 15.513, violencia |
-| `otras-ramas.md` | 19 | Ruteo a los perfiles de área del repo |
-| `prueba-pericial.md` | 20 | Designación, control, impugnación y valoración del dictamen |
-| `ejecucion.md` | 21 | Liquidación, embargo, excepciones, vía ejecutiva |
-| `notificaciones-pba.md` | 22 | Cédula electrónica, MEV, cuándo empieza a correr el plazo |
-| `modelos.md` | 23 | Inventario de los modelos de escritos del repo |
+Cuántos son lo dice el árbol de arriba, una sola vez. **Qué cubre cada uno y dónde se litiga está
+en [`docs/COBERTURA.md`](COBERTURA.md)**, que es el mapa: repetir acá una selección la deja
+congelada el día que se agrega una materia, y eso ya pasó.
 
 La numeración es **global y estable**: las remisiones cruzadas entre módulos siguen siendo
-válidas aunque el archivo se mueva.
+válidas aunque el archivo se mueva, y por eso un módulo que se parte **conserva la numeración de
+origen** en vez de renumerar.
 
 ## La capa de fuente primaria
 
@@ -134,13 +121,13 @@ repetirla en dos documentos garantiza que uno de los dos mienta. La medición vi
 
 ### Las fuentes viajan con el plugin, y es una decisión
 
-`fuentes/` son 63 de los 67 MB que se lleva quien instala: el 94%. No es un descuido — **se
+`fuentes/` son 79 de los 83 MB que se lleva quien instala: el 92%. No es un descuido — **se
 prefiere que el primer uso sea offline**. Quien instala el plugin tiene los textos normativos,
 los fallos y el CCyC Comentado desde el minuto cero, sin depender de que InfoLEG esté arriba, de
 que su red llegue, ni de correr nada antes de la primera consulta.
 
 La alternativa —venir con los catálogos, los hashes y los índices, y bajar los cuerpos en el
-primer uso— dejaría el plugin en 7 MB, y la maquinaria existe: `normas.json` tiene URL y hash,
+primer uso— dejaría el plugin en 6 MB, y la maquinaria existe: `normas.json` tiene URL y hash,
 `estado.py` dice qué falta y `/derecho:actualizar` lo baja. **Se evaluó y se descartó**: cambia
 una descarga grande por una dependencia de red en el momento en que alguien está resolviendo un
 expediente. Queda escrito para que no se "optimice" sin querer.

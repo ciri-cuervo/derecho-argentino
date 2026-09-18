@@ -1,14 +1,14 @@
 Decreto-Ley 7425/68 - CPCCBA
 ==============================================================================
-Jurisdiccion:     pba
+Jurisdicción:     pba
 Fuente:           https://normas.gba.gob.ar/documentos/VrQlgSOB.html
-Descargado:       2026-09-14
+Descargado:       2026-09-17
 SHA-256 (crudo):  91fef2d00a36fd03f144bf4c1a1f8af2b817644f863fe7f61d7d383664e7dca5
 Charset:          UTF-8
 
-Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
-NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
-Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
 el manifiesto `normas.json`.
 ==============================================================================
 

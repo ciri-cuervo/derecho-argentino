@@ -3,7 +3,10 @@
 
     python3 herramientas/test_pendientes.py
 """
+import re
+import shutil
 import sys
+import tempfile
 import unittest
 from datetime import date
 from pathlib import Path
@@ -61,18 +64,115 @@ class TestCruceConEvals(unittest.TestCase):
         self.assertNotIn("civil.md", pendientes.modulos_sin_eval())
 
     def test_los_modulos_de_rama_sin_eval_se_reportan(self):
-        sin_eval = pendientes.modulos_sin_eval()
-        for esperado in ("transito.md", "previsional.md", "tributario.md"):
-            self.assertIn(esperado, sin_eval)
+        """Lo reportado tiene que ser cierto, y tiene que quedar algo por reportar.
 
+        No se fijan nombres: un test que nombra `transito.md` como deuda se rompe el día que
+        alguien le escribe el eval, o sea que castiga justo el trabajo que la medida pide. Lo
+        que no decae es la invariante: todo lo que la lista reporta no está nombrado por ningún
+        caso, y la lista no está vacía —si lo estuviera sin que la deuda se hubiera saldado,
+        el instrumento se apagó—.
+        """
+        sin_eval = pendientes.modulos_sin_eval()
+        self.assertGreater(len(sin_eval), 0,
+                           "la lista quedó vacía: o se saldó toda la deuda, o el cruce con "
+                           "evals/ dejó de leer")
+        nombrados = set()
+        for carpeta in pendientes.EVALS.iterdir():
+            if carpeta.is_dir() and (carpeta / "caso.md").is_file():
+                for pieza in carpeta.glob("*.md"):
+                    nombrados |= set(re.findall(r"([a-z][a-z0-9-]*\.md)",
+                                                pieza.read_text(encoding="utf-8")))
+        for modulo in sin_eval:
+            with self.subTest(modulo):
+                self.assertNotIn(modulo, nombrados,
+                                 f"{modulo} se reporta como sin eval y hay un caso que lo "
+                                 f"nombra: la medida está reportando deuda que no existe")
+
+    def test_el_nombre_compuesto_no_hereda_el_prefijo_de_su_primera_palabra(self):
+        """Un módulo acotado no queda testeado porque otro caso comparta su primera palabra.
+
+        `penal-juvenil-pba.md` es el Fuero de la Responsabilidad Penal Juvenil y
+        `penal-estupefacientes-arriola-nulidad` es un caso de tenencia: comparten «penal» y nada
+        más. Contar el prefijo lo daba por ejercitado sin que existiera una consulta que lo
+        abriera: deuda invisible dentro de la medida que existe para hacerla visible. El prefijo
+        sigue valiendo para un módulo de rama entera, cuyo nombre es una sola palabra.
+
+        El árbol se arma acá y no se cruza el repositorio real, porque hoy todos los módulos
+        compuestos están nombrados por su eval y la comparación pasaría igual con el criterio
+        viejo: un guardarraíl sólo cubre lo que su fixture ejercita.
+
+        MUTACIÓN que lo demuestra: volver el criterio a `stem.split("-")[0] in prefijos` tiene
+        que poner este test en rojo.
+        """
+        raiz = Path(tempfile.mkdtemp())
+        self.addCleanup(shutil.rmtree, raiz, True)
+        refs, evals = raiz / "references", raiz / "evals"
+        refs.mkdir()
+        for nombre in ("civil.md", "penal.md", "penal-juvenil-pba.md", "salud-x.md"):
+            (refs / nombre).write_text("# módulo\n", encoding="utf-8")
+        # Dos casos. Ninguno NOMBRA un archivo: los dos sólo aportan su prefijo.
+        for caso in ("civil-danos-transito-pba", "penal-estupefacientes-arriola"):
+            d = evals / caso
+            d.mkdir(parents=True)
+            (d / "caso.md").write_text("# caso sin citar ningún archivo\n", encoding="utf-8")
+
+        original = (pendientes.REFERENCIAS, pendientes.EVALS)
+        pendientes.REFERENCIAS, pendientes.EVALS = refs, evals
+        try:
+            sin_eval = pendientes.modulos_sin_eval()
+        finally:
+            pendientes.REFERENCIAS, pendientes.EVALS = original
+
+        self.assertNotIn("civil.md", sin_eval,
+                         "el prefijo tiene que seguir valiendo para un módulo de rama entera")
+        self.assertNotIn("penal.md", sin_eval, "ídem: nombre simple, caso con su prefijo")
+        self.assertIn("penal-juvenil-pba.md", sin_eval,
+                      "un módulo de nombre compuesto no queda ejercitado por compartir la "
+                      "primera palabra con un caso que no lo nombra")
+        self.assertIn("salud-x.md", sin_eval,
+                      "y menos todavía uno cuyo prefijo no aparece en ningún caso")
+
+
+    def test_la_lista_de_infraestructura_nombra_modulos_que_existen(self):
+        """Una lista de exenciones se pudre cuando nombra archivos que ya no están.
+
+        Cada nombre que sobra baja la deuda reportada sin que nadie lo decida: el módulo se
+        renombró o se borró, y su exención sigue descontando. Y al revés, un módulo de rama que
+        entre a la lista por error desaparece de la medida.
+
+        MUTACIÓN que lo demuestra: agregar un nombre inventado a `DE_INFRAESTRUCTURA` tiene que
+        poner este test en rojo.
+        """
+        existen = {m.name for m in pendientes.REFERENCIAS.glob("*.md")}
+        sobran = sorted(pendientes.DE_INFRAESTRUCTURA - existen)
+        self.assertEqual(sobran, [],
+                         f"DE_INFRAESTRUCTURA exime módulos que no existen: {sobran}. Cada uno "
+                         f"descuenta deuda que nadie decidió descontar")
+
+    def test_ningun_modulo_de_rama_esta_exento(self):
+        """La exención es para lo que describe cómo trabaja la skill, no para una rama.
+
+        El criterio no se puede inferir del nombre —`perfiles-heredados.md` suena a rama y es un
+        índice— así que se comprueba contra la tabla de cobertura, que declara qué ramas tienen
+        módulo. Si una de ésas apareciera exenta, la deuda de cobertura se estaría escondiendo
+        en la lista que la mide.
+        """
+        cobertura = (pendientes.RAIZ / "docs" / "COBERTURA.md").read_text(encoding="utf-8")
+        tabla = cobertura.split("## Materias con módulo que no son un fuero", 1)
+        self.assertGreater(len(tabla), 1, "cambió la sección de COBERTURA.md que se cruza acá")
+        for exento in sorted(pendientes.DE_INFRAESTRUCTURA):
+            with self.subTest(exento):
+                self.assertNotIn(f"`{exento}`", tabla[1].split("##")[0],
+                                 f"{exento} figura como módulo de una materia en COBERTURA.md, "
+                                 f"así que su deuda de eval es real y no se exime")
 
 class TestParserDeTabla(unittest.TestCase):
     """La fila delimitadora se reconoce con y sin espacios alrededor del guion.
 
     Buscarla con `startswith("|--")` andaba con `|---|---|` y fallaba EN SILENCIO con
-    `| --- | --- |`: la fila pasaba como dato, se leia "---" como nombre de bloque y el reporte
+    `| --- | --- |`: la fila pasaba como dato, se leía "---" como nombre de bloque y el reporte
     quedaba con una entrada fantasma que no dice nada. Un parser de tablas no puede depender de
-    si el que escribio la tabla puso espacios.
+    si el que escribió la tabla puso espacios.
     """
 
     def test_reconoce_los_dos_estilos(self):
@@ -83,7 +183,7 @@ class TestParserDeTabla(unittest.TestCase):
                                      "no reconoce esta fila delimitadora")
 
     def test_no_confunde_una_fila_de_datos(self):
-        """MUTACION del patron: si se vuelve permisivo, se come filas con contenido."""
+        """MUTACIÓN del patrón: si se vuelve permisivo, se come filas con contenido."""
         for fila in ("| Bloque | Modulo | Fecha |", "| **Transito** | `transito.md` | 14/09/2026 |",
                      "| - | - fila con guiones de verdad | x |"):
             with self.subTest(fila):
@@ -95,6 +195,124 @@ class TestParserDeTabla(unittest.TestCase):
             with self.subTest(campos[0][:30]):
                 self.assertNotRegex(campos[0], r"^[-:\s]*$",
                                     "una fila delimitadora entro como dato")
+
+
+class TestFuentesMarcadasParaRevisar(unittest.TestCase):
+    """El campo `revisar` de las procedencias tiene que llegar a la lista de deuda.
+
+    Lo escriben los dos descargadores cuando el texto bajado no es lo que dice ser -la URL
+    devolvió la ficha, no aparece el articulado, la carátula no coincide con el documento- y
+    durante varias versiones no lo leyó NADIE. Se escribía y se olvidaba, y la única forma de
+    verlo era volver a bajar, que con los 403 de InfoLEG sólo puede hacer el usuario. Es texto
+    offline que ya sabemos defectuoso y que la skill usa igual.
+    """
+
+    def test_lee_las_dos_procedencias_y_nombra_el_corpus(self):
+        marcadas = pendientes.fuentes_marcadas_para_revisar()
+        for corpus, slug, problema in marcadas:
+            with self.subTest(slug):
+                self.assertIn(corpus, ("normas", "jurisprudencia"))
+                self.assertTrue(slug and problema, "una marca sin slug o sin problema")
+                self.assertGreater(len(problema), 20,
+                                   "el problema no dice qué hay que revisar")
+
+    def test_lo_que_reporta_es_lo_que_esta_en_los_archivos(self):
+        """Contra los archivos vivos: lo que el corpus tenga marcado tiene que salir listado.
+
+        No exige que haya alguna. Lo exigía, con el motivo de que una lista vacía es
+        indistinguible de un campo que se dejó de leer, y eso es cierto -- pero atar el
+        control a que el corpus esté sucio lo convierte en un test que se rompe cuando el
+        repositorio mejora, y la salida obvia entonces es apagarlo. El instrumento se prueba
+        con el árbol armado a mano de acá abajo, que no depende del estado del corpus.
+        """
+        import json
+        fuentes = pendientes.RAIZ / "derecho" / "fuentes"
+        esperado = 0
+        for ruta, clave in ((fuentes / "normas" / "procedencia.json", "normas"),
+                            (fuentes / "jurisprudencia" / "procedencia.json", "fallos")):
+            if ruta.is_file():
+                entradas = json.loads(ruta.read_text(encoding="utf-8")).get(clave, {})
+                esperado += sum(len(r.get("revisar", [])) for r in entradas.values())
+        self.assertEqual(len(pendientes.fuentes_marcadas_para_revisar()), esperado)
+
+    def test_sobre_un_arbol_armado_a_mano_encuentra_las_marcas(self):
+        """El instrumento encendido, y sin depender de que el corpus tenga deuda.
+
+        El modo de fallar de este bloque es devolver lista vacía y parecer que no hay nada
+        que revisar. Acá hay tres marcas puestas a propósito, en los dos corpus y con una
+        entrada que lleva dos: si alguna no sale, el campo se dejó de leer.
+        """
+        import json, tempfile
+        with tempfile.TemporaryDirectory() as d:
+            raiz = Path(d)
+            normas = raiz / "derecho" / "fuentes" / "normas"
+            juris = raiz / "derecho" / "fuentes" / "jurisprudencia"
+            normas.mkdir(parents=True)
+            juris.mkdir(parents=True)
+            (normas / "procedencia.json").write_text(json.dumps({"normas": {
+                "ley-x": {"revisar": ["no se encontró ni un artículo: esto no es un articulado"]},
+                "ley-y": {"revisar": ["hay acentuación degradada: la fuente sirve mal el texto",
+                                      "solo 2 artículos en 300 caracteres: sospechosamente corto"]},
+                "ley-sana": {"archivo": "ley-sana.txt"},
+            }}), encoding="utf-8")
+            (juris / "procedencia.json").write_text(json.dumps({"fallos": {
+                "un-fallo": {"revisar": ["el documento bajado no menciona la carátula declarada"]},
+            }}), encoding="utf-8")
+            original = pendientes.RAIZ
+            try:
+                pendientes.RAIZ = raiz
+                marcadas = pendientes.fuentes_marcadas_para_revisar()
+            finally:
+                pendientes.RAIZ = original
+        self.assertEqual(len(marcadas), 4, marcadas)
+        self.assertEqual({c for c, _, _ in marcadas}, {"normas", "jurisprudencia"})
+        self.assertEqual(sorted(s for _, s, _ in marcadas),
+                         ["ley-x", "ley-y", "ley-y", "un-fallo"])
+        self.assertNotIn("ley-sana", [s for _, s, _ in marcadas])
+
+
+class TestNingunaHerramientaQuedaSinDocumentar(unittest.TestCase):
+    """Una herramienta que no está nombrada en ningún documento es una que nadie va a correr.
+
+    No falla: simplemente no se usa, y lo que medía deja de medirse sin que nada lo diga. Pasó con
+    dos — `verificar_respuesta.py`, que revisa que los marcadores de una respuesta ya producida
+    sean del vocabulario y estén verbatim, y `descargar_series.py`, que baja el IPC, el CER y el
+    RIPTE que consumen las calculadoras—: existían, tenían test, y no estaban escritas en ninguna
+    parte.
+
+    **Documentada quiere decir alcanzable desde una puerta.** `herramientas/pendientes.py` es la
+    puerta de las que miden pendientes y las nombra con su comando; el resto —mapas, reparaciones,
+    auditorías— vive en `docs/DESARROLLO.md`. `AGENTS.md` dice exactamente eso, y este test es lo
+    que lo sostiene.
+
+    MUTACIÓN que lo comprueba: sacar de `docs/DESARROLLO.md` la mención a `descargar_series.py`
+    deja este test en rojo.
+    """
+
+    #: Las dos puertas. Una herramienta vale por estar en cualquiera.
+    PUERTAS = ("herramientas/pendientes.py", "docs/DESARROLLO.md")
+
+    def setUp(self):
+        raiz = RAIZ
+        self.raiz = raiz
+        self.herramientas = [p for d in ("herramientas", "derecho/fuentes/scripts")
+                             for p in sorted((raiz / d).glob("*.py"))
+                             if not p.name.startswith(("test_", "_"))]
+        self.docs = "\n".join((raiz / d).read_text(encoding="utf-8") for d in self.PUERTAS)
+
+    def test_el_control_encuentra_las_herramientas(self):
+        """Instrumento encendido: sin herramientas, «todas documentadas» no dice nada."""
+        self.assertGreater(len(self.herramientas), 12,
+                           "no encontró los ejecutables de herramientas/ ni de fuentes/scripts/")
+
+    def test_todas_estan_nombradas_en_alguna_puerta(self):
+        sueltas = [p.name for p in self.herramientas if p.name not in self.docs]
+        self.assertEqual(
+            sueltas, [],
+            "herramientas que ningún documento nombra, así que nadie las va a correr: "
+            + ", ".join(sueltas) + f". Van a {self.PUERTAS[0]} si miden un pendiente, y a "
+            f"{self.PUERTAS[1]} si no.")
+
 
 
 if __name__ == "__main__":

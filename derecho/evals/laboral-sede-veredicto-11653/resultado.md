@@ -58,7 +58,7 @@ sentencia y presupone que la sentencia fijó lo que se debe.
 
 La regulación de honorarios es **nula en su forma**: el art. 15 de la Ley 14.967 exige, bajo
 pena de nulidad, que indique el monto del juicio, las pautas de cálculo, **el monto expresado
-en jus** y las tareas remuneradas. Además hay que verificar la escala del art. 21 (10% a 25%,
+en jus** y las tareas remuneradas. Además, hay que verificar la escala del art. 21 (10% a 25%,
 con mención expresa a Tribunales Colegiados de Instancia Única), el mínimo de 7 jus del
 art. 22, y las etapas del art. 28.
 

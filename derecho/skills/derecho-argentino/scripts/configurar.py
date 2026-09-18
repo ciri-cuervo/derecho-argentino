@@ -46,7 +46,7 @@ def main():
     p = argparse.ArgumentParser(description=__doc__,
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--repo", default=None, help="Ruta a la raíz del repo")
-    p.add_argument("--mostrar", action="store_true", help="Informa sin escribir configuracion")
+    p.add_argument("--mostrar", action="store_true", help="Informa sin escribir configuración")
     a = p.parse_args()
 
     if a.repo and not a.mostrar:
@@ -54,7 +54,7 @@ def main():
         if not es_repo(ruta):
             raise SystemExit(
                 f"  {ruta} no parece el repo: falta {MARCADOR}\n"
-                f"  Indicar la RAIZ del repo, no una subcarpeta.")
+                f"  Indicar la RAÍZ del repo, no una subcarpeta.")
         destino = guardar_raiz(ruta)
         print(f"  Configurado: {ruta.resolve()}")
         print(f"  Guardado en: {destino}")

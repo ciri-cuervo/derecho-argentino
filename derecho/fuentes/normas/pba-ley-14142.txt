@@ -1,14 +1,14 @@
 Ley 14.142 PBA - Reforma del CPCCBA (arts. 40, 143, 143 bis, 144 y 148) y del art. 16 de la Ley 11.653
 ==============================================================================
-Jurisdiccion:     pba
+Jurisdicción:     pba
 Fuente:           https://normas.gba.gob.ar/documentos/VN3qDcM0.html
-Descargado:       2026-09-14
+Descargado:       2026-09-17
 SHA-256 (crudo):  e21468011df67ec8082ed84dfa9e9febe408f0031a94a5952aa75c7434158b43
 Charset:          UTF-8
 
-Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
-NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
-Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
 el manifiesto `normas.json`.
 ==============================================================================
 

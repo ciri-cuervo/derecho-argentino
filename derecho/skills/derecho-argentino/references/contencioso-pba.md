@@ -1,6 +1,8 @@
 # Contencioso administrativo bonaerense · Código Ley 12.008
 
-> Módulo de referencia de la skill `derecho-argentino`. Numeración global, sección 26.
+> Módulo de referencia de la skill `derecho-argentino`. Numeración global: las remisiones cruzadas
+> entre módulos siguen siendo válidas. **Rigen las reglas de integridad de la sección 2 del
+> SKILL.md.**
 
 ---
 
@@ -41,7 +43,7 @@ art. 24 inc. 3 de la Ley 11.922—; y las controversias entre prestadores de ser
 concesionarios de obras públicas y usuarios, en cuanto estén regidas por el derecho
 administrativo.
 
-`[VERIFICAR VIGENCIA: alcance del art. 2 inc. 1 de la Ley 12.008 - el texto consolidado advierte que la Ley 13.101, al incorporar los incisos 8 y 9, transcribe el artículo sin mencionar el tramo subrayado del inciso 1. Cotejar contra el Boletin Oficial antes de apoyarse en esa parte]`
+`[VERIFICAR VIGENCIA: alcance del art. 2 inc. 1 de la Ley 12.008 - el texto consolidado advierte que la Ley 13.101, al incorporar los incisos 8 y 9, transcribe el artículo sin mencionar el tramo subrayado del inciso 1. Cotejar contra el Boletín Oficial antes de apoyarse en esa parte]`
 
 **La competencia en razón de la materia es improrrogable (art. 6).**
 
@@ -224,6 +226,30 @@ cautelares**, donde el juez resuelve conforme al art. 26.
 > El escrito de apelación **es fundado desde la interposición**. No hay expresión de agravios
 > posterior como en el proceso civil: quien apela sin fundar, no apela.
 
+### 26.9 bis La emergencia económica de la Ley 15.557, y lo que NO hace
+
+**Está declarada y vence el 31/03/2027.** El art. 1 de la **Ley 15.557** —Presupuesto 2026,
+sancionada el 26/11/2025, cotejada contra `fuentes/normas/pba-ley-15557.txt`— declara en estado de
+emergencia la situación económica **de la Provincia y de los Municipios** desde su publicación y
+**hasta el 31 de marzo de 2027**, fundándola en la recesión y en el incumplimiento de las
+transferencias nacionales.
+
+> **Lo importante es lo que no dice, y por eso está escrito acá.** Esa emergencia **no suspende
+> ejecuciones, no declara inembargables los fondos públicos ni consolida deuda**: leído el texto
+> completo, no hay cláusula que toque el trámite ni el cobro de una sentencia contra la Provincia.
+> Es una emergencia **fiscal y de contratación** —el art. 45 faculta a los ministerios en el marco
+> de su competencia y el art. 46 exceptúa contrataciones de una intervención obligatoria—, no una
+> ley de emergencia procesal como las que suspendieron ejecuciones en otros períodos.
+>
+> **Se anota porque la inferencia contraria es automática**: aparece la palabra "emergencia" en
+> una ley provincial y se supone que el crédito contra el Estado quedó afectado. Acá no.
+
+El art. 2 crea el **"Fondo de Recupero de Deudas del Estado Nacional"**, integrado por lo que la
+Provincia perciba de sus reclamos contra la Nación, **incluidas las causas que tramitan ante la
+CSJN**. Es asignación presupuestaria, no un derecho invocable por un tercero.
+
+`[VERIFICAR VIGENCIA: prórroga o ampliación de la emergencia de la Ley 15.557 PBA más allá del 31/03/2027, y leyes posteriores que sí afecten la ejecución de sentencias contra la Provincia]`
+
 ### 26.10 Antes de demandar
 
 1. **El plazo del art. 18**, computado desde la notificación que corresponda según el inciso, y
@@ -242,7 +268,7 @@ cautelares**, donde el juez resuelve conforme al art. 26.
    demandar, anotada como plazo fatal.
 8. **Si el resarcimiento se acumula o se reserva** para el reclamo autónomo del art. 20.
 
-`[ALERTA PLAZO FATAL: art. 18 Ley 12.008 - 90 días - desde la notificación del acto que agota la via - vencimiento: calcular]`
+`[ALERTA PLAZO FATAL: art. 18 Ley 12.008 - 90 días - desde la notificación del acto que agota la vía - vencimiento: calcular]`
 
 ---
 

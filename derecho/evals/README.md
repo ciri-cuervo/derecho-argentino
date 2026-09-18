@@ -18,6 +18,12 @@ lee el análisis que produce y lo compara contra la solución esperada.
 
 ## Estructura de un caso de verificación
 
+Además de los casos, `PROCEDIMIENTO.md` lleva los puntos que se puntúan en **todos** los
+casos: no qué identificó el análisis, sino cómo llegó —si preguntó antes, si abrió el módulo,
+si corrió la herramienta en vez de calcular, si pegó su salida sin rearmarla, si los marcadores
+están verbatim—. Una rúbrica de contenido no ve esa clase de fallas porque la respuesta sale
+bien formada igual.
+
 Cada caso es una carpeta con tres archivos:
 
 ```

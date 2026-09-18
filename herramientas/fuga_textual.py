@@ -23,6 +23,7 @@ Sale con código 1 si encontró prosa, para poder encadenarlo.
 No se instala con el plugin: vive fuera de `derecho/`.
 """
 
+import argparse
 import re
 import sys
 import pathlib
@@ -36,7 +37,7 @@ CODIGO = re.compile(r"`[^`\n]*`")
 RUTA = re.compile(r"[\w./-]+\.(?:md|txt|json|py|pdf)\b")
 # Cita del perfil heredado para nombrar su error: *"..."*. Los bloques de contradicciones
 # nominadas la usan, y test_scripts.py exige que sea VERBATIM contra kb/. Sin esta exclusión
-# los dos guardarrailes se pisan: uno obliga a copiar la frase y el otro la reporta como fuga.
+# los dos guardarraíles se pisan: uno obliga a copiar la frase y el otro la reporta como fuga.
 CITA_DEL_PERFIL = re.compile(r'\*"[^"\n]{15,}"\*')
 
 
@@ -59,8 +60,8 @@ def secuencias(palabras: list[str], n: int = N) -> set[str]:
     return {" ".join(palabras[i:i + n]) for i in range(len(palabras) - n + 1)}
 
 
-# Vocabulario de cita: numeros de norma, fechas, artículos, incisos, boletines. Una secuencia
-# hecha mayormente de esto es un DATO -que norma, de que fecha, que artículo-, no prosa de nadie.
+# Vocabulario de cita: números de norma, fechas, artículos, incisos, boletines. Una secuencia
+# hecha mayormente de esto es un DATO -qué norma, de qué fecha, qué artículo-, no prosa de nadie.
 # El proyecto ya lo tiene dicho: el articulado, los plazos y las carátulas de fallos se mueven
 # libres; lo que no se mueve es la redacción.
 CITA = {
@@ -71,7 +72,7 @@ CITA = {
     "vigencia", "texto", "segun", "según", "resolución", "bis", "ter", "quater",
     "quinquies", "y", "de", "del", "la",
     "el", "los", "las", "al", "a", "en", "por", "o", "un", "una", "no",
-    # Unidades y adjetivos de plazo. Una fila de tabla que dice materia, numero y norma es
+    # Unidades y adjetivos de plazo. Una fila de tabla que dice materia, número y norma es
     # el dato "cuanto tiempo da esa norma", y el proyecto ya lo declara de movimiento libre.
     "dia", "dias", "mes", "meses", "anio", "anios", "ano", "anos", "hora", "horas", "plazo",
     "plazos", "habil", "habiles", "corrido", "corridos", "judicial", "judiciales",
@@ -81,7 +82,7 @@ CITA = {
 
 
 def es_cita(secuencia: str) -> bool:
-    """True si la secuencia es mayormente numeros y vocabulario de cita, no redacción."""
+    """True si la secuencia es mayormente números y vocabulario de cita, no redacción."""
     palabras = secuencia.split()
     datos = sum(1 for p in palabras if p.isdigit() or p in CITA)
     return datos >= len(palabras) - 2
@@ -112,10 +113,10 @@ def cargar_base():
     El detector marca candidatos, no culpables. Decidir si una coincidencia es cita legal,
     dato o prosa copiada es una lectura, no una heurística, y esa lectura hay que poder
     registrarla. Lo que este archivo guarda es el resultado de haberla hecho: si una secuencia
-    figura acá, ya se miro y se decidió que puede quedar.
+    figura acá, ya se miró y se decidió que puede quedar.
 
     La consecuencia útil: la corrida diaria no reporta el total histórico sino lo NUEVO, que
-    es lo unico sobre lo que hay que decidir algo.
+    es lo único sobre lo que hay que decidir algo.
 
     El sobre del archivo es el común a los cinco: ver `_veredictos.py`.
     """
@@ -127,7 +128,7 @@ def cargar_base():
 # controlado del que dependen los scripts. Coincidir ahí es lo correcto, no una fuga.
 #
 # La excepción es la RUTA, no el nombre. Comparando por basename se eximia cualquier archivo
-# llamado marcadores.md en cualquier parte del arbol, y ya habia uno: el grader homonimo de
+# llamado marcadores.md en cualquier parte del árbol, y ya había uno: el grader homónimo de
 # los evals, que quedaba sin medir sin que nadie lo pidiera. Es la alarma que no suena nunca,
 # y aparece sola en cuanto dos carpetas eligen el mismo nombre de archivo.
 EXCEPCIONES = {pathlib.Path("references/marcadores.md")}
@@ -136,7 +137,7 @@ EXCEPCIONES = {pathlib.Path("references/marcadores.md")}
 def es_excepcion(archivo: pathlib.Path) -> bool:
     """True si la ruta TERMINA en una de las excepciones declaradas.
 
-    Se compara la cola de la ruta porque el archivo llega por linea de comandos y puede venir
+    Se compara la cola de la ruta porque el archivo llega por línea de comandos y puede venir
     relativo, absoluto o desde otro directorio; lo que no se acepta es que alcance con el
     nombre suelto.
     """
@@ -154,13 +155,19 @@ NO_SON_CAPA_2 = {pathlib.Path("derecho/kb/project/README.md"),
 
 
 def main(argv: list[str]) -> int:
-    aceptar = "--aceptar" in argv
-    argv = [a for a in argv if a != "--aceptar"]
+    p = argparse.ArgumentParser(
+        description=__doc__.splitlines()[0],
+        formatter_class=argparse.RawDescriptionHelpFormatter)
+    p.add_argument("--aceptar", action="store_true",
+                   help="mandar las secuencias nuevas a la línea de base")
+    p.add_argument("archivos", nargs="*", metavar="archivo.md")
+    a = p.parse_args(argv)
+    aceptar, argv = a.aceptar, a.archivos
     if not argv:
         print("uso: fuga_textual.py [--aceptar] <archivo.md> [...]", file=sys.stderr)
         return 2
     if not RAIZ_KB.is_dir():
-        print(f"no encuentro {RAIZ_KB}: corre el script desde la raiz del repo", file=sys.stderr)
+        print(f"no encuentro {RAIZ_KB}: corré el script desde la raíz del repo", file=sys.stderr)
         return 2
 
     kb = corpus(RAIZ_KB, ("*.md", "*.template"), excluir=NO_SON_CAPA_2)
@@ -176,7 +183,7 @@ def main(argv: list[str]) -> int:
     for ruta in argv:
         archivo = pathlib.Path(ruta)
         if es_excepcion(archivo):
-            print(f"{archivo}: excepcion declarada en LICENCIAS.md, no se mide")
+            print(f"{archivo}: excepción declarada en LICENCIAS.md, no se mide")
             continue
         propias = secuencias(normalizar(archivo.read_text(encoding="utf-8")))
         coincidencias = propias & kb
@@ -194,7 +201,7 @@ def main(argv: list[str]) -> int:
 
     if aceptar and nuevas:
         _veredictos.guardar(BASE, sobre, "secuencias", sorted(revisadas | nuevas))
-        print(f"\nlinea de base actualizada: +{len(nuevas)} secuencias revisadas")
+        print(f"\nlínea de base actualizada: +{len(nuevas)} secuencias revisadas")
         return 0
 
     if total_prosa:

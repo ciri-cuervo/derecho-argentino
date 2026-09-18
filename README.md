@@ -9,26 +9,57 @@
 # Derecho argentino · skill para agentes de IA
 
 <p align="center">
-  <a href="CHANGELOG.md"><img src="assets/marca/chapa-version.png" width="105" height="32" alt="Versión 1.1.1"></a>
+  <a href="CHANGELOG.md"><img src="assets/marca/chapa-version.png" width="106" height="32" alt="Versión 1.2.0"></a>
   <a href="LICENCIAS.md"><img src="assets/marca/chapa-licencia.png" width="168" height="32" alt="Licencias: contenido CC BY-SA 4.0, código MIT"></a>
   <img src="assets/marca/chapa-python.png" width="135" height="32" alt="Requiere Python 3">
   <img src="assets/marca/chapa-agentes.png" width="172" height="32" alt="Corre en Claude y Codex (ChatGPT)">
 </p>
 
-Skill de análisis, redacción y revisión jurídica bajo **derecho argentino**, con una capa offline
-de fuente primaria y calculadoras deterministas. Trabaja tanto **desde una parte** como **desde el
-órgano jurisdiccional**.
+Skill de análisis, redacción y revisión jurídica bajo **derecho argentino**, para trabajar tanto
+**desde una parte** como **desde el órgano jurisdiccional**.
+
+**Lo que la define es lo que se niega a hacer.** Cuando le falta un dato **lo dice y se planta**,
+en vez de entregar el dato plausible que nadie va a revisar — que es la forma en que un asistente
+jurídico hace daño de verdad. Abajo está, punto por punto, con qué lo sostiene.
 
 > [!NOTE]
-> **Está en desarrollo temprano.** Lo que hay son **31 módulos**, y cada uno lleva su propia
+> **Está en desarrollo temprano.** Lo que hay son **61 módulos**, y cada uno lleva su propia
 > **fecha de verificación contra fuente primaria**. Donde todavía no hay módulo auditado, la skill
 > abre el material heredado del repositorio y **avisa cada vez que ese material no pasó
 > auditoría** — no lo presenta como verificado. La cobertura crece módulo por módulo; lo que no
 > cambia es la regla de decir de dónde sale cada cosa.
+>
+> **Qué ramas hay cubiertas y cuáles no**, cruzado contra una taxonomía traída de afuera y con su
+> fecha de relevamiento: [`docs/COBERTURA.md`](docs/COBERTURA.md). Es un mapa para decidir por
+> dónde crece, no un enunciado de alcance: **el alcance es el derecho argentino**.
 
-[Instalar](#-instalar) · [Armar el proyecto](#-armar-el-proyecto) · [Usar](#-usar) ·
+[Qué hace distinto](#-qué-hace-distinto) · [Instalar](#-instalar) · [Armar el proyecto](#-armar-el-proyecto) · [Usar](#-usar) ·
 [Comandos](#comandos) · [Contar cómo te fue](#-contar-cómo-te-fue) ·
 [Cómo está armado](docs/ARQUITECTURA.md) · [Desarrollar](docs/DESARROLLO.md)
+
+<img src="assets/marca/separador.png" width="100%" alt="">
+
+## 🔍 Qué hace distinto
+
+**No inventa.** Ninguna cita de fallo sin carátula, causa y fecha verificadas. Ningún monto de
+memoria. Cuando falta un dato sale un **marcador canónico** que dice exactamente qué falta para
+resolverlo, en vez de una estimación plausible.
+
+**Pregunta antes de asumir.** No hay rol por defecto —puede estar preguntando un abogado de parte,
+un juez, un empleado de un tribunal— ni régimen por defecto: en el fuero laboral bonaerense
+conviven la Ley 11.653 y la Ley 15.057 según la fecha de la audiencia de vista, y la skill
+pregunta esa fecha antes de citar un código procesal.
+
+**Fuente primaria offline.** `derecho/fuentes/` guarda el texto consolidado de **217 normas** y
+**90 fallos**, cada uno con su URL, su fecha de descarga y su hash SHA-256. `verificar_normas.py`
+vuelve a pedirlos y sale con código 1 si alguno cambió: es una alarma de reforma legislativa, no
+un backup.
+
+**Aritmética con scripts, no a ojo.** Liquidación por extinción, cómputo de plazos hábiles con
+ferias y feriados trasladables, intereses, honorarios y aportes en PBA, y la conversión entre pesos
+y UMA que el art. 51 de la Ley 27.423 exige en la justicia nacional. Los scripts **no traen
+montos**: piden el tope del art. 245, el valor del jus o el índice, y antes que inventar un número
+salen con código 2.
 
 <img src="assets/marca/separador.png" width="100%" alt="">
 
@@ -43,7 +74,7 @@ Windows, Linux y macOS. Todos los caminos llevan al mismo lugar y **alcanza con 
 sabés cuál, andá al de la app de Claude: es el más corto y el que menos cosas pide.
 
 > [!IMPORTANT]
-> **La descarga son unos 70 MB** y son casi todo normas y fallos, para que la skill pueda
+> **La descarga son unos 83 MB** y son casi todo normas y fallos, para que la skill pueda
 > trabajar sin conexión. Tarda un rato la primera vez y no hay que volver a hacerlo.
 
 ### Desde la app de escritorio
@@ -51,7 +82,7 @@ sabés cuál, andá al de la app de Claude: es el más corto y el que menos cosa
 Es el camino sin consola: todo por menú. En las dos apps, en algún momento te va a pedir una
 dirección. **Es siempre esta, y es lo único que hay que copiar y pegar:**
 
-```
+```text
 ciri-cuervo/derecho-argentino
 ```
 
@@ -65,7 +96,7 @@ botón **Agregar** → *Agregar marketplace* → *Agregar desde un repositorio*,
 o la dirección web de este sitio.
 
 **3 · Instalá el plugin.** En la lista aparece **Derecho argentino**, bajo *Nuevo*. Click en el
-**+** de su tarjeta. Cuando el `+` se convierte en un tilde, quedó instalado.
+**+** de su tarjeta. Cuando el `+` se convierte en una tilde, quedó instalado.
 
 Queda disponible en los dos modos de la app, **Chat y Cowork** y **Code**.
 
@@ -140,13 +171,12 @@ meses por qué lo creaste.
 
 **Instrucciones.** Es lo único que cambia de verdad el resultado. **No repitas lo que la skill ya
 sabe** —el derecho aplicable, los plazos, las fórmulas—: poné lo que la skill **no puede
-adivinar** de vos. Cuatro cosas alcanzan:
+adivinar** de vos. Tres cosas alcanzan:
 
-```
+```text
 Desde dónde consulto: abogado de parte, habitualmente por el trabajador.
 Fueros y jurisdicción: laboral y civil, Provincia de Buenos Aires, Departamento
 Judicial de La Plata; ocasionalmente fuero laboral nacional.
-Dónde está el repositorio: /Users/nombre/derecho-argentino  (solo si lo clonaste)
 Cómo quiero las respuestas: al grano, sin resúmenes de lo que ya dije.
 ```
 
@@ -170,12 +200,12 @@ plazos o fallos sin verificarlos — es justo lo que la skill está hecha para n
 
 No hay sintaxis que aprender: se describe el caso con los datos que haya.
 
-```
+```text
 Liquidación por despido sin causa: ingresó el 03/03/2019, despido el 10/08/2026,
 mejor remuneración $1.450.000, no le pagaron nada. Trabajaba en La Plata.
 ```
 
-```
+```text
 Me notificaron la demanda el viernes 11/9. ¿Cuándo vence para contestar en PBA?
 ```
 
@@ -190,8 +220,8 @@ verificar, lo deja marcado en vez de completarlo por su cuenta.
 
 ### Comandos
 
-Si preferís ir directo al cálculo hay ocho, aunque todo se alcanza igual preguntando en lenguaje
-natural.
+Si preferís ir directo al cálculo hay **ocho comandos**, aunque todo se alcanza igual
+preguntando en lenguaje natural.
 
 > [!NOTE]
 > **Los comandos que empiezan con `/` son de Claude Code, la consola.** En las apps de
@@ -214,31 +244,6 @@ natural.
 
 Los cuatro de cálculo **no son atajos al script**: identifican primero qué régimen rige, piden los
 datos que faltan y recién después calculan.
-
-<img src="assets/marca/separador.png" width="100%" alt="">
-
-## 🔍 Qué hace distinto
-
-**No inventa.** Ninguna cita de fallo sin carátula, causa y fecha verificadas. Ningún monto de
-memoria. Cuando falta un dato sale un **marcador canónico** que dice exactamente qué falta para
-resolverlo, en vez de una estimación plausible.
-
-**Pregunta antes de asumir.** No hay rol por defecto —puede estar preguntando un abogado de parte,
-un juez, un empleado de un tribunal— ni régimen por defecto: en el fuero laboral bonaerense
-conviven la Ley 11.653 y la Ley 15.057 según la fecha de la audiencia de vista, y la skill
-pregunta esa fecha antes de citar un código procesal.
-
-**Fuente primaria offline.** `derecho/fuentes/` guarda el texto consolidado de **142 normas** y
-**70 fallos**, cada uno con su URL, su fecha de descarga y su hash SHA-256. `verificar_normas.py`
-vuelve a pedirlos y sale con código 1 si alguno cambió: es una alarma de reforma legislativa, no
-un backup.
-
-**Aritmética con scripts, no a ojo.** Liquidación por extinción, cómputo de plazos hábiles con
-ferias y feriados trasladables, intereses, honorarios y aportes en PBA. Los scripts **no traen
-montos**: piden el tope del art. 245, el valor del jus o el índice, y antes que inventar un número
-salen con código 2.
-
-<img src="assets/marca/separador.png" width="100%" alt="">
 
 ## ⚠️ Advertencias
 
@@ -319,5 +324,6 @@ usarlos comercialmente, leé [`LICENCIAS.md`](LICENCIAS.md).
 
 **[Cómo está armado](docs/ARQUITECTURA.md)** · **[Desarrollar el plugin](docs/DESARROLLO.md)** ·
 [Instalar desde la terminal](docs/TERMINAL.md) ·
-[Auditorías contra fuente primaria](docs/AUDITORIAS.md) · [Mapa de licencias](LICENCIAS.md) ·
+[Auditorías contra fuente primaria](docs/AUDITORIAS.md) · [Qué ramas cubre](docs/COBERTURA.md) ·
+[Mapa de licencias](LICENCIAS.md) ·
 [Versiones](CHANGELOG.md) · [Seguridad y reportes](SECURITY.md)

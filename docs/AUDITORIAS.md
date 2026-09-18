@@ -3,9 +3,18 @@
 Registro de las auditorías que este fork corre contra `derecho/fuentes/`: qué se leyó, contra
 qué texto, y qué se encontró. Es **capa 3a, CC BY-SA 4.0** — ver [`LICENCIAS.md`](../LICENCIAS.md).
 
-**Una auditoría vale por su fecha**, así que cada entrada la lleva: dice contra qué texto se
-cotejó y cuándo, no qué se cambió. Va acá y no en `derecho/kb/CHANGELOG.md` porque ese archivo
-es el historial de la base heredada, capa 2, y la frontera de licencia es la ruta.
+**Una auditoría vale por su fecha**, así que cada entrada la lleva: dice **contra qué texto se
+cotejó y cuándo**. Varias anotan además dónde se corrigió lo que encontraron, y se quedan como
+están: es parte de lo que se hizo ese día. Lo que no va acá es el cambio sin el cotejo — para eso
+están `references/changelog-normativo.md` y `derecho/kb/CHANGELOG.md` —este último es el
+historial de la base heredada, capa 2, y la frontera de licencia es la ruta—.
+
+**El orden es de la más nueva a la más vieja, y una entrada no se reescribe.** Si un hallazgo
+posterior la supera, se anota **debajo de la entrada**, con su fecha, y la original queda: lo que
+se registró es lo que se verificó ese día. Las tres entradas de septiembre entraron en el mismo
+commit, así que su orden relativo no sale de una fecha sino de sus referencias internas —la de la
+Ley 15.057 cita a la normativa cruzada como anterior—; la de fuentes doctrinarias no tiene ninguna
+que la ubique y quedó al final.
 
 Lo que va en cada lugar:
 
@@ -18,53 +27,358 @@ Lo que va en cada lugar:
 
 ---
 
-### Septiembre 2026 - Incorporación de fuentes doctrinarias: CCyC Comentado y derecho de daños
+## 18/09/2026 - El CPCCBA, que se citaba en catorce módulos y no tenía dueño
 
-Dos obras de referencia sumadas al repositorio, con tratamiento distinto según su licencia.
+**Contra qué se cotejó.** `fuentes/normas/pba-cpccba-7425.txt` y `fuentes/normas/cpccn-17454.txt`,
+enfrentados artículo por artículo. **No se citó jurisprudencia.**
 
-**Código Civil y Comercial de la Nación Comentado (SAIJ-INFOJUS, 2ª ed. actualizada 2022).**
-Directores: Marisa Herrera, Gustavo Caramelo y Sebastián Picasso. Publicación de distribución
-gratuita del Ministerio de Justicia y Derechos Humanos, de libre reproducción total o parcial
-citando la fuente. Los seis tomos se incorporan completos en `derecho/fuentes/ccyc-comentado/`
-(~18 MB), junto con `INDICE.md`, que:
+**Por qué se leyó.** Medido: el CPCCBA aparece en catorce módulos y `proceso-nacional.md` existía
+para el CPCCN sin espejo bonaerense. Excepciones previas y caducidad de instancia en PBA no
+estaban en ningún módulo.
 
-- mapea cada tomo a su rango de artículos y al archivo PDF correspondiente;
-- detalla la estructura interna de cada tomo (Libro / Título / Capítulo) con la página del PDF
-  donde arranca cada sección, verificada contra el cuerpo de la obra y no calculada;
-- consigna el desfasaje entre página impresa y página PDF, constante dentro de cada tomo
-  (T1 +39, T2 +23, T3 +27, T4 +29, T5 +25, T6 +25);
-- incluye una tabla de ruteo rápido por instituto, pensada para ir directo al comentario de un
-  artículo mientras se redacta;
-- señala que "contratos en particular" queda partido entre los tomos 3 y 4, que es el error de
-  navegación más probable;
-- registra una discrepancia de la fuente sin corregirla: los tomos 1 a 5 imprimen como ISBN de
-  obra completa 978-987-8338-31-6 y el tomo 6 imprime 978-987-8338-37-8.
+**Qué salió.**
 
-**Manual de Derecho de Daños, 2ª ed. (Weingarten -dir.-, La Ley, 2015).** Obra comercial con
-todos los derechos reservados: el editor prohíbe expresamente su reproducción total o parcial.
-Como este repositorio es público, **el PDF no se incorpora y no debe incorporarse**. En su lugar
-se agrega `derecho/kb/doctrina/civil-DOCTRINA-danos.md`, un índice doctrinario con 38 entradas por
-instituto, cada una con síntesis propia, artículos del CCCN y del Código derogado, fallos
-citados y remisión a capítulo y página. No contiene transcripción de la obra: el texto
-entrecomillado corresponde a carátulas de fallos y a expresiones de la ley.
+- **La caducidad no funciona igual, y decide expedientes.** El **art. 315 CPCCBA** (texto según
+  Ley 13.986) sustancia el pedido *"previa intimación por única vez a las partes para que en el
+  término de cinco (5) días manifiesten su intención de continuar"*, y el **art. 316** condiciona
+  la declaración de oficio a esa misma intimación. El **art. 315 CPCCN** sustancia *"únicamente
+  con un traslado"* y el **316** declara de oficio *"sin otro trámite que la comprobación del
+  vencimiento"*. **En PBA hay un acto que salva la instancia y en la Nación no.**
+- **El art. 310 tampoco coincide.** El bonaerense pone en los tres meses la **Justicia de Paz** y
+  los procesos **sumarios**; el nacional pone las **ejecuciones especiales y los incidentes**, que
+  el provincial no enumera.
+- **Las excepciones previas son el art. 345 y no el 347.** El art. 347 del CPCCBA es otra cosa: el
+  requisito de admisión. Es el número el que engaña, no el instituto.
+- **El deber de fundar sí coincide**: art. 34 inc. 4 en los dos códigos, mismo número y mismo
+  texto. Junto con el art. 29 inc. 4 de la Ley 189 —mismo texto, otro número— completa el mapa de
+  dónde se cita bien y dónde se cita mal.
 
-El archivo consigna además qué institutos la obra **no** trata de forma autónoma -antijuridicidad,
-relación de causalidad, eximentes y prescripción no tienen capítulo propio; el daño punitivo solo
-tres menciones breves- y una sección de advertencias de vigencia, porque la obra es de 2015 y
-comenta el CCCN recién sancionado: DNU 70/2023 en locaciones y obligaciones en moneda extranjera,
-art. 1764 CCCN y adhesión provincial a la Ley 26.944, tope del daño punitivo hoy en canastas
-básicas por la Ley 27.701, y las fórmulas de cuantificación, que no tienen consagración legal.
-Se deja señalado que la obra atribuye el art. 52 bis LDC a la "ley 26.367" cuando corresponde a
-la Ley 26.361.
-
-**Regla nueva de higiene del repositorio.** Se agrega `derecho/fuentes/_local/` al `.gitignore`:
-es la carpeta donde el abogado guarda su ejemplar de obras comerciales, que nunca se commitean.
-El criterio: una obra entra al repositorio solo si su propia licencia lo permite. Las que no,
-entran como doctrina destilada con remisión, nunca como texto.
+**Y el arancel de PBA salió de donde no correspondía.** La Ley 14.967 vivía como sección 1.6.6 de
+`sede-judicial-pba.md`, que es del fuero laboral, cuando es la ley arancelaria de **toda** la
+justicia bonaerense y sus hermanas —Leyes 27.423 y 5.134— ya tenían módulo. Pasó a
+`honorarios-pba.md`, **conservando el número 1.6.6**: la numeración de este repositorio es global
+y no se renumera.
 
 ---
 
-### Septiembre 2026 - Auditoría contra fuente primaria: Ley 15.057, mediación PBA, intereses y art. 245
+## 18/09/2026 - La sentencia en la justicia nacional y en el fuero CAyT porteño
+
+**Contra qué se cotejó.** `fuentes/normas/cpccn-17454.txt`, `fuentes/normas/ley-18345.txt` y
+`fuentes/normas/caba-ley-189.txt`, artículo por artículo, leídos del texto consolidado. **No se
+citó jurisprudencia**: lo que necesita precedente quedó marcado en los módulos.
+
+**Qué se leyó y qué salió.**
+
+- **El art. 155 de la Ley 18.345 lista al art. 163 del CPCCN.** La pregunta que abrió la lectura
+  era si el contenido de la sentencia laboral nacional sale de la Ley 18.345 o del CPCCN, y la
+  respuesta no es "por analogía" ni "por supletoriedad genérica": el art. 155 enumera los
+  artículos aplicables uno por uno, y adentro están los **arts. 160, 161, 163, 164 y 165** y el
+  **art. 34 incs. 2, 4, 5 y 6**. De ahí que el civil y el laboral nacionales compartan pieza, y
+  que `sede-judicial-nacional.md` sea **uno solo** y no dos.
+- **Lo que la Ley 18.345 no cede son los plazos recursivos.** El art. 155 **no** lista el art. 244
+  CPCCN. Apelar la definitiva son **seis días con los agravios adentro** (art. 116), la
+  interlocutoria **tres días sin fundar** (art. 117), y sin agravios el recurso **se deniega sin
+  más trámite** (art. 118). Informar los cinco días del art. 244 en este fuero es error.
+- **El deber de fundar cambia de número y no de texto.** Art. 34 inc. 4 CPCCN y **art. 29 inc. 4
+  de la Ley 189** dicen lo mismo, palabra por palabra, incluido *"bajo pena de nulidad"*. Es el
+  error de cita más difícil de ver leyendo, porque la frase citada es exacta.
+- **El art. 147 de la Ley 189 no es el art. 163 del CPCCN con otro número.** Tres diferencias
+  salieron del cotejo: el **inc. 5 exige la valoración de la prueba** como contenido escrito,
+  donde el CPCCN pide sólo "los fundamentos y la aplicación de la ley"; el mérito de los hechos
+  sobrevinientes es **inciso autónomo** (inc. 7) y no un párrafo del de la decisión; y el **inc. 8
+  remite al art. 397** para el plazo de cumplimiento cuando la condenada es la autoridad
+  administrativa, que no tiene equivalente nacional.
+- **El art. 148 condiciona los daños a que hayan sido reclamados.** Es congruencia escrita en el
+  código del fuero, y quedó como el nudo del caso de prueba porteño.
+
+**Qué quedó sin cerrar.** El régimen de notificaciones electrónicas de los dos fueros —acordadas
+de la CSJN, resoluciones del Consejo de la Magistratura porteño— **no está bajado**, así que
+desde cuándo corre un plazo va con marcador y no con fecha. Y ningún estándar de nulidad por falta
+de fundamentación se afirmó: sin fallo leído, marcador.
+
+---
+
+## 18/09/2026 - Incorporación de cinco normas nuevas, y dos resultados que contradicen su origen
+
+Segunda tanda de la revisión que abrió la auditoría del régimen penal juvenil. Cinco textos
+bajados de InfoLEG y del registro provincial bonaerense, con procedencia y hash, y cotejados
+antes de escribir una línea.
+
+**Ley 27.799, Régimen Penal Tributario.** El repo ya razonaba sobre ella en `civil.md` 6.3 sin
+tener el texto, y por eso `tributario.md` 33 arrastraba un marcador de monto sobre el umbral del
+art. 1. **Ese marcador se cerró contra fuente**: son cien millones de pesos. Los doce umbrales del
+Título IX quedaron escritos con su unidad de cómputo, verificados uno por uno contra el
+consolidado de `ley-27430.txt`, que ya los trae con la nota de sustitución al pie de cada
+artículo. Se incorporó además su reglamentación, el Decreto 93/2026.
+
+**Ley 27.786, organizaciones criminales.** Dos tipos penales nuevos —arts. 210 ter y 210 quáter
+CP—, autónomos de la zona especial por su art. 9, y en los dos el texto **desactiva expresamente
+los arts. 46 y 47 CP**. Las seis facultades del art. 6 quedaron tabuladas por quién autoriza cada
+una, que es donde se juegan las nulidades.
+
+**Ley 25.520 en texto actualizado, con el Decreto 941/2025.** Medido contra el texto: las cinco
+prohibiciones del art. 4 siguen, **cuatro tienen excepción nueva y la única que quedó entera es el
+inciso 3** —no producir inteligencia por raza, fe, opinión política, pertenencia sindical o
+partidaria, ni por actividad lícita—. El art. 10 nonies habilita al personal de inteligencia a
+aprehender personas. Queda marcado que es un DNU que reforma una ley del Congreso y que su trámite
+ante la Comisión Bicameral no está verificado.
+
+**Ley 27.796, emergencia sanitaria pediátrica.** Nació por insistencia de ambas cámaras con dos
+tercios, y el propio texto de InfoLEG trae la comunicación del Senado que lo acredita. Lo
+determinante no es su contenido sino su plazo: **se declaró por un año desde el 22/10/2025**.
+
+**Dos resultados que contradicen la hipótesis con la que se empezó.** El informe que motivó la
+revisión atribuía a la Ley 15.557 de PBA un efecto sobre el cobro de deudas; leído el texto
+completo, **la emergencia que declara no suspende ejecuciones, no declara inembargables los fondos
+públicos ni consolida deuda**, y eso se registró como negativo en `contencioso-pba.md` 26.9 bis,
+porque la inferencia contraria es automática. Y de las leyes que ese informe presentaba como
+novedad, la 27.784 y la 27.785 **ya estaban cotejadas** en `penal.md`. El material sirvió para
+elegir dónde mirar; lo que decidió cada punto fue el texto oficial.
+
+## 18/09/2026 - Auditoría contra fuente primaria: la Ley 22.278 está derogada y tres módulos la daban por vigente
+
+**Ley 27.801 de Régimen Penal Juvenil**, bajada de InfoLEG (id 423722) con procedencia y hash en
+`fuentes/normas/ley-27801.txt`, y cotejada artículo por artículo. **Su art. 48 deroga la Ley
+22.278 y sus modificatorias**; su art. 52 difiere la vigencia a los ciento ochenta días de la
+publicación en el Boletín Oficial, que fue el 09/03/2026, de modo que **rige desde el 05/09/2026**.
+
+La sección 24.9.4 de `penal-leyes-especiales.md` describía el régimen de la 22.278 —no punibilidad
+por debajo de los dieciséis, punibilidad de dieciséis a dieciocho, los tres requisitos
+acumulativos del art. 4 para imponer pena— y se reescribió entera sobre la ley nueva.
+
+**Dos hechos medidos contra el texto, no recordados.** La ley alcanza a los adolescentes **desde
+los catorce años**, donde la anterior empezaba en los dieciséis: el universo de punibles se
+amplió sin que cambiara una coma del art. 32 de la Ley 13.634, que remite a "la legislación
+nacional" sin nombrarla. Y el texto de la 27.801 **no contiene ninguna remisión al art. 44 CP ni
+a la escala de la tentativa**, comprobado por búsqueda sobre el archivo: ése era el vehículo legal
+del primer holding de *"Maldonado"*, Fallos 328:4343, que `penal.md` 24.7.8 citaba sin condición.
+
+**El texto derogado no se da de baja.** El art. 2 CP manda aplicar siempre la ley más benigna, y
+para un hecho anterior al 05/09/2026 cometido por alguien de catorce o quince años la 22.278 lo
+declaraba no punible. `ley-22278.txt` queda en `fuentes/` porque es lo que permite cotejar de qué
+lado cae cada caso, y los tres módulos ahora preguntan primero la fecha del hecho.
+
+**Lo que queda abierto y está marcado**: el decreto reglamentario, que no está cargado; la
+adecuación procesal de la Provincia de Buenos Aires, que el art. 49 invita y no impone; y la
+suerte de la doctrina de *"Maldonado"* sin la remisión derogada, que no tiene precedente bajado.
+
+**Corrección de origen.** La hipótesis de trabajo que disparó esta auditoría venía de un informe
+generado con un modelo de lenguaje, no de una fuente. De su listado, dos leyes que figuraban como
+novedad —la 27.784 de juicio en ausencia y la 27.785 de reincidencia y reiterancia— **ya estaban
+cotejadas** en `penal.md` 24.2.1 y 24.3.1, y un pasaje suyo sobre el estado cautelar de la Ley
+27.802 contradecía lo que `laboral.md` 5.1 tiene verificado con fechas. El informe sirvió para
+elegir dónde mirar; lo que decidió cada punto fue el texto oficial.
+
+## 17/09/2026 - Auditoría contra fuente primaria: dos textos ordenados de 2025 y tres números de norma mal atribuidos
+
+Se bajaron y leyeron las normas de dieciséis materias que ningún módulo cubría. Lo que sigue no
+es el contenido —eso está en `references/changelog-normativo.md`, fila por fila— sino **lo que la
+lectura desmintió**.
+
+1. **Los textos ordenados de 2025 renumeraron el gas y la electricidad, y nadie lo tenía escrito.**
+   El **Decreto 451/2025** (B.O. 07/07/2025) aprobó la *"Ley N° 24.076 - T.O. 2025"* y el
+   **Decreto 450/2025**, del mismo día, el de la Ley 24.065. La jurisdicción previa del ente pasó
+   del **art. 66 al 53** en gas y del **art. 72 al 58** en electricidad.
+
+   Se detectó leyendo *"Y.P.F. S.A. c/ ENARGAS"* (CSJN, 29/09/2015), que cita el art. 66 para el
+   texto que el consolidado numera 53. **El corrimiento no es parejo**: los arts. 9 y 14 conservan
+   su número, así que no se puede restar. Y **ninguno de los dos decretos publica tabla de
+   correspondencia**: el mapeo se establece leyendo. Toda cita anterior a julio de 2025 —incluidas
+   las notas de InfoLEG al pie— usa la numeración vieja.
+
+2. **Tres números de norma estaban mal atribuidos, y dos venían de confundir decretos del mismo
+   número.**
+
+   - **El baremo es el Decreto 659/96, no el 658/96.** El 658 es el **listado de enfermedades
+     profesionales**; el 659 es la **Tabla de Evaluación de Incapacidades**. El perfil heredado
+     decía *"baremo del Decreto 658/96"* y la columna de contradicciones de `laboral.md` no
+     corregía el número. Corregido, y el 658 bajado: son 187 entradas «AGENTE:».
+   - **La reglamentación de la Ley 27.636 es el Decreto 659/2021, no el 721/2020.** El 721 es
+     **anterior a la ley** y fijó el cupo del 1% por decreto. Mismo número que el baremo, otro año.
+   - **El art. 63 LDC sigue vigente porque su derogación fue vetada.** El art. 32 de la Ley 26.361
+     lo derogaba, y el **art. 1° del Decreto 565/2008** —publicado el mismo día— lo observó. La
+     **Resolución 344/2009 de Diputados** declaró la validez del decreto. Un texto que liste el
+     art. 63 como derogado invierte la prelación del transporte aéreo.
+
+3. **El baremo vigente NO está completo en texto, y la diferencia importa.** El Anexo I del 659/96
+   sustituido por el **Decreto 549/2025** está en `fuentes/` en prosa, con los porcentajes que
+   enuncia en línea. **Las tablas no**: donde el anexo dice *"deberá determinarse utilizando la
+   siguiente tabla"*, la extracción no trae nada, porque son imágenes.
+
+   **No se suplen con OCR**, y está medido: de las **25 correcciones** que dejó el cotejo página
+   por página de "Fiorentino", **14 cambian dígitos**, y una convirtió `art. 6°` en `art. 62`. En
+   prosa el idioma delata la sustitución; en una tabla de porcentajes no hay nada que la delate.
+   Los valores se piden o se marcan.
+
+4. **Ninguna fuente oficial bloquea a los descargadores.** El repositorio documentaba en seis
+   lugares que InfoLEG, `normas.gba.gob.ar` y SAIJ devuelven 403 a los agentes. Medido con
+   `diagnostico.py` y con `verificar_normas.py`, que no escribe nada: **los seis sitios responden
+   HTTP 200**, incluido SAIJ. Lo que sí se confirmó es que el buscador de SAIJ **no se consulta
+   por query string** —devuelve *"SIN RESULTADO"* sin rechazar la consulta, que es el peor modo de
+   falla—. Corregidos los seis renglones, y lo de JUBA y los sumarios de la CSJN quedó intacto:
+   eso no es un 403 sino postback de ASP.NET y estado de sesión.
+
+## 16/09/2026 - Lectura de imagen: las 27 páginas de "Fiorentino" y dos erratas del tomo
+
+El PDF de **"Fiorentino, Diego Enrique"** (Fallos 306:1752) trae la capa de texto arruinada, así
+que lo que hay en `fuentes/jurisprudencia/ocr/` es una relectura de las imágenes con tesseract.
+Se leyeron **las 27 páginas una por una contra la imagen ampliada**, y el resultado está
+declarado como dato en `ocr/correcciones/csjn-fiorentino-fallos-306-1752.json`: **25
+correcciones**, que el script vuelve a aplicar en cada regeneración.
+
+**Lo que más importa de esta lectura no son las correcciones, son las dos que NO se hicieron.**
+
+Había seis secuencias que parecían defectos de OCR. Cuatro lo eran: `regisiro` por «registro»,
+`setiva` por «sativa» —`cannabis sativa` va en cursiva y el OCR lee la `a` como `e`—,
+`consintendo` por «consintiendo», y dos volados de ordinal leídos como dígito, uno de los cuales
+convertía el **art. 6° de la ley 20.771 en «art. 62»**: un número de artículo cambiado, que es
+la peor clase de error que puede tener una transcripción.
+
+Las otras dos son **erratas del tomo impreso**, y se transcriben como están:
+
+| Página del PDF | Impresa | Lo que dice | Lo correcto sería |
+| --- | --- | --- | --- |
+| 11 | 1762 | `la defensa inpugnó el aludido` | «impugnó» |
+| 13 | 1764 | `donde vvía de modo permanente` | «vivía» |
+
+La de la pág. 11 se confirma con el propio volumen: el mismo pasaje, en el voto del doctor
+Petracchi (pág. 15, impresa 1766), imprime «impugnó». O sea que el tomo se contradice a sí mismo
+y la errata está en el primer voto, no en nuestra lectura.
+
+**Se anotan porque, si no, la próxima lectura las "arregla".** Una transcripción reproduce el
+documento; corregirle la ortografía al tribunal la convierte en otra cosa. Van declaradas en
+`no_corregidas` del mismo archivo, con su motivo, y `herramientas/test_reocr.py` exige que
+sigan textuales en el `.txt`.
+
+---
+
+## 14/09/2026 - Auditoría contra fuente primaria: la cadena de cobertura de la medicina prepaga
+
+Se bajaron los textos de las **Leyes 23.660, 23.661 y 24.754** y se leyó la cadena que
+`salud-discapacidad.md` 27.5 usaba para sostener que la Ley 24.901 alcanza a las prepagas. El
+módulo la afirmaba de memoria; ahora los dos eslabones están cotejados y citados textualmente.
+
+1. **El art. 1 de la Ley 24.754 tiene una fe de erratas que cambia el sentido.** El texto
+   publicado el 02/01/1997 decía *"prestaciones obligatorias dispuestas **por** las obras
+   sociales"*; la fe de erratas lo corrigió a *"dispuestas **para** las obras sociales"*. No es
+   lo mismo: "para" son las obligaciones que se les imponen, que es el piso que se traslada a la
+   prepaga; "por" sugeriría que cada obra social las fija. Las fuentes secundarias reproducen el
+   texto con el error. Anotado en el módulo como advertencia de transcripción.
+
+2. **El art. 28 de la Ley 23.661 dice más de lo que el módulo le atribuía.** El módulo sólo
+   decía que "manda actualizar periódicamente" el programa de prestaciones. El texto además
+   exige que dentro de las prestaciones obligatorias *"deberán incluirse todas aquéllas que
+   requieran la rehabilitación de las personas discapacitadas"*, más los medicamentos que
+   requieran. Es el eslabón que cierra el argumento: **la rehabilitación no es una inferencia,
+   está en el texto**. Reescrito 27.5 con las dos citas.
+
+3. **Ley 24.455 sin declarar, y con más adentro de lo que se le atribuía.** El art. 1 de la
+   24.754 remite a las Leyes 23.660, 23.661 **y 24.455**, y esta última no estaba en el
+   manifiesto. Declarada y bajada. Leída, **son siete artículos**, no los tres del resumen que
+   circula, y dos no se deducen de la cadena:
+
+   - **Art. 1**: el piso que se traslada a la prepaga incluye, nominadas, la cobertura de
+     tratamientos *"médicos, psicológicos y farmacológicos"* de sida —con las enfermedades
+     intercurrentes— y de dependencia de estupefacientes, más los programas de prevención.
+     Agregado como tercer eslabón en 27.5.
+   - **Art. 2**: los tratamientos de los **arts. 16 a 19 de la Ley 23.737** los cubre la obra
+     social del beneficiario y **es el juez de la causa quien debe dirigirse a ella**. `penal.md`
+     24.9.2 tenía la tabla de esas tres salidas curativas y el art. 19, pero no decía quién paga.
+     Agregado ahí, con reenvío a 27.5 para el caso de la prepaga.
+   - **Art. 5**: condiciona la ejecutoriedad de la ley a que haya partida presupuestaria
+     específica. Es una defensa disponible para el obligado y el repositorio no tiene precedente
+     propio sobre su oponibilidad: queda con `[VERIFICAR CRITERIO DEL FUERO]`, sin afirmar que
+     está descartada.
+
+   **No existe texact.htm para la 24.455**: la ficha de InfoLEG (id 14919) ofrece sólo "Texto
+   completo de la norma", y las diez normas vinculadas son reglamentarias o complementarias
+   —Decreto 580/1995, la propia 24.754, la Ley 25.543— sin reforma del articulado. La URL
+   declarada es `norma.htm`.
+
+4. **Un defecto de fuente que ninguna medida detecta.** El texto de InfoLEG titula el art. 1 de
+   la 24.455 como *"ARTCULO 1°"*, sin la I. `contar_articulos()` no lo cuenta, y el ojo lo
+   completa solo al leer. No es un problema del articulado —es el mismo artículo— pero quien
+   transcriba desde el repo copia el error. Anotado como advertencia de transcripción en 27.5,
+   con la referencia al BO del 08/03/1995, nro. 28.098, p. 1. Es el tercer defecto de OCR/fuente,
+   el de las sustituciones que dejan texto plausible, y se registra leyendo, no midiendo.
+
+**Veredictos de lectura sobre las marcas del descargador.** `revisar_texto()` marcó la Ley
+24.754 como "sospechosamente corta": son dos artículos en 1.430 caracteres. Leído el texto, es
+la ley entera - el 1 sustantivo y el 2 de forma. Para que un falso positivo así no vuelva a
+sonar en cada descarga hasta que nadie lo mire, los veredictos se anotan en
+`fuentes/normas/revisiones.json`, indexados por el **texto exacto del problema**: si la norma
+vuelve con otro defecto, o si cambia cómo el detector lo redacta, la marca vuelve a sonar. Un
+veredicto vale para lo que se leyó, no para el archivo.
+
+## 14/09/2026 - Auditoría contra fuente primaria: las trece normas citadas sin texto
+
+Trece normas estaban citadas **con articulado** en los módulos y no tenían su texto en
+`fuentes/`. Se completaron doce URLs oficiales, se bajaron y **se leyeron una por una contra lo
+que el módulo afirmaba**. Dos afirmaciones no resistieron la lectura.
+
+**1. La prescripción del SECLO estaba mal, en dos módulos y con la cita equivocada.**
+`laboral.md` 5.6 y `plazos.md` decían que el art. 7 de la Ley 24.635 suspende *"hasta 30 días
+después de notificada la clausura"*. El art. 7 dice otra cosa: *"Esta presentación suspenderá el
+curso de la prescripción **por el término que establece el art. 257 de la ley de contrato de
+trabajo**"*, y el art. 257 LCT fija **seis meses como máximo**. Recorrida la ley completa, **el
+plazo de treinta días no aparece**: la única mención de "treinta" es el tope del 30% de
+honorarios del conciliador.
+
+Una entrada anterior de este documento había "unificado" dos versiones contradictorias del
+perfil heredado *al criterio del texto legal*, citando ese art. 7. Eligió una de las dos sin
+leer el artículo. Corregido en los dos módulos, con dos marcadores: dónde localizar el plazo de
+treinta días si rige, y el conflicto que crea la propia ley al decir **suspenderá** y remitir a
+un artículo que dice **interrumpirá**.
+
+**2. El "secreto financiero" del art. 39 de la Ley 21.526 es más angosto de lo que decía
+`datos-personales.md`.** El módulo listaba entre las excepciones al consentimiento del art. 5
+LPDP "las operaciones de entidades financieras". El art. 39 dice: *"Las entidades comprendidas
+en esta ley no podrán revelar las **operaciones pasivas** que realicen"*. **Pasivas**: depósitos.
+Las **activas** —los préstamos, y con ellos el historial crediticio— no están alcanzadas, y por
+lo tanto tampoco lo está la excepción que la LPDP construye remitiendo a él. Es la distinción
+que decide un habeas data contra un informe crediticio. Reescrito, con los cuatro supuestos en
+que sí hay que informar aun tratándose de operaciones pasivas.
+
+**3. La adhesión de PBA a la Ley 26.485 no sostiene lo que `familia.md` apoyaba en ella.** El
+módulo afirmaba *"PBA adhirió por la Ley 14.407"* y de ahí derivaba que el art. 26 de la 26.485
+—con la supresión de contenidos digitales que agregó la Ley Olimpia— rige en la provincia. La
+cadena, cotejada: el **art. 1 de la 26.485** exceptúa de su orden público *"las disposiciones de
+carácter procesal establecidas en el Capítulo II del Título III"*; **el art. 26 está exactamente
+ahí**; el **art. 19** da a las jurisdicciones locales la opción de *"dictar sus normas de
+procedimiento o adherir"*, y **PBA dictó las suyas**, la 12.569. Y la **Ley 14.407** no es una
+adhesión permanente: declara una **emergencia de dos años** desde el 18/10/2012 y el adherir es
+el inciso a) de sus bases. La vía firme en PBA es el **inc. n) del art. 7 de la 12.569**, la
+medida urgente residual, con su plazo de 48 horas; en toda la 12.569 no aparece la palabra
+"digital".
+
+**4. Dos entradas del manifiesto estaban mal descriptas.** La **Ley 14.407** figuraba como
+"Adhesión a la Ley 27.736", y es de 2012: no puede adherir a una ley de 2023. Y la **Ley 15.170**
+se declaraba para verificar el alcance de la remisión del art. 32 de la Ley 13.927: leída, es la
+**ley impositiva 2020** y su art. 72 es un cuadro de tasas —incluida la **tasa de justicia
+administrativa de infracciones de tránsito**—, no una regla de competencia. Los dos marcadores
+quedaron cerrados con lo que dice el texto.
+
+**5. La Ley 13.478 no es un pendiente: es un límite.** Es de 1948 e InfoLEG no publica normas de
+esa época. Buscada en InfoLEG, argentina.gob.ar y SAIJ. Su marcador ahora dice **por qué** falta
+y contra qué cotejar —el Boletín Oficial de 1948 o el texto transcripto en el propio fallo—, en
+vez de dejar un pendiente que invite a volver a buscarla.
+
+**Un guardarraíl que faltaba: identidad de lo descargado.** Una de las doce URLs apuntaba a otra
+norma. El id 44911 de InfoLEG es el texto ordenado del **Impuesto a las Ganancias**, y quedó
+guardado como `ley-21526.txt`, que es Entidades Financieras: 488 KB de articulado impecable, de
+otra ley. El descargador no lo marcó porque `revisar_texto()` valida la **forma** —que haya
+articulado, que no sea la ficha del portal, que el charset esté sano— y no la **identidad**.
+`TestIdentidadDeLasNormas` exige ahora que **el número de la norma aparezca en el cuerpo** del
+texto bajado, descontando el encabezado de procedencia, que lo escribimos nosotros con el título
+del manifiesto: buscar ahí confirmaría lo que ya creemos y no lo que se bajó. Corre sobre las 127
+y es el mismo control que `auditar_fechas_fallos.py` hace con la jurisprudencia — identidad
+primero, contenido después.
+
+---
+
+[Volver al README](../README.md) · [Cómo está armado](ARQUITECTURA.md) · [Desarrollar](DESARROLLO.md)
+
+## Septiembre 2026 - Auditoría contra fuente primaria: Ley 15.057, mediación PBA, intereses y art. 245
 
 Auditoría de verificación externa contra **InfoLEG**, el **Boletín Oficial** y
 **normas.gba.gob.ar**. A diferencia de la auditoría anterior -que resolvió contradicciones
@@ -91,6 +405,14 @@ en el mismo sentido.
    Corregido en `kb/perfiles/laboral-CLAUDE.md`, `kb/transversales/plazos-SKILL.md`, `skills/derecho-argentino/SKILL.md`,
    `setup-interview.md` y los tres archivos del eval laboral, con nota en cada lugar para
    que la 11.653 no se reintroduzca.
+
+   > **Superado el 18/09/2026, y la entrada queda como registro de lo que se verificó ese día.**
+   > Decir que la 11.653 conserva ultraactividad *"solo en materia de recusación"* no es lo que
+   > rige: en las causas **con audiencia de vista ya celebrada** sigue aplicándose **entera**, y
+   > por eso **conviven dos regímenes**. Está así en `.claude/rules/derecho-argentino.md`, que
+   > carga siempre, y en la tabla de `sede-judicial-pba.md` 1.6. Lo que esta entrada sí fijó y
+   > sigue en pie es que el art. 88 de la Ley 15.057 derogó la 11.653 y que el corte lo hace la
+   > Res. SC 1840/2024 por la audiencia de vista.
 
 2. **Mediación PBA (Ley 13.951): no suspende como la nacional.** El **art. 40** le asigna
    **carácter de intimación**, con los efectos del segundo párrafo del **art. 3986 del
@@ -228,7 +550,7 @@ normas.gba.gob.ar.
 
 ---
 
-### Septiembre 2026 - Auditoría normativa cruzada: art. 25 LNPA, art. 256 LCT, SECLO y locaciones
+## Septiembre 2026 - Auditoría normativa cruzada: art. 25 LNPA, art. 256 LCT, SECLO y locaciones
 
 Auditoría de consistencia interna entre perfiles, skills transversales y glosario. Seis
 divergencias corregidas, todas por contradicción entre archivos del propio repositorio:
@@ -285,130 +607,48 @@ divergencias corregidas, todas por contradicción entre archivos del propio repo
 civil/comercial PBA, autosuficiente, con las reglas de integridad, los marcadores
 canónicos y los anclajes normativos de ambas ramas.
 
-### 14/09/2026 - Auditoría contra fuente primaria: la cadena de cobertura de la medicina prepaga
+## Septiembre 2026 - Incorporación de fuentes doctrinarias: CCyC Comentado y derecho de daños
 
-Se bajaron los textos de las **Leyes 23.660, 23.661 y 24.754** y se leyó la cadena que
-`salud-discapacidad.md` 27.5 usaba para sostener que la Ley 24.901 alcanza a las prepagas. El
-módulo la afirmaba de memoria; ahora los dos eslabones están cotejados y citados textualmente.
+Dos obras de referencia sumadas al repositorio, con tratamiento distinto según su licencia.
 
-1. **El art. 1 de la Ley 24.754 tiene una fe de erratas que cambia el sentido.** El texto
-   publicado el 02/01/1997 decía *"prestaciones obligatorias dispuestas **por** las obras
-   sociales"*; la fe de erratas lo corrigió a *"dispuestas **para** las obras sociales"*. No es
-   lo mismo: "para" son las obligaciones que se les imponen, que es el piso que se traslada a la
-   prepaga; "por" sugeriría que cada obra social las fija. Las fuentes secundarias reproducen el
-   texto con el error. Anotado en el módulo como advertencia de transcripción.
+**Código Civil y Comercial de la Nación Comentado (SAIJ-INFOJUS, 2ª ed. actualizada 2022).**
+Directores: Marisa Herrera, Gustavo Caramelo y Sebastián Picasso. Publicación de distribución
+gratuita del Ministerio de Justicia y Derechos Humanos, de libre reproducción total o parcial
+citando la fuente. Los seis tomos se incorporan completos en `derecho/fuentes/ccyc-comentado/`
+(~18 MB), junto con `INDICE.md`, que:
 
-2. **El art. 28 de la Ley 23.661 dice más de lo que el módulo le atribuía.** El módulo sólo
-   decía que "manda actualizar periódicamente" el programa de prestaciones. El texto además
-   exige que dentro de las prestaciones obligatorias *"deberán incluirse todas aquéllas que
-   requieran la rehabilitación de las personas discapacitadas"*, más los medicamentos que
-   requieran. Es el eslabón que cierra el argumento: **la rehabilitación no es una inferencia,
-   está en el texto**. Reescrito 27.5 con las dos citas.
+- mapea cada tomo a su rango de artículos y al archivo PDF correspondiente;
+- detalla la estructura interna de cada tomo (Libro / Título / Capítulo) con la página del PDF
+  donde arranca cada sección, verificada contra el cuerpo de la obra y no calculada;
+- consigna el desfasaje entre página impresa y página PDF, constante dentro de cada tomo
+  (T1 +39, T2 +23, T3 +27, T4 +29, T5 +25, T6 +25);
+- incluye una tabla de ruteo rápido por instituto, pensada para ir directo al comentario de un
+  artículo mientras se redacta;
+- señala que "contratos en particular" queda partido entre los tomos 3 y 4, que es el error de
+  navegación más probable;
+- registra una discrepancia de la fuente sin corregirla: los tomos 1 a 5 imprimen como ISBN de
+  obra completa 978-987-8338-31-6 y el tomo 6 imprime 978-987-8338-37-8.
 
-3. **Ley 24.455 sin declarar, y con más adentro de lo que se le atribuía.** El art. 1 de la
-   24.754 remite a las Leyes 23.660, 23.661 **y 24.455**, y esta última no estaba en el
-   manifiesto. Declarada y bajada. Leída, **son siete artículos**, no los tres del resumen que
-   circula, y dos no se deducen de la cadena:
+**Manual de Derecho de Daños, 2ª ed. (Weingarten -dir.-, La Ley, 2015).** Obra comercial con
+todos los derechos reservados: el editor prohíbe expresamente su reproducción total o parcial.
+Como este repositorio es público, **el PDF no se incorpora y no debe incorporarse**. En su lugar
+se agrega `derecho/kb/doctrina/civil-DOCTRINA-danos.md`, un índice doctrinario con 38 entradas por
+instituto, cada una con síntesis propia, artículos del CCCN y del Código derogado, fallos
+citados y remisión a capítulo y página. No contiene transcripción de la obra: el texto
+entrecomillado corresponde a carátulas de fallos y a expresiones de la ley.
 
-   - **Art. 1**: el piso que se traslada a la prepaga incluye, nominadas, la cobertura de
-     tratamientos *"médicos, psicológicos y farmacológicos"* de sida —con las enfermedades
-     intercurrentes— y de dependencia de estupefacientes, más los programas de prevención.
-     Agregado como tercer eslabón en 27.5.
-   - **Art. 2**: los tratamientos de los **arts. 16 a 19 de la Ley 23.737** los cubre la obra
-     social del beneficiario y **es el juez de la causa quien debe dirigirse a ella**. `penal.md`
-     24.9.2 tenía la tabla de esas tres salidas curativas y el art. 19, pero no decía quién paga.
-     Agregado ahí, con reenvío a 27.5 para el caso de la prepaga.
-   - **Art. 5**: condiciona la ejecutoriedad de la ley a que haya partida presupuestaria
-     específica. Es una defensa disponible para el obligado y el repositorio no tiene precedente
-     propio sobre su oponibilidad: queda con `[VERIFICAR CRITERIO DEL FUERO]`, sin afirmar que
-     está descartada.
+El archivo consigna además qué institutos la obra **no** trata de forma autónoma -antijuridicidad,
+relación de causalidad, eximentes y prescripción no tienen capítulo propio; el daño punitivo solo
+tres menciones breves- y una sección de advertencias de vigencia, porque la obra es de 2015 y
+comenta el CCCN recién sancionado: DNU 70/2023 en locaciones y obligaciones en moneda extranjera,
+art. 1764 CCCN y adhesión provincial a la Ley 26.944, tope del daño punitivo hoy en canastas
+básicas por la Ley 27.701, y las fórmulas de cuantificación, que no tienen consagración legal.
+Se deja señalado que la obra atribuye el art. 52 bis LDC a la "ley 26.367" cuando corresponde a
+la Ley 26.361.
 
-   **No existe texact.htm para la 24.455**: la ficha de InfoLEG (id 14919) ofrece sólo "Texto
-   completo de la norma", y las diez normas vinculadas son reglamentarias o complementarias
-   —Decreto 580/1995, la propia 24.754, la Ley 25.543— sin reforma del articulado. La URL
-   declarada es `norma.htm`.
-
-4. **Un defecto de fuente que ninguna medida detecta.** El texto de InfoLEG titula el art. 1 de
-   la 24.455 como *"ARTCULO 1°"*, sin la I. `contar_articulos()` no lo cuenta, y el ojo lo
-   completa solo al leer. No es un problema del articulado —es el mismo artículo— pero quien
-   transcriba desde el repo copia el error. Anotado como advertencia de transcripción en 27.5,
-   con la referencia al BO del 08/03/1995, nro. 28.098, p. 1. Es el tercer defecto de OCR/fuente,
-   el de las sustituciones que dejan texto plausible, y se registra leyendo, no midiendo.
-
-**Veredictos de lectura sobre las marcas del descargador.** `revisar_texto()` marcó la Ley
-24.754 como "sospechosamente corta": son dos artículos en 1.430 caracteres. Leído el texto, es
-la ley entera - el 1 sustantivo y el 2 de forma. Para que un falso positivo así no vuelva a
-sonar en cada descarga hasta que nadie lo mire, los veredictos se anotan en
-`fuentes/normas/revisiones.json`, indexados por el **texto exacto del problema**: si la norma
-vuelve con otro defecto, o si cambia cómo el detector lo redacta, la marca vuelve a sonar. Un
-veredicto vale para lo que se leyó, no para el archivo.
-
-### 14/09/2026 - Auditoría contra fuente primaria: las trece normas citadas sin texto
-
-Trece normas estaban citadas **con articulado** en los módulos y no tenían su texto en
-`fuentes/`. Se completaron doce URLs oficiales, se bajaron y **se leyeron una por una contra lo
-que el módulo afirmaba**. Dos afirmaciones no resistieron la lectura.
-
-**1. La prescripción del SECLO estaba mal, en dos módulos y con la cita equivocada.**
-`laboral.md` 5.6 y `plazos.md` decían que el art. 7 de la Ley 24.635 suspende *"hasta 30 días
-después de notificada la clausura"*. El art. 7 dice otra cosa: *"Esta presentación suspenderá el
-curso de la prescripción **por el término que establece el art. 257 de la ley de contrato de
-trabajo**"*, y el art. 257 LCT fija **seis meses como máximo**. Recorrida la ley completa, **el
-plazo de treinta días no aparece**: la única mención de "treinta" es el tope del 30% de
-honorarios del conciliador.
-
-Una entrada anterior de este documento había "unificado" dos versiones contradictorias del
-perfil heredado *al criterio del texto legal*, citando ese art. 7. Eligió una de las dos sin
-leer el artículo. Corregido en los dos módulos, con dos marcadores: dónde localizar el plazo de
-treinta días si rige, y el conflicto que crea la propia ley al decir **suspenderá** y remitir a
-un artículo que dice **interrumpirá**.
-
-**2. El "secreto financiero" del art. 39 de la Ley 21.526 es más angosto de lo que decía
-`datos-personales.md`.** El módulo listaba entre las excepciones al consentimiento del art. 5
-LPDP "las operaciones de entidades financieras". El art. 39 dice: *"Las entidades comprendidas
-en esta ley no podrán revelar las **operaciones pasivas** que realicen"*. **Pasivas**: depósitos.
-Las **activas** —los préstamos, y con ellos el historial crediticio— no están alcanzadas, y por
-lo tanto tampoco lo está la excepción que la LPDP construye remitiendo a él. Es la distinción
-que decide un habeas data contra un informe crediticio. Reescrito, con los cuatro supuestos en
-que sí hay que informar aun tratándose de operaciones pasivas.
-
-**3. La adhesión de PBA a la Ley 26.485 no sostiene lo que `familia.md` apoyaba en ella.** El
-módulo afirmaba *"PBA adhirió por la Ley 14.407"* y de ahí derivaba que el art. 26 de la 26.485
-—con la supresión de contenidos digitales que agregó la Ley Olimpia— rige en la provincia. La
-cadena, cotejada: el **art. 1 de la 26.485** exceptúa de su orden público *"las disposiciones de
-carácter procesal establecidas en el Capítulo II del Título III"*; **el art. 26 está exactamente
-ahí**; el **art. 19** da a las jurisdicciones locales la opción de *"dictar sus normas de
-procedimiento o adherir"*, y **PBA dictó las suyas**, la 12.569. Y la **Ley 14.407** no es una
-adhesión permanente: declara una **emergencia de dos años** desde el 18/10/2012 y el adherir es
-el inciso a) de sus bases. La vía firme en PBA es el **inc. n) del art. 7 de la 12.569**, la
-medida urgente residual, con su plazo de 48 horas; en toda la 12.569 no aparece la palabra
-"digital".
-
-**4. Dos entradas del manifiesto estaban mal descriptas.** La **Ley 14.407** figuraba como
-"Adhesión a la Ley 27.736", y es de 2012: no puede adherir a una ley de 2023. Y la **Ley 15.170**
-se declaraba para verificar el alcance de la remisión del art. 32 de la Ley 13.927: leída, es la
-**ley impositiva 2020** y su art. 72 es un cuadro de tasas —incluida la **tasa de justicia
-administrativa de infracciones de tránsito**—, no una regla de competencia. Los dos marcadores
-quedaron cerrados con lo que dice el texto.
-
-**5. La Ley 13.478 no es un pendiente: es un límite.** Es de 1948 e InfoLEG no publica normas de
-esa época. Buscada en InfoLEG, argentina.gob.ar y SAIJ. Su marcador ahora dice **por qué** falta
-y contra qué cotejar —el Boletín Oficial de 1948 o el texto transcripto en el propio fallo—, en
-vez de dejar un pendiente que invite a volver a buscarla.
-
-**Un guardarraíl que faltaba: identidad de lo descargado.** Una de las doce URLs apuntaba a otra
-norma. El id 44911 de InfoLEG es el texto ordenado del **Impuesto a las Ganancias**, y quedó
-guardado como `ley-21526.txt`, que es Entidades Financieras: 488 KB de articulado impecable, de
-otra ley. El descargador no lo marcó porque `revisar_texto()` valida la **forma** —que haya
-articulado, que no sea la ficha del portal, que el charset esté sano— y no la **identidad**.
-`TestIdentidadDeLasNormas` exige ahora que **el número de la norma aparezca en el cuerpo** del
-texto bajado, descontando el encabezado de procedencia, que lo escribimos nosotros con el título
-del manifiesto: buscar ahí confirmaría lo que ya creemos y no lo que se bajó. Corre sobre las 127
-y es el mismo control que `auditar_fechas_fallos.py` hace con la jurisprudencia — identidad
-primero, contenido después.
+**Regla nueva de higiene del repositorio.** Se agrega `derecho/fuentes/_local/` al `.gitignore`:
+es la carpeta donde el abogado guarda su ejemplar de obras comerciales, que nunca se commitean.
+El criterio: una obra entra al repositorio solo si su propia licencia lo permite. Las que no,
+entran como doctrina destilada con remisión, nunca como texto.
 
 ---
-
----
-
-[Volver al README](../README.md) · [Cómo está armado](ARQUITECTURA.md) · [Desarrollar](DESARROLLO.md)

@@ -28,9 +28,9 @@ def _modulo():
 class TestCifrasDelRepo(unittest.TestCase):
     """Las cifras que la documentación afirma tienen que ser las que hay en disco.
 
-    `LICENCIAS.md` declaraba **2 documentos** en `docs/` cuando había cuatro, y no lo atrapó
-    nada: hasta este control la cobertura era opt-in, así que cada cifra necesitaba que alguien
-    se acordara de escribirle un test, y el que no se acuerda no rompe nada.
+    Antes de esto la cobertura era opt-in y una cifra sin test no rompía nada. El caso que lo
+    motivó y el diseño del censo están en `docs/DESARROLLO.md`, sección «Las cifras de la
+    documentación no se escriben a mano».
     """
 
     @classmethod
@@ -114,7 +114,7 @@ class TestCifrasDelRepo(unittest.TestCase):
             with self.subTest(clave):
                 self.assertGreater(len(motivo), 40, "el motivo no explica nada")
                 self.assertIn(motivo.split(" ")[0], vocabulario,
-                              f"el motivo no arranca con un término del vocabulario")
+                              "el motivo no arranca con un término del vocabulario")
                 self.assertIn(" | ", clave, "la clave es `archivo | cifra`")
                 archivo = clave.split(" | ", 1)[0]
                 self.assertIn(archivo, self.reg["alcance"],
@@ -176,8 +176,13 @@ class TestMecanicaDelSellado(unittest.TestCase):
 
     def test_se_niega_a_escribir_una_palabra_que_no_existe(self):
         """MUTACIÓN: preferimos un control que se plante antes que uno que escriba «un módulos»
-        o invente «treinta y uno». Los dos casos piden que una persona toque la frase."""
-        for valor in (0, 1, 21, 138):
+        o invente «treinta y uno». Los dos casos piden que una persona toque la frase.
+
+        **La frontera es 29 y no 20 porque es la del idioma**, no la del uso: hasta veintinueve el
+        número se escribe con UNA palabra y a partir de treinta y uno son tres. Estaba en veinte
+        hasta que aparecieron los veintiséis marcadores, y veinte no era una regla: era hasta
+        dónde se había necesitado."""
+        for valor in (0, 1, 30, 31, 138):
             with self.subTest(valor):
                 with self.assertRaises(self.mod.RegistroInvalido):
                     self.mod.escribir(valor, "palabra", "seis", "{n} tomos")
@@ -238,10 +243,10 @@ class TestMecanicaDelCenso(unittest.TestCase):
         self.assertEqual(re.sub(r"\s+", " ", m.group(0)), "dos módulos")
 
     def test_un_digito_pegado_a_una_palabra_no_es_una_cifra(self):
-        """El checklist está lleno de `python3 herramientas/...`, que parece decir «3
-        herramientas»: son catorce falsos positivos en `docs/DESARROLLO.md` sola. Lo que los
-        descarta es exigir que el número no venga pegado a una letra, a una barra, a un punto ni
-        a un guion — eso último por los slugs, que terminan en número."""
+        """Un `python3 herramientas/...` parece decir «3 herramientas», y la documentación
+        está llena de invocaciones así. Lo que los descarta es exigir que el número no venga
+        pegado a una letra, a una barra, a un punto ni a un guion — eso último por los slugs,
+        que terminan en número."""
         for texto in ("    python3 herramientas/test_frontera.py",
                       "correr python3 herramientas/cifras.py --sellar",
                       "el texto de `ley-27798.txt` normas",
@@ -301,6 +306,102 @@ class TestMecanicaDelCenso(unittest.TestCase):
                 self.assertEqual(sin_usar, ["docs/TERMINAL.md | 41 módulos"])
             finally:
                 self.mod.RAIZ = verdadera
+
+
+class TestElPesoSeMideIgualEnCualquierMaquina(unittest.TestCase):
+    """`mb_instalados` tiene que dar lo mismo acá y en el runner de CI. No daba, dos veces.
+
+    La primera versión sumaba la carpeta `derecho/` entera: decía **85** en una máquina de trabajo
+    y **84** en CI, y la diferencia eran 0,77 MB de `__pycache__` y `.DS_Store`. Se filtraron por
+    patrón y el pipeline volvió a romper, ahora por **1,19 MB** de `derecho/evals/results/`, que
+    deja `claude plugin eval` y `.gitignore` ya excluía.
+
+    **Agregar `results` a la lista habría sido calibrar contra el caso conocido**, y la lista
+    siempre va a ir atrás de la próxima herramienta que escriba algo en el árbol. Lo que se
+    cambió fue la definición: la cifra dice cuánto descarga quien instala, y eso es **lo que el
+    repositorio versiona**, no lo que hay en la carpeta de quien mide. Git ya sabe qué ignora, y
+    preguntarle es una regla en vez de una lista.
+
+    El filtro por patrón además se equivocaba al revés: salteaba todo tramo con punto, de modo que
+    `derecho/.claude-plugin/plugin.json` —que sí viaja— no contaba.
+
+    MUTACIÓN que lo comprueba: es este test. Arma un repo de prueba con un archivo versionado y
+    otro ignorado, y exige que sólo pese el primero. Volver a `rglob` sobre la carpeta lo deja en
+    rojo.
+    """
+
+    @classmethod
+    def setUpClass(cls):
+        cls.mod = _modulo()
+        if subprocess.run(["git", "--version"], capture_output=True).returncode != 0:
+            raise unittest.SkipTest("sin git no se puede armar el repo de prueba")
+
+    def _medir(self, raiz, excluye=()):
+        original, self.mod.RAIZ = self.mod.RAIZ, raiz
+        try:
+            return self.mod.medir("mb_instalados", {"tipo": "megabytes", "carpeta": "plugin",
+                                                    "excluye": list(excluye)})
+        finally:
+            self.mod.RAIZ = original
+
+    @staticmethod
+    def _repo(raiz):
+        """Un repo mínimo: `results/` ignorado, y un archivo versionado de 5 MB."""
+        correr = lambda *a: subprocess.run(["git", "-C", str(raiz), *a],
+                                           capture_output=True, check=True)
+        correr("init", "-q")
+        correr("config", "user.email", "t@t"); correr("config", "user.name", "t")
+        (raiz / ".gitignore").write_text(
+            "plugin/results/\n__pycache__/\n", encoding="utf-8")
+        plugin = raiz / "plugin"
+        (plugin / "fuentes").mkdir(parents=True)
+        (plugin / "fuentes" / "norma.txt").write_bytes(b"\0" * 5_000_000)
+        correr("add", "-A"); correr("commit", "-qm", "x")
+
+    def test_solo_pesa_lo_que_el_repositorio_versiona(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            raiz = Path(tmp)
+            self._repo(raiz)
+            limpio = self._medir(raiz)
+            self.assertEqual(limpio, 5, "no midió el archivo versionado, que es lo que viaja")
+
+            plugin = raiz / "plugin"
+            (plugin / "results" / "corrida").mkdir(parents=True)
+            (plugin / "results" / "corrida" / "report.html").write_bytes(b"\0" * 4_000_000)
+            (plugin / "scripts" / "__pycache__").mkdir(parents=True)
+            (plugin / "scripts" / "__pycache__" / "x.pyc").write_bytes(b"\0" * 4_000_000)
+            (plugin / "fuentes" / ".DS_Store").write_bytes(b"\0" * 4_000_000)
+
+            self.assertEqual(
+                self._medir(raiz), limpio,
+                "la cifra se movió con archivos que git ignora: volvió a medir la carpeta en vez "
+                "de lo versionado, y va a decir una cosa acá y otra en CI")
+
+    def test_un_archivo_oculto_versionado_si_pesa(self):
+        """El filtro por patrón salteaba todo tramo con punto y dejaba afuera
+        `.claude-plugin/plugin.json`, que viaja con el plugin. Medir lo versionado lo arregla
+        solo, y esto lo fija para que no vuelva."""
+        with tempfile.TemporaryDirectory() as tmp:
+            raiz = Path(tmp)
+            self._repo(raiz)
+            oculta = raiz / "plugin" / ".claude-plugin"
+            oculta.mkdir()
+            (oculta / "plugin.json").write_bytes(b"\0" * 2_000_000)
+            subprocess.run(["git", "-C", str(raiz), "add", "-A"], capture_output=True, check=True)
+            subprocess.run(["git", "-C", str(raiz), "commit", "-qm", "y"],
+                           capture_output=True, check=True)
+            self.assertEqual(self._medir(raiz), 7,
+                             "un archivo versionado dentro de una carpeta oculta tiene que pesar")
+
+    def test_se_planta_si_no_puede_medir(self):
+        """No hay verde por ausencia de instrumento: fuera de un repo, `git ls-files` falla y la
+        métrica corta en vez de estimar desde el disco."""
+        with tempfile.TemporaryDirectory() as tmp:
+            raiz = Path(tmp)
+            (raiz / "plugin").mkdir()
+            (raiz / "plugin" / "x.txt").write_bytes(b"\0" * 5_000_000)
+            with self.assertRaises(self.mod.RegistroInvalido):
+                self._medir(raiz)
 
 
 if __name__ == "__main__":

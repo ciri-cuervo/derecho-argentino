@@ -1,14 +1,14 @@
-Ley 14.786 - Conflictos de trabajo, instancia obligatoria de conciliacion
+Ley 14.786 - Conflictos de trabajo, instancia obligatoria de conciliación
 ==============================================================================
-Jurisdiccion:     nacional
+Jurisdicción:     nacional
 Fuente:           https://www.argentina.gob.ar/normativa/nacional/ley-14786-115423/texto
-Descargado:       2026-09-14
-SHA-256 (crudo):  be5fc2ce73b87829364cfab6f736b2079f53a28de61aa5f2f3dba4acb5b8f277
+Descargado:       2026-09-17
+SHA-256 (crudo):  6d4023d6787baabc02696f0ff6cfdceb03d320d2b6f9d634b7245f4cb2b9c632
 Charset:          utf-8
 
-Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
-NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
-Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
 el manifiesto `normas.json`.
 ==============================================================================
 

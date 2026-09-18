@@ -1,0 +1,1017 @@
+Acuerdo 3971/2020 SCBA - Régimen de acuerdo continuo y firma digital para actos jurisdiccionales y de superintendencia
+==============================================================================
+Jurisdicción:     pba
+Fuente:           https://digesto.scba.gov.ar/VerTextoCompleto.aspx?idFallo=13133
+Descargado:       2026-09-17
+SHA-256 (crudo):  1cfb25bd881aa696352489dfa6f6960e4a1e163da22a21602898dc8500e02aa0
+Charset:          utf-8
+
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
+el manifiesto `normas.json`.
+==============================================================================
+
+SCBA - Digesto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+scba.gov.ar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+VISUALIZACION DEL TEXTO COMPLETO.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DATOS DE LA NORMA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Norma:
+
+
+
+
+
+
+AC 3971 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Contenido temático:
+
+
+
+
+
+
+Régimen de acuerdo continuo y Firma Digital para actos jurisdiccionales y de superintendencia.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fecha:
+
+
+
+
+
+
+15/4/2020
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Magistrados firmantes:
+
+
+
+
+
+
+de Lázzari-Soria-Pettigiani-Genoud-Kogan-Torres
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Origen:
+
+
+
+
+
+
+SECRETARÍA DE PLANIFICACIÓN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Alcance:
+
+
+
+
+
+
+Vigente
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Normativas relacionadas:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Normativas principales:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TEXTOS DE LA NORMA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACUERDO N°3971
+
+
+
+.
+
+
+
+/// Plata, 15 de abril de 2020.
+
+
+
+VISTO: El proceso de actualización tecnológica para la mejora del servicio de justicia dispuesto por esta Suprema Corte y las condiciones en que dicha actividad debe desarrollarse en el actual contexto de grave emergencia sanitaria; y,
+
+
+
+1°) Que la Suprema Corte de Justicia, mediante normas de índole reglamentaria con base en las atribuciones que, como cabeza del Poder Judicial, le confieren las disposiciones constitucionales y legales (arts. 160, 164, 168 de la Constitución Provincial, 32 inc. "s" de la ley 5827, e.o.), ha implementado una serie de programas de innovación en sus procesos de trabajo que incorporan las herramientas que brinda la tecnología de la información y las comunicaciones, con el propósito de favorecer una mayor celeridad, economía y seguridad de los trámites judiciales.
+
+
+
+2°) Que el empleo de tales herramientas, entre sus diversos campos de aplicación, apunta a la mejora permanente de la gestión de los órganos judiciales. En el caso de esta Corte, contribuye a incrementar la eficacia y la capacidad de respuesta en el ejercicio de sus funciones.
+
+
+
+3°) Que, en ese sentido, en vista de sus atributos de integridad y autenticidad (arts. 2, 6, 11 y concs., ley 25.506), se advierte la conveniencia de generalizar la firma digital en el ámbito de la Suprema Corte de Justicia.
+
+
+
+4°) Que, además, las funcionalidades de los sistemas de gestión de documentos digitales permiten agilizar el procesamiento de la información y el tratamiento de los asuntos a decidir, tareas que, en el caso de este Tribunal, dada su cantidad y la heterogeneidad de las materias que integran su competencia, adquieren una gran complejidad.
+
+
+
+5°) Que, por consiguiente, es preciso instituir reglas adecuadas, que al mismo tiempo que favorezcan la actualización tecnológica, perfeccionen las buenas prácticas que informan el proceso de deliberación en el seno de la Corte.
+
+
+
+6°) Que lo señalado exige, en primer término, abrir un canal alternativo a la circulación secuencial con firma de los expedientes en soporte papel. Con todo, tal como se hiciera con el sistema de notificaciones y presentaciones electrónicas (v. Acuerdos SCBA N° 3399, N° 3540, N° 3733; N° 3845 y N° 3886, e.o., y las Resoluciones SCBA N° 707/16 y, en especial, N° 1647/17, art. 1o), razones operativas hacen necesario mantener la coexistencia del nuevo régimen con la modalidad tradicional, transitoriamente y flexibilizando su uso, hasta nueva decisión del Tribunal.
+
+
+
+7°) Que, con el objeto de aprovechar las utilidades que provee la tecnología, y en consonancia con el mandato constitucional de asegurar la tutela judicial continua y efectiva (art. 15, Const. Prov.), corresponde adoptar una modalidad de acuerdos que reconozca un pleno efecto a aquel postulado, en todo cuanto concierne a la producción y rúbrica de sus actos.
+
+
+
+8°) Que, merced a la modalidad de actuación bajo acuerdo continuo, cualquier clase de actos de la Suprema Corte o de sus Salas (art. 30, segundo párrafo, ley 5827; Resolución SCBA N° 211/04), producto de la mayoría de votos concordantes, podrá firmarse todos los días hábiles de la semana, incluso en horas inhábiles, solución que cabe extender respecto de las firmas de los demás funcionarios intervinientes. Ha de autorizarse, en consecuencia y con alcance general, rubricar sentencias o decisiones administrativas bajo este régimen, todas las ...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ver texto vigente con formato
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACUERDO N°3971
+
+
+
+.
+
+
+
+/// Plata, 15 de abril de 2020.
+
+
+
+VISTO: El proceso de actualización tecnológica para la mejora del servicio de justicia dispuesto por esta Suprema Corte y las condiciones en que dicha actividad debe desarrollarse en el actual contexto de grave emergencia sanitaria; y,
+
+
+
+1°) Que la Suprema Corte de Justicia, mediante normas de índole reglamentaria con base en las atribuciones que, como cabeza del Poder Judicial, le confieren las disposiciones constitucionales y legales (arts. 160, 164, 168 de la Constitución Provincial, 32 inc. "s" de la ley 5827, e.o.), ha implementado una serie de programas de innovación en sus procesos de trabajo que incorporan las herramientas que brinda la tecnología de la información y las comunicaciones, con el propósito de favorecer una mayor celeridad, economía y seguridad de los trámites judiciales.
+
+
+
+2°) Que el empleo de tales herramientas, entre sus diversos campos de aplicación, apunta a la mejora permanente de la gestión de los órganos judiciales. En el caso de esta Corte, contribuye a incrementar la eficacia y la capacidad de respuesta en el ejercicio de sus funciones.
+
+
+
+3°) Que, en ese sentido, en vista de sus atributos de integridad y autenticidad (arts. 2, 6, 11 y concs., ley 25.506), se advierte la conveniencia de generalizar la firma digital en el ámbito de la Suprema Corte de Justicia.
+
+
+
+4°) Que, además, las funcionalidades de los sistemas de gestión de documentos digitales permiten agilizar el procesamiento de la información y el tratamiento de los asuntos a decidir, tareas que, en el caso de este Tribunal, dada su cantidad y la heterogeneidad de las materias que integran su competencia, adquieren una gran complejidad.
+
+
+
+5°) Que, por consiguiente, es preciso instituir reglas adecuadas, que al mismo tiempo que favorezcan la actualización tecnológica, perfeccionen las buenas prácticas que informan el proceso de deliberación en el seno de la Corte.
+
+
+
+6°) Que lo señalado exige, en primer término, abrir un canal alternativo a la circulación secuencial con firma de los expedientes en soporte papel. Con todo, tal como se hiciera con el sistema de notificaciones y presentaciones electrónicas (v. Acuerdos SCBA N° 3399, N° 3540, N° 3733; N° 3845 y N° 3886, e.o., y las Resoluciones SCBA N° 707/16 y, en especial, N° 1647/17, art. 1o), razones operativas hacen necesario mantener la coexistencia del nuevo régimen con la modalidad tradicional, transitoriamente y flexibilizando su uso, hasta nueva decisión del Tribunal.
+
+
+
+7°) Que, con el objeto de aprovechar las utilidades que provee la tecnología, y en consonancia con el mandato constitucional de asegurar la tutela judicial continua y efectiva (art. 15, Const. Prov.), corresponde adoptar una modalidad de acuerdos que reconozca un pleno efecto a aquel postulado, en todo cuanto concierne a la producción y rúbrica de sus actos.
+
+
+
+8°) Que, merced a la modalidad de actuación bajo acuerdo continuo, cualquier clase de actos de la Suprema Corte o de sus Salas (art. 30, segundo párrafo, ley 5827; Resolución SCBA N° 211/04), producto de la mayoría de votos concordantes, podrá firmarse todos los días hábiles de la semana, incluso en horas inhábiles, solución que cabe extender respecto de las firmas de los demás funcionarios intervinientes. Ha de autorizarse, en consecuencia y con alcance general, rubricar sentencias o decisiones administrativas bajo este régimen, todas las jornadas hábiles de cada semana, sin necesidad de decretar acuerdos extraordinarios ni habilitaciones de días y horas ad hoc.
+
+
+
+9°) Que, en segundo lugar, la optimización del quehacer de la Suprema Corte conduce a generalizar el empleo de la firma digital de documentos no sólo desde el despacho de sus miembros sino también a distancia.
+
+
+
+10°) Que, por otra parte, en atención al uso creciente de las plataformas de comunicación en línea, cabe contemplar la práctica creciente de reuniones de trabajo a distancia de esta Corte, instrumento idóneo para evaluar propuestas, intercambiar pareceres o preparar la decisión de cuestiones de conveniente tratamiento en simultáneo por todos sus miembros, sin perjuicio de las reuniones presenciales que semanalmente fueren a celebrarse.
+
+
+
+11°) Que, en adición a todo lo expuesto, y a mayor abundamiento, deben tenerse presente la declaración de pandemia efectuada por la Organización Mundial de la Salud respecto de la infección causada por el virus COVID-19 (coronavirus), las recomendaciones realizadas por el Ministerio de Salud de la Provincia de Buenos Aires (Res.2020-393-GDEBA- MSALGP y Res.-2020-394-GDEBA-MSALGP-), el estado de emergencia sanitaria dispuesto en el ámbito de la Provincia de Buenos Aires (Dec.-2020- 132-GDEBA); las medidas adoptadas por los Poderes Ejecutivo Nacional y Provincial en el marco de la crisis sanitaria (DNU PEN 260/20; 297/20, 325/20, 355/20, entre otros, y Decr. Prov. N° 132/20, 180/20, 203/20; entre otros); y el propio desarrollo de la crítica situación epidemiológica.
+
+
+
+12°) Que en ese marco se han dispuesto una serie de restricciones a la circulación y de medidas de aislamiento social que inciden de manera objetiva y directa sobre la regularidad de la prestación de la administración de justicia.
+
+
+
+13°) Que, en tales condiciones, si el progreso en términos de celeridad, eficacia y transparencia que representan las innovaciones señaladas en los Considerandos 1°) a 10°) de este Acuerdo, justifica de suyo su pronta implementación, la. existencia de la pandemia torna ciertamente imprescindible aplicarlas, pues han de redundar en un aporte significativo para que el servicio de justicia funcione de manera compatible con la necesidad de proteger la salud de las personas y con los requerimientos impuestos a raíz de la emergencia sanitaria (cfr. Resolución SCBA 386/20 y las Resoluciones de su Presidencia SPL N° 10/20. SPL N° 12/20, arts. 3o y 4o; SPL N° 14/20, art. 7°; y SPL N° 15/20, y concordantes).
+
+
+
+14°) Que, para garantizar su eficiente puesta en práctica, el régimen que se reglamenta en este Acuerdo será aplicado en forma gradual y progresiva, teniendo en cuenta las características propias de cada una de las áreas jurisdiccionales y de superintendencia del Tribunal. Coexistirá, con la modalidad de acuerdo y firma en formato papel de los actos, admitiéndose empero que pueda canalizarse bajo el sistema de acuerdo continuo, aprobado por el presente.
+
+
+
+15°) Que han tomado intervención la Secretaria de Planificación, así como la Subsecretaría de Tecnología Informática y la Dirección de Servicios Legales.
+
+
+
+POR ELLO, la Suprema Corte de Justicia, en uso de sus atribuciones (arts. 15, 164, 168 y concs., Const. Prov.; 30, 32 inc. "s" y concs. de la ley 5827; 834 -disposiciones transitorias- del C.P.C.C.; 5o del C.P.P.),
+
+
+
+ACUERDA:
+
+
+
+ARTÍCULO 1°. La Suprema Corte de Justicia y, cuando correspondiere, las Salas que la integran, el presidente, los secretarios y subsecretarios y todo otro funcionario que disponga el presidente del Tribunal, podrán suscribir con el uso de la firma digital todos sus actos jurisdiccionales y de superintendencia, conforme al presente régimen.
+
+
+
+A los efectos del presente régimen, la Suprema Corte se declara en estado de acuerdo continuo para la producción y firma de sus actos, lo que incluye a las Salas del Tribunal.
+
+
+
+ARTÍCULO 2°. Los integrantes de los órganos y los funcionarios comprendidos en el artículo anterior podrán firmar, incluso fuera de la sede o asiento físico de sus despachos, los distintos actos que deban emitir.
+
+
+
+ARTICULO 3°. (texto según AC 3976): Con arreglo a lo dispuesto en el artículo 1°, una vez concluida la deliberación conforme a la secuencia resultante del orden de votación, y consolidado el texto de los actos a suscribir bajo la modalidad aquí regulada, éstos serán puestos a circulación por las Secretarías o Subsecretarías intervinientes entre los miembros de la Suprema Corte o de sus Salas, quienes podrán rubricarlos en su versión definitiva cualquier día hábil o inhábil, aún en horas inhábiles.
+
+
+
+El trámite quedará perfeccionado con la firma del secretario o subsecretario interviniente, conforme lo dispuesto en el artículo siguiente.
+
+
+
+ARTÍCULO 4°. (texto según AC 3976): A los fines del presente régimen, el trámite de rúbrica del acto que correspondiere se considerará perfeccionado en el momento en el que, reunida la mayoría de votos concordantes y concluida la firma de los miembros de la Suprema Corte o de las Salas, lo suscriba el secretario o subsecretario interviniente.
+
+
+
+En los casos de actos jurisdiccionales el secretario o subsecretario interviniente deberá rubricarlos en día hábil, sea en hora hábil o inhábil
+
+
+
+Tratándose de actos de superintendencia, el secretario o subsecretario interviniente podrá rubricarlos incluso en día y hora inhábiles.
+
+
+
+ARTÍCULO 4° BIS: (texto según AC 3976): Se exceptúa de lo prescripto en los artículos 3° y 4° a los períodos comprendidos en la feria judicial. En tales supuestos, para dictar actos jurisdiccionales deberán habilitarse días y horas".
+
+
+
+ARTÍCULO 5°. (texto según AC 3976): El trámite de rúbrica de los actos del Presidente de la Suprema Corte se considerará perfeccionado cuando, una vez firmado por dicha autoridad, lo suscriba el secretario o subsecretario. Tales actos, al igual que los emanados de los secretarios o subsecretarios, podrán firmarse los días hábiles e inhábiles, en cualquier hora, hábil o inhábil.
+
+
+
+ARTÍCULO 6°. El presente régimen será de aplicación a los magistrados que integren la Suprema Corte por vacancia, licencia, excusación, recusación u otro impedimento de alguno de sus miembros titulares.
+
+
+
+ARTICULO 7°. Sin perjuicio de las previsiones establecidas en los artículos anteriores, a fin de proveer lo conducente para mejor prestación del servicio de justicia, la Suprema Corte, con la frecuencia que fuere necesaria y por convocatoria del Presidente, podrá celebrar reuniones presenciales o a distancia, acudiendo a las tecnologías de la comunicación disponibles. El soporte técnico para la realización de tales reuniones y de sus deliberaciones estará a cargo del personal que al efecto asignare el presidente.
+
+
+
+ARTÍCULO 8°. De todo lo resuelto con arreglo al sistema establecido en el presente régimen, todos los miércoles de cada mes a las doce (12) horas, o el día hábil inmediato posterior de ser aquél inhábil, se elaborarán listados por cada Secretaría que deberán reflejarse en un Acta de asuntos decididos. Este documento será suscripto por el Presidente de la Suprema Corte.
+
+
+
+ARTÍCULO 9°. Los Sistemas de Gestión de la Suprema Corte contendrán un mecanismo electrónico de registro de los actos jurisdiccionales y de superintendencia emanados del Tribunal o de sus Salas con arreglo a la modalidad de acuerdo prevista en los artículos precedentes. Un mecanismo análogo se organizará respecto de los actos del Presidente.
+
+
+
+ARTÍCULO 10°. El presente régimen prevalecerá sobre toda otra norma emanada de la Suprema Corte que fuere incompatible. Ello sin perjuicio de su coexistencia con el régimen de acuerdos presenciales, con firma en soporte papel y en días determinados, que se mantendrá hasta tanto se decida su terminación.
+
+
+
+A los fines de la firma digital de los actos de la Suprema Corte o de sus Salas bajo el presente régimen, no será aplicable el orden de precedencia establecido en el Acuerdo N° 2027 (acápite A.l).
+
+
+
+ARTÍCULO 11°. Se encomienda a todas las Secretarías y Subsecretarías de la Suprema Corte, a coordinar con la Subsecretaría de Tecnología Informática y las Vocalías de los ministros lo necesario para la más eficaz puesta en funcionamiento del presente régimen.
+
+
+
+ARTICULO 12°. Por un plazo de cuarenta y cinco (45) días hábiles judiciales a contar desde el día de la publicación en el sitio web de la Suprema Corte del presente Acuerdo, los actos alcanzados por esta norma serán registrados según el régimen anterior. Durante dicho plazo deberá elaborarse el 
+
+
+
+registro electrónico referido en el artículo 9o para su efectiva puesta en funcionamiento.
+
+
+
+ARTÍCULO 13°. Para el cumplimiento del requisito establecido en el primer párrafo del artículo anterior, deberá hacerse la impresión del acto a registrar y emitirse la certificación por el actuario que lo firma de su fidelidad con relación a los registros electrónicos.
+
+
+
+ARTÍCULO 14°: El presente régimen será aplicado en forma gradual y progresiva de acuerdo a las características propias de cada una de las áreas jurisdiccionales y de superintendencia de la Suprema Corte.
+
+
+
+En el supuesto de actos de superintendencia que se dicten en coordinación con el Procurador General, la firma digital de éste será consignada en documento digital por separado.
+
+
+
+ARTÍCULO 15°: Regístrese, publíquese en el Boletín Oficial y en el sitio web de la Suprema Corte de Justicia y comuníquese por vía electrónica.
+
+
+
+
+
+
+
+
+
+
+
+FIRMADO: EDUARDO NÉSTOR DE LÁZZARI, DANIEL FERNANDO SORIA, EDUARDO JULIO PETTIGIANI, LUIS ESTEBAN GENOUD, HILDA KOGAN, SERGIO GABRIEL TORRES, NESTOR TRABUCCO, Secretario
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACUERDO N°3971
+
+
+
+.
+
+
+
+/// Plata, 15 de abril de 2020.
+
+
+
+VISTO: El proceso de actualización tecnológica para la mejora del servicio de justicia dispuesto por esta Suprema Corte y las condiciones en que dicha actividad debe desarrollarse en el actual contexto de grave emergencia sanitaria; y,
+
+
+
+1°) Que la Suprema Corte de Justicia, mediante normas de índole reglamentaria con base en las atribuciones que, como cabeza del Poder Judicial, le confieren las disposiciones constitucionales y legales (arts. 160, 164, 168 de la Constitución Provincial, 32 inc. "s" de la ley 5827, e.o.), ha implementado una serie de programas de innovación en sus procesos de trabajo que incorporan las herramientas que brinda la tecnología de la información y las comunicaciones, con el propósito de favorecer una mayor celeridad, economía y seguridad de los trámites judiciales.
+
+
+
+2°) Que el empleo de tales herramientas, entre sus diversos campos de aplicación, apunta a la mejora permanente de la gestión de los órganos judiciales. En el caso de esta Corte, contribuye a incrementar la eficacia y la capacidad de respuesta en el ejercicio de sus funciones.
+
+
+
+3°) Que, en ese sentido, en vista de sus atributos de integridad y autenticidad (arts. 2, 6, 11 y concs., ley 25.506), se advierte la conveniencia de generalizar la firma digital en el ámbito de la Suprema Corte de Justicia.
+
+
+
+4°) Que, además, las funcionalidades de los sistemas de gestión de documentos digitales permiten agilizar el procesamiento de la información y el tratamiento de los asuntos a decidir, tareas que, en el caso de este Tribunal, dada su cantidad y la heterogeneidad de las materias que integran su competencia, adquieren una gran complejidad.
+
+
+
+5°) Que, por consiguiente, es preciso instituir reglas adecuadas, que al mismo tiempo que favorezcan la actualización tecnológica, perfeccionen las buenas prácticas que informan el proceso de deliberación en el seno de la Corte.
+
+
+
+6°) Que lo señalado exige, en primer término, abrir un canal alternativo a la circulación secuencial con firma de los expedientes en soporte papel. Con todo, tal como se hiciera con el sistema de notificaciones y presentaciones electrónicas (v. Acuerdos SCBA N° 3399, N° 3540, N° 3733; N° 3845 y N° 3886, e.o., y las Resoluciones SCBA N° 707/16 y, en especial, N° 1647/17, art. 1o), razones operativas hacen necesario mantener la coexistencia del nuevo régimen con la modalidad tradicional, transitoriamente y flexibilizando su uso, hasta nueva decisión del Tribunal.
+
+
+
+7°) Que, con el objeto de aprovechar las utilidades que provee la tecnología, y en consonancia con el mandato constitucional de asegurar la tutela judicial continua y efectiva (art. 15, Const. Prov.), corresponde adoptar una modalidad de acuerdos que reconozca un pleno efecto a aquel postulado, en todo cuanto concierne a la producción y rúbrica de sus actos.
+
+
+
+8°) Que, merced a la modalidad de actuación bajo acuerdo continuo, cualquier clase de actos de la Suprema Corte o de sus Salas (art. 30, segundo párrafo, ley 5827; Resolución SCBA N° 211/04), producto de la mayoría de votos concordantes, podrá firmarse todos los días hábiles de la semana, incluso en horas inhábiles, solución que cabe extender respecto de las firmas de los demás funcionarios intervinientes. Ha de autorizarse, en consecuencia y con alcance general, rubricar sentencias o decisiones administrativas bajo este régimen, todas las jornadas hábiles ...
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ver texto original con formato
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACUERDO N°3971
+
+
+
+.
+
+
+
+/// Plata, 15 de abril de 2020.
+
+
+
+VISTO: El proceso de actualización tecnológica para la mejora del servicio de justicia dispuesto por esta Suprema Corte y las condiciones en que dicha actividad debe desarrollarse en el actual contexto de grave emergencia sanitaria; y,
+
+
+
+1°) Que la Suprema Corte de Justicia, mediante normas de índole reglamentaria con base en las atribuciones que, como cabeza del Poder Judicial, le confieren las disposiciones constitucionales y legales (arts. 160, 164, 168 de la Constitución Provincial, 32 inc. "s" de la ley 5827, e.o.), ha implementado una serie de programas de innovación en sus procesos de trabajo que incorporan las herramientas que brinda la tecnología de la información y las comunicaciones, con el propósito de favorecer una mayor celeridad, economía y seguridad de los trámites judiciales.
+
+
+
+2°) Que el empleo de tales herramientas, entre sus diversos campos de aplicación, apunta a la mejora permanente de la gestión de los órganos judiciales. En el caso de esta Corte, contribuye a incrementar la eficacia y la capacidad de respuesta en el ejercicio de sus funciones.
+
+
+
+3°) Que, en ese sentido, en vista de sus atributos de integridad y autenticidad (arts. 2, 6, 11 y concs., ley 25.506), se advierte la conveniencia de generalizar la firma digital en el ámbito de la Suprema Corte de Justicia.
+
+
+
+4°) Que, además, las funcionalidades de los sistemas de gestión de documentos digitales permiten agilizar el procesamiento de la información y el tratamiento de los asuntos a decidir, tareas que, en el caso de este Tribunal, dada su cantidad y la heterogeneidad de las materias que integran su competencia, adquieren una gran complejidad.
+
+
+
+5°) Que, por consiguiente, es preciso instituir reglas adecuadas, que al mismo tiempo que favorezcan la actualización tecnológica, perfeccionen las buenas prácticas que informan el proceso de deliberación en el seno de la Corte.
+
+
+
+6°) Que lo señalado exige, en primer término, abrir un canal alternativo a la circulación secuencial con firma de los expedientes en soporte papel. Con todo, tal como se hiciera con el sistema de notificaciones y presentaciones electrónicas (v. Acuerdos SCBA N° 3399, N° 3540, N° 3733; N° 3845 y N° 3886, e.o., y las Resoluciones SCBA N° 707/16 y, en especial, N° 1647/17, art. 1o), razones operativas hacen necesario mantener la coexistencia del nuevo régimen con la modalidad tradicional, transitoriamente y flexibilizando su uso, hasta nueva decisión del Tribunal.
+
+
+
+7°) Que, con el objeto de aprovechar las utilidades que provee la tecnología, y en consonancia con el mandato constitucional de asegurar la tutela judicial continua y efectiva (art. 15, Const. Prov.), corresponde adoptar una modalidad de acuerdos que reconozca un pleno efecto a aquel postulado, en todo cuanto concierne a la producción y rúbrica de sus actos.
+
+
+
+8°) Que, merced a la modalidad de actuación bajo acuerdo continuo, cualquier clase de actos de la Suprema Corte o de sus Salas (art. 30, segundo párrafo, ley 5827; Resolución SCBA N° 211/04), producto de la mayoría de votos concordantes, podrá firmarse todos los días hábiles de la semana, incluso en horas inhábiles, solución que cabe extender respecto de las firmas de los demás funcionarios intervinientes. Ha de autorizarse, en consecuencia y con alcance general, rubricar sentencias o decisiones administrativas bajo este régimen, todas las jornadas hábiles de cada semana, sin necesidad de decretar acuerdos extraordinarios ni habilitaciones de días y horas ad hoc.
+
+
+
+9°) Que, en segundo lugar, la optimización del quehacer de la Suprema Corte conduce a generalizar el empleo de la firma digital de documentos no sólo desde el despacho de sus miembros sino también a distancia.
+
+
+
+10°) Que, por otra parte, en atención al uso creciente de las plataformas de comunicación en línea, cabe contemplar la práctica creciente de reuniones de trabajo a distancia de esta Corte, instrumento idóneo para evaluar propuestas, intercambiar pareceres o preparar la decisión de cuestiones de conveniente tratamiento en simultáneo por todos sus miembros, sin perjuicio de las reuniones presenciales que semanalmente fueren a celebrarse.
+
+
+
+11°) Que, en adición a todo lo expuesto, y a mayor abundamiento, deben tenerse presente la declaración de pandemia efectuada por la Organización Mundial de la Salud respecto de la infección causada por el virus COVID-19 (coronavirus), las recomendaciones realizadas por el Ministerio de Salud de la Provincia de Buenos Aires (Res.2020-393-GDEBA- MSALGP y Res.-2020-394-GDEBA-MSALGP-), el estado de emergencia sanitaria dispuesto en el ámbito de la Provincia de Buenos Aires (Dec.-2020- 132-GDEBA); las medidas adoptadas por los Poderes Ejecutivo Nacional y Provincial en el marco de la crisis sanitaria (DNU PEN 260/20; 297/20, 325/20, 355/20, entre otros, y Decr. Prov. N° 132/20, 180/20, 203/20; entre otros); y el propio desarrollo de la crítica situación epidemiológica.
+
+
+
+12°) Que en ese marco se han dispuesto una serie de restricciones a la circulación y de medidas de aislamiento social que inciden de manera objetiva y directa sobre la regularidad de la prestación de la administración de justicia.
+
+
+
+13°) Que, en tales condiciones, si el progreso en términos de celeridad, eficacia y transparencia que representan las innovaciones señaladas en los Considerandos 1°) a 10°) de este Acuerdo, justifica de suyo su pronta implementación, la. existencia de la pandemia torna ciertamente imprescindible aplicarlas, pues han de redundar en un aporte significativo para que el servicio de justicia funcione de manera compatible con la necesidad de proteger la salud de las personas y con los requerimientos impuestos a raíz de la emergencia sanitaria (cfr. Resolución SCBA 386/20 y las Resoluciones de su Presidencia SPL N° 10/20. SPL N° 12/20, arts. 3o y 4o; SPL N° 14/20, art. 7°; y SPL N° 15/20, y concordantes).
+
+
+
+14°) Que, para garantizar su eficiente puesta en práctica, el régimen que se reglamenta en este Acuerdo será aplicado en forma gradual y progresiva, teniendo en cuenta las características propias de cada una de las áreas jurisdiccionales y de superintendencia del Tribunal. Coexistirá, con la modalidad de acuerdo y firma en formato papel de los actos, admitiéndose empero que pueda canalizarse bajo el sistema de acuerdo continuo, aprobado por el presente.
+
+
+
+15°) Que han tomado intervención la Secretaria de Planificación, así como la Subsecretaría de Tecnología Informática y la Dirección de Servicios Legales.
+
+
+
+POR ELLO, la Suprema Corte de Justicia, en uso de sus atribuciones (arts. 15, 164, 168 y concs., Const. Prov.; 30, 32 inc. "s" y concs. de la ley 5827; 834 -disposiciones transitorias- del C.P.C.C.; 5o del C.P.P.),
+
+
+
+
+
+
+
+ACUERDA:
+
+
+
+ARTÍCULO 1°. La Suprema Corte de Justicia y, cuando correspondiere, las Salas que la integran, el presidente, los secretarios y subsecretarios y todo otro funcionario que disponga el presidente del Tribunal, podrán suscribir con el uso de la firma digital todos sus actos jurisdiccionales y de superintendencia, conforme al presente régimen.
+
+
+
+A los efectos del presente régimen, la Suprema Corte se declara en estado de acuerdo continuo para la producción y firma de sus actos, lo que incluye a las Salas del Tribunal.
+
+
+
+ARTÍCULO 2°. Los integrantes de los órganos y los funcionarios comprendidos en el artículo anterior podrán firmar, incluso fuera de la sede o asiento físico de sus despachos, los distintos actos que deban emitir.
+
+
+
+ARTICULO 3°. Con arreglo a lo dispuesto en el artículo 1o, una vez concluida la deliberación conforme a la secuencia resultante del orden de votación, y consolidado el texto de los actos a suscribir bajo la modalidad aquí regulada, éstos serán puestos a circulación por las Secretarías o Subsecretarías intervinientes entre los miembros de la Suprema Corte o de sus Salas, quienes podrán rubricar los respectivos votos en su versión definitiva cualquier día hábil, aún en horas inhábiles.
+
+
+
+ARTÍCULO 4°. A los fines del presente régimen, el trámite de rúbrica del acto jurisdiccional o de superintendencia que correspondiere se considerará perfeccionado en el momento en el que, reunida la mayoría de votos concordantes, y concluida la firma de los miembros de la Suprema Corte o de las Salas, lo suscriba el secretario o subsecretario interviniente.
+
+
+
+ARTÍCULO 5°. El trámite de rúbrica de los actos del Presidente de la Suprema Corte se considerará perfeccionado cuando, una vez firmado por dicha autoridad, lo suscriba el secretario o subsecretario. Tales actos, al igual que los emanados de los secretarios o subsecretarios, podrán firmarse todos los días hábiles, en cualquier hora, hábil o inhábil.
+
+
+
+ARTÍCULO 6°. El presente régimen será de aplicación a los magistrados que integren la Suprema Corte por vacancia, licencia, excusación, recusación u otro impedimento de alguno de sus miembros titulares.
+
+
+
+ARTICULO 7°. Sin perjuicio de las previsiones establecidas en los artículos anteriores, a fin de proveer lo conducente para mejor prestación del servicio de justicia, la Suprema Corte, con la frecuencia que fuere necesaria y por convocatoria del Presidente, podrá celebrar reuniones presenciales o a distancia, acudiendo a las tecnologías de la comunicación disponibles. El soporte técnico para la realización de tales reuniones y de sus deliberaciones estará a cargo del personal que al efecto asignare el presidente.
+
+
+
+ARTÍCULO 8°. De todo lo resuelto con arreglo al sistema establecido en el presente régimen, todos los miércoles de cada mes a las doce (12) horas, o el día hábil inmediato posterior de ser aquél inhábil, se elaborarán listados por cada Secretaría que deberán reflejarse en un Acta de asuntos decididos. Este documento será suscripto por el Presidente de la Suprema Corte.
+
+
+
+ARTÍCULO 9°. Los Sistemas de Gestión de la Suprema Corte contendrán un mecanismo electrónico de registro de los actos jurisdiccionales y de superintendencia emanados del Tribunal o de sus Salas con arreglo a la modalidad de acuerdo prevista en los artículos precedentes. Un mecanismo análogo se organizará respecto de los actos del Presidente.
+
+
+
+ARTÍCULO 10°. El presente régimen prevalecerá sobre toda otra norma emanada de la Suprema Corte que fuere incompatible. Ello sin perjuicio de su coexistencia con el régimen de acuerdos presenciales, con firma en soporte papel y en días determinados, que se mantendrá hasta tanto se decida su terminación.
+
+
+
+A los fines de la firma digital de los actos de la Suprema Corte o de sus Salas bajo el presente régimen, no será aplicable el orden de precedencia establecido en el Acuerdo N° 2027 (acápite A.l).
+
+
+
+ARTÍCULO 11°. Se encomienda a todas las Secretarías y Subsecretarías de la Suprema Corte, a coordinar con la Subsecretaría de Tecnología Informática y las Vocalías de los ministros lo necesario para la más eficaz puesta en funcionamiento del presente régimen.
+
+
+
+ARTICULO 12°. Por un plazo de cuarenta y cinco (45) días hábiles judiciales a contar desde el día de la publicación en el sitio web de la Suprema Corte del presente Acuerdo, los actos alcanzados por esta norma serán registrados según el régimen anterior. Durante dicho plazo deberá elaborarse el 
+
+
+
+registro electrónico referido en el artículo 9o para su efectiva puesta en funcionamiento.
+
+
+
+ARTÍCULO 13°. Para el cumplimiento del requisito establecido en el primer párrafo del artículo anterior, deberá hacerse la impresión del acto a registrar y emitirse la certificación por el actuario que lo firma de su fidelidad con relación a los registros electrónicos.
+
+
+
+ARTÍCULO 14°: El presente régimen será aplicado en forma gradual y progresiva de acuerdo a las características propias de cada una de las áreas jurisdiccionales y de superintendencia de la Suprema Corte.
+
+
+
+En el supuesto de actos de superintendencia que se dicten en coordinación con el Procurador General, la firma digital de éste será consignada en documento digital por separado.
+
+
+
+ARTÍCULO 15°: Regístrese, publíquese en el Boletín Oficial y en el sitio web de la Suprema Corte de Justicia y comuníquese por vía electrónica.
+
+
+
+
+
+
+
+
+
+
+
+FIRMADO: EDUARDO NÉSTOR DE LÁZZARI, DANIEL FERNANDO SORIA, EDUARDO JULIO PETTIGIANI, LUIS ESTEBAN GENOUD, HILDA KOGAN, SERGIO GABRIEL TORRES, NESTOR TRABUCCO, Secretario
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Centro de Atención al Usuario
+0810-444-7222
+WhatsApp
++54 221 4377116

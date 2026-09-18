@@ -2,18 +2,18 @@ Bazterrica, Gustavo Mario - Alejandro Carlos Capalbo
 ==============================================================================
 Tribunal:         CSJN
 Cita:             Fallos 308:1392
-Fecha declarada:  1986-01-01  <- 1 de enero: fecha sin confirmar en el manifiesto
+Fecha declarada:  1986-08-29
 Fuente del PDF:   https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7838661
 Derivado de:      jurisprudencia/csjn-bazterrica-fallos-308-1392.pdf
 SHA-256 del PDF:  1b052cc2cbdf373b8b9411e464024aa374fd66f21afaeb3175985ef1499a1b7e
 Paginas:          87
-Generado:         2026-09-14
+Generado:         2026-09-16
 Herramienta:      tesseract 5.5.3, -l spa --psm 6, pdftoppm -r 300
 
-TEXTO RECUPERADO POR OCR LOCAL. No se bajo de la fuente: la capa de texto que traia el
-PDF estaba arruinada y esto es una relectura de las imagenes de la pagina. NO es
-publicacion oficial y no reemplaza al PDF. Para transcribir un considerando a un escrito,
-cotejar contra la pagina del PDF: el numero de pagina esta marcado abajo.
+TEXTO RECUPERADO POR OCR LOCAL. No se bajó de la fuente: la capa de texto que traía el
+PDF estaba arruinada y esto es una relectura de las imágenes de la página. NO es
+publicación oficial y no reemplaza al PDF. Para transcribir un considerando a un escrito,
+cotejar contra la página del PDF: el número de página está marcado abajo.
 
 Regenerar: python3 herramientas/reocr_jurisprudencia.py csjn-bazterrica-fallos-308-1392
 ==============================================================================

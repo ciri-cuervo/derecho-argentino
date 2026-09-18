@@ -39,19 +39,19 @@ entre acá puede contener datos de expedientes.
     python3 descargar_normas.py                   # todo el manifiesto
 
 Cada texto queda en `normas/<slug>.txt` con encabezado de procedencia, y el hash se registra
-en `normas/procedencia.json`. Quedan **2 entradas sin URL**. Se declaran igual: una norma que un
+en `normas/procedencia.json`. Quedan **4 entradas sin URL**. Se declaran igual: una norma que un
 módulo necesita y no está bajada queda **visible en el catálogo** en vez de perderse, y el
 descargador la saltea e informa.
 
 - **Constitución Nacional con los tratados** de jerarquía constitucional: se consolidó a mano y no
   tiene una URL única.
 - **Ley 13.478**, de 1948: **InfoLEG no publica normas de esa época.** Buscada en septiembre de 2026 en
-  InfoLEG, argentina.gob.ar y SAIJ; sólo hay fuentes secundarias. Su art. 9 se cotejo contra el
+  InfoLEG, argentina.gob.ar y SAIJ; sólo hay fuentes secundarias. Su art. 9 se cotejó contra el
   Boletín Oficial de 1948 o contra el texto transcripto en el propio fallo que lo discute.
 
-**Cómo salieron los últimos seis `id`.** InfoLEG responde 403 a los agentes, pero su **buscador no
-tiene captcha**: `servicios.infoleg.gob.ar/infolegInternet/mostrarBusquedaNormas.do`, `tipoNorma=1`
-para ley y el número. Devuelve el `id`, y la ficha `verNorma.do?id=<id>` dice si hay `texact.htm`.
+**Cómo salieron los últimos seis `id`.** El **buscador de InfoLEG no tiene captcha**:
+`servicios.infoleg.gob.ar/infolegInternet/mostrarBusquedaNormas.do`, `tipoNorma=1` para ley y el
+número. Devuelve el `id`, y la ficha `verNorma.do?id=<id>` dice si hay `texact.htm`.
 El de argentina.gob.ar **sí tiene captcha** (Turnstile), así que no sirve para esto. Bajadas el
 15/09/2026:
 
@@ -91,8 +91,8 @@ que es lo que arma la ruta `anexos/<rango de 5.000>/<id>/<norma|texact>.htm`. Se
 URL de argentina.gob.ar, que lo lleva al final: `/normativa/nacional/ley-23789-190` → id 190.
 Con el id, la **ficha** `verNorma.do?id=<id>` dice si además del texto original hay **texto
 actualizado**: si ofrece `texact.htm`, ésa es la URL que va, porque trae las modificaciones.
-InfoLEG responde 403 a los agentes, así que la ficha se mira en un navegador; el texto lo baja
-siempre el script, que es lo que le pone encabezado, hash y fecha.
+La ficha se mira con WebFetch o con el navegador, que es para **decidir qué URL va al
+manifiesto**; el texto lo baja siempre el script, que es lo que le pone encabezado, hash y fecha.
 
 ## Cuando el descargador marca una norma para revisar
 
@@ -105,17 +105,19 @@ La marca se apaga leyendo el texto y anotando el veredicto en `normas/revisiones
 
 ```json
 "ley-24754": [
-  {"problema": "solo 2 articulos en 1430 caracteres: sospechosamente corto",
-   "veredicto": "Falso positivo. La ley son dos articulos: el 1 sustantivo y el 2 de forma.",
+  {"problema": "solo 2 artículos en 1430 caracteres: sospechosamente corto",
+   "veredicto": "Falso positivo. La ley son dos artículos: el 1 sustantivo y el 2 de forma.",
    "fecha": "2026-09-14"}
 ]
 ```
 
-El veredicto se indexa por el **texto exacto del problema**, no por el slug. Si esa norma vuelve
-con otro defecto, o si cambia cómo el detector lo redacta, el veredicto deja de aplicar y la
-marca vuelve a sonar: vale para lo que se leyó, no para el archivo. La corrida siguiente imprime
-`REVISADO` con el veredicto a la vista, en vez de `REVISAR`, y `procedencia.json` lo guarda bajo
-`revisado`. Sin esto la misma marca suena en cada descarga hasta que nadie la mira.
+**El veredicto se indexa por el problema, no por el slug**, y la comparación va en forma plana
+—minúsculas y sin diacríticos—. Que sea por el problema es lo que hace que una norma que vuelve
+con OTRO defecto siga sonando: el veredicto vale para lo que se leyó, no para el archivo. Que
+sea en forma plana es porque ese texto es a la vez la clave y un mensaje que el descargador
+imprime: como mensaje va acentuado, y comparar byte a byte convertía cualquier corrección de
+ortografía en una falsa alarma. La corrida siguiente imprime `REVISADO` con el veredicto a la
+vista, en vez de `REVISAR`, y `procedencia.json` lo guarda bajo `revisado`.
 
 ## Cuando el PDF viene con la capa de texto arruinada
 
@@ -137,6 +139,45 @@ publicación oficial y no reemplaza al PDF. **El OCR nuevo deja errores residual
 página, que está numerada en el archivo. Y **si el PDF se vuelve a bajar, la derivación queda
 vieja**: `test_scripts.py` compara los hashes y avisa.
 
+### El cotejo se declara, no se edita
+
+Algunos de esos errores residuales importan más que otros. El OCR lee el volado de un ordinal
+como un dígito —`1°)` sale `19)`, `8°)` sale `82)`—, y ahí lo que se rompe es **por qué
+considerando se cita un fallo**. Ninguna medida lo detecta: `19)` es un token perfectamente
+válido. Se arregla leyendo la página, y nada más.
+
+Pero corregir el `.txt` a mano deja un archivo que dice salir de tesseract sin salir de
+tesseract, y la próxima regeneración se lleva puesto el trabajo. Entonces la corrección va en
+`ocr/correcciones/<slug>.json` y la aplica el script al generar:
+
+| Campo | Qué guarda |
+| --- | --- |
+| `de` / `a` | el renglón como lo devuelve el OCR y como lo dice la página. Se comparan byte a byte: no se les corrige la ortografía |
+| `pagina` / `impresa` | la página del PDF y el número que lleva impreso el volumen, que no coinciden. Es por donde se vuelve a verificar |
+| `motivo` | qué leyó mal el OCR. Sin esto, la corrección es indistinguible de una edición de gusto |
+| `cotejado_el` / `base` | cuándo se leyó y contra qué |
+
+Tres propiedades que valen más que el mecanismo. **Sobrevive a la regeneración**, así que
+recuperar el texto no obliga a rehacer la lectura. **Se planta si una corrección deja de
+coincidir** —o coincide dos veces—, porque si el OCR ya no devuelve lo que la corrección arregla,
+trasladarla a ciegas es escribir en el fallo algo que nadie leyó; y `39) Que en primera instancia`
+aparece en el voto de la mayoría y en el de Petracchi, así que una sustitución sin contexto
+corregiría el renglón equivocado. Y **el encabezado dice que el resto NO se revisó**: un archivo
+cotejado a medias que no lo aclara invita a confiar en el renglón de al lado, que sigue siendo
+salida cruda.
+
+Lo que el cotejo **no** hace es habilitar mejoras de redacción. Alcanza lo que la página dice y
+el OCR leyó distinto; nada más.
+
+**Y la otra mitad, la que nadie escribe: `no_corregidas`.** Al leer las páginas aparecen
+palabras que parecen defectos de OCR y son **erratas del tomo impreso**. En "Fiorentino", la
+pág. 11 imprime `inpugnó` y la 13 imprime `vvía`; la primera se confirma con el propio volumen,
+porque el mismo pasaje en el voto de Petracchi dice «impugnó». Ésas no se tocan, porque una
+transcripción reproduce el documento. Pero si la decisión no queda anotada, **la lectura
+siguiente las vuelve a encontrar y las "arregla"**, y ahí el archivo pasa a decir algo que la
+página no dice. Van con su `pagina`, su `texto` y su `motivo`, y un test exige que sigan
+textuales en el `.txt`.
+
 ## Cómo detectar que una norma cambió
 
     python3 verificar_normas.py --prioridad 1
@@ -149,11 +190,8 @@ cuál hay que mirar. Cuando el cambio es de fondo, anotarlo en
 
 ### Dos hashes, y qué contesta cada uno
 
-**Se guarda hash de lo que se guarda, y de nada más.** De los bytes crudos no se conserva
-ninguno, porque no conservamos los bytes: un hash suyo no se podría volver a cotejar contra nada
-del repositorio. El de la descarga cruda va legible en el encabezado del propio `.txt` —`SHA-256
-(crudo)`—, como declaración de origen adentro del artefacto. El contrato está escrito una sola
-vez, en `scripts/_comun.py`.
+**El contrato de los hashes está escrito una sola vez, en `scripts/_comun.py`.** Acá va
+sólo qué contesta cada uno.
 
 | Campo | Qué hashea | Qué pregunta contesta | Quién lo usa |
 | --- | --- | --- | --- |
@@ -195,21 +233,32 @@ números y los compara contra lo que hay: si alguno deja de coincidir, los tests
 | Pieza | Estado |
 | --- | --- |
 | `ccyc-comentado/` | Completo, con índice de ruteo |
-| `normas/normas.json` | **148 entradas**, 146 con URL verificada |
-| `normas/*.txt` | **142 descargadas**; `procedencia.json` registra **147 textos con hash** |
-| `jurisprudencia/fallos.json` | **70 fallos**, todos con URL |
-| `jurisprudencia/*.pdf` | **67 descargados**; los de JUBA vienen en `.html`, que es lo que ese sitio sirve |
+| `normas/normas.json` | **226 entradas**, 222 con URL verificada |
+| `normas/*.txt` | **217 descargadas**; `procedencia.json` registra **223 textos con hash** |
+| `jurisprudencia/fallos.json` | **90 fallos**, todos con URL |
+| `jurisprudencia/*.pdf` | **81 descargados**; los de JUBA vienen en `.html`, que es lo que ese sitio sirve |
 | `datos/jus-scba.csv` | **6 filas**, cargado hasta el 01/08/2026 |
 | `datos/inhabiles.json` | Cargado: 2026 completo para Nación y PBA; 2027 sólo la feria de enero |
 | `datos/serie-ipc.csv` | **Completa**: 117 períodos, 2016-12 a 2026-08 |
 | `datos/serie-ripte.csv` | **Completa**: 385 períodos, 1994-07 a 2026-07 |
 | `datos/serie-cer.csv` | **Completa**: 117 períodos, 2016-12 a 2026-08 |
 
-Los tres números de `normas/` cuentan cosas distintas y no tienen por qué coincidir: **148** es lo
-que la skill espera encontrar, **147** es lo que tiene texto bajado con hash registrado, y **142**
-son los `.txt` en disco, porque los **5** restantes son PDF. Las únicas entradas declaradas sin
-texto son las dos sin URL oficial: la Ley 13.478, por lo dicho arriba, y la publicación de los
-once instrumentos del art. 75 inc. 22. Están en el catálogo para que se vea que faltan.
+Los tres números de `normas/` cuentan cosas distintas y no tienen por qué coincidir: **226** es lo
+que la skill espera encontrar, **223** es lo que tiene texto bajado con hash registrado, y **217**
+son los `.txt` en disco, porque los **6** restantes son PDF.
+
+**Las entradas declaradas sin texto son estructurales, y están todas acá.** La **Ley 13.478** es
+de 1948 y ninguna base oficial publica normas de esa época. Las **Leyes 15.386 y 15.617 de PBA**
+—el régimen previsional especial de combatientes de Malvinas— existen en cuatro sitios oficiales y
+**ninguno entrega el articulado a un descargador**: todos son aplicaciones JavaScript, y SAIJ llega
+a devolver la misma página para las dos leyes, byte a byte. Están en el catálogo para que se vea
+que faltan, y `estado.py` las reporta como `faltan`. La nota de cada una dice qué se probó y
+cuándo.
+
+**Sin URL no es lo mismo que sin texto.** `cn-tratados-ddhh` no tiene URL y **sí tiene texto** —es uno de
+los PDF que cuenta el párrafo anterior, aportado por el usuario— y lo que le falta es una fuente oficial que lo sirva, así
+que su hash detecta que el ejemplar cambió, no que coincida con nada. Por eso se cuentan por
+separado: **sin URL** es de dónde salió, **sin texto** es qué hay en disco.
 
 ## Qué hacer con esto ya cargado
 
@@ -220,10 +269,11 @@ art. 56 de la Ley 11.653; el art. 28 inc. h de la Ley 14.967 fija **tres etapas*
 procesos orales ante tribunales colegiados; y el art. 51 manda **diferir** el auto regulatorio
 cuando la condena incluye intereses.
 
-Una advertencia que quedó confirmada: `normas.gba.gob.ar` sirve la **Ley 11.653** con la
-acentuación degradada en algunos pasajes ("deber" por "deberá", "m‚rito" por "mérito"). Las
-demás normas bonaerenses vinieron limpias. Para una transcripción literal a una resolución,
-cotejar contra el Boletín Oficial.
+`normas.gba.gob.ar` sirve la **Ley 11.653** con doce vocales acentuadas convertidas en
+`U+201A` —"m‚rito" por "mérito", "c‚dula" por "cédula"—, así que el manifiesto la baja del
+texto actualizado de argentina.gob.ar, que trae los 65 artículos con la acentuación sana. Las
+demás normas bonaerenses vienen limpias de `normas.gba`. Para una transcripción literal a una
+resolución, cotejar igual contra el Boletín Oficial.
 
 ## Control periódico
 

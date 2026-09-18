@@ -1,9 +1,10 @@
 # Marcadores · vocabulario controlado
 
-> Módulo de referencia de la skill `derecho-argentino`. Los marcadores son **identificadores
-> funcionales**, no prosa: los scripts los emiten, las salidas se auditan contra ellos y los
-> comandos los buscan por texto exacto. Una paráfrasis rompe el sistema. Las reglas de
-> integridad de la sección 2 rigen acá también.
+> Módulo de referencia de la skill `derecho-argentino`. Numeración global: las remisiones cruzadas
+> entre módulos siguen siendo válidas. **Rigen las reglas de integridad de la sección 2 del
+> SKILL.md.** Los marcadores son **identificadores funcionales**, no prosa: los scripts los
+> emiten, las salidas se auditan contra ellos y los comandos los buscan por texto exacto. Una
+> paráfrasis rompe el sistema.
 
 ## Para qué existen
 
@@ -17,6 +18,12 @@ Tres reglas que no se relajan:
 3. **El marcador va donde se usa el dato**, no en una nota al pie. Quien lee el escrito tiene
    que tropezarse con él.
 
+**Un marcador va entero en castellano acentuado.** El nombre, tal como figura acá; y el
+contenido después de los dos puntos, que es prosa y se copia tal cual a un escrito judicial.
+Acentuar no rompe nada: el cotejo de `herramientas/verificar_respuesta.py` compara el nombre
+en forma plana —minúsculas y sin diacríticos—, así que `RÉGIMEN` y `REGIMEN` le dan lo mismo.
+Al escrito, no.
+
 Un escrito puede salir con marcadores. Lo que no puede salir es un escrito con un dato sin
 respaldo y sin marcador.
 
@@ -28,7 +35,7 @@ respaldo y sin marcador.
 
 Primera mención de cualquier norma, sin excepción.
 
-```
+```text
 [VERIFICAR VIGENCIA]
 [VERIFICAR VIGENCIA: motivo específico]
 ```
@@ -38,7 +45,7 @@ marcador se copia literal:
 
 `[VERIFICAR VIGENCIA: texto del artículo a la fecha del acto extintivo - antecedentes normativos si es anterior a la sustitución]`
 
-> **Una sola línea, con dos excepciones.** Los 24 marcadores de las series A, B y C se escriben en
+> **Una sola línea, con dos excepciones.** Los marcadores de las series A, B y C se escriben en
 > una línea. **D2 y D3 son de dos líneas por diseño** —así están en el glosario heredado del que se
 > transcriben— y así hay que dejarlos: no son un error de formato. Si un marcador aparece partido
 > en cualquier otra serie, es reflujo de texto y se junta. Y ojo con los marcadores dentro de una
@@ -48,7 +55,7 @@ marcador se copia literal:
 
 Cuando se detecta una norma citada que ya fue reemplazada y se conoce la que rige.
 
-```
+```text
 [NORMA DESACTUALIZADA: norma citada - reemplazar por: norma vigente [VERIFICAR VIGENCIA]]
 ```
 
@@ -59,7 +66,7 @@ El marcador anidado no es un error de tipeo: la norma de reemplazo también se v
 Cuando el estado de la norma no se resuelve mirando su texto — está en litigio, suspendida,
 o hay dos regímenes conviviendo.
 
-```
+```text
 [REVISIÓN NORMATIVA REQUERIDA: descripción de lo que se necesita verificar]
 ```
 
@@ -67,13 +74,13 @@ o hay dos regímenes conviviendo.
 
 Todo importe que se mueve: topes, pisos, multas, umbrales, canastas.
 
-```
+```text
 [VERIFICAR MONTO ACTUALIZADO: concepto - fuente de actualización]
 ```
 
 ### A5 · VERIFICAR TASA VIGENTE
 
-```
+```text
 [VERIFICAR TASA VIGENTE: fuero - instrumento que la fija]
 ```
 
@@ -83,7 +90,7 @@ La tasa nunca se recuerda: sale del instrumento que la fija, y el fuero es parte
 
 Obligaciones en moneda extranjera, antes de aconsejar sobre forma de pago.
 
-```
+```text
 [VERIFICAR RÉGIMEN CAMBIARIO VIGENTE: normativa BCRA - verificar antes de aconsejar sobre esta obligación]
 ```
 
@@ -91,7 +98,7 @@ Obligaciones en moneda extranjera, antes de aconsejar sobre forma de pago.
 
 Requisitos que fija un organismo registral por resolución, no por ley.
 
-```
+```text
 [VERIFICAR RESOLUCIÓN REGISTRAL VIGENTE: organismo - materia]
 ```
 
@@ -101,7 +108,7 @@ Cuando el resultado no depende del texto de la norma sino de cómo lo aplica el 
 va a intervenir: cómo se cuantifica, qué rubros se admiten por separado, qué agravante
 prospera, y todo criterio que todavía no esté firme.
 
-```
+```text
 [VERIFICAR CRITERIO DEL FUERO: materia - fuero o sala]
 ```
 
@@ -111,7 +118,7 @@ prospera, y todo criterio que todavía no esté firme.
 
 El CCT no es dato de cartera: surge de lo que las partes invocan y prueban.
 
-```
+```text
 [VERIFICAR CCT APLICABLE: actividad del empleador - dato que falta]
 ```
 
@@ -120,7 +127,7 @@ El CCT no es dato de cartera: surge de lo que las partes invocan y prueban.
 Sólo para los plazos que matan el reclamo: caducidades y prescripciones. Si vencido el plazo
 todavía hay algo que reclamar, este marcador no corresponde.
 
-```
+```text
 [ALERTA PLAZO FATAL: norma - plazo - fecha de inicio del cómputo - vencimiento estimado]
 ```
 
@@ -132,7 +139,7 @@ comentario.
 Plazos procesales o administrativos ordinarios cuyo valor varía por jurisdicción o código
 local. **Distinto de A10**: acá el vencimiento no extingue el derecho.
 
-```
+```text
 [VERIFICAR PLAZO: acto procesal - norma de la jurisdicción]
 ```
 
@@ -146,7 +153,7 @@ No combinar A11 con A1 en un mismo corchete.
 
 Hace falta un precedente y no hay uno verificado a mano. **No se inventa la carátula.**
 
-```
+```text
 [INSERTAR FALLO VERIFICADO: doctrina requerida - aportar expediente, sala, fuero y año]
 ```
 
@@ -154,7 +161,7 @@ Hace falta un precedente y no hay uno verificado a mano. **No se inventa la car�
 
 Un fallo que se verificó contra fuente oficial durante la sesión y por eso puede citarse.
 
-```
+```text
 [JURISPRUDENCIA VERIFICADA EN SESIÓN: "carátula" - sala, fuero, año - doctrina: resumen]
 ```
 
@@ -162,7 +169,7 @@ Un fallo que se verificó contra fuente oficial durante la sesión y por eso pue
 
 Un hecho se afirma y no hay con qué acreditarlo.
 
-```
+```text
 [VACÍO PROBATORIO: hecho afirmado - prueba necesaria para acreditarlo]
 ```
 
@@ -172,7 +179,7 @@ Nombrar la **prueba** concreta que falta, no "falta prueba".
 
 El holding y la fecha están verificados; falta la cita formal.
 
-```
+```text
 [VERIFICAR CITA DE FALLOS: "carátula" - fecha y holding verificados - completar tomo:página contra fuente oficial]
 ```
 
@@ -181,7 +188,7 @@ El holding y la fecha están verificados; falta la cita formal.
 El fallo existe y la cita es correcta, pero falta confirmar que **todavía manda**: que la
 doctrina no haya caído después, por el propio tribunal o por uno superior.
 
-```
+```text
 [VERIFICAR PRECEDENTE: "carátula" o Fallos T:P - confirmar que no fue dejado sin efecto ni superado antes de citar]
 ```
 
@@ -193,7 +200,7 @@ doctrina no haya caído después, por el propio tribunal o por uno superior.
 
 Un argumento que se sostiene solo, sin norma que lo respalde.
 
-```
+```text
 [ARG SIN NORMA: paráfrasis del argumento - norma que correspondería citar: sugerencia o "indeterminada"]
 ```
 
@@ -201,7 +208,7 @@ Un argumento que se sostiene solo, sin norma que lo respalde.
 
 Algo se pide en el petitorio y no se desarrolló en los fundamentos.
 
-```
+```text
 [PETICIÓN SIN FUNDAMENTO: texto de la petición - desarrollar en fundamentos: descripción de lo que falta]
 ```
 
@@ -209,7 +216,7 @@ Algo se pide en el petitorio y no se desarrolló en los fundamentos.
 
 Dos partes del mismo escrito, o del mismo material, dicen cosas incompatibles.
 
-```
+```text
 [CONTRADICCIÓN: sección A dice: "paráfrasis" / sección B dice: "paráfrasis" - resolución necesaria: indicación]
 ```
 
@@ -218,7 +225,7 @@ Dos partes del mismo escrito, o del mismo material, dicen cosas incompatibles.
 Se siguió adelante con un hecho sin respaldo **porque el abogado lo pidió**, y consta que se
 le informó.
 
-```
+```text
 [AVANCE BAJO RESERVA: descripción del hecho - el abogado fue informado de la ausencia de respaldo]
 ```
 
@@ -228,7 +235,7 @@ le informó.
 
 ### D1 · CONFIGURACIÓN INCOMPLETA
 
-```
+```text
 [CONFIGURACIÓN INCOMPLETA: campo - impacto en el análisis]
 ```
 
@@ -236,14 +243,14 @@ El **impacto** es obligatorio: decir qué no se puede hacer sin ese dato.
 
 ### D2 · SIN PERFIL DE ÁREA CARGADO
 
-```
+```text
 [SIN PERFIL DE ÁREA CARGADO: el diagnóstico se realizó con conocimiento normativo general.
 Cargar el perfil del área para un análisis completo]
 ```
 
 ### D3 · DISCREPANCIA ENTRE FUENTES
 
-```
+```text
 [DISCREPANCIA ENTRE FUENTES: el conector X indica A / la fuente primaria indica B.
 Verificar directamente en la fuente oficial]
 ```
@@ -252,19 +259,19 @@ Ante discrepancia manda siempre la fuente primaria.
 
 ### D4 · RED FLAG - NULIDAD ABSOLUTA
 
-```
+```text
 [RED FLAG - NULIDAD ABSOLUTA: descripción de la cláusula - norma: norma aplicable [VERIFICAR VIGENCIA]]
 ```
 
 ### D5 · RED FLAG - RIESGO ALTO
 
-```
+```text
 [RED FLAG - RIESGO ALTO: descripción de la cláusula - observación: descripción del problema]
 ```
 
 ### D6 · RED FLAG - RIESGO MEDIO
 
-```
+```text
 [RED FLAG - RIESGO MEDIO: descripción de la situación]
 ```
 

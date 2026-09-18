@@ -1,0 +1,869 @@
+Ley 1.217 CABA - Procedimiento de Faltas
+==============================================================================
+Jurisdicción:     CABA
+Fuente:           https://juristeca.jusbaires.gob.ar/compilacion-normativa-juristeca/ley-1217/
+Descargado:       2026-09-18
+SHA-256 (crudo):  1bae091d2992091087f346f9a66be4f06e2e423cde1d28a9dde47911be211ec4
+Charset:          UTF-8
+
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
+el manifiesto `normas.json`.
+==============================================================================
+
+Ley 1217 – Procedimiento de faltas de la Ciudad Autónoma de Buenos Aires – JURISTECA
+
+Saltar al contenido
+
+[fecha del portal, no es parte de la norma]
+
+Las fuentes del Derecho a tu alcance
+
+SERVICIO DE APOYO A LA JURISDICCIÓN
+
+Inicio
+
+Buscador JURISTECA
+Búsqueda avanzada de Jurisprudencia
+
+Búsqueda avanzada Biblioteca
+
+Búsqueda de normativa
+
+Compilación normativa JURISTECA
+Normas por fuero
+CAyTyRC
+
+PPJCyF
+
+Normas constitucionales
+
+Normas institucionales
+
+Normas electorales
+
+Normas procesales
+
+Normas laborales
+
+Normas adicionales
+
+Códigos fiscales CABA
+
+Boletín oficial CABA
+
+Desarrollo de contenidos
+
+Newsletter
+
+Biblioteca
+Novedades bibliográficas
+
+Alta usuario
+
+Buscador Biblioteca
+
+JURISTECA somos
+
+Compilación normativa JURISTECA
+
+Selección, edición y sistematización de leyes de aplicación para el Poder Judicial de la Ciudad Autónoma de Buenos Aires
+
+Quinta actualización del Digesto Jurídico CABA
+
+Antecedentes de la Ley Nº 1.217
+
+Todos los artículos de este texto provienen del Texto Consolidado al 29/02/2024 por Ley Nº 6.764 de fecha 18/12/2024.
+
+La numeración de los artículos de la presente corresponde a la del Texto Consolidado por Ley N° 6.764.
+
+Antecedentes relacionados
+En proceso.
+
+*Actualización JURISTECA
+
+No hay modificaciones a la fecha.
+
+LEY N° 1.217*
+
+Procedimiento de Faltas de la Ciudad de Buenos Aires
+
+TÍTULO I
+
+PROCEDIMIENTO ADMINISTRATIVO DE FALTAS
+
+CAPÍTULO I
+
+DISPOSICIONES GENERALES
+
+Art. 1º – Competencia
+
+Lo dispuesto en el presente título se aplica a todo procedimiento por el cual los organismos administrativos que controlan faltas en ejercicio del poder de policía verifiquen la comisión de una infracción contemplada en el Régimen de Faltas de la Ciudad Autónoma de Buenos Aires.
+
+Art. 2º – Acción Pública
+
+Toda falta da lugar a una acción pública que puede ser promovida de oficio o por simple denuncia verbal o escrita ante la autoridad competente.
+
+CAPÍTULO II
+
+ACTAS DE INFRACCIÓN. FACULTADES DE LA AUTORIDAD ADMINISTRATIVA
+
+Art. 3º – Requisitos del acta de infracción
+
+El/la funcionario/a que compruebe la comisión de una falta debe labrar un acta manual o electrónica que contenga:
+
+a) Lugar, fecha y hora de la comisión de la acción u omisión que da lugar al labrado del acta.
+
+b) Descripción de la acción u omisión del presunto infractor/a que determina el labrado del acta.
+
+c) La norma que a juicio del/la funcionario/a se estime infringida, sin que esta mención implique la calificación definitiva de la acción u omisión que da lugar al labrado del acta.
+
+d) Nombre, apellido y domicilio del presunto infractor/ra, si hubiese sido posible determinarlo.
+
+e) La identificación del vehículo utilizado en caso de infracciones de tránsito.
+
+f) Identificación de la/s persona/s que hubieran presenciado la acción u omisión que da lugar al labrado del acta o que pudieran aportar datos de interés para la comprobación de la falta.
+
+g) Identificación, cargo y firma manuscrita o digital o electrónica del funcionario/a que verificó la infracción.
+
+h) Cuando se imponga una medida precautoria debe hacerse constar la medida impuesta, el bien sobre el cual recae y los motivos de su imposición.
+
+Art. 4º – Entrega de copia
+
+El/la funcionario/a que compruebe la infracción estando presente el presunto infractor debe hacerle entrega de una copia del acta manual, excepto en el caso de las actas labradas mediante un dispositivo electrónico, o las infracciones de tránsito detectadas a través del sistema de control inteligente de infracciones.
+
+Art. 5º – Valor probatorio del acta
+
+El acta de comprobación de faltas que reúna los requisitos del artículo 3º se considera, salvo prueba en contrario, prueba suficiente de la comisión de las misma.
+
+Art. 6º – Requerimiento del auxilio de la fuerza pública
+
+Los organismos administrativos que controlan faltas en ejercicio del poder de policía pueden requerir el auxilio de la fuerza pública y al solo efecto de asegurar el procedimiento administrativo de comprobación de la falta.
+
+Cuando a juicio del funcionario/a interviniente resulte indispensable la identificación del presunto infractor/a al momento de la comprobación de la falta y ante su negativa o siendo ello imposible, aquél/lla puede requerir el auxilio de la fuerza pública al sólo efecto de efectuar tal identificación en el lugar de comisión de la falta y dando inmediata comunicación al Ministerio Público.
+
+Art. 7º – Medidas precautorias
+
+En el procedimiento de comprobación de faltas y a efectos de hacer cesar la falta o asegurar la prueba, los organismos administrativos que controlan faltas en ejercicio del poder de policía pueden:
+
+a) efectuar el secuestro de los elementos comprobatorios de la infracción.
+
+b) proceder a la clausura preventiva del/los locales y/u obras en infracción.
+
+La imposición de estas medidas no obsta la aplicación de aquellas otras que correspondan en virtud del ejercicio del poder de policía.
+
+Art. 8º – Elevación
+
+En un plazo improrrogable no mayor de veinte (20) días, las actuaciones de comprobación de faltas son remitidas a la autoridad administrativa de faltas que el Poder Ejecutivo determine, a fin de su notificación al presunto infractor/ra.
+
+Cuando se hubieran dispuesto medidas precautorias, el plazo de elevación de aquéllas es de tres (3) días. Dentro de los tres días de recibida, el/la Controlador/a Administrativo/a de Faltas debe expedirse.
+
+El presunto infractor podrá optar, en el plazo de tres (3) días, en el caso que se hubiere determinado el mantenimiento de la medida precautoria, por solicitar su revisión ante la Junta de Faltas o bien requerir el control judicial de aquella.
+
+En caso de optar por la revisión judicial el/la Controlador/a Administrativo/a de Faltas debe formar incidente a efectos de dar inmediata intervención al Juez, en un plazo máximo de tres (3) días.
+
+CAPÍTULO III
+
+SISTEMA DE CONTROL INTELIGENTE DE INFRACCIONES DE TRÁNSITO
+
+Art. 9° – Medios de comprobación
+
+Las faltas pueden comprobarse por medios electrónicos, fílmicos, fotográficos o de grabación de video, desde medios móviles o puestos fijos así como también mediante la constancia que realice la Autoridad Administrativa y/o el prestatario del servicio que verifique la falta de pago.
+
+Art. 10 – Rúbrica
+
+Las actas de comprobación de faltas confeccionadas conforme lo dispuesto en el artículo precedente, deben cumplir con los requisitos del artículo 3º de la presente ley y son válidas con la rúbrica directa o digitalizada de los/las funcionarios/as que autorice el Poder Ejecutivo.
+
+Art. 11 – Medios móviles
+
+La prueba fotográfica obtenida desde medios móviles sólo tiene validez cuando es obtenida en presencia de un/una funcionario/a público/a con poder de policía.
+
+CAPÍTULO IV
+
+CITACIÓN AL PRESUNTO INFRACTOR
+
+Art. 12 – Domicilio
+
+Se considera válida la notificación diligenciada indistintamente en el domicilio de la infracción, o en su defecto en:
+
+a) El domicilio electrónico constituido ante el Poder Ejecutivo de la Ciudad Autónoma de Buenos Aires,
+
+b) El domicilio que obre en la Dirección General de Licencias del Gobierno de la Ciudad de Buenos Aires:
+
+c) El domicilio que obre en la Administración Gubernamental de Ingresos Públicos (AGIP) del Gobierno de la Ciudad de Buenos Aires;
+
+d) El domicilio que obre en la Dirección de los Registros Nacionales de la Propiedad Automotor y Créditos Prendarios del Ministerio de Justicia y Derechos Humanos de la Nación;
+
+e) El domicilio que obre en la Administración Federal de Ingresos Públicos (AFIP);
+
+f) El domicilio que obre en el Padrón Electoral:
+
+g) El domicilio que obre en otros organismos y entes públicos la Ciudad Autónoma de Buenos Aires, provinciales o nacionales.
+
+Art. 13 – Citación y pago voluntario
+
+La Autoridad Administrativa debe notificar dentro de los sesenta (60) días corridos a el/la presunto/a infractor/a de la existencia de actas de infracción que se le hubiesen labrado e intimarlo/a para que, dentro del plazo de cuarenta (40) días corridos desde la notificación, efectúe el pago voluntario o comparezca a requerir la intervención de la Unidad Administrativa de Control de Faltas, bajo apercibimiento de resolución por parte del Controlador/a Administrativo/a de Faltas interviniente.
+
+La Autoridad Competente conforme los términos del artículo 526 de la Ley Nº 5.688 podrá notificar a el/la presunto/a infractor/a, en el acto y oportunidad de un procedimiento de fiscalización vehicular, la existencia de infracciones de tránsito que se encuentren pendientes de pago o de resolución.
+
+Las notificaciones previstas en los párrafos inmediatos anteriores deben indicar al/la presunto/a infractor/a la opción de pago voluntario, cuando la infracción prevea ese beneficio o la posibilidad de requerir la intervención de la Unidad Administrativa de Control de Faltas, señalando:
+
+a) Que el plazo para realizar el pago voluntario vence a los cuarenta (40) días corridos de notificado y que, para el caso de resultar un acta que cumpla con los requisitos del artículo 11.1.3-Descuento de puntos del Sistema de Evaluación Permanente de Conductores del Código de Tránsito y Transporte de la Ciudad Autónoma de Buenos Aires aprobado por Ley 2148, su realización implica el consentimiento automático para la reducción de puntos conforme lo dispuesto en el Régimen de Evaluación Permanente de Conductores.
+
+b) Que de no acogerse al pago voluntario y/o requerir la intervención de la Unidad Administrativa de Control de Faltas, dentro de los cuarenta (40) días corridos desde la notificación, deberá abonar en el caso de ser confirmada la sanción, el setenta y cinco por ciento (75%) de la multa.
+
+c) Que de no acogerse al pago voluntario y/o requerir la intervención de la Unidad Administrativa de Control de Faltas, vencido el plazo de los cuarenta (40) días corridos desde la notificación, de ser confirmada la infracción, deberá abonar el cien por ciento (100%) de la multa.
+
+En todos los supuestos de requerirse la intervención de la Unidad Administrativa de Control de Faltas, debe asimismo determinar si existen otras actas de infracción en las que se encuentre identificado/a el/la compareciente y procede de inmediato al sorteo de un único/a Controlador/a Administrativo/a de Faltas, el/la cual se expide sobre todas las actas de infracción habidas.
+
+CAPÍTULO V
+
+ACTUACIONES ANTE LA UNIDAD ADMINISTRATIVA DE CONTROL DE FALTAS
+
+Art. 14 – Ámbito de actuación
+
+La Unidad Administrativa de Control de Faltas y la Junta de Faltas actúan, en los casos previstos en esta ley, como instancias administrativas obligatorias y previas al juzgamiento de las faltas por parte de la Justicia Penal, Contravencional y de Faltas de la Ciudad Autónoma de Buenos Aires.
+
+El Cuerpo de Agentes Fiscales tiene a su cargo la revisión de las resoluciones dictadas por la Unidad Administrativa de Control de Faltas en los términos y con las competencias previstas por la Ley,
+
+Los/as Controladores/as Administrativos/as de Faltas podrán desempeñar sus funciones en forma presencial o de forma virtual bajo la modalidad que determine la autoridad de aplicación.
+
+Art. 15 – Funciones
+
+Las funciones atenderán a:
+
+1. Son facultades del/la Controlador/a Administrativo/a:
+
+a) Declarar la validez del acta de infracción, calificar la misma, determinando la sanción aplicable de acuerdo al Régimen de Faltas de la Ciudad Autónoma de Buenos Aires.
+
+b) Disponer el archivo administrativo de las actuaciones por defectos formales en las actas de infracción, por acreditación de la inexistencia de la falta imputada o por prescripción. Si el/la Controlador/a se expidiere sobre la responsabilidad del/la presunto/a infractor/a, y de la prueba producida surgiere que deben seguirse las actuaciones contra un tercero, el/la Controlador/a debe efectuar la citación a este último.
+
+c) Declarar su incompetencia para llevar adelante el procedimiento administrativo y remitir las actuaciones a la Justicia Penal, Contravencional y de Faltas.
+
+d) Disponer el levantamiento de medidas precautorias dispuestas provisoriamente por la autoridad competente de la Ciudad, en ejercicio del poder de policía, en tanto compruebe que haya cesado la causal de la medida.
+
+e) Aplicar las medidas correspondientes del Título Undécimo del "Código de Tránsito y Transporte de la Ciudad Autónoma de Buenos Aires” aprobado por la Ley 2148.
+
+f) Dar intervención a la Junta de Faltas cuando se cumpla con los requisitos de la presente ley, notificando al presunto/a infractor/a de dicha intervención, en el término de dos (2) días y elevando el legajo en forma inmediata a dicho órgano.
+
+g) Dar intervención al Cuerpo de Agentes Fiscales de aquellas actuaciones donde la sanción prevista, considerada individualmente o en conjunto, sea igual o supere, las treinta mil (30.000) unidades fijas incluyendo las resoluciones que dispongan la aplicación de la sanción, el archivo de las mismas, la condena en suspenso y la sustitución de la pena de multa.
+
+2.1. La Junta de Faltas intervendrá en los siguientes supuestos:
+
+a) A pedido de la parte interesada, cuando la resolución determine una sanción de multa igual o superior a seis mil (6.000) unidades fijas;
+
+b) Legajos donde tramiten infracciones, cuya pena máxima prevista sea igual o superior a cien mil (100.000) unidades fijas.
+
+c) En los legajos donde la Unidad Administrativa de Control de Faltas haya dictado resoluciones que dispongan sanción de clausura o mantengan la medida preventiva de clausura que hubiese sido dispuesta en autos en conjunto con una sanción o el levantamiento de las medidas precautorias ordenadas.
+
+d) A pedido de parte, para revisar las medidas precautorias resueltas por las Unidades Administrativas de Control de Faltas en los términos del artículo 8.
+
+e) Los legajos remitidos por el Cuerpo de Agentes Fiscales.
+
+2.2. Son facultades de la Junta de Faltas:
+
+a) Declarar la incompetencia y la remisión a la Justicia Penal, Contravencional y de Faltas
+
+b) Revisar y resolver las resoluciones dictadas por los Controladores Administrativos de Faltas, pudiendo, en caso de así entenderlo, dictar una nueva resolución, contando para ello con las siguientes facultades:
+
+Declarar la validez del acta de infracción, calificar la misma, determinando la sanción aplicable de acuerdo al Régimen de Faltas de la Ciudad de Buenos Aires.
+
+Disponer el archivo administrativo de las actuaciones por defectos formales en las actas de infracción, por acreditación de la inexistencia de la falta imputada o por prescripción.
+
+Disponer el levantamiento de medidas precautorias dispuestas provisoriamente por la autoridad competente de la Ciudad, en ejercicio del poder de policía, en tanto compruebe que haya cesado la causal de la medida
+
+3.1. Los Agentes Fiscales intervendrán:
+
+a) Cuando la sanción máxima prevista sea igual o supere las treinta mil (30.000) unidades fijas, incluyendo las resoluciones que dispongan la aplicación de la sanción, el archivo de las mismas, la condena en suspenso y la sustitución de la pena de multa.
+
+3.2. Son facultades de los Agentes Fiscales:
+
+a) Revisar y evaluar el marco de las actuaciones e instar por legitimidad u oportunidad la intervención de la Junta de Faltas en los legajos informados por las Unidades Administrativas de Control de Faltas o la Autoridad Administrativa.
+
+b) Emitir dictamen sobre la legalidad de las resoluciones dictadas por los Controladores Administrativos de Faltas.
+
+c) Remitir a la Junta de Faltas, emitiendo el correspondiente dictamen, los legajos en que se hayan advertido supuestas irregularidades, debiendo notificarlo a la Unidad Administrativa de Control de Faltas competente.
+
+En los supuestos de intervención de la Junta de Faltas, la misma se debe expedir dentro de los cinco (5) días.
+
+En todos los supuestos, el Agente Fiscal debe resolver en un plazo de cinco (5) días desde su recepción. En caso de elevación a la Junta de Faltas se debe notificar al presunto infractor en el término de un (1) día.
+
+Art. 16 – Constitución de domicilio
+
+En su primera presentación el/la presunto/a infractor/a debe constituir domicilio legal en el ámbito de la Ciudad Autónoma de Buenos Aires y una dirección electrónica personal bajo la modalidad que determine la autoridad de aplicación, donde en forma indistinta serán válidas todas las notificaciones, bajo apercibimiento de tenerlo/a por constituido en la Unidad Administrativa de Control de Faltas interviniente.
+
+Los domicilios constituidos se mantendrán en caso de pedido de pase del/la presunto/a infractor/a a la Justicia Penal, Contravencional y de Faltas.
+
+Art. 17 – Personería
+
+El/a presunto/a infractor/a puede comparecer por si o por medio de apoderado o representante legal.
+
+No es necesario el patrocinio o asistencia legal. La intervención de gestores oficiosos será considerada falta grave del/la Controlador/a Administrativo/a de Faltas, que da lugar a la sustanciación del respectivo sumario administrativo.
+
+Art. 18 – Recusación. Excusación
+
+No es admisible la recusación del/la Controlador/a Administrativo/a de Faltas y de los miembros de la Junta de Faltas. Sin embargo, éstos deben excusarse cuando concurra a su respecto alguno de los supuestos contemplados en el artículo 36 de la presente Ley.
+
+Art. 19 – Audiencia
+
+El/la Controlador/a Administrativo/a de Faltas celebra una audiencia, en forma presencial o virtual, a efectos de recibir el descargo del presunto infractor/a, en forma oral o escrita, y la prueba o documentación que aporte. Todo lo actuado deberá resguardarse en el soporte que indique la autoridad de aplicación.
+
+La Junta de Faltas, para el cumplimiento de su cometido, puede realizar las audiencias que estime pertinentes, ampliar la prueba y/o resolver con las actuaciones que tiene a su alcance, teniendo siempre que respetar el derecho de defensa en su instancia.
+
+Art. 20 – Suspensión de la audiencia
+
+La audiencia sólo puede suspenderse cuando fuera indispensable recabar documentos, información o el testimonio de terceras personas. En este caso, el/la Controlador/a Administrativo/a de Faltas y la Junta de Faltas tienen facultades para efectuar requerimientos mediante oficio y citaciones notificadas fehacientemente
+
+Art. 21 – Medios de prueba
+
+Son admisibles los siguientes medios probatorios:
+
+a) Prueba documental, conforme a lo dispuesto por los artículos 36, 47, 48 y 49 de la Ley de Procedimientos Administrativos de la Ciudad Autónoma de Buenos Aires.
+
+b) Informativa.
+
+c) Inspección ocular. El/la Controlador/a puede constituirse personalmente en el lugar que correspondiere o delegar dicha diligencia, a efectos de verificar la existencia de los hechos alegados por el presunto infractor.
+
+d) Pericial o Informes técnicos. El/la presunto infractor/a debe acompañarlos con cinco (5) días hábiles de anticipación a la celebración de la audiencia fijada.
+
+e) Testimonial. Pueden ofrecerse hasta cuatro (4) testigos, cuyos nombres y domicilios aporta el/la presunto infractor/a. Excepcionalmente, y acreditada la relevancia de los testimonios, el/la Controlador/a puede admitir un número mayor. Corresponde al/la presunto infractor/a asumir la carga de citar a los testigos, como así también la de su comparencia, bajo apercibimiento de tenerlos por desistidos si incumpliere en su deber o si el/los testigo/s no concurriere/n sin justa causa; con excepción de aquellas citaciones dirigidas a funcionarios/as públicos, las cuales se efectúan de oficio, y teniendo presente, en cuanto al deber de comparecer, lo preceptuado por el Art. 361 de la Ley Nº 189.
+Los/las testigos son libremente interrogados sobre los hechos, y se labra un acta en la que consten las preguntas y respuestas.
+
+Art. 22 – Resolución
+
+El/la Controlador/a debe resolver en el mismo acto de la audiencia del artículo 19. La resolución del/a Controlador/a debe ser fundada, observando los siguientes requisitos:
+
+a) Mención del lugar y fecha en la que se dicta.
+
+b) Detalle de los antecedentes de la causa y, en su caso, enunciación de las pruebas que fundamentan la resolución. En el supuesto de rechazo de la prueba ofrecida, mención de los motivos de esta decisión.
+
+c) En caso de descargo, constancia abreviada de su presentación.
+
+d) Enunciación de los hechos u omisiones que motivaron la existencia o inexistencia de la infracción o los defectos formales del acta.
+
+e) En caso de resolución que determine la existencia de la infracción, cita de las disposiciones legales infringidas, determinación de la sanción aplicable y de la modalidad de cumplimiento, lo que puede incluir el pago en cuotas, de acuerdo a los criterios que fije la Autoridad de Aplicación.
+
+f) Transcripción del artículo 25 de esta Ley.
+
+La Junta de Faltas resuelve con el voto de la mayoría simple de sus miembros. En caso de excusación de alguno de sus miembros, la Junta quedará integrada con un Controlador/a elegido por sorteo, del que no puede participar aquél/la que haya adoptado la resolución en revisión.
+
+La Junta de Faltas debe resolver con los mismos requisitos que los/las Controladores/as, en un plazo máximo de cinco (5) días luego de habilitada su intervención, pudiendo ser prorrogado por única vez por el mismo término.
+
+Art. 23 – Presunto infractor/ra remiso/a
+
+Vencido el plazo previsto en el artículo 13 sin que el/la presunto/a infractor/a haya efectuado el pago voluntario o comparecido, se remiten las actuaciones al/la Controlador/a Administrativo/a de Faltas para que dicte resolución. El/la Controlador/a Administrativo/a de Faltas, una vez dictada la resolución, remitirá las actuaciones a la autoridad administrativa para que notifique al/la infractor/a.
+
+Art. 24 – Ejecución del certificado de deuda
+
+Determinada la falta por parte del/la Controlador/a Administrativo/a de Faltas y/o la Junta de Faltas, el/la presunto infractor/a debe manifestar, dentro del quinto día de notificado, si consiente la decisión administrativa. El silencio por parte del/la presunto infractor/a implica su aceptación de la determinación administrativa.
+
+Vencido dicho plazo, el/la Controlador/a Administrativo/a de Faltas y/o la Junta de Faltas dispone la ejecución de la sanción impuesta.
+
+Cuando se trate de la pena de multa, el/la presunto infractor/a debe efectuar el pago en los términos establecidos por el/la Controlador/a Administrativo/a de Faltas y/o la Junta de Faltas. Si el/la deudor/a no abona dentro de los plazos establecidos, el/la Controlador/a Administrativo/a de Faltas y/o la Junta de Faltas y/o la autoridad administrativa, emite el certificado de deuda que habilita el reclamo judicial por la vía ejecutiva, en los términos de la Ley 189, Código Contencioso Administrativo y Tributario de la Ciudad de Buenos Aires, por ante la Justicia Contencioso Administrativo y Tributario de la Ciudad Autónoma de Buenos Aires.
+
+Art. 25 – Derechos del/la infractor/a
+
+Dentro del plazo establecido en el artículo 24 – Ejecución del certificado de deuda- el/la presunto infractor/a tiene derecho a solicitar el pase de las actuaciones para su juzgamiento ante la Justicia Penal, Contravencional y de Faltas. Cuando la resolución determine una sanción de multa igual o superior a seis mil (6000) Unidades Fijas el/la presunto infractor/a podrá solicitar la intervención previa de la Junta de Faltas.
+Esta presentación debe efectuarse ante la Autoridad Administrativa, en los términos que establezca la reglamentación.
+
+Art. 26 – Elevación de las actuaciones
+
+Dentro de los cinco (5) días de solicitado el pase a la Justicia Penal, Contravencional y de Faltas, el/la Controlador/a Administrativo/a y/o la Junta de Faltas debe remitir las actuaciones que hubiera labrado, que tienen el valor de antecedente administrativo, a los efectos del juzgamiento.
+
+Cuando se trate de pena de inhabilitación para la conducción de vehículos automotores se deberá remitir la licencia de conducir del infractor al Controlador/a Administrativo/a de Faltas para su depósito hasta el cumplimiento del plazo de la inhabilitación, momento en el que le será devuelta, previa acreditación de haber aprobado el curso específico de educación vial que dicta la Secretaría de Transporte y Obras Públicas o el organismo que en el futuro lo reemplace.
+
+Las sanciones del párrafo anterior deberán ser adicionalmente comunicadas al Registro Nacional de Infractores de Tránsito.
+
+Art. 27 – Conclusión de la vía administrativa
+
+La resolución del/la Controlador/a Administrativo/a de Faltas concluye la vía administrativa, con excepción de lo previsto en el artículo 15 inciso 2do, donde la conclusión de la vía administrativa se produce con la resolución de la Junta de Faltas.
+
+TÍTULO II
+
+PROCEDIMIENTO JUDICIAL DE FALTAS
+
+CAPÍTULO I
+
+DEL PROCEDIMIENTO EN GENERAL
+
+Art. 28 – Competencia
+
+La jurisdicción en materia de faltas será ejercida por el Fuero Penal, Contravencional y de Faltas de la Ciudad Autónoma de Buenos Aires.
+
+La competencia en materia de faltas es improrrogable.
+
+Art. 29 – Principios del proceso
+
+El proceso se desarrolla de acuerdo a los principios de oralidad, inmediatez, celeridad y economía procesal.
+
+Art. 30 – Defensa del presunto infractor
+
+No es obligatorio el patrocinio letrado. El/la presunto infractor/a puede hacerse defender por abogado/a o recurrir al/la Defensor/a Oficial que corresponda, en las condiciones previstas por el artículo 28, inc. b) de la Ley Nº 21.
+
+Art. 31 – Términos
+
+Todos los términos establecidos en días se entienden por días hábiles, comenzando a correr a partir de las cero (0) horas del día siguiente. Los términos fijados en horas son corridos, y se cuentan a partir del hecho que le diere origen.
+
+Art. 32 – Domicilio constituido
+
+Se consideran válidas las citaciones y notificaciones dirigidas al domicilio constituido del/la presunto infractor/a. Se tiene por tal, el último constituido en las actuaciones ante la Unidad Administrativa de Control de Faltas o el organismo administrativo que controla faltas en ejercicio del poder de policía.
+
+Art. 33 – Notificaciones
+
+Las citaciones y notificaciones se efectúan personalmente, por cédula, telegrama con aviso de entrega o carta documento.
+
+Art. 34 – Costas
+
+Las costas están a cargo del/la condenado/a. Cuando sus condiciones personales o las circunstancias del caso lo aconsejaren, el/la Juez/a puede reducir la condena en costas o eximir de su pago al obligado, siempre que encontrare mérito para ello, expresándolo en su pronunciamiento.
+
+Art. 35 – Particular damnificado
+
+El/la particular damnificado/a por alguna falta, no es parte en el juicio ni tiene derecho a ejercer en este fuero, acciones civiles derivadas del hecho. Sin perjuicio de ello, tiene derecho a ser informado acerca del curso del proceso.
+
+CAPÍTULO II
+
+DEL JUZGAMIENTO DE FALTAS
+
+Art. 36 – Excusación
+
+El/la Juez/a debe excusarse cuando se configure alguna de las siguientes causas:
+
+a) Ser cónyuge o encontrarse en situación de hecho asimilable, o pariente dentro del cuarto grado de consanguinidad o segundo de afinidad con el/la infractor/a, su mandatario/a o abogado/a.
+
+b) Tener amistad íntima o enemistad manifiesta con el/la infractor/a.
+
+c) Tener interés directo o indirecto en la cuestión litigiosa.
+
+d) Haber obtenido el/la Juez/a, su cónyuge o persona asimilable, sus padres, hijos u otras personas que vivan a su cargo, algún beneficio del/la infractor/a.
+
+Art. 37 – Trámite de la excusación
+
+El/la Juez/a que se excuse remite la causa al Magistrado/a que corresponda. Si éste no acepta la excusación, da intervención a la Cámara, que resuelve de inmediato, sin sustanciación.
+
+Art. 38 – Recusación
+
+El/la Juez/a no puede ser recusado sin causa. Si alguna de las partes entendiere que el/la Juez/a debería haberse excusado, éste debe remitir la causa a la Cámara en lo Contravencional y de Faltas dentro de las veinticuatro (24) horas de conocidos los motivos, pudiendo agregar los elementos de convicción que se consideren necesarios.
+La Cámara resuelve en el mismo término.
+
+Art. 39 – Excusación del Ministerio Público
+
+Los/las miembros del Ministerio Público deben excusarse por los mismos motivos establecidos respecto de los/las jueces. Son reemplazados por quien corresponda, en las formas en que establezcan los reglamentos pertinentes.
+
+Art. 40 – Efectos
+
+La excusación del/la Juez/a, o en su caso, el apartamiento del/la Juez/a decretado por la Cámara son definitivos, aún cuando desaparezcan los motivos que hubieren dado lugar a ello.
+
+CAPÍTULO III
+
+DEL INICIO DEL PROCESO
+
+Art. 41- Elevación de la causa
+
+El juicio de faltas se inicia con la radicación ante el Fuero Penal, Contravencional y de Faltas de las actuaciones labradas por la Autoridad Administrativa.
+
+La elevación de la causa debe contener:
+
+a) El acta de infracción.
+
+b) Los antecedentes administrativos.
+
+c) El descargo del presunto infractor, si lo hubiere y en su caso, las pruebas producidas.
+
+d) La resolución de la Autoridad Administrativa que hubiese intervenido.
+
+e) En su caso, el pedido de elevación de las actuaciones para su juzgamiento, efectuado por el presunto infractor.
+
+Si se omitiera algunos de los elementos enumerados en el párrafo anterior, el/la Juez/a ordena que se subsanen dentro del plazo que estime razonable, el que no puede ser superior a los diez (10) días.
+
+Art. 42 – Notificación al presunto infractor y al Ministerio Público Fiscal. Intervención del Asesor Tutelar
+
+Radicada la causa, el/la Juez/a notifica al/la presunto/a infractor/a del inicio de las actuaciones en sede judicial, al domicilio constituido en la instancia administrativa, a fin de que dentro del término de diez (10) días se presente, plantee su defensa, oponga excepciones y ofrezca prueba en los términos del articulo 45, incluida la de las excepciones, adjuntando en este acto la documental.
+
+Esta presentación se efectúa por escrito.
+
+La notificación debe incluir:
+
+a) El/la Juez/a interviniente.
+
+b) El/las acta/s de infracción correspondientes.
+
+c) La descripción suficiente de la acción u omisión que se le imputa.
+
+d) El número de expediente de las actuaciones administrativas.
+
+e) La intimación a presentarse bajo apercibimiento de lo dispuesto en el artículo 43.
+
+El/la Juez/a corre vista al Ministerio Público Fiscal, a fin de que dentro del mismo plazo intervenga si lo considera pertinente de conformidad con los criterios generales de actuación elaborados de acuerdo al artículo 17 Inciso 6° de la Ley N° 21 oponiendo excepciones y ofreciendo toda la prueba de la que intente valerse en los mismos términos que el presunto infractor.
+
+Cuando se trate de un presunto infractor incapaz. el/la Juez/a da inmediata intervención al/la Asesor/a Tutelar.
+
+Art. 43 – Desistimiento
+
+La falta de presentación del presunto infractor dentro del plazo establecido por el artículoanterior, o la incomparecencia injustificada a la audiencia prevista en el artículo 53, implica el desistimiento de la solicitud de juzgamiento oportunamente efectuada en sede administrativa, quedando firme la resolución dictada en esa instancia. Así declarado, el/la Juez/a ordena la notificación de esta resolución y la remisión de las actuaciones al organismo de origen.
+
+Cuando las actuaciones se hubieran originado en sede judicial y ante la incomparencia del presunto infractor, el /la Juez/a dicta sentencia sin más trámite.
+
+Art. 44 – Excepciones admisibles
+
+a) Sólo se admiten las siguientes excepciones:
+
+b) Extinción de la acción.
+
+c) Incompetencia.
+
+d) Pago documentado.
+
+e) Litispendencia.
+
+f) Falta de legitimación.
+
+CAPÍTULO IV
+
+DE LA PRUEBA
+
+Art. 45 – Medios de prueba
+
+Son admisibles los medios de prueba referidos en el artículo 21, en tanto la misma no hubiese sido producida o impugnada en la instancia administrativa.
+
+Art. 46 – Admisibilidad de la prueba
+
+No son admisibles las pruebas que fueren manifiestamente improcedentes, superfluas o dilatorias.
+
+CAPÍTULO V
+
+DE LA INSTANCIA PRELIMINAR
+
+Art. 47 – Resolución de cuestiones previas. Archivo de la causa. Convocatoria a audiencia de juzgamiento
+
+Constituido el proceso de acuerdo con lo establecido en el Capítulo III del Título II el/la Juez/a debe, en el término de diez (10) días:
+
+a) En caso de declarar la procedencia de las excepciones, el/la Juez/a dispone:
+
+Ordenar el archivo si se tratase de extinción de la acción, pago documentado o falta de legitimación
+
+Remitir la causa al Tribunal competente.
+
+Remitir la causa al Tribunal donde tramita el otro proceso en caso de conexidad.
+
+Si ambos procesos fueran idénticos, se ordena el archivo del iniciado con posterioridad.
+
+b) Determinar las pruebas admisibles y las modalidades de su producción, y toda otra prueba que a criterio del/la Juez/a pueda contribuir a establecer la verdad de los hechos. Esta resolución es inapelable.
+
+c) Convocar a la audiencia de juzgamiento, la cual debe realizarse dentro del término de noventa (90) días. Esta convocatoria a audiencia se ordena bajo apercibimiento de proceder conforme a lo establecido en el artículo 43.
+
+d) Solicitar el informe respectivo al Registro de Antecedentes de Faltas.
+
+Art. 48 – Producción de la prueba. Agregación
+
+El diligenciamiento de la prueba está a cargo de la parte que la ofrece y debe ser agregada al expediente con un mínimo de diez (10) días de anticipación a la celebración de la audiencia de juzgamiento, bajo apercibimiento de tenerla por desistida.
+
+La prueba testimonial es recibida en esta última audiencia.
+
+En el mismo plazo las partes pueden requerir que quienes hayan peritado algún punto en disputa, comparezcan a la audiencia de vista de causa a fin de ampliar su dictamen o aclarar alguno de sus puntos.
+
+CAPÍTULO VI
+
+DE LA AUDIENCIA DE JUZGAMIENTO
+
+Art. 49 – Oralidad y publicidad
+
+La audiencia de juzgamiento es oral y pública.
+
+Art. 50 – Obligación de los asistentes
+
+Las personas que asistan a la audiencia deben permanecer respetuosamente y en silencio, sin producir disturbios o manifestar de cualquier modo opiniones o sentimientos.
+
+Art. 51 – Poder disciplinario
+
+El/la Juez/a ejerce el poder disciplinario en la audiencia, y puede corregir en el acto, con llamados de atención y apercibimiento, los incumplimientos a lo dispuesto en el artículo anterior, sin perjuicio de expulsar al/la incumplidor/a de la sala de audiencias.
+
+Por razones de orden el/la Juez/a puede disponer también el alejamiento de toda persona cuya presencia no sea necesaria o limitar la admisión a un determinado número.
+
+Si se expulsara al presunto infractor, su abogado/a lo representa a todos los efectos.
+
+Art. 52 – Dirección
+
+El/la Juez/a dirige la audiencia, ordena las lecturas necesarias, hace las advertencias legales, recibe los juramentos y declaraciones y modera la discusión, impidiendo preguntas o derivaciones impertinentes o que no conduzcan al esclarecimiento de la verdad sin coartar el ejercicio del derecho de defensa.
+
+Art. 53 – Audiencia de juzgamiento. Desarrollo
+
+Previa lectura de los antecedentes incorporados a la causa el/la Juez/a se expide respecto de las excepciones planteadas, recibe la declaración del/la presunto infractor/a y luego las de testigos y peritos, conforme a derecho. En su caso el/la Fiscal y el/la Defensor/a pueden preguntar. Escuchados los alegatos el /la Juez/a dicta sentencia de conformidad con lo establecido con el artículo 56.
+
+Art. 54 – Facultades del presunto infractor
+
+El/la presunto infractor/a puede abstenerse de prestar declaración. En ningún caso se le requiere juramento o promesa de decir verdad.
+
+El/la presunto infractor/a tiene también la facultad de hablar con su abogado/a, sin que por esto la audiencia se suspenda; pero no lo puede hacer durante su declaración o antes de responder a preguntas que se le formulen. En estas oportunidades nadie le puede hacer sugerencia alguna.
+
+Art. 55 – Acta de la audiencia
+
+Debe labrarse un acta de la audiencia, la cual debe contener:
+
+a) El lugar y fecha de la audiencia.
+
+b) El nombre y apellido de las partes presentes.
+
+c) El nombre y apellido de los testigos, peritos e intérpretes, con mención del juramento y la enunciación de los otros elementos probatorios incorporados.
+
+d) Las circunstancias que el/la Juez/a considere pertinente o fueran solicitadas por las partes y fueren aceptadas.
+
+e) La firma del/la Juez/a, del/la presunto infractor/a, del/la fiscal, del/la defensor/a o letrado/a patrocinante si hubiesen intervenido, previa lectura a los interesados.
+
+Art. 56 – Sentencia
+
+La sentencia definitiva debe contener:
+
+a) La identificación del imputado de la falta.
+
+b) La descripción de la acción u omisión imputada y su tipificación.
+
+c) La prueba valorada conforme a las reglas de la sana crítica.
+
+d) Las consideraciones de derecho que correspondan.
+
+e) La absolución o condena en términos expresos y precisos.
+
+f) La individualización de la sanción y las circunstancias valoradas para ello.
+
+g) El plazo y la modalidad de cumplimiento de lo ordenado.
+
+h) El pronunciamiento sobre costas, la regulación de honorarios de los profesionales intervinientes y en su caso, la declaración de temeridad o malicia y la sanción pecuniaria de tal inconducta, la cual se establece entre cien (100) y tres mil (3000) pesos.
+
+i) La orden de comunicar la resolución recaída al Registro de Antecedentes de Faltas.
+
+j) En caso de multa, la orden de libramiento de copia certificada o testimonio de la sentencia a los efectos previstos en el artículo 61.
+
+Fecha, lugar y firma del /la Juez/a y Secretario La sentencia se dicta en la misma audiencia de juzgamiento y se notifica en el acto.
+
+Si la complejidad del asunto o lo avanzado de la hora hicieran necesario diferir la redacción de la sentencia, en dicha oportunidad se lee tan sólo su parte dispositiva, pudiendo aplazar la redacción del fallo por el término máximo de cinco (5) días. La totalidad de la sentencia se notifica por los medios establecidos en el artículo 33.
+
+TÍTULO III
+
+DE LOS RECURSOS
+
+CAPÍTULO I
+
+RECURSO DE APELACION
+
+Art. 57- Procedencia. Efectos
+
+La sentencia definitiva es apelable con efecto suspensivo en los casos de inobservancia manifiesta de las formas sustanciales prescriptas para el trámite o decisión de la causa, violación de la ley o arbitrariedad.
+
+El Ministerio Público Fiscal sólo puede interponer este recurso cuando hubiera tomado intervención en el procedimiento en los términos del artículo 42.
+
+Art. 58 – Procedimiento en segunda instancia
+
+El recurso de apelación debe interponerse dentro de los cinco (5) días de notificada la sentencia mediante escrito fundado ante el/la Juez/a de Primera Instancia, quien eleva las actuaciones sin más trámite.
+
+La Cámara en lo Contravencional y de Faltas notifica la radicación de las actuaciones y que ellas están a disposición de las partes por el término de cinco (5) días. En este plazo la parte que no apeló puede contestar por escrito los agravios del apelante. La Cámara resuelve el recurso en un plazo máximo de diez (10) días.
+
+CAPÍTULO II
+
+RECURSO DE QUEJA
+
+Art. 59 – Procedencia. Efectos
+
+El recurso de queja procede cuando el/la Juez/a deniegue el recurso de apelación o para el caso de retardo de justicia. Debe interponerse directamente ante la Cámara dentro de los tres (3) días de notificada la denegatoria.
+
+En el caso de retardo de justicia, no puede deducirse sin que previamente el interesado haya requerido por escrito el pronto despacho ante el/la Juez/a de la causa y este no dictare resolución dentro de los tres (3) días siguientes.
+
+Presentado el recurso de queja en tiempo y forma, se solicitan los autos, y estos son elevados a la Cámara para su pronunciamiento. Si se declarase procedente el recurso se emplaza al/la Juez/a para que resuelva dentro del término fijado o, en su caso, para que conceda los recursos pertinentes.
+
+El Ministerio Público Fiscal sólo puede interponer este recurso cuando hubiera tomado intervención en el procedimiento en los términos del artículo 42.
+
+CAPÍTULO III
+
+RECURSO DE INAPLICABILIDAD DE LEY
+
+Art. 60 – Procedencia. Efectos
+
+Cuando la sentencia de una sala de Cámara contradiga a otra de distinta Sala, dictada en los dos (2) años anteriores, es susceptible de recurso de inaplicabilidad de ley. El recurso se interpone por escrito fundado, contra la Sala que dictó la sentencia, dentro de los cinco (5) días de notificado. La Cámara en pleno debe resolver la doctrina aplicable y fallar el caso.
+
+El Ministerio Público Fiscal sólo puede interponer este recurso cuando hubiera tomado intervención en el procedimiento en los términos del artículo 42.
+
+TÍTULO IV
+
+DE LA EJECUCIÓN DE LA SENTENCIA
+
+CAPÍTULO I
+
+DISPOSICIONES GENERALES
+
+Art. 61 – Competencia
+
+La sentencia definitiva será ejecutada por el Tribunal que la dictó en primera instancia, el que será competente para resolver todos los incidentes que se susciten durante la ejecución y practicará las comunicaciones pertinentes.
+
+Art. 62 – Atribuciones del tribunal
+
+El juez debe velar por la íntegra y eficaz ejecución de la sentencia dictada. A ese fin, adoptará de oficio sin requerir instancia de parte todas las medidas pertinentes para asegurar el adecuado cumplimiento de la condena.
+
+Art. 63 – Facultades del Ministerio Público Fiscal
+
+Sin perjuicio del deber irrenunciable establecido en el artículo 62, cuando el Ministerio Publico Fiscal hubiere intervenido en la audiencia de Juzgamiento, será parte en la etapa de ejecución de sentencia, ejercerá el control de legalidad y podrá promover el dictado de las medidas idóneas para el adecuado cumplimiento de la condena.
+
+Art. 64 – Celeridad
+
+Las comunicaciones, vistas, notificaciones y demás diligencias ordenadas durante la etapa de ejecución de sentencia serán practicadas de oficio por el Tribunal. Cuando se corriera vista al Ministerio Público Fiscal o cuando éste así lo requiriera, el Tribunal le remitirá el legajo de ejecución por el plazo que fije de acuerdo a la ley.
+
+CAPÍTULO II
+
+EJECUCIÓN DE MULTA
+
+Art. 65 – Intimación
+
+Firme o ejecutoriada la sentencia, el Tribunal intimará al condenado a pagar la multa dentro del quinto día de notificado, bajo apercibimiento de proceder a la ejecución.
+
+Art. 66 – Pago en cuotas
+
+En el plazo previsto en el artículo 65, el condenado podrá solicitar que se le conceda un plazo o que se fijen cuotas para el pago de la multa, en los términos del artículo 21 del Régimen de Faltas # y de acuerdo al Plan de Regularización vigente y aprobado por la autoridad de aplicación de dicho régimen.
+
+El Tribunal resolverá previa vista al Ministerio Público Fiscal, si correspondiera.
+
+Si el condenado no cumpliera con el respectivo Plan de Regularización suscripto, inmediatamente ante la falta de pago de una cuota el Tribunal lo intimará a acreditar el pago en un plazo máximo de tres (3) días, bajo apercibimiento de revocar el beneficio y proceder a la ejecución de la totalidad del saldo restante.
+
+Art. 67 – Embargo y otras medidas
+
+Vencido el plazo fijado en el artículo 65 o, de corresponder, en el artículo 66, el Tribunal desplegará todas las diligencias pertinentes para individualizar bienes del condenado. Si fuera parte en la ejecución, correrá vista al Ministerio Público Fiscal para que practique la indagación patrimonial y señale los bienes ejecutables.
+
+Individualizados los bienes del condenado, el Tribunal ordenara el embargo, secuestro o designación de interventor recaudador. Sólo cuando fuese materialmente imposible practicar alguna de estas medidas y así estuviese acreditado en el legajo, se decretará la inhibición general de bienes del condenado.
+
+En todos los casos, las medidas se regirán en lo pertinente y en cuanto no fuere incompatible con esta Ley, por el Título V del Anexo I de la Ley 189.
+
+Art. 68 – Excepciones
+
+Al trabar la medida, o luego de trabada si no fuera posible hacerlo en ese momento, el Tribunal citará al condenado para que en el plazo de cinco (5) días oponga alguna de las siguientes excepciones:
+
+a) Prescripción de la sanción,
+
+b) Pago.
+
+Si el condenado no opusiere excepción o no fuera procedente, se llevará adelante la ejecución.
+
+Art. 69 – Ejecución
+
+Vencido el plazo del articulo 68 o rechazadas las excepciones, se practica la ejecución.
+Si se hubiese embargado moneda de curso legal, se transfiere inmediatamente a la cuenta recaudadora del Gobierno de la Ciudad de Buenos Aires.
+
+En todos los demás casos, se procede según lo previsto en el Capítulo IV del Título XII del Anexo I de la Ley 189.
+
+CAPÍTULO III
+
+CLAUSURA E INHABILITACIÓN
+
+Art. 70 – Cómputo
+
+Firme o ejecutoriada la sentencia por Secretaría se practicará el cómputo de la inhabilitación, o de la clausura cuando se hubiese impuesto por tiempo determinado.
+
+El inicio del plazo de clausura deberá computarse desde el primer día hábil para la operación del establecimiento de que se trate según sus horarios normales y habituales.
+
+El cómputo se notificará a las partes en la ejecución, quienes dentro del quinto día podrán oponerse con fundamento en errores materiales u omisiones. La oposición se sustanciará con la contraparte cuando la hubiere. El Tribunal resolverá dentro del quinto día.
+
+Art. 71 – Clausura
+
+El Tribunal instruirá a la Policía de la Ciudad y al área competente del Poder Ejecutivo para que en operativo conjunto implanten la clausura.
+
+De todo lo actuado labrarán acta y anotarán en sus registros el plazo y condiciones de vigencia de la sanción.
+
+La clausura se cumplirá en días corridos y no se admitirá el fraccionamiento de la sanción. Durante su vigencia, el organismo competente del Poder Ejecutivo y la Policía de la Ciudad realizarán controles periódicos en la forma que fije el Tribunal.
+
+Art. 72 – Inhabilitación
+
+El Tribunal comunicará a la autoridad competente la inhabilitación impuesta, así como su plazo y condiciones de vigencia. Cuando se hubiere impuesto inhabilitación por dos (2) años se cursará notificación a la Dirección General de Habilitaciones y Permisos, a los fines previstos en el artículo 23 del Régimen de Faltas.
+
+El Tribunal determinará el modo y la autoridad competente para supervisar periódicamente el cumplimiento de la inhabilitación.
+
+En los casos de condenas que impongan sanción de inhabilitación para la conducción de vehículos automotores la licencia de conducir del infractor permanecerá retenida hasta el cumplimiento del plazo de la inhabilitación, momento en el que le será devuelta, previa acreditación de haber aprobado el curso específico de educación vial que dicta la Secretaría de Transporte y Obras Públicas o el organismo que en el futuro lo reemplace.
+
+Las condenas del párrafo anterior deberán ser adicionalmente comunicadas al Registro Nacional de Infractores de Tránsito.
+
+TÍTULO V
+
+AUTORIDAD DE APLICACIÓN
+
+Art. 73 – Autoridad de aplicación
+
+El Poder Ejecutivo establecerá la Autoridad de Aplicación de la presente Ley, la cual tendrá a su cargo:
+
+a) La aplicación de la presente norma, dictando todas aquellas medidas y actos necesarios para su cumplimiento.
+
+b) Fiscalizar el debido cumplimiento de las previsiones y principios de la Ley, adoptando aquellas medidas conducentes cuando verificare algún tipo de irregularidad.
+
+c) Efectuar las denuncias ante autoridad judicial competente, ante la existencia de un presunto ilícito de cualquier de los actores del sistema de faltas.
+
+d) Comunicar al Ministerio de Justicia y Seguridad sobre el estado de ejecución de la presente ley informando sobre la gestión y el desempeño en general de las faltas verificadas y las sanciones aplicadas por los órganos competentes.
+
+e) Dictar Criterios Generales de Actuación del Procedimiento de Faltas de la Ciudad Autónoma de Buenos Aires regulado por la presente norma. Dichas resoluciones, serán siempre de carácter general, no pudiendo referirse a causas o asuntos particulares y serán de aplicación obligatoria para todos los titulares de las Unidades de Control de Faltas, la Junta de Faltas y los Agentes Fiscales.
+
+f) Implementar el sistema informático, plataforma digital que contemple la posibilidad de atender al público, realizar presentaciones, consultas y audiencias ante los Controladores Administrativos de Faltas y todo otro sistema informático que fuera necesario para la implementación de la presente Ley.
+
+g) Emitir los certificados de deuda previstos en el artículo 24.
+
+h) Establecer planes de regularización de las obligaciones pendientes de pago determinadas en los certificados de deuda del artículo 24, se encuentren estas en etapa judicial o extrajudicial, pudiendo a tales efectos disponer condonación y/o reducciones de intereses, financiamiento en cuotas del capital adeudado, conforme la reglamentación que se dicte al efecto. El valor de las cuotas se establecerá en Unidades Fijas, que se convertirán en moneda de curso legal al momento en que se efectúe el pago.
+
+i) Suscribir acuerdos con las autoridades competentes del ámbito nacional, provincial y/o municipal, tendientes a compartir la información que aquellas puedan disponer relativa a distintos tipos de infracciones perseguidas dentro de su jurisdicción, domicilios de los infractores y de cualquier otra naturaleza vinculada a su competencia.
+
+Ley N º 1.217
+
+Las fuentes del Derecho a tu alcance
+
+Responsables
+
+Secretaría de Apoyo Administrativo Jurisdiccional
+Sergio J. Gargiulo
+
+Dirección de Apoyo Operativo
+Fabio D. Ona
+
+JURISTECA – Departamento de Biblioteca y Jurisprudencia
+Vanesa Jurado Giménez
+
+Menú
+
+Inicio
+
+Buscador Juristeca
+
+Compilación normativa Juristeca
+
+Desarrollo de contenidos
+
+Newsletter
+
+Novedades bibliogáficas
+
+Contacto
+
+Consejo de la Magistratura de la Ciudad de Buenos Aires.
+Av. julio A. Roca 516 (C1067ABN) C.A.B.A.
+
+
+
+
+
+Skip to content
+
+Open toolbar
+
+Juristeca Accesible
+
+Juristeca Accesible
+
+Aumentar textoAumentar texto
+
+Achicar textoAchicar texto
+
+Escala de grisesEscala de grises
+
+Alto contrasteAlto contraste
+
+Contraste negativoContraste negativo
+
+Fondo blancoFondo blanco
+
+Subrayar linksSubrayar links
+
+Fuente legibleFuente legible
+
+Reset
+Reset

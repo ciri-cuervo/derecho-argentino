@@ -1,6 +1,8 @@
 # Tributario · procedimiento de la Ley 11.683
 
-> Módulo de referencia de la skill `derecho-argentino`. Numeración global, sección 33.
+> Módulo de referencia de la skill `derecho-argentino`. Numeración global: las remisiones cruzadas
+> entre módulos siguen siendo válidas. **Rigen las reglas de integridad de la sección 2 del
+> SKILL.md.**
 
 ---
 
@@ -11,7 +13,7 @@ ordenado en 1998 por el Decreto 821/98** — InfoLEG no tiene entrada propia baj
 ley, la publica como **Anexo I** de ese decreto.
 
 Este módulo cubre **el procedimiento**: prescripción, recursos y demanda. No cubre los impuestos
-en particular ni el Régimen Penal Tributario, que está en `penal.md` 24.9.5.
+en particular ni el Régimen Penal Tributario, que está en `penal-leyes-especiales.md` 24.9.5.
 
 > **La primera decisión es irreversible y hay quince días para tomarla.** El art. 76 da a elegir
 > —**"a su opción"**— entre reconsideración ante el superior y apelación ante el Tribunal Fiscal.
@@ -49,7 +51,12 @@ de estas condiciones:
    de ella resulte un incremento del saldo a favor del Fisco o una reducción de quebrantos o
    saldos a favor.
 
-`[VERIFICAR MONTO ACTUALIZADO: umbral del art. 1 del Régimen Penal Tributario, Título IX de la Ley 27.430 - opera como condición ii) de la discrepancia significativa del art. 56 y se actualiza por ley]`
+**Ese umbral es el del art. 1 del Régimen Penal Tributario y hoy son cien millones de pesos**
+—$100.000.000, texto según el art. 1 de la Ley 27.799, cotejado contra el consolidado de
+`fuentes/normas/ley-27430.txt`—. La tabla completa de umbrales, con su unidad de cómputo, está en
+`penal-leyes-especiales.md` 24.9.5 y no se repite acá.
+
+`[VERIFICAR MONTO ACTUALIZADO: umbral del art. 1 del Régimen Penal Tributario para períodos posteriores al 01/01/2027 - el art. 43 de la Ley 27.799 lo ajusta anualmente por UVA y ARCA publica el importe vigente cada año]`
 
 ### 33.2 Los recursos del art. 76 — la opción que cierra puertas
 
@@ -133,7 +140,14 @@ excesivo** respecto del que la ley le impone.
 ---
 
 > **Lo que este módulo no cubre:** la determinación de oficio (arts. 16 y 17), el régimen
-> sancionatorio, la ejecución fiscal del art. 92, los impuestos en particular, y el procedimiento
-> tributario **provincial** —en PBA, el Código Fiscal (Ley 10.397), que está en
-> `fuentes/normas/`—. Para eso rige el ruteo de `otras-ramas.md` sección 19, **con su
-> advertencia**. El Régimen Penal Tributario está en `penal.md` 24.9.5.
+> sancionatorio, la ejecución fiscal del art. 92 y los impuestos en particular. Para eso rige el
+> ruteo de `perfiles-heredados.md` sección 19, **con su advertencia**. El Régimen Penal Tributario
+> está en `penal-leyes-especiales.md` 24.9.5.
+>
+> **Y el procedimiento tributario provincial no lo cubre nadie, ni acá ni allá.** El Código Fiscal
+> de PBA (Ley 10.397) **está bajado** en `fuentes/normas/pba-ley-10397.txt` y **ningún módulo lo
+> recorre**; el perfil heredado tampoco, porque **no nombra a ARBA ni una vez**: sólo instruye a
+> mirar el código fiscal de cada provincia. Ante una determinación, una multa o una ejecución
+> fiscal provincial, **se dice que la materia no está cubierta y se va al texto**, que está a
+> mano. No se contesta con el procedimiento nacional: los plazos, los recursos y el órgano son
+> otros.

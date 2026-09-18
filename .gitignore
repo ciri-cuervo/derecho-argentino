@@ -3,9 +3,20 @@ __pycache__/
 *.pyc
 /logs/
 /outputs/
-/.claude/
+# De `.claude/` se versiona SÓLO `settings.json`, porque lleva `claudeMdExcludes` y eso
+# tiene que viajar al clon: adentro de `derecho/kb/` hay dos `CLAUDE.md` que son capa 2 --
+# perfiles de práctica de otro autor, escritos para ser obedecidos-- y Claude Code los carga
+# como instrucciones al leer un archivo de esas carpetas. Sin la exclusión, quien desarrolla
+# el repo recibe como regla material que la frontera de licencia dice que sólo se cita.
+/.claude/*
+!/.claude/settings.json
+!/.claude/rules/
 /.playwright-mcp/
 
 # Obras comerciales con derechos reservados: ejemplares locales del abogado.
 # NO commitear. La sintesis citable esta en derecho/skills/derecho-argentino/references/danos-indice-doctrinario.md.
 derecho/fuentes/_local/
+
+# Salida de `claude plugin eval`: una corrida fechada, no contenido del repo.
+# El veredicto de lo que se vio va al archivo del caso, no el HTML de la corrida.
+derecho/evals/results/

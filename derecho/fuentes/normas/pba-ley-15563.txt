@@ -1,14 +1,14 @@
 Ley 15.563 - Modifica el art. 12 inc. g de la Ley 6.716
 ==============================================================================
-Jurisdiccion:     pba
+Jurisdicción:     pba
 Fuente:           https://normas.gba.gob.ar/documentos/Bg1pRNTp.html
-Descargado:       2026-09-14
+Descargado:       2026-09-17
 SHA-256 (crudo):  160a48f0af436d6e2336c03fb7e242a97d248f636460d4df037ce3d601e1ae42
 Charset:          UTF-8
 
-Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
-NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
-Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
 el manifiesto `normas.json`.
 ==============================================================================
 

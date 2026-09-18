@@ -1,11 +1,9 @@
 # RIPTE - Remuneración imponible promedio de los trabajadores estables
-# Organismo: Secretaria de Trabajo, Empleo y Seguridad Social - frecuencia: mensual
+# Organismo: Secretaría de Trabajo, Empleo y Seguridad Social - frecuencia: mensual
 # serie_id: 158.1_REPTE_0_0_5
 # Fuente: https://apis.datos.gob.ar/series/api/series/?ids=158.1_REPTE_0_0_5&format=csv&start_date=1994-07
-# Descargado: 2026-09-13  (385 periodos, 1994-07 a 2026-07)
-# Pesos corrientes.
-# Es la serie que usa el art.
-# 12 LRT texto Ley 27.348.
+# Descargado: 2026-09-17  (385 períodos, 1994-07 a 2026-07)
+# Pesos corrientes. Es la serie que usa el art. 12 LRT texto Ley 27.348.
 periodo,indice
 1994-07,874.87
 1994-08,893.0

@@ -1,0 +1,1277 @@
+Acuerdo 4113/2023 SCBA - modifica el Acuerdo 3989 y la Res. 1472/20 (Reglamento del RDE)
+==============================================================================
+Jurisdicción:     pba
+Fuente:           https://digesto.scba.gov.ar/VerTextoCompleto.aspx?idFallo=13901
+Descargado:       2026-09-17
+SHA-256 (crudo):  6d57fac901cdee721a8827fed2b71193dc52f183e02ad8ed8752f087fea1a00c
+Charset:          utf-8
+
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
+el manifiesto `normas.json`.
+==============================================================================
+
+SCBA - Digesto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+scba.gov.ar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+VISUALIZACION DEL TEXTO COMPLETO.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DATOS DE LA NORMA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Norma:
+
+
+
+
+
+
+AC 4113 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Contenido temático:
+
+
+
+
+
+
+Modifica el Acuerdo 3989 (Creación del Registro de domicilios electrónicos del Poder Judicial de la Provincia de Buenos Aires) y la RC 1472/20 (Reglamento del Registro de Domicilios Electrónicos)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fecha:
+
+
+
+
+
+
+2/8/2023
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Magistrados firmantes:
+
+
+
+
+
+
+Torres-Soria-Genoud-Kogan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Origen:
+
+
+
+
+
+
+SECRETARÍA DE PLANIFICACIÓN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Alcance:
+
+
+
+
+
+
+Vigente
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Normativas relacionadas:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Normativas principales:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TEXTOS DE LA NORMA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ref. Expte. SPLN0 9/20
+
+
+La Plata, 2 de agosto de 2023.
+
+
+ACUERDO N°4113
+
+
+VISTO: El Acuerdo N° 3989 (t.o. Res. Pres. SPL N° 74/20 y ratificado por Ley N° 15.230) por el que se creó el Registro de Domicilios Electrónicos del Poder Judicial de la Provincia de Buenos Aires (en adelante "RDE"), la Reglamentación aprobada por la Resolución N° 1472/20; la conveniencia de realizar algunos ajustes a sus textos; y
+
+
+CONSIDERANDO: 1o) Que, en el marco de la normativa citada en los vistos, el 5 de abril de 2021 y previo a la implementación de los mecanismos de preinscripción e inscripción al RDE, se pusieron en funcionamiento las comunicaciones y notificaciones electrónicas previstas en el artículo 1o y concordantes del referido Acuerdo N° 3989.
+
+
+2o) Que, habiendo sido exitosa tal implementación, favoreciendo la prosecución del proceso y consolidación del expediente digital, en estos meses se tomaron en cuenta cuestiones derivadas de la praxis procesal que surgieron de la capacitación realizada a través del Instituto de Estudios Judiciales y las opiniones de magistrados y funcionarios de diversos órganos judiciales, vinculadas -entre otros aspectos- tanto a incorporar más entes en el carácter de sujetos obligados a la inscripción, así como a precisar algunos tópicos relativos a los sujetos que concurren a una mediación prejudicial, por lo que se ha considerado prudente avanzar en algunos ajustes de la normativa que nos ocupa.
+
+
+3o) Que, en tal sentido, los agregados y/o modificaciones que se consideran necesarios para una adecuada consolidación en la implementación del RDE, son:
+
+
+(i) Las aclaraciones y ampliaciones en la enumeración de sujetos obligados a inscribirse que contiene el articulo 3o del Acuerdo N°3989, en base a los datos informados de sujetos demandados y diversos requerimientos de los organismos jurisdiccionales;
+
+
+(ü) La modificación de la fecha de corte de los domicilios "por defecto", dado que en el Acuerdo y en el Reglamento la fecha de fines de diciembre de 2020 quedo desactualizada y los organismos o empresas del artículo 3 o pueden ir cambiando sus letrados apoderados con el correr del tiempo;
+
+
+
+
+El cambio del artículo 7° vinculado a los sujetos que concurren a una audiencia de mediación prejudicial -los que tendrán tiempo de inscribirse hasta el momento mismo de su celebración- otorgando un sentido permanente a la inscripción -esto es, para las personas humanas, la posibilidad de denunciar el domicilio electrónico primigeniamente generado para eventuales futuras mediaciones y, en el caso de las jurídicas, la perdurabilidad del domicilio electrónico creados por mediación tanto para todas las eventuales futuras, así como en general para todas las actuaciones mencionadas en el artículo 1o del Acuerdo N° 3989-, enfatizándose el deber de los órganos jurisdiccionales, mediadores y letrados de verificar el plazo de caducidad -el que se amplía a 8 meses- y la asistencia a las partes -respectivamente-;
+
+
+La mayor precisión en cuanto a los aspectos operativos de publicación de los distintos domicilios electrónicos en el RDE, con mención especial al mecanismo de información relativo a los domicilios "por defecto";
+
+
+La precisión de aspectos terminológicos de la modalidad de inscripción previstas en el Reglamento y el deber de completar adecuadamente y, en carácter de declaración jurada, el formulario de inscripción, especificándose la documentación a acompañar;
+
+
+La incorporación como carga en la inscripción al Registro de las personas humanas, en caso que corresponda, los datos del letrado que los representa en la audiencia;
+
+
+
+(vii) El contemplar los supuestos en que las personas jurídicas u organismos se extingan, disuelvan, fusionen, escisionen, liquiden, se resuelvan parcialmente por la muerte de uno de sus socios, cambien de objeto o competencia, o en cualquier otro supuesto que implique un cambio en el direccionamiento de las comunicaciones previstas en el artículo 1o del Acuerdo N° 3989, disponiendo el deber de sus representantes de denunciar tal circunstancia al Registro y de los titulares de los órganos jurisdiccionales que tomaren conocimiento o resolviesen algunas de las mencionadas situaciones, de informar tales acontecimientos al mismo.
+
+
+4o) Que, por lo tanto, cabe disponer como fechas de efectiva implementación del presente, las siguientes:
+
+
+(i) El régimen de ...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ver texto vigente con formato
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ref. Expte. SPLN0 9/20
+
+
+
+La Plata, 2 de agosto de 2023.
+
+
+
+ACUERDO N°4113
+
+
+
+VISTO: El Acuerdo N° 3989 (t.o. Res. Pres. SPL N° 74/20 y ratificado por Ley N° 15.230) por el que se creó el Registro de Domicilios Electrónicos del Poder Judicial de la Provincia de Buenos Aires (en adelante "RDE"), la Reglamentación aprobada por la Resolución N° 1472/20; la conveniencia de realizar algunos ajustes a sus textos; y
+
+
+
+CONSIDERANDO: 1o) Que, en el marco de la normativa citada en los vistos, el 5 de abril de 2021 y previo a la implementación de los mecanismos de preinscripción e inscripción al RDE, se pusieron en funcionamiento las comunicaciones y notificaciones electrónicas previstas en el artículo 1o y concordantes del referido Acuerdo N° 3989.
+
+
+
+2o) Que, habiendo sido exitosa tal implementación, favoreciendo la prosecución del proceso y consolidación del expediente digital, en estos meses se tomaron en cuenta cuestiones derivadas de la praxis procesal que surgieron de la capacitación realizada a través del Instituto de Estudios Judiciales y las opiniones de magistrados y funcionarios de diversos órganos judiciales, vinculadas -entre otros aspectos- tanto a incorporar más entes en el carácter de sujetos obligados a la inscripción, así como a precisar algunos tópicos relativos a los sujetos que concurren a una mediación prejudicial, por lo que se ha considerado prudente avanzar en algunos ajustes de la normativa que nos ocupa.
+
+
+
+3o) Que, en tal sentido, los agregados y/o modificaciones que se consideran necesarios para una adecuada consolidación en la implementación del RDE, son:
+
+
+
+(i) Las aclaraciones y ampliaciones en la enumeración de sujetos obligados a inscribirse que contiene el articulo 3o del Acuerdo N°3989, en base a los datos informados de sujetos demandados y diversos requerimientos de los organismos jurisdiccionales;
+
+
+
+(ü) La modificación de la fecha de corte de los domicilios "por defecto", dado que en el Acuerdo y en el Reglamento la fecha de fines de diciembre de 2020 quedo desactualizada y los organismos o empresas del artículo 3 o pueden ir cambiando sus letrados apoderados con el correr del tiempo;
+
+
+
+
+El cambio del artículo 7° vinculado a los sujetos que concurren a una audiencia de mediación prejudicial -los que tendrán tiempo de inscribirse hasta el momento mismo de su celebración- otorgando un sentido permanente a la inscripción -esto es, para las personas humanas, la posibilidad de denunciar el domicilio electrónico primigeniamente generado para eventuales futuras mediaciones y, en el caso de las jurídicas, la perdurabilidad del domicilio electrónico creados por mediación tanto para todas las eventuales futuras, así como en general para todas las actuaciones mencionadas en el artículo 1o del Acuerdo N° 3989-, enfatizándose el deber de los órganos jurisdiccionales, mediadores y letrados de verificar el plazo de caducidad -el que se amplía a 8 meses- y la asistencia a las partes -respectivamente-;
+
+
+La mayor precisión en cuanto a los aspectos operativos de publicación de los distintos domicilios electrónicos en el RDE, con mención especial al mecanismo de información relativo a los domicilios "por defecto";
+
+
+La precisión de aspectos terminológicos de la modalidad de inscripción previstas en el Reglamento y el deber de completar adecuadamente y, en carácter de declaración jurada, el formulario de inscripción, especificándose la documentación a acompañar;
+
+
+La incorporación como carga en la inscripción al Registro de las personas humanas, en caso que corresponda, los datos del letrado que los representa en la audiencia;
+
+
+
+
+(vii) El contemplar los supuestos en que las personas jurídicas u organismos se extingan, disuelvan, fusionen, escisionen, liquiden, se resuelvan parcialmente por la muerte de uno de sus socios, cambien de objeto o competencia, o en cualquier otro supuesto que implique un cambio en el direccionamiento de las comunicaciones previstas en el artículo 1o del Acuerdo N° 3989, disponiendo el deber de sus representantes de denunciar tal circunstancia al Registro y de los titulares de los órganos jurisdiccionales que tomaren conocimiento o resolviesen algunas de las mencionadas situaciones, de informar tales acontecimientos al mismo.
+
+
+
+4o) Que, por lo tanto, cabe disponer como fechas de efectiva implementación del presente, las siguientes:
+
+
+
+(i) El régimen de inscripción al RDE derivado de las audiencias prejudiciales previsto en el artículo 7° del Acuerdo N° 3989, así como las demás modificaciones que contempla el presente -salvo lo previsto en el apartado siguiente-, empezarán a aplicarse a partir del 1o de agosto del corriente año;
+
+
+
+( ii) Los sujetos obligados a la inscripción al RDE, incorporados a la enumeración del artículo 3o del referido Acuerdo, tendrán que completar los formularios web -ya existentes en el subsitio del RDE- entre el 1o de agosto y el 31 de octubre -inclusive-, ambos del corriente año. Si no cumplieran con la carga indicada, se les aplicarán, vencido dicho plazo, los domicilios "por defecto" previstos en el artículo 4o del citado Acuerdo N° 3989.
+
+
+
+5o) Que teniendo en consideración las modificaciones propiciadas -sumada a la ya realizada por el Acuerdo N°4029, en cuanto a la actual denominación de Correo Oficial nacional- y siendo que la claridad y previsibilidad de las reglas son atributos inherentes a la seguridad jurídica, resulta conveniente la elaboración y publicación de un texto ordenado tanto del Acuerdo N° 3989, así como de su Reglamento, los que como Anexos I y II, forman parte del presente.
+
+
+
+6o) Que han tomado intervención, en el marco de sus respectivas competencias, la Secretaría de Planificación y la Subsecretaría de Tecnología Informática.
+
+
+
+7o) Que asimismo la iniciativa ha sido valorada positivamente por el Consejo Participativo de Gestión Judicial (Acuerdo N° 4024) en su Recomendación N°2.
+
+
+
+POR ELLO, la Suprema Corte, en ejercicio de sus atribuciones (arts. 32, inc. "s" de la Ley N°5827; 143 bis y 834 del CPCC; 12, Ley N°I5.230); y con arreglo a lo dispuesto en el artículo 4 del Acuerdo N°3971,
+
+
+
+ACUERDA:
+
+
+
+Artículo 1o. Modificar los incisos "d", "h" y "j" e incorporar los incisos "m", "n", "o", "p", "q", "r", "s", y "t" del artículo 3o del Acuerdo 3989 (to. Res. Pres. SPL N° 74/20), los que quedarán redactados de la siguiente manera:
+
+
+
+"Artículo 3o. Deberán inscribir domicilios electrónicos en el Registro creado por el presente Acuerdo, las siguientes personas jurídicas y organismos: ...
+
+
+
+d. Los municipios de la provincia, tanto sus departamentos deliberativos y ejecutivos y sus entidades descentralizadas de cualquier especie.
+
+
+
+h. Las prestatarias de servicios públicos y las concesionarias de obras públicas. Quedan incluidas en el presente, las empresas prestadoras de servicios digitales, así como las dedicadas a la emisión y retransmisión de televisión abierta, operadores de televisión por suscripción y emisión de señales de televisión por suscripción.
+
+
+
+j. Centros comerciales, paseos de compras, centros de compras mayoristas, hipermercados, supermercados y, en general, establecimientos regulados en el régimen establecido en la ley 12.573 y sus reformas.
+
+
+
+m. Las empresas que brinden servicios de asistencia sanitaria, médica y paramédicas, vinculados tanto a la hospitalización y/o internación en clínicas, sanatorios y establecimientos similares, así como todos los demás servicios relacionados con tal asistencia, incluyendo el transporte de heridos y enfermos en ambulancias o vehículos especiales.
+
+
+
+n. Las empresas de servicios de prácticas de diagnósticos en laboratorio y servicios de prácticas de diagnósticos por imágenes.
+
+
+
+o. Las empresas de servicios de viajes y turismo de venta "online" o
+
+
+
+virtual.
+
+
+
+p. Las entidades administradoras de sistemas de tarjeta de crédito -Ley N° 25.065-.
+
+
+
+q. Las empresas de servicios de mensajería, servicios de gestión y logística para transporte de mercaderías, así como de servicios de transporte de caudales y objetos de valor.
+
+
+
+r . Las empresas de fabricación, intermediación y venta de automotores y motovehículos nuevos y usados. Quedan incluidos en el presente las empresas de tales rubros vinculadas a servicios de gestión de fondos a cambio de una retribución o por contrata.
+
+
+
+s. Las empresas de construcción, reforma y reparación de edificios residenciales y no residenciales, así como los consorcios de edificios y servicios de administración de consorcios de edificios.
+
+
+
+
+
+
+t. Las empresas de servicios de seguridad e investigación privada.
+
+
+
+Artículo 2o. Modificar el segundo y cuarto párrafo del artículo 4o del Acuerdo N° 3989 (t.o. Res. Pres. SPL N° 74/20), los que quedarán redactados de la siguiente manera:
+
+
+
+"También se considerarán inscriptos por defecto, hasta tanto se proceda a la efectiva inscripción en el Registro, los domicilios electrónicos que hubiesen constituido los letrados de tales sujetos ante la justicia de la provincia, correspondientes a las últimas dos (2) actuaciones procesales, por departamento judicial Cuando todos los domicilios por defecto referidos en este artículo no fueran coincidentes, la respectiva notificación deberá efectuarse a cada uno de ellos. Serán consideradas como las últimas dos (2) actuaciones procesales a los fines de este régimen, las dos (2) notificaciones o comunicaciones recibidas en los domicilios electrónicos inscriptos por defecto, practicadas con posterioridad al 1o de enero de 2019 y que hubieran quedado disponibles para su destinatario en el momento anterior más próximo al del informe realizado, a tales efectos, por el Registro, con colaboración de la Subsecretaría de Tecnología Informática ".
+
+
+
+"Con arreglo a lo dispuesto en el artículo 13° del Reglamento aprobado por el Acuerdo N° 4013 (t.o. Ac. N° 4039) y ¡o la normativa que eventualmente lo suprima o modifique, las notificaciones se tendrán por cumplidas el día martes o viernes inmediato posterior a aquél en que hubiera quedado disponible, en último término, para su destinatario. En los procesos que tramiten ante los fueros Penal y de Responsabilidad Penal Juvenil se aplicará lo dispuesto en el artículo 10° del Acuerdo N°4040 y/o la normativa que eventualmente lo suprima o modifique”.
+
+
+
+Artículo 3o. Modificar el artículo 7 del Acuerdo N° 3989 (t.o. Res. Pres. SPL N° 74/20), el que quedará redactado de la siguiente manera:
+
+
+
+"Artículo 7o. En las mediaciones previas obligatorias regladas por la
+
+
+
+Ley N° 13.951 y sus modificatorias, iniciadas con fecha posterior al 1 de abril de 2021, los sujetos citados a la mediación -cuando no se encuentren comprendidos en los supuestos de los artículos 2, 3, 5 y 8-, deberán contar con un domicilio electrónico en el Registro creado por este Acuerdo.
+
+
+
+La inscripción deberá realizarse, en el caso del reclamante, al momento de realizar su pretensión; tratándose del requerido y, en su caso, de terceros citados a la mediación, hasta el momento mismo de celebrarse la audiencia.
+
+
+
+Las personas humanas podrán denunciar el domicilio electrónico inscripto en los términos de los párrafos precedentes en las posteriores mediaciones en las que intervengan, con los alcances establecidos en este artículo.
+
+
+
+Incumbe al mediador poner en conocimiento de las partes y de los terceros citados a la mediación el contenido y alcances del presente Acuerdo, y el control del cumplimiento oportuno de la carga de inscripción o denuncia de los domicilios electrónicos correspondientes a cada una de ellas. Sin perjuicio de otras medidas que pudiere adoptar, el mediador deberá comunicar a las partes que, ante la falta de inscripción de los domicilios electrónicos en el Registro, por defecto se tendrán por válidos los domicilios electrónicos de los letrados que los hubieran asistido, a los fines de dirigir las notificaciones posteriores en sede judicial, lo cual se hará constar en el acta al culminar la mediación, con especial mención de los domicilios electrónicos que correspondan a cada uno de los sujetos intervinientes.
+
+
+
+Los letrados que representen a las partes o a los terceros citados en la mediación, deberán asesorarlos e instruirlos en todo momento, poniéndolos en conocimiento acerca del contenido y alcances del presente Acuerdo, y de sus normas modificatorias y complementarias. Tal obligación será particularmente exigible a los letrados que, en el marco de un contrato de seguro, patrocinen al asegurado en la mediación.
+
+
+
+En el caso de las personas jurídicas, la inscripción del domicilio realizada en los términos del presente artículo importará su definitiva incorporación al Registro de Domicilios Electrónicos con los alcances establecidos en el artículo 1 y concordantes del presente Acuerdo.
+
+
+
+Respecto de las personas humanas, el domicilio electrónico establecido en este artículo sólo podrá emplearse a los fines del trámite judicial posterior que correspondiere, referido al caso sometido a mediación, y por un período de ocho (8) meses contados desde la homologación del acuerdo o su rechazo, o desde que se hubiera dado por concluida la mediación, conforme a lo normado en los artículos 12, 14, 18, segundo y tercer párrafo de la Ley N° 13.951. Corresponde a los magistrados el deber de verificar que no haya operado el plazo de caducidad mencionado precedentemente. A esos fines, previo a ordenar cualquiera de los actos procesales de comunicación previstos en el artículo 10 del presente Acuerdo en cada proceso posterior a la respectiva mediación, deberán cotejar la documentación aportada al proceso y verificar la existencia y contenido del acta de culminación de la mediación en relación a la inscripción o -en su caso- la denuncia del domicilio electrónico allí consignada.
+
+
+
+Los magistrados, en cada proceso en particular, deberán ponderar si la utilización del presente régimen resulta conveniente y adecuada para la realización de los actos procesales de comunicación dirigidos a personas o grupos de personas que se encuentren en situación de vulnerabilidad social, a fin de evitar que el uso las herramientas tecnológicas se constituyan en un obstáculo o desventaja para el adecuado desenvolvimiento de sus derechos en los procesos judiciales ".
+
+
+
+Artículo 4o. Modificar el artículo 13° del Acuerdo N° 3989 (t.o. Res. Pres. SPL N° 74/20), el que quedará redactado de la siguiente manera:
+
+
+
+'Artículo 13°. El Registro de domicilios electrónicos del Poder Judicial de la Provincia de Buenos Aires funcionará en el ámbito de la Secretaría de Planificación de la Suprema Corte de Justicia. Los domicilios electrónicos de los sujetos referidos en los artículos 2o, 3o, 7o y 8o estarán disponibles para su consulta en la página Web de la Suprema Corte de Justicia. Respecto de los domicilios por defecto del artículo 4o, se deberán requerir por oficio judicial, en el marco de la causa respectiva, al domicilio electrónico del Registro (rde@scba.gov.ar), el que responderá también a través del Sistema de Presentaciones y Notificaciones Electrónicas en el mismo proceso judicial".
+
+
+
+Artículo 5o. Incorporar un último párrafo al artículo 14° del Acuerdo N° 3989 (t.o. Res. Pres. SPL N° 74/20), el que quedará redactado de la siguiente manera:
+
+
+
+"Artículo 14°. El presente régimen será implementado mediante una normativa complementaria. A tales efectos la misma podrá ser dictada por el Presidente de la Suprema Corte, sin perjuicio de su posterior ratificación por parte de esta Corte.
+
+
+
+La inscripción deberá efectuarse entre el 15 de febrero y el 31 de marzo ambos de 2021, conforme el formulario electrónico que instrumente y publique la Suprema Corte de Justicia.
+
+
+
+Las comunicaciones y notificaciones contempladas en este Acuerdo se practicarán en los domicilios electrónicos inscriptos en el Registro de Domicilios Electrónicos a partir del 1 de abril de 2021, a menos que al inscribirse se solicitare en el acto de la inscripción anticipar la utilización del domicilio inscripto. En tal caso, éste quedará expedito para su uso a partir del día 1 de marzo de 2021 o del día siguiente al de la inscripción en dichos términos, sí ella fuere posterior a la fecha señalada.
+
+
+
+Aquellas personas que hayan efectuado la preinscripción al Registro podrán culminar con el proceso de inscripción y hacer uso de la opción prevista en la parte final del párrafo anterior.
+
+
+
+Los nuevos sujetos obligados a la inscripción al Registro, a que se hace mención en la modificación de los incisos "d", "h" y "j", así como en la incorporación de los incisos "m", "n", "o", "p", "q", "r", "s", y "t" del artículo 3 o del presente, tendrán que completar los formularios web -ya existentes en el subsitio del RDE- entre el 1° de agosto y el 31 de octubre -inclusive-, ambos del 2023. Si no cumplieran con la carga indicada, se les aplicará, vencido dicho plazo, los domicilios "por defecto " previstos en el artículo 4o del presente.
+
+
+
+Artículo 6o. Modificar el artículo 4o del Anexo Único de la Resolución N° 1472/20 (Reglamento del Registro de Domicilios Electrónicos del Poder Judicial de la Provincia de Buenos Aires), el que quedará redactado de la siguiente manera:
+
+
+
+"Artículo 4°. A los fines establecidos en el artículo 1° del Acuerdo 3989, las comunicaciones y notificaciones se tendrán por practicadas conforme las reglas establecidas en el artículo 13° del Reglamento aprobado por el Acuerdo N°4013 (t.o. Ac. N°4039) y/o la normativa que eventualmente lo suprima o modifique. En los procesos que tramiten ante los fueros Penal y de Responsabilidad Penal Juvenil se aplicará lo dispuesto en el artículo 10° del Acuerdo N°4040 y/o la normativa que eventualmente lo suprima o modifique ".
+
+
+
+Artículo 7o. Derogar los artículos 6o y 7° del Anexo Único de la Resolución N° 1472/20 (Reglamento del Registro de Domicilios Electrónicos del Poder Judicial de la Provincia de Buenos Aires).
+
+
+
+Artículo 8o. Modificar el artículo 8o del Anexo Único de la Resolución N° 1472/20 (Reglamento del Registro de Domicilios Electrónicos del Poder Judicial de la Provincia de Buenos Aires), el que quedará redactado de la siguiente manera:
+
+
+
+"Artículo 8o. Para la inscripción de los Domicilios Electrónicos se deberá completar un formulario u otra modalidad web en el subsitio que deberá ser elaborado en coordinación entre la Secretaría de Planificación y la Subsecretaría de Tecnología Informática, y aprobado por la primera, tras lo cual se habilitará al efecto en la página web de la Suprema Corte de Justicia.
+
+
+
+Se deberán consignar en tal formulario en forma completa y, en carácter de declaración jurada, los datos requeridos y acreditar -según el caso- la identidad o personería, para lo cual deberán adjuntarse copia digital del documento original, en forma clara y legible, de ambas caras del documento de identidad en el supuesto de las personas humanas y, por su parte, del documento que compruebe el carácter invocado (poder, acta de asamblea, resolución judicial, etc.) en lo que respecta a las personas jurídicas u organismos. A tales fines, serán aplicables, en lo pertinente, las "Reglas de Buenas Prácticas en la creación de archivos en formato PDF", establecidas en el Anexo I de la Resolución de Presidencia SPL N° 3/20.
+
+
+
+En el caso de las personas humanas, de corresponder, deberán denunciar, a su vez, nombre/s, apellido/s, documento de identidad y domicilio electrónico del o los letrados/as que los representen en las mediaciones a las que hace referencia el artículo 7° del Acuerdo N° 3989".
+
+
+
+Artículo 9o. Modificar el artículo 10° del Anexo Único de la Resolución N° 1472/20 (Reglamento del Registro de Domicilios Electrónicos del Poder Judicial de la Provincia de Buenos Aires), el que quedará redactado de la siguiente manera:
+
+
+
+"Artículo 10°: Cada inscripción generará una constancia electrónica para el interesado. El funcionario interviniente corroborará la información y documentación ingresada por aquél en el formulario o portal web. Si existiese alguna inconsistencia, procederá a realizar las observaciones correspondientes por los medios tecnológicos disponibles, a los fines de su subsanación para la prosecución del trámite. En el caso de las personas humanas, si no se cumpliese con tal subsanación o no se completasen la totalidad de los requerimientos del formulario o portal web, en el plazo perentorio de tres (3) meses, contados desde el inicio de la inscripción o de la observación efectuada por el funcionario interviniente -según el caso-, se podrá proceder a la anulación de la inscripción respectiva, previa verificación con la Subsecretaría de Tecnología Informática".
+
+
+
+Artículo 10°. Modificar el artículo 13° del Anexo Único de la Resolución N° 1472/20 (Reglamento del Registro de Domicilios Electrónicos del Poder Judicial de la Provincia de Buenos Aires), el que quedará redactado de la siguiente manera:
+
+
+
+"Artículo 13°: El portal web contendrá un espacio para que el usuario solicite el cambio del/los domicilio/s electrónico/s inscriptos, lo que habilitará el procedimiento previsto en el apartado (ii) del artículo 11° del presente Reglamento.
+
+
+
+Los domicilios electrónicos creados en el Registro de Domicilios Electrónicos, respecto de las personas jurídicas u organismos, perdurarán hasta tanto las mismas denuncien un cambio en relación de su situación. Sus representantes que hayan realizado la inscripción respectiva en el Registro deberán solicitar la baja o modificación de la entidad y/o del o los domicilios electrónicos en caso que la persona jurídica u organismo inscripto se extinga, disuelva, fusione, escisione, liquide, se resuelva parcialmente por la muerte de uno de sus socios, cambie su objeto o competencia, o en cualquier otro supuesto que implique un cambio en sus representantes y/o en el direccionamiento de las comunicaciones previstas en el artículo 1 ° del Acuerdo N°3989.
+
+
+
+En caso que, en el marco del proceso judicial, los titulares de los órganos jurisdiccionales tomaren conocimiento o resolviesen algunas de las situaciones mencionadas en el párrafo anterior, deberán informarlas al Registro de Domicilios Electrónicos dentro de los cinco (5) días hábiles de su toma de razón.
+
+
+
+Los nuevos domicilios electrónicos, derivados de los supuestos previstos en los párrafos precedentes, empezarán a regir a partir del día siguiente al de su inscripción o modificación en el Registro de Domicilios Electrónicos, sin perjuicio de la validez de las comunicaciones anteriores que se hayan dirigido, hasta ese momento, al domicilio electrónico cuya baja se solicitó ".
+
+
+
+Artículo 11°. Disponer como fechas de efectiva implementación de la presente, las siguientes:
+
+
+
+
+El régimen de inscripción al Registro de Domicilios Electrónicos derivado de las audiencias prejudiciales previsto en el artículo 7° del Acuerdo N° 3989, así como las demás modificaciones que contempla el presente -salvo lo previsto en el apartado siguiente-, empezarán a aplicarse a partir del 1o de agosto del corriente año;
+
+
+Los sujetos obligados a la inscripción al RDE, incorporados a la enumeración del artículo 3o del referido Acuerdo, tendrán que completar los formularios web -ya existentes en el subsitio del RDE- entre el 1o de agosto y el 31 de octubre -inclusive-, ambos del corriente año. Si no cumplieran con la carga indicada, se les aplicará, vencido dicho plazo, los domicilios "por defecto" previstos en el artículo 4o del citado Acuerdo N° 3989. Lo previsto en este último apartado, será incorporado como último párrafo del artículo 14 del texto ordenado que se alude en el artículo siguiente.
+
+
+
+
+Artículo 12°. Aprobar el texto ordenado del Acuerdo N° 3989 y modificatorios, el que como Anexo I forma parte de la presente.
+
+
+
+Artículo 13°. Aprobar el texto ordenado de la Resolución N° 1472/20 (Reglamento del Registro de Domicilios Electrónicos del Poder Judicial de la Provincia de Buenos Aires), el que como Anexo II forma parte de la presente.
+
+
+
+Artículo 14°. Regístrese, publíquese en el Boletín Oficial y en el sitio web de esta Suprema Corte y comuníquese por vía electrónica.
+
+
+
+
+
+
+Anexo I
+
+
+
+Texto Ordenado del Acuerdo N° 3989
+
+
+
+Artículo 1o. Créase el "Registro de domicilios electrónicos del Poder Judicial de la Provincia de Buenos Aires", el que estará integrado por el conjunto de domicilios electrónicos inscriptos en el sistema que se establece en este Acuerdo.
+
+
+
+Los domicilios registrados, así como los previstos en el artículo 4o primer y segundo párrafos, del presente Acuerdo, serán utilizados para realizar notificaciones y comunicaciones a través de medios electrónicos, comprensivas del traslado de la demanda, la intimación de pago, la citación como tercero, las diligencias preliminares, las cautelares anticipadas y en su caso la sentencia definitiva o equiparable a tal, así como, en general, se aplicará en todos aquellos casos en los que de acuerdo a la legislación vigente deban realizarse en el domicilio real Dichos domicilios podrán emplearse para el diligenciamiento de oficios.
+
+
+
+El uso de los referidos domicilios electrónicos será procedente en tanto no se hubiere constituido otro domicilio electrónico en el proceso, en cuyo caso prevalecerá este último.
+
+
+
+Artículo 2o. Las personas jurídicas y organismos que hubieran suscripto con la Suprema Corte de Justicia convenios de colaboración tecnológica o actas de aceptación para el uso del Sistema de Notificaciones y Presentaciones Electrónicas, así como los demás sujetos comprendidos en el listado del artículo 3o, deberán inscribir sus respectivos domicilios electrónicos en el Registro creado por el presente Acuerdo, con el objeto de recibir en ellos las notificaciones electrónicas de los actos procesales enunciados en el artículo anterior.
+
+
+
+Los sujetos comprendidos en el presente Acuerdo podrán inscribir más de un domicilio electrónico con alcance para uno o más departamentos judiciales y cambiar en cualquier momento el ya inscripto. También podrán inscribir más de un domicilio electrónico al solo efecto de recibir de manera diferenciada las comunicaciones de oficios.
+
+
+
+Artículo 3o. Deberán inscribir domicilios electrónicos en el Registro creado por el presente Acuerdo, las siguientes personas jurídicas y organismos:
+
+
+
+
+El Fiscal de Estado, a los fines previstos en los artículos 27 y 28 del decreto ley 7543/69 con sus reformas.
+
+
+El Asesor General de Gobierno.
+
+
+Los órganos o entidades descentralizadas de la provincia de cualquier especie cuya representación enjuicio no estuviere a cargo del Fiscal de Estado o de la Asesoría General de Gobierno.
+
+
+Los municipios de la provincia, tanto sus departamentos deliberativos y ejecutivos y sus entidades descentralizadas de cualquier especie.
+
+
+Los bancos y las demás entidades financieras.
+
+
+Las compañías de seguros.
+
+
+Las aseguradoras de riesgos del trabajo.
+
+
+
+
+h. Las prestatarias de servicios públicos y las concesionarias de obras públicas. Quedan incluidas en el presente, las empresas prestadoras de servicios digitales, así como las dedicadas a la emisión y retransmisión de televisión abierta, operadores de televisión por suscripción y emisión de señales de televisión por suscripción.
+
+
+
+i. Las personas públicas no estatales de la provincia.
+
+
+
+j. Centros comerciales, paseos de compras, centros de compras mayoristas, hipermercados, supermercados y, en general, establecimientos regulados en el régimen establecido en la ley 12.573 y sus reformas.
+
+
+
+
+
+
+k. La Cámara de Diputados y el Senado de la Provincia de Buenos Aires.
+
+
+
+1. Los prestadores de servicios de salud bajo los regímenes de las leyes 23.660,26.682 y concordantes.
+
+
+
+m. Las empresas que brinden servicios de asistencia sanitaria, médica y paramédicas, vinculados tanto a la hospitalización en clínicas, sanatorios y establecimientos similares, así como a todos los demás servicios relacionados con tal asistencia, incluyendo el transporte de heridos y enfermos en ambulancias o vehículos especiales.
+
+
+
+n. Las empresas de servicios de prácticas de diagnósticos en laboratorio y servicios de prácticas de diagnósticos por imágenes.
+
+
+
+o. Las empresas de servicios de viajes y turismo de venta "online" o
+
+
+
+virtual.
+
+
+
+p. Las entidades administradoras de sistemas de tarjeta de crédito -Ley N°
+
+
+
+25.065-.
+
+
+
+q. Las empresas de servicios de mensajería, servicios de gestión y ' logística para transporte de mercaderías, así como de servicios de transporte de caudales y objetos de valor.
+
+
+
+r. Las empresas de fabricación, intermediación y venta de automotores y motovehículos nuevos y usados. Quedan incluidos en el presente las empresas de tales rubros vinculadas a servicios de gestión de fondos a cambio de una retribución o por contrata.
+
+
+
+s. Las empresas de construcción, reforma y reparación de edificios residenciales y no residenciales, así como los consorcios de edificios y servicios de administración de consorcios de edificios.
+
+
+
+t. Las empresas de servicios de seguridad e investigación privada.
+
+
+
+
+
+
+Los órganos o entidades descentralizadas de cualquier especie del Estado
+
+
+
+Nacional se encuentran comprendidos en la enunciación precedente, al sólo efecto de recibir los actos procesales de comunicación a los que se refiere el artículo 2 último párrafo.
+
+
+
+La Presidencia de la Suprema Corte de Justicia podrá disponer la inclusión de otros sujetos no comprendidos en la nómina precedente, siempre que se tratare de personas jurídicas u organismos, y/o formular las precisiones que sean necesaria en relación a los allí enunciados.
+
+
+
+Artículo 4o. A excepción del órgano aludido en el inciso a) del artículo anterior, si los sujetos allí enumerados no cumplieran con la carga de inscripción en el Registro, se considerará inscriptos por defecto el domicilio electrónico que hubieran consignado en el marco de los convenios de colaboración tecnológica o de las actas de aceptación del Sistema de Presentaciones y Notificaciones Electrónicas suscriptos, hasta tanto dieran cumplimiento a dicha carga.
+
+
+
+También se considerarán inscriptos por defecto, hasta tanto se proceda a la efectiva inscripción en el Registro, los domicilios electrónicos que hubiesen constituido los letrados de tales sujetos ante la justicia de la provincia, correspondientes a las últimas dos (2) actuaciones procesales, por departamento judicial. Cuando todos los domicilios por defecto referidos en este artículo no fueran coincidentes, la respectiva notificación deberá efectuarse a cada uno de ellos. Serán consideradas como las últimas dos (2) actuaciones procesales a los fines de este régimen, las dos (2) notificaciones o comunicaciones recibidas en los domicilios electrónicos inscriptos por defecto, practicadas con posterioridad al 1o de enero de 2019 y que hubieran quedado disponibles para su destinatario en el momento anterior más próximo al del informe realizado, a tales efectos, por el Registro, con colaboración de la Subsecretaría de Tecnología Informática.
+
+
+
+Lo expuesto en los párrafos anteriores del presente artículo es de aplicación al diligenciamiento de oficios comunicados en el domicilio electrónico inscripto por defecto en el Registro. A los fines dispuestos en dichos párrafos, no serán consideradas las dos (2) últimas actuaciones efectuadas en procesos que hubieran tramitado por ante el Fuero Penal y el de la Responsabilidad Penal Juvenil.
+
+
+
+Con arreglo a lo previsto en el artículo 13° del Reglamento aprobado por el Acuerdo N° 4013 (t.o. Ac. N°4039) y/o la normativa que eventualmente lo suprima o modifique, las notificaciones se tendrán por cumplidas el día martes o viernes inmediato posterior a aquél en que hubiera quedado disponible, en último término, para su destinatario. En los procesos que tramiten ante los fueros Penal y de Responsabilidad Penal Juvenil se aplicará lo establecido en el artículo 10° del Acuerdo N°4040 y/o la normativa que eventualmente lo suprima o modifique.
+
+
+
+Artículo 5o. En el caso del Fiscal de Estado se inscribirá por defecto, como domicilio electrónico del organismo, el establecido en la RESO-2020-100-GDEBA-FDE y su modificatoria RESO-2020-103-GDEBA-FDE emanadas de dicha autoridad.
+
+
+
+Artículo 6o. Los abogados que hubieran actuado ante los tribunales de justicia de la provincia como apoderados o letrados patrocinantes de los sujetos mencionados en los artículos 2o y 3o, a excepción del órgano previsto en el inciso a) de este último, deberán comunicarles el cumplimiento de la carga impuesta en el artículo 2o. En los supuestos previstos en el primer y segundo párrafo del artículo 4o, si recibieren una notificación de una demanda o acto similar o equivalente en alguno de los domicilios electrónicos destinada a los sujetos mencionados en los artículos 2o y 3o, deberán cursarles un aviso específico.
+
+
+
+Artículo 7o. En las mediaciones previas obligatorias regladas por la Ley N° 13.951 y sus modificatorias, iniciadas con fecha posterior al 1 de abril de 2021, los sujetos citados a la mediación -cuando no se encuentren comprendidos en los supuestos de los artículos 2, 3, 5 y 8-, deberán contar con un domicilio electrónico en el Registro creado por este Acuerdo.
+
+
+
+La inscripción deberá realizarse, en el caso del reclamante, al momento de realizar su pretensión; tratándose del requerido y, en su caso, de terceros citados a la mediación, hasta el momento mismo de celebrarse la audiencia.
+
+
+
+Las personas humanas podrán denunciar el domicilio electrónico inscripto en los términos de los párrafos precedentes en las posteriores mediaciones en las que intervengan, con los alcances establecidos en este artículo.
+
+
+
+Incumbe al mediador poner en conocimiento de las partes y de los terceros citados a la mediación el contenido y alcances del presente Acuerdo, y el control del cumplimiento oportuno de la carga de inscripción o denuncia de los domicilios electrónicos correspondientes a cada una de ellas. Sin perjuicio de otras medidas que pudiere adoptar, el mediador deberá comunicar a las partes que, ante la falta de inscripción de los domicilios electrónicos en el Registro, por defecto se tendrán por válidos los domicilios electrónicos de los letrados que los hubieran asistido, a los fines de dirigir las notificaciones posteriores en sede judicial, lo cual se hará constar en el acta al culminar la mediación, con especial mención de los domicilios electrónicos que correspondan a cada uno de los sujetos intervinientes.
+
+
+
+Los letrados que representen a las partes o a los terceros citados en la mediación, deberán asesorarlos e instruirlos en todo momento, poniéndolos en conocimiento acerca del contenido y alcances del presente Acuerdo, y de sus normas modificatorias y complementarias. Tal obligación será particularmente exigible a los letrados que, en el marco de un contrato de seguro, patrocinen al asegurado en la mediación.
+
+
+
+En el caso de las personas jurídicas, la inscripción del domicilio realizada en los términos del presente artículo importará su definitiva incorporación al Registro de Domicilios Electrónicos con los alcances establecidos en el artículo 1 y concordantes del presente Acuerdo.
+
+
+
+Respecto de las personas humanas, el domicilio electrónico establecido en este artículo sólo podrá emplearse a los fines del trámite judicial posterior que correspondiere, referido al caso sometido a mediación, y por un período de ocho (8) meses contados desde la homologación del acuerdo o su rechazo, o desde que se hubiera dado por concluida la mediación, conforme a lo normado en los artículos 12, 14, 18, segundo y tercer párrafo de la Ley N° 13.951. Corresponde a los magistrados el deber de verificar que no haya operado el plazo de caducidad mencionado precedentemente. A esos fines, previo a ordenar cualquiera de los actos procesales de comunicación previstos en el artículo Io del presente Acuerdo en cada proceso posterior a la respectiva mediación, deberán cotejar la documentación aportada al proceso y verificar la existencia y contenido del acta de culminación de la mediación en relación a la inscripción o -en su caso- la denuncia del domicilio electrónico allí consignada.
+
+
+
+Los magistrados, en cada proceso en particular, deberán ponderar si la utilización del presente régimen resulta conveniente y adecuada para la realización de los actos procesales de comunicación dirigidos a personas o grupos de personas que se encuentren en situación de vulnerabilidad social, a fin de evitar que el uso las herramientas tecnológicas se constituyan en un obstáculo o desventaja para el adecuado desenvolvimiento de sus derechos en los procesos judiciales.
+
+
+
+Artículo 8o. Sin perjuicio de lo dispuesto en los artículos precedentes, cualquier persona jurídica o humana podrá inscribirse voluntariamente en el Registro establecido en el presente Acuerdo, a los fines de la actuación judicial en los fueros pertinentes.
+
+
+
+Artículo 9o. Se encomienda al Presidente de esta Suprema Corte, y a los órganos que designe, realizar las gestiones necesarias tendientes a la suscripción de convenios de colaboración tecnológica con: (i) el Correo Oficial de la República Argentina S.A. (C.O.R.A.S.A.), a los fines de la instrumentación del uso de medios tecnológicos aplicables para las notificaciones de determinados actos procesales; (ii) la Dirección Provincial de Personas Jurídicas con el objeto de coordinar mecanismos vinculados al registro de domicilios electrónicos de las personas jurídicas inscriptas bajo su órbita; (iii) la Inspección General de Justicia con análogo objeto que el anterior; (iv) la Administración Federal de Ingresos Públicos, para establecer modalidades de aplicación en la administración de justicia de la provincia de los domicilios electrónicos en materia tributaria;(v) la Agencia de Recaudación de la Provincia de Buenos Aires, con el mismo objetivo que el anterior; (vi) la Superintendencia de Riesgos de Trabajo con el objeto de coordinar mecanismos vinculados a la inclusión de domicilios electrónicos en toda actuación administrativa ante las Comisiones Médicas, a los fines de la incoación de un proceso judicial ulterior; (vii) el Ministerio de Trabajo de la Provincia de Buenos Aires, con el fin de facilitar la inscripción de domicilios electrónicos en las tramitaciones ante dicha autoridad para el caso de una ulterior intervención de la justicia.
+
+
+
+Artículo 10°. La Secretaría de Planificación y la Subsecretaría de Tecnología Informática, coordinadamente, deberán proyectar la utilización de nuevos instrumentos que, a los fines de lograr una mayor eficacia en las notificaciones por cédula y el diligenciamiento de los mandamientos y oficios judiciales, suplan la diligencia en papel por un vínculo informático, link, código QR u otra modalidad acorde con la consolidación del expediente digital.
+
+
+
+Artículo 11°. Se deberá hacer saber a los órganos jurisdiccionales de los distintos fueros e instancias el contenido de la RESO-2020-100-GDEBA-FDE y su modificatoria RESO-2020-103-GDEBA-FDE, mediante la remisión de las resoluciones pertinentes.
+
+
+
+Artículo 12°. El presente Acuerdo deberá ser puesto en conocimiento
+
+
+
+inmediato de las personas y organismos referidos en los artículos 2o y 3o. También deberá comunicarse al Colegio de Abogados de la Provincia de Buenos Aires y al Colegio de Magistrados y Funcionarios de la Provincia de Buenos Aires.
+
+
+
+Artículo 13°. El Registro de domicilios electrónicos del Poder Judicial de la Provincia de Buenos Aires funcionará en el ámbito de la Secretaría de Planificación de la Suprema Corte de Justicia. Los domicilios electrónicos de los sujetos referidos en los artículos 2o, 3o, 7° y 8o estarán disponibles para su consulta en la página Web de la Suprema Corte de Justicia. Respecto de los domicilios por defecto del artículo 4o, se deberán requerir por oficio judicial, en el marco de la causa respectiva, al domicilio electrónico del Registro (rde@scba.gov.ar), el que responderá también a través del Sistema de Presentaciones y Notificaciones Electrónicas en el mismo proceso judicial.
+
+
+
+Artículo 14°. El presente régimen será implementado mediante una normativa complementaria. A tales efectos la misma podrá ser dictada por el Presidente de la Suprema Corte, sin perjuicio de su posterior ratificación por parte de esta Corte.
+
+
+
+La inscripción deberá efectuarse entre el 15 de febrero y el 31 de marzo ambos de 2021, conforme el formulario electrónico que instrumente y publique la Suprema Corte de Justicia.
+
+
+
+Las comunicaciones y notificaciones contempladas en este Acuerdo se practicarán en los domicilios electrónicos inscriptos en el Registro de Domicilios Electrónicos a partir del 1 de abril de 2021, a menos que al inscribirse se solicitare en el acto de la inscripción anticipar la utilización del domicilio inscripto. En tal caso, éste quedará expedito para su uso a partir del día 1 de marzo de 2021 o del día siguiente al de la inscripción en dichos términos, sí ella fuere posterior a la fecha señalada.
+
+
+
+Aquellas personas que hayan efectuado la preinscripción al Registro podrán culminar con el proceso de inscripción y hacer uso de la opción prevista en la parte final del párrafo anterior.
+
+
+
+Los nuevos sujetos obligados a la inscripción al Registro, a que se hace mención en la modificación de los incisos "d", "h" y "j", así como en la incorporación de los incisos "m", "n", "o", "p", "q", "r", "s", y "t" del artículo 3o del presente, tendrán que completar los formularios web -ya existentes en el subsitio del RDE- entre el 1o de agosto y el 31 de octubre -inclusive-, ambos del 2023. Si no cumplieran con la carga indicada, se les aplicará, vencido dicho plazo, los domicilios "por defecto" previstos en el artículo 4o del presente.
+
+
+
+
+
+
+Anexo II
+
+
+
+Texto ordenado de la Resolución N° 1472/20 (Reglamento del Registro de Domicilios Electrónicos del Poder Judicial de la Provincia de Buenos Aires)
+
+
+
+Artículo 1o. Los domicilios electrónicos previstos en el Acuerdo N° 3989 son espacios de almacenamiento para cada usuario en una base de datos, que permiten la utilización del Sistema de Presentaciones y Notificaciones Electrónicas de la Suprema Corte de Justicia, con un formato abierto y apropiado para el soporte de documentos electrónicos, y contando con propiedades de autenticación, integridad, trazabilidad y auditoria a través del referido sistema.
+
+
+
+Artículo 2°. A los fines de facilitar una razonable administración de la carga de trabajo al momento que queden habilitados los domicilios electrónicos inscriptos en el marco del Acuerdo N° 3989, los magistrados, en el ejercicio de sus facultades ordenatorias e instructorias y valorando las singularidades del caso y/o sujetos involucrados, podrán remitir gradualmente las notificaciones pendientes del traslado de la demanda o de la primera intervención en el proceso del sujeto que deba ser notificado.
+
+
+
+Artículo 3°. A los fines previstos en el artículo 1o del Acuerdo 3989, la expresión "intimación de pago" será entendida en relación a la intimación de pago en los procesos ejecutivos y de apremio.
+
+
+
+Artículo 4°. A los fines establecidos en el artículo 1o del Acuerdo 3989, las comunicaciones y notificaciones se tendrán por practicadas conforme las reglas establecidas en el artículo 13° del Reglamento aprobado por el Acuerdo N°4013 (to. Ac. N°4039) y/o la normativa que eventualmente lo suprima o modifique. En los procesos que tramiten ante los fueros Penal y de Responsabilidad Penal Juvenil se aplicará lo dispuesto en el artículo 10° del Acuerdo N°4040 y/o la normativa que eventualmente lo suprima o modifique.
+
+
+
+Artículo 5o- A los fines establecidos en el artículo 3o, inciso "e" del Acuerdo N° 3989 la expresión "bancos y demás entidades financieras" se entenderá referida a los sujetos alcanzados por la ley 21.526 de Entidades Financieras, sus normas reglamentarias y todas aquellos cuya actividad se encuentre regulada por el Banco Central de la República Argentina.
+
+
+
+
+
+
+Artículo 6o. Derogado.
+
+
+
+Artículo 7o. Derogado.
+
+
+
+Artículo 8o. Para la inscripción de los Domicilios Electrónicos se deberá completar un formulario u otra modalidad web en el subsitio que deberá ser elaborado en coordinación entre la Secretaría de Planificación y la Subsecretaría de Tecnología Informática, y aprobado por la primera, tras lo cual se habilitará al efecto en la página web de la Suprema Corte de Justicia.
+
+
+
+Se deberán consignar en tal formulario en forma completa y, en carácter de declaración jurada, los datos requeridos y acreditar -según el caso- la identidad o personería, para lo cual deberán adjuntarse copia digital del documento original, en forma clara y legible, de ambas caras del documento de identidad en el supuesto de las personas humanas y, por su parte, del documento que compruebe el carácter invocado (poder, acta de asamblea, resolución judicial, etc.) en lo que respecta a las personas jurídicas u organismos. A tales fines, serán aplicables, en lo pertinente, las "Reglas de Buenas Prácticas en la creación de archivos en formato PDF", establecidas en el Anexo I de la Resolución de Presidencia SPL N° 3/20.
+
+
+
+En el caso de las personas humanas, de corresponder, deberán denunciar, a su vez, nombre/s, apellido/s, documento de identidad y domicilio electrónico del o los letrados/as que los representen en las mediaciones a las que hace referencia el artículo 7o del Acuerdo N°3989.
+
+
+
+Artículo 9o. Sin perjuicio de lo expuesto en el artículo anterior, la Secretaría de Planificación y a la Subsecretaría de Tecnología Informática realizarán
+
+
+
+los ajustes necesarios para la efectiva implementación de lo aquí resuelto.
+
+
+
+Artículo 10°. Cada inscripción generará una constancia electrónica para el interesado. El funcionario interviniente corroborará la información y documentación ingresada por aquél en el formulario o portal web. Si existiese alguna inconsistencia, procederá a realizar las observaciones correspondientes por los medios tecnológicos disponibles, a los fines de su subsanación para la prosecución del trámite. En el caso de las personas humanas, si no se cumpliese con tal subsanación o no se completasen la totalidad de los requerimientos del formulario o portal web, en el plazo perentorio de tres (3) meses, contados desde el inicio de la inscripción o de la observación efectuada por el funcionario interviniente -según el caso-, se podrá proceder a la anulación de la inscripción respectiva, previa verificación con la Subsecretaría de Tecnología Informática.
+
+
+
+Artículo 11°. Si la información presentada fuese correcta y suficiente, el funcionario interviniente procederá a: (i) cotejar la vigencia y denominación del/los domicilio/s electrónico/s denunciado/s al momento de la inscripción y, de ser correcto, incluirlo/s directamente en el/los listado/s de domicilios electrónicos vigentes del Registro de Domicilios Electrónicos. En caso de verificarse inconsistencias, se seguirá el trámite de observaciones previsto en el artículo anterior, o (ii) iniciar el procedimiento para la creación del/los domicilio/s electrónico/s respectivo/s.
+
+
+
+Artículo 12°. La Subsecretaría de Tecnología Informática brindará las herramientas informáticas necesarias para verificar la vigencia o efectuar la creación de los domicilios electrónicos respectivos y su incorporación en los listados en uso, en los que deberá constar la fecha y hora de cada inclusión.
+
+
+
+Artículo 13°. El portal web contendrá un espacio para que el usuario solicite el cambio del/los domicilio/s electrónico/s inscriptos, lo que habilitará el procedimiento previsto en el apartado (ii) del artículo 11o del presente Reglamento.
+
+
+
+Los domicilios electrónicos creados en el Registro de Domicilios Electrónicos, respecto de las personas jurídicas u organismos, perdurarán hasta tanto las mismas denuncien un cambio en relación de su situación. Sus representantes que hayan realizado la inscripción respectiva en el Registro deberán solicitar la baja o modificación de la entidad y/o del o los domicilios electrónicos en caso que la persona jurídica u organismo inscripto se extinga, disuelva, fusione, escisione, liquide, se resuelva parcialmente por la muerte de uno de sus socios, cambie su objeto o competencia, o en cualquier otro supuesto que implique un cambio en sus representantes y/o en el direccionamiento de las comunicaciones previstas en el artículo 1o del Acuerdo N°3989.
+
+
+
+En caso que, en el marco del proceso judicial, los titulares de los órganos jurisdiccionales tomaren conocimiento o resolviesen algunas de las situaciones mencionadas en el párrafo anterior, deberán informarlas al Registro de Domicilios Electrónicos dentro de los cinco (5) días hábiles de su toma de razón.
+
+
+
+Los nuevos domicilios electrónicos, derivado de los supuestos previstos en los párrafos precedentes, empezarán a regir a partir del día siguiente al de su inscripción o modificación en el Registro de Domicilios Electrónicos, sin perjuicio de la validez de las comunicaciones anteriores que se hayan dirigido, hasta ese momento, al domicilio electrónico cuya baja se solicitó.
+
+
+
+Artículo 14°. El titular del domicilio electrónico podrá autenticarse y acceder al domicilio electrónico en el Sistema de Presentaciones y Notificaciones Electrónicas con o sin certificado de firma digital en el marco de la Ley N° 25.506. En el primer caso, aquél podrá verificar las notificaciones recibidas y el estado de las presentaciones realizadas, así como firmar y enviar presentaciones electrónicas. En caso de no contar con el referido certificado, no podrá firmar ni enviar presentaciones.
+
+
+
+Artículo 15°. Los sujetos inscriptos en el Registro de Domicilios Electrónicos podrán solicitar información veraz, completa, suficiente y adecuada en relación al régimen establecido en el Acuerdo N°3989 y podrán requerir la asistencia a actividades de capacitación sobre su funcionamiento o sobre del Sistema de Presentaciones y Notificaciones Electrónicas.
+
+
+
+No podrán utilizar los servicios de ese sistema para actividades contrarias a la ley ni realizar su conexión con el mismo de cualquier forma que pueda afectar, inutilizar, dañar o sobrecargar su funcionamiento y deberán abstenerse de transferir, vender, alquilar, prestar, sub-licenciar o de cualquier otro modo distribuir, directa o indirectamente, en forma gratuita u onerosa, contenidos del sistema. Queda prohibida cualquier comunicación, decompilación o descodificación del software para cualquier fin sea del tipo que sea, incluyendo su traducción a código fuente.
+
+
+
+Artículo 16°. Los datos recopilados por aplicación del régimen establecido en el Acuerdo N°3989 y sus normas complementarias se resguardarán en el sistema informático habilitado al efecto por la Subsecretaría de Tecnología Informática.
+
+
+
+Artículo 17°. Los Domicilios contenidos en el Registro de Domicilios Electrónicos tendrán carácter público de consulta libre y gratuita.
+
+
+
+Artículo 18°. Las consultas relativas al presente régimen podrán canalizarse a través del correo electrónico siguiente: rde_consultas@scba.gov.ar.
+
+
+
+Artículo 19°. La Secretaría de Planificación podrá conformar Mesas de diálogo vinculadas a la implementación del presente con los organismos públicos y personas jurídicas enunciados en el Acuerdo N°3989 u otros que estime conveniente, de las que podrá formar parte para la Subsecretaría de Tecnología Informática y demás dependencias que determine el Presidente de la Suprema Corte de Justicia en cada caso.
+
+
+
+Artículo 20°. El Instituto de Estudios Judiciales organizará de actividades de capacitación relativas a esta reglamentación.
+
+
+
+FIRMADO: SERGIO GABRIEL TORRES, DANIEL FERANDO SORIA, LUIS ESTEBAN GENOUD, HILDA KOGAN, NESTOR ANTONIO TRABUCCO, Secretario.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Original en PDF
+
+
+
+
+
+
+
+
+
+
+
+
+Abrir Archivo - Original en PDF
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Centro de Atención al Usuario
+0810-444-7222
+WhatsApp
++54 221 4377116

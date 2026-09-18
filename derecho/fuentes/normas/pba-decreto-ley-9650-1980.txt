@@ -1,0 +1,1148 @@
+Decreto-Ley 9650/80 PBA - Régimen previsional del Instituto de Previsión Social (texto actualizado)
+==============================================================================
+Jurisdicción:     PBA
+Fuente:           https://normas.gba.gob.ar/documentos/X041Xf3x.html
+Descargado:       2026-09-18
+SHA-256 (crudo):  b44a025a9fd6c3e58c4b41d1e53e4909383c0e794c92a0ba1429c31f47c8c247
+Charset:          UTF-8
+
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
+el manifiesto `normas.json`.
+==============================================================================
+
+Decreto-ley 9650/1980
+
+DECRETO-LEY 9650/80
+
+
+
+RÉGIMEN PREVISIONAL
+
+
+
+TEXTO ACTUALIZADO DEL DECRETO LEY 9650/80, QUE CONTIENE EL TEXTO ORDENADO DEL MISMO, APROBADO POR DECRETO Nº 600/94, Y LAS MODIFICACIONES INTRODUCIDAS CON POSTERIORIDAD POR LAS LEYES 11562, 12150, 12302, 12634, 12750, 12867, 13402, 13472, 13524, 13929, 13968, 14393, 14816, 14999 y 15557.
+
+
+
+NOTA: Ver Ley 14025, ref. art.41 de la presente Ley.
+
+
+
+Ver Ley 14999, artículo 2.-
+
+
+
+(Ver Ley 12950)
+
+
+
+EL GOBERNADOR DE LA PROVINCIA DE BUENOS AIRES, SANCIONA Y PROMULGA CON FUERZA DE
+
+
+
+LEY
+
+
+
+TÍTULO I
+
+
+
+I - AMBITO DE APLICACIÓN
+
+
+
+ARTÍCULO 1.- Institúyese con arreglo a las normas de la presente Ley y su reglamentación, el régimen de las prestaciones previsionales que otorgue el Instituto de Previsión Social de la Provincia de Buenos Aires, el que actuará a todos sus efectos como órgano de aplicación del mismo.
+
+
+
+ARTÍCULO 2.- (Texto según Ley 15557) Están obligatoriamente comprendidos en el presente régimen, los Gobernadores y Vice Gobernadores electos de acuerdo a las disposiciones pertinentes de la Constitución, los legisladores de ambas cámaras y el personal que en forma permanente o temporaria preste servicios remunerados y en relación de dependencia en cualquiera de los Poderes del Estado Provincial o Municipalidades, Entes Autárquicos, Organismos Descentralizados, Empresas y Sociedades con capital mayoritario de la provincia de Buenos Aires o Municipales, sea cual fuere la naturaleza de la designación y forma de pago, y aunque la relación de la actividad subordinada se estableciera mediante contrato a plazo.
+
+
+
+También se encuentran obligados a la afiliación, el personal que preste funciones docentes por el desempeño de tareas curriculares como extracurriculares y no docentes en los establecimientos educativos privados de cualquier nivel, modalidad o rama de la enseñanza, reconocidos, autorizados o incorporados o en trámite de autorización o reconocimiento por la Dirección General de Cultura y Educación de la Provincia que se rige por la Ley 13.688; como así también el personal contratado en los términos de la Ley 10.295 (T.O. Decreto 1375/98) y sus modificatorias.
+
+
+
+Quedan sujetos a las prescripciones de la presente ley, en cuanto les son aplicables, los actuales jubilados y pensionados del Instituto de Previsión Social.
+
+
+
+ARTÍCULO 3.- Quedan excluidos del presente régimen:
+
+
+
+a) Las personas vinculadas con cualquiera de los poderes del Estado Provincial o Municipalidades, mediante un contrato de locación de obra, siempre que de la naturaleza del contrato surgiera la obligación legal de afiliación y aportación a otro régimen previsional.
+
+
+
+b) Las personas comprendidas en el régimen de Retiros, Jubilaciones y Pensiones para el Personal de la Policía de la Provincia de Buenos Aires.
+
+
+
+II - RÉGIMEN FINANCIERO
+
+
+
+ARTÍCULO 4.- (Texto según Ley 10861). El presente régimen se financiará:
+
+
+
+a) Con el aporte obligatorio a cargo de los afiliados en actividad del catorce (14) por ciento sobre la remuneración que perciban, con excepción de las incluidas en el inciso b) y de las comprendidas en regímenes especiales.
+
+
+
+b) Con el aporte obligatorio del dieciséis (16) por ciento sobre la remuneración que perciban, a cargo del personal docente y del que realice tareas insalubres, determinantes de vejez o agotamiento prematuros.
+
+
+
+c) Con la contribución obligatoria a cargo de los empleadores del doce (12) por ciento sobre el total de remuneraciones que se abonen al personal indicado en los incisos a), b) y h).
+
+
+
+d) Con los intereses, beneficios o dividendos procedentes de la colocación de fondos del Instituto.
+
+
+
+e) Con las multas e intereses devengados por las deudas que los afiliados, beneficiarios y empleadores contrajeren a favor del Instituto de Previsión Social, por aplicación de disposiciones de la presente Ley.
+
+
+
+f) Con las donaciones o legados que se hagan al Instituto de Previsión Social de la Provincia.
+
+
+
+g) Con la contribución obligatoria a cargo de los empleadores del dieciocho (18) por ciento sobre el total de las remuneraciones que perciba el personal comprendido en el régimen de prestaciones previsionales para agentes discapacitados.
+
+
+
+h) Con el aporte obligatorio del dieciocho (18) por ciento sobre la remuneración que perciban a cargo del personal artístico que se desempeña en cuerpo de baile.
+
+
+
+i) Con la contribución extraordinaria, no reintegrable, de las Municipalidades, según el último párrafo del artículo 11.
+
+
+
+j) Con la contribución extraordinaria, no reintegrable, del Estado Provincial, según el artículo 6º.
+
+
+
+k) (Texto según Ley 11562). Con los derechos o tasas administrativas, formularios y otros servicios requeridos por los empleadores o terceros, a excepción de afiliados y beneficiarios del Organismo, los que serán íntegramente destinados a la provisión de bienes muebles, equipamiento y demás elementos necesarios de apoyo técnico para la actividad previsional.
+
+
+
+ARTÍCULO 5.- (Texto según Ley 12150). Los aportes personales y las contribuciones a cargo de los empleadores a que se refiere el artículo 4° se efectuarán sobre la totalidad de la remuneración, considerada de conformidad a las normas de la presente Ley, incluido el sueldo anual complementario.
+
+
+
+La obligación de aportar y contribuir existe siempre que se devengue alguna remuneración cualquiera fuere su concepto, aún cuando ésta se liquide fraccionadamente.
+
+
+
+ARTÍCULO 6.- (Texto según Ley 12150). El Estado Provincial garantiza el cumplimiento de las finalidades de esta Ley, a cuyo efecto contribuirá anualmente con los fondos necesarios para el pago de las prestaciones acordadas o a acordarse y de sus actualizaciones, de acuerdo a las disposiciones del presente régimen, cubriendo las diferencias entre los recursos y los egresos del ejercicio.
+
+
+
+Facúltase al Poder Ejecutivo, a través del Ministerio de Economía, a emitir “Letras Previsionales del Tesoro” las que deberán ser entregadas al Instituto de Previsión Social de la Provincia de Buenos Aires, a partir de los excedentes financieros que genere su operatoria.
+
+
+
+Dichas letras devengarán, desde el momento de su emisión, un interés equivalente a la tasa promedio de la caja de ahorro común que publique el Banco Central de la República Argentina o a la remuneración que reciben los depósitos de la Provincia en el Banco de la Provincia de Buenos Aires, la que sea mayor.
+
+
+
+(Párrafo Incorporado por Ley 13929). En ningún caso este rendimiento podrá ser inferior al promedio de los últimos dos años de la tasa de rendimiento de la deuda de la Provincia emitida en condiciones comparables. Bajo este supuesto, dicha tasa será computada como tasa de rendimiento de las letras.
+
+
+
+Las letras se emitirán con un plazo máximo de trescientos sesenta y cinco (365) días, y a su vencimiento se renovarán automáticamente por hasta igual período, capitalizándose los intereses devengados, a menos que el Instituto de Previsión Social solicite la cancelación total o parcial de las mismas, dando aviso al Ministerio de Economía por lo menos con treinta (30) días de anticipación.
+
+
+
+ARTÍCULO 7.- Sin perjuicio de lo dispuesto en el artículo anterior el Estado proveerá los fondos provenientes de:
+
+
+
+a) Los importes actualizados, de los aportes y contribuciones no ingresados al Instituto en virtud de la aplicación de la mecánica establecida en los párrafos primero y segundo del artículo 46 de la Ley 7372;
+
+
+
+b) Los importes actualizados que se hubieran devengado a partir del 1º de enero de 1968, en razón de la vigencia de la suspensión que estableciera el párrafo tercero, del artículo 46 de la Ley 7372;
+
+
+
+c) Los importes actualizados de los aportes y contribuciones no ingresados al Instituto de Previsión Social como consecuencia de las disposiciones contenidas en el párrafo segundo del artículo 48 de la Ley 7372;
+
+
+
+d) Por todo otro importe actualizado, de los aportes y contribuciones no ingresados al Instituto de Previsión Social en cumplimiento de lo dispuesto por las leyes previsionales anteriores a la presente.
+
+
+
+Las cuentas del pasivo que se constituyan como consecuencia de lo establecido en el presente artículo, tendrán vigencia permanente hasta su extinción por pago.
+
+
+
+ARTÍCULO 8.- (Texto según Ley 14816) El Instituto de Previsión Social deberá mantener invertidos en condiciones óptimas de seguridad y liquidez y atendiendo al doble aspecto de productividad y fin social, los fondos que constituyen su patrimonio.
+
+
+
+En ningún caso podrá disponerse de parte alguna de los fondos para otros fines que los autorizados por esta Ley.
+
+
+
+ARTÍCULO 9.- Con el fin de evaluar y controlar el comportamiento del sistema previsional del presente régimen, y de recabar la contribución adicional a la que se alude en el artículo 6°, el Instituto de Previsión Social deberá realizar proyecciones financieras anuales de sus fondos, aportes, contribuciones, prestaciones y gastos y, trienalmente, una proyección financiera de largo plazo.
+
+
+
+III - OBLIGACIONES DE LOS EMPLEADORES
+
+
+
+ARTÍCULO 10.- (Texto según Ley 11462). Los empleadores de los afiliados activos y pasivos del presente régimen previsional, tendrán las siguientes obligaciones:
+
+
+
+a) (Texto Ley 12150). Practicar los descuentos, liquidar las contribuciones y depositar los importes respectivos en forma conjunta a la orden del Instituto de Previsión Social, antes del día diez (10) del mes siguiente al devengamiento normal de cualquier tipo de remuneración, conforme a lo establecido en el artículo 40. Para todo pago adicional por reajuste o que bajo cualquier denominación se abone, esta obligación deberá ser cumplimentada en el próximo vencimiento mensual siguiente al del pago. No obstante lo anterior, la Contaduría General de la Provincia retendrá a las Municipalidades, conforme a lo establecido en el artículo 13, desde el primer día hábil del mes siguiente al devengamiento, los importes por aportes y contribuciones resultantes de la aplicación del artículo 4° sobre la “masa salarial media estimada municipal”.
+
+
+
+La retención establecida en las condiciones del párrafo anterior, será incrementada en un cincuenta (50) por ciento, por el devengamiento de cada semestre del sueldo anual complementario.
+
+
+
+b) (Texto según Ley 11562). Ingresar al Instituto de Previsión Social en el mismo plazo establecido en el primer párrafo del inciso a), las declaraciones juradas mensuales de aportes y contribuciones, comprobantes de depósito y toda otra documentación que éste requiera para efectuar el control de las sumas devengadas y/o depositadas.
+
+
+
+No obstante lo anterior, en el mismo plazo señalado precedentemente y con las firmas de dos funcionarios responsables por cada organismo empleador, se ingresará al Instituto de Previsión Social, con carácter de declaración jurada mensual, una copia fiel de la planilla de remuneraciones y descuentos analíticos que contengan la nómina del total de agentes comprendidos en el artículo 2° de la presente, y además, sus datos personales y de revista a los fines previsionales.
+
+
+
+El Instituto de Previsión Social establecerá la forma de presentación unificada de ambas declaraciones juradas por parte de los empleadores, la que podrá incluir la utilización de soportes magnéticos o equivalentes que garanticen el cumplimiento de la normativa vigente.
+
+
+
+c) Registrar todo hecho o circunstancia referente al personal en actividad que afecte o pueda afectar el cumplimiento de las obligaciones que a estos les impone el régimen previsional, debiendo comunicar dentro del plazo de treinta (30) días de verificada, la circunstancia del desempeño e ingreso de agentes titulares de una prestación del mismo.
+
+
+
+d) Suministrar todo dato o informe que le requiera el Instituto de Previsión Social y permitir las verificaciones que se ordenen referentes al cumplimiento de la presente Ley.
+
+
+
+e) (Texto según Ley 12750). Los establecimientos educativos privados deberán presentar, por los períodos y vencimientos que fije el Instituto de Previsión Social una Declaración Jurada cuatrimestral en la que conste la situación de revista de la totalidad del personal sus remuneraciones y los aportes y contribuciones devengados, con los correspondientes pagos efectuados, como así también una declaración jurada parcial previo a todo cambio de titularidad, transferencia, cierre definitivo o transitorio o trámite que en conjunto se establezca con la Dirección General de Cultura y Educación. En los plazos previstos se deberá estar al día con el íntegro cumplimiento de las obligaciones previsionales. Las deudas serán exigibles por la vía de apremio sin necesidad de intimación previa.
+
+
+
+El Instituto de Previsión Social respecto del personal docente no subvencionado instrumentará con la colaboración de la Dirección General de Cultura y Educación la utilización obligatoria de soportes magnéticos que contengan la información de las Declaraciones Juradas a que hace referencia el segundo párrafo del inciso b) y el presente inciso. Asimismo y en función del cumplimiento previsional cuatrimestral, se emitirá una constancia de exhibición obligatoria y permanente por parte del empleador para información del personal docente.
+
+
+
+La afiliación obligatoria a que se refiere el artículo 2° de la presente, estará dada desde el comienzo de la prestación de funciones docentes en materias programáticas y/o cargos homologables.
+
+
+
+f) (Texto según Ley 11562). Suministrar al Instituto de Previsión Social las normas que establecen las modificaciones en los cargos y escalas salariales, dentro de los cinco (5) días hábiles siguientes al de su aprobación, a fin de practicar la movilidad de los importes de las prestaciones que establece la presente Ley. El incumplimiento de lo establecido en este inciso dará lugar a la exigibilidad, por parte del Instituto de Previsión Social al empleador correspondiente, de las sumas que en concepto de actualizaciones, ajustes e intereses efectúe a sus beneficiarios por tal demora. En igual plazo deberá regularizar los aportes, contribuciones e intereses que genere esta norma.
+
+
+
+g) (Texto según Ley 11562). Vencidos los plazos dispuestos en los incisos b), c), d), e) y f) la mora se producirá automáticamente, devengando tales incumplimientos los importes que surgen de una escala que será fijada por el Instituto de Previsión Social en función del tipo de empleador, plazos y cantidad de agentes, de hasta veinte (20) sueldos básicos para la categoría inferior del Agrupamiento Administrativo del Régimen para el personal de la Administración Pública de la Provincia de Buenos Aires para cuarenta (40) horas semanales de labor. (*) Ver artículo 6° de la Ley 11562.
+
+
+
+El incumplimiento del empleador a las obligaciones emergentes de este artículo, dará lugar además a que el Instituto de Previsión Social efectúe ante los Organismos competentes la denuncia a los efectos de su juzgamiento y sanción, de acuerdo a las disposiciones legales en vigencia.
+
+
+
+ARTÍCULO 11.- (Texto según Ley 10861). Establécese que la “masa salarial media municipal” a que se refiere el segundo párrafo del inciso a) del artículo 10, para cada Municipalidad, es el resultado del producto de: “el total de agentes municipales” por el “salario medio estimado municipal”.
+
+
+
+El “total de agentes municipales” se tomará de la declaración jurada mensual a que se refiere el segundo párrafo del inciso b) del artículo 10.
+
+
+
+El “salario medio estimado municipal” y al sólo efecto del cálculo de la “masa salarial media municipal” se fija para el mes de diciembre de 1989 en australes noventa mil (A 90.000), monto que será ajustado mes a mes, por la variación porcentual que resulte del valor promedio de los sueldos básicos para las categorías 4, 13 y 21 de la Ley 10430, bajo el régimen de cuarenta (40) horas semanales de labor y diez (10) años de antigüedad calculada sobre los mismos.
+
+
+
+Asimismo, establécese que el saldo a favor del Instituto de Previsión Social entre el importe resultante de la declaración jurada mensual según el segundo párrafo del inciso b) y el segundo párrafo del inciso a), ambos del artículo 10, será retenido por la Contaduría General de la Provincia, conforme a lo establecido en el artículo 13, no encontrándose, este saldo, comprendido en lo dispuesto por el artículo 12 todo saldo a favor de cada Municipalidad, constituirá una contribución extraordinaria, no reintegrable, de ésta al régimen de financiamiento del Instituto de Previsión Social.(*)
+
+
+
+(*) El Decreto Nacional Nº 2128/91, estableció el cambio de la denominación de los billetes y monedas de curso legal a partir del 1º de enero de 1992. Con la paridad de UN PESO ($1) equivalente a DIEZ MIL AUSTRALES (A 10.000)
+
+
+
+ARTÍCULO 12.- (Texto según Ley 11562). Vencido el plazo dispuesto en el inciso a) del artículo 10, la mora se producirá automáticamente, devengando un interés compensatorio equivalente al que perciba el Banco de la Provincia de Buenos Aires por sus operaciones de descuento, calculado sobre los aportes y contribuciones del mes generador.
+
+
+
+ARTÍCULO 13.- (Texto según Ley 10861). La Contaduría General de la Provincia retendrá prioritariamente a toda acreencia del Estado Provincial, de los montos que por cualquier concepto correspondan a las Municipalidades y Organismos Autárquicos y/o Descentralizados, los importes a que se refieren: el segundo y tercer párrafo del inciso a) del artículo 10, el último párrafo del artículo 11 y los importes que se adeudaren al Instituto de Previsión Social, conforme las determinaciones que está obligado a hacer debiendo la Contaduría General de la Provincia prever las sumas necesarias para atender la obligación previsional.
+
+
+
+La comunicación Oficial del Instituto de Previsión Social servirá de orden suficiente para la retención, debiendo la Contaduría General de la Provincia depositar las sumas que resulten a la orden de aquel en el Banco de la Provincia de Buenos Aires. (*)
+
+
+
+(*) A partir del artículo siguiente se procede a renumerar el articulado en virtud de la incorporación del artículo 12 bis operada mediante la Ley 10861.
+
+
+
+ARTÍCULO 14.- (Texto según Ley 11562). Los pagos de las obligaciones mensuales que efectúen los empleadores enunciados en el artículo 2° serán imputados por el Instituto de Previsión Social al mes por el cual se paga. Si los mismos se efectúan en el plazo que media hasta el día de vencimiento del artículo 10 inciso a), cancelará los conceptos señalados en la documentación respaldatoria correspondiente; vencido dicho plazo se imputará el depósito a cancelar en el siguiente orden: intereses del artículo 12, aportes personales y contribuciones patronales.
+
+
+
+IV - CÓMPUTO DE SERVICIOS
+
+
+
+ARTÍCULO 15.- (Texto según Ley 12634). A los efectos de esta Ley se computarán los servicios remunerados que el afiliado hubiere prestado hasta el día del cese en el servicio, aún cuando fueren discontinuos. La reglamentación establecerá el modo de computar el tiempo de servicios por causas que suspenden la relación de empleo, como de quiénes realicen tareas a jornal o destajo o por temporada.
+
+
+
+No podrá acreditarse el carácter diferencial o especial de los servicios mediante prueba testimonial exclusiva.
+
+
+
+ARTÍCULO 16.- Podrán computarse como tiempo de servicios los de carácter honorario prestados a la Provincia y Municipalidades, siempre que existiera designación expresa emanada de autoridad facultada para efectuar nombramientos en cargos rentados equivalentes. En ningún caso se computarán servicios honorarios prestados antes de los dieciséis (16) años de edad, ni los declarados tales por la Constitución o la Ley.
+
+
+
+La autoridad de aplicación establecerá pautas objetivas para determinar la efectiva prestación de esos servicios.
+
+
+
+ARTÍCULO 17.- A los efectos de establecer los aportes y contribuciones correspondientes a servicios honorarios, se considerará devengada la remuneración que para iguales o similares actividades rija a la fecha en que se solicitare su cómputo.
+
+
+
+El aporte y la contribución estarán respectivamente a cargo del afiliado y del empleador.
+
+
+
+ARTÍCULO 18.- Los servicios prestados por los suplentes serán computados a favor de estos, cualquiera sea el tiempo de duración de los mismos, a cuyo efecto los descuentos por aportes y contribuciones estarán a cargo del afiliado y del empleador respectivamente.
+
+
+
+ARTÍCULO 19.- Podrán computarse servicios por los cuales, no se hayan efectuado aportes al momento de presentarlos, o se hayan practicado por menor suma que las fijadas por las leyes vigentes sucesivas. Los cargos por tal concepto se practicarán sobre la remuneración que, para iguales o similares servicios rija a la fecha en que se solicitare su computo y su importe devengará una tasa de interés del seis por ciento (6%) anual.
+
+
+
+La contribución estará a cargo de los empleadores indicados en el artículo 2°.
+
+
+
+Es irrevocable a los fines de este artículo la manifestación expresa o tácita de quiénes durante los períodos en que las disposiciones legales así lo autorizaban, ejercieron la opción de no afiliarse o desafiliarse.
+
+
+
+ARTÍCULO 20.- Cuando las reparticiones dependientes del Estado Provincial o Municipalidades no puedan acreditar en forma fehaciente, los servicios prestados por sus agentes por falta de la documentación pertinente, se requerirá para la computabilidad de los mismos, la certificación fundada de dicha circunstancia extendida por la autoridad competente respectiva y la prueba supletoria que el afiliado deberá producir ante el Instituto de Previsión Social, quien establecerá los medios probatorios y el orden prioritario para su evaluación, o ante Juez Letrado con intervención de dicho Organismo.
+
+
+
+ARTÍCULO 21.- En todos los casos que acreditados los servicios no existiera prueba fehaciente de la naturaleza de las actividades desempeñadas, éstas serán estimadas por el Instituto de Previsión Social, quien asignará a las mismas un valor remuneratorio que no será inferior al haber mínimo de jubilación ordinaria vigente a la fecha en que se solicitara el cómputo.
+
+
+
+TÍTULO II
+
+
+
+PRESTACIONES
+
+
+
+ARTÍCULO 22.- (Texto según Decreto-Ley 10053/83). Las prestaciones que por esta Ley se conceden son:
+
+
+
+I. Jubilación ordinaria.
+
+
+
+II. Jubilación por invalidez.
+
+
+
+III. Jubilación por edad avanzada.
+
+
+
+IV. Pensión.
+
+
+
+ARTÍCULO 23.- (Texto según Decreto-Ley 10053/83). El derecho a las prestaciones se rigen en lo sustancial, salvo disposición en contrario, para las jubilaciones por la Ley vigente a la fecha de cese en el servicio o de acogimiento al cierre del cómputo, según los casos, y para las pensiones por la Ley vigente a la fecha de fallecimiento del causante o la del día presuntivo de su fallecimiento declarado judicialmente.
+
+
+
+Para acceder a cualquiera de las prestaciones, el afiliado debe reunir los requisitos necesarios para su logro, encontrándose en actividad, con excepción de los supuestos previstos en los artículos 32 y 77 de la presente Ley.
+
+
+
+I. JUBILACIÓN ORDINARIA
+
+
+
+ARTÍCULO 24.- Tendrán derecho a la jubilación ordinaria los afiliados que acrediten como mínimo veintidós (22) años de servicios con aportes en uno o más regímenes jubilatorios comprendidos en el sistema de reciprocidad, mínimo que el Poder Ejecutivo queda facultado para elevar cuando el lapso de la vigencia de esta Ley lo justifique, y que reúnan las siguientes condiciones:
+
+
+
+a) Hubieran cumplido sesenta (60) años de edad y treinta y cinco (35) años de servicios.
+
+
+
+b) Hubieran cumplido cincuenta (50) años de edad y veinticinco (25) años de servicios docentes como maestros al frente directo de alumnos o profesores con veinte (20) horas cátedra, en cualquiera de las ramas de la enseñanza. (*)
+
+
+
+(*) La Ley 10745 en sus artículos 1° y 2° expresan:
+
+
+
+Artículo 1.- A partir de la vigencia de la presente Ley, el personal que se desempeña en cargo técnico-docente dependiente de la Dirección de Psicología y Asistencia Social Escolar y de la Dirección de Educación Especial de la Dirección General de Escuelas y Cultura de la Provincia de Buenos Aires, será considerado, a los efectos de la concesión del respectivo beneficio jubilatorio, comprendido en el Inciso b) del artículo 22 del Decreto-Ley 9650/80.
+
+
+
+Artículo 2.- A todos los efectos el personal comprendido en el artículo 1°, será considerado como Docente al frente directo del grado.
+
+
+
+c) Hubieran cumplido cincuenta (50) años de edad y veinticinco (25) años de servicios docentes, si acreditan diez (10) años como mínimo al frente directo de alumnos, en cualquiera de las ramas de la enseñanza.
+
+
+
+d) Hubieran cumplido cincuenta y cinco (55) años de edad y treinta (30) años de servicios docentes en cualquiera de las ramas de la enseñanza.
+
+
+
+Los servicios prestados en otras jurisdicciones debidamente reconocidos, serán considerados docentes a los fines de este artículo, cuando fueren prestados en la enseñanza preescolar, primaria, media o superior en establecimiento educacional oficial, o privado incorporado a la oficial por la autoridad que corresponda. (*)
+
+
+
+(*) A partir del artículo siguiente, se concreta nueva renumeración del articulado, en virtud de la incorporación del artículo 22 bis, operada mediante Ley 10564.
+
+
+
+ARTÍCULO 25.- (Texto según Ley 10564).
+
+
+
+a) Se concederá jubilación ordinaria al personal artístico que se desempeñe exclusivamente en cuerpo de baile que acrediten cuarenta (40) años de edad y veinte (20) años de servicios.
+
+
+
+A los fines de la antigüedad, podrán computarse servicios similares prestados, con aportes a otras Cajas de Jubilaciones siempre que el cese que origine el presente beneficio se produzca durante su afiliación al Instituto de Previsión Social de la Provincia de Buenos Aires y ésta no sea inferior a diez (10) años.
+
+
+
+b) Cumplidos los requisitos establecidos en el inciso anterior, el bailarín que opte por continuar en actividad, deberá someterse al examen de una Junta Calificadora, integrada por médicos y autoridades en la materia artística, quiénes podrán autorizar, en cada oportunidad, prórroga por períodos de un año.
+
+
+
+ARTÍCULO 26.- Facúltase al Poder Ejecutivo para establecer límites de edad y servicios diferenciales en el caso de tareas insalubres, determinantes de vejez o agotamiento prematuro.
+
+
+
+En tales casos los límites de edad y de servicios no podrán reducirse en más de diez (10) años con relación a los exigidos por el inciso a) del artículo anterior.
+
+
+
+ARTÍCULO 27.- Cuando se hubieren acreditado servicios de los comprendidos en los artículos 24 incisos b), c) y d) y 26 y alternadamente otros de cualquier naturaleza pertenecientes a este régimen o a otros comprendidos en el sistema de reciprocidad, a los fines de determinar los requisitos para el otorgamiento de la jubilación ordinaria, se efectuará un prorrateo en función de los límites de antigüedad y de edad requeridos para cada clase de servicios o actividades
+
+
+
+ARTÍCULO 28.- Todo afiliado al Instituto de Previsión Social de la Provincia de Buenos Aires que está afectado de ceguera congénita, tendrá derecho a la jubilación ordinaria a los cuarenta y cinco (45) años de edad o veinte (20) años de servicios.
+
+
+
+II. JUBILACIÓN POR INVALIDEZ
+
+
+
+ARTÍCULO 29.- Tendrán derecho a la jubilación por invalidez, cualesquiera fueren su edad y antigüedad en el servicio, los afiliados que se incapaciten física y/o psíquicamente compatible con sus aptitudes laborales, siempre que la incapacidad se hubiera producido durante la relación de empleo, salvo el supuesto previsto en el artículo 32.
+
+
+
+La invalidez que produzca en la capacidad laboral una disminución del sesenta y seis por ciento (66%) o más, se considera total.
+
+
+
+La posibilidad de sustituir la actividad habitual del afiliado por otra compatible con sus aptitudes laborales será razonablemente apreciada por el Instituto de Previsión Social en la forma que establezca la reglamentación, teniendo en cuenta las conclusiones del dictamen médico respectivo, sobre el grado y naturaleza de la invalidez, la edad, la especialización en la actividad ejercida y la jerarquía que hubiera alcanzado.
+
+
+
+ARTÍCULO 30.- Cuando estuviere acreditada la incapacidad a la fecha del cese en la actividad y el afiliado hubiere prestado servicios ininterrumpidos durante diez (10) años inmediatamente anteriores, podrá presumirse que aquella se produjo durante la relación de empleo.
+
+
+
+Si la solicitud de la prestación se formulare después de la extinción de la relación de empleo o desde el vencimiento del plazo a que se refiere el artículo 32, se presume que el afiliado se hallaba capacitado a la fecha de extinción de dicha relación o al vencimiento de dicho plazo, salvo que de las causas generadoras de la incapacidad surgiera su existencia en forma indubitable a esos momentos.
+
+
+
+ARTÍCULO 31.- La reglamentación de la presente Ley establecerá el Organismo que apreciará la invalidez y el procedimiento para determinarla, que asegure uniformidad de criterios estimativos y las garantías necesarias en salvaguarda de los derechos de los afiliados.
+
+
+
+ARTÍCULO 32.- Cuando se acredite no menos de diez (10) años de servicios con aportes de los comprendidos en el artículo 4° de la presente Ley, también se tendrá derecho a jubilación por invalidez, si la incapacidad se produjera dentro de los dos (2) años siguientes al acto de cesantía incausado y siempre que no hubiere reingresado a otro régimen de previsión de los comprendidos en el sistema de reciprocidad.
+
+
+
+ARTÍCULO 33.- La jubilación por invalidez se otorgará con carácter provisional quedando sujeta a los reconocimientos médicos periódicos que establezca la reglamentación. La negativa de los beneficios a someterse a los exámenes médicos que se dispongan dará lugar a la suspensión de la prestación.
+
+
+
+La jubilación por invalidez será definitiva cuando el titular tuviere cincuenta (50) o más años de edad y hubiera percibido la prestación por lo menos durante diez (10) años.
+
+
+
+III. PENSIÓN
+
+
+
+ARTÍCULO 34.- (Texto según Ley 10754). En caso de muerte o fallecimiento presunto declarado judicialmente del jubilado o del afiliado en actividad o con derecho a jubilación, se otorgará pensión a las siguientes personas:
+
+
+
+1) La viuda o el viudo:
+
+
+
+Tendrá asimismo derecho a la pensión la conviviente o el conviviente, en el mismo grado y orden y con las mismas modalidades que la viuda o el viudo en el supuesto de que el causante se hallase separado de hecho y hubiese convivido públicamente en aparente matrimonio durante por lo menos cinco (5) años inmediatamente anteriores al fallecimiento. El plazo de convivencia se reducirá a dos (2) años cuando hubiere descendencia o el causante haya sido soltero, viudo, separado legalmente o divorciado.
+
+
+
+El o la conviviente excluirá al cónyuge supérstite en el goce de la pensión, salvo que el causante hubiera estado contribuyendo al pago de los alimentos, que éstos hubieran sido reclamados fehacientemente en vida, o que el causante fuera culpable de la separación. En estos tres casos el beneficio se otorgará al cónyuge y al conviviente por partes iguales.
+
+
+
+La autoridad de aplicación determinará los requisitos necesarios para probar el aparente matrimonio y la prueba podrá sustanciarse administrativamente o ante autoridad judicial. Los derechos que por la presente se instituyen en beneficio de la viuda o el viudo y del o de la conviviente de hecho podrán invocarse aunque el causante o la causante respectivos, según el caso, hubieren fallecido antes de la vigencia de la presente Ley. Cuando hubieran sido anteriormente denegadas por resolución administrativa o sentencia judicial.
+
+
+
+La autoridad competente reabrirá el procedimiento a petición de la parte interesada. En ningún caso el pronunciamiento que se dicte con arreglo a la presente podrá dejar sin efecto derechos adquiridos, salvo el supuesto de nulidad de estos últimos debidamente establecida y declarada o de extinción de tales derechos. No se entenderá que se ha producido tal extinción mientras existan beneficiarios coparticipantes con derecho a acrecer.
+
+
+
+El haber de las pensiones que se acuerden por aplicación de este inciso, se devengará a partir de la fecha de la respectiva solicitud. En las peticiones en trámite, sin resolución firme, el beneficio que se otorgue se devengará desde la fecha de vigencia de la presente.
+
+
+
+El beneficio de pensión será gozado en concurrencia con:
+
+
+
+a) Los hijos solteros, las hijas solteras y las hijas viudas, estas últimas siempre que no percibieran haberes en concepto de jubilación, pensión, retiro o prestación no contributiva, salvo que optaren por la pensión que otorga la presente, hasta los dieciocho (18) años de edad.
+
+
+
+b) Las hijas solteras y las hijas viudas que hubieran convivido con el causante en forma habitual y continuada durante los diez (10) años inmediatamente anteriores a su deceso, que a ese momento hubieran cumplido la edad de cincuenta (50) años y se encontraren a su cargo siempre que no desempeñaren actividad lucrativa alguna, carezcan de bienes que produzcan rentas, si percibieran haberes en concepto de jubilación, pensión, retiro o prestación no contributiva, salvo en estos últimos supuestos, que optaren por la pensión que otorga la presente.
+
+
+
+c) Las hijas viudas y las hijas separadas de hecho o divorciadas por culpa exclusiva del marido que no percibieran prestación alimentaria de éste, todas ellas incapacitadas para el trabajo y a cargo del causante a la fecha de su deceso, siempre que no percibieran haberes en concepto de jubilación, pensión, retiro o prestación no contributiva, salvo que optaren por la pensión que otorga la presente.
+
+
+
+d) Los nietos solteros, las nietas solteras y las nietas viudas, estas últimas siempre que no percibieran haberes en concepto de jubilación, pensión, retiro o prestación no contributiva, salvo que optaren por la pensión que otorga la presente, todos ellos huérfanos de padre y madre, hasta los dieciocho (18) años de edad.
+
+
+
+2) (Texto según Ley 10413). Los hijos y nietos de ambos sexos en las condiciones del inciso anterior.
+
+
+
+3) (Texto según Ley 12302). La viuda o el viudo, y el o la conviviente en aparente matrimonio, en las condiciones y retroactividad establecidas en el inciso 1), en concurrencia con los padres incapacitados para el trabajo o que hubieren cumplido la edad de 80 años y estuvieren a cargo del causante a la fecha de su deceso, siempre que éstos no percibieran haberes en concepto de jubilación, pensión, retiro o prestación no contributiva, salvo que optaren por la pensión que acuerda la presente.
+
+
+
+4) (Texto según Ley 10413). Los padres en las condiciones del inciso precedente.
+
+
+
+5) (Texto según Ley 10413). Los hermanos solteros, las hermanas solteras y las hermanas viudas, todos ellos huérfanos de padre y madre y a cargo del causante a la fecha de su deceso, siempre que no percibieran haberes en concepto de jubilación, pensión, retiro o prestación no contributiva, salvo que optaren por la pensión que acuerda la presente hasta los dieciocho (18) años de edad.
+
+
+
+La presente enumeración es taxativa. El orden establecido en el inciso 1) no es excluyente pero si el orden de relación establecido entre los incisos 1 al 5.
+
+
+
+La pensión es una prestación derivada del derecho a jubilación del causante, que en ningún caso genera a su vez, derecho a pensión. (*)
+
+
+
+(*) A partir del artículo siguiente, se concreta nueva numeración del articulado, en virtud de la incorporación del artículo 31 bis, operada mediante Decreto-Ley 10053/83.
+
+
+
+ARTÍCULO 35.- (Texto según Decreto-Ley 10053/83). Tendrán derecho a la jubilación por edad avanzada los afiliados que:
+
+
+
+a) Hubieran cumplido sesenta y cinco (65) años de edad, cualquiera fuera su sexo.
+
+
+
+b) Acrediten no menos de diez (10) años de servicios de afiliación al Instituto de Previsión Social de la Provincia de Buenos Aires, con una prestación de servicios de por lo menos cinco (5) años durante el período de ocho (8) años inmediatamente anteriores al cese en la actividad.
+
+
+
+ARTÍCULO 36.- Los límites de edad fijados por los incisos 1), puntos a) y d) y 5) del artículo 34 no rigen si los derechohabientes se encontraran incapacitados para el trabajo y a cargo del causante a la fecha del fallecimiento de éste, o incapacitados a la fecha en que cumplieran la edad de dieciocho (18) años.
+
+
+
+A los efectos de la presente Ley se entiende que el derechohabiente estuvo a cargo del causante cuando concurre en aquel un estado de necesidad revelado por la escasez o carencia de recursos personales y la falta de contribución importa un desequilibrio esencial en su economía particular.
+
+
+
+La reglamentación fijará pautas objetivas para establecer si el derechohabiente estuvo a cargo del causante.
+
+
+
+ARTÍCULO 37.- Tampoco regirán los límites de edad establecidos en el artículo 34 para los hijos, nietos y hermanos, de ambos sexos, en las condiciones fijadas en el mismo, que cursen regularmente estudios secundarios, terciarios o superiores y no desempeñen actividades remuneradas, ni percibieran haberes en concepto de jubilación, pensión, retiro o prestación no contributiva. En estos casos la pensión se pagará hasta los veinticinco (25) años de edad, salvo que los estudios hayan finalizado antes.
+
+
+
+La reglamentación establecerá los estudios y los establecimientos educacionales a que se refiere este artículo, como también la forma y modo de acreditar la regularidad de aquellos.
+
+
+
+ARTÍCULO 38.- Cuando se extinguiera el derecho a pensión de un causahabiente y no existieran copartícipes, tendrán derecho a esa prestación los parientes del jubilado o afiliado con derecho a pensión enumerados en el artículo 34 que sigan en orden de prelación, que a la fecha del fallecimiento de éste reunieran los requisitos para obtener pensión, pero hubieran quedado excluidos por otro causahabiente, siempre que se encontraren incapacitados para el trabajo a la fecha de extinción de la pensión para el anterior titular y no percibieran haber en concepto de jubilación, pensión, retiro o prestación no contributiva, salvo que optaren por la pensión que acuerda la presente.
+
+
+
+ARTÍCULO 39.- No tendrán derecho a pensión:
+
+
+
+a) El cónyuge que por su culpa o culpa de ambos, estuviere divorciado o separado de hecho del causante, a la fecha de la muerte o fallecimiento presunto declarado judicialmente.
+
+
+
+b) Todos los causahabientes en caso de indignidad para suceder o desheredación de acuerdo con las disposiciones del Código Civil.
+
+
+
+TÍTULO III
+
+
+
+DETERMINACIÓN DEL HABER
+
+
+
+ARTÍCULO 40.- (Texto según Ley 10861). Se considera remuneración, a todos los efectos de la presente Ley, los sueldos de asignaciones percibidas por todo concepto, incluidos los suplementos y bonificaciones adicionales que revistan el carácter de habituales y Regulares, y además toda otra retribución, cualquiera fuere la denominación que se les asigne, incluidas las no remunerativas, percibidas por servicios ordinarios o extraordinarios prestados en relación de dependencia.
+
+
+
+Sólo quedan excluidos de este concepto, la retribución por horas extras, las asignaciones familiares, las percibidas en calidad de viáticos, los gastos de residencia y las asignaciones percibidas en concepto de beca.
+
+
+
+
+
+
+ARTÍCULO 41.- (Ver Ley 14025) (Texto según Ley 13968) (Texto según Decreto-Ley 10053/83) El haber mensual de la jubilación ordinaria, calculada por servicios en relación de dependencia, será el equivalente al setenta (70) por ciento de la remuneración mensual asignada al cargo de que era titular el afiliado a la fecha de cesar en el servicio o en el cargo de mayor jerarquía que hubiese desempeñado. En todos los casos se requerirá haber cumplido en el cargo un período mínimo de treinta y seis (36) meses consecutivos o sesenta (60) alternados. Si estos períodos fuesen menores, el cargo jerárquicamente superior se considerará comprendido en el inferior, regulándose el haber por este último cargo.
+
+
+
+Los afiliados que al momento de obtener el beneficio jubilatorio que no cumplan con el tiempo mínimo legal establecido en el cargo de mayor jerarquía y hayan percibido bonificaciones no remunerativas convertidas en remunerativas, también serán calculadas para determinar el haber mensual. La diferencia a favor del I.P.S. será integrada en un plan de pagos hasta que se efectivice el total de los aportes.
+
+
+
+Cuando no fuere posible determinar el cargo desempeñado por el afiliado, el haber se determinará mediante el procedimiento de promediar las remuneraciones efectivamente percibidas, actualizadas mediante los coeficientes a que se refiere el artículo 51 durante los treinta y seis (36) meses continuos más favorables desempeñados por el afiliado.
+
+
+
+En la determinación de este promedio no se incluirá el sueldo anual complementario.
+
+
+
+No se podrá determinar el haber de la prestación sobre la base de servicios o remuneraciones comparado mediante prueba testimonial exclusiva.
+
+
+
+ARTÍCULO 42.- Cuando cumplidas las condiciones establecidas en la presente Ley para obtener jubilación ordinaria el afiliado continuará en tareas de afiliación al Instituto de Previsión Social, el haber mensual de la prestación será equivalente al setenta y cinco por ciento (75%) de la remuneración asignada al cargo que resulte por aplicación del artículo 41, si al momento de cesar en el servicio excediera en tres (3) años la edad requerida y del ochenta por ciento (80%) si excediera en cinco (5) años o más dicha edad.
+
+
+
+ARTÍCULO 43.- El haber mensual de la jubilación ordinaria para el personal comprendido en el inciso a) del artículo 24 que acredite la totalidad de los servicios en tareas de afiliación al Instituto de Previsión Social, y el del personal docente comprendido en el inciso b) del citado artículo, será equivalente al setenta y cinco por ciento (75%) de la remuneración asignada a dichos cargos.
+
+
+
+El haber resultante se incrementará en un cinco por ciento (5%) cuando continúan, respectivamente, en dichas tareas de afiliación al Instituto de Previsión Social si al momento de cesar en el servicio excedieran en tres (3) años la edad requerida y en un diez por ciento (10%) si excedieran en cinco (5) o más años dicha edad. (*)
+
+
+
+(*) A partir del artículo siguiente se concreta renumeración del articulado, en virtud de la incorporación del artículo 39 bis, operada mediante Decreto-Ley 10053/83.
+
+
+
+ARTÍCULO 44.- (Texto según Decreto-Ley 10053/83). Si para la determinación del haber de la prestación se tomaran servicios autónomos, el mismo se calculará aplicando las normas del propio régimen de trabajadores autónomos.
+
+
+
+ARTÍCULO 45.- El haber de la jubilación por invalidez será equivalente al setenta por ciento (70%) de la remuneración asignada al cargo de que era titular el afiliado a la fecha del cese en el servicio, salvo que opte por el cargo de mayor jerarquía desempeñado, en cuyo caso deberá acreditar la permanencia en el mismo por los períodos establecidos en el artículo 41. (*)
+
+
+
+(*) A partir del artículo siguiente se concreta renumeración del articulado, en virtud de la incorporación del artículo 40 bis, operada mediante Decreto-Ley 10053/83.
+
+
+
+ARTÍCULO 46.- (Texto según Decreto-Ley 10053/83). El haber de la jubilación por edad avanzada será igual al cincuenta (50) por ciento del haber de la jubilación ordinaria. Este porcentaje se incrementará en un dos (2) por ciento por cada año de servicios con aportes que exceda de diez (10) años. En ningún caso el haber resultante puede superar el cien (100) por ciento del haber de la jubilación ordinaria.
+
+
+
+ARTÍCULO 47.- El haber del afiliado que haya desempeñado dos (2) o más cargos simultáneos de afiliación al Instituto de Previsión Social o en Cajas comprendidas en el sistema de reciprocidad y cumpliera en uno de aquellos los requisitos para obtener jubilación ordinaria, será el resultante de sumar al obtenido de conformidad con lo dispuesto en el artículo 41 el que corresponda por los servicios simultáneos, computados en proporción a los mínimos requeridos en el respectivo régimen para obtener jubilación ordinaria.
+
+
+
+Para acceder a este beneficio, el afiliado deberá haber desempeñado como mínimo tres (3) años de servicios efectivos, con aportes y continuos en los servicios simultáneos, debiendo encontrarse comprendido en dicho lapso el cargo considerado para la determinación del haber de la jubilación ordinaria.
+
+
+
+ARTÍCULO 48.- (Texto según Decreto-Ley 10053/83). El haber de la pensión será equivalente al setenta y cinco (75) por ciento de:
+
+
+
+a) La jubilación que percibía el causante a la fecha de su muerte o fallecimiento presunto declarado judicialmente.
+
+
+
+b) La jubilación a que tenía derecho el causante a la fecha de cesar en el servicio.
+
+
+
+c) El haber calculado según los artículos 41, 45 y 46, cualquiera fuere la edad y los años de servicios prestados por el causante a la época de su fallecimiento en actividad.
+
+
+
+ARTÍCULO 49.- (Texto según Ley 10754). La mitad del haber de la pensión corresponde a la viuda o al viudo, la conviviente o el conviviente, si concurren hijos, nietos o padres del causante en las condiciones del artículo 34, la otra mitad se distribuirá entre éstos por partes iguales, con la excepción de los nietos, quiénes percibirán en conjunto la parte de la pensión a que hubiera tenido derecho el progenitor fallecido, a falta de hijos, nietos o padres, la totalidad del haber de la pensión corresponde a la viuda, el viudo, la conviviente o el conviviente.
+
+
+
+En caso de extinción del derecho a pensión de alguno de los copartícipes su parte acrecerá proporcionalmente la de los restantes beneficiarios, respetándose la distribución establecida en los párrafos precedentes y los porcentajes fijados en el artículo anterior.
+
+
+
+ARTÍCULO 50.- Los importes de las prestaciones establecidos en esta Ley son móviles y deberán ser actualizados de oficio por el Instituto de Previsión Social dentro de los sesenta (60) días de sancionada la norma legal que haya dispuesto las modificaciones de los sueldos del personal en actividad. A tal efecto se adoptará el procedimiento de la correlación de cargos y los nuevos importes de las prestaciones se liquidarán en base al cargo tenido en cuenta al momento de determinarse el primer haber para cada beneficio, o el que resulte por los servicios de reingreso en los términos que establece el artículo 53.
+
+
+
+Para los beneficios cuyas prestaciones no puedan ser actualizadas mediante el procedimiento indicado en el párrafo anterior, la actualización por movilidad se efectuará aplicando el coeficiente que corresponda sobre el haber que venían percibiendo.
+
+
+
+ARTÍCULO 51.- Facúltase al Poder Ejecutivo a instancia del Instituto de Previsión Social, a efectuar las equivalencias por correlación cuando los cargos no conserven su individualidad presupuestaria o cuando el que determinó el haber inicial fuera reestructurado o suprimido; como a fijar los coeficientes a que se refiere la segunda parte del artículo 41, como los del artículo 50 segundo párrafo, cada vez que se produzcan modificaciones en los sueldos del personal en actividad y en base al índice de variación de dichas remuneraciones.
+
+
+
+ARTÍCULO 52.- En ningún caso el haber de la jubilación ordinaria o por invalidez podrá reducirse en más de un treinta y tres por ciento (33%) respecto al sueldo del cargo considerado para determinar el haber jubilatorio, ni el de las pensiones en más de un cuarenta y siete por ciento (47%) respecto del sueldo del cargo considerado para su determinación inicial.
+
+
+
+ARTÍCULO 53.- (Texto según Ley 10613). El jubilado que hubiere reingresado o reingresara a la actividad y cesare con posterioridad, podrá acrecentar su haber jubilatorio mediante el cómputo de nuevos servicios cuando reúna las condiciones siguientes:
+
+
+
+a) Haberse desempeñado o desempeñare en funciones o cargos de superior jerarquía al que le sirvió de base para la determinación del beneficio anterior.
+
+
+
+b) Que los nuevos servicios a contar de la fecha del reingreso, alcanzaren un período mínimo de tres (3) años consecutivos.
+
+
+
+c) Que aquellos agentes que hubieren cumplido con el requisito establecido en el inciso anterior y hubieren tenido más de un cargo durante el mencionado lapso, tendrán derecho a elegir el mejor, a condición de haberse desempeñado en el mismo, durante un período no inferior a un (1) año o doce (12) meses también consecutivos.
+
+
+
+Dichas condiciones no regirán cuando el agente se incapacite o fallezca durante el período de reingreso.
+
+
+
+d) Cumplimentados los requisitos consignados en los incisos anteriores del presente artículo, quiénes habiendo con anterioridad obtenido el acogimiento previsional y por haber efectuado nuevos servicios desearen acogerse nuevamente a los beneficios jubilatorios de éste Régimen Legal y sus modificatorios, podrán acrecentar la prestación y aprovechar de los demás beneficios que estatuyen sus otras normas, pero no podrá exigírseles nuevas condiciones de edad o años de servicios.
+
+
+
+ARTÍCULO 54.- Facúltase al Poder Ejecutivo a fijar haberes mínimos de las prestaciones cuando éstas hicieran presumir, manifiestamente, por su exigüidad, que no constituyen una contribución ponderable en los medios de vida del beneficiario.
+
+
+
+ARTÍCULO 55.- (Texto según Ley 10754). No se acumularán en una misma persona dos (2) o más prestaciones de las que otorga la presente Ley con excepción de:
+
+
+
+a) La viuda, el viudo, el conviviente o la conviviente quiénes tendrán derecho a la percepción de su jubilación y no más de una (1) pensión.
+
+
+
+b) Los hijos, quiénes podrán percibir hasta dos (2) pensiones.
+
+
+
+ARTÍCULO 56.- Se abonarán a los beneficiarios del Instituto de Previsión Social un haber anual complementario equivalente, a la duodécima parte del total de los haberes jubilatorios o de pensión a que tuvieren derecho por cada año calendario. Este haber se hará efectivo en el tiempo y forma que se liquida para el personal en actividad.
+
+
+
+Cuando en una misma persona se acumulan más de una prestación de pasividad, liquidadas y abonadas por el Instituto de Previsión Social, el afiliado tendrá derecho al haber anual complementario por cada una de ellas.
+
+
+
+TÍTULO IV
+
+
+
+I. CARÁCTER DE LAS PRESTACIONES, SUSPENSIÓN Y EXTINCIÓN
+
+
+
+ARTÍCULO 57.- Las prestaciones que esta Ley establece revisten los siguientes caracteres:
+
+
+
+a) Son personalísimas y solo corresponden a los propios beneficiarios.
+
+
+
+b) No pueden ser enajenadas ni afectadas a terceros por derecho alguno, salvo en los casos previstos en los incisos c) y d) de éste artículo e inciso h) del artículo 4° de la presente Ley.
+
+
+
+c) Podrán reducirse en el monto necesario para atender el servicio de los préstamos personales y/o hipotecarios que acuerda el Estado, o por Mandato Judicial.
+
+
+
+d) Podrán ser afectadas, previa conformidad formal y expresa de los beneficiarios, a favor de Obras Sociales, Cooperativas y Mutualidades con las cuales convengan los descuentos pertinentes.
+
+
+
+e) Sólo se extinguen o suspenden por las causas previstas en la Ley.
+
+
+
+Todo acto o hecho jurídico que tienda a desvirtuar lo dispuesto en los incisos precedentes serán nulos y sin valor alguno.
+
+
+
+ARTÍCULO 58.- Los afiliados y beneficiarios están obligados, sin perjuicio de lo establecido por otras disposiciones legales, a suministrar los informes requeridos por la autoridad de aplicación, referentes a su situación ante las leyes de previsión.
+
+
+
+ARTÍCULO 59.- (Texto según Decreto-Ley 10053/83). Las prestaciones se abonarán a los beneficiarios:
+
+
+
+a) La jubilación ordinaria, por invalidez y por edad avanzada desde el día siguiente en que hubieran dejado de percibir remuneración por la relación de empleo o a partir del día siguiente del último computado para las actividades autónomas, excepto en el supuesto previsto en el artículo 32 en que se pagará a partir de la solicitud formulada con posterioridad a la fecha en que se produjo la incapacidad.
+
+
+
+b) La pensión, desde el día siguiente al de la muerte del causante, o al del día presuntivo de su fallecimiento fijado judicialmente, excepto en el supuesto previsto en el artículo 38 en que se pagará a partir del día siguiente al de la extinción de la pensión para el anterior titular.
+
+
+
+ARTÍCULO 60.- Será incompatible la percepción del haber jubilatorio con el desempeño de cualquier actividad en relación de dependencia, con excepción de los servicios docentes.
+
+
+
+Es incompatible asimismo, la percepción de jubilación por edad avanzada, con el de otra jubilación o retiro nacional, provincial o municipal.
+
+
+
+El Poder Ejecutivo podrá establecer por tiempo determinado y con carácter general regímenes de compatibilidad limitada, en las condiciones y con las modalidades que determine.
+
+
+
+En los casos que existiere incompatibilidad total o limitada entre la percepción del haber de la prestación y el desempeño de la actividad, el jubilado que se reintegrare al servicio o continuare en tareas distintas deberá denunciar expresamente y por escrito esa circunstancia al Instituto de Previsión Social, dentro del plazo de treinta (30) días corridos a partir de la fecha en que volvió a la actividad o continuó en ella.
+
+
+
+El jubilado que omitiere efectuar la denuncia en la forma y plazo indicado en el párrafo anterior deberá reintegrar lo percibido indebidamente en concepto de haberes jubilatorios, a partir de su reingreso y hasta la fecha en que el Instituto tomó conocimiento de esa circunstancia, quedando privado automáticamente del derecho a computar los nuevos servicios desempeñados durante ese período para cualquier reajuste o transformación.
+
+
+
+El cargo que se formule por tal concepto estará sujeto al procedimiento de liquidación y ejecución que establece el artículo siguiente.
+
+
+
+ARTÍCULO 61.- (Texto según Ley 13929). Cuando se perciban indebidamente haberes jubilatorios o pensionarios, el Instituto de Previsión Social formulará el cargo deudor pertinente, el que será deducido de la prestación en un porcentaje que no podrá exceder del veinte por ciento (20 %) del haber mensual de ésta, salvo cuando por el plazo de duración de la prestación no resultare posible cancelar el cargo mediante ese porcentaje, en cuyo supuesto la deuda se prorrateará en función de dicho plazo.
+
+
+
+Cuando se computen servicios por los que no se hayan efectuado aportes o se los haya pagado en menor suma que la establecida en las leyes vigentes sucesivas, se formulará el cargo correspondiente por dichos aportes, el que deberá estar cancelado al momento de entrar en el goce de la prestación. El Instituto de Previsión Social podrá reglamentar el otorgamiento de facilidades de pago.
+
+
+
+En todos los casos, el capital adeudado se calculará tomando como base la remuneración correspondiente al cargo que lo originó, a los montos presupuestarios vigentes a la fecha en que se formule la imposición.
+
+
+
+A los fines de los párrafos precedentes, se aplicará sobre los pertinentes capitales nominales resultantes el interés sobre los pertinentes capitales nominales resultantes el interés sobre saldos impagos, según la tasa y metodología que determine la reglamentación, quedando facultado a tales efectos el Instituto de Previsión Social.
+
+
+
+Cuando la deuda no pueda cancelarse por los procedimientos establecidos en los párrafos anteriores, se procederá a reclamar judicialmente su pago, por vía de la Ley de Apremio. A esos fines será suficiente título ejecutivo, la liquidación suscripta por el titular del Instituto de Previsión Social.
+
+
+
+ARTÍCULO 62.- Es imprescriptible el derecho a los beneficios acordados por las leyes de jubilaciones y pensiones, cualesquiera fueren su naturaleza y titular.
+
+
+
+Prescribe al año la obligación de pagar los haberes jubilatorios y de pensión, inclusive los provenientes de reajustes, devengados antes de la presentación de la solicitud del beneficio.
+
+
+
+Prescribe a los dos (2) años la obligación de pagar los haberes devengados con posterioridad a la solicitud de la prestación.
+
+
+
+La presentación de la solicitud ante el Instituto de Previsión Social interrumpe el plazo de prescripción, siempre que al momento de formularse el peticionario fuere acreedor a la prestación solicitada.
+
+
+
+ARTÍCULO 63.- El derecho a percibir el haber jubilatorio se suspende cuando no se percibiera la prestación durante tres (3) meses consecutivos.
+
+
+
+ARTÍCULO 64.- El derecho a la jubilación por invalidez se extingue:
+
+
+
+a) Cuando haya desaparecido la incapacidad durante el período de provisoriedad.
+
+
+
+b) (Texto según Ley 10593). Cuando desempeñare cualquier actividad en relación de dependencia, con excepción de aquellos jubilados que hubiesen reingresado a la actividad en virtud del Régimen Jurídico Básico e Integral para las personas discapacitadas vigente en la Provincia de Buenos Aires o normas similares nacionales o provinciales, los que estarán sujetos exclusivamente a la incompatibilidad establecida en el artículo 60.
+
+
+
+El tiempo durante el cual percibió la prestación por invalidez se computará, como servicios prestados. Si accediera a alguna de las prestaciones que por esta Ley se acuerdan, los cargos deudores por aportes por dicho lapso se liquidarán en la forma establecida en el segundo párrafo del artículo 61. Dicha deuda no devengará interés.
+
+
+
+ARTÍCULO 65.- El derecho a pensión se extingue:
+
+
+
+a) Cuando cese la incapacidad para el trabajo de cualquiera de las personas a las que se haya acordado por dicha causal.
+
+
+
+b) (Texto según Ley 11104). Para la madre o padre viudos, o que enviudaren, para las hijas viudas y para los beneficiarios cuyo derecho a pensión dependiere de que fueren solteros, desde que contrajeron matrimonio o hicieran vida marital de hecho. Para las hijas divorciadas, desde la reconciliación de los cónyuges, y para las hijas separadas de hecho, desde que cesare la separación.
+
+
+
+c) Para los beneficiarios cuyo derecho a pensión tuviere fijada determinada edad, desde que cumplieron la edad establecida, salvo que a esas fechas se encontraren incapacitados para el trabajo.
+
+
+
+d) Para los beneficiarios cuyo derecho a pensión dependiere que no desempeñaren actividad lucrativa alguna, carecieran de bienes que produzcan rentas y no percibieren jubilación, pensión, retiro o prestación no contributiva, desde que se reintegraren a una actividad remunerada, perciban rentas provenientes de bienes propios, o volvieren a percibir jubilación, pensión, retiro o prestación no contributiva.
+
+
+
+El derecho al haber pensionario se suspende cuando dejare de percibirse por tres (3) meses consecutivos.
+
+
+
+TÍTULO V
+
+
+
+DISPOSICIONES GENERALES Y TRANSITORIAS
+
+
+
+ARTÍCULO 66.- Los afiliados que hubieren desempeñado servicios en los distintos regímenes comprendidos en la reciprocidad jubilatoria, solo podrán obtener una prestación única considerando la totalidad de los servicios prestados.
+
+
+
+Invocada la reciprocidad jubilatoria, el afiliado no podrá servirse de un período de actividad en un sólo régimen previsional y hacer reserva de otro.
+
+
+
+La omisión incurrida importa la privación de computar posteriormente dichos servicios y en su caso no impide rever la asunción del rol de Caja otorgante. (*)
+
+
+
+(*) A partir del artículo siguiente, se concreta nueva renumeración, en virtud de la incorporación de los artículos 60 bis, 60 ter y 60 quáter, operado mediante Ley 10423.
+
+
+
+ARTÍCULO 67.- (Texto según Ley 13524). En el sistema jubilatorio será otorgante de la prestación, aquella a la que corresponda el mayor tiempo con aporte. En este mismo supuesto, si se acreditare igual tiempo con aportes en el régimen de dos o más cajas, el agente podrá optar por solicitar el beneficio en cualquiera de ellas.
+
+
+
+A los efectos del presente artículo, el tiempo con aportes acreditados en las diferentes Cajas correspondientes al Sistema Nacional, se sumará como si perteneciera a una misma Caja.
+
+
+
+Exceptúase de lo dispuesto en los párrafos anteriores, los beneficios de jubilación por incapacidad y pensión por fallecimiento en actividad, resultando en estos supuestos caja otorgante de la prestación, esta jurisdicción previsional provincial en el caso que encontrare afiliado a la misma al momento de producirse la incapacidad o el deceso respectivamente.
+
+
+
+ARTÍCULO 68.- DEROGADO POR LEY 13524. La norma del artículo anterior no regirá en relación a los afiliados a otras Cajas Nacionales o Provinciales de Previsión que hubieran sido transferidas al ámbito del Instituto de Previsión Social por una norma provincial o nacional.
+
+
+
+En estos casos los agentes que se encuentren en actividad a la fecha de operarse la transferencia y continúen prestando servicios a la fecha de sanción de la presente disposición podrán solicitar el beneficio de jubilación ordinaria en los términos de la presente Ley, cuando acrediten:
+
+
+
+a) Los requisitos del artículo 24 del Decreto-Ley 9650/80.
+
+
+
+b) Dos (2) años de servicios con aportes al Instituto de Previsión Social, desempeñados con posterioridad al cumplimiento de lo requerido en el inciso a) del presente artículo. En ningún caso se exigirá más de diez (10) años con aportes al régimen provincial.
+
+
+
+c) Haber cumplido con el pago establecido a los efectos del cumplimiento del requisito de diez (10) años con aportes a este régimen, a que se refiere el artículo siguiente.
+
+
+
+ARTÍCULO 69.- DEROGADO POR LEY 13524. El pago de los aportes a que se refiere el inciso c) del artículo anterior se efectuará de la siguiente forma:
+
+
+
+a) El cálculo de la deuda se determinará tomando como base la cantidad de meses con aportes que le faltarán para cumplir los diez (10) años exigidos al momento en que cumpla los requisitos de los incisos a) y b) del artículo anterior.
+
+
+
+b) Cada mes de aporte será equivalente al quince por ciento (15%) del sueldo mínimo del Agrupamiento del Estatuto o Escalafón al que perteneciera, de acuerdo al Presupuesto vigente al momento de efectuarse cada pago.
+
+
+
+c) La suma resultante podrá ser abonada al contado o en la cantidad de cuotas que solicite el afiliado; debiendo estar todas íntegramente canceladas dentro de los cuarenta y ocho (48) meses posteriores a la fecha en que tenga derecho al beneficio.
+
+
+
+d) Si hubiera cuotas que se devengaren con posterioridad al otorgamiento del beneficio, los importes serán descontados mensualmente del haber jubilatorio, debiendo el beneficiario prestar su conformidad expresa con tal retribución al momento de acogerse a la opción que establece este artículo.
+
+
+
+e) El importe de cada cuota estará determinado por la cantidad de meses que el solicitante opte abonar en cada una en función a la cantidad de meses que se adeuden y al tiempo que deberá transcurrir entre el acogimiento y la fecha de vencimiento del plazo máximo de cancelación establecido en el inciso c) de este artículo. En ningún caso el importe de la cuota podrá ser inferior a un mes de aporte, calculado conforme al inciso b) de este artículo.
+
+
+
+El plazo para efectuar la opción que acuerda este artículo no podrá exceder de ciento ochenta (180) días contados a partir de la fecha de promulgación de la presente Ley. (*)
+
+
+
+La reglamentación determinará la forma de implementación de la presente Ley. (*)
+
+
+
+(*) Párrafos de carácter transitorio, incorporados al artículo, que se mantienen en virtud de las disposiciones del Decreto-Ley 10073/83, que limita la confección de textos ordenados.
+
+
+
+ARTÍCULO 70.- En caso de petición de prestaciones de acuerdo con lo establecido en los convenios internacionales que sobre la cobertura de riesgos de invalidez, vejez y muerte haya suscripto el Gobierno Nacional con otros países, el Instituto de Previsión Social dictará, de acuerdo con lo prescripto en dichos convenios, la resolución pertinente y, de así corresponder, abonarán la prorrata resultante.
+
+
+
+ARTÍCULO 71.- El Instituto de Previsión Social no otorgará prestaciones jubilatorias hasta tanto no se acredite el cese definitivo del agente en el desempeño de sus funciones. No obstante dará curso a las solicitudes de reconocimientos de servicios en cualquier momento en que sean presentadas sin exigir que se justifique la iniciación del trámite jubilatorio.
+
+
+
+Los servicios prestados con anterioridad a la vigencia de esta Ley, serán reconocidos y computados de conformidad con las disposiciones de la presente. (*)
+
+
+
+(*) A partir del artículo siguiente, se concreta nueva renumeración, en virtud de la incorporación de artículo 62 bis, operado mediante Decreto-Ley 10053/83.
+
+
+
+ARTÍCULO 72.- (Texto según Decreto-Ley 10053/83). Sin perjuicio de lo establecido en el artículo anterior, cuando el afiliado reuniere los requisitos para obtener el beneficio, podrá optar, en el momento de la solicitud para que el cómputo se cierre a esa fecha, aunque no hubiere cesado en la actividad. Esta opción es irrevocable y los servicios prestados entre la fecha de solicitud y la de cese no darán derecho a reajuste o transformación alguna.
+
+
+
+ARTÍCULO 73.- Se regulará por las normas de la Ley de Procedimientos Administrativos vigente en la Provincia, las actuaciones que se promuevan para obtener una decisión o prestación del Instituto de Previsión Social. (*)
+
+
+
+(*) A partir del artículo siguiente, se concreta nueva renumeración, en virtud de la incorporación del artículo 63 bis, operada por Ley 11249.
+
+
+
+ARTÍCULO 74.- (Texto según Ley 11249). Contra las resoluciones del Instituto, los interesados podrán interponer recurso de revocatoria dentro del plazo de veinte (20) días.
+
+
+
+Las notificaciones de las Resoluciones que denieguen total o parcialmente el beneficio previsional, deberán contener la transcripción íntegra del primer párrafo de este artículo, bajo pena de nulidad.
+
+
+
+ARTÍCULO 75.- La solicitud de reapertura del procedimiento en actuaciones en las que hubiera recaído resolución judicial o administrativa firme, no procederá cuando la misma se fundare exclusivamente en cuestiones de derecho o en jurisprudencia o interpretación legal, judicial o administrativa anterior o posterior a la resolución recaída.
+
+
+
+ARTÍCULO 76.- El titular del Instituto de Previsión Social requerirá con carácter previo a la resolución de las prestaciones que otorgue, dictamen de la Asesoría General de Gobierno y vista del Fiscal de Estado a quien solamente le serán notificadas las resoluciones que se aparten o estén en oposición a dicha vista.
+
+
+
+La observación del Fiscal de Estado se sustanciará como Recurso de Apelación.
+
+
+
+ARTÍCULO 77.- Los afiliados que al 31 de diciembre del 1980 acrediten los recaudos para obtener jubilación ordinaria en los términos de la Ley vigente a dicha fecha, habrán adquirido el beneficio aún cuando continúen en actividad, sin que sea necesario acto expreso de reconocimiento de su derecho. En todos los casos, para hacer efectivo el derecho jubilatorio adquirido, el afiliado deberá acreditar el cese definitivo en el desempeño de sus tareas, fecha a partir de la cual percibirá el beneficio.
+
+
+
+Igual derecho tendrán los jubilados a reajustar la prestación, cuando habiendo vuelto a la actividad y cumpliendo en esta un período mínimo de tres (3) años, reúnan al 31 de diciembre de 1980 las exigencias para obtener la jubilación ordinaria.
+
+
+
+El haber de la prestación se determinará según las normas de la Ley 8587 y resultará de aplicar uno de los siguientes porcentajes sobre la remuneración mensual asignada al cargo que corresponda:
+
+
+
+a) 70% si el afiliado al momento de cesar no excediera en tres (3) años como mínimo el tiempo de servicios a partir del 1º de enero de 1981.
+
+
+
+b) 75% si el afiliado al momento de cesar excediera en tres (3) años como mínimo el tiempo de servicios a partir del 1º de enero de 1981 en tareas de afiliación al Instituto de Previsión Social.
+
+
+
+c) 80% si el afiliado al momento de cesar excediera en cinco (5) años o más el tiempo de servicios a partir del 1º de enero de 1981, en tareas de afiliación al Instituto de Previsión Social.
+
+
+
+ARTÍCULO 78.- Los afiliados que al 31 de diciembre de 1980 tengan uno, dos o tres años de edad menos que los exigidos por la Ley 8587 para obtener jubilación ordinaria, tendrán derecho a la prestación jubilatoria, con cuatro, tres o dos años de edad menos, respectivamente, que las establecidas por la presente Ley, siempre que acrediten la antigüedad requerida por aquélla.
+
+
+
+El haber de la prestación se determinará según las normas de la presente Ley y resultará de aplicar uno de los siguientes porcentajes sobre la remuneración mensual asignada al cargo que corresponda:
+
+
+
+a) 70% si a ese momento de cesar los afiliados no excedieran en tres (3) años como mínimo las edades establecidas en este artículo para acceder a la prestación.
+
+
+
+b) 75% si a ese momento excedieran en tres (3) o más dichas edades, y hubieran continuado en tareas de afiliación al Instituto de Previsión Social.
+
+
+
+c) 80% si a ese momento excedieran en cinco (5) años o más dichas edades y hubieran continuado en tareas de afiliación al Instituto de Previsión Social.
+
+
+
+ARTÍCULO 79.- Las disposiciones de la presente Ley serán de aplicación a partir del 1º de enero de 1981, fecha desde la cual quedarán derogados los artículos 15 a 117 de la Ley 8587 y las Leyes 8886, 8978, 9259, 9340, 9494 y toda otra norma legal que se oponga a la presente, excepto a los fines previstos por el artículo 66 de esta Ley y el artículo 1° de la Ley Nº 9154, modificado por la Ley 9299, el que mantendrá su vigencia hasta el 30 de junio de 1981. (*)
+
+
+
+(*) En virtud de tratarse de una disposición transitoria, se entiende correcto el mantenimiento de la numeración original del artículo 66.
+
+
+
+ARTÍCULO 80.- Cúmplase, comuníquese, publíquese, dése al Registro y “Boletín Oficial” y archívese.

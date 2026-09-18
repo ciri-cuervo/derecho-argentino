@@ -1,6 +1,8 @@
 # Societario · lo que se cruza con el reclamo de un tercero
 
-> Módulo de referencia de la skill `derecho-argentino`. Numeración global, sección 31.
+> Módulo de referencia de la skill `derecho-argentino`. Numeración global: las remisiones cruzadas
+> entre módulos siguen siendo válidas. **Rigen las reglas de integridad de la sección 2 del
+> SKILL.md.**
 
 ---
 
@@ -12,7 +14,7 @@ cuyo articulado de la Sección IV es **texto según la Ley 26.994**, vigente des
 
 Este módulo **no cubre el derecho societario**: cubre lo que aparece cuando el que reclama es un
 tercero —un trabajador, un consumidor, un proveedor— y hay que decidir **contra quién se
-demanda**. Para el resto rige el ruteo de `otras-ramas.md` sección 19, **con su advertencia**.
+demanda**. Para el resto rige el ruteo de `perfiles-heredados.md` sección 19, **con su advertencia**.
 
 ### 31.1 La sociedad no inscripta ya no genera solidaridad por sí sola
 
@@ -84,7 +86,46 @@ debe traer las ganancias a la sociedad y **las pérdidas son de su cuenta exclus
 > porque el empleador sea una sociedad pequeña. Un escrito que la pida como consecuencia
 > automática del trabajo no registrado está saltándose los presupuestos del artículo.
 
-`[INSERTAR FALLO VERIFICADO: alcance del art. 54 tercer párrafo de la Ley 19.550 frente al trabajo no registrado - aportar carátula, sala, fuero y año. No hay fallo cargado en fuentes/]`
+**SCBA, causa L. 121.085, "Barreto, Omar José contra Eleprint S.A. y otro/a. Despido",
+31/08/2020.** Voto de Genoud, con la adhesión de de Lázzari y Pettigiani y la concurrencia de
+Kogan. Revoca la extensión de condena a los socios. **Es doctrina legal de la Corte provincial**,
+no un fallo aislado: reitera la de `"Ávila"` (L. 81.550, 31/08/2005), `"Cortina"` (L. 85.741,
+25/04/2007) y `"Ahmed"` (L. 100.124, 04/05/2011), que a su vez siguen a la CSJN en `"Palomeque"`
+(03/04/2003) y `"Tazzoli"` (04/07/2003).
+
+**La regla.** Se **"inhibe la aplicación indiscriminada de la desestimación de la personalidad
+jurídica del ente societario, en aquellos casos en que sólo se comprueba la falta o irregular
+registración de los datos relativos al empleo"**. La inoponibilidad es una sanción para cuando la
+sociedad **se constituye en un recurso** para violar la ley, el orden público o la buena fe, y no
+alcanza a la entidad regularmente constituida que, en su actividad social, comete actos ilegales
+que la ley laboral ya sanciona: ahí **no se usa a la sociedad como instrumento**.
+
+**El argumento de fondo es de elección de herramienta, y sirve para contestar el escrito que pide
+la extensión de oficio.** El legislador ya dictó normas específicas contra el trabajo en negro
+—las Leyes 24.013, 25.323 y 25.345 agravan la indemnización, con denuncia al fisco—, así que **"no
+corresponde -so pretexto de apoyar la protección contra este flagelo- desbordar la gama de los
+legitimados pasivos de las pretensiones indemnizatorias mediante una hermenéutica que desconozca
+los alcances del texto legal"**.
+
+**Pero la puerta no queda cerrada, y esto es lo que hay que alegar.** El propio fallo aclara que
+esto **"no importa negar la posibilidad de imputar diversas actividades de la sociedad a los
+socios o controlantes (art. 54), o extender la responsabilidad a los directores de la entidad
+(art. 274), cuando en el caso sean alegados y demostrados sus presupuestos de aplicación"**. Lo
+que se rechaza es la extensión **automática**, no la extensión probada.
+
+**Hay una posición minoritaria y conviene conocerla antes de invocarla.** Kogan sostiene —y
+reitera de `"Cockshott"` (L. 100.212, 19/12/2012)— que el pago sin registrar **"va más allá de un
+simple incumplimiento legal, es un ardid destinado a ocultar hechos y conductas"** que perjudica
+al trabajador, al sistema previsional y a la competencia. **Vota igual con la mayoría**, y dice por
+qué: su posición es minoritaria y el art. 31 bis de la Ley 5.827 manda procurar la unidad de la
+jurisprudencia. Es decir que **hoy en la SCBA esa tesis no prospera**, aunque esté escrita.
+
+*Cómo se usa.* Del lado del demandado, es la doctrina legal que se cita para resistir la extensión
+pedida sólo por la registración irregular, y su violación abre el recurso de inaplicabilidad de
+ley. Del lado del actor, marca qué hay que **alegar y probar** además del pago en negro: el
+supuesto del art. 54 tercer párrafo con sus presupuestos, o el art. 274 contra los directores.
+
+`[INSERTAR FALLO VERIFICADO: "Barreto" resuelve el supuesto laboral por la negativa; no hay precedente bajado que APLIQUE el art. 54 tercer párrafo, es decir uno donde los presupuestos se hayan tenido por probados, ni sobre la responsabilidad de los directores del art. 274 - aportar carátula, sala, fuero y año]`
 
 **Contralor individual (art. 55).** Los socios pueden **examinar los libros y papeles sociales** y
 recabar del administrador los informes que estimen pertinentes.
@@ -117,6 +158,103 @@ de administradores **debe inscribirse** en los registros correspondientes e inco
 y **publicarse** cuando se trate de SRL o sociedad por acciones. Es lo que se verifica para saber
 **quién administraba en la fecha del hecho**, y suele decidir contra quién se dirige la demanda.
 
+### 31.3 bis Cooperativas — no son sociedades comerciales y eso decide el planteo
+
+**Ley 20.337**, cotejada contra `fuentes/normas/ley-20337.txt`. Lo primero es no tratarlas por la
+Ley 19.550: son un tipo propio, y varias reglas de 31.1 a 31.3 **no se les trasladan**.
+
+**Los caracteres del art. 2 que cambian la estrategia.** Capital **variable** y duración
+ilimitada; **sin límite estatutario** al número de asociados ni al capital; y **un solo voto por
+asociado** cualquiera sea su capital. La última hace inaplicable todo razonamiento construido
+sobre mayorías de capital, incluida buena parte de la discusión de control del art. 33 LGS.
+
+**El art. 6 es terminante y se pasa por alto:** las cooperativas **no pueden transformarse** en
+sociedades comerciales ni en asociaciones civiles, y *"es nula toda resolución en contrario"*. No
+hay vía de transformación: lo que hay es disolución.
+
+**El capital no es transable (art. 24).** Se integra en **cuotas sociales indivisibles y de igual
+valor**, representadas en **acciones nominativas**, y sólo pueden transferirse **entre asociados y
+con acuerdo del consejo de administración**. Una cesión a un tercero no produce el efecto que
+produciría en una SRL o una SA.
+
+**Los excedentes no son utilidades (art. 42).** Repartible es sólo lo que provenga *"de la
+diferencia entre el costo y el precio del servicio prestado a los asociados"*, y antes de repartir
+van **5% a reserva legal** y **5% al fondo de acción asistencial y laboral**. Reclamar "dividendos"
+de una cooperativa es reclamar otra cosa.
+
+**Receso por cambio de objeto (art. 60).** El cambio sustancial del objeto da derecho a receso:
+**cinco días** para quien no votó favorablemente y **treinta días desde la clausura de la asamblea**
+para los ausentes. Son dos plazos distintos y se cuentan desde hechos distintos.
+
+**Y el régimen sancionatorio es administrativo (art. 101):** apercibimiento, multa y las demás
+sanciones que el artículo enumera, aplicadas por la autoridad de control.
+
+`[VERIFICAR VIGENCIA]` Los montos de multa del art. 101 están **en pesos nominales** y por eso
+envejecen: no se citan como vigentes sin confirmar su actualización.
+
+`[REVISIÓN NORMATIVA REQUERIDA: este módulo recorre los arts. 2, 6, 7, 24, 42, 60 y 101 de la Ley 20.337. El órgano de administración y fiscalización, la asamblea, la integración cooperativa, la disolución y el régimen de la autoridad de aplicación NO están recorridos, y la reglamentación no está bajada]`
+
+### 31.3 ter Sociedades con oferta pública — Ley 26.831, y los plazos que se pierden
+
+Cotejada contra `fuentes/normas/ley-26831.txt`. Una sociedad que hace oferta pública queda además
+bajo este régimen, con **autoridad, tipos y recursos propios** que no están en la Ley 19.550.
+
+**La CNV concentra todo (art. 19):** es autoridad de aplicación y contralor, y **supervisa, regula,
+inspecciona, fiscaliza y sanciona** *"en forma directa e inmediata"* a las personas humanas y
+jurídicas alcanzadas. Frente a un conflicto societario en una emisora, hay un regulador con
+potestad sancionatoria propia además del juez.
+
+**El art. 117 es el que aparece en los expedientes.** Tipifica el **abuso de información
+privilegiada**, y su alcance subjetivo es más ancho de lo que suele citarse: directores, miembros
+del órgano de fiscalización, accionistas, representantes de accionistas **y todo el que por su
+trabajo, profesión o función** dentro de una emisora o entidad registrada acceda a esa
+información, **por sí o por persona interpuesta**.
+
+**Y los plazos de recurso son cortos y distintos entre sí:**
+
+| Qué se recurre | Plazo | Dónde se interpone |
+| --- | --- | --- |
+| **Sanciones** (art. 145) | **diez (10) días hábiles** de notificado el acto | ante la **propia CNV**, interpuesto **y fundado** |
+| **Denegación de inscripción** (art. 146) | **treinta (30) días hábiles** de notificada | ante la **propia CNV**, fundado |
+
+**Se interponen ante el órgano que dictó el acto, no ante el tribunal**, y ya fundados: un recurso
+presentado en la mesa equivocada o sin fundar en ese plazo se pierde.
+
+> **El régimen se reescribió en 2018.** La **Ley 27.440 (B.O. 11/05/2018)** sustituyó numerosos
+> artículos —entre ellos los de definiciones y atribuciones—, así que doctrina anterior a esa
+> fecha describe otro texto. Las notas están en el consolidado bajado.
+
+`[REVISIÓN NORMATIVA REQUERIDA: este módulo recorre los arts. 1, 2, 19, 117, 145 y 146 de la Ley 26.831. El régimen de oferta pública, los agentes registrados, la transparencia y el procedimiento sancionatorio completo NO están recorridos, y las normas de la CNV no están bajadas]`
+
+### 31.3 quater Asociaciones mutuales — Ley 20.321
+
+**Gemela de las cooperativas de 31.3 bis**, y por las mismas razones se confunden: las dos son sin
+fin de lucro, las dos tienen autoridad de aplicación en el **INAES**, y ninguna se rige por la Ley
+19.550.
+
+**Qué son (art. 2).** Asociaciones *"constituidas libremente sin fines de lucro por personas
+inspiradas en la solidaridad, con el objeto de brindarse ayuda recíproca frente a riesgos
+eventuales o de concurrir a su bienestar material y espiritual, mediante una contribución
+periódica"*. La **contribución periódica** es el elemento que las distingue del resto de las
+asociaciones civiles.
+
+**Cuándo nace la personalidad, que es lo que se pregunta en un pleito (art. 3).** Deben inscribirse
+en el **Registro Nacional de Mutualidades**, y **es la inscripción** la que acuerda el carácter de
+sujeto de derecho. Si se deniega, el recurso va a la **Cámara Nacional de Apelaciones en lo Civil**
+—no al fuero comercial ni al contencioso administrativo—.
+
+**Qué pueden prestar (art. 4).** Asistencia médica y farmacéutica, subsidios, **préstamos**,
+**seguros**, construcción y compraventa de viviendas, entre otras, financiadas con la contribución
+o el ahorro de los asociados o cualquier otro recurso lícito. De ahí salen los dos frentes donde
+aparecen en la práctica: el **crédito mutual** y la **cobertura de salud**.
+
+> **El art. 3 remite al «Código Civil» y al «Instituto Nacional de Acción Mutual»**, que son el
+> código derogado y el organismo que precedió al INAES. El texto actualizado conserva esas
+> referencias, y traducirlas al leer es parte del trabajo.
+> [REVISIÓN NORMATIVA REQUERIDA: Ley 20.321 - el articulado conserva referencias al Código Civil derogado y al Instituto Nacional de Acción Mutual; verificar el régimen vigente del INAES antes de citar la autoridad de aplicación]
+
+`[REVISIÓN NORMATIVA REQUERIDA: este módulo recorre los arts. 1 a 4 de la Ley 20.321. Los órganos, la fiscalización, el régimen de sanciones y la liquidación NO están recorridos, y la reglamentación del INAES no está bajada]`
+
 ### 31.4 Antes de decidir contra quién se demanda
 
 1. **Qué tipo social es**, y si está inscripta. Si cae en la Sección IV, **la regla es la
@@ -137,4 +275,4 @@ y **publicarse** cuando se trate de SRL o sociedad por acciones. Es lo que se ve
 > **Lo que este módulo no cubre:** la constitución y los tipos sociales, el régimen de aportes,
 > las asambleas y su impugnación, la transformación, fusión y escisión, la disolución y
 > liquidación, y las sociedades anónimas unipersonales. Para eso rige el ruteo de
-> `otras-ramas.md` sección 19, **con su advertencia**.
+> `perfiles-heredados.md` sección 19, **con su advertencia**.
