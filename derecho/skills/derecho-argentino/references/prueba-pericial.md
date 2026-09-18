@@ -1,8 +1,8 @@
 # Prueba pericial · designación, control y valoración
 
-> Módulo de referencia de la skill `derecho-argentino`. La numeración de secciones es global y
-> se mantiene igual que en el SKILL.md original: las remisiones cruzadas entre módulos siguen siendo
-> válidas. Las reglas de integridad de la sección 2 rigen acá también.
+> Módulo de referencia de la skill `derecho-argentino`. Numeración global: las remisiones cruzadas
+> entre módulos siguen siendo válidas. **Rigen las reglas de integridad de la sección 2 del
+> SKILL.md.**
 
 ---
 

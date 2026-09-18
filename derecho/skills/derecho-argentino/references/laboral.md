@@ -1,8 +1,8 @@
 # Laboral · fondo, régimen aplicable, intereses y liquidación
 
-> Módulo de referencia de la skill `derecho-argentino`. La numeración de secciones es global y
-> se mantiene igual que en el SKILL.md original: las remisiones cruzadas entre módulos siguen siendo
-> válidas. Las reglas de integridad de la sección 2 rigen acá también.
+> Módulo de referencia de la skill `derecho-argentino`. Numeración global: las remisiones cruzadas
+> entre módulos siguen siendo válidas. **Rigen las reglas de integridad de la sección 2 del
+> SKILL.md.**
 
 ---
 
@@ -83,7 +83,7 @@ por las normas comunes.
 > civiles por el despido, la vía quedó cerrada por la ley salvo ilícito penal, de modo que
 > sostenerla exige planteo constitucional, no sólo invocación de los arts. 1716 y ss. CCyCN.
 
-`[REVISIÓN NORMATIVA REQUERIDA: estado constitucional de los tres últimos párrafos del art. 245 LCT según texto del art. 51 Ley 27.802 - la exclusividad reparatoria y la extinción de acciones civiles por percepción son el nucleo de los planteos pendientes]`
+`[REVISIÓN NORMATIVA REQUERIDA: estado constitucional de los tres últimos párrafos del art. 245 LCT según texto del art. 51 Ley 27.802 - la exclusividad reparatoria y la extinción de acciones civiles por percepción son el núcleo de los planteos pendientes]`
 `[INSERTAR FALLO VERIFICADO: constitucionalidad de la exclusividad reparatoria del art. 245 LCT texto Ley 27.802 - aportar sala, fuero y año]`
 
 **Sustitución por fondo o sistema de cese (mismo art. 245).** El propio artículo habilita dos
@@ -158,7 +158,35 @@ escribir como si estuviera resuelta en ningún sentido. Un escrito que pida rein
 que decir por qué la Ley 23.592 no quedó desplazada; uno que la niegue de plano, por qué el
 art. 245 bis derogaría tácitamente una ley general de actos discriminatorios.
 
-`[INSERTAR FALLO VERIFICADO: subsistencia de la acción de nulidad y reinstalación de la Ley 23.592 frente al último párrafo del art. 245 bis LCT texto Ley 27.742 - aportar carátula, sala, fuero y año]`
+**Lo que sí está cargado es el punto de partida, y conviene tenerlo a mano.**
+
+**SCBA, causa L. 120.413, "Villalba, Enrique Fernando contra Kraft Foods Argentina S.A.
+Reinstalación (sumarísimo)", 27/02/2019.** Bajado de JUBA. El Tribunal del Trabajo n° 6 de San
+Isidro había declarado nulo el despido de un delegado de hecho, **ordenando reincorporarlo, pagarle
+los salarios caídos hasta la efectiva reinstalación y el daño moral**. Recurrió **la empleadora**,
+y la Corte **le rechazó el recurso**: la reinstalación quedó firme.
+
+**El holding.** *"Lo realmente privilegiado por la norma bajo análisis es la prevención y la
+nulificación del acto discriminatorio"*, de modo que, siendo el acto un despido, la privación de
+efectos **"debe traducirse necesariamente en la nulidad de la decisión extintiva y la consecuente
+reinstalación de la víctima en su puesto de trabajo cuando [...] el damnificado así lo solicita"**.
+Y la libertad de comerciar y el derecho de propiedad **no se pueden invocar para amparar una
+conducta discriminatoria**, porque ningún derecho constitucional es absoluto.
+
+**Cuidado al citarlo: se dictó por MAYORÍA DE FUNDAMENTOS y el párrafo más útil no es de todos.**
+El que dice que el art. 1 de la Ley 23.592 **"no es portadora de una incompatibilidad que torne
+imposible conciliarla con el régimen de protección contra el despido arbitrario"** —el argumento
+que más sirve para el escrito que pide reinstalación— es el **segundo párrafo del punto III.2.c
+del voto de Negri**, y **Pettigiani adhiere expresamente con excepción de ese párrafo**. Kogan sí
+lo acompaña; Genoud adhiere sólo a la solución, remitiendo a su voto en L. 97.804; Soria vota por
+su cuenta, apoyado en la CSJN en `"Álvarez c/ Cencosud"`, y de Lázzari lo sigue. **Dos de seis
+firman esa frase.** Lo unánime es el rechazo del recurso y que la Ley 23.592 se aplica a las
+relaciones de trabajo.
+
+**Y es anterior a la reforma.** Es de 2019: **no dice nada sobre el art. 245 bis**, que no existía.
+Sirve para saber qué habría que desplazar, no para sostener que no se desplazó.
+
+`[INSERTAR FALLO VERIFICADO: subsistencia de la acción de nulidad y reinstalación de la Ley 23.592 frente al último párrafo del art. 245 bis LCT texto Ley 27.742 - lo cargado es la doctrina PREVIA a la reforma; JUBA no indexa todavía ningún sumario que confronte los dos textos - aportar carátula, sala, fuero y año]`
 
 **Las dos listas de motivos no coinciden, y esto sí se puede usar hoy.**
 
@@ -542,7 +570,21 @@ que discute la validez del decreto: es materia abierta.
 evalúan conjuntamente— y edad, por tabla de rangos. No se suman en puntos de incapacidad: su
 suma opera como **incremento porcentual sobre el valor de la lesión**.
 
-    [VERIFICAR MONTO ACTUALIZADO: valores de los factores de ponderación y topes - Anexo I del Decreto 549/2025; en InfoLEG las tablas están publicadas como imágenes y no se pudieron transcribir]
+    [VERIFICAR MONTO ACTUALIZADO: valores de los factores de ponderación - las tablas del Anexo I del Decreto 549/2025 son imágenes en InfoLEG y el texto bajado no las trae]
+
+> **Qué hay y qué falta del baremo, medido.** `fuentes/normas/decreto-659-1996.txt` trae el Anexo I
+> sustituido por el Decreto 549/2025 **entero en prosa**: generalidades, metodología de capacidad
+> restante, y los porcentajes que el texto enuncia en línea —*"Amputación interescapulotorácica:
+> 66%"*, *"Desarticulación Coxofemoral: 70%"*—. **Lo que no está son las tablas.** Donde el anexo
+> dice *"deberá determinarse utilizando la siguiente tabla"*, el texto sigue con el título
+> siguiente: esa tabla es una imagen y la extracción la descarta. Afecta a los dos factores de
+> ponderación y a las tablas de mensura por capítulo.
+>
+> **Y no se resuelve con OCR.** Es texto numérico sin idioma que lo respalde: un `33` leído `38` es
+> un número válido y ningún control lo marca. La medida está en el repositorio — de las **25
+> correcciones** que dejó el cotejo página por página de "Fiorentino", **14 cambian dígitos**, y una
+> convirtió `art. 6°` en `art. 62`—. Un baremo leído así cambia un porcentaje de incapacidad en
+> silencio, y eso es peor que no tenerlo: **los valores se piden o se marcan.**
 
 **Enfermedades.** El listado es el del Decreto 658/96 con las incorporaciones del **Decreto
 49/2014**. Las **no listadas** siguen la vía del **art. 6 ap. 2 inc. b LRT**: petición fundada
@@ -643,7 +685,7 @@ otras vías si el damnificado considera insuficiente lo percibido. **No consta s
 **Regla operativa:** no afirmar sin más que la opción es irrevocable. Decir qué dice la ley,
 qué resolvió la SCBA y que la CSJN no se pronunció, y marcar:
 
-    [VERIFICAR PRECEDENTE: "Vera" (SCBA, L. 124.807, 11/05/2021) - confirmar si la CSJN se pronuncio en CSJ 2221/2021/CS1 después del dictamen del 09/11/2023. El alcance -parrafos 2 y 3 del art. 4, texto anterior a la Ley 27.348- ya está verificado]
+    [VERIFICAR PRECEDENTE: "Vera" (SCBA, L. 124.807, 11/05/2021) - confirmar si la CSJN se pronunció en CSJ 2221/2021/CS1 después del dictamen del 09/11/2023. El alcance -párrafos 2 y 3 del art. 4, texto anterior a la Ley 27.348- ya está verificado]
 
 **Prescripción:** art. 44 LRT, dos años. No confundir con el art. 256 LCT (5.6).
 
@@ -673,8 +715,20 @@ que se hace en sede judicial. El orden importa: varios rubros se calculan sobre 
 **Paso 0 — Datos que hay que tener antes de calcular.** Si falta alguno, no calcular: emitir
 el marcador y pedirlo.
 
+Y antes del paso 0, la pregunta previa a todas: **¿rige la LCT?** El **art. 2 inc. a** excluye a
+los dependientes de la Administración Pública nacional, provincial, de la CABA y municipal,
+salvo **acto expreso de inclusión** en la LCT o en un convenio colectivo que los comprenda. Un
+docente provincial se rige por su estatuto —en PBA, la **Ley 10.579**—, un empleado de la
+administración bonaerense por la **Ley 10.430**, y la competencia suele ser contencioso
+administrativa: ver `perfiles-heredados.md` y `contencioso-pba.md` sección 26. Ahí no se liquidan los
+arts. 245 y siguientes, y `scripts/liquidacion_lct.py` corta con código 2 ante
+`--empleador publico` en vez de devolver un total. El motivo del corte es que **el error no se
+ve en el resultado**: la liquidación sale con sus rubros, su articulado y su total, bajo una ley
+que no rige el caso.
+
 | Dato | Marcador si falta |
 | --- | --- |
+| **Quién era el empleador** | `[VACÍO PROBATORIO: naturaleza del empleador - la LCT no rige el empleo público (art. 2 inc. a) y esta liquidación se hizo suponiendo empleo privado; confirmarlo antes de usarla]` |
 | Fecha de ingreso | `[VACÍO PROBATORIO: fecha de ingreso - determina la antigüedad y el multiplicador del art. 245]` |
 | Fecha del acto extintivo | `[VACÍO PROBATORIO: fecha del acto extintivo - determina el tramo de reforma aplicable, ver 5.1]` |
 | Modo de extinción y quién lo dispuso | `[VACÍO PROBATORIO: modo de extinción - determina qué rubros proceden]` |
@@ -751,8 +805,8 @@ se verifica antes de usarlo.
 | Licencias especiales (art. 158 LCT) | `kb/perfiles/laboral-CLAUDE.md` § Licencias especiales |
 | Certificados de trabajo (art. 80 LCT) | `kb/perfiles/laboral-CLAUDE.md` § Certificados de trabajo |
 | Riesgos del trabajo | 5.8 de este módulo, y `kb/perfiles/laboral-CLAUDE.md` § Accidentes y enfermedades |
-| Convenios colectivos (Ley 14.250) | **5.17** de este módulo. Absorbido: ya no se rutea al perfil |
-| Asociaciones sindicales, tutela y conflicto colectivo | **5.18** de este módulo. Absorbido: ya no se rutea al perfil |
+| Convenios colectivos (Ley 14.250) | **`laboral-colectivo.md` 5.17**. Absorbido: ya no se rutea al perfil |
+| Asociaciones sindicales, tutela y conflicto colectivo | **`laboral-colectivo.md` 5.18**. Absorbido: ya no se rutea al perfil |
 | Proceso laboral nacional (Ley 18.345) | 5.9 de este módulo, y `kb/perfiles/laboral-CLAUDE.md` § Proceso laboral |
 | **Perspectiva del empleador** | `kb/perfiles/laboral-CLAUDE.md` § Módulo empleador |
 
@@ -767,7 +821,7 @@ módulo.
 | § Códigos por fuero · PBA: *"Código procesal: Ley 11.653 (Código Procesal Laboral PBA) y modificatorias"*, sin mencionar la Ley 15.057 | **Incompleto para media cartera.** El art. 88 de la Ley 15.057 derogó la 11.653, y la Res. SC 1840/2024 la puso operativa para las causas **sin** audiencia de vista celebrada; las anteriores siguen bajo la 11.653 por ultraactividad. Ninguno de los dos códigos rige solo: hay que preguntar la fecha de la audiencia antes de citar un artículo procesal. Rige `sede-judicial-pba.md` 1.6.1 |
 | § Accidentes: la opción del art. 4 Ley 26.773 es *"excluyente e irrevocable"*, sin matiz | La SCBA la declaró inconstitucional en **"Vera"** (L. 124.807, 11/05/2021). Ver 5.8.6 |
 | § Accidentes: *"Plazo para impugnar la resolución de la Comisión Médica: 15 días"*, como si fuera de la Ley 27.348 | Son del **art. 16 Res. SRT 298/2017** y hábiles **administrativos**; y en PBA la revisión es acción ordinaria del art. 2 inc. j Ley 15.057, con la caducidad de 90 días declarada inconstitucional en **"Magliano"** (L. 131.700). Ver 5.8.1 y 5.8.2 |
-| § Accidentes: baremo del Decreto 658/96 *"actualizado por Decreto 49/2014"* | Ignora el **Decreto 549/2025**, que sustituyó íntegramente el Anexo I con vigencia 02/02/2026. Ver 5.8.3. Tampoco tiene el ingreso base del art. 12 según Decreto 669/2019 (5.8.4) |
+| § Accidentes: baremo del Decreto 658/96 *"actualizado por Decreto 49/2014"* | **Confunde dos decretos del mismo día.** El **658/96** es el LISTADO de enfermedades profesionales; el baremo —Tabla de Evaluación de Incapacidades Laborales— es el **659/96**. Y su Anexo I fue sustituido íntegramente por el **Decreto 549/2025**, con vigencia 02/02/2026. Ver 5.8.3. Tampoco tiene el ingreso base del art. 12 según Decreto 669/2019 (5.8.4) |
 
 Telegramas y cartas documento: `kb/escritos/laboral/telegrama/` — ocho bloques de modelos, más
 `kb/escritos/laboral/telegrama/reglas-normativas.md` y `kb/escritos/laboral/telegrama/tipos-de-telegrama.md`. Ver `modelos.md` sección 23.
@@ -1023,7 +1077,7 @@ El SMVM no es sólo un piso remuneratorio: **es la unidad de cuenta de varios to
 por el repositorio, y por eso el cuadro vive acá una sola vez y los demás módulos remiten. Lo
 usan el tope de cada pago individual del pronto pago concursal —cuatro SMVM, `concursos.md` 29—,
 el tope de la compensación del art. 183 inc. b) —un SMVM por año de servicio, 5.13— y la
-competencia del fuero nacional de consumo que nunca arrancó —55 SMVM, `consumidor.md` 22—.
+competencia del fuero nacional de consumo que nunca arrancó —55 SMVM, `consumidor.md` 17.3—.
 
 Fijado por la **Res. 4/2026 del CNEPySMVyM** (B.O. 02/09/2026), cotejado contra
 `fuentes/normas/res-cnepysmvym-4-2026.txt`. Son **ocho tramos**, cada uno con su fecha de
@@ -1555,376 +1609,153 @@ encuadre no es este módulo.
 
 ---
 
-### 5.17 Derecho colectivo — convenios colectivos (Ley 14.250)
+### 5.17 bis Régimen de Incentivo a la Formalización Laboral (RIFL)
 
-Articulado de la Ley 14.250 cotejado contra `fuentes/normas/ley-14250.txt` —texto actualizado
-de argentina.gob.ar, SHA-256 `af5efe2f…`, descargado en septiembre de 2026—. **La Ley 27.802 rehizo
-buena parte de esta ley**: sustituyó los arts. 4, 6, 7, 9, 13, 18 y 19 y derogó los arts. 10,
-16 y 21, todo con vigencia del 06/03/2026 y la ventana cautelar de 5.1.
+Cotejado contra `fuentes/normas/ley-27802.txt` Título XX, `fuentes/normas/decreto-315-2026.txt` y
+`fuentes/normas/rg-arca-5844-2026.txt`.
 
-Lo que sigue cubre el **convenio colectivo** —la Ley 14.250— y el **procedimiento para
-negociarlo** —la Ley 23.546, en 5.17.6—. La **ley sindical**, que es otra cosa, está en
-**5.18**: representación, tutela y conflicto colectivo bajo la Ley 23.551 con el texto de los
-arts. 50 y 52 según la Ley 27.802.
+**Es el régimen por el que se registra a un trabajador con contribuciones patronales reducidas**, y
+aparece en toda negociación de regularización desde 2026. Tiene tres capas y hay que leer las tres:
+el Título XX de la Ley 27.802 lo crea, el **Decreto 315/2026** lo reglamenta y la **RG ARCA
+5844/2026** fija procedimiento, formas y plazos.
 
-**Son tres leyes y se confunden entre sí.** La 14.250 dice qué es un convenio y a quién
-alcanza; la 23.546 cómo se llega a él; la 23.551 quién representa a los trabajadores y qué
-protección tiene. Un planteo de tutela sindical no se funda en la 14.250 por más que el
-delegado esté comprendido en el convenio.
+**Quiénes y cuándo (art. 2 de la RG):** empleadores del sector privado comprendidos en el art. 156
+de la Ley 27.802, **por cada nuevo trabajador incorporado entre el 1 de mayo de 2026 y el 30 de
+abril de 2027**, siempre que el trabajador encuadre en alguno de los supuestos de la ley.
 
-#### 5.17.1 Qué es un CCT y a quién alcanza (arts. 1, 3, 4 y 5)
+**Qué se considera nueva incorporación (art. 1 del Decreto 315/2026):** las relaciones laborales
+que **se inicien y se registren** ante ARCA en los términos que el decreto fija. Y el art. 2 del
+decreto habilita a quienes adquirieron el carácter de empleador inscripto **desde el 10 de
+diciembre de 2025**.
 
-Se rigen por esta ley las convenciones celebradas entre una asociación profesional de
-empleadores, un empleador o un grupo de empleadores, y una **asociación sindical con personería
-gremial**. Quedan excluidos los trabajadores de las Leyes 23.929 y 24.185, que tienen régimen
-convencional propio.
+**El beneficio y su duración (art. 5 de la RG):** la reducción de alícuotas del art. 159 de la Ley
+27.802 se aplica **desde el período fiscal de inicio de la relación y por los 47 períodos fiscales
+siguientes**, mientras la relación se mantenga vigente. O sea **cuarenta y ocho períodos en total**,
+y contarlos como cuarenta y siete es el error de cálculo típico.
 
-**Contenido formal obligatorio (art. 3).** Por escrito, con lugar y fecha, nombre de los
-intervinientes y acreditación de personerías, actividades y categorías comprendidas, zona de
-aplicación, período de vigencia y materias objeto de la negociación.
+**Y decae (art. 8 de la RG):** el incumplimiento de las obligaciones del Título XX, o las
+situaciones del art. 160 de la ley, **producen el decaimiento del beneficio**. Antes de aconsejar
+una regularización por esta vía hay que mirar qué hace decaer el beneficio, porque la contingencia
+vuelve entera.
 
-**Efecto erga omnes y homologación (art. 4, texto Ley 27.802).** Las normas de las convenciones
-**homologadas por la Secretaría de Trabajo, Empleo y Seguridad Social** del Ministerio de
-Capital Humano rigen respecto de **todos** los trabajadores de la actividad, la región o la
-categoría del ámbito respectivo, **sean o no afiliados** a las asociaciones signatarias.
-Presupuesto esencial de la homologación: que la convención **no contenga cláusulas violatorias
-de normas de orden público ni que afecten el interés general**.
+`[VERIFICAR VIGENCIA: la ventana de incorporaciones del RIFL va del 01/05/2026 al 30/04/2027 según el art. 2 de la RG ARCA 5844/2026, y el régimen depende del estado constitucional de la Ley 27.802 que este módulo señala en 5.1. Confirmar ambas cosas a la fecha de la consulta antes de aconsejar una registración por esta vía]`
 
-> **Distinción que la reforma vuelve operativa.** Los CCT **de empresa o de grupo de empresas**
-> se presentan ante la autoridad de aplicación **para su registro, publicación y depósito**, y
-> **sólo podrán ser homologados a pedido de parte**. Registro y homologación dejaron de ser lo
-> mismo: antes de afirmar que un convenio de empresa es oponible erga omnes hay que saber cuál
-> de los dos actos se dictó.
+### 5.17 quater Trabajo agrario — Ley 26.727, y por qué no se resuelve con la LCT sola
 
-**Vigencia (art. 5).** Rigen **a partir de la fecha del acto administrativo** que resuelve la
-homologación o el registro, según el caso. Publicación por el Ministerio dentro de los 10 días;
-vencido ese plazo, la publicación por cualquiera de las partes en la forma que fije la
-reglamentación **surte los mismos efectos legales** que la oficial.
+Cotejada contra `fuentes/normas/ley-26727.txt`. **Es un estatuto especial, no una exclusión.**
+Ahí está la diferencia con el empleo público de 5.1: el art. 2 inc. b manda aplicar la **Ley
+20.744** *"en todo lo que resulte compatible y no se oponga al régimen jurídico específico"*. O
+sea que la LCT **sí rige**, supletoriamente, y lo que hay que verificar en cada instituto es si la
+26.727 dispuso otra cosa.
 
-#### 5.17.2 Ultraactividad (art. 6, texto Ley 27.802)
+**A quién alcanza y a quién no.** Hay contrato de trabajo agrario cuando se prestan servicios **en
+el ámbito rural** para tareas propias de la actividad agraria (art. 11). El **art. 3** excluye al
+personal afectado *"exclusiva o principalmente a actividades industriales, comerciales, turísticas,
+de transporte o servicios"* **aunque trabaje en un establecimiento mixto agrario-industrial**, y a
+quien fue contratado para tareas ajenas a la actividad agraria. **La discusión de encuadre es
+fáctica**: qué hacía la persona, no qué figura el establecimiento.
 
-Vencido el término de un CCT, **solamente** mantienen subsistencia las **cláusulas normativas**
-—condiciones y beneficios individuales directos del trabajo y beneficios otorgados al
-trabajador— y **hasta tanto** entre en vigencia una nueva convención o exista acuerdo de partes
-que la prorrogue. El resto, las **cláusulas obligacionales**, mantienen vigencia **sólo por
-acuerdo de partes**.
+**Dos modalidades, y la segunda tiene una indemnización propia.**
 
-Esto es lo que hay que decir, y no más. En 5.4 ya está la advertencia de no describir la
-reforma como el fin liso y llano de la ultraactividad: los arts. 10, 16 y 21 fueron derogados,
-pero el art. 6 **mantiene vivas** las normativas. El punto es discutible y
-la contraria lo va a discutir; lo que no es discutible es la distinción normativa/obligacional,
-que ahora decide el resultado y que conviene tener hecha por escrito antes de la audiencia.
+| | **Permanente de prestación continua (art. 16)** | **Temporario (art. 17)** |
+| --- | --- | --- |
+| Cuándo | **Es la regla**: se presume, salvo los casos que la ley prevé expresamente | Necesidades **cíclicas o estacionales**, procesos temporales, **ferias y remates de hacienda**, y tareas ocasionales, accidentales o supletorias |
+| Extinción | Por el **Título XII de la LCT** | Concluye con la tarea |
 
-**Renegociación (art. 11).** Vencido el término, o dentro de los **60 días anteriores** al
-vencimiento, el Ministerio **debe**, a solicitud de cualquiera de las partes, disponer la
-iniciación de las negociaciones para una nueva convención.
+**El art. 20 es el que más se pasa por alto.** Al concluir la relación, el trabajador temporario
+debe percibir, **además del SAC proporcional**, una **indemnización sustitutiva de vacaciones
+equivalente al diez por ciento (10%) del total de las remuneraciones devengadas**. No es el
+régimen de vacaciones de la LCT: es un porcentaje sobre lo devengado, y se liquida siempre.
 
-#### 5.17.3 Relación con la ley y con el contrato individual (arts. 7 y 8)
+**Solidaridad (art. 12, texto Ley 27.802).** Los trabajadores son **empleados directos de quien
+registre la relación**, y **la empresa usuaria responde solidariamente** por las obligaciones
+laborales y de la seguridad social. Es la vía para el trabajo provisto por terceros, frecuente en
+cosecha.
 
-- **Art. 7 (texto Ley 27.802).** Las disposiciones del CCT deben ajustarse a las normas legales
-  que rigen las instituciones del derecho del trabajo, **a menos que** las cláusulas
-  relacionadas con cada una de esas instituciones resulten **más favorables** conforme las
-  pautas del **art. 9 LCT** —el agrupamiento por instituciones de 5.4 y 5.16.3—, y siempre que
-  no afecten disposiciones dictadas en protección del interés general. La remisión expresa al
-  art. 9 es nueva y ata la comparación al criterio reformado.
-- **Art. 8.** Las normas del CCT homologado son de **cumplimiento obligatorio** y no pueden ser
-  modificadas por los contratos individuales **en perjuicio** del trabajador. Y a la inversa: la
-  aplicación del CCT **no puede afectar las condiciones más favorables estipuladas en el
-  contrato individual**.
+> **El régimen se movió dos veces y es lo primero que hay que mirar.** De la **Ley 26.727**, la
+> **Ley 27.802 (B.O. 06/03/2026)** derogó el **art. 13**, el **art. 18** y el **art. 21**, y dio
+> texto nuevo al **art. 12**, al **art. 16**, al **art. 17**, al **art. 32** y al **art. 34**; la
+> **Ley 27.742 (B.O. 08/07/2024)** derogó el **art. 15** y sustituyó el **art. 69**. **Toda
+> doctrina anterior a marzo de 2026 sobre este régimen se escribió sobre otros artículos**, y un
+> escrito que cite un artículo derogado se cae solo. Las notas de cada uno están en el consolidado
+> bajado.
 
-> Ese segundo párrafo del art. 8 conviene tenerlo a mano junto con 5.16.2: el art. 12 LCT
-> vigente ya no menciona los contratos individuales, pero el art. 8 de la Ley 14.250 sigue
-> protegiendo la condición individual más favorable frente al convenio. Son dos normas
-> distintas con dos ámbitos distintos, y la segunda no suple a la primera.
+**La remuneración no sale de un mínimo legal (art. 32, texto Ley 27.802):** se acuerda por
+negociación colectiva conforme las Leyes 14.250 y 23.546, **con homologación posterior**. Sin
+acuerdo vigente para la actividad, se aplican las generales.
 
-#### 5.17.4 Topes a los aportes convencionales (art. 9, texto Ley 27.802)
+`[REVISIÓN NORMATIVA REQUERIDA: este módulo recorre el Título I -ámbito y fuentes-, el III -modalidades- y los arts. 12, 20 y 32. Los Títulos IV a XIII -vivienda y alimentación, jornada, licencias, trabajo adolescente, seguridad social y los órganos tripartitos, incluido el RENATRE- NO están recorridos, y ahí viven obligaciones propias del empleador rural]`
 
-| Destinatario | Tope sobre las remuneraciones |
+### 5.17 ter Inclusión laboral travesti, transexual y transgénero — Ley 27.636
+
+Cotejada contra `fuentes/normas/ley-27636.txt`. **Es acción positiva, no sólo antidiscriminación**,
+y tiene un tramo que rige al sector privado aunque el cupo sea estatal.
+
+**El cupo es del Estado (art. 5).** Alcanza a *"los tres poderes que lo integran, los Ministerios
+Públicos, los organismos descentralizados o autárquicos, los entes públicos no estatales, las
+empresas y sociedades del Estado"*, que deben ocupar **no menos del uno por ciento (1%)** de su
+personal con personas travestis, transexuales y transgénero, en todas las modalidades de
+contratación. El desarrollo del lado del empleo público está en `empleo-publico.md` 49.5.2.
+
+**Dos reglas que se aplican al ingreso y se alegan poco:**
+
+- **La terminalidad educativa no puede ser obstáculo (art. 6).** Si la persona no completó su
+  educación en los términos del art. 16 de la Ley 26.206, eso **no puede impedir el ingreso ni la
+  permanencia**: hay que permitir su ingreso y facilitar la terminación.
+- **Los antecedentes contravencionales no se valoran (art. 7).** *"A fin de garantizar el ingreso y
+  permanencia en el empleo no podrán ser valorados los antecedentes contravencionales"*. Es la
+  regla que responde a la persecución contravencional histórica de este colectivo, y en un
+  expediente sirve tanto para atacar una no contratación como un despido.
+
+**El art. 7 también enuncia el derecho** *"al trabajo formal digno y productivo, a condiciones
+equitativas y satisfactorias de trabajo y a la protección contra el desempleo, sin discriminación
+por motivos de identidad de género y/o su expresión"*.
+
+> **Cómo se combina con lo que ya está en este módulo.** Un despido por identidad de género
+> discutido bajo la **Ley 23.592** —5.2 bis.1— tiene acá un refuerzo normativo específico, y la
+> identidad registral se rige por la **Ley 26.743**, desarrollada en `civil.md` 6.1 bis. Son tres
+> normas distintas y conviene no fundirlas en una sola cita.
+
+**La reglamentación está bajada, y son DOS decretos que se confunden.** Cotejados contra
+`fuentes/normas/decreto-721-2020.txt` y `fuentes/normas/decreto-659-2021.txt`:
+
+| Norma | Qué es |
 | --- | --- |
-| Cámaras, asociaciones, agrupaciones o personas jurídicas integradas total o parcialmente por empleadores, o con órganos directivos integrados por representantes de los empleadores, por cualquier concepto y denominación, en beneficio directo o indirecto | **0,5 %** |
-| Asociaciones de trabajadores, por contribuciones y aportes válidos para afiliados **o no afiliados** comprendidos en el ámbito del convenio | **2 %** |
+| **Decreto 721/2020** (03/09/2020) | **Anterior a la ley.** Fijó el cupo del 1% **por decreto** para el Sector Público Nacional del art. 8 de la Ley 24.156, con **reservas de puestos** y reserva de las vacantes que dejen quienes ingresaron por ese régimen. Su art. 2 aclara que alcanza a las personas **hayan o no** hecho la rectificación registral del art. 3 de la Ley 26.743, y su art. 1 in fine que cumplirlo **nunca puede implicar el cese de relaciones laborales existentes** |
+| **Decreto 659/2021** (B.O. 28/09/2021) | **Es la reglamentación de la Ley 27.636.** OJO con el número: no confundir con el Decreto 659 de **1996**, que es el baremo |
 
-Quedan **excluidas** del segundo tope las cuotas de afiliación sindical y las cláusulas que
-acuerden otros beneficios especiales en función de la afiliación.
+**Lo que la reglamentación efectivamente reglamenta es poco, y eso importa.** Su Anexo I dice
+*"Sin reglamentar"* en la mayoría de los artículos. Los cuatro que sí traen contenido:
 
-Es un tope legal nuevo y concreto: una cláusula convencional que lo supere es el tipo de cosa
-que se detecta leyendo el recibo, y se conecta con los rubros no remunerativos de 5.10.
+- **Art. 5** — define **entes públicos no estatales** por remisión al **inc. c del art. 8 de la
+  Ley 24.156**, que es lo que fija a quién alcanza el cupo.
+- **Art. 10** — **desempate en contrataciones del Estado**: ante ofertas empatadas se prioriza a la
+  empresa que tenga personas travestis, transexuales y transgénero en su planta, y entre varias, a
+  la de **mayor porcentaje**; hay que **acreditar fehacientemente** el vínculo laboral y su cantidad.
+- **Art. 17** — incorpora la **Secretaría de Gestión y Empleo Público** a la Unidad de Coordinación
+  Interministerial.
+- **Art. 23** — los sujetos obligados deben **informar los avances** a la autoridad de aplicación: el
+  primer informe a los **90 días corridos** de la vigencia de la reglamentación, y después **cada 90
+  días durante dos años** desde la sanción de la ley.
 
-#### 5.17.5 Ámbitos, articulación y prelación (arts. 13 a 20)
+Y el **Registro** del art. 6 del Decreto 721/2020 pasó a llamarse *"Registro Único de Aspirantes
+Travestis, Transexuales y/o Transgénero - Diana Sacayán - Lohana Berkins"* (art. 3 del 659/2021).
 
-**Comisiones paritarias (arts. 13 a 15).** El CCT **puede** prever su constitución, con igual
-número de representantes de cada parte y las atribuciones que el propio convenio fije. El art.
-14 las faculta para: interpretar con alcance general la convención; intervenir en controversias
-individuales o plurindividuales por aplicación de normas convencionales **cuando las partes del
-convenio lo acuerden**; intervenir en un conflicto colectivo de intereses **cuando ambas partes
-lo acuerden**; y clasificar tareas nuevas o reclasificar las modificadas por innovaciones
-tecnológicas u organizativas, quedando esas decisiones **incorporadas al convenio**. Si el CCT
-no prevé la comisión, cualquiera de las partes puede pedir al Ministerio que constituya una,
-pero **sólo con la atribución del inc. a)** —interpretación—.
-
-**Representación en el CCT de empresa (art. 17).** A cargo del sindicato con personería gremial
-que los comprenda, integrada además con delegados del personal, en número que no exceda el del
-art. 45 de la Ley 23.551 y **hasta un máximo de cuatro**, cualquiera sea la cantidad de
-trabajadores comprendidos.
-
-**Articulación y prelación (arts. 18 y 19, texto Ley 27.802).** Acá está el cambio de fondo:
-
-- Los convenios de **ámbito mayor no pueden modificar ni disponer el contenido** de los de
-  ámbito menor.
-- Un convenio colectivo **posterior** modifica en cualquier sentido a uno **anterior de igual
-  ámbito**.
-- Un convenio de **ámbito menor prevalece**, dentro de su ámbito personal y territorial, frente
-  a uno de ámbito mayor, **anterior o posterior**.
-
-La regla de prelación ya no depende de cuál se firmó después ni de que el de ámbito mayor lo
-autorice: el de ámbito menor gana dentro de su ámbito. Antes de sostener que rige el convenio
-de actividad sobre uno de empresa, hay que pasar por el art. 19 inc. b).
-
-**Empresa en crisis (art. 20).** La exclusión de una empresa en crisis del convenio que le sea
-aplicable **sólo** puede hacerse por acuerdo entre el empleador y **las partes signatarias** del
-convenio, en el marco del **procedimiento preventivo de crisis** del Título III, Capítulo VI de
-la Ley 24.013, y **por un lapso temporal determinado**. Sin acuerdo de los signatarios, sin PPC
-o sin plazo, no hay exclusión válida.
-
-#### 5.17.6 Procedimiento de la negociación colectiva (Ley 23.546)
-
-Cotejado contra `fuentes/normas/ley-23546.txt` (t.o. 2004). La asociación sindical o la
-representación de empleadores que **promueve** la negociación la notifica **por escrito** a la
-otra parte, con copia a la autoridad administrativa, indicando **representación que inviste,
-alcance personal y territorial** de la convención pretendida y **materia a negociar** (art. 2).
-
-Quien recibe esa comunicación **está obligado a responderla** y a designar sus representantes
-(art. 3). La comisión negociadora se constituye **dentro de los 15 días** de recibida la
-notificación (art. 4), y los plazos de esta ley se computan en **días hábiles
-administrativos** (art. 8).
-
-**Quién negocia según el nivel (art. 4):** por empresa o por región, el o los sindicatos de
-primer grado o de empresa **con personería gremial** en el ámbito pretendido —y esa regla es
-**de orden público**, de modo que un estatuto de la entidad de segundo o primer grado que se le
-oponga no vale—; por actividad, la Federación u organización gremial de primer grado con
-alcance nacional según su personería. La representación sindical debe integrarse respetando la
-**Ley 25.674** (cupo). Se puede concurrir con asesores técnicos **con voz y sin voto**.
-
-**Deber de negociar de buena fe (art. 4 inc. a).** No es una cláusula de estilo: la ley lo
-define por cuatro conductas exigibles —concurrir a las reuniones acordadas o fijadas por la
-autoridad; designar negociadores **con mandato suficiente**; **intercambiar la información**
-necesaria para una discusión fundada, incluyendo obligatoriamente la relativa a la
-distribución de los beneficios de la productividad, la situación del empleo y su evolución
-previsible; y realizar **esfuerzos conducentes** a lograr acuerdos—.
-
-En la negociación **de empresa** el intercambio alcanza además a la situación económica de la
-empresa y del sector, el **costo laboral unitario**, causales e indicadores de **ausentismo**,
-innovaciones tecnológicas y organizacionales previstas, organización y distribución del tiempo
-de trabajo, **siniestralidad** y medidas de prevención, y planes de formación profesional. Un
-pedido de información sobre esos ítems tiene norma expresa detrás; negarlo es lo que arma el
-planteo de práctica desleal de 5.18.4.
-
-De lo ocurrido se labra **acta resumida** y los acuerdos se adoptan con el consentimiento de
-los sectores representados (art. 5). La homologación o registro corresponde a la **Secretaría
-de Trabajo** (art. 6). **En los diferendos que se susciten durante la negociación se aplica la
-Ley 14.786** (art. 7), que está en 5.18.5.
+`[REVISIÓN NORMATIVA REQUERIDA: la autoridad de aplicación del art. 2 del Decreto 659/2021 era el Ministerio de las Mujeres, Géneros y Diversidad, que fue disuelto. Verificar qué organismo la ejerce hoy y si el plazo de informes del art. 23 sigue vigente]`
 
 ---
 
-### 5.18 Asociaciones sindicales, tutela y conflicto colectivo
+### 5.19 Lo que este módulo NO hace
 
-Articulado cotejado contra `fuentes/normas/ley-23551.txt` (texto actualizado de
-argentina.gob.ar), su **Decreto reglamentario 467/1988** y `fuentes/normas/ley-14786.txt`.
-
-**La Ley 27.802 sustituyó los arts. 50 y 52** —por sus arts. 143 y 144, B.O. 06/03/2026, con la
-ventana cautelar de 5.1— y **restringió la tutela de manera sustancial**. Los arts. 40, 41, 45
-a 49, 51 y 53 a 55 conservan el texto anterior.
-
-> **Contradicción nominada.** `kb/perfiles/laboral-CLAUDE.md` § Derecho colectivo describe la
-> tutela de los arts. 47 a 52 **sin el texto vigente**: dice que el delegado despedido sin
-> exclusión previa "puede optar entre la reinstalación o la indemnización agravada", sin
-> mencionar que desde el 06/03/2026 la tutela **no alcanza a los suplentes**, que los congresales
-> están limitados en número y en tiempo, y que la indemnización del candidato no electo **no es
-> acumulable con el art. 245 bis LCT**. Es una descripción pre-reforma presentada como vigente.
-
-#### 5.18.1 Quién está representado y por quién (arts. 40, 41, 45 y 49)
-
-Los **delegados del personal**, comisiones internas y organismos similares representan, en el
-lugar de trabajo: **a los trabajadores** ante el empleador, ante la autoridad administrativa
-cuando actúa de oficio en el establecimiento y ante la asociación sindical; y **a la asociación
-sindical** ante el empleador y el trabajador (art. 40).
-
-**Requisitos para ser delegado (art. 41):** estar **afiliado** a la asociación con personería
-gremial y ser **elegido en comicios** convocados por ella, en el lugar de prestación y en horas
-de trabajo, por **voto directo y secreto**; **antigüedad mínima de un año en la afiliación**;
-**18 años** de edad como mínimo y estar al servicio de la empresa **durante todo el año
-aniversario anterior** a la elección. Si no hay entidad con personería gremial respecto de ese
-empleador, la función puede cumplirla un afiliado a una **simplemente inscripta**. La
-antigüedad en el empleo no se exige en **establecimientos de reciente instalación**, ni cuando
-la relación empieza y termina con la obra o el servicio contratado, ni en **contrato de
-temporada**.
-
-**Cuántos (art. 45), a falta de norma convencional:**
-
-| Trabajadores en el establecimiento | Representantes |
-| --- | --- |
-| 10 a 50 | 1 |
-| 51 a 100 | 2 |
-| 101 en adelante | 2 más **uno por cada 100** que excedan de 100 |
-
-Con más de un turno, **un delegado por turno como mínimo**. Con tres o más representantes, el
-cuerpo funciona como **colegiado**. Es el número al que remite el art. 17 de la Ley 14.250 para
-integrar la comisión negociadora de un CCT de empresa, con tope de cuatro (5.17.5).
-
-**Para que la garantía surta efecto (art. 49)** hacen falta dos cosas y las dos se prueban: que
-la **designación** se haya hecho cumpliendo los recaudos legales, y que haya sido **comunicada
-al empleador**, comunicación que **se prueba por telegrama, carta documento u otra forma
-escrita**. Sin comunicación acreditada no hay tutela que oponer.
-
-#### 5.18.2 Tutela sindical — el texto vigente (arts. 48, 50, 51 y 52)
-
-**Licencia gremial y reserva del puesto (art. 48).** Quien por ocupar cargos electivos o
-representativos en asociaciones con personería gremial, en organismos con representación
-gremial o en cargos políticos deja de prestar servicios, tiene **licencia automática sin goce
-de haberes**, **reserva del puesto** y derecho a **reincorporarse**, y **no puede ser despedido
-durante un año a partir de la cesación del mandato**, salvo justa causa. El tiempo de desempeño
-se computa **como período de trabajo a todos los efectos, excepto para el promedio de
-remuneraciones** — dato que cambia la base del art. 245.
-
-Los **representantes en la empresa** electos conforme al art. 41 siguen prestando servicios y
-no pueden ser suspendidos, ver modificadas sus condiciones ni ser despedidos **durante el
-mandato y hasta un año más**, salvo justa causa.
-
-**Candidatos (art. 50, texto Ley 27.802).** Desde la **notificación fehaciente al empleador de
-la postulación** y por **seis meses**, el trabajador no puede ser despedido ni suspendido sin
-justa causa ni ver modificadas sus condiciones, **salvo reorganización total del establecimiento
-o sector**. La protección **cesa** si la postulación no se oficializa según el procedimiento
-electoral —desde que esa falta se determina definitivamente— **o si el candidato obtuvo menos
-del cinco por ciento (5%) de los votos válidos emitidos**. La asociación debe comunicar al
-empleador el nombre de los postulantes; los candidatos también pueden hacerlo.
-
-> Ese **5%** es nuevo y opera hacia atrás: un candidato protegido durante la campaña puede
-> perder la garantía **después** de la elección, por el resultado. Antes de evaluar un despido
-> posterior al comicio hay que mirar el escrutinio.
-
-**Límite del art. 51.** La estabilidad **no puede invocarse** en casos de **cesación de
-actividades** del establecimiento o **suspensión general** de tareas. Y cuando, sin ser
-suspensión general, se reduce personal por suspensiones o despidos atendiendo al **orden de
-antigüedades**, los amparados **se excluyen de ese orden**.
-
-**Exclusión de tutela (art. 52, texto Ley 27.802).** Los amparados por los arts. 40, 48 y 50 no
-pueden ser suspendidos, despedidos ni ver modificadas sus condiciones **si no media resolución
-judicial previa que los excluya de la garantía**, por el procedimiento del art. 47. A pedido del
-empleador, el juez **dentro de los cinco días** puede disponer, **como medida cautelar**, la
-suspensión de la prestación laboral cuando la permanencia pudiera ocasionar **peligro potencial**
-para la seguridad de las personas o bienes de la empresa o para su funcionamiento normal.
-
-**A quién alcanza ahora la tutela — el recorte de la reforma:**
-
-| Alcanzado | Detalle |
-| --- | --- |
-| Delegados o representantes gremiales **legalmente electos que ocupen cargos de titulares** | sí |
-| **Congresales titulares** | hasta **dos** en grandes empresas y **uno** en pymes de la Ley 24.467; **sólo durante el tiempo en que asistan al congreso**, notificando al empleador la fecha de **inicio y conclusión** |
-| **Suplentes** | **no les es aplicable la tutela** |
-
-**Qué puede pedir el afectado.** Violadas las garantías, tiene derecho a demandar **por vía
-sumarísima** la **reinstalación** con más los **salarios caídos durante la tramitación**, o el
-**restablecimiento de las condiciones de trabajo**. Decidida la reinstalación, contra el
-empleador que no cumpla la decisión firme el juez puede aplicar el **art. 804 CCyCN**
-—astreintes— **durante el período de vigencia de la tutela**.
-
-**O la opción por el despido indirecto**, con dos cuantías distintas:
-
-| Quién | Además de las indemnizaciones por despido |
-| --- | --- |
-| Delegado de personal o titular en la entidad con personería representativa | las remuneraciones del **tiempo faltante del mandato** **y del año de estabilidad posterior** |
-| **Candidato no electo** | las remuneraciones **del período de tutela aún no agotado** **más un (1) año** de remuneraciones, **no acumulables** con el art. 245 bis LCT |
-
-**Prescripción.** La promoción de las acciones de reinstalación o de restablecimiento
-**interrumpe** la prescripción de las acciones por cobro de indemnización y salarios caídos, y
-el curso **comienza recién cuando recae pronunciamiento firme**. Es una regla que salva
-créditos que de otro modo se perderían mientras tramita la reinstalación.
-
-**La salida del empleador sin despedir.** Puede **liberar de prestar servicios** al amparado
-por los arts. 40, 48 o 50, y entonces debe: comunicarlo **dentro de las 48 horas hábiles** al
-Ministerio de Capital Humano; **mantener todos los deberes** que la ley o el CCT le imponen por
-la relación; y, **dentro del plazo de caducidad de diez días de ocurridos los hechos** en que
-funda su decisión, promover **acción declarativa** para que se comprueben los motivos fundados
-del **art. 78 LCT** o, en su caso, requerir la **exclusión de la garantía**. Los diez días son
-de **caducidad**: vencidos, esa vía se cierra.
-
-#### 5.18.3 Amparo sindical (art. 47)
-
-Todo trabajador **o asociación sindical** impedido u obstaculizado en el ejercicio regular de
-los derechos de libertad sindical puede recabar amparo ante el tribunal competente **por el
-procedimiento sumarísimo del art. 498 CPCCN o su equivalente provincial**, para que se disponga
-**el cese inmediato del comportamiento antisindical**. En PBA el equivalente procesal y el fuero
-se resuelven según 1.6 de `sede-judicial-pba.md`.
-
-Es la misma vía por la que tramita la exclusión de tutela del art. 52, y la legitimación incluye
-a la entidad, no sólo al trabajador.
-
-#### 5.18.4 Prácticas desleales (arts. 53 a 55)
-
-El art. 53 enumera las conductas del empleador o de las asociaciones que lo representen —entre
-ellas **subvencionar directa o indirectamente** a una asociación sindical de trabajadores e
-**intervenir o interferir** en su constitución, funcionamiento o administración—.
-
-**Sanción (art. 55).** Multas según el **Régimen General de Sanciones por Infracciones
-Laborales** del Anexo II de la **Ley 25.212**, con tres agravamientos propios: en prácticas
-**múltiples o reincidencia** la multa puede elevarse **hasta el quíntuplo** del máximo de la
-25.212; el juez puede fijarla hasta un máximo del **20% de los ingresos por cuotas sindicales**
-del mes de la infracción; y los importes **se actualizan** a la fecha de pago con las pautas de
-los créditos laborales. Si la práctica podía repararse cesando la medida y el infractor la
-mantiene, el importe **se incrementa automáticamente un 10% por cada cinco días de mora**.
-
-**Anexo II cotejado** (`fuentes/normas/ley-25212.txt`): es el *"Régimen General de Sanciones por Infracciones Laborales"*. Los tres agravamientos de arriba no están ahí sino en el **art. 55 de la Ley 23.551**, que remite a la 25.212 *"y sus modificatorias"* para el máximo.
-
-`[VERIFICAR MONTO ACTUALIZADO: topes del Anexo II de la Ley 25.212 y su actualización a la fecha del reclamo]`
-
-#### 5.18.5 Conciliación obligatoria previa (Ley 14.786)
-
-Es la instancia que hay que agotar **antes** de cualquier medida de acción directa, y su
-incumplimiento tiene consecuencias patrimoniales concretas.
-
-- **Art. 2.** Suscitado un conflicto sin solución entre las partes, cualquiera de ellas
-  **deberá, antes de recurrir a medidas de acción directa**, comunicarlo a la autoridad
-  administrativa para formalizar la instancia obligatoria de conciliación.
-- **Art. 8.** Antes de someter el diferendo a conciliación y mientras corran los plazos del art.
-  11, **las partes no pueden adoptar medidas de acción directa**.
-- **Art. 11.** Desde que la autoridad toma conocimiento hasta que pone fin a la gestión
-  conciliatoria **no puede mediar un plazo mayor de quince días**, prorrogable **por cinco más**
-  si el conciliador prevé la posibilidad de acuerdo.
-- **Art. 10.** La autoridad puede disponer que **el estado de cosas se retrotraiga** al
-  existente antes del acto o hecho que determinó el conflicto, con vigencia durante el plazo del
-  art. 11.
-
-**La sanción del art. 9, que es la que importa del lado del empleador.** Si la medida adoptada
-por el empleador consistió en el **cierre del establecimiento, la suspensión o rescisión de uno
-o más contratos, o cambios en las condiciones de trabajo**, el incumplimiento de la intimación
-del art. 8 da a los trabajadores derecho a **percibir la remuneración que les habría
-correspondido si la medida no se hubiera adoptado**, sin perjuicio de la multa por trabajador
-afectado. No es una multa administrativa que cobre el Estado: es un **crédito salarial de cada
-trabajador**, exigible en el fuero del trabajo.
-
-`[VERIFICAR MONTO ACTUALIZADO: multa por trabajador afectado del art. 9 de la Ley 14.786, cuyo texto conserva importes en pesos de 1959]`
-
-**Arbitraje voluntario (arts. 4 a 7).** Rechazada la fórmula conciliatoria, el mediador invita a
-someter la cuestión a **arbitraje**; si no se acepta, **se da a publicidad un informe** con las
-causas del conflicto, el resumen de las negociaciones, la fórmula propuesta y quién la propuso,
-aceptó o rechazó. Aceptado, la **sentencia arbitral** se dicta en **10 días hábiles**, tiene
-**vigencia mínima de 6 meses**, sólo admite **recurso de nulidad** por haberse laudado fuera de
-las cuestiones comprendidas o del término convenido, y **tiene los mismos efectos que un CCT de
-la Ley 14.250**.
-
-**Alcance (arts. 12 a 14).** La gestión conciliatoria puede usarse también en **conflictos
-colectivos de derecho**, como instancia previa **voluntaria** a las comisiones paritarias del
-art. 14 de la Ley 14.250, sin impedir su intervención ulterior. La **concurrencia ante la
-autoridad es obligatoria** y la incomparecencia injustificada se sanciona. La ley **no se aplica**
-a las actividades regidas por las Leyes 12.713 y 13.020, ni afecta el derecho de las partes a
-**acordar procedimientos distintos** de conciliación y arbitraje — de ahí que haya que mirar el
-CCT antes de asumir el procedimiento legal.
-
-#### 5.18.6 Lo que sigue fuera de este módulo
-
-El **derecho de huelga** del art. 14 bis CN, la calificación de **servicios esenciales** y las
-guardias mínimas no están cubiertos: dependen de normas que no están en `fuentes/normas/`.
-Para la **injuria durante una medida de acción directa** —bloqueos, tomas, presunciones y la
-intimación previa que agregó la Ley 27.742— el encuadre es el **art. 242 LCT**, en 5.12.3.
-
-`[REVISIÓN NORMATIVA REQUERIDA: régimen de servicios esenciales y guardias mínimas - no hay norma consolidada en fuentes/]`
+- **No trae el derecho colectivo.** Convenio, paritaria, encuadramiento, tutela sindical y
+  medidas de acción directa están en `laboral-colectivo.md`.
+- **No cubre al empleado público**, que por el art. 2 inc. a LCT queda afuera salvo acto expreso
+  de inclusión: `empleo-publico.md`.
+- **No es el módulo de proceso.** Desde el órgano, `sede-judicial.md` y —sólo en PBA—
+  `sede-judicial-pba.md`; desde la parte, `parte.md`. El cómputo de cualquier plazo, `plazos.md`.
+- **No redacta el intercambio telegráfico**, que tiene reglas propias de orden y plazo:
+  `telegramas.md`, **antes** que el modelo.
+- **No calcula.** La liquidación la hace `scripts/liquidacion_lct.py` y los intereses
+  `scripts/intereses.py`, con los valores que el usuario aporta. Este módulo dice qué rubro entra
+  y bajo qué régimen; el número sale del script.
+- **No trae montos.** Tope del art. 245, SMVM, topes de la LRT y tasas van con su marcador.

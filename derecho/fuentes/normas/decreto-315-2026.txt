@@ -1,14 +1,14 @@
 Decreto 315/2026 - Reglamentación del Título XX de la Ley 27.802 (Régimen de Incentivo a la Formalización Laboral)
 ==============================================================================
-Jurisdiccion:     nacional
+Jurisdicción:     nacional
 Fuente:           https://servicios.infoleg.gob.ar/infolegInternet/anexos/425000-429999/425374/norma.htm
-Descargado:       2026-09-15
+Descargado:       2026-09-17
 SHA-256 (crudo):  d6e1287a3814a4444600e6787022701a92618d3ab61597f0f5c164df727380d5
 Charset:          ISO-8859-1
 
-Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
-NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
-Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
 el manifiesto `normas.json`.
 ==============================================================================
 

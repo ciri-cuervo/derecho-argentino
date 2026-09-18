@@ -1,5 +1,5 @@
 ---
-titulo: Violencia digital en PBA - por que via se pide la supresión de contenidos
+titulo: Violencia digital en PBA - por qué vía se pide la supresión de contenidos
 ---
 ## Rúbrica · familia-violencia-digital-pba-cautelar
 

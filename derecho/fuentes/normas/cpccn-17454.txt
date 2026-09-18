@@ -1,14 +1,14 @@
 Ley 17.454 - CPCCN (texto actualizado)
 ==============================================================================
-Jurisdiccion:     nacional
+Jurisdicción:     nacional
 Fuente:           https://www.argentina.gob.ar/normativa/nacional/ley-17454-16547/actualizacion
-Descargado:       2026-09-14
-SHA-256 (crudo):  8b570339a89a7c6e5c1ec803d19c337d9a08f42e9d094f48b03ba1ff9c10d8b6
+Descargado:       2026-09-17
+SHA-256 (crudo):  66ab85c54ad83b4e64163db8bab8b975c18e038300762dfe735d9ff11d0815cf
 Charset:          utf-8
 
-Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
-NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
-Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
 el manifiesto `normas.json`.
 ==============================================================================
 

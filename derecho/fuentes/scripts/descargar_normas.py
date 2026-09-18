@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Descarga los textos normativos del manifiesto y los deja en texto plano con procedencia.
 
-Cada archivo queda en `derecho/fuentes/normas/<slug>.txt` con un encabezado que dice de
-donde salió, cuando y con que hash. El hash es lo que después permite detectar que la norma
-cambió (ver `verificar_normas.py`).
+Cada archivo queda en `derecho/fuentes/normas/<slug>.txt` con un encabezado que dice de dónde
+salió, cuándo y con qué hash. El hash es lo que después permite detectar que la norma cambió
+(ver `verificar_normas.py`).
 
     python3 descargar_normas.py                  # todo el manifiesto
     python3 descargar_normas.py --prioridad 1    # solo lo imprescindible
@@ -15,38 +15,46 @@ Los PDF se guardan tal cual, sin extraer texto.
 ADVERTENCIA. Los textos que publican estas bases pueden estar truncados o con la acentuación
 degradada. Antes de transcribir un artículo a un escrito, cotejar contra el PDF del Boletín
 Oficial de la fecha de publicación. Lo bajado por este script es material de trabajo
-verificable, no fe publica.
+verificable, no fe pública.
 """
 from __future__ import annotations
 
 import argparse
 import sys
 import urllib.parse
-from datetime import date, datetime, timezone
 
 from _comun import (NORMAS, bajar, cargar_manifiesto, cargar_procedencia,
-                    cargar_revisiones, decodificar, guardar_procedencia, revisar_texto,
-                    sha256, sha256_archivo, sha256_texto, ATexto)
+                    ahora, cargar_revisiones, decodificar, exigir_slugs_conocidos, hoy,
+                    guardar_procedencia, plano, revisar_texto, sha256, sha256_archivo,
+                    sha256_texto, ATexto)
 
-# Todo lo que no sea un marcador de format() va en ASCII, y no por descuido: este encabezado
-# ya esta escrito en los .txt bajados, asi que la plantilla y el corpus son el mismo texto en
-# dos lugares. Acentuar una palabra de aca no corrige nada -- parte el corpus en dos, los
-# viejos con una forma y los nuevos con otra --, y volver a alinearlo exige bajar las normas
-# de nuevo, que es algo que InfoLEG y normas.gba solo le permiten al usuario. Vale para las
-# etiquetas y para la prosa: `TestPlantillaDelEncabezado` compara las dos contra los .txt.
-# Los marcadores, ademas, son identificadores de format(): `{jurisdicción}` levanta KeyError
-# recien al bajar la primera norma.
+# Este encabezado ya está escrito en los .txt bajados, así que la plantilla y el corpus son el
+# mismo texto en dos lugares: tocar una palabra acá y no realinear el corpus lo parte en dos.
+# Lo que NO hace falta para realinearlo es volver a bajar las normas, y durante un tiempo se
+# creyó que sí: el encabezado queda FUERA de `sha256_texto`, que se calcula sobre el cuerpo, así
+# que se reescribe sobre los archivos que ya están y sólo cambia `sha256_archivo`. Es lo que
+# permitió pasar esta prosa a castellano sin pedirle a InfoLEG nada.
+#
+# Al reescribirlo hay dos cosas que no se pueden equivocar. El corte del cuerpo es la SEGUNDA
+# raya, que es donde lo busca `TestCuerpoContraProcedencia`, así que el encabezado lleva dos y
+# no más. Y los archivos se manipulan EN BYTES: hay .txt con CRLF en el cuerpo -normas.gba,
+# digesto SCBA, JURISTECA- y leerlos como texto colapsa los saltos y cambia el cuerpo, que es
+# justamente lo que no debe cambiar.
+#
+# Los marcadores son identificadores de format(): `{jurisdiccion}` acentuado levanta KeyError
+# recién al bajar la primera norma. `TestPlantillaDelEncabezado` compara etiquetas y prosa
+# contra los .txt, y formatea la plantilla en seco.
 ENCABEZADO = """{titulo}
 {raya}
-Jurisdiccion:     {jurisdiccion}
+Jurisdicción:     {jurisdiccion}
 Fuente:           {url}
 Descargado:       {fecha}
 SHA-256 (crudo):  {hash}
 Charset:          {charset}
 
-Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
-NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
-Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
 el manifiesto `normas.json`.
 {raya}
 
@@ -59,7 +67,7 @@ def es_pdf_real(ctype: str | None, declarado: bool) -> bool:
     Acá hubo un bug: la extensión y el campo `formato` del manifiesto son una suposición, y
     un digesto provincial que sirve el PDF desde una URL sin `.pdf` -con query string, por
     ejemplo- hacía que el script tratara los bytes como HTML, los pasara por el parser y
-    escribiera un .txt binario de 240 KB. El archivo quedaba ilegible y el unico sintoma era
+    escribiera un .txt binario de 240 KB. El archivo quedaba ilegible y el único síntoma era
     que revisar_texto no encontraba ni un artículo, que parece un problema de la fuente.
     """
     if declarado:
@@ -70,51 +78,77 @@ def es_pdf_real(ctype: str | None, declarado: bool) -> bool:
 def ya_registrada(proc: dict, slug: str) -> bool:
     """True si la norma ya tiene procedencia registrada.
 
-    Existe como función propia porque acá hubo un bug que vivio varias versiones: el chequeo
+    Existe como función propia porque acá hubo un bug que vivió varias versiones: el chequeo
     era `slug in proc`, y `cargar_procedencia()` devuelve el documento entero, cuyo primer
     nivel son `_descripcion` y `normas`. Nunca había un slug ahí, con lo que la condición
-    daba False siempre: el script rebajaba las 59 normas en cada corrida, la rama YA ESTA era
-    código muerto y `--forzar` no se distinguia de no pasarlo. Se ve solo si uno cuenta los
+    daba False siempre: el script rebajaba las 59 normas en cada corrida, la rama YA ESTÁ era
+    código muerto y `--forzar` no se distinguía de no pasarlo. Se ve solo si uno cuenta los
     pedidos a los sitios oficiales.
     """
     return slug in proc.get("normas", {})
 
 
-def _avisar_intento(slug: str, url: str) -> None:
+ANCHO_AVISO = 100
+
+
+def avisar_intento(slug: str, url: str) -> None:
     """Deja en pantalla que hay una descarga en curso, para que un sitio lento no parezca
     un cuelgue. Un host que no responde se come timeout x reintentos sin imprimir nada, y
-    con el default eso es casi diez minutos de silencio. La línea se sobreescribe con el
-    resultado, así que no ensucia la salida; si no hay terminal, no se imprime."""
+    con el default eso es casi diez minutos de silencio. Si no hay terminal, no se imprime."""
     if not sys.stdout.isatty():
         return
     host = urllib.parse.urlsplit(url).netloc
-    print(f"  bajando     {slug:28} {host[:40]}".ljust(100), end="\r", flush=True)
+    print(f"  bajando     {slug:28} {host[:40]}".ljust(ANCHO_AVISO), end="\r", flush=True)
+
+
+def limpiar_aviso() -> None:
+    """Borra la línea de progreso antes de imprimir el resultado.
+
+    Hace falta porque `\\r` mueve el cursor pero no borra: la línea de aviso mide ANCHO_AVISO y la
+    del resultado es más corta, así que la cola del aviso quedaba a la vista pegada al final. En
+    pantalla se leía `28,551 bytesjn.gov.ar` -- los bytes del fallo y, sin separación, el resto
+    del host que se estaba pidiendo. Parecía un archivo con el nombre corrompido.
+    """
+    if not sys.stdout.isatty():
+        return
+    print("\r" + " " * ANCHO_AVISO + "\r", end="", flush=True)
+
+
+def seleccionar(normas: list[dict], slugs: list[str], prioridad: int | None) -> list[dict]:
+    """Las normas que la corrida va a pedir. Se planta si un slug no existe.
+
+    Va aparte de `main()` para poder probarla sin red: es la única parte del script que decide
+    QUÉ se baja, y las dos formas de equivocarse acá son silenciosas. Un slug con un dedazo daba
+    lista vacía y "0 bajadas" con código 0; y `--prioridad 0`, al ser falsy, se ignoraba y bajaba
+    el manifiesto entero -ciento cuarenta y siete pedidos a sitios oficiales- cuando se había
+    pedido un subconjunto vacío.
+    """
+    exigir_slugs_conocidos(slugs, normas)
+    if slugs:
+        normas = [n for n in normas if n["slug"] in slugs]
+    if prioridad is not None:
+        normas = [n for n in normas if n.get("prioridad", 9) <= prioridad]
+    return normas
 
 
 def main():
     p = argparse.ArgumentParser(description=__doc__,
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
-    p.add_argument("--prioridad", type=int, default=None,
-                   help="Baja solo las normas con prioridad menor o igual a este valor")
+    p.add_argument("--prioridad", type=int, default=None, help="Baja solo las normas con prioridad menor o igual a este valor")
     p.add_argument("--slug", action="append", default=[])
     p.add_argument("--forzar", action="store_true")
-    p.add_argument("--timeout", type=int, default=180,
-                   help="Segundos por intento (default 180). Subirlo si el sitio es lento")
+    p.add_argument("--timeout", type=int, default=180, help="Segundos por intento (default 180). Subirlo si el sitio es lento")
     p.add_argument("--reintentos", type=int, default=3)
-    p.add_argument("--verboso", action="store_true",
-                   help="Muestra tamanio y tiempo de cada intento")
+    p.add_argument("--verboso", action="store_true", help="Muestra tamaño y tiempo de cada intento")
     a = p.parse_args()
 
     NORMAS.mkdir(parents=True, exist_ok=True)
     proc = cargar_procedencia()
     revisiones = cargar_revisiones()
-    normas = cargar_manifiesto()
-    if a.slug:
-        normas = [n for n in normas if n["slug"] in a.slug]
-    if a.prioridad:
-        normas = [n for n in normas if n.get("prioridad", 9) <= a.prioridad]
+    normas = seleccionar(cargar_manifiesto(), a.slug, a.prioridad)
 
-    ok = fallo = salteadas = sin_url = revisar = 0
+    ok = fallo = salteadas = sin_url = 0
+    marcadas = []
     for n in normas:
         slug, url = n["slug"], n.get("url")
         if not url:
@@ -130,21 +164,23 @@ def main():
             destino = NORMAS / registrado
         if destino.exists() and not a.forzar:
             if ya_registrada(proc, slug):
-                print(f"  YA ESTA     {slug:28} {destino.name}")
+                print(f"  YA ESTÁ     {slug:28} {destino.name}")
                 salteadas += 1
                 continue
-            # El archivo esta pero no hay procedencia: sin hash ni fecha no sirve como
+            # El archivo está pero no hay procedencia: sin hash ni fecha no sirve como
             # fuente verificable ni se le puede detectar un cambio. Se vuelve a bajar.
             print(f"  SIN REGISTRO {slug:27} {destino.name} - se rebaja para registrar "
                   f"procedencia")
-        _avisar_intento(slug, url)
+        avisar_intento(slug, url)
         try:
             crudo, charset, ctype = bajar(url, timeout=a.timeout, reintentos=a.reintentos,
                                           verboso=a.verboso)
         except Exception as e:
+            limpiar_aviso()
             print(f"  ERROR       {slug:28} {type(e).__name__}: {e}")
             fallo += 1
             continue
+        limpiar_aviso()
         h = sha256(crudo)
         h_texto = None
         problemas = []
@@ -152,7 +188,7 @@ def main():
             es_pdf = True
             destino = NORMAS / f"{slug}.pdf"
             problemas.append(
-                f"el servidor devolvio {ctype}: se guarda como PDF. Agregar "
+                f"el servidor devolvió {ctype}: se guarda como PDF. Agregar "
                 f'"formato": "pdf" a la entrada del manifiesto')
         elif es_pdf_real(ctype, es_pdf):
             es_pdf = True
@@ -166,7 +202,7 @@ def main():
             cuerpo = parser.texto()
             cab = ENCABEZADO.format(titulo=n["titulo"], raya="=" * 78,
                                     jurisdiccion=n["jurisdiccion"], url=url,
-                                    fecha=date.today().isoformat(), hash=h,
+                                    fecha=hoy(), hash=h,
                                     charset=charset or "no declarado")
             destino.write_text(cab + cuerpo + "\n", encoding="utf-8")
             h_texto = sha256_texto(cuerpo + "\n")
@@ -175,14 +211,16 @@ def main():
             "titulo": n["titulo"], "url": url, "archivo": destino.name,
             # Sólo se registra el hash de lo que se GUARDA. De los bytes crudos no se guarda
             # ninguno: no los conservamos, así que un hash suyo no se puede volver a cotejar
-            # contra nada -- describiria un archivo que no está en el repositorio.
+            # contra nada -- describiría un archivo que no está en el repositorio.
             "sha256_texto": h_texto, "sha256_archivo": sha256_archivo(destino),
             "content_type": ctype,
-            "descargado": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+            "descargado": ahora(),
         }
         leidos = revisiones.get(slug, {})
-        resueltos = [(x, leidos[x]) for x in problemas if x in leidos]
-        pendientes = [x for x in problemas if x not in leidos]
+        # Por la forma plana: el texto del problema es a la vez el mensaje que se imprime
+        # --y va acentuado-- y la clave de `revisiones.json`. Ver `cargar_revisiones()`.
+        resueltos = [(x, leidos[plano(x)]) for x in problemas if plano(x) in leidos]
+        pendientes = [x for x in problemas if plano(x) not in leidos]
         if resueltos:
             proc["normas"][slug]["revisado"] = [
                 {"problema": x, "veredicto": v} for x, v in resueltos]
@@ -193,8 +231,7 @@ def main():
             print(f"  REVISAR     {slug:28} {len(crudo):>9,} bytes  -> {destino.name}")
             for x in pendientes:
                 print(f"              -> {x}")
-            guardar_procedencia(proc)
-            revisar += 1
+            marcadas.append(slug)
         else:
             proc["normas"][slug].pop("revisar", None)
             estado = "REVISADO" if resueltos else "OK"
@@ -206,13 +243,29 @@ def main():
         ok += 1
 
     guardar_procedencia(proc)
-    print(f"\n  {ok} bajadas ({revisar} marcadas para revisar), {salteadas} ya estaban, "
+    print(f"\n  {ok} bajadas ({len(marcadas)} marcadas para revisar), {salteadas} ya estaban, "
           f"{sin_url} sin URL en el manifiesto, {fallo} con error.")
-    if revisar:
+    if marcadas:
         print("  Las marcadas para revisar quedaron anotadas en procedencia.json bajo "
               "'revisar'.\n  Casi siempre significa que la URL apunta a la ficha y no al "
               "texto de la norma.")
-    print(f"  Procedencia actualizada en normas/procedencia.json")
+    # El arrastre son las OTRAS: las que ya estaban marcadas y esta corrida no tocó. Se resta lo
+    # de arriba porque contarlo dos veces es lo que hace que un recuento deje de leerse -- con
+    # --forzar sobre todo el manifiesto, la primera versión decía "6 de corridas anteriores"
+    # cuando cinco acababan de imprimirse tres renglones más arriba.
+    #
+    # Existe porque bajar una sola norma con --slug no dice nada de las otras, y una marca de
+    # `revisar` sobrevive tantas corridas como haga falta sin que nada la nombre: es texto offline
+    # que ya sabemos defectuoso y la skill lo usa igual.
+    arrastre = sorted(s for s, r in proc.get("normas", {}).items()
+                      if r.get("revisar") and s not in marcadas)
+    if arrastre:
+        print(f"\n  Y {'queda' if len(arrastre) == 1 else 'quedan'} {len(arrastre)} de antes "
+              f"sin resolver, que esta corrida no tocó: {', '.join(arrastre[:4])}"
+              + (f" y {len(arrastre) - 4} más." if len(arrastre) > 4 else "."))
+        print("  Se leen y se resuelven, o el veredicto de lectura va a normas/revisiones.json.")
+        print("  Los lista `python3 herramientas/pendientes.py`.")
+    print("  Procedencia actualizada en normas/procedencia.json")
     if sin_url:
         print("\n  Las entradas sin URL quedan pendientes: completar `normas.json` con la "
               "URL oficial\n  del texto actualizado antes de contar con esas normas offline.")

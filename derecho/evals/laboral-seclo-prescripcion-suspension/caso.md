@@ -3,7 +3,7 @@ titulo: Prescripción laboral - SECLO, suspensión y el plazo que no está en la
 area: laboral
 perfil: derecho-argentino / references/laboral.md, references/plazos.md
 fuero: CNAT / Tribunal del Trabajo PBA
-problema: "riesgo de repetir que el art. 7 de la Ley 24.635 suspende hasta treinta días después de notificada la clausura, plazo que esa ley no contiene; riesgo de no ver que el art. 7 remite al art. 257 LCT y que ese termino es de seis meses como máximo; riesgo de pasar por alto que la ley dice suspender y el artículo al que remite dice interrumpir; riesgo de aplicar el SECLO a una causa de PBA, donde no existe; riesgo de tratar la prescripción del crédito como una sola cuando el art. 256 corre crédito por crédito"
+problema: "riesgo de repetir que el art. 7 de la Ley 24.635 suspende hasta treinta días después de notificada la clausura, plazo que esa ley no contiene; riesgo de no ver que el art. 7 remite al art. 257 LCT y que ese término es de seis meses como máximo; riesgo de pasar por alto que la ley dice suspender y el artículo al que remite dice interrumpir; riesgo de aplicar el SECLO a una causa de PBA, donde no existe; riesgo de tratar la prescripción del crédito como una sola cuando el art. 256 corre crédito por crédito"
 ---
 
 # Caso · Dos reclamos, dos jurisdicciones, un mismo cálculo copiado

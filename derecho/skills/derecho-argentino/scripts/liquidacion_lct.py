@@ -6,11 +6,20 @@ art. 245 y las remuneraciones se pasan como entrada. Si falta un dato que condic
 resultado, el script lo dice y emite el marcador canónico en vez de suponerlo.
 
 Uso:
-    python3 liquidacion_lct.py --ingreso 2015-03-10 --extinción 2026-04-20 \
-        --mejor-remuneración 1850000 --remuneración-ultimo-mes 1850000 \
+    python3 liquidacion_lct.py --ingreso 2015-03-10 --extincion 2026-04-20 \
+        --mejor-remuneracion 1850000 --remuneracion-ultimo-mes 1850000 \
         --tope-245 1420000 --dias-vacaciones-gozadas 0
 
-    python3 liquidacion_lct.py ... --json
+    python3 liquidacion_lct.py ... --json     # para encadenar con otra herramienta
+
+La salida SIN `--json` es el entregable: ya trae el tramo, el régimen, los rubros con su
+norma, el total, las advertencias y los marcadores, formateados para pegar. Se pega tal
+cual. `--json` es para que lo lea otro programa, y quien lo usa para redactar la respuesta
+se convierte en el que rearma la tabla: ahí se pierde una advertencia sin que nada avise.
+
+La LCT no rige todo trabajo dependiente: `--empleador publico` corta con código 2 y emite el
+marcador, porque el art. 2 inc. a excluye a la Administración Pública salvo acto expreso de
+inclusión. Sin el dato calcula igual, suponiendo empleo privado, y lo dice con un marcador.
 
 Fórmulas y su norma en `FORMULAS.md` de esta carpeta. Toda salida debe cotejarse contra el
 texto vigente del artículo: ver `references/laboral.md`, secciones 5.1 a 5.4 y 5.10.
@@ -83,8 +92,47 @@ class Resultado:
         return q(sum(Decimal(str(r["importe"])) for r in self.rubros))
 
 
+AMBITO = {
+    "privado": None,
+    "publico": (
+        "[ARG SIN NORMA: el art. 2 inc. a LCT excluye a los dependientes de la Administración "
+        "Pública nacional, provincial, de la CABA o municipal, salvo acto expreso de inclusión "
+        "en la LCT o en un convenio colectivo que los comprenda. Sin ese acto la extinción no "
+        "se liquida por los arts. 245 y siguientes: la rigen el estatuto y el régimen de "
+        "estabilidad que correspondan, y la competencia suele ser contencioso administrativa. "
+        "Si hay acto expreso de inclusión, correr con --empleador publico-incluido y dejar "
+        "asentado cuál es]"),
+    "publico-incluido": None,
+}
+
+
+def exigir_ambito(empleador, como_json=False):
+    """La LCT no se aplica a todo trabajo dependiente, y esto corta antes de calcular.
+
+    No es una advertencia al pie: si el régimen no es el de la LCT, el resultado entero
+    pertenece a otro cuerpo legal. Una liquidación del art. 245 para una docente provincial
+    sale con sus nueve rubros y su articulado, perfectamente formateada y bajo la ley que no
+    la rige, y nada en el número delata el error.
+    """
+    if empleador in (None, "", "sin-declarar"):
+        return
+    # Todo valor que no sea uno de los declarados corta. Al revés --tratar lo desconocido como
+    # "seguir"-- un `--empleador Publico` con otra caja liquidaría igual, y el corte sería una
+    # formalidad que depende de escribir bien el valor.
+    corte = AMBITO.get(empleador, AMBITO["publico"])
+    if corte:
+        if como_json:
+            print(json.dumps({"datos": {"empleador": empleador}, "rubros": [], "total": None,
+                              "advertencias": [], "marcadores": [corte]},
+                             ensure_ascii=False, indent=2))
+        else:
+            print(corte)
+        raise SystemExit(2)
+
+
 def liquidar(a) -> Resultado:
     r = Resultado()
+    exigir_ambito(getattr(a, "empleador", None), getattr(a, "json", False))
     ingreso, extincion = a.ingreso, a.extincion
     clave, nombre, _, _ = tramo_de(extincion)
     anios, meses, mult = antiguedad(ingreso, extincion)
@@ -96,7 +144,14 @@ def liquidar(a) -> Resultado:
         "régimen": nombre,
         "antigüedad": f"{anios} años y {meses} meses",
         "multiplicador_art_245": mult,
+        "empleador": getattr(a, "empleador", None) or "sin declarar",
     }
+
+    if not getattr(a, "empleador", None):
+        r.marcadores.append(
+            "[VACÍO PROBATORIO: naturaleza del empleador - la LCT no rige el empleo público "
+            "(art. 2 inc. a) y esta liquidación se hizo suponiendo empleo privado; confirmarlo "
+            "antes de usarla]")
 
     if clave == "dnu70":
         r.marcadores.append(
@@ -113,7 +168,7 @@ def liquidar(a) -> Resultado:
             "del MTEySS del período del acto extintivo]")
         base = mejor
         r.advertencias.append(
-            "Sin tope informado: la base del art. 245 se calculo SIN tope. El resultado no "
+            "Sin tope informado: la base del art. 245 se calculó SIN tope. El resultado no "
             "es definitivo hasta cargar el tope del CCT al período.")
         piso_aplicado = False
     else:
@@ -156,12 +211,12 @@ def liquidar(a) -> Resultado:
         if clave == "modernizacion":
             preaviso = Decimal("0")
             r.advertencias.append(
-                "Periodo de prueba y acto extintivo desde el 06/03/2026: sin preaviso "
+                "Período de prueba y acto extintivo desde el 06/03/2026: sin preaviso "
                 "(art. 231 inc. b, texto art. 48 Ley 27.802).")
         else:
             preaviso = rem_mes / 2
             r.advertencias.append(
-                "Periodo de prueba antes del 06/03/2026: preaviso de 15 días.")
+                "Período de prueba antes del 06/03/2026: preaviso de 15 días.")
         r.marcadores.append(
             "[VACÍO PROBATORIO: vigencia del período de prueba a la fecha de la extinción - "
             "si ya había vencido, corresponden todos los derechos del despido sin causa]")
@@ -179,18 +234,18 @@ def liquidar(a) -> Resultado:
     if a.preaviso_otorgado or a.periodo_prueba:
         dias_restantes = 0
         r.advertencias.append(
-            "No se liquida integración del mes de despido (preaviso otorgado o periodo de "
+            "No se liquida integración del mes de despido (preaviso otorgado o período de "
             "prueba). Verificar el supuesto del art. 233 antes de descartarla.")
     if dias_restantes > 0:
         integracion = rem_mes * dias_restantes / dias_mes
         r.add("Integración del mes de despido", integracion, "Art. 233 LCT",
-              f"{dias_restantes}/{dias_mes} dias")
+              f"{dias_restantes}/{dias_mes} días")
         r.add("SAC sobre integración", integracion / 12, "Art. 121 y 123 LCT", "un doceavo")
 
     # --- Liquidación final ---------------------------------------------------------------
     dias_trabajados_mes = extincion.day
     r.add("Días trabajados del mes", rem_mes * dias_trabajados_mes / dias_mes,
-          "Art. 103 LCT", f"{dias_trabajados_mes}/{dias_mes} dias")
+          "Art. 103 LCT", f"{dias_trabajados_mes}/{dias_mes} días")
 
     inicio_sem = date(extincion.year, 1 if extincion.month <= 6 else 7, 1)
     dias_sem_trab = (extincion - max(inicio_sem, ingreso)).days + 1
@@ -276,10 +331,15 @@ def main():
                    help="Si se omite, se usa la mejor remuneración")
     p.add_argument("--tope-245", type=Decimal, default=None,
                    help="Tope del CCT al período. Sin este dato el resultado es provisorio")
+    p.add_argument("--empleador", choices=sorted(AMBITO), default=None,
+                   help="a quién le prestaba servicios. La LCT no rige el empleo público "
+                        "(art. 2 inc. a): sin este dato la liquidación sale con su marcador")
     p.add_argument("--dias-vacaciones-gozadas", type=Decimal, default=Decimal("0"))
     p.add_argument("--periodo-prueba", action="store_true")
     p.add_argument("--preaviso-otorgado", action="store_true")
-    p.add_argument("--json", action="store_true")
+    p.add_argument("--json", action="store_true",
+                   help="salida para encadenar con otra herramienta; para redactar se "
+                        "usa la salida plana, que trae lo mismo y ya viene formateada")
     a = p.parse_args()
     r = liquidar(a)
     if a.json:

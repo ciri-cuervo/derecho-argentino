@@ -63,8 +63,8 @@ def texto_de(ruta: pathlib.Path) -> str | None:
                                   capture_output=True, text=True, timeout=60).stdout
         except FileNotFoundError:
             # Falta el binario: es un problema de la máquina, no del documento. Meterlo en
-            # el mismo saco que un PDF roto hace que el resumen diga "0 A REVISAR" con el
-            # auditor apagado. `main()` lo exige antes de empezar; esto es el cinturon.
+            # el mismo sacó que un PDF roto hace que el resumen diga "0 A REVISAR" con el
+            # auditor apagado. `main()` lo exige antes de empezar; esto es el cinturón.
             raise SystemExit(_externos.instruccion("pdftotext"))
         except Exception:
             return None
@@ -81,8 +81,8 @@ MESES = {"enero": 1, "febrero": 2, "marzo": 3, "abril": 4, "mayo": 5, "junio": 6
 def fecha_impresa(txt: str) -> str | None:
     """La fecha impresa en el cuerpo, para los tomos que no tienen firma digital.
 
-    Los fallos de los 80 no traen constancias de firma: la fecha esta impresa en el tomo,
-    en la línea siguiente al titulo "FALLO DE LA CORTE SUPREMA". Se busca ahí y no en la
+    Los fallos de los 80 no traen constancias de firma: la fecha está impresa en el tomo,
+    en la línea siguiente al título "FALLO DE LA CORTE SUPREMA". Se busca ahí y no en la
     primera "Buenos Aires" del documento, que suele ser la del dictamen del Procurador y
     lleva otra fecha: en "Fiorentino" el dictamen es del 21/05/1984 y el fallo del 27/11/1984.
     """
@@ -152,7 +152,7 @@ def auditar(f: dict, proc: dict) -> str:
 
 def main() -> int:
     if not J.is_dir():
-        print(f"no encuentro {J}: corre el script desde la raiz del repo", file=sys.stderr)
+        print(f"no encuentro {J}: corré el script desde la raíz del repo", file=sys.stderr)
         return 2
     _externos.exigir("pdftotext")
     m = json.loads((J / "fallos.json").read_text(encoding="utf-8"))
@@ -171,7 +171,7 @@ def main() -> int:
     # y en graves a la vez. Se cuenta lo que efectivamente no se pudo auditar.
     sin = sum(l.strip().startswith(("---", "???")) for l in lineas)
     print(f"\n  {len(lineas)} fallos | identidad confirmada en {ident} | "
-          f"fecha ademas confirmada en {fecha} | sin poder auditar {sin} | "
+          f"fecha además confirmada en {fecha} | sin poder auditar {sin} | "
           f"{len(graves)} A REVISAR")
     return 1 if graves else 0
 

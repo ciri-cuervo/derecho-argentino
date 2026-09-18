@@ -16,23 +16,16 @@ jobs:
         with:
           python-version: "3.13"
 
-      # Los suites del checklist de docs/DESARROLLO.md, en el mismo orden.
-      # test_scripts.py comprueba que esta lista y la del checklist digan lo mismo.
-      - name: calculadoras y modulos
-        run: python3 derecho/skills/derecho-argentino/scripts/test_scripts.py
-      - name: frontera de licencia
-        run: python3 herramientas/test_frontera.py
-      - name: auditoria de fechas
-        run: python3 herramientas/test_auditoria.py
-      - name: medidor de deuda
-        run: python3 herramientas/test_pendientes.py
-      - name: reformas no leidas
-        run: python3 herramientas/test_reformas.py
-      - name: documentacion
-        run: python3 herramientas/test_markdown.py
-      - name: cifras de la documentacion
-        run: python3 herramientas/test_cifras.py
-      - name: fuga textual desde la capa 2
-        run: python3 herramientas/test_fuga.py
-      - name: cobertura normativa
-        run: python3 herramientas/test_cobertura.py
+      # poppler trae `pdftotext`, que un test del cotejo de caratulas necesita para distinguir
+      # «el PDF no tiene capa de texto» de «falta la herramienta». Sin el binario ese test se
+      # saltea --lo dice-- y el camino no se ejercita nunca en CI, que es donde importa.
+      - name: poppler, para el cotejo de PDF
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+
+      # Los dos arboles se descubren, no se enumeran: un suite nuevo entra solo. Antes esta
+      # lista y la del checklist de docs/DESARROLLO.md se enumeraban a mano y dos tests las
+      # cruzaban para que no divergieran; con discover no hay lista de la que caerse.
+      - name: suites de la skill
+        run: python3 -m unittest discover -s derecho/skills/derecho-argentino/scripts -p "test_*.py"
+      - name: suites de herramientas
+        run: python3 -m unittest discover -s herramientas -p "test_*.py"

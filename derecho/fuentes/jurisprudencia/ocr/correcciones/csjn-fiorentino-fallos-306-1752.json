@@ -1,0 +1,197 @@
+{
+  "_descripcion": "Cotejo declarado del texto recuperado por OCR. Cada corrección se leyó contra la página del PDF y `reocr_jurisprudencia.py` la aplica al regenerar, de modo que sobrevive al OCR y no depende de que nadie vuelva a editar el .txt a mano. `de` y `a` se comparan byte a byte: no se les corrige la ortografía, que es justamente lo que documentan. `pagina` es la del PDF e `impresa` la que lleva impresa el volumen de Fallos, que es por donde se verifica. `no_corregidas` guarda lo que SE LEYÓ y se decidió dejar: parece un defecto de OCR y es una errata del tomo impreso. Sin esa lista, la siguiente lectura vuelve a encontrarlas y las «arregla», que sería escribir en el fallo algo que la página no dice.",
+  "slug": "csjn-fiorentino-fallos-306-1752",
+  "cotejado_el": "2026-09-16",
+  "base": "páginas del PDF leídas una por una",
+  "correcciones": [
+    {
+      "pagina": 10,
+      "impresa": 1761,
+      "de": "19) Que según surge de los autos principales (a cuyas fojas se re-",
+      "a": "1°) Que según surge de los autos principales (a cuyas fojas se re-",
+      "motivo": "el OCR leyó el volado del ordinal como un dígito"
+    },
+    {
+      "pagina": 11,
+      "impresa": 1762,
+      "de": "1762 FALLOS DE JA CORTE SUPREMA",
+      "a": "1762 FALLOS DE LA CORTE SUPREMA",
+      "motivo": "el OCR leyó la L de «LA CORTE» como J en el encabezado de página"
+    },
+    {
+      "pagina": 11,
+      "impresa": 1762,
+      "de": "lc aus habría autorizado el regisiro domiciliario. De ese modo se se-",
+      "a": "lo que habría autorizado el registro domiciliario. De ese modo se se-",
+      "motivo": "el OCR partió «lo que» en «lc aus» al arrancar la página y leyó la «t» de «registro» como «i»"
+    },
+    {
+      "pagina": 11,
+      "impresa": 1762,
+      "de": "2*) Que durante el juicio (fs. 94/96) la defensa inpugnó el aludido",
+      "a": "2°) Que durante el juicio (fs. 94/96) la defensa inpugnó el aludido",
+      "motivo": "el OCR leyó el volado del ordinal como un dígito"
+    },
+    {
+      "pagina": 11,
+      "impresa": 1762,
+      "de": "\n39) Que en primera instancia Fiorentino fue condenado como\nautor del delito de tenencia de estupefacientes (art. 6% de la ley 20.771),",
+      "a": "\n3°) Que en primera instancia Fiorentino fue condenado como\nautor del delito de tenencia de estupefacientes (art. 6° de la ley 20.771),",
+      "motivo": "el OCR leyó como dígitos los dos volados del renglón: el del ordinal «3°)» y el del «art. 6°»"
+    },
+    {
+      "pagina": 12,
+      "impresa": 1763,
+      "de": "4%) Que contra el referido pronunciamiento se dedujo el recurso",
+      "a": "\n4°) Que contra el referido pronunciamiento se dedujo el recurso",
+      "motivo": "el OCR leyó el volado del ordinal como un dígito, y el renglón abre párrafo como los demás considerandos"
+    },
+    {
+      "pagina": 12,
+      "impresa": 1763,
+      "de": "59) Que el art. 18 de la Constitución Nacional establece que “el",
+      "a": "\n5°) Que el art. 18 de la Constitución Nacional establece que “el",
+      "motivo": "el OCR leyó el volado del ordinal como un dígito, y el renglón abre párrafo como los demás considerandos"
+    },
+    {
+      "pagina": 13,
+      "impresa": 1764,
+      "de": "6%) Que en la especie no se ha configurado ninguna de las exccp-",
+      "a": "6°) Que en la especie no se ha configurado ninguna de las exccp-",
+      "motivo": "el OCR leyó el volado del ordinal como un dígito"
+    },
+    {
+      "pagina": 14,
+      "impresa": 1765,
+      "de": "79%) Que, en consecuencia, establecida en el sub lite la invalidez",
+      "a": "7°) Que, en consecuencia, establecida en el sub lite la invalidez",
+      "motivo": "el OCR leyó el volado del ordinal como un dígito"
+    },
+    {
+      "pagina": 15,
+      "impresa": 1766,
+      "de": "1%) Que según surge de los autos principales (a cuyas fojas se",
+      "a": "1°) Que según surge de los autos principales (a cuyas fojas se",
+      "motivo": "el OCR leyó el volado del ordinal como un dígito"
+    },
+    {
+      "pagina": 15,
+      "impresa": 1766,
+      "de": "29) Que durante el juicio la defensa impugnó el aludido procedi-",
+      "a": "2°) Que durante el juicio la defensa impugnó el aludido procedi-",
+      "motivo": "el OCR leyó el volado del ordinal como un dígito"
+    },
+    {
+      "pagina": 15,
+      "impresa": 1766,
+      "de": "39) Que en primera instancia Fiorentino fue condenado como au-",
+      "a": "3°) Que en primera instancia Fiorentino fue condenado como au-",
+      "motivo": "el OCR leyó el volado del ordinal como un dígito"
+    },
+    {
+      "pagina": 16,
+      "impresa": 1767,
+      "de": "40) Que contra el referido pronunciamiento se dedujo el recurso",
+      "a": "4°) Que contra el referido pronunciamiento se dedujo el recurso",
+      "motivo": "el OCR leyó el volado del ordinal como un dígito"
+    },
+    {
+      "pagina": 16,
+      "impresa": 1767,
+      "de": "5%) Que esta Corte, en su actual composición, no comparte el cri-",
+      "a": "5°) Que esta Corte, en su actual composición, no comparte el cri-",
+      "motivo": "el OCR leyó el volado del ordinal como un dígito"
+    },
+    {
+      "pagina": 18,
+      "impresa": 1769,
+      "de": "6%) Que la eminente jerarquía del derecho a la inviolabilidad del",
+      "a": "6°) Que la eminente jerarquía del derecho a la inviolabilidad del",
+      "motivo": "el OCR leyó el volado del ordinal como un dígito"
+    },
+    {
+      "pagina": 18,
+      "impresa": 1769,
+      "de": "7%) Que, en consecuencia, la confrontación entre dichas pautas",
+      "a": "7°) Que, en consecuencia, la confrontación entre dichas pautas",
+      "motivo": "el OCR leyó el volado del ordinal como un dígito"
+    },
+    {
+      "pagina": 19,
+      "impresa": 1770,
+      "de": "82) Que, de acuerdo con lo expuesto, el punto constitucional a",
+      "a": "8°) Que, de acuerdo con lo expuesto, el punto constitucional a",
+      "motivo": "el OCR leyó el volado del ordinal como un dígito"
+    },
+    {
+      "pagina": 20,
+      "impresa": 1771,
+      "de": "19%) Cuando se denuncie por uno o más testigos, haber visto per-",
+      "a": "1°) Cuando se denuncie por uno o más testigos, haber visto per-",
+      "motivo": "el OCR leyó el volado del ordinal como un dígito"
+    },
+    {
+      "pagina": 20,
+      "impresa": 1771,
+      "de": "20) Cuando se introduzca en la casa un reo de delito grave a",
+      "a": "2°) Cuando se introduzca en la casa un reo de delito grave a",
+      "motivo": "el OCR leyó el volado del ordinal como un dígito"
+    },
+    {
+      "pagina": 20,
+      "impresa": 1771,
+      "de": "39) Cuando se oigan voces dentro de la casa que anuncien estarse",
+      "a": "3°) Cuando se oigan voces dentro de la casa que anuncien estarse",
+      "motivo": "el OCR leyó el volado del ordinal como un dígito"
+    },
+    {
+      "pagina": 23,
+      "impresa": 1774,
+      "de": "99) Que descartada la existencia de consentimiento que pueda juz-",
+      "a": "9°) Que descartada la existencia de consentimiento que pueda juz-",
+      "motivo": "el OCR leyó el volado del ordinal como un dígito"
+    },
+    {
+      "pagina": 24,
+      "impresa": 1775,
+      "de": "siderando 49).",
+      "a": "siderando 4°).",
+      "motivo": "el OCR leyó el volado del ordinal como un dígito"
+    },
+    {
+      "pagina": 15,
+      "impresa": 1766,
+      "de": "bis setiva (marihuana) y 38 semillas de la misma especie (confr. fs. 1/5).",
+      "a": "bis sativa (marihuana) y 38 semillas de la misma especie (confr. fs. 1/5).",
+      "motivo": "«cannabis sativa» va en cursiva y el OCR leyó la «a» como «e»"
+    },
+    {
+      "pagina": 15,
+      "impresa": 1766,
+      "de": "tor del delito de tenencia de estupefacientes (art. 62 de la ley 20.771),",
+      "a": "tor del delito de tenencia de estupefacientes (art. 6° de la ley 20.771),",
+      "motivo": "el OCR leyó el volado del ordinal como «2», que cambia el número de artículo"
+    },
+    {
+      "pagina": 16,
+      "impresa": 1767,
+      "de": "mente su voluntad de excluir al personal policial, consintendo que la",
+      "a": "mente su voluntad de excluir al personal policial, consintiendo que la",
+      "motivo": "el OCR se comió la «i» de «consintiendo»"
+    }
+  ],
+  "no_corregidas": [
+    {
+      "pagina": 11,
+      "impresa": 1762,
+      "texto": "la defensa inpugnó el aludido",
+      "motivo": "la página imprime «inpugnó». Es errata del tomo, no del OCR: el mismo pasaje en el voto de Petracchi (pág. 15, impresa 1766) dice «impugnó». Se transcribe lo que dice el documento."
+    },
+    {
+      "pagina": 13,
+      "impresa": 1764,
+      "texto": "donde vvía de modo permanente",
+      "motivo": "la página imprime «vvía» por «vivía». Errata del tomo, leída con la imagen ampliada. Se transcribe lo que dice el documento."
+    }
+  ]
+}

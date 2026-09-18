@@ -43,7 +43,7 @@ class TestFuncionesPuras(unittest.TestCase):
         self.f = cargar()
 
     def test_la_excepcion_es_la_ruta_y_no_el_nombre(self):
-        """MUTACION VIVIDA: la excepción se comparaba por basename.
+        """MUTACIÓN VIVIDA: la excepción se comparaba por basename.
 
         `marcadores.md` está exceptuado porque transcribe el glosario de `kb/` a propósito: es
         vocabulario controlado del que dependen los scripts. Comparando por nombre suelto,
@@ -142,7 +142,7 @@ class TestCorridaCompleta(unittest.TestCase):
             hecho = self.correr(grader.relative_to(d).as_posix(),
                                 glosario.relative_to(d).as_posix(), cwd=d)
             self.assertIn("PROSA:", hecho.stdout, "el grader homónimo quedó sin medir")
-            self.assertIn("excepcion declarada", hecho.stdout, "el glosario dejó de exceptuarse")
+            self.assertIn("excepción declarada", hecho.stdout, "el glosario dejó de exceptuarse")
 
 
 if __name__ == "__main__":

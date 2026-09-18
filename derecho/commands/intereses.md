@@ -30,7 +30,12 @@ Tres cosas que se equivocan seguido y están en 5.5 bis:
 
 ## Después
 
-```
+**Abrí con el bloque de datos tomados**, copiado de la cabecera de la salida del script y
+cotejado contra lo que te dieron. Un dato mal tipeado no rompe nada: devuelve un resultado
+plausible. Si alguno no coincide, pará y preguntá. Ver `intake.md`, «Devolver los datos
+antes de usarlos».
+
+```sh
 python3 ${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/skills/derecho-argentino/scripts/intereses.py --modo indice --capital N --desde AAAA-MM-DD --hasta AAAA-MM-DD \
   --serie {ipc|ripte|cer} --interes-puro N
 python3 ${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/skills/derecho-argentino/scripts/intereses.py --modo tasa --capital N --desde AAAA-MM-DD --hasta AAAA-MM-DD --tna N

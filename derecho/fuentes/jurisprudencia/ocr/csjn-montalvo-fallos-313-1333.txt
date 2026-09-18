@@ -7,13 +7,13 @@ Fuente del PDF:   https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocume
 Derivado de:      jurisprudencia/csjn-montalvo-fallos-313-1333.pdf
 SHA-256 del PDF:  18d6dd526d54d64b73908a611be0ca13b005f09d7f60ff69d7405e9c896f9f14
 Paginas:          34
-Generado:         2026-09-14
+Generado:         2026-09-16
 Herramienta:      tesseract 5.5.3, -l spa --psm 6, pdftoppm -r 300
 
-TEXTO RECUPERADO POR OCR LOCAL. No se bajo de la fuente: la capa de texto que traia el
-PDF estaba arruinada y esto es una relectura de las imagenes de la pagina. NO es
-publicacion oficial y no reemplaza al PDF. Para transcribir un considerando a un escrito,
-cotejar contra la pagina del PDF: el numero de pagina esta marcado abajo.
+TEXTO RECUPERADO POR OCR LOCAL. No se bajó de la fuente: la capa de texto que traía el
+PDF estaba arruinada y esto es una relectura de las imágenes de la página. NO es
+publicación oficial y no reemplaza al PDF. Para transcribir un considerando a un escrito,
+cotejar contra la página del PDF: el número de página está marcado abajo.
 
 Regenerar: python3 herramientas/reocr_jurisprudencia.py csjn-montalvo-fallos-313-1333
 ==============================================================================

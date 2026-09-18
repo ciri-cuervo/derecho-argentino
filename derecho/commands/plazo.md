@@ -13,6 +13,11 @@ arrancar el cómputo el día equivocado.**
 
 ## Orden
 
+**Abrí con el bloque de datos tomados**, copiado de la cabecera de la salida del script y
+cotejado contra lo que te dieron. Un dato mal tipeado no rompe nada: devuelve un resultado
+plausible. Si alguno no coincide, pará y preguntá. Ver `intake.md`, «Devolver los datos
+antes de usarlos».
+
 1. **Fuero y tipo de plazo.** Hábiles judiciales, hábiles administrativos, corridos, horas,
    meses o años. No son lo mismo y el traslado por vencimiento en inhábil tampoco.
 2. **Desde cuándo corre.** En los plazos judiciales `--desde` es la fecha de **notificación**,
@@ -22,7 +27,7 @@ arrancar el cómputo el día equivocado.**
    la fecha de disponibilidad, **no calcules el vencimiento**: emitilo con marcador.
 3. **Corré el script:**
 
-   ```
+   ```sh
    python3 ${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/skills/derecho-argentino/scripts/plazos.py --tipo {habiles|corridos|meses|anios} --desde AAAA-MM-DD \
      [--dias N | --cantidad N] [--fuero {nacional|pba}] [--traza]
    ```

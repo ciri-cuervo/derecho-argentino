@@ -27,7 +27,7 @@ python3 ${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/fuentes/scripts/descargar_ju
    novedades.
 2. **Todo lo que diga REVISAR o ERROR.** Los descargadores hacen controles de sanidad —cuentan
    artículos, detectan fichas de InfoLEG en vez del texto, detectan leyes aprobatorias sin su
-   anexo—. Un REVISAR quiere decir que el archivo se bajó pero **puede no ser el texto que
+   anexo—. Un REVISAR quiere decir que el archivo se bajó, pero **puede no ser el texto que
    corresponde**: hay que abrirlo antes de citarlo.
 3. **Si algo falló por red**, sugerí `python3 ${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/fuentes/scripts/diagnostico.py` antes de reintentar. No
    reintentes la misma descarga más de una vez.
@@ -35,3 +35,9 @@ python3 ${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/fuentes/scripts/descargar_ju
 **Lo que este comando no hace:** no cambia ningún módulo de `references/`. Bajar el texto
 nuevo de una norma no actualiza lo que la skill dice sobre ella. Si una norma cambió de fondo,
 decilo y señalá qué módulo hay que revisar.
+
+**Y hay dos datos que no toca, porque no tienen descargador:** el **jus** de PBA
+(`datos/jus-scba.csv`) y la **UMA** de la justicia nacional (`datos/uma-csjn.csv`). Los dos
+salen de páginas oficiales que no son tablas descargables, así que se cargan a mano. Correr este
+comando **no los deja al día**, y decir lo contrario es el verde más caro que puede dar: los dos
+son unidades con las que se regula. `python3 ${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/skills/derecho-argentino/scripts/estado.py` dice cuál de los dos está vencido o sin cargar.

@@ -15,8 +15,10 @@ import argparse
 import hashlib
 import json
 import sys
-from datetime import date
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import _veredictos
 
 RAIZ = Path(__file__).resolve().parent.parent
 KB = RAIZ / "derecho" / "kb"
@@ -34,7 +36,7 @@ REGISTRO = Path(__file__).resolve().parent / "kb-procedencia.json"
 #   El HASH va sobre el texto con los saltos normalizados, no sobre los bytes crudos. Un
 #   checkout con CRLF les cambia el hash a todos sin que cambie una letra. Bajo kb/ es todo
 #   texto -los .md y un .template-, así que normalizar no deja nada afuera. Un cambio
-#   real de contenido sigue moviendo el hash; lo unico que deja de moverlo es el fin de línea.
+#   real de contenido sigue moviendo el hash; lo único que deja de moverlo es el fin de línea.
 def huella(p: Path) -> str:
     texto = p.read_text(encoding="utf-8").replace("\r\n", "\n").replace("\r", "\n")
     return hashlib.sha256(texto.encode("utf-8")).hexdigest()
@@ -63,7 +65,7 @@ def main() -> int:
     actual = huellas()
     if args.fijar:
         # El sobre -las claves que empiezan con guion bajo- describe QUE es este archivo y
-        # con que criterio se llena, y no depende del estado que se este fijando: se conserva
+        # con qué criterio se llena, y no depende del estado que se este fijando: se conserva
         # tal cual estaba. Escribirlo de cero lo borraba, y el test que exige el sobre
         # completo solo fallaba después de un --fijar, que es justo cuando nadie mira.
         sobre = {}
@@ -75,7 +77,7 @@ def main() -> int:
                 sobre = {}
         REGISTRO.write_text(json.dumps({
             **sobre,
-            "fijado": date.today().isoformat(),
+            "fijado": _veredictos.hoy(),
             "nota": args.nota,
             "archivos": actual,
         }, indent=2, ensure_ascii=False, sort_keys=True) + "\n", encoding="utf-8")

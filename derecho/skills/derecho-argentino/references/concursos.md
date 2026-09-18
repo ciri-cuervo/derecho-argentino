@@ -1,6 +1,8 @@
 # Concursos y quiebras · el cruce con el crédito laboral
 
-> Módulo de referencia de la skill `derecho-argentino`. Numeración global, sección 29.
+> Módulo de referencia de la skill `derecho-argentino`. Numeración global: las remisiones cruzadas
+> entre módulos siguen siendo válidas. **Rigen las reglas de integridad de la sección 2 del
+> SKILL.md.**
 
 ---
 
@@ -11,7 +13,7 @@ Verificado contra el texto consolidado de la **Ley 24.522** en `fuentes/normas/l
 Este módulo **no cubre el proceso concursal completo**: cubre el cruce que aparece todo el
 tiempo en la práctica laboral —qué pasa con el juicio, cómo se cobra antes que el resto y con
 qué privilegio— que hasta ahora era el hueco más señalado de la skill. Para el resto del
-concurso rige el ruteo de `otras-ramas.md` sección 19, **con su advertencia**.
+concurso rige el ruteo de `perfiles-heredados.md` sección 19, **con su advertencia**.
 
 ### 29.1 El juicio laboral NO se atrae — eso cambió en 2006 y se sigue diciendo mal
 
@@ -119,7 +121,7 @@ comienzo de un tramo cambia de tope en el medio.
 > `fuentes/normas/ley-25323.txt`. El art. 16 las enumera juntas y eso **no significa que se
 > acumulen**: un pronto pago que las sume está pidiendo de más.
 
-`[REVISIÓN NORMATIVA REQUERIDA: remisión del art. 16 de la Ley 24.522 a normas laborales derogadas por la Ley 27.742 - verificar si alguna reforma posterior actualizo el listado antes de descartar un rubro]`
+`[REVISIÓN NORMATIVA REQUERIDA: remisión del art. 16 de la Ley 24.522 a normas laborales derogadas por la Ley 27.742 - verificar si alguna reforma posterior actualizó el listado antes de descartar un rubro]`
 
 ### 29.4 Privilegios del crédito laboral
 
@@ -168,4 +170,4 @@ establecimiento donde haya prestado sus servicios o que sirvan para su explotaci
 > **Lo que este módulo no cubre:** el proceso concursal en sí —presentación, período de
 > exclusividad, categorización, acuerdo, homologación—, el régimen de la quiebra y su
 > liquidación, las acciones de ineficacia y responsabilidad, y el concurso en caso de agrupamiento.
-> Para eso rige el ruteo de `otras-ramas.md` sección 19, **con su advertencia**.
+> Para eso rige el ruteo de `perfiles-heredados.md` sección 19, **con su advertencia**.

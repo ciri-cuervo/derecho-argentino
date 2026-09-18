@@ -3,8 +3,12 @@
 # jus_dl_8904: jus arancelario del decreto-ley 8904/77, al que remiten leyes arancelarias de
 #   otras profesiones (peritos contadores, entre otras). NO usar para abogados.
 # Tabla oficial vigente: https://www.scba.gov.ar/paginas.asp?id=41320
-# Serie historica (dic-2017 a nov-2023): https://www.scba.gov.ar/paginas.asp?id=46792
-# A septiembre de 2026 el ultimo valor publicado es el del 01/08/2026.
+# Serie histórica (dic-2017 a nov-2023): https://www.scba.gov.ar/paginas.asp?id=46792
+# verificado: 2026-09-17
+# La línea de arriba la lee `estado.py` y su forma es contrato: `# verificado: AAAA-MM-DD`,
+# la fecha en que alguien abrió la tabla oficial. La SCBA publica con rezago, así que el
+# valor puede tener meses sin que falte cargar nada; lo que vence no es el valor, es la
+# mirada. Al 17/09/2026 el último publicado sigue siendo el del 01/08/2026, RP-873/2026.
 vigencia_desde,jus_ley_14967,jus_dl_8904,norma,fuente
 2026-01-01,45660,,,https://www.scba.gov.ar/paginas.asp?id=41320
 2026-02-01,46325,,,https://www.scba.gov.ar/paginas.asp?id=41320

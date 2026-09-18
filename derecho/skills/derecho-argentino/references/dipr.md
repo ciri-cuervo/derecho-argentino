@@ -1,6 +1,8 @@
 # Derecho internacional privado · CCyCN, Libro Sexto, Título IV
 
-> Módulo de referencia de la skill `derecho-argentino`. Numeración global, sección 35.
+> Módulo de referencia de la skill `derecho-argentino`. Numeración global: las remisiones cruzadas
+> entre módulos siguen siendo válidas. **Rigen las reglas de integridad de la sección 2 del
+> SKILL.md.**
 
 ---
 
@@ -59,6 +61,48 @@ de las imperativas **de terceros Estados** con vínculos estrechos y manifiestam
 > propio texto. El fraude a la ley y el orden público, no — y el art. 2599 se impone justamente
 > sobre la autonomía de la voluntad. Si la estrategia depende de un acuerdo de elección de
 > derecho, los dos primeros dejan de estar disponibles para atacarlo.
+
+### 35.3.1 Qué integra el orden público internacional argentino, y qué NO puede hacer
+
+**CSJN, "Milantic Trans S.A. c/ Ministerio de la Producción (Ast. Río Santiago y ot.) s/ ejecución
+de sentencia", Fallos 344:1857, 05/08/2021.** Leído contra el documento. Ejecución en la Argentina
+de un laudo arbitral dictado en Londres. La SCBA había denegado el reconocimiento invocando el
+orden público; la Corte **deja sin efecto esa sentencia**.
+
+> **Cómo está compuesto el fallo, porque cambia cómo se cita.** Son **cuatro jueces en dos votos,
+> con el mismo resultado**: Rosenkrantz y Highton de Nolasco por un lado, Maqueda y Lorenzetti por
+> el otro. **No hay un considerando de mayoría**: cada bloque tiene su propio desarrollo, y lo que
+> sigue dice de cuál sale cada cosa.
+
+**El contenido afirmativo — voto de Rosenkrantz y Highton.** La Convención de Nueva York permite
+denegar el reconocimiento si fuera contrario al orden público del país requerido (art. V.2), pero
+**"no define qué debe entenderse por 'orden público' sino que lo deja librado a los jueces del
+Estado en el que se solicita el reconocimiento"**. Ahora bien, esa facultad **"debe ejercerse
+observando los principios de derecho público de nuestra Constitución"** (art. 27 CN; con cita de
+`"Fibraca"`, `"Cafés La Virginia"` y `"Fontevecchia"`), y acá se refuerza porque la Ley 23.619
+mandó interpretar la convención *"en concordancia con los principios y cláusulas de la
+Constitución Nacional"*.
+
+**De ahí lo que sirve para el escrito:** el **debido proceso adjetivo del art. 18 CN** *"ha sido
+calificado como integrante del orden público internacional argentino al que debe conformarse no
+solo todo procedimiento jurisdiccional que se lleve a cabo en jurisdicción argentina, sino también
+todo procedimiento que concluya en la sentencia o resolución dictada por autoridad judicial
+extranjera con efectos extraterritoriales en la República Argentina"* (`"Riopar SRL"`, Fallos
+319:2411, cons. 5; `"Aguinda Salazar"`, Fallos 336:503, cons. 4).
+
+**El límite — voto de Maqueda y Lorenzetti, y es lo que se pasa por alto.** El orden público **no
+es una llave que abra cualquier revisión**: *"la cosa juzgada [...] no es susceptible de alteración
+ni aun por vía de la invocación de leyes de orden público, toda vez que la estabilidad de las
+sentencias [...] es también exigencia del orden público con jerarquía superior"*. En el caso, la
+intervención oficiosa de los tribunales locales *"justificada en una supuesta violación al orden
+público"* implicó **desconocer la congruencia y la cosa juzgada**.
+
+*Cómo se usa.* A favor del reconocimiento: el orden público del art. V.2 se mide contra los
+principios constitucionales argentinos, y el debido proceso es uno de ellos — también respecto del
+procedimiento extranjero. En contra de un uso expansivo: **invocarlo no habilita a revisar de
+oficio lo que quedó firme**, ni a exceder los términos en que se trabó la litis y el alcance de los
+recursos concedidos. Es jurisprudencia sobre el art. V.2 de la Convención de Nueva York, no sobre
+el art. 2600 CCyCN, aunque el estándar que construye sea el mismo que ese artículo supone.
 
 ### 35.4 Jurisdicción internacional — de dónde sale (art. 2601)
 
@@ -130,6 +174,67 @@ sobre esa materia no es reconocible.
   el exterior **se deben cumplir**, salvo que afecten el orden público argentino, y los exhortos
   **se tramitan de oficio y sin demora**.
 
+### 35.8 bis Navegación por agua — la ley especial que el art. 2601 manda mirar primero
+
+**La Ley 20.094 trae su propio DIPr**, en el Título V, y es exactamente lo que el art. 2601 CCyCN
+tiene en mente cuando subordina la jurisdicción a *"las leyes especiales que sean de aplicación"*,
+y el art. 2609 cuando abre con *"sin perjuicio de leyes especiales"*. Llegar al Capítulo 3 del
+Código sin haber pasado por acá, en una causa de navegación, repite el error de método de 35.1 un
+escalón más abajo.
+
+**Los puntos de conexión del Capítulo I, casi todos anclados en la bandera:**
+
+| Materia | Ley aplicable |
+| --- | --- |
+| **Nacionalidad del buque** (art. 597) | la del **Estado que otorga el uso de la bandera**, probada con su certificado |
+| **Propiedad, privilegios, derechos reales y su publicidad** (art. 598) | la de la **nacionalidad del buque** |
+| **Poderes y obligaciones del capitán** (art. 601) | la del **pabellón** |
+| **Locación y fletamento a tiempo** (art. 602) | la del **pabellón** |
+| **Transporte de mercaderías** (art. 603) | la del **lugar donde han de ejecutarse** las obligaciones |
+| **Abordaje** (art. 605) | la del **Estado en cuyas aguas se produce**; en aguas no jurisdiccionales, la de la **nacionalidad común** de los buques |
+| **Avería común** (art. 607) | la **nacionalidad del buque** para naturaleza, elementos, formalidades y obligación de contribuir; la del **puerto donde se practican** para liquidación y prorrateo |
+| **Seguro** (art. 609) | la del **domicilio del asegurador**; si se contrató por sucursal o agencia, la del **lugar donde funcionan** |
+| **Contrato de ajuste** (art. 610) | la de la **nacionalidad del buque** donde capitán, oficiales y tripulantes prestan servicios |
+| **Embargo y venta judicial del buque** (art. 611) | la de su **situación** |
+
+**Dos cosas que la tabla no dice y cambian el resultado.** El **cambio de bandera no perjudica**
+los privilegios ni los derechos reales ya constituidos, y su extensión se sigue midiendo por la
+ley de la nacionalidad que el buque tenía **al momento del cambio** (art. 599). Y las hipotecas y
+garantías sobre buques extranjeros, regularmente constituidas y registradas según sus leyes, valen
+acá **siempre que haya reciprocidad** del respectivo Estado (art. 600): la reciprocidad es un
+requisito de la norma, no un argumento de cortesía.
+
+**El transporte de personas tiene norma unilateral (art. 604).** Las reglas de responsabilidad del
+transportador frente al pasajero y su equipaje se aplican a **todo contrato de transporte de
+personas por agua celebrado en la República, o cuyo cumplimiento se inicie o termine en puerto
+argentino**, sea el buque nacional o extranjero — y también cuando sean competentes los tribunales
+argentinos. No se pregunta qué derecho designa la regla de conflicto: la ley se autoaplica.
+
+**Y hay dos nulidades de jurisdicción que conviene tener presentes antes de redactar una cláusula.**
+En los contratos de fletamento total o parcial, de transporte de carga general o de bultos
+aislados, de personas, y en general en todo contrato donde el transportador asuma la obligación de
+entregar los efectos en destino, **es nula toda cláusula que establezca otra jurisdicción que la de
+los tribunales argentinos** (art. 614). Lo mismo en avería común, cuando la aventura finalice o la
+liquidación y prorrateo se hagan en puerto argentino (art. 615). Es el contrapunto del art. 2605
+CCyCN: acá la prórroga no está prohibida por exclusividad del art. 2609, sino por la ley especial.
+
+**Las demás reglas de competencia del Capítulo II**, todas atributivas a los tribunales nacionales:
+cuando sea parte el propietario o armador de un **buque de bandera extranjera embargable** según
+esta ley (art. 612); las acciones penales o disciplinarias contra capitán o tripulación por
+**abordaje o accidente en aguas no jurisdiccionales**, si el buque era de bandera argentina al
+momento del hecho (art. 613); los juicios de **contratos de utilización de buques** cuando las
+obligaciones deban cumplirse en la República, **salvo la opción del demandante** por el domicilio
+del demandado (art. 614); las acciones del **contrato de ajuste** cumplido o que debió cumplirse en
+buque de bandera nacional, **además** de la competencia de las leyes generales (art. 616); y
+**asistencia, salvamento y abordaje en aguas jurisdiccionales**, cualquiera sea la bandera
+(art. 617).
+
+**Ojo con las convenciones que la propia ley incorpora.** Los arts. 605 y 606 remiten a las
+Convenciones de Bruselas de 1910 sobre abordajes y sobre asistencia y salvamento cuando los
+pabellones son de Estados adherentes o ratificantes. Esa remisión reabre la pregunta del art. 2594:
+antes de aplicar la Ley 20.094 hay que saber si el caso cae bajo el tratado.
+[VERIFICAR VIGENCIA: Convenciones de Bruselas de 1910 - confirmar adhesión o ratificación de los Estados de ambos pabellones a la fecha del hecho]
+
 ### 35.9 Lo que este módulo todavía no cubre
 
 La **parte especial** (Capítulo 3, arts. 2613 a 2671) está sin escribir. Son dieciséis secciones:
@@ -138,7 +243,7 @@ responsabilidad parental, restitución internacional de niños, sucesiones, form
 contratos, contratos de consumo, responsabilidad civil, títulos valores, derechos reales y
 prescripción.
 
-`[INSERTAR FALLO VERIFICADO: capítulos 1 y 2 del Título IV - no hay precedente cargado sobre orden público internacional, foro de necesidad, prórroga tácita ni litispendencia internacional]`
+`[INSERTAR FALLO VERIFICADO: capítulos 1 y 2 del Título IV - siguen sin precedente cargado el foro de necesidad, la prórroga tácita y la litispendencia internacional; el orden público internacional lo cubre 35.3.1]`
 
 Dos remisiones a lo que el repo **sí** tiene, y que pertenece a esta materia:
 

@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
-"""Diagnóstico del plugin: donde esta el repo, como esta el perfil y que tan vieja es la data.
+"""Diagnóstico del plugin: dónde está el repo, cómo está el perfil y qué tan vieja es la data.
 
     python3 estado.py            # informe legible
-    python3 estado.py --json     # para consumo programatico
+    python3 estado.py --json     # para consumo programático
 
-Códigos de salida: 0 todo al dia · 1 hay algo vencido o faltante · 2 no se encontró el repo.
+Códigos de salida: 0 todo al día · 1 hay algo vencido o faltante · 2 no se encontró el repo.
 
-POR QUE EXISTE
+POR QUÉ EXISTE
 --------------
 Una base de conocimiento jurídico **se pudre en silencio**: nada avisa que una ley cambió ni
-que el valor del jus quedo dos meses atrás. Los scripts se niegan a inventar y emiten el
+que el valor del jus quedó dos meses atrás. Los scripts se niegan a inventar y emiten el
 marcador, así que el sistema no miente -- pero el usuario se entera tarde y en medio de una
-consulta. Esto lo adelanta: dice que está vencido, hace cuanto y con que comando se arregla.
+consulta. Esto lo adelanta: dice que está vencido, hace cuánto y con qué comando se arregla.
 
 Todos los chequeos son **locales**: no toca la red. Para preguntarle a las fuentes oficiales
 si una norma cambió hay que correr `fuentes/scripts/verificar_normas.py`, que si sale a
@@ -21,7 +21,8 @@ from __future__ import annotations
 
 import argparse
 import json
-from datetime import date, datetime
+import re
+from datetime import date
 from pathlib import Path
 
 import perfil as _perfil
@@ -29,14 +30,23 @@ from _raiz import ENV, ENV_PLUGIN, archivo_config, base, raiz_repo
 
 # Cada cuántos días se considera vencido cada bloque. La volatilidad manda: el valor del jus
 # cambia todos los meses y las acordadas de feria una vez al año.
-UMBRALES = {"normas": 90, "fallos": 180, "jus": 45, "inhabiles": 300}
+UMBRALES = {"normas": 90, "jus": 45, "uma": 45, "inhabiles": 300}
 # Por serie, porque no se publican con el mismo rezago: el RIPTE sale con unos dos meses de
-# demora, así que medirlo con la vara del IPC lo marca vencido cuando está al dia.
-UMBRAL_SERIE = {"IPC": 60, "CER": 45, "RIPTE": 120}
+# demora, así que medirlo con la vara del IPC lo marca vencido cuando está al día.
+#
+# Y ninguna baja de 60, porque las tres son MENSUALES y el período se ancla al día 1. Con eso,
+# la serie más fresca posible ya tiene 31 días el primero del mes siguiente y 46 el día 16: el
+# CER estaba en 45 y se ponía en rojo todos los meses pasado el 15, con la serie completa hasta
+# el último mes cerrado y sin nada que bajar. Medido contra la API: no había período nuevo. Una
+# alarma que suena por el calendario y no por el dato es de las que se dejan de mirar. El piso
+# tiene que decir «se saltó un mes», y para eso hace falta pasar de 62 MÁS el rezago
+# con que publica cada organismo: el BCRA cierra el CER con el mes, el INDEC saca el
+# IPC cerca del 13 del mes siguiente, y el RIPTE llega con unos dos meses.
+UMBRAL_SERIE = {"IPC": 80, "CER": 70, "RIPTE": 120}
 
 
 def _hoy():
-    return date.today()
+    return _perfil.hoy()
 
 
 def _dias(iso):
@@ -46,12 +56,31 @@ def _dias(iso):
         return None
 
 
+def _verificado_csv(f: Path):
+    """Días desde la línea `# verificado: AAAA-MM-DD` del encabezado, o None si no está.
+
+    Su forma es contrato: si alguien reescribe el comentario a mano y le cambia el prefijo,
+    esto devuelve None y el bloque sale REVISAR en vez de volver en silencio a la alarma
+    falsa. Lo exige `TestElJusMideLaMiradaYNoElValor`.
+    """
+    try:
+        for linea in f.read_text(encoding="utf-8", errors="replace").splitlines():
+            if not linea.startswith("#"):
+                break
+            hallado = re.match(r"#\s*verificado:\s*(\d{4}-\d{2}-\d{2})\s*$", linea)
+            if hallado:
+                return _dias(hallado.group(1))
+    except OSError:
+        pass
+    return None
+
+
 def _ultima_fila_csv(f: Path):
-    """Primer campo de la última fila de datos de un csv con comentarios '#', y cuantas hay.
+    """Primer campo de la última fila de datos de un csv con comentarios '#', y cuántas hay.
 
     La primera fila útil no es un dato sino el encabezado, y contarla informaba un período
     de más en cada serie: 118 donde hay 117. Un archivo con encabezado y sin datos cuenta
-    como vacío, porque devolver "periodo" como último valor no ayuda a nadie.
+    como vacío, porque devolver "período" como último valor no ayuda a nadie.
     """
     try:
         filas = [l.strip() for l in f.read_text(encoding="utf-8", errors="replace").splitlines()
@@ -65,7 +94,7 @@ def _ultima_fila_csv(f: Path):
 
 
 def _periodo_a_fecha(p):
-    """'2026-08' o '2026-08-01' -> date. Los períodos mensuales se anclan al dia 1."""
+    """'2026-08' o '2026-08-01' -> date. Los períodos mensuales se anclan al día 1."""
     if not p:
         return None
     try:
@@ -85,32 +114,65 @@ def revisar(raiz: Path) -> list[dict]:
         out.append({"bloque": nombre, "estado": estado, "detalle": detalle,
                     "dias": dias, "arreglo": arreglo})
 
-    # -- manifiestos: cuando se verificó por última vez contra fuente primaria
-    for nombre, ruta, clave in (("normas", F / "normas" / "normas.json", "normas"),
-                                ("fallos", F / "jurisprudencia" / "fallos.json", "fallos")):
-        try:
-            m = json.loads(ruta.read_text(encoding="utf-8"))
-        except (OSError, ValueError):
-            add(nombre, "FALTA", f"no se pudo leer {ruta.name}",
-                arreglo="revisar la instalación del plugin")
-            continue
-        total = len(m.get(clave, []))
+    # -- normas: cuándo se le preguntó a la fuente oficial si el texto cambió. La fecha la
+    # sella `verificar_normas.py --sellar`, y sólo después de haber comparado de verdad.
+    ruta = F / "normas" / "normas.json"
+    try:
+        m = json.loads(ruta.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        add("normas", "FALTA", f"no se pudo leer {ruta.name}",
+            arreglo="revisar la instalación del plugin")
+    else:
+        total = len(m.get("normas", []))
         d = _dias(m.get("verificado"))
         if d is None:
-            add(nombre, "REVISAR", f"{total} en el manifiesto, sin fecha de verificación",
+            add("normas", "REVISAR", f"{total} en el manifiesto, sin fecha de verificación",
                 arreglo="/derecho:verificar")
         else:
-            venc = d > UMBRALES[nombre]
-            add(nombre, "VENCIDO" if venc else "OK",
-                f"{total} en el manifiesto, verificados hace {d} dias",
+            venc = d > UMBRALES["normas"]
+            add("normas", "VENCIDO" if venc else "OK",
+                f"{total} en el manifiesto, verificados hace {d} días",
                 d, "/derecho:verificar" if venc else None)
+
+    # -- fallos: acá NO va una fecha de verificación, y es lo que arregla este bloque.
+    #
+    # Una sentencia firme no cambia, así que la pregunta de las normas -"¿sigue vigente el
+    # texto?"- no tiene con qué contestarse acá. Lo que sí se puede perder es otra cosa: que
+    # el archivo sea OTRO documento, o que alguien lo haya tocado. Las dos se miden, y sin
+    # fecha: el cotejo de identidad contra la carátula lo escribe el descargador en cada
+    # bajada, y el hash lo controla la suite en cada corrida.
+    #
+    # Antes había un `verificado` en `fallos.json` que NINGÚN script escribía ni renovaba
+    # -- `verificar_normas.py` lo excluye a propósito porque la jurisprudencia no tiene
+    # verificador -- y esto lo mostraba como `[ok] fallos ... verificados hace N días`. Una
+    # fecha tipeada a mano que envejece sola y se lee como una medición es peor que no tener
+    # ninguna: es la alarma que no suena nunca.
+    try:
+        mj = json.loads((F / "jurisprudencia" / "fallos.json").read_text(encoding="utf-8"))
+        pj = json.loads((F / "jurisprudencia" / "procedencia.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        add("fallos", "FALTA", "no se pudo leer fallos.json o su procedencia",
+            arreglo="revisar la instalación del plugin")
+    else:
+        regj = pj.get("fallos", {})
+        censo = {"cotejado": 0, "no aplica": 0, "revisar": 0, "sin cotejo": 0}
+        for f in mj.get("fallos", []):
+            estado = str(regj.get(f["slug"], {}).get("cotejo", "")).split(":")[0].strip()
+            censo[estado if estado in censo else "sin cotejo"] += 1
+        total = sum(censo.values())
+        pendiente = censo["revisar"] + censo["sin cotejo"]
+        add("fallos", "REVISAR" if pendiente else "OK",
+            f"{total} en el manifiesto; identidad: {censo['cotejado']} cotejados, "
+            f"{censo['no aplica']} sin apellido que cotejar, {censo['revisar']} a revisar"
+            + (f", {censo['sin cotejo']} sin cotejar" if censo["sin cotejo"] else ""),
+            arreglo="/derecho:actualizar" if pendiente else None)
 
     # -- descargas efectivas contra el manifiesto
     try:
         proc = json.loads((F / "normas" / "procedencia.json").read_text(encoding="utf-8"))
         m = json.loads((F / "normas" / "normas.json").read_text(encoding="utf-8"))
         reg = proc.get("normas", proc)          # el manifiesto anida bajo "normas"
-        # Contar la INTERSECCION, no dos totales. Restar el tamanio de procedencia al de
+        # Contar la INTERSECCIÓN, no dos totales. Restar el tamaño de procedencia al de
         # normas con URL da cualquier cosa apenas hay una entrada registrada sin URL -una
         # norma aportada a mano, por ejemplo-: cada una de esas tapa una que falta bajar.
         con_url = [n["slug"] for n in m.get("normas", []) if n.get("url")]
@@ -120,7 +182,7 @@ def revisar(raiz: Path) -> list[dict]:
         bajadas = declaradas - len(pendientes)
         faltan = len(pendientes)
         add("descargas", "REVISAR" if faltan > 0 else "OK",
-            f"{bajadas} de {declaradas} normas con URL estan descargadas"
+            f"{bajadas} de {declaradas} normas con URL están descargadas"
             + (f"; faltan {faltan}" if faltan > 0 else ""),
             arreglo="/derecho:actualizar" if faltan > 0 else None)
     except (OSError, ValueError):
@@ -139,24 +201,72 @@ def revisar(raiz: Path) -> list[dict]:
                   if s not in regj
                   or not (F / "jurisprudencia" / regj[s].get("archivo", f"{s}.pdf")).exists()]
         add("sentencias", "REVISAR" if pend_j else "OK",
-            f"{len(con_url_j) - len(pend_j)} de {len(con_url_j)} fallos con URL estan descargados"
+            f"{len(con_url_j) - len(pend_j)} de {len(con_url_j)} fallos con URL están descargados"
             + (f"; faltan {len(pend_j)}" if pend_j else ""),
             arreglo="/derecho:actualizar" if pend_j else None)
     except (OSError, ValueError):
         add("sentencias", "FALTA", "no se pudo leer jurisprudencia/procedencia.json",
             arreglo="/derecho:actualizar")
 
-    # -- valor del jus: cambia todos los meses
-    ult, filas = _ultima_fila_csv(D / "jus-scba.csv")
+    # -- valor del jus
+    #
+    # Lo que vence acá NO es el valor, es la mirada. La SCBA publica con rezago de semanas,
+    # así que medir la antigüedad del último período pone el bloque en rojo todos los meses
+    # con el dato completo y nada que cargar, y encima el arreglo que sugería -"cargar el jus
+    # del mes"- era consejo falso. Se mide la fecha en que alguien abrió la tabla oficial,
+    # igual que las normas miden su `verificado` y no la antigüedad de las leyes.
+    ruta_jus = D / "jus-scba.csv"
+    ult, filas = _ultima_fila_csv(ruta_jus)
     f = _periodo_a_fecha(ult)
     if f is None:
         add("jus", "FALTA", "jus-scba.csv vacío o ilegible", arreglo="/derecho:actualizar")
     else:
+        dv = _verificado_csv(ruta_jus)
         d = (_hoy() - f).days
-        venc = d > UMBRALES["jus"]
-        add("jus", "VENCIDO" if venc else "OK",
-            f"ultimo valor: {ult} ({filas} filas, {d} dias)", d,
-            "cargar el jus del mes en fuentes/datos/jus-scba.csv" if venc else None)
+        if dv is None:
+            add("jus", "REVISAR",
+                f"último valor: {ult} ({filas} filas), sin línea `# verificado:`", d,
+                "mirar la tabla oficial y anotar `# verificado: AAAA-MM-DD` en jus-scba.csv")
+        elif dv > UMBRALES["jus"]:
+            add("jus", "VENCIDO",
+                f"último valor: {ult} ({filas} filas); nadie mira la tabla hace {dv} días", dv,
+                "abrir scba.gov.ar/paginas.asp?id=41320 y actualizar `# verificado:`")
+        else:
+            add("jus", "OK",
+                f"último valor: {ult} ({filas} filas, {d} días); "
+                f"la tabla oficial no publica posterior, mirada hace {dv} días", dv)
+
+    # -- valor de la UMA
+    #
+    # Mide la mirada y no el valor, igual que el jus. La diferencia es que acá el archivo nace
+    # vacío: no hay descargador porque la consulta oficial de la CSJN es un formulario y no una
+    # tabla, así que los valores se cargan a mano. Ese vacío se reporta FALTA y no OK -el
+    # vocabulario de estados es cerrado y FALTA es el que ya usa el jus para un csv sin datos-,
+    # porque un verde por ausencia de dato es verde con el instrumento apagado.
+    ruta_uma = D / "uma-csjn.csv"
+    ult, filas = _ultima_fila_csv(ruta_uma)
+    f = _periodo_a_fecha(ult)
+    if not ruta_uma.is_file():
+        add("UMA", "FALTA", "uma-csjn.csv no existe", arreglo="revisar la instalación")
+    elif f is None:
+        add("UMA", "FALTA",
+            "uma-csjn.csv está sin valores: la justicia nacional y federal no se regula",
+            arreglo="abrir csjn.gov.ar/transparencia/uma, cargar los valores y sellar "
+                    "`# verificado:`")
+    else:
+        dv = _verificado_csv(ruta_uma)
+        d = (_hoy() - f).days
+        if dv is None:
+            add("UMA", "REVISAR",
+                f"último valor: {ult} ({filas} filas), sin línea `# verificado:`", d,
+                "mirar la consulta oficial y anotar `# verificado: AAAA-MM-DD` en uma-csjn.csv")
+        elif dv > UMBRALES["uma"]:
+            add("UMA", "VENCIDO",
+                f"último valor: {ult} ({filas} filas); nadie mira la consulta hace {dv} días",
+                dv, "abrir csjn.gov.ar/transparencia/uma y actualizar `# verificado:`")
+        else:
+            add("UMA", "OK",
+                f"último valor: {ult} ({filas} filas, {d} días); mirada hace {dv} días", dv)
 
     # -- series de índices
     for nombre, arch in (("IPC", "serie-ipc.csv"), ("RIPTE", "serie-ripte.csv"),
@@ -170,7 +280,7 @@ def revisar(raiz: Path) -> list[dict]:
         d = (_hoy() - f).days
         venc = d > UMBRAL_SERIE.get(nombre, 60)
         add(f"serie {nombre}", "VENCIDO" if venc else "OK",
-            f"ultimo periodo: {ult} ({filas} periodos)", d,
+            f"último período: {ult} ({filas} períodos)", d,
             "/derecho:actualizar" if venc else None)
 
     # -- calendario de inhábiles: tiene que cubrir este año y el que viene
@@ -216,15 +326,15 @@ def imprimir(inf):
         print("\n  Repo: NO ENCONTRADO\n")
         print("  Sin el repo no hay datos, y sin datos las calculadoras no calculan:")
         print("  emiten el marcador y cortan, que es lo correcto pero no resuelve.\n")
-        print(f"    python3 configurar.py --repo /ruta/al/repo")
+        print("    python3 configurar.py --repo /ruta/al/repo")
         print(f"    export {ENV}=/ruta/al/repo")
-        # ENV_PLUGIN es una tupla: interpolarla directo imprimiria el repr de Python en la
+        # ENV_PLUGIN es una tupla: interpolarla directo imprimiría el repr de Python en la
         # cara del usuario, y justo en la salida que lee cuando NO encontró el repo.
         print(f"    (instalado como plugin, {' o '.join(ENV_PLUGIN)} lo resuelve solo)")
         return
     print(f"\n  Repo      {inf['repo']}")
     print(f"  Por       {inf['origen']}")
-    print(f"  Version   {inf['version'] or '(sin declarar)'}")
+    print(f"  Versión   {inf['version'] or '(sin declarar)'}")
     print(f"\n{_perfil.describir(inf['perfil'])}")
     print("\n  Datos:")
     orden = {"FALTA": 0, "VENCIDO": 1, "REVISAR": 2, "OK": 3}
@@ -236,11 +346,11 @@ def imprimir(inf):
         if b["arreglo"] and b["arreglo"] not in arreglos:
             arreglos.append(b["arreglo"])
     if arreglos:
-        print("\n  Para ponerlo al dia:")
+        print("\n  Para ponerlo al día:")
         for a in arreglos:
             print(f"    {a}")
     else:
-        print("\n  Todo al dia. Igual, la única forma de saber si una norma cambió en la")
+        print("\n  Todo al día. Igual, la única forma de saber si una norma cambió en la")
         print("  fuente oficial es preguntarle: /derecho:verificar")
 
 

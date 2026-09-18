@@ -1,15 +1,32 @@
 {
-  "_descripcion": "Fallos verificados a descargar. Lo consume scripts/descargar_jurisprudencia.py. Cada entrada tiene caratula, causa y fecha verificadas contra la sentencia: si falta alguno de los tres, va en la tabla de pendientes de INDICE.md, no aca.",
-  "verificado": "2026-09-13",
+  "_descripcion": "Fallos verificados a descargar. Lo consume scripts/descargar_jurisprudencia.py. Cada entrada tiene carátula, causa y fecha verificadas contra la sentencia: si falta alguno de los tres, va en la tabla de pendientes de INDICE.md, no acá.",
   "fallos": [
     {
       "slug": "camara-bahiablanca-castelli-141404-2014-08-28",
       "caratula": "Castelli, María Cecilia c/ Banco de Galicia y Buenos Aires S.A. s/ nulidad de acto jurídico",
-      "tribunal": "Camara Primera de Apelacion en lo Civil y Comercial de Bahia Blanca, Sala II",
+      "tribunal": "Cámara Primera de Apelación en lo Civil y Comercial de Bahía Blanca, Sala II",
       "causa": "141.404",
       "fecha": "2014-08-28",
       "url": "https://www.scba.gov.ar/includes/descarga.asp?id=30941&n=Ver%20sentencia%20(141.404).pdf",
-      "nota": "Instancia de origen de Castelli. Exigia dolo o grosera negligencia; ese estandar fue revisado por la SCBA en C. 119.562. Se conserva para no confundir las citas."
+      "nota": "Instancia de origen de Castelli. Exigía dolo o grosera negligencia; ese estándar fue revisado por la SCBA en C. 119.562. Se conserva para no confundir las citas."
+    },
+    {
+      "slug": "ccju-lencina-376-2023-03-21",
+      "caratula": "Lencina Stella Maris y otro/a c/ Marquez Diego Matias s/ Exclusión de herencia",
+      "tribunal": "Cámara de Apelación en lo Civil y Comercial de Junín",
+      "causa": "JU-376-2017",
+      "fecha": "2023-03-21",
+      "url": "https://juba.scba.gov.ar/VerTextoCompleto.aspx?idFallo=187213",
+      "nota": "Sumario B1600667. La sentencia escribe la carátula en mayúsculas y sin acentos: los apellidos se transcriben como están ahí y sólo «Exclusión», que es sustantivo común, se acentúa por idioma. Registro RS-43-2023; la fecha es la de la firma de la secretaria, 21/03/2023 12:22:08, y coincide con la de los tres votos."
+    },
+    {
+      "slug": "cclp2s1-bareiro-141806-2025-12-30",
+      "caratula": "Bareiro Baez Nidia Beatriz y otros c/ Servicios JM S.R.L. y otro/a s/ Daños y perj.autom. c/les. o muerte (exc.estado)",
+      "tribunal": "Cámara II de Apelación en lo Civil y Comercial Sala I, La Plata",
+      "causa": "141806",
+      "fecha": "2025-12-30",
+      "url": "https://juba.scba.gov.ar/VerTextoCompleto.aspx?idFallo=196625",
+      "nota": "Sentencia interlocutoria, registro 730. Sumario JUBA B259651. La carátula va en mayúsculas en el documento y termina con el año de radicación, 2020, que no se transcribe acá porque no es parte del nombre del juicio. La fecha sale del encabezado del propio texto -La Plata, 30 de Diciembre de 2025-: una interlocutoria no trae las constancias de firma al pie."
     },
     {
       "slug": "ccsm3-emr-76208-2020-07-22",
@@ -34,8 +51,8 @@
       "causa": "CAF 17990/2012/1/RH1",
       "fecha": "2021-10-14",
       "url": "https://classactionsargentina.com/wp-content/uploads/2021/10/2021-10-14-csjn_adduc-c.-aysa-55-ldc-comprende-costas.pdf",
-      "nota": "PDF alojado fuera de csjn.gov.ar. Para citarlo en una resolucion conviene recuperar la copia oficial.",
-      "origen": "Sitio privado, no el registro de la Corte. Queda pendiente reemplazarlo por sjconsulta: ver _csjn_verdocumento para el patron que devuelve texto."
+      "nota": "PDF alojado fuera de csjn.gov.ar. Para citarlo en una resolución conviene recuperar la copia oficial.",
+      "origen": "Sitio privado, no el registro de la Corte. Queda pendiente reemplazarlo por sjconsulta: ver _csjn_verdocumento para el patrón que devuelve texto."
     },
     {
       "slug": "csjn-aquinoisacio-fallos-327-3753",
@@ -86,6 +103,15 @@
       "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=5217731"
     },
     {
+      "slug": "csjn-bodegasyvinedosgiol-fallos-310-380",
+      "caratula": "Bodegas y Viñedos Giol E.E.I. y C. c/ Dirección General de Fabricaciones Militares",
+      "tribunal": "CSJN",
+      "causa": "B. 82. XX.",
+      "fecha": "1987-02-26",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoSumario.html?idDocumentoSumario=2003",
+      "nota": "Fallos 310:380. Anterior al corte de 1994: no tiene idDocumento y su botón Ver Fallo abre el OTRO visor, verDocumentoSumario.html?idDocumentoSumario=N, que devuelve el ESCANEO del tomo impreso -trece páginas del tomo 310-. Por eso el texto depende de la capa OCR del PDF."
+    },
+    {
       "slug": "csjn-buffoni-fallos-337-329",
       "caratula": "Buffoni, Osvaldo Omar c/ Castro, Ramiro Martín Y OTRO s/daños y perjuicios",
       "tribunal": "CSJN",
@@ -118,12 +144,30 @@
       "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=5921391"
     },
     {
+      "slug": "csjn-chukwudi-fallos-344-3458",
+      "caratula": "Chukwudi, Anthoni s/ incidente de recurso extraordinario",
+      "tribunal": "CSJN",
+      "causa": "CPE 990000182/2013/TO01/6/1/1/RH003",
+      "fecha": "2021-11-11",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7706441",
+      "nota": "Fallos 344:3458."
+    },
+    {
       "slug": "csjn-cuellopatriciadorotea-fallos-330-3483",
       "caratula": "CUELLO PATRICIA DOROTEA c/ LUCENA PEDRO ANTONIO Y OTRO s/DAÑOS Y PERJUICIOS",
       "tribunal": "CSJN",
       "causa": "Fallos 330:3483",
       "fecha": "2007-08-07",
       "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=6309991"
+    },
+    {
+      "slug": "csjn-defensordelpueblo-fallos-348-895",
+      "caratula": "Defensor del Pueblo de la Nación c/ Estado Nacional y otro s/ amparos y sumarísimos",
+      "tribunal": "CSJN",
+      "causa": "D. 85. XLV. RHE",
+      "fecha": "2025-08-26",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=8137921",
+      "nota": "Fallos 348:895. El estándar del art. 2 inc. d de la Ley 16.986 viene en un VOTO de Rosatti y Rosenkrantz según el sumario: leer de qué voto sale antes de citarlo."
     },
     {
       "slug": "csjn-duarte-fallos-337-901",
@@ -134,8 +178,17 @@
       "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7132211"
     },
     {
+      "slug": "csjn-editorialelatlantico-fallos-329-1936",
+      "caratula": "Editorial El Atlántico S.A.I.C. s/ concurso preventivo s/ incidente de revisión por AFIP",
+      "tribunal": "CSJN",
+      "causa": "E. 8. XLI. ROR",
+      "fecha": "2006-05-30",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoSumario.html?idDocumentoSumario=88113",
+      "nota": "Fallos 329:1936. Su botón Ver Fallo abre el visor verDocumentoSumario -el del escaneo del tomo-, aunque el fallo sea de 2006: ese patrón NO es exclusivo del lado viejo del corte de 1994."
+    },
+    {
       "slug": "csjn-estevezjoseluis-fallos-320-2105",
-      "caratula": "ESTÉVEZ JOSÉ LUIS s/SOLICITUD DE ESCARCELACION -CAUSA N 33.769-",
+      "caratula": "ESTÉVEZ JOSÉ LUIS s/SOLICITUD DE EXCARCELACIÓN -CAUSA N 33.769-",
       "tribunal": "CSJN",
       "causa": "Fallos 320:2105",
       "fecha": "1997-10-03",
@@ -148,6 +201,15 @@
       "causa": "Fallos 306:1752",
       "fecha": "1984-11-27",
       "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7835711"
+    },
+    {
+      "slug": "csjn-flores-fallos-340-765",
+      "caratula": "Flores, Lorena Romina c/ Giménez, Marcelino Osvaldo y otro s/ daños y perjuicios (acc. tran. c/ les. o muerte)",
+      "tribunal": "CSJN",
+      "causa": "F. 678. XLIX. REX",
+      "fecha": "2017-06-06",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7378892",
+      "nota": "Fallos 340:765. Es el fallo fundante de la oponibilidad del límite de cobertura al damnificado, al que la Corte remite en los posteriores."
     },
     {
       "slug": "csjn-gongora-fallos-336-392",
@@ -182,12 +244,39 @@
       "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=6351211"
     },
     {
+      "slug": "csjn-majul-fallos-342-1203",
+      "caratula": "Majul, Julio Jesús c/ Municipalidad de Pueblo General Belgrano y otros s/ acción de amparo ambiental",
+      "tribunal": "CSJN",
+      "causa": "CSJ 000714/2016/RH001",
+      "fecha": "2019-07-11",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7535693",
+      "nota": "Fallos 342:1203."
+    },
+    {
       "slug": "csjn-maldonadodanielenrique-fallos-328-4343",
       "caratula": "MALDONADO DANIEL ENRIQUE Y OTRO s/ROBO AGRAVADO POR EL USO DE ARMAS EN CONCURSO REAL CON HOMICIDIO CALIFICADO -CAUSA N 1174-",
       "tribunal": "CSJN",
       "causa": "Fallos 328:4343",
       "fecha": "2005-12-07",
       "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=5970071"
+    },
+    {
+      "slug": "csjn-martinuzzi-2026-09-03",
+      "caratula": "Martinuzzi, Luisa Raquel María c/ OMINT S.A. de Servicios s/ amparo",
+      "tribunal": "CSJN",
+      "causa": "CCF 009469/2018/3/RH002",
+      "fecha": "2026-09-03",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=8317461",
+      "nota": "Regulación por debajo del mínimo de 20 UMA del art. 48 de la Ley 27.423 en un amparo, sin declarar la inconstitucionalidad de la norma ni fundarlo. Sin cita de Fallos al momento de bajarlo: es de septiembre de 2026."
+    },
+    {
+      "slug": "csjn-milantictrans-fallos-344-1857",
+      "caratula": "Milantic Trans S.A. c/ Ministerio de la Producción (Ast. Río Santiago y ot.) s/ ejecución de sentencia",
+      "tribunal": "CSJN",
+      "causa": "CSJ 001460/2016/CS001",
+      "fecha": "2021-08-05",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7676481",
+      "nota": "Fallos 344:1857. El sumario que trae el debido proceso como parte del orden público internacional argentino es de un VOTO -Rosenkrantz y Highton de Nolasco-, no de la mayoría: leer de qué voto sale cada cosa antes de citarlo."
     },
     {
       "slug": "csjn-minagliamauroomaryotra-fallos-330-3801",
@@ -227,8 +316,26 @@
       "tribunal": "CSJN",
       "causa": "CNT 14604/2018/1/RH1",
       "fecha": "2021-09-02",
-      "url": "https://www.argentina.gob.ar/sites/default/files/2021/09/pogonza_-_art.pdf",
-      "nota": "Constitucionalidad de la instancia previa ante Comisiones Medicas. Falta la cita de Fallos."
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7691641",
+      "nota": "Constitucionalidad de la instancia previa ante Comisiones Médicas. Fallos: 344:2307, tomado del listado del buscador de sumarios de la Corte."
+    },
+    {
+      "slug": "csjn-productosfinancieros-ahumada-2013-12-10",
+      "caratula": "Productos Financieros S.A. c/ Ahumada, Ana Laura s/ cobro ejecutivo",
+      "tribunal": "CSJN",
+      "causa": "Competencia N° 577. XLVII.",
+      "fecha": "2013-12-10",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7073911",
+      "nota": "Es el fundante de la línea: \"Campos\" y \"Monzón\", del mismo día, remiten a él. La verificación del art. 36 in fine LDC tiene como único propósito decidir la competencia y no afecta la abstracción cambiaria ni los límites cognoscitivos del proceso ejecutivo. La incompetencia se declara de oficio por el orden público del art. 65 LDC."
+    },
+    {
+      "slug": "csjn-puebla-fallos-349-858",
+      "caratula": "Puebla, Julio César c/ EN - M Salud de la Nación y otros s/ amparo ley 16.986",
+      "tribunal": "CSJN",
+      "causa": "CAF 023482/2023/1/RH001",
+      "fecha": "2026-08-20",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=8309971",
+      "nota": "Fallos 349:858."
     },
     {
       "slug": "csjn-quarantajosecarlos-fallos-333-1674",
@@ -237,6 +344,15 @@
       "causa": "Fallos 333:1674",
       "fecha": "2010-08-31",
       "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=6884191"
+    },
+    {
+      "slug": "csjn-ramosjoseluis-fallos-333-311",
+      "caratula": "Ramos, José Luis c/ Estado Nacional (Min. de Defensa - A.R.A.) s/ indemnización por despido",
+      "tribunal": "CSJN",
+      "causa": "R. 354. XLIV. REX",
+      "fecha": "2010-04-06",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=6823321",
+      "nota": "Fallos 333:311. Ubicado por el buscador de sumarios con la frase exacta «legitima expectativa de permanencia»; el idDocumento salió del visor de ficha."
     },
     {
       "slug": "csjn-reintegro-de-hijo-fallos-336-849",
@@ -277,7 +393,7 @@
       "causa": "Fallos 330:3853",
       "fecha": "2007-09-04",
       "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=6323981",
-      "nota": "La caratula dice SUMARISIMO en el registro y el documento no contiene la palabra, ni acentuada ni sin acentuar, asi que el acento se restituyo por ortografia y no por cotejo: sumarisimo tiene una sola grafia posible en castellano. Los diacriticos de los nombres propios de este corpus se recuperaron del documento, nunca del idioma."
+      "nota": "La carátula dice SUMARISIMO en el registro y el documento no contiene la palabra, ni acentuada ni sin acentuar, así que el acento se restituyó por ortografía y no por cotejo: sumarísimo tiene una sola grafía posible en castellano. Los diacríticos de los nombres propios de este corpus se recuperaron del documento, nunca del idioma."
     },
     {
       "slug": "csjn-rodriguezpereyrajorgel-fallos-335-2333",
@@ -312,12 +428,30 @@
       "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=8027721"
     },
     {
+      "slug": "csjn-talleresnavalesdarsena-fallos-341-1679",
+      "caratula": "Talleres Navales Dársena Norte S.A.C.I. y N. s/ concurso preventivo",
+      "tribunal": "CSJN",
+      "causa": "T. 304. XLVI. ROR",
+      "fecha": "2018-11-21",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7489852",
+      "nota": "Fallos 341:1679. Enunciado vigente del límite del art. 17 de la Ley 19.549."
+    },
+    {
       "slug": "csjn-vallejos-fallos-344-1785",
       "caratula": "VALLEJOS, JULIO CÉSAR Y OTRO c/ HOSPITAL INTERZONAL DR. JOSÉ PENNA Y OTROS s/DAÑOS Y PERJUICIOS",
       "tribunal": "CSJN",
       "causa": "Fallos 344:1785",
       "fecha": "2021-07-08",
       "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7676111"
+    },
+    {
+      "slug": "csjn-valloud-fallos-348-1729",
+      "caratula": "Valloud, Ariel Hernán c/ Mercado Libre S.R.L. y otros s/ amparo",
+      "tribunal": "CSJN",
+      "causa": "CCF 006798/2025/CS001",
+      "fecha": "2025-12-11",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=8208611",
+      "nota": "Fallos 348:1729."
     },
     {
       "slug": "csjn-verbitskyhoracio-fallos-328-1146",
@@ -344,13 +478,22 @@
       "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=6121701"
     },
     {
+      "slug": "csjn-ypfenargas-2015-09-29",
+      "caratula": "Y.P.F. S.A. c/ resolución 575/12 - ENARGAS (expte. 19009/12) y otro s/ recurso directo a cámara",
+      "tribunal": "CSJN",
+      "causa": "Y. 18. L. ROR",
+      "fecha": "2015-09-29",
+      "url": "https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7250331",
+      "nota": "Limita la competencia jurisdiccional del ente: no basta que las partes sean terceros interesados si ninguna es sujeto de la ley del art. 9, y el productor no lo es. Revoca con costas y cita Fallos 321:776 y 328:651. Cita el art. 66, que es el número que la jurisdicción previa tenía ANTES del T.O. 2025 del Decreto 451/2025: hoy es el art. 53."
+    },
+    {
       "slug": "jfam4lm-gl-lm1573-2024-01-30",
       "caratula": "G. L. c/ M. C. S. M. s/ Protección contra la violencia familiar (Ley 12.569)",
       "tribunal": "Juzgado de Familia N 4 de La Matanza",
       "causa": "LM-1573-2024",
       "fecha": "2024-01-30",
       "url": "https://repositorio.mpd.gov.ar/jspui/bitstream/123456789/4919/1/GLC%20Sentencia%20completa.pdf",
-      "origen": "Repositorio del MPD, no el registro del tribunal: es de primera instancia y JUBA no la indexa. SAIJ tiene la primera indexada pero responde 403 a los agentes. Autoridad debil: se cita por el encuadre, no como precedente."
+      "origen": "Repositorio del MPD, no el registro del tribunal: es de primera instancia y JUBA no la indexa. SAIJ tiene la primera indexada, pero no se bajó de ahí y el archivo que está en el repo no es ese. Autoridad débil: se cita por el encuadre, no como precedente."
     },
     {
       "slug": "jfam8lp-dje-80155-2020-04-27",
@@ -363,11 +506,11 @@
     {
       "slug": "jpli-smmb-63-2024-11-20",
       "caratula": "S. M. M. B. c/ Y. E. D. s/ Protección contra la violencia familiar Ley 12.569",
-      "tribunal": "Juzgado de Paz Letrado de Ituzaingo",
+      "tribunal": "Juzgado de Paz Letrado de Ituzaingó",
       "causa": "63",
       "fecha": "2024-11-20",
       "url": "https://repositorio.mpd.gov.ar/jspui/bitstream/123456789/5464/1/SMMB%20(Causa%20N%c2%b0%2063).pdf",
-      "origen": "Repositorio del MPD, no el registro del tribunal: es de primera instancia y JUBA no la indexa. SAIJ tiene la primera indexada pero responde 403 a los agentes. Autoridad debil: se cita por el encuadre, no como precedente."
+      "origen": "Repositorio del MPD, no el registro del tribunal: es de primera instancia y JUBA no la indexa. SAIJ tiene la primera indexada, pero no se bajó de ahí y el archivo que está en el repo no es ese. Autoridad débil: se cita por el encuadre, no como precedente."
     },
     {
       "slug": "scba-abraham-l108164-2013-11-13",
@@ -378,12 +521,30 @@
       "url": "https://www.scba.gob.ar/includes/descarga.asp?id=27951&n=Ver%20sentencia%20(L108164).pdf"
     },
     {
+      "slug": "scba-acsae-c123064-2021-08-30",
+      "caratula": "A. C., S. A. E. c/ G., R. E. s/ Incidente de modificación de tenencia de hijos",
+      "tribunal": "SCBA",
+      "causa": "C. 123.064",
+      "fecha": "2021-08-30",
+      "url": "https://juba.scba.gov.ar/VerTextoCompleto.aspx?idFallo=181549",
+      "nota": "Carátula con reserva de identidad: el cotejo va por el número de causa."
+    },
+    {
       "slug": "scba-amoretti-l127353-2023-09-18",
       "caratula": "Amoretti, María Vanesa c/ Aegis Argentina S.A. y otros s/ Despido",
       "tribunal": "SCBA",
       "causa": "L. 127.353",
       "fecha": "2023-09-18",
       "url": "https://www.scba.gov.ar/includes/descarga.asp?id=52851&n=Ver+sentencia+%28causa+L127.353%29.pdf"
+    },
+    {
+      "slug": "scba-barreto-l121085-2020-08-31",
+      "caratula": "Barreto, Omar José contra Eleprint S.A. y otro/a. Despido",
+      "tribunal": "SCBA",
+      "causa": "L. 121.085",
+      "fecha": "2020-08-31",
+      "url": "https://juba.scba.gov.ar/VerTextoCompleto.aspx?idFallo=177296",
+      "nota": "Caso donde la fecha de los jueces y la del secretario NO coinciden: Genoud y Kogan firmaron el 27/08/2020, Pettigiani el 28 y la secretaria Di Tommaso el 31/08/2020 10:55:27. Vale la del secretario por el art. 4 del Ac. 3971/20, y es la que JUBA declara."
     },
     {
       "slug": "scba-barrios-c124096-2024-04-17",
@@ -472,7 +633,7 @@
       "causa": "L. 131.700",
       "fecha": "2025-09-19",
       "url": "https://www.scba.gov.ar/includes/descarga.asp?id=57501&n=Ver%20sentencia%20(causa%20L.%20131.700).pdf",
-      "nota": "Deja firme la inconstitucionalidad del plazo de caducidad de 90 dias habiles judiciales del art. 2 inc. j de la Ley 15.057. La composicion nominal de la mayoria no esta verificada: leer el PDF antes de citar votos."
+      "nota": "Deja firme la inconstitucionalidad del plazo de caducidad de 90 días hábiles judiciales del art. 2 inc. j de la Ley 15.057. La composición nominal de la mayoría no está verificada: leer el PDF antes de citar votos."
     },
     {
       "slug": "scba-marchetti-l121939-2020-05-13",
@@ -569,9 +730,27 @@
       "causa": "L. 124.807",
       "fecha": "2021-05-11",
       "url": "https://www.scba.gov.ar/includes/descarga.asp?id=47612&n=Ver%20sentencia%20(L124.807).pdf"
+    },
+    {
+      "slug": "scba-villalba-l120413-2019-02-27",
+      "caratula": "Villalba, Enrique Fernando contra Krafts Foods Argentina S.A. Reinstalación (Sumarísimo)",
+      "tribunal": "SCBA",
+      "causa": "L. 120.413",
+      "fecha": "2019-02-27",
+      "url": "https://juba.scba.gov.ar/VerTextoCompleto.aspx?idFallo=168236",
+      "nota": "Dictado por MAYORÍA DE FUNDAMENTOS, según consigna la ficha de JUBA: al citarlo hay que decir de qué voto sale cada cosa. Es anterior a la Ley 27.742, así que no decide sobre el art. 245 bis."
+    },
+    {
+      "slug": "tcp4-pld-81398-2017-06-08",
+      "caratula": "P., L. D. s/ Recurso de Queja (art. 433 del C.P.P.)",
+      "tribunal": "Tribunal de Casación Penal Sala IV, La Plata",
+      "causa": "81.398",
+      "fecha": "2017-06-08",
+      "url": "https://juba.scba.gov.ar/VerTextoCompleto.aspx?idFallo=145794",
+      "nota": "Registro interno 554. Carátula con reserva de identidad, así que el cotejo va por el número de causa. La ficha de JUBA consigna como tribunal de origen la Cámara de Apelación y Garantías Sala III de SAN MARTÍN, y el texto de la sentencia dice cuatro veces MERCEDES -la defensoría es de Moreno-Gral. Rodríguez y el Tribunal de RPJ es el nro. 1 de Mercedes-. Vale el documento."
     }
   ],
-  "_descarga_asp": "En las URLs de descarga.asp de la SCBA el parametro n= NO es cosmetico: el servidor lo usa como nombre de archivo y un n= distinto devuelve 'Archivo no hallado'. Copiar el n= exacto, con los espacios como %20. Por eso 'Vera' y 'Nidera' comparten id=39327 y son archivos distintos.",
-  "_csjn_verdocumento": "En sjconsulta de la CSJN hay dos visores y solo uno devuelve el texto: documentos/verDocumentoById.html?idDocumento=N lo trae; verDocumentoByIdLinksJSP devuelve solo la ficha. El buscador de sumarios responde HTTP 500 y el de fallos es POST sin parametros, asi que el id hay que conseguirlo por otra via y despues abrir ese patron.",
-  "_origen": "Campo obligatorio cuando la URL no es de un portal de la tabla de fuentes primarias de references/fuentes.md. Dice de donde salio el documento y por que no esta el registro del tribunal. No convierte al sitio en fuente que prevalezca."
+  "_descarga_asp": "En las URLs de descarga.asp de la SCBA el parámetro n= NO es cosmético: el servidor lo usa como nombre de archivo y un n= distinto devuelve 'Archivo no hallado'. Copiar el n= exacto, con los espacios como %20. Por eso 'Vera' y 'Nidera' comparten id=39327 y son archivos distintos.",
+  "_csjn_verdocumento": "En sjconsulta de la CSJN hay dos visores y sólo uno devuelve el texto: documentos/verDocumentoById.html?idDocumento=N trae el PDF y verDocumentoByIdLinksJSP devuelve sólo la ficha. El id sale del buscador de sumarios, que responde desde un navegador -a un cliente simple le da HTTP 500- y cuyo botón Ver Fallo abre justamente el visor de ficha: de ahí se copia el idDocumento y se cambia el visor. La cadena completa está en INDICE.md, Buscar por materia.",
+  "_origen": "Campo obligatorio cuando la URL no es de un portal de la tabla de fuentes primarias de references/fuentes.md. Dice de dónde salió el documento y por qué no está el registro del tribunal. No convierte al sitio en fuente que prevalezca."
 }

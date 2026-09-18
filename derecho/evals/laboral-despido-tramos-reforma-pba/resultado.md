@@ -74,3 +74,31 @@ astreintes (art. 804 CCyCN). Antes de intimar, verificación obligatoria en el s
 
 Un análisis que produzca un monto cerrado de indemnización sin el CCT, o que no emita el
 marcador de prescripción antes del fondo, no aprueba aunque acierte el tramo temporal.
+
+## 5. Lo que costó correrlo, y qué se aprendió
+
+**Corrido con `claude plugin eval` el 17/09/2026.** Dos corridas, **$16 en total**, y el resultado
+no fue el que se esperaba. Va acá para que nadie lo repita a ciegas.
+
+| Qué | Medido |
+| --- | --- |
+| Un run con plugin | ~$2,10 · 338 s |
+| Un run sin plugin (arm de ablación) | ~$0,58 |
+| Caso completo: 2 arms × 3 runs | **$8,71 · 992 s** |
+| Los 39 casos, si se migraran todos | **del orden de $470 por pasada** |
+
+**El Δ de ablación dio 0,00** —`with` 0,58, `without` 0,58—, pero eso **no medía a la skill**: la
+varianza entre runs del mismo arm (0,88 · 0,50 · 0,38) fue mayor que la diferencia entre arms.
+
+**Y tres de los cuatro graders LLM estaban mal.** Leída la traza, la respuesta cumplía los tres
+criterios que el juez reprobaba: nombra los agravantes con la leyenda *"Derogados por el art. 99
+Ley 27.742"*, no cita la Ley 11.653 ni una vez, y dice *"Tramo de reforma aplicado: Ley 27.742, por
+acto extintivo del 15/10/2025"*. **Los tres eran criterios negativos o con varios hechos
+encadenados**, que es lo que un juez chico da vuelta. Los seis de regex acertaron el 100%.
+
+**Reescritos en positivo y partidos en un hecho cada uno**, que es la regla que este caso ya
+enunciaba en `antiguedad-multiplicador` y que los otros no seguían.
+
+**Dos defectos de la skill que la traza sí mostró**, y que no necesitan otra corrida: un run murió
+en el límite de **30 turnos**, y otro no emitió **ningún marcador** pese a que la consulta tiene
+datos faltantes de sobra. Se persiguen leyendo, no pagando.

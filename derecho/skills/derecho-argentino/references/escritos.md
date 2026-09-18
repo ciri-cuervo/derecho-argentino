@@ -1,8 +1,8 @@
 # Escritos · diagnóstico, armado y formato de salida
 
-> Módulo de referencia de la skill `derecho-argentino`. La numeración de secciones es global y
-> se mantiene igual que en el SKILL.md original: las remisiones cruzadas entre módulos siguen siendo
-> válidas. Las reglas de integridad de la sección 2 rigen acá también.
+> Módulo de referencia de la skill `derecho-argentino`. Numeración global: las remisiones cruzadas
+> entre módulos siguen siendo válidas. **Rigen las reglas de integridad de la sección 2 del
+> SKILL.md.**
 
 ---
 
@@ -35,8 +35,8 @@ no se corrige en silencio un escrito que no va a prosperar por otra razón.
 
 ## 10 · Armado de escritos desde cero — criterio de salida
 
-> **Antes de escribir la primera línea, mirar si el repo ya tiene el modelo.** Hay treinta y
-> cinco modelos de escritos y siete guías de armado por rama, mapeados en `modelos.md`
+> **Antes de escribir la primera línea, mirar si el repo ya tiene el modelo.** Hay 34 modelos
+> de escritos y siete guías de armado por rama, mapeados en `modelos.md`
 > sección 23. No se copian: se usan para no omitir un acápite. El encuadre sale del módulo de
 > la rama; la salida sigue la sección 11 de este módulo, no el formato del archivo.
 

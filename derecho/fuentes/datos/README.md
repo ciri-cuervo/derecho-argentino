@@ -5,6 +5,7 @@ Los montos no se citan de memoria (sección 2 de la skill). Salen de acá, o no 
 | Archivo | Contenido | Lo consume | Estado |
 | --- | --- | --- | --- |
 | `jus-scba.csv` | Valor del jus del art. 9 de la Ley 14.967 y del jus del dec-ley 8904/77 | `honorarios_pba.py` | Cargado hasta 01/08/2026 |
+| `uma-csjn.csv` | Valor de la UMA del art. 19 de la Ley 27.423, justicia nacional y federal | `uma_csjn.py` | **Sin cargar**: se llena a mano, no hay descargador |
 | `inhabiles.json` | Ferias judiciales, puentes turísticos y asuetos | `plazos.py` | **Cargado** 2026; 2027 parcial |
 | `serie-ipc.csv` | IPC INDEC nivel general, índice base dic-2016 | `intereses.py` | Parcial: 2024-01 a 2026-08 |
 | `serie-ripte.csv` | RIPTE | `intereses.py` | Parcial: tres períodos |

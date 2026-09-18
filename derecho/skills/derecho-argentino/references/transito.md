@@ -1,6 +1,8 @@
 # Tránsito · régimen nacional y descargos
 
-> Módulo de referencia de la skill `derecho-argentino`. Numeración global, sección 28.
+> Módulo de referencia de la skill `derecho-argentino`. Numeración global: las remisiones cruzadas
+> entre módulos siguen siendo válidas. **Rigen las reglas de integridad de la sección 2 del
+> SKILL.md.**
 
 ---
 
@@ -92,7 +94,7 @@ responsabilidad recaiga sobre los propietarios.
 > contexto de precios móviles eso cambia el número, y es un cálculo que hay que rehacer, no
 > heredar del expediente.
 
-`[VERIFICAR MONTO ACTUALIZADO: valor de la UF - menor precio de venta al publico de un litro de nafta especial a la fecha del pago, art. 84 Ley 24.449]`
+`[VERIFICAR MONTO ACTUALIZADO: valor de la UF - menor precio de venta al público de un litro de nafta especial a la fecha del pago, art. 84 Ley 24.449]`
 
 **Extinción de acciones y sanciones (art. 88).** Por **muerte** del imputado o sancionado, por
 **indulto o conmutación**, y por **prescripción**.
@@ -226,7 +228,7 @@ con alcoholemia superior a 0 mg/l**.
 > la fecha del hecho**: para hechos anteriores al 04/05/2023 en jurisdicción nacional rige el límite
 > anterior.
 >
-> `[VERIFICAR VIGENCIA: art. 48 inc. a Ley 24.449 texto Ley 27.714 y adhesión de la jurisdicción donde se labro el acta - el régimen nacional no se aplica de pleno derecho en cada provincia]`
+> `[VERIFICAR VIGENCIA: art. 48 inc. a Ley 24.449 texto Ley 27.714 y adhesión de la jurisdicción donde se labró el acta - el régimen nacional no se aplica de pleno derecho en cada provincia]`
 
 **Recursos (arts. 40 y 41, texto Ley 14.393):**
 
@@ -251,7 +253,7 @@ apelación dentro de los cinco días** (art. 41).
 > arts. 8 y 9 de la Ley 13.927— y la **tasa de justicia administrativa de infracciones de
 > tránsito** por peticiones administrativas, oficios particulares y desarchivo de actuaciones.
 > Los importes están en pesos de 2020 y hay que buscarlos en la ley impositiva del año en curso.
-> `[VERIFICAR MONTO ACTUALIZADO: tasa de justicia administrativa de infracciones de transito y certificado de libre deuda - ley impositiva PBA del año en curso, el art. 72 de la Ley 15.170 es de 2020]`
+> `[VERIFICAR MONTO ACTUALIZADO: tasa de justicia administrativa de infracciones de tránsito y certificado de libre deuda - ley impositiva PBA del año en curso, el art. 72 de la Ley 15.170 es de 2020]`
 
 ### 28.5 bis El catálogo de contravenciones provinciales — cómo leer el inciso del acta
 
@@ -292,7 +294,7 @@ Y y Z.
 > supuestos de arresto del art. 86. Si el acta califica de grave una conducta cuyo inciso del
 > art. 77 el Anexo V dejó sin reglamentar, y la sanciona por el artículo de circulación, la
 > calificación es atacable aunque la multa no lo sea.
-> `[INSERTAR FALLO VERIFICADO: si una falta cuyo inciso del art. 77 quedo Sin Reglamentar en el Anexo V del Decreto 532/2009 conserva el caracter de GRAVE a los efectos de la prescripción del art. 89 y del arresto del art. 86 - aportar juzgado, camara y año]`
+> `[INSERTAR FALLO VERIFICADO: si una falta cuyo inciso del art. 77 quedó Sin Reglamentar en el Anexo V del Decreto 532/2009 conserva el carácter de GRAVE a los efectos de la prescripción del art. 89 y del arresto del art. 86 - aportar juzgado, cámara y año]`
 
 #### La letra del acta no es la letra de la ley
 
@@ -505,7 +507,7 @@ No llega a un acta de conductor, pero completa el Anexo V:
 >   delega: la Dirección Provincial de Política y Seguridad Vial *"dispondrá la información que
 >   contendrá el acta de infracción, sus formas y modalidades"*. Vive en una disposición de ese
 >   organismo, no en el decreto, y desde acá no se puede cerrar.
->   `[VERIFICAR RESOLUCIÓN REGISTRAL VIGENTE: Dirección Provincial de Politica y Seguridad Vial PBA - contenido y diseño del acta unica de infracción, art. 7 del Anexo I del Decreto 532/2009 texto Decreto 1350/2018]`
+>   `[VERIFICAR RESOLUCIÓN REGISTRAL VIGENTE: Dirección Provincial de Política y Seguridad Vial PBA - contenido y diseño del acta única de infracción, art. 7 del Anexo I del Decreto 532/2009 texto Decreto 1350/2018]`
 >
 > **Lo que sí está y falta escribir es el Anexo V**, régimen general de contravenciones: 40
 > artículos, con la sanción **expresada en U.F. y no en pesos** —por eso no se vence, y por eso

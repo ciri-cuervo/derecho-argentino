@@ -1,14 +1,14 @@
-Ley 26.485 - Proteccion integral a las mujeres (texto actualizado)
+Ley 26.485 - Protección integral a las mujeres (texto actualizado)
 ==============================================================================
-Jurisdiccion:     nacional
+Jurisdicción:     nacional
 Fuente:           https://www.argentina.gob.ar/normativa/nacional/ley-26485-152155/actualizacion
-Descargado:       2026-09-14
-SHA-256 (crudo):  675a490c164dd629b13f82a125db0e17c9d7288de4260014a4df806686378178
+Descargado:       2026-09-17
+SHA-256 (crudo):  2931646045485371b97f206d20e40044597dad2f35a92d006eae4d29ad629d60
 Charset:          utf-8
 
-Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
-NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
-Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
 el manifiesto `normas.json`.
 ==============================================================================
 

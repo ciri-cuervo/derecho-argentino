@@ -1,6 +1,8 @@
 # Previsional · prestaciones del SIJP/SIPA y sus requisitos
 
-> Módulo de referencia de la skill `derecho-argentino`. Numeración global, sección 32.
+> Módulo de referencia de la skill `derecho-argentino`. Numeración global: las remisiones cruzadas
+> entre módulos siguen siendo válidas. **Rigen las reglas de integridad de la sección 2 del
+> SKILL.md.**
 
 ---
 
@@ -32,7 +34,7 @@ retiro programado, con la renta vitalicia previsional y con las imposiciones vol
 son las dos únicas derogaciones enumeradas del art. 17. Lo que sigue abierto es el resto del
 articulado.
 
-`[REVISIÓN NORMATIVA REQUERIDA: subsistencia de un artículo del régimen de capitalización de la Ley 24.241 que no sea de los resueltos en 32.2 ter - la derogación por la Ley 26.425 es organica, por absorción del art. 1 y clausula general del art. 20, no enumerada. El consolidado no lo marca: resolverlo contra el texto de la 26.425, que está en fuentes/]`
+`[REVISIÓN NORMATIVA REQUERIDA: subsistencia de un artículo del régimen de capitalización de la Ley 24.241 que no sea de los resueltos en 32.2 ter - la derogación por la Ley 26.425 es orgánica, por absorción del art. 1 y cláusula general del art. 20, no enumerada. El consolidado no lo marca: resolverlo contra el texto de la 26.425, que está en fuentes/]`
 `[VERIFICAR MONTO ACTUALIZADO: haberes, PBU y topes - se actualizan por movilidad y no figuran en el texto de la ley]`
 
 ### 32.1 Prestación Básica Universal (art. 19)
@@ -87,9 +89,9 @@ la PAP computa los aportes **al SIPA** —el tramo nuevo—. Son dos ventanas di
 carrera del afiliado, y por eso se suman sin superponerse.
 
 > **Cuidado con el tope.** El 1,5% de la **compensatoria** tiene el máximo de **35 años** del
-> art. 24 inc. a). El art. 16 de la Ley 26.425 remite a "igual forma y metodología" pero **no
+> art. 24 inc. a). El art. 16 de la Ley 26.425 remite a "igual forma y metodología", pero **no
 > repite el tope** en su texto.
-> `[REVISIÓN NORMATIVA REQUERIDA: si el máximo de 35 años del art. 24 inc. a de la Ley 24.241 alcanza a la PAP por la remisión a "igual forma y metodologia" del art. 16 de la Ley 26.425, o si la PAP no tiene tope propio - el texto de la 26.425 no lo dice y la diferencia cambia el haber]`
+> `[REVISIÓN NORMATIVA REQUERIDA: si el máximo de 35 años del art. 24 inc. a de la Ley 24.241 alcanza a la PAP por la remisión a "igual forma y metodología" del art. 16 de la Ley 26.425, o si la PAP no tiene tope propio - el texto de la 26.425 no lo dice y la diferencia cambia el haber]`
 
 **Y una regla que resuelve pleitos de legitimación:** por el **art. 18 de la Ley 26.425**, la
 **ANSES se subroga** en las obligaciones y derechos que la Ley 24.241 asignaba a las **AFJP**.
@@ -168,7 +170,7 @@ aplicación puede fijar pautas objetivas.
 **El conviviente excluye al cónyuge supérstite** en el supuesto de que a éste se lo hubiere
 declarado culpable de la separación personal o del divorcio.
 
-`[VERIFICAR VIGENCIA: la exclusión del conyuge por culpabilidad en la separación o el divorcio presupone categorias del régimen anterior al CCyCN, que suprimio el divorcio causado. Verificar como se aplica hoy antes de invocarla]`
+`[VERIFICAR VIGENCIA: la exclusión del cónyuge por culpabilidad en la separación o el divorcio presupone categorías del régimen anterior al CCyCN, que suprimió el divorcio causado. Verificar cómo se aplica hoy antes de invocarla]`
 
 **Sin derechohabientes (art. 54).** Se abona el saldo de la cuenta de capitalización individual a
 los **herederos declarados judicialmente** — artículo que debe leerse con la advertencia del
@@ -198,5 +200,5 @@ encabezado de este módulo sobre el régimen de capitalización.
 > jubilatoria, y el procedimiento administrativo ante ANSES. **La Ley 26.425 ya no está en esta
 > lista**: bajado su texto, entraron la prestación adicional por permanencia (32.2 bis) y el
 > destino de cada modalidad del régimen de capitalización (32.2 ter). Para
-> eso rige el ruteo de `otras-ramas.md` sección 19, **con su advertencia**, y hay tres modelos en
+> eso rige el ruteo de `perfiles-heredados.md` sección 19, **con su advertencia**, y hay tres modelos en
 > `modelos.md` 23.7.

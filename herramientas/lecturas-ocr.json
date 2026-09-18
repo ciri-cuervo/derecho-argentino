@@ -1,29 +1,29 @@
 {
-  "_descripcion": "Veredicto LEIDO sobre la capa de texto de cada documento de fuentes/jurisprudencia/. No se estima: se abre el PDF, se lee y se anota. calidad_ocr.py mide aparte la basura de caracteres, que es el unico de los defectos que una medida detecta bien. IMPORTANTE: extraer SIEMPRE con `pdftotext -layout`. Sin esa opcion, cinco documentos sanos parecian tener las columnas intercaladas y se los habia clasificado como rotos: el defecto estaba en la extraccion, no en ellos.",
-  "_criterio": "Hay tres defectos distintos -basura de caracteres, columnas mezcladas y sustituciones que dejan palabras validas pero equivocadas- y solo el primero se detecta con una medida. Los otros dos se leen. Cuando el estado es destruido o sustituciones, `recuperado` apunta al texto releido con tesseract en derecho/fuentes/jurisprudencia/ocr/. El estado sigue describiendo la capa de texto del PDF, que no cambió: lo que hay es una copia derivada, y toda cita literal se coteja contra la pagina.",
+  "_descripcion": "Veredicto LEÍDO sobre la capa de texto de cada documento de fuentes/jurisprudencia/. No se estima: se abre el PDF, se lee y se anota. calidad_ocr.py mide aparte la basura de caracteres, que es el único de los defectos que una medida detecta bien. IMPORTANTE: extraer SIEMPRE con `pdftotext -layout`. Sin esa opción, cinco documentos sanos parecían tener las columnas intercaladas y se los había clasificado como rotos: el defecto estaba en la extracción, no en ellos.",
+  "_criterio": "Hay tres defectos distintos -basura de caracteres, columnas mezcladas y sustituciones que dejan palabras válidas pero equivocadas- y solo el primero se detecta con una medida. Los otros dos se leen. Cuando el estado es destruido o sustituciones, `recuperado` apunta al texto releído con tesseract en derecho/fuentes/jurisprudencia/ocr/. El estado sigue describiendo la capa de texto del PDF, que no cambió: lo que hay es una copia derivada, y toda cita literal se coteja contra la página.",
   "_vocabulario": {
-    "limpio": "se puede transcribir un considerando desde el texto extraido",
+    "limpio": "se puede transcribir un considerando desde el texto extraído",
     "layout": "se lee bien, pero SOLO extrayendo con `pdftotext -layout`; el extractor por defecto le desordena las palabras y parece roto",
-    "sustituciones": "palabras validas pero equivocadas; se lee, no se copia sin cotejar",
-    "destruido": "el OCR no devolvio texto sino caracteres sueltos"
+    "sustituciones": "palabras válidas pero equivocadas; se lee, no se copia sin cotejar",
+    "destruido": "el OCR no devolvió texto sino caracteres sueltos"
   },
-  "fijado": "2026-09-15",
-  "nota": "Los documentos de fuentes/jurisprudencia/ leidos uno por uno: hay una entrada por documento y no falta ninguno. Cuantos son lo dice calidad_ocr.py --pendientes, que los cuenta; escribir el numero aca lo deja vencido en la proxima descarga.",
+  "fijado": "2026-09-17",
+  "nota": "Los documentos de fuentes/jurisprudencia/ leídos uno por uno: hay una entrada por documento y no falta ninguno. Cuantos son lo dice calidad_ocr.py --pendientes, que los cuenta; escribir el número acá lo deja vencido en la próxima descarga.",
   "lecturas": {
     "camara-bahiablanca-castelli-141404-2014-08-28": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "csjn-acostaalejandroesteban-fallos-331-858": {
       "estado": "limpio",
       "fecha": "2026-09-13",
-      "nota": "mayoria hace lugar y deja sin efecto; Highton y Petracchi en disidencia desestiman la queja: leer el dispositivo entero, no el ultimo"
+      "nota": "mayoría hace lugar y deja sin efecto; Highton y Petracchi en disidencia desestiman la queja: leer el dispositivo entero, no el último"
     },
     "csjn-adduc-aysa-2021-10-14": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "csjn-aquinoisacio-fallos-327-3753": {
       "estado": "limpio",
@@ -33,7 +33,7 @@
     "csjn-arancibiaclavelenrique-fallos-327-3312": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "csjn-arosteguipablomartin-fallos-331-570": {
       "estado": "limpio",
@@ -43,29 +43,35 @@
     "csjn-arriolasebastianyotros-fallos-332-1963": {
       "estado": "limpio",
       "fecha": "2026-09-13",
-      "nota": "se transcribio el considerando 18 a penal.md 24.9"
+      "nota": "se transcribió el considerando 18 a penal.md 24.9"
     },
     "csjn-bazterrica-fallos-308-1392": {
       "estado": "destruido",
       "fecha": "2026-09-13",
-      "nota": "Considerando: W ;+W E0=F0=-5+W ;+W Camara Q<+C+W &+-5@=+;W",
+      "nota": "Considerando: W ;+W E0=F0=-5+W ;+W Cámara Q<+C+W &+-5@=+;W",
       "recuperado": "ocr/csjn-bazterrica-fallos-308-1392.txt",
       "recuperado_el": "2026-09-14"
     },
     "csjn-bianchiguillermooscar-fallos-325-1404": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+    },
+    "csjn-bodegasyvinedosgiol-fallos-310-380": {
+      "estado": "destruido",
+      "fecha": "2026-09-17",
+      "recuperado": "ocr/csjn-bodegasyvinedosgiol-fallos-310-380.txt",
+      "nota": "escaneo del tomo 310 sin capa de texto alguna: pdftotext devuelve 13 caracteres. Releído con tesseract, 29.429 caracteres, y de ahí se confirmaron la carátula y la fecha del encabezado. El texto recuperado trae erratas -«irregularidad del actor» por «del acto», «cons. 72» por «cons. 7º», «mulificó» por «nulificó»-, así que se lee y no se copia sin cotejar contra la imagen"
     },
     "csjn-buffoni-fallos-337-329": {
       "estado": "layout",
       "fecha": "2026-09-14",
-      "nota": "se lee bien con `pdftotext -layout`; sin esa opcion el extractor por defecto le desordena las palabras y parece mezclado. leido entero con -layout: el holding esta en fallos-csjn.md 34.4"
+      "nota": "se lee bien con `pdftotext -layout`; sin esa opción el extractor por defecto le desordena las palabras y parece mezclado. leído entero con -layout: el holding está en fallos-csjn.md 34.4"
     },
     "csjn-cambiasoperesdenealonc-fallos-330-3725": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "csjn-canales-fallos-342-697": {
       "estado": "limpio",
@@ -75,39 +81,60 @@
     "csjn-casalmatiaseugenioyotr-fallos-328-3399": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+    },
+    "csjn-chukwudi-fallos-344-3458": {
+      "estado": "layout",
+      "fecha": "2026-09-17",
+      "nota": "leído con -layout: cuerpo limpio, acentos correctos. De ahí salieron las citas de penal.md 24"
     },
     "csjn-cuellopatriciadorotea-fallos-330-3483": {
       "estado": "limpio",
       "fecha": "2026-09-13",
       "nota": "holding en fallos-csjn.md 34.4"
     },
+    "csjn-defensordelpueblo-fallos-348-895": {
+      "estado": "limpio",
+      "fecha": "2026-09-17",
+      "nota": "firmado digitalmente, sin escaneo: el texto sale exacto y el bloque de firmas se lee. Rosatti y Rosenkrantz la primera opinión, Lorenzetti por su voto, mismo dispositivo."
+    },
     "csjn-duarte-fallos-337-901": {
       "estado": "layout",
       "fecha": "2026-09-14",
-      "nota": "se lee bien con `pdftotext -layout`; sin esa opcion el extractor por defecto le desordena las palabras y parece mezclado. la fecha manuscrita sigue ilegible ('5 de, BfJP-Io de Zo/4'); el cuerpo se lee"
+      "nota": "se lee bien con `pdftotext -layout`; sin esa opción el extractor por defecto le desordena las palabras y parece mezclado. la fecha manuscrita sigue ilegible ('5 de, BfJP-Io de Zo/4'); el cuerpo se lee"
+    },
+    "csjn-editorialelatlantico-fallos-329-1936": {
+      "estado": "sustituciones",
+      "fecha": "2026-09-17",
+      "nota": "leído con -layout. El cuerpo se entiende, pero el extractor convierte los guiones de inciso en «C»: «ha establecido Cen concordancia con el criterio sostenido por el a quoC». Se lee y no se copia sin cotejar"
     },
     "csjn-estevezjoseluis-fallos-320-2105": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "csjn-fiorentino-fallos-306-1752": {
       "estado": "destruido",
       "fecha": "2026-09-13",
-      "nota": "Considerando: 1*) i BEi Que vei segtin vi surge Xi de i los",
+      "nota": "Considerando: 1°) Que según surge de los autos principales. Las 27 páginas se leyeron una por una contra la imagen: el cotejo declarado en ocr/correcciones/ lleva 25 correcciones y 2 renglones que NO se corrigen porque la errata es del tomo impreso -«inpugnó» en la pág. 11 y «vvía» en la pág. 13-. El resto del archivo sigue siendo salida cruda de tesseract.",
       "recuperado": "ocr/csjn-fiorentino-fallos-306-1752.txt",
-      "recuperado_el": "2026-09-14"
+      "recuperado_el": "2026-09-14",
+      "cotejado_el": "2026-09-16"
+    },
+    "csjn-flores-fallos-340-765": {
+      "estado": "sustituciones",
+      "fecha": "2026-09-17",
+      "nota": "leído con -layout, entero. Mismas sustituciones que el resto de los tomos escaneados -«Mareelino» por «Marcelino», «aee. trán.» por «acc. trán.», «consti tucional»-. Y el BLOQUE DE FIRMAS está arruinado: los apellidos de la mayoría no se pueden leer, así que de este documento no sale el reparto de votos. Lo que sí: Rosenkrantz vota por separado, y Rosatti y Maqueda desestiman por el art. 280."
     },
     "csjn-gongora-fallos-336-392": {
       "estado": "layout",
       "fecha": "2026-09-14",
-      "nota": "se lee bien con `pdftotext -layout`; sin esa opcion el extractor por defecto le desordena las palabras y parece mezclado. de 2013. Sin -layout parecia mezclado y por eso se habia dicho que la epoca no manda: eso sigue siendo cierto por otras razones, pero este documento se lee"
+      "nota": "se lee bien con `pdftotext -layout`; sin esa opción el extractor por defecto le desordena las palabras y parece mezclado. de 2013. Sin -layout parecía mezclado y por eso se había dicho que la época no manda: eso sigue siendo cierto por otras razones, pero este documento se lee"
     },
     "csjn-guarda-adoptabilidad-fallos-346-287": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "csjn-homicidio-simple-fallos-342-2389": {
       "estado": "limpio",
@@ -117,17 +144,32 @@
     "csjn-larrabeitiyanezanatole-fallos-330-4592": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+    },
+    "csjn-majul-fallos-342-1203": {
+      "estado": "limpio",
+      "fecha": "2026-09-17",
+      "nota": "leído con -layout, entero. Se transcribieron los considerandos 10 a 14 sin cotejo adicional. Sólo la cabecera decorativa de página sale como ruido, no el texto."
     },
     "csjn-maldonadodanielenrique-fallos-328-4343": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+    },
+    "csjn-martinuzzi-2026-09-03": {
+      "estado": "limpio",
+      "fecha": "2026-09-17",
+      "nota": "firmado digitalmente. Mismas firmas que Fallos 348:895: Rosatti y Rosenkrantz, y Lorenzetti por su voto."
+    },
+    "csjn-milantictrans-fallos-344-1857": {
+      "estado": "layout",
+      "fecha": "2026-09-17",
+      "nota": "leído con -layout: encabezado y fecha legibles -«Buenos Aires, 5 de Agosto de 2021»-, acentos correctos y sin sustituciones en los dos votos. Las firmas digitales del pie identifican quién suscribe cada uno"
     },
     "csjn-minagliamauroomaryotra-fallos-330-3801": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "csjn-montalvo-fallos-313-1333": {
       "estado": "destruido",
@@ -144,218 +186,248 @@
     "csjn-napolierikaelizabethyo-fallos-321-3630": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "csjn-pogonza-2021-09-02": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+    },
+    "csjn-productosfinancieros-ahumada-2013-12-10": {
+      "estado": "sustituciones",
+      "fecha": "2026-09-17",
+      "nota": "escaneo con las sustituciones del tomo: «el» por «c/», «si» por «s/», «arto» por «art.», «limites» sin tilde. Se lee y los tres considerandos se transcribieron cotejando; no se copia una cita sin volver a la página."
+    },
+    "csjn-puebla-fallos-349-858": {
+      "estado": "limpio",
+      "fecha": "2026-09-17",
+      "nota": "leído con -layout de punta a punta: sin sustituciones, y las transcripciones de los arts. 15, 16 y 48 de la Ley 27.423 se tomaron de ahí"
     },
     "csjn-quarantajosecarlos-fallos-333-1674": {
       "estado": "limpio",
       "fecha": "2026-09-13",
       "nota": "se transcribieron los considerandos 18, 22 y 23 a penal.md 24.5"
     },
+    "csjn-ramosjoseluis-fallos-333-311": {
+      "estado": "layout",
+      "fecha": "2026-09-17",
+      "nota": "leído con -layout de punta a punta: acentos correctos y sin sustituciones. Se transcribieron considerandos del 4 al 9 sin cotejo adicional"
+    },
     "csjn-reintegro-de-hijo-fallos-336-849": {
       "estado": "sustituciones",
       "fecha": "2026-09-14",
-      "nota": "reclasificado de layout a sustituciones al leerlo para escribir el holding: -layout hace falta pero no alcanza. El cuerpo se lee, con la ñ convertida en ft ('Seftalo', 'niftas'), 'arto 13' por 'art. 13', 'nO 1' por 'n° 1', acentos perdidos ('surgia', 'habia') y espacios espurios ('obran tes'). En la caratula del encabezado el 'c/' sale como 'el' y el 'sI' por 's/', y la fecha del encabezado sigue ilegible ('.201.3'). Mismo patron que csjn-rodriguezpereyrajorgel, que esta clasificado sustituciones",
+      "nota": "reclasificado de layout a sustituciones al leerlo para escribir el holding: -layout hace falta pero no alcanza. El cuerpo se lee, con la ñ convertida en ft ('Seftalo', 'niftas'), 'arto 13' por 'art. 13', 'nO 1' por 'n° 1', acentos perdidos ('surgia', 'había') y espacios espurios ('obran tes'). En la carátula del encabezado el 'c/' sale como 'el' y el 'sI' por 's/', y la fecha del encabezado sigue ilegible ('.201.3'). Mismo patrón que csjn-rodriguezpereyrajorgel, que está clasificado sustituciones",
       "recuperado": "ocr/csjn-reintegro-de-hijo-fallos-336-849.txt",
       "recuperado_el": "2026-09-14"
     },
     "csjn-restitucion-internacional-fallos-344-3078": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "csjn-restitucion-internacional-fallos-345-358": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "csjn-restitucion-internacional-fallos-347-1234": {
       "estado": "limpio",
       "fecha": "2026-09-13",
-      "nota": "el texto más limpio del conjunto; las comillas curvas hacian que una version del medidor lo marcara como basura"
+      "nota": "el texto más limpio del conjunto; las comillas curvas hacían que una versión del medidor lo marcara como basura"
     },
     "csjn-reyes-aguilera-fallos-330-3853": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "csjn-rodriguezpereyrajorgel-fallos-335-2333": {
       "estado": "sustituciones",
       "fecha": "2026-09-13",
-      "nota": "se lee, con 'da~os', 'dafios', 'perjuiciosu'. De 2012: otra vez, la epoca no manda",
+      "nota": "se lee, con 'da~os', 'dafios', 'perjuiciosu'. De 2012: otra vez, la época no manda",
       "recuperado": "ocr/csjn-rodriguezpereyrajorgel-fallos-335-2333.txt",
       "recuperado_el": "2026-09-14"
     },
     "csjn-santacoloma-fallos-308-1160": {
       "estado": "sustituciones",
       "fecha": "2026-09-13",
-      "nota": "'ta sentencia de Ja Sala IT de la Cemara Nacional de Apilaciones': la basura de caracteres es baja porque las sustituciones dejan palabras validas",
+      "nota": "'ta sentencia de Ja Sala IT de la Cemara Nacional de Apilaciones': la basura de caracteres es baja porque las sustituciones dejan palabras válidas",
       "recuperado": "ocr/csjn-santacoloma-fallos-308-1160.txt",
       "recuperado_el": "2026-09-14"
     },
     "csjn-simonjuliohectoryotros-fallos-328-2056": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "csjn-sin-civ86767-2024-10-22": {
       "estado": "layout",
       "fecha": "2026-09-15",
       "nota": "PDF de la CSJN, 2161 renglones con -layout. Sin -layout la doble columna del membrete se mezcla con el cuerpo. Los cuatro votos se leen enteros y se transcribieron considerandos 13 y 14 del voto que abre en familia.md 18.10."
     },
+    "csjn-talleresnavalesdarsena-fallos-341-1679": {
+      "estado": "layout",
+      "fecha": "2026-09-17",
+      "nota": "el CUERPO se lee limpio con -layout y de ahí salieron las citas de 46.3.1, pero el membrete de cada carilla viene destruido: la línea de la fecha sale «Buenos Aires, 24 ¿s '» y hay renglones de firma ilegibles. La fecha declarada, 21/11/2018, sale del registro y NO del documento. Hay además una sustitución suelta, «ilusOria» por «ilusoria», corregida al citar"
+    },
     "csjn-vallejos-fallos-344-1785": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+    },
+    "csjn-valloud-fallos-348-1729": {
+      "estado": "limpio",
+      "fecha": "2026-09-17",
+      "nota": "leído con -layout: trae la sentencia de la Corte del 11/12/2025 Y el dictamen del 17/10/2025 al que remite, con su firma digital"
     },
     "csjn-verbitskyhoracio-fallos-328-1146": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "csjn-villamil-fallos-340-345": {
       "estado": "layout",
       "fecha": "2026-09-14",
-      "nota": "se lee bien con `pdftotext -layout`; sin esa opcion el extractor por defecto le desordena las palabras y parece mezclado. el encabezado sigue ilegible; el cuerpo se lee"
+      "nota": "se lee bien con `pdftotext -layout`; sin esa opción el extractor por defecto le desordena las palabras y parece mezclado. el encabezado sigue ilegible; el cuerpo se lee"
     },
     "csjn-wintekerbeatrizdelcarm-fallos-329-5514": {
       "estado": "limpio",
       "fecha": "2026-09-13",
-      "nota": "una sola pagina: es una decision de competencia y nada más"
+      "nota": "una sola página: es una decisión de competencia y nada más"
+    },
+    "csjn-ypfenargas-2015-09-29": {
+      "estado": "sustituciones",
+      "fecha": "2026-09-17",
+      "nota": "leído con -layout, entero. Se lee y el holding se transcribió, pero el escaneo sustituye: «eSJ» por «CSJ», «e/» por «c/», «arto» por «art.», y parte palabras -«suj etos», «obj eto», «consti tucional»-. No se copia una cita sin cotejarla contra la página."
     },
     "jfam4lm-gl-lm1573-2024-01-30": {
       "estado": "limpio",
       "fecha": "2026-09-15",
-      "nota": "PDF del repositorio del MPD, 336 renglones. Se transcribio el dispositivo completo, incluido el art. 7 inc. a de la Ley 12.569 en que funda la medida."
+      "nota": "PDF del repositorio del MPD, 336 renglones. Se transcribió el dispositivo completo, incluido el art. 7 inc. a de la Ley 12.569 en que funda la medida."
     },
     "jfam8lp-dje-80155-2020-04-27": {
       "estado": "layout",
       "fecha": "2026-09-15",
-      "nota": "PDF del indice de sentencias destacadas de la SCBA. Se lee entero. Trae los sellos de firma digital como caracteres sueltos entre parrafos -por ejemplo la secuencia que precede al FALLO-, que no son texto de la sentencia: no copiarlos."
+      "nota": "PDF del índice de sentencias destacadas de la SCBA. Se lee entero. Trae los sellos de firma digital como caracteres sueltos entre párrafos -por ejemplo la secuencia que precede al FALLO-, que no son texto de la sentencia: no copiarlos."
     },
     "jpli-smmb-63-2024-11-20": {
       "estado": "limpio",
       "fecha": "2026-09-15",
-      "nota": "PDF del repositorio del MPD, 442 renglones. Se transcribio el encuadre normativo y el dispositivo. Trae sellos de firma digital como caracteres sueltos, igual que el de La Plata."
+      "nota": "PDF del repositorio del MPD, 442 renglones. Se transcribió el encuadre normativo y el dispositivo. Trae sellos de firma digital como caracteres sueltos, igual que el de La Plata."
     },
     "scba-abraham-l108164-2013-11-13": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "scba-amoretti-l127353-2023-09-18": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "scba-barrios-c124096-2024-04-17": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "scba-basualdolozano-l127263-2026-05-26": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "scba-bustostorres-l124285-2023-02-27": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "scba-cabrera-c119176-2016-06-15": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "scba-codec-c121973-2023-09-29": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "scba-diehl-l119966-2018-05-03": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "scba-galarza-l132729-2026-03-30": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "scba-gutierrezrellan-l119012-2018-05-16": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "scba-lastra-l135213-2025-09-17": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "scba-magliano-l131700-2025-09-19": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "scba-marchetti-l121939-2020-05-13": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "scba-nidera-c121134-2018-05-03": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "scba-paredes-c123090-2020-09-18": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "scba-pre-c127266-2024-02-19": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "scba-rappi-l128287-2026-04-09": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "scba-repartosya-l128494-2026-04-09": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "scba-rja-c126644-2023-09-19": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "scba-rvs-c122501-2020-10-02": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "scba-trofe-l118587-2016-06-15": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "scba-vera-c120536-2018-04-18": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     },
     "scba-vera-l124807-2021-05-11": {
       "estado": "limpio",
       "fecha": "2026-09-14",
-      "nota": "leido con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     }
   }
 }

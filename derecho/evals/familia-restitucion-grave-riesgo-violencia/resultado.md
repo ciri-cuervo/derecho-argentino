@@ -1,5 +1,5 @@
 ---
-titulo: Restitución internacional - grave riesgo por violencia, oposición del nino y regreso seguro
+titulo: Restitución internacional - grave riesgo por violencia, oposición del niño y regreso seguro
 ---
 # Resultado esperado · familia-restitucion-grave-riesgo-violencia
 

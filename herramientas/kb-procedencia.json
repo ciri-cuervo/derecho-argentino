@@ -1,5 +1,5 @@
 {
-  "_criterio": "No prohibe editar kb/: obliga a que el cambio sea deliberado y quede registrado. La huella va sobre el texto con los saltos normalizados y la clave en formato posix, para que diga la verdad en las tres plataformas.",
+  "_criterio": "No prohíbe editar kb/: obliga a que el cambio sea deliberado y quede registrado. La huella va sobre el texto con los saltos normalizados y la clave en formato posix, para que diga la verdad en las tres plataformas.",
   "_descripcion": "sha256 de cada archivo de derecho/kb/, que es capa 2 y de otro autor. Lo consume herramientas/frontera_kb.py.",
   "archivos": {
     "CHANGELOG.md": "fb27c6687c575bbd07970a90d9d7c39b80c71b0a0aff02f3c7482f22d10a8eee",
@@ -113,5 +113,5 @@
     "transversales/plazos-SKILL.md": "5c004911824832a561c65493b6da4e2d07c84bc997d118a6d66c264e7d1b74d1"
   },
   "fijado": "2026-09-15",
-  "nota": "Solo kb/README.md, que es del titular del fork y no capa 2 (LICENCIAS.md 2): la ruta del directorio del plugin paso de argentina/ a derecho/ en la 1.1.1. No se toco ningun archivo de Cristian Aboitiz."
+  "nota": "Solo kb/README.md, que es del titular del fork y no capa 2 (LICENCIAS.md 2): la ruta del directorio del plugin pasó de argentina/ a derecho/ en la 1.1.1. No se tocó ningún archivo de Cristian Aboitiz."
 }

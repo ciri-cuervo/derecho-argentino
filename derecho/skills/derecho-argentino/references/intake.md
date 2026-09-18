@@ -1,7 +1,9 @@
 # Intake · qué datos pedir antes de analizar
 
-> Módulo de referencia de la skill `derecho-argentino`. Se lee en el primer turno de una
-> consulta de fondo, junto con la apertura de la sección 0 del SKILL.md.
+> Módulo de referencia de la skill `derecho-argentino`. Numeración global: las remisiones cruzadas
+> entre módulos siguen siendo válidas. **Rigen las reglas de integridad de la sección 2 del
+> SKILL.md.** Se lee en el primer turno de una consulta de fondo, junto con la apertura de la
+> sección 0 del SKILL.md.
 
 Un análisis jurídico hecho sobre datos faltantes no es un análisis con un hueco: es un
 análisis de otro caso. La fecha del acto extintivo decide qué régimen rige, la fecha de la
@@ -27,7 +29,7 @@ preguntas, están bien; si quedan doce, la mitad no eran determinantes.
 **"No surge del expediente" es una respuesta válida y completa**, no una evasiva. Cierra la
 pregunta y convierte el dato en marcador. En sede judicial es además una respuesta con
 consecuencia propia: el hecho no está acreditado y lo soporta quien tenía la carga (ver
-`sede-judicial-pba.md`, 1.6).
+`sede-judicial.md`, 1.6).
 
 **Nunca ofrecer un valor de ejemplo para que lo confirmen.** "¿La remuneración era del orden
 de un millón?" contamina la respuesta y termina en una liquidación con un número que nadie
@@ -36,6 +38,36 @@ aportó.
 **No repreguntar lo que ya está en el material.** Antes de armar la tanda, leer lo aportado.
 Preguntar la fecha de ingreso cuando está en el primer párrafo de la demanda quema la
 paciencia que hace falta para las preguntas que sí importan.
+
+## Devolver los datos antes de usarlos
+
+Entre lo que el usuario contestó y lo que entra al análisis hay un paso que no mira nadie: el
+tipeo. Y **un dato mal tipeado no rompe nada.** Devuelve un resultado plausible, con su
+articulado, su total y sus marcadores. No hay señal de error que buscar, porque no la hay: por
+eso este control es propio y no se apoya en que el resultado "se vea raro".
+
+Antes del resultado va un bloque corto con los datos determinantes **como entraron**, copiados
+de lo que devolvió la herramienta —las calculadoras imprimen sus entradas justamente para
+esto— y no retipeados de memoria, que es retipear dos veces el mismo dato:
+
+    Datos tomados
+      fecha de ingreso      2024-08-15   (lo aportado: 14/08/2024)  <- NO COINCIDE
+      fecha de extinción    2026-08-14
+      mejor remuneración    1.000.000
+
+Va **antes** del resultado, no después. Puesto después se lee como resumen y nadie compara.
+
+**Si un dato no coincide, se para.** No se recalcula en silencio ni se elige por cuenta propia
+cuál de los dos era el bueno: eso lo sabe quien aportó el dato.
+
+Pasó de verdad, y lo que lo vuelve instructivo es cómo terminó: se tipeó 15/08/2024 contra el
+14/08/2024 aportado, y el total salió **idéntico**, porque una fracción de once meses redondea
+al mismo multiplicador del art. 245 que una antigüedad justa. La coincidencia es peor que el
+error, porque enseña que el dato daba igual. Con una fracción de tres meses o menos, las dos
+fechas dan liquidaciones distintas.
+
+Sirve igual fuera de las calculadoras: la fecha de notificación de la que cuelga un plazo, el
+monto del que cuelga una regulación, la carátula que decide el fuero.
 
 ---
 
@@ -47,6 +79,7 @@ Ver también `laboral.md`, 5.10, que trae la tabla de marcadores por dato.
 
 | Dato | Por qué |
 | --- | --- |
+| **Quién era el empleador** | Decide si rige la LCT. El **art. 2 inc. a** excluye a la Administración Pública nacional, provincial, de la CABA o municipal, salvo acto expreso de inclusión en la LCT o en un CCT que los comprenda. Un docente o un empleado provincial se rige por su estatuto, no por los arts. 245 y siguientes |
 | Fecha de ingreso | Antigüedad y multiplicador del art. 245 |
 | **Fecha del acto extintivo** | Decide el tramo de reforma. Es el dato que más veces cambia todo el resultado |
 | Modo de extinción y quién lo dispuso | Decide qué rubros proceden |
@@ -57,6 +90,13 @@ Ver también `laboral.md`, 5.10, que trae la tabla de marcadores por dato.
 **Se marcan y no bloquean:** vacaciones gozadas en el año; si el período de prueba estaba
 vigente; si hubo intimación fehaciente previa (sólo relevante para actos anteriores al
 09/07/2024); categoría; jornada.
+
+**Por qué el empleador bloquea y no se marca.** Porque el error no se ve en el resultado. Una
+liquidación del art. 245 para una maestra provincial sale con sus nueve rubros, su articulado y
+su total prolijo, bajo una ley que no la rige, y no hay nada en el número que lo delate — el
+mismo motivo por el que `liquidacion_lct.py` corta con código 2 ante `--empleador publico` en
+vez de agregar una advertencia al pie. Si hay acto expreso de inclusión, se liquida por LCT y se
+deja asentado cuál es.
 
 ## Laboral · régimen procesal y trámite
 

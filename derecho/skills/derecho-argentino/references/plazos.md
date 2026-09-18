@@ -1,8 +1,8 @@
 # Cómputo de plazos
 
-> Módulo de referencia de la skill `derecho-argentino`. La numeración de secciones es global y
-> se mantiene igual que en el SKILL.md original: las remisiones cruzadas entre módulos siguen siendo
-> válidas. Las reglas de integridad de la sección 2 rigen acá también.
+> Módulo de referencia de la skill `derecho-argentino`. Numeración global: las remisiones cruzadas
+> entre módulos siguen siendo válidas. **Rigen las reglas de integridad de la sección 2 del
+> SKILL.md.**
 
 ---
 
@@ -158,3 +158,16 @@ darlo: mes por mes, contando los días de cada uno, en vez de resolverlo como un
 meses de 28, 30 y 31 días y los años bisiestos son donde aparece la diferencia. **Al usuario le
 llega el número ya recorrido, nunca el de la primera pasada**, y cuando el cómputo lo hizo
 `scripts/plazos.py` se transcribe su salida, que ya trae la traza.
+
+---
+
+### 8.7 Lo que este módulo NO hace
+
+- **No calcula.** El vencimiento lo saca `scripts/plazos.py`, que conoce las ferias cargadas. Acá
+  está la regla; el número sale del script, y si el script no corre se dice por qué.
+- **No dice cuándo quedó notificado un acto.** El plazo arranca de la notificación, y en PBA eso
+  lo resuelve `notificaciones-pba.md` 22 —cédula electrónica, MEV, caída del sistema—.
+- **No trae la prescripción de fondo de cada materia.** Los plazos del art. 2560 y siguientes del
+  CCyCN, del art. 256 LCT y de la LDC están en el módulo de la rama, con su punto de arranque.
+- **No trae el calendario.** Ferias e inhábiles salen de `fuentes/datos/`, y si están vencidos el
+  script lo dice y hay que transcribirlo.

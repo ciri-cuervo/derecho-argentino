@@ -1,6 +1,8 @@
 # Salud y discapacidad · cobertura obligatoria y medicina prepaga
 
-> Módulo de referencia de la skill `derecho-argentino`. Numeración global, sección 27.
+> Módulo de referencia de la skill `derecho-argentino`. Numeración global: las remisiones cruzadas
+> entre módulos siguen siendo válidas. **Rigen las reglas de integridad de la sección 2 del
+> SKILL.md.**
 
 ---
 
@@ -47,7 +49,7 @@ actualización.
 - El **art. 10 de la Ley 24.901** remite a este art. 3 y a las leyes provinciales análogas: la
   acreditación es la misma para las prestaciones básicas.
 
-`[VERIFICAR VIGENCIA: lineamientos de certificación de la Agencia Nacional de Discapacidad posteriores al 22/09/2025 - no estan cargados en fuentes/. La reglamentación de la Ley 27.793 es el Decreto 84/2026 y su Anexo I sí está]`
+`[VERIFICAR VIGENCIA: lineamientos de certificación de la Agencia Nacional de Discapacidad posteriores al 22/09/2025 - no están cargados en fuentes/. La reglamentación de la Ley 27.793 es el Decreto 84/2026 y su Anexo I sí está]`
 
 ### 27.2 Quién tiene que cubrir, y con qué alcance
 
@@ -81,6 +83,87 @@ Texto de la Ley 19.032 —INSSJP— cotejado en `fuentes/normas/ley-19032.txt`.
 > contingencia laboral entra por el inciso d) y el obligado es la ART, no la obra social. Es el
 > error de legitimación pasiva más frecuente del área.
 
+### 27.2 bis Dos coberturas con ley propia: reproducción asistida e IVE
+
+Las dos obligan a los mismos sujetos que 27.2 y por eso viven acá, pero cada una tiene su régimen.
+
+**Reproducción médicamente asistida — Ley 26.862**, cotejada contra `fuentes/normas/ley-26862.txt`.
+Su **art. 2** define la materia con amplitud: *"los procedimientos y técnicas realizados con
+asistencia médica para la consecución de un embarazo"*, comprendiendo **las técnicas de baja y alta
+complejidad, incluyan o no donación de gametos y/o embriones**, y habilitando a incorporar técnicas
+nuevas por avance científico. El **art. 8** extiende la cobertura a **los tres subsectores**: sector
+público, obras sociales de las Leyes 23.660 y 23.661, la Obra Social del Poder Judicial, la
+Dirección de Ayuda Social del Congreso, **las entidades de medicina prepaga** y las de las
+universidades.
+
+> **Lo que decide un amparo de cobertura acá suele ser la reglamentación, no la ley.** El **Decreto
+> 956/2013** y las resoluciones posteriores fijan cantidad de intentos, edades y condiciones, y
+> **no están bajados**. La ley da el piso subjetivo —quién cubre— y no el cuantitativo.
+> La filiación derivada de estas técnicas es otra cosa y está en `familia.md` 18.10.
+
+**Interrupción voluntaria del embarazo — Ley 27.610**, cotejada contra
+`fuentes/normas/ley-27610.txt`. Veintiún artículos con numeración propia.
+
+- **El plazo y sus dos excepciones (art. 4).** Derecho a decidir y acceder **hasta la semana
+  catorce inclusive** del proceso gestacional. Fuera de ese plazo, sólo si el embarazo **fue
+  resultado de una violación** —con requerimiento y declaración jurada ante el personal de salud, y
+  **sin declaración jurada si la niña es menor de trece años**— o si **está en peligro la vida o la
+  salud integral** de la persona gestante.
+- **La objeción de conciencia es individual y condicionada (art. 10).** Quien la ejerce debe
+  **mantenerla en todos los ámbitos** —público, privado y de la seguridad social—, **derivar de
+  buena fe** en forma temporánea y oportuna, y cumplir el resto de sus deberes. **No se puede
+  alegar** si hay peligro para la vida o la salud que requiera atención inmediata, **ni para negar
+  la atención postaborto**. Su incumplimiento *"dará lugar a las sanciones disciplinarias,
+  administrativas, penales y civiles, según corresponda"*.
+- **Y el establecimiento no se escuda en sus profesionales (art. 11):** los efectores privados o de
+  la seguridad social que no cuenten con profesionales para realizarla tienen obligaciones propias.
+
+`[REVISIÓN NORMATIVA REQUERIDA: InfoLEG no publica texto actualizado de la Ley 27.610 y el bajado es el original, que trae marcados en negrita los tramos OBSERVADOS por el Decreto 14/2021. Antes de citar un artículo como vigente, cotejar si cayó en el veto]`
+
+### 27.2 ter Emergencia sanitaria pediátrica — Ley 27.796, y tiene fecha de vencimiento
+
+**Vigente desde el 22/10/2025 y declarada por un (1) año.** El art. 1 declara la emergencia
+sanitaria de la salud pediátrica y de las residencias nacionales en salud **por el término de un
+año**, y el art. 11 la pone en vigencia al día siguiente de la publicación en el B.O., que fue el
+**21/10/2025**. Articulado cotejado contra `fuentes/normas/ley-27796.txt`.
+
+> **Antes de invocarla, mirar el calendario.** Un plazo de un año contado desde su vigencia la
+> deja **agotada alrededor del 22/10/2026**, salvo prórroga. Una emergencia vencida no fundamenta
+> nada, y es el error más fácil de cometer con este tipo de norma: se cita por su contenido y no
+> por su plazo.
+
+**Nació por insistencia, y eso importa.** Fue **observada en su totalidad** por el Poder
+Ejecutivo, y las dos cámaras confirmaron su sanción anterior **con dos tercios de los votos**, de
+modo que **conforme al art. 83 CN el proyecto es ley**. El propio texto bajado de InfoLEG trae la
+comunicación del Senado que lo dice. No hay veto pendiente que discutir: hay ley.
+
+**Qué se puede usar de ella en un reclamo concreto:**
+
+| Art. | Qué da |
+| --- | --- |
+| **3 a)** | **Asignación prioritaria e inmediata** de recursos para insumos críticos, mantenimiento de infraestructura, medicamentos, vacunas, tecnologías médicas y personal esencial de atención pediátrica |
+| **3 b)** | **Recomposición salarial** del personal asistencial y no asistencial que atiende población pediátrica, **residentes nacionales incluidos**, con un piso expreso: **no menor a la que recibían en términos reales en noviembre de 2023** |
+| **3 c)** | **Eximición de ganancias** al personal de salud por actividades críticas, horas extras y guardias |
+| **4** | Declara al **Hospital Garrahan** hospital de referencia nacional en alta complejidad pediátrica y **garantiza su funcionamiento pleno y sostenido** |
+| **8** | Mientras dure la emergencia, los programas de salud infantil y adolescente tienen **prioridad en la asignación y ejecución presupuestaria**, nombrando urgencias, internación, neonatología, trasplantes, cirugías cardíacas y oncología pediátrica |
+| **9** | **Es de orden público** |
+| **10** | **Deroga la Resolución 2.109/25** del Ministerio de Salud, sobre residencias |
+
+**El art. 9 es el que cambia el terreno de la discusión.** Siendo de orden público, sus
+disposiciones no se dejan de lado por acuerdo de partes ni por decisión administrativa, y eso es
+lo que se opone a una respuesta que invoque restricción presupuestaria: el art. 5 manda al PEN
+**reasignar partidas dentro del ejercicio vigente** y lo faculta a usar reservas de contingencias
+sanitarias. La autoridad de aplicación es el **Ministerio de Salud** (art. 6).
+
+**Y hay una vía de prueba que no se aprovecha.** El art. 7 crea una comisión de seguimiento
+—diputados, senadores, Ministerio, COFESA y Sociedad Argentina de Pediatría— que **debe emitir
+informes trimestrales públicos** sobre el cumplimiento de la ley. Un informe que constata
+incumplimiento es prueba documental de acceso público.
+
+`[VERIFICAR VIGENCIA: plazo de la emergencia de la Ley 27.796 - se declaró por un año desde el 22/10/2025 y no se da por vigente sin confirmar prórroga. Tampoco está cargada su reglamentación del Ministerio de Salud]`
+
+`[VERIFICAR CRITERIO DEL FUERO: amparo de salud pediátrica - si los arts. 8 y 9 de la Ley 27.796 se leen como fuente de una obligación exigible o sólo como pauta de asignación presupuestaria. No hay precedente bajado sobre esta ley]`
+
 ### 27.3 Aranceles — lo que incorporó la Ley 27.793
 
 **Art. 7 bis Ley 24.901, incorporado por el art. 14 de la Ley 27.793.** Los valores de los
@@ -100,8 +183,8 @@ aranceles del Sistema:
 > movilidad del Decreto 274/24 al período reclamado, y si el estudio anual de costo de esa
 > prestación ya se aplicó. Son dos mecanismos distintos y se acumulan.
 
-`[VERIFICAR MONTO ACTUALIZADO: aranceles del Sistema de Prestaciones Basicas - indice de movilidad del Decreto 274/24 al período reclamado, y estudio anual de costo del art. 7 bis Ley 24.901]`
-`[VERIFICAR VIGENCIA: Decreto 274/24 como norma de movilidad - el art. 7 bis preve expresamente que puede ser reemplazado]`
+`[VERIFICAR MONTO ACTUALIZADO: aranceles del Sistema de Prestaciones Básicas - índice de movilidad del Decreto 274/24 al período reclamado, y estudio anual de costo del art. 7 bis Ley 24.901]`
+`[VERIFICAR VIGENCIA: Decreto 274/24 como norma de movilidad - el art. 7 bis prevé expresamente que puede ser reemplazado]`
 
 ### 27.4 Medicina prepaga — Ley 26.682
 
@@ -208,7 +291,7 @@ cadena y aparecen en casos reales:
   social de la que el imputado es beneficiario**, y el texto pone la iniciativa en el tribunal:
   *"el Juez de la causa deberá dirigirse a la obra social que corresponda a fin de indicarle la
   necesidad y condiciones del tratamiento"*. Es un pedido que se hace desde el expediente penal,
-  no un reclamo civil previo. Ver `penal.md` 24.9 para el régimen de la 23.737.
+  no un reclamo civil previo. Ver `penal-leyes-especiales.md` 24.9 para el régimen de la 23.737.
 - **Art. 5 — ejecutoriedad condicionada al presupuesto.** *"La presente ley tendrá ejecutoriedad,
   previa existencia en el Presupuesto General de la Nación del período de que se trata de
   partidas específicas destinadas a sus fines."* Es una condición que **el obligado puede
@@ -242,5 +325,5 @@ cadena y aparecen en casos reales:
 
 > **Lo que este módulo no cubre:** el contenido concreto del PMO y sus resoluciones, el régimen de
 > pensiones no contributivas por invalidez, el sistema de apoyos y el régimen de capacidad
-> jurídica del CCyCN, y el cupo laboral. Para eso rige el ruteo de `otras-ramas.md` sección 19,
+> jurídica del CCyCN, y el cupo laboral. Para eso rige el ruteo de `perfiles-heredados.md` sección 19,
 > **con su advertencia**.

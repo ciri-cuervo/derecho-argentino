@@ -2,18 +2,24 @@ Fiorentino, Diego Enrique
 ==============================================================================
 Tribunal:         CSJN
 Cita:             Fallos 306:1752
-Fecha declarada:  1984-01-01  <- 1 de enero: fecha sin confirmar en el manifiesto
+Fecha declarada:  1984-11-27
 Fuente del PDF:   https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoById.html?idDocumento=7835711
 Derivado de:      jurisprudencia/csjn-fiorentino-fallos-306-1752.pdf
 SHA-256 del PDF:  9b29c79470060f73c87aaa51edc6fd2b743947fcfe7dbc357795f085503d9319
 Paginas:          27
-Generado:         2026-09-14
+Generado:         2026-09-16
 Herramienta:      tesseract 5.5.3, -l spa --psm 6, pdftoppm -r 300
+Cotejado:         2026-09-16, páginas del PDF leídas una por una
+Correcciones:     25 declaradas en ocr/correcciones/csjn-fiorentino-fallos-306-1752.json
 
-TEXTO RECUPERADO POR OCR LOCAL. No se bajo de la fuente: la capa de texto que traia el
-PDF estaba arruinada y esto es una relectura de las imagenes de la pagina. NO es
-publicacion oficial y no reemplaza al PDF. Para transcribir un considerando a un escrito,
-cotejar contra la pagina del PDF: el numero de pagina esta marcado abajo.
+TEXTO RECUPERADO POR OCR LOCAL. No se bajó de la fuente: la capa de texto que traía el
+PDF estaba arruinada y esto es una relectura de las imágenes de la página. NO es
+publicación oficial y no reemplaza al PDF. Para transcribir un considerando a un escrito,
+cotejar contra la página del PDF: el número de página está marcado abajo.
+
+ATENCIÓN: los renglones que lista el archivo de correcciones fueron leídos contra la
+página del PDF y corregidos. TODO EL RESTO es salida de máquina sin revisar y conserva
+los errores del OCR: que un renglón esté corregido no dice nada del de al lado.
 
 Regenerar: python3 herramientas/reocr_jurisprudencia.py csjn-fiorentino-fallos-306-1752
 ==============================================================================
@@ -448,7 +454,7 @@ tupefacientes”, para decidir sobre su procedencia.
 
 Considerando:
 
-19) Que según surge de los autos principales (a cuyas fojas se re-
+1°) Que según surge de los autos principales (a cuyas fojas se re-
 ferirán las citas siguientes), Diego Enrique Fiorentino fue detenido por
 una comisión policial el 24 de noviembre de 1981 cuando ingresaba con
 su novia en el hall del edificio de departamentos de la calle Junín 1276
@@ -458,14 +464,14 @@ C del primer piso de dicho inmueble, donde vivía con sus padres, por
 
 --- pagina 11 de 27 ---
 
-1762 FALLOS DE JA CORTE SUPREMA
+1762 FALLOS DE LA CORTE SUPREMA
 
-lc aus habría autorizado el regisiro domiciliario. De ese modo se se-
+lo que habría autorizado el registro domiciliario. De ese modo se se-
 cuestraron en su dormitorio cinco cigarrillos y cinco colillas de picadura
 de cannabis sativa (marihuana) y 38 semillas de la misma especie
 (confr. fs. 1/5).
 
-2*) Que durante el juicio (fs. 94/96) la defensa inpugnó el aludido
+2°) Que durante el juicio (fs. 94/96) la defensa inpugnó el aludido
 procedimiento por ser contrario a la garantía de la inviolabilidad del do-
 micilio e importar un allanamiento ilegítimo, toda vez que se efectuó
 sin autorización válida. Con ese objeto depuso a fs. 112 Fiorentino,
@@ -489,8 +495,8 @@ de se encontraban cn ese momento los padres de Fiorentino (fs. 104),
 vale decir, las circunstancias estructurantes del consentimiento o auto-
 rización a que había hecho referencia.
 
-39) Que en primera instancia Fiorentino fue condenado como
-autor del delito de tenencia de estupefacientes (art. 6% de la ley 20.771),
+3°) Que en primera instancia Fiorentino fue condenado como
+autor del delito de tenencia de estupefacientes (art. 6° de la ley 20.771),
 a la pena de un año de prisión en suspenso y multa de un millón de
 pesos (denominación de la ley 18.188), más el pago de las costas. Las
 alegaciones de la defensa fueron desechadas por presumirse la autoriza-
@@ -522,7 +528,8 @@ lo expusieran a fs. 113/114, “debe reconocerse empero que tampoco
 se Opusieron, pudiendo hacerlo, ya que estaban presentes, expresando
 concretamente su voluntad de excluir al personal policial, consintiendo
 gue la inspección se llevara a cabo en la habitación de su hijo Diego”.
-4%) Que contra el referido pronunciamiento se dedujo el recurso
+
+4°) Que contra el referido pronunciamiento se dedujo el recurso
 extraordinario de fs. 148/154, cuya denegación (fs. 159) origina la pre-
 sente queja. El apelante mantiene el cuestionamiento de la validez de la
 diligencia policial, sosteniendo su ilegitimidad por resultar violatoria de
@@ -536,7 +543,8 @@ duce en definitiva a determinar el alcance de la referida gurantía cons-
 titucional (doc. de Fallos: 46:36 y 177:390). La dicho importa apar-
 tarse del criterio sustentado por el Tribunal —en su anterior composi-
 ción— al decidir la causa que se registra en Fallos: 301:676.
-59) Que el art. 18 de la Constitución Nacional establece que “el
+
+5°) Que el art. 18 de la Constitución Nacional establece que “el
 domicilio es inviolable...; y una ley determinará en qué casos y con
 
 --- pagina 13 de 27 ---
@@ -563,7 +571,7 @@ innecesario aquí ahondar sobre su contenido pues está fuera de discu-
 sión que la diligencia policial se llevó a cabo en la residencia particular
 del imputado, donde vvía de modo permanente con su familia.
 
-6%) Que en la especie no se ha configurado ninguna de las exccp-
+6°) Que en la especie no se ha configurado ninguna de las exccp-
 ciones previstas en el art. 189 del Código de Procedimientos en Materia
 Penal, ni ha mediado consentimiento válido que permiticra la intro-
 misión del personal policial en el domicilio del procesado, dado que la
@@ -599,7 +607,7 @@ sonas. Lo expuesto, y la falta de extremos de necesidad que impidieran
 proceder de acuerdo a la ley recabando la pertinente orden judicial, lle-
 va a concluir en la ilegitimidad del allanamiento.
 
-79%) Que, en consecuencia, establecida en el sub lite la invalidez
+7°) Que, en consecuencia, establecida en el sub lite la invalidez
 del registro domiciliario, igual suerte debe correr el secuestro practica-
 do en esas circunstancias. Ello es así porque la incautación del cuerpo
 del delito no es entonces sino el fruto de un procedimiento ilegítimo, y
@@ -629,7 +637,7 @@ VOTO DEL SEÑOR MINISTRO DOCTOR DON ENRIQUE SANTIAGO PETRACCHI
 
 Considerando:
 
-1%) Que según surge de los autos principales (a cuyas fojas se
+1°) Que según surge de los autos principales (a cuyas fojas se
 rcferirán las citas siguientes), Dicgo Enrique Fiorentino fue detenido
 por una comisión policial el 24 de noviembre de 1981 cuando ingresaba
 con su novia en el hall del edificio de departamentos de la calle Junín
@@ -638,9 +646,9 @@ ser poseedor de marihuana que guardaba para consumo propio en la
 unidad C del primer piso de dicho inmueble, donde vivía con sus pa-
 dres, autorizando el registro domiciliario. De ese modo se secuestraron
 en su dormitorio cinco cigarrillos y cinco colillas de picadura de canna-
-bis setiva (marihuana) y 38 semillas de la misma especie (confr. fs. 1/5).
+bis sativa (marihuana) y 38 semillas de la misma especie (confr. fs. 1/5).
 
-29) Que durante el juicio la defensa impugnó el aludido procedi-
+2°) Que durante el juicio la defensa impugnó el aludido procedi-
 miento por ser contrario a la garantía de la inviolabilidad del domicilio
 e importar un allanamiento ilegítimo, toda vez que se efectuó sin auto-
 rización válida. Con ese objeto depuso a fs. 112 Fiorentino, quien sos-
@@ -661,8 +669,8 @@ policial dijo que se proccdió “con la autorización pertinente” (fs. 13/
 14), mas al deponer en el plenario manifestó no recordar si existió
 dicho permiso (fs. 104).
 
-39) Que en primera instancia Fiorentino fue condenado como au-
-tor del delito de tenencia de estupefacientes (art. 62 de la ley 20.771),
+3°) Que en primera instancia Fiorentino fue condenado como au-
+tor del delito de tenencia de estupefacientes (art. 6° de la ley 20.771),
 a la pena de un año de prisión en suspenso y multa de un millón de pe-
 
 --- pagina 16 de 27 ---
@@ -691,16 +699,16 @@ la validez de tal permiso por ser el imputado menor de edad, y admi-
 tiendo que los padres no lo acordaron expresamente según lo expusie-
 ron afs. 113 y 114, “debe reconocerse empero que tampoco se opusie-
 ron, pudiendo hacerlo, ya que estaban presentes, expresando concreta-
-mente su voluntad de excluir al personal policial, consintendo que la
+mente su voluntad de excluir al personal policial, consintiendo que la
 inspección se llevara a cabo en la habitación de su hijo Diego”.
 
-40) Que contra el referido pronunciamiento se dedujo el recurso
+4°) Que contra el referido pronunciamiento se dedujo el recurso
 extraordinario de fs. 148/154, cuya denegación (fs. 159) origina la pre-
 sente queja. El apelante cuestiona la diligencia policial, sosteniendo su
 ilegitimidad por resultar lesiva de la garantía de la inviolabilidad del do-
 micilio consagrada en el art. 18 de la Constitución Nacional.
 
-5%) Que esta Corte, en su actual composición, no comparte el cri-
+5°) Que esta Corte, en su actual composición, no comparte el cri-
 terio expuesto sobre la materia en pronunciamientos anteriores, según
 el cual lo atinente a las condiciones del allanamiento y a su validez sólo
 reviste carácter procesal y no resulta susceptible de examen en la ins-
@@ -755,7 +763,7 @@ ya realización plena tutela la Constitución Nacional.
 
 DE JUSTICIA DE LA NACIÓN 1769
 
-6%) Que la eminente jerarquía del derecho a la inviolabilidad del
+6°) Que la eminente jerarquía del derecho a la inviolabilidad del
 domicilio debe ser concertada, al igual que el similar derecho a la in-
 violabilidad de la correspondencia y de los papeles privados, con el in-
 terés social en la averiguación de los delitos y el ejercicio adecuado del
@@ -792,7 +800,7 @@ cialmente rigurosas, pues está en juego una inestimable libertad perso-
 nal básica (v. como ejemplo de tal doctrina, lo expresado por el juez
 Black al emitir su voto en el caso Morey v. Doud 354 U.S. 457, p. 471).
 
-7%) Que, en consecuencia, la confrontación entre dichas pautas
+7°) Que, en consecuencia, la confrontación entre dichas pautas
 de razonabilidad y las limitaciones impuestas por las leyes reglamenta-
 
 --- pagina 19 de 27 ---
@@ -804,7 +812,7 @@ procesal y constituye una cuestión federal sustancial que determina en el
 caso la procedencia del recurso extraordinario, que ha sido, por lo tanto,
 mal denegado por el a quo.
 
-82) Que, de acuerdo con lo expuesto, el punto constitucional a
+8°) Que, de acuerdo con lo expuesto, el punto constitucional a
 resolver se refiere a la determinación de las condiciones mínimas que
 debe reunir el consentimiento del interesado para que quepa admitirlo
 como justificante válido del ingreso de agentes de policía en la morada
@@ -851,14 +859,14 @@ del Juez competente la respectiva orden de allanamiento.
 189. - Se exceptúa de lo dispuesto en el artículo anterior los casos
 siguientes:
 
-19%) Cuando se denuncie por uno o más testigos, haber visto per-
+1°) Cuando se denuncie por uno o más testigos, haber visto per-
 sonas que han asaltado una casa, introduciéndose en ella, con indicios
 manifiestos de ir a cometer algún delito.
 
-20) Cuando se introduzca en la casa un reo de delito grave a
+2°) Cuando se introduzca en la casa un reo de delito grave a
 quien se persigue para su aprehensión.
 
-39) Cuando se oigan voces dentro de la casa que anuncien estarse
+3°) Cuando se oigan voces dentro de la casa que anuncien estarse
 cometiendo algún delito, o cuando se pida socorro.”
 
 La elección de posibilidades interpretativas de la mencionada ley
@@ -1012,7 +1020,7 @@ En lo que a este punto concierne, no parece que el criterio adop-
 tado por los magistrados de las instancias anteriores ayude a la consecu-
 ción de los trascendentes propósitos mencionados.
 
-99) Que descartada la existencia de consentimiento que pueda juz-
+9°) Que descartada la existencia de consentimiento que pueda juz-
 garse como causa válida de la presencia de los agentes policiales en la
 
 --- pagina 24 de 27 ---
@@ -1036,7 +1044,7 @@ titucionales de ejecución de la ley...”, debe dirimirse eliminando del
 proceso penal los elementos de convicción así obtenidos. Proceder de
 otro modo.comprometería “la buena administración de justicia al pre-
 tender constituirla en beneficiaria del hecho ilícito” (caso citado, con-
-siderando 49).
+siderando 4°).
 
 Por otra parte, al efectuar el balance entre la seguridad y la libert-
 tad individual, debe atenderse al valor de la supervivencia de esta Na-

@@ -12,6 +12,7 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RAIZ / "herramientas"))
 
+import _veredictos
 import auditar_fechas_fallos as auditor
 
 
@@ -170,6 +171,50 @@ class TestMedidaDeBasura(unittest.TestCase):
             falso = pathlib.Path(d) / "no-es-un-pdf.pdf"
             falso.write_text("esto no es un PDF\n", encoding="utf-8")
             self.assertIsNone(self.ocr.basura(falso))
+
+
+class TestElRescateNoApagaLaAlarma(unittest.TestCase):
+    """Cuándo un PDF sin capa de texto deja de contarse como «sin medir».
+
+    `basura()` devuelve `None` en dos casos que no valen lo mismo: el escaneo que nadie miró, y
+    el que se leyó, se declaró `destruido` y se releyó con tesseract. Contarlos juntos deja una
+    alarma sonando sobre trabajo terminado, y una alarma que suena siempre se deja de mirar.
+
+    MUTACIÓN VIVIDA: el veredicto solo, sin exigir el archivo. Con eso, declarar `recuperado`
+    apuntando a cualquier ruta apaga la alarma, que es el modo de falla peor -- verde por
+    ausencia de instrumento. El tercer test de acá es esa mutación y falla sin el `is_file()`.
+    """
+
+    def setUp(self):
+        import calidad_ocr
+        self.ocr = calidad_ocr
+
+    def test_sin_veredicto_sigue_sonando(self):
+        self.assertFalse(self.ocr.rescatado(None))
+
+    def test_otro_estado_sigue_sonando(self):
+        """Solo `destruido` tiene recuperación. Un `limpio` con `None` medido es otra cosa."""
+        for estado in ("limpio", "mezclado", "sustituciones"):
+            with self.subTest(estado):
+                self.assertFalse(self.ocr.rescatado(
+                    {"estado": estado, "recuperado": "ocr/lo-que-sea.txt"}))
+
+    def test_un_recuperado_que_no_esta_en_disco_sigue_sonando(self):
+        """La mutación: si alcanzara con declararlo, esto daría True y la alarma se apagaría."""
+        self.assertFalse(self.ocr.rescatado(
+            {"estado": "destruido", "recuperado": "ocr/no-existe-este-archivo.txt"}))
+
+    def test_sin_ruta_de_recuperado_sigue_sonando(self):
+        self.assertFalse(self.ocr.rescatado({"estado": "destruido"}))
+
+    def test_el_caso_real_del_repositorio_esta_rescatado(self):
+        """Instrumento encendido: sin esto, «cero sin medir» también sería cero rescatados."""
+        leidas = _veredictos.cargar(self.ocr.LECTURAS, "lecturas", vacio={})[1]
+        rescatados = [s for s, v in leidas.items() if self.ocr.rescatado(v)]
+        self.assertTrue(rescatados, "ningún veredicto pasa: el control quedó apagado")
+        for slug in rescatados:
+            with self.subTest(slug):
+                self.assertTrue((self.ocr.CORPUS / leidas[slug]["recuperado"]).is_file())
 
 
 if __name__ == "__main__":

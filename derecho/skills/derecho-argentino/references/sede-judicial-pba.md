@@ -1,55 +1,19 @@
-# Sede judicial · modo órgano jurisdiccional (fuero laboral PBA)
+# Sede judicial · la pieza y la alzada en el fuero laboral PBA
 
-> Módulo de referencia de la skill `derecho-argentino`. La numeración de secciones es global
-> y coincide con la del SKILL.md: las remisiones cruzadas entre módulos siguen siendo válidas.
-> Las reglas de integridad de la sección 2 rigen acá también, y con más razón.
+> Módulo de referencia de la skill `derecho-argentino`. Numeración global: las remisiones
+> cruzadas entre módulos siguen siendo válidas. **Rigen las reglas de integridad de la sección 2
+> del SKILL.md.** Acá, con más razón.
+>
+> **El modo de trabajo no está acá: está en `sede-judicial.md`, sección 1.6**, porque qué se
+> controla de oficio, qué deja de hacerse y qué pasa a significar cada marcador no dependen del
+> fuero. **Se leen los dos, y primero ese.** Lo de acá es lo que sí depende del fuero, y el fuero
+> es el **laboral de la Provincia de Buenos Aires**: nada de esto se transpola: la justicia
+> nacional y federal va por `sede-judicial-nacional.md` 1.8 y el fuero CAyT de la Ciudad por
+> `sede-judicial-caba.md` 1.9.
 >
 > Verificado contra fuente primaria, y las citas literales cotejadas contra los textos
 > consolidados de `derecho/fuentes/normas/`. Los puntos que la verificación no pudo cerrar
 > están listados al final, en "Puntos abiertos": no se los presenta como firmes.
->
-> **Advertencia sobre la Ley 11.653:** el texto que publica `normas.gba.gob.ar` trae la
-> acentuación degradada en algunos pasajes ("deber" por "deberá", "m s" por "más", "m‚rito"
-> por "mérito"). Las citas de este módulo están corregidas. Para transcribir a una resolución,
-> cotejar contra el Boletín Oficial.
-
----
-
-## 1.6 · Modo sede judicial
-
-Cuando quien consulta es el órgano jurisdiccional, no hay parte a la que servir. Las reglas
-de integridad de la sección 2 rigen igual o con más razón, pero cambia todo lo demás.
-
-**Lo que no se hace.** No se construye estrategia. No se "anticipan las defensas de la
-contraria". No se eligen los rubros más convenientes ni se busca el encuadre más favorable a
-un resultado. La carga de la prueba deja de ser una ventaja táctica y pasa a ser lo que es en
-esta sede: **una regla de decisión** — quién soporta que un hecho no se haya probado.
-
-**Lo que sí se hace.**
-
-- **Verificar, no producir.** Recalcular la liquidación que trajo la parte y señalar
-  diferencias, en vez de armar el reclamo. Contrastar cada rubro contra la norma que lo
-  habilita y contra el tramo temporal de la reforma que corresponde al acto extintivo.
-- **Controlar lo que se controla de oficio**, y no lo que no:
-  - **Competencia**: de oficio.
-  - **Caducidad legal**: el art. 2572 CCyCN manda **declararla de oficio**.
-  - **Prescripción**: el art. 2552 CCyCN prohíbe declararla de oficio. Debe ser opuesta por
-    la parte, y en la oportunidad del art. 2553. Confundir ambos institutos acá no es un
-    error de cita: es un vicio de la resolución.
-  - **Caducidad de instancia**: ver 1.6.5. No es igual en los dos regímenes bonaerenses.
-- **Congruencia.** No resolver sobre lo no pedido ni más allá de lo pedido. Si el análisis
-  detecta un rubro que la parte no reclamó, se señala como observación, no se incorpora.
-  Excepción legal expresa: ver 1.6.3, facultad de fijar cantidades prescindiendo de lo
-  reclamado.
-- **Aplicar las presunciones, no invocarlas.** Los arts. 55 y 57 LCT operan como reglas de
-  juicio sobre la prueba producida.
-
-**Los marcadores cambian de destinatario.** `[VACÍO PROBATORIO: ...]` deja de ser un pedido
-de material al abogado y pasa a ser un dato de la decisión: el hecho no está acreditado y lo
-soporta quien tenía la carga. Consignarlo así, no como pendiente.
-
-**La prohibición de citar jurisprudencia sin material es más fuerte acá, no menos.** Una
-carátula inventada en un escrito de parte es un papelón; en una sentencia es otra cosa.
 
 ---
 
@@ -359,94 +323,12 @@ de decretarla.
 
 ---
 
-## 1.6.6 · Honorarios — Ley 14.967
+## 1.6.6 · Honorarios — está en `honorarios-pba.md`
 
-La regulación es contenido obligatorio de la sentencia (art. 57 inc. 8 de la Ley 15.057). Ni
-la 11.653 ni la 15.057 tienen régimen arancelario propio: rige la **Ley 14.967**
-[VERIFICAR VIGENCIA], que derogó el Decreto-Ley 8904/77 (art. 63).
-
-**La unidad: el jus (art. 9).** Es el 1% de la remuneración total del cargo de Juez de
-Primera Instancia de la PBA con quince años de antigüedad, incluidos básico, permanencia,
-bloqueo de título y todo adicional. **La SCBA lo publica mensualmente.**
-
-> Conviven **dos jus** en la tabla de la SCBA: el del **art. 9 de la Ley 14.967** y el
-> **"jus arancelario decreto-ley 8904/77"**, que subsiste porque leyes arancelarias de otras
-> profesiones remiten a él. En una regulación a abogados va el de la 14.967. Confundirlos
-> produce una diferencia del orden del 30%.
-
-Nunca tomar el valor de memoria:
-
-    [VERIFICAR MONTO ACTUALIZADO: valor del jus del art. 9 de la Ley 14.967 - resolución de la SCBA vigente a la fecha de la regulación]
-
-**Escalas y mínimos aplicables en el fuero:**
-
-- **Art. 43** — en las causas laborales tramitadas ante Tribunales del Trabajo se aplican las
-  disposiciones arancelarias de la ley, tanto en los procedimientos contradictorios como en
-  las ejecuciones. Es decir: **remite a la escala general**, no hay escala laboral separada.
-- **Art. 21** — en procesos susceptibles de apreciación pecuniaria, por las actuaciones de
-  primera instancia **o en Tribunales Colegiados de Instancia Única**, hasta la sentencia:
-  **entre el 10% y el 25%** del monto. Con litisconsorcio, el total de las regulaciones no
-  supera el 40% que resulte de la escala.
-- **Art. 22 — mínimo**: *"Con prescindencia del contenido económico del asunto, la regulación
-  del o de los profesionales de cada parte, no podrá ser inferior a **siete (7) Jus**,
-  cualquiera fuese su actividad y el órgano jurisdiccional de que se trate."*
-- **Art. 23** — en juicios por cobro de sumas de dinero, la cuantía del asunto es **el total
-  reclamado en la demanda o reconvención**.
-- **Art. 16** — pautas de regulación: monto; valor, mérito y calidad jurídica de la labor;
-  complejidad y novedad; responsabilidad; resultado obtenido; trascendencia de la resolución
-  para casos futuros; actuaciones esenciales frente a las de mero trámite; trascendencia
-  económica y moral para el interesado; posición económica y social de las partes; tiempo
-  empleado, si la tardanza no es imputable al profesional. La regulación al vencedor **parte
-  de la media de la escala** y puede disminuirse fundadamente, respetando los mínimos.
-- **Art. 28** — etapas: la ley divide cada tipo de proceso en etapas y los trabajos de cada
-  una se remuneran como una mitad o un tercio del juicio, según el caso.
-
-    [VERIFICAR PLAZO: apartado del art. 28 de la Ley 14.967 correspondiente a procesos orales / instancia única - leer el texto antes de aplicar la división en etapas al Tribunal del Trabajo]
-
-**Art. 15 — forma de la regulación, bajo pena de nulidad.** Cuatro recaudos: indicar el monto
-del juicio cuando existiere; referenciar los antecedentes del proceso; precisar las pautas del
-art. 16 que se tuvieron en cuenta y **detallar cada una de las tareas** del profesional; y
-—inc. d— *"El monto deberá estar expresado en la unidad arancelaria Jus, cuyo valor definitivo
-se establecerá en el momento de hacerse efectivo el pago."* Una regulación que sólo consigna
-una suma en pesos es nula.
-
-Ese inciso d resuelve además una duda práctica: **la regulación se expresa en jus y el valor
-en pesos se cierra al pagar**, no al regular. El art. 51 completa el mecanismo: la regulación
-se hace **de oficio, "aún sin petición del interesado", al dictarse sentencia**, aplicando el
-porcentual sobre la base y convirtiendo el resultado a la cantidad de jus *"vigentes al
-momento de su regulación"*.
-
-**Art. 51, segundo párrafo — diferimiento.** *"Cuando la condena incluya el pago de intereses,
-frutos, multas y otros accesorios, se diferirá el auto regulatorio, dejándose constancia de
-ello en la sentencia definitiva hasta la oportunidad en que quede firme la liquidación
-respectiva."* En una condena laboral con intereses —es decir, casi siempre— **lo que
-corresponde es diferir la regulación y dejar constancia en la sentencia**, no regular sobre
-una base todavía no líquida.
-
-**Peritos.** La Ley 14.967 **no** regula honorarios periciales. En PBA no hay ley arancelaria
-única de peritos: rige la de cada profesión, y varias remiten al jus del dec-ley 8904/77.
-Para peritos contadores, Ley 10.620, arts. 207 y ss. (texto según Ley 13.750): entre 4% y 10%
-del monto del proceso, con mínimo en jus. Para las demás profesiones periciales del fuero:
-
-    [REVISIÓN NORMATIVA REQUERIDA: arancel aplicable al perito según su profesión - identificar la ley provincial de la profesión y su unidad arancelaria]
-
-**Aportes y contribuciones — Ley 6.716** [VERIFICAR VIGENCIA], art. 12:
-
-- inc. a): **10%** de toda remuneración de origen profesional a cargo del afiliado; y sobre
-  esos mismos honorarios, a cargo del obligado al pago, **5%** en juicios voluntarios y
-  **10%** en contradictorios.
-- inc. g), **texto vigente**: contribución a cargo del obligado al pago de la tasa de
-  justicia del **5%** de su importe (era 10% hasta la **Ley 15.563**, publicada el 23/12/2025,
-  B.O. 30.145); ante el Tribunal Fiscal de Apelaciones, **1‰** del valor cuestionado (era 2‰).
-- art. 13: anticipo de un jus previsional al iniciar la actuación profesional.
-
-**Tasa de justicia.** Código Fiscal de la PBA (Ley 10.397, t.o. 2011), con la alícuota que
-fija la ley impositiva anual. En el proceso laboral la actuación está exenta y la reversión
-al condenado en costas no alcanza al trabajador (arts. 20/25 citados en 1.6.5).
-
-    [VERIFICAR MONTO ACTUALIZADO: alícuota de la tasa de justicia - ley impositiva de la PBA del ejercicio en curso]
-
-Para el cálculo, usar `scripts/honorarios_pba.py` en lugar de operar a mano.
+La regulación es **contenido obligatorio de la sentencia** (art. 57 inc. 8 de la Ley 15.057), y
+ni la 11.653 ni la 15.057 tienen régimen arancelario propio: rige la **Ley 14.967**
+[VERIFICAR VIGENCIA], que es de toda la justicia bonaerense y no sólo de este fuero. **Está en
+`honorarios-pba.md`**, con la escala, el jus, las etapas, los aportes y el pacto de cuota litis.
 
 ---
 
@@ -607,3 +489,17 @@ Ley 6.716 https://normas.gba.gob.ar/documentos/ByQAnS4B.html ·
 Ley 15.563 https://normas.gba.gob.ar/documentos/Bg1pRNTp.html ·
 CPCCBA https://normas.gba.gob.ar/documentos/VrQlgSOB.html ·
 Valor del jus (SCBA) https://www.scba.gov.ar/paginas.asp?id=41320
+
+---
+
+## 1.6.10 · Lo que este módulo NO hace
+
+- **No trae el modo de trabajo**, que no tiene fuero y está en `sede-judicial.md` 1.6. Se leen
+  los dos, y primero ese.
+- **No vale fuera del fuero laboral de la PBA.** Los arts. 168 y 171 son de la Constitución
+  provincial, la pieza doble es de la Ley 11.653 y la alzada es la SCBA. Para la justicia
+  nacional y federal, `sede-judicial-nacional.md` 1.8; para el fuero CAyT de la Ciudad,
+  `sede-judicial-caba.md` 1.9. La sentencia penal, la de familia y la de otra provincia **no
+  tienen módulo**: ahí se dice, no se suple.
+- **No trae el derecho de fondo.** Qué rubro procede y bajo qué régimen es `laboral.md`.
+- **No es el espejo de parte**, que es `parte.md` 1.7.

@@ -1,14 +1,14 @@
-Ley 13.133 PBA - Codigo Provincial de Implementacion de los Derechos de los Consumidores y Usuarios
+Ley 13.133 PBA - Código Provincial de Implementación de los Derechos de los Consumidores y Usuarios
 ==============================================================================
-Jurisdiccion:     pba
+Jurisdicción:     pba
 Fuente:           https://normas.gba.gob.ar/documentos/VJJalfJV.html
-Descargado:       2026-09-14
+Descargado:       2026-09-17
 SHA-256 (crudo):  11c4490d6985be6ddfc3691a0e941d85aec95be97ca56011ad4470faa3612ef6
 Charset:          UTF-8
 
-Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
-NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
-Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
 el manifiesto `normas.json`.
 ==============================================================================
 

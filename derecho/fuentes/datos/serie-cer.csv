@@ -1,10 +1,11 @@
 # CER - Coeficiente de Estabilización de Referencia (base 02/02/2002 = 1)
-# Organismo: BCRA, via datos.gob.ar - frecuencia: diaria, colapsada a fin de mes
+# Organismo: BCRA, vía datos.gob.ar - frecuencia: diaria, colapsada a fin de mes
 # serie_id: 94.2_CD_D_0_0_10
 # Fuente: https://apis.datos.gob.ar/series/api/series/?ids=94.2_CD_D_0_0_10&format=csv&start_date=2016-12
-# Descargado: 2026-09-13  (117 periodos, 2016-12 a 2026-08)
-# La serie de datos.gob.ar suele atrasar unas dos semanas respecto del BCRA.
-# Para el CER del dia, ir a la API del BCRA: https://api.bcra.gob.ar/estadisticas/v4.0/Monetarias/30 (variable 30, sin token; la v3.0 devuelve HTTP 410).
+# Descargado: 2026-09-17  (117 períodos, 2016-12 a 2026-08)
+# La serie de datos.gob.ar suele atrasar unas dos semanas respecto del BCRA. Para el CER del
+# día, ir a la API del BCRA: https://api.bcra.gob.ar/estadisticas/v4.0/Monetarias/30 (variable
+# 30, sin token; la v3.0 devuelve HTTP 410).
 periodo,indice
 2016-12,6.8378
 2017-01,6.933

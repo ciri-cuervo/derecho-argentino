@@ -1,0 +1,562 @@
+Bodegas y Viñedos Giol E.E.I. y C. c/ Dirección General de Fabricaciones Militares
+==============================================================================
+Tribunal:         CSJN
+Cita:             B. 82. XX.
+Fecha declarada:  1987-02-26
+Fuente del PDF:   https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoSumario.html?idDocumentoSumario=2003
+Derivado de:      jurisprudencia/csjn-bodegasyvinedosgiol-fallos-310-380.pdf
+SHA-256 del PDF:  455a64aabb80463e44ba61205ce92fbc0110f90390a6aae02187d6546c041da2
+Paginas:          13
+Generado:         2026-09-17
+Herramienta:      tesseract 5.5.3, -l spa --psm 6, pdftoppm -r 300
+
+TEXTO RECUPERADO POR OCR LOCAL. No se bajó de la fuente: la capa de texto que traía el
+PDF estaba arruinada y esto es una relectura de las imágenes de la página. NO es
+publicación oficial y no reemplaza al PDF. Para transcribir un considerando a un escrito,
+cotejar contra la página del PDF: el número de página está marcado abajo.
+
+Regenerar: python3 herramientas/reocr_jurisprudencia.py csjn-bodegasyvinedosgiol-fallos-310-380
+==============================================================================
+--- pagina 1 de 13 ---
+
+380 FALLOS DE LA CORTE SUPREMA 310
+
+RECURSO EXTRAORDINARIO: Resolución. Límites del pronunciamiento.
+No incurrió en omisión el a quo respecto al tratamiento del supuesto hijo de
+las víctimas —que habria nacido en cautiverio—, toda vez que la apelación
+que se sometió a su conocimiento tenía sólo por objeto dilucidar la com-
+petencia de la justicia federal, en tanto que el agravio concierne a la
+investigación de fondo y, por lo tanto, excede los límites del recurso ex-
+traordinario.
+
+JURISDICCIÓN Y COMPETENCIA: Competencia militar.
+Si bien corresponde entender en la causa a la jurisdicción militar, al hallar-
+se las presentes actuaciones comprendidas en el auto de avocamiento
+acordado por la Cámara Federal en lo Criminal y Correccional —con fecha
+4 de febrero de 1987--, resulta competente este tribunal federal, debiendo
+entender por la vía prevista en el art. 10 de la ley 23.049.
+
+BODEGAS y VIÑEDOS CIOL E.E.I. y C. v. DIRECCION GENERAL
+pe FABRICACIONES MILITARES
+
+ADUANA: Importación.
+La resolución n* 2/71 —que reglamentó en forma conjunta entre el Ministerio
+de Industria y Minería y la Dirección General de Fabricaciones Militares,
+la emisión de licencias arancelarias para la importación de flejes y chapas
+estañadas—, otorgó la competencia para fijar la proporción entre la hojalata
+que debe adquirirse en el mercado interno y la que se puede obtener en el
+exterior mediante las mencionadas licencias, y aun cuando el procedimien-
+to implantado no estableciera expresamente una fecha tope, antes de la
+cual el órgano debe pronunciarse, corresponde indagarse sobre el alcance
+temporal de la habilitación. Ello es así, pues en el caso de rebasarse sus
+lindes la autoridad estaría produciendo un acto viciado de nulidad absolu-
+ta por carecer de competencia para expedirse (art. 14, inc. b), de la ley
+19.549).
+
+PROCEDIMIENTO ADMINISTRATIVO.
+Dentro de los distintos aspectos que hacen a la competencia, se encuentran
+aquéllos fijados en razón del tiempo, que puede venir dada no sólo por un
+plazo determinado, sino condicionada por el objeto del acto a dictarse y
+por la finalidad que ha determinado la norma. El art. 7% de la resolución
+
+--- pagina 2 de 13 ---
+
+310 DE JUSTICIA DE LA NACIÓN 381
+n* 2/71, en cuanto describe el contenido de la decisión como la determinación
+en forma provisoria, cada semestre, y en forma definitiva, por acumulado
+cada 12 meses, establece una prescripción que debe conjurarse con el ob-
+jetivo perseguido al implementar el sistema y que, según establece el mis-
+mo artículo, apunta a que no se produzcan diferencias entre los distintos
+usuarios y/o importadores en los costos promedio de la hojalata impor-
+tada y nacional.
+
+IMPUESTO: Interpretación de normas impositivas.
+
+Los preceptos contenidos en la resolución n% 2/71 deben ser interprétados
+en consonancia con la finalidad última de todo el mecanismo reglamen-
+tario proteger la actividad industrial de SOMISA, asegurando la coloca-
+ción de sus productos en el mercado nacional— así como también —reser-
+var la autorización para importar libre de gravámenes a los casos en que
+la mencionada empresa no pudiera satisfacer las necesidades del mercado
+interno. La conjunción de los términos de la norma y la finalidad enunciada,
+tornan ilegítima la decisión de ejercer la potestad con carácter retroactivo,
+pretendiendo restablecer una actividad declinada durante un prolongado
+período, dado que al momento de establecerse el reajuste se habían supe-
+rado con creces los períodos dentro de los cuales debía pronunciarse la
+Dirección General de Fabricaciones Militares.
+
+ACTOS ADMINISTRATIVOS.
+
+Tanto se estime que la voluntad de la administración resulte excluída de
+la emergencia por error esencial, o se considere que el acto fue emitido
+mediante incompetencia en razón del tiempo, o con un objeto ilegítimo
+por violación de la ley aplicable, la decisión adoptada —dejar sin efecto
+el ajuste de cupos individuales para importación de hojalata, correspon-
+diente al período 21 de julio de 1971 al 30 de abril de 1977 y satisfacción
+fle daños y perjuicios— por la Dirección General de Fabricaciones Milita-
+res, contiguró la nulidad absoluta e insanable de aquélla, según lo esta-
+blecido por el art. 14 de la Ley Nacional de Procedimientos Administra-
+tivos, y la intervención de las partes interesadas en el procedimiento, o la
+emisión de dictámenes, no resulta suficiente para cohonestar el pronun-
+ciamiento administrativo o disminuir la gravedad del vicio.
+
+ACTOS ADMINISTRATIVOS.
+
+Los efectos de ajuste —que favoreció a la actora— no pueden impedir que
+Fabricaciones Militares ejerza la potestad revocatoria, una vez advertida la
+
+--- pagina 3 de 13 ---
+
+382 FALLOS DE LA CORTE SUPREMA 310
+irregularidad del actor. Ello es así, pues si bien el art. 17 de la ley 19.549
+—según redacción ley 21.686—, establece que obsta a la revocación del
+acto afectado de nulidad absoluta, en sede administrativa, la circunstancir
+que el mismo haya generado derechos subjetivos que se estén cumpliendo,
+en la inteligencia de la norma hoy vigente cabe considerarla como una
+excepción a la actividad revocatoria de la administración —principio gene-
+ral de la primera parte de su texto—, debiendo ser interpretada con ca-
+rácter estricto toda vez que su aplicación acarrea la subsistencia en el
+mundo jurídico de un acto viciado de nulidad absoluta hasta tanto se
+produzca la declaración judicial pertinente.
+
+ACTOS ADMINISTRATIVOS.
+
+Corresponde confirmar la sentencia que, rechazó la demanda tendiente a
+obtener la anulación del acto por el cual la Dirección General de Fabri-
+caciones Militares dejó sin efecto el ajuste de cupos individuales para im-
+portación de hojalata correspondiente al período 21 de julio de 1971 al
+30 de abril de 1977. Ello es así, dado que la determinación de ajuste prac-
+ticado por aquélla, no reúne los requisitos impuestos por el art. 17 de la
+ley 19.549 —según redacción ley 21.686— para enervar la aptitud que, en
+principio, tiene toda autoridad administrativa para dejar sin efecto un
+acto írrito; por cuanto el beneficio perseguido por la empresa era la auto-
+rización para importar hojalata libre de gravámenes, con lo que el otor-
+gamiento de la licencia arancelaria venía a constituir el derecho subje-
+tivo que, una vez materializado, incorporaría a su patrimonio en forma
+plena sin poder serle desconocido en sede administrativa, aunque se basara
+en un promunciamiento viciado de nulidad absoluta, siendo la decisión que
+en definitiva se nulificó, sólo un paso del íter que debía recorrer la parte
+interesada para obtener las licencias, pero en modo alguno el acto final
+de ese procedimiento para declarar su derecho a importación en tan fa-
+vorables condiciones.
+
+ADUANA: Importación. En general.
+
+Si las autorizaciones para introducir hojalata del extranjero debían ser
+dispuestas mediante la voluntad conjugada de dos autoridades —Fabrica-
+ciones Militares y el entonces Ministerio de Industria y Minería— no cabe
+considerar que la decisión previa del ente militar —manifiestamente nula—
+pueda condicionar ineluctablemente el otorgamiento posterior de la licencia
+de importación, por un órgano distinto que había sido ajeno al procedi-
+miento.
+
+--- pagina 4 de 13 ---
+
+310 DE JUSTICIA DE LA NACIÓN 383
+DICTAMEN DEL PROCURADOR FISCAL DE LA CORTE SUPREMA
+Suprema Corte;
+1
+
+Se me corre vista del recurso planteado a fs. 921 y mantenido
+mediante memorial de fs. 925/29 por la parte actora contra la sen-
+tencia de la Sala N% 1 de la Cámara Nacional de Apelaciones en
+lo Contencioso Administrativo Federal, que al confirmar el fallo de
+primera instancia, rechazó la demanda enderezada a obtener la anu-
+lación del acto por el cual la Dirección General de Fabricaciones
+Militares dejó sin efecto el ajuste de los cupos individuales para la
+importación de hojalata, correspondiente al período 21 de julio de
+1971 a 30 de abril de 1977, y la satisfacción de los daños y per-
+juicios consiguientes.
+
+Desde un punto de vista formal, entiendo que la apelación ordi-
+haria es procedente por cuanto la Nación es parte a través de un
+ente autárquico de su dependencia y el monto disputado en último
+término supera la suma —a la febha de interposición del recurso—
+emergente del art. 24, inc. 6% ap. a), del decreto-ley 1285/58 mo-
+dificado por las leyes 21.708 y 22.434, y resolución n 146/84. de
+esta Corte.
+
+H
+
+El Decreto Nacional 2112/71 (Boletín Oficial del 15-7-71) resol.
+vió sustituir las posiciones, textos y derechos del Capítulo 73 de la
+Nomenclatura Arancelaria y Derechos de Importación, fundamen-
+tando la medida en la necesidad que tiene la producción siderúrgica
+de contar con un esquema de seguridad que le permita volcar al
+mercado su capacidad productiva, proponiéndose asimismo evitar que
+las importaciones de algunos productos siderúrgicos, cuyas caracte-
+rísticas requieren una organización adecuada del mercado, sustituyan
+a los de producción nacional. Al mismo tiempo, se prevén los casos
+en que exista insuficiencia de materiales, en cantidad o calidad, que
+no sean elaborados por la producción nacional, en cuyo supuesto
+
+--- pagina 5 de 13 ---
+
+384 FALLOS DE LA CORTE SUPREMA 310
+se posibilita la importación de tales productos a menores derechos,
+debiéndose obtener licencias arancelarias emitidas por la Dirección
+General de Fabricaciones Militares y el Ministerio de Industria, Co-
+mercio y Minería, en forma conjunta (art. 39%),
+
+En lo que a la causa interesa, los flejes estañados quedaron en
+una posición gravada con 50 % de derechos (73.12.00,01) y si con-
+taban con licencia arancelaria, libres de los mismos (73.12.00.02), -
+en cuanto a las chapas estañadas (hojalata), sin otros trabajos, re-
+gistran 50 % de derechos (73.13.04.01) y resultan libres si estaban
+amparados por la licencia arancelaria emitida por los organismos
+indicados (73.13.04.02). El régimen así implementado rigió hasta
+el 19 de julio de 1979, en que fue sustituido por uno nuevo, según
+Decreto Nacional 1492/79 (Boletín Oficial del 28-6-79).
+
+En atención a que el nuevo arancel establecido por el decreto
+2112/71 preveía la posibilidad de importar flejes y chapas estañadas
+exentos del pago de derechos aduaneros, el Ministerio de Industria
+y Minería y la Dirección General de Fabricaciones Militares regla-
+mentaron, en forma conjunta, la emisión de licencias arancelarias,
+a través de la resolución n* 2/71 (Boletín Oficial del 81-12-71),
+para cubrir el saldo del mercado insuficientemente abastecido por
+SOMISA, que si bien producía ese tipo de laminado, según los fun-
+damentos de la resolución no satisfacía momentáneamente la total
+demanda del consumo interno; cuidando, por otra parte, de asegu-
+rar la colocación de los productos de esta empresa en el mercado
+nacional,
+
+Me parece conveniente describir en qué consistió el régimen
+de expedición de licencias, pues en torno a su interpretación se de-
+sarrolla la cuestión jurídica ventilada en autos. Las licencias aran-
+celarias se otorgarían a las firmas usuarias e importadoras, en fun-
+ción de cantidades proporcionales a las compras de hojalata que
+efectúen a SOMISA (art. 19%), tomando en cuenta las necesidades
+semestrales declaradas por las firmas y dividiéndolas por la produc-
+ción semestral estimada por la Sociedad Mixta Siderúrgica Argen-
+tina. Al cociente así obtenido se le restará una unidad y su resul-
+tado será el coeficiente multiplicador (art. 2%), válido para periodos
+
+--- pagina 6 de 13 ---
+
+310 DE JUSTICIA DE LA NACIÓN | 385
+comprendidos entre los meses de noviembre a abril y de mayo a
+octubre de cada año, y determinado en cada oportunidad (art. 39).
+Este coeficiente multiplicador, aplicado sobre las cantidades que
+cada comprador adquiere a SOMISA, dará lugar a los cupos indi-
+viduales con derecho a licencia arancelaria (art. 22).
+
+Como la oportunidad en que debe ponerse en ejecución este
+mecanismo adquiere relevancia para la solución del pleito, considero
+oportuno recordar otras disposiciones del régimen, que establecen
+plazos para el acopio de información que lleva a determinar los
+cupos de importación sin derechos, haciendo presente que la regla-
+mentación entró en vigencia para el semestre que se inició el 12
+de noviembre de 1971 —fecha de su dictado—. Ciento veinte días
+antes del comienzo de cada semestre, Fabricaciones Militares debe
+requerir de las firmas la estimación de sus necesidades totales de
+compra del material, para el período considerado, debiendo evacuar
+los usuarios o importadores la información, en el término de 15 días.
+En el mismo plazo, estos deberán remitir a SOMISA el detalle de
+la hojalata que debe ser producida por la Empresa; quien con una
+anticipación de 105 días remitirá la estimación cuantitativa de su
+producción para el semestre a Fabricaciones Militares.
+
+La Dirección General, recibida la información de las firmas
+usuarias o importadoras y la estimación de SOMISA, en el término
+de 5 días, establecerá el coeficiente multiplicador a que hemos hecho
+referencia (art, 8%. Conocido este coeficiente, SOMISA convendrá
+con cada firma interesada los detalles de la venta de la hojalata
+de su producción, para el respectivo semestre, y emitirá las perti-
+nentes notas de venta (art, 99),
+
+Una vez perfeccionado el contrato, la Empresa otorgará a cada
+comprador la constancia de la operación y del coeficiente multipli-
+cador, documentos que los interesados deben adjuntar a su solicitud
+de licencia arancelaria, presentada ante la Dirección General de
+Fabricaciones Militares (art. 10).
+
+Finalmente, en lo que aquí nos interesa, el régimen prevé un
+mecanismo tendiente a evitar las diferencias que puedan producirse
+
+--- pagina 7 de 13 ---
+
+386 FALLOS DE LA CORTE SUPREMA 310
+entre las firmas interesadas, en los costos promedios de la hojalata
+importada y nacional, para lo cual se determinará la correcta pro-
+ducción con que cada firma debió participar en las compras a
+SOMISA y en la obtención de licencias arancelarias, mediante una
+estimación provisoria cada semestre, y en forma definitiva por acu-
+mulado cada 12 meses.
+
+El art. 7% del ordenamiento establece, con ese objeto, que la
+proporción que servirá de base al ajuste será la que resulte de la
+comparación entre el total de licencias otorgadas en un período y
+la suma de las ventas de SOMISA en el mismo término. Los ajustes
+que resulten de esa proporcionalidad se efectuarán mediante com-
+pensaciones, otorgando al usuario o importador una licencia adi-
+cional en el caso que hubiere recibido menos cantidad de material
+autorizado a importar, acreditándosele para el próximo semestre el
+excedente que adquirió a SOMISA. A la inversa, si recibió mayor
+cantidad, se le debitará ese excedente de las licencias que le co-
+rresponda para el próximo semestre, excepto que opte por resolver
+las que aún no hubiere utilizado hasta el monto del excedente.
+Además, deberá la firma efectuar un convenio de compra a SOMISA,
+sin derecho a licencias, por el material adquirido de menos a esta
+empresa, como consecuencia del reajuste anual practicado.
+
+TI
+
+Según se ha acreditado en autos, el sistema de ajustes a que
+me he zelerido no se p:acticó nunca durante 12 semestres seguidos
+sin que los usuarios a SOMISA reclamaran; vendiendo esta empresa,
+por otra paric, la totalidad de su producción e incluso en: oportu-
+nidades se vio impedida de cumplir con los compromisos de en-
+trega del material que había asumido.
+
+Recién el 17 de noviembre de 1977, a instancias de SOMISA
+luego de recabadas las informaciones y efectuados los análisis, la
+Dirección General de Fabricaciones Militares notifica a la actora
+(ts. 6) que con referencia al ajuste del art. 79 de la resolución 2/71,
+para los períodos comprendidos entre el 21 de julio de 1971 y el
+
+--- pagina 8 de 13 ---
+
+310 DE JUSTICIA DE LA NACIÓN 387
+30 de abril de 1977, se adoptó el coeficiente real, determinado por
+el acumulado cada 12 meses, con lo que se estableció la p:oporción
+en que la firma debió participar en las compras de material nacional
+y en la obtención de licencias arancelarias. El resultado del cálculo
+determinó que se autorizara a la accionante a importar 2,549 ton.,
+pudiendo hacer uso de ese derecho, en semestres sucesivos, en cuo-
+tas proporcionales a sus necesidades, a partir del período mayo-
+octubre de 1978, apercibiéndola de la caducidad de la autorización
+proporcional al parcial correspondiente, en caso de no importar el
+material que se le permite en cada cuota.
+
+Con motivo de la solicitud efectuada por la actora para que
+se le extienda una licencia arancelaria de importación de hojalata,
+Fabricaciones Militares le informó el 6 de julio de 1978 (fs. 15) que,
+de acuerdo con las necesidades que había estimado para el semestre
+mayo-octubre de 1978 y el coeficiente multiplicador fijado para esa
+etapa, podría importar 97 ton. de las 433 requeridas. Ea la nota
+se le hace saber: “Con respecto a su crédito por compras de hoja-
+lata nacional surgido en virtud del ajuste previsto en el art. 79% de
+la resolución 2/71, al cual hace mención en su nota del 30 de junio
+de 1978, la Cámara de Cromo Hojalaterías Mecánicas ha solicitado
+la anulación del mismo, razón por la cual esta Dirección General
+se encuentra imposibilitada de extender licencias arancelarias con
+cargo al mismo, hasta tanto se analicen los fundamentos legales de
+tal pedido de anulación”.
+
+No obstante lo enunciado, como excepción por ser una empresa
+estatal la requirente, resuelve extender una licencia arancelaria por
+las 433 ton. solicitadas, imputando 97 al período mayo-octubie de
+1978, y 336 al crédito por ajuste, comunicado por nota del 17-11-77,
+con cargo al próximo semestre para el que remita necesidades; con
+la aclaración expresa que “de resolverse anular el ajuste, deberá
+proceder a remitir las constancias de compras de hojalata nacional
+que avalen tal importación, a cuyos efectos se considerará el coefi-
+ciente multiplicador que se adopte para el semestre noviembre/1978 -
+abril/1979” (fs. 16).
+
+--- pagina 9 de 13 ---
+
+388 FALLOS DE LA CORTE SUPREMA 310
+
+Posteriormente, mediante nota fechada el 26 de setiembre de
+1978, comunica a Bodegas y Viñedos Giol E.E.I. y C. que analizados
+los fundamentos jurídicos del ajuste realizado para los períodos
+21-6-71 al 30-4-77 se resolvió dejarlo sin efecto, y dispuso que se
+practique para períodos de doce meses, comenzando a correr el pri-
+mero a partir del 12 de noviembre de 1978, en base a la metodolo-
+gía que explica, aplicándose sus resultados al otorgamiento de licen-
+cias arancelarias para el semestre noviembre 1978-abril 1979.
+
+IV
+
+Cuestionada en autos la revocación del ajuste efectuado por
+Fabricaciones Militares y reclamados los daños y perjuicios deriva-
+dos de la pérdida del de:echo a importación libre de aranceles, el
+juez de primera instancia rechazó la demanda (fs. 865/79) siendo
+su pronunciamiento confirmado por el a quo (fs. 911/17).
+
+En lo sustancial, el tribunal entendió que la determinación
+efectuada en noviembre de 1977, constituyó un acto administrativo
+inregular, viciado de nulidad absoluta y manifiesta por error esencial
+de la administración, por haberse realizado para el período 1971/1977
+y con carácter retroactivo, en violación de lo dispuesto en la reso-
+lución 2/71 que preveía dos clases de ajustes: el provisorio, por
+semestre y el definitivo, cada año. Encontró válida la decisión de
+Fabricaciones Militares, de dejar sin efecto lo dispuesto, por estimar
+que la ilegitimidad del primer acto permitía a la autoridad admi-
+nistrativa volver sobre sus pasos y no obstaba a ello la excepción
+prevista en el art. 17 de la ley 19.549, ya que la actora no había
+ejercido derecho subjetivo alguno, con sustento en las tantas veces
+mentado ajuste.
+
+Contra la decisión se vuelcan los agravios de la empresa actora,
+que pueden resumirse de la siguiente manera:
+
+a) La potestad otorgada a Fabricaciones Militares, consistente
+en el ajuste de los cupos de importación de hojalata en forma acu-
+mulativa anual, por su naturaleza no puede ser renunciada ni puede
+
+--- pagina 10 de 13 ---
+
+310 DE JUSTICIA DE LA NACIÓN 389
+caducar. La norma invocada por la sentencia, para acreditar el error
+en que incurrió el ente al no haber practicado la operación cada
+año, nada dice acerca de plazos extintivos o de caducidad.
+
+b) El acto que el a quo entiende afectado de nulidad absoluta
+por “error grave y evidente”, no padece un vicio que pueda cons-
+tituir error grave de derecho, desde que demandó un largo proce-
+dimiento administrativo previo, donde se emitieron dictámenes, se
+presentaron usuarios, la Cámara que los agrupa y la empresa SO-
+MISA. Se trata de un acto regular y, por tanto, inextinguible según
+el art. 18 de la ley 19.549, pues tanto el decreto 2112/71 como la
+resolución 2/71 no disponen que pasado el año quedara vedada la
+realización de los ajustes; sólo obligan a que se efectúe por “acu-
+mulado cada 12 meses”, estableciendo como único límite el que se
+deriva de su propia finalidad, cual es la equiparación de los costos
+de los usuarios. En todo caso, el alcance de la competencia cons-
+tituye una cuestión opinable.
+
+c) Aun en el supuesto que se considere irregular el acto de
+asignación de cupo, éste no pudo ser revocado en sede administra-
+tiva pues estaba firme y consentido, y había generado derechos sub-
+jetivos que se estaban cumpliendo. La decisión había sido adoptada
+por Fabricaciones Militares en uso de facultades regladas, que co-
+rresponden a la función jurisdiccional de la administración, por lo
+que había asumido la estabilidad propia de la cosa juzgada judicial.
+
+V
+
+La Resolución (M.T. y M. - D.G.F.M.) n? 2/71 es la norma
+que otorgó competencia para fijar la proporción entre la hojalata
+que debe adquirirse en el mercado interno y la que se puede obtener
+en el exterior mediante las licencias arancelarias. Aun cuando el
+procedimiento que implementó no estableciera expresamente una
+fecha tope, antes de la cual el órgano debía pronunciarse, estimo
+que debe indagarse sobre el alcance temporal de la habilitación,
+puesto que en caso de rebasarse sus lindes la autoridad estaría pro-
+
+--- pagina 11 de 13 ---
+
+390 FALLOS DE LA CORTE SUPREMA 310
+duciendo un acto viciado de nulidad absoluta por carecer de com-
+petencia para expedirse (art. 14, inc. b, de la ley 19.549). Dentro de
+los distintos aspectos que hacen a la competencia, encontramos aque-
+lla fijada en razón del tiempo, que puede venir dada no sólo por
+un plazo determinado, sino condicionada por el objeto del acto a
+dictarse y por la finalidad que ha determinado la norma competi-
+cial, Ea tal sentido, considero necesario reparar en el art. 7% de
+la resolución citada, en cuanto describe el contenido de la decisión
+como la determinación “en forma provisoria, cada semestre, y en
+forma definitiva, por acumulado cada 12 meses”; prescripción que
+debe conjurarse con el objetivo perseguido al implementar el sis-
+tema y que según establece el mismvu artículo, apunta a que “...no
+se produzcan diferencias entre los distintos usuarios y/o importado-
+res en los costos promedio de la hojalata importada y nacional”,
+
+Estos preceptos, a su vez, deben ser interpretados en consonan-
+cia con la finalidad última de todo el mecanismo reglamentario, que
+era proteger la actividad industrial de SOMISA, asegurando la colo-
+cación de sus productos en el mercado nacional, a cuyo efecto se
+le hacían llegar anticipadamente las necesidades de los usuarios de
+modo de planear adecuadamente su producción de laminado; y reser-
+vando la autorización para importar libre de gravámenes a los casos
+en que la mencionada empresa no pudiera satisfacer las necesidades
+del mercado interno.
+
+La conjunción de los «ciaros términos de la norma y la
+finalidad que inspiró su dictado tornaron, a mi modo de ver,
+ilegítima la decisión de ejercer la potestad con carácter retroactivo,
+pretendiendo restablecer una actividad declinada durante un prolon-
+gado período, dado que al momento de establecerse el reajuste se ha-
+bían superado con creces los períodos dentro de los cuales debía pro-
+pronunciarse la Dirección General de Fabricaciones Militares.
+
+Tanto se estime que la voluntad de la Administración resultó ex-
+cluida en la emergencia por error esencial —como entendió la sen-
+tencia en recurso—, o se considere que el acto fue emitido mediando
+incompetencia en razón del tiempo, o con un objeto ilegítimo por
+violación de la ley aplicable, a mi juicio la mácula que detentaba era
+
+--- pagina 12 de 13 ---
+
+310 : DE JUSTICIA DE LA NACIÓN 391
+de tal entidad que configuró la nulidad absoluta e insanable de la
+decisión, según lo establecido en el art. 14 de la ley nacional de pro»
+cedimientos administrativos; y, contrariamente a lo sostenido por la
+apelante, la intervención de partes interesadas en el procedimiento,
+o la emisión de dictámenes, no resultó suficiente para cohonestar el
+pronunciamiento administrativo o disminuir la gravedad del vicio.
+
+Finalmente, resta considerar si los efectos del ajuste que favoreció
+a la empresa pudieron impedir que Fabricaciones Militares ejerciera la
+potestad revocatoria, una vez advertida la irregularidad del acto. Ade-
+lanto mi opinión en sentido negativo, compartiendo el criterio adop-
+tado por las instancias anteriores.
+
+El art. 17 de la ley 19.549, según la redacción dada por la 21.686,
+establece que obsta a la revocación del acto afectado de nulidad ab-
+soluta, en sede administrativa, la circunstancia que el mismo haya
+generado derechos subjetivos que se estén cumpliendo. Como sostu-
+viera V. E., con referencia a la primitiva redacción, pero en una in-
+teligencia que entiendo aún hoy vigente, la limitación impuesta por
+la norma en examen, en cuanto constituye una excepción a la activi-
+dad revocatoria de la administración, establecida como principio ge-
+neral en la primera parte de su texto, debe ser interpretada con ca-
+rácter estricto toda vez que su aplicación acarrea la subsistencia en
+el mundo jurídico de un acto viciado de nulidad absoluta hasta tanto
+se produzca la declaración judicial pertinente (Fallos: 304:898,
+cons. 72),
+
+A mi modo de ver, la determinación del ajuste practicado por la
+Dirección General de Fabricaciones Militares respecto de la actora,
+no reúne los requisitos impuestos por la norma para enervar la ap-
+titud que, en principio, tiene toda autoridad administrativa para dejar
+sin efecto un acto írrito. Ello así por cuanto el beneficio perseguido
+por la empresa era la autorización para importar hojalata libre de
+gravámenes, con lo que el otorgamiento de la licencia arancelaria
+venía a constituir el derecho subjetivo que, una vez que se estuviera
+materializando, incorporaría a su patrimonio en forma plena y no po-
+
+“— dría serle desconocida en sede administrativa, aunque se basara en
+un pronunciamiento viciado de nulidad absoluta. La decisión que en
+definitiva se mulificó solo consistió en un paso dentro del íter que
+
+--- pagina 13 de 13 ---
+
+392 FALLOS DE LA CORTE SUPREMA 310
+debía recorrer la parte interesada para obtener las licencias, pero en
+modo alguno era el acto final de ese procedimiento para declarar su
+derecho a importanción en tan favorables condiciones.
+
+Por lo demás, cabe recordar que las mentadas autorizaciones pa-
+ra introducir la hojalata del extranjero debían ser dispuestas mediante
+la voluntad conjugada de dos autoridades —Fabricaciones Militares y
+el entonces Ministerio de Industria y Minería—, por lo que entiendo
+que mal puede considerarse que la decisión previa del ente militar,
+manifiestamente nula, podía condicionar ineluctablemente el otorga-
+miento posterior de la licencia de importación, por un órgano dis-
+tinto que había sido ajeno al procedimiento.
+
+Por lo expuesto, opino que corresponde confirmar sentencia ape-
+lada. Buenos Aires, 27 de diciembre de 1985. José Osvaldo Casas.
+
+FALLO DE LA CORTE SUPREMA
+Buenos Aires, 26 de febrero de 1987.
+
+Vistos los autos: “Bodegas y Viñedos Giol E.E.L y C. c/Direc-
+ción General de Fabricaciones Militares s/ordinario”.
+
+Considerando:
+
+Que esta Corte comparte los fundamentos y conclusiones del dic-
+tamen del señor Procurador Fiscal, 'cuyos términos se dan por repro-
+ducidos en razón de brevedad.
+
+Por ello, y de conformidad con lo dictaminado por el señor Pro-
+curador Fiscal, se declara procedente el recurso y se confirma la sen-
+tencia apelada,
+
+Aucusto CEsAr BeLLUscIO — CarLos S. FayT —
+SANTIAGO PETRACCHLI.

@@ -1,14 +1,14 @@
-Constitucion de la Provincia de Buenos Aires (1994)
+Constitución de la Provincia de Buenos Aires (1994)
 ==============================================================================
-Jurisdiccion:     pba
+Jurisdicción:     pba
 Fuente:           https://normas.gba.gob.ar/constitucion-de-la-provincia-de-buenos-aires-1994
-Descargado:       2026-09-14
+Descargado:       2026-09-17
 SHA-256 (crudo):  1a9bb59f279342276f1f933ed4151475b927be825856352e10c189db13b097d0
 Charset:          windows-1252
 
-Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
-NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
-Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
 el manifiesto `normas.json`.
 ==============================================================================
 

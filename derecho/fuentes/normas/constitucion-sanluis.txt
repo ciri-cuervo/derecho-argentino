@@ -1,14 +1,14 @@
-Constitucion de la San Luis (texto actualizado)
+Constitución de la Provincia de San Luis (texto actualizado)
 ==============================================================================
-Jurisdiccion:     sanluis
+Jurisdicción:     sanluis
 Fuente:           https://www.argentina.gob.ar/normativa/provincial/ley-0-123456789-0abc-defg-000-0000dvorpyel/actualizacion
-Descargado:       2026-09-14
-SHA-256 (crudo):  b6aabd795698db0aa52fe543909289b969e2623f81e13860b8eaed30e8faead7
+Descargado:       2026-09-17
+SHA-256 (crudo):  0876f2da2b551aa6a936628b1cf4385307dd1a9d4c037e85f4d41f0dbd5d0d00
 Charset:          utf-8
 
-Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
-NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
-Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
 el manifiesto `normas.json`.
 ==============================================================================
 

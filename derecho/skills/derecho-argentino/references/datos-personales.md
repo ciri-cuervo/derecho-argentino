@@ -1,6 +1,8 @@
 # Datos personales y hábeas data · Ley 25.326
 
-> Módulo de referencia de la skill `derecho-argentino`. Numeración global, sección 30.
+> Módulo de referencia de la skill `derecho-argentino`. Numeración global: las remisiones cruzadas
+> entre módulos siguen siendo válidas. **Rigen las reglas de integridad de la sección 2 del
+> SKILL.md.**
 
 ---
 
@@ -207,4 +209,4 @@ donde queda fijada su posición.
 
 > **Lo que este módulo no cubre:** el régimen sancionatorio y la autoridad de aplicación, la
 > transferencia internacional de datos, el registro de archivos del art. 21, y el Decreto
-> 1558/2001. Para eso rige el ruteo de `otras-ramas.md` sección 19, **con su advertencia**.
+> 1558/2001. Para eso rige el ruteo de `perfiles-heredados.md` sección 19, **con su advertencia**.

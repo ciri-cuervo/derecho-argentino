@@ -1,0 +1,227 @@
+{
+  "_descripcion": "Veredicto por sección que un detector señala como rama nueva dentro de un módulo que ya existía. Lo consume ramas_sin_disparador.py, que después comprueba que cada rama tenga su disparador en la tabla de ruteo de la sección 16 del SKILL.md o en el description.",
+  "_criterio": "Se decide abriendo la sección: si trae un cuerpo normativo que el módulo no cubría, es una rama y necesita disparador propio; si es una subdivisión de la materia que el módulo ya cubre, la fila del módulo la alcanza y no hace falta. Tres ramas están declaradas a mano porque su encabezado no nombra la ley y el detector no las ve: van anotadas como tales.",
+  "_vocabulario": {
+    "rama": "trae al módulo un cuerpo normativo propio; sin disparador queda inalcanzable",
+    "no-es-rama": "es una subdivisión de la materia del módulo, y la fila del módulo ya la alcanza"
+  },
+  "fijado": "2026-09-17",
+  "nota": "Primera corrida. De los 23 candidatos, 20 son rama y 7 no; y se agregaron a mano las tres cuyo encabezado no nombra la ley. El detector encontró tres agujeros que la revisión a mano no había visto: hábeas corpus, derechos de la víctima y convenios colectivos, los tres sin disparador.",
+  "ramas": {
+    "administrativo-nacional.md :: 46.5 bis": {
+      "veredicto": "rama",
+      "disparadores": [
+        "acceso a la información"
+      ],
+      "nota": "Ley 27.275, acceso a la información pública: cuerpo normativo propio que el módulo de procedimiento no cubría."
+    },
+    "administrativo-nacional.md :: 46.5 ter": {
+      "veredicto": "rama",
+      "disparadores": [
+        "cancelación de residencia"
+      ],
+      "nota": "Ley 25.871, expulsión y cancelación de residencia: procedimiento con garantías propias."
+    },
+    "competencia.md :: 53.5.1": {
+      "veredicto": "no-es-rama",
+      "nota": "Es la competencia federal de la propia Ley 27.442, que el módulo cubre entero: la fila de defensa de la competencia ya lo alcanza. Cita la LDC por contraste, no como materia nueva."
+    },
+    "consumidor.md :: 17.11.5 bis": {
+      "veredicto": "rama",
+      "disparadores": [
+        "gas"
+      ],
+      "nota": "Ley 24.076, marco regulatorio del gas: servicio público con ente propio, entra por el art. 25 LDC."
+    },
+    "consumidor.md :: 17.11.5 quater": {
+      "veredicto": "rama",
+      "disparadores": [
+        "luz"
+      ],
+      "nota": "Ley 24.065, energía eléctrica: gemela del gas y con la instancia previa al revés."
+    },
+    "consumidor.md :: 17.11.5 quinquies": {
+      "veredicto": "rama",
+      "disparadores": [
+        "telecomunicaciones"
+      ],
+      "nota": "Ley 27.078, servicios TIC: sólo el básico telefónico quedó siendo servicio público."
+    },
+    "consumidor.md :: 17.11.5 ter": {
+      "veredicto": "rama",
+      "disparadores": [
+        "vuelo cancelado"
+      ],
+      "nota": "Código Aeronáutico: el art. 63 LDC lo hace desplazar a la LDC en transporte aéreo. NO la detecta la regla -su encabezado no nombra la ley-, está declarada a mano."
+    },
+    "contencioso-pba.md :: 26.9 bis": {
+      "veredicto": "no-es-rama",
+      "nota": "No es materia nueva: es una advertencia sobre el alcance de la emergencia de la Ley 15.557 dentro del propio contencioso bonaerense, que la fila del módulo ya alcanza. Se escribe por lo que la ley NO hace, y nadie la consulta por su nombre."
+    },
+    "dipr.md :: 35.8 bis": {
+      "veredicto": "rama",
+      "disparadores": [
+        "buques"
+      ],
+      "nota": "Ley 20.094, Título V: el DIPr de la navegación por agua. NO la detecta la regla -su encabezado no nombra la ley-, está declarada a mano."
+    },
+    "empleo-publico.md :: 49.5.2": {
+      "veredicto": "rama",
+      "disparadores": [
+        "travesti"
+      ],
+      "nota": "Ley 27.636, cupo del uno por ciento: alcanza a entes públicos no estatales que la Ley 25.164 deja afuera."
+    },
+    "empleo-publico.md :: 49.5.3": {
+      "veredicto": "rama",
+      "disparadores": [
+        "ética pública"
+      ],
+      "nota": "Ley 25.188, ética pública: régimen paralelo al estatuto, con nulidad absoluta propia."
+    },
+    "laboral-colectivo.md :: 5.17": {
+      "veredicto": "rama",
+      "disparadores": [
+        "convenio colectivo"
+      ],
+      "nota": "Ley 14.250, derecho colectivo. Lo encontró el detector en su primera corrida sin disparador, y al medirlo se vio que además era la mitad de `laboral.md`: se partió a `laboral-colectivo.md` con su numeración de origen."
+    },
+    "laboral.md :: 5.17 bis": {
+      "veredicto": "no-es-rama",
+      "nota": "Régimen de Incentivo a la Formalización Laboral: es un régimen de la misma materia que el módulo cubre -liquidación y registración-, alcanzado por su fila."
+    },
+    "laboral.md :: 5.17 quater": {
+      "veredicto": "rama",
+      "disparadores": [
+        "agrario"
+      ],
+      "nota": "Ley 26.727, trabajo agrario: estatuto especial que desplaza parte de la LCT."
+    },
+    "laboral.md :: 5.17 ter": {
+      "veredicto": "rama",
+      "disparadores": [
+        "inclusión laboral travesti"
+      ],
+      "nota": "Ley 27.636 y su reglamentación: la inclusión laboral rige el ingreso en general, no sólo el empleo público."
+    },
+    "penal-leyes-especiales.md :: 24.9.1": {
+      "veredicto": "rama",
+      "disparadores": [
+        "hábeas corpus"
+      ],
+      "nota": "Ley 23.098, hábeas corpus. Lo encontró el detector en su primera corrida y no tenía disparador, siendo una acción constitucional."
+    },
+    "penal-leyes-especiales.md :: 24.9.2": {
+      "veredicto": "no-es-rama",
+      "nota": "Estupefacientes ya tiene disparador propio en el description desde antes; no es una rama que haya entrado por adentro."
+    },
+    "penal-leyes-especiales.md :: 24.9.3": {
+      "veredicto": "rama",
+      "disparadores": [
+        "derechos de la víctima"
+      ],
+      "nota": "Ley 27.372, derechos de la víctima. Lo encontró el detector en su primera corrida y no tenía disparador."
+    },
+    "penal-leyes-especiales.md :: 24.9.4": {
+      "veredicto": "no-es-rama",
+      "nota": "Régimen penal de la minoridad: lo alcanzan la fila de penal juvenil de PBA y el disparador «fuero penal juvenil»."
+    },
+    "penal-leyes-especiales.md :: 24.9.5": {
+      "veredicto": "rama",
+      "disparadores": [
+        "régimen penal tributario"
+      ],
+      "nota": "Título IX de la Ley 27.430 con los umbrales de la Ley 27.799: cuerpo penal propio, con condición objetiva de punibilidad y extinción por pago que no están en el Código. La fila de leyes penales especiales de la sección 16 lo nombra."
+    },
+    "penal-leyes-especiales.md :: 24.9.5 bis": {
+      "veredicto": "rama",
+      "disparadores": [
+        "organizaciones criminales"
+      ],
+      "nota": "Ley 27.786: dos tipos penales nuevos -arts. 210 ter y quáter CP-, un régimen procesal de excepción atado a una zona declarada y decomiso sin condena. No es el régimen de un delito de los que ya cubre el módulo: es un cuerpo propio."
+    },
+    "penal-leyes-especiales.md :: 24.9.6": {
+      "veredicto": "rama",
+      "disparadores": [
+        "lavado de activos"
+      ],
+      "nota": "Ley 25.246, lavado de activos: pone al abogado como sujeto obligado en ciertos supuestos."
+    },
+    "penal-leyes-especiales.md :: 24.9.7": {
+      "veredicto": "rama",
+      "disparadores": [
+        "delitos y faltas electorales"
+      ],
+      "nota": "Código Electoral: delitos, faltas, deber de votar y amparo del elector. Dos tercios de lo escrito no es materia penal."
+    },
+    "penal-leyes-especiales.md :: 24.9.8": {
+      "veredicto": "rama",
+      "disparadores": [
+        "cohecho deportivo"
+      ],
+      "nota": "Ley 20.655, art. 24: cohecho deportivo, tipo penal fuera del Código."
+    },
+    "penal.md :: 24.5.1 bis": {
+      "veredicto": "rama",
+      "disparadores": [
+        "prueba de origen en inteligencia"
+      ],
+      "nota": "Ley 25.520 con el Decreto 941/2025: cuerpo normativo propio que entra al proceso penal por la vía del art. 4 bis. La fila de causa penal no lo alcanzaba, porque quien consulta no lo nombra como nulidad sino como actuación de un organismo."
+    },
+    "previsional-pba.md :: 55.7": {
+      "veredicto": "no-es-rama",
+      "nota": "No es una rama escrita: es un hueco DECLARADO. Las Leyes 15.386 y 15.617 están en normas.json y su texto no pudo bajarse, así que la sección dice que el régimen existe y que está fuera de la capa verificada. No hay contenido que rutear."
+    },
+    "propiedad-industrial.md :: 40.4": {
+      "veredicto": "no-es-rama",
+      "nota": "Licencias y transferencia de tecnología es un capítulo de la materia que el módulo cubre entero, alcanzado por su fila y por «licencia» en el description."
+    },
+    "salud-discapacidad.md :: 27.2 ter": {
+      "veredicto": "rama",
+      "disparadores": [
+        "emergencia sanitaria pediátrica"
+      ],
+      "nota": "Ley 27.796: emergencia con plazo propio, orden público y regla de prioridad presupuestaria. No es cobertura de una obra social, que es lo que cubre el resto del módulo, así que la fila de salud no la alcanzaba sola."
+    },
+    "salud-discapacidad.md :: 27.4": {
+      "veredicto": "no-es-rama",
+      "nota": "Medicina prepaga es uno de los tres sujetos obligados que el módulo cubre; «prepaga» ya está en el description."
+    },
+    "societario.md :: 31.3 bis": {
+      "veredicto": "rama",
+      "disparadores": [
+        "cooperativa"
+      ],
+      "nota": "Ley 20.337, cooperativas: no se rigen por la Ley 19.550 y no se transforman en sociedades. NO la detecta la regla -su encabezado no nombra la ley-, está declarada a mano."
+    },
+    "societario.md :: 31.3 quater": {
+      "veredicto": "rama",
+      "disparadores": [
+        "mutual"
+      ],
+      "nota": "Ley 20.321, asociaciones mutuales: la personalidad nace con la inscripción y se recurre al fuero civil."
+    },
+    "societario.md :: 31.3 ter": {
+      "veredicto": "rama",
+      "disparadores": [
+        "oferta pública"
+      ],
+      "nota": "Ley 26.831, mercado de capitales: régimen de la CNV, con plazos propios."
+    },
+    "transito.md :: 28.5": {
+      "veredicto": "no-es-rama",
+      "nota": "El procedimiento de la Ley 13.927 es el de PBA dentro del módulo de tránsito, alcanzado por «multas de tránsito»."
+    },
+    "tributario-caba.md :: 57.4": {
+      "veredicto": "no-es-rama",
+      "nota": "Es la revisión judicial del mismo acto que trata el resto del módulo: la Ley 189 entra como procedimiento del fuero, no como materia nueva. La fila de AGIP de la sección 16 ya la alcanza, y su segunda mitad la nombra."
+    },
+    "tributario-pba.md :: 54.5 bis": {
+      "veredicto": "rama",
+      "disparadores": [
+        "régimen provincial de inversiones estratégicas"
+      ],
+      "nota": "Ley 15.510: régimen promocional con estabilidad fiscal, sanciones propias y procedimiento por el Decreto-Ley 7.647/70, no por los recursos del art. 115 del Código Fiscal. Quien consulta por un cese de beneficios no dice ARBA."
+    }
+  }
+}

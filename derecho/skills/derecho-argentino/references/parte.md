@@ -1,10 +1,10 @@
 # Modo parte · litigar el caso
 
-> Módulo de referencia de la skill `derecho-argentino`. La numeración es global y coincide
-> con la del SKILL.md. Es el espejo de `sede-judicial-pba.md`: mismo expediente, otro trabajo.
->
-> Verificado contra los textos consolidados de `derecho/fuentes/normas/`. Lo procesal es del
-> fuero laboral de la PBA; para el fuero nacional, Ley 18.345 (ver 5.9).
+> Módulo de referencia de la skill `derecho-argentino`. Numeración global: las remisiones cruzadas
+> entre módulos siguen siendo válidas. **Rigen las reglas de integridad de la sección 2 del
+> SKILL.md.** Es el espejo de `sede-judicial-pba.md`: mismo expediente, otro trabajo. Verificado
+> contra los textos consolidados de `derecho/fuentes/normas/`. Lo procesal es del fuero laboral de
+> la PBA; para el fuero nacional, Ley 18.345 (ver 5.9).
 
 ---
 
@@ -292,3 +292,17 @@ Reemplaza al de la sección 11 cuando se actúa por una parte:
 | Instancia conciliatoria previa en PBA | Qué instancia satisface el art. 31 inc. i de la Ley 15.057, y en qué casos "corresponde" |
 | Plazo de los recursos extraordinarios | Artículo del CPCCBA aplicable por supletoriedad |
 | Fuero nacional | Este módulo es PBA. El equivalente bajo la Ley 18.345 está en 5.9, sin desarrollo propio |
+
+---
+
+## 1.7.9 · Lo que este módulo NO hace
+
+- **No trae el modo de trabajo del órgano.** Es el espejo: lo que acá es estrategia probatoria,
+  del otro lado es regla de decisión. Ver `sede-judicial.md` 1.6.
+- **Es del fuero laboral de la PBA.** La demanda del art. 26, la contestación del art. 34, la
+  audiencia preliminar y el régimen recursivo con depósito previo son de la Ley 15.057 o de la
+  11.653 según la fecha de la audiencia de vista. Para el fuero nacional, Ley 18.345 (ver 5.9);
+  para un juzgado civil de la Nación, `proceso-nacional.md` 44.
+- **No trae el derecho de fondo.** Qué rubro corresponde y bajo qué régimen es `laboral.md`.
+- **No redacta el telegrama**, que va por `telegramas.md` antes que por el modelo.
+- **No calcula.** La liquidación que acompaña la demanda sale de `scripts/liquidacion_lct.py`.

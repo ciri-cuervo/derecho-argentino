@@ -1,14 +1,14 @@
-Constitucion de la Santiago del Estero (texto actualizado)
+Constitución de la Provincia de Santiago del Estero (texto actualizado)
 ==============================================================================
-Jurisdiccion:     santiago
+Jurisdicción:     santiago
 Fuente:           https://www.argentina.gob.ar/normativa/provincial/ley-0-123456789-0abc-defg-100-0000gvorpyel/actualizacion
-Descargado:       2026-09-14
-SHA-256 (crudo):  d3b4f2631a1d23f8377a80fc9e3e56d0cd3ee8375a459cd6ca77ef8472a5ecde
+Descargado:       2026-09-17
+SHA-256 (crudo):  d5b799293d59aa55989575b309edb0114d777f1b7b80a1ee133c7a678a19aeb2
 Charset:          utf-8
 
-Texto consolidado automaticamente desde la fuente oficial. Reproduccion de norma juridica.
-NO es publicacion oficial: para transcribir un articulo en un escrito, cotejar contra el
-Boletin Oficial. Si el texto aparece truncado o con acentuacion degradada, esta anotado en
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
 el manifiesto `normas.json`.
 ==============================================================================
 
