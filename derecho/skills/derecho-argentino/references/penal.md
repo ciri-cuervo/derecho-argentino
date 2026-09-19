@@ -1,4 +1,4 @@
-# Penal · régimen aplicable, proceso y ejecución
+# Penal · régimen procesal aplicable y libertad durante el proceso
 
 > Módulo de referencia de la skill `derecho-argentino`. Numeración global: las remisiones cruzadas
 > entre módulos siguen siendo válidas. **Rigen las reglas de integridad de la sección 2 del
@@ -7,7 +7,8 @@
 Articulado cotejado contra `fuentes/normas/`: `cp-11179.txt` (Código Penal, t.o. 1984
 actualizado), `cppf-27063.txt` (CPPF t.o. 2019), `cppn-23984.txt` (Ley 23.984),
 `pba-ley-11922.txt` (CPP de la Provincia de Buenos Aires), `pba-ley-12256.txt` y
-`ley-24660.txt` (ejecución), más las leyes especiales de 24.5.
+`ley-24660.txt` (ejecución). Los códigos de la Ciudad y las leyes especiales que este módulo
+no desarrolla están declarados en el módulo que los trata.
 
 ---
 
@@ -122,7 +123,7 @@ delegación **no está verificado acá**.
 
 **Resuelta la competencia, el código es la Ley 2.303**, Código Procesal Penal de la Ciudad, texto
 consolidado al 29/02/2024 por la Ley 6.764, en `fuentes/normas/caba-ley-2303.txt`. Su coerción
-está en 24.3.4 y sus recursos en 24.6.5.
+está en 24.3.4 y sus recursos en `penal-impugnacion.md` 24.6.5.
 
 ### 24.1.3 Qué preguntar al abrir un caso penal
 
@@ -152,7 +153,7 @@ El **Código Penal** (`cp-11179.txt`) es común a los tres: el fondo no cambia c
 procesal. Lo que cambia son las vías, los plazos y quién decide.
 
 **Para la ejecución de la pena** hay también dos regímenes según dónde se cumpla: la **Ley
-24.660** en el orden federal y la **Ley 12.256** en la Provincia de Buenos Aires. Ver 24.4.
+24.660** en el orden federal y la **Ley 12.256** en la Provincia de Buenos Aires. Ver `penal-parte-general.md` 24.4.
 
 ### 24.2.1 Juicio en ausencia — existe desde 2025 y su ámbito es estrechísimo
 
@@ -432,955 +433,28 @@ proceso** — los mismos dos que el art. 17 CPPF, y no los requisitos conjuntos 
 pedido fiscal, con la condena y con el rechazo del recurso. Quien discute una preventiva después
 de la condena no discute lo mismo que antes del debate.
 
-## 24.4 · Extinción de la acción, prescripción y suspensión del juicio a prueba
+## 24.4 · Extinción de la acción, prescripción y probation — está en `penal-parte-general.md`
 
-Cotejado contra `fuentes/normas/cp-11179.txt`. El fondo es común a los tres códigos
-procesales de 24.2, pero **tres de las siete causales de extinción remiten a la ley procesal**,
-y ahí vuelve a jugar 24.1.
+Las siete causales del art. 59, la prescripción de los arts. 62, 63 y 67 y la suspensión del
+juicio a prueba salieron a módulo propio con su numeración: 24.4.1 a 24.4.3 siguen siendo esas
+secciones, allá. Es Código Penal; acá queda el proceso.
 
-### 24.4.1 Las siete causales del art. 59
+## 24.5 · Nulidades y prueba prohibida — está en `penal-impugnacion.md`
 
-Texto según el art. 1 de la **Ley 27.147** (B.O. 18/06/2015). La acción penal se extingue por:
+La regla de exclusión, el criterio de nulidad de los tres códigos y el saneamiento salieron con
+su numeración: 24.5.1 a 24.5.5 siguen siendo esas secciones, allá. Qué código rige se decide
+antes, acá en 24.1.
 
-| Inc. | Causal | Depende de la ley procesal |
-| --- | --- | --- |
-| 1 | Muerte del imputado | no |
-| 2 | Amnistía | no |
-| 3 | Prescripción | no |
-| 4 | Renuncia del agraviado, en delitos de **acción privada** | no |
-| 5 | **Criterio de oportunidad** | **sí**, "de conformidad con lo previsto en las leyes procesales correspondientes" |
-| 6 | **Conciliación o reparación integral del perjuicio** | **sí**, con la misma remisión |
-| 7 | Cumplimiento de las condiciones de la **suspensión del proceso a prueba** | **sí**, con este Código y las leyes procesales |
+## 24.6 · Recursos, impugnación y casación — está en `penal-impugnacion.md`
 
-> **Los incisos 5 y 6 son la razón por la que 24.1 no es un tecnicismo.** La Ley 27.147
-> incorporó al fondo dos causales que **sólo operan si la ley procesal aplicable las regula**.
-> El CPPF las regula; la Ley 23.984 no. De modo que en un mismo fuero federal, y para el mismo
-> delito, la disponibilidad de la conciliación o del criterio de oportunidad **depende del
-> distrito y de si la causa venía en trámite**. Es el punto donde la convivencia de códigos deja
-> de ser procesal y pasa a decidir si la acción se extingue o no.
-> `[VERIFICAR CRITERIO DEL FUERO: procedencia de la conciliación y del criterio de oportunidad del art. 59 incs. 5 y 6 CP en causas regidas por la Ley 23.984 - fuero y sala actuante]`
+Los plazos y el recurso de cada código salieron con su numeración: 24.6.1 a 24.6.6 siguen siendo
+esas secciones, allá, junto con las nulidades, que es la otra forma de atacar.
 
-**Renuncia (art. 60).** Sólo perjudica al renunciante y a sus herederos. **Amnistía (art. 61).**
-Extingue la acción y hace cesar la condena y todos sus efectos, **salvo las indemnizaciones
-debidas a particulares**.
+## 24.7 · Parte general aplicada — está en `penal-parte-general.md`
 
-**Pago voluntario en delitos de multa (art. 64).** La acción se extingue, en cualquier estado de
-la instrucción y mientras no se haya iniciado el juicio, pagando **el mínimo** de la multa y
-reparando los daños. Iniciado el juicio, hay que pagar **el máximo**, además de reparar.
-
-### 24.4.2 Prescripción de la acción (arts. 62, 63 y 67)
-
-**Plazos (art. 62):**
-
-| Supuesto | Plazo |
-| --- | --- |
-| Pena de reclusión o prisión **perpetua** | 15 años |
-| Hechos reprimidos con reclusión o prisión | el **máximo de la pena** del delito, **con tope de 12 años y piso de 2** |
-| Hecho reprimido únicamente con **inhabilitación perpetua** | 5 años |
-| Hecho reprimido únicamente con **inhabilitación temporal** | 1 año |
-| Hechos reprimidos con **multa** | 2 años |
-
-El tope de doce años y el piso de dos son lo que más se olvida: un delito con máximo de veinte
-años prescribe a los **doce**, no a los veinte.
-
-**Inicio (art. 63).** Desde la **medianoche del día** en que se cometió el delito o, si fuese
-continuo, en que **cesó de cometerse**. El segundo y tercer párrafos fueron derogados por el
-art. 3 de la Ley 27.206.
-
-**Suspensión (art. 67), cuatro supuestos:** cuestiones previas o prejudiciales que deban
-resolverse en otro juicio; delitos cometidos **en el ejercicio de la función pública**, para
-todos los partícipes, **mientras cualquiera de ellos desempeñe un cargo público**; los delitos
-de los arts. 226 y 227 bis, hasta el restablecimiento del orden constitucional; y —el que más
-aparece— en los delitos de los **arts. 119, 120, 125, 125 bis, 128, 129 in fine, 130 párrafos
-segundo y tercero, 145 bis y 145 ter**, mientras la víctima sea **menor de edad** y hasta que,
-cumplida la mayoría, **formule por sí la denuncia o ratifique** la formulada por sus
-representantes. Si a consecuencia del delito el menor murió, el plazo corre desde la medianoche
-del día en que habría alcanzado la mayoría de edad.
-
-**Interrupción (art. 67) — cinco actos, y sólo esos:**
-
-1. La **comisión de otro delito**.
-2. El **primer llamado** a una persona, en un proceso judicial, para recibirle **declaración
-   indagatoria** por el delito investigado.
-3. El **requerimiento acusatorio** de apertura o elevación a juicio, en la forma que establezca
-   la legislación procesal.
-4. El **auto de citación a juicio o acto procesal equivalente**.
-5. El **dictado de sentencia condenatoria**, **aunque no esté firme**.
-
-La enumeración es cerrada —"la prescripción se interrumpe **solamente** por"— y dos incisos
-remiten a la ley procesal, con lo que **el acto interruptivo concreto cambia según rija el CPPF
-o la Ley 23.984**: el inc. 4 habla de "acto procesal equivalente" justamente porque el CPPF no
-tiene "citación a juicio" con ese nombre. Antes de computar una prescripción hay que fijar
-primero el código, y recién después buscar el hito.
-
-**Hay delitos que no prescriben, y el art. 62 no lo dice.** *"Arancibia Clavel, Enrique Lautaro
-s/ homicidio calificado y asociación ilícita y otros"*, **Fallos 327:3312, 24/08/2004** — leído
-contra el documento, `fallos-csjn.md` 34.2. La Corte hizo lugar a la queja y **dejó sin efecto**
-la sentencia que había declarado prescripta la acción.
-
-El fundamento es la **Convención sobre la Imprescriptibilidad de los Crímenes de Guerra y de los
-Crímenes de Lesa Humanidad**, incorporada por la **Ley 24.584** y con **jerarquía constitucional
-por la Ley 25.778**. Lo aplicó a la **asociación ilícita** destinada a perseguir opositores, no
-sólo a los homicidios: no podría sostenerse que los hechos base sean imprescriptibles y que sí
-prescriba el haber integrado el grupo que los cometía.
-
-> **Fue 4 a 3.** Belluscio, Fayt y Vázquez votaron en disidencia, y Petracchi y Boggiano según
-> su voto. Es una mayoría dividida sobre una cuestión —la aplicación de la Convención a hechos
-> anteriores a su incorporación— que sigue siendo materia de debate.
-> `[VERIFICAR PRECEDENTE: "Arancibia Clavel" tiene más de veinte años y la composición del Tribunal cambió por completo - confirmar la línea vigente antes de invocarlo]`
-
-**Para el cómputo:** si el hecho encuadra como delito de lesa humanidad, **el art. 62 no se
-aplica** y la discusión no es de plazos sino de calificación. Es el primer punto a resolver,
-porque decide si hay algo que computar.
-
-**El otro obstáculo de esos procesos también está removido.** *"Simón, Julio Héctor y otros s/
-privación ilegítima de la libertad"*, **Fallos 328:2056, 14/06/2005** — leído contra el
-documento, `fallos-csjn.md` 34.2. El dispositivo, en sus tres puntos:
-
-1. Hizo lugar parcialmente a la queja y al extraordinario, **declaró la inconstitucionalidad de
-   las Leyes 23.492 y 23.521** —punto final y obediencia debida— y **confirmó** las resoluciones
-   apeladas.
-2. **Declaró la validez de la Ley 25.779**, que las había anulado.
-3. Declaró **"a todo evento, de ningún efecto"** esas dos leyes y **cualquier acto fundado en
-   ellas** que pudiera oponerse al avance de los procesos, al juzgamiento y eventual condena de
-   los responsables, o entorpecer las investigaciones.
-
-**El punto 3 es el que se usa**, y no es lo mismo que el 1: alcanza a los *actos* dictados al
-amparo de esas leyes, no sólo a las leyes. Un sobreseimiento fundado en obediencia debida no
-necesita ser atacado uno por uno como cosa juzgada.
-
-> **"Arancibia Clavel" y "Simón" resuelven obstáculos distintos** y conviene no confundirlos:
-> el primero es la **prescripción**, el segundo la **amnistía**. Un caso puede tener los dos y
-> hay que contestar los dos.
-
-### 24.4.3 Suspensión del juicio a prueba (arts. 76 bis a 76 quater)
-
-Texto incorporado por la **Ley 24.316** (B.O. 19/05/1994), con el párrafo final agregado por el
-art. 19 de la **Ley 26.735**.
-
-**Quién puede pedirla.** El imputado de un delito de **acción pública** reprimido con reclusión
-o prisión **cuyo máximo no exceda de tres años**. En **concurso de delitos**, también si el
-máximo de la pena **aplicable al concurso** no excede de tres años.
-
-> **Ese tope de tres años no es el único camino, y confundirlo es el error más caro de esta
-> sección.** El art. 76 bis describe **dos grupos**: el de los párrafos 1° y 2° —máximo que no
-> supera los tres años— y el del **párrafo 4°**, que alcanza delitos **con máximo mayor** cuando
-> las circunstancias permitan dejar en suspenso el cumplimiento de la condena (art. 26 CP) y
-> haya consentimiento fiscal.
->
-> **La CSJN lo resolvió en "Acosta"**, *Acosta, Alejandro Esteban s/ infracción art. 14, 1°
-> párrafo ley 23.737*, **Fallos 331:858, 23/04/2008** — leído contra el documento,
-> `fallos-csjn.md` 34.2. Hizo lugar a la queja y **dejó sin efecto** la sentencia que había
-> denegado la probation: limitar el beneficio a los delitos con máximo de hasta tres años **se
-> funda en una exégesis irrazonable**, porque da *"una indebida preeminencia a sus dos primeros
-> párrafos sobre el cuarto, al que deja totalmente inoperante"* (cons. 7). Lo apoya en el
-> principio de legalidad, en el derecho penal como **última ratio** y en el **pro homine**: entre
-> dos lecturas posibles se prioriza la que más derechos acuerda frente al poder estatal.
->
-> **Con eso quedó desplazado el plenario "Kosuta"** (CNCP, 17/08/1999), que sostenía la tesis
-> restringida y que era el fundamento de la denegatoria. Si una resolución todavía se apoya en
-> "Kosuta" para rechazar por el máximo en abstracto, ahí está el agravio.
->
-> Highton de Nolasco y Petracchi votaron **en disidencia**: desestimaban la queja. Al citar el
-> fallo conviene saberlo, porque el dispositivo de la disidencia dice lo contrario del de la
-> mayoría y se confunden al leerlos sueltos.
-
-> **"Acosta" abre por la escala; "Góngora" cierra por la materia, y son ejes distintos.** Que el
-> delito entre por el párrafo 4° no alcanza si el hecho es **violencia contra la mujer**.
->
-> *"Góngora, Gabriel Arnaldo s/ causa n° 14.092"*, **Fallos 336:392, 23/04/2013** — leído contra
-> el documento, `fallos-csjn.md` 34.2. La Corte, **a recurso del fiscal**, declaró procedente el
-> extraordinario y **revocó** la resolución que había concedido la suspensión del juicio a prueba.
->
-> El fundamento es el **art. 7 de la Convención de Belém do Pará**, que obliga al Estado a
-> garantizar **un juicio oportuno** y el acceso efectivo a los procedimientos. En un ordenamiento
-> que incorporó ese instrumento, *"la adopción de alternativas distintas a la definición del caso
-> en la instancia del debate oral es improcedente"*. Y define **qué es "juicio"**: la etapa final
-> del procedimiento criminal, porque **sólo de ahí puede derivar el pronunciamiento definitivo
-> sobre culpabilidad o inocencia**. Una probation resuelve el caso sin llegar ahí, y eso es lo
-> que la Convención no admite.
->
-> **La calificación es el punto donde se pelea.** En "Góngora" el a quo **no había puesto en
-> crisis** que los hechos fueran violencia contra la mujer en los términos del art. 1 de la
-> Convención. Si esa calificación se discute, se discute antes: encuadrado el hecho ahí, la
-> probation no procede por más que la escala lo permita.
-
-**Qué debe ofrecer y qué debe pagar.**
-
-- **Reparación del daño en la medida de lo posible**, sin que implique confesión ni
-  reconocimiento de responsabilidad civil. El juez decide sobre la **razonabilidad del
-  ofrecimiento** en resolución fundada. La parte damnificada **puede no aceptarlo**, y en ese
-  caso, si el juicio se suspende, **queda habilitada la acción civil**.
-- Si el delito está reprimido con **multa conjunta o alternativa**, es condición además **pagar
-  el mínimo** de la multa.
-- **Abandonar en favor del Estado los bienes** que presumiblemente se decomisarían si recayera
-  condena.
-
-**Requisitos del cuarto párrafo.** Que las circunstancias permitan **dejar en suspenso el
-cumplimiento de la condena aplicable** y que haya **consentimiento del fiscal**. El consentimiento
-fiscal es requisito legal expreso, no una opinión más del expediente.
-
-**Cuatro supuestos en que no procede:**
-
-1. Cuando un **funcionario público, en ejercicio de sus funciones**, hubiese participado en el
-   delito.
-2. Respecto de los delitos reprimidos con **pena de inhabilitación**.
-3. Respecto de los ilícitos de la **Ley 22.415** (Código Aduanero).
-4. Respecto de los ilícitos de la **Ley 24.769**. `[VERIFICAR VIGENCIA: alcance de la exclusión del art. 76 bis último párrafo tras la derogación de la Ley 24.769 por la Ley 27.430, cuyo Título IX contiene el Régimen Penal Tributario vigente]`
-
-**Plazo y reglas (art. 76 ter).** El tribunal fija la suspensión **entre uno y tres años** según
-la gravedad, y establece las **reglas de conducta del art. 27 bis**. **Durante ese tiempo se
-suspende la prescripción de la acción penal.** La suspensión se deja sin efecto si después se
-se conocen circunstancias que alteren el máximo de pena aplicable, o la estimación que el
-tribunal hizo acerca de la condicionalidad de la eventual condena.
-
-**Efecto (art. 76 ter).** Si en el plazo el imputado **no comete un delito, repara en la medida
-ofrecida y cumple las reglas**, se **extingue la acción penal** —y así lo confirma el art. 59
-inc. 7—. En caso contrario, se lleva a cabo el juicio.
-
-**Alcance (art. 76 quater).** La suspensión hace **inaplicables las reglas de prejudicialidad**
-de los arts. 1101 y 1102 del Código Civil, y **no obsta a las sanciones contravencionales,
-disciplinarias o administrativas** que correspondan. El empleado público suspendido a prueba
-puede igual recibir el sumario administrativo.
-
-> El art. 76 quater remite al **Código Civil derogado**. La correlación con los arts. 1775 a
-> 1780 del CCyCN no está hecha por el legislador, y es una de las remisiones que hay que
-> resolver al fundar.
-> `[VERIFICAR CRITERIO DEL FUERO: correlación del art. 76 quater CP con los arts. 1775 a 1780 CCyCN en materia de prejudicialidad - fuero y sala actuante]`
-
----
-
-## 24.5 · Nulidades y prueba prohibida
-
-Base constitucional en `fuentes/normas/cn-1994.txt`: **art. 18 CN** —nadie penado sin juicio
-previo fundado en ley anterior al hecho, inviolabilidad del domicilio, de la correspondencia y
-de los papeles privados— y **art. 19**.
-
-> **La diferencia que decide el planteo: dos de los tres códigos tienen regla de exclusión
-> escrita, y el tercero no.** El **CPPF art. 129** y el **CPP PBA art. 211** la traen en el
-> texto. La **Ley 23.984 no tiene ninguna**: bajo ese código la exclusión se construye desde el
-> art. 18 CN y la jurisprudencia de la CSJN, y hay que fundarla, no citarla. Por 24.1, cuál de
-> los dos escenarios rige depende del distrito y del estado de la causa.
-
-### 24.5.1 Regla de exclusión
-
-**CPPF, art. 129.** No pueden ser **valorados para fundar una decisión judicial ni utilizados
-como presupuesto de ella** los actos cumplidos con inobservancia de los derechos y garantías
-previstos en la **Constitución Nacional, en los instrumentos internacionales de Derechos
-Humanos y en este Código**.
-
-Su segundo párrafo es inusual y conviene conocerlo: tampoco pueden valorarse los actos
-cumplidos con inobservancia de las formas **que obsten al ejercicio del derecho a la tutela
-judicial de la víctima o impidan el ejercicio de los deberes del fiscal**. Es exclusión
-probatoria **a favor de la acusación**, no sólo de la defensa.
-
-**CPP PBA, art. 211.** "Carecerá de toda eficacia la actividad probatoria cumplida y la prueba
-obtenida, con afectación de garantías constitucionales." Alcanza **la actividad** y no sólo su
-resultado, lo que da pie al planteo sobre los actos derivados sin necesidad de construirlo por
-analogía.
-
-**Ley 23.984.** No hay artículo. El planteo se arma con el **art. 18 CN**, los instrumentos del
-**art. 75 inc. 22** y la doctrina de la Corte sobre exclusión y sus derivaciones.
-**La doctrina está cargada.** *"Quaranta, José Carlos s/ inf. ley 23.737"*, **Fallos 333:1674,
-31/08/2010** — leído contra el documento, `fallos-csjn.md` 34.2. La Corte hizo lugar a la queja,
-revocó la sentencia y, usando la facultad de la **segunda parte del art. 16 de la Ley 48**,
-**absolvió** al imputado: no reenvió. Es el remedio que conviene pedir cuando la nulidad se lleva
-puesto el único cauce.
-
-La regla, que "Quaranta" toma de **"Rayford" (Fallos 308:733)** y reitera con **"Ruiz"
-(310:1847)**, **"Francomano" (310:2384)**, **"Daray" (317:1985)** y "Peralta Cano" (03/05/2007):
-**si en el proceso hay un solo cauce de investigación y ese cauce estuvo viciado de ilegalidad,
-la ilegalidad contamina de nulidad todas las pruebas originadas a partir de él**, y la regla es
-la exclusión. El recíproco es el que importa para la contraparte: **acreditado un cauce
-independiente, la prueba se salva**. Lo que en "Quaranta" cerró la discusión fue el hecho de que
-la línea intervenida inicialmente permitió identificar sospechosos, intervenir otras líneas y
-ordenar allanamientos y detenciones, **de modo que no hubo varios cauces sino uno solo** cuya
-vertiente original estaba viciada.
-
-Y trae la exigencia que se plantea primero, antes que la exclusión: **la orden de registro o de
-intervención de comunicaciones sólo vale si es una orden judicial previa debidamente fundada**
-(arts. 18, 19 y 33 CN; art. 236 CPPN). Un control *ex post* no alcanza, porque la Constitución
-no asegura la reparación sino la inviolabilidad misma.
-
-> **"Rayford" y "Daray" no están bajados**; se citan aquí porque "Quaranta" los transcribe como
-> propios. Para llevar un considerando de ellos a un escrito, verificarlos aparte.
-
-**Hay un matiz que la contraparte va a invocar, y conviene tenerlo antes.** *"Minaglia, Mauro
-Omar y otra s/ infracción ley 23.737 (art. 5 inc. c)"*, **Fallos 330:3801, 04/09/2007** — leído
-contra el documento, `fallos-csjn.md` 34.2. Ahí la Corte **rechazó el recurso extraordinario**:
-**validó** el allanamiento. La regla: *más allá de lo que se haga constar en el auto que dispone
-el allanamiento, lo esencial para que se ajuste a las pautas constitucionales es que **del
-expediente surjan los motivos** que le dieron sustento*.
-
-**No se contradice con "Quaranta", pero reparte la carga de otro modo.** "Quaranta" (2010) exige
-**orden judicial previa y fundada** y excluye la prueba cuando el único cauce estuvo viciado;
-"Minaglia" (2007) admite que **la fundamentación se integre con las constancias de la causa** y
-no tiene que estar entera en el auto. Entonces el planteo de nulidad no se agota en que la orden
-sea escueta: hay que mostrar que **en el expediente tampoco** había motivos, porque si los hay,
-"Minaglia" los da por suficientes. Highton de Nolasco y Fayt firmaron el voto que rechaza; hubo
-disidencia.
-
-### 24.5.1 bis Prueba de origen en inteligencia — Ley 25.520
-
-**La ley de inteligencia no es materia ajena al penal: es la puerta por la que entra prueba que
-después hay que discutir.** Articulado cotejado contra el texto actualizado de
-`fuentes/normas/ley-25520.txt`, que ya incorpora el **Decreto 941/2025 (B.O. 02/01/2026)**, bajado
-aparte en `decreto-941-2025.txt`.
-
-**Las prohibiciones del art. 4 siguen, pero ahora cada una tiene su excepción**, y eso es lo que
-cambió. Ningún órgano de inteligencia puede:
-
-| Inc. | Prohibición | Excepción que el texto vigente le puso |
-| --- | --- | --- |
-| **1** | Cumplir funciones policiales o de investigación judicial o criminal | **Las del art. 4 bis** |
-| **2** | Tareas represivas o facultades compulsivas | Las necesarias para **contrainteligencia** y para el **art. 10 nonies** |
-| **3** | Producir inteligencia sobre personas **por su raza, fe, acciones privadas, opinión política**, o pertenencia a organizaciones partidarias, sociales, sindicales, comunitarias, cooperativas, asistenciales, culturales o laborales, ni por su **actividad lícita** | **Ninguna.** Ésta quedó entera |
-| **4** | Influir en la situación institucional, política, militar, policial, social o económica, en la vida interna de los partidos, en la opinión pública, en personas o en medios | Las de **contrainteligencia del art. 2 quater** |
-| **5** | Revelar o difundir información sobre un habitante o una persona jurídica | Orden o dispensa judicial, **o autorización expresa en el marco de convenios celebrados por la SIDE** |
-
-> **El inciso 3 es el que no admite excepción, y por eso es el que se plantea.** Si lo que
-> originó la pesquisa fue la pertenencia sindical, partidaria o comunitaria del imputado, o su
-> actividad lícita, el vicio está en el origen y se discute por la regla de exclusión de 24.5.1,
-> no como una irregularidad formal.
-
-**Cómo puede llegar legítimamente (art. 4 bis, incorporado por el Decreto 614/2024).** Si en sus
-actividades los organismos obtienen información **de interés para una investigación judicial**, o
-detectan **líneas nuevas** a partir de las existentes, **pueden informarla** a los órganos
-competentes **preservando fuentes y métodos** y **absteniéndose de desarrollar tareas de
-investigación criminal**. Y, **excepcionalmente y de manera fundada**, el órgano judicial puede
-requerir su auxilio en tareas de su especialidad.
-
-> **"Preservando fuentes y métodos" es la tensión de todo el planteo.** La defensa no puede
-> controlar lo que no se le muestra, y el art. 4 bis autoriza a no mostrarlo. Lo que sí es
-> controlable es el **límite**: la ley les prohíbe *investigar*, y les permite *informar*. Un
-> organismo que dirigió la pesquisa en vez de aportar un dato excedió el art. 4 bis, y ésa es la
-> nulidad que se plantea.
-
-**La aprehensión por personal de inteligencia existe y tiene forma (art. 10 nonies).** En el marco
-de actividades de inteligencia, de auxilio o requerimiento judicial, **o de comisión de delitos en
-flagrancia**, el personal **puede aprehender personas**, con **aviso inmediato a las fuerzas
-policiales y de seguridad competentes**. Los presupuestos son acotados y el aviso es exigible:
-verificarlos es lo primero que se hace con un acta que registre una detención así.
-
-**Y el art. 5 no se movió:** las comunicaciones y los archivos, registros y documentos privados
-**son inviolables**, salvo **orden o dispensa judicial**. Interceptar indebidamente participando
-de estas tareas tiene pena propia —**tres a diez años** e inhabilitación por doble tiempo,
-art. 42—, y omitir destruir los soportes cuando se está obligado, **dos a seis años** (art. 43).
-
-`[REVISIÓN NORMATIVA REQUERIDA: el Decreto 941/2025 es un decreto de necesidad y urgencia que reforma una ley del Congreso - confirmar su trámite ante la Comisión Bicameral Permanente del art. 99 inc. 3 CN y el estado de los planteos de inconstitucionalidad antes de razonar sobre el texto vigente]`
-
-`[INSERTAR FALLO VERIFICADO: validez de la prueba aportada por organismos de inteligencia bajo el art. 4 bis de la Ley 25.520, y alcance del control de la defensa cuando se preservan fuentes y métodos. No hay precedente bajado sobre este articulado]`
-
-### 24.5.2 Cuándo un acto es nulo — el criterio es el mismo en los tres
-
-Los tres códigos parten de la **taxatividad**: un acto es nulo sólo cuando la ley lo dice.
-
-| Código | Regla general |
-| --- | --- |
-| CPPN, art. 166 | Los actos serán nulos **sólo cuando no se hubieran observado las disposiciones expresamente prescriptas bajo pena de nulidad** |
-| CPP PBA, art. 201 | La inobservancia sólo los hace nulos **en los supuestos expresamente determinados** por el Código |
-| CPPF | No usa la categoría así: habla de **defectos** que se sanean, se convalidan o, si no, se declaran nulos (arts. 130 a 132) |
-
-**Nulidades de orden general.** El CPPN (art. 167) y el CPP PBA (art. 202) traen una lista casi
-idéntica de lo que se entiende **siempre** prescripto bajo pena de nulidad:
-
-1. Nombramiento, capacidad y constitución del juez o tribunal.
-2. Intervención del Ministerio Público —y en el CPPN también del juez y del querellante— y su
-   participación en los actos en que sea obligatoria.
-3. **Intervención, asistencia y representación del imputado**, en los casos y formas de la ley.
-4. Sólo en PBA: intervención, asistencia y representación de **las partes civiles**.
-
-### 24.5.3 Quién, cuándo y con qué carga
-
-**De oficio.** El CPPN (art. 168) y el CPP PBA (art. 203) sólo obligan a declararlas de oficio,
-en cualquier estado y grado, cuando **impliquen violación de normas constitucionales**. Y el
-art. 203 PBA agrega una carga que se olvida: **con obligación de fundar el motivo del
-perjuicio**.
-
-**A pedido de parte (CPPN art. 169 y CPP PBA art. 204).** Sólo puede oponerla **quien no haya
-concurrido a causarla** y **tenga interés** en la observancia de la disposición. Los dos
-requisitos se controlan de entrada, y el primero cierra muchos planteos.
-
-**Oportunidad, bajo pena de caducidad.** Acá los dos códigos se separan en el primer inciso:
-
-| Momento del vicio | CPPN, art. 170 | CPP PBA, art. 205 |
-| --- | --- | --- |
-| En la instrucción / IPP | durante ésta **o en el término de citación a juicio** | **durante la IPP**, y nada más |
-| Actos preliminares del juicio | hasta inmediatamente después de abierto el debate | ídem |
-| En el debate | al cumplirse el acto o inmediatamente después | ídem |
-| Durante un recurso | hasta después de abierta la audiencia, o en el memorial | ídem, más el **escrito de fundamentación** |
-
-**La ventana bonaerense es más corta**, y esa diferencia se paga entera: en PBA el vicio de la
-IPP que no se articuló durante la IPP **caducó**.
-
-**Forma.** El CPPN exige instancia **motivada bajo pena de inadmisibilidad** y trámite de
-reposición. El CPP PBA agrega que debe expresarse **el perjuicio que cause o pueda causar**, y
-que durante la IPP las nulidades articuladas **se resuelven en un único y mismo acto**, en la
-primera decisión de mérito que las comprenda — de modo que no se resuelven una por una a medida
-que se plantean.
-
-### 24.5.4 Saneamiento, convalidación y efectos
-
-**CPPF — el esquema de tres pasos (arts. 130 a 133).**
-
-- **Saneamiento (art. 130).** Todos los defectos **deben ser inmediatamente saneados**,
-  renovando el acto, rectificando el error o cumpliendo el omitido, de oficio o a pedido. **Si
-  la invalidez se funda en la violación de una garantía establecida en favor del imputado, el
-  procedimiento no puede retrotraerse a etapas anteriores.** Y se entiende saneado el acto que,
-  pese a la irregularidad, **consiguió su fin respecto de todos los interesados**.
-- **Convalidación (art. 131).** Los defectos formales que afecten **al fiscal o a la víctima**
-  quedan convalidados si no se pidió el saneamiento mientras se realizaba el acto o **dentro de
-  los tres días** de practicado por quien no estuvo presente —o **dentro de las 24 horas de
-  advertido**, si por las circunstancias fue imposible notarlo antes—, o si se aceptaron
-  expresa o tácitamente sus efectos.
-- **Declaración (art. 132).** Sólo si no es posible sanear ni convalidar. **La nulidad invalida
-  todos los efectos o actos consecutivos que dependan directamente del acto.**
-- **Audiencia (art. 133).** Las solicitudes de saneamiento o de nulidad **se resuelven en
-  audiencia**, con intervención de todas las partes.
-
-**CPPN (art. 171).** Las nulidades quedan subsanadas cuando no se oponen oportunamente, cuando
-quien podía oponerlas aceptó expresa o tácitamente los efectos del acto, o cuando el acto
-**consiguió su fin** respecto de todos los interesados pese a la irregularidad. Quedan fuera las
-que deban declararse de oficio.
-
-**CPP PBA (art. 206).** El órgano que comprueba un motivo de nulidad **procura su inmediato
-saneamiento** —renovación, rectificación o cumplimiento del acto omitido— **sin que se pueda
-retrotraer el procedimiento a etapas ya cumplidas**. Nótese la diferencia con el CPPF: acá la
-prohibición de retrotraer es **general**, y allá rige **sólo** cuando la invalidez se funda en
-una garantía del imputado.
-
-**Efectos (CPPN art. 172 y CPP PBA art. 207).** La nulidad declarada hace nulos **los actos
-consecutivos que de él dependan**. El CPPN agrega dos cosas que el bonaerense no: el tribunal
-debe establecer **a qué actos anteriores o contemporáneos alcanza por conexión**, y debe ordenar
-**la renovación, ratificación o rectificación** cuando sea necesario y posible.
-
-**Sanciones al inferior (CPPN art. 173 y CPP PBA art. 208).** Declarada la nulidad de actos de
-un órgano inferior, el superior puede disponer su **apartamiento de la causa** o imponerle
-medidas disciplinarias.
-
-### 24.5.5 Antes de plantear una nulidad
-
-1. **Qué código rige** (24.1). De ahí sale si hay regla de exclusión escrita y cuál es la
-   ventana de caducidad.
-2. **Si el vicio es constitucional o meramente formal.** Sólo el primero se declara de oficio
-   en cualquier estado y grado; el segundo caduca.
-3. **Si quien plantea concurrió a causarlo** y **qué interés concreto** tiene.
-4. **Cuál es el perjuicio**, expresado. En PBA lo exige el texto tanto para la declaración de
-   oficio como para la instancia de parte.
-5. **Qué actos consecutivos dependen del anulado**, porque eso es lo que define el alcance real
-   del planteo — y en el CPPN hay que señalar además los anteriores o contemporáneos conexos.
-
----
-
-## 24.6 · Recursos, impugnación y casación
-
-> **El CPPF no tiene casación.** Reemplazó el recurso por una **impugnación** única, con lista
-> taxativa de decisiones recurribles, motivos distintos según qué se impugne, **doble conforme**
-> y **prohibición de reenvío**. No es la casación con otro nombre: cambia qué se puede pedir y
-> qué puede hacer el tribunal. Un escrito de casación presentado bajo el CPPF —o una impugnación
-> del CPPF invocada en una causa de la 23.984— está mal desde el título.
-
-### 24.6.1 Los plazos, que es donde primero se pierde el recurso
-
-| Régimen | Recurso | Plazo |
-| --- | --- | --- |
-| **CPPF** | Impugnación de sentencia **condenatoria o absolutoria** | **10 días** |
-| **CPPF** | Impugnación de **medida cautelar** | **3 días** |
-| **CPPF** | Impugnación en **los demás casos** | **5 días** |
-| **Ley 23.984** | Casación | **10 días** (art. 463) |
-| **CPP PBA** | Casación | **20 días** (art. 451, texto Ley 14.295) |
-| **CPP PBA** | Apelación | **5 días** (art. 441, texto Ley 13.818) |
-
-**Veinte días en PBA contra diez en nación.** Es la diferencia que más sorprende al que cruza
-de fuero, y va en los dos sentidos: computar diez en provincia deja el recurso corto, y confiar
-en veinte en nación lo deja tardío.
-
-### 24.6.2 CPPF — impugnación
-
-**Qué se puede impugnar (art. 356), y sólo esto:** el rechazo de la pretensión de constituirse
-en **parte querellante**; las decisiones sobre **competencia**; el **sobreseimiento**; la
-**sentencia definitiva**; las **excepciones**; la aplicación de **medidas cautelares**; la
-**denegatoria de la suspensión del proceso a prueba**; los **procedimientos abreviados**; y las
-decisiones que se tomen **durante la ejecución de la pena**.
-
-**Los motivos cambian según qué se impugna**, y el escrito tiene que encuadrar en el artículo
-que corresponde:
-
-| Decisión | Motivos |
-| --- | --- |
-| **Sobreseimiento** (art. 357) | falta de motivación suficiente, errónea valoración de la prueba u omisión de pruebas esenciales; inobservancia o errónea aplicación de un precepto legal |
-| **Sentencia condenatoria** (art. 358) | diez motivos, entre ellos inobservancia de precepto o garantía constitucional; errónea aplicación de la ley penal; motivación insuficiente, contradictoria, irrazonable o arbitraria; **prueba ilegal** o incorporada por lectura fuera de los casos autorizados; omisión de prueba decisiva o valoración de prueba inexistente; errónea determinación de los hechos; **violación de la correlación entre acusación y sentencia**; incumplimiento de los requisitos esenciales de la sentencia; supuestos que autorizan la revisión de sentencia firme; y **falta de cesura del debate** |
-| **Sentencia absolutoria** (art. 359) | **inobservancia del derecho a la tutela judicial de la víctima**; errónea aplicación de la ley; motivación insuficiente, contradictoria, irrazonable o arbitraria; incumplimiento de los requisitos esenciales |
-
-El primer motivo del art. 359 no tiene equivalente en los otros dos códigos: la **víctima**
-tiene un motivo propio contra la absolución.
-
-**Doble conforme (art. 364).** Si la impugnación de la sentencia la promovió el **fiscal o el
-querellante** y resulta **adversa para el imputado**, éste puede **solicitar su revisión**. Es
-la garantía del art. 8.2.h CADH puesta en el texto.
-
-> **Dónde se revisa cuando arriba no hay nadie más, que es el problema práctico.** *"Duarte,
-> Felicia s/ recurso de casación"*, **Fallos 337:901, 05/08/2014** — leído contra el documento,
-> `fallos-csjn.md` 34.2. Una absuelta en juicio oral fue **condenada por primera vez en
-> casación**: el doble conforme no tenía tribunal por encima al que acudir.
->
-> La Corte declaró procedente el extraordinario y remitió a la **Cámara Federal de Casación
-> Penal para que designe la sala** que debe revisar la sentencia. La regla: cuando **no existe
-> otro tribunal en el organigrama de competencias**, la Corte Interamericana **excepciona** la
-> intervención de un tribunal superior, y exige **como único requisito que sean magistrados
-> distintos de los que ya juzgaron el caso**. Se resguarda la inocencia presumida aun con la
-> primera sentencia adversa.
->
-> **Para el escrito:** ante una condena dictada por primera vez en la instancia revisora, lo que
-> se pide no es un recurso ante otro tribunal —no lo hay— sino **la designación de otra sala del
-> mismo tribunal**. Pedirlo mal es la forma habitual de perder la vía.
->
-> **Y la objeción previsible ya fue contestada.** *"P., S. M. y otro s/ homicidio simple"*,
-> **Fallos 342:2389, 26/12/2019** — leído contra el documento. Un menor absuelto en el oral fue
-> **condenado por casación**; pidió que otra sala revisara y se lo declararon **inadmisible** con
-> el argumento de que "Duarte" *"no podía aplicarse directamente al presente caso dada la
-> ausencia de una norma legal que expresamente habilitara la vía recursiva intentada"*. La Corte
-> hizo lugar a la queja y **dejó sin efecto** ese pronunciamiento: **la falta de norma expresa no
-> es razón para no hacer operativa la garantía**.
-
-**Prohibición de reenvío (art. 365).** Los jueces **deben resolver sin reenvío**. Y si por
-efecto de lo resuelto debiera cesar la prisión u otra medida de coerción, se ordena **su cese
-inmediato**. Esto cambia la estrategia: no se pide "que se anule y se reenvíe", se pide la
-decisión de fondo.
-
-**Revisión de sentencia firme (arts. 366 a 374).** Procede contra la condena firme, con
-legitimación ampliada del art. 367, y la sentencia absolutoria que se dicte tiene sus propios
-efectos. La víctima tiene **derecho a ser informada** durante el trámite (art. 373).
-
-### 24.6.3 Ley 23.984 — casación
-
-**Motivos (art. 456), dos:**
-
-1. **Inobservancia o errónea aplicación de la ley sustantiva.**
-2. **Inobservancia de las normas** que el Código establece **bajo pena de inadmisibilidad,
-   caducidad o nulidad** — con una condición que es la trampa del recurso: **salvo nulidad
-   absoluta, el recurrente debe haber reclamado oportunamente la subsanación, si era posible, o
-   hecho protesta de recurrir en casación**.
-
-Esa protesta se hace **en el momento del acto**, no al recurrir. Un vicio de debate no
-protestado no llega a casación, por grave que sea, salvo que sea nulidad absoluta.
-
-> **Esos dos motivos no reducen la casación a cuestiones de derecho, y ése es el punto de
-> "Casal".** *Casal, Matías Eugenio y otro s/ robo simple en grado de tentativa*, **Fallos
-> 328:3399, 20/09/2005** — leído contra el documento, `fallos-csjn.md` 34.2. La Corte hizo lugar
-> a la queja y **dejó sin efecto** la resolución, para que se dictara nuevo fallo con arreglo a
-> su doctrina.
->
-> La regla, en sus palabras (cons. 34): el art. 456 **habilita una revisión amplia de la
-> sentencia, todo lo extensa que sea posible al máximo esfuerzo de revisión de los jueces de
-> casación**, según las posibilidades y constancias de cada caso, **sin magnificar las cuestiones
-> reservadas a la inmediación**. Lo funda en que el texto del artículo *"en modo alguno limita ni
-> impone la reducción del recurso casatorio a cuestiones de derecho"*, y en el art. 8.2.h de la
-> Convención Americana desde 1994.
->
-> **Qué queda afuera, que es la otra mitad de la doctrina y la que se olvida:** lo único no
-> revisable es **lo que surja directa y únicamente de la inmediación**. Un agravio que no se
-> apoye en eso es revisable, y el tribunal tiene que hacer *"el esfuerzo por revisar todo lo que
-> pueda revisar"*. Invocar la inmediación para no revisar algo que consta en el expediente es
-> justamente lo que "Casal" prohíbe.
->
-> **Para el escrito:** no alcanza con encuadrar en uno de los dos incisos del art. 456. Conviene
-> decir por qué el agravio **no depende de la inmediación**, porque ahí se juega la admisibilidad.
-
-**Resoluciones recurribles (art. 457).** Además de los casos especialmente previstos: las
-**sentencias definitivas**; los **autos que pongan fin a la acción o a la pena**, o que **hagan
-imposible que continúen las actuaciones**; y los que **denieguen la extinción, conmutación o
-suspensión de la pena**.
-
-**Forma (art. 463).** Ante el tribunal que dictó la resolución, dentro de **10 días**, por
-escrito con firma de letrado, citando **concretamente** las disposiciones violadas o mal
-aplicadas y expresando **cuál es la aplicación que se pretende**. Cada motivo **se indica por
-separado**, y —cierre del artículo— **fuera de esa oportunidad no puede alegarse ningún otro**.
-
-### 24.6.4 CPP PBA — apelación y casación
-
-**Regla (art. 421, texto Ley 13.943).** Las resoluciones son impugnables **sólo por los medios y
-en los casos expresamente establecidos**.
-
-**Durante el juicio (art. 429).** Sólo cabe **reposición**, resuelta sin trámite en la etapa
-preliminar y, en el debate, **sin suspenderlo**. Y —esto es lo que hay que tener presente— **su
-interposición se entiende también como protesta de recurrir en casación**. Es la manera
-bonaerense de preservar el agravio.
-
-**Adhesión (art. 428, texto Ley 13.943).** Quien tenga derecho a recurrir puede adherir **dentro
-de los cinco días** de notificado del recurso concedido a otro, expresando **bajo sanción de
-inadmisibilidad** sus motivos, que **no pueden ser ajenos ni contrapuestos** a los del recurso
-principal.
-
-**Casación — motivos (art. 448), dos:**
-
-1. **Inobservancia o errónea aplicación de un precepto legal o de la doctrina jurisprudencial**
-   correspondiente. Si lo inobservado es un **defecto grave del procedimiento** o un
-   **quebrantamiento de formas esenciales**, el recurso sólo es admisible si se reclamó
-   oportunamente la subsanación o se hizo **protesta formal**, salvo los casos del art. 449.
-2. **Nuevos hechos o elementos de prueba** que, solos o en conexión con los ya examinados,
-   evidencien que **el hecho no existió o que el imputado no lo cometió**.
-
-> **La doctrina jurisprudencial como motivo autónomo no existe en los otros dos códigos.** En
-> PBA, apartarse de la doctrina legal es por sí mismo motivo de casación. Es una vía que no
-> tiene equivalente en la casación nacional ni en la impugnación federal, y que conviene no
-> desaprovechar.
-
-**Eximición de protesta (art. 449).** No hace falta reclamo ni protesta previa cuando se invoca
-la inobservancia de los preceptos relativos al **nombramiento y capacidad de los jueces y a la
-constitución legítima del tribunal**, ni a la **presencia del Ministerio Público Fiscal o Pupilar
-en el debate** o de otro interviniente cuya presencia disponga la ley.
-
-**Resoluciones recurribles (art. 450, texto Ley 14.543).** Además de los casos especialmente
-previstos: sentencias condenatorias dictadas en **juicio por jurados** y sentencias definitivas
-de **juicio oral, abreviado y directísimo** en lo criminal.
-
-> **El jurado provincial es constitucional, y el planteo en contra ya se intentó.** *Canales,
-> Mariano Eduardo y otro s/ homicidio agravado — impugnación extraordinaria*, **Fallos 342:697,
-> 02/05/2019** — leído contra el documento, `fallos-csjn.md` 34.2. Se discutía el juicio por
-> jurados de **Neuquén**, con el argumento de que instituirlo no es facultad provincial sino
-> federal (arts. 24 y 75 inc. 12 CN). La Corte hizo lugar a la queja, declaró admisible el
-> extraordinario y **confirmó la sentencia apelada**: el juicio por jurados está previsto como
-> **garantía-derecho del imputado** —por eso está en el capítulo de declaraciones, derechos y
-> garantías, art. 24 CN—, **no es una obligación** y por lo tanto es disponible. Rosenkrantz
-> votó en disidencia por desestimar la queja.
->
-> Aplica a PBA por analogía de planteo, no de norma: el jurado bonaerense tiene su propia ley y
-> lo que "Canales" resuelve es la **competencia provincial para instituirlo**, no el contenido
-> de cada régimen. `[VERIFICAR CRITERIO DEL FUERO: recepción de "Canales" por la SCBA respecto del régimen de jurados de la Ley 14.543 y sus reformas]`
-
-**Forma y plazo (art. 451, texto Ley 14.295).** **Veinte días** de notificada, bajo sanción de
-inadmisibilidad, por escrito fundado, citando las disposiciones no observadas o mal aplicadas,
-los nuevos hechos o elementos de prueba, o los motivos especiales del art. 467, y expresando
-**en cada caso cuál es la solución que se pretende**.
-
-### 24.6.5 Antes de recurrir
-
-1. **Qué código rige** (24.1) — define el nombre del recurso, el plazo y los motivos.
-2. **Si el agravio quedó preservado.** En la 23.984, reclamo o protesta al momento del acto; en
-   PBA, la reposición en el debate vale como protesta; y en los dos hay supuestos eximidos.
-3. **Qué motivo concreto**, encuadrado en su inciso. En el CPPF, además, en el artículo que
-   corresponde al tipo de decisión.
-4. **Qué solución se pretende**, expresada. Los tres códigos lo exigen, y bajo el CPPF además no
-   hay reenvío: lo que se pide es la decisión final.
-
----
-
-### 24.6.5 CPP CABA — apelación, y los plazos son cortos
-
-Ley 2.303. **Las resoluciones son recurribles sólo por los medios y en los casos expresamente
-establecidos** (art. 280), y el derecho corresponde a quien lo tenga acordado **con interés
-directo**; cuando la ley no distingue entre partes, **todas pueden recurrir**.
-
-**Tres reglas generales que conviene invocar:**
-
-| Art. | Regla |
-| --- | --- |
-| **282** | Los recursos se interponen **bajo consecuencia de inadmisibilidad** en tiempo y forma — y **los tribunales no pueden exigir más requisitos formales que los previstos expresamente** |
-| **283** | **Efecto suspensivo como regla general**: las resoluciones no se ejecutan durante el término para recurrir ni durante el trámite, salvo disposición expresa o que se hubiera ordenado la **libertad** del imputado |
-| **289** | El alzada conoce **sólo los puntos alcanzados por los agravios**; el recurso fiscal **permite modificar o revocar en favor** del imputado; y si recurrió sólo el imputado o alguien a su favor, **la resolución no puede modificarse en su perjuicio** |
-
-**Adhesión y extensión.** Quien tenga derecho a recurrir **puede adherir** al recurso concedido a
-otro dentro del emplazamiento (art. 284), y con varios imputados **el recurso de uno favorece a los
-demás** salvo que se funde en motivos estrictamente personales (art. 285).
-
-**Los plazos, que son el punto donde más se pierde:**
-
-| Recurso | Plazo | Contra qué |
-| --- | --- | --- |
-| **Reposición** (art. 290) | **3 días** de notificado, interpuesto **y fundado** | Decretos o autos que causen gravamen, para que el mismo tribunal los revoque por contrario imperio |
-| **Apelación** contra decretos y autos (arts. 292 y 293) | **5 días**, salvo disposición en contrario | Los expresamente declarados apelables **o que causen gravamen irreparable** |
-| **Apelación** contra sentencias (art. 293) | **10 días** | Ídem |
-
-> **Y en la etapa de juicio sólo hay reposición (art. 286).** Antes del debate se resuelve
-> inmediatamente antes de éste sin más trámite; interpuesta durante el debate, se resuelve de
-> inmediato o con la sentencia, **y su trámite no suspende la audiencia**.
-
-> **Cuidado con la numeración de este código.** El texto consolidado intercala bloques de
-> *"Antecedentes relacionados / Texto anterior"* con la numeración vieja: la apelación es hoy el
-> **art. 292** y el propio archivo aclara que *"al momento de la modificación la numeración se
-> correspondía con el art. 279"*. Es la misma trampa que `contravencional-caba.md` 56 registra
-> para el Código Contravencional.
-
-## 24.7 · Parte general aplicada
-
-> Esta sección es la que decide cuánta pena hay y si se cumple. Se la saltea seguido porque
-> parece teoría, y después aparece en el cómputo. **Dos artículos centrales fueron reescritos
-> por la Ley 27.785 (BO 07/03/2025)**: el art. 50 (reincidencia) y el art. 58 (unificación). Toda
-> doctrina o jurisprudencia anterior a marzo de 2025 sobre esos dos temas se construyó sobre otro
-> texto legal. [REVISIÓN NORMATIVA REQUERIDA: cotejar cualquier cita de reincidencia o unificación
-> anterior al 07/03/2025 contra el texto vigente antes de invocarla]
-
-### 24.7.1 Imputabilidad y causas de exclusión (art. 34)
-
-Los siete incisos del art. 34 no son una lista homogénea: unos excluyen la culpabilidad, otros la
-antijuridicidad, y **eso cambia qué hay que probar y qué pasa después de la absolución**.
-
-| Inc. | Supuesto | Nota práctica |
-| --- | --- | --- |
-| **1** | No poder comprender la criminalidad del acto o dirigir las acciones, por insuficiencia de facultades, alteración morbosa, estado de inconciencia, **error o ignorancia de hecho no imputables** | El error de hecho no imputable vive acá, no en un artículo propio. En caso de enajenación el tribunal **puede ordenar la reclusión en un manicomio**, de la que sólo se sale por resolución judicial con audiencia del MP y dictamen pericial de que desapareció el peligro. En los demás casos del inciso, la reclusión es en establecimiento adecuado hasta que desaparezcan las condiciones de peligrosidad |
-| **2** | Fuerza física irresistible o **amenazas de sufrir un mal grave e inminente** | |
-| **3** | Estado de necesidad: causar un mal por evitar otro mayor inminente **al que ha sido extraño** | La extrañeza al mal mayor es requisito del texto, no un agregado doctrinario |
-| **4** | Cumplimiento de un deber o legítimo ejercicio de un derecho, autoridad o cargo | |
-| **5** | Obediencia debida | |
-| **6** | **Legítima defensa propia**: agresión ilegítima, necesidad racional del medio empleado, falta de provocación suficiente | El artículo presume esas circunstancias en dos casos: quien **durante la noche** rechaza el escalamiento o fractura de cercados, paredes o entradas de su casa o departamento habitado o sus dependencias, cualquiera sea el daño al agresor; y quien encuentra **a un extraño dentro de su hogar, siempre que haya resistencia** |
-| **7** | **Defensa de tercero**: agresión ilegítima y necesidad racional del medio; si hubo provocación suficiente del agredido, que el tercero **no haya participado en ella** | La falta de provocación no se le exige al defensor respecto del agredido: se le exige no haber participado |
-
-**El exceso no es impunidad (art. 35).** Quien excede los límites impuestos por la ley, la
-autoridad o la necesidad **es castigado con la pena fijada para el delito por culpa o
-imprudencia**. Invocar legítima defensa y perderla no deja al defendido sin condena: lo deja con
-la escala culposa.
-
-### 24.7.2 Tentativa (arts. 42 a 44)
-
-**Tipo (art. 42).** Comenzar la ejecución de un delito determinado con fin de cometerlo y no
-consumarlo **por circunstancias ajenas a la voluntad**.
-
-**Desistimiento voluntario (art. 43).** El autor de tentativa **no está sujeto a pena** si
-desiste voluntariamente. Es impunidad, no atenuación: la diferencia entre el art. 43 y el art. 44
-es todo o una fracción, y se juega en si la interrupción fue propia o ajena.
-
-**Escala (art. 44).** La pena que correspondería por el delito consumado **se disminuye de un
-tercio a la mitad**. Si fuera reclusión perpetua, reclusión de **15 a 20 años**; si fuera prisión
-perpetua, prisión de **10 a 15 años**. En el **delito imposible**, la pena se disminuye **en la
-mitad** y puede reducirse al mínimo legal o eximirse de ella.
-
-> El texto dice *de un tercio a la mitad* sin decir a qué extremo se aplica cada fracción, y de
-> ahí sale la discusión clásica sobre cómo se arma la escala de la tentativa. **No está resuelta
-> en el texto legal.**
->
-> `[INSERTAR FALLO VERIFICADO: cómo se construye la escala del art. 44 -a qué extremo se aplica cada fracción- sigue sin fallo cargado. Lo bajado dice que el art. 44 es regla general y que una ley especial puede apartarse, no cómo se arma la escala]`
->
-> **Lo que sí está cargado es el estatuto del art. 44 como regla, y su excepción.** En
-> *"Chukwudi"* (CSJN, Fallos 344:3458, 11/11/2021), leído contra el documento, la Corte rechaza
-> el planteo de inconstitucionalidad contra la **equiparación de penas entre tentativa y
-> consumación del contrabando** (arts. 862 a 867 del Código Aduanero). Dice que **"es indiscutible
-> que el art. 44 del Código Penal prevé una reducción de la sanción del delito tentado"** y que
-> eso es *"una regla, en principio general"* fundada en que **la ausencia de disvalor de resultado
-> conduce a un menor contenido de ilicitud**. Pero esa regla *"convive con otros supuestos del
-> mismo código"* donde el legislador decidió otra cosa, y **apartarse está habilitado por el art.
-> 4 CP**, que aplica las disposiciones generales a las leyes especiales *"en cuanto éstas no
-> dispusieran lo contrario"*. Por eso la equiparación no vulnera lesividad, culpabilidad ni
-> proporcionalidad. **Lo que el fallo NO hace es armar la escala:** no dice a qué extremo se
-> aplica el tercio ni la mitad, y lo aclara al reservar expresamente *"la constitucionalidad de
-> otras cuestiones ajenas a esta litis"*.
->
-> **Lo que sí hay bajado toca el art. 44 por un costado y no resuelve esto.** En *"Maldonado"*
-> (Fallos 328:4343, ver 24.7.8) la Corte trabaja con el **art. 44 tercer párrafo** por remisión
-> del art. 4 de la Ley 22.278, y dice que **el punto de partida debe ser la escala más leve**
-> —porque la alternativa era una pena indivisible—. Es un criterio sobre **cuál escala se elige**
-> en el régimen de menores, no sobre **cómo se construye** la del art. 44. El marcador sigue.
-
-### 24.7.3 Participación criminal (arts. 45 a 49)
-
-**Pena plena (art. 45).** Los que **toman parte en la ejecución**, los que prestan un auxilio o
-cooperación **sin los cuales no habría podido cometerse**, y los que **determinan directamente a
-otro a cometerlo**: todos con la pena establecida para el delito. El instigador está en el mismo
-artículo y con la misma pena que el autor.
-
-**Pena reducida (art. 46).** Los que cooperan **de cualquier otro modo** y los que prestan ayuda
-posterior **cumpliendo promesas anteriores**: pena del delito **disminuida de un tercio a la
-mitad**; reclusión perpetua → 15 a 20 años; prisión perpetua → 10 a 15 años.
-
-La frontera entre el art. 45 y el art. 46 es **si el aporte era o no indispensable**, y es el
-punto donde se gana o se pierde media escala.
-
-**Exceso del autor (art. 47).** Si el cómplice **no quiso cooperar sino en un hecho menos grave**
-que el cometido, se lo pena sólo por el hecho que prometió ejecutar. Y si el hecho no se
-consuma, se combinan este artículo y los de tentativa.
-
-**Comunicabilidad (art. 48).** Las relaciones, circunstancias y calidades personales que
-**disminuyen o excluyen** la penalidad influyen sólo respecto de aquel a quien corresponden. Las
-que **agravan** tampoco se comunican, **salvo que el partícipe las conociera**. La asimetría es
-deliberada y se usa en los dos sentidos.
-
-**Prensa (art. 49).** No son partícipes quienes sólo prestan la cooperación material necesaria
-para la publicación, difusión o venta.
-
-> **Dos tipos donde los arts. 46 y 47 NO se aplican.** La **Ley 27.786 (BO 10/03/2025)** incorporó
-> los **arts. 210 ter y 210 quater** al CP, y los dos cierran con la misma cláusula: *"Las
-> condiciones especiales de participación establecidas en los artículos 46 y 47 de este Código no
-> serán aplicables a los efectos de lo dispuesto en este artículo"*. Leído contra
-> `fuentes/normas/cp-11179.txt`.
->
-> La consecuencia práctica es de escala: en esas dos figuras **no hay complicidad secundaria con
-> pena reducida ni descuento por exceso del autor**. Quien cooperó "de cualquier otro modo"
-> responde sin la disminución de un tercio a la mitad del art. 46. Antes de calcular una escala en
-> una causa por asociación ilícita, verificar cuál de los tipos del art. 210 se imputa.
->
-> El **210 quater** agrega algo más fuerte todavía: la pena es **la del delito más grave cometido
-> por la organización** —definido en el propio artículo como el perpetrado por cualquiera de sus
-> miembros que tenga la pena más alta—, no la del hecho propio.
->
-> **Los tipos en sí son parte especial y este módulo no los cubre** (24.10). Acá se registra sólo
-> lo que impacta en la parte general.
-
-### 24.7.4 Concurso de delitos (arts. 54 a 58)
-
-| Figura | Artículo | Regla |
-| --- | --- | --- |
-| **Concurso ideal** | 54 | Un hecho bajo más de una sanción penal: se aplica **solamente la que fija pena mayor** |
-| **Concurso real, misma especie de pena** | 55 | Mínimo = **el mínimo mayor**; máximo = **la suma aritmética de los máximos**, con tope de **50 años** de reclusión o prisión (texto Ley 25.928) |
-| **Concurso real, penas divisibles de distinta especie** | 56 | Se aplica **la más grave**, teniendo en cuenta los delitos de pena menor. Si alguna pena no fuera divisible, se aplica ésa únicamente, salvo que concurran prisión perpetua y reclusión temporal, donde se aplica **reclusión perpetua**. **Inhabilitación y multa se aplican siempre**, sin sujeción al párrafo primero |
-| **Gravedad relativa** | 57 | Se determina por el orden de enumeración del **art. 5º** |
-| **Unificación** | 58 | Ver abajo |
-
-**Art. 58, texto Ley 27.785 — el cambio que hay que tener presente.** Las reglas anteriores se
-aplican también cuando, después de una condena firme, se juzga a la misma persona por otro hecho
-distinto, o cuando se dictaron dos o más sentencias firmes violándolas. Dicta la sentencia única,
-**a pedido de parte**, el juez que aplicó la pena mayor, **sin alterar las declaraciones de hechos
-contenidas en las otras**. Y el texto vigente cierra: **en la unificación de condenas, la pena
-resultante será la suma aritmética de las penas impuestas** en las sentencias consideradas.
-
-> La unificación dejó de ser una composición con margen judicial y pasó a ser una **operación
-> aritmética**. Cualquier escrito que pida unificar invocando discrecionalidad del tribunal está
-> pidiendo algo que el texto vigente no concede.
-
-Cierre del artículo: si la justicia federal no pudiera aplicar la regla en autos en que
-intervino, lo hace la justicia ordinaria nacional o provincial que conoció de la infracción.
-
-### 24.7.5 Reincidencia (arts. 50 a 53) y su efecto sobre la libertad
-
-**Art. 50, texto Ley 27.785.** Es reincidente **toda persona condenada dos o más veces a pena
-privativa de libertad, siempre que la primera condena se encuentre firme**. La definición vigente
-se apoya en el **número de condenas** y en la firmeza de la primera.
-
-- La condena en el extranjero cuenta si fue por un delito que, según la ley argentina, **pueda dar
-  lugar a extradición**.
-- **No dan lugar a reincidencia** las penas por delitos amnistiados ni las impuestas por delitos
-  cometidos por **menores de 18 años**.
-- **Caducidad del cómputo:** la pena sufrida no se tiene en cuenta cuando desde su cumplimiento
-  transcurrió un término **igual al de su imposición**, que **nunca excede de 10 años ni es
-  inferior a 5**.
-
-**Lo que la reincidencia produce, y por lo que importa tanto:**
-
-- **Art. 14: no se concede libertad condicional a los reincidentes.** Es una exclusión automática,
-  en el mismo artículo que excluye una lista de delitos (homicidios agravados del art. 80;
-  delitos contra la integridad sexual de los arts. 119, 120, 124, 125, 125 bis, 126, 127, 128
-  párrafos primero y segundo, y 130; el art. 142 bis anteúltimo párrafo; la tortura seguida de
-  muerte del art. 144 ter inciso 2; los arts. 165 y 166 inciso 2 segundo párrafo; el secuestro
-  extorsivo seguido de muerte del art. 170 antepenúltimo y anteúltimo párrafos; los arts. 145 bis
-  y ter; y los casos del art. 41 quinquies).
-- **Art. 52: reclusión por tiempo indeterminado** como accesoria de la última condena si la
-  reincidencia es múltiple: **cuatro** penas privativas de libertad siendo una mayor de tres años,
-  o **cinco** de tres años o menores. Los tribunales pueden, **por única vez**, dejarla en
-  suspenso fundando la decisión en la forma del art. 26.
-- **Art. 53:** transcurridos **cinco años** de cumplimiento de la accesoria, el tribunal que dictó
-  la última condena o impuso la pena única puede otorgar libertad condicional con las condiciones
-  del art. 13; a los cinco años de obtenida, libertad definitiva. La accesoria se cumple **en
-  establecimientos federales**.
-
-**Art. 51 — caducidad registral, que no es lo mismo que la del art. 50.** El registro de las
-condenas caduca a **10 años desde la sentencia** para las condicionales (art. 27), **10 años desde
-su extinción** para las demás privativas de libertad y **5 años desde su extinción** para multa e
-inhabilitación. Los entes que llevan registros penales **se abstienen de informar** procesos
-terminados por sobreseimiento o absolución, y detenciones que no provengan de formación de causa
-—salvo hábeas corpus o causas donde el detenido fue víctima—. Se informa siempre que medie
-**consentimiento expreso del interesado**, y los jueces pueden requerirla excepcionalmente por
-resolución fundada en la necesidad concreta del antecedente como prueba. **Violar la prohibición
-de informar es violación de secreto del art. 157.**
-
-### 24.7.6 Condena condicional (arts. 26 a 28)
-
-**No confundir con la suspensión del juicio a prueba (24.4).** La condicional es una **condena**
-que se deja en suspenso; la probation suspende **el juicio** y no hay condena. Se piden en
-momentos distintos, ante supuestos distintos, y con efectos distintos sobre los antecedentes.
-
-**Requisitos (art. 26):** **primera condena** a **pena de prisión que no exceda de tres años**. La
-decisión es **facultad del tribunal** y **debe ser fundada bajo sanción de nulidad** en la
-personalidad moral del condenado, su actitud posterior al delito, los motivos que lo impulsaron,
-la naturaleza del hecho y las demás circunstancias que muestren la inconveniencia de privar
-efectivamente de libertad. El tribunal requiere las informaciones pertinentes y **las partes
-pueden aportar prueba útil a ese efecto** —lo que hace de la condicional algo que se trabaja, no
-que se espera—. Misma facultad **en concurso de delitos si la pena impuesta no excede de tres
-años**. **No procede respecto de multa ni de inhabilitación.**
-
-**Plazo y reiteración (art. 27).** La condena se tiene por no pronunciada si dentro de **cuatro
-años** desde la sentencia firme no comete un nuevo delito. Si lo comete, sufre **las dos penas**
-según las reglas de acumulación. Segunda condicional: sólo si el nuevo delito se cometió después
-de **ocho años** de la primera condena firme, plazo que **se eleva a diez si ambos delitos fueran
-dolosos**. En sentencias recurridas y confirmadas en cuanto al carácter condicional, los plazos
-corren **desde el pronunciamiento originario**.
-
-**Reglas de conducta (art. 27 bis, incorporado por Ley 24.316).** El tribunal **debe** disponer,
-por un plazo que fija **entre dos y cuatro años** según la gravedad del delito, el cumplimiento de
-todas o algunas de ocho reglas, en tanto resulten adecuadas para prevenir nuevos delitos: fijar
-residencia y someterse al cuidado de un patronato; abstenerse de concurrir a determinados lugares
-o de relacionarse con determinadas personas; abstenerse de estupefacientes o de abusar de
-alcohol; asistir a la escolaridad primaria si no la tuviera cumplida; realizar estudios o
-prácticas de capacitación laboral o profesional; someterse a tratamiento médico o psicológico
-**previo informe que acredite su necesidad y eficacia**; adoptar oficio, arte, industria o
-profesión adecuado a su capacidad; y realizar trabajos no remunerados a favor del Estado o de
-instituciones de bien público **fuera de sus horarios habituales de trabajo**. Las reglas pueden
-modificarse según convenga al caso.
-
-> **El plazo del art. 27 bis no es el del art. 27.** Las reglas de conducta duran entre dos y
-> cuatro años a criterio del tribunal; el término que hace tener la condena por no pronunciada es
-> de cuatro años y es legal. Son dos relojes.
-
-**Incumplimiento.** Si no cumple alguna regla, el tribunal **puede** disponer que no se compute
-como plazo de cumplimiento todo o parte del tiempo transcurrido. Si **persiste o reitera** el
-incumplimiento, **puede revocar la condicionalidad**, y entonces se cumple la totalidad de la
-prisión impuesta.
-
-**Art. 28.** La suspensión de la pena **no comprende la reparación de los daños ni el pago de los
-gastos del juicio**. La condicional no alcanza a lo civil ni a las costas.
-
-### 24.7.7 Antes de discutir la pena
-
-1. **Qué concurso hay** — ideal (art. 54) o real (arts. 55/56), porque define la escala antes de
-   cualquier atenuante.
-2. **Si hubo tentativa o participación secundaria**, que reducen la escala ya armada (arts. 44 y
-   46), y si el desistimiento del art. 43 es discutible.
-3. **Si es reincidente bajo el texto vigente del art. 50**, y si alguna pena anterior ya cayó por
-   el término del último párrafo.
-4. **Si la reincidencia o la lista del art. 14 bloquean la libertad condicional**, que es lo que
-   convierte una discusión de escala en una discusión de encierro efectivo.
-5. **Si entra la condicional del art. 26** — primera condena, prisión no mayor de tres años,
-   fundada — y con qué reglas del art. 27 bis se la puede hacer viable.
-6. **Si hay condenas previas firmes**, la unificación del art. 58 y su suma aritmética.
-
----
-
-### 24.7.8 Menores: la pena no se gradúa igual
-
-*"Maldonado, Daniel Enrique y otro s/ robo agravado por el uso de armas en concurso real con
-homicidio calificado"*, **Fallos 328:4343, 07/12/2005** — leído contra el documento,
-`fallos-csjn.md` 34.2. La Corte hizo lugar a la queja y **dejó sin efecto** la sentencia,
-devolviendo para que se dictara una nueva.
-
-**Lo que resolvió.** Tratándose de hechos cometidos por menores, si el tribunal decide aplicar
-pena **todavía debe decidir sobre la aplicabilidad de la escala de la tentativa** (art. 4 Ley
-22.278, que remite al art. 44 tercer párrafo CP): no es un paso que pueda saltearse por
-considerarlo facultativo y darlo por descartado sin fundar.
-
-**Y el fundamento, que es lo que se cita.** La pena se mide por la **culpabilidad por el
-hecho**, y en el caso de un niño hay que computar la **reducción que se deriva de su inmadurez
-emocional o afectiva**, producto necesario de su etapa vital evolutiva. Declara **inadmisible la
-apelación a la culpabilidad de autor** — es decir, fundar la pena en lo que el imputado *es* o
-en su peligrosidad futura, en vez de en el hecho. La Corte lo dice contra la idea de
-**excluirlo para siempre de la sociedad**.
-
-> **Para el escrito:** una sentencia que impone pena a un menor sin tratar expresamente la
-> escala reducida, o que la funda en pronóstico de peligrosidad, tiene los dos agravios de
-> "Maldonado". El segundo sirve también fuera del régimen de menores, porque la proscripción del
-> derecho penal de autor no depende de la edad.
-
-> **Y hay que mirar la fecha del hecho antes de invocar el primero.** El art. 4 de la Ley 22.278
-> —el que remitía a la escala de la tentativa— **está derogado** por el art. 48 de la **Ley
-> 27.801**, vigente desde el **05/09/2026** (`penal-leyes-especiales.md` 24.9.4). Y el texto de
-> la 27.801 **no contiene ninguna remisión al art. 44 CP ni a la escala de la tentativa**:
-> comprobado contra `fuentes/normas/ley-27801.txt`. Lo que trae en su lugar es otra cosa —la
-> sustitución de la prisión del art. 11 y el tope de quince años del art. 19—.
->
-> Para un hecho **anterior**, "Maldonado" se cita como siempre, porque el art. 2 CP hace regir la
-> ley más benigna. Para uno **posterior**, **el vehículo legal del primer agravio ya no está en
-> la ley**: queda el fundamento —la culpabilidad medida por el hecho y la reducción derivada de
-> la inmadurez—, que es constitucional y convencional, pero eso es un argumento que hay que
-> construir y no una remisión que el texto conceda.
-
-`[INSERTAR FALLO VERIFICADO: aplicación de la doctrina de "Maldonado" bajo la Ley 27.801 - si la culpabilidad disminuida del adolescente sigue obligando a fundar la graduación de la pena sin la remisión del derogado art. 4 de la Ley 22.278. No hay precedente bajado sobre la ley nueva]`
+Imputabilidad, tentativa, participación, concurso, reincidencia, condena condicional y la
+graduación de la pena del menor salieron con su numeración: 24.7.1 a 24.7.8 siguen siendo esas
+secciones, allá.
 
 ## 24.8 · Ejecución de la pena — está en `ejecucion-penal.md`
 
@@ -1389,19 +463,66 @@ en su peligrosidad futura, en vez de en el hecho. La Corte lo dice contra la ide
 condiciones de *"Verbitsky"* y los plazos que divergen están en **`ejecucion-penal.md` 24.8**, con
 la misma numeración. Acá queda el proceso, que es lo que se lee antes.
 
-## 24.10 · Lo que este módulo todavía no cubre
+## 24.10 · Extradición y cooperación penal internacional — Ley 24.767
 
-- **Parte especial del CP**: los tipos penales concretos. El módulo cubre el régimen procesal,
-  la parte general, la ejecución y las leyes especiales de arriba, pero no los delitos en
-  particular.
+**El orden lo fija el art. 2 y no se invierte:** si hay tratado con el Estado requirente, *"sus
+normas regirán el trámite"*; la ley sirve para **interpretar** el tratado y se aplica *"en todo lo
+que no disponga en especial"*. Sin tratado, el art. 3 subordina la ayuda a **reciprocidad existente
+u ofrecida**.
+
+**Las solicitudes van traducidas al español** y la documentación remitida **por vía diplomática no
+requiere legalización**; presentada en forma, hace **presumir la veracidad de su contenido y la
+validez de las actuaciones** (art. 4).
+
+#### Cuándo NO se concede (art. 11)
+
+Cinco causales, y ninguna es discrecional:
+
+- la acción penal o la pena **se extinguieron según la ley del Estado requirente**;
+- la persona **ya fue juzgada**, en la Argentina o en cualquier otro país, por el hecho que motiva
+  el pedido;
+- **habría sido inimputable por razón de la edad** según la ley argentina si el delito se hubiera
+  cometido acá;
+- la condena se dictó **en rebeldía** y el Estado requirente no da seguridades de que el caso se
+  reabrirá para oír al condenado, permitirle defenderse y dictar nueva sentencia;
+- el Estado requirente **no garantiza que computará** el tiempo de privación de libertad que
+  demande el trámite de extradición.
+
+#### La opción del nacional argentino (art. 12)
+
+**Es el punto que decide muchos casos.** Si el requerido para un proceso es nacional argentino,
+**puede optar por ser juzgado acá**, *"a no ser que fuere aplicable al caso un tratado que obligue
+a la extradición de nacionales"* — o sea que **la opción cede ante el tratado**, y por eso el art. 2
+se mira primero.
+
+Dos recaudos de la calidad de nacional: debe **existir al momento del hecho** y **subsistir al
+momento de la opción**. Y ejercida la opción, la extradición se deniega y el nacional es juzgado
+en el país según la ley penal argentina, **pero sólo si el Estado requirente presta conformidad,
+renuncia a su jurisdicción y remite los antecedentes y pruebas**. Sin eso, el juzgamiento local no
+se puede montar.
+
+> **Lo que este módulo no trae de la Ley 24.767:** el trámite administrativo y judicial completo,
+> la asistencia en la investigación —que es su Parte III— y el cumplimiento de condenas. Está el
+> texto entero en `fuentes/normas/ley-24767.txt`.
+
+`[INSERTAR FALLO VERIFICADO: alcance de la opción del art. 12 de la Ley 24.767 frente a un tratado bilateral que obliga a extraditar nacionales - no hay precedente bajado]`
+
+Para la parte especial rige el ruteo de `perfiles-heredados.md` sección 19, **con su advertencia**.
+
+## 24.11 · Lo que este módulo todavía no cubre
+
+- **Parte especial del CP**: los tipos penales concretos. Entre este módulo y los que salieron
+  de él está el régimen procesal, la parte general, la impugnación, la ejecución y las leyes
+  especiales, pero no los delitos en particular.
 - Umbrales y montos del Título IX de la Ley 27.430, que no están cargados en `fuentes/`.
 - Jurisprudencia: **hay veinte fallos penales de la CSJN bajados y verificados**, indexados
   en `fallos-csjn.md` sección 34.2 con carátula oficial, cita de Fallos y fecha del registro de
   la Secretaría de Jurisprudencia, y **los veinte tienen el holding escrito contra el
-  documento**. Once se desarrollan acá, cada uno en la sección donde se usa; los otros nueve, en
-  `fallos-csjn.md`. Lo que **no** hay es precedente propio para tres puntos, y ahí van los
-  marcadores: la **escala del art. 44** en 24.7.2, la **constitucionalidad del art. 56 bis de la
-  Ley 24.660** en 24.8, y el **juicio en ausencia de la Ley 27.784** en 24.2.1.
+  documento**. Once se desarrollan en el módulo de penal que corresponda —`fallos-csjn.md` 34.2
+  dice cuál para cada uno—, en la sección donde se usa; los otros nueve, en `fallos-csjn.md`. Lo que **no** hay es precedente propio para tres puntos, y ahí van los
+  marcadores: la **escala del art. 44** en `penal-parte-general.md` 24.7.2, la
+  **constitucionalidad del art. 56 bis de la Ley 24.660** en `ejecucion-penal.md` 24.8, y el
+  **juicio en ausencia de la Ley 27.784** en 24.2.1.
 - **Extraer los PDF con `pdftotext -layout`.** Sin esa opción el extractor reordena las
   palabras y un fallo sano parece ilegible: "Góngora" y "Duarte" **se leen enteros** con esa
   opción, aunque sin ella salgan mezclados. Lo que sí está roto es el OCR de
@@ -1409,5 +530,3 @@ la misma numeración. Acá queda el proceso, que es lo que se lee antes.
   devolvió caracteres sueltos y no mejora con
   ninguna opción: ésos sirven para citar, no para copiar un considerando. El estado de cada
   uno, en 34.1.
-
-Para la parte especial rige el ruteo de `perfiles-heredados.md` sección 19, **con su advertencia**.

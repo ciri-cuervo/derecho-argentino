@@ -48,7 +48,7 @@ Hay errores **en las dos partes**. Un análisis que sólo corrija a la defensa e
 
 - [ ] Señala que **"Fiorentino" se apartó expresamente** del criterio anterior del Tribunal
   (Fallos 301:676), dato útil cuando la contraparte cita precedentes previos a 1984.
-- [ ] Menciona que la regla de exclusión tiene su desarrollo en `penal.md` 24.5, con la línea
+- [ ] Menciona que la regla de exclusión tiene su desarrollo en `penal-impugnacion.md` 24.5, con la línea
   "Rayford" que **"Quaranta"** toma y reitera, y que esos precedentes **no están bajados**: se
   citan a través de "Quaranta".
 - [ ] Advierte que "Arriola" tiene diecisiete años y que corresponde confirmar que no fue

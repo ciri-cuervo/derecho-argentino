@@ -1,6 +1,6 @@
 ---
 name: derecho-argentino
-description: Análisis, redacción y revisión jurídica bajo derecho argentino, desde una parte o desde el órgano jurisdiccional. Usar ante consultas sobre despido, liquidación, telegramas, riesgos del trabajo; empleo público, estabilidad, cesantía; daños, contratos, cláusulas abusivas, daño punitivo, consumo y el proceso de consumo de la Ciudad; defensa de la competencia, posición dominante; alimentos, divorcio, cuidado personal, violencia familiar; sucesiones, porción legítima; derechos reales, usucapión, propiedad horizontal; alquileres, desalojo; pagaré, cheque, juicio ejecutivo; seguros, citación en garantía; gas, luz, telecomunicaciones, ente regulador; hábeas corpus; convenio colectivo, sindicato; vuelo cancelado; buques; cooperativas, mutuales; trabajo agrario; lavado de activos; electoral; causas penales, excarcelación, probation, ejecución de la pena, penal juvenil; jubilaciones, pensiones, IPS; obra social, prepaga, discapacidad; salud mental, internación; sociedades; concursos, quiebras; procedimiento tributario, ARBA, AGIP; multas de tránsito, contravenciones de CABA; datos personales, hábeas data; firma digital, notificación electrónica; acto administrativo, agotamiento de la vía, contencioso administrativa; patentes, marcas, software, secreto comercial; daño ambiental, contaminación; elemento extranjero; amparo; proceso civil y comercial, caducidad; plazos, prescripción, intereses, honorarios y costas (jus, UMA nacional y porteña); prueba pericial, ejecución de sentencia, escritos, veredicto, sentencia.
+description: Análisis, redacción y revisión bajo derecho argentino, desde una parte o desde el órgano jurisdiccional. Usar ante consultas sobre despido, liquidación, telegramas; riesgos del trabajo, accidente, ART, baremo; maternidad, suspensión disciplinaria; empleo público, cesantía; daños, contratos, cláusulas abusivas, daño punitivo, consumo y el proceso de consumo de la Ciudad; defensa de la competencia, posición dominante; alimentos, divorcio, cuidado personal, violencia familiar y violencia digital; sucesiones, legítima; derechos reales, usucapión, propiedad horizontal; escribano; alquileres, desalojo; pagaré, cheque, juicio ejecutivo; seguros, citación en garantía; gas, luz, telecomunicaciones; hábeas corpus; convenio colectivo; vuelo cancelado; lavado de activos; causas penales, excarcelación, probation, nulidad, casación, ejecución de la pena, penal juvenil; jubilaciones, pensiones, IPS; obra social, prepaga, discapacidad; salud mental, internación; sociedades; concursos, quiebras; tributario, ARBA, AGIP; multas de tránsito, contravenciones de CABA; juzgado de paz; datos personales, hábeas data; firma digital, notificación electrónica; acto administrativo, agotamiento de la vía, contencioso administrativa; patentes, marcas, software; ambiental, contaminación; elemento extranjero; amparo; proceso civil y comercial, caducidad; plazos, prescripción, intereses, honorarios (jus y UMA); prueba pericial, ejecución de sentencia, escritos y veredicto.
 ---
 
 # Derecho argentino
@@ -161,24 +161,19 @@ procesal de esta skill es de PBA, CABA y el orden nacional: para otra provincia,
 
 ### 0.2 · Dónde está el repo — no hay ninguna ruta fija
 
-La skill se instala a nivel de cuenta y corre en cualquier máquina y en **cualquier agente que
-lea el formato `SKILL.md`**; el repo de conocimiento jurídico puede estar en cualquier ruta y no
-hay ninguna escrita en estos archivos. **Nada de lo que sigue supone un agente en particular**:
-si algo sólo funciona en uno, se dice cuál.
+La skill corre en cualquier máquina y en **cualquier agente que lea el formato `SKILL.md`**; el
+repo de conocimiento jurídico puede estar en cualquier ruta y no hay ninguna escrita en estos
+archivos. **Nada supone un agente en particular**: si algo funciona en uno solo, se dice cuál.
 
 **Sólo hace falta resolverla cuando la consulta necesita el repo**: transcribir un artículo,
 citar un fallo, tomar el valor del jus, computar un plazo con ferias, liquidar intereses. Para
-una consulta conceptual, no. Y como instalar la skill no ejecuta nada, no hay un paso de
-instalación donde preguntar la ruta: la resuelve el primer uso que la necesite, y ese primer uso
-también la deja fijada.
+una consulta conceptual, no. La resuelve el primer uso que la necesite, y ese primer uso la deja
+fijada.
 
-`_raiz.py` la busca solo, del dato más explícito al más adivinado —el argumento `--repo`, la
-variable `DERECHO_AR_REPO`, la variable que define el agente cuando la skill llegó como plugin
-instalado, el config del usuario, y por último dos búsquedas que exigen el marcador
-`derecho/fuentes/MANIFIESTO.md` porque que una carpeta se llame parecido no alcanza—. El orden
-completo, con qué variable define cada agente, está en `scripts/README.md`. Si el repo aparece
-por una de esas dos últimas búsquedas, **la ruta queda escrita sola en el config**, con un aviso
-de una línea: es lo que hace que la primera vez sea efectivamente una sola vez.
+`_raiz.py` la busca solo, del dato más explícito al más adivinado; **el orden completo, con qué
+variable define cada agente, está en `scripts/README.md`** y no se repite acá. Si aparece por una
+de las dos búsquedas del final, **la ruta queda escrita sola en el config** con un aviso de una
+línea: es lo que hace que la primera vez sea efectivamente una sola vez.
 
 `python3 scripts/estado.py` informa qué encontró, por qué camino, qué datos hay cargados y
 cuáles quedaron vencidos. `scripts/configurar.py --repo <ruta>` fija la ruta a mano.
@@ -214,8 +209,9 @@ marcarlo vencido.
 ### 0.3 · Los datos del caso
 
 Antes de analizar, pedir en **una sola tanda** los datos que cambian el resultado. El
-checklist por tipo de tarea está en `references/intake.md`. Regla corta: lo que cambia el
-resultado se pregunta y bloquea; lo secundario se marca y se sigue.
+checklist por tipo de tarea está en `references/intake.md`, y **no hace falta abrirlo si la
+consulta ya trae los datos que cambian el resultado**. Regla corta: lo que cambia el resultado se
+pregunta y bloquea; lo secundario se marca y se sigue.
 
 ---
 
@@ -405,8 +401,9 @@ No usar formas no canónicas: `[VERIFICAR]`, `[VERIFICAR MONTO]`, `[VERIFICAR TA
 sin fuero, `[VACÍO DOCUMENTAL]`, `[VERIFICAR CRITERIO DE LA SALA]`, `[VERIFICAR RÉGIMEN APLICABLE]`.
 Para derecho intertemporal usar `[VERIFICAR VIGENCIA: régimen aplicable - ...]`.
 
-La definición completa de los veintiséis marcadores, con su sintaxis, cuándo corresponde cada
-uno y la tabla de formas que hay que reemplazar, está en **`references/marcadores.md`**.
+La definición de los veintiséis marcadores, con su sintaxis y la tabla de formas a reemplazar,
+está en **`references/marcadores.md`**, y **no hace falta abrirlo si el que se emite está en la
+tabla de arriba**: se abre para una forma que la tabla no trae.
 
 ---
 
@@ -419,7 +416,7 @@ no le sirve a nadie.
 - **Plazo fatal.** Si la acción está sujeta a caducidad o prescripción, computar y emitir
   `[ALERTA PLAZO FATAL: ...]` antes de fundamentar. Si venció, el fondo es inoficioso.
 - **Competencia y fuero.** Ante duda, resolver primero.
-- **Conciliación o mediación previa.** Ver sección 8.4: los regímenes nacional y bonaerense
+- **Conciliación o mediación previa.** Ver `plazos.md` 8.4: los regímenes nacional y bonaerense
   **no son equivalentes** y confundirlos falsea el cómputo de la prescripción.
 - **Agotamiento de la vía** en materia administrativa.
 
@@ -478,14 +475,12 @@ más detalle, buscar en este orden:
    sólo en el perfil, y cuáles quedaron vencidos por una reforma posterior. No ir al perfil sin
    pasar por ahí. Los **docs del Project** son la misma materia, para cuando el repo no está.
 3. **Doctrina**: `references/danos-indice-doctrinario.md` indexa por instituto el *Manual de
-   Derecho de Daños* (2ª ed., Weingarten -dir.-, La Ley, 2015). Ubica dónde la obra desarrolla un
-   punto; en un escrito se cita la obra, nunca el archivo. Lleva sus propias reservas —la obra es
-   comercial y es de 2015— y se leen antes de usarlo.
+   Derecho de Daños* (2ª ed., Weingarten -dir.-, La Ley, 2015) y lleva sus propias reservas, que
+   se leen antes. Ubica dónde la obra desarrolla un punto; en un escrito se cita la obra.
 
 **Orden de precedencia ante conflicto:** fuente primaria (`fuentes/` del repo, o los portales
-de `derecho/kb/transversales/fuentes-y-conectores.md`) → esta skill y sus módulos → docs del Project → perfiles del repo.
-Los perfiles del repo fueron consolidados en junio de 2026 y la auditoría de septiembre de 2026
-detectó divergencias contra fuente primaria.
+de `derecho/kb/transversales/fuentes-y-conectores.md`) → esta skill y sus módulos → docs del
+Project → perfiles del repo, que quedaron con divergencias contra fuente primaria.
 
 Si la consulta cae en un área que todavía no tiene módulo auditado, decirlo y marcar el
 `[SIN PERFIL DE ÁREA CARGADO: ...]` de la sección 0.1 bis.
@@ -498,20 +493,33 @@ Leer el módulo **antes** de analizar el fondo, no después de haber redactado. 
 toca dos ramas, se leen los dos. Los módulos no repiten las reglas de integridad: rigen las
 de la sección 2 en todos los casos.
 
+**Y se lee UNA vez y ENTERO: es una regla de costo.** Ningún módulo pasa los 1.900 renglones
+para que entre en una lectura, y releer es el desperdicio más caro de esta skill — lo releído se
+reenvía en cada turno que queda. Medido en una corrida real: `Read laboral.md`, `Read parte.md`,
+`Read laboral.md` **otra vez** y dos `Grep` sobre el mismo archivo, por algo que ya estaba a la
+vista. De ahí: **si falta un dato, está en lo ya leído**, y se vuelve ahí antes de grepear o de
+abrir otro; **cuando la fila nombra una sección, ésa contesta**, y sirve para volver sin abrir
+nada, no para leer sólo esa parte, porque el módulo pone alrededor las advertencias que deciden
+el caso; y **abrir un módulo más se decide antes**, nombrando qué pregunta contesta, porque uno
+abierto por las dudas se paga en todos los turnos que siguen.
+
 | Si la consulta es sobre | Leer |
 | --- | --- |
 | Qué datos pedir antes de analizar, según el tipo de tarea | `references/intake.md` |
 | Se actúa desde el **órgano jurisdiccional**, en cualquier fuero: qué deja de hacerse, qué se controla de oficio y qué no, congruencia, y qué pasa a significar cada marcador | `references/sede-judicial.md` |
 | Y la pieza que firma, **según el fuero**: sentencia, interlocutoria, recaudos, costas, honorarios y admisibilidad recursiva | `references/sede-judicial-pba.md` (laboral PBA), `references/sede-judicial-nacional.md` (nacional y federal) o `references/sede-judicial-caba.md` (CAyT de la Ciudad) |
 | Se actúa por una parte: demanda, contestación, audiencia preliminar, estrategia probatoria, recursos y depósito previo | `references/parte.md` |
-| Despido, liquidación, régimen aplicable por fecha del acto extintivo, agravantes, preaviso, período de prueba, intereses laborales, prescripción laboral, LRT | `references/laboral.md` |
-| El trabajo es rural o **agrario**, o el reclamo es de **inclusión laboral travesti, transexual y transgénero** | `references/laboral.md` |
+| Despido, liquidación, régimen aplicable por fecha del acto extintivo, agravantes, preaviso, período de prueba, intereses laborales, prescripción laboral | `references/laboral.md` |
+| **Accidente de trabajo o enfermedad profesional**: ART, comisión médica, baremo, incapacidad, ingreso base, la opción del art. 4 de la Ley 26.773 | `references/laboral-riesgos.md` — si además hay despido, también `references/laboral.md` |
+| **El contrato sigue y la prestación se interrumpe**: licencia por maternidad, excedencia, enfermedad inculpable y reserva del puesto, suspensión y poder disciplinario | `references/laboral-licencias.md` |
+| El trabajo es rural o **agrario**, o el reclamo es de **inclusión laboral travesti, transexual y transgénero** | `references/laboral.md` 5.17 quater y 5.17 ter |
 | **Derecho colectivo**: convenio colectivo, paritaria, homologación, ultraactividad, encuadramiento sindical, tutela sindical, conflicto colectivo o medidas de acción directa | `references/laboral-colectivo.md` |
 | Daños, responsabilidad civil, prescripción civil, seguro, accidentes de tránsito, locación, obligaciones en moneda extranjera | `references/civil.md` |
 | Relación de consumo, daño punitivo, cláusulas abusivas, garantía, trato digno, justicia gratuita en consumo | `references/consumidor.md` |
-| Servicios públicos y de red: **gas**, **energía eléctrica**, **telecomunicaciones**, internet, telefonía, facturación excesiva, corte del servicio, y si hay que pasar antes por el ente regulador | `references/consumidor.md` |
-| **Transporte aéreo**: vuelo cancelado o demorado, equipaje perdido o dañado, y el tope de responsabilidad del transportista | `references/consumidor.md` |
+| Servicios públicos y de red: **gas**, **energía eléctrica**, **telecomunicaciones**, internet, telefonía, facturación excesiva, corte del servicio, y si hay que pasar antes por el ente regulador | `references/consumidor.md` 17.11.5 |
+| **Transporte aéreo**: vuelo cancelado o demorado, equipaje perdido o dañado, y el tope de responsabilidad del transportista | `references/consumidor.md` 17.11.5 ter |
 | Alimentos, cuidado personal, divorcio, filiación, violencia familiar, etapa previa ante el Consejero | `references/familia.md` |
+| **Violencia digital**: difusión de material íntimo sin consentimiento, acoso o extorsión por redes, orden de baja de contenido a una plataforma | `references/violencia-digital.md`, y para el proceso `references/familia.md` |
 | Designación, control, impugnación o valoración de una pericia; consultor técnico; estudios complementarios | `references/prueba-pericial.md` |
 | Liquidación, embargo, excepciones en la ejecución, incidente de ejecución parcial, vía ejecutiva laboral | `references/ejecucion.md` |
 | Cuándo quedó notificada una resolución en PBA, cédula electrónica, MEV, presentaciones electrónicas, caída del sistema | `references/notificaciones-pba.md` |
@@ -527,23 +535,30 @@ de la sección 2 en todos los casos.
 | Hay que sacar o corregir un dato de un banco de datos, o el cliente sigue informado como deudor después de pagar | `references/datos-personales.md` |
 | El empleador o demandado es una sociedad y hay que decidir si se extiende la responsabilidad a socios o directores | `references/societario.md` |
 | La persona jurídica no es una sociedad de la Ley 19.550: **cooperativa**, **asociación mutual**, o una sociedad con **oferta pública** bajo la CNV | `references/societario.md` |
-| Se reclama una jubilación, un retiro por invalidez o una pensión, o se impugna un dictamen de comisión médica previsional | `references/previsional.md` |
+| Se reclama una jubilación, un retiro por invalidez o una pensión, o se impugna un dictamen de comisión médica previsional; o se tienen **65 años sin aportes** y se pregunta por la **PUAM** | `references/previsional.md` |
 | Hay que recurrir una determinación, una multa o una clausura de ARCA, o pedir repetición | `references/tributario.md` |
 | La determinación, la multa o la ejecución es **de ARBA** o de un municipio bonaerense, se discute Ingresos Brutos provincial, o hay un proyecto en el **régimen provincial de inversiones estratégicas** | `references/tributario-pba.md` |
 | El beneficio jubilatorio o la pensión los otorga el **IPS** de la Provincia de Buenos Aires, o se reclama reajuste contra él | `references/previsional-pba.md` |
 | Le labraron un **acta** en la Ciudad de Buenos Aires: contravención de la Ley 1.472 o **falta** de la Ley 451, pago voluntario, Controlador de Faltas o pase a la Justicia | `references/contravencional-caba.md` |
 | La determinación, la multa o la ejecución es **de AGIP**, o se impugna un acto de la administración porteña ante el fuero Contencioso Administrativo y Tributario | `references/tributario-caba.md` |
 | El caso tiene un elemento extranjero —parte domiciliada afuera, contrato con derecho o foro elegido, sentencia dictada en otro país, exhorto, pedido de arraigo— | `references/dipr.md` |
-| **Navegación por agua**: bandera del buque, abordaje, avería, embargo de buque, contrato de ajuste, o una cláusula que lleva el pleito a tribunales extranjeros | `references/dipr.md` |
+| **Navegación por agua**: bandera del buque, abordaje, avería, embargo de buque, contrato de ajuste, o una cláusula que lleva el pleito a tribunales extranjeros | `references/dipr.md` 35.8 bis |
+| **Hay una sentencia o un laudo dictado afuera** y hay que reconocerlo o ejecutarlo acá: **exequátur**, requisitos y trámite, y el régimen distinto entre Estados del Mercosur | `references/dipr.md` 35.8 ter |
+| Se demanda a un **Estado extranjero, una embajada o un consulado** —incluido el reclamo laboral de su personal—: **inmunidad de jurisdicción** y sus excepciones | `references/dipr.md` 35.8 quater |
+| **Arbitraje comercial internacional**: cuándo un arbitraje es internacional, sede, anulación del laudo y reconocimiento del laudo extranjero | `references/dipr.md` 35.8 quinquies |
+| **Compraventa internacional de mercaderías** —exportación o importación—: cuándo rige la Convención de Viena y la forma escrita que la reserva argentina impone | `references/dipr.md` 35.8 sexies |
+| **Extradición** y cooperación penal internacional: si hay tratado, causales de denegación, y la opción del nacional argentino | `references/penal.md` |
 | Murió alguien y hay que ver quién hereda, cuánto le toca a cada uno, si una donación anterior afecta la legítima, o si un testamento vale por su forma | `references/sucesiones.md` |
 | La aseguradora declinó cobertura, o hay que citarla en garantía, o se discute si la póliza cubre el reclamo | `references/seguros.md` |
-| Hay que registrar o defender una marca o una patente, se copió un software o un diseño, o se firma una licencia con una empresa del exterior | `references/propiedad-industrial.md` |
+| Hay que registrar o defender una marca o una patente, se copió un software o un diseño, se filtró un **secreto comercial**, o se firma una licencia con una empresa del exterior | `references/propiedad-industrial.md` |
 | Hay contaminación, un vuelco, un desmonte o una obra que degrada, y hay que ver quién responde y ante qué fuero | `references/ambiental.md` |
 | Hay que **regular o revisar honorarios**, y la ley arancelaria es la de la jurisdicción | `references/honorarios-nacional.md` (Ley 27.423), `references/honorarios-pba.md` (Ley 14.967) o `references/honorarios-caba.md` (Ley 5.134, con UMA propia) |
 | Hay que iniciar o contestar un amparo, o ver si todavía está en plazo | `references/amparo.md`, con el módulo de la materia de fondo |
 | El expediente tramita en la justicia **nacional o federal** y hay que ver un plazo, una caducidad, qué se puede apelar o cómo se contesta | `references/proceso-nacional.md` |
 | Lo mismo, pero el expediente tramita en la **justicia civil y comercial de la PBA** — y ojo con la caducidad, que allá hay una intimación de cinco días que acá no existe | `references/proceso-pba.md` |
+| **Juzgado de Paz** de la Provincia: si es competente en el partido, alimentos, apremios, medianería, deslinde, informaciones sumarias, rectificación de partidas, certificación de firmas, o **faltas provinciales** | `references/justicia-de-paz-pba.md` 61 |
 | Hay un conflicto por la propiedad o la posesión de una cosa, expensas, un consorcio, una usucapión o una hipoteca | `references/derechos-reales.md` |
+| **Escritura pública, acta notarial o copia**: qué hace plena fe y hasta dónde, cómo se ataca, segunda copia, y la organización notarial de cada jurisdicción | `references/notarial.md` |
 | Hay un acto de la Administración nacional que perjudica, y hay que ver si se agotó la vía y si todavía se puede impugnar | `references/administrativo-nacional.md` |
 | **Acceso a la información pública**: pedido, silencio o negativa del organismo; o **expulsión y cancelación de residencia** de una persona extranjera | `references/administrativo-nacional.md` |
 | El reclamo de consumo tramita ante la Justicia en las Relaciones de Consumo de CABA | `references/consumo-caba.md` |
@@ -556,7 +571,9 @@ de la sección 2 en todos los casos.
 | Hay un acuerdo entre competidores, un abuso de posición dominante o una concentración económica que perjudica | `references/competencia.md` |
 | Hay que citar un fallo de la Corte Suprema, o confirmar que una cita de Fallos corresponde a la causa que se le atribuye | `references/fallos-csjn.md` |
 | Dónde verificar una norma, un fallo o un monto | `references/fuentes.md` |
-| Causa penal: qué código procesal rige y cronograma del CPPF por distrito, coerción, extinción y probation, nulidades, **prueba de origen en inteligencia**, recursos, parte general y leyes especiales | `references/penal.md` |
+| Causa penal: **qué código procesal rige** —que es lo primero que se verifica—, cronograma del CPPF por distrito, juicio en ausencia, y la libertad durante el proceso: prisión preventiva, excarcelación, exención de prisión | `references/penal.md` |
+| **Nulidades y prueba prohibida** —regla de exclusión, **prueba de origen en inteligencia**— y **recursos**: apelación, casación e impugnación, que se pierden por el plazo | `references/penal-impugnacion.md`, con `penal.md` 24.1 para saber qué código rige |
+| **Parte general del Código Penal**: imputabilidad, tentativa, participación, concurso, reincidencia, condena condicional, pena del menor; y **extinción de la acción, prescripción y suspensión del juicio a prueba** | `references/penal-parte-general.md` |
 | Hay **condena firme** y se discute el régimen de ejecución, salidas transitorias, libertad condicional o asistida, o las condiciones de detención | `references/ejecucion-penal.md` |
 | Leyes penales especiales: estupefacientes, **lavado de activos** y el abogado como sujeto obligado, **delitos y faltas electorales**, deber de votar y amparo del elector, **cohecho deportivo**, régimen penal tributario, **organizaciones criminales** | `references/penal-leyes-especiales.md` |
 | **Hábeas corpus**: detención ilegal, agravamiento de las condiciones de detención, desaparición forzada; o los **derechos de la víctima** y del querellante en el proceso penal | `references/penal-leyes-especiales.md` |
@@ -577,10 +594,12 @@ scripts en lugar de calcular**, y transcribir su salida:
 | Actualización e intereses sobre un crédito | `scripts/intereses.py` |
 | Regulación de honorarios y aportes **en PBA** | `scripts/honorarios_pba.py`, con la escala de `references/honorarios-pba.md` |
 | Honorarios en la **justicia nacional o federal** | `references/honorarios-nacional.md` para la escala y las etapas, que se aplican leyendo; **no hay calculadora de regulación** |
-| Pesos ↔ UMA a una fecha (art. 51: la de la resolución y la del pago) | `scripts/uma_csjn.py --fecha AAAA-MM-DD` — **se planta** mientras `datos/uma-csjn.csv` no tenga valores, y ahí el régimen se explica sin dar número |
+| Pesos ↔ UMA **nacional** a una fecha (art. 51: la de la resolución y la del pago) | `scripts/uma_csjn.py --fecha AAAA-MM-DD` — cargada desde el 01/10/2024; antes **se planta** y no extrapola |
+| Pesos ↔ UMA **de la Ciudad**, para contrastar los mínimos en UMA de la Ley 5.134 | `scripts/uma_caba.py --fecha AAAA-MM-DD` — **otra unidad y otra ley**; cargada desde el 01/08/2026 y antes se planta, porque la consulta oficial publica un solo valor |
 | Honorarios en **otra provincia** | Su ley arancelaria local, que **no está cargada**. Decirlo y no calcular con la Ley 14.967 ni con la 27.423 |
 | Diagnóstico: repo, perfil, datos cargados y vencidos | `scripts/estado.py` |
 | Perfil de trabajo del usuario | `scripts/perfil.py` |
+| **Revisar los marcadores de la respuesta antes de entregarla** | `scripts/verificar_respuesta.py respuesta.md` — mide la FORMA, no si correspondía emitirlos: su verde no dice que la respuesta esté bien |
 
 Los scripts **no traen montos**: piden como entrada los valores que la sección 2 prohíbe
 citar de memoria (tope del art. 245, valor del jus, índices) y devuelven el marcador

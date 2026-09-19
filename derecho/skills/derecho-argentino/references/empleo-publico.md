@@ -46,9 +46,17 @@ que comprende exclusivamente servicios **transitorios o estacionales** no inclui
 funciones del régimen de carrera y que no puedan cubrirse con planta permanente. Es la figura que
 se usa de hecho para relaciones prolongadas, y de ahí sale buena parte de la litigiosidad.
 
-**Reestructuración (art. 11):** el personal con estabilidad afectado por supresión de órganos o
-funciones, o por reducción de dotación, entra en el régimen que ese artículo prevé. No es un
-despido y no se indemniza como tal.
+**Reestructuración (art. 11, texto art. 52 de la Ley 27.742, B.O. 08/07/2024):** el personal con
+estabilidad afectado por supresión de órganos o funciones, o por reducción de dotación —esto
+último **conforme informe fundado del órgano competente** sobre la dotación óptima— queda
+**automáticamente en disponibilidad hasta doce meses**, durante los cuales debe recibir la
+capacitación que se le imparta o desarrollar tareas en servicios tercerizados del Estado.
+Cumplido el término sin nueva relación de trabajo **queda automáticamente desvinculado**, con
+derecho a una indemnización de **un mes de sueldo por año de servicio o fracción mayor de tres
+meses** sobre la mejor remuneración mensual, normal y habitual del último año, salvo mejor derecho
+del convenio colectivo. **No es un despido y no se rige por el art. 245 LCT**, aunque la fórmula
+se le parezca; el artículo es de aplicación supletoria al personal con estabilidad propia de
+estatutos especiales o convenios.
 
 ### 49.3.1 El contratado en relaciones prolongadas — "Ramos", y hasta dónde llega
 
@@ -109,10 +117,17 @@ renuncia aceptada o vencimiento del plazo, y las demás que el artículo detalla
 corridos** de presentada si antes no fue aceptada. Y su aceptación **puede dejarse en suspenso** en
 los supuestos que el artículo contempla — típicamente si hay sumario en trámite.
 
-**Cesantía (art. 32):** entre sus causales, **inasistencias injustificadas que excedan de cinco
-días discontinuos en los doce meses anteriores** y **abandono de servicio**, que se considera
-consumado con **más de tres inasistencias continuas** sin causa y previa intimación en los términos
-del artículo.
+**Cesantía (art. 32, texto art. 59 de la Ley 27.742):** entre sus causales, **inasistencias
+injustificadas que excedan de cinco días discontinuos en los doce meses anteriores** y **abandono
+de servicio**, que se considera consumado con **más de tres inasistencias continuas** sin causa y
+previa intimación en los términos del artículo.
+
+> **La Ley 27.742 sustituyó diez artículos de la Ley 25.164** —los arts. 11, 12, 14, 18, 20, 24,
+> 31, 32, 33 y 37, con **vigencia desde el 09/07/2024**—, y ahí está buena parte de lo que este
+> módulo desarrolla: la disponibilidad, los deberes y prohibiciones, las causales de cesantía y
+> las de exoneración. **Para un hecho anterior rige el texto viejo, que el consolidado no trae**,
+> y toda doctrina previa a 2024 sobre el régimen disciplinario se leyó sobre otro articulado.
+> `[NORMA DESACTUALIZADA: arts. 11, 12, 14, 18, 20, 24, 31, 32, 33 y 37 de la Ley 25.164 en su texto anterior a la Ley 27.742 - el consolidado de fuentes/normas/ley-25164.txt trae sólo el vigente desde el 09/07/2024 - para una sanción anterior, ir a los antecedentes normativos de InfoLEG]`
 
 ### 49.5 La impugnación de la sanción: hay opción, y el plazo es de noventa días
 

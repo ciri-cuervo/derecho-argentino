@@ -711,7 +711,7 @@ instituto no exista.
 | `titulos-ejecutivos.md` 50.4.1 | *"abstraccion cambiaria"* | 3 sumarios, los tres del 10/12/2013. El fundante es **"Productos Financieros c/ Ahumada"**, Competencia N° 577. XLVII. **Cargado**. Antes probé *"pagare de consumo"*: cero |
 | `competencia.md` 53 | *"posicion dominante"* | 13 sumarios. Los dos del fondo son de **"Círculo Odontológico de Jujuy"**, Fallos 342:2244, y **NO se cargan**: la doctrina sale de una disidencia -Rosenkrantz y Rosatti- y razona sobre el art. 1 de la Ley 25.156, derogada. La mayoría desestimó por el art. 280 |
 | `proceso-nacional.md` 44 | *"falta de legitimacion manifiesta"* | 2 sumarios, de 1988 y 1976, sobre legitimación para obrar en expropiación. Ninguno da el estándar del art. 347 inc. 3. **Nada cargado** |
-| `penal.md` 24.7 (art. 44) | *"escala penal de la tentativa"* | 3 sumarios, **los tres de "Chukwudi"**, que ya estaba bajado y escrito. Confirma que en la Corte no hay nada más, y que el marcador del art. 44 estaba bien acotado |
+| `penal-parte-general.md` 24.7 (art. 44) | *"escala penal de la tentativa"* | 3 sumarios, **los tres de "Chukwudi"**, que ya estaba bajado y escrito. Confirma que en la Corte no hay nada más, y que el marcador del art. 44 estaba bien acotado |
 | `penal.md` 24.8 (art. 56 bis) | *"salidas transitorias"* | 3 sumarios, los tres de "Germano Karina Dana" -2012, traslado de condenados-. Nada sobre la constitucionalidad del art. 56 bis. Antes probé *"56 bis de la ley 24.660"*: cero. **Nada cargado** |
 | `firma-digital.md` 45 | *"firma digital"* | **Cero.** En el registro de sumarios de la Corte no hay nada de esta materia |
 

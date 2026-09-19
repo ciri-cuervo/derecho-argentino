@@ -18,7 +18,7 @@ cualquier otra cosa, con los arts. 1092 y 1093 CCyCN y el art. 1 LDC.
 
 **El punto que más se discute es el otro extremo: si hay proveedor profesional.** El art. 1093
 exige actuación **organizada, habitual y lucrativa**. Quien alquila una unidad como complemento
-de ingresos no lo es (ver 6.4). Cuando la contraria invoca el estatuto protectorio, el planteo
+de ingresos no lo es (ver `civil.md` 6.4). Cuando la contraria invoca el estatuto protectorio, el planteo
 prioritario es la ausencia de ese presupuesto, antes que el fondo de la cláusula.
 
 ---
@@ -36,10 +36,22 @@ escrito que la invoque, o una resolución que la exija, está aplicando una norm
 
     [VERIFICAR VIGENCIA: instancia conciliatoria previa en relaciones de consumo - el COPREC fue disuelto por el Decreto 55/2025 desde el 01/02/2025; confirmar que no se creó un reemplazo posterior]
 
-**La Ventanilla Federal Única no la reemplaza.** La Disposición SSDCyLC 890/2025 (B.O.
-19/08/2025) la creó como *"único medio formal para la recepción de los reclamos"*, pero es una
-**mesa de entrada federal que deriva** a la autoridad local competente. No concilia y no es
-requisito de admisibilidad de la demanda.
+**La Ventanilla Federal Única no la reemplaza.** La **Disposición SSDCyLC 890/2025** (B.O.
+19/08/2025), cotejada contra `fuentes/normas/disposicion-890-2025.txt`, la creó en el ámbito de la
+Dirección Nacional de Defensa del Consumidor y Arbitraje del Consumo *"actuando como único medio
+formal para la recepción de los reclamos de los consumidores provenientes de todo el país"* (art.
+1). Pero lo que el art. 2 inc. a le manda hacer con el reclamo es **analizarlo, asignarlo y
+derivarlo** a la jurisdicción que corresponda según el **art. 41 LDC**, articulando con las
+autoridades locales: es una **mesa de entrada federal**, no concilia y **no es requisito de
+admisibilidad de la demanda**.
+
+> **Y el "único medio formal" tiene un límite que está en la misma norma:** el **art. 4 invita a
+> las provincias que aún no se encuentran adheridas a adherir**, así que el régimen alcanza a las
+> adheridas y no desplaza por sí la mesa de entrada de una jurisdicción que no adhirió. Las que sí
+> adhirieron tienen, por el art. 3, **acceso irrestricto** a lo que el consumidor consignó. El
+> art. 5 **derogó la Resolución 274/2021** de la ex Secretaría de Comercio Interior, y el art. 6
+> la puso a regir desde su publicación.
+> `[VERIFICAR VIGENCIA: qué provincias están adheridas a la Ventanilla Federal Única - la Disposición 890/2025 no trae la lista y el art. 4 invita a adherir a las que faltan]`
 
 **En PBA la vía administrativa nunca fue previa obligatoria.** La Ley 13.133 regula la
 denuncia ante la autoridad provincial y ante las OMIC municipales —que el art. 81 inc. e

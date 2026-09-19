@@ -11,11 +11,14 @@ cita inventada y bastante más difícil de ver leyendo.
 | `plazos.py` | Vencimiento en días hábiles judiciales, corridos, meses o años |
 | `intereses.py` | Actualización por índice más interés puro, o tasa nominal |
 | `honorarios_pba.py` | Regulación de honorarios y aportes bajo la Ley 14.967 |
-| `uma_csjn.py` | Valor de la UMA y conversión pesos ↔ UMA, art. 51 de la Ley 27.423 |
+| `uma_csjn.py` | Valor de la UMA **nacional** y conversión pesos ↔ UMA, art. 51 de la Ley 27.423 |
+| `uma_caba.py` | Valor de la UMA **de la Ciudad** y conversión, art. 20 de la Ley 5.134. Otra unidad y otra ley que la de `uma_csjn.py` |
 | `configurar.py` | Deja fija la ruta al repo en esta máquina, una sola vez |
 | `estado.py` | Diagnóstico: qué encontró, qué datos hay cargados y qué quedó vencido |
 | `perfil.py` | Lee y escribe el perfil de trabajo de quien consulta |
+| `verificar_respuesta.py` | Revisa una respuesta ya escrita: que sus marcadores sean del vocabulario y estén verbatim. Mide la FORMA, no si correspondía emitirlos |
 | `_raiz.py` | No se corre solo: resuelve dónde está el repo para todos los demás |
+| `_comun_tests.py` | No se corre solo: la raíz del checkout, el plantón fuera de él y las clases de letras que comparten las seis suites |
 
 ## Ninguna ruta hardcodeada
 
@@ -58,8 +61,9 @@ Los marcadores que devuelven son canónicos: se copian tal cual al escrito, sin 
 
 | Archivo | Lo usa | Estado |
 | --- | --- | --- |
-| `derecho/fuentes/datos/jus-scba.csv` | `honorarios_pba.py` | 6 períodos: 1/2026 a 8/2026 |
-| `derecho/fuentes/datos/uma-csjn.csv` | `uma_csjn.py` | Sin valores: la consulta oficial es un formulario y se carga a mano |
+| `derecho/fuentes/datos/jus-scba.csv` | `honorarios_pba.py` | 23 períodos: 1/2024 a 8/2026 |
+| `derecho/fuentes/datos/uma-csjn.csv` | `uma_csjn.py` | 22 vigencias: 10/2024 a 7/2026. No hay descargador: la consulta oficial es un formulario y se carga a mano |
+| `derecho/fuentes/datos/uma-caba.csv` | `uma_caba.py` | 1 vigencia: desde 8/2026. La consulta oficial publica SÓLO el valor vigente, así que no hay serie histórica que cargar |
 | `derecho/fuentes/datos/inhabiles.json` | `plazos.py` | 2026 completo (Nación y PBA); 2027 sólo feria de enero |
 | `derecho/fuentes/datos/serie-ipc.csv` | `intereses.py` | 117 períodos: 2016-12 a 2026-08 |
 | `derecho/fuentes/datos/serie-ripte.csv` | `intereses.py` | 385 períodos: 1994-07 a 2026-07 |
@@ -84,7 +88,21 @@ degradación silenciosa.
 
     python3 -m unittest discover -s . -p 'test_*.py' -v
 
-**281 tests**, sin dependencias externas, en dos grupos.
+**301 tests**, sin dependencias externas, en dos grupos.
+
+**Y repartidos en varios archivos, uno por lo que cada suite afirma.** `test_scripts.py` llegó a 6149
+renglones, **tres veces el corte de `Read`** que este repositorio le impone a los módulos, y ese
+control miraba sólo los `.md`. Lo compartido —la raíz del checkout, el plantón fuera de él— está
+en `_comun_tests.py`:
+
+| Archivo | Qué afirma |
+| --- | --- |
+| `test_calculadoras.py` | Las calculadoras deterministas y sus datos |
+| `test_descargadores.py` | El descargador de normas y su procedencia |
+| `test_fuentes.py` | La capa offline: manifiesto, OCR, series, identidad de cada documento |
+| `test_contenido.py` | El contenido de la skill: SKILL.md, módulos, marcadores, remisiones, ruteo |
+| `test_ortografia_salida.py` | Ortografía y codificación de lo que se muestra |
+| `test_scripts.py` | Plomería del plugin: raíz, perfil, manifiestos y comandos |
 
 **Aritmética.** Cómputo de antigüedad y tramos, cómputo de Pascua y feriados móviles, descuento
 de ferias y asuetos, suma de meses del art. 6 CCyCN, mínimo del art. 22 y monto en jus de la

@@ -317,7 +317,7 @@ tomadas del registro de la Secretaría de Jurisprudencia:
 | **"Buffoni"** | Fallos **337:329** | La exclusión de cobertura acreditada **es oponible** al tercero. Ver 6.2 |
 | **"Santa Coloma"** | Fallos **308:1160** | Raíz constitucional de la reparación; **OCR con sustituciones**, no transcribir sin cotejar |
 | **"Rodríguez Pereyra"** | Fallos **335:2333** | Control de constitucionalidad **de oficio** sobre un régimen indemnizatorio especial |
-| **"Aróstegui"** | Fallos **331:570** | Laboral, pero se cita por el estándar de reparación y el modo de cuantificar. Ver `laboral.md` 5.8 |
+| **"Aróstegui"** | Fallos **331:570** | Laboral, pero se cita por el estándar de reparación y el modo de cuantificar. Ver `laboral-riesgos.md` 5.8 |
 | **"Larrabeiti"** · **"Villamil"** | **330:4592** · **340:345** | La acción resarcitoria por lesa humanidad **prescribía** — hasta la Ley 27.586. Ver 6.3 |
 
 *("Gunther" figuraba en esta lista y **no está descargado ni declarado en el manifiesto**: era
@@ -329,7 +329,9 @@ de Fallos atribuidas a la causa equivocada.
 causalidad (§ 4), eximentes (§ 34) y prescripción (§ 35) — verificado contra el archivo.
 Además, desarrolla institutos que esta tabla no rutea y conviene tener presentes: vicios
 redhibitorios (§ 22), bancos de datos e informes crediticios (§ 23-24), responsabilidad
-profesional y **mala praxis médica** (§ 25-27), daños en las relaciones de familia y
+profesional y **mala praxis médica** (§ 25-27) —para el piso normativo de esa responsabilidad, los
+deberes del art. 19 y las prohibiciones del art. 20 de la Ley 17.132 y la historia clínica de la
+Ley 26.529, está `salud-discapacidad.md` 27.4 bis—, daños en las relaciones de familia y
 responsabilidad de padres, tutores y establecimientos educativos (§ 29-32), daño ambiental
 (§ 33), relación entre acción civil y penal (§ 36), y seguro y fondos de garantía (§ 38).
 

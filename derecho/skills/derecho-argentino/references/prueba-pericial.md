@@ -28,6 +28,7 @@ estima el porcentaje "de referencia".
 | Civil y comercial PBA, familia PBA, consumo en sede judicial PBA | **Arts. 457 a 476 CPCCBA** |
 | Laboral nacional | Ley 18.345 con supletoriedad del CPCCN (arts. 457 a 478) |
 | Civil y comercial nacional | **Arts. 457 a 478 CPCCN** |
+| **Seguridad social federal** | Demanda de conocimiento pleno por las reglas del **sumario del CPCCN** —art. 15 Ley 24.463, texto del art. 3 de la Ley 24.655—, así que la pericia se rige por los **arts. 457 a 478 CPCCN**. Ver `previsional.md` 32.4 ter |
 
 La pregunta de la sección 0 —fecha de la audiencia de vista— decide también acá. No asumir el
 régimen. Si no consta, `[VERIFICAR VIGENCIA: régimen aplicable - fecha de la audiencia de vista no acreditada; la pericia se rige por los arts. 37-38 de la Ley 11.653 o por los arts. 44-46 de la Ley 15.057 según ese dato]`.
@@ -79,7 +80,7 @@ disposiciones de la SCBA.
 
 Un estudio complementario producido por la ART, en una causa regida por la 15.057, es
 inadmisible por texto expreso. Si aparece en el expediente, se señala. Ver también
-`laboral.md` sección 5.8 sobre riesgos del trabajo.
+`laboral-riesgos.md` 5.8 sobre riesgos del trabajo.
 
 ### 20.4 Traslado, explicaciones e impugnación — dónde se pierde el derecho
 
@@ -193,7 +194,7 @@ Qué se controla concretamente en un dictamen:
    **transcribe del relato del actor**. Un dictamen que reproduce la anamnesis como si fuera
    hallazgo objetivo no prueba el hecho.
 4. **Baremo aplicado y su norma**: en incapacidad laboral, cuál, con qué decreto, y si es el
-   vigente al momento que corresponde. Ver `laboral.md` sección 5.8.
+   vigente al momento que corresponde. Ver `laboral-riesgos.md` 5.8.
 5. **Nexo causal**: si el perito lo afirma, si lo funda, y si no está excediendo su
    competencia técnica para resolver una cuestión jurídica.
 6. **Correlación con los puntos de pericia**: puntos no respondidos, y puntos respondidos que
@@ -211,7 +212,7 @@ Qué se controla concretamente en un dictamen:
   Si no está en el expediente, marcador, no convenio supuesto.
 - **Dictámenes de las Comisiones Médicas**: no son pericias judiciales. Su valor y su revisión
   se rigen por el régimen de la Ley 27.348 y la Ley 15.057 en PBA, no por los arts. 457 y ss.
-  CPCCBA. Ver `laboral.md` sección 5.8.
+  CPCCBA. Ver `laboral-riesgos.md` 5.8.
 - **Pericia psicológica y daño moral**: el dictamen puede acreditar el daño psíquico como
   incapacidad; no cuantifica el daño moral, que es facultad judicial (art. 1741 CCyCN, placeres
   compensatorios). Ver `civil.md`.

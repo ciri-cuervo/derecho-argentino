@@ -9,7 +9,7 @@
 # Derecho argentino · skill para agentes de IA
 
 <p align="center">
-  <a href="CHANGELOG.md"><img src="assets/marca/chapa-version.png" width="106" height="32" alt="Versión 1.2.0"></a>
+  <a href="CHANGELOG.md"><img src="assets/marca/chapa-version.png" width="106" height="32" alt="Versión 1.3.0"></a>
   <a href="LICENCIAS.md"><img src="assets/marca/chapa-licencia.png" width="168" height="32" alt="Licencias: contenido CC BY-SA 4.0, código MIT"></a>
   <img src="assets/marca/chapa-python.png" width="135" height="32" alt="Requiere Python 3">
   <img src="assets/marca/chapa-agentes.png" width="172" height="32" alt="Corre en Claude y Codex (ChatGPT)">
@@ -23,7 +23,7 @@ en vez de entregar el dato plausible que nadie va a revisar — que es la forma 
 jurídico hace daño de verdad. Abajo está, punto por punto, con qué lo sostiene.
 
 > [!NOTE]
-> **Está en desarrollo temprano.** Lo que hay son **61 módulos**, y cada uno lleva su propia
+> **Está en desarrollo temprano.** Lo que hay son **68 módulos**, y cada uno lleva su propia
 > **fecha de verificación contra fuente primaria**. Donde todavía no hay módulo auditado, la skill
 > abre el material heredado del repositorio y **avisa cada vez que ese material no pasó
 > auditoría** — no lo presenta como verificado. La cobertura crece módulo por módulo; lo que no
@@ -50,8 +50,8 @@ un juez, un empleado de un tribunal— ni régimen por defecto: en el fuero labo
 conviven la Ley 11.653 y la Ley 15.057 según la fecha de la audiencia de vista, y la skill
 pregunta esa fecha antes de citar un código procesal.
 
-**Fuente primaria offline.** `derecho/fuentes/` guarda el texto consolidado de **217 normas** y
-**90 fallos**, cada uno con su URL, su fecha de descarga y su hash SHA-256. `verificar_normas.py`
+**Fuente primaria offline.** `derecho/fuentes/` guarda el texto consolidado de **236 normas** y
+**93 fallos**, cada uno con su URL, su fecha de descarga y su hash SHA-256. `verificar_normas.py`
 vuelve a pedirlos y sale con código 1 si alguno cambió: es una alarma de reforma legislativa, no
 un backup.
 
@@ -74,7 +74,7 @@ Windows, Linux y macOS. Todos los caminos llevan al mismo lugar y **alcanza con 
 sabés cuál, andá al de la app de Claude: es el más corto y el que menos cosas pide.
 
 > [!IMPORTANT]
-> **La descarga son unos 83 MB** y son casi todo normas y fallos, para que la skill pueda
+> **La descarga son unos 85 MB** y son casi todo normas y fallos, para que la skill pueda
 > trabajar sin conexión. Tarda un rato la primera vez y no hay que volver a hacerlo.
 
 ### Desde la app de escritorio

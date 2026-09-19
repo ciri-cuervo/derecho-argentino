@@ -444,3 +444,83 @@ contenido económico, y en la tabla de la SCBA conviven el jus del art. 9 y el *
 del decreto-ley 8904/77**, que no es el de los abogados. Rutear a `honorarios-nacional.md` por la
 palabra «honorarios» es el otro error que esta fila vigila.
 
+
+### R67 · Tuve un accidente en la obra, la ART me dio el alta y quedé con una limitación en el hombro. ¿Qué hago?
+
+esperado: `laboral-riesgos.md`
+
+**El error que vigila es abrir `laboral.md`** por la palabra «trabajo». El régimen de la Ley
+24.557 salió a módulo propio con su numeración —5.8 y sus subsecciones— porque es otra ley, con
+instancia administrativa previa ante Comisión Médica, baremo propio y su propia jurisprudencia. Y
+el eje no es la extinción del contrato sino la reparación de un daño: acá no hay despido que
+liquidar. Si además lo despidieran, se leen los dos.
+
+### R68 · Avisé que estoy embarazada y a los dos meses me suspendieron sin sueldo por quince días. ¿Pueden?
+
+esperado: `laboral-licencias.md`
+
+Cruza las dos materias del módulo y ninguna es la extinción: la **protección del art. 177 y la
+presunción del art. 178** por un lado, y por el otro **los tres requisitos de validez del art.
+218** —justa causa, plazo fijo y notificación por escrito— con los plazos máximos del art. 220 y
+la impugnación del art. 67. **El error que vigila es abrir `laboral.md`** por «suspensión sin
+sueldo», buscando allá una liquidación que acá no hay: el contrato sigue vivo. Si además la
+despidieran, recién ahí se suman los dos.
+
+### R69 · Mi ex subió fotos íntimas mías a un grupo y las están reenviando. Quiero que las bajen ya.
+
+esperado: `violencia-digital.md`
+
+**El error que vigila es ir directo a `penal.md`.** La Ley 27.736, llamada Olimpia, **no creó
+ningún delito**, sus trece artículos modifican la Ley 26.485, que es de protección integral. Lo que hay
+es la medida del **art. 26 ap. a.9** —orden de baja por auto fundado, con **la URL específica
+identificada**— y el aseguramiento de tráfico y contenido por noventa días que la misma norma
+manda pedir. El segundo error que vigila es contestar sólo con `familia.md`: allá está el proceso,
+acá lo que la modalidad digital agrega. Si además la conducta configura un delito, recién ahí se
+suma el encuadre penal.
+
+### R70 · Compré un departamento y la escritura dice que pagué todo, pero quedó un saldo. ¿Tengo que redargüir de falsedad?
+
+esperado: `notarial.md`
+
+**El error que vigila es mandar a redargüir de falsedad**, que es caro, se plantea por incidente y
+acá no corresponde. El **art. 296** parte la plena fe en dos: que las partes **manifestaron** lo
+que dice la cláusula es un hecho cumplido ante el escribano y sólo cae *"declarado falso en juicio
+civil o criminal"*; **que el precio se haya pagado** es el contenido de esa declaración y cede
+*"hasta que se produzca prueba en contrario"*. El segundo error que vigila es resolverlo con
+`civil.md`: lo que se discute no es el contrato sino el valor del documento. Si además hay que
+ejecutar la obligación de entrega, recién ahí se suma el fuero y su rito.
+
+### R71 · Entraron a mi casa sin orden, encontraron un arma y con eso me imputan. ¿Sirve como prueba?
+
+esperado: `penal-impugnacion.md`, `penal.md`
+
+**El error que vigila es contestar con el art. 18 CN y nada más.** Si hay regla de exclusión
+**escrita** o hay que construirla desde la Constitución y la jurisprudencia depende del código
+que rija: el **CPPF art. 129** y el **CPP PBA art. 211** la traen en el texto y la **Ley 23.984
+no tiene ninguna**, así que el planteo se funda distinto. Por eso la consulta abre dos módulos y
+el orden importa: cuál código rige está en `penal.md` 24.1, y la regla, en `penal-impugnacion.md`
+24.5.1. El segundo error que vigila es ir a `penal-parte-general.md`: lo que se discute no es el
+tipo ni la pena sino si el acto puede valorarse.
+
+### R72 · El hecho fue hace nueve años y recién ahora me citaron a declarar. ¿No prescribió?
+
+esperado: `penal-parte-general.md`
+
+**El error que vigila es abrir `plazos.md`**, que es la prescripción civil y liberatoria: acá el
+plazo sale del **art. 62 CP** y se cuenta contra el **máximo de la pena del delito, con tope de
+doce años y piso de dos**, así que la respuesta no se puede dar sin saber qué se imputa. El
+segundo error que vigila es contestar con el plazo y callar los **cinco actos interruptivos** del
+art. 67 y sus cuatro supuestos de suspensión, que son los que explican por qué una causa de nueve
+años puede seguir viva.
+
+### R73 · Me llegó una cédula de un Juzgado de Paz de Lobos por un reclamo de alimentos. ¿Es ahí?
+
+esperado: `justicia-de-paz-pba.md`
+
+**El error que vigila es contestar que el Juzgado de Paz no tiene familia**, que es verdad en
+veinte partidos del conurbano y falso en todos los demás. El **art. 61 de la Ley 5.827** parte los
+juzgados en dos grupos: el inciso I nombra veinte partidos por su nombre —Lobos no está— y el
+inciso II dice *"los restantes"*, que suman alimentos, tenencia, régimen de visitas, internaciones
+de urgencia y hábeas corpus. El segundo error que vigila es mandar a `familia.md` sin más: allá
+está el fondo del reclamo, acá si ese juzgado es competente. **Y el dato que hay que pedir antes de
+contestar es el partido**, no el departamento judicial.

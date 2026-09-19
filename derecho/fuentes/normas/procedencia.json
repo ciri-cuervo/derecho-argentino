@@ -2061,6 +2061,183 @@
       "sha256_archivo": "8eec45018370d053cf8e121157a922481c6194a3fbb44a70e122dfd012fb97f8",
       "content_type": "text/html",
       "descargado": "2026-09-18T04:30:20-03:00"
+    },
+    "pba-decreto-ley-9020-1978": {
+      "titulo": "Decreto-Ley 9.020/78 PBA - Ley notarial (texto actualizado)",
+      "url": "https://normas.gba.gob.ar/documentos/BoOm3CzB.html",
+      "archivo": "pba-decreto-ley-9020-1978.txt",
+      "sha256_texto": "0006f1e780f2162c50ea3e45565e2d4112355c0cb627905b009dd081476febfd",
+      "sha256_archivo": "7e598cb0659d4ba2a60de4b589f97841ac40eb4bf1d4d13c9e365f87a9e28170",
+      "content_type": "text/html",
+      "descargado": "2026-09-18T15:00:23-03:00"
+    },
+    "caba-ley-404": {
+      "titulo": "Ley 404 CABA - Ley Orgánica Notarial",
+      "url": "https://boletinoficial.buenosaires.gob.ar/normativaba/norma/23139",
+      "archivo": "caba-ley-404.txt",
+      "sha256_texto": "53abeba38cab95bf7248eb378b71cd84c1399f6eaea7add2933aadeaed438497",
+      "sha256_archivo": "089a01cbd2378cdfaf8189b37807c24be1d8465f6b42189e90b6477bb2405bb2",
+      "content_type": "text/html; charset=UTF-8",
+      "descargado": "2026-09-18T15:00:29-03:00"
+    },
+    "ley-12990": {
+      "titulo": "Ley 12.990 - Ejercicio profesional de escribanos",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/45000-49999/45260/texact.htm",
+      "archivo": "ley-12990.txt",
+      "sha256_texto": "a59b11f0d2a5de340cc57ac5dff95d96ae1b94d91d8558fc3ccd08b4fb6b5f73",
+      "sha256_archivo": "57960f0973df24d6847ca063c410a8a05dbedb96e2e54375424febd7a765c2a6",
+      "content_type": "text/html",
+      "descargado": "2026-09-18T15:07:18-03:00"
+    },
+    "ley-26529": {
+      "titulo": "Ley 26.529 - Derechos del paciente en su relación con los profesionales e instituciones de la salud",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/160000-164999/160432/texact.htm",
+      "archivo": "ley-26529.txt",
+      "sha256_texto": "63dd01c59e9310fb1f0d2104d7dbadc6476d30759cfee11820429d62650353c9",
+      "sha256_archivo": "b1bb07f94db17649454117db7f33bf05ae8a0f7602f561ba33733cceae140f5a",
+      "content_type": "text/html",
+      "descargado": "2026-09-18T15:18:30-03:00"
+    },
+    "ley-17132": {
+      "titulo": "Ley 17.132 - Ejercicio de la medicina, odontología y actividades de colaboración",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/15000-19999/19429/texact.htm",
+      "archivo": "ley-17132.txt",
+      "sha256_texto": "3b7c65b73fec4f594cf6112f30750da635ef9968d3dda38781f5e29309cb5d81",
+      "sha256_archivo": "766ec97ace6afa5b1ff53c807f9bd5ffc5cab49767f242a6c90ab275dd2398d1",
+      "content_type": "text/html",
+      "descargado": "2026-09-18T15:18:31-03:00"
+    },
+    "ley-24655": {
+      "titulo": "Ley 24.655 - Justicia Federal de Primera Instancia de la Seguridad Social",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/35000-39999/37836/norma.htm",
+      "archivo": "ley-24655.txt",
+      "sha256_texto": "b8833ae6eecbf9c88bfdc54561f2299b6c9d39996139cd8cc26bc7486e56de28",
+      "sha256_archivo": "150473f7ec049b8a859bbbaa0f89e023a5a3c40efdaae705bd29ad2bcac09c61",
+      "content_type": "text/html",
+      "descargado": "2026-09-18T15:18:31-03:00"
+    },
+    "ley-27260": {
+      "titulo": "Ley 27.260 - Reparación histórica para jubilados y pensionados y Pensión Universal para el Adulto Mayor",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/260000-264999/263691/texact.htm",
+      "archivo": "ley-27260.txt",
+      "sha256_texto": "96dc688822df857bfacf5706f71372dbed41cbfa16ea519291c963e75b2e7eb3",
+      "sha256_archivo": "436c9ce56e7a9a928eb59ca1eba8667660dea2b34b6a79fc38bf82e7e757ac86",
+      "content_type": "text/html",
+      "descargado": "2026-09-18T15:18:31-03:00"
+    },
+    "ley-24463": {
+      "titulo": "Ley 24.463 - Solidaridad previsional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/15000-19999/16102/texact.htm",
+      "archivo": "ley-24463.txt",
+      "sha256_texto": "5ace19efe0b3e74529ada2daa2bb2d5bed347f87825306a536446daa5913eb5d",
+      "sha256_archivo": "c7e50a858538047e3f468eb5e7998db3b5638275afda63bf677a2b340ef72c11",
+      "content_type": "text/html",
+      "descargado": "2026-09-18T15:21:22-03:00"
+    },
+    "ley-14159": {
+      "titulo": "Ley 14.159 - Catastro Nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/225000-229999/227217/texact.htm",
+      "archivo": "ley-14159.txt",
+      "sha256_texto": "b16892feb5367f96b2d64b0986f2127fc28c4477d76b25fa2d55bb011466491f",
+      "sha256_archivo": "751e8d041ab35bede5bcc7955349ede522a38ce416a03c87f134f73f7cde9e98",
+      "content_type": "text/html",
+      "descargado": "2026-09-18T16:06:55-03:00"
+    },
+    "decreto-ley-7771-1956": {
+      "titulo": "Decreto-Ley 7.771/1956 - Tratados de Montevideo de 1940",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/200000-204999/200295/norma.htm",
+      "archivo": "decreto-ley-7771-1956.txt",
+      "sha256_texto": "6448e47ce482877c6c41ec21c8e15b1cc32d3acb3f657d001334121cdfccedc5",
+      "sha256_archivo": "58a11f520d91991c09cb4469b0eb6f84befa2da4392ca46c14b09df46aa3b7e4",
+      "content_type": "text/html",
+      "descargado": "2026-09-18T16:24:33-03:00"
+    },
+    "ley-24669": {
+      "titulo": "Ley 24.669 - Protocolo de Buenos Aires sobre jurisdicción internacional en materia contractual",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/35000-39999/38310/norma.htm",
+      "archivo": "ley-24669.txt",
+      "sha256_texto": "40eb8cdb83bec96158c3d9c786b244b4fe89f21789aa279412168b064e0f2422",
+      "sha256_archivo": "155e019b368fc4245e600be1393e23a415e16dda101bce6e3feab43db9848bdf",
+      "content_type": "text/html",
+      "descargado": "2026-09-18T16:24:37-03:00",
+      "revisado": [
+        {
+          "problema": "parece la ley APROBATORIA y no su contenido: solo 19 artículos y el texto remite a un anexo. Buscar una fuente que transcriba el anexo",
+          "veredicto": "Falso positivo. El archivo trae las dos cosas. El artículo único de la ley aprueba el Protocolo, y el Protocolo viene transcripto a continuación con sus DIECIOCHO artículos, leídos uno por uno el 18/09/2026: el art. 1 fija el ámbito —contratos internacionales civiles o comerciales entre particulares con domicilio o sede en distintos Estados Partes—, el art. 2 las cinco exclusiones, y los arts. 4 y 5 son los de la prórroga, que es para lo que el módulo lo usa. El detector cuenta artículos de la parte dispositiva y ve «anexo»: acá los diecinueve que contó son el artículo de la ley más los dieciocho del Protocolo."
+        }
+      ]
+    },
+    "ley-24488": {
+      "titulo": "Ley 24.488 - Inmunidad jurisdiccional de los Estados extranjeros ante los tribunales argentinos",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/20000-24999/22523/norma.htm",
+      "archivo": "ley-24488.txt",
+      "sha256_texto": "cd5621f6448ddabd6b813ba8dbce3459eb67410e0a044faf06a070132989f9ce",
+      "sha256_archivo": "95def03e2b8a8913765016b31addff83ffd7eb32c73bb6e399b364adf0cf2330",
+      "content_type": "text/html",
+      "descargado": "2026-09-18T16:35:05-03:00"
+    },
+    "ley-27449": {
+      "titulo": "Ley 27.449 - Ley de Arbitraje Comercial Internacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/310000-314999/312719/norma.htm",
+      "archivo": "ley-27449.txt",
+      "sha256_texto": "494cdf2d97a4f99ec7c7ea1a39fc0a559d27b803072966cdaaea8ffb881bfb92",
+      "sha256_archivo": "a01a50f5563650774fd068a25b842e63c6999db63f3b08aba3abcdeb8ecc5018",
+      "content_type": "text/html",
+      "descargado": "2026-09-18T16:35:05-03:00"
+    },
+    "ley-24767": {
+      "titulo": "Ley 24.767 - Cooperación internacional en materia penal",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/40000-44999/41442/norma.htm",
+      "archivo": "ley-24767.txt",
+      "sha256_texto": "02099ada3dd13ab910ce4de452c1c57d37ee300603ff24e443d41bcf957220e1",
+      "sha256_archivo": "e2dbd3b1eb227f2c359ad2a52d5e9886d401ad65297c0e54a8320c0f752aadc3",
+      "content_type": "text/html",
+      "descargado": "2026-09-18T16:35:05-03:00"
+    },
+    "ley-22765": {
+      "titulo": "Ley 22.765 - Convención de Viena sobre los contratos de compraventa internacional de mercaderías",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/190000-194999/192130/norma.htm",
+      "archivo": "ley-22765.txt",
+      "sha256_texto": "8cfbd01ee982d6d5114ac7849f1b672d0becd36fdc18a4daafe1aa5bec3caec4",
+      "sha256_archivo": "993d86b0f0df4c931e7f91cc0e4967435804e495950ebfe0e22820b50b83b737",
+      "content_type": "text/html",
+      "descargado": "2026-09-18T16:35:05-03:00"
+    },
+    "ley-24578": {
+      "titulo": "Ley 24.578 - Protocolo de Las Leñas sobre cooperación y asistencia jurisdiccional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/30000-34999/30207/norma.htm",
+      "archivo": "ley-24578.txt",
+      "sha256_texto": "8fb8cc36dd3dbdc7b3922648b00d2518e47856b8d3b6ae96aef9e2fbdd839b09",
+      "sha256_archivo": "34be9e319f6953df7d347a29b55632608b01f6e5f7033c356293837b9946993e",
+      "content_type": "text/html",
+      "descargado": "2026-09-18T16:35:06-03:00"
+    },
+    "disposicion-890-2025": {
+      "titulo": "Disposición SSDCyLC 890/2025 - Ventanilla Federal Única de Reclamos de Defensa del Consumidor",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/415000-419999/416600/norma.htm",
+      "archivo": "disposicion-890-2025.txt",
+      "sha256_texto": "13d0c8856de3398746a6b1480600c092a1c8b7e626982df345a24ba58a43dc1e",
+      "sha256_archivo": "10db0ff25405e72843ad69340fc3e0bd05370678dae18bcebc12f110cecb60c3",
+      "content_type": "text/html",
+      "descargado": "2026-09-18T20:43:59-03:00"
+    },
+    "decreto-366-2025": {
+      "titulo": "Decreto de Necesidad y Urgencia 366/2025 - reforma de la Ley de Migraciones 25.871",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/410000-414999/413297/norma.htm",
+      "archivo": "decreto-366-2025.txt",
+      "sha256_texto": "5e0ffcbb891ec4a716ab58fcce67c5c4787d6bf94216144211ab83d7ed9b7398",
+      "sha256_archivo": "f3ed2ae3f4fbd0ed482554b08711447ed2c172ebc6c779b76f769183302411a2",
+      "content_type": "text/html",
+      "descargado": "2026-09-18T22:24:55-03:00"
+    },
+    "pba-decreto-ley-8031-1973": {
+      "titulo": "Decreto-Ley 8.031/73 PBA - Código de Faltas (texto actualizado)",
+      "url": "https://normas.gba.gob.ar/documentos/ZBOPDhkV.html",
+      "archivo": "pba-decreto-ley-8031-1973.txt",
+      "sha256_texto": "a6524c8934d4e3d8b72a8195e8ac23b3fc3dd1f3b2d6bb44eea68d4186389054",
+      "sha256_archivo": "f78a8bbb457ebfcda87ea426f732877dc248cad75be0e79d7e480c13a8227b6c",
+      "content_type": "text/html",
+      "descargado": "2026-09-18T23:26:58-03:00"
     }
   }
 }

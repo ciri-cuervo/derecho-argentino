@@ -197,6 +197,10 @@ def main(argv: list[str]) -> int:
         print("  solo que nadie lo miro. Leer y registrar en lecturas-ocr.json:")
         for s in pendientes:
             print(f"    {s}")
+    for renglon in _veredictos.aviso_de_muertos(
+            len(_veredictos.muertos(leidas, {x.stem for x in pdfs})), len(leidas),
+            "revisar a mano: una lectura vale por su fecha y no se purga sola"):
+        print(renglon)
     return 0
 
 

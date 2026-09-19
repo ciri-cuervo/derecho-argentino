@@ -478,9 +478,10 @@ se verifica antes de usarlo.
 | La etapa previa ante el Consejero se controla siempre, salvo violencia | **En alimentos es optativa** desde que el art. 14 de la Ley 15.513 reformó el art. 828 CPCCBA. Ver 18.3 |
 | El Índice de Crianza del INDEC es *"el estándar de referencia predominante"* y omitirlo *"expone la cuota a licuación"* | El último párrafo del art. 641 CPCCBA dice **"podrá"**: es facultativo, es **uno entre otros** elementos de mérito y está **limitado a alimentos de menores de edad** (la canasta cubre hasta 12 años inclusive). No es un piso legal ni un módulo automático. Ver 18.5 |
 
-**Y un puntero que falta:** la cautelar digital de la **Ley 27.736 "Olimpia"** (art. 26 ap. a.8
-y a.9: orden de baja de contenido con URL y aseguramiento por 90 días) está desarrollada en
-`kb/perfiles/familia-CLAUDE.md` § Violencia familiar; 18.6 solo la roza.
+**Y el puntero que faltaba ya está escrito:** la cautelar digital de la **Ley 27.736 "Olimpia"**
+—art. 26 ap. a.8 y a.9, orden de baja de contenido con URL y aseguramiento por noventa días— está
+en `violencia-digital.md` 59.3, cotejada contra el texto. Acá queda el proceso; allá, lo que la
+modalidad digital agrega.
 
 Texto de la Ley 27.736 en `fuentes/normas/ley-27736.txt`; el articulado vigente del art. 26 se lee en el texto actualizado de la 26.485 (`fuentes/normas/ley-26485.txt`).
 

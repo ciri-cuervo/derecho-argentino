@@ -54,6 +54,24 @@
       "nota": "Texto consolidado al 29/02/2024 por Ley 6.764. Rige el fuero Penal, Contravencional y de Faltas de CABA en las competencias penales transferidas."
     },
     {
+      "jurisdiccion": "CABA",
+      "prioridad": 2,
+      "slug": "caba-ley-404",
+      "titulo": "Ley 404 CABA - Ley Orgánica Notarial",
+      "nota": "Regula la función notarial en la Ciudad desde 2000. El Boletín Oficial porteño sirve el articulado completo; el digesto publica el texto consolidado sólo en PDF.",
+      "url": "https://boletinoficial.buenosaires.gob.ar/normativaba/norma/23139",
+      "url_alternativa": "https://digesto.buenosaires.gob.ar/buscador/ver/4678"
+    },
+    {
+      "jurisdiccion": "Nacional",
+      "prioridad": 2,
+      "slug": "ley-12990",
+      "titulo": "Ley 12.990 - Ejercicio profesional de escribanos",
+      "nota": "Organizaba el notariado de la Capital Federal y los territorios nacionales desde 1947. El art. 180 de la Ley 404 la dejó sin efecto SÓLO en el ámbito de la Ciudad: se baja para poder decir qué queda de ella fuera de ese ámbito, no para aplicarla en CABA.",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/45000-49999/45260/texact.htm",
+      "url_alternativa": "https://www.argentina.gob.ar/normativa/nacional/ley-12990-45260"
+    },
+    {
       "slug": "caba-ley-451",
       "titulo": "Ley 451 CABA - Régimen de Faltas",
       "jurisdiccion": "CABA",
@@ -1421,6 +1439,15 @@
       "nota": "CUIDADO AL TRANSCRIBIR EL ANEXO V. El art. 2 del Anexo V termina con la frase 'En Nación va de 150 a 500', que NO es texto normativo: es una anotación editorial de quien digitalizó la norma -sin tilde, y con una construcción coloquial que no aparece en ningún otro de los 40 artículos-. Es el tercer tipo de defecto de fuente, el de las sustituciones e inserciones que dejan texto plausible, y ninguna medida automática lo detecta. Leído el 14/09/2026; es la única ocurrencia en las 3.753 líneas."
     },
     {
+      "jurisdiccion": "PBA",
+      "prioridad": 2,
+      "slug": "pba-decreto-ley-9020-1978",
+      "titulo": "Decreto-Ley 9.020/78 PBA - Ley notarial (texto actualizado)",
+      "nota": "Ley orgánica del notariado bonaerense: registro, escribano titular y adscripto, protocolo y deberes. Su reglamento es el Decreto 3.887/1998, que no está bajado.",
+      "url": "https://normas.gba.gob.ar/documentos/BoOm3CzB.html",
+      "url_alternativa": "https://normas.gba.gob.ar/ar-b/decreto-ley/1978/9020/2318"
+    },
+    {
       "slug": "pba-decreto-ley-9650-1980",
       "titulo": "Decreto-Ley 9650/80 PBA - Régimen previsional del Instituto de Previsión Social (texto actualizado)",
       "jurisdiccion": "PBA",
@@ -1775,6 +1802,149 @@
       "prioridad": 2,
       "url": "https://digesto.scba.gov.ar/VerTextoCompleto.aspx?idFallo=13901",
       "nota": "Digesto de la SCBA, idFallo 13901. Alcance: Vigente, 2/8/2023. Es la última modificatoria del régimen del RDE y su VISTO da la cadena completa: el Ac. 3989 tiene t.o. por Res. Pres. SPL 74/20 y fue ratificado por la Ley 15.230."
+    },
+    {
+      "jurisdiccion": "Nacional",
+      "prioridad": 1,
+      "slug": "ley-26529",
+      "titulo": "Ley 26.529 - Derechos del paciente en su relación con los profesionales e instituciones de la salud",
+      "nota": "Historia clínica, consentimiento informado y autonomía de la voluntad. Texto con las reformas de las Leyes 26.742 y 26.812 señaladas en el propio documento.",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/160000-164999/160432/texact.htm",
+      "url_alternativa": "https://www.argentina.gob.ar/normativa/nacional/norma-160432/actualizacion"
+    },
+    {
+      "jurisdiccion": "Nacional",
+      "prioridad": 2,
+      "slug": "ley-17132",
+      "titulo": "Ley 17.132 - Ejercicio de la medicina, odontología y actividades de colaboración",
+      "nota": "Obligaciones del art. 19 y las veinticinco prohibiciones del art. 20. Es el piso de deberes contra el que se mide la praxis médica.",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/15000-19999/19429/texact.htm",
+      "url_alternativa": "https://www.argentina.gob.ar/normativa/nacional/ley-17132-19429"
+    },
+    {
+      "jurisdiccion": "Nacional",
+      "prioridad": 2,
+      "slug": "ley-24655",
+      "titulo": "Ley 24.655 - Justicia Federal de Primera Instancia de la Seguridad Social",
+      "nota": "Crea el fuero y fija su competencia en el art. 2. InfoLEG no publica texto consolidado de esta ley: la URL es el texto original, y por eso la fuente se vuelve a mirar antes de citar una reforma.",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/35000-39999/37836/norma.htm",
+      "url_alternativa": "https://www.argentina.gob.ar/normativa/nacional/ley-24655-37836"
+    },
+    {
+      "jurisdiccion": "Nacional",
+      "prioridad": 2,
+      "slug": "ley-27260",
+      "titulo": "Ley 27.260 - Reparación histórica para jubilados y pensionados y Pensión Universal para el Adulto Mayor",
+      "nota": "El Título III instituye la PUAM en su art. 13: prestación vitalicia y no contributiva desde los 65 años. No se confunde con la jubilación por edad avanzada.",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/260000-264999/263691/texact.htm",
+      "url_alternativa": "https://www.argentina.gob.ar/normativa/nacional/ley-27260-2016-263691"
+    },
+    {
+      "jurisdiccion": "Nacional",
+      "prioridad": 1,
+      "slug": "ley-24463",
+      "titulo": "Ley 24.463 - Solidaridad previsional",
+      "nota": "Su art. 15, en el texto que le dio el art. 3 de la Ley 24.655, fija cómo se impugna una resolución de ANSES y dice que no hace falta recurso administrativo previo para habilitar la instancia.",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/15000-19999/16102/texact.htm",
+      "url_alternativa": "https://www.argentina.gob.ar/normativa/nacional/ley-24463-16102/actualizacion"
+    },
+    {
+      "jurisdiccion": "Nacional",
+      "prioridad": 2,
+      "slug": "ley-14159",
+      "titulo": "Ley 14.159 - Catastro Nacional",
+      "nota": "Su art. 24, texto del Decreto-Ley 5.756/58, fija las reglas de prueba del juicio de usucapión: no basta la testimonial sola y se considera especialmente el pago de impuestos por el poseedor.",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/225000-229999/227217/texact.htm",
+      "url_alternativa": "https://www.argentina.gob.ar/normativa/nacional/ley-14159-227217"
+    },
+    {
+      "jurisdiccion": "Nacional",
+      "prioridad": 1,
+      "slug": "decreto-ley-7771-1956",
+      "titulo": "Decreto-Ley 7.771/1956 - Tratados de Montevideo de 1940",
+      "nota": "Ratifica los cinco instrumentos de Montevideo del 19/03/1940 y el documento trae su articulado completo: Derecho Civil Internacional —arts. 1 a 64—, Derecho Comercial Terrestre Internacional, Navegación Comercial Internacional, Derecho Procesal Internacional y el Protocolo Adicional. Es la fuente convencional que el art. 2594 CCyCN manda mirar antes que el Código.",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/200000-204999/200295/norma.htm",
+      "url_alternativa": "https://www.argentina.gob.ar/normativa/nacional/decreto_ley-7771-1956-200295"
+    },
+    {
+      "jurisdiccion": "Nacional",
+      "prioridad": 1,
+      "slug": "ley-24669",
+      "titulo": "Ley 24.669 - Protocolo de Buenos Aires sobre jurisdicción internacional en materia contractual",
+      "nota": "Aprueba el Protocolo del Mercosur firmado el 05/08/1994, de dieciocho artículos. Decide la prórroga de jurisdicción cuando las partes tienen domicilio o sede en Estados del Mercosur, antes que el art. 2605 CCyCN.",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/35000-39999/38310/norma.htm",
+      "url_alternativa": "https://www.argentina.gob.ar/normativa/nacional/ley-24669-38310/texto"
+    },
+    {
+      "jurisdiccion": "Nacional",
+      "prioridad": 1,
+      "slug": "ley-24488",
+      "titulo": "Ley 24.488 - Inmunidad jurisdiccional de los Estados extranjeros ante los tribunales argentinos",
+      "nota": "Fija la inmunidad como regla y sus excepciones. La del inciso laboral es la que más aparece: demandas de nacionales o residentes por contratos celebrados en la República.",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/20000-24999/22523/norma.htm",
+      "url_alternativa": "https://www.argentina.gob.ar/normativa/nacional/ley-24488-22523"
+    },
+    {
+      "jurisdiccion": "Nacional",
+      "prioridad": 1,
+      "slug": "ley-27449",
+      "titulo": "Ley 27.449 - Ley de Arbitraje Comercial Internacional",
+      "nota": "Basada en la ley modelo de la CNUDMI. Rige el arbitraje comercial internacional con sede en la República y su art. 107 derogó el art. 519 bis del CPCCN.",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/310000-314999/312719/norma.htm",
+      "url_alternativa": "https://www.argentina.gob.ar/normativa/nacional/ley-27449-312719"
+    },
+    {
+      "jurisdiccion": "Nacional",
+      "prioridad": 1,
+      "slug": "ley-24767",
+      "titulo": "Ley 24.767 - Cooperación internacional en materia penal",
+      "nota": "Extradición, asistencia en la investigación y el juzgamiento, y cumplimiento de condenas. Es el régimen subsidiario: rige en defecto de tratado con el Estado requirente.",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/40000-44999/41442/norma.htm",
+      "url_alternativa": "https://www.argentina.gob.ar/normativa/nacional/ley-24767-41442"
+    },
+    {
+      "jurisdiccion": "Nacional",
+      "prioridad": 1,
+      "slug": "ley-22765",
+      "titulo": "Ley 22.765 - Convención de Viena sobre los contratos de compraventa internacional de mercaderías",
+      "nota": "Aprueba la Convención de 1980. Argentina formuló la declaración de los arts. 12 y 96 sobre la forma escrita, que hay que tener presente antes de invocar la libertad de forma.",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/190000-194999/192130/norma.htm",
+      "url_alternativa": "https://www.argentina.gob.ar/normativa/nacional/norma-192130"
+    },
+    {
+      "jurisdiccion": "Nacional",
+      "prioridad": 1,
+      "slug": "ley-24578",
+      "titulo": "Ley 24.578 - Protocolo de Las Leñas sobre cooperación y asistencia jurisdiccional",
+      "nota": "Mercosur, 27/06/1992: materia civil, comercial, laboral y administrativa. Trae autoridad central, exención de legalización y un capítulo de reconocimiento y ejecución de sentencias y laudos.",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/30000-34999/30207/norma.htm",
+      "url_alternativa": "https://www.argentina.gob.ar/normativa/nacional/ley-24578-30207/texto"
+    },
+    {
+      "jurisdiccion": "Nacional",
+      "prioridad": 2,
+      "slug": "disposicion-890-2025",
+      "titulo": "Disposición SSDCyLC 890/2025 - Ventanilla Federal Única de Reclamos de Defensa del Consumidor",
+      "nota": "B.O. 19/08/2025. Crea la ventanilla en el ámbito de la Dirección Nacional de Defensa del Consumidor y Arbitraje del Consumo, como único medio formal de recepción de reclamos. Es una mesa de entrada que deriva a la autoridad local competente: no concilia ni es requisito de admisibilidad de la demanda.",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/415000-419999/416600/norma.htm",
+      "url_alternativa": "https://www.argentina.gob.ar/normativa/nacional/disposici%C3%B3n-890-2025-416600"
+    },
+    {
+      "jurisdiccion": "Nacional",
+      "prioridad": 2,
+      "slug": "decreto-366-2025",
+      "titulo": "Decreto de Necesidad y Urgencia 366/2025 - reforma de la Ley de Migraciones 25.871",
+      "nota": "B.O. 29/05/2025, vigencia desde la publicación. Sustituye treinta y un artículos de la Ley 25.871 -entre ellos los arts. 8, 29, 61, 62, 70 y 86- y deroga otros tres. Es un DNU que reforma una ley del Congreso: su trámite ante la Comisión Bicameral del art. 99 inc. 3 CN no está verificado en este repositorio.",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/410000-414999/413297/norma.htm",
+      "url_alternativa": "https://www.argentina.gob.ar/normativa/nacional/decreto-366-2025-413297"
+    },
+    {
+      "jurisdiccion": "pba",
+      "prioridad": 2,
+      "slug": "pba-decreto-ley-8031-1973",
+      "titulo": "Decreto-Ley 8.031/73 PBA - Código de Faltas (texto actualizado)",
+      "nota": "Texto ordenado por Decreto 181/87 y consolidado hasta la Ley 15.406. Es la materia de faltas que el art. 61 inc. 4 de la Ley 5.827 le da a los Juzgados de Paz letrados. Vigente con modificaciones: la Ley 15.041 derogó varios artículos, no el cuerpo.",
+      "url": "https://normas.gba.gob.ar/documentos/ZBOPDhkV.html"
     }
   ],
   "_ficha_vs_texto": "En InfoLEG, verNorma.do?id=N devuelve la FICHA de la norma, no el texto. El texto está en anexos/<rango>/<id>/norma.htm (original) o texact.htm (actualizado con modificatorias). Preferir siempre texact.htm cuando exista. El descargador avisa si lo que bajó parece una ficha.",

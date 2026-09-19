@@ -71,7 +71,7 @@ bajado; los **valores** se cargan a mano desde la consulta oficial, porque esa c
 formulario y no una tabla y por eso no hay descargador. Mientras esté vacío, este módulo explica
 el régimen y **no entrega números** — y `uma_csjn.py` se planta en vez de devolver uno.
 
-`[VERIFICAR MONTO ACTUALIZADO: valor de la UMA - lo publica la CSJN por resolución de su Secretaría General de Administración, art. 19 Ley 27.423, y se consulta en csjn.gov.ar/transparencia/uma. El archivo fuentes/datos/uma-csjn.csv está sin valores, así que el valor no se toma de memoria ni se estima: se pide o se marca]`
+`[VERIFICAR MONTO ACTUALIZADO: valor de la UMA - lo publica la CSJN por resolución de su Secretaría General de Administración, art. 19 Ley 27.423, y se consulta en csjn.gov.ar/transparencia/uma. El archivo fuentes/datos/uma-csjn.csv trae las vigencias desde el 01/10/2024, leídas de las resoluciones de la SGA: el valor sale de correr scripts/uma_csjn.py --fecha, nunca de memoria. Para una fecha anterior a esa, el script se planta y el valor se pide o se marca]`
 
 ### 37.3 La regla que anula una regulación mal hecha (art. 51)
 

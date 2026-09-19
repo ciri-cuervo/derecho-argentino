@@ -83,6 +83,57 @@ es la precisión del art. 1898 que suele perderse.
 Esto se cruza con la prescripción de la acción de reducción en sucesiones —`sucesiones.md` 38.6—,
 donde el art. 2459 fija diez años **de posesión** contra el donatario.
 
+#### 45.3 bis Interversión del título — el recaudo estricto, y el contexto que lo relaja
+
+**Precedente leído.** **SCBA, C. 125.685, *"G. E. G. contra M. M. C. s/ Liquidación de sociedad
+conyugal"*, 22/05/2025**, voto de Kogan. Texto completo bajado desde JUBA. Es de la Corte
+provincial: en PBA es doctrina legal invocable por el art. 279 del CPCCBA, a diferencia de un fallo
+de Cámara.
+
+**La regla, primero.** Nadie cambia por sí mismo la causa de su posesión. La interversión *"sólo
+ocurre cuando se manifiesta por actos exteriores la intención de privar al restante poseedor de
+disponer de la cosa y cuando esos actos producen ese efecto"*, y se configura **mediando
+conformidad del propietario o actos exteriores suficientes de contradicción de su derecho**. El
+criterio de apreciación es **estricto y riguroso**, y más todavía cuando se opone a contradictores
+con título o cuando la ocupación nació de razones de solidaridad familiar o afecto.
+
+**Y acá está lo que el fallo agrega.** En una controversia **intrafamiliar** —ex cónyuges, bien
+ganancial, la mujer que quedó en la vivienda con los hijos treinta años— el tribunal sostiene que
+*"no se trata de cualquier prescripción adquisitiva, ni siquiera de un caso clásico de usucapión
+entre condóminos"*, y que **se relaja la exigencia de demostrar el momento puntual de la
+interversión** cuando el titular registral *"abdicó de tal condición, voluntariamente"*. Lo dice
+sin ambages: *"no pueden exigirse mayores connotaciones para un acto de interversión, respecto de
+quien se desinteresó totalmente del bien y de su familia"*.
+
+**Cómo se arma el hecho, que es lo que decide.** El **art. 24 de la Ley 14.159**, texto del
+Decreto-Ley 5.756/58, fija las reglas de prueba del juicio de usucapión y **tres de ellas se
+olvidan**:
+
+- **inc. a**: el juicio es **contencioso** y se entiende con quien resulte titular según el
+  Catastro, el Registro de la Propiedad *"o cualquier otro registro oficial del lugar del
+  inmueble"*, **y esa certificación se acompaña con la demanda**;
+- **inc. b**: se acompaña **plano de mensura** suscripto por profesional autorizado y aprobado por
+  la oficina técnica, si la hubiere en la jurisdicción;
+- **inc. c**: se admite toda clase de prueba, **pero el fallo no puede basarse exclusivamente en la
+  testimonial**, y *"será especialmente considerado el pago, por parte del poseedor, de impuestos o
+  tasas que graven el inmueble, aunque los recibos no figuren a nombre de quien invoca la
+  posesión"*.
+
+Ese inc. c es el que el fallo usa, junto con la titularidad de los servicios, como exteriorización
+del **animus domini**.
+
+> **Dos cautelas antes de usarlo.** Primero, **el voto que decide no es unánime en su fundamento**:
+> Soria llega al mismo rechazo por una vía distinta —hubo **conformidad del titular registral**,
+> que es una de las dos puertas clásicas—, sin apoyarse en el relajamiento. Un escrito que sólo
+> invoque la perspectiva de género se apoya en el voto de Kogan, no en toda la Corte. Segundo,
+> **esto no traslada la doctrina a un caso entre extraños**: el fallo separa expresamente los dos
+> supuestos.
+
+Para el encuadre de género y la Ley 26.485, `familia.md` 18; para la liquidación del régimen de
+comunidad, ese mismo módulo.
+
+`[VERIFICAR PRECEDENTE: SCBA C. 125.685, 22/05/2025 - confirmar que no haya doctrina posterior de la propia Corte sobre interversión del título en contexto intrafamiliar]`
+
 ### 45.4 Propiedad horizontal
 
 **Concepto (art. 2037):** derecho real sobre inmueble propio con facultades sobre **partes
@@ -144,7 +195,39 @@ quién se dirige la demanda cuando el ocupante dice tener la cosa por otro.
   `proceso-nacional.md` 44 o `sede-judicial-pba.md`.
 - **No calcula.** No hay calculadora de esta materia.
 
-`[INSERTAR FALLO VERIFICADO: no hay precedente bajado sobre derechos reales - en particular sobre la oponibilidad del boleto de compraventa del art. 1170 CCyCN y sobre la legitimación pasiva del art. 2255 - la doctrina provincial disponible es del art. 1185 bis del Código Civil derogado y NO se traslada sin más, porque el art. 1170 agregó requisitos - aportar carátula, sala, expediente, fuero y año]`
+#### 45.7 bis El boleto de compraventa frente a terceros — 1170 y 1171 no son lo mismo
+
+**Precedente leído.** *Simonet Guillermo Luis s/ Incidente concurso/quiebra*, **Cámara Segunda de
+Apelación en lo Civil y Comercial de La Plata, Sala Segunda**, causa **133134-2**, registrada el
+**05/12/2023**. Bajado en `fuentes/jurisprudencia/`.
+
+**Los dos artículos resuelven conflictos distintos, y la diferencia decide qué hay que probar.**
+
+| | **Art. 1170** — contra quien trabó una cautelar | **Art. 1171** — contra el concurso o la quiebra del vendedor |
+| --- | --- | --- |
+| Buena fe del comprador | Sí | Sí |
+| Pago mínimo | **25% del precio, antes de la traba de la cautelar** | **25% del precio** |
+| Fecha cierta del boleto | Sí, inc. c | Sí |
+| **Publicidad suficiente, registral o posesoria** | **Sí, inc. d** | **El texto NO la exige** |
+| Eslabonamiento | Contratar con el titular registral, o subrogarse por *"un perfecto eslabonamiento con los adquirentes sucesivos"* | — |
+
+**Y ahí está el holding.** La Cámara sostiene que, aunque el art. 1171 **no** pide publicidad,
+*"una interpretación sistemática de la norma requiere la exigencia de publicidad posesoria"*. O sea
+que en la práctica **el recaudo se exige en los dos casos**, y un escrito que se apoye en la letra
+del 1171 para saltearlo tiene el precedente en contra.
+
+**Sobre la fecha cierta**, el mismo fallo mantiene la doctrina de la SCBA en la causa **C. 97.118,
+«Flamini»**, del 04/05/2011: la *"certidumbre fáctica"* es **un arbitrio de excepción** que permite
+sortear la ausencia de fecha cierta. Excepción, no regla.
+
+> **La advertencia que el módulo ya traía sigue en pie, y este fallo la confirma:** la doctrina
+> provincial anterior es del **art. 1185 bis del Código Civil derogado** y **no se traslada sin
+> más**, porque el art. 1170 agregó requisitos que aquél no tenía —el eslabonamiento y la
+> publicidad—. Un precedente de 2013 sobre 1185 bis no contesta una consulta de hoy.
+
+`[VERIFICAR PRECEDENTE: «Simonet», Cámara Segunda de Apelación Civil y Comercial de La Plata, Sala Segunda, causa 133134-2, 05/12/2023 - es doctrina de Cámara departamental, no de la SCBA: cotejar si el departamento judicial del caso sigue el mismo criterio]`
+
+`[INSERTAR FALLO VERIFICADO: legitimación pasiva de la acción reivindicatoria, art. 2255 CCyCN - sigue sin precedente bajado - aportar carátula, sala, expediente, fuero y año]`
 
 ### 45.8 Qué preguntar antes de contestar
 

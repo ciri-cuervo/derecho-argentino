@@ -48,6 +48,44 @@ class TestElArbolReal(unittest.TestCase):
         self.assertEqual(nuevos, [], "reclamos de faltante sin revisar: " + ", ".join(nuevos[:6]))
 
 
+class TestLaLineaDeBaseNoSeLlenaDeMuertos(unittest.TestCase):
+    """Una clave de la línea de base que ya no engancha ningún renglón es un **reclamo muerto**.
+
+    Pasa todo el tiempo y es normal: la clave lleva el hash del renglón, así que reescribir la
+    frase —o mudarla de archivo— la mata. No esconde nada: nunca va a coincidir con nada. Lo que
+    hace es **inflar la línea de base**, y una lista inflada se deja de leer, que es el modo en
+    que este repositorio pierde una alarma.
+
+    **No se purgan solos, y el motivo es que una clave muerta guarda memoria**: si el renglón
+    volviera escrito exactamente igual, seguiría aceptado sin que nadie lo relea. Perder eso es
+    una decisión, así que la toma quien corre `--purgar`, no la herramienta.
+
+    El idioma es el que `cifras.py` ya usa para su censo —«VEREDICTO MUERTO»—, y acá se replica
+    en vez de inventar otro.
+
+    MUTACIÓN que lo comprueba: agregarle a `deuda-revisada.json` una clave inventada la hace
+    aparecer como muerta, y `--purgar` la saca.
+    """
+
+    def test_el_arbol_real_no_arrastra_muertos(self):
+        dv = cargar()
+        _sobre, revisados = dv._veredictos.cargar(dv.BASE, "reclamos", vacio=[])
+        vivos = set(dv.candidatos())
+        muertos = [k for k in revisados if k not in vivos]
+        self.assertEqual(
+            muertos, [],
+            f"{len(muertos)} reclamos muertos en la línea de base. Se sacan con "
+            f"`python3 herramientas/deuda_vencida.py --purgar`, que es una decisión: "
+            f"la clave guarda que ese renglón exacto ya se leyó. Primeros: "
+            + ", ".join(muertos[:3]))
+
+    def test_el_control_mira_una_linea_de_base_real(self):
+        """Instrumento encendido: con la base vacía, «ningún muerto» no diría nada."""
+        dv = cargar()
+        _sobre, revisados = dv._veredictos.cargar(dv.BASE, "reclamos", vacio=[])
+        self.assertGreater(len(revisados), 50, "la línea de base quedó vacía: no mide nada")
+
+
 class TestComoDecideUnCandidato(unittest.TestCase):
     """El número sale del CATÁLOGO, no de la prosa. Inferirlo está medido y descartado."""
 

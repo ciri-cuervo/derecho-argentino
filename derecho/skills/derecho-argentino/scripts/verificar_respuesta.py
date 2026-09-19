@@ -19,12 +19,20 @@ Mide la FORMA del marcador, no si correspondía emitirlo. Que el análisis haya 
 `[VERIFICAR PLAZO: ...]` donde hacía falta un `[ALERTA PLAZO FATAL: ...]` es un error de
 fondo y lo juzga la rúbrica; acá se contesta la pregunta previa, que es mecánica.
 
-No se instala con el plugin: vive fuera de `derecho/`.
+SE INSTALA CON EL PLUGIN, y esa es la diferencia que hace
 
-Uso, desde la raíz del repositorio:
+Es el único control mecánico que corre **en tiempo de ejecución**, sobre la respuesta que el
+modelo acaba de escribir y antes de que alguien la copie a un escrito. Por eso vive acá y no en
+`herramientas/`: ahí sólo lo alcanzaba quien tiene el repositorio clonado.
 
-    python3 herramientas/verificar_respuesta.py respuesta.md [...]
-    python3 herramientas/verificar_respuesta.py --vocabulario     # imprime la lista canónica
+**Un verde suyo NO dice que la respuesta esté bien.** Mide la forma del marcador y nada más: no
+ve el marcador que faltó emitir, ni el que se emitió en lugar de una respuesta. Leerlo como
+aprobación es exactamente el modo de falla que este repositorio persigue.
+
+Uso:
+
+    python3 scripts/verificar_respuesta.py respuesta.md [...]
+    python3 scripts/verificar_respuesta.py --vocabulario     # imprime la lista canónica
 
 Sale con código 1 si encontró un marcador que no pertenece al vocabulario.
 """
@@ -37,8 +45,10 @@ import re
 import sys
 import unicodedata
 
-RAIZ = pathlib.Path(__file__).resolve().parent.parent
-VOCABULARIO = RAIZ / "derecho" / "skills" / "derecho-argentino" / "references" / "marcadores.md"
+# El vocabulario vive al lado, en el mismo árbol instalable. Es la razón por la que este script
+# PUEDE vivir adentro del plugin: no importa nada de `herramientas/` y lo único que lee viaja con
+# él. Ver `docs/DESARROLLO.md`, «La skill no nombra lo que no se instala».
+VOCABULARIO = pathlib.Path(__file__).resolve().parent.parent / "references" / "marcadores.md"
 
 # Las clases de letras se escriben una sola vez: una Ü o una Ñ olvidada no hace fallar el
 # control, lo hace IGNORAR el marcador en silencio, que es peor. Ya pasó en el repo.

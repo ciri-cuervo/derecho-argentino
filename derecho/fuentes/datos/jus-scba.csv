@@ -4,12 +4,29 @@
 #   otras profesiones (peritos contadores, entre otras). NO usar para abogados.
 # Tabla oficial vigente: https://www.scba.gov.ar/paginas.asp?id=41320
 # Serie histórica (dic-2017 a nov-2023): https://www.scba.gov.ar/paginas.asp?id=46792
-# verificado: 2026-09-17
+# verificado: 2026-09-18
 # La línea de arriba la lee `estado.py` y su forma es contrato: `# verificado: AAAA-MM-DD`,
 # la fecha en que alguien abrió la tabla oficial. La SCBA publica con rezago, así que el
 # valor puede tener meses sin que falte cargar nada; lo que vence no es el valor, es la
 # mirada. Al 17/09/2026 el último publicado sigue siendo el del 01/08/2026, RP-873/2026.
 vigencia_desde,jus_ley_14967,jus_dl_8904,norma,fuente
+2024-01-01,19546,13357,,https://www.scba.gov.ar/paginas.asp?id=41320
+2024-02-01,23143,15815,,https://www.scba.gov.ar/paginas.asp?id=41320
+2024-03-01,25571,17474,,https://www.scba.gov.ar/paginas.asp?id=41320
+2024-04-01,27279,18642,,https://www.scba.gov.ar/paginas.asp?id=41320
+2024-05-01,28628,19564,,https://www.scba.gov.ar/paginas.asp?id=41320
+2024-07-01,30488,20835,,https://www.scba.gov.ar/paginas.asp?id=41320
+2024-08-01,31777,21716,,https://www.scba.gov.ar/paginas.asp?id=41320
+2024-09-01,32922,22498,,https://www.scba.gov.ar/paginas.asp?id=41320
+2024-10-01,34067,23281,,https://www.scba.gov.ar/paginas.asp?id=41320
+2024-11-01,35212,24063,,https://www.scba.gov.ar/paginas.asp?id=41320
+2025-02-01,37677,25748,,https://www.scba.gov.ar/paginas.asp?id=41320
+2025-03-01,38381,26229,,https://www.scba.gov.ar/paginas.asp?id=41320
+2025-05-01,40684,27803,,https://www.scba.gov.ar/paginas.asp?id=41320
+2025-07-01,42219,28852,,https://www.scba.gov.ar/paginas.asp?id=41320
+2025-08-01,43275,29573,,https://www.scba.gov.ar/paginas.asp?id=41320
+2025-10-01,44330,30295,,https://www.scba.gov.ar/paginas.asp?id=41320
+2025-12-01,44774,30598,,https://www.scba.gov.ar/paginas.asp?id=41320
 2026-01-01,45660,,,https://www.scba.gov.ar/paginas.asp?id=41320
 2026-02-01,46325,,,https://www.scba.gov.ar/paginas.asp?id=41320
 2026-03-01,48608,,,https://www.scba.gov.ar/paginas.asp?id=41320

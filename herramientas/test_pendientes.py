@@ -197,6 +197,153 @@ class TestParserDeTabla(unittest.TestCase):
                                     "una fila delimitadora entro como dato")
 
 
+class TestLasDosMitadesDeLaVerificacion(unittest.TestCase):
+    """La verificación por bloque vive en dos tablas y **la clave es el par bloque + módulo**.
+
+    `references/changelog-normativo.md` lleva la fecha y la volatilidad, que es lo que contesta
+    «¿desde cuándo rige?» y es lo único que el lector de la skill necesita. `docs/REVALIDAR.md`
+    lleva con qué texto se cotejó y qué salió, que es lo que necesita el que revalida — y pesaba
+    seis veces más que las otras cuatro columnas juntas adentro de un módulo que se carga en cada
+    consulta sobre vigencia.
+
+    **Partir una tabla en dos crea la posibilidad de que se desincronicen**, y eso no falla
+    ruidosamente: una fila que quedó sola sigue leyéndose bien de su lado. Esto es lo que lo
+    impide, y por eso el orden también se exige — las dos se leen de arriba abajo.
+
+    MUTACIÓN que lo comprueba: sacarle una fila a cualquiera de las dos, o cambiarle el módulo a
+    una fila de una sola, deja en rojo `test_las_dos_tablas_tienen_las_mismas_filas`.
+    """
+
+    def _pares(self, filas):
+        return [(f[0].replace("**", ""), f[1]) for f in filas]
+
+    def test_las_dos_tablas_tienen_las_mismas_filas(self):
+        skill = self._pares(pendientes._filas_de_verificacion())
+        docs = self._pares(pendientes._filas_de_revalidacion())
+        self.assertGreater(len(skill), 100, "no leyó la tabla de la skill: el control está apagado")
+        faltan_en_docs = [p for p in skill if p not in docs]
+        faltan_en_skill = [p for p in docs if p not in skill]
+        self.assertEqual(faltan_en_docs, [],
+                         "bloques con fecha y sin cotejo escrito en docs/REVALIDAR.md")
+        self.assertEqual(faltan_en_skill, [],
+                         "bloques con cotejo en docs/REVALIDAR.md y sin fecha en la skill")
+        self.assertEqual(skill, docs, "las dos tablas tienen las mismas filas en otro orden")
+
+    def test_ninguna_fila_esta_dos_veces(self):
+        """Dos filas del mismo par son dos relojes para un solo bloque, y el de la fecha vieja no
+        sirve para nada. Pasó con «Ejecución de la pena», donde la segunda fila no registraba una
+        verificación sino una mudanza de módulo: **reiniciaba los seis meses sin que nadie hubiera
+        vuelto a leer la norma**, que es justo el modo de falla que la tabla existe para evitar.
+        """
+        pares = self._pares(pendientes._filas_de_verificacion())
+        repetidos = sorted({p for p in pares if pares.count(p) > 1})
+        self.assertEqual(repetidos, [],
+                         "el mismo bloque con dos fechas de verificación: "
+                         + ", ".join(f"{b} ({m})" for b, m in repetidos))
+
+    def test_el_ancho_de_cada_tabla_es_el_que_se_espera(self):
+        """Instrumento encendido. El parser exige el ancho justo porque, si una tabla cambia de
+        forma, uno laxo sigue leyendo, lee otra cosa y **reporta cero** — y cero acá se lee como
+        que no hay deuda."""
+        self.assertTrue(all(len(f) == 4 for f in pendientes._filas_de_verificacion()))
+        self.assertTrue(all(len(f) == 3 for f in pendientes._filas_de_revalidacion()))
+        self.assertGreater(len(pendientes.deuda_por_bloque()), 0,
+                           "la deuda por bloque dio cero: el parser dejó de enganchar")
+
+
+class TestLosVeredictosNoSeLlenanDeMuertos(unittest.TestCase):
+    """Cuatro de los siete archivos de veredicto reportan sus entradas muertas, y no acumulan.
+
+    La línea de base de un detector **sólo crece**: una clave muere cuando el texto que la produjo
+    cambió o se mudó, y entonces no esconde nada pero infla la lista — y una lista inflada se deja
+    de leer, que es el modo en que este repositorio pierde una alarma. Medido el 18/09/2026:
+    `cobertura-revisada.json` escribía 98 veredictos y usaba 56.
+
+    **Tres no tienen noción de muerto y eso está declarado en `_veredictos.muertos`:**
+    `fuga-revisada` porque su detector recibe los archivos por argumento, `ramas-revisadas` porque
+    ahí un veredicto es una declaración que sobrevive al detector a propósito —medido, daba 7
+    falsos—, y `lecturas-ocr` sí lo reporta pero no se purga: una lectura vale por su fecha.
+
+    MUTACIÓN que lo comprueba: agregarle una clave inventada a `cobertura-revisada.json` la hace
+    aparecer en la salida de `cobertura_normativa.py` como muerta.
+    """
+
+    #: herramienta -> cuántas entradas muertas se toleran
+    PUERTAS = {"cobertura_normativa.py": 0, "reformas_no_leidas.py": 0}
+
+    def test_ninguna_herramienta_arrastra_veredictos_muertos(self):
+        import subprocess, sys
+        for h in self.PUERTAS:
+            with self.subTest(h):
+                r = subprocess.run([sys.executable, str(RAIZ / "herramientas" / h)],
+                                   capture_output=True, text=True, cwd=str(RAIZ))
+                self.assertNotIn("están MUERTAS", r.stdout,
+                                 f"{h} arrastra veredictos muertos; se purgan con --purgar\n"
+                                 + r.stdout[-400:])
+
+    def test_el_aviso_existe_y_dice_el_comando(self):
+        """Instrumento encendido: si `aviso_de_muertos` devolviera siempre vacío, el test de
+        arriba pasaría sin medir nada."""
+        import importlib.util
+        spec = importlib.util.spec_from_file_location(
+            "_veredictos", RAIZ / "herramientas" / "_veredictos.py")
+        v = importlib.util.module_from_spec(spec); spec.loader.exec_module(v)
+        self.assertEqual(v.muertos(["a", "b"], {"a"}), ["b"])
+        self.assertEqual(v.aviso_de_muertos(0, 9, "x"), [])
+        aviso = v.aviso_de_muertos(2, 9, "correr --purgar")
+        self.assertTrue(any("MUERTAS" in l for l in aviso))
+        self.assertTrue(any("correr --purgar" in l for l in aviso))
+
+
+class TestEvalsSinCorrer(unittest.TestCase):
+    """Un eval escrito y no corrido es una promesa, no una medición, y hasta ahora no lo medía
+    nadie: `modulos_sin_eval()` contesta qué rama no tiene caso, y da cero con **todos** los
+    casos sin correr. Es verde con el instrumento apagado sobre la pregunta que importa.
+
+    La marca la escriben los propios `resultado.md`, que no se dejan vacíos: dicen «Sin correr»
+    y desde cuándo.
+
+    **La mutación es sobre el detector, no sobre un archivo**: estos tests cuentan contra los
+    archivos vivos, así que tocar un `resultado.md` mueve la cifra y los dos lados a la vez —lo
+    cual está bien, porque miden, no fijan—. Lo que hay que romper es la lectura.
+
+    MUTACIÓN que lo comprueba: hacer que `evals_sin_correr()` no encuentre la marca deja en rojo
+    `test_lo_que_reporta_es_lo_que_declaran_los_archivos` y
+    `test_un_resultado_con_medicion_no_entra`, que arma su propio árbol y no depende del corpus.
+    """
+
+    def test_lo_que_reporta_es_lo_que_declaran_los_archivos(self):
+        evals = pendientes.EVALS
+        esperado = sorted(
+            c.name for c in evals.iterdir()
+            if c.is_dir() and (c / "caso.md").is_file() and (c / "resultado.md").is_file()
+            and "**Sin correr" in (c / "resultado.md").read_text(encoding="utf-8"))
+        self.assertEqual(pendientes.evals_sin_correr(), esperado)
+
+    def test_el_control_mira_algo(self):
+        """Si dejara de encontrar casos no mediría nada y su lista vacía se leería como «todos
+        corridos». Lo que se fija acá es que haya casos, no cuántos están sin correr."""
+        casos = [c for c in pendientes.EVALS.iterdir()
+                 if c.is_dir() and (c / "caso.md").is_file()]
+        self.assertGreater(len(casos), 20, "no encontró los casos: el control está apagado")
+
+    def test_un_resultado_con_medicion_no_entra(self):
+        """Contra un árbol de mentira, para no depender del estado del corpus."""
+        with tempfile.TemporaryDirectory() as d:
+            raiz = Path(d)
+            for nombre, cuerpo in (("corrido", "Corrió el 01/01/2026 y acertó."),
+                                   ("pendiente", "**Sin correr.** Nadie lo pasó.")):
+                (raiz / nombre).mkdir()
+                (raiz / nombre / "caso.md").write_text("caso", encoding="utf-8")
+                (raiz / nombre / "resultado.md").write_text(cuerpo, encoding="utf-8")
+            viejo = pendientes.EVALS
+            try:
+                pendientes.EVALS = raiz
+                self.assertEqual(pendientes.evals_sin_correr(), ["pendiente"])
+            finally:
+                pendientes.EVALS = viejo
+
+
 class TestFuentesMarcadasParaRevisar(unittest.TestCase):
     """El campo `revisar` de las procedencias tiene que llegar a la lista de deuda.
 
@@ -275,10 +422,10 @@ class TestNingunaHerramientaQuedaSinDocumentar(unittest.TestCase):
     """Una herramienta que no está nombrada en ningún documento es una que nadie va a correr.
 
     No falla: simplemente no se usa, y lo que medía deja de medirse sin que nada lo diga. Pasó con
-    dos — `verificar_respuesta.py`, que revisa que los marcadores de una respuesta ya producida
-    sean del vocabulario y estén verbatim, y `descargar_series.py`, que baja el IPC, el CER y el
-    RIPTE que consumen las calculadoras—: existían, tenían test, y no estaban escritas en ninguna
-    parte.
+    dos que existían, tenían test y no estaban escritas en ninguna parte: `descargar_series.py`,
+    que baja el IPC, el CER y el RIPTE que consumen las calculadoras, y el verificador de
+    marcadores de una respuesta, que **desde entonces se mudó adentro del plugin** —es el único
+    control que corre en tiempo de ejecución— y hoy lo cubre `scripts/README.md`.
 
     **Documentada quiere decir alcanzable desde una puerta.** `herramientas/pendientes.py` es la
     puerta de las que miden pendientes y las nombra con su comando; el resto —mapas, reparaciones,

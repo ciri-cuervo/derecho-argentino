@@ -54,7 +54,7 @@ escribió— y son binarios como los demás.
 El último obligatorio de marcadores es mecánico y tiene herramienta:
 
 ```sh
-python3 herramientas/verificar_respuesta.py respuesta.md
+python3 derecho/skills/derecho-argentino/scripts/verificar_respuesta.py respuesta.md
 ```
 
 Reclama tres cosas que a ojo pasan por buenas: el marcador inventado, el que existe pero está

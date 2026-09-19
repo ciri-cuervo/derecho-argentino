@@ -853,6 +853,31 @@ class TestNingunModuloSePasaDelCorteDeRead(unittest.TestCase):
                          f"Se parten por MATERIA, no por número de sección."
                          f"\n  Los que vienen atrás:{vecinos}")
 
+    def test_el_codigo_tampoco_pasa_el_tope(self):
+        """**El corte de `Read` es por archivo, no por extensión**, y este control miraba sólo los
+        `.md`. Mientras tanto `test_scripts.py` —el archivo que sostiene buena parte de estas
+        reglas— llegó a **6149 renglones, tres veces el tope**, y nadie lo veía.
+
+        Un `.py` truncado se lee peor que un `.md`: el agente cree que vio el archivo entero y
+        concluye que un test no existe. Se partió en seis por lo que cada suite afirma, y lo
+        compartido quedó en `_comun_tests.py`.
+
+        **El tope es el mismo y el motivo también.** No se exceptúa ningún archivo: si uno crece,
+        se parte, que es lo que se le pide a un módulo.
+
+        MUTACIÓN que lo comprueba: concatenar dos de las suites de `scripts/` lo deja en rojo.
+        """
+        codigo = sorted(p for p in RAIZ.rglob("*.py")
+                        if ".git" not in p.parts and "_local" not in p.parts)
+        self.assertGreater(len(codigo), 20, "no encontró los .py: el control está apagado")
+        pasados = sorted(((self._renglones(p), str(p.relative_to(RAIZ)))
+                          for p in codigo if self._renglones(p) > self.TOPE), reverse=True)
+        detalle = "".join(f"\n    {n} renglones · {nombre}" for n, nombre in pasados)
+        self.assertEqual(pasados, [],
+                         f"hay archivos de código arriba de {self.TOPE} renglones, y a "
+                         f"{self.CORTE_DE_READ} `Read` los trunca sin avisar:{detalle}\n  "
+                         f"Se parten por lo que afirman, no por número de renglón.")
+
     def test_el_control_mira_todos_los_modulos(self):
         """Instrumento encendido: sin esto, «ninguno se pasa» también sería «no miró ninguno»."""
         self.assertGreater(len(self.modulos), 40, "no encontró los módulos de referencia")

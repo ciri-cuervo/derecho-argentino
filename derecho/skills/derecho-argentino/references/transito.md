@@ -115,7 +115,7 @@ del juicio** contravencional, ejecutivo o judicial.
 > interrumpe nada por el mero paso del tiempo administrativo.
 
 **Legislación supletoria (art. 90).** Se aplica supletoriamente, en lo pertinente, **la parte
-general del Código Penal**. Es la puerta de entrada a los institutos de `penal.md` 24.7 —error,
+general del Código Penal**. Es la puerta de entrada a los institutos de `penal-parte-general.md` 24.7 —error,
 estado de necesidad, causas de justificación del art. 34, tentativa, participación, concurso—
 dentro de un descargo por infracción. Se invoca con el art. 90, que es lo que lo habilita.
 

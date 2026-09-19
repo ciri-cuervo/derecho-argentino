@@ -60,10 +60,22 @@ eso es una regla y no admite excepción. Una lista de palabras, en cambio, arras
 `no está` puede ser el verbo o el demostrativo: *"pero no esta otra"* está bien escrito. Para esas
 palabras **el control es la lectura, no el test**.
 
-**Un barrido da candidatos, no culpables.** Buscar las palabras que el repo escribe de las dos
-formas encuentra el problema entero de una vez, pero la decisión sigue siendo una lectura: `quater`
-y `quantum` son voces latinas y el articulado las escribe sin tilde, así que ahí la fuente falló
-en contra del barrido.
+**Un barrido da candidatos, no culpables**, y `quater` es el caso que lo demuestra. Es voz
+latina y va **sin tilde**, como `quantum`. **La fuente oficial no es consistente**, y eso está
+medido: el Código Penal consolidado escribe `quater` en los arts. 41, 76, 144, 167 y 204 y
+**`quáter` en los arts. 210 y 213**; la Ley 24.013 escribe `7° quáter`. El mismo cuerpo, las dos
+grafías.
+
+**La postura es una regla y no una lista: en prosa propia va siempre `quater`, sin tilde.** La
+grafía de la fuente se reproduce **sólo adentro de una cita textual**, donde ya rige la regla de
+que una cita es la cita. Seguir al documento artículo por artículo sería mantener una lista que la
+próxima reforma amplía, y equivocarse en ella no se ve: el ordinal de un artículo es un numeral
+latino, no un nombre propio —la regla de copiar los diacríticos del documento es para las
+carátulas y los apellidos, donde el diacrítico es identidad—. El repositorio ya normaliza el resto
+de la tipografía de InfoLEG cuando escribe `art. 7 quater` y no `ARTICULO 7°  quáter`.
+
+**Las entradas fechadas de `docs/AUDITORIAS.md` quedan como están**, con la grafía que tenían: una
+auditoría vale por su fecha y no se reescribe por estilo.
 
 **Las fechas van en tres clases** y sólo una se ablanda: la del derecho —B.O., vigencia, fecha de
 un fallo— es **exacta siempre**; la que lee una máquina —la columna de `changelog-normativo.md`, un

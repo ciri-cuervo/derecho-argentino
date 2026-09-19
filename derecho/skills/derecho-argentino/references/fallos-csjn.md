@@ -56,49 +56,13 @@ Hay dos defectos reales, y el segundo es el que engaña:
 > Es una **derivación local, no una descarga**: cada archivo lleva el hash del PDF del que salió,
 > la versión de la herramienta y la fecha, y **no es publicación oficial**. Sirve para leer y
 > redactar; una cita literal a un escrito se coteja igual contra la página, que está numerada en
-> el archivo. Se regenera con `python3 herramientas/reocr_jurisprudencia.py`. El OCR nuevo deja
-> errores residuales visibles —"Orros" por "Otros", "demaudada" por "demandada"—: por eso el
-> cotejo no es opcional.
+> el archivo. El OCR nuevo deja errores residuales visibles —"Orros" por "Otros", "demaudada"
+> por "demandada"—: por eso el cotejo no es opcional.
 
 **Y una cosa que NO es un defecto del documento.** En muchos fallos la **fecha** sale ilegible
 —"Canales" la da como `Z 44 AA4-44,j49 de 2045`— porque está puesta a mano o con sello sobre el
 escaneo, aunque el cuerpo se lea perfecto. Por eso la fecha de este módulo **sale del registro de
 la Secretaría de Jurisprudencia y nunca del encabezado del PDF**.
-
-Los tomos viejos tienen un segundo camino, y **es el que resolvió las tres fechas que faltaban**:
-la fecha está **impresa en el cuerpo**, en la línea que sigue al título "FALLO DE LA CORTE
-SUPREMA", que no es la del dictamen del Procurador —en "Fiorentino" el dictamen es del 21/05/1984 y
-el fallo del 27/11/1984—. `herramientas/auditar_fechas_fallos.py` la lee de ahí y la compara contra
-el manifiesto. Así se corrigieron tres fechas que estaban rellenadas con un 1 de enero porque la
-capa de texto no se podía leer:
-
-| Fallo | Decía | Es |
-| --- | --- | --- |
-| "Fiorentino" 306:1752 | 1984-01-01 | **27/11/1984** |
-| "Santa Coloma" 308:1160 | 1986-01-01 | **05/08/1986** |
-| "Bazterrica" 308:1392 | 1986-01-01 | **29/08/1986** |
-
-Con eso el auditor confirma **identidad en los 64** y ya no queda ningún fallo sin poder auditar.
-
-> **Cómo se estableció esto.** No por regla ni por estimación: se midió lo que se puede medir y
-> se leyó el resto. `herramientas/calidad_ocr.py` calcula la basura de caracteres, que es el
-> único defecto que una medida detecta bien; los veredictos de lectura quedan en
-> `herramientas/lecturas-ocr.json` con la fecha y lo que se vio. Se descartaron **cuatro**
-> medidas automáticas que fallaban contra un caso conocido, y tres de ellas buscaban detectar
-> la "mezcla" que después resultó no existir: estaban midiendo un fenómeno inventado.
->
-> **Cada documento se lee uno por uno**, cabecera y una franja del medio —el medio importa:
-> "Santa Coloma" tiene la cabecera impecable y las sustituciones aparecen en el cuerpo—. El
-> repaso del **14/09/2026** cerró sobre 63 documentos: **53 se transcribían sin más**, **4 pedían
-> `-layout`** y **6 tenían defecto real** —tres destruidos y tres con sustituciones—. Los seis
-> quedaron con su copia recuperada en `ocr/`, así que había texto legible de los 63: 57 directo
-> del PDF y 6 por relectura,
-> éstos con cotejo obligatorio.
->
-> Ese reparto cambió dos veces y las dos por leer, no por estimar. Primero, cinco documentos que
-> parecían intranscribibles se leían con `-layout`. Después, "S., D." 336:849 estaba clasificado
-> `layout` y en realidad tenía sustituciones —se descubrió al leerlo para escribir su holding—,
-> así que pasó de 5 a 4 los que sólo piden `-layout` y de 5 a 6 los que tienen defecto real.
 
 ### 34.2 Penal y procesal penal
 
@@ -273,7 +237,7 @@ formado la mayoría de "Bazterrica".
 **art. 39 inc. 1 de la Ley 24.557** —que exime al empleador de responsabilidad civil frente al
 trabajador, con la sola excepción del entonces art. 1072 del Código Civil— y condenado por el
 derecho común; la Corte **confirmó la sentencia apelada** en cuanto fue materia de agravio.
-Encuadre en `laboral.md` 5.8.
+Encuadre en `laboral-riesgos.md` 5.8.
 
 **"Aróstegui"** (verificado contra el documento): la Corte **dejó sin efecto** la sentencia que
 había rechazado la reparación con base en el derecho común, y devolvió para nuevo
@@ -315,7 +279,7 @@ contingentes". Sobre eso, la Corte verifica cuatro recaudos:
 > ley 27.348) — posibilidad que la ley 24.557 original había vedado, y que por eso cayó en
 > **"Aquino"**. La instancia previa es un requisito de acceso, no una renuncia a la vía civil.
 
-`[INSERTAR FALLO VERIFICADO: doctrina de la CSJN sobre las CONDICIONES de la opción del art. 4 de la Ley 26.773 -momento, forma y efectos de la renuncia- que ninguno de los cargados desarrolla. "Pogonza" (2021) menciona ese artículo para decir que la instancia previa no cierra la vía civil, y hasta ahi llega. Ver laboral.md 5.8.6 y el marcador de "Vera"]`
+`[INSERTAR FALLO VERIFICADO: doctrina de la CSJN sobre las CONDICIONES de la opción del art. 4 de la Ley 26.773 -momento, forma y efectos de la renuncia- que ninguno de los cargados desarrolla. "Pogonza" (2021) menciona ese artículo para decir que la instancia previa no cierra la vía civil, y hasta ahi llega. Ver laboral-riesgos.md 5.8.6 y el marcador de "Vera"]`
 
 ### 34.4 Civil y daños
 
@@ -419,7 +383,7 @@ su voto**, y **Petracchi en disidencia** —adopta el dictamen de la Procuradora
 - **El argumento** (cons. 12): la jurisprudencia de la Corte IDH "no deja lugar a dudas de que los
   órganos judiciales de los países que han ratificado la Convención Americana ... están obligados a
   ejercer, **de oficio, el control de convencionalidad**" (cita, entre otros, "Fontevecchia y
-  D'Amico vs. Argentina", 29/11/2011). Entonces **"resultaría un contrasentido"** que la
+  D'Amico vs. Argentina", 29/11/2011). Entonces **"Resultaría, pues, un contrasentido"** que la
   Constitución, que le da rango constitucional a la Convención (art. 75, inc. 22) y habilita esa
   regla interpretativa, "impida, por otro lado, que esos mismos tribunales ejerzan similar examen
   con el fin de salvaguardar su supremacía frente a normas locales de menor rango".
@@ -634,9 +598,8 @@ Lo citable:
 > realidad tiene **sustituciones**: el extractor convierte la ñ en "ft" —"Seftaló", "niftas"—, "art."
 > en "arto", "n° 1" en "nO 1", pierde acentos y parte palabras. Y en el encabezado degrada la
 > propia identificación del expediente: donde el original dice **S. 977. XLVIII**, el texto
-> extraído dice "S. 917. XLVIII", y el "c/" de la carátula sale como "el". El veredicto quedó
-> corregido en `herramientas/lecturas-ocr.json` el 14/09/2026. Las citas de arriba se cotejaron
-> contra las páginas 5 a 13 del PDF.
+> extraído dice "S. 917. XLVIII", y el "c/" de la carátula sale como "el". Las citas de arriba se
+> cotejaron contra las páginas 5 a 13 del PDF, el 14/09/2026.
 
 > **Las carátulas de familia vienen anonimizadas en el registro oficial**, y por eso los nombres
 > de archivo de este bloque se armaron por materia y no por apellido. Al citar, se transcribe la
@@ -748,7 +711,7 @@ cuatro no las usa nadie.
 
 | Cita | Cómo se usa hoy |
 | --- | --- |
-| **308:733** "Rayford" | En `penal.md` 24.5, como la regla que **"Quaranta"** *toma* de ese fallo. Verificado: el documento de "Quaranta" lo nombra con su cita en los cons. 18 y 22 |
+| **308:733** "Rayford" | En `penal-impugnacion.md` 24.5, como la regla que **"Quaranta"** *toma* de ese fallo. Verificado: el documento de "Quaranta" lo nombra con su cita en los cons. 18 y 22 |
 | **310:1847** "Ruiz" · **317:1985** "Daray" | Ídem: la línea que "Quaranta" reitera, y su propio texto las cita |
 | **303:1938** | Dentro del razonamiento de **"Fiorentino"** (cons. 7º), que sí está bajado: es la Corte citándose a sí misma |
 | **306:1409** | Sólo en `danos-indice-doctrinario.md`, que es el índice de una obra comercial: ahí figura como *"Sánchez Granel c. DNV"*. **Carátula de fuente secundaria**, sin verificar |
@@ -797,10 +760,13 @@ Que estén escritos **no los hace vigentes**: cada uno se lleva a un escrito con
 citarlos —el par "Bazterrica"/"Montalvo" frente a "Arriola", la errata de la cita de "Miranda" en
 "Bianchi", y la de *alterum nom laedere* en "Santa Coloma"—.
 
-**Dónde vive cada holding.** El de "ADDUC" está en `consumidor.md` 17.4. Once de los de penal están
-en `penal.md`, cada uno en la sección donde se usa: "Acosta" en 24.4.3, "Arancibia Clavel" en
-24.4.2, "Nápoli" y "Estévez" en 24.3.2, "Quaranta" y "Minaglia" en 24.5, "Casal" en 24.6.3,
-"Canales" en 24.6.4, "Verbitsky" en 24.8, "Maldonado" en 24.7.8 y "Arriola" en 24.9 —con el alcance
+**Dónde vive cada holding.** El de "ADDUC" está en `consumidor.md` 17.4. Once de los de penal no están
+acá sino en el módulo de su materia, cada uno en la sección donde se usa: "Acosta" en `penal-parte-general.md` 24.4.3, "Arancibia Clavel" en
+`penal-parte-general.md` 24.4.2, "Nápoli" y "Estévez" en `penal.md` 24.3.2, "Quaranta" y
+"Minaglia" en `penal-impugnacion.md` 24.5, "Casal" en `penal-impugnacion.md` 24.6.3,
+"Canales" en `penal-impugnacion.md` 24.6.4, "Verbitsky" en `ejecucion-penal.md` 24.8,
+"Maldonado" en `penal-parte-general.md` 24.7.8 y "Arriola" en
+`penal-leyes-especiales.md` 24.9 —con el alcance
 exacto de la declaración de inconstitucionalidad del art. 14 segundo párrafo, que es lo que se cita
 mal—. El resto está en este módulo, en la sección de su materia.
 
@@ -813,10 +779,13 @@ que **no son una deuda de integridad**: ahí está medido por qué.
 advertencia de 34.2 sobre los dos Bianchi— y "Fiorentino" 306:1752, que sólo aparece nombrado
 por el estado de su OCR.
 
-**Once de los de penal no tienen su desarrollo acá sino en `penal.md`**, cada uno en la sección
-donde se usa: "Acosta" en 24.4.3, "Arancibia Clavel" en 24.4.2, "Nápoli" y "Estévez" en 24.3.2,
-"Quaranta" y "Minaglia" en 24.5, "Casal" en 24.6.3, "Canales" en 24.6.4, "Verbitsky" en 24.8,
-"Maldonado" en 24.7.8 y "Arriola" en 24.9 —con el alcance exacto de la declaración de
+**Once de los de penal no tienen su desarrollo acá sino en el módulo de su materia**, cada uno
+en la sección donde se usa: "Acosta" en `penal-parte-general.md` 24.4.3, "Arancibia Clavel" en
+`penal-parte-general.md` 24.4.2, "Nápoli" y "Estévez" en `penal.md` 24.3.2, "Quaranta" y
+"Minaglia" en `penal-impugnacion.md` 24.5, "Casal" en `penal-impugnacion.md` 24.6.3,
+"Canales" en `penal-impugnacion.md` 24.6.4, "Verbitsky" en `ejecucion-penal.md` 24.8,
+"Maldonado" en `penal-parte-general.md` 24.7.8 y "Arriola" en
+`penal-leyes-especiales.md` 24.9 —con el alcance exacto de la declaración de
 inconstitucionalidad del art. 14 segundo párrafo, que es lo que se cita mal—. El índice dice qué
 hay; el módulo dice qué hacer con eso.
 

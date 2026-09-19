@@ -203,8 +203,8 @@ def main():
                       f"llegó {hallado}. NO se escribió el archivo.")
                 print(f"            Si se pidió --desde posterior a {per}, el ancla queda fuera "
                       f"del rango y este control no puede correr: bajar la serie entera.")
-                print(f"            Si no, revisar el serie_id: hay ids que difieren en un "
-                      f"carácter y devuelven otra medición.")
+                print("            Si no, revisar el serie_id: hay ids que difieren en un "
+                      "carácter y devuelven otra medición.")
                 error += 1
                 continue
 

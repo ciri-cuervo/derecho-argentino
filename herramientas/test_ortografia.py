@@ -8,6 +8,9 @@ siempre, y es esto. Un extractor que se deja afuera medio archivo no da error: d
 hallazgos, y menos hallazgos se lee como que el repositorio está mejor.
 """
 import importlib.util
+import shutil
+import subprocess
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -186,6 +189,72 @@ class TestGiroPropio(unittest.TestCase):
         self.assertGreater(fem, masc * 2,
                            f"«el fuente» pasó a ser {masc} contra {fem} femeninos: o se está "
                            f"usando para la fuente del derecho, o la distinción se perdió")
+
+
+class TestQueArchivosSeMiden(unittest.TestCase):
+    """Se mide lo que el repositorio versiona, no lo que hay en la carpeta.
+
+    Un `rglob` sobre el árbol mide la máquina de quien corre la herramienta. En una corrida real
+    del 18/09/2026, **115 de los 582 candidatos** salieron de
+    `derecho/evals/results/…/aggregate-result.json`, que lo escribe `claude plugin eval` y que
+    `.gitignore` ya excluye: un quinto de la salida apuntando a un archivo que nadie va a
+    corregir. Es la misma falla que `cifras.py` ya tuvo midiendo `mb_instalados`, y la misma
+    solución: preguntarle a git en vez de mantener una lista de patrones.
+
+    Lo que sí se mide es el archivo nuevo **sin commitear**, que es donde está el trabajo del día:
+    por eso la pregunta es `--cached --others --exclude-standard` y no `ls-files` a secas.
+
+    MUTACIÓN que lo comprueba: este test. Arma un repo con un archivo versionado y otro ignorado
+    y exige que sólo entre el primero; volver a `rglob` sobre la carpeta lo deja en rojo.
+    """
+
+    def setUp(self):
+        self.o = cargar()
+
+    def _repo(self, base):
+        subprocess.run(["git", "init", "-q", str(base)], check=True)
+        subprocess.run(["git", "-C", str(base), "config", "user.email", "t@t"], check=True)
+        subprocess.run(["git", "-C", str(base), "config", "user.name", "t"], check=True)
+
+    def test_lo_ignorado_no_se_mide_y_lo_nuevo_si(self):
+        if shutil.which("git") is None:
+            self.skipTest("sin git")
+        with tempfile.TemporaryDirectory() as tmp:
+            base = Path(tmp) / "repo"
+            base.mkdir()
+            self._repo(base)
+            (base / ".gitignore").write_text("basura/\n", encoding="utf-8")
+            (base / "versionado.md").write_text("# Uno\n", encoding="utf-8")
+            (base / "basura").mkdir()
+            (base / "basura" / "salida.md").write_text("# Dos\n", encoding="utf-8")
+            subprocess.run(["git", "-C", str(base), "add", "versionado.md", ".gitignore"],
+                           check=True)
+            (base / "recien-escrito.md").write_text("# Tres\n", encoding="utf-8")
+            original, self.o.RAIZ = self.o.RAIZ, base
+            self.o._VERSIONADOS = None
+            try:
+                self.assertTrue(self.o.es_del_repositorio(base / "versionado.md"))
+                self.assertTrue(self.o.es_del_repositorio(base / "recien-escrito.md"),
+                                "un archivo nuevo sin commitear es trabajo del día y se mide")
+                self.assertFalse(self.o.es_del_repositorio(base / "basura" / "salida.md"),
+                                 "lo que .gitignore excluye no es del repositorio")
+            finally:
+                self.o.RAIZ, self.o._VERSIONADOS = original, None
+
+    def test_el_arbol_real_deja_afuera_los_resultados_de_eval(self):
+        """Instrumento encendido sobre el árbol de verdad: si `versionados()` devolviera todo,
+        este control pasaría por vacío y el de arriba seguiría en verde."""
+        self.assertGreater(len(self.o.versionados()), 500,
+                           "casi no vio archivos: el filtro está midiendo otra cosa")
+        self.assertTrue(self.o.es_del_repositorio(RAIZ / "AGENTS.md"))
+        resultados = sorted((RAIZ / "derecho" / "evals" / "results").glob("*/*.json"))
+        if not resultados:
+            # En un clon limpio esa carpeta no existe -está en `.gitignore` y no viaja-. El
+            # comportamiento no queda sin medir: lo prueba el test de arriba, que arma su propio
+            # repo con un archivo ignorado. Acá sólo se confirma sobre el árbol de trabajo.
+            self.skipTest("no hay resultados de eval en este árbol; lo cubre el repo de prueba")
+        self.assertFalse(self.o.es_del_repositorio(resultados[0]),
+                         "los resultados de `claude plugin eval` están en .gitignore")
 
 
 class TestCapa2(unittest.TestCase):

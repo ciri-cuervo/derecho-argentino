@@ -57,6 +57,47 @@ def cargar(ruta: pathlib.Path, carga: str, vacio=None):
 ARGENTINA = timezone(timedelta(hours=-3))
 
 
+def muertos(revisados, vivos) -> list:
+    """Las entradas del veredicto que ya no corresponden a ningún candidato vivo.
+
+    **Es una clase de deterioro que sólo `cifras.py` reportaba**, y por eso se pone acá: la
+    línea de base de un detector **sólo crece**. Una clave muere cuando el texto que la produjo
+    cambió de redacción o se mudó de archivo, y entonces no esconde nada —nunca va a volver a
+    coincidir— pero infla el archivo, y **una lista inflada se deja de leer**, que es el modo en
+    que este repositorio pierde una alarma.
+
+    Medido el 18/09/2026: `cobertura-revisada.json` escribía 98 veredictos y usaba 56.
+
+    **No se purgan solos.** Una clave muerta guarda memoria: si el texto volviera escrito igual,
+    seguiría aceptado sin que nadie lo relea. Perder eso es una decisión, y la toma quien corre
+    la purga.
+
+    **Dos archivos no tienen noción de muerto, y no es un descuido:**
+
+    - `fuga-revisada.json`: su detector recibe la lista de archivos por argumento, así que vería
+      como muertas las entradas de los que no le pasaron. Peor que no reportar nada.
+    - `ramas-revisadas.json`: ahí un veredicto `rama` es una **declaración**, no el registro de
+      haber leído un candidato. Sobrevive al detector a propósito —`revisar()` une lo detectado
+      con lo declarado— y llamarla muerta porque la heurística no la reencuentra hoy es leer el
+      archivo al revés. Medido: daba 7 falsos.
+    """
+    v = set(vivos)
+    return [k for k in revisados if k not in v]
+
+
+def aviso_de_muertos(cuantos: int, total: int, comando: str) -> list[str]:
+    """Los renglones del reporte, iguales en todas las herramientas. Vacío si no hay muertos."""
+    if not cuantos:
+        return []
+    return [
+        f"  De las {total} entradas de la línea de base, {cuantos} están MUERTAS: ya no",
+        "  enganchan ningún candidato. No esconden nada, pero inflan la lista, y una lista",
+        "  inflada se deja de leer. Se purgan a pedido y no solas, porque una clave muerta",
+        "  guarda que ese texto exacto ya se leyó:",
+        f"      {comando}",
+    ]
+
+
 def hoy() -> str:
     """La fecha de hoy en hora argentina, ISO."""
     return datetime.now(ARGENTINA).date().isoformat()

@@ -4,7 +4,7 @@
 > entre módulos siguen siendo válidas. **Rigen las reglas de integridad de la sección 2 del
 > SKILL.md.** Es el espejo de `sede-judicial-pba.md`: mismo expediente, otro trabajo. Verificado
 > contra los textos consolidados de `derecho/fuentes/normas/`. Lo procesal es del fuero laboral de
-> la PBA; para el fuero nacional, Ley 18.345 (ver 5.9).
+> la PBA; para el fuero nacional, Ley 18.345 (ver `laboral.md` 5.9).
 
 ---
 
@@ -23,7 +23,7 @@ que no existe; se cita el fallo que sirve, no la carátula que convendría que e
 mapa de trabajo: dice qué hay que salir a conseguir y qué alcanza con negar. La regla base en
 laboral es que pesa sobre el **empleador** — pago, registración correcta, causa del despido y
 todo hecho invocado como defensa —, y el trabajador prueba la existencia de la relación
-cuando se la niegan, y las horas extras (ver 5.7).
+cuando se la niegan, y las horas extras (ver `laboral.md` 5.7).
 
 **Tres límites propios del rol**, que conviene tener presentes desde el principio porque
 tienen costo:
@@ -301,7 +301,7 @@ Reemplaza al de la sección 11 cuando se actúa por una parte:
   del otro lado es regla de decisión. Ver `sede-judicial.md` 1.6.
 - **Es del fuero laboral de la PBA.** La demanda del art. 26, la contestación del art. 34, la
   audiencia preliminar y el régimen recursivo con depósito previo son de la Ley 15.057 o de la
-  11.653 según la fecha de la audiencia de vista. Para el fuero nacional, Ley 18.345 (ver 5.9);
+  11.653 según la fecha de la audiencia de vista. Para el fuero nacional, Ley 18.345 (ver `laboral.md` 5.9);
   para un juzgado civil de la Nación, `proceso-nacional.md` 44.
 - **No trae el derecho de fondo.** Qué rubro corresponde y bajo qué régimen es `laboral.md`.
 - **No redacta el telegrama**, que va por `telegramas.md` antes que por el modelo.

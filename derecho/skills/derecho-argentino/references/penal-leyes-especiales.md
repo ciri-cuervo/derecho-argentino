@@ -271,8 +271,10 @@ Tres reglas que las ordenan:
 máximo es de quince (15) años**, regla que se aplica **aun si la escala fuera más elevada por
 concurso real de varios hechos independientes**. Cumplidos **dos tercios (2/3)** y dadas las
 circunstancias del CP para la libertad condicional, el tribunal **puede** disponer que el resto se
-cumpla con las demás penas de esta ley, previo dictamen pericial favorable, conformidad del MPF y
-opinión de la víctima notificada al efecto.
+cumpla con las demás penas de esta ley, *"de modo conjunto o alternativo"*. El texto exige, antes
+de decidir, *"el dictamen pericial favorable, la conformidad del Ministerio Público Fiscal y la
+opinión de la víctima, que deberá ser notificada al efecto"*: son tres recaudos previos, y el
+tercero incluye el deber de notificar.
 
 **La prescripción tiene tres causales de suspensión que no están en el Código Penal (art. 22)**,
 y se suman a las de ahí: cuestiones previas o prejudiciales que deban resolverse en otro juicio;
@@ -320,7 +322,7 @@ federal, se rige por el **sistema acusatorio del CPPF** conforme al cronograma d
 
 `[VERIFICAR VIGENCIA: reglamentación de la Ley 27.801 - la ley es de marzo de 2026 y su implementación depende de la autoridad de aplicación que designe el PEN (art. 50). Confirmar qué decreto reglamentario rige a la fecha de la consulta: no está cargado en fuentes/]`
 
-`[VERIFICAR RÉGIMEN APLICABLE: fecha del hecho contra el 05/09/2026 - un hecho anterior cometido por alguien de 14 o 15 años era no punible bajo el art. 1 de la Ley 22.278, y el art. 2 CP manda aplicar la más benigna. El texto derogado sigue cargado en fuentes/normas/ley-22278.txt, que es lo que permite cotejar de qué lado cae el caso]`
+`[VERIFICAR VIGENCIA: fecha del hecho contra el 05/09/2026 - un hecho anterior cometido por alguien de 14 o 15 años era no punible bajo el art. 1 de la Ley 22.278, y el art. 2 CP manda aplicar la más benigna. El texto derogado sigue cargado en fuentes/normas/ley-22278.txt, que es lo que permite cotejar de qué lado cae el caso]`
 
 > **Lo que este repositorio no trae todavía:** los arts. 1754 y 1755 CCyCN, que son a donde
 > remite el art. 7. Ningún módulo los recorre, así que la remisión se nombra y no se desarrolla.
@@ -377,9 +379,12 @@ del contribuyente: **se construyen antes del conflicto**, no se invocan después
 - **Antes de la denuncia**, la administración no la formula si las obligaciones evadidas y sus
   intereses se cancelan **incondicional y totalmente**. Es **por única vez por cada persona
   humana o jurídica obligada**.
-- **Iniciada la acción penal**, se extingue si se aceptan y cancelan incondicional y totalmente
-  esas obligaciones **más un cincuenta por ciento (50%) adicional sobre la suma total**, dentro
-  de los **treinta (30) días hábiles** posteriores a la notificación fehaciente de la imputación.
+- **Iniciada la acción penal**, la ley dice que *"esta se extinguirá si se aceptan y cancelan en
+  forma incondicional y total las obligaciones evadidas, aprovechadas o percibidas indebidamente y
+  sus intereses, más un importe adicional equivalente al cincuenta por ciento (50%) de la suma
+  total, hasta dentro de los treinta (30) días hábiles posteriores al acto procesal por el cual se
+  notifique fehacientemente la imputación penal"*. **El plazo corre desde el acto procesal**, no
+  desde una notificación cualquiera: es el dato que hay que pedir para saber si está vivo.
 - Rige para los arts. 1, 2, 3, 5 y 6.
 
 > **Y la reparación integral del art. 59 inc. 6 CP quedó excluida.** El primer artículo sin
@@ -412,7 +417,7 @@ atado a una zona, y un **decomiso sin condena**.
 | Art. CP | Qué pune | Pena |
 | --- | --- | --- |
 | **210 ter** (art. 7 de la ley) | Tomar parte, cooperar o ayudar a la formación o mantenimiento de una asociación ilícita dedicada a los delitos del art. 2, **aunque la organización no reúna las características del art. 210 bis** | **8 a 20 años**, **en concurso real** con las penas de los delitos cometidos individualmente, **agravadas en el doble del mínimo y del máximo** |
-| **210 quáter** (art. 8) | Ser miembro de esa organización cuando concurre alguna de cinco condiciones —violencia o amenazas; hechos reiterados y ostensibles en su beneficio; desplazamiento o aniquilación de otra organización; amedrentamiento de la población o intimidación de autoridades; control de un territorio— | **La del delito más grave cometido por la organización**, entendido como el de pena más alta perpetrado por cualquiera de sus miembros |
+| **210 quater** (art. 8) | Ser miembro de esa organización cuando concurre alguna de cinco condiciones —violencia o amenazas; hechos reiterados y ostensibles en su beneficio; desplazamiento o aniquilación de otra organización; amedrentamiento de la población o intimidación de autoridades; control de un territorio— | **La del delito más grave cometido por la organización**, entendido como el de pena más alta perpetrado por cualquiera de sus miembros |
 
 > **Y en los dos se desactivan los arts. 46 y 47 CP.** El texto lo dice con todas las letras: las
 > condiciones especiales de participación **no son aplicables**. La escala reducida del cómplice

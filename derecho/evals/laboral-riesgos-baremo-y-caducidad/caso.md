@@ -1,7 +1,7 @@
 ---
 titulo: Riesgos del trabajo en PBA - baremo aplicable, caducidad del art. 2 inc. j y art. 12 LRT
 area: laboral
-perfil: derecho-argentino / references/laboral.md 5.8
+perfil: derecho-argentino / references/laboral-riesgos.md 5.8
 fuero: Tribunal del Trabajo PBA (Ley 15.057)
 problema: "riesgo de aplicar el baremo del Decreto 659/96 en su versión original cuando el Anexo I fue sustituido por el Decreto 549/2025 desde el 02/02/2026; riesgo de declarar de oficio la caducidad de los 90 días hábiles judiciales del art. 2 inc. j de la Ley 15.057 tras 'Magliano'; riesgo de liquidar el art. 12 LRT con 'RIPTE más tasa activa BNA' cuando el texto vigente es el del Decreto 669/2019; riesgo de tratar el trámite como recursivo en lugar de acción ordinaria; riesgo de liquidar el adicional del 20% del art. 3 de la Ley 26.773 en un accidente in itinere; riesgo de afirmar sin matiz que la opción del art. 4 es irrevocable"
 ---

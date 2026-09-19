@@ -20,9 +20,6 @@ Tres reglas que no se relajan:
 
 **Un marcador va entero en castellano acentuado.** El nombre, tal como figura acá; y el
 contenido después de los dos puntos, que es prosa y se copia tal cual a un escrito judicial.
-Acentuar no rompe nada: el cotejo de `herramientas/verificar_respuesta.py` compara el nombre
-en forma plana —minúsculas y sin diacríticos—, así que `RÉGIMEN` y `REGIMEN` le dan lo mismo.
-Al escrito, no.
 
 Un escrito puede salir con marcadores. Lo que no puede salir es un escrito con un dato sin
 respaldo y sin marcador.
@@ -300,7 +297,7 @@ Estas aparecen por costumbre y hay que reemplazarlas:
 
 ## Agregar un marcador
 
-Sólo si ninguno de los veintidós sirve, y en este orden: se define acá con su categoría,
+Sólo si ninguno de los que están más arriba sirve, y en este orden: se define acá con su categoría,
 sintaxis y para qué sirve; se revisa que ningún script tenga que reconocerlo; y recién
 entonces se usa en los módulos. Un marcador que existe en un módulo y no acá es un marcador
 que nadie va a auditar.

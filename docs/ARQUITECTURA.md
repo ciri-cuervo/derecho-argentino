@@ -35,7 +35,7 @@ derecho/                          # el plugin
   commands/                         # ocho comandos slash
   skills/derecho-argentino/
     SKILL.md                        # núcleo: apertura, integridad, marcadores, ruteo
-    references/                     # 61 módulos, numeración global estable, carga bajo demanda
+    references/                     # 68 módulos, numeración global estable, carga bajo demanda
     scripts/                        # calculadoras, perfil, diagnóstico y tests
   fuentes/                          # capa de fuente primaria offline
     MANIFIESTO.md                   # qué hay bajado, de dónde y con qué fecha
@@ -64,6 +64,7 @@ docs/
   DESARROLLO.md                     # cómo se trabaja sobre el plugin y qué se corre antes de cerrar
   TERMINAL.md                       # instalar por consola: Claude Code y Codex a mano
   AUDITORIAS.md                     # qué se verificó contra fuente primaria, y cuándo
+  REVALIDAR.md                      # con qué texto se cotejó cada bloque; la fecha la lleva la skill
   COBERTURA.md                      # el mapa de materias, para decidir por dónde crece lo cubierto
   PENDIENTES.md                     # lo que ninguna herramienta mide, con el motivo de cada uno
 ```
@@ -121,7 +122,7 @@ repetirla en dos documentos garantiza que uno de los dos mienta. La medición vi
 
 ### Las fuentes viajan con el plugin, y es una decisión
 
-`fuentes/` son 79 de los 83 MB que se lleva quien instala: el 92%. No es un descuido — **se
+`fuentes/` son 79 de los 85 MB que se lleva quien instala: el 92%. No es un descuido — **se
 prefiere que el primer uso sea offline**. Quien instala el plugin tiene los textos normativos,
 los fallos y el CCyC Comentado desde el minuto cero, sin depender de que InfoLEG esté arriba, de
 que su red llegue, ni de correr nada antes de la primera consulta.

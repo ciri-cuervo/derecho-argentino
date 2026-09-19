@@ -21,7 +21,8 @@ import tempfile
 import unittest
 
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
-HERRAMIENTA = RAIZ / "herramientas" / "verificar_respuesta.py"
+HERRAMIENTA = (RAIZ / "derecho" / "skills" / "derecho-argentino" / "scripts"
+               / "verificar_respuesta.py")
 
 
 def cargar():

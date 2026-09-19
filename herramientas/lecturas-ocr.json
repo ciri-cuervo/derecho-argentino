@@ -428,6 +428,11 @@
       "estado": "limpio",
       "fecha": "2026-09-14",
       "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+    },
+    "ccc2lp-simonet-133134-2023-12-05": {
+      "estado": "limpio",
+      "fecha": "2026-09-18",
+      "nota": "PDF generado digitalmente, no escaneado: se lee entero con y sin -layout, con acentos y comillas correctos. Lo único espurio es el sello de firma digital, que repite una secuencia de caracteres sueltos en el encabezado de cada carilla —mismo patrón que jfam8lp-dje— y no se copia. De acá salió el holding de derechos-reales.md 45."
     }
   }
 }

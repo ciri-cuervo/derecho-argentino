@@ -56,7 +56,37 @@ exclusión de un acto hay que buscarla en el régimen que corresponda, no ahí.
   incorpora: sus artículos llevan la nota de esa ley. El encuadre penal va por `penal.md` 24.
 - **No calcula.**
 
-`[INSERTAR FALLO VERIFICADO: no hay precedente bajado sobre firma digital - en particular sobre el valor probatorio de la firma electrónica del art. 5 frente a su desconocimiento, y sobre la presunción del art. 10 - aportar carátula, sala, expediente, fuero y año]`
+#### 52.4 bis Contratación por canal electrónico — precedente leído, y hasta dónde llega
+
+**Precedente leído.** *Banco de la Provincia de Buenos Aires c/ Beltrame Guadalupe Milagros s/
+Cobro sumario sumas dinero*, **Cámara Segunda de Apelación en lo Civil y Comercial de La Plata,
+Sala Primera**, causa **135587**, **19/12/2023**, voto de Sosa Aubone. Texto completo bajado desde
+JUBA en `fuentes/jurisprudencia/`.
+
+**Qué revoca.** La primera instancia había rechazado tres préstamos tramitados por home banking y
+por cajero automático, razonando que pulsar *"aceptar"* o usar el cajero **no puede asimilarse a
+una firma digital ni electrónica**. La Cámara lo descarta: ese razonamiento *"esta desconociendo la
+normativa que regula la materia, y llevaría a invalidar la gran mayoría de los contratos que se
+realizan hoy en día"*.
+
+**Los dos apoyos normativos que usa**, y sirven para armar el escrito:
+
+- **Art. 1106 CCyCN**: cuando la ley exige que el contrato conste por escrito, el requisito **se
+  satisface** si el contrato con el consumidor *"contiene soporte electrónico u otra tecnología
+  similar"*.
+- **La tuitiva no se lee al revés.** El orden público del art. 65 y la presunción a favor del
+  consumidor de los arts. 3 y 37 de la Ley 24.240 *"no se puede interpretarse en contra de los
+  consumidores para limitar su actuación a lo presencial o al papel"*.
+
+> **El límite del precedente, que es lo que hay que mirar antes de citarlo.** La Cámara razona
+> sobre contratos que **no fueron negados** y sobre una firma electrónica cuya **autoría e
+> integridad no se cuestionaron** —hubo rebeldía y operó el reconocimiento del art. 354 inc. 1
+> CPCCBA—. **No resuelve el caso del desconocimiento**, que es justamente donde el art. 5 pone la
+> carga sobre quien invoca la firma. Citarlo para un caso contradicho es pedirle lo que no dice.
+
+`[VERIFICAR PRECEDENTE: «Beltrame», Cámara Segunda de La Plata Sala Primera, causa 135587, 19/12/2023 - es doctrina de Cámara departamental: cotejar el criterio del departamento judicial del caso]`
+
+`[INSERTAR FALLO VERIFICADO: firma electrónica DESCONOCIDA - quién prueba qué cuando el atribuido la niega, art. 5 in fine de la Ley 25.506, y el alcance de la presunción del art. 10 - JUBA tiene sumarios en punto -entre otros «Afluenta c/ Celentano Acevedo», CC0002 LM, 08/06/2022, y «Banco de Galicia c/ Zamora», CC0002 SM, 16/04/2025- pero SIN texto completo publicado: un sumario no cierra este marcador]`
 
 ### 52.5 Qué preguntar antes de contestar
 

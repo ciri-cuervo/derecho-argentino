@@ -1,0 +1,31 @@
+# Valor de la UMA de la CIUDAD - art. 20 de la Ley 5.134 (t.o. Ley 6.764).
+# NO ES LA UMA DE LA CSJN. Son dos unidades de dos leyes distintas y no se reemplazan:
+#   esta es el 1,5% de la remuneración TOTAL de un juez de primera instancia DE LA CIUDAD
+#   -todos los rubros, incluida la bonificación por antigüedad de cinco años-; la nacional
+#   es el 3% de la BÁSICA de un juez federal y está en uma-csjn.csv. Buscar ésta en la
+#   página de la Corte devuelve un número oficial, vigente y de otra ley.
+# La fija el Consejo de la Magistratura de la Ciudad, que la suministra mensualmente; el
+#   CPACF la informa a las Cámaras.
+# Consulta oficial: https://consejo.jusbaires.gob.ar/servicios/uma/
+# NO HAY DESCARGADOR. Y hay una diferencia con la nacional que conviene saber antes de
+#   buscar: esa página publica UN SOLO valor, el vigente. No hay tabla ni buscador de
+#   resoluciones anteriores, así que la serie histórica no se puede reconstruir desde el
+#   organismo que la fija. Las resoluciones viejas circulan por el CPACF, que es quien las
+#   informa; usarlas exige cotejar cada una y anotar de dónde salió.
+# verificado: 2026-09-18
+# La línea de arriba la lee `estado.py` y su forma es contrato: `# verificado: AAAA-MM-DD`,
+#   la fecha en que alguien ABRIÓ la consulta oficial. Lo que vence no es el valor, es la
+#   mirada: el Consejo publica mensualmente y esta página se sobreescribe.
+#
+# CÓMO SE AGREGA UN VALOR
+#   1. Abrir la consulta oficial. Da el valor vigente, su fecha de vigencia y la resolución.
+#   2. Agregar una fila al final, con la fecha en ISO -se compara como texto-, el valor sin
+#      separador de miles, y la resolución tal como la nombra la página.
+#   3. Poner la fecha de hoy en `# verificado:`.
+#   4. Comprobar: python3 derecho/skills/derecho-argentino/scripts/uma_caba.py --fecha AAAA-MM-DD
+#
+# NO SE EXTRAPOLA HACIA ATRÁS: una fecha anterior a la primera vigencia cargada se reporta
+#   como faltante. Con un solo valor, eso significa que sólo se contesta de esa fecha en
+#   adelante, y antes se marca. Es correcto: el valor anterior no lo sabemos.
+vigencia_desde,uma,resolucion,fuente
+2026-08-01,175791,Res. SAGyP 500/2026,https://consejo.jusbaires.gob.ar/servicios/uma/

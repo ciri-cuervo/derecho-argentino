@@ -237,6 +237,8 @@ def ciego_dice(ciegos: list[str]) -> str:
 def main(argv: list[str]) -> int:
     p = argparse.ArgumentParser(description=__doc__,
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
+    p.add_argument("--purgar", action="store_true",
+                   help="Saca de la línea de base los reclamos que ya no enganchan ningún renglón")
     p.add_argument("--aceptar", action="store_true",
                    help="Fija los candidatos actuales como leídos: dejan de reportarse")
     p.add_argument("--nota", default=None, help="Por qué quedó en este estado")
@@ -266,14 +268,31 @@ def main(argv: list[str]) -> int:
         print(f"\nreclamos que este control no cruza: {len(ciegos)}")
         return 0
 
+    muertos = [k for k in revisados if k not in set(actuales)]
     if revisados:
-        print(f"línea de base: {len(revisados)} reclamos revisados el {sobre.get('fijado')}\n")
+        print(f"línea de base: {len(revisados)} reclamos revisados el {sobre.get('fijado')}"
+              + (f", de los cuales {len(muertos)} MUERTOS" if muertos else "") + "\n")
+        if muertos:
+            print("  Un reclamo muerto es una clave que ya no engancha ningún renglón: el texto")
+            print("  cambió de redacción o se mudó de archivo. No esconde nada —nunca va a")
+            print("  coincidir— pero infla la línea de base, y una lista inflada se deja de leer.")
+            print("  Lo que SÍ guarda es memoria: si el renglón volviera escrito igual, seguiría")
+            print("  aceptado sin que nadie lo relea. Por eso se purgan a pedido y no solos:")
+            print("      python3 herramientas/deuda_vencida.py --purgar\n")
     fallos = {s for ss in jurisprudencia().values() for s in ss}
     for c in nuevos:
         ruta, slug, _ = c.rsplit(":", 2)
         que = "el fallo" if slug in fallos else "la norma"
         print(f"  {ruta}")
         print(f"      reclama un faltante y nombra {que} `{slug}`, que SÍ está en fuentes/")
+
+    if a.purgar:
+        if not muertos:
+            print("no hay reclamos muertos que purgar")
+            return 0
+        _veredictos.guardar(BASE, sobre, "reclamos", sorted(set(actuales) & set(revisados)))
+        print(f"\npurgados {len(muertos)} reclamos muertos de {BASE.name}")
+        return 0
 
     if a.aceptar and nuevos:
         if a.nota:

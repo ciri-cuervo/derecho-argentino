@@ -66,6 +66,12 @@
         "veredicto": "Falso positivo, y el bueno: esta marca REEMPLAZÓ a «no se encontró ni un artículo», que era real. La URL vieja devolvía la ficha del portal; con la de `/documentos/` llega el articulado, y la ley entera son dos artículos: el 1 adhiere a la Ley 27.348 y el 2 es de forma. Leído entero contra el archivo bajado, con la fórmula de sanción y la fecha del 14/12/2017. Las condiciones que suelen citarse de esta adhesión están en los fundamentos, que no son articulado.",
         "fecha": "2026-09-16"
       }
+    ],
+    "ley-24669": [
+      {
+        "problema": "parece la ley APROBATORIA y no su contenido: solo 19 artículos y el texto remite a un anexo. Buscar una fuente que transcriba el anexo",
+        "veredicto": "Falso positivo. El archivo trae las dos cosas. El artículo único de la ley aprueba el Protocolo, y el Protocolo viene transcripto a continuación con sus DIECIOCHO artículos, leídos uno por uno el 18/09/2026: el art. 1 fija el ámbito —contratos internacionales civiles o comerciales entre particulares con domicilio o sede en distintos Estados Partes—, el art. 2 las cinco exclusiones, y los arts. 4 y 5 son los de la prórroga, que es para lo que el módulo lo usa. El detector cuenta artículos de la parte dispositiva y ve «anexo»: acá los diecinueve que contó son el artículo de la ley más los dieciocho del Protocolo."
+      }
     ]
   }
 }

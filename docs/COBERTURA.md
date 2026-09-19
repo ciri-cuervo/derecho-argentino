@@ -8,7 +8,7 @@ Existe porque ninguna herramienta puede contestar la pregunta. Todas miden contr
 `cobertura_normativa.py` reporta la norma que un módulo cita y no bajamos, **nunca la que ningún
 módulo cita todavía**. Para saber qué falta hay que traer una taxonomía de afuera y cruzarla.
 
-**Relevado el 15/09/2026.** Vale por su fecha: las taxonomías cambian y los módulos también.
+**Relevado el 15/09/2026**, y lo que vale por esa fecha es **la taxonomía**: lo que se trajo de afuera para cruzar, que cambia. **La columna de módulo no lleva fecha porque se mantiene con cada módulo que entra** —un test exige que los nombre a todos—, así que una fila más nueva que el relevamiento no es una inconsistencia.
 
 ## Las tres capas no son intercambiables
 
@@ -55,14 +55,18 @@ lo más cercano que los colegios publican como taxonomía por materia.
 ## El cruce judicial, que es el test chico y honesto
 
 **Fueros de la Provincia de Buenos Aires.** Con módulo: civil y comercial (`civil.md`),
-contencioso administrativo (`contencioso-pba.md`), familia (`familia.md`), laboral
-(`laboral.md` para el individual y `laboral-colectivo.md` para convenios, sindicatos y
-conflicto),
-penal (`penal.md` para el proceso y la parte general, `penal-leyes-especiales.md` para los ocho
-cuerpos que están fuera del Código y `ejecucion-penal.md` para lo que sigue a la condena firme) y
+contencioso administrativo (`contencioso-pba.md`), familia (`familia.md`, con `violencia-digital.md` para la modalidad digital de la Ley 26.485), laboral
+(`laboral.md` para el contrato y su extinción, `laboral-licencias.md` para las licencias,
+enfermedades inculpables y suspensiones, `laboral-riesgos.md` para la Ley 24.557 y
+`laboral-colectivo.md` para convenios, sindicatos y conflicto),
+penal (`penal.md` para el régimen procesal aplicable y la libertad durante el proceso,
+`penal-impugnacion.md` para nulidades y recursos, `penal-parte-general.md` para el Código Penal y
+la extinción de la acción, `penal-leyes-especiales.md` para los ocho cuerpos que están fuera del
+Código y `ejecucion-penal.md` para lo que sigue a la condena firme) y
 responsabilidad penal juvenil (`penal-juvenil-pba.md`, el Título III de la Ley 13.634; el régimen
-de fondo de la **Ley 27.801** está en `penal-leyes-especiales.md`). **Sin módulo: justicia
-de paz**, que no aparece en ninguno.
+de fondo de la **Ley 27.801** está en `penal-leyes-especiales.md`) y **justicia de paz**
+(`justicia-de-paz-pba.md`, la Ley 5.827 y el Código de Faltas). **Con esto, el cruce por fueros
+bonaerenses no deja ninguno sin módulo.**
 
 **Fueros nacionales y federales.** Con módulo: civil, criminal y correccional, trabajo, y seguridad
 social por vía de `previsional.md`; comercial queda cubierto en parte entre `societario.md` y
@@ -101,8 +105,9 @@ tiene desarrollo propio que ninguna taxonomía judicial muestra:
 | Pagaré y cheque | `titulos-ejecutivos.md` | Civil y comercial, por juicio ejecutivo |
 | Locación de inmuebles | `locacion.md` | Civil y comercial; el desalojo, en el fuero que corresponda |
 | Derechos reales y propiedad horizontal | `derechos-reales.md` | Civil y comercial |
+| Función notarial y documento notarial | `notarial.md` | Transversal: el fondo del CCyCN rige en todo el país y la organización es local. Con módulo: CABA (Ley 404) y PBA (Decreto-Ley 9.020). **Sin módulo: las leyes notariales de las demás provincias** |
 | Proceso civil y comercial de la Nación | `proceso-nacional.md` | Justicia nacional y federal; no se transpola a PBA |
-| Proceso civil y comercial de la PBA | `proceso-pba.md` 58 | Justicia provincial. El fuero laboral tiene rito propio y el CPCCBA le es supletorio |
+| Proceso civil y comercial de la PBA | `proceso-pba.md` | Justicia provincial. El fuero laboral tiene rito propio y el CPCCBA le es supletorio |
 | Amparo | `amparo.md` | Transversal: es la vía, no la materia. Entra por él salud, ambiental, datos y consumo |
 | Ambiental | `ambiental.md` | Civil, contencioso administrativo y federal penal por residuos peligrosos |
 | Propiedad industrial e intelectual | `propiedad-industrial.md` | Civil y comercial federal |
@@ -110,8 +115,8 @@ tiene desarrollo propio que ninguna taxonomía judicial muestra:
 | Sucesiones, porción legítima y testamentos | `sucesiones.md` | Civil, o el fuero que cada provincia asigne al sucesorio |
 | Derecho internacional privado | `dipr.md` | Transversal: no tiene fuero, se plantea dentro del que corresponda |
 | Modo órgano jurisdiccional | `sede-judicial.md` | Transversal: no tiene fuero. La pieza y la alzada sí, y van por fuero |
-| La pieza que firma el órgano | `sede-judicial-pba.md` (laboral PBA), `sede-judicial-nacional.md` 1.8 (justicia nacional y federal) y `sede-judicial-caba.md` 1.9 (CAyT de la Ciudad) | Sin módulo: la sentencia penal, la de familia y la de cualquier otra provincia |
-| Honorarios de abogados y auxiliares | `honorarios-nacional.md` 37 (Ley 27.423), `honorarios-caba.md` 42 (Ley 5.134) y `honorarios-pba.md` 1.6.6 (Ley 14.967) | Dentro del proceso donde se regula, en cualquier fuero. Sin módulo: las leyes arancelarias de las demás provincias |
+| La pieza que firma el órgano | `sede-judicial-pba.md` (laboral PBA), `sede-judicial-nacional.md` (justicia nacional y federal) y `sede-judicial-caba.md` (CAyT de la Ciudad) | Sin módulo: la sentencia penal, la de familia y la de cualquier otra provincia |
+| Honorarios de abogados y auxiliares | `honorarios-nacional.md` (Ley 27.423), `honorarios-caba.md` (Ley 5.134) y `honorarios-pba.md` (Ley 14.967) | Dentro del proceso donde se regula, en cualquier fuero. Sin módulo: las leyes arancelarias de las demás provincias |
 
 Esta tabla es la que explica por qué la vara judicial sola no alcanza: **`transito.md` y
 `datos-personales.md` no tienen fuero propio y son de los módulos más usados.**

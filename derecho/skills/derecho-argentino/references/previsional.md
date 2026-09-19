@@ -134,7 +134,7 @@ técnica es el estándar contra el cual se impugna el dictamen.
 **Lo que no da derecho.** La **invalidez total temporaria** que sólo produzca una incapacidad
 —verificada o probable— **que no exceda del tiempo en que el afiliado en relación de dependencia
 tenga derecho a percibir remuneración u otra prestación**. Se cruza con el art. 208 LCT
-(`laboral.md` 5.14): mientras corre la licencia paga, no hay retiro por invalidez.
+(`laboral-licencias.md` 5.14): mientras corre la licencia paga, no hay retiro por invalidez.
 
 **Solicitud (art. 49).** Hay que acreditar identidad, denunciar domicilio real y adjuntar
 **estudios, diagnósticos y certificaciones médicas**, que deben estar **formuladas y firmadas
@@ -176,6 +176,70 @@ declarado culpable de la separación personal o del divorcio.
 los **herederos declarados judicialmente** — artículo que debe leerse con la advertencia del
 encabezado de este módulo sobre el régimen de capitalización.
 
+### 32.4 bis Pensión Universal para el Adulto Mayor — Ley 27.260
+
+**No es una jubilación, y confundirla cambia el reclamo entero.** El **art. 13 de la Ley 27.260**
+la instituye con alcance nacional, **vitalicia y no contributiva**, desde los **sesenta y cinco
+años**. No pide aportes: pide requisitos de ciudadanía, de no acumulación y de residencia.
+
+| Requisito | Qué exige el art. 13 |
+| --- | --- |
+| Ciudadanía | Argentino nativo, por opción o naturalizado —en este último caso con **diez años** de residencia legal anteriores a la solicitud— o extranjero con **veinte años** de residencia legal, **diez de ellos inmediatamente anteriores** |
+| No acumulación | **No ser beneficiario de jubilación, pensión o retiro**, contributivo o no contributivo |
+| Desempleo | No estar percibiendo la prestación de la Ley 24.013 |
+| Opción | Quien percibe **una única** prestación **puede optar** por ésta |
+| Residencia | Mantenerla en el país |
+
+**El haber y los caracteres, que deciden qué se puede pedir sobre ella.** Es el **80% del haber
+mínimo garantizado** del art. 125 de la Ley 24.241 y se actualiza por la movilidad del art. 32
+(art. 14). Y el art. 15 la hace **personalísima**, con una consecuencia que se pasa por alto: **no
+genera derecho a pensión**, así que al fallecimiento no hay pensión derivada que reclamar. Es
+inembargable **salvo cuotas alimentarias y hasta el 20%** del haber mensual.
+
+**Quien ya cobra una pensión no contributiva por vejez puede optar** por la PUAM si cumple todos
+los requisitos. Y desde el **art. 37 de la Ley 27.467**, ANSES hace **evaluación socioeconómica y
+patrimonial previa** según criterios que fija la reglamentación.
+
+`[VERIFICAR MONTO ACTUALIZADO: haber de la PUAM - es el 80% del haber mínimo garantizado vigente, que se mueve por movilidad y no sale de la ley]`
+
+### 32.4 ter Dónde se demanda, y qué NO hay que agotar antes
+
+**El fuero existe por ley propia.** La **Ley 24.655** crea la Justicia Federal de Primera Instancia
+de la Seguridad Social y su **art. 2** fija la competencia: las causas del art. 15 de la Ley
+24.463, las demandas sobre aplicación del **SIJP de la Ley 24.241**, los **regímenes de retiros de
+las Fuerzas Armadas y de Seguridad**, el **amparo por mora** del art. 28 de la Ley 19.549 en
+materia de seguridad social, y las ejecuciones de créditos de la seguridad social.
+
+**Y la regla que más sorprende al que viene de lo contencioso administrativo:** el art. 15 de la
+Ley 24.463, **en el texto que le dio el art. 3 de la Ley 24.655**, dice que las resoluciones de
+ANSES se impugnan por **demanda de conocimiento pleno** —trámite del proceso sumario del CPCCN—
+dentro del plazo de caducidad del **art. 25 inc. a de la Ley 19.549**, y que **"para la
+habilitación de la instancia no será necesaria la interposición de recurso alguno en sede
+administrativa"**.
+
+**Y ese art. 25 no es el de siempre: la Ley 27.742 lo sustituyó** (art. 43, B.O. 08/07/2024). El
+plazo es hoy de **ciento ochenta días hábiles judiciales**, y el **inciso a** —el que la remisión
+usa— cuenta **desde la notificación al interesado** del acto de alcance particular. El **art. 28**,
+el del amparo por mora, también fue sustituido (art. 47 de la misma ley) y ahora trae plazos de
+cinco días hábiles judiciales para el informe y para el traslado, y apelación **al solo efecto
+devolutivo** en tres supuestos tasados. **Un cómputo hecho con el texto anterior da otro
+resultado.**
+
+> **No se transpola el agotamiento de la vía.** Lo que `administrativo-nacional.md` 46 exige como
+> regla general no rige acá: la ley lo excluye expresamente. Lo que **sí** corre es el plazo de
+> caducidad, así que el recaudo no desaparece, cambia de naturaleza.
+
+**En las provincias la demanda va ante los juzgados federales con asiento en ellas**, y la
+apelación de las sentencias de los juzgados de la Capital, ante la Cámara Federal de la Seguridad
+Social (art. 4, que sustituye el art. 39 bis inc. a del Decreto-Ley 1.285/58).
+
+**Una trampa que está en la letra:** el art. 15 manda tramitar *"por las reglas del proceso sumario
+previsto en el Código Procesal Civil y Comercial de la Nación"*, y el texto consolidado de la Ley
+24.463 lo sigue diciendo así. Qué rito corresponde hoy, si el sumario del CPCCN fue después
+modificado, no se resuelve de memoria:
+
+`[VERIFICAR VIGENCIA: subsistencia del proceso sumario del CPCCN al que remite el art. 15 de la Ley 24.463 - las reformas al CPCCN posteriores a 1996 no están cotejadas en fuentes/normas/]`
+
 ### 32.5 Antes de reclamar
 
 1. **Qué prestación se pide** y si sus requisitos son los de la PBU, que operan como base para la
@@ -191,13 +255,19 @@ encabezado de este módulo sobre el régimen de capitalización.
 6. **Si el artículo que se invoca pertenece al régimen de capitalización**, que el consolidado lo
    muestre entero **no significa que esté vigente**: la derogación de la Ley 26.425 es orgánica y
    sólo marcó el art. 113.
-7. **Los montos no salen de la ley**: se actualizan por movilidad y van con marcador.
+7. **Si quien consulta tiene 65 años y no reúne aportes**, si le sirve la **PUAM** del art. 13 de
+   la Ley 27.260 —y que **no genera derecho a pensión**, lo que cambia qué se le dice a la familia—.
+8. **Antes de demandar**, que el plazo de caducidad del art. 25 inc. a de la Ley 19.549 esté vivo:
+   **no hay recurso administrativo que interponer**, pero el plazo corre igual.
+9. **Los montos no salen de la ley**: se actualizan por movilidad y van con marcador.
 
 ---
 
-> **Lo que este módulo no cubre:** la movilidad y su cálculo, las prestaciones no contributivas,
+> **Lo que este módulo no cubre:** la movilidad y su cálculo, las **demás** prestaciones no
+> contributivas —la PUAM del art. 13 de la Ley 27.260 sí entró, en 32.4 bis—,
 > los regímenes diferenciales y especiales, el cómputo de servicios y la reciprocidad
-> jubilatoria, y el procedimiento administrativo ante ANSES. **La Ley 26.425 ya no está en esta
+> jubilatoria, y el procedimiento administrativo ante ANSES, que es distinto de la habilitación de
+> la instancia judicial de 32.4 ter. **La Ley 26.425 ya no está en esta
 > lista**: bajado su texto, entraron la prestación adicional por permanencia (32.2 bis) y el
 > destino de cada modalidad del régimen de capitalización (32.2 ter). Para
 > eso rige el ruteo de `perfiles-heredados.md` sección 19, **con su advertencia**, y hay tres modelos en
