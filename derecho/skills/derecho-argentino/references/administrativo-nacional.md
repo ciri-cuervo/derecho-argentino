@@ -46,11 +46,20 @@ judicial** en los supuestos que el artículo contempla.
 **Nulidad absoluta e insanable (art. 14):** cuando la voluntad resulte excluida por error esencial,
 dolo, violencia física o moral, y los demás vicios enumerados.
 
-**Y el límite a la revocación de oficio (art. 17), que es lo que protege al administrado:** el acto
-de alcance particular con nulidad absoluta es irregular y **debe revocarse en sede administrativa**
-— *pero* si ya fue notificado y **generó derechos subjetivos que se estén cumpliendo**, o su objeto
-se cumplió totalmente, la Administración **no puede revocarlo por sí** y debe ir a pedir su nulidad
-judicialmente. Es el argumento central contra una revocación sorpresiva de un beneficio.
+**Y el límite a la revocación de oficio (art. 17, texto Ley 27.742), que es lo que protege al
+administrado:** el acto de alcance particular con nulidad absoluta es irregular y **debe revocarse
+en sede administrativa** — *pero* si ya fue notificado y **generó derechos subjetivos que se estén
+cumpliendo**, o su objeto se cumplió totalmente, la Administración **no puede revocarlo por sí** y
+debe ir a pedir su nulidad judicialmente. Es el argumento central contra una revocación sorpresiva
+de un beneficio.
+
+**Ese límite tiene una puerta de salida y está en el mismo artículo**, que es lo que más se pasa
+por alto: el propio párrafo primero dice *"salvo en el supuesto previsto en el cuarto párrafo de
+este artículo"*, y ese cuarto párrafo habilita revocar de oficio —regular o irregular— cuando la
+revocación **favorece al administrado sin causar perjuicio a terceros**, cuando **se acreditara
+dolo del administrado**, o cuando el derecho se otorgó **a título precario**. Antes de invocar la
+estabilidad conviene mirar si el caso cae ahí. Y por el párrafo segundo, cuando la revocación no se
+admite en sede administrativa **tampoco pueden suspenderse los efectos** del acto en esa sede.
 
 ### 46.3.1 Hasta dónde llega ese límite — dos fallos de la Corte
 
@@ -72,11 +81,27 @@ revocatoria prevista en la ley, pues sería infinito el universo de personas que
 sentirse perjudicadas"*, con la consecuencia de **reinstalar un acto ilegítimo** en el
 ordenamiento.
 
-**El error que corrige, y que conviene no repetir: los arts. 17 y 18 no se mezclan.** El límite de
-*"no causar perjuicio a terceros"* es del **art. 18** y rige la revocación de un acto **regular**
-—cuyo principio es la estabilidad— hecha **en favor del particular**. El art. 17 gobierna otra
-cosa: el acto **irregular** revocado en defensa del interés público. La Cámara aplicó el límite del
-18 a un caso del 17, y en eso se la revoca.
+**El error que corrige: el límite del acto regular no se le aplica al irregular.** La Cámara
+tomó el recaudo de que la revocación no perjudique a terceros —que rige la revocación de un acto
+**regular**, cuyo principio es la estabilidad, hecha **en favor del particular**— y lo llevó a un
+caso de acto **irregular** revocado en defensa del interés público. Son dos regímenes y no se
+mezclan.
+
+> **Los números de ese fallo son los de la ley anterior, y hay que traducirlos.** En 2018 el acto
+> regular era el **art. 18**, y ahí estaba el *"sin causar perjuicio a terceros"*. El **art. 36 de
+> la Ley 27.742** (B.O. 08/07/2024) reescribió el **art. 17** y le metió los dos regímenes
+> adentro: el acto regular es hoy su **párrafo tercero** y el recaudo, su **párrafo cuarto**
+> —*"si la revocación [...] favorece al administrado sin causar perjuicio a terceros, si se
+> acreditara dolo del administrado o si el derecho se hubiere otorgado expresa y válidamente a
+> título precario"*—. El **art. 18**, sustituido por el art. 37 de la misma ley, pasó a gobernar
+> otra cosa: la **derogación de los actos de alcance general**.
+>
+> **Y los rótulos del texto consolidado quedaron cruzados**, así que no sirven de guía: InfoLEG
+> titula al art. 17 *"Revocación del acto nulo"* cuando ya trae también el regular, y al art. 18
+> *"Revocación del acto regular"* cuando habla de alcance general. Lo que manda es el articulado.
+>
+> Para un acto anterior al 09/07/2024 rige el texto viejo y la cita del fallo se lee tal cual.
+> `[VERIFICAR PRECEDENTE: "Talleres Navales Dársena Norte" Fallos 341:1679 - confirmar que la distinción entre acto regular e irregular sobrevive a la refundición de los arts. 17 y 18 por la Ley 27.742, y si hay precedente posterior sobre el texto nuevo]`
 
 **Y el conocimiento del vicio devuelve la potestad.** El titular de esos derechos subjetivos que
 **conoció el vicio** *"hace renacer la facultad extintiva de la autoridad administrativa"* (Fallos
@@ -171,6 +196,17 @@ la objeción que se opone.
 
 Cotejada contra `fuentes/normas/ley-25871.txt`. Es un procedimiento administrativo especial, y
 tres de sus reglas **no salen del esquema general** de 46.4 y 46.5.
+
+> **El texto que sigue es el del Decreto 366/2025, y eso hay que decirlo antes de citar un
+> artículo.** Ese DNU —B.O. **29/05/2025**, por su art. 34, con vigencia desde la publicación—
+> **sustituyó treinta y un artículos de la Ley 25.871**, entre ellos los arts. **8, 29, 61, 62,
+> 70 y 86** que este bloque desarrolla. Dos consecuencias: para un hecho anterior al 29/05/2025
+> rige el texto viejo, y **es un decreto de necesidad y urgencia reformando una ley del
+> Congreso**, así que su validez es discutible por sí misma y su trámite ante la Comisión
+> Bicameral del art. 99 inc. 3 CN **no está verificado acá** — el mismo reparo que `penal-impugnacion.md`
+> 24.5.1 bis hace sobre el Decreto 941/2025. El decreto está bajado aparte, en
+> `fuentes/normas/decreto-366-2025.txt`.
+> `[REVISIÓN NORMATIVA REQUERIDA: el Decreto 366/2025 sustituyó 31 artículos de la Ley 25.871 y derogó otros tres - verificar su trámite ante la Comisión Bicameral del art. 99 inc. 3 CN y si hubo pronunciamiento judicial sobre su validez antes de apoyar un planteo en el texto vigente]`
 
 **La retención necesita orden judicial (art. 70).** Firme la expulsión, la Dirección Nacional de
 Migraciones **solicita a la autoridad judicial competente que ordene la retención, por resolución

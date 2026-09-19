@@ -88,7 +88,7 @@ diferencia decide el caso.
 ## 5. Qué pasa con la prueba
 
 Si se acoge el planteo de "Fiorentino", la exclusión alcanza al secuestro. El desarrollo de la regla
-está en `penal.md` 24.5, donde la línea "Rayford" que **"Quaranta"** toma y reitera fija que si hay
+está en `penal-impugnacion.md` 24.5, donde la línea "Rayford" que **"Quaranta"** toma y reitera fija que si hay
 un solo cauce de investigación y ese cauce estuvo viciado, la ilegalidad contamina las pruebas
 originadas en él. Esos precedentes **no están bajados**: se citan a través de "Quaranta", que sí lo
 está.

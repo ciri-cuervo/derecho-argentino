@@ -27,6 +27,869 @@ Lo que va en cada lugar:
 
 ---
 
+## 15/09/2026 - Seis normas citadas sin texto, y cómo se cierra ese frente
+
+Entrada trasladada: el registro estaba en el cuerpo de `references/changelog-normativo.md`, que la
+skill carga en cada consulta. **Es contabilidad de deuda del repositorio, no derecho**, y por eso
+pasa acá.
+
+**Qué se bajó.** Seis leyes que los módulos citaban con articulado y sin texto: la **Ley 27.798**
+—Presupuesto 2026, por su art. 62—, las **Leyes 25.390, 26.200 y 26.023** —Estatuto de Roma, su
+implementación y la Convención Interamericana contra el Terrorismo, que delimitan el ámbito del
+juicio en ausencia— y las **Leyes 23.857 y 25.358**, los dos convenios de restitución
+internacional.
+
+**Dos resultados que corrigieron contenido**, y son la razón por la que bajar la norma no es sólo
+completar el catálogo: el art. 62 de la 27.798 resultó ser **sólo de deuda pública provincial** y
+no toca el crédito laboral; y el **art. 8 bis del Estatuto de Roma no está en el anexo de la Ley
+25.390** —es de las enmiendas de 2010—, así que hay que verificar por qué instrumento entró al
+derecho argentino. Lo mismo había pasado con la Ley 25.323, de cuyo texto salieron dos reglas que
+ningún módulo traía: la **no acumulación** del art. 1 con los arts. 8, 9, 10 y 15 de la Ley 24.013
+y la **facultad judicial de reducir hasta eximir** el recargo del art. 2. Están escritas en
+`laboral.md` 5.3 y `concursos.md` 29.
+
+**Cómo se mantiene cerrado el frente.** `herramientas/cobertura_normativa.py` cruza las leyes que
+los módulos citan con articulado contra las declaradas en `normas.json`, y **la medición viva la
+da el comando**. Toda ley citada sin estar declarada tiene veredicto en
+`herramientas/cobertura-revisada.json` con su motivo; los que más se repiten son que la norma es
+una reforma ya incorporada al consolidado de otra que sí está bajada, que es una mención histórica
+de una norma derogada, o que es una cita bibliográfica del índice doctrinario. El script vuelve a
+reclamar cualquier ley sin veredicto, así que la cuenta se mantiene sola y no se escribe en ningún
+lado. Las declaradas sin URL oficial identificada quedan visibles en el catálogo, con su detalle en
+`derecho/fuentes/MANIFIESTO.md`.
+
+**Es una lista para revisar, no para aplicar**: la detección mira una ventana de texto y se
+equivoca en los dos sentidos, así que antes de agregar una norma hay que abrir el módulo y ver
+cómo se usa.
+
+---
+
+## 18/09/2026 - La Justicia de Paz bonaerense, que era lo último del catálogo sin escribir
+
+**Y el texto ya estaba bajado.** `PENDIENTES.md` la daba por la única materia sin nada escrito, y
+al ir a buscar qué faltaba apareció que la **Ley 5.827, orgánica del Poder Judicial de PBA**, ya
+estaba en `fuentes/` desde antes — con el fuero entero adentro. Lo que faltaba era la prosa y una
+norma: el **Código de Faltas**, que se bajó ese día contra `normas.gba.gob.ar`
+—`pba-decreto-ley-8031-1973.txt`, texto ordenado por Decreto 181/87 y consolidado hasta la Ley
+15.406—. Se verificó antes de bajarlo que está **vigente con modificaciones**: la Ley 15.041
+derogó varios artículos, no el cuerpo.
+
+**Lo que decide el fuero, y no se parece a ningún otro módulo: la competencia depende del
+partido.** El **art. 61, texto de la Ley 13.645**, parte los Juzgados de Paz en dos grupos y
+enumera **veinte partidos del conurbano** por su nombre; ésos **no tienen familia**. El inciso II
+dice *"los restantes"*, y a ésos les suma alimentos, tenencia y régimen de visitas, suspensión de
+la patria potestad, internaciones de urgencia con aviso en veinticuatro horas y **hábeas corpus**.
+De ahí sale el nodo bloqueante del módulo: **antes de contestar se pregunta el partido**.
+
+**Dos remisiones a normas derogadas, y las dos definen competencia o recurso.**
+
+- El **art. 61 inc. II a)** da competencia en *"separación personal, divorcio vincular y
+  conversión"* **en los términos de los arts. 205, 215, 216 y 238 del Código Civil**, y el inc. 2
+  a) en el asentimiento conyugal del **art. 1277**. Cotejado contra `ccycn-26994.txt`: la
+  separación personal ya no se decreta —hay divorcio único del art. 437—, el asentimiento es hoy
+  el art. 470, **y la conversión sobrevive por texto expreso**: la norma complementaria Primera
+  del art. 8 de la Ley 26.994 la mantiene para las decretadas antes de la vigencia del Código, con
+  competencia propia y resolución **sin trámite alguno**. Esa es la porción del inciso que todavía
+  tiene objeto.
+- El **art. 144 del Código de Faltas** manda la apelación a la *"Cámara de Apelaciones en lo
+  Criminal y Correccional"* y al *"Capítulo III del Libro IV del Código de Procedimiento Penal
+  (t.o. Decreto 1174/86)"*. Los dos nombres son de estructuras que ya no existen: el rito penal
+  bonaerense es la **Ley 11.922** y la alzada la nombra el **art. 51 de la Ley 5.827**, que además
+  trae la regla que más se pasa por alto — **la alzada cambia con la materia dentro del mismo
+  juzgado**: Cámara Civil y Comercial, salvo faltas, donde es la de Apelación y Garantías en lo
+  Penal.
+
+**Lo que el fuero tiene de propio en materia contravencional**, cotejado artículo por artículo:
+prescripción de la acción y de la pena en **un año** (art. 33, texto Ley 10.580), con tres causales
+de interrupción y ninguna más; parte general del Código Penal y CPP provincial **supletorios**
+(art. 3); cinco penas (art. 5); detención preventiva de **doce horas**; declaración dentro de
+**veinticuatro**, con notificación del derecho a defensor; sentencia en **diez días** desde la
+planilla de antecedentes; y el recurso, que **suspende la ejecución** salvo para el detenido.
+
+**Entró como fuero y no como sección**, que es la barra alta: módulo con fuente primaria a la
+vista, norma bajada por el descargador, disparador propio y caso de prueba —
+`justicia-de-paz-pba-competencia-y-faltas`, con el partido como dato que falta a propósito—.
+**Lo que queda pendiente es jurisprudencia: no hay un solo fallo bajado de este fuero**, y las dos
+remisiones a normas derogadas no las resuelve ningún precedente cargado.
+
+---
+
+## 18/09/2026 - Barrido por el defecto del art. 245 sobre todos los módulos: cuatro enseñaban el texto nuevo sin decir desde cuándo
+
+**La pregunta era si el hueco de `laboral.md` 5.2 estaba en otros módulos.** El defecto tiene
+firma: el módulo desarrolla un artículo **sustituido hace poco**, describe el texto vigente y no
+dice qué rige para los hechos anteriores. Nada lo medía: `reformas_no_leidas.py` comprueba que el
+módulo **nombre** la reforma, no que diga desde cuándo se aplica.
+
+**Cómo se barrió.** Para cada `.txt` de `fuentes/normas/` se extrajo, artículo por artículo, la
+nota de sustitución con fecha de B.O. —75 normas la traen, **36 con alguna posterior al
+01/01/2024**— y se cruzó contra los artículos que cada módulo cita en la misma unidad de texto.
+
+**Cuatro hallazgos sobre las referencias principales.** El barrido se corrió sobre todos los
+módulos y después se leyó módulo por módulo, porque el cruce automático confunde el `art. N` de una
+ley con el de otra nombrada en el mismo párrafo.
+
+**Primero, y es un plazo fatal.** El **art. 46 de la Ley 18.345**, texto del art. 82 de
+la Ley 27.802, incorporó la **caducidad de instancia sin intimación previa** al proceso laboral
+nacional. El consolidado remite a la regla de aplicación, y ahí está lo que faltaba: el **art. 93
+de la Ley 27.802** aplica las modificaciones de ese Título **a todos los procesos EN TRÁMITE**
+desde el día siguiente a la publicación, el 07/03/2026, salvo los arts. 79 y 80. **Una causa
+laboral iniciada antes de la reforma puede caducar**, que es lo contrario de lo que se supone por
+inercia. `laboral.md` 5.9 y la tabla de `plazos.md` enunciaban la caducidad sin esa frase.
+
+Con el mismo cotejo entraron dos cosas más: el **art. 94**, que a los arts. 79 y 80 —competencia
+por materia y territorial— los aplica en los procesos en trámite **sólo donde la competencia
+estuviere pendiente de resolución**; y la nota del **art. 217**, que registra la prórroga del
+**art. 27 del Decreto 408/2026** al **01/11/2026** para el Título II, Fondo de Asistencia Laboral.
+
+**Segundo: `empleo-publico.md` desarrollaba la cesantía sin decir que era texto nuevo.** La Ley
+27.742 sustituyó **diez artículos de la Ley 25.164** —11, 12, 14, 18, 20, 24, 31, 32, 33 y 37, con
+vigencia desde el 09/07/2024—, y entre ellos el **art. 32, causales de cesantía**, que es el
+corazón del módulo. Toda doctrina anterior a julio de 2024 sobre el régimen disciplinario se
+escribió sobre otro articulado.
+
+**Tercero: el texto de la Ley 25.871 que enseña `administrativo-nacional.md` es el de un DNU que el
+módulo no nombraba.** El **Decreto 366/2025**, B.O. **29/05/2025**, sustituyó por su art. 34
+**treinta y un artículos** —entre ellos los arts. 8, 29, 61, 62, 70 y 86 que el bloque desarrolla—
+y derogó otros tres. El módulo tenía un aviso genérico sobre "decretos de necesidad y urgencia
+sucesivos"; ahora nombra cuál, con su fecha, y dice lo que eso implica: **es un DNU reformando una
+ley del Congreso**, con la validez discutible por sí misma y el trámite ante la Comisión Bicameral
+sin verificar, igual que el Decreto 941/2025 en inteligencia. El decreto se bajó.
+
+**Y cuarto, el de los arts. 17 y 18 de la LNPA**, que está en la entrada de más abajo.
+
+**Lo que quedó limpio, que también se mide.** `laboral-colectivo.md` nombra el texto artículo por
+artículo, con la fecha y **diciendo cuáles conservan el anterior**; `laboral-licencias.md` hace lo
+mismo con los arts. 209 y 210; el bloque de trabajo agrario de `laboral.md` acierta 8 de 8;
+`tributario.md` lo dice en el título de la sección —*"el art. 56 cambió en enero de 2026"*—;
+`salud-discapacidad.md` etiqueta cada artículo con su *"texto Ley 27.793"*. Y los candidatos de los
+cuatro módulos penales eran todos colisiones de numeración entre los cuatro códigos procesales: el
+art. 290 que el cruce marcaba es la reposición del **CPP de la Ciudad**, no la rebeldía de la Ley
+23.984 ni la dirección del debate del CPPF.
+
+**El barrido NO queda como herramienta, y el motivo es el mismo que el repositorio le aplica a
+cualquier alarma.** Atribuir un `art. N` suelto a una de las leyes nombradas en el párrafo no se
+puede hacer con un regex: da **26 candidatos** sobre el árbol de hoy y, leídos, casi todos son
+colisiones de número entre leyes distintas —el `art. 7` de la Ley 26.682 contado como art. 7 de la
+Ley 24.901, el `art. 17` de la Ley 25.164 como art. 17 de la LNPA—. Una alarma que suena
+veintiséis veces para acertar una se apaga sola. Queda escrito acá **cómo se corre**, para
+repetirlo a mano después de una reforma grande, que es cuando sirve.
+
+---
+
+## 18/09/2026 - El eval de despido, corrido dos veces: bajaron los turnos y tres rúbricas medían mal
+
+**Qué se comparó.** El caso `laboral-despido-tramos-reforma-pba`, misma forma las dos veces
+—`with-without`, tres corridas por brazo, concurrencia 2— para que los números se pudieran leer de
+frente. Las dos el 18/09/2026, la primera antes de escribir la disciplina de lectura en la sección 16
+del `SKILL.md` y la segunda después — los directorios de `evals/results/` las fechan en UTC y por
+eso la segunda figura como del 19.
+
+| | Antes | Después |
+| --- | --- | --- |
+| Turnos con la skill | 20 · 25 · 18 → **21,0** | 11 · 18 · 9 → **12,7** |
+| Costo por corrida | **US$ 2,30** | **US$ 2,07** |
+| Score con la skill | 0,583 | 0,633 |
+| Score sin la skill | 0,583 | 0,500 |
+
+**Lo único que se mueve más allá del ruido son los turnos: −40%.** El costo baja apenas un 10%
+porque los turnos que se ahorraron eran los baratos —greps de rescate, relecturas parciales—: lo
+caro es cargar `SKILL.md` y `laboral.md` la primera vez, que no se evita. **El score no se puede
+leer:** el brazo sin skill se movió 0,083 sin que nada cambiara ahí, así que un movimiento de 0,05
+en el otro no dice nada. Tres corridas por brazo y ningún modelo fijado.
+
+**Y el eval destapó lo que no se estaba buscando: tres rúbricas medían mal.** Se vio leyendo las
+respuestas, no el score.
+
+- **`base-del-245` afirmaba el derecho equivocado.** Pedía que la base *"excluya el SAC"*, que es
+  el párrafo de la remuneración *"devengada y pagada en cada mes calendario"* incorporado por el
+  **art. 51 de la Ley 27.802** (B.O. 06/03/2026). El despido del caso es del **15/10/2025**.
+  Cotejado contra `lct-20744.txt` —la única nota de sustitución del art. 245 es la de la 27.802— y
+  contra `ley-27742.txt`, que no lo tocó. Reprobó 3 de 3 respuestas que decían bien que regía el
+  texto anterior.
+- **`no-liquida-multas-derogadas` medía la maqueta.** Exigía los agravantes derogados *"en el
+  cuadro de rubros"*; reprobó respuestas que los resolvían en un bloque aparte y advertían sobre
+  pluspetición, con un cuadro de rubros que —con razón— no lista lo que no existe. Es su segunda
+  reescritura por la misma causa.
+- **`antiguedad-multiplicador` castigaba la comparación.** Pedía *"no dejar la elección abierta"*
+  entre la fecha real y la registrada, y reprobó una respuesta que liquidaba con la real y además
+  cuantificaba la diferencia con la registrada, que es lo que se le pide a un análisis de parte.
+
+Las tres se reescribieron alrededor del hecho y en positivo, con la medición al lado. **`no-cita-la-11653`
+se dejó como está**: ahí el ruido es del juez —dos respuestas equivalentes votadas distinto— y
+mover la vara para que apruebe el caso conocido es calibrar, no corregir.
+
+**Lo que el módulo no tenía, y es el hallazgo de fondo.** `laboral.md` 5.2 desarrollaba **sólo** el
+régimen vigente. Para un acto extintivo entre el 09/07/2024 y el 05/03/2026 —hoy, el que más
+llega— el módulo no decía cuál era la base, y el análisis tenía que deducirlo. Se escribió
+**5.2.1** con lo único afirmable: que rige el texto anterior, que `fuentes/` trae el consolidado y
+por lo tanto no lo incluye, que el mínimo es de **dos meses** y el piso del 67% es **doctrina
+"Vizzoti"** y no texto legal —las dos cosas ya estaban decididas dentro de `liquidacion_lct.py`—,
+que la **exclusividad reparatoria** de los tres últimos párrafos **no existe** en ese tramo, y que
+la incidencia del SAC en la base es criterio discutido, con marcador.
+
+**Las reescrituras de las rúbricas no están medidas contra una corrida**: la próxima dirá si el
+0 de 3 era la vara o el módulo.
+
+---
+
+## 18/09/2026 - Dos citas que no tenían texto detrás: los arts. 17 y 18 de la LNPA y una disposición de consumo
+
+Las dos salieron de cruzar **las 158 citas entrecomilladas verificables** de los módulos contra
+`fuentes/` y `kb/` —incluidos los `.html` y los `.pdf` reextraídos—. Resolvieron 147.
+
+**La LNPA: el módulo enseñaba la numeración anterior a la Ley 27.742.** `administrativo-nacional.md`
+46.3.1 explica «Talleres Navales Dársena Norte», Fallos 341:1679, **del 21/11/2018**, y decía en
+presente que el recaudo de *"no causar perjuicio a terceros"* es del **art. 18**. Cotejado contra
+`fuentes/normas/lnpa-19549.txt`: el **art. 36 de la Ley 27.742** (B.O. 08/07/2024) refundió los dos
+regímenes dentro del **art. 17** —el acto regular es su párrafo tercero y el recaudo su párrafo
+cuarto, junto con el dolo del administrado y el título precario— y el **art. 37** dejó el art. 18
+para la derogación de **actos de alcance general**. La cita tampoco era la cita: el texto dice
+*"sin causar perjuicio a terceros"*.
+
+**Y los rótulos del consolidado quedaron cruzados**, que es la trampa que hace caer: InfoLEG titula
+al art. 17 *"Revocación del acto nulo"* cuando ya trae también el regular, y al art. 18
+*"Revocación del acto regular"* cuando habla de alcance general. **El rótulo no es el articulado.**
+El bloque quedó con la traducción escrita, con la salvedad de que para un acto anterior al
+09/07/2024 rige el texto viejo, y con marcador sobre si la distinción del fallo sobrevive a la
+refundición.
+
+**Consumo: se citaba textual una norma que no estaba bajada.** `consumidor.md` 17.2 citaba la
+**Disposición SSDCyLC 890/2025** entre comillas sin texto en `fuentes/`, y **ninguna herramienta
+podía verlo**: `cobertura_normativa.py` cruza números de ley y de decreto, no disposiciones de
+subsecretaría. Bajada —`disposicion-890-2025.txt`, InfoLEG— y cotejada. La cita era correcta, y el
+texto agregó dos cosas que el módulo no tenía: el **art. 2 inc. a** le manda *analizar, asignar y
+derivar* según el art. 41 LDC, lo que confirma que es mesa de entrada y no instancia previa; y el
+**art. 4 invita a adherir a las provincias que faltan**, así que el *"único medio formal"* rige
+donde hubo adhesión y **la norma no trae la lista**. Deroga la Resolución 274/2021.
+
+**Lo que queda medido como punto ciego:** una cita entrecomillada a una disposición, resolución o
+acordada no la cruza ningún detector. Se sigue leyendo.
+
+---
+
+## 18/09/2026 - Penal se parte en tres: el Código Penal por un lado y el proceso por el otro
+
+**No es una auditoría normativa: es una partición**, y queda registrada acá por lo mismo que las
+de `laboral.md`: movió contenido ya cotejado y el corte dejó algo a la vista.
+
+**El corte es por materia, y la materia estaba escrita en el título del módulo sin cumplirse.**
+El título de `penal.md` prometía régimen aplicable, proceso y ejecución, y dos de sus bloques no
+eran ninguna de las tres cosas: 24.4 —extinción de la acción, prescripción, probation— y 24.7 —imputabilidad,
+tentativa, participación, concurso, reincidencia, condena condicional— son **Código Penal**, que
+rige igual cualquiera sea el código procesal. Salieron juntos a `penal-parte-general.md`. Nulidades
+(24.5) y recursos (24.6) salieron a `penal-impugnacion.md`: son las dos formas de atacar —la
+nulidad ataca un acto, el recurso ataca una decisión—, las dos con el plazo encima y las dos
+terminando en la misma pregunta, qué solución se pretende.
+
+**Lo que NO salió, y es la decisión que importa.** Por tamaño, 24.3 —coerción y libertad durante
+el proceso— era el candidato: 213 renglones y una consulta acotadísima, la excarcelación. Se
+queda, y el motivo se lee en su índice: 24.3.1 es el CPPF, 24.3.2 la Ley 23.984, 24.3.3 el CPP PBA
+y 24.3.4 el de la Ciudad. Está organizado **por el mismo eje que 24.1**, que es qué código rige, y
+quien pregunta por una preventiva necesita las dos cosas en la misma lectura. Sacarlo habría
+partido la elección del código de su aplicación.
+
+Lo que carga una consulta penal, medido en KB sobre `SKILL.md` más `intake.md`, `marcadores.md` y
+el módulo o los módulos que la fila de ruteo indica:
+
+| Consulta | Antes | Ahora |
+| --- | --- | --- |
+| Prescripción, probation o parte general | 165 KB | **108 KB** |
+| Excarcelación, preventiva o extradición | 165 KB | **108 KB** |
+| Nulidad o recurso | 165 KB | **139 KB** |
+
+La última fila es el costo del corte y estaba previsto: cuál código rige define el nombre del
+recurso, su plazo y sus motivos, así que esa consulta abre `penal-impugnacion.md` **y** `penal.md`
+24.1. La fila de ruteo lo dice, y la cabecera del módulo nuevo también.
+
+**Lo que el corte destapó, y era lo contrario de lo que se buscaba.** Después de partir, la pieza
+más pesada de una consulta penal ya no es el módulo sino el **núcleo: 72 KB** entre `SKILL.md`,
+`intake.md` y `marcadores.md`, contra 35 KB del módulo más grande de los tres. El próximo
+rendimiento no está en seguir partiendo módulos.
+
+**Y destapó dos números repetidos.** `penal.md` tenía dos secciones `24.6.5` y dos `24.10`, con
+las filas de `changelog-normativo.md` y `REVALIDAR.md` apuntando a una de las dos. El control que
+debía verlo juntaba los módulos en un `set` y los fundía en una entrada: la alarma que no suena
+nunca. Hoy hay un test que cuenta por archivo, y su mutación está nombrada en el docstring.
+
+---
+
+## 18/09/2026 - Los seis frentes de derecho internacional, y dos códigos que no dicen lo mismo
+
+**Uno de los seis no necesitaba descargar nada.** El exequátur estaba sin cubrir no por falta de
+fuente sino por falta de dueño: es **procesal**, así que no entró con el Título IV del CCyCN, y
+`proceso-nacional.md`, `proceso-pba.md` y `ejecucion.md` tampoco lo tomaron. Los dos códigos ya
+estaban bajados desde antes.
+
+**Y al leerlos aparecieron diferencias de fondo entre Nación y Provincia.** El CPCCN pide **cinco**
+requisitos y el CPCCBA **seis**. Dos son decisivos: el bonaerense exige además *"que la obligación
+que haya constituido el objeto del juicio sea válida según nuestras leyes"* —el CPCCN no tiene
+equivalente—, y habla de *"orden público **interno**"* donde el nacional dice *"principios de orden
+público del derecho argentino"*. **Una sentencia ejecutable en la Nación puede no serlo en PBA**, y
+leer «orden público interno» como si fuera el internacional de 35.3.1 amplía el control mucho más de
+lo que el DIPr admite.
+
+**Lo que se bajó para los otros cinco frentes:** Ley 24.488 (inmunidad), Ley 27.449 (arbitraje
+comercial internacional), Ley 24.767 (cooperación penal y extradición), Ley 22.765 (Convención de
+Viena) y Ley 24.578 (Protocolo de Las Leñas).
+
+**Cinco cosas que el texto desmiente y que se citan mal:**
+
+- **El art. 3 de la Ley 24.488 está OBSERVADO** por el art. 1 del Decreto 849/95. Lo dice el propio
+  texto bajado.
+- **El art. 519 bis del CPCCN fue derogado** por el art. 107 de la Ley 27.449: los laudos
+  extranjeros ya no van por el Código procesal.
+- **La declaración argentina de los arts. 12 y 96 de Viena** desactiva la libertad de forma del art.
+  11, y el art. 12 dice que las partes **no pueden apartarse de él**. Dar por supuesta la libertad
+  de forma es el error de esa materia.
+- **Entre Estados del Mercosur el trámite es otro**: por exhorto y Autoridad Central, con el orden
+  público **atenuado** —*"no contraríen manifiestamente"*— y **sin legalización ni apostilla**.
+- **La opción del nacional argentino del art. 12 de la Ley 24.767 cede ante el tratado**, y ejercida
+  la opción el juzgamiento local sólo se monta si el Estado requirente presta conformidad, renuncia
+  a su jurisdicción y remite las pruebas.
+
+**Una rama que el detector encontró y tenía razón.** `ramas_sin_disparador.py` marcó `penal.md`
+24.10: quien consulta por un pedido de extradición no se reconoce en «código procesal, coerción,
+probation, nulidades y recursos», que era lo que decía la fila. Se resolvió **agregando filas a la
+tabla de ruteo de la sección 16 y no comprando espacio en el `description`**, que está a dos
+caracteres del límite: la tabla de ruteo cuenta como disparador para el control, y no cuesta nada.
+Entraron cinco filas —exequátur, inmunidad, arbitraje internacional, Viena y extradición—.
+
+**Lo que NO se hizo, y por qué.** El arbitraje internacional da para módulo propio y quedó como
+sección: partirlo hoy costaría un disparador nuevo en un `description` sin lugar, y la materia
+todavía entra por «elemento extranjero». La **parte especial del Título IV** sigue sin escribir. Y
+el **estado de ratificaciones y reservas** —qué Estados están vinculados por cada tratado, si la
+República retiró la declaración de Viena— no está cargado y lleva marcador en cada lugar donde
+importa.
+
+---
+
+## 18/09/2026 - DIPr: el módulo mandaba mirar el tratado y el repositorio no tenía los tratados
+
+**El hueco, dicho como era.** `dipr.md` 35.1 enseña que el art. 2594 **no es negociable** —primero
+el tratado, el Código es subsidiario— y que empezar por el art. 2650 sin descartarlo es *el error
+de método de esta materia*. Pero el catálogo tenía tres convenios de DIPr: los dos de restitución
+de niños y la Convención de Nueva York. **La regla estaba bien enunciada y la capa offline no podía
+cumplirla.**
+
+**Lo que entró.** El **Decreto-Ley 7.771/56**, que ratifica los cinco instrumentos de Montevideo
+del 19/03/1940 y **trae su articulado completo** —Civil, Comercial Terrestre, Navegación, Procesal
+y el Protocolo Adicional—, y la **Ley 24.669**, el Protocolo de Buenos Aires del Mercosur con sus
+dieciocho artículos. De ahí salió la sección **35.1 bis**.
+
+**Las tres colisiones que justifican la sección**, cotejadas contra el texto:
+
+- **Autonomía de la voluntad.** El art. 5 del Protocolo Adicional dice que la jurisdicción y la ley
+  aplicable *"no pueden ser modificadas por voluntad de las partes, salvo en la medida en que lo
+  autorice dicha ley"*. Es lo inverso del art. 2651 del Código.
+- **Ley del contrato.** El art. 37 del Tratado de Derecho Civil somete a la ley del lugar de
+  cumplimiento *"todo cuanto concierne a los contratos"*, y el art. 38 califica ese lugar según el
+  objeto.
+- **Prórroga de jurisdicción, que es la más cara.** El art. 56 la admite **sólo después de promovida
+  la acción**, y *"la voluntad del demandado debe expresarse en forma positiva y no ficta"*. Bajo el
+  Código, no contestar la demanda prorroga; bajo Montevideo, el silencio no prorroga nada. Y el
+  Protocolo de Buenos Aires resuelve distinto que los dos: acuerdo escrito en cualquier momento,
+  no obtenido en forma abusiva, con el derecho **más favorable a la validez del acuerdo**.
+
+**Una alarma que sonó y era falsa, y el veredicto que la apaga.** El descargador marcó la Ley
+24.669 como *"parece la ley APROBATORIA y no su contenido"*. Se leyeron los dieciocho artículos: el
+anexo **está transcripto**, y los diecinueve que el detector contó son el artículo de la ley más los
+dieciocho del Protocolo. El veredicto quedó en `normas/revisiones.json` **y se apagó la marca
+bajando con `--forzar`**, que es como el repositorio exige que viajen las dos cosas: un veredicto
+escrito que no apaga la marca da impresión de resuelto y la alarma vuelve a sonar igual.
+
+**Dos defectos propios corregidos de paso.** El módulo decía que propiedad industrial *"el repo
+todavía no cubre"* y `propiedad-industrial.md` existe; al corregirlo se escribió «sección 57» de
+memoria cuando es la **40**. Y los títulos y notas de las dos normas nuevas se cargaron sin
+acentos para esquivar el quoting del shell —el vicio exacto que la regla de prosa nombra—: lo
+atraparon `TestTitulosDeNormas` y `TestProsaAcentuadaEnLosJSON`.
+
+**Lo que sigue faltando, y es lo grande.** La **parte especial** del Título IV, arts. 2613 a 2671,
+dieciséis secciones, sigue sin escribir y así está declarado en 35.9. Y el **estado de
+ratificaciones** de cada tratado no está cargado: qué Estados están hoy vinculados con Argentina
+lleva marcador y no se asume.
+
+---
+
+## 18/09/2026 - Una búsqueda que no corría, y una sentencia de la SCBA que apareció por el costado
+
+**Lo que hay que saber del buscador de JUBA antes de volver a usarlo.** `form_input` escribe el
+valor en el DOM pero **la página no lo registra**: el botón queda inhabilitado y la consulta se
+envía vacía, con el cartel *"Debe ingresar algún valor para realizar la búsqueda"*. **Hay que
+tipear con el teclado**, haciendo clic en el campo **por referencia de elemento y no por
+coordenada** —la ventana cambia de tamaño y la página conserva el scroll, así que un clic por
+coordenada cae al vacío—, y verificar con una captura que el texto esté en el campo antes de
+buscar. Tres consultas se dieron por «cero resultados» cuando en realidad **no habían corrido**.
+
+**Un caso de lo que este repositorio llama concluir el proceso desde el producto.** La pantalla
+mostraba el formulario otra vez y de eso se concluyó que la búsqueda había dado cero. El producto
+—formulario en blanco— era compatible con dos procesos distintos, y el que valía era el otro.
+
+**Lo que sí quedó medido sobre el art. 2255.** JUBA tiene **un solo sumario** de legitimación
+pasiva en reivindicación y es de **2010**, resuelto bajo los arts. 2758, 2783 y 2465 del **Código
+Civil derogado**. **No cierra el marcador**, por la misma razón que el módulo ya advierte para el
+art. 1185 bis: la doctrina del código anterior no se traslada.
+
+**Y apareció, por el costado, SCBA C. 125.685.** Buscando compensación económica —79 sumarios— uno
+de los resultados enlazaba una sentencia de la **Suprema Corte** del **22/05/2025** que no es de esa
+materia: es **prescripción adquisitiva entre ex cónyuges sobre un bien ganancial**. Entró a
+`derechos-reales.md` 45.3 bis. Su holding: la interversión del título exige **conformidad del
+propietario o actos exteriores suficientes de contradicción**, con criterio estricto, **pero ese
+rigor se relaja en el contexto intrafamiliar** cuando el titular registral *"abdicó de tal
+condición, voluntariamente"*.
+
+**Se escribieron sus dos límites en el mismo bloque**, porque sin ellos el precedente se cita mal:
+el voto de **Soria llega al mismo rechazo por otra vía** —hubo conformidad del titular registral—,
+así que el relajamiento es el voto de Kogan y no toda la Corte; y el propio fallo separa el caso
+intrafamiliar del caso entre extraños.
+
+**Una cifra que puse yo y no estaba en la sentencia.** Al escribir el holding cité *"art. 24 inc. c
+de la Ley 14.159"* cuando el fallo dice sólo *"el inc. c) de la ley 14159"*. El número lo había
+completado de memoria. Se reemplazó por un marcador, se bajó la ley y se verificó contra el texto:
+el art. 24 existe, y de paso entraron sus incisos a y b —**juicio contencioso con certificación
+registral acompañada a la demanda, y plano de mensura**—, que el módulo no tenía y son recaudos de
+admisibilidad.
+
+---
+
+## 18/09/2026 - Dos módulos sin ningún precedente, y el navegador donde el fetcher no llega
+
+**Por qué estos dos.** De los **39 institutos sin precedente propio**, `derechos-reales.md` y
+`firma-digital.md` eran los únicos cuyo marcador no pedía un matiz sino que decía *"no hay
+precedente bajado sobre …"*. El instrumento estaba sano antes de empezar —**0 documentos sin leer,
+0 sin medir, 0 a revisar en la auditoría de fechas**—, así que no había deuda que saldar: esto es
+cobertura nueva.
+
+**«Simonet» — arts. 1170 y 1171 CCyCN.** Cámara Segunda de Apelación Civil y Comercial de La Plata,
+Sala Segunda, causa 133134-2, registrada el 05/12/2023. Enuncia textualmente los cuatro requisitos
+del art. 1170 y **separa su régimen del art. 1171**: el 1171 no exige publicidad en su letra, y el
+tribunal sostiene que *"una interpretación sistemática de la norma requiere la exigencia de
+publicidad posesoria"*. Confirma además la advertencia que el módulo ya traía: la doctrina
+provincial anterior es del art. 1185 bis del código derogado y **no se traslada**, porque el 1170
+agregó el eslabonamiento y la publicidad.
+
+**«Beltrame» — contratación por canal electrónico.** Cámara Segunda de La Plata, Sala Primera,
+causa 135587, 19/12/2023, voto de Sosa Aubone. Revoca la sentencia que negaba valor a préstamos por
+home banking y cajero porque pulsar *"aceptar"* no sería firma. **Y se escribió su límite en el
+mismo párrafo**, que es lo que evita citarlo mal: el tribunal razona sobre contratos no negados y
+sobre una firma electrónica **cuya autoría e integridad no se cuestionaron**, así que no resuelve
+el caso del desconocimiento, que es donde el art. 5 pone la carga.
+
+**Lo que sí se aprendió sobre las fuentes, y vale para la próxima.** WebFetch **no sirve** para
+esto: SAIJ y JUBA son aplicaciones JavaScript y devuelven la cáscara, y los PDF comprimidos de los
+buscadores judiciales vuelven ilegibles. **Lo que funciona es el navegador**: JUBA, operado como
+página, entrega sumarios por voces y el texto completo del fallo. Un intento previo por buscador
+web sólo produjo texto sintetizado sin sentencia identificada, y **eso no se escribe**: un holding
+sale de abrir el documento.
+
+**Los dos marcadores no se cerraron: se achicaron, y por eso el conteo sigue en 39.** Queda abierta
+la legitimación pasiva del art. 2255, y queda abierto el caso de la firma electrónica desconocida
+—JUBA publica sumarios en punto, «Afluenta c/ Celentano Acevedo» y «Banco de Galicia c/ Zamora»,
+pero **sin texto completo**, y el marcador lo dice para que nadie lo cierre con un resumen—.
+
+**Y un guardarraíl acertó sobre una decisión mía.** El primer registro de «Simonet» declaraba el
+campo `origen`, que significa *"no viene del registro del tribunal"*. `scba.gov.ar` **sí** está en
+la tabla de fuentes, y el test exigió sacarlo: si se declara origen sobre una fuente sancionada, el
+campo deja de querer decir algo. El matiz —que es un blog departamental y no el buscador— pasó a
+la nota, que es donde corresponde.
+
+---
+
+## 18/09/2026 - Medicina legal no era un módulo: eran cinco huecos en módulos que ya existían
+
+**Qué se midió antes de escribir.** El perfil heredado `kb/especialidades/medicina-legal-CLAUDE.md`
+—464 líneas— cita dieciséis leyes. Trece ya las nombraba algún módulo nuestro y doce ya estaban en
+el catálogo. **La especialidad no era la unidad correcta:** su columna vertebral es cómo **redactar**
+el informe médico-legal, que es trabajo del perito, y la skill actúa desde una parte o desde el
+órgano. Lo que el perfil aportaba de verdad era señalar cinco huecos, y cada uno tenía dueño.
+
+**Dos contradicciones del perfil, y en las dos el módulo propio estaba mejor.** Dice que el Decreto
+549/2025 *"reemplazó al Decreto 659/1996"*, cuando lo sustituido es su **Anexo I** y el decreto
+sigue vigente —`laboral-riesgos.md` 5.8.3, con B.O. y vigencia—. Y da el estado de implementación
+del CPPF en prosa, sin la regla de transición del art. 5 de la Ley 27.063, que `penal.md` sí trae
+con tabla por jurisdicción.
+
+**Lo que entró, y contra qué se cotejó.** Cinco leyes bajadas con el descargador: 26.529, 17.132,
+24.655, 27.260 y 24.463.
+
+- **`salud-discapacidad.md` 27.4 bis** — historia clínica, consentimiento informado y deberes del
+  profesional. Lo que decide el caso: el titular es el paciente y la copia se entrega **en 48
+  horas** a simple requerimiento (art. 14); la guarda es de **diez años desde la última actuación
+  registrada** (art. 18); y **la negativa tiene acción propia, que es habeas data y no amparo**
+  (art. 20), exenta de gastos en jurisdicción nacional. El puente con la Ley 17.132 es expreso: el
+  art. 21 manda sus sanciones al Título VIII de aquélla.
+- **`previsional.md` 32.4 bis** — PUAM. Vitalicia, no contributiva, desde los 65, y **no genera
+  derecho a pensión** (art. 15), que es lo que cambia qué se le dice a la familia.
+- **`previsional.md` 32.4 ter** — el fuero de la Ley 24.655 y la regla que sorprende: el art. 15 de
+  la Ley 24.463, texto del art. 3 de la 24.655, dice que **no hace falta recurso administrativo
+  alguno** para habilitar la instancia. No se transpola el agotamiento de la vía.
+- **`prueba-pericial.md` 20.1** — la tabla de regímenes no tenía la seguridad social federal.
+- **`civil.md`** — la línea de mala praxis médica ahora manda al piso normativo, que antes no
+  existía en ningún módulo.
+
+**Dos veredictos que murieron al bajar las leyes, y lo que eso deja escrito.** La línea de base de
+`cobertura_normativa.py` tenía decidido que las Leyes 17.132 y 26.529 *"sólo aparecen en
+`danos-indice-doctrinario.md`... mención bibliográfica, no uso de la norma como fuente de una
+regla"*. Era cierto y dejó de serlo en el mismo acto: ahora son fuente. La medición del perfil
+sirvió exactamente para eso, y no para escribir un módulo nuevo.
+
+**Y una alarma que sonó por algo.** `reformas_no_leidas.py` marcó que `previsional.md` citaba los
+arts. 25 y 28 de la LNPA sin nombrar la **Ley 27.742** (B.O. 08/07/2024), que sustituyó los dos.
+Cotejado contra `fuentes/normas/lnpa-19549.txt`: el plazo del art. 25 es hoy de **ciento ochenta
+días hábiles judiciales** y el art. 28 tiene procedimiento y régimen de apelación nuevos. **Un
+cómputo hecho con el texto anterior da otro resultado**, y la remisión estaba escrita sin eso. Los
+cuatro veredictos que se anotaron quedaron muertos enseguida y se purgaron: la reforma nombrada
+dentro del módulo es mejor lugar que un archivo de veredictos.
+
+**Lo que NO se hizo, y por qué.** No se escribió `medicina-legal.md`. Un módulo así repetiría
+`prueba-pericial.md` 20 y `laboral-riesgos.md`, y lo que le quedaría de propio es criterio médico,
+que es lo que este repositorio no puede afirmar contra fuente primaria. El perfil queda declarado
+en `perfiles-heredados.md` como lo que es, y su fila dejó de decir que notarial tampoco tiene
+módulo, porque ahora lo tiene.
+
+---
+
+## 18/09/2026 - Notarial: el fondo del CCyCN y dos leyes locales que no se trasladan
+
+**Contra qué se cotejó.** `fuentes/normas/ccycn-26994.txt`, arts. 285 a 312; `fuentes/normas/caba-ley-404.txt`
+y `fuentes/normas/pba-decreto-ley-9020-1978.txt`, las dos bajadas con el descargador en esta misma
+auditoría; y `fuentes/normas/ley-12990.txt`, bajada después, por lo que se cuenta más abajo.
+
+**Lo que decidió la forma del módulo.** El notariado se parte en dos y la partición no es de
+grado: el **CCyCN** dice qué es un instrumento público y qué hace plena fe, y eso rige en las tres
+jurisdicciones; **la organización de la función es local** y no se traslada. Escribir un módulo
+que mezclara las dos capas habría producido reglas que se aplican donde no rigen, que es el error
+que la sección 60.2 está construida para evitar.
+
+**El art. 296 parte la plena fe en dos y se cita mal.** Que el oficial enuncie un hecho cumplido
+por él o ante él cae *"hasta que sea declarado falso en juicio civil o criminal"*; el contenido de
+las declaraciones sobre convenciones, pagos y reconocimientos cede *"hasta que se produzca prueba
+en contrario"*. Es la distinción que decide si hace falta redargüir de falsedad, y el eval
+`notarial-escritura-fe-publica-y-segunda-copia` la mide de frente.
+
+**Un contraste que sólo aparece leyendo las dos leyes locales.** El acceso a la titularidad es por
+concurso en las dos, pero PBA lo llama **cada dos años** con **90 días** de antelación y lo
+califica un **Tribunal Calificador presidido por el Presidente de la Cámara civil y comercial en
+turno**, rotando por Departamento Judicial e integrado por el **Juez Notarial** (arts. 8 y 9 del
+Decreto-Ley 9.020); la Ciudad lo llama **una vez al año desde abril**, ante un jurado presidido por
+un miembro del **Tribunal de Superintendencia**, cuyos miembros *"no podrán ser recusados"* y cuya
+calificación *"será inapelable"* (arts. 34 y 35 de la Ley 404). **El Juez Notarial no tiene
+equivalente porteño** y es la diferencia institucional que más se nota.
+
+**Una inferencia propia que resultó falsa, y cómo se cayó.** El módulo se escribió diciendo que el
+texto de la **Ley 12.990** no estaba cargado, y se apoyó en que el manifiesto ya declara que
+InfoLEG no publica normas de 1948 —el caso de la Ley 13.478—. Eso es concluir el proceso desde el
+producto: la ausencia de una norma de esa época no dice nada de otra. `cobertura_normativa.py` la
+reportó SIN DECIDIR, se buscó, **InfoLEG la publica con texto consolidado** y se bajó con el
+descargador. La regla que queda: la época de una norma no es un veredicto sobre su disponibilidad,
+y cuando comprobarlo cuesta un comando no se opina.
+
+**Y lo que la 12.990 bajada permitió afirmar.** Su propio articulado limita el ámbito a los
+escribanos *"de la Capital Federal y territorios nacionales"* —arts. 2, 27, 36, 43 y 48—: **nunca
+rigió el notariado de las provincias.** El art. 180 de la Ley 404 la deja sin efecto *"en el
+ámbito de la Ciudad Autónoma de Buenos Aires"*, y dejar sin efecto en un ámbito no es derogar. El
+marcador que el módulo conserva se achicó en consecuencia: ya no pregunta qué queda de la ley, sino
+lo único que sigue abierto, si subsiste algún territorio nacional al que pueda aplicarse.
+
+**Lo que el módulo declara que NO hace.** Las demás provincias —ninguna otra ley notarial está
+cargada—, la forma exigida para cada contrato en particular, el documento electrónico y los
+aranceles notariales, que son locales. Quedan además dos marcadores: el **Decreto 3.887/1998**,
+reglamento notarial de PBA, y la falta de precedente bajado sobre la frontera del art. 296.
+
+---
+
+## 18/09/2026 - Violencia digital sale de `kb/` y pasa a módulo propio
+
+**Contra qué se cotejó.** `fuentes/normas/ley-26485.txt` —texto actualizado— y
+`fuentes/normas/ley-27736.txt`, artículo por artículo. Todas las incorporaciones y sustituciones
+de la Ley Olimpia llevan **B.O. 23/10/2023**.
+
+**Por qué esta materia y no otra.** De las tres que sólo tenían perfil heredado —medicina legal,
+violencia digital y notarial—, es la única cuyo articulado **ya estaba bajado entero**. Notarial
+tiene base en el CCyCN pero le falta la ley local, que es materia provincial. Medicina legal no es
+una rama del derecho sino técnica pericial: no tiene articulado que cotejar, y lo suyo ya está
+repartido entre `prueba-pericial.md` 20 y `laboral-riesgos.md` 5.8.3.
+
+**El hallazgo que ordena el módulo.** *La Ley 27.736 no creó ningún delito.* Sus trece artículos
+modifican la Ley 26.485 y nada más, que es una ley de protección integral. Es el error más caro
+posible acá, porque el consultante llega hablando de algo que suena penal.
+
+**Lo que el cotejo puso a la vista, y que se pierde parafraseando:**
+
+- El **art. 6 inc. i** dice *"real o editado"*, así que la definición alcanza al material
+  fabricado.
+- El **art. 26 ap. a.9** exige *"identificarse en la orden la URL específica del contenido cuya
+  remoción se ordena"*: una orden que describe el contenido sin la dirección no cumple el artículo.
+- El mismo apartado **manda** —*"deberá solicitar"*— el aseguramiento de tráfico, abonado y
+  contenido por noventa días renovables una vez, en secreto. **Pedir la baja sin el aseguramiento
+  borra la prueba de la acción de fondo**, y el articulado lo dice en la misma oración.
+- Asegurar y revelar son dos pasos: el acceso es facultativo, a pedido de parte y sólo para la
+  acción de fondo.
+- La notificación a la plataforma puede hacerse por el **art. 122 de la Ley 19.550**, que es el
+  emplazamiento a sociedades del exterior.
+
+**Un veredicto viejo que estaba mal, y se descubrió acá.** `cobertura-revisada.json` decía de la
+Ley 14.407 de PBA que era la *"adhesión de PBA a la Ley 27.736 Olimpia"*. Leída: declara la
+**emergencia pública en materia social por violencia de género** y adhiere a la **Ley 26.485**, y
+no es permanente. `familia.md` 18.6 ya lo tenía bien; el error vivía sólo en el veredicto, que
+había sido purgado el mismo día por otra razón. El módulo lo dice y emite marcador de vigencia
+sobre el alcance provincial de los apartados nuevos, en vez de afirmarlo.
+
+**Y se cerró un puntero a `kb/`.** `familia.md` declaraba que la cautelar digital *"está
+desarrollada en `kb/perfiles/familia-CLAUDE.md`; 18.6 solo la roza"*. Ahora está escrita contra
+fuente primaria, y el mapa de perfiles heredados baja de tres materias sin módulo a dos.
+
+---
+
+## 18/09/2026 - La frontera de licencia estaba sin cruzar sobre la mitad de los módulos
+
+**Contra qué se cotejó.** `fuentes/normas/caba-ley-1217.txt`, `caba-ley-451.txt`,
+`ley-27799.txt` y `ley-27801.txt`.
+
+**Cómo apareció.** `fuga_textual.py` se corre a mano, con la lista de archivos como argumento, así
+que su cobertura es la de ese día. Su línea de base decía en la nota *"SKILL.md y los 30 módulos
+de `references/`"* cuando ya hay **63**: los 33 que entraron después **nunca se habían cruzado
+contra `kb/`**, y nada lo avisaba —el suite probaba el detector con un corpus de mentira, no el
+árbol real—. Corrido entero: **cinco pasajes** sin revisar.
+
+**Dos eran defecto propio.**
+
+1. **`contravencional-caba.md` tenía una fila repetida con la condición mal escrita.** La tabla
+   del régimen de pago de faltas decía, en dos renglones distintos, *"pide la UACF dentro de los
+   40 días y es condenado → 25% de bonificación"* y *"no paga ni pide la UACF dentro de los 40
+   días → 75% de la multa"*. Son **el mismo supuesto en dos unidades** —25% de bonificación es
+   pagar el 75%—, y la segunda condición además contradecía a la cuarta fila. El **art. 13 de la
+   Ley 1.217** lo separa por el plazo y no por qué se pidió: inc. b), quien dentro de los 40 días
+   *"no se acoge al pago voluntario y/o requiere la intervención"* paga **75%** si se confirma;
+   inc. c), quien deja vencer el plazo paga **100%**. Reescrita en tres filas, con la norma de
+   cada una, y transcribiendo el *"y/o"* del inciso en vez de parafrasearlo: es ambiguo en la
+   fuente y resolverlo por nuestra cuenta habría sido inventar.
+
+2. **Dos pasajes de `penal-leyes-especiales.md` condensaban articulado.** Ahora se citan textual,
+   y la cita corrigió una imprecisión: la extinción por pago del régimen penal tributario corre
+   *"hasta dentro de los treinta (30) días hábiles posteriores al acto procesal por el cual se
+   notifique fehacientemente la imputación penal"* —desde **el acto procesal**, no desde una
+   notificación cualquiera—. El otro es el art. 20 de la Ley 27.801, con sus tres recaudos previos.
+
+**Los tres restantes no son fuga.** Son dos resúmenes de la misma ley que convergen —arts. 41 a 43
+de la Ley 27.801, cotejados: la oposición del fiscal **sí** es vinculante por el art. 42— y una
+frase de sintaxis legal común que engancha con un modelo de descargo de tránsito. Aceptados a la
+línea de base con el motivo escrito.
+
+**El guardarraíl que faltaba.** `TestElArbolRealEntero` corre el detector sobre `SKILL.md` y los
+63 módulos y exige cero secuencias nuevas. Sin él, la cobertura del control dependía de qué
+archivos le pasaran a mano.
+
+---
+
+## 18/09/2026 - Licencias, enfermedades inculpables y suspensiones salen con riesgos
+
+Segunda partición de `laboral.md` el mismo día, con el mismo criterio. Acá el eje es **el contrato
+que sigue vivo y la prestación que se interrumpe**: maternidad y excedencia (5.13), enfermedad
+inculpable con reserva del puesto (5.14) y suspensión con poder disciplinario (5.15). En
+`laboral.md` el eje es el otro, cómo termina el contrato y cuánto se paga.
+
+**Lo que NO salió, y es la decisión que importa.** Por tamaño, 5.16 —principios y orden público
+laboral— era el candidato obvio: 8,2 KB. Se queda, y el motivo se lee abriéndolo: el **art. 15**
+decide si un acuerdo libera y el **art. 12** si un derecho es renunciable, y las dos cosas pesan
+en un despido. Sacarlas habría ahorrado bytes a costa de que la consulta más frecuente perdiera lo
+que necesita. **Se parte por materia, no por tamaño** — y esto es lo que esa regla significa
+cuando el tamaño empuja para el otro lado.
+
+| Consulta | Antes | Ahora |
+| --- | --- | --- |
+| Accidente de trabajo | ~54k tokens | **~26k** |
+| Suspensión o licencia | ~54k tokens | **~29k** |
+| Despido sin causa | ~54k tokens | ~45k |
+| Despido estando de licencia | ~54k tokens | ~52k |
+
+La última fila es el costo del corte y estaba previsto: quien cruza las dos materias abre los dos
+módulos y no ahorra casi nada. El módulo nuevo lo dice en su cabecera, para que ese caso no se
+resuelva con uno solo.
+
+---
+
+## 18/09/2026 - Riesgos del trabajo sale a módulo propio, y dos cosas que el corte destapó
+
+**No es una auditoría normativa: es una partición.** Queda registrada acá porque movió contenido
+cotejado y porque el corte dejó a la vista dos cosas que estaban tapadas.
+
+**El criterio del corte, medido y no estimado.** `laboral.md` eran 117 KB y una consulta laboral
+cargaba 199 con el núcleo y los módulos de infraestructura. Medido por sección, **riesgos del
+trabajo era el 11%** y lo abre sólo quien tiene un accidente. Salió con su numeración —5.8 y sus
+subsecciones, que la numeración global hace estables—, igual que el derecho colectivo salió a
+`laboral-colectivo.md`: **por materia, no por tamaño**. Es otra ley, la 24.557, con instancia
+administrativa previa, baremo propio y su propia jurisprudencia, y el eje es la reparación de un
+daño y no la extinción del contrato.
+
+| Consulta | Antes | Ahora |
+| --- | --- | --- |
+| Accidente de trabajo | ~54k tokens | **~26k** |
+| Despido sin causa | ~54k tokens | ~51k |
+
+**Lo primero que destapó: una reforma que parecía leída.** `reformas_no_leidas.py` reclamó el
+art. 4 de la Ley 27.348 contra la Ley 27.802, que antes no reclamaba nada porque el módulo grande
+nombraba la 27.802 por otro motivo. Leído contra `fuentes/normas/ley-27348.txt`: el **art. 154 de
+la Ley 27.802 no sustituye ese artículo**, incorpora uno nuevo al Título I que faculta a la SRT a
+suspender asistencia técnica y financiamiento a la jurisdicción incumplidora, y de paso nombra el
+art. 4 segundo párrafo. Es apalancamiento federal sobre las provincias, no una regla que cambie lo
+que hace el trabajador. Veredicto escrito.
+
+**Lo segundo: un hueco de cobertura que nadie había declarado.** Al escribir el borde del módulo
+quedó claro que **la homologación del acuerdo ante la Comisión Médica no está cubierta** —art. 4
+de la Ley 27.348, que le da autoridad de cosa juzgada administrativa en los términos del art. 15
+LCT y manda poner las prestaciones a disposición en cinco días—. Declarado en el borde con su
+marcador, en vez de suplirlo.
+
+---
+
+## 18/09/2026 - La serie de la UMA, cargada, y un hueco del jus que no era un hueco
+
+**Contra qué se cotejó.** La consulta oficial de la CSJN —`csjn.gov.ar/transparencia/uma`— y la
+tabla del jus de la SCBA —`scba.gov.ar/paginas.asp?id=41320`—, abiertas **con navegador** el
+18/09/2026. Es el camino que *Los registros judiciales no se pueden buscar* describe: con un
+cliente HTTP la página de la UMA no entrega nada útil; con navegador, lista sus resoluciones.
+
+**La UMA: 22 vigencias, del 01/10/2024 al 01/07/2026.** La página lista las resoluciones con
+fecha y número, y **el valor está adentro de cada PDF**. Se bajaron veinte resoluciones y se
+extrajo el texto de cada una con `pdftotext -layout`; el valor y la vigencia salen de la oración
+dispositiva, no del resumen de la página. Tres puntos que el cotejo obligó a mirar:
+
+- **La vigencia no es la fecha de la resolución.** La SGA 1930/2026, dictada el 20/08/2026, fija
+  el valor *"a partir del primero de julio de 2026"*. Tomar la fecha de la resolución habría
+  corrido toda la serie.
+- **Una resolución puede fijar varios períodos.** La SGA 3495/2024 fija tres de una vez —octubre,
+  noviembre y diciembre de 2024—, así que leer un valor por documento perdía dos.
+- **Dos resoluciones parten «Unidad de Medida / Arancelaria» en dos renglones**, y el primer
+  extractor las descartó por buscar la frase entera en el texto con saltos. Se veían como huecos
+  de enero y marzo de 2025; eran un defecto del lector. Corregido y verificados los 22 períodos
+  contra el articulado en letras, que confirma los dígitos.
+
+**El jus: los meses que faltaban no faltan.** `estado.py` venía señalando mayo y junio de 2026
+como salteados. **La tabla oficial también salta de abril a julio**: la SCBA publica un período
+sólo cuando el valor cambia, así que un mes ausente hereda el anterior. Las seis filas que había
+coinciden una por una con la fuente y eran **todas** las de 2026. La serie se extendió con lo que
+la tabla trae —23 períodos, 01/01/2024 a 01/08/2026, con las dos unidades— y **el detector de
+huecos se descartó**: se equivocaba sobre un caso conocido.
+
+**La UMA porteña, que es otra unidad.** El art. 20 de la Ley 5.134 instituye una UMA propia
+—1,5% de la remuneración **total** de un juez de primera instancia de la Ciudad, contra el 3% de
+la **básica** de un juez federal— y la fija el **Consejo de la Magistratura de CABA**. Su consulta
+oficial —`consejo.jusbaires.gob.ar/servicios/uma/`— publica **un solo valor, el vigente**: no hay
+tabla ni buscador de resoluciones anteriores, así que **la serie histórica no se reconstruye desde
+el organismo que la fija**. Cargado el único que publica: **$175.791 desde el 01/08/2026,
+Res. SAGyP 500/2026**.
+
+**Y la conversión existe acá por otro motivo, medido contra el texto.** El art. 51 de la Ley
+27.423 obliga a expresar la regulación nacional en pesos Y en UMA bajo pena de nulidad; la Ley
+5.134 **no tiene esa regla** —sus dos *"bajo pena de nulidad"* son el art. 16, fundar la
+regulación citando la norma, y la integración de intereses a la base—. La UMA porteña hace falta
+para contrastar los **mínimos**, que los arts. 21 y 60 escriben en UMA. Por eso `uma_caba.py` es
+un script aparte y no una bandera de `uma_csjn.py`: nombrar la jurisdicción queda obligatorio por
+construcción, que es lo que impide traer *"un número oficial, vigente y de otra ley"*.
+
+**Qué cambia para quien usa la skill.** En la justicia nacional y federal el art. 51 de la Ley
+27.423 exige expresar la regulación en pesos **y** en UMA, y hasta hoy la skill explicaba el
+régimen sin poder dar ninguno de los dos números. Ahora `uma_csjn.py --fecha` los da desde el
+01/10/2024. Antes de esa fecha **sigue plantándose**: no se extrapola hacia atrás. Y la **UMA
+porteña** de la Ley 5.134, que es otra unidad y la publica el Consejo de la Magistratura de CABA,
+sigue sin cargar.
+
+---
+
+## 18/09/2026 - Una rúbrica premiaba el fuero equivocado en lo previsional de PBA
+
+**Contra qué se cotejó.** `fuentes/normas/pba-ley-12008.txt`, art. 5º texto según Ley 13.101.
+
+**Qué se encontró.** La rúbrica de `evals/previsional-compensacion-de-edad-y-pba` daba por
+correcto que en PBA lo previsional *"va por el **fuero laboral**"*, y lo respaldaba diciendo que
+lo señalan el módulo y `docs/COBERTURA.md`. **Los tres extremos son falsos.** El art. 5º de la Ley
+12.008 fija la competencia territorial **dentro del contencioso administrativo**, y su **inciso b**
+le da regla propia a las *"pretensiones deducidas por reclamantes o beneficiarios de prestaciones
+previsionales"* —domicilio del interesado o de la demandada, a elección del demandante—.
+`previsional-pba.md` 55 ya lo decía bien y `docs/COBERTURA.md` también.
+
+**Por qué importa más que un error en prosa.** Una rúbrica es el criterio con el que se puntea una
+respuesta: escrita así, **reprobaba a quien contestaba bien**. Un eval sin correr no lo delata, y
+éste es uno de los veintiún casos que nadie pasó todavía por el sistema. Corregida contra el
+texto, con la remisión a `previsional-pba.md` 55 y `contencioso-pba.md` 26.2.
+
+---
+
+## 18/09/2026 - El reparto de OCR y las tres fechas, que estaban escritos adentro de la skill
+
+**No es una auditoría nueva: es la misma, movida de lugar.** El registro de cómo se estableció qué
+documentos de `fuentes/jurisprudencia/` se transcriben y cuáles no vivía en el cuerpo de
+`references/fallos-csjn.md`, que es un módulo que la skill carga en cada consulta de
+jurisprudencia. Ahí el lector pagaba por el diario del trabajo. Lo que queda allá es la **regla**
+—la fecha sale del registro de la Secretaría de Jurisprudencia y nunca del encabezado del PDF, y
+una cita literal se coteja contra la página—; el cómo se llegó a ella queda acá.
+
+**Las tres fechas.** Los tomos viejos tienen la fecha **impresa en el cuerpo**, en la línea que
+sigue al título "FALLO DE LA CORTE SUPREMA", que no es la del dictamen del Procurador —en
+"Fiorentino" el dictamen es del 21/05/1984 y el fallo del 27/11/1984—.
+`herramientas/auditar_fechas_fallos.py` la lee de ahí y la compara contra el manifiesto. Así se
+corrigieron tres que estaban rellenadas con un 1 de enero porque la capa de texto no se podía leer:
+
+| Fallo | Decía | Es |
+| --- | --- | --- |
+| "Fiorentino" 306:1752 | 1984-01-01 | **27/11/1984** |
+| "Santa Coloma" 308:1160 | 1986-01-01 | **05/08/1986** |
+| "Bazterrica" 308:1392 | 1986-01-01 | **29/08/1986** |
+
+**Cómo se estableció el reparto.** No por regla ni por estimación: se midió lo que se puede medir
+y se leyó el resto. `herramientas/calidad_ocr.py` calcula la basura de caracteres, que es el único
+defecto que una medida detecta bien; los veredictos de lectura quedan en
+`herramientas/lecturas-ocr.json` con la fecha y lo que se vio. Se descartaron **cuatro** medidas
+automáticas que fallaban contra un caso conocido, y tres de ellas buscaban detectar la "mezcla"
+que después resultó no existir: estaban midiendo un fenómeno inventado.
+
+**Cada documento se lee uno por uno**, cabecera y una franja del medio —el medio importa: "Santa
+Coloma" tiene la cabecera impecable y las sustituciones aparecen en el cuerpo—. El repaso del
+**14/09/2026** cerró sobre 63 documentos: **53 se transcribían sin más**, **4 pedían `-layout`** y
+**6 tenían defecto real** —tres destruidos y tres con sustituciones—. Los seis quedaron con su
+copia recuperada en `ocr/`, así que había texto legible de los 63: 57 directo del PDF y 6 por
+relectura, éstos con cotejo obligatorio.
+
+Ese reparto cambió dos veces y las dos por leer, no por estimar. Primero, cinco documentos que
+parecían intranscribibles se leían con `-layout`. Después, "S., D." 336:849 estaba clasificado
+`layout` y en realidad tenía sustituciones —se descubrió al leerlo para escribir su holding—, así
+que pasó de 5 a 4 los que sólo piden `-layout` y de 5 a 6 los que tienen defecto real.
+
+**La medición viva la da `calidad_ocr.py`**, y las cifras de arriba valen por su fecha: son el
+estado del 14/09/2026 sobre el corpus de ese día.
+
+---
+
+## 18/09/2026 - La base del art. 245 y las horas extras: el perfil heredado dice lo contrario
+
+**Contra qué se cotejó.** `fuentes/normas/ley-27802.txt`, art. 51 —el que sustituye el art. 245
+LCT—, párrafo por párrafo contra `references/laboral.md` 5.2.
+
+**Qué dice el texto.** Define "normal" *"en el caso de conceptos variables como ser premios
+mensuales, **horas extra**, comisiones, el promedio de los últimos seis (6) meses, o del último
+año si fuera más favorable al trabajador"*. Y las únicas exclusiones que enuncia son las del
+párrafo anterior: *"los conceptos de pago no mensuales como el Sueldo Anual Complementario,
+vacaciones, premios que no sean de pago mensual"*. **Las horas extra habituales integran la
+base**, por la definición de "normal" y no por excepción.
+
+**Qué se encontró.** El módulo estaba bien y lo decía desde el principio —*"No decir que la base
+excluye horas extras"*—. El que está mal es el perfil heredado `kb/perfiles/laboral-CLAUDE.md`,
+que afirma lo contrario y lo sella con *"Verificado en Infoleg"*. La corrección **no va allá**:
+va al módulo, como contradicción nominada con la cita textual del perfil, y quedó como quinta
+fila del bloque de 5.11. El perfil no se toca — es capa 2 y la frontera es la ruta.
+
+**Y una segunda, sobre la misma sección.** La cronología de la ventana cautelar de la Ley 27.802
+abría diciendo *"Vigencia plena desde el 23/04/2026"* al lado de un cuadro que aplica la ley desde
+el 06/03/2026. No eran dos reglas sino una mal enunciada: la ley **rige desde el 06/03/2026**, y
+lo que va del 30/03/2026 al 23/04/2026 es la ventana en la que 82 de sus artículos estuvieron
+suspendidos. Escrito así, y con el marcador que lo dice cuando el acto extintivo cae adentro —que
+`liquidacion_lct.py` no emitía aunque el módulo lo instruyera, teniendo ya el mecanismo escrito
+para el tramo simétrico del DNU 70/2023—. La cronología en sí **sigue sin fuente primaria del
+expediente** y así está declarado.
+
+---
+
 ## 18/09/2026 - El CPCCBA, que se citaba en catorce módulos y no tenía dueño
 
 **Contra qué se cotejó.** `fuentes/normas/pba-cpccba-7425.txt` y `fuentes/normas/cpccn-17454.txt`,
@@ -151,7 +1014,7 @@ los catorce años**, donde la anterior empezaba en los dieciséis: el universo d
 amplió sin que cambiara una coma del art. 32 de la Ley 13.634, que remite a "la legislación
 nacional" sin nombrarla. Y el texto de la 27.801 **no contiene ninguna remisión al art. 44 CP ni
 a la escala de la tentativa**, comprobado por búsqueda sobre el archivo: ése era el vehículo legal
-del primer holding de *"Maldonado"*, Fallos 328:4343, que `penal.md` 24.7.8 citaba sin condición.
+del primer holding de *"Maldonado"*, Fallos 328:4343, que `penal-parte-general.md` 24.7.8 citaba sin condición.
 
 **El texto derogado no se da de baja.** El art. 2 CP manda aplicar siempre la ley más benigna, y
 para un hecho anterior al 05/09/2026 cometido por alguien de catorce o quince años la 22.278 lo

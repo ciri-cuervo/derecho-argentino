@@ -272,6 +272,27 @@ def reformas_por_articulo(desde: int) -> list[tuple[str, str, str, date | None, 
     return sorted(salida, key=lambda s: (s[3] or date.min, s[0], int(s[1])), reverse=True)
 
 
+def claves_vivas(desde_articulo: int) -> set:
+    """Todas las claves que HOY puede producir el registro, de sus dos modos.
+
+    Hacen falta las dos: el registro guarda `slug:ley` del modo por norma y `slug:art:ley` del
+    modo por artículo, y mirar un solo modo daría por muertas las claves del otro.
+
+    **Y cada modo tiene su propio corte de recencia**, que es lo que hace peligrosa esta función:
+    el modo por norma barre desde el año CERO y el modo por artículo desde 2024. Pasarle el corte
+    del artículo a los dos dio por muertos 28 de 34 veredictos —todos del modo por norma, que
+    simplemente quedaban fuera de la ventana—. Se midió purgándolos de verdad y mirando el diff.
+    Por eso el parámetro se llama `desde_articulo` y el otro corte está fijo acá.
+    """
+    vivas = set()
+    for _cuando, slug, ley, _c in ultima_reforma_por_norma(0):
+        con_punto = f"{ley[:2]}.{ley[2:]}"
+        vivas |= {f"{slug}:{con_punto}", f"{slug}:{ley}"}
+    for slug, art, ley, _cuando, _mods in reformas_por_articulo(desde_articulo):
+        vivas.add(f"{slug}:{art}:{ley}")
+    return vivas
+
+
 def por_articulo(desde: int) -> int:
     """La comparación que importa, con su veredicto en el mismo registro y otra clave.
 
@@ -287,6 +308,11 @@ def por_articulo(desde: int) -> int:
     print(f"  corte de recencia es {desde} para las notas con B.O.; para las que no traen fecha,")
     print("  que no traen fecha, que son casi todas de PBA.")
     print(f"  Candidatos: {len(candidatos)}. Con veredicto escrito: {len(candidatos) - len(sin_veredicto)}.")
+
+    for renglon in _veredictos.aviso_de_muertos(
+            len(_veredictos.muertos(revisadas, claves_vivas(desde))), len(revisadas),
+            "python3 herramientas/reformas_no_leidas.py --purgar"):
+        print(renglon)
 
     if not sin_veredicto:
         print("\n  Sin pendientes: no hay artículo cubierto con una reforma reciente sin leer.\n")
@@ -311,10 +337,24 @@ def main() -> int:
                     help="ignorar reformas anteriores a ese año. "
                          "Por defecto 2024 con --modo articulo, sin corte con --modo norma. "
                          "Las notas sin fecha se cortan por número de ley y no por este año")
+    ap.add_argument("--purgar", action="store_true",
+                    help="Saca del registro los veredictos que ya no enganchan ninguna reforma")
     ap.add_argument("--modo", choices=["articulo", "norma"], default="articulo",
                     help="Con --modo articulo, la nota se compara contra el artículo que "
                          "cubre el módulo; con --modo norma, sólo la reforma más nueva")
     args = ap.parse_args()
+
+    if args.purgar:
+        desde = 2024 if args.desde is None else args.desde
+        sobre, revisadas = _veredictos.cargar(REGISTRO, "reformas", vacio={})
+        sin_uso = _veredictos.muertos(revisadas, claves_vivas(desde))
+        if not sin_uso:
+            print("\n  no hay veredictos muertos que purgar")
+            return 0
+        _veredictos.guardar(REGISTRO, sobre, "reformas",
+                            {k: v for k, v in revisadas.items() if k not in set(sin_uso)})
+        print(f"\n  purgados {len(sin_uso)} veredictos muertos de {REGISTRO.name}")
+        return 0
 
     if args.modo == "articulo":
         return por_articulo(2024 if args.desde is None else args.desde)
@@ -338,7 +378,7 @@ def main() -> int:
         sin_veredicto.append((cuando, slug, con_punto, cuantas))
 
     print("\n  Normas con notas de reforma: la última de cada una se compara contra los módulos,")
-    print(f"  y las notas de los dos estilos cuentan —con B.O. y sin él—. Reformas anotadas en")
+    print("  y las notas de los dos estilos cuentan —con B.O. y sin él—. Reformas anotadas en")
     print(f"  los textos: {total_notas}; de cada norma se mira UNA, la más nueva.")
     print(f"  Reformas que los módulos nombran: {conocidas}. Con veredicto escrito: {decididas}.")
 

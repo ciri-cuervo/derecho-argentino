@@ -8,9 +8,58 @@
 # NO HAY DESCARGADOR, y no lo va a haber: esa página es un FORMULARIO de búsqueda, no una
 #   tabla. Es la pared que docs/PENDIENTES.md anota en el punto 7 - los registros judiciales
 #   se abren, no se buscan. Los valores se cargan a mano, leídos de la consulta oficial.
-# verificado:
+# verificado: 2026-09-18
 # La línea de arriba la lee `estado.py` y su forma es contrato: `# verificado: AAAA-MM-DD`,
 #   la fecha en que alguien ABRIÓ la consulta oficial. Vacía significa que nadie la abrió
 #   todavía, y estado.py lo reporta como SIN CARGAR: no hay verde por ausencia de dato.
 #   Lo que vence no es el valor, es la mirada.
+#
+# CÓMO SE CARGA, paso por paso. Es trabajo de persona: el formulario no se automatiza.
+#   1. Abrir https://www.csjn.gov.ar/transparencia/uma en un navegador.
+#   2. El buscador tiene cuatro campos -Número, Año, Fecha desde, Fecha hasta- y los cuatro
+#      son opcionales. Para traer la serie entera de un año alcanza con poner el Año; para
+#      un tramo, las dos fechas en dd/MM/aaaa.
+#   3. De cada resolución que devuelve se anotan tres cosas: DESDE CUÁNDO rige el valor, el
+#      VALOR, y el número de resolución con su fecha.
+#   4. Se agrega una fila por resolución, en el orden de las columnas de abajo y ordenadas de
+#      la más vieja a la más nueva:
+#
+#      2026-08-01,53232,Res. SGA 1234/2026 (04/08/2026),https://www.csjn.gov.ar/transparencia/uma
+#
+#      La fecha va ISO -AAAA-MM-DD- porque se compara como texto: `uma_csjn.py` ordena las
+#      filas y toma la última que no sea posterior a la fecha pedida. Escrita de otra forma,
+#      el orden sale mal y el error es silencioso.
+#      El valor va SIN separador de miles y sin signo: son los dígitos y nada más.
+#   5. Poner la fecha de hoy en `# verificado:` de arriba. Sin eso `estado.py` sigue
+#      reclamando, aunque haya valores: lo que mide es la mirada.
+#   6. Comprobar que quedó bien:
+#        python3 derecho/skills/derecho-argentino/scripts/uma_csjn.py --fecha AAAA-MM-DD
+#      Tiene que devolver el valor y la resolución de la que salió. Si sigue devolviendo el
+#      marcador de configuración incompleta, la fila no se está leyendo.
+#
+# NO SE EXTRAPOLA HACIA ATRÁS: una fecha anterior a la primera vigencia cargada no toma el
+#   valor más viejo, se reporta como faltante. Así que conviene cargar desde el año del caso
+#   más antiguo que se vaya a regular, no sólo el último valor.
 vigencia_desde,uma,resolucion,fuente
+2024-10-01,63545,Res. SGA 3495/2024,https://www.csjn.gov.ar/transparencia/uma
+2024-11-01,65133,Res. SGA 3495/2024,https://www.csjn.gov.ar/transparencia/uma
+2024-12-01,66436,Res. SGA 3495/2024,https://www.csjn.gov.ar/transparencia/uma
+2025-01-01,67632,Res. SGA 237/2025,https://www.csjn.gov.ar/transparencia/uma
+2025-02-01,68985,Res. SGA 580/2025,https://www.csjn.gov.ar/transparencia/uma
+2025-03-01,70709,Res. SGA 936/2025,https://www.csjn.gov.ar/transparencia/uma
+2025-04-01,72265,Res. SGA 1236/2025,https://www.csjn.gov.ar/transparencia/uma
+2025-05-01,73204,Res. SGA 1432/2025,https://www.csjn.gov.ar/transparencia/uma
+2025-06-01,74376,Res. SGA 1687/2025,https://www.csjn.gov.ar/transparencia/uma
+2025-07-01,75789,Res. SGA 1860/2025,https://www.csjn.gov.ar/transparencia/uma
+2025-08-01,77229,Res. SGA 2226/2025,https://www.csjn.gov.ar/transparencia/uma
+2025-09-01,78850,Res. SGA 2533/2025,https://www.csjn.gov.ar/transparencia/uma
+2025-10-01,80664,Res. SGA 2996/2025,https://www.csjn.gov.ar/transparencia/uma
+2025-11-01,84963,Res. SGA 3160/2025,https://www.csjn.gov.ar/transparencia/uma
+2025-12-01,87342,Res. SGA 36/2026,https://www.csjn.gov.ar/transparencia/uma
+2026-01-01,89875,Res. SGA 235/2026,https://www.csjn.gov.ar/transparencia/uma
+2026-02-01,92482,Res. SGA 538/2026,https://www.csjn.gov.ar/transparencia/uma
+2026-03-01,95626,Res. SGA 1076/2026,https://www.csjn.gov.ar/transparencia/uma
+2026-04-01,98112,Res. SGA 1352/2026,https://www.csjn.gov.ar/transparencia/uma
+2026-05-01,100173,Res. SGA 1718/2026,https://www.csjn.gov.ar/transparencia/uma
+2026-06-01,102076,Res. SGA 1785/2026,https://www.csjn.gov.ar/transparencia/uma
+2026-07-01,104220,Res. SGA 1930/2026,https://www.csjn.gov.ar/transparencia/uma

@@ -13,6 +13,7 @@ De dónde sale cada bloque:
   deuda por bloque            columna "Cómo revalidar" de references/changelog-normativo.md
   verificación vencida        columna de fecha de esa misma tabla, con la regla de 6 meses
   módulos sin eval            ningún caso de evals/ los menciona
+  evals sin correr            el resultado del caso se declara a sí mismo sin medición
   fuentes marcadas            campo `revisar` de las dos procedencias de fuentes/
 
 Lo que miden otras herramientas se referencia al final en vez de repetirse. Cero dependencias.
@@ -69,24 +70,42 @@ def institutos_sin_precedente() -> list[tuple[str, int, str]]:
     return hallados
 
 
-def _filas_de_verificacion() -> list[list[str]]:
-    texto = (REFERENCIAS / "changelog-normativo.md").read_text(encoding="utf-8")
-    tabla = texto.split("## Estado de verificación por bloque", 1)
-    if len(tabla) < 2:
+def _tabla(archivo, titulo: str, columnas: int) -> list[list[str]]:
+    """Las filas de una tabla markdown que arranca después de `titulo`.
+
+    **Se exige el ancho.** La verificación vive en dos tablas —la fecha adentro de la skill, el
+    cotejo en `docs/REVALIDAR.md`— y si una cambia de forma, un parser laxo sigue leyendo, lee
+    otra cosa y REPORTA CERO. Cero acá se lee como «no hay deuda».
+    """
+    if not archivo.is_file():
+        return []
+    partes = archivo.read_text(encoding="utf-8").split(titulo, 1)
+    if len(partes) < 2:
         return []
     filas = []
-    for linea in tabla[1].splitlines():
+    for linea in partes[1].splitlines():
         if not linea.startswith("|") or DELIMITADOR.fullmatch(linea.strip()):
             continue
         campos = [c.strip() for c in linea.strip("|").split("|")]
-        if len(campos) >= 5 and campos[0] != "Bloque":
+        if len(campos) == columnas and campos[0] != "Bloque":
             filas.append(campos)
     return filas
 
 
+def _filas_de_verificacion() -> list[list[str]]:
+    """Bloque, módulo, fecha y volatilidad. Vive en la skill: contesta desde cuándo rige."""
+    return _tabla(REFERENCIAS / "changelog-normativo.md",
+                  "## Estado de verificación por bloque", 4)
+
+
+def _filas_de_revalidacion() -> list[list[str]]:
+    """Bloque, módulo y con qué se cotejó. Vive en `docs/`: es del que revalida."""
+    return _tabla(RAIZ / "docs" / "REVALIDAR.md", "## Cómo revalidar", 3)
+
+
 def deuda_por_bloque() -> list[tuple[str, str, str]]:
     hallados = []
-    for campos in _filas_de_verificacion():
+    for campos in _filas_de_revalidacion():
         bloque, modulo, revalidar = campos[0].replace("**", ""), campos[1], campos[-1]
         for arranque in ARRANQUE_DEUDA.finditer(revalidar):
             corte = FIN_DE_ORACION.search(revalidar, arranque.start())
@@ -160,6 +179,31 @@ def modulos_sin_eval() -> list[str]:
         if modulo.name not in mencionados and not por_prefijo:
             faltan.append(modulo.name)
     return faltan
+
+
+def evals_sin_correr() -> list[str]:
+    """Los casos cuyo `resultado.md` declara que nadie los pasó por el sistema.
+
+    Un eval escrito y no corrido es una promesa, no una medición: el módulo tiene consulta que lo
+    ejercita y nadie sabe qué contesta. `modulos_sin_eval()` mide lo de al lado —qué rama no tiene
+    ningún caso— y da cero con todos los casos sin correr, que es verde con el instrumento apagado
+    sobre la pregunta que importa.
+
+    La marca es la que escriben los propios archivos: **Sin correr** en negrita al abrir el
+    cuerpo. Se lee así y no por ausencia de archivo porque el repositorio no deja el resultado
+    vacío: lo escribe diciendo qué falta y desde cuándo.
+
+    MUTACIÓN que lo demuestra: sacarle el «Sin correr» a un `resultado.md` lo baja de esta lista.
+    """
+    if not EVALS.is_dir():
+        return []
+    sin = []
+    for carpeta in sorted(p for p in EVALS.iterdir()
+                          if p.is_dir() and (p / "caso.md").is_file()):
+        r = carpeta / "resultado.md"
+        if r.is_file() and "**Sin correr" in r.read_text(encoding="utf-8"):
+            sin.append(carpeta.name)
+    return sin
 
 
 def fuentes_marcadas_para_revisar() -> list[tuple[str, str, str]]:
@@ -240,6 +284,18 @@ def main() -> int:
         print("  trabaja la skill, y cada caso los ejercita de costado.")
         print("  " + ", ".join(infra))
 
+    casos = [p for p in sorted(EVALS.iterdir())
+             if p.is_dir() and (p / "caso.md").is_file()] if EVALS.is_dir() else []
+    sin_correr = evals_sin_correr()
+    print(f"\nEVALS ESCRITOS Y SIN CORRER — {len(sin_correr)} de {len(casos)}")
+    if not sin_correr:
+        print("  Ninguno. Todos los casos tienen una medición anotada.")
+    else:
+        print("  El caso existe y nadie lo pasó por el sistema: hay consulta, no hay medición.")
+        print("  Lo declara cada `resultado.md`, que se escribe igual y no vacío.")
+        for nombre in sin_correr:
+            print(f"  · {nombre}")
+
     marcadas = fuentes_marcadas_para_revisar()
     print(f"\nFUENTES BAJADAS Y MARCADAS PARA REVISAR — {len(marcadas)}")
     if not marcadas:
@@ -262,7 +318,7 @@ def main() -> int:
     print("    python3 herramientas/ramas_sin_disparador.py")
     print("  documentos de jurisprudencia sin leer o con defecto de OCR")
     print("    python3 herramientas/calidad_ocr.py --pendientes")
-    print("  prosa candidata en los evals, que están fuera del checklist")
+    print("  prosa candidata contra kb/, para leerla antes de que el candado la reclame")
     print("    python3 herramientas/fuga_textual.py derecho/evals/*/*.md")
     print("  reclamos de faltante que la propia carpeta fuentes/ ya desmiente")
     print("    python3 herramientas/deuda_vencida.py")

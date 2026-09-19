@@ -145,5 +145,50 @@ class TestCorridaCompleta(unittest.TestCase):
             self.assertIn("excepción declarada", hecho.stdout, "el glosario dejó de exceptuarse")
 
 
+class TestElArbolRealEntero(unittest.TestCase):
+    """La línea de base tiene que cubrir **todos** los módulos, no los que había cuando se armó.
+
+    El detector se corre a mano, con la lista de archivos como argumento, y por eso su cobertura
+    depende de qué le pasaron ese día. La línea de base decía en su nota *"SKILL.md y los 30
+    módulos de references/"* cuando ya había **63**: los 33 que entraron después nunca se habían
+    cruzado contra `kb/`, y nada lo avisaba — el suite daba verde porque probaba el detector con
+    un corpus de mentira, no el árbol.
+
+    Medido el 18/09/2026 al correrlo entero: **cinco pasajes** sin revisar. Dos eran defecto
+    propio —una tabla de `contravencional-caba.md` con una fila repetida y la condición mal
+    escrita, y dos pasajes de `penal-leyes-especiales.md` que condensaban articulado—. Es la
+    frontera que `AGENTS.md` llama «la regla que más se viola sin querer», y estaba sin mirar
+    sobre la mitad del material.
+
+    **Y los evals estaban afuera por la misma razón.** `pendientes.py` los nombraba como algo a
+    correr a mano —"prosa candidata en los evals, que están fuera del checklist"— y nadie los
+    había cruzado nunca: al hacerlo el 18/09/2026 aparecieron **12 secuencias**, las tres
+    cotejadas contra el texto bajado y aceptadas. Un control que depende de que alguien se
+    acuerde no es un control. Las cinco excepciones de capa 2 las saltea el propio detector.
+
+    MUTACIÓN que lo comprueba: sacarle una secuencia a `fuga-revisada.json` lo deja en rojo.
+    """
+
+    def _cruzar(self, archivos, que):
+        self.assertGreater(len(archivos), 20, f"no encontró {que}: el control está apagado")
+        hecho = subprocess.run([sys.executable, str(HERRAMIENTA), *archivos],
+                               capture_output=True, text=True, cwd=str(RAIZ))
+        self.assertIn("0 secuencias nuevas", hecho.stdout,
+                      f"hay prosa candidata sin revisar contra kb/ en {que}. Leerla una por una: "
+                      "si es texto legal va a la línea de base con --aceptar, y si es prosa de "
+                      "kb/ se reescribe.\n" + hecho.stdout[-700:])
+
+    def test_ningun_modulo_queda_afuera_del_cruce(self):
+        skill = RAIZ / "derecho" / "skills" / "derecho-argentino"
+        archivos = [str(skill / "SKILL.md")] + [str(p) for p in sorted((skill / "references").glob("*.md"))]
+        self.assertGreater(len(archivos), 60, "no encontró los módulos: el control está apagado")
+        self._cruzar(archivos, "SKILL.md y los módulos")
+
+    def test_ningun_eval_queda_afuera_del_cruce(self):
+        """Los evals citan norma y jurisprudencia igual que un módulo, y salen publicados."""
+        archivos = [str(p) for p in sorted((RAIZ / "derecho" / "evals").glob("*/*.md"))]
+        self._cruzar(archivos, "los evals")
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

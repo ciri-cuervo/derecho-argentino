@@ -1,0 +1,4927 @@
+Decreto-Ley 9.020/78 PBA - Ley notarial (texto actualizado)
+==============================================================================
+Jurisdicción:     PBA
+Fuente:           https://normas.gba.gob.ar/documentos/BoOm3CzB.html
+Descargado:       2026-09-18
+SHA-256 (crudo):  b98ceb51d986d36d8b049f93ace04529492be10d6c98d281cd46a9d1789777e9
+Charset:          UTF-8
+
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
+el manifiesto `normas.json`.
+==============================================================================
+
+Decreto-ley 9020/1978
+
+DECRETO - LEY 9020/78
+
+
+
+-LEY NOTARIAL-
+
+
+
+
+
+
+
+
+
+(Texto actualizado según T.O. por Decreto N° 8.527/86, con las modificaciones introducidas por las Leyes 10542, 11138, 12.008, 12.623, 14099 14152 y 14154)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PRIMERA PARTE
+
+
+
+TITULO I
+
+
+
+REGISTROS NOTARIALES
+
+
+
+
+
+
+CAPITULO I
+
+
+
+DISPOSICIONES GENERALES
+
+
+
+
+
+
+NOTARIO
+
+
+
+
+
+
+Artículo 1º: A los efectos de esta ley sólo es notario quien conforme a sus prescripciones se encuentre habilitado para actuar en un registro notarial de la Provincia.
+
+
+
+
+
+
+REGISTROS
+
+
+
+
+
+
+Artículo 2º: Es competencia del Poder Ejecutivo la creación y cancelación de los registros y la designación y remoción de sus titulares y adscriptos, en el modo y forma establecidos por la presente ley. Los registros y protocolos notariales son de propiedad del Estado Provincial.
+
+
+
+
+
+
+NUMERO DE REGISTROS
+
+
+
+
+
+
+Artículo 3º: El número de registros de cada Distrito Notarial y su delimitación territorial se fijará en relación al de habitantes, al tráfico escriturario e inmobiliario y a la incidencia que el movimiento económico de la población tenga en la actividad notarial. Los registros llevarán numeración correlativa dentro de cada Distrito.
+
+
+
+
+
+
+BASES PARA SU DETERMINACION
+
+
+
+
+
+
+Artículo 4º: La determinación a que se refiere el artículo precedente será efectuada por lo menos cada cinco (5) años por el Poder Ejecutivo, sobre la base de los datos estadísticos suministrados por los organismos competentes.
+
+
+
+El Colegio de Escribanos podrá proponer al Poder Ejecutivo la modificación del número de registros al que se refiere el artículo anterior.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SITUACION DE LOS REGISTROS EXCEDENTES
+
+
+
+
+
+
+Artículo 5º: Cuando hubiere excedencia de registros de conformidad con la determinación que efectúe el Poder Ejecutivo se cancelarán los excedentes de cada Distrito, a medida que queden vacantes, sea cual fuere la causa, siempre que no tuvieren adscriptos.
+
+
+
+
+
+
+VACANCIA DE REGISTROS
+
+
+
+
+
+
+Artículo 6º: Producida la vacancia de un registro o la suspensión preventiva del titular, el Juez Notarial dispondrá de inmediato, si no fuera necesario la continuidad del servicio, la formación de un inventario de las existencias por un Inspector Notarial y designará depositario si no hubiere adscripto. Si fuera necesaria la continuación del servicio se estará a lo dispuesto en el artículo 22.
+
+
+
+
+
+
+
+
+
+
+
+
+CAPITULO II
+
+
+
+
+
+
+ACCESO A LA TITULARIDAD POR CONCURSO
+
+
+
+
+
+
+Artículo 7º: La designación del titular para cada registro se efectuará por resolución del Poder Ejecutivo de acuerdo con la comunicación que elevará el Colegio de Escribanos como resultado de un concurso de oposición y antecedentes que deberá efectuarse en cada caso. Esta comunicación deberá ser ampliamente informativa sobre las calificaciones de la totalidad de los participantes.
+
+
+
+
+
+
+Artículo 8º: Si hubiere registros vacantes, el Colegio teniendo en cuenta lo dispuesto en el artículo 5º, lo comunicará al Poder Ejecutivo cada dos (2) años, el que llamará a concurso para la provisión de las titularidades y convocará a sus efectos al Tribunal Calificador. El llamado se publicará en el Boletín Oficial y en el del Colegio con antelación de noventa (90) días.-
+
+
+
+
+
+
+COMPOSICION DEL TRIBUNAL CALIFICADOR
+
+
+
+
+
+
+Artículo 9º: El Tribunal Calificador será presidido por el Presidente de la Cámara de Apelaciones o de la Sala con competencia en materia Civil y Comercial, en turno, de los distintos Departamentos Judiciales de la Provincia, debiendo rotarse en cada concurso, e integrado por el Juez Notarial por un profesor titular de Derecho Civil de la Universidad Nacional con sede en el territorio de la Provincia, elegido por el Poder Ejecutivo y por dos notarios titulares elegidos en cada oportunidad, uno por el Consejo del Colegio y otro por el Poder Ejecutivo. Actuará en carácter de Secretario uno de los notarios titulares a elección del Tribunal.
+
+
+
+
+
+
+FUNCIONAMIENTO DEL TRIBUNAL
+
+
+
+
+
+
+Artículo 10: El Tribunal se reunirá mediante convocatoria que hará su Presidente. Las reuniones y decisiones serán válidas con la presencia de tres de sus miembros; en caso de que por impedimentos transitorios, el Presidente del Tribunal no pudiere ejercer sus funciones, asumirá la Presidencia el Juez Notarial.
+
+
+
+
+
+
+PARTICIPACION EN EL CONCURSO
+
+
+
+
+
+
+Artículo 11: Podrán participar en el concurso los notarios en ejercicio y los inscriptos en el Registro de Aspirantes a notarios que llevará el Colegio y que manifiesten expresamente su voluntad de intervenir en la forma que determine la reglamentación de esta ley. Para resolver, el Tribunal tendrá en cuenta la actividad y méritos de orden profesional, a cuyo efecto computará de acuerdo con el siguiente orden:
+
+
+
+1. Las calificaciones obtenidas en las pruebas.
+
+
+
+2. (Texto Ley 12.623) La antigüedad de más de cinco (5) años en el ejercicio profesional como adscriptos de registro y en su caso como escribano titular en otro distrito.
+
+
+
+3. Publicaciones o premios jurídico-notariales, calificaciones y premios en o con motivo de estudios universitarios.
+
+
+
+4. (Texto Ley 12.623) Su condición de adscripto con antigüedad menor de cinco (5) años.
+
+
+
+5. Calificaciones obtenidas en otros concursos.
+
+
+
+
+
+
+FACULTADES DEL TRIBUNAL CALIFICADOR
+
+
+
+
+
+
+Artículo 12: El Tribunal Calificador estará facultado para interpretar la normas de esta ley y de su reglamentación relativa a los concursos, y adoptar en consecuencia las decisiones que estime pertinentes.
+
+
+
+
+
+
+DECISIONES DEL TRIBUNAL CALIFICADOR
+
+
+
+
+
+
+Artículo 13: Las decisiones del Tribunal Calificador no podrán ser objeto de reconsideración ni de apelación.
+
+
+
+El veredicto deberá se emitido dentro de los sesenta (60) días de cerrado el concurso. La calificación de los concursantes deberá hacerse por escrito. Las actuaciones del Tribunal quedarán asentadas en el libro que llevará al efecto.
+
+
+
+
+
+
+OTORGAMIENTO DE LA TITULARIDAD
+
+
+
+
+
+
+Artículo 14: Con el objeto de que se otorgue la titularidad a los concursantes, el Tribunal enviará las calificaciones al Poder Ejecutivo, en los términos del artículo 7°, dentro de los diez (10) días posteriores a la emisión del veredicto, conjuntamente con una terna de candidatos para cada registro de cuya provisión se trate.
+
+
+
+El Poder Ejecutivo previo análisis de las circunstancias del caso, resolverá y conferirá los registros, mediante el acto correspondiente, comunicándolo al Colegio de Escribanos a fin de que proceda a poner en posesión del cargo a los designados, previo cumplimiento de los recaudos pertinentes.
+
+
+
+
+
+
+ACCESO DIRECTO A LA TITULARIDAD
+
+
+
+
+
+
+Artículo 15: (Texto según 12.623) Si al producirse por cualquier motivo la vacancia de un registro, existiere adscripto, no corresponderá el llamado a concurso cuando el adscripto tenga cinco años de antigüedad ininterrumpida en ese registro contados desde la fecha en que autorizó la primera escritura.
+
+
+
+
+
+
+CAPITULO III
+
+
+
+ADSCRIPTOS, INTERINOS Y SUPLENTES
+
+
+
+ADSCRIPTOS
+
+
+
+Artículo 16: (Texto según Ley 14099) Cada notario titular, podrá proponer un único adscripto siempre que se reúnan los siguientes requisitos:
+
+
+
+
+Tener una antigüedad como titular de Registro de la Provincia no inferior a cinco años, contada desde la primera escritura autorizada. Este requisito no será exigible para el adscripto que accede a la titularidad, en los casos que se hubiere desempeñado en tal carácter, en ese mismo registro y en forma ininterrumpida, por un plazo no inferior a diez (10) años.
+
+
+Arrojar resultado favorable la inspección extraordinaria que al efecto dispondrá el Juez Notarial, comprensiva de todos los aspectos de la actuación del proponente.
+
+
+Encontrarse el propuesto inscripto en el Registro de Aspirantes a Notarios, o hallarse o haber desempeñado funciones notariales en la Provincia.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Artículo 17: La solicitud deberá ser presentada al Poder Ejecutivo, el que previo análisis de las circunstancias del caso, adoptará la resolución respectiva.
+
+
+
+La resolución que acuerde la adscripción será publicada en el Boletín Oficial y comunicada al Colegio.
+
+
+
+
+
+
+Artículo 18: El adscripto cesará en su función:
+
+
+
+1.Cuando el titular lo solicite en presentación al Juzgado Notarial, sin necesidad de expresar causa, previa comunicación al adscripto efectuada con una antelación no inferior a noventa (90) días.
+
+
+
+2.Si se hallare fehacientemente probada la violación de la obligación de compartir el local profesional que menciona el artículo 20.
+
+
+
+
+
+
+Artículo 19: Si por cualquier medio de prueba se acredite haber lucrado con la concesión de adscripción o haber obtenido ventajas ilícitas o contrarias a la ética, los responsables serán destituidos.
+
+
+
+
+
+
+Artículo 20: (Texto según Ley 14152) El adscripto tendrá igual competencia que el titular y actuará en la oficina de éste y en sus mismos protocolos. Lo reemplazará en caso de ausencia o impedimento transitorio y, si vacare el Registro, asumirá su interinato con conocimiento inmediato del Juez Notarial y del Colegio, hasta tanto se provea su titularidad. El interinato no podrá ser inferior a un (1) año, ni superior a los tres (3) años, salvo que antes de cumplirse ese plazo, el propio adscripto solicite se llame a concurso para cubrir la vacante. El período de interinato no será considerado como antigüedad a todos los efectos legales.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Artículo 21: El titular responderá solidariamente de la actuación del adscripto.
+
+
+
+
+
+
+Artículo 22:Si se produjera la vacante de un Registro o el titular hubiera hecho abandono del cargo y no existiera adscripto el Juez Notarial proveerá a la designación de un suplente cuando fuere necesaria la continuidad del servicio, lo que comunicará al Poder Ejecutivo.
+
+
+
+
+
+
+SUPLENTE
+
+
+
+
+
+
+Artículo 23:
+
+
+
+I.-Actúa como notario suplente de un registro notarial quien está a su cargo hasta tanto reasuma sus funciones el titular en uso de licencia. Asume ese carácter a su propuesta, un notario titular del mismo distrito.
+
+
+
+II.-El Juez Notarial resolverá en que‚ casos será obligatoria la designación del suplente.
+
+
+
+
+
+
+
+
+
+
+
+
+Artículo 23 bis : (Incorporado por Ley 12.623) Dos notarios titulares de registros del mismo Distrito que no tengan adscriptos, podrán proponerse en calidad de suplentes recíprocos, lo que deberá ser autorizado por el Juez Notarial y comunicado por éste al Poder Ejecutivo.
+
+
+
+El notario suplente podrá actuar en todo momento en el registro del suplantado con sus mismas facultades, pero para tales actos regirán tanto las prohibiciones propias como las que afecten al titular. No podrán en ningún caso autorizar actos en que el otro notario intervenga con interés personal.
+
+
+
+Se entenderá como licencia el caso de ausencia o impedimento transitorio del titular del registro.
+
+
+
+En los supuestos de ese artículo los notarios quedan exceptuados de realizar el trámite previsto en el artículo 35°, incisos 10 in fine, de la Ley Notarial.
+
+
+
+
+
+
+
+
+
+
+
+
+Artículo 23 ter : (Incorporado por Ley 12.623) Un notario que no tenga adscripto podrá nombrar como suplente simple a otro notario que sí lo tenga, aplicándose lo normado en el artículo precedente.
+
+
+
+
+
+
+Artículo 24:El titular responderá subsidiariamente de la actuación del suplente.
+
+
+
+
+
+
+TITULO II
+
+
+
+ACCESO Y PERMANENCIA EN LA FUNCION
+
+
+
+
+
+
+CAPITULO I
+
+
+
+ASPIRANTES A NOTARIO
+
+
+
+MATRICULACION
+
+
+
+
+
+
+Artículo 25: Para ejercer funciones notariales se requiere matricularse en el Colegio y a tal efecto el interesado deberá:
+
+
+
+1.Acreditar identidad con documento de ley.
+
+
+
+2.Constituir domicilio especial en la Provincia.
+
+
+
+3.Justificar poseer título universitario de abogado expedido o revalidado por universidad argentina.
+
+
+
+
+
+
+INSCRIPCION
+
+
+
+
+
+
+Artículo 26: Justificados los extremos a que se refiere el artículo anterior, el interesado podrá inscribirse en el Registro de Aspirantes que llevará el Colegio, a cuyo objeto deberá acreditar:
+
+
+
+1.Mayoría de edad.
+
+
+
+2.Ciudadanía argentina nativa o por naturalización.
+
+
+
+3.Buena conducta mediante el procedimiento que determine el reglamento notarial.
+
+
+
+
+
+
+PUBLICIDAD
+
+
+
+
+
+
+Artículo 27: El nombre del interesado en inscribirse en el Registro de Aspirantes se publicará por una sola vez en el Boletín del Colegio y durante los treinta (30) días siguientes se recibirán las impugnaciones que el Comité Ejecutivo podrá rechazar por mayoría de votos o aceptar por dos tercios.
+
+
+
+
+
+
+DENEGATORIA
+
+
+
+Artículo 28: Si la inscripción fuere denegada, el interesado podrá, dentro de los diez (10) días de la notificación fehaciente de la parte dispositiva del acto, apelar ante el Consejo Directivo, el que deberá pronunciarse por dos tercios de votos. Si se confirmare la denegación, el interesado podrá presentar posteriormente nueva solicitud acreditando haber desaparecido las causales en que se fundó. Rechazada por segunda vez, no podrá reiterar los pedidos sino con intervalos de un (1) año.
+
+
+
+De las denegatorias del Consejo Directivo, el interesado podrá recurrir ante la Cámara de Apelaciones en lo Civil y Comercial en turno, del Departamento Judicial de La Plata. . ( NOTA: Por ley 12.008 resultan competentes los Tribunales Contencioso-Administrativos)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HABILITACION PARA EL EJERCICIO DE FUNCIONES NOTARIALES
+
+
+
+
+
+
+Artículo 29:
+
+
+
+I.-Inscripto en el registro, el interesado quedará en condiciones de aspirar al ejercicio de funciones notariales.
+
+
+
+II.-Una vez obtenida la nominación respectiva con arreglo a las prescripciones de esta ley, deberá antes de tomar posesión de sus funciones:
+
+
+
+1.Actualizar la acreditación de su buena conducta si hubiere pasado más de dos (2) años de su inscripción en el Registro de Aspirantes.
+
+
+
+2.Declarar bajo juramento no estar comprendido en el régimen de incompatibilidades.
+
+
+
+3.Prestar juramento en audiencia especial, ante el Presidente del Colegio, de desempeñar con honor las funciones notariales.
+
+
+
+4.Afianzar el cumplimiento de sus obligaciones por el monto, en la forma y de acuerdo con la reglamentación que dicte el Consejo Directivo.
+
+
+
+5.Registrar su firma y sello en el Colegio y en el Juzgado Notarial.
+
+
+
+III.-La fianza cubrirá la responsabilidad disciplinaria fiscal y civil del notario. El Colegio se constituirá en fiador oneroso de sus colegiados sin beneficio de excusión y hasta el monto de la fianza, por intermedio del cofre fedatario de responsabilidad, cuyo capital se formará con los aportes de los fiados, con la partida prevista por el artículo 7°, inciso h) de la Ley 6983 y con los demás recursos que establezca el Consejo Directivo.
+
+
+
+
+
+
+Artículo 30: Los notarios cesan en sus funciones:
+
+
+
+1.Por renuncia.
+
+
+
+2.Por inhabilidad o por incompatibilidad sobreviniente.
+
+
+
+3.Por destitución.
+
+
+
+
+
+
+Artículo 31: El notario que facilitare el ejercicio de la profesión por personas no habilitadas o que de alguna manera lo hiciere posible, será sancionado por el Juez Notarial, sin perjuicio de su juzgamiento por el Tribunal Notarial si el caso se considerase comprendido en el artículo 41, inciso 1).
+
+
+
+
+
+
+CAPITULO II
+
+
+
+INHABILIDADES
+
+
+
+CAUSALES
+
+
+
+
+
+
+Artículo 32: No podrán ejercer funciones notariales:
+
+
+
+1.Los que llegaren a cumplir setenta y cinco (75) años de edad.
+
+
+
+2.Los incapaces.
+
+
+
+3.Los que padezcan defectos físicos o mentales debidamente comprobados que a juicio del Juzgado Notarial importen un impedimento de hecho
+
+
+
+4.Los encausados por delitos no culposos desde que hubiere quedado firme la prisión preventiva y en tanto ésta se mantenga. Si por eximición legal, la prisión no se hubiere hecho efectiva, el Juez Notarial, teniendo en cuenta las circunstancias del caso, podrá diferir la suspensión del imputado en el ejercicio de sus funciones, por el término que estime prudencial.
+
+
+
+5.Los condenados dentro o fuera del país por delitos no culposos, mientras dure la condena y sus efectos. Si el delito hubiere sido contra la Administración Pública, excepto el de desacato, hasta quince (15) años después de cumplida la condena. En su caso, el plazo computará desde la fecha en que se opere la prescripción de la pena. La inhabilidad será perpetua y definitiva en el supuesto de que el delito hubiere sido contra la propiedad o la fe pública.
+
+
+
+En los supuestos en que la condena no hubiere sido por delitos contra la propiedad, la Administración Pública o la fe pública, el Juez Notarial teniendo en cuenta las circunstancias del caso, podrá no hacer efectiva la cesación de sus funciones, siempre que el sentenciado no estuviere privado de libertad.
+
+
+
+6.Los fallidos y concursados, hasta cinco (5) años después de su rehabilitación.
+
+
+
+7.Los inhabilitados por mal desempeño de sus funciones en cualquier Colegio de la República, en tanto se mantenga la medida.
+
+
+
+8.Los destituidos o privados de la función notarial en cualquier lugar del país o del extranjero. Esta inhabilidad tendrá carácter perpetuo y definitivo, sean cuales fueren el tiempo, lugar y causa de la sanción salvo el supuesto revocatoria en el pertinente proceso de revisión.
+
+
+
+
+
+
+CAPITULO III
+
+
+
+INCOMPATIBILIDADES
+
+
+
+CAUSALES
+
+
+
+
+
+
+Artículo 33: El ejercicio del notariado es incompatible:
+
+
+
+1.Con el ejercicio de otras profesiones, en cualquier parte que éstas se realicen.
+
+
+
+2.Con el ejercicio del comercio por cuenta propia o ajena o en el carácter de auxiliares.
+
+
+
+3.Con empleos o cargos judiciales, militares o eclesiásticos.
+
+
+
+4.Con el desempeño de las funciones del Inspector Notarial.
+
+
+
+5.Con el ejercicio de funciones notariales en otra demarcación.
+
+
+
+
+
+
+EXCEPCIONES
+
+
+
+
+
+
+Artículo 34:No se considera incompatible:
+
+
+
+1.El ejercicio de la abogacía y la procuración en causa propia o como representante o patrocinante del cónyuge, padres o hijos cuando lo permitan las respectivas leyes orgánicas.
+
+
+
+2. El desempeño de cargos o empleos que importen el ejercicio de funciones de carácter notarial o registral, los de carácter docente y los de índole literaria, científica o artística dependiente de academias, bibliotecas, museos o institutos de ciencia, artes y letras.
+
+
+
+3.La función de Director o Subdirector de Registros Públicos en tanto los documentos que autorice como notario no fueren susceptibles de inscripción en dichos organismos.
+
+
+
+4.La tenencia de acciones y los cargos de Director o Síndico o de miembros del Consejo de Vigilancia en sociedades de ese tipo.
+
+
+
+5.Los cargos de miembros de directorios de organismos nacionales, provinciales, municipales y mixtos.
+
+
+
+6.Los cargos de escribanos en la Escribanía General de Gobierno de la Provincia.
+
+
+
+
+
+
+CAPITULO IV
+
+
+
+DEBERES NOTARIALES
+
+
+
+ENUMERACION
+
+
+
+
+
+
+Artículo 35:Son deberes del notario:
+
+
+
+1.Autorizar con su firma los documentos en que intervenga.
+
+
+
+2.Asesorar en asuntos de naturaleza notarial a quienes requieran su ministerio.
+
+
+
+3.Estudiar los asuntos para los que fuere requerido en relación a sus antecedentes, a su concreción en acto formal y a las ulterioridades legales previsibles.
+
+
+
+4.Examinar con relación al acto a instrumentarse, la capacidad de las personas individuales y colectivas, la legitimidad de su intervención y las representaciones y habilitaciones invocadas.
+
+
+
+5.Obrar con imparcialidad de modo que su asistencia a los requirentes permita que el
+
+
+
+acuerdo se complete en un plano de equidad.
+
+
+
+6.Guardar el secreto profesional en tanto no se hagan públicas las declaraciones de las partes y exigir igual conducta a sus colaboradores.
+
+
+
+a)Se equipara a la revelación del secreto, la utilización que en beneficio propio o de terceros hiciere el notario sobre la base de los conocimientos que para su intervención se le hubieren confiado.
+
+
+
+b)El sigilo comprende lo conocido en relación directa con el negocio y las confidencias que las partes hicieren al notario aunque no estuvieren directamente vinculadas con el objeto de su intervención.
+
+
+
+c)La dispensa del secreto profesional podrá producirse por justa causa y la apreciación de su existencia quedará librada a la conciencia del notario.
+
+
+
+7.Proceder de conformidad con las reglas de la ética.
+
+
+
+a)Constituyen en general faltas de ética, los actos que afecten el prestigio y el decoro del cuerpo notarial o que fueren lesivos a la dignidad inherente a la función o que empañen el concepto de imparcialidad propio de la actividad notarial o que importaren el quebrantamiento de las normas de respeto y consideración que se deben los notarios entre sí.
+
+
+
+b)El Reglamento Notarial establecerá las faltas de ética, pero su enumeración no tendrá carácter taxativo, pues podrán considerarse tales las que surjan de la conceptualización general contenida en el apartado anterior.
+
+
+
+8.Tramitar, bajo su sola firma la inscripción en los Registros Públicos de los actos pasados en su protocolo.
+
+
+
+9.Asentar en los títulos de dominio o en otros documentos que los interesados le exhibieran, nota de los actos autorizados ante él, que tengan relación con aquellos.
+
+
+
+10.Atender personalmente la notaría y no ausentarse por más de diez (10) días continuos sin conocimiento del Presidente de la delegación respectiva. Si la ausencia fuera superior a un mes, deberá solicitar licencia al Juez Notarial y proponer suplente, si así correspondiere.
+
+
+
+11.Mantener abierta la oficina al público no menos de cuatro (4) horas diarias. Deberá anunciar el horario de labor en lugar visible.
+
+
+
+12.Remitir trimestralmente a la delegación respectiva y al Juzgado Notarial, un estado de movimiento de los protocolos dentro de los plazos y con los datos que fije el Consejo Directivo. El informe deberá remitirse aunque no hubiere autorizado documento alguno en dicho período.
+
+
+
+13.Tener a la vista, toda vez que haya de autorizar documentos relacionados con la transmisión y constitución de derechos reales sobre inmuebles, los certificados vigentes exigidos por las leyes registrales y de catastro nacional, sin perjuicio de los demás que corresponda conforme a la legislación vigente.
+
+
+
+
+
+
+CAPITULO V
+
+
+
+
+
+
+DERECHOS DEL NOTARIO
+
+
+
+CREDENCIAL
+
+
+
+
+
+
+Artículo 36: El Colegio expedirá una credencial a los notarios, en la que se certifique su identidad.
+
+
+
+
+
+
+PERCEPCION DE HONORARIOS
+
+
+
+
+
+
+Artículo 37: Los notarios percibirán sus honorarios por la prestación de servicios con arreglo al arancel que se establezca por ley.
+
+
+
+Cuando la escritura hubiere de surtir efecto o inscribirse en otra jurisdicción, los escribanos podrán optar por la aplicación del arancel vigente en la misma.
+
+
+
+
+
+
+TITULO III
+
+
+
+
+
+
+CAPITULO I
+
+
+
+JURISDICCION NOTARIAL
+
+
+
+
+
+
+Artículo 38: La jurisdicción notarial es ejercida por las Cámaras de Apelación en lo Civil y Comercial del Departamento Judicial de La Plata; por un Juzgado Notarial con sede en la Capital de la Provincia y competencia en todo su territorio; y por el Tribunal Notarial.
+
+
+
+
+
+
+COMPETENCIA
+
+
+
+
+
+
+Artículo 39: Compete a las Cámaras de Apelaciones en lo Civil y Comercial del Departamento Judicial de La Plata entender:
+
+
+
+
+
+
+1.En grado de apelación respecto de las cuestiones previstas en el apartado 1 del artículo 40.
+
+
+
+2.De la recusación del Juez Notarial.
+
+
+
+3.En grado de apelación de las sanciones del Tribunal Notarial cuando las mismas sean de suspensión.
+
+
+
+
+
+
+Artículo 40:Compete al Juez Notarial conocer:
+
+
+
+1.Los procesos:
+
+
+
+a)Por mal desempeño de la función notarial;
+
+
+
+b)Por expedición de las segundas copias de las escrituras públicas con arreglo a lo dispuesto en el artículo 1007 del Código Civil;
+
+
+
+c)Por renovación de títulos.
+
+
+
+La competencia asignada en los apartados b) y c) lo será sin perjuicio de la atribuída para iguales materias a los Juzgados Civiles y Comerciales.
+
+
+
+2.La recusación de los miembros del Tribunal Notarial y de los Secretarios del Juzgado Notarial.
+
+
+
+3.Las cuestiones suscitadas entre los requirentes o entre éstos y el Notario con motivo de la aplicación del arancel.
+
+
+
+4.El grado de apelación, las causas en que hubiere intervenido el Tribunal Notarial y la sanción fuera de amonestación.
+
+
+
+
+
+
+Artículo 41:Compete al Tribunal Notarial:
+
+
+
+1.Las causas relativas a falta de ética y las que afecten la dignidad de la investidura o del prestigio del notario.
+
+
+
+2.Las recusaciones del Secretario del Tribunal.
+
+
+
+
+
+
+FACULTADES DEL JUEZ NOTARIAL
+
+
+
+
+
+
+Artículo 42: El Juez Notarial en cumplimiento de sus funciones, podrá:
+
+
+
+1.Requerir la comparecencia de personas sujetas a su jurisdicción bajo apercibimiento de que en caso de no hacerlo sin justa causa, se hará efectivo el requerimiento con auxilio de la fuerza pública.
+
+
+
+2.Disponer, en caso de urgencia o atento a la naturaleza, gravedad o reiteración de los hechos, las medidas precautorias que juzgue pertinentes, como la suspensión preventiva del notario, el secuestro de los protocolos y demás documentos de la notaría.
+
+
+
+3.Disponer la cesación de funciones de los notarios o suspensión, toda vez que se compruebe haber sido alcanzado por el régimen de inhabilidades e incompatibilidad.
+
+
+
+4.Ejecutar sus propias resoluciones y las del Tribunal Notarial con facultad para allanar domicilio, requerir el auxilio de la fuerza pública y solicitar la colaboración de autoridades judiciales, policiales y administrativas en la misma forma que los demás Jueces de Primera Instancia.
+
+
+
+5.Ordenar la sustanciación de sumarios.
+
+
+
+
+
+
+ATRIBUCIONES DE LOS INSPECTORES
+
+
+
+
+
+
+Artículo 43: El sumario se instruirá con la intervención del o de los inspectores que a tal efecto designe el Juez, los que tendrán amplias facultades para efectuar averiguaciones de los hechos que se investiguen, recibir las denuncias que se hicieren sobre los mismos, verificar las diligencias que fueren urgentes, recoger pruebas y demás antecedentes que se consideren necesarios para establecer y determinar la participación de notarios sujetos a la jurisdicción notarial, proceder a todos los exámenes, indagaciones y averiguaciones que se consideren necesarias, recibir declaraciones, informes y noticias que pueden servir al esclarecimiento de la verdad, de parte de los denunciantes, implicados y demás personas que pueden prestarla.
+
+
+
+
+
+
+PROCEDIMIENTO
+
+
+
+
+
+
+Artículo 44: Las acciones que pongan en movimiento la jurisdicción notarial pueden derivar de la instancia del Colegio, del resultado de una inspección, de denuncias presentadas por la autoridad pública o por presuntos damnificados, o de la propia decisión de los órganos jurisdiccionales.
+
+
+
+
+
+
+DERECHO DE DEFENSA
+
+
+
+
+
+
+Artículo 45: Todo notario a quien se le impute la comisión de una falta, tiene derecho a ser oído antes de aplicársele sanción alguna y ofrecer la prueba que estime corresponder a su derecho.
+
+
+
+
+
+
+Artículo 46: El notario sometido a jurisdicción notarial podrá hacerse patrocinar por otro notario o por abogado de la matrícula. Si citado en la sede de su registro a comparecer en juicio, no lo hiciere dentro del término que se le fije, será declarado en rebeldía y el proceso seguirá adelante hasta dictarse sentencia.
+
+
+
+
+
+
+DENUNCIA
+
+
+
+
+
+
+Artículo 47: Cuando se proceda por denuncia, servirá de base al procedimiento la presentación respectiva. Si ésta fuera verbal, se labrará un acta ante la inspección, haciendo constar las circunstancias que la determinan y relatando los hechos que se presenten punibles.
+
+
+
+
+
+
+VISTAS. TRASLADOS
+
+
+
+
+
+
+Artículo 48: El plazo para contestar vista y traslados, salvo disposición en contrario, será de cinco (5) días. Todo traslado o vista se considerará decretado en calidad de autos, debiendo el Juez o el Tribunal dictar resolución sin más trámite. Toda resolución dictada previa vista o traslado será irrecurrible para quien no la haya contestado, excepto aquellas que causen gravamen irreparable.
+
+
+
+
+
+
+NOTIFICACIONES
+
+
+
+
+
+
+Artículo 49: Las citaciones, notificaciones e intimaciones podrán hacerse por cédula, telegrama o por intermedio de los inspectores del Juzgado.
+
+
+
+
+
+
+PLAZOS
+
+
+
+
+
+
+Artículo 50: Los plazos son perentorios, salvo que el Juez resuelva lo contrario. Cuando esta ley no fijare expresamente el plazo que corresponda para la realización de un acto, lo señalará el Juez de conformidad con la naturaleza del proceso y la importancia de la diligencia.
+
+
+
+
+
+
+ELEVACION DEL SUMARIO
+
+
+
+
+
+
+Artículo 51: Finalizado el cometido, el inspector elevará las actuaciones con un informe circunstanciado al Juez Notarial.
+
+
+
+
+
+
+VISTAS
+
+
+
+
+
+
+Artículo 52: Concluida la instrucción, el Juez correrá vista de lo actuado al imputado por diez (10) días corridos para que se expida sobre el mérito del sumario y ofrezca la prueba.
+
+
+
+
+
+
+PRUEBA
+
+
+
+
+
+
+Artículo 53: Admitida la prueba, el Juez abrirá un término de veinte (20) días para su recepción.
+
+
+
+
+
+
+Artículo 54: Vencido el término para la presentación de la defensa y agotadas las diligencias para el esclarecimiento del caso, se llamará a autos para resolver.
+
+
+
+
+
+
+Artículo 55: Desde entonces quedará cerrada la instancia y no podrán presentarse más escritos ni producirse más pruebas salvo las que el Juez considere oportuno para mejor proveer o los que tuvieren origen en hechos nuevos.
+
+
+
+
+
+
+TERMINO PARA DICTAR SENTENCIA
+
+
+
+
+
+
+Artículo 56: El término para dictar sentencia será para el Juzgado y Tribunal Notarial de treinta (30) días desde la fecha en que haya quedado consentido el llamado de autos para resolver.
+
+
+
+
+
+
+RECURSOS
+
+
+
+
+
+
+Artículo 57:
+
+
+
+I. Contra las resoluciones del Juez y del Tribunal Notarial podrán interponerse recurso de revocatoria y de apelación y nulidad en subsidio, salvo que se tratare de providencias simples o de la sanción de apercibimiento, casos en que procederá sólo el de revocatoria. Los plazos para interponer los recursos serán de quince (15) y cinco (5) días respectivamente.
+
+
+
+II .Las apelaciones respecto de sanciones disciplinarias serán concedidas con efecto suspensivo, y de las suspensiones preventivas y otras medidas precautorias con efecto devolutivo.
+
+
+
+
+
+
+NORMAS SUBSIDIARIAS
+
+
+
+
+
+
+Artículo 58: En las actuaciones contra notarios se seguirán las normas precedentes y subsidiariamente, las contenidas en el Código de Procedimiento en lo Penal de la Provincia, en cuanto sean aplicables. En los demás casos previstos por el artículo 40 se aplicarán subsidiariamente las disposiciones del Código de Procedimiento en lo Civil y Comercial.
+
+
+
+
+
+
+CAPITULO II
+
+
+
+
+
+
+INSPECCION DE REGISTROS NOTARIALES
+
+
+
+
+
+
+VISITAS ORDINARIAS Y EXTRAORDINARIAS
+
+
+
+
+
+
+Artículo 59: La inspección de los registros notariales se llevará a cabo por lo menos dos (2) veces al año en forma ordinaria. Las visitas de carácter extraordinario en averiguación de denuncia o de hechos irregulares que hubieren llegado a conocimiento del Colegio de los órganos jurisdiccionales, se realizarán cuantas veces sean necesario.
+
+
+
+
+
+
+OBJETO DE LAS INSPECCIONES
+
+
+
+
+
+
+Artículo 60: Las inspecciones tendrán por objeto verificar:
+
+
+
+1.Si los protocolos se encuentran formados por cuadernos que se ajusten a las disposiciones de la ley.
+
+
+
+2.Si los documentos extendidos llevan las firmas correspondientes.
+
+
+
+3.Si están autorizados con la firma y sello del notario.
+
+
+
+4.Si la numeración de los documentos y foliatura de los protocolos estén en orden.
+
+
+
+5.Si concuerda el contenido de los protocolos con el de los estados trimestrales del inciso 12 del artículo 35.
+
+
+
+6.Si los documentos están extendidos en el folio que corresponde según el orden cronológico.
+
+
+
+7.Si se han salvado las enmiendas efectuadas en el texto del documento en la forma prevista por la ley.
+
+
+
+8.Si se encuentran archivados los certificados del Registro de la Propiedad y del Catastro Nacional, cuando así correspondiere.
+
+
+
+9.Si los documentos errados o que no han pasado tienen la nota pertinente.
+
+
+
+10.Si las escrituras sujetas a inscripción tienen la nota respectiva.
+
+
+
+11.Si se encuentran agregados a los protocolos los documentos que obligatoriamente deben ser incorporados y si están en forma legal.
+
+
+
+12.Si los protocolos contienen la nota de apertura y en su caso el certificado de clausura.
+
+
+
+13.Si los protocolos correspondientes a años anteriores se encuentran encuadernados y si se llevan los índices reglamentarios.
+
+
+
+14.Si se han cumplido las formalidades de la ley en la facción de los documentos.
+
+
+
+15.Si se han cumplido regularmente las diligencias y obligaciones fiscales a cargo del notario como agente de retención.
+
+
+
+Por ningún concepto podrán los inspectores ni el Juzgado Notarial ocuparse de cuestiones que se relacionen con el fondo de los actos, excepto para este último y en grado de apelación, en las previstas en el artículo 132.
+
+
+
+
+
+
+FORMA DE EFECTUAR LAS INSPECCIONES ORDINARIAS
+
+
+
+
+
+
+Artículo 61: Las inspecciones se verificarán en la sede del Registro. En los casos en que así lo disponga la reglamentación de esta ley, el Reglamento Notarial, o lo resuelva el Juez Notarial, tendrán lugar en la sede de la delegación respectiva o en la del Juzgado Notarial. En caso de que no se presentaren los protocolos en el día y hora señalados, el Juez Notarial fijará un nuevo plazo bajo apercibimiento de suspender al titular o al reemplazante legal hasta tanto d‚ cumplimiento. Si los protocolos no fueren presentados a la segunda citación, el inspector interviniente pondrá los hechos en conocimiento del Juez, el que hará efectivo el apercibimiento y aplicará las sanciones que estime correspondan. En todos los casos en que se disponga que las inspecciones se realicen fuera de la sede del Registro, el día y la hora se determinará con una antelación de diez (10) días corridos. Las disposiciones del presente artículo se aplicarán sin perjuicio de que ante el incumplimiento del titular o su reemplazante, la inspección se lleve a cabo en la sede del Registro o se disponga la incautación de protocolos.
+
+
+
+
+
+
+ACTA DE INSPECCION
+
+
+
+
+
+
+Artículo 62: En toda inspección deberá labrarse un acta que firmarán el inspector y el notario. Si éste se negare, así se hará constar. Si en el acta resultaren observaciones, el notario podrá contestarlas en el mismo momento por escrito separado o por acta complementaria. Si no pudiere o no quisiere hacerlo en esa oportunidad, deberá contestar las observaciones dentro del término de diez (10) días y si no lo hiciere, los órganos juridiccionales estarán a lo que resulte de las comprobaciones efectuadas por el inspector, sin perjuicio de disponer las medidas que se estimaren pertinentes para mejor resolver.
+
+
+
+
+
+
+TRABAS A LA INSPECCION
+
+
+
+
+
+
+Artículo 63: Será considerada falta grave oponerse o dificultar las inspecciones, poner trabas para que no se realicen en el momento oportuno o negarse a firmar el acta sin causa debidamente justificada.
+
+
+
+
+
+
+CAPITULO III
+
+
+
+SANCIONES DISCIPLINARIAS
+
+
+
+SANCIONES
+
+
+
+
+
+
+Artículo 64: Las sanciones disciplinarias consistirán en:
+
+
+
+1.Apercibimiento.
+
+
+
+2.Multa hasta cubrir el monto de la fianza.
+
+
+
+3.Suspensiones de hasta dos (2) años.
+
+
+
+4.Destitución del cargo.
+
+
+
+
+
+
+SANCIONES POR FALTA DE ETICA
+
+
+
+
+
+
+Artículo 65: Las faltas a que se refiere el inciso 1) del artículo 41, recibirán las siguientes sanciones:
+
+
+
+1.Amonestación.
+
+
+
+2.Suspensión por tres (3) meses.
+
+
+
+En caso de reincidencia de faltas por circunstancias similares o análogas a las que motivaron la aplicación de la sanción dispuesta en el inciso 2) de este artículo, el Tribunal remitirá los antecedentes al Poder Ejecutivo para que decida en definitiva la medida a aplicar pudiendo llegar hasta la destitución.
+
+
+
+Oportunamente se comunicará la aplicación de las sanciones al Juzgado Notarial y al Colegio.
+
+
+
+Contra la decisión definitiva del Poder Ejecutivo será procedente la acción contencioso-administrativa del artículo 149, inciso 3) de la Constitución Provincial. . ( NOTA: Por ley 12.008 resultan competentes los Tribunales Contencioso-Administrativos)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ACCESORIO
+
+
+
+
+
+
+Artículo 66: Las sanciones a que se refieren los incisos 1) y 2) del artículo anterior, llevarán aparejada la suspensión del derecho de elegir y ser elegido para cargos directivos del Colegio por el término de cuatro (4) años.
+
+
+
+
+
+
+EJECUCION DE SANCIONES
+
+
+
+
+
+
+Artículo 67: La aplicación de las sanciones disciplinarias tendrá lugar en la siguiente forma:
+
+
+
+1.El pago de la multa se intimará por escrito. Si pasados diez (10) días de la notificación el notario no la hubiere oblado, se suspenderá la habilitación de los cuadernos hasta que se presente la boleta de depósito.
+
+
+
+2.Restituido el notario, se le intimará la entrega de los protocolos bajo apercibimiento de su extracción por la fuerza pública pudiendo decretarse igual medida en caso de suspensión.
+
+
+
+
+
+
+Artículo 68: La destitución del cargo importa la imposibilidad de inscripción en el registro de aspirantes y la cancelación de la matrícula.
+
+
+
+
+
+
+Artículo 69: Decretada una medida disciplinaria será notificada, pero no podrá publicarse mientras no quede firme. La medida aplicada se anotará en el legajo personal del notario y será comunicada al Colegio.
+
+
+
+
+
+
+Artículo 70: Las sanciones disciplinarias de suspensión o destitución que queden firmes, serán comunicadas al Registro de Antecedentes e Inhabilitaciones Notariales. Si consistieren en multas y suspensiones se publicarán en el Boletín del Colegio. En caso de destitución, se darán a conocer además por el "Boletín Oficial".
+
+
+
+
+
+
+Artículo 71: Las suspensiones preventivas se pondrán en conocimiento del notariado por circulares internas que distribuirá el Colegio.
+
+
+
+
+
+
+PRESCRIPCION DE LAS ACCIONES
+
+
+
+
+
+
+Artículo 72: Las acciones que den lugar a la aplicación de sanciones disciplinarias prescriben a los diez (10) años de cometida la falta.
+
+
+
+
+
+
+CAPITULO IV
+
+
+
+JUZGADO Y TRIBUNAL NOTARIAL
+
+
+
+
+
+
+JUZGADO NOTARIAL
+
+
+
+
+
+
+Artículo 73: El Juez Notarial será nombrado y removido en la forma en que lo son los Jueces de Primera Instancia. Gozarán de las mismas garantías y derechos que ellos y prestarán juramento de desempeñar fielmente su cargo ante la Suprema Corte de Justicia.
+
+
+
+
+
+
+TRIBUNAL NOTARIAL
+
+
+
+
+
+
+Artículo 74: El Tribunal Notarial estará formado por tres (3) miembros, que deberán elegir un (1) presidente de su seno.
+
+
+
+
+
+
+Artículo 75:Para ser miembro del Tribunal los notarios deberán tener diez (10) años de ejercicio como titular de Registro de la Provincia e integrar una lista de veinte (20) conjueces que a tal efecto la Cámara de Apelaciones en lo Civil y Comercial de La Plata en turno, formará en la primera quincena de diciembre del año que corresponda.
+
+
+
+
+
+
+Artículo 76:Los miembros del Tribunal serán designados en la segunda quincena del mes de diciembre del año que corresponda por la mencionada Cámara de Apelaciones, por sorteo de la lista a que se refiere el artículo anterior. En la misma oportunidad serán designados tres (3) miembros subrogantes.
+
+
+
+Prestarán juramento ante quien los designó y durarán dos (2) años en sus funciones, desde el primero de enero del año posterior al de su designación y hasta el 31 de diciembre del año siguiente, pero si por cualquier circunstancia no hubieran sido designados reemplazantes continuarán en el ejercicio hasta que ello ocurra.
+
+
+
+
+
+
+Artículo 77: Las funciones de los miembros del Tribunal Notarial constituyen carga pública, pero por razones de salud, edad, reelección y otras debidamente justificadas, se podrá aceptar la renuncia que se hiciere del cargo, caso en que asumirá sus funciones el miembro subrogante.
+
+
+
+
+
+
+Artículo 78: El Colegio compensará a los miembros del Tribunal Notarial los gastos que les insuma el ejercicio de sus funciones.
+
+
+
+
+
+
+INSPECTORES NOTARIALES Y SECRETARIOS
+
+
+
+
+
+
+Artículo 79: El cuerpo de inspectores notariales se compondrá de no menos de dos (2) inspectores por cada departamento judicial. Actuarán bajo la dependencia directa del Juez Notarial.
+
+
+
+
+
+
+Artículo 80: Para ser Secretario del Juzgado o Inspector Notarial, se requiere poseer título de abogado o escribano y haber actuado como notario durante un período de tres años. Serán designados y retribuídos en igual forma que los demás funcionarios del Poder Judicial.
+
+
+
+
+
+
+REEMPLAZO DE JUECES Y SECRETARIOS
+
+
+
+
+
+
+Artículo 81: En caso de vacancia, ausencia o impedimento del Juez Notarial será reemplazado por el Juez en lo Civil y Comercial que designar la Suprema Corte de Justicia.
+
+
+
+
+
+
+Artículo 82: En caso de vacancia, ausencia o impedimento de un Secretario, será reemplazado por otro del mismo Juzgado. Si ello no fuera posible las funciones de Secretario serán desempeñadas por el funcionario que designe la Suprema Corte de Justicia.-
+
+
+
+
+
+
+RECUSACION
+
+
+
+
+
+
+Artículo 83: El Juez Notarial, los miembros del Tribunal y los Secretarios serán recusables por iguales causas y términos que los Jueces y Secretarios conforme lo dispone el Código de Procedimiento Penal.
+
+
+
+
+
+
+TITULO IV
+
+
+
+COLEGIO NOTARIAL
+
+
+
+
+
+
+CAPITULO I
+
+
+
+DISPOSICIONES GENERALES
+
+
+
+PERSONERIA
+
+
+
+
+
+
+Artículo 84: El Colegio de Escribanos de la Provincia de Buenos Aires, con sede en la capital de la misma, tendrá el carácter de persona jurídica de derecho público y como Colegio Notarial, la dirección y representación exclusiva del notariado de la Provincia.
+
+
+
+
+
+
+COMPOSICION Y ORGANIZACION
+
+
+
+
+
+
+Artículo 85:
+
+
+
+I.-El Colegio se compone de todos los notarios de la Provincia, en actividad y en retiro. Sin perjuicio de su calidad de miembros de la institución, podrán ejercer libremente el derecho de asociarse.
+
+
+
+II.-La organización, estructura y funcionamiento del Colegio se regirán por la disposición de la presente ley, por las de su reglamentación y por la del Reglamento Notarial.
+
+
+
+
+
+
+OBJETIVOS
+
+
+
+
+
+
+Artículo 86: Son objetivos fundamentales del Colegio:
+
+
+
+1.Mantener los principios en que se sustenta la institución del notariado, con la finalidad de afianzar en el ámbito que le es propio, los valores jurídicos de seguridad y certeza que para su pacífica convivencia requiere la comunidad.
+
+
+
+2.Asegurar el respeto de la investidura de los notarios y el ejercicio regular de su ministerio.
+
+
+
+3.Velar por la sujeción de los notarios a las normas jurídicas y a las reglas de ética en vista a la prestación de un eficiente servicio.
+
+
+
+4.Atender a la defensa de los derechos de los notarios y a su bienestar moral y material.
+
+
+
+5.Representar en forma exclusiva a los notarios colegiados de la Provincia.
+
+
+
+
+
+
+ORGANOS
+
+
+
+
+
+
+Artículo 87: Son órganos del Colegio:
+
+
+
+1.La asamblea.
+
+
+
+2.El Consejo Directivo.
+
+
+
+3.El Comité Ejecutivo.
+
+
+
+4.Las Juntas Ejecutivas de las Delegaciones.
+
+
+
+
+
+
+Artículo 88: Coadyuvan a la labor de los órganos del Colegio:
+
+
+
+1.-Las comisiones auxiliares de carácter permanente o transitorio que designe el Consejo Directivo.
+
+
+
+2.-Los subdelegados.
+
+
+
+
+
+
+CAPITULO II
+
+
+
+ASAMBLEAS
+
+
+
+COMPOSICION
+
+
+
+
+
+
+Artículo 89:
+
+
+
+I.-La Asamblea se compone de los notarios en ejercicio y en retiro, podrán actuar por sí; o por carta poder a favor de un colega, para una reunión determinada, registrada con la antelación que fije el Reglamento Notarial.
+
+
+
+II.-Cada asambleísta podrá representar hasta un máximo de dos (2) colegas.
+
+
+
+III.-Toda intervención en los debates y votación de quien actúa en ejercicio de representación será tomada en forma indivisible, esto es que se considerará que actúa en toda situación por sí y por su representado.
+
+
+
+IV.-Deberán realizarse en la ciudad capital, sede del Colegio de Escribanos.
+
+
+
+
+
+
+CLASES Y FUNCIONES DE ASAMBLEAS
+
+
+
+
+
+
+Artículo 90:
+
+
+
+I.-La Asamblea se reunirá en forma ordinaria y extraordinaria.
+
+
+
+II.-La Asamblea ordinaria tendrá lugar anualmente.
+
+
+
+III.-La Asamblea ordinaria considerará:
+
+
+
+1.La gestión cumplida por el Consejo Directivo, en el último ejercicio.
+
+
+
+2.Todo asunto incluido en la convocatoria.
+
+
+
+IV.-La Asamblea extraordinaria se reunirá toda vez que sea convocada por el Consejo Directivo, por propia iniciativa o a requerimiento de no menos del diez (10) por ciento de los colegiados.
+
+
+
+
+
+
+REUNIONES PREPARATORIAS
+
+
+
+
+
+
+Artículo 91:
+
+
+
+I.-Previamente a la realización de asambleas extraordinarias, las Juntas Ejecutivas de las delegaciones deberán citar a los colegas de la zona a reuniones que podrán tener lugar en su sede o en otro lugar de la demarcación, para informar acerca de los asuntos a tratar en la asamblea convocada y cambiar ideas sobre su consideración. Con respecto a las asambleas ordinarias, estas reuniones serán facultativas.
+
+
+
+
+
+
+II.-En estas reuniones no se adoptarán decisiones ni se someterá cuestión alguna a votación, salvo las estrictamente necesarias para el mantenimiento del orden.
+
+
+
+
+
+
+QUORUM
+
+
+
+
+
+
+Artículo 92:
+
+
+
+1.-Para funcionar válidamente, las asambleas deberán estar constituídas por no menos de cien (100) componentes que se encuentren presentes en el recinto. Si no se alcanzare ese número, se realizará con el que hubiere, una hora después de la fijada en la convocatoria.
+
+
+
+2.-Las decisiones se adoptarán por simple mayoría.
+
+
+
+3.-El Reglamento Notarial determinará las inhabilitaciones para ser miembros de las asambleas, el procedimiento para su constitución, desarrollo y votación y toda otra norma complementaria de las establecidas en esta ley.
+
+
+
+
+
+
+CAPITULO III
+
+
+
+
+
+
+CONSEJO DIRECTIVO
+
+
+
+
+
+
+Artículo 93: El Consejo Directivo del Colegio estará formado por notarios en actividad o en retiro que, con la denominación de Consejeros, serán elegidos localmente por cada circunscripción electoral.
+
+
+
+El número de Consejeros a elegir por cada circunscripción estará determinado por la cantidad de notarios en funciones en cada una de ellas, de acuerdo con lo que seguidamente se dispone:
+
+
+
+a) Circunscripciones con hasta cien (100) notarios: un (1) Consejero.
+
+
+
+b) Circunscripciones con más de cien (100) y hasta cuatrocientos (400) notarios: tres (3) Consejeros.
+
+
+
+c) Circunscripciones con más de cuatrocientos (400) notarios: seis (6) Consejeros.
+
+
+
+
+
+
+FUNCIONAMIENTO
+
+
+
+Artículo 94:
+
+
+
+I.- Habrá quórum cuando se encuentre presente un tercio de los consejeros. La fracción será considerada como entera.
+
+
+
+II.- Las resoluciones se adoptarán por un número de Consejeros que represente más de la mitad salvo cuando esta ley, su reglamentación, o el Reglamento Notarial exijan una mayoría especial. En todos los casos, la proporción establecida lo será en relación a los Consejeros presentes.
+
+
+
+III.- El Consejo sesionará por lo menos una vez al mes.
+
+
+
+Ordinariamente sesionará en la Capital de la Provincia, pero excepcionalmente podrá hacerlo en otro lugar de su territorio.
+
+
+
+IV.- Presidirá el titular del Consejo y en caso de ausencia, el Vicepresidente 1º, a falta de ambos el Vicepresidente 2º, y en defecto de los tres, un Presidente "ad hoc" designado por el Cuerpo y que seguirá en funciones hasta tanto reasuma alguno de aquellos, aún después de finalizada la sesión.
+
+
+
+V.- El orden y funcionamiento del Consejo se regirá por el Reglamento Interno que dicte con una mayoría de dos (2) tercios.
+
+
+
+VI.- En los casos en que el Consejo, para adoptar determinadas resoluciones, deba integrarse con los Presidentes de las Juntas Ejecutivas de las delegaciones o sus representantes legales, se aplicarán las normas precedentes. A estos efectos, se considerará que son miembros del Cuerpo los Consejeros y los Presidentes de las delegaciones, sin distinción alguna entre unos y otros.
+
+
+
+
+
+
+REQUISITOS PARA SER CONSEJERO
+
+
+
+
+
+
+Artículo 95: Para ser Consejero se requiere:
+
+
+
+1.Ser notario en ejercicio o en retiro con una antigüedad en aquel carácter no menor a cinco (5) años.
+
+
+
+2.No encontrarse sumariado ni haber sido sancionado por mal desempeño de sus funciones, ni por falta de ética.
+
+
+
+3.No ser deudor en estado de ejecución de cuotas de sostenimiento o de servicios de préstamos acordados por la Caja de Previsión Social del Colegio.
+
+
+
+4.Tener su domicilio real dentro de los límites territoriales de la delegación a que pertenezca, y reunir los demás requisitos establecidos en el apartado 1 del artículo 120.
+
+
+
+
+
+
+RENOVACION DEL CUERPO
+
+
+
+Artículo 96:
+
+
+
+I.- Los Consejeros durarán dos (2) años en sus funciones, pudiendo ser reelectos solamente por otro período consecutivo; luego de transcurrido un período podrán ser nuevamente reelectos en las mismas condiciones.
+
+
+
+II.- El cuerpo se renovará en su totalidad cada dos (2) años.
+
+
+
+
+
+
+AUSENCIA DE CONSEJEROS
+
+
+
+
+
+
+Artículo 97: En caso de ausencia injustificada de un Consejero a más de tres (3) sesiones consecutivas o seis (6) alternadas en el año, el Consejo Directivo, por mayoría de dos (2) tercios podrá separarlo de sus funciones.
+
+
+
+
+
+
+MOVILIDAD
+
+
+
+
+
+
+Artículo 98: El desempeño del cargo de Consejero es honorario, pero los gastos de movilidad que ocasione el cumplimiento de las funciones serán reembolsados.
+
+
+
+
+
+
+CESACION EN EL CARGO DE CONSEJERO
+
+
+
+
+
+
+Artículo 99: Además de la causal prevista en el artículo 97, la calidad de Consejero cesará si quien la ostenta dejare de ser notario en ejercicio, salvo que la causa fuera el pase a retiro, o quedare comprendido en las inhabilidades establecidas en los incisos 2 y 3 del artículo 95. También cesará en el caso de que fuere suspendido de sus funciones de notario; para que ello no ocurra, el Cuerpo deberá así decidirlo por el voto de tres cuartos.
+
+
+
+
+
+
+COMPETENCIA DEL CONSEJO DIRECTIVO
+
+
+
+
+
+
+Artículo 100: Competerá al Consejo Directivo:
+
+
+
+1.Ejercer la representación profesional de los notarios colegiados por esta ley.
+
+
+
+2.Velar por la vigencia plena de los valores esenciales del notariado y adoptar las medidas preventivas e impulsar las sanciones que sean necesarias para cumplir esa finalidad.
+
+
+
+3.Vigilar el cumplimiento de la ley, de su reglamentación, del Reglamento Notarial, de toda otra disposición atinente al notariado y de las reglas de ética.
+
+
+
+4.Dictar resoluciones de carácter general tendientes a una mayor eficacia del servicio notarial, con el voto de los dos tercios.
+
+
+
+5.Promover la legislación y toda medida tendiente a la preservación y progreso de la institución notarial.
+
+
+
+6.Colaborar en estudios, informes, proyectos y demás trabajos que se refieran al notariado.
+
+
+
+7.Expedir dictámenes e informes requeridos por los poderes públicos en asuntos relacionados con el ejercicio de las funciones notariales.
+
+
+
+8.Prestar asistencia a los notarios toda vez que se vean afectados en su investidura o en el ejercicio regular de sus funciones y promover en su consecuencia, las gestiones pertinentes.
+
+
+
+9.Tomar a su cargo el contralor de las disposiciones relativas a los regímenes de inhabilidades e incompatibilidades, adoptar las medidas tendientes a hacer cesar las irregularidades comprobadas y en su caso, poner los hechos en conocimiento del órgano que corresponda.
+
+
+
+10.Resolver que el Colegio forme parte de Federaciones Nacionales e Internacionales de Notarios, de agrupaciones interprofesionales y de toda otra organización de carácter cultural, mutual y profesional; sea nacional o internacional.
+
+
+
+11.Promover la superación profesional de los notarios y su permanente actualización en materia de legislación, jurisprudencia y doctrina, pudiendo financiar el funcionamiento de un instituto de altos estudios con la finalidad de investigar en profundidad las disciplinas relacionadas con el ejercicio de las funciones notariales y de procurar la integración cultural del notario.
+
+
+
+12.Auxiliar a los notarios en el ejercicio de sus funciones mediante dictámenes e informes en consultas que formulen, emitidos por el Cuerpo de Consultores.
+
+
+
+13.Disponer la participación del Colegio en congresos, jornadas, convenciones, encuentros y otras reuniones notariales, registrales, inter-profesionales o de carácter cultural o mutual, nacionales e internacionales y designar delegados o veedores en conformidad a la reglamentación que dicte al efecto.
+
+
+
+14.Ejercer la dirección de la Caja de Previsión Social del Colegio con las facultades que le acuerda la Ley 6983 o el ordenamiento legal que la sustituya.
+
+
+
+15.Organizar la realización de jornadas notariales provinciales y otras reuniones para tratar asuntos vinculados con el ejercicio de las actividades profesionales.
+
+
+
+16.Proyectar el Reglamento Notarial, someterlo a consideración de la Asamblea, y remitirlo al Poder Ejecutivo para su sanción, hecho lo cual se publicará en el Boletín Oficial teniendo carácter obligatorio.
+
+
+
+17.Honrar la memoria de notarios beneméritos mediante la institución de premios a la labor jurídica, becas de perfeccionamiento e investigación, donación de edificios para escuelas primarias públicas en zonas rurales de la Provincia y a través de otras realizaciones de índole cultural, en tanto las posibilidades económicas del Colegio lo permitan y haya unanimidad en la decisión.
+
+
+
+18.Celebrar convenios con organismos provinciales conforme a los cuales el Colegio colabore en la ejecución de tareas de interés general vinculadas al quehacer notarial.
+
+
+
+19.Ejercer los demás deberes y atribuciones que le confiere esta ley y el Reglamento Notarial, y aquellos necesarios para cumplir los objetivos del Colegio que no estén expresamente atribuidos a otro órgano.
+
+
+
+
+
+
+ATRIBUCIONES DEL CONSEJO DIRECTIVO
+
+
+
+
+
+
+Artículo 101: Para cumplir los fines del Colegio, el Consejo Directivo tendrá las siguientes atribuciones y deberes:
+
+
+
+1.Convocar a asamblea y fijar el orden del día.
+
+
+
+2.Cumplir y hacer cumplir las resoluciones de la Asamblea.
+
+
+
+3.Nombrar y remover los miembros del Cuerpo de Consultores, los asesores y los funcionarios jerarquizados del Colegio.
+
+
+
+4.Crear comisiones auxiliares y designar sus integrantes.
+
+
+
+5.Aprobar el presupuesto y el cálculo de recursos proyectados por el Comité Ejecutivo.
+
+
+
+6.Autorizar al Comité Ejecutivo a contratar en nombre del Colegio cuando se trate de negocios relativos a inmuebles y de contraer obligaciones superiores a un millón (1.000.000) de pesos.
+
+
+
+7.Entablar y contestar demandas judiciales y designar letrados patrocinantes y apoderados generales y especiales.
+
+
+
+8.Solicitar toda clase de informes a los poderes públicos sobre asuntos de interés notarial.
+
+
+
+9.Reglamentar su propio funcionamiento y el de las Juntas Ejecutivas de las delegaciones.
+
+
+
+10.Editar la Revista Notarial, un boletín informativo y las demás publicaciones que estime conveniente.
+
+
+
+11.Mantener y acrecentar su biblioteca pública.
+
+
+
+12.Dictar reglamentos de personal, de contabilidad y todo otro que fuese necesario para el mejor desenvolvimiento del Colegio.
+
+
+
+
+
+
+Artículo 102: Cuando el Colegio de Escribanos intervenga en cuestiones notoriamente ajenas a los fines de su creación, el Poder Ejecutivo podrá intervenirlo a los efectos de su reorganización.
+
+
+
+La medida precedente podrá ser requerida por no menos del 30 por ciento (treinta por ciento) de los escribanos colegiados, cuando estimen que el Colegio de Escribanos interviniere en cuestiones como las mencionadas en el párrafo anterior, en cuyo caso el Poder Ejecutivo, deberá considerar de inmediato la petición.
+
+
+
+
+
+
+CAPITULO IV
+
+
+
+
+
+
+COMITE EJECUTIVO
+
+
+
+
+
+
+COMPOSICION
+
+
+
+
+
+
+Artículo 103: En la primera sesión que realicen los Consejeros electos presididos por el titular de mayor edad, designarán de su seno un Presidente, un Vicepresidente 1ro., un Vicepresidente 2do., cuatro Secretarios, un Tesorero y un Protesorero.-
+
+
+
+Este conjunto de consejeros constituirá el Comité Ejecutivo. El Reglamento Notarial podrá aumentar o disminuir el número de Secretarios.
+
+
+
+
+
+
+FUNCIONAMIENTO
+
+
+
+
+
+
+Artículo 104: El Reglamento Notarial determinará las normas a que se sujetará el funcionamiento del Comité Ejecutivo.
+
+
+
+
+
+
+FACULTADES DEL COMITE
+
+
+
+
+
+
+Artículo 105: El Comité Ejecutivo tendrá las siguientes atribuciones:
+
+
+
+
+
+
+1. Llevar la matrícula y el Registro de Aspirantes.
+
+
+
+2. Administrar la Caja de Previsión Social del Colegio.
+
+
+
+3. Designar y remover los empleados administrativos, gráficos, de intendencia y maestranza del Colegio.
+
+
+
+4. Proyectar el presupuesto de gastos y el cálculo de recursos para su consideración por el Consejo Directivo.
+
+
+
+5. Administrar los bienes del Colegio, celebrar toda clase de contratos y realizar en general todos los actos jurídicos, administrativos y bancarios que sean necesarios o convenientes para el cumplimiento de los fines del Colegio o para la defensa de sus derechos e intereses patrimoniales. En los casos previstos en el inciso 6, del artículo 101, requerirá autorización previa del Consejo Directivo.
+
+
+
+
+
+
+FUNCIONES DEL PRESIDENTE
+
+
+
+
+
+
+Artículo 106: El Presidente es el representante legal del Colegio. Son funciones inherentes al cargo:
+
+
+
+1. Convocar a la Asamblea, al Consejo Directivo y al Comité Ejecutivo.
+
+
+
+2. Firmar las comunicaciones oficiales juntamente con un Secretario.
+
+
+
+3. Presidir la Asamblea, el Consejo Directivo y el Comité Ejecutivo. Tiene doble voto en caso de empate y puede intervenir en el debate delegando la presidencia.
+
+
+
+4. Resolver cualquier asunto urgente de naturaleza impostergable que competa al Consejo Directivo o al Comité Ejecutivo cuando le sea imposible reunir en término estos cuerpos, de todo lo cual dará cuenta en la primera sesión.
+
+
+
+5. Cumplir y hacer cumplir las decisiones de la Asamblea, del Consejo Directivo y del Comité Ejecutivo.
+
+
+
+
+
+
+Artículo 107: El Vicepresidente 1ro., reemplazará al titular en caso de ausencia o impedimento; en su defecto, lo hará el Vicepresidente 2do.-
+
+
+
+
+
+
+SECRETARIOS Y TESOREROS
+
+
+
+
+
+
+Artículo 108: Las funciones de los Secretarios, Tesoreros y Protesoreros serán fijadas por el Reglamento Notarial y los Reglamentos Internos del Consejo Directivo y del Comité Ejecutivo.
+
+
+
+
+
+
+CAPITULO V
+
+
+
+DELEGACIONES
+
+
+
+NUMERO Y COMPOSICION DE LAS DELEGACIONES
+
+
+
+
+
+
+Artículo 109: Para el mejor cumplimiento de los fines del Colegio, el Consejo Directivo que a ese efecto se integrará con los Presidentes de las Delegaciones, por el voto de los dos tercios, podrá modificar la composición de las delegaciones, crear otras o fusionar algunas total o parcialmente y determinar su sede.
+
+
+
+
+
+
+NUMERO DE MIEMBROS DE LAS JUNTAS
+
+
+
+
+
+
+Artículo 110: Las Juntas Ejecutivas de las delegaciones se compondrán del número de miembros que determine la reglamentación de esta ley o el Reglamento Notarial.
+
+
+
+
+
+
+REQUISITO PARA SER MIEMBRO
+
+
+
+
+
+
+Artículo 111: Para ser miembro de la Junta se requiere tener una antigüedad de tres (3) años como actuante en un registro de la delegación, encontrarse en actividad o en retiro y reunir los requisitos exigidos por los incisos 2) y 3) del artículo 95.
+
+
+
+
+
+
+CARGOS
+
+
+
+
+
+
+Artículo 112: En la primera sesión que realicen los miembros electos presididos por el titular de mayor edad, designará de su seno, un Presidente, dos Vicepresidentes, un Secretario, un Prosecretario, un Tesorero y un Protesorero.
+
+
+
+
+
+
+FUNCIONAMIENTO
+
+
+
+Artículo 113: El funcionamiento de las Juntas Ejecutivas se ajustará al Reglamento que dicte el Consejo Directivo.
+
+
+
+
+
+
+FACULTADES
+
+
+
+
+
+
+Artículo 114: Las Juntas Ejecutivas tendrán las siguientes atribuciones y deberes:
+
+
+
+1. Coadyuvar con el Consejo Directivo en el cumplimiento de sus tareas y tomar medidas conducentes a efectivizar la descentralización de servicios que el cuerpo disponga.
+
+
+
+2. Representar al Consejo Directivo ante los notarios y autoridades nacionales, provinciales y municipales de instituciones que actúen en su demarcación.
+
+
+
+3. Proyectar el presupuesto de gastos ordinarios de la delegación para el ejercicio siguiente y remitirlo a la consideración del Consejo Directivo antes del 30 de setiembre de cada año.
+
+
+
+4. Actuar como órgano de conciliación en las cuestiones que pudieren suscitarse entre notarios.
+
+
+
+5. Administrar los fondos que fije el presupuesto con sujeción al Reglamento de Contabilidad del Colegio.
+
+
+
+6. Llevar permanentemente actualizada la nómina de los registros notariales de la delegación, clasificados por distrito, con indicación del número, sede, nombre de titulares y adscriptos y sus legajos personales.
+
+
+
+7. a)Verificar si se cumple la obligación de los titulares de remitir los estados trimestrales y en caso de inobservancia, requerir su cumplimiento.
+
+
+
+b)Cuando ésta fuera reiterada, ponerlo en conocimiento del Juez Notarial y del Colegio.
+
+
+
+8. Designar si lo estimare necesario, subdelegados en las localidades de la demarcación para que cumplan en ellas las misiones que se les confieren.
+
+
+
+9. Colaborar con los Inspectores Notariales.
+
+
+
+
+
+
+VACANTES
+
+
+
+
+
+
+Artículo 115: Las vacantes que se produzcan en las Juntas Ejecutivas serán cubiertas para completar el período por el Consejo Directivo, cuando a juicio de aquellas el número de miembros restantes fuera insuficiente para cumplir eficazmente su cometido.
+
+
+
+
+
+
+RENOVACION, AUSENCIAS, VIATICOS Y CESACION
+
+
+
+
+
+
+Artículo 116: Son aplicables a las Juntas Ejecutivas y a sus miembros, las disposiciones contenidas en los artículos 96 a 100, con la sola diferencia de que pueden ser reelegibles sin limitación.
+
+
+
+
+
+
+CAPITULO VI
+
+
+
+LEGALIZACIONES
+
+
+
+FUNCION DEL COLEGIO
+
+
+
+
+
+
+Artículo 117: El Colegio legalizará la firma de los notarios en los documentos que autoricen, toda vez que le sea requerido. El Reglamento Notarial determinará los casos en que la legalización podrá ser denegada.
+
+
+
+LEGALIZANTES
+
+
+
+
+
+
+Artículo 118: La legalización estará a cargo de cualquiera de los miembros de las Juntas Ejecutivas de las delegaciones conforme al Reglamento Notarial y a las instrucciones que imparta el Consejo Directivo. Este podrá extender dicha atribución a los subdelegados, teniendo en cuenta las circunstancias de cada caso.
+
+
+
+
+
+
+CAPITULO VII
+
+
+
+ELECCION DE AUTORIDADES
+
+
+
+CIRCUNSCRIPCIONES ELECTORALES
+
+
+
+
+
+
+Artículo 119: A los efectos de la elección de Consejeros cada delegación constituirá una circunscripción electoral.
+
+
+
+
+
+
+FORMACION DE LISTAS
+
+
+
+
+
+
+Artículo 120:
+
+
+
+I.- Las listas locales para la elección de Consejeros se formarán con uno (1), tres (3) o seis (6) titulares, de acuerdo con lo dispuesto por el artículo 93; y uno (1) o dos (2) suplentes, según respectivamente se hayan de elegir hasta tres (3) o seis (6) Consejeros.
+
+
+
+II.- Los candidatos deberán encontrarse en funciones como notarios en registros con sede en la respectiva circunscripción electoral. Los notarios en retiro podrán ser candidatos por aquellas circunscripciones electorales en las cuales cumplieron su última actuación en un registro local.
+
+
+
+III.- La elección se hará por lista completa en cada circunscripción sin admitirse testados, sustituciones de nombres, ni alteraciones en el orden de los candidatos.
+
+
+
+
+
+
+REPRESENTACION DE LA MINORIA
+
+
+
+
+
+
+Artículo 121:
+
+
+
+I.- En las circunscripciones en que se presentare más de una lista la que obtenga mayor número de votos con respecto a cualquiera de las otras será la ganadora. Consecuentemente, quedarán elegidos todos sus candidatos si ninguna de las listas restantes obtuviera el número mínimo de votos exigido en el apartado siguiente, o solamente los dos tercios de ellos -en el orden propuesto- si existiere una lista en condiciones de adjudicarse la representación minoritaria.
+
+
+
+II.- En las circunscripciones por las cuales deban elegirse tres (3) o seis (6) Consejeros, según lo dispuesto por el artículo 93, la lista que siga en número de votos a la ganadora y que haya obtenido no menos del veinticinco (25) por ciento de los votos válidos emitidos en la circunscripción, obtendrá la representación de la minoría; adjudicándosele un tercio de los cargos a elegir a los candidatos de dicha lista ubicados en los primeros términos de la misma.
+
+
+
+
+
+
+RENUNCIA, FALLECIMIENTO O INCAPACIDAD DE LOS ELECTOS
+
+
+
+
+
+
+Artículo 122: En caso de que se produjera la renuncia, fallecimiento o incapacidad de alguno de los electos, sea antes de asumir el cargo o durante el desempeño del mismo, será reemplazado de la siguiente forma:
+
+
+
+a) En los supuestos en que no hayan resultado electos candidatos por la minoría, asumirá el suplente que corresponda según el orden de la lista;
+
+
+
+b) En los casos en que exista representación de la minoría, los reemplazos a producirse de los electos por la mayoría se efectuarán por la asunción del candidato titular que siga en orden de lista y que no hubiera resultado electo o, en su defecto por el suplente que corresponda por orden; los reemplazos que sea necesario efectuar de los electos por la minoría se cumplirán por la asunción del cargo vacante por los candidatos que siguen en orden en la lista respectiva.
+
+
+
+
+
+
+ELECCION DE LOS MIEMBROS DE LAS JUNTAS EJECUTIVAS
+
+
+
+
+
+
+Artículo 123: Para la elección de los miembros de las Juntas Ejecutivas de las delegaciones, regirán en todo cuanto sean aplicables las disposiciones del presente Capítulo. En el caso de que hubiere más de una lista, resultaran electos los dos tercios de los candidatos de la lista que hubiere obtenido el mayor número de sufragios por orden de nominación, y un tercio en el mismo orden, de la lista que hubiere obtenido no menos del veinticinco (25) por ciento del total de los votos válidos emitidos.
+
+
+
+
+
+
+COMICIOS SIMULTANEOS
+
+
+
+LUGAR
+
+
+
+
+
+
+Artículo 124: Los comicios para la elección de Consejeros y de las Juntas Ejecutivas de las delegaciones se efectuarán simultáneamente en las sedes de estas, en la forma que establezca el Reglamento Notarial.
+
+
+
+
+
+
+CAPITULO VIII
+
+
+
+RECURSOS FINANCIEROS
+
+
+
+
+
+
+Artículo 125: Para atender el cumplimiento de sus funciones, el Colegio contará con los siguientes recursos:
+
+
+
+1. Los derechos por los servicios de legalización, de control de certificaciones notariales, de inscripción en la matrícula, registro de aspirantes y por lo demás que preste el Colegio. Los derechos serán fijados por el Consejo Directivo por una mayoría de tres cuartas partes de votos.
+
+
+
+2. Las contribuciones de sostenimiento a cargo de los notarios que se fijen en asamblea extraordinaria atendiendo a las necesidades de la institución, las que no podrán exceder del dos (2%) por ciento de los honorarios.
+
+
+
+3. Las donaciones y legados que se le hagan y sean aceptados por el Consejo Directivo.
+
+
+
+4. La alícuota que fije el Consejo Directivo, por dos tercios de votos, en concepto de gastos y honorarios por administración de la Caja de Previsión Social del Colegio, la que no podrá exceder del quince (15%) por ciento de lo recaudado por aportes previsionales.
+
+
+
+5. Las alícuotas que se fijen en los convenios por servicios de asistencia a favor del Estado.
+
+
+
+
+
+
+FONDOS E INVERSIONES
+
+
+
+
+
+
+Artículo 126: Los fondos del Colegio deberán ser depositados en el Banco de la Provincia de Buenos Aires. Las disponibilidades de fondos que el Colegio pudiera tener y no fueran de aplicación inmediata podrán ser invertidos en el Banco de la Provincia de Buenos Aires o en títulos de la deuda pública provincial.
+
+
+
+La decisión deberá ser adoptada por el Consejo Directivo por dos tercios de votos.
+
+
+
+
+
+
+SEGUNDA PARTE
+
+
+
+FUNCIONES NOTARIALES
+
+
+
+
+
+
+TITULO I
+
+
+
+COMPETENCIA NOTARIAL
+
+
+
+EN RAZON DE LA MATERIA
+
+
+
+
+
+
+Artículo 127: Compete al notario:
+
+
+
+1. La formación y autorización de instrumentos públicos que documenten actos o negocios jurídicos o solamente la comprobación y fijación de hechos.
+
+
+
+2. Ejercer las demás funciones que ésta y otras leyes le atribuyen.
+
+
+
+
+
+
+Artículo 128: Integran la actividad del notario:
+
+
+
+1. El asesoramiento en materia notarial e instrumental, con la formulación en su caso, de dictámenes orales y escritos.
+
+
+
+2. La redacción de documentos privados.
+
+
+
+3. La relación y estudio de títulos dominiales inmobiliarios.
+
+
+
+4. Toda actuación de carácter profesional encomendada por la autoridad pública.
+
+
+
+
+
+
+Artículo 129: Los notarios están habilitados para realizar toda gestión que fuere conducente al cumplimiento de su cometido y a la eficacia de los documentos que autoricen y a tal objeto podrán:
+
+
+
+1. Efectuar tramitaciones ante organismos nacionales, provinciales y municipales, incluso las vinculadas con la inscripción en los registros públicos de los actos notariados en la Provincia o fuera de ella.
+
+
+
+2. Cumplir gestiones ante tribunales de todo fuero y jurisdicción, en cuanto se relacionen con actos notariales en que hayan intervenido, incluida las tendientes a suplir omisiones y subsanar errores en expedientes en que hayan sido designados para autorizar escritura. En este último caso, su actuación se limitará a producir un dictamen para la debida intervención de las partes y decisión del Juzgado.
+
+
+
+
+
+
+EN RAZON DEL TERRITORIO
+
+
+
+
+
+
+Artículo 130:
+
+
+
+
+
+
+I.- Los notarios ejercerán sus funciones dentro de los límites territoriales que correspondan al Registro de su actuación.
+
+
+
+II.- La competencia territorial se extenderá cuando:
+
+
+
+1. El notario hubiere de practicar notificaciones relacionadas con documentos pasados ante su Registro.
+
+
+
+2. Fuera solicitada su intervención en la sede de su Registro para actuar en protestos y otras actas a fin de cumplir el objeto de requerimiento, hubieren de efectuar diligencias no sólo en el distrito de su competencia sino también en otros.
+
+
+
+3. Se tratare de escrituraciones de planes sociales y no existiere sede o representación de la entidad interviniente en el distrito en el que se ubique el inmueble objeto del acto; caso en que serán competentes los notarios de ese distrito para actuar en el más próximo, en el que los hubiere o en la capital de la Provincia de acuerdo con el artículo 189.
+
+
+
+4. Se tratare de escrituras a las que conforme a la ley debe comparecer la autoridad judicial, caso en que serán competentes los notarios cuyos registros tuvieren sede en el Departamento Judicial respectivo.
+
+
+
+5. Hubiere imposibilidad de intervenir los notarios de un distrito por impedimentos físicos, legales o éticos debidamente acreditados o se careciere de servicio notarial por vacancia o falta de registro, casos en que serán competentes los notarios que tuvieren sede en distritos limítrofes.
+
+
+
+
+
+
+III.- En los casos previstos en los incisos 1) y 2) del parágrafo anterior, la competencia territorial es extensible a cualquier distrito notarial de la Provincia en tanto se den tales supuestos.
+
+
+
+
+
+
+TITULO II
+
+
+
+EJERCICIO DE LAS FUNCIONES
+
+
+
+
+
+
+CAPITULO I
+
+
+
+PRESTACIONES DEL MINISTERIO
+
+
+
+OBLIGATORIEDAD, EXCEPCIONES
+
+
+
+
+
+
+Artículo 131: La prestación profesional del notario es en principio inexcusable toda vez que medie requerimiento de parte. Sólo podrá rehusarse en los siguientes casos:
+
+
+
+1. Existencia de impedimentos legales, físicos o éticos.
+
+
+
+2. Falta de conocimiento personal del requirente, salvo que su identidad se acredite en la forma prevista en el artículo 1002 del Código Civil.
+
+
+
+3. Dudas razonables respecto del estado mental del requirente o de su libertad de volición.
+
+
+
+4. Atención de tareas de igual o mayor urgencia.
+
+
+
+5. Intempestividad del requerimiento.
+
+
+
+6. Falta de provisión por parte de los requirentes de los elementos o medios indispensables para la tramitación del asunto encomendado.
+
+
+
+7. Prestación del ministerio en otro distrito en los casos que estuviere legalmente habilitado para actuar fuera de aquél en que tuviera su sede.
+
+
+
+
+
+
+DENEGATORIA, RECURSO
+
+
+
+
+
+
+Artículo 132: De la negativa de actuar que el requirente considere infundada, podrá recurrirse por escrito ante la Junta Ejecutiva de la delegación respectiva. De la queja se dará traslado al notario por un término no mayor tres (3) días. Vencido el plazo, se haya o no constatado la vista, dictará pronunciamiento dentro de los diez (10) días de formulada la instancia.
+
+
+
+De la resolución de la Junta, podrá apelarse dentro de los tres (3) días de la notificación, ante el Juzgado Notarial, el que sin más trámite se pronunciara dentro de los treinta (30) días.
+
+
+
+Si la decisión fuera favorable a las pretensiones del requirente, el notario quedará obligado a actuar y facultado para dejar constancia del pronunciamiento recaído en el documento que autorice.
+
+
+
+
+
+
+TITULO III
+
+
+
+DOCUMENTOS NOTARIALES
+
+
+
+
+
+
+CAPITULO I
+
+
+
+REQUISITOS GENERALES
+
+
+
+DEFINICION
+
+
+
+
+
+
+Artículo 133: En el sentido de esta ley es notarial todo documento que reúna las formalidades legales, autorizado por notario en ejercicio de sus funciones y dentro del límite de su competencia.
+
+
+
+
+
+
+PROCEDIMIENTOS GRAFICOS
+
+
+
+
+
+
+Artículo 134:
+
+
+
+I.- Los documentos podrán extenderse en forma manuscrita o mecanografiada.
+
+
+
+II.- El procedimiento que se utilice en cada documento es exigible para su integridad excepto lo que complete o corrija el autorizante de su puño y letra.
+
+
+
+III.- La tinta o estampado debe ser indeleble, y los caracteres fácilmente legibles.
+
+
+
+IV.- El Consejo Directivo podrá determinar, además, otros procedimientos gráficos y las condiciones para su empleo y adaptación cuidando que quede garantida la conservación de la grafía.
+
+
+
+
+
+
+SELLO
+
+
+
+
+
+
+Artículo 135: Toda vez que el notario autorice su documento o deba poner su firma, junto a ella, estampará su sello. El Consejo Directivo normará sobre su tipo, características, leyendas y registraciones.
+
+
+
+
+
+
+FORMACIONES DEL DOCUMENTO
+
+
+
+
+
+
+Artículo 136: La formación del documento a los fines y con el alcance que la ley atribuye a la competencia notarial es función privativa del autorizante, quien deberá:
+
+
+
+1. Recibir por sí mismo las declaraciones y tener contacto directo con las personas, con los hechos y cosas objeto de autenticación.
+
+
+
+2. Asesorar a los requirentes y elegir las formas que aseguren la eficacia de los fines que persiguen.
+
+
+
+3. Expresar los hechos objetivos conforme a su real percepción.
+
+
+
+4. Hacer las menciones y calificaciones que en razón del cargo, de la naturaleza del acto, de la clase de documento y de las disposiciones legales, sean necesarias para producir válidamente los efectos propios de su intervención.
+
+
+
+
+
+
+GUARISMOS Y ABREVIATURAS
+
+
+
+
+
+
+Artículo 137: Todos los documentos serán escritos en un solo cuerpo sin que queden espacios en blanco. No se emplearán abreviaturas, iniciales ni guarismos excepto cuando:
+
+
+
+1. Figuren en los documentos que se transcriben.
+
+
+
+2. Las expresiones numéricas no se refieran a fecha del acto, precio o monto, cantidades entregadas en presencia del notario, condiciones de pago, vencimiento de obligaciones, superficie del inmueble, y a toda otra mención que se considere esencial.
+
+
+
+3. Se trate de fechas y constancias de otros documentos.
+
+
+
+
+
+
+ENMIENDAS
+
+
+
+
+
+
+Artículo 138: El notario salvará de su puño y letra al final, antes de su firma y de los comparecientes, por palabras enteras, lo escrito sobre raspado y enmiendas, testaduras, interlineados y otras condiciones introducidas en el texto del documento.
+
+
+
+
+
+
+CAPITULO II
+
+
+
+PROTOCOLO
+
+
+
+CUADERNOS
+
+
+
+
+
+
+Artículo 139: Las escrituras y las actas, se extenderán en los cuadernos de actuación protocolar habilitados para cada Registro Notarial. Se exceptúan las actas cuya facción extraprotocolar está regulada por normas específicas.
+
+
+
+
+
+
+Artículo 140: Se denomina cuaderno al conjunto de diez (10) folios de numeración correlativa iniciada en el primero de ellos con guarismo terminado en la cifra 1.
+
+
+
+
+
+
+FORMACION DE PROTOCOLO
+
+
+
+
+
+
+Artículo 141: El protocolo será anual y se irá formando con los cuadernos ordenados cronológicamente, unidos entre sí mediante la numeración sucesiva de cada uno de los folios. La foliatura comenzará cada año, asignado el número 1 al primer folio del primer cuaderno y continuarán numerándose en forma correlativa los demás folios de ese cuaderno y de los sucesivos.
+
+
+
+
+
+
+DOCUMENTOS ANEXOS
+
+
+
+
+
+
+Artículo 142: Integrarán el protocolo los documentos que se anexen por disposición legal o a requerimiento expreso o implícito de los comparecientes o por disposición del notario.
+
+
+
+
+
+
+PROVISION DE CUADERNOS
+
+
+
+
+
+
+Artículo 143:
+
+
+
+I.- El papel sellado de actuación notarial para protocolos y testimonios tendrá las características que determine el Poder Ejecutivo y por su utilización se abonarán las tasas que establezca la respectiva legislación. El Poder Ejecutivo podrá convenir con el Colegio de Escribanos a fin de que éste se encargue de la provisión del papel sellado, realizando la impresión del mismo.
+
+
+
+Las sumas percibidas en concepto de tasas por utilización de tal papel sellado deberán ser depositadas por el Colegio en la forma que determine el Ministerio de Economía.
+
+
+
+II.- Los cuadernos serán distribuídos por el Colegio a petición escrita del titular del registro o reemplazante legal.
+
+
+
+III.- A tal efecto, se llevarán registros de provisión de cuaderno, rubricados y sellados por un Inspector Notarial en el que se anotará por orden cronológico la numeración de los cuadernos y su foliatura, el registro y protocolo para el que se proveen y la firma del titular o reemplazante legal o de persona expresamente autorizada.
+
+
+
+IV.- Los cuadernos serán distribuídos asimismo por las delegaciones del Colegio y por los subdelegados a quienes se encomiende esa tarea. El Consejo Directivo podrá, asimismo, convenir con el Banco de la Provincia de Buenos Aires la entrega de cuadernos en todo el territorio o sólo en algunos lugares. En todos los casos se cumplirán las previsiones del párrafo anterior.
+
+
+
+
+
+
+USO DE CUADERNOS NO HABILITADOS
+
+
+
+
+
+
+Artículo 144: En caso de urgencia podrá continuarse o iniciarse una escritura o acta en un cuaderno o cuadernos no habilitados, cuyas caracteristicas sean similares a los de actuación protocolar. Producido el evento, el o los cuadernos deberán ser presentados para su registro dentro de los tres (3) días hábiles de la fecha del o los documentos.
+
+
+
+
+
+
+APERTURA Y CIERRE DE PROTOCOLOS
+
+
+
+
+
+
+Artículo 145: El protocolo se abrirá con notas asentadas en el primer folio que indique el registro, sede, distrito y año. Será cerrado el último día del año, certificando el número de folios utilizados. Esta nota llevará la firma del titular o de su reemplazante legal.
+
+
+
+
+
+
+NUMERACION
+
+
+
+EPIGRAFE
+
+
+
+
+
+
+Artículo 146: Los documentos se extenderán por orden cronológico, iniciándose en cabeza de folio y llevarán cada año numeración sucesiva del 1 en adelante, expresada en letras. El primero de cada año se extenderá después de la nota de apertura. El documento será precedido por el número de orden que le corresponde dentro del protocolo y por un epígrafe que indique su contenido y el nombre de los otorgantes.
+
+
+
+
+
+
+DOCUMENTOS INCOMPLETOS Y SIN EFECTO
+
+
+
+
+
+
+Artículo 147:
+
+
+
+I.- Si extendido un documento, no se firmare, o suscripto por uno o más intervinientes, no lo fuera por los restantes, el notario lo hará constar al pie mediante nota que llevará su firma. Los que lo hubieren firmado podrán requerir se asiente la constancia que estimaren pertinente en resguardo de sus derechos, que suscribirán ante el autorizante.
+
+
+
+II.- Firmado el documento por todos, antes de la autorización por el notario, sólo podrá quedar sin efecto su contenido con la conformidad de cuantos lo hayan suscripto, siempre que ello se certifique a continuación o al margen si faltare espacio, en breve nota complementaria que firmarán aquellos y el notario.
+
+
+
+III.- En los casos expresados no se interrumpirá la numeración. Cuando no se concluya el texto del documento, por error u otros motivos, el notario indicará tal hecho en nota firmada. En este supuesto se repetirá la numeración.
+
+
+
+
+
+
+NOTAS
+
+
+
+Artículo 148:
+
+
+
+I.- En la parte libre que quede en el último folio de cada escritura o acta, después de la suscripción y a falta o insuficiencia de este espacio, en los márgenes de cada folio, mediante notas que autorizará el notario con media firma, se atestará:
+
+
+
+1. El destino y fecha de toda copia que se expida con individualización de los folios enviados.
+
+
+
+2. Los datos relativos a la inscripción.
+
+
+
+3. Las referencias que informen respecto de las rectificaciones, declaraciones de nulidad, de rescisión o de otra naturaleza, que emanen de autoridad competente.
+
+
+
+4. A requerimiento de los interesados, los elementos indispensables para prevenir las modificaciones, revocaciones, aclaraciones, rectificaciones y confirmaciones que resulten de otros documentos notariales.
+
+
+
+5. Constancias de notificaciones u otras diligencias y recaudos relacionados con el contenido de los documentos autorizados.
+
+
+
+6. De oficio o a instancia de parte, para subsanación de errores materiales u omisiones producidas en el texto de los documentos autorizados siempre que:
+
+
+
+a) Se refieran a datos y elementos determinativos o aclaratorios que surjan de títulos, planos u otros documentos fehacientes, por expresa referencia en el cuerpo del documento, en tanto no se modifiquen partes sustanciales relacionadas con la individualización de los bienes ni se altere las declaraciones de voluntad jurídica.
+
+
+
+b) Se trate de la falta de datos de identidad de los comparecientes en documentos sobre actos entre vivos, no exigidos por la legislación de fondo.
+
+
+
+c) Se trate de la omisión o error relativo a recaudos fiscales, administrativos o registrales.
+
+
+
+
+
+
+II.- Toda vez que la legislación fiscal disponga hacer menciones o dejar constancia en escritura pública, la prescripción pertinente quedará cumplida insertándolas con la firma del notario en los espacios a que se refiere el parágrafo I, salvo que se tratare de declaraciones de los comparecientes, caso en que deberán incorporarse al cuerpo de la escritura. Aquellas menciones o constancias se trasladarán a la copia, también con la firma del notario.
+
+
+
+
+
+
+III.- El Reglamento Notarial proveerá las normas pertinentes sobre el procedimiento a seguir para efectuar las anotaciones a que se refieren los incisos 3) y 4) del parágrafo I cuando el documento se ha extendido en otro registro o el protocolo se encuentre archivado.
+
+
+
+
+
+
+GUARDA DEL PROTOCOLO
+
+
+
+
+
+
+Artículo 149: Los protocolos no podrán se retirados de la notaría sino para el cumplimiento de las obligaciones relativas a encuadernación, para ser inspeccionados y, con noticia del Colegio por razones de seguridad. La extracción de los cuadernos corrientes, será admitida si para la prestación de funciones lo requiere la naturaleza del acto.
+
+
+
+
+
+
+EXHIBICION
+
+
+
+
+
+
+Artículo 150: La exhibición del protocolo procederá cuando medie orden de Juez competente o a requerimiento de quien tenga interés legítimo con relación a determinados documentos. Se hallan investidos de tal derecho los otorgantes o sus representantes o sucesores universales y singulares. En los actos de última voluntad y en los de reconocimiento de filiación, mientras vivan los otorgantes, únicamente ellos.
+
+
+
+
+
+
+Artículo 151: La exhibición del protocolo no es extensible a aquellos documentos que por su naturaleza fueren considerados secretos por el responsable de su guarda, salvo que se actuare en representación de los otorgantes o de sus sucesores universales facultados especialmente a tal fin. En su caso regirá el artículo 132.
+
+
+
+
+
+
+Artículo 152: En todos los casos el notario adoptará las providencias que estime pertinentes para que la exhibición no contraríe sus deberes fundamentales o las garantías de los interesados.
+
+
+
+
+
+
+INDICE
+
+
+
+
+
+
+Artículo 153: Los protocolos llevarán índice de los documentos autorizados con expresión de los nombres de los otorgantes, naturaleza del acto, fecha y folio.
+
+
+
+
+
+
+CONSERVACION
+
+
+
+
+
+
+Artículo 154:
+
+
+
+I.- Los notarios titulares o sus reemplazantes legales son responsables de la conservación en buen estado de los protocolos que se hallen en su poder y de su entrega al archivo dentro de los plazos que fije el Reglamento Notarial. Este dispondrá también las normas relativas a su encuadernación.
+
+
+
+II.- El Poder Ejecutivo promoverá las medidas que fuere menester para la creación, organización y funcionamiento de un Archivo de Actuaciones Notariales, sea en jurisdicción del Poder Judicial o bajo el control y administración del Colegio de Escribanos.
+
+
+
+
+
+
+CAPITULO III
+
+
+
+ESCRITURAS PUBLICAS
+
+
+
+REQUISITOS
+
+
+
+
+
+
+Artículo 155:
+
+
+
+I.- Las escrituras públicas se sujetarán a las normas del Código Civil.
+
+
+
+II.- Será obligación del notario, que las mismas expresen:
+
+
+
+a) Otros datos cronológicos a más de la fecha, cuando lo exijan las leyes o lo juzgue pertinente el notario.
+
+
+
+b) Si los comparecientes actuaren como sujetos negociales y fueren casados, viudos o divorciados, se consignará, además, si lo son en primeras o ulteriores nupcias y el nombre del cónyuge.
+
+
+
+c) Todo otro dato identificatorio requerido por las leyes a solicitud de los interesados o a criterio del notario.
+
+
+
+d) El carácter en que intervienen los comparecientes.
+
+
+
+
+
+
+PROCURACIONES Y DOCUMENTOS HABILITANTES
+
+
+
+
+
+
+Artículo 156: (*)
+
+
+
+I.- Cuando los comparecientes actúen en nombre ajeno y en ejercicio de representación o en carácter de órganos de persona colectiva, el notario procederá en la forma prevista por el Código Civil, y dejará constancia en la escritura de los datos relativos al lugar y fecha de los documentos invocados, del nombre del notario o funcionario que intervino y de toda otra mención que permita establecer la ubicación de los originales. Procederá en igual forma cuando se le presenten documentos habilitantes o complementarios de capacidad.
+
+
+
+II.- Las copias de los documentos que deben agregarse al protocolo en las situaciones previstas en el parágrafo anterior, llevarán la atestación del notario autorizante o de otro notario, funcionario u oficial público competente.
+
+
+
+(*) A partir de éste artículo cambia la numeración por derogación del art. 156° por el Decreto - Ley 9872/82.-
+
+
+
+
+
+
+
+
+
+COMPARECIENTES QUE NO SABEN O NO PUEDEN FIRMAR
+
+
+
+
+
+
+Artículo 157: Será obligación del notario para el caso de que alguno de los comparecientes no supiese o no pudiere firmar, además del cumplimiento de las normas del Código Civil, relativas a la firma a ruego, dejar constancia de la causa del impedimento y hacerle estampar al pie de la escritura la impresión digital del pulgar derecho y en su defecto la de cualquiera que identificará.
+
+
+
+
+
+
+CAPITULO IV
+
+
+
+ACTAS
+
+
+
+REQUISITOS
+
+
+
+
+
+
+Artículo 158: Las actas están sujetas a los requisitos de las escrituras públicas con las siguientes modalidades:
+
+
+
+1. Se hará constar el requerimiento que motiva la intervención del notario.
+
+
+
+2. Las personas requeridas o notificadas serán previamente informadas del carácter en que interviene el autorizante y en su caso, del derecho a contestar.
+
+
+
+3. Podrán autorizarse aunque alguno de los requeridos rehúse firmar, de los que se dejará constancia.
+
+
+
+
+
+
+REQUERIMIENTO O INTIMACION
+
+
+
+
+
+
+Artículo 159: El notario documentará en forma de acta los requerimientos e intimaciones de toda persona que lo solicite para su cumplimiento o notificación a quienes indique, a los fines y con el alcance que aquélla le atribuye.
+
+
+
+
+
+
+COMPROBACION DE HECHOS
+
+
+
+
+
+
+Artículo 160: Podrá ser requerido, asimismo, para comprobar hechos y cosas que presencie, verificar su estado, su existencia y de las personas. En el acta respectiva dejará constancia de las declaraciones y juicios que emitan peritos, profesionales u otros concurrentes sobre la naturaleza, características y consecuencias de los hechos comprobados.
+
+
+
+
+
+
+Artículo 161: Podrá también ser asentada en el acta, la verificación del envío de cartas y documentos por correo.
+
+
+
+
+
+
+PROTOCOLIZACIONES
+
+
+
+
+
+
+Artículo 162: La protocolización de documentos públicos o privados dispuesta judicialmente o requerida por los particulares a los fines señalados en las leyes, para darles fecha cierta o con otros motivos, se cumplirá mediante las siguiente formalidades:
+
+
+
+1. Se extenderá acta con la relación del mandato judicial que la ordena o del requerimiento de los actos que identifiquen el documento. Será obligatoria su transcripción cuando se trate de testamento ológrafo.-
+
+
+
+2. Se agregarán al protocolo el documento y en su caso, las actuaciones que correspondan.-
+
+
+
+3. No será necesaria la presencia y firma del Juez que lo dispuso.-
+
+
+
+4. Al expedir copia, si el documento protocolizado no hubiere sido transcripto, se reproducirá el texto del acta en primer término y a continuación, el correspondiente al documento protocolizado.-
+
+
+
+
+
+
+Artículo 163:
+
+
+
+I. La protocolización de actuaciones judiciales o administrativas se cumplirá relacionando las partes del expediente y transcribiendo las piezas que correspondan según la naturaleza de las actuaciones y la finalidad perseguida por el adquirente.-
+
+
+
+II. Si las actuaciones se refieren a negocios inmobiliarios el acta tendrá asimismo la referencia a la titularidad y las especificaciones relativas a esta clase de bienes que exijan las leyes y reglamentaciones respectivas.-
+
+
+
+
+
+
+DEPOSITOS
+
+
+
+
+
+
+Artículo 164: En los actos y en las formas que dispongan las leyes, los notarios recibirán en depósito, o consignación, cosas, documentos, valores y cantidades. Su admisión es voluntaria y sujeta a las condiciones que se determinen cuando no exista obligación real. Las circunstancias relativas a los intervinientes, objetos, fines y estipulaciones constarán en actas, excepto cuando puedan documentarse mediante certificación o simple recibo.-
+
+
+
+Siempre que el escribano lo considere conveniente para su seguridad, podrá conservar los depósitos que se le confíen en la caja de seguridad de un Banco instalado en su jurisdicción, advirtiéndolo así y consignándolo en el certificado.-
+
+
+
+Queda prohibido recibir depósitos en dinero para su aplicación, por el notario, a operaciones en las que él intervendrá como autorizante de la escritura respectiva y el depositante como sujeto instrumental.-
+
+
+
+
+
+
+PROTESTOS
+
+
+
+
+
+
+Artículo 165: Las disposiciones de esta ley serán aplicadas a los protestos en cuanto no se opongan a las contenidas en la legislación especial sobre la materia.-
+
+
+
+
+
+
+CAPITULO V
+
+
+
+COPIAS
+
+
+
+
+
+
+Artículo 166: Las copias a que se refiere el artículo 1006 del Código Civil podrán comprender los documentos agregados y notas complementarias. Son primeras copias cada una de las que se expiden para las partes interesadas en las escrituras o acta, sea cual fuere su número. Son segundas o ulteriores copias las que luego de la primera se expiden para la misma parte.-
+
+
+
+
+
+
+
+
+
+CLAUSULA FINAL
+
+
+
+
+
+
+Artículo 167: Las copias llevarán cláusulas que identifiquen la matriz, con indicación del folio, nombre del notario autorizante, en carácter de que actúa o actuó, número de registro, asevere la fidelidad en la transcripción, mencione si se trata de primera o ulterior para quien se da y exprese el lugar y fecha de expedición.-
+
+
+
+
+
+
+Artículo 168: En las copias que consten de más de una hoja, que preceden a la última llevarán numeración y media firma y sello del notario y en la cláusula final se hará constar la cantidad y sus características.-
+
+
+
+
+
+
+NOTARIO COMPETENTE
+
+
+
+
+
+
+Artículo 169: Respecto de los documentos correspondientes a cada registro, puede expedir copia cualquiera de los notarios que actúe en él, aunque hayan pasado ante notarios que hubieren dejado de ejercer.-
+
+
+
+
+
+
+COPIAS SIMPLES
+
+
+
+
+
+
+Artículo 170: Al solo efecto informativo, podrán entregarse copias simples a los interesados que lo soliciten. No llevarán atestación final y sí sólo la firma del notario al pie. Además, en la parte superior de cada una de sus hojas, se estampará por cualquier medio gráfico y en caracteres destacados la leyenda "copia simple".-
+
+
+
+
+
+
+CAPITULO VI
+
+
+
+CERTIFICADOS
+
+
+
+CERTIFICACIONES
+
+
+
+
+
+
+Artículo 171: Podrán ser objeto de certificación:
+
+
+
+1. Las reproducciones literales completas o parciales y los extractos, relaciones o resúmenes de todo documento original o reproducido de carácter privado o público, sea notarial, judicial o administrativo.
+
+
+
+2. La recepción de depósitos de dinero, cosas, valores, papeles y documentos.
+
+
+
+3. Los cargos en escrito que deban presentarse a las autoridades judiciales y administrativas cuando fueren entregados en horas inhábiles.
+
+
+
+4. La autenticidad de firmas e impresiones digitales puestas en presencia del notario por persona de su conocimiento.
+
+
+
+5. La existencia de personas de conocimiento del notario.
+
+
+
+
+
+
+Artículo 172: En los casos de los incisos 4) y 5) del artículo anterior, si los requirentes no fueren personas conocidas del notario, éste podrá valerse del medio supletorio previsto por el artículo 1002 del Código Civil.
+
+
+
+
+
+
+REQUISITOS
+
+
+
+
+
+
+Artículo 173: En los certificados se expresará:
+
+
+
+1. Lugar y fecha de la certificación.
+
+
+
+2. El nombre del notario autorizante, el carácter en que actúa en el registro, el número de éste y el distrito que corresponda.
+
+
+
+3. Las circunstancias relacionadas con el requerimiento y con las situaciones, cosas y personas objeto de la certificación y en su caso, la referencia al acta de requerimiento.
+
+
+
+
+
+
+CERTIFICACIONES DE FIRMAS
+
+
+
+
+
+
+Artículo 174: No se certificará la autenticidad de firmas e impresiones digitales:
+
+
+
+1. Cuando fueren puestas en documentos con espacios en blanco, salvo que se tratare de un formulario y aquellos correspondieren a datos no esenciales.
+
+
+
+2. Cuando el documento contuviera cláusulas manifiestamente contrarias a las leyes, o si versara sobre negocios jurídicos que requieren para su validez escritura pública u otra clase de instrumento público y estuviera redactado atribuyéndole los mismos efectos y eficacia.
+
+
+
+3. Cuando con ellas se pretendiera reemplazar las firmas de las partes exigidas por el artículo 1012 del Código Civil.
+
+
+
+4. En el supuesto de hallarse redactado en lengua extranjera que el notario no conozca deberá exigir su previa traducción, de lo que dejará constancia en la certificación.
+
+
+
+
+
+
+CERTIFICACIONES: COMPETENCIA TERRITORIAL
+
+
+
+
+
+
+Artículo 175: Las certificaciones podrán practicarse con respecto a constancia de libros y documentos de personas colectivas e individuales que tengan su domicilio fuera de la demarcación del notario, siempre que la exhibición se efectúe dentro del territorio asignado a su función.
+
+
+
+
+
+
+REQUERIMIENTOS
+
+
+
+
+
+
+Artículo 176: Todo requerimiento que se formule al escribano para que certifique la autenticidad de firma e impresiones digitales, deberá instrumentarse necesariamente por medio de acta que se extenderá en el libro a que se refiere el artículo siguiente.
+
+
+
+
+
+
+Artículo 177: El libro de requerimientos será provisto por el Colegio a cada uno de los registros de escrituras públicas de la Provincia. Compete al Consejo Directivo establecer las condiciones y requisitos a que debe ajustarse el mismo y las actas que en él se extiendan. Sólo podrá ser retirado de la escribanía en los casos, por el modo y en la forma que la ley determina para el protocolo. Toda infracción debidamente comprobada a esta última norma será sancionada por el Juzgado Notarial con suspensión.
+
+
+
+
+
+
+TERCERA PARTE
+
+
+
+DISPOSICIONES COMPLEMENTARIAS Y TRANSITORIAS
+
+
+
+
+
+
+TITULO I
+
+
+
+DISPOSICIONES COMPLEMENTARIAS
+
+
+
+
+
+
+CAPITULO I
+
+
+
+REGISTRO DE TESTAMENTOS
+
+
+
+CONTENIDO
+
+
+
+
+
+
+Artículo 178: El Colegio llevará el registro de testamentos, en el que se tomará razón de la existencia de documentos respectivos de manifestaciones de última voluntad, con prescindencia absoluta de su contenido, a saber:
+
+
+
+1. Testamentos por acto público.
+
+
+
+2. Testamentos cerrados y ológrafos.
+
+
+
+3. Protocolizaciones de testamentos, sea cual fuere su carácter.
+
+
+
+4. Revocaciones de testamentos cualquiera sea su forma.
+
+
+
+5. Las escrituras públicas por las que se nombra tutor con efecto para después del fallecimiento del otorgante.
+
+
+
+6. Los demás documentos que determine el Consejo Directivo.
+
+
+
+
+
+
+RESTRICCIONES
+
+
+
+
+
+
+Artículo 179: Los funcionarios del registro no tomarán conocimiento del contenido de los actos que se inscriban y no recibirán por concepto alguno, originales, copias autorizadas o simples de aquellos ni más datos que los determinados en el artículo siguiente.
+
+
+
+
+
+
+DATOS DE LA INSCRIPCION
+
+
+
+
+
+
+Artículo 180: La inscripción que se practique se limitará a hacer constar:
+
+
+
+1. Nombre y apellido del otorgante y los demás datos personales que tiendan a su mejor individualización.
+
+
+
+2. En su caso, el lugar y la fecha del otorgamiento, número y folio de la escritura, el Registro Notarial, nombre del autorizante o depositario y lugar donde se encuentra el documento.
+
+
+
+
+
+
+COMUNICACIONES AL REGISTRO
+
+
+
+
+
+
+Artículo 181: Es obligación de los notarios de la Provincia, el comunicar al Registro con su firma y sello y con datos determinados en el artículo anterior, el otorgamiento de todo testamento por acto público, los nombramientos de tutor, las protocolizaciones de testamentos, la recepción de testamentos ológrafos o cerrados para su guarda, la cesación de éstos y revocaciones testamentarias dentro de los treinta (30) días del hecho respectivo. Para los notarios de otras demarcaciones, miembros del cuerpo diplomático y consular que en ejercicio de sus funciones autoricen actos de última voluntad o se hagan depositarios de ellos, jueces de paz o miembros de las municipalidades o en los casos de testamentos especiales previstos por el Código Civil y para los propios testadores, la comunicación al Registro es facultativa.
+
+
+
+
+
+
+CERTIFICACIONES
+
+
+
+
+
+
+Artículo 182: El Registro tendrá carácter reservado y sólo podrán expedirse certificaciones sobre las circunstancias determinadas en el artículo 180, en los siguientes casos:
+
+
+
+1. Cuando lo requiera el otorgante, por sí o por medio de mandatario con facultades expresas conferidas en escrituras públicas.
+
+
+
+2. A requerimiento judicial.
+
+
+
+3. Libremente sobre la existencia de actos registrados cuando se acreditare el fallecimiento del otorgante mediante la exhibición de la partida de defunción o del testimonio de la sentencia declarativa de presunción del fallecimiento.
+
+
+
+
+
+
+OBLIGACION DE LOS NOTARIOS
+
+
+
+
+
+
+Artículo 183: Los notarios de la Provincia agregaran al protocolo la constancia expedida por el Registro de haberse recibido la comunicación del artículo 181, toda vez que se trate del otorgamiento o revocación de testamentos por acto público o de nombramiento de tutor. Pondrán, además, nota marginal en la matriz.
+
+
+
+
+
+
+ATENCION DEL REGISTRO
+
+
+
+
+
+
+Artículo 184: La atención del Registro estará a cargo de un notario de la Provincia, con la denominación de Director, que será designado por el Consejo Directivo. Le competerá:
+
+
+
+1. Expedir los certificados del Registro por sí o por funcionario autorizado al efecto.
+
+
+
+2. Proyectar el reglamento interno y someterlo a la consideración del Consejo Directivo.
+
+
+
+3. Adoptar las resoluciones que estime pertinentes para el buen funcionamiento del Registro.
+
+
+
+
+
+
+(Capítulo I Bis Incorporado por Ley 14154)
+
+
+
+
+
+
+
+
+
+CAPÍTULO I BIS
+
+
+
+
+
+
+
+
+
+Registro de Actos de Autoprotección
+
+
+
+
+
+
+
+
+
+Contenido
+
+
+
+
+
+
+
+
+
+Artículo 184 bis: El Colegio llevará el Registro de Actos de Autoprotección, en el que se tomará razón de las escrituras públicas que dispongan, estipulen o revoquen decisiones tomadas por el otorgante para la eventual imposibilidad, transitoria o definitiva de tomarlas por sí, cualquiera fuere la causa que motivare esa imposibilidad.
+
+
+
+
+
+
+
+
+
+
+
+
+Rogatoria
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Artículo 184 ter: La actuación ante el Registro de Actos de Autoprotección será rogada por:
+
+
+
+a) El otorgante del acto.
+
+
+
+
+
+
+
+
+
+b) El notario autorizante o cualquier otro que tenga competencia para actuar en el mismo registro notarial.
+
+
+
+
+
+
+
+
+
+c) El juez competente para entender en el asunto.
+
+
+
+
+
+
+
+
+
+Para el supuesto de que el requerimiento fuere formulado por el propio otorgante, su firma ha de estar certificada notarialmente.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Datos de la inscripción
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Artículo 184 quater: La matrícula de inscripción contendrá:
+
+
+
+
+
+
+
+
+
+a) Nombre y apellidos del otorgante y los demás datos personales que tiendan a su mejor individualización.
+
+
+
+
+
+
+
+
+
+b) El lugar y fecha de su otorgamiento, número y folio de escritura y registro notarial del autorizante.
+
+
+
+
+
+
+
+
+
+c) Las modificaciones, revocatorias y decisiones judiciales sobre nulidad.
+
+
+
+
+
+
+
+
+
+d) Nombre, apellido y número de documento de identidad de aquellas personas expresamente habilitadas por el otorgante para solicitar informes acerca de la existencia y contenido o de la existencia del acto de autoprotección registrado.
+
+
+
+
+
+
+
+
+
+e) Las solicitudes y despachos de certificaciones con los datos del requirente, número y fecha de ellas.
+
+
+
+
+
+
+
+
+
+En ningún caso la matrícula indicará dato alguno relativo al contenido de lo dispuesto por el otorgante.
+
+
+
+
+
+
+
+
+
+
+
+
+Restricciones
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Artículo 184 quinquies: El Registro tendrá carácter reservado y sólo podrán expedirse certificaciones a requerimiento de:
+
+
+
+
+
+
+
+
+
+a) El otorgante, por sí o por medio de apoderado con facultades expresas conferidas en escritura pública.
+
+
+
+
+
+
+
+
+
+b) Juez competente.
+
+
+
+
+
+
+
+
+
+c) Personas habilitadas por el otorgante para solicitarlo, conforme con el artículo 5, inciso d) de la presente, con el alcance allí indicado.
+
+
+
+
+
+
+
+
+
+En caso de estar acreditado el fallecimiento del otorgante, sólo se expedirán certificaciones por orden judicial
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Atención del Registro
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Artículo 184 sexies: La atención del Registro estará a cargo de un notario de la Provincia, con la denominación de Director, que será designado por el Consejo Directivo.
+
+
+
+
+
+
+
+
+
+Le competerá:
+
+
+
+
+
+
+
+
+
+
+Firmar los asientos que se realicen en las matrículas, así como los despachos de las certificaciones y demás documentación del Registro.
+
+
+
+
+
+Proyectar el reglamento interno y someterlo a la consideración del Consejo Directivo.
+
+
+
+
+
+Adoptar las resoluciones que estime pertinentes para el buen funcionamiento del Registro.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CAPITULO II
+
+
+
+ACTOS NOTARIALES OTORGADOS
+
+
+
+FUERA DE LA PROVINCIA
+
+
+
+ACTOS COMPRENDIDOS (*)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(*) La Ley 11.138 exceptúa a los actos notariales autorizados en Capital Federal de la aplicación de los artículos contenidos en el presente Capítulo.
+
+
+
+
+
+
+
+
+
+
+
+
+Artículo 185 (Texto Ley 10.542): La inscripción registral de los documentos correspondientes a actos notariales que se otorguen fuera de la Provincia para surtir efectos en su territorio, así como la determinación de las obligaciones fiscales, su visación y verificación del pago, estarán a cargo de un notario de la Provincia designado por el escribano autorizante del documento. El notario local dejará constancia de su intervención en la forma que establezca la reglamentación.-
+
+
+
+
+
+
+Artículo 186 (Texto ley 10.542): La expedición de certificados destinados a ser utilizados en tales actos, podrá ser requerida directamente por el escribano que autorice el documento respectivo.
+
+
+
+
+
+
+PROCEDIMIENTO
+
+
+
+
+
+
+Artículo 187 (Texto Ley 10.542): El honorario del notario local por estas actuaciones será del cuarenta (40) por ciento sobre el arancel de la Provincia, con relación al acto a inscribir.-
+
+
+
+
+
+
+
+
+
+ARANCEL
+
+
+
+
+
+
+Artículo 188 (Texto ley 10.542): El cincuenta (50) por ciento del importe de tales honorarios será distribuido por el Colegio de Escribanos de la Provincia entre todos los notarios de su jurisdicción, no pudiendo dicha Institución percibir suma alguna por la administración del sistema.-
+
+
+
+Facúltase al Colegio de Escribanos de la Provincia de Buenos Aires para dictar las normas de implementación operativa del sistema distributivo establecido en el párrafo anterior.-
+
+
+
+
+
+
+
+
+
+CAPITULO III
+
+
+
+ESCRITURACION DE PLANES SOCIALES
+
+
+
+
+
+
+Artículo 189:
+
+
+
+I.- Las escrituras públicas por las que se transmiten derechos reales sobre inmuebles ubicados en la Provincia de Buenos Aires, de propiedad de la Nación o de la Provincia, de sus organismos descentralizados, de los Bancos Oficiales y de otras instituciones de crédito estatal o mixtas, relacionadas con la ejecución de planes oficiales para la vivienda económica, para la adjudicación de tierras con fines de fomento agrario o para otros objetivos de carácter social o por las que se constituyen derechos reales en garantía de saldos de precio o de préstamo, otorgados por estas entidades sobre dichos bienes, sobre otros de terceros sitos también en la Provincia, podrán ser autorizados por notarios del distrito de ubicación del inmueble, en la sede de dichas instituciones en la capital de la Provincia, a cuyo objeto queda prorrogada su competencia territorial, ampliando en estos casos la demarcación señalada por el artículo 193, parágrafo segundo.
+
+
+
+II.- En el encabezamiento de estas escrituras, además de las menciones que establece el artículo pertinente, se hará constar que el acto se autoriza en la sede de la institución respectiva ubicada en la capital de la Provincia en virtud de lo dispuesto en esta ley.
+
+
+
+III.- Además, cuando se trate de escrituras indirectamente relacionadas con los planes de referencia, como las de ventas de inmuebles de terceros a favor del beneficiario, el notario actuante dejará constancia de la vinculación del acto jurídico que autoriza con el que está directamente relacionado con la ejecución de dichos planes.
+
+
+
+IV.- En todo lo previsto en este artículo los notarios ajustarán su actuación a las normas vigentes en la Provincia. (A partir de este artículo, se concreta nueva numeración por derogación del artículo 190, por Ley 10.191)
+
+
+
+
+
+
+TITULO II
+
+
+
+
+
+
+CAPITULO UNICO
+
+
+
+DISPOSICIONES TRANSITORIAS
+
+
+
+TITULO HABILITANTE
+
+
+
+
+
+
+Artículo 190: Los títulos universitarios de escribano o notario expedidos hasta tres (3) años después de la publicación de esta ley, equivaldrán a los exigidos en el inciso 3) del artículo 25 a los efectos previstos en esa norma.
+
+
+
+
+
+
+DELEGACIONES
+
+
+
+
+
+
+Artículo 191: Hasta tanto el Consejo Directivo que resulte electo en los comicios a que se refiere el artículo 194 de la presente ley, dicte la resolución pertinente y ella se publique en el "Boletín Oficial", tendrán plena vigencia las siguientes delegaciones, correspondiendo su denominación a la homónima de la ciudad cabecera:
+
+
+
+DELEGACION AZUL: Azul, Bolívar, General Alvear, General Lamadrid, Laprida, Las Flores, Tapalqué, Olavarría.
+
+
+
+DELEGACION BAHIA BLANCA: Bahía Blanca, Coronel Dorrego, Coronel Pringles, Coronel Suárez, Coronel Rosales, Patagones, Puán, Saavedra, Tres Arroyos, Torquist, Villarino.
+
+
+
+DELEGACION DOLORES: Dolores, Castelli, Chascomús, General Belgrano, General Guido, General Lavalle, General Madariaga, General Paz, Maipú, Pila, Tordillo.
+
+
+
+DELEGACION JUNIN: Junín, General Arenales, Chacabuco, General Pinto, General Viamonte, Leandro N. Alem, Lincoln, Rojas, Salto.
+
+
+
+DELEGACION LA PLATA: La Plata, Berisso, Coronel Brandsen, Ensenada, Magdalena, Monte, Roque Pérez.
+
+
+
+DELEGACION LOMAS DE ZAMORA: Lomas de Zamora, Almirante Brown, Avellaneda, Cañuelas, Esteban Echeverría, Florencio Varela, Lanús, Lobos, Quilmes, Berazategui, San Vicente.
+
+
+
+DELEGACION MAR DEL PLATA: General Pueyrredón, Balcarce, General Alvarado, Mar Chiquita.
+
+
+
+DELEGACION MERCEDES: Mercedes, Alberti, Carmen de Areco, Chivilcoy, Luján, General Rodríguez, San Andrés de Giles, San Antonio de Areco, Suipacha.
+
+
+
+DELEGACION MORON: Morón, General Las Heras, Sarmiento, Marcos Paz, La Matanza, Merlo, Moreno, Navarro.
+
+
+
+DELEGACION NECOCHEA: Necochea, Lobería, San Cayetano, González Chaves.
+
+
+
+DELEGACION 9 DE JULIO: 9 de Julio, Bragado, Carlos Casares, Hipólito Yrigoyen, Pehuajó, Saladillo, Veinticinco de Mayo.
+
+
+
+DELEGACION PERGAMINO: Pergamino, Arrecifes, Colón, Capitán Sarmiento.
+
+
+
+DELEGACION SAN ISIDRO: San Isidro, San Fernando, Tigre, Vicente López.
+
+
+
+DELEGACION SAN MARTIN: San Martín, Campana, Escobar, Exaltación de la Cruz, Pilar, Tres de Febrero, Zárate.
+
+
+
+DELEGACION SAN NICOLAS: San Nicolás, Baradero, Ramallo, San Pedro.
+
+
+
+DELEGACION TANDIL: Tandil, Ayacucho, Juárez, Rauch.
+
+
+
+DELEGACION TRENQUE LAUQUEN: Trenque Lauquén, Adolfo Alsina, Carlos Tejedor, Daireaux, General Villegas, Guaminí, Pellegrini, Rivadavia y Salliqueló.
+
+
+
+
+
+
+REGLAMENTO NOTARIAL
+
+
+
+
+
+
+Artículo 192: Hasta tanto el Poder Ejecutivo preste aprobación al Reglamento Notarial y sea publicado en el Boletín Oficial, regirá en todo lo que sea compatible con esta ley, el aprobado en la Asamblea del 2 de Setiembre de 1966 y publicado en el Boletín Oficial número 15.745 del día 20 del mismo mes y año.
+
+
+
+
+
+
+DISTRITOS NOTARIALES
+
+
+
+
+
+
+Artículo 193:
+
+
+
+I.- Por primera vez el Poder Ejecutivo cumplirá lo previsto en el artículo 4, dentro del año de la publicación de esta ley.
+
+
+
+II.- Hasta que se dicte la resolución pertinente y sea publicada en el Boletín Oficial los distritos notariales estarán constituidos por cada uno de los partidos de la Provincia.
+
+
+
+
+
+
+ELECCION DE AUTORIDADES
+
+
+
+
+
+
+Artículo 194:
+
+
+
+I.- La elección de los miembros del Consejo Directivo y de las Juntas Ejecutivas de las delegaciones en la forma prevista en esta ley, tendrá lugar dentro del plazo de noventa (90) días después de su entrada en vigencia.
+
+
+
+II.- Los miembros del Consejo Directivo del Colegio que estuvieren en ejercicio a la fecha de sanción de esta ley, seguirán en funciones cualquiera sea el término de su mandato, hasta el trigésimo día posterior al acto electoral a que se refiere el parágrafo I, momento en el que cesarán en su totalidad por esta única vez, asumiendo los que hubieren resultado electos conforme a esta ley.
+
+
+
+III.- Con respecto a las Juntas Ejecutivas de las delegaciones, se aplicarán las normas contenidas en los parágrafos anteriores, con la diferencia de que los miembros que resulten electos asumirán dentro de los dos (2) meses de constituido el nuevo Consejo Directivo, en las fechas que éste establezca.
+
+
+
+
+
+
+INHABILIDADES POR EDAD AVANZADA
+
+
+
+
+
+
+Artículo 195: La disposición contenida en el inciso 1) del artículo 32, comenzará a regir tres (3) años después de la publicación de esta ley.
+
+
+
+
+
+
+DENOMINACION DE NOTARIO
+
+
+
+
+
+
+Artículo 196: La denominación de "notario" utilizada en esta ley equivale a la de "escribano público" o "escribano", usadas en las anteriores leyes orgánicas del notariado y en la legislación general.
+
+
+
+
+
+
+ADSCRIPTOS EXCEDENTES
+
+
+
+
+
+
+Artículo 197: Los actuales adscriptos, aún cuando excedieren el número establecido en el artículo 16, continuarán en el ejercicio de sus funciones.
+
+
+
+
+
+
+CANCELACION DE REGISTROS
+
+
+
+LEY NACIONAL Nº 21.212
+
+
+
+
+
+
+Artículo 198: Quedarán automáticamente cancelados los registros notariales a cuyos titulares se les otorgue la titularidad de registros en Capital Federal, en virtud de lo dispuesto en la Ley Nro. 21.212, tuvieren o no adscriptos.
+
+
+
+
+
+
+VIGENCIA
+
+
+
+
+
+
+Artículo 199: La presente ley entrará en vigencia a los treinta (30) días de su publicación, con excepción de lo dispuesto en los apartados II y III del artículo 194, cuya entrada en vigencia se producirá el día siguiente al de la publicación.
+
+
+
+
+
+
+Artículo 200: Deróganse las Leyes 6191 y 7979; el Decreto-Ley 10.356/62, y toda otra disposición que se oponga a la presente.
+
+
+
+
+
+
+Artículo 201: Cúmplase, comuníquese, publíquese, dése al Registro y "Boletín Oficial" y archívese.

@@ -132,7 +132,7 @@ texto, o ir al PDF del Boletín Oficial de la fecha de publicación. Una transcr
 
 ### Comentario oficial del CCyCN — disponible sin conexión
 
-Cuando el repo está disponible (ver 0.2: no hay ninguna ruta fija), tiene los **seis tomos del
+Cuando el repo está disponible (ver `SKILL.md` 0.2: no hay ninguna ruta fija), tiene los **seis tomos del
 *Código Civil y Comercial de la Nación Comentado*** (SAIJ-INFOJUS, 2ª ed. actualizada 2022;
 directores Herrera, Caramelo y Picasso) en `derecho/fuentes/ccyc-comentado/`. Es publicación
 oficial de distribución gratuita y libre reproducción citando la fuente, de modo que **sí puede

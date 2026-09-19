@@ -59,9 +59,18 @@ class TestDondeSeBuscaElDisparador(unittest.TestCase):
         self.h = cargar()
 
     def test_trae_la_tabla_de_ruteo_y_el_description(self):
+        """El ancla del `description` es **estructural y no una frase**.
+
+        Antes se fijaba su apertura literal, y al recortar el campo para que entrara un disparador
+        nuevo —el tope son 1536 caracteres— este test se cayó por una palabra. Un control que se
+        rompe cuando la prosa que vigila mejora se termina apagando, así que lo que se exige es que
+        el campo esté y traiga materias, no cómo arranca.
+        """
         t = self.h.disparadores().lower()
         self.assertIn("references/laboral.md", t, "falta la tabla de ruteo de la sección 16")
-        self.assertIn("análisis, redacción y revisión jurídica", t, "falta el description")
+        self.assertIn("derecho argentino, desde una parte o desde el órgano jurisdiccional", t,
+                      "falta el description: es el campo que activa la skill")
+        self.assertIn("usar ante consultas sobre", t, "el description perdió su enumeración")
 
     def test_no_trae_el_resto_del_skill(self):
         """Si entrara el SKILL.md entero, cualquier mención de paso apagaría la alarma."""
@@ -70,25 +79,32 @@ class TestDondeSeBuscaElDisparador(unittest.TestCase):
 
 
 class TestElArbolReal(unittest.TestCase):
-    def setUp(self):
-        self.h = cargar()
+    """El detector corre UNA vez para los tres controles que leen su salida.
+
+    `revisar()` recorre el `SKILL.md` y los módulos enteros: con `setUp` se repetía por test y
+    eran cuatro segundos de los veinticinco de la suite. La mutación de abajo se carga aparte,
+    porque parchea el módulo y no puede compartir instancia.
+    """
+
+    @classmethod
+    def setUpClass(cls):
+        cls.h = cargar()
+        cls.sin_disparador, cls.sin_veredicto, cls.alcanzadas = cls.h.revisar()
+        cls.candidatos = cls.h.candidatos()
 
     def test_toda_rama_declarada_tiene_su_disparador(self):
-        sin_disparador, _sin_veredicto, _ok = self.h.revisar()
-        self.assertEqual([k for k, _ in sin_disparador], [],
+        self.assertEqual([k for k, _ in self.sin_disparador], [],
                          "hay ramas escritas que ningún disparador alcanza")
 
     def test_todo_candidato_tiene_veredicto(self):
         """Una sección nueva sin veredicto es lo que el detector existe para mostrar."""
-        _sd, sin_veredicto, _ok = self.h.revisar()
-        self.assertEqual(sin_veredicto, [],
+        self.assertEqual(self.sin_veredicto, [],
                          "hay secciones candidatas sin veredicto en ramas-revisadas.json")
 
     def test_instrumento_encendido(self):
         """Sin esto, «cero sin disparador» también sería cero ramas declaradas."""
-        _sd, _sv, alcanzadas = self.h.revisar()
-        self.assertGreater(len(alcanzadas), 10, "no leyó el archivo de veredictos")
-        self.assertGreater(len(self.h.candidatos()), 10, "no detectó ninguna sección")
+        self.assertGreater(len(self.alcanzadas), 10, "no leyó el archivo de veredictos")
+        self.assertGreater(len(self.candidatos), 10, "no detectó ninguna sección")
 
     def test_una_rama_declarada_sin_disparador_falla(self):
         """LA MUTACIÓN, hecha en memoria para no tocar el árbol.
@@ -97,23 +113,22 @@ class TestElArbolReal(unittest.TestCase):
         `revisar()` la diera por alcanzada, el control entero sería decorativo: reportaría cero
         porque no mira, no porque esté todo bien.
         """
-        original = self.h.disparadores
-        self.h.disparadores = lambda: original() + ""   # sin cambios: el disparador falso no está
+        h = cargar()
+        sobre, veredictos = __import__("_veredictos").cargar(h.VEREDICTOS, "ramas", vacio={})
+        clave = next(k for k, v in veredictos.items() if v.get("veredicto") == "rama")
+        veredictos[clave] = dict(veredictos[clave], disparadores=["zzz-materia-inexistente"])
+        # `_veredictos` sale de `sys.modules` y es el MISMO objeto para toda la suite: recargar
+        # `ramas_sin_disparador` no da una copia. Sin este `finally`, el parche sobrevive al test
+        # y el siguiente que lea un registro de veredictos lee éste. Pasó: dejaba en rojo a
+        # `test_reformas` sólo al correr la suite entera, nunca al correr el archivo solo.
+        leer = h._veredictos.cargar
+        h._veredictos.cargar = lambda *a, **k: (sobre, veredictos)
         try:
-            import json
-            sobre, veredictos = __import__("_veredictos").cargar(self.h.VEREDICTOS, "ramas", vacio={})
-            clave = next(k for k, v in veredictos.items() if v.get("veredicto") == "rama")
-            veredictos[clave] = dict(veredictos[clave], disparadores=["zzz-materia-inexistente"])
-            leer = self.h._veredictos.cargar
-            self.h._veredictos.cargar = lambda *a, **k: (sobre, veredictos)
-            try:
-                sin_disparador, _sv, _ok = self.h.revisar()
-                self.assertIn(clave, [c for c, _ in sin_disparador],
-                              "una rama con un disparador inexistente pasó como alcanzable")
-            finally:
-                self.h._veredictos.cargar = leer
+            sin_disparador, _sv, _ok = h.revisar()
+            self.assertIn(clave, [c for c, _ in sin_disparador],
+                          "una rama con un disparador inexistente pasó como alcanzable")
         finally:
-            self.h.disparadores = original
+            h._veredictos.cargar = leer
 
 
 if __name__ == "__main__":

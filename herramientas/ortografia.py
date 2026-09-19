@@ -21,7 +21,8 @@ igual que `verificar_normas.py`.
 
 QUÉ MIRA Y QUÉ NO
 
-Mira la PROSA: los `.md` fuera de `kb/`, los comentarios y docstrings de los `.py`, las cadenas
+Mira la PROSA de lo que el repositorio VERSIONA —se lo pregunta a git—: los `.md` fuera de
+`kb/`, los comentarios y docstrings de los `.py`, las cadenas
 que un script imprime y los campos de prosa de los `.json`. No mira lo que se compara —
 identificadores, valores de bandera, claves de veredicto, carátulas — ni lo que va entre
 backticks o entre comillas, que son citas.
@@ -43,6 +44,8 @@ import io
 import json
 import pathlib
 import re
+import shutil
+import subprocess
 import sys
 import tokenize
 import unicodedata
@@ -171,6 +174,44 @@ CAPA_2 = (
     "derecho/evals/consumidor-prepaga-aumento-dnu70",
     "derecho/evals/README.md",
 )
+
+
+_VERSIONADOS: frozenset[str] | None = None
+
+
+def versionados() -> frozenset[str]:
+    """Lo que el repositorio versiona, preguntado a git y no adivinado con una lista.
+
+    Un `rglob` sobre el árbol mide la carpeta de quien corre la herramienta, no el repositorio.
+    `derecho/evals/results/` lo escribe `claude plugin eval` y `.gitignore` ya lo excluye: eran
+    115 de los 582 candidatos de una corrida, todos sobre un JSON de resultados que nadie va a
+    corregir. Un aviso que nadie puede atender es la definición de la alarma que se deja de
+    mirar, igual que pasaba con las cinco excepciones de capa 2.
+
+    **Y agregar `results` a una lista de patrones sería calibrar contra el caso conocido**: la
+    lista siempre va atrás de la próxima herramienta que escriba algo en el árbol. Es la misma
+    decisión que ya tomó `cifras.py` para `mb_instalados`, y por el mismo motivo.
+    """
+    global _VERSIONADOS
+    if _VERSIONADOS is None:
+        if shutil.which("git") is None:
+            raise SystemExit("falta `git`: esta herramienta mide lo que el repositorio versiona "
+                             "y no puede deducirlo del disco.")
+        hecho = subprocess.run(
+            ["git", "-C", str(RAIZ), "ls-files", "-z", "--cached", "--others",
+             "--exclude-standard"], capture_output=True, text=True)
+        if hecho.returncode != 0:
+            raise SystemExit(f"`git ls-files` falló sobre {RAIZ}: {hecho.stderr.strip()}")
+        _VERSIONADOS = frozenset(r for r in hecho.stdout.split("\0") if r)
+    return _VERSIONADOS
+
+
+def es_del_repositorio(archivo: pathlib.Path) -> bool:
+    try:
+        rel = archivo.resolve().relative_to(RAIZ.resolve()).as_posix()
+    except ValueError:
+        return False
+    return rel in versionados()
 
 
 def es_de_otro_autor(archivo: pathlib.Path) -> bool:
@@ -337,7 +378,7 @@ def prosa_de_md(texto: str):
 def archivos(solo: str | None):
     if solo in (None, "md"):
         for f in sorted(RAIZ.rglob("*.md")):
-            if ".git" in f.parts or f.name.startswith("LICENSE"):
+            if f.name.startswith("LICENSE") or not es_del_repositorio(f):
                 continue
             if es_de_otro_autor(f):
                 continue
@@ -345,12 +386,13 @@ def archivos(solo: str | None):
             yield f, [(n, limpiar(t)) for n, t in prosa_de_md(crudo)]
     if solo in (None, "py"):
         for f in sorted(RAIZ.rglob("*.py")):
-            if ".git" in f.parts or es_de_otro_autor(f):
+            if not es_del_repositorio(f) or es_de_otro_autor(f):
                 continue
             yield f, [(n, limpiar(t)) for n, t in prosa_de_py(f)]
     if solo in (None, "json"):
         for f in sorted(RAIZ.rglob("*.json")):
-            if ".git" in f.parts or f.name == "procedencia.json" or es_de_otro_autor(f):
+            if (f.name == "procedencia.json" or not es_del_repositorio(f)
+                    or es_de_otro_autor(f)):
                 continue
             yield f, [(c, limpiar(t)) for c, t in prosa_de_json(f)]
 

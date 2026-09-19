@@ -165,7 +165,11 @@ def main(argv: list[str]) -> int:
         formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--todo", action="store_true",
                    help="agregar las leyes solo nombradas, sin articulado alrededor")
-    todo = p.parse_args(argv[1:]).todo
+    p.add_argument("--purgar", action="store_true",
+                   help="Saca de cobertura-revisada.json los veredictos que ya no enganchan "
+                        "ninguna cita")
+    a = p.parse_args(argv[1:])
+    todo = a.todo
     tengo = declaradas()
     ya = decisiones()
 
@@ -223,6 +227,23 @@ def main(argv: list[str]) -> int:
         print(f"\n  SOLO NOMBRADAS ({len(solo_nombre)}), sin articulado alrededor:\n")
         for numero, veces in solo_nombre.most_common():
             print(f"  {etiqueta(numero)}  ({veces}x)")
+
+    # Una cita citada hoy es lo VIVO; todo veredicto que no corresponda a una está muerto.
+    # Esta herramienta barre SIEMPRE todos los módulos, así que puede medirlo sin falsos.
+    vivas = set(regla) | set(reforma) | set(solo_nombre)
+    sin_uso = _veredictos.muertos(ya, vivas)
+    if a.purgar:
+        if not sin_uso:
+            print("\n  no hay veredictos muertos que purgar")
+            return 0
+        sobre, _ = _veredictos.cargar(DECISIONES, "leyes", vacio={})
+        _veredictos.guardar(DECISIONES, sobre, "leyes",
+                            {k: v for k, v in ya.items() if k not in set(sin_uso)})
+        print(f"\n  purgados {len(sin_uso)} veredictos muertos de {DECISIONES.name}")
+        return 0
+    for renglon in _veredictos.aviso_de_muertos(
+            len(sin_uso), len(ya), "python3 herramientas/cobertura_normativa.py --purgar"):
+        print(renglon)
 
     print("\n  Un veredicto se anota en cobertura-revisada.json con su motivo. La")
     print("  detección de reformas mira una ventana de texto y se equivoca en los dos")

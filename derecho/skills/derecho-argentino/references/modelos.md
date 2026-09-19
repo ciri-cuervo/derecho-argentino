@@ -122,7 +122,7 @@ Leyes 27.742 y 27.802.
 > despido por falta de registro del bloque 2 intiman **"en el plazo de 30 días"** citando los
 > **arts. 7 y 7 bis de la Ley 24.013**. Esos artículos **no contienen ningún plazo**: el de 30 días
 > lo fijaba el **art. 11 inc. a**, derogado por la Ley 27.742 junto con los agravantes que
-> habilitaba. Ver 5.3. Al usar esos modelos, reemplazar el plazo por uno razonable según el caso
+> habilitaba. Ver `laboral.md` 5.3. Al usar esos modelos, reemplazar el plazo por uno razonable según el caso
 > —el art. 57 LCT exige que nunca sea inferior a dos días hábiles— y no atribuirlo a los
 > arts. 7 y 7 bis. Los apercibimientos de multa sí fueron depurados en una consolidación anterior;
 > el plazo quedó.

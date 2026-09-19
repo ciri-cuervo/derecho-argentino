@@ -1079,6 +1079,42 @@
       "descargado": "2026-09-17T17:54:37-03:00",
       "sha256_archivo": "89e536cbcae14ab0171938ede22554890ab7c7421e76317bc7e3f0833f1cae5f",
       "cotejo": "cotejado: el apellido de la carátula aparece en el texto del documento"
+    },
+    "ccc2lp-simonet-133134-2023-12-05": {
+      "archivo": "ccc2lp-simonet-133134-2023-12-05.pdf",
+      "caratula": "Simonet Guillermo Luis s/ Incidente concurso/quiebra (excepto verificación)",
+      "tribunal": "Cámara Segunda de Apelación en lo Civil y Comercial de La Plata, Sala Segunda",
+      "causa": "133134-2",
+      "fecha": "2023-12-05",
+      "url": "https://blogs.scba.gov.ar/camaracivil2laplata/wp-content/uploads/sites/8/2023/12/133134-2.pdf",
+      "content_type": "application/pdf",
+      "descargado": "2026-09-18T15:48:59-03:00",
+      "sha256_archivo": "1b60838801bf6bc4a96fed048b6edd51f900e68b8e38a1fd21e7954d72645829",
+      "cotejo": "cotejado: el apellido de la carátula aparece en el texto del documento"
+    },
+    "cc2lp-s1-beltrame-135587-2023-12-19": {
+      "archivo": "cc2lp-s1-beltrame-135587-2023-12-19.html",
+      "caratula": "Banco de la Provincia de Buenos Aires c/ Beltrame Guadalupe Milagros s/ Cobro sumario sumas dinero",
+      "tribunal": "Cámara Segunda de Apelación en lo Civil y Comercial de La Plata, Sala Primera",
+      "causa": "135587",
+      "fecha": "2023-12-19",
+      "url": "https://juba.scba.gov.ar/VerTextoCompleto.aspx?idFallo=190034",
+      "content_type": "text/html; charset=utf-8",
+      "descargado": "2026-09-18T15:55:10-03:00",
+      "sha256_archivo": "7396f53965bb4fa6671b14242b80a34899174354d5be5b0792ea3ab8c399b9e0",
+      "cotejo": "cotejado: el apellido de la carátula aparece en el texto del documento"
+    },
+    "scba-geg-c125685-2025-05-22": {
+      "archivo": "scba-geg-c125685-2025-05-22.html",
+      "caratula": "G. E. G. contra M. M. C. s/ Liquidación de sociedad conyugal",
+      "tribunal": "SCBA",
+      "causa": "C. 125.685",
+      "fecha": "2025-05-22",
+      "url": "https://juba.scba.gov.ar/VerTextoCompleto.aspx?idFallo=196264",
+      "content_type": "text/html; charset=utf-8",
+      "descargado": "2026-09-18T16:04:49-03:00",
+      "sha256_archivo": "39e3247ca8d382915dc141a5fb556bb3eb80c48d0d836c825ea491ddf701d6ec",
+      "cotejo": "cotejado: el apellido de la carátula aparece en el texto del documento"
     }
   },
   "_descripcion": "Procedencia de las sentencias bajadas: de dónde salió cada una, cuándo, y el hash del archivo tal como quedó en disco. `cotejo` dice si la carátula se pudo cotejar contra el texto del documento; `revisar` marca lo que no se pudo dar por cotejado y hay que mirar."

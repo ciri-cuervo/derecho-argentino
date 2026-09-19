@@ -24,6 +24,50 @@ subsidiario.** Empezar el análisis por el art. 2650 sin haber descartado que ex
 aplicable es el error de método de esta materia, y en varias materias el tratado existe: para
 restitución de niños, las Leyes 23.857 y 25.358, las dos en `fuentes/normas/`.
 
+### 35.1 bis Los dos cuerpos convencionales que hay que descartar primero
+
+**Están bajados los dos**, y con ellos el art. 2594 deja de ser una advertencia abstracta.
+
+| Cuerpo | Dónde | Con quién rige |
+| --- | --- | --- |
+| **Tratados de Montevideo de 1940** —Derecho Civil Internacional, Comercial Terrestre, Navegación Comercial, Procesal y el **Protocolo Adicional**— | `fuentes/normas/decreto-ley-7771-1956.txt`, que trae el articulado completo | Ratificados por el Decreto-Ley 7.771/56. **Qué Estados están vinculados con Argentina en cada tratado se verifica, no se asume** |
+| **Protocolo de Buenos Aires** sobre jurisdicción internacional en materia contractual, dieciocho artículos | `fuentes/normas/ley-24669.txt` | Mercosur: firmado el 05/08/1994 con Brasil, Paraguay y Uruguay |
+
+`[VERIFICAR VIGENCIA: qué Estados están hoy vinculados con Argentina por cada uno de los Tratados de Montevideo de 1889 y de 1940, y por el Protocolo de Buenos Aires - el estado de ratificaciones y denuncias no está cargado en fuentes/]`
+
+#### Tres puntos donde el tratado dice lo contrario que el Código
+
+**No son matices: invierten la respuesta.** Si el caso cae bajo Montevideo y se contesta con el
+CCyCN, se contesta mal.
+
+| | **CCyCN** | **Montevideo 1940** |
+| --- | --- | --- |
+| **Autonomía de la voluntad** | El art. 2651 la admite como regla en contratos internacionales | **Art. 5 del Protocolo Adicional**: la jurisdicción y la ley aplicable *"no pueden ser modificadas por voluntad de las partes, salvo en la medida en que lo autorice dicha ley"*. **La autonomía es la excepción y depende del derecho designado** |
+| **Ley del contrato** | Art. 2652: en defecto de elección, lugar de cumplimiento | **Art. 37 del Tratado de Derecho Civil**: la ley del lugar de cumplimiento rige la existencia, la naturaleza, la validez, los efectos, las consecuencias y la ejecución del contrato —son los incisos a) a f) del artículo— y, por el inciso g), *"En suma, todo cuanto concierne a los contratos, bajo cualquier aspecto que sea"*. El **art. 38** califica ese lugar según el objeto: cosas ciertas, de género, fungibles o prestación de servicios |
+| **Prórroga de jurisdicción** | Arts. 2605 a 2607: por convenio escrito, **antes o después** del litigio, y hay prórroga **tácita** | **Art. 56**: la prórroga territorial se permite **sólo si, después de promovida la acción, el demandado la admite voluntariamente**, en acciones sobre derechos personales patrimoniales, y *"la voluntad del demandado debe expresarse en forma positiva y no ficta"* |
+
+> **La diferencia más cara es la última.** Bajo el Código, no contestar la demanda **prorroga**.
+> Bajo Montevideo, **el silencio no prorroga nada**: la admisión tiene que ser positiva y no ficta,
+> y además posterior a la demanda. Una cláusula de prórroga pactada de antemano no basta.
+
+**Y el Protocolo de Buenos Aires resuelve distinto que los dos.** Su **art. 4** da competencia a los
+tribunales del Estado Parte que las partes acordaron **por escrito**, *"siempre que tal acuerdo no
+haya sido obtenido en forma abusiva"*, y admite prorrogar a favor de tribunales arbitrales; su
+**art. 5** permite el acuerdo *"en el momento de la celebración del contrato, durante su vigencia o
+una vez surgido el litigio"*, y manda aplicar **el derecho más favorable a la validez del acuerdo**.
+Su ámbito es el del **art. 1**: contratos internacionales civiles o comerciales entre particulares
+con domicilio o sede en distintos Estados Partes; y el **art. 2** excluye cinco materias, entre
+ellas **familia y sucesiones**, los concursos y la seguridad social.
+
+#### Un punto donde coinciden, y conviene saberlo
+
+El **art. 2 del Protocolo Adicional** manda que el derecho extranjero se aplique **de oficio por el
+juez**, *"sin perjuicio de que las partes puedan alegar y probar la existencia y contenido de la ley
+invocada"*. Es la misma regla que el art. 2595 inc. a del Código —ver 35.2—, escrita en 1940. El
+**art. 4** es la cláusula de orden público del sistema y se lee junto con 35.3.1.
+
+`[VERIFICAR PRECEDENTE: aplicación del art. 56 del Tratado de Derecho Civil Internacional de 1940 frente a una cláusula de prórroga pactada antes del litigio - no hay precedente bajado sobre esta colisión]`
+
 ### 35.2 Cómo se aplica un derecho extranjero (art. 2595)
 
 Tres reglas, y la primera invierte lo que muchos suponen:
@@ -178,7 +222,7 @@ sobre esa materia no es reconocible.
 
 **La Ley 20.094 trae su propio DIPr**, en el Título V, y es exactamente lo que el art. 2601 CCyCN
 tiene en mente cuando subordina la jurisdicción a *"las leyes especiales que sean de aplicación"*,
-y el art. 2609 cuando abre con *"sin perjuicio de leyes especiales"*. Llegar al Capítulo 3 del
+y el art. 2609 cuando abre con *"Sin perjuicio de lo dispuesto en leyes especiales"*. Llegar al Capítulo 3 del
 Código sin haber pasado por acá, en una causa de navegación, repite el error de método de 35.1 un
 escalón más abajo.
 
@@ -235,6 +279,143 @@ pabellones son de Estados adherentes o ratificantes. Esa remisión reabre la pre
 antes de aplicar la Ley 20.094 hay que saber si el caso cae bajo el tratado.
 [VERIFICAR VIGENCIA: Convenciones de Bruselas de 1910 - confirmar adhesión o ratificación de los Estados de ambos pabellones a la fecha del hecho]
 
+### 35.8 ter Después de ganar afuera: exequátur y cooperación
+
+**El Código no lo regula: es procesal, y por eso cambia según dónde se pida.** Las dos primeras
+frases de los dos códigos coinciden —*"tendrán fuerza ejecutoria en los términos de los tratados
+celebrados con el país de que provengan"*—, así que **primero el tratado, otra vez**. En su
+defecto, los requisitos:
+
+| | **CPCCN art. 517** — cinco incisos | **CPCCBA art. 515** — **seis** incisos |
+| --- | --- | --- |
+| Competencia del tribunal de origen | *"según las normas argentinas de jurisdicción internacional"* | *"competente en el orden internacional"* |
+| Citación | personalmente citada **y "se haya garantizado su defensa"** | *"la parte condenada, **domiciliada en la República**, hubiese sido personalmente citada"* |
+| Validez de la obligación | **no lo exige** | **inc. 3: *"que la obligación que haya constituido el objeto del juicio sea válida según nuestras leyes"*** |
+| Orden público | *"no afecte los principios de orden público del derecho argentino"* | *"no contenga disposiciones contrarias al **orden público interno**"* |
+| Autenticidad y cosa juzgada | sí | sí |
+| Incompatibilidad con sentencia argentina | sí | sí |
+
+> **Dos trampas.** La primera: **el CPCCBA agrega un requisito que el CPCCN no tiene** —la validez
+> de la obligación según la ley argentina—, así que una sentencia ejecutable en la Nación puede no
+> serlo en PBA. La segunda: el CPCCBA dice **orden público *interno***, que no es el orden público
+> *internacional* de 35.3.1. Leerlos como sinónimos amplía el control muchísimo más de lo que el
+> DIPr admite, y ahí se juega el caso.
+
+**El trámite es el mismo en los dos** (arts. 518 CPCCN y 516 CPCCBA): se pide ante el juez de
+primera instancia que corresponda, con **testimonio legalizado y traducido** y las constancias de
+que quedó ejecutoriada; *"para el trámite del exequátur se aplicarán las normas de los
+incidentes"*; y dispuesta la ejecución se sigue como con una sentencia argentina.
+
+**Y hay una eficacia que no necesita exequátur.** Los arts. 519 CPCCN y 517 CPCCBA: cuando en un
+juicio **se invoca la autoridad** de una sentencia extranjera —no se la ejecuta—, basta con que
+reúna esos mismos requisitos. Es la vía para oponer cosa juzgada extranjera sin abrir un incidente
+de ejecución.
+
+`[VERIFICAR VIGENCIA: el art. 519 bis del CPCCN, que regía los laudos arbitrales extranjeros, fue DEROGADO por el art. 107 de la Ley 27.449 (B.O. 26/07/2018) - los laudos van hoy por esa ley y por la Convención de Nueva York, no por el CPCCN. Verificar si el CPCCBA hizo lo propio]`
+
+#### Entre Estados del Mercosur, el trámite y los requisitos son otros
+
+El **Protocolo de Las Leñas** —Ley 24.578, `fuentes/normas/ley-24578.txt`— cubre materia **civil,
+comercial, laboral y administrativa**, y también las sentencias penales de **reparación de daños y
+restitución de bienes** (art. 18). Tres cosas lo separan del régimen común:
+
+- **Vía (art. 19).** Se tramita **por exhorto y por intermedio de la Autoridad Central**, no por
+  presentación directa de parte.
+- **Requisitos (art. 20).** Seis, y **el de orden público está atenuado**: basta con que *"no
+  contraríen **manifiestamente** los principios de orden público del Estado"* requerido. Además,
+  cinco de los seis *"deben surgir del testimonio"* de la sentencia.
+- **Sin legalización (art. 26).** Los documentos tramitados por la Autoridad Central quedan
+  *"exceptuados de toda legalización, apostilla u otra formalidad análoga"*. Es la diferencia
+  práctica más grande con el art. 518 CPCCN, que exige testimonio **legalizado**.
+
+**Y trae dos reglas que el régimen común no tiene**: la eficacia **parcial** a pedido de parte
+(art. 23) y una **litispendencia** propia (art. 22) —no se reconoce si antes se inició acá un
+proceso entre las mismas partes, por los mismos hechos y con el mismo objeto—. El procedimiento y
+la competencia, eso sí, se rigen por la ley del Estado requerido (art. 24).
+
+`[VERIFICAR VIGENCIA: qué Estados están hoy vinculados por el Protocolo de Las Leñas y si rige el Acuerdo complementario - el estado de ratificaciones no está cargado en fuentes/]`
+
+### 35.8 quater Inmunidad de jurisdicción de los Estados extranjeros
+
+**Es lo primero que se resuelve cuando el demandado es un Estado, una embajada o un consulado**, y
+la respuesta no sale del CCyCN sino de la **Ley 24.488**.
+
+**La regla (art. 1):** los Estados extranjeros **son inmunes**. Las excepciones del **art. 2** son
+ocho y taxativas; las tres que más aparecen:
+
+- **inc. d — laboral.** *"Cuando fueren demandados por cuestiones laborales, por nacionales
+  argentinos o residentes en el país, derivadas de contratos celebrados en la República Argentina o
+  en el exterior y que causaren efectos en el territorio nacional"*. **No hace falta que el contrato
+  se haya celebrado acá**: alcanza con que cause efectos en el territorio.
+- **inc. c — actividad comercial o industrial**, si la jurisdicción argentina surge del contrato o
+  del derecho internacional.
+- **inc. h — arbitraje.** Si el Estado acordó por escrito someter a arbitraje un litigio sobre una
+  transacción mercantil, **no puede después invocar inmunidad** para discutir la validez del
+  convenio, el procedimiento o la anulación del laudo, salvo que el convenio diga lo contrario.
+
+También ceden por **consentimiento expreso** (inc. a), **reconvención** ligada a la demanda que el
+propio Estado inició (inc. b), **daños por delitos o cuasidelitos cometidos en el territorio**
+(inc. e), **inmuebles situados acá** (inc. f) y **calidad de heredero o legatario** (inc. g).
+
+> **El art. 3 está OBSERVADO.** El artículo que mandaba, ante una demanda por violación del derecho
+> internacional de los derechos humanos, limitarse a indicar el órgano internacional competente,
+> **fue observado por el art. 1 del Decreto 849/95 (B.O. 28/06/1995)**. Citarlo como vigente es un
+> error que el propio texto bajado desmiente.
+
+**Dos reglas procesales del art. 4 que cambian el cómputo:** presentarse a invocar la inmunidad
+**no es aceptación de competencia**, y **la interposición de esa defensa suspende el plazo** del
+traslado o citación hasta que se resuelva. El art. 5 permite al juez ampliar prudencialmente los
+plazos a pedido del Estado extranjero.
+
+`[INSERTAR FALLO VERIFICADO: alcance del inc. d del art. 2 de la Ley 24.488 en demandas laborales contra embajadas - no hay precedente bajado]`
+
+### 35.8 quinquies Arbitraje comercial internacional — Ley 27.449
+
+**Rige en forma exclusiva** el arbitraje comercial internacional, *"sin perjuicio de cualquier
+tratado multilateral o bilateral vigente"* (art. 1), y está basada en la ley modelo de la CNUDMI.
+**Casi toda ella se aplica sólo si la sede está en la República** (art. 2), con excepciones
+tasadas que el propio artículo enumera por capítulos.
+
+**Cuándo un arbitraje es internacional (art. 3).** Si las partes tienen sus establecimientos en
+**Estados diferentes** al celebrar el acuerdo; o si está fuera de ese Estado **el lugar del
+arbitraje**, o **el lugar de cumplimiento de una parte sustancial de las obligaciones**, o el lugar
+con el que el objeto del litigio tenga la relación más estrecha. Si una parte tiene varios
+establecimientos, vale el que guarde relación más estrecha con el acuerdo; si no tiene ninguno, su
+residencia habitual (art. 4).
+
+**Y «comercial» se interpreta ancho (art. 6):** cualquier relación jurídica, *"contractual o no
+contractual"*, de derecho privado o regida preponderantemente por él, y *"en caso de duda, deberá
+juzgarse que se trata de una relación comercial"*.
+
+**Contra el laudo hay una sola vía, y un plazo corto.** El art. 98: *"sólo podrá recurrirse ante un
+tribunal mediante una petición de nulidad"*. Las causales del art. 99 se parten en dos: las que
+**la parte debe probar** —incapacidad o invalidez del acuerdo, falta de notificación o
+imposibilidad de hacer valer sus derechos, exceso sobre lo sometido, constitución o procedimiento
+apartados del acuerdo o de la ley— y las que **el tribunal comprueba de oficio**: que el objeto no
+sea arbitrable según la ley argentina, o que el laudo sea **contrario al orden público argentino**.
+El plazo del art. 100 es de **treinta días** desde la recepción del laudo.
+
+**El reconocimiento del laudo extranjero ya no pasa por el CPCCN**: el art. 107 derogó el art. 519
+bis. Van por esta ley y por la **Convención de Nueva York**, Ley 23.619, que está bajada.
+
+`[INSERTAR FALLO VERIFICADO: alcance de la causal de orden público del art. 99 inc. b.II de la Ley 27.449 en la anulación de un laudo - no hay precedente bajado]`
+
+### 35.8 sexies Compraventa internacional de mercaderías — Convención de Viena
+
+**Se aplica sola, y desplaza al CCyCN.** La Convención de 1980 —Ley 22.765— rige los contratos de
+compraventa de mercaderías entre partes con establecimientos **en Estados diferentes**, en dos
+supuestos del art. 1: que esos Estados sean **Contratantes**, o que las normas de DIPr **remitan a
+la ley de un Estado Contratante**. Y su apartado 3 aclara que **no se miran ni la nacionalidad de
+las partes ni el carácter civil o comercial** del contrato.
+
+> **La declaración argentina es la trampa.** El **art. 2 de la Ley 22.765** manda formular, al
+> adherir, la declaración de los **arts. 96 y 12**: la libertad de forma del art. 11, la del art. 29
+> y la de la Parte II **no se aplican** cuando una de las partes tiene su establecimiento en un
+> Estado que hizo esa declaración. Y el propio art. 12 dice que **las partes no pueden apartarse de
+> él ni modificar sus efectos**. Dar por supuesta la libertad de forma es el error de esta materia.
+
+`[VERIFICAR VIGENCIA: si la República retiró la declaración de los arts. 12 y 96 de la Convención de Viena posterior a la Ley 22.765 - el texto bajado es la ley aprobatoria de 1983 y el estado de reservas no está cargado en fuentes/]`
+
 ### 35.9 Lo que este módulo todavía no cubre
 
 La **parte especial** (Capítulo 3, arts. 2613 a 2671) está sin escribir. Son dieciséis secciones:
@@ -251,4 +432,5 @@ Dos remisiones a lo que el repo **sí** tiene, y que pertenece a esta materia:
   escrito, y los convenios están bajados (Leyes 23.857 y 25.358). Cuando se escriba la Sección 8ª
   (arts. 2642), se absorbe desde ahí.
 - **Jurisdicción exclusiva sobre patentes y marcas:** el art. 2609 inc. c) es la bisagra con
-  propiedad industrial, que el repo todavía no cubre.
+  `propiedad-industrial.md` 40, que sí existe: la jurisdicción exclusiva argentina sobre la
+  inscripción o validez de patentes, marcas y diseños registrados acá se resuelve allá.

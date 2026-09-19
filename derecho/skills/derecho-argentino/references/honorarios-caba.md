@@ -29,7 +29,12 @@ resultado sale expresado en «UMA» de todos modos.
 **La última fila es la que se paga más caro:** buscar el valor de la UMA porteña en la página de la
 Corte devuelve un número oficial, vigente y de otra ley.
 
-`[VERIFICAR MONTO ACTUALIZADO: valor de la UMA de la Ley 5.134 - lo suministra mensualmente el Consejo de la Magistratura de la Ciudad, art. 20. La serie no está cargada en fuentes/datos/, así que el valor no se toma de memoria ni se estima: se pide o se marca. Y NO se usa el valor que publica la CSJN, que es el de la Ley 27.423]`
+El valor sale de correr `scripts/uma_caba.py --fecha`, que lee `fuentes/datos/uma-caba.csv`, nunca
+de memoria. **La serie arranca el 01/08/2026 y antes de esa fecha el script se planta**: la
+consulta oficial del Consejo publica un solo valor, el vigente, así que la serie histórica no se
+reconstruye desde el organismo que la fija. Para una regulación anterior:
+
+`[VERIFICAR MONTO ACTUALIZADO: valor de la UMA de la Ley 5.134 a esa fecha - lo suministra mensualmente el Consejo de la Magistratura de la Ciudad, art. 20, y su consulta oficial publica sólo el valor vigente. Se pide o se marca. Y NO se usa el valor que publica la CSJN, que es el de la Ley 27.423]`
 
 ### 42.2 La escala y sus dos topes
 

@@ -268,6 +268,41 @@ def revisar(raiz: Path) -> list[dict]:
             add("UMA", "OK",
                 f"último valor: {ult} ({filas} filas, {d} días); mirada hace {dv} días", dv)
 
+    # -- valor de la UMA de la CIUDAD
+    #
+    # Bloque aparte y no una fila más del de arriba: son dos unidades de dos leyes distintas, y
+    # confundirlas devuelve un número oficial, vigente y de otra ley. El diagnóstico las separa
+    # por la misma razón por la que las separan los scripts.
+    #
+    # Y hay una diferencia que cambia lo que significa "al día": la consulta oficial del Consejo
+    # publica UN SOLO valor, el vigente, y se sobreescribe. Acá la mirada es lo único que se
+    # puede medir -no hay serie contra la cual comparar- y por eso el umbral es el mismo que el
+    # de la UMA nacional pero el detalle no promete completitud.
+    ruta_caba = D / "uma-caba.csv"
+    ult, filas = _ultima_fila_csv(ruta_caba)
+    f = _periodo_a_fecha(ult)
+    if not ruta_caba.is_file():
+        add("UMA CABA", "FALTA", "uma-caba.csv no existe", arreglo="revisar la instalación")
+    elif f is None:
+        add("UMA CABA", "FALTA",
+            "uma-caba.csv está sin valores: los mínimos en UMA de la Ley 5.134 no se contrastan",
+            arreglo="abrir consejo.jusbaires.gob.ar/servicios/uma, cargar el valor y sellar "
+                    "`# verificado:`")
+    else:
+        dv = _verificado_csv(ruta_caba)
+        d = (_hoy() - f).days
+        if dv is None:
+            add("UMA CABA", "REVISAR",
+                f"último valor: {ult} ({filas} filas), sin línea `# verificado:`", d,
+                "mirar la consulta oficial y anotar `# verificado: AAAA-MM-DD` en uma-caba.csv")
+        elif dv > UMBRALES["uma"]:
+            add("UMA CABA", "VENCIDO",
+                f"último valor: {ult} ({filas} filas); nadie mira la consulta hace {dv} días",
+                dv, "abrir consejo.jusbaires.gob.ar/servicios/uma y actualizar `# verificado:`")
+        else:
+            add("UMA CABA", "OK",
+                f"último valor: {ult} ({filas} filas, {d} días); mirada hace {dv} días", dv)
+
     # -- series de índices
     for nombre, arch in (("IPC", "serie-ipc.csv"), ("RIPTE", "serie-ripte.csv"),
                          ("CER", "serie-cer.csv")):

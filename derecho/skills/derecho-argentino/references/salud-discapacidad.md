@@ -232,6 +232,71 @@ de texto.
 abonar** al hospital público u otros efectores del sector público nacional, provincial o
 municipal, y a los de la Seguridad Social, **las prestaciones efectuadas y facturadas**.
 
+### 27.4 bis La historia clínica, el consentimiento informado y los deberes del profesional
+
+**Dos leyes que no se pisan y se citan juntas.** La **Ley 26.529** da los derechos del paciente y
+la **Ley 17.132** los deberes de quien ejerce la medicina; el puente es expreso: el **art. 21 de la
+26.529** remite las sanciones al **Título VIII de la Ley 17.132**.
+
+#### La historia clínica
+
+**Qué es y de quién es.** Es el *"documento obligatorio cronológico, foliado y completo"* donde
+consta toda actuación realizada al paciente (art. 12). **El titular es el paciente** (art. 14), y a
+su **simple requerimiento** se le entrega copia autenticada **dentro de las cuarenta y ocho horas**,
+salvo emergencia. No hay que fundar el pedido.
+
+| Regla | Norma |
+| --- | --- |
+| Qué debe asentarse: fecha de inicio, datos del paciente y su núcleo familiar, datos y especialidad del profesional, registros de los actos, antecedentes, y **todo acto médico realizado o indicado** | Art. 15, texto de la **Ley 26.812** |
+| La integran los **consentimientos informados**, las hojas de indicaciones, las planillas de enfermería y los protocolos | Art. 16 |
+| Es **única** dentro de cada establecimiento y el paciente tiene una **clave uniforme**, que se le comunica | Art. 17 |
+| Es **inviolable**. El establecimiento o el profesional es **depositario** y debe guardarla **diez años** desde **la última actuación registrada** | Art. 18 |
+| Están legitimados: el paciente y su representante; el cónyuge o conviviente y los herederos forzosos **con autorización del paciente**; y los médicos con autorización expresa | Art. 19 |
+
+**Y la negativa tiene acción propia, que no es el amparo.** Frente a *"la negativa, demora o
+silencio"* del obligado a la guarda, el art. 20 da **la acción directa de habeas data**, con el
+trámite más apto y rápido de cada jurisdicción y, **en jurisdicción nacional, exenta de gastos de
+justicia**. Para la acción, `datos-personales.md` 30; para el amparo de cobertura, que es otra cosa
+y va por otro carril, la sección 27.5 de acá.
+
+**Un detalle del art. 18 que hay que traducir al leerlo:** remite, para el depósito, al *"Libro II,
+Sección III, del Título XV del Código Civil"*, que es el **código derogado**. La figura viva es el
+contrato de depósito del CCyCN, **arts. 1356 y siguientes**. La remisión no se corrige en la ley:
+se traduce al citarla.
+
+#### El consentimiento informado
+
+**Es una declaración de voluntad del paciente, no una firma en un formulario** (art. 5). Se emite
+después de recibir información *"clara, precisa y adecuada"* sobre ocho puntos: estado de salud;
+procedimiento propuesto y sus objetivos; beneficios esperados; **riesgos, molestias y efectos
+adversos previsibles**; procedimientos alternativos con sus riesgos y beneficios; consecuencias de
+**no** realizarlo; el derecho de quien padece enfermedad irreversible, incurable o está en estadio
+terminal a **rechazar** procedimientos quirúrgicos, de hidratación, alimentación o reanimación y el
+retiro de medidas de soporte vital cuando sean extraordinarios o desproporcionados; y el derecho a
+**cuidados paliativos integrales**. Los incisos g y h son texto de la **Ley 26.742**.
+
+#### Los deberes de quien ejerce la medicina
+
+El **art. 19 de la Ley 17.132** obliga, entre otras cosas, a **asistir** cuando la gravedad lo
+imponga y hasta poder delegar; a **respetar la voluntad del paciente**; a prescribir en recetas
+**electrónicas o digitales** con matrícula y datos, en idioma nacional, fechadas y firmadas —inciso
+sustituido por el **art. 310 del Decreto 70/2023**—; y a extender el certificado de defunción de
+quien falleció bajo su asistencia. El **art. 20** trae **veinticinco prohibiciones**, entre ellas
+anunciar o prometer la curación fijando plazos y vender medicamentos.
+
+**Y hay una tensión entre las dos leyes que no se resuelve de memoria.** El art. 19 inc. 3 de la
+Ley 17.132, que es de 1967, manda respetar la negativa del paciente *"salvo los casos de
+inconsciencia, alienación mental, lesionados graves por causa de accidentes, tentativas de suicidio
+o de delitos"*; la Ley 26.529 en texto de la Ley 26.742 reconoce una autonomía más amplia, que
+llega al rechazo del soporte vital. Cuál cede en el caso concreto no se afirma acá:
+
+`[VERIFICAR VIGENCIA: articulación entre el art. 19 inc. 3 de la Ley 17.132 y la autonomía de la voluntad de la Ley 26.529 texto Ley 26.742 - no hay precedente bajado que resuelva el alcance de las excepciones de 1967 frente a la ley posterior]`
+
+`[INSERTAR FALLO VERIFICADO: negativa de entrega de historia clínica resuelta por habeas data del art. 20 de la Ley 26.529 - aportar carátula, fuero, sala y año]`
+
+**Para la pericia médica sobre esa historia clínica** —quién la controla, cómo se impugna el
+dictamen y con qué se valora— rige `prueba-pericial.md` 20, y **este módulo no la cubre**.
+
 ### 27.5 Por dónde se reclama
 
 La cobertura de salud dentro de un contrato de adhesión paga es, además, **relación de consumo**:

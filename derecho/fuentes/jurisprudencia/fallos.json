@@ -748,6 +748,33 @@
       "fecha": "2017-06-08",
       "url": "https://juba.scba.gov.ar/VerTextoCompleto.aspx?idFallo=145794",
       "nota": "Registro interno 554. Carátula con reserva de identidad, así que el cotejo va por el número de causa. La ficha de JUBA consigna como tribunal de origen la Cámara de Apelación y Garantías Sala III de SAN MARTÍN, y el texto de la sentencia dice cuatro veces MERCEDES -la defensoría es de Moreno-Gral. Rodríguez y el Tribunal de RPJ es el nro. 1 de Mercedes-. Vale el documento."
+    },
+    {
+      "slug": "ccc2lp-simonet-133134-2023-12-05",
+      "caratula": "Simonet Guillermo Luis s/ Incidente concurso/quiebra (excepto verificación)",
+      "tribunal": "Cámara Segunda de Apelación en lo Civil y Comercial de La Plata, Sala Segunda",
+      "causa": "133134-2",
+      "fecha": "2023-12-05",
+      "url": "https://blogs.scba.gov.ar/camaracivil2laplata/wp-content/uploads/sites/8/2023/12/133134-2.pdf",
+      "nota": "Enuncia textualmente los cuatro requisitos del art. 1170 CCyCN y separa su régimen del art. 1171. Registrado en el Registro de Sentencias el 05/12/2023, con firma digital de los dos jueces en el propio documento. Servido por el blog institucional de la Cámara, bajo scba.gov.ar: es la sentencia registrada, no un repositorio de parte, pero no es el buscador de jurisprudencia del tribunal. Si aparece en JUBA, reemplazar la URL."
+    },
+    {
+      "slug": "cc2lp-s1-beltrame-135587-2023-12-19",
+      "caratula": "Banco de la Provincia de Buenos Aires c/ Beltrame Guadalupe Milagros s/ Cobro sumario sumas dinero",
+      "tribunal": "Cámara Segunda de Apelación en lo Civil y Comercial de La Plata, Sala Primera",
+      "causa": "135587",
+      "fecha": "2023-12-19",
+      "url": "https://juba.scba.gov.ar/VerTextoCompleto.aspx?idFallo=190034",
+      "nota": "Contratación por canales electrónicos -BIP y cajero automático-: revoca la sentencia que había negado valor a los préstamos por entender que pulsar «aceptar» no equivale a firma. Voto de Sosa Aubone. OJO con el alcance: el tribunal razona sobre una firma electrónica cuya autoría e integridad NO fueron cuestionadas, así que no resuelve el caso del desconocimiento."
+    },
+    {
+      "slug": "scba-geg-c125685-2025-05-22",
+      "caratula": "G. E. G. contra M. M. C. s/ Liquidación de sociedad conyugal",
+      "tribunal": "SCBA",
+      "causa": "C. 125.685",
+      "fecha": "2025-05-22",
+      "url": "https://juba.scba.gov.ar/VerTextoCompleto.aspx?idFallo=196264",
+      "nota": "Prescripción adquisitiva entre ex cónyuges sobre un bien ganancial. Recoge la doctrina estricta de la SCBA sobre interversión del título y sostiene que se relaja en el contexto intrafamiliar juzgado con perspectiva de género. Voto de Kogan; Soria vota por la negativa con fundamento propio, por conformidad del titular registral. Registrado bajo RS-21-2025."
     }
   ],
   "_descarga_asp": "En las URLs de descarga.asp de la SCBA el parámetro n= NO es cosmético: el servidor lo usa como nombre de archivo y un n= distinto devuelve 'Archivo no hallado'. Copiar el n= exacto, con los espacios como %20. Por eso 'Vera' y 'Nidera' comparten id=39327 y son archivos distintos.",

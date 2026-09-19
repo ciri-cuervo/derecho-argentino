@@ -30,20 +30,35 @@ todas las derogaciones de la sección 5.3.
 > entre el 30/12/2023 y el 08/07/2024, emitir:
 > `[REVISIÓN NORMATIVA REQUERIDA: vigencia efectiva del Título laboral del DNU 70/2023 en el tramo del acto extintivo - verificar estado cautelar a esa fecha]`
 
-**Ventana cautelar de la Ley 27.802 y estado judicial.** Vigencia plena desde el
-**23/04/2026**. Cronología: cautelar del Juzgado Nacional del Trabajo N°63 del 30/03/2026
-suspendiendo 82 artículos; Sala VIII de la CNAT le concede efecto suspensivo al recurso del
-Estado el 23/04/2026; la CSJN rechaza el per saltum el 07/05/2026; el Juzgado Contencioso
-Administrativo Federal N°12 deja sin efecto la cautelar el 08/05/2026; la Sala IV de la Cámara
-Contencioso Administrativo Federal confirma el rechazo de una nueva cautelar de la CGT sobre
-81 artículos el 08/07/2026. El fondo sigue pendiente ante el JCAF N°12, sin cautelar activa.
-Hay jurisprudencia que declara la inconstitucionalidad de los arts. 55 y 56 de la Ley 27.802.
+**Ventana cautelar de la Ley 27.802 y estado judicial.** La ley rige desde el **06/03/2026**
+—esa es la fecha del cuadro de arriba—; lo que se abre después es una ventana en la que 82 de sus
+artículos estuvieron suspendidos, **del 30/03/2026 al 23/04/2026**. Un acto extintivo anterior al
+30/03 o posterior al 23/04 no cae en la ventana. Cronología: cautelar del Juzgado Nacional del
+Trabajo N°63 del 30/03/2026 suspendiendo 82 artículos; Sala VIII de la CNAT le concede efecto
+suspensivo al recurso del Estado el 23/04/2026; la CSJN rechaza el per saltum el 07/05/2026; el
+Juzgado Contencioso Administrativo Federal N°12 deja sin efecto la cautelar el 08/05/2026; la
+Sala IV de la Cámara Contencioso Administrativo Federal confirma el rechazo de una nueva cautelar
+de la CGT sobre 81 artículos el 08/07/2026. El fondo sigue pendiente ante el JCAF N°12, sin
+cautelar activa. Hay jurisprudencia que declara la inconstitucionalidad de los arts. 55 y 56 de
+la Ley 27.802.
 
 Esta cronología **no tiene fuente primaria pública del expediente**: se sostiene en fuentes
 secundarias. Al invocarla:
 `[VERIFICAR VIGENCIA: estado cautelar y constitucional de la Ley 27.802 a la fecha de la consulta - cronología sostenida en fuentes secundarias]`
 
+Y si el acto extintivo **cae dentro de la ventana**, eso no se resuelve con la advertencia
+genérica: hay que decir qué artículo se está aplicando y bajo qué suspensión estaba. Lo emite
+`liquidacion_lct.py`, igual que el aviso simétrico del tramo del DNU 70/2023:
+`[REVISIÓN NORMATIVA REQUERIDA: el acto extintivo cae en la ventana cautelar de la Ley 27.802 (30/03/2026 a 23/04/2026), en la que 82 artículos estuvieron suspendidos - verificar si el artículo aplicado estaba entre ellos]`
+
 ### 5.2 Indemnización por antigüedad (art. 245 LCT)
+
+> **Antes de leer lo que sigue, mirar la fecha del acto extintivo.** Todo este bloque describe el
+> texto **sustituido por el art. 51 de la Ley 27.802** (B.O. 06/03/2026), y para un despido
+> anterior no rige. La confusión es cara en los dos sentidos: aplicarle a un despido de 2025 la
+> exclusión del SAC de la base, el mínimo de un mes o la **exclusividad reparatoria** de los tres
+> últimos párrafos; o liquidar uno de 2026 con el mínimo viejo. Qué queda para el tramo anterior
+> está en 5.2.1, acá abajo.
 
 **Régimen vigente (actos extintivos desde el 06/03/2026, texto art. 51 Ley 27.802):**
 
@@ -115,6 +130,38 @@ advertir: sin mínimo legal de contribución, sin preservación de valor frente 
 sin inembargabilidad equivalente al fondo de cese de la construcción (Ley 22.250). El Fondo
 de Asistencia Laboral de la Ley 27.802 (Título II, reglamentado por Decreto 408/2026) es un
 instituto distinto y **no modifica el régimen indemnizatorio**.
+
+#### 5.2.1 El art. 245 para un acto extintivo anterior al 06/03/2026
+
+Es el tramo de todo despido ocurrido entre el **09/07/2024 y el 05/03/2026**, y hoy es el que más
+llega. **La Ley 27.742 no tocó el art. 245:** incorporó el 245 bis (su art. 95) y lo nombró para
+el fondo de cese (art. 96), nada más. La única nota de sustitución que trae el consolidado es la
+del **art. 51 de la Ley 27.802**. De modo que en ese tramo rige el **texto anterior**, y lo que
+sigue es lo único que se puede afirmar de él.
+
+**`fuentes/` trae el consolidado, y el consolidado publica el texto vigente**: el anterior queda
+fuera, y eso hay que decirlo antes de citarlo. Para transcribir un párrafo de ese tramo hay que ir
+a los antecedentes normativos de InfoLEG.
+`[NORMA DESACTUALIZADA: art. 245 LCT en su texto anterior al art. 51 de la Ley 27.802 - el consolidado de fuentes/normas/lct-20744.txt trae sólo el texto vigente desde el 06/03/2026 - para un acto extintivo anterior, ir a los antecedentes normativos de InfoLEG]`
+
+**Lo que sí está decidido y lo aplica `scripts/liquidacion_lct.py` sin preguntar:**
+
+| Punto | Tramo anterior | Desde el 06/03/2026 |
+| --- | --- | --- |
+| **Mínimo** | **dos meses** de sueldo | un mes |
+| **Piso del 67%** | **doctrina "Vizzoti"**: hay que invocarla y fundarla | texto legal del artículo |
+| **Exclusividad reparatoria** | **no existe**: los tres últimos párrafos son del texto nuevo | rige |
+
+**Y lo que NO está decidido, que es la base.** La exclusión del SAC, las vacaciones y los premios
+de pago no mensual viene del párrafo que define la remuneración como *"la devengada y pagada en
+cada mes calendario"*, y ese párrafo es del texto nuevo. En el tramo anterior la incidencia del
+SAC en la base es **criterio discutido y varía por fuero**, así que no se afirma en ninguno de los
+dos sentidos: se dice que se discute, se toma una posición fundada y se marca.
+`[VERIFICAR CRITERIO DEL FUERO: incidencia del SAC en la base del art. 245 LCT para un acto extintivo anterior al 06/03/2026 - fuero y sala actuante]`
+
+**Las horas extras no están excluidas en ningún tramo.** El texto vigente las nombra justamente
+al revés, entre los conceptos **variables** cuyo promedio entra en la base. Descontarlas por
+analogía con el SAC es un error de lectura que se repite.
 
 ### 5.2 bis Despido discriminatorio (art. 245 bis LCT)
 
@@ -494,200 +541,10 @@ empleador la niega, y la prestación de horas extras.
 - **Art. 57 LCT:** el silencio del empleador ante la intimación constituye reconocimiento
   de los hechos intimados.
 
-### 5.8 Riesgos del trabajo
+### 5.8 Riesgos del trabajo — está en `laboral-riesgos.md`
 
-> Para el control del dictamen médico —baremo aplicado, estudios complementarios, quién los
-> produjo, qué constató el perito y qué transcribió del relato— ver `prueba-pericial.md`
-> sección 20. El art. 45 de la Ley 15.057 **excluye a las ART y a las Comisiones Médicas** de
-> la práctica de los estudios complementarios.
-
-Es el mayor volumen del fuero y el apartado que más cambió en el último año: baremo nuevo,
-plazo de caducidad provincial declarado inconstitucional y montos actualizados por semestre.
-
-#### 5.8.1 La instancia previa ante Comisiones Médicas es obligatoria
-
-Art. 1 de la **Ley 27.348** [VERIFICAR VIGENCIA]: instancia administrativa previa, obligatoria
-y excluyente, con **patrocinio letrado obligatorio** y honorarios a cargo de la ART. La CM
-jurisdiccional debe expedirse en **sesenta días hábiles administrativos** (art. 3).
-
-**La CSJN la convalidó.** *"Pogonza, Jonathan Jesús c/ Galeno ART S.A. s/ accidente – ley
-especial"*, CNT 14604/2018/1/RH1, **02/09/2021**: es constitucionalmente válida **porque está
-garantizada una revisión judicial amplia y suficiente** ante tribunales con plena jurisdicción,
-donde las partes pueden ofrecer y producir prueba. Aplica "Fernández Arias" y "Ángel Estrada".
-
-**PBA adhirió por la Ley 14.997** (B.O. 08/01/2018), adhesión lisa y llana en dos artículos: las
-"condiciones" que suelen citarse están en los fundamentos, no en el articulado. La SCBA declaró
-su constitucionalidad en **"Marchetti", L. 121.939, 13/05/2020**, con una consecuencia procesal
-concreta: **demandado sin agotar la CM, la respuesta es incompetencia**, no rechazo de fondo.
-
-**El plazo de 15 días no está en la Ley 27.348.** Lo fija el **art. 16 de la Res. SRT 298/2017**
-y son **días hábiles administrativos** (art. 29 de esa resolución). Citarlo como plazo legal, o
-computarlo en días judiciales, es error. La vía es doble: revisión ante la Comisión Médica
-Central, o —**sólo para el trabajador**— recurso ante la justicia ordinaria del fuero laboral.
-
-#### 5.8.2 En PBA la revisión es una acción ordinaria, y su plazo cayó
-
-El **art. 2 inc. j de la Ley 15.057** no montó un recurso sino **una acción laboral ordinaria**
-de revisión plena de las resoluciones de las CM jurisdiccionales, con plazo de **noventa días
-hábiles judiciales bajo apercibimiento de caducidad**. La acción atrae el recurso que la ART
-tenga pendiente ante la CMC, y la sentencia es vinculante para ambas partes.
-
-Dos pronunciamientos de la SCBA, que hay que leer juntos:
-
-- **"Bustos Torres", L. 124.285, 27/02/2023:** al prever una acción ordinaria de revisión
-  **amplia y plena** —superadora del esquema recursivo de la ley nacional— el inc. j *"deja a
-  resguardo los derechos constitucionales de acceso a la justicia, tutela judicial continua y
-  efectiva, debido proceso y defensa en juicio"*. Revocó la declaración de
-  inconstitucionalidad de los arts. 2 y 14 de la Ley 27.348.
-- **"Magliano", L. 131.700, 19/09/2025:** por mayoría de cuatro contra tres, **dejó firme la
-  declaración de inconstitucionalidad del plazo de caducidad de noventa días hábiles
-  judiciales**. Fundamento: es irrazonable un plazo de caducidad de noventa días cuando el
-  derecho sustancial prescribe a los dos años (art. 44 LRT).
-
-**Qué cambia en el trámite.** Se articula como **demanda**, no como memorial: traslado,
-contestación, prueba propia y sentencia de mérito, sin limitación a los agravios ni al material
-de la CM. Y **después de "Magliano" no corresponde declarar de oficio la caducidad** por
-vencimiento de los noventa días. Ojo con el alcance: "Magliano" resuelve un caso, no deroga la
-norma; cada expediente exige planteo y decisión, aunque el criterio de casación es ese.
-
-    [VERIFICAR PRECEDENTE: "Magliano" (SCBA, L. 131.700, 19/09/2025) - confirmar composición de la mayoría y que no haya pronunciamiento posterior antes de citar]
-
-#### 5.8.3 El baremo cambió: no es el de 1996
-
-**El Decreto 659/96 sigue vigente, pero su Anexo I fue sustituido íntegramente** por el
-**Decreto 549/2025** (B.O. 06/08/2025), con vigencia a los ciento ochenta días corridos, es
-decir **desde el 02/02/2026**. A septiembre de 2026 el baremo nuevo está plenamente vigente.
-
-**Lo que más importa para una causa en trámite:** se aplica *"a toda valoración o determinación
-de incapacidad laboral que no haya sido aún dictada, independientemente de la instancia
-administrativa o judicial"*. Alcanza expedientes con primera manifestación invalidante
-anterior. Hay jurisprudencia que declaró inconstitucional esa aplicación retroactiva y doctrina
-que discute la validez del decreto: es materia abierta.
-
-    [VERIFICAR VIGENCIA: baremo aplicable - el Anexo I del Decreto 659/96 rige según el Decreto 549/2025 desde el 02/02/2026 y se aplica a toda valoración no dictada; verificar si en la causa se planteó su inconstitucionalidad]
-
-**Factores de ponderación:** tipo de actividad y posibilidades de reubicación laboral —que se
-evalúan conjuntamente— y edad, por tabla de rangos. No se suman en puntos de incapacidad: su
-suma opera como **incremento porcentual sobre el valor de la lesión**.
-
-    [VERIFICAR MONTO ACTUALIZADO: valores de los factores de ponderación - las tablas del Anexo I del Decreto 549/2025 son imágenes en InfoLEG y el texto bajado no las trae]
-
-> **Qué hay y qué falta del baremo, medido.** `fuentes/normas/decreto-659-1996.txt` trae el Anexo I
-> sustituido por el Decreto 549/2025 **entero en prosa**: generalidades, metodología de capacidad
-> restante, y los porcentajes que el texto enuncia en línea —*"Amputación interescapulotorácica:
-> 66%"*, *"Desarticulación Coxofemoral: 70%"*—. **Lo que no está son las tablas.** Donde el anexo
-> dice *"deberá determinarse utilizando la siguiente tabla"*, el texto sigue con el título
-> siguiente: esa tabla es una imagen y la extracción la descarta. Afecta a los dos factores de
-> ponderación y a las tablas de mensura por capítulo.
->
-> **Y no se resuelve con OCR.** Es texto numérico sin idioma que lo respalde: un `33` leído `38` es
-> un número válido y ningún control lo marca. La medida está en el repositorio — de las **25
-> correcciones** que dejó el cotejo página por página de "Fiorentino", **14 cambian dígitos**, y una
-> convirtió `art. 6°` en `art. 62`—. Un baremo leído así cambia un porcentaje de incapacidad en
-> silencio, y eso es peor que no tenerlo: **los valores se piden o se marcan.**
-
-**Enfermedades.** El listado es el del Decreto 658/96 con las incorporaciones del **Decreto
-49/2014**. Las **no listadas** siguen la vía del **art. 6 ap. 2 inc. b LRT**: petición fundada
-ante la CM jurisdiccional, con decisión final de la **Comisión Médica Central**, y el
-reconocimiento vale **para el caso concreto** — no incorpora la dolencia al listado.
-
-**Informes médicos.** La **Res. SRT 7/2026** (B.O. 30/01/2026) aprobó el nuevo *Protocolo de
-Estudios Mínimos para la Valoración del Daño Corporal*, en adecuación al Decreto 549/2025, y
-derogó las Res. SRT 886/17 y 3/21. Es el estándar contra el que se controla el informe.
-
-#### 5.8.4 Ingreso base: el art. 12 vigente es el del Decreto 669/2019
-
-**No es el texto de la Ley 27.348.** El art. 11 de la Ley 27.348 sustituyó el art. 12 LRT en
-2017, pero ese texto **fue a su vez sustituido por el art. 1 del Decreto 669/2019** (B.O.
-30/09/2019), que se aplica *"en todos los casos, independientemente de la fecha de la primera
-manifestación invalidante"*. Estructura vigente:
-
-| Apartado | Qué dice |
-| --- | --- |
-| 1 | Ingreso base: promedio mensual de todos los salarios devengados en el año anterior a la primera manifestación invalidante, **actualizados mes a mes por RIPTE** |
-| 2 | Desde la primera manifestación invalidante hasta la puesta a disposición: interés equivalente a **la variación del RIPTE**, no una tasa financiera |
-| 3 | Si la ART no pone a disposición en plazo: **tasa activa** cartera general nominal anual vencida a 30 días del **Banco de la Nación**, con capitalización semestral |
-
-> **Atención a un punto no resuelto.** El apartado 2 devenga **sólo RIPTE**; la tasa activa del
-> BNA quedó reservada al apartado 3, para la mora de la ART. El resumen habitual de "Galarza"
-> —RIPTE más tasa activa BNA desde el accidente— describe el mecanismo del texto de la Ley
-> 27.348, anterior al Decreto 669/2019. Antes de liquidar, leer la sentencia y el art. 12
-> vigente, y no dar por buena la síntesis.
-
-    [VERIFICAR VIGENCIA: mecanismo del art. 12 LRT aplicable a la causa - texto según Decreto 669/2019 (RIPTE en el ap. 2, tasa activa BNA sólo para la mora del ap. 3); cotejar contra lo que resolvió "Galarza" (SCBA, L. 132.729)]
-
-El Decreto 669/2019 es un DNU intensamente litigado: hay jurisprudencia que lo readecua o lo
-declara inconstitucional por dejar el tramo largo con una actualización muy por debajo de
-cualquier tasa. No consta pronunciamiento de la SCBA sobre el decreto.
-
-#### 5.8.5 Fórmulas y montos
-
-**Incapacidad permanente parcial hasta el 50% (art. 14 ap. 2 inc. a):**
-
-    53 × ingreso base × % de incapacidad × (65 / edad a la primera manifestación invalidante)
-
-**Incapacidad permanente total (art. 15 ap. 2):** prestación complementaria determinada
-actuarialmente sobre un capital equivalente a **53 × ingreso base × (65 / edad)**.
-
-Los coeficientes 53 y 65/edad están en el texto según el Decreto 1278/2000, y son los mismos
-en los dos artículos. Los topes nominales originales quedaron desplazados por los **pisos**
-que la SRT actualiza cada semestre.
-
-**Montos vigentes — Res. SRT 39/2026** (B.O. 02/09/2026), aplicable del **01/09/2026 al 28/02/2027**:
-
-| Concepto | Monto |
-| --- | --- |
-| Art. 11 ap. 4 inc. a (compensación adicional, art. 14.2.b) | $ 50.824.055 |
-| Art. 11 ap. 4 inc. b (arts. 15.2 y 17.1) | $ 63.530.069 |
-| Art. 11 ap. 4 inc. c (art. 18.1, muerte) | $ 76.236.060 |
-| Piso art. 14 ap. 2, por porcentaje de incapacidad | $ 114.354.110 |
-| Piso art. 15 ap. 2 | $ 114.354.110 |
-| Piso art. 3 Ley 26.773 (muerte o incapacidad total) | $ 21.656.176 |
-
-    [VERIFICAR MONTO ACTUALIZADO: prestaciones de la LRT - resolución SRT del semestre correspondiente a la fecha del cálculo]
-
-**Adicional del 20% del art. 3 de la Ley 26.773.** Compensa el daño no reparado por las
-fórmulas, cuando el daño se produjo **en el lugar de trabajo o mientras el trabajador estaba a
-disposición del empleador**. Por ese mismo texto, **no procede en el accidente in itinere**:
-es un punto de control frecuente en las liquidaciones que llegan al tribunal.
-
-#### 5.8.6 La opción excluyente, y por qué en PBA no es lo que dice la ley
-
-**Art. 4 de la Ley 26.773:** opción excluyente entre la indemnización del sistema y la acción
-civil, acciones no acumulables, y *"el principio de cobro de sumas o la iniciación de acción
-judicial en uno u otro sistema implica haber ejercido la opción con plenos efectos"*.
-
-**La SCBA convalidó su declaración de inconstitucionalidad.** *"Vera, Isabel contra Fisco de
-la Provincia de Buenos Aires. Enfermedad accidente"*, **L. 124.807, 11/05/2021**. La precisión
-importa para citarlo bien: la inconstitucionalidad la había declarado el **tribunal de grado**
-—el Tribunal de Trabajo n° 4 de La Plata— y la Corte **rechazó el recurso extraordinario de
-inaplicabilidad de ley**, dejándola firme, con costas por su orden. No es un fallo en el que la
-Corte declare de oficio: es uno en el que confirma.
-
-Dos precisiones más sobre el alcance:
-
-- Alcanza los **párrafos segundo y tercero** del art. 4, no el artículo entero.
-- Sobre el texto **anterior a la reforma de la Ley 27.348**.
-
-Fundamentos: **progresividad, indemnidad, irrenunciabilidad e igualdad**; la opción excluyente
-significa un retroceso respecto de la protección anterior. Ratifica la línea de "Aquino".
-
-**"Aquino" (Fallos 327:3753) y "Aróstegui" (Fallos 331:570) están bajados y verificados**: carátula oficial, cita de Fallos, fecha
-y holding leído contra el documento en `fallos-csjn.md` 34.3. Citar desde ahí, no de memoria —
-"Aquino" confirmó la inconstitucionalidad del art. 39 inc. 1 declarada en la instancia anterior,
-y "Aróstegui" dejó sin efecto y devolvió: son dos dispositivos distintos y se confunden seguido.
-
-En sede federal el punto **no está cerrado**: la causa llegó a la CSJN (CSJ 2221/2021/CS1) y
-tiene dictamen de la Procuración del 09/11/2023 que propone confirmar, apoyado en **"Llosco" y
-"Cachambi"** — someterse al régimen especial y percibir sus prestaciones no implica renuncia a
-otras vías si el damnificado considera insuficiente lo percibido. **No consta sentencia.**
-
-**Regla operativa:** no afirmar sin más que la opción es irrevocable. Decir qué dice la ley,
-qué resolvió la SCBA y que la CSJN no se pronunció, y marcar:
-
-    [VERIFICAR PRECEDENTE: "Vera" (SCBA, L. 124.807, 11/05/2021) - confirmar si la CSJN se pronunció en CSJ 2221/2021/CS1 después del dictamen del 09/11/2023. El alcance -párrafos 2 y 3 del art. 4, texto anterior a la Ley 27.348- ya está verificado]
-
-**Prescripción:** art. 44 LRT, dos años. No confundir con el art. 256 LCT (5.6).
+El régimen de la Ley 24.557 salió a módulo propio, con su numeración: 5.8.1 a 5.8.6
+siguen siendo esas secciones, allá. Si el caso cruza accidente y despido, se leen los dos.
 
 ### 5.9 Proceso laboral nacional — cambios Ley 27.802
 
@@ -700,6 +557,21 @@ qué resolvió la SCBA y que la CSJN no se pronunció, y marcar:
   son "superior tribunal de la causa" a los fines del REF (art. 14 Ley 48).
 - La demanda laboral debe ser completa desde el inicio: los hechos no alegados no se
   incorporan después. Ofrecer toda la prueba en la demanda o contestación.
+
+> **Desde cuándo se aplica todo esto, que es el dato que falta y es el peligroso.** El **art. 93
+> de la Ley 27.802** dice que las modificaciones de ese Título rigen **para todos los procesos en
+> trámite** desde el día siguiente a la publicación —el **07/03/2026**—, con la sola excepción de
+> los arts. 79 y 80. Leído sobre el art. 46: **una causa laboral iniciada antes de la reforma
+> puede caducar**, y caduca sin intimación previa. Es lo contrario de lo que se supone por
+> inercia, y por eso se revisa el estado de las causas dormidas antes que cualquier otra cosa.
+>
+> **Los arts. 79 y 80 —competencia por materia y territorial— tienen su propia regla, en el art.
+> 94:** en los procesos en trámite se aplican **sólo en aquellos en que la competencia estuviere
+> pendiente de resolución**. Donde ya quedó firme, no se remite.
+>
+> Cotejado contra `fuentes/normas/ley-27802.txt`, arts. 93, 94 y 217. El art. 217 fija la vigencia
+> general en la publicación, y su nota agrega que el **art. 27 del Decreto 408/2026** prorrogó al
+> **01/11/2026** la del Título II, Fondo de Asistencia Laboral.
 
 ---
 
@@ -812,7 +684,7 @@ se verifica antes de usarlo.
 
 #### Contradicciones nominadas — el perfil dice lo contrario que este módulo
 
-La advertencia genérica de arriba no alcanza acá: **estos cuatro puntos no son de monto ni de
+La advertencia genérica de arriba no alcanza acá: **estos puntos no son de monto ni de
 vigencia, son de derecho aplicable.** Si el perfil y este módulo discrepan en ellos, manda el
 módulo.
 
@@ -822,6 +694,7 @@ módulo.
 | § Accidentes: la opción del art. 4 Ley 26.773 es *"excluyente e irrevocable"*, sin matiz | La SCBA la declaró inconstitucional en **"Vera"** (L. 124.807, 11/05/2021). Ver 5.8.6 |
 | § Accidentes: *"Plazo para impugnar la resolución de la Comisión Médica: 15 días"*, como si fuera de la Ley 27.348 | Son del **art. 16 Res. SRT 298/2017** y hábiles **administrativos**; y en PBA la revisión es acción ordinaria del art. 2 inc. j Ley 15.057, con la caducidad de 90 días declarada inconstitucional en **"Magliano"** (L. 131.700). Ver 5.8.1 y 5.8.2 |
 | § Accidentes: baremo del Decreto 658/96 *"actualizado por Decreto 49/2014"* | **Confunde dos decretos del mismo día.** El **658/96** es el LISTADO de enfermedades profesionales; el baremo —Tabla de Evaluación de Incapacidades Laborales— es el **659/96**. Y su Anexo I fue sustituido íntegramente por el **Decreto 549/2025**, con vigencia 02/02/2026. Ver 5.8.3. Tampoco tiene el ingreso base del art. 12 según Decreto 669/2019 (5.8.4) |
+| § Remuneración: *"Las horas extras están excluidas de la base del art. 245 LCT desde el 6/3/2026 (Ley 27.802, art. 51)"*, y lo sella con *"Verificado en Infoleg"* | **Es al revés, y cambia la base de cálculo.** El art. 245 según el art. 51 de la Ley 27.802 nombra a las horas extra entre los **conceptos variables** cuyo promedio define lo "normal"; las únicas exclusiones que enuncia son el SAC, las vacaciones y los premios que no sean de pago mensual. Las horas extra habituales **integran** la base. Ver 5.2 |
 
 Telegramas y cartas documento: `kb/escritos/laboral/telegrama/` — ocho bloques de modelos, más
 `kb/escritos/laboral/telegrama/reglas-normativas.md` y `kb/escritos/laboral/telegrama/tipos-de-telegrama.md`. Ver `modelos.md` sección 23.
@@ -1112,367 +985,10 @@ del **50%** y techo del **100%** del SMVM vigente. El artículo remite al art. 1
 
 ---
 
-### 5.13 Maternidad, estabilidad y excedencia (arts. 177 a 186)
+### 5.13 Maternidad, enfermedades inculpables y suspensiones — está en `laboral-licencias.md`
 
-Articulado cotejado contra `fuentes/normas/lct-20744.txt`. **Sólo el art. 177 fue
-sustituido** —por el art. 93 de la Ley 27.742, B.O. 08/07/2024—. Los arts. 178 a 186 conservan
-el texto de la Ley 20.744, y esa asimetría tiene consecuencias que se ven más abajo.
-
-`[VERIFICAR VIGENCIA: para un parto o un despido anterior al 09/07/2024 rige el texto anterior del art. 177 - antecedentes normativos de InfoLEG]`
-
-#### 5.13.1 Licencia y conservación del empleo (art. 177)
-
-Está **prohibido** el trabajo del personal femenino o persona gestante durante los **45 días
-anteriores** al parto y hasta **45 días después**. No es una licencia que se pide: es una
-prohibición dirigida al empleador.
-
-La interesada puede optar por reducir la licencia anterior al parto, que **no puede ser
-inferior a diez (10) días**; el resto se acumula al descanso posterior. Ese piso de 10 días
-es lo que cambió la Ley 27.742. En caso de **nacimiento pretérmino** se acumula al descanso
-posterior todo el lapso no gozado antes del parto, **de modo de completar los 90 días**.
-
-Conviene decirlo como lo dice la ley y no como circula: el total es de 90 días y lo que la
-opción mueve es el reparto. Quien toma 10 días antes tiene 80 después, no 45.
-
-**La notificación no es una formalidad, es el hecho constitutivo.** La trabajadora o persona
-gestante debe comunicar fehacientemente el embarazo al empleador, con certificado médico que
-consigne la fecha presunta de parto, o requerir su comprobación por el empleador. El art. 177
-dice que el derecho a la estabilidad en el empleo durante la gestación **tiene carácter de
-derecho adquirido a partir del momento en que se practica esa notificación**. Antes de la
-notificación no hay estabilidad que invocar.
-
-Durante los períodos de licencia conserva el empleo y percibe las asignaciones de la
-seguridad social, que deben garantizarle **una suma igual a la retribución** del período de
-licencia legal. No es salario del empleador: es asignación, con los requisitos de la
-reglamentación respectiva.
-
-Si permanece ausente más tiempo por **enfermedad que la certificación médica atribuya al
-embarazo o al parto** y que la incapacite para reanudar el trabajo vencidos esos plazos, pasa
-a los beneficios del **art. 208** —es decir, al régimen de enfermedades inculpables, no a una
-prórroga de la licencia por maternidad—.
-
-#### 5.13.2 Presunción del art. 178 y la indemnización del art. 182
-
-Se presume, **salvo prueba en contrario**, que el despido de la mujer trabajadora obedece a
-razones de maternidad o embarazo cuando se dispone dentro de los **siete meses y medio
-anteriores o posteriores a la fecha del parto**, y —el texto lo pone como condición, no como
-recomendación— **siempre y cuando haya cumplido con la obligación de notificar y acreditar en
-forma el hecho del embarazo y, en su caso, el del nacimiento**. Configurada la presunción, da
-lugar a la indemnización del art. 182.
-
-> **Contradicción nominada.** El perfil heredado dice que sin notificación fehaciente "la
-> presunción del art. 178 puede no activarse según criterio del fuero" y manda a verificar
-> jurisprudencia de la sala. No es un problema de criterio: la notificación es un **requisito
-> del propio art. 178**, redactado como condición expresa. Lo que sí puede variar por sala es
-> si se tiene por acreditado el conocimiento del empleador por otras vías, que es una cuestión
-> de prueba, no de existencia del requisito.
-
-**Qué se paga.** La indemnización del art. 182 es **equivalente a un año de remuneraciones** y
-**se acumula a la del art. 245**. No la reemplaza ni se absorbe con ella. A eso se suman
-preaviso e integración (arts. 232 y 233) según 5.12.4.
-
-Dos precisiones sobre el art. 182 que se pierden cuando se lo cita suelto:
-
-- **Vive en el capítulo de la prohibición del despido por causa de matrimonio** (arts. 180 a
-  182). Al supuesto de maternidad llega por la **remisión expresa del art. 178**. Importa
-  porque el art. 181 —presunción por matrimonio— tiene requisitos propios y distintos: 3 meses
-  antes o 6 meses después del matrimonio, despido sin invocación de causa o con causa no
-  probada, y notificación fehaciente que no puede hacerse fuera de esos plazos.
-- El art. 178 dice **"mujer trabajadora"**. El art. 177, reformado, dice "personal femenino o
-  persona gestante". La Ley 27.742 actualizó el 177 y no tocó el 178, de modo que la
-  literalidad de los dos artículos no coincide.
-  `[VERIFICAR CRITERIO DEL FUERO: alcance subjetivo de la presunción del art. 178 tras la reforma del art. 177 - fuero y sala actuante]`
-
-#### 5.13.3 Lactancia (art. 179)
-
-Dos descansos de **media hora** por jornada para amamantar, por un período **no superior a un
-año** posterior al nacimiento, salvo que por razones médicas sea necesario un lapso más
-prolongado. En los establecimientos con el número mínimo de trabajadoras que determine la
-reglamentación, el empleador debe habilitar **salas maternales y guarderías**.
-
-`[VERIFICAR VIGENCIA: número mínimo de trabajadoras y condiciones de las salas maternales - reglamentación del art. 179]`
-
-#### 5.13.4 Excedencia y opciones al vencer la licencia (arts. 183 a 186)
-
-Vencida la licencia, la trabajadora que tuvo un hijo y **continúa residiendo en el país**
-puede optar entre tres caminos:
-
-| Opción | Qué implica | Requisito de antigüedad |
-| --- | --- | --- |
-| a) Continuar trabajando | En las mismas condiciones en que lo venía haciendo | ninguno |
-| b) Rescindir el contrato | Cobra la compensación por tiempo de servicio del propio inciso, o los mayores beneficios del estatuto o CCT | **1 año** (art. 185) |
-| c) Excedencia | Período **no inferior a 3 ni superior a 6 meses**, sin remuneración, con derecho a reintegrarse a las tareas que desempeñaba a la época del alumbramiento | **1 año** (art. 185) |
-
-> **Contradicción nominada, y es de cálculo.** El perfil dice que el inciso b) paga "una
-> compensación del 25% de la indemnización del art. 245". El texto dice otra cosa: la
-> compensación es el **25% de la remuneración de la trabajadora, calculada sobre el promedio
-> del art. 245, por cada año de servicio**, y **no puede exceder de un salario mínimo vital
-> por año de servicio o fracción mayor de tres meses** —el tramo que corresponda, en 5.12 bis—.
-> Es un porcentaje de la base, no de la indemnización, y tiene un tope propio que el perfil
-> omite. Liquidarlo como el 25% del art. 245 da un número distinto y casi siempre mayor.
-
-**Los incisos b) y c) también aplican** al supuesto justificado de **cuidado de hijo enfermo
-menor de edad** a cargo de la madre, con los alcances y limitaciones de la reglamentación.
-
-**Nuevo empleo durante la excedencia.** Quien formaliza un nuevo contrato de trabajo con otro
-empleador estando en excedencia **queda privada de pleno derecho** de la facultad de
-reintegrarse. No hace falta que el empleador lo invoque como injuria: opera por el art. 183.
-
-**Reingreso (art. 184).** El reintegro debe producirse al término del período por el que se
-optó. El empleador puede disponerlo en un cargo de la misma categoría que tenía al momento del
-alumbramiento o de la enfermedad del hijo, o en un cargo superior o inferior **de común
-acuerdo**. Si no es admitida, se la indemniza **como si se tratara de despido injustificado**,
-salvo que el empleador demuestre la **imposibilidad de reincorporarla**, en cuyo caso la
-indemnización se limita a la del art. 183 inc. b) párrafo final —la compensación con tope de
-SMVM, 5.12 bis—. Los plazos de excedencia **no se computan como tiempo de servicio**.
-
-**Opción tácita (art. 186) — la trampa de las 48 horas.** Si no se reincorpora vencidos los
-plazos del art. 177 y **no comunica dentro de las 48 horas anteriores a la finalización** que
-se acoge a la excedencia, se entiende que optó por la compensación del art. 183 inc. b). Es
-decir: el silencio no prorroga nada y no deja la relación en suspenso, hace perder el empleo a
-cambio de la compensación topeada. El propio artículo aclara que ese reconocimiento no enerva
-los demás derechos que le correspondan por otras normas.
-
-El perfil heredado no trae los arts. 184, 185 ni 186. Quien liquide una excedencia sin el
-requisito de antigüedad del art. 185 o sin la opción tácita del art. 186 se pierde las dos
-defensas más usadas del otro lado.
-
----
-
-### 5.14 Enfermedades y accidentes inculpables (arts. 208 a 211)
-
-La salida del régimen —reincorporación, incapacidad y despido durante la licencia, arts. 212
-a 214— está en **5.12.5**. Acá va la entrada: plazos, aviso, acreditación y conservación.
-
-**Los arts. 209 y 210 fueron sustituidos por la Ley 27.802** (arts. 44 y 45, B.O. 06/03/2026,
-con la ventana cautelar de 5.1). Los arts. 208 y 211 conservan el texto de la Ley 20.744.
-
-> **Confusión que hay que desarmar antes de seguir.** El plazo del art. 208 y el del art. 211
-> no son el mismo plazo ni tienen la misma consecuencia. El 208 es **licencia paga**: el
-> trabajador no trabaja y cobra. El 211 es **conservación del empleo sin remuneración**:
-> empieza cuando el 208 se agota. El perfil heredado titula el art. 208 como "plazo de
-> conservación del empleo" y no trae el art. 211 en ningún lado, con lo que fusiona los dos y
-> hace desaparecer un año entero de la línea de tiempo.
-
-#### 5.14.1 Plazo de licencia paga (art. 208)
-
-| Antigüedad | Sin carga de familia | Con carga de familia |
-| --- | --- | --- |
-| Menor de 5 años | 3 meses | 6 meses |
-| Mayor de 5 años | 6 meses | 12 meses |
-
-El plazo corre por **cada accidente o enfermedad inculpable** que impida la prestación. La
-**recidiva de enfermedades crónicas no se considera enfermedad** —es decir, no abre un plazo
-nuevo— **salvo que se manifestara transcurridos los dos (2) años**.
-
-**Cómo se liquida la remuneración del período.** Conforme a la que percibía al momento de la
-interrupción, **con más los aumentos** que durante la interrupción se acuerden a los de su
-misma categoría por norma legal, CCT o decisión del empleador. Si el salario tiene
-**remuneraciones variables**, esa parte se liquida según el **promedio del último semestre**
-de prestación de servicios. Piso expreso del artículo: en ningún caso la remuneración del
-trabajador enfermo o accidentado puede ser inferior a la que habría percibido de no haberse
-operado el impedimento. Las **prestaciones en especie** que deje de percibir se valorizan
-adecuadamente.
-
-**La suspensión no interrumpe el derecho.** La suspensión por causas económicas o
-disciplinarias dispuesta por el empleador no afecta el derecho a percibir la remuneración por
-estos plazos, sea que se disponga estando el trabajador ya enfermo o accidentado, sea que la
-enfermedad o el accidente sobrevengan. Es el propio art. 208 el que lo dice: una suspensión
-notificada sobre una licencia en curso no suspende el devengamiento.
-
-#### 5.14.2 Aviso (art. 209)
-
-El trabajador debe dar aviso de la enfermedad o accidente **y del lugar en que se encuentra**
-en el transcurso de la **primera jornada de trabajo** respecto de la cual esté imposibilitado
-de concurrir, salvo fuerza mayor.
-
-La sanción por no hacerlo es precisa y conviene no exagerarla ni minimizarla: **mientras no dé
-el aviso pierde el derecho a percibir la remuneración** correspondiente. No pierde la licencia
-ni queda incurso en abandono. Y aun esa pérdida cede si la existencia de la enfermedad o
-accidente **y la imposibilidad de dar el aviso** —ponderando su carácter y gravedad— resultan
-luego inequívocamente acreditadas.
-
-#### 5.14.3 Acreditación y control (art. 210)
-
-El texto vigente le pone al certificado médico requisitos de contenido y de forma, y los dos
-son ahora legales, no reglamentarios:
-
-- **Contenido:** diagnóstico médico, tratamiento y cantidad de días de reposo laboral
-  indicados.
-- **Forma:** emitido en todo el territorio nacional por profesionales médicos habilitados y
-  **firmado digitalmente** a través de las plataformas electrónicas autorizadas por la **Ley
-  27.553** y su reglamentación.
-
-El **Decreto 407/2026**, Anexo I art. 6 (B.O. 01/06/2026), es el que baja eso a registros
-concretos: la licencia debe emitirse mediante sistema o plataforma digital registrada en el
-**Registro Nacional de Plataformas Digitales Sanitarias (ReNaPDiS)** y estar suscripta por
-profesional habilitado ante la **Red Federal de Registros de Profesionales de la Salud
-(REFEPS)**, con la implementación técnica a cargo del Ministerio de Salud.
-
-Antes de construir una defensa sobre el formato del certificado, dos cosas:
-
-1. La exigencia de firma digital y de plataforma registrada es **posterior al 06/03/2026** en la
-   ley y al 01/06/2026 en el reglamento. Para inasistencias anteriores no se puede reprochar un
-   formato que no existía.
-2. Que el certificado sea formalmente deficiente no equivale, sin más, a que la enfermedad no
-   exista. `[VERIFICAR CRITERIO DEL FUERO: efecto del certificado sin firma digital o de plataforma no registrada sobre la justificación de la inasistencia - fuero y sala actuante]`
-
-**Control por el empleador.** El trabajador **está obligado** a someterse al control del
-facultativo que designe el empleador. Es una obligación del artículo, no una facultad del
-empleador que dependa del CCT.
-
-**Discrepancia insalvable.** Entre el diagnóstico inicial y el control del empleador, el
-artículo abre dos caminos: junta médica en institución oficial **en las jurisdicciones en que
-la autoridad administrativa haya habilitado esa opción**, o dictamen de institutos públicos o
-privados de reconocida trayectoria y solvencia técnica. En este último caso **el costo lo
-asume el empleador**. Que la primera vía exista depende de la jurisdicción.
-`[VERIFICAR VIGENCIA: junta médica oficial habilitada o no por la autoridad administrativa de la jurisdicción - art. 210 LCT]`
-
-#### 5.14.4 Conservación del empleo (art. 211)
-
-Vencidos los plazos del art. 208, si el trabajador no está en condiciones de volver, el
-empleador **debe conservarle el empleo durante un (1) año** contado desde ese vencimiento. Sin
-remuneración: la obligación es de conservar el puesto.
-
-Vencido ese año, **la relación subsiste** hasta que alguna de las partes decida y notifique a
-la otra su voluntad de rescindirla. No se extingue sola, no hay abandono y no corre plazo
-alguno en contra de nadie por dejarla en ese estado.
-
-La extinción dispuesta de ese modo **exime a las partes de responsabilidad indemnizatoria**.
-Pero es una salida angosta y conviene no confundirla con la de 5.12.5: sólo funciona si el
-trabajador sigue sin estar en condiciones de volver. Si al vencimiento hay **disminución
-definitiva** de la capacidad y el trabajador puede prestar otras tareas, el caso entra por el
-art. 212 y ahí sí hay indemnización, según cuál de sus cuatro supuestos se configure.
-
-**La línea de tiempo completa**, que es lo que el perfil no permite ver:
-
-| Tramo | Norma | Paga | Puesto |
-| --- | --- | --- | --- |
-| Licencia | art. 208 | sí, remuneración | conservado |
-| Año de reserva | art. 211 | no | conservado |
-| Después del año | art. 211 | no | subsiste hasta que una parte notifique; sin indemnización |
-| Alta con disminución definitiva | art. 212 | según el supuesto | ver 5.12.5 |
-| Despido durante la licencia paga | art. 213 | indemnizaciones **más** salarios hasta el alta o el vencimiento | ver 5.12.5 |
-
-**Falta de pago de la licencia.** El incumplimiento del empleador en abonar la remuneración
-del art. 208 habilita la denuncia del contrato por justa causa del art. 246, con el estándar y
-las cargas de 5.12.4. Es incumplimiento que se renueva período a período, de modo que la
-tolerancia de meses anteriores no purga el actual.
-
----
-
-### 5.15 Suspensiones y poder disciplinario (arts. 67 a 69 y 218 a 224)
-
-Articulado cotejado contra `fuentes/normas/lct-20744.txt`. **Sólo el art. 68 fue sustituido**,
-por el art. 24 de la Ley 27.802 (B.O. 06/03/2026, con la ventana cautelar de 5.1). Los arts. 67,
-69 y 218 a 224 conservan el texto de la Ley 20.744; el 223 bis viene de la Ley 24.700.
-
-#### 5.15.1 Los tres requisitos de validez (art. 218)
-
-Toda suspensión dispuesta por el empleador, **para ser válida**, debe:
-
-1. fundarse en **justa causa**,
-2. tener **plazo fijo**, y
-3. ser **notificada por escrito** al trabajador.
-
-Son acumulativos y el más olvidado es el segundo. Una suspensión "hasta que se resuelva la
-investigación" no tiene plazo fijo y es inválida por el art. 218, sin necesidad de discutir la
-causa. El perfil heredado sólo pide comunicación escrita con expresión de la causa: le falta
-el plazo fijo, que es la mitad de los planteos que prosperan.
-
-**Justa causa (art. 219)** es sólo una de tres: falta o disminución de trabajo **no imputable
-al empleador**, razones **disciplinarias**, o **fuerza mayor debidamente comprobada**. Fuera de
-esas tres no hay suspensión válida.
-
-#### 5.15.2 Los plazos máximos, que son tres y se cuentan distinto
-
-| Causal | Tope | Cómputo |
-| --- | --- | --- |
-| Disciplinarias **y** falta o disminución de trabajo, **sumadas** | **30 días en un año** | desde la primera suspensión |
-| Fuerza mayor debidamente comprobada | **75 días en un año** | desde la primera suspensión, **cualquiera fuese su motivo** |
-| Todas las causales **en conjunto** | **90 días en un año** | desde la primera suspensión |
-
-> **El tope de 30 días no es sólo disciplinario.** El art. 220 lo pone sobre las suspensiones
-> "fundadas en razones disciplinarias **o** debidas a falta o disminución de trabajo": es un
-> tope compartido. El perfil lo presenta como límite disciplinario a secas y no trae los otros
-> dos. Un empleador que suspendió 20 días por falta de trabajo tiene 10 disciplinarios, no 30.
-
-**Orden de selección (art. 221).** En fuerza mayor y en falta o disminución de trabajo hay que
-empezar por el **personal menos antiguo dentro de cada especialidad**; entre los ingresados en
-un mismo semestre, por el que tenga **menos cargas de familia**, aunque eso altere el orden de
-antigüedad. Es una regla de selección, no un consejo: suspender fuera de ese orden es un vicio
-autónomo.
-
-**Exceso (art. 222).** La suspensión que excede los plazos fijados, o que en conjunto y
-cualquiera fuese su causa supera los **90 días en un año**, **no aceptada por el trabajador**,
-le da derecho a **considerarse despedido**. Y el propio artículo aclara que eso no le veda
-optar por el derecho del art. 223: puede reclamar los salarios en vez de romper.
-
-#### 5.15.3 Impugnación (art. 67) y salarios caídos (art. 223) — no son lo mismo
-
-Dos artículos distintos, con plazos, requisitos y consecuencias distintas. El perfil heredado
-los fusiona en una sola línea y se pierden las dos mitades.
-
-**Art. 67 · qué pasa con la sanción.** El empleador puede aplicar medidas disciplinarias
-**proporcionadas** a las faltas o incumplimientos **demostrados**. Dentro de los **treinta (30)
-días corridos** de notificada la medida el trabajador puede cuestionar su procedencia y el tipo
-o extensión, para que se la **suprima, sustituya por otra o límite**. Vencido el término, **se
-tiene por consentida la sanción**.
-
-Tres precisiones sobre ese plazo: son **corridos**, no hábiles; corren desde la **notificación**
-de la medida, no desde que termina de cumplirse; y lo que se pierde al vencer no es sólo dinero
-—la sanción queda consentida y sirve de antecedente para el despido con causa de 5.12.3—.
-
-**Art. 223 · qué pasa con el salario.** Cuando el empleador no observa las prescripciones de
-los arts. 218 a 221 sobre **causas, plazo y notificación**, el trabajador tiene derecho a
-percibir la remuneración por todo el tiempo que estuvo suspendido **si hubiere impugnado la
-suspensión**, haya o no ejercido el derecho del art. 222.
-
-De modo que la impugnación no es un trámite: es la **condición** del crédito salarial. Y el
-crédito nace del vicio formal o causal, no de que la falta no haya existido.
-
-**Proporcionalidad y progresividad no son lo mismo.** La **proporcionalidad** está en el texto
-del art. 67. La **progresividad** —la idea de que hay que escalonar las sanciones antes de
-despedir— es construcción doctrinaria y jurisprudencial, no texto legal. Sostener un planteo
-en "el principio de progresividad" como si fuera norma es un flanco.
-`[VERIFICAR CRITERIO DEL FUERO: exigencia de progresividad de las sanciones previas al despido con causa - fuero y sala actuante]`
-
-**Prohibición del art. 69.** No pueden aplicarse sanciones disciplinarias que **constituyan una
-modificación del contrato de trabajo**. La degradación de categoría, el cambio de tareas o la
-rebaja salarial "como sanción" son nulos por este artículo, con independencia de si la falta
-existió y de si se impugnaron en el plazo del art. 67.
-
-**Art. 68.** El empleador debe ejercer estas facultades, y la de disponer suspensiones por
-razones económicas, en los límites y condiciones que fijen la ley, los estatutos profesionales
-y los CCT. Es la puerta por la que el convenio puede endurecer el procedimiento —descargo
-previo, plazos, instancias— más allá de la LCT.
-`[VERIFICAR CCT APLICABLE: procedimiento disciplinario convencional - actividad del empleador]`
-
-#### 5.15.4 Suspensiones concertadas y no remunerativas (art. 223 bis)
-
-Se considera **prestación no remunerativa** la asignación en dinero entregada en compensación
-por suspensiones que se funden en **falta o disminución de trabajo no imputable al empleador o
-fuerza mayor debidamente comprobada**, pactada individual o colectivamente y **homologada por
-la autoridad de aplicación**, cuando por esas causales el trabajador no presta servicios. Sólo
-tributa las contribuciones de las Leyes 23.660 y 23.661 —obra social—.
-
-Los recaudos son acumulativos y cada uno se discute: que la causal sea una de las dos
-admitidas —**no** las razones disciplinarias—, que haya acuerdo, que esté **homologado**, y que
-efectivamente no haya prestación. Una "suspensión art. 223 bis" sin homologación, o con
-prestación efectiva de tareas, no convierte la suma en no remunerativa: vuelve a ser salario, y
-con él las diferencias de aportes, SAC, vacaciones y base indemnizatoria.
-
-#### 5.15.5 Suspensión preventiva por denuncia penal (art. 224)
-
-| Quién denunció | Qué pasa |
-| --- | --- |
-| **El empleador**, y la denuncia se desestima o el trabajador es sobreseído provisoria o definitivamente | Debe **reincorporarlo** y **pagar los salarios perdidos** durante la suspensión preventiva, salvo que el trabajador opte por considerarse despedido. Si el empleador se niega a reincorporar: indemnización por despido **más** los salarios perdidos |
-| **Un tercero**, o proceso promovido de oficio, con **privación de la libertad** del trabajador | El empleador **no** está obligado a pagar la remuneración por el tiempo de la suspensión, **salvo** que se trate de un hecho relativo o producido **en ocasión del trabajo** |
-
-La diferencia la hace quién puso en marcha el proceso penal, no cómo terminó. Es el dato que
-hay que averiguar primero cuando aparece una suspensión preventiva en una liquidación.
-
----
+Las secciones 5.13, 5.14 y 5.15 salieron a módulo propio con su numeración. Es el contrato
+que sigue vivo y la prestación que se interrumpe; acá queda cómo termina.
 
 ### 5.16 Principios y orden público laboral (arts. 7 a 17 bis, 62 y 63)
 

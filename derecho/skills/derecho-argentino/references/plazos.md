@@ -42,7 +42,8 @@ notificación, emitir `[VACÍO PROBATORIO: ...]` y **no** calcular vencimiento.
 | Nacional | Art. 124 CPCCN | **Dos** primeras horas del despacho del día hábil inmediato |
 | PBA | Art. 124 CPCCBA | **Cuatro** primeras horas del despacho del día hábil inmediato |
 
-Son las primeras horas **de atención del tribunal**, no "las 2 de la madrugada". No lo prevén
+Son las primeras horas **de atención del tribunal**, no "las 2 de la madrugada" —que es como lo
+escribe el material heredado de `kb/transversales/`, y ahí manda este módulo—. No lo prevén
 el amparo federal, los plazos fijados en horas ni los plazos administrativos de la LNPA. En
 el fuero laboral PBA la Ley 15.057 no lo regula, pero su art. 89 declara supletorio el
 CPCCBA, lo que remite al art. 124. No declarar un plazo vencido mientras corra la gracia.
@@ -80,7 +81,7 @@ Ante un cómputo de prescripción en PBA con mediación de por medio, emitir
 | Traslado de la demanda, laboral nacional | 10 días hábiles | **Art. 68** Ley 18.345 (el art. 71 regula la *forma* de la contestación) |
 | Apelación de interlocutorias, laboral nacional | 3 días hábiles | **Art. 117** Ley 18.345 (el art. 110 es el efecto diferido) |
 | Apelación de sentencias definitivas, laboral nacional | 6 días hábiles | Art. 116 Ley 18.345 |
-| Caducidad de instancia, laboral nacional | 6 meses (1ª instancia) / 3 meses (2ª) | Art. 46 Ley 18.345, texto art. 82 Ley 27.802 |
+| Caducidad de instancia, laboral nacional | 6 meses (1ª instancia) / 3 meses (2ª) / **1 mes** en el incidente de caducidad | Art. 46 Ley 18.345, texto art. 82 Ley 27.802 — **alcanza a los procesos en trámite** desde el 07/03/2026 por el art. 93 de esa ley, y corre **sin intimación previa**. Ver `laboral.md` 5.9 |
 | Amparo federal | 15 días hábiles | Art. 2 inc. e Ley 16.986 |
 
 > **Los diez días del REF se cuentan con el calendario del tribunal apelado, no con el de la

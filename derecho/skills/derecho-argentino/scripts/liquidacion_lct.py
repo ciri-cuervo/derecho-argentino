@@ -46,11 +46,22 @@ TRAMOS = [
      "Ley 27.802 'Modernización Laboral'"),
 ]
 
+# La ventana en la que 82 artículos de la Ley 27.802 estuvieron suspendidos por la cautelar del
+# JNT N°63. NO es un tramo: adentro de ella rige la 27.802 igual, y lo que se desconoce es si el
+# artículo aplicado estaba entre los suspendidos. Por eso es un marcador y no otra fila de TRAMOS.
+# Ver references/laboral.md, 5.1.
+VENTANA_CAUTELAR = (date(2026, 3, 30), date(2026, 4, 23))
+
 CENT = Decimal("0.01")
 
 
 def q(x) -> Decimal:
     return Decimal(str(x)).quantize(CENT, rounding=ROUND_HALF_UP)
+
+
+def plural(n: int, singular: str, plural_: str | None = None) -> str:
+    """«1 año y 1 mes», no «1 años y 1 meses». Esto sale impreso en una pieza."""
+    return f"{n} {singular if n == 1 else (plural_ or singular + 's')}"
 
 
 def tramo_de(f: date):
@@ -142,7 +153,7 @@ def liquidar(a) -> Resultado:
         "fecha_extinción": extincion.isoformat(),
         "tramo": clave,
         "régimen": nombre,
-        "antigüedad": f"{anios} años y {meses} meses",
+        "antigüedad": f"{plural(anios, 'año')} y {plural(meses, 'mes', 'meses')}",
         "multiplicador_art_245": mult,
         "empleador": getattr(a, "empleador", None) or "sin declarar",
     }
@@ -157,6 +168,12 @@ def liquidar(a) -> Resultado:
         r.marcadores.append(
             "[REVISIÓN NORMATIVA REQUERIDA: vigencia efectiva del Título laboral del "
             "DNU 70/2023 en el tramo del acto extintivo - verificar estado cautelar a esa fecha]")
+
+    if VENTANA_CAUTELAR[0] <= extincion <= VENTANA_CAUTELAR[1]:
+        r.marcadores.append(
+            "[REVISIÓN NORMATIVA REQUERIDA: el acto extintivo cae en la ventana cautelar de la "
+            "Ley 27.802 (30/03/2026 a 23/04/2026), en la que 82 artículos estuvieron suspendidos "
+            "- verificar si el artículo aplicado estaba entre ellos]")
 
     mejor = Decimal(str(a.mejor_remuneracion))
     minimo_meses = 1 if clave == "modernizacion" else 2
@@ -195,10 +212,10 @@ def liquidar(a) -> Resultado:
     if antiguedad_imp < minimo_imp:
         antiguedad_imp = minimo_imp
         r.advertencias.append(
-            f"Se aplicó el mínimo legal de {minimo_meses} mes(es) de sueldo.")
+            f"Se aplicó el mínimo legal de {plural(minimo_meses, 'mes', 'meses')} de sueldo.")
 
     r.add("Indemnización por antigüedad", antiguedad_imp, "Art. 245 LCT",
-          f"base {q(base)} x {mult} (mínimo {minimo_meses} mes/es)")
+          f"base {q(base)} x {mult} (mínimo {plural(minimo_meses, 'mes', 'meses')})")
 
     rem_mes = Decimal(str(a.remuneracion_ultimo_mes if a.remuneracion_ultimo_mes
                           is not None else a.mejor_remuneracion))

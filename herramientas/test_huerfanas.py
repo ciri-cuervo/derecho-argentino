@@ -78,8 +78,12 @@ class TestElBordeDeLaCoincidencia(unittest.TestCase):
 
 
 class TestElArbolReal(unittest.TestCase):
-    def setUp(self):
-        self.h = cargar()
+    """El detector corre UNA vez: los tres controles leen la misma salida."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.h = cargar()
+        cls.sueltas, cls.sin_medida, cls.usadas = cls.h.huerfanas()
 
     def test_no_reporta_una_norma_que_no_esta_bajada(self):
         """Declarada y sin bajar es otra deuda, y la mide `descargar_normas.py`.
@@ -87,8 +91,7 @@ class TestElArbolReal(unittest.TestCase):
         Mezclarlas haría que esta lista creciera con cada declaración nueva, que es justo el
         momento en que todavía no hay nada que escribir.
         """
-        sueltas, sin_medida, _ = self.h.huerfanas()
-        for slug, _titulo in sueltas + sin_medida:
+        for slug, _titulo in self.sueltas + self.sin_medida:
             with self.subTest(slug):
                 self.assertTrue(self.h.bajada(slug), "reportó una norma que no está en fuentes/")
 
@@ -99,8 +102,7 @@ class TestElArbolReal(unittest.TestCase):
         inferir el uso desde el nombre, que es lo que daba por usadas a Misiones dentro de
         «comisiones» y a Catamarca por un renglón que habla de un defecto del texto.
         """
-        sueltas, _sin_medida, _ = self.h.huerfanas()
-        for slug, _titulo in sueltas:
+        for slug, _titulo in self.sueltas:
             with self.subTest(slug):
                 self.assertTrue(self.h.formas(slug),
                                 "una norma sin forma de cita entró como huérfana: el detector "
@@ -110,8 +112,7 @@ class TestElArbolReal(unittest.TestCase):
         """`normas.json` nombra todos los slugs: si contara, no habría huérfana posible."""
         self.assertIn("normas.json", self.h.EXCLUIDOS)
         self.assertIn("procedencia.json", self.h.EXCLUIDOS)
-        sueltas, _sin_medida, usadas = self.h.huerfanas()
-        self.assertGreater(len(sueltas) + usadas, 0, "no leyó el catálogo")
+        self.assertGreater(len(self.sueltas) + self.usadas, 0, "no leyó el catálogo")
 
 
 if __name__ == "__main__":

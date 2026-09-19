@@ -213,6 +213,34 @@ Todos comparten un sobre. `kb-procedencia.json` ya lo tenía y sirvió de modelo
 | `herramientas/cifras-revisadas.json` | `cifras` | `cifras.py` |
 | `herramientas/deuda-revisada.json` | `reclamos` | `deuda_vencida.py` |
 | `herramientas/ramas-revisadas.json` | `ramas` | `ramas_sin_disparador.py` |
+
+### Una línea de base sólo crece, y hay que verle los muertos
+
+**Una clave muere cuando el texto que la produjo cambió de redacción o se mudó de archivo.** No
+esconde nada —nunca va a volver a coincidir— pero infla el archivo, y **una lista inflada se deja
+de leer**, que es el modo en que este repositorio pierde una alarma. Medido el 18/09/2026:
+`cobertura-revisada.json` escribía **98 veredictos y usaba 56**; `deuda-revisada.json` arrastraba
+**76 de 190**.
+
+`_veredictos.muertos()` y `_veredictos.aviso_de_muertos()` son el idioma común, y el reporte sale
+igual en todas. **No se purgan solas:** una clave muerta guarda que ese texto exacto ya se leyó,
+así que perder esa memoria es una decisión de quien corre `--purgar`.
+
+**Y no todos los archivos tienen esa noción**, que es lo que hay que mirar antes de cablearlo:
+
+| Archivo | Reporta muertos | Por qué |
+| --- | --- | --- |
+| `cifras-revisadas` · `deuda-revisada` · `cobertura-revisada` · `reformas-revisadas` | **sí, con `--purgar`** | el detector barre todo su corpus, así que sabe qué está vivo |
+| `lecturas-ocr` | sí, **sin purga** | una lectura vale por su fecha; se saca a mano si el documento se fue |
+| `fuga-revisada` | **no** | su detector recibe los archivos por argumento: daría por muertas las entradas de los que no le pasaron |
+| `ramas-revisadas` | **no** | ahí un veredicto `rama` es una **declaración**, no el registro de haber leído un candidato: sobrevive al detector a propósito. Cableado igual, daba **7 falsos** |
+
+**El corte de recencia es la trampa de este cálculo.** `reformas_no_leidas.py` tiene dos modos con
+dos ventanas —el de norma barre desde el año cero y el de artículo desde 2024—, y pasarle una sola
+a los dos dio por muertos **28 de 34** veredictos. Se descubrió purgándolos de verdad y mirando el
+diff, no leyendo el código.
+
+Lo sostiene `TestLosVeredictosNoSeLlenanDeMuertos`.
 | `derecho/fuentes/normas/revisiones.json` | `revisiones` | `descargar_normas.py` |
 
 **La carga no se unifica, y es a propósito.** Son tres formas honestas y distintas: un conjunto
@@ -287,13 +315,14 @@ El criterio está tomado, y cada regla apagada lleva su medición al lado. Vive 
 
 **La ortografía está cerrada; queda gramática, y menos de la que parece.** `ortografia.py`
 recorre los `.md`, los comentarios, docstrings y cadenas de los `.py` y los campos de prosa de
-los `.json`. **Los candidatos de acento están leídos uno por uno y no queda ninguno sin
+los `.json` **de lo que el repositorio versiona**, que se lo pregunta a git: medir la carpeta
+traía los resultados de `claude plugin eval`, que `.gitignore` excluye y nadie va a corregir. **Los candidatos de acento están leídos uno por uno y no queda ninguno sin
 resolver:** los que siguen apareciendo son verbos homógrafos de un sustantivo acentuado
 —`valida`, `publica`, `prorroga`, `tramite`—, demostrativos, apellidos que salen del documento
 y defectos de OCR citados entre comillas. Son la lista que la sección de ortografía declara no
 automatizable, funcionando.
-**La gramática también quedó decidida, leyendo los avisos de una corrida completa**: 8.799
-piezas de prosa, 328 candidatos. La coma delante de `pero` ya estaba resuelta —va cuando une
+**La gramática también quedó decidida, leyendo los avisos de una corrida completa**: 13.632
+piezas de prosa, 467 candidatos. La coma delante de `pero` ya estaba resuelta —va cuando une
 dos oraciones, no cuando coordina dos predicados del mismo sujeto; el criterio está en
 `docs/DESARROLLO.md`— y quedan unos treinta avisos que se saltean leyendo. De las cuatro que
 faltaban, **dos se apagaron y dos quedaron encendidas porque aciertan**:
@@ -419,8 +448,15 @@ copia del árbol arrastra lo que git ignora, que es justamente lo que hace diver
 ```sh
 git clone . /tmp/runner && git diff HEAD > /tmp/wip.patch
 git -C /tmp/runner apply /tmp/wip.patch
+git ls-files --others --exclude-standard | tar cf - -T - | (cd /tmp/runner && tar xf -)
 cd /tmp/runner && python3 -m unittest discover -s herramientas -p "test_*.py"
 ```
+
+**El tercer renglón no es opcional: `git diff HEAD` no trae los archivos nuevos.** Sin él, un
+archivo que todavía no está versionado no llega al clon y lo que se mide es un árbol al que le
+falta la mitad del cambio — la suite da rojo por algo que en el árbol real está. Se copian así y
+no con `git add -N` porque **en este repositorio no se corre `git add`**: el commit lo hace el
+usuario.
 
 ### Qué entra al censo, y por qué los módulos entraron tarde
 
@@ -530,7 +566,7 @@ interacción entre los dos: reescribir una línea de `kb/` con palabras propias 
 primero**, porque hace desaparecer la coincidencia que busca.
 
 > **Los evals entran al detector, igual que los módulos.** Son capa 3 y se escriben con las
-> mismas reglas, así que el comando de arriba los incluye. Los 49 casos dan **cero prosa**: sus
+> mismas reglas, así que el comando de arriba los incluye. Los 54 casos dan **cero prosa**: sus
 > coincidencias con `kb/` son articulado y carátulas de fallos, que se mueven libres. Un caso
 > nuevo que copie prosa rompe el checklist, que es exactamente para lo que está.
 
@@ -546,6 +582,18 @@ primero**, porque hace desaparecer la coincidencia que busca.
 los casos de prueba», que es donde vive la decisión abierta. Acá va lo que cuesta averiguar
 corriéndolo, para no volver a averiguarlo:
 
+- **Los casos viven abajo del plugin, y por eso se instalan con él.** `--eval-dir` es, textual,
+  el *"directory name (below the plugin)"*, y el manifiesto lo declara como `experimental.evals`
+  con una ruta relativa a la raíz del plugin. Sacarlos a la raíz del repositorio, que es donde
+  conceptualmente van —son material de desarrollo—, deja al runner nativo sin nada que correr.
+  **Es una restricción de afuera, no una decisión nuestra**, y el precio es chico: medido, son
+  0,5 MB contra los 78,5 MB de la capa offline, y ningún módulo rutea a `evals/`, así que no
+  entran al contexto de una consulta. El esquema del manifiesto **no tiene campo de exclusión**
+  —ni `files` ni `ignore`—, así que tampoco hay forma de dejarlos abajo y fuera de la copia.
+- **Y por eso, adentro de `evals/` sí se nombra `herramientas/`.** Es la excepción a la regla de
+  «la skill no nombra lo que no se instala»: el lector de un `PROCEDIMIENTO.md` o de una `rubrica.md`
+  es quien escribe evals, que trabaja en el checkout. `TestLaSkillNoNombraLoQueNoSeInstala` mira
+  `SKILL.md` y `references/`, y no baja a `evals/` a propósito.
 - **El formato sale de `claude plugin eval init --bare`, no de la documentación.** `focus:` en un
   grader `llm` está **rechazado** por el cargador.
 - **`max_turns: 10` no alcanza:** la skill se gasta los turnos leyendo sus propios módulos y la
@@ -640,6 +688,37 @@ módulo** —los módulos son decenas, las materias con veredicto propio poco m�
 fila tiene que decir algo además de a dónde ir**: si sacándole las rutas no queda texto, esa fila
 es ruteo y su lugar es la 16.
 
+### Cuándo se parte por materia, y las dos veces que no
+
+**El tope de `Read` no es el motivo para partir: es el piso.** Lo que se paga antes es el
+contexto, y ahí la pregunta no es cuánto mide el módulo sino **cuánto de él abre una consulta que
+no lo necesita**. `laboral.md` se partió dos veces con esa medida —riesgos del trabajo y las
+licencias— y una consulta por accidente pasó de ~54k a ~26k tokens.
+
+**Y hay un piso que no se mueve partiendo.** Toda consulta carga `SKILL.md`, `intake.md`,
+`marcadores.md` y `plazos.md` antes de abrir su materia: **son unos 82 KB, ~22k tokens**. Cuando
+el módulo de rama pesa menos que eso, partirlo deja de rendir. Ya pasó en laboral.
+
+**Dos cortes que el tamaño pedía y la lectura rechazó**, y valen como regla:
+
+- **`laboral.md` 5.16, principios y orden público.** Eran 8,2 KB y el bloque prescindible más
+  grande que quedaba. Se queda: el **art. 15** decide si un acuerdo libera y el **art. 12** si un
+  derecho es renunciable, y las dos cosas pesan en un despido. Habría ahorrado bytes a costa de
+  que la consulta más frecuente perdiera lo que necesita.
+- **`penal.md` entero.** Medido: seis bloques parejos de 14 a 20 KB, sin uno dominante, sobre una
+  espina que los otros módulos no tienen —**cuatro códigos procesales que conviven** y cada
+  sección los compara—. Sacar la parte general (24.7) era gratis en riesgo y rendía poco; el corte
+  que rendía —hub aparte y tres hojas, de ~49k a ~35k— **compraba tokens con una probabilidad de
+  error**: hoy «qué código rige» (24.1) está en el mismo archivo que el instituto y el modelo lo
+  cruza leyendo, y 24.5 y 24.6 abren literalmente con ese paso. Con el hub afuera, saltearlo pasa
+  a ser un modo de falla nuevo, y es justo el que el módulo llama *"el error de encuadre más
+  frecuente"*. **Decidido el 18/09/2026: `penal.md` queda entero.** Si alguna vez se parte, cada
+  hoja repite el cuadro de 24.1.2 en vez de remitir.
+
+**La regla que queda de las dos:** se parte cuando el bloque que sale **no lo necesita** el que se
+queda. Si el que se queda lo va a abrir igual, el corte no ahorró nada y sumó un lugar donde
+perderse.
+
 ### Cuándo un módulo se parte por jurisdicción, y cuándo no
 
 La pregunta se contesta mirando **dónde está la norma, no dónde tramita el expediente**:
@@ -692,6 +771,138 @@ por archivo: exigirlo en todos dejaría el suite en rojo hasta escribir de memor
 y cada borde sale de leer el módulo. **El encabezado va exacto** —`Lo que este módulo NO hace`—
 porque contar con un regex laxo engancha una minúscula y da de más, y un control que cuenta de más
 es el que no suena nunca.
+
+### Una remisión se escribe de tres formas y el control las mira todas
+
+`modulo.md 42`, `modulo.md, 42` y `modulo.md sección 42` son la misma dirección. La tercera es la
+que sale cuando la remisión va en medio de una frase, y estaba fuera del patrón de
+`TestLasRemisionesApuntanAUnaSeccionQueExiste`: la escribían así todas las remisiones a
+`perfiles-heredados.md` **sección 19**, y ese módulo no declaraba ninguna sección numerada. El fallback de cobertura —el que
+se abre justo cuando el módulo de la rama no llega— apuntaba a la nada, y el control decía verde
+porque no las miraba.
+
+De ahí sale la regla: **un módulo al que se lo cita por número declara ese número en un
+encabezado**, aunque su contenido no sea articulado. Los tres que no lo declaraban —`intake.md`,
+`marcadores.md` y `perfiles-heredados.md`— se citaban por nombre; el que empezó a citarse por
+número se numeró.
+
+Y la otra mitad: **una remisión que sale del módulo nombra el archivo.** Adentro, «ver 5.9» se
+entiende porque la raíz es la suya; afuera obliga a conocer el mapa número→archivo, que no está
+escrito en ninguna parte —lo reconstruye el suite leyendo los encabezados— y no tiene por qué
+estarlo. Nombrar el archivo lo vuelve innecesario, y de paso mete la remisión en el control de
+arriba, que sólo mira las que lo nombran. Lo sostiene
+`test_una_remision_que_sale_del_modulo_nombra_el_archivo`, que deja pasar la línea de `SKILL.md`
+que **explica** la convención: esa cita su ejemplo entre comillas.
+
+### Un marcador prohibido se nombra, pero no se emite
+
+`marcadores.md` cierra con **«Formas que no son marcadores»**: una tabla de formas que existen,
+que el material heredado escribe y que el vocabulario cerrado rechaza. El control las tenía en el mismo conjunto que los
+canónicos —para poder nombrarlas al explicar qué no usar— y eso las volvía **salvoconducto**: la
+alarma sonaba por un nombre inventado y era sorda a los que el propio vocabulario prohíbe.
+
+Lo que separa los dos usos es **la carga**, y por eso no hace falta una lista de excepciones:
+
+| Forma | Qué es |
+| --- | --- |
+| `` `[VERIFICAR RÉGIMEN APLICABLE]` `` — desnudo, entre backticks | lo nombra para decir que no se use |
+| `[VERIFICAR RÉGIMEN APLICABLE: fecha del hecho contra el ...]` — con dos puntos y motivo | lo emite, y eso es lo que falla |
+
+Lo sostiene `test_un_marcador_prohibido_no_se_puede_emitir`. El caso del que salió está en el
+fixture: `penal-leyes-especiales.md` emitía uno, con su motivo bien escrito, y la suite entera
+daba verde.
+
+### La skill no nombra lo que no se instala
+
+Lo que el plugin distribuye es `derecho/`. **`herramientas/`, `docs/`, `AGENTS.md`, `LICENCIAS.md`
+y `.github/` se quedan en el repositorio**, así que un módulo que los nombra manda al lector a una
+ruta que en su copia no existe — y el lector es el modelo: no se topa con un 404, completa el
+hueco.
+
+El costo mayor es otro. Esa prosa es el **diario del trabajo** —con qué comando se regenera un
+OCR, en qué archivo quedó el veredicto, cuántas medidas automáticas se descartaron y por qué—, y
+vive adentro de archivos que se cargan en cada consulta. **El que usa la skill paga contexto por
+leer cómo se mantiene el repositorio.**
+
+La regla es de destino y no de estilo:
+
+| Qué | Dónde |
+| --- | --- |
+| La regla operativa —de dónde sale la fecha de un fallo, que una cita literal se coteja— | El módulo |
+| Cómo se llegó a ella, con qué se midió y qué se descartó | `docs/AUDITORIAS.md`, con su fecha |
+| Con qué texto se cotejó un bloque de la tabla de verificación | `docs/REVALIDAR.md` |
+| Qué comando lo regenera o lo vuelve a medir | Acá, o el `--help` de la herramienta |
+
+**El caso más grande fue la tabla «Estado de verificación por bloque».** Sus cinco columnas vivían
+en `references/changelog-normativo.md`, y la quinta —el cotejo escrito para el que revalida—
+pesaba **seis veces más que las otras cuatro juntas**. El módulo se abre para
+contestar «¿esta norma sigue vigente y desde cuándo?», que lo contestan las cuatro primeras. Hoy la
+quinta está en `docs/REVALIDAR.md` y el módulo bajó de 82 KB a 14.
+
+**Partir una tabla en dos crea la posibilidad de que se desincronicen**, y eso no falla
+ruidosamente: una fila que quedó sola se sigue leyendo bien de su lado. Lo impide
+`TestLasDosMitadesDeLaVerificacion`, que exige las mismas filas **y en el mismo orden**, por el par
+bloque + módulo. Y el parser de `pendientes.py` **exige el ancho de cada tabla**: si una cambiara
+de forma, uno laxo seguiría leyendo, leería otra cosa y reportaría cero — y cero ahí se lee como
+que no hay deuda.
+
+**Una fila que no verifica nada no va en esa tabla.** Un bloque que se mudó de módulo no es una
+verificación, y escribirlo como fila **reinicia el reloj de los seis meses sin que nadie haya
+vuelto a leer la norma**, que es justo el modo de falla que la tabla existe para evitar. Había una
+así —«Ejecución de la pena», cuya segunda fila registraba la mudanza a módulo propio— y ahora lo
+impide `test_ninguna_fila_esta_dos_veces`.
+
+`docs/AUDITORIAS.md` está además **excluido del censo de cifras** justo por eso: es un registro
+fechado, y sellarle una cifra convertiría en dato vivo lo que vale por el día en que se midió.
+
+Lo sostiene `TestLaSkillNoNombraLoQueNoSeInstala`. Los `scripts/` quedan afuera del control: son
+código, y un comentario que nombra a sus dos hermanos —las tres declaraciones de zona horaria—
+explica un invariante que se lee al tocarlo.
+
+### La suite de `scripts/` se planta fuera del checkout
+
+Dos tercios de `test_scripts.py` miden el repositorio —`herramientas/`, `docs/`, el manifiesto del
+marketplace—, y el plugin instalado no trae nada de eso. Corrida desde la copia instalada daba
+casi cincuenta rojos que no son defectos del plugin sino **ausencia de instrumento**, y el que la
+corre concluye que el plugin está roto.
+
+El `load_tests` del módulo busca la misma marca estructural que `_raiz.es_clon()` —sólo el repo
+trae `.claude-plugin/marketplace.json`— y, si no está, **levanta `SkipTest` con el motivo escrito**
+en vez de medir. No es verde por ausencia de instrumento: es un salto que dice qué falta y desde
+dónde se corre.
+
+### Una serie que publica por cambio no tiene huecos
+
+**Ni el jus de la SCBA ni la UMA de la CSJN publican todos los meses: publican cuando el valor
+cambia.** Un período ausente no falta — significa que el anterior sigue rigiendo, que es
+exactamente lo que hacen los lectores al tomar la última vigencia que no es posterior a la fecha
+pedida.
+
+Hubo acá un detector que contaba los meses salteados y los reportaba como faltantes. **Se
+descartó**: cotejado contra la tabla oficial el 18/09/2026, los dos meses que señalaba —mayo y
+junio de 2026 del jus— **tampoco están en la fuente**, así que la medida se equivocaba sobre un
+caso conocido. Eso no se calibra, se descarta. Lo que sí se mide es la **mirada**: cuándo fue la
+última vez que alguien abrió la tabla oficial, que es la línea `# verificado:` de cada csv.
+
+### El tope de `Read` es por archivo, no por extensión
+
+El corte de `Read` —2000 renglones, sin aviso— **vale igual para el código**, y el control miraba
+sólo los `.md`. Mientras tanto `test_scripts.py`, el archivo que sostiene buena parte de estas
+reglas, llegó a **6149 renglones: tres veces el tope**, y nadie lo veía.
+
+Un `.py` truncado se lee peor que un `.md`: el agente cree que vio el archivo entero y concluye
+que un test no existe. Se partió **por lo que cada suite afirma** —las calculadoras, el
+descargador, la capa offline, el contenido de la skill, la ortografía de la salida y la plomería
+del plugin— y lo compartido quedó en `_comun_tests.py`, incluido el `load_tests` que planta las
+seis fuera del checkout.
+
+**Y partir una suite mueve punteros.** `cifras.json` declara, por cada cifra cubierta, **qué test
+la cubre y en qué archivo**; al mudarse las clases esos punteros quedaron apuntando a
+`test_scripts.py` y `test_las_cubiertas_por_otro_test_estan_cubiertas_de_verdad` los reclamó. Es
+el mismo acoplamiento que arrastra partir un módulo, del lado del código.
+
+Lo sostiene `test_el_codigo_tampoco_pasa_el_tope`. **No hay archivo exceptuado**: si uno crece, se
+parte, igual que un módulo.
 
 ### Un módulo no pasa de 1900 renglones
 
@@ -796,12 +1007,23 @@ hay una trampa escrita en el propio script: los `serie_id` del **índice** y de 
 del IPC difieren en un carácter, así que bajar el equivocado deja un archivo con el formato
 correcto y los números de otra cosa.
 
-**Y para revisar una respuesta ya producida está `herramientas/verificar_respuesta.py`.** Las
-rúbricas de `evals/` puntúan el contenido del análisis; ninguna ve lo que pasa después de razonar
-bien: que un marcador se reescriba, que pierda una tilde, que aparezca uno que nadie declaró. Eso
-no falla ruidosamente —sale con forma de marcador— y lo copia al escrito quien confía en la
-herramienta. El script acepta sólo lo que `references/marcadores.md` declara, y reclama aparte el
-caso engañoso: el nombre que existe pero escrito distinto.
+**Y para revisar una respuesta ya producida está `scripts/verificar_respuesta.py`, que vive
+adentro del plugin.** Las rúbricas de `evals/` puntúan el contenido del análisis; ninguna ve lo
+que pasa después de razonar bien: que un marcador se reescriba, que pierda una tilde, que
+aparezca uno que nadie declaró. Eso no falla ruidosamente —sale con forma de marcador— y lo copia
+al escrito quien confía en la herramienta. El script acepta sólo lo que `references/marcadores.md`
+declara, y reclama aparte el caso engañoso: el nombre que existe pero escrito distinto.
+
+**Es el único control que corre en tiempo de ejecución, y por eso se instala.** Todo lo demás que
+sostiene la disciplina de este proyecto —las suites, el censo, la frontera— corre sobre el
+repositorio, antes de publicar. Sobre lo que el modelo escribe en la conversación de un usuario no
+corre nada, y ahí es donde un modelo chico rompe: no inventando derecho, sino escribiendo
+`[Verificar Vigencia]` donde el vocabulario dice `[VERIFICAR VIGENCIA]`. Puede vivir adentro
+porque **no importa nada de `herramientas/` y lo único que lee —`marcadores.md`— viaja con él**.
+
+**Y un verde suyo no dice que la respuesta esté bien.** Mide la forma del marcador: no ve el que
+faltó emitir, ni el que se emitió en lugar de una respuesta. Está escrito en su propio docstring
+porque leerlo como aprobación sería, otra vez, verde con el instrumento apagado.
 
 `references/changelog-normativo.md` lleva la tabla de **estado de verificación por bloque**, con
 la fecha de la última validación contra fuente primaria y una columna de volatilidad. Lo de

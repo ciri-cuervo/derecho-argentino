@@ -13,13 +13,15 @@ de la justicia nacional y federal (37, Ley 27.423). **Cada
 uno cubre una parte de su rama y tiene precedencia sobre el perfil**; el mapa de abajo dice, rama
 por rama, qué cubre el módulo y qué queda en el perfil.
 
-Lo que **no** tiene módulo son las especialidades del final del mapa —medicina legal, violencia
-digital y notarial— y lo contencioso administrativo de las demás jurisdicciones. Para eso hay
+Lo que **no** tiene módulo es una de las especialidades del final del mapa —medicina legal— y lo
+contencioso administrativo de las demás jurisdicciones. Para eso hay
 material: más de cinco mil líneas de perfiles de área en el repo, con sus modelos de escritos. Este
 módulo existe para que `[SIN PERFIL DE ÁREA CARGADO]` deje de ser un encogimiento de hombros y pase
 a ser un traspaso: se dice qué falta **y se abre lo que hay**.
 
-## Protocolo
+## 19 · Perfiles heredados
+
+### 19.1 Protocolo
 
 1. **Identificada la materia** (sección 0.1 bis), **primero el módulo de la rama**: el mapa de
    abajo dice qué cubre cada uno. El perfil se abre por lo que el módulo deja afuera, nunca en su
@@ -42,16 +44,24 @@ a ser un traspaso: se dice qué falta **y se abre lo que hay**.
 5. **Lo procesal no se transpola.** Ninguno de estos perfiles fue revisado contra la Ley 15.057
    ni contra la Res. SC 1840/2024. Si la consulta toca el proceso laboral bonaerense, mandan
    `sede-judicial-pba.md` y `parte.md`, no el perfil de la rama.
+6. **Los marcadores del perfil no son los de la skill, y no se copian.** Los perfiles traen su
+   propio glosario —`kb/marcadores-GLOSARIO.md`, que se declara a sí mismo fuente de verdad— y
+   usan formas que `marcadores.md` prohíbe por su nombre, entre ellas
+   `[VERIFICAR RÉGIMEN APLICABLE]`, `[VACÍO DOCUMENTAL]` y `[ALERTA DE PLAZO]`. Los modelos de
+   escrito traen además huecos de plantilla entre corchetes —COMPLETAR, PENDIENTE, PROVINCIA—,
+   que no son marcadores de nada y se llenan o se sacan. El vocabulario válido es el de
+   `marcadores.md` y es **cerrado**: lo que se lee en un perfil se traduce a él antes de salir.
 
 Los **modelos de escritos** de estas ramas —penal, previsional, tránsito— están inventariados
 aparte, en `modelos.md` sección 23.7.
 
-## Mapa
+### 19.2 Mapa
 
 Rutas relativas a la raíz del repo, bajo `derecho/`.
 
 | Materia | Perfil | Complementos |
 | --- | --- | --- |
+| **Laboral** | **`references/laboral.md`, sección 5**, y `laboral-colectivo.md` 5.17 a 5.18, auditados y con precedencia. **El reparto rama por rama no está acá sino allá**: `laboral.md` 5.11 cierra con su propia tabla de qué instituto quedó en `kb/perfiles/laboral-CLAUDE.md` y cuáles ya absorbió, y con los puntos en los que el perfil dice lo contrario que el módulo | Modelos de telegrama y carta documento en `kb/escritos/laboral/telegrama/`; ver `modelos.md` 23 y, antes que el modelo, `telegramas.md` 25 |
 | **Penal** | **`references/penal.md`, sección 24**, auditado contra fuente primaria y con precedencia sobre el perfil. Cubre régimen procesal aplicable, coerción, extinción y probation, nulidades, recursos, parte general, ejecución de la pena y leyes especiales. El perfil `kb/perfiles/penal-CLAUDE.md` (1041 líneas) queda **sólo para la parte especial** —los tipos penales concretos— que es lo único que el módulo no cubre | **Jurisprudencia: `references/fallos-csjn.md` 34.2**, veinte fallos de la CSJN bajados y verificados, que desplaza a `kb/doctrina/penal-DOCTRINA.md` y `penal-APUNTES-DOCTRINA.md` en carátula, cita y fecha. Y cinco modelos en `kb/escritos/penal/escritos/modelos/`: excarcelación y cese de prisión preventiva, hábeas corpus correctivo, nulidad de allanamiento, recurso de casación, solicitud de probation. **Ninguno registra la convivencia de códigos de 24.1**, y el de casación no distingue la impugnación del CPPF (24.6). Antes de usarlos, leer la sección del módulo que corresponda |
 | **Contencioso administrativo** | **PBA: `references/contencioso-pba.md`, sección 26**, auditado contra la Ley 12.008 y con precedencia. Para las demás jurisdicciones, `kb/perfiles/administrativo-CLAUDE.md` (694 líneas) | `kb/jurisdicciones/administrativo/` trae perfiles por provincia: PBA, CABA y otras diecisiete, más una plantilla `_PROVINCIA_`. **El de PBA quedó desplazado por la sección 26**; los demás siguen con la advertencia |
 | **Protección de datos** | **`references/datos-personales.md`, sección 30**, auditado contra la Ley 25.326 y con precedencia: derechos previos y sus plazos, datos sensibles, informes crediticios y la acción. Queda fuera el régimen sancionatorio, la autoridad de aplicación y el Decreto 1558/2001, para lo que sigue `kb/perfiles/proteccion-datos-CLAUDE.md` (553 líneas) con la advertencia | — |
@@ -62,14 +72,14 @@ Rutas relativas a la raíz del repo, bajo `derecho/`.
 | **Tributario** | **`references/tributario.md`, sección 33**, auditado contra la Ley 11.683 t.o. 1998 y con precedencia: prescripción, recursos del art. 76, clausura del art. 77 y demanda del art. 82. Quedan fuera la determinación de oficio, el régimen sancionatorio, la ejecución fiscal y los impuestos en particular, para lo que sigue `kb/perfiles/tributario-CLAUDE.md` (350 líneas) con la advertencia | El perfil incluye el procedimiento ante ARCA. **Se consolidó antes de la Ley 27.799 (BO 02/01/2026)**, que reescribió el art. 56: lo que diga sobre prescripción está vencido. **Y lo provincial no lo cubre: medido, el perfil no nombra a ARBA ni una vez** —sólo instruye a mirar el código fiscal de cada provincia—, así que ahí el perfil no sirve: para PBA está `references/tributario-pba.md` 54 y para la Ciudad `references/tributario-caba.md` 57, los dos auditados |
 | **Tránsito** | **`references/transito.md`, sección 28**, auditado y con precedencia: régimen nacional de la Ley 24.449 **y procedimiento bonaerense de la Ley 13.927** (28.5). Queda fuera el Decreto 532/2009 y sus Anexos, de donde salen montos y formularios. El perfil `kb/perfiles/transito-CLAUDE.md` (306 líneas) sigue para otras jurisdicciones, con la advertencia | Siete modelos de descargo en `kb/escritos/transito/descargos/modelos/`, más un modelo de prescripción para CABA |
 | **Medicina legal** | `kb/especialidades/medicina-legal-CLAUDE.md` | Útil para control de pericias médicas en cualquier fuero |
-| **Violencia digital** | `kb/especialidades/violencia-digital-CLAUDE.md` | Cruza con penal y con familia |
-| **Notarial** | `kb/especialidades/notarial/notarial-CLAUDE.md` | Con `kb/especialidades/notarial/notarial-clausulas.md` y plantilla por provincia |
+| **Violencia digital** | **`references/violencia-digital.md`, sección 59**, cotejado contra la Ley 26.485 texto Ley 27.736 y con precedencia: la definición del art. 6 inc. i, las tres medidas del art. 26 —incluida la orden de baja con URL— y el aseguramiento de prueba. El perfil `kb/especialidades/violencia-digital-CLAUDE.md` sigue para lo que el módulo no cubre, con la advertencia | Cruza con `familia.md` 18.6 para el proceso y con `datos-personales.md` 30 por la remisión expresa del inciso a la Ley 25.326 |
+| **Notarial** | **`references/notarial.md`, sección 60**, cotejado contra los arts. 285 a 312 del CCyCN, la Ley 404 de la Ciudad y el Decreto-Ley 9.020 de PBA, y con precedencia: el fondo que rige en las tres jurisdicciones, las dos organizaciones locales y los dos filos del art. 296. El perfil `kb/especialidades/notarial/notarial-CLAUDE.md` sigue para lo que el módulo no cubre, con la advertencia | Con `kb/especialidades/notarial/notarial-clausulas.md` y plantilla por provincia, que el módulo no trae: **las demás provincias no tienen ley notarial cargada** |
 
 Los perfiles de **consumidor** y **familia** también siguen en el repo. Ya no se usan como
 fuente primaria de la skill —para eso están `consumidor.md` y `familia.md`, auditados— pero
 sirven de profundidad adicional, con la misma advertencia.
 
-## Dos cruces que aparecen seguido en materia laboral
+### 19.3 Dos cruces que aparecen seguido en materia laboral
 
 **Concursos y quiebras.** Cuando el empleador quiebra o se concursa, el expediente laboral se
 cruza con pronto pago, verificación del crédito, privilegios y fuero de atracción. Ese cruce
@@ -82,7 +92,7 @@ advertencia de siempre.
 provincial y municipal va, por regla, al contencioso administrativo. Ante duda de competencia,
 resolver primero (sección 4) y mirar `contencioso-pba.md` sección 26.
 
-## Lo que este módulo NO hace
+### 19.4 Lo que este módulo NO hace
 
 No convierte estas ramas en materias cubiertas. Un perfil leído mejora mucho la respuesta
 frente a no tener nada, pero **no equivale a un módulo auditado**: no tiene el literal de las

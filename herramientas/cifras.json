@@ -48,15 +48,21 @@
     "derecho/skills/derecho-argentino/references/honorarios-nacional.md",
     "derecho/skills/derecho-argentino/references/honorarios-pba.md",
     "derecho/skills/derecho-argentino/references/intake.md",
+    "derecho/skills/derecho-argentino/references/justicia-de-paz-pba.md",
     "derecho/skills/derecho-argentino/references/laboral-colectivo.md",
+    "derecho/skills/derecho-argentino/references/laboral-licencias.md",
+    "derecho/skills/derecho-argentino/references/laboral-riesgos.md",
     "derecho/skills/derecho-argentino/references/laboral.md",
     "derecho/skills/derecho-argentino/references/locacion.md",
     "derecho/skills/derecho-argentino/references/marcadores.md",
     "derecho/skills/derecho-argentino/references/modelos.md",
+    "derecho/skills/derecho-argentino/references/notarial.md",
     "derecho/skills/derecho-argentino/references/notificaciones-pba.md",
     "derecho/skills/derecho-argentino/references/parte.md",
+    "derecho/skills/derecho-argentino/references/penal-impugnacion.md",
     "derecho/skills/derecho-argentino/references/penal-juvenil-pba.md",
     "derecho/skills/derecho-argentino/references/penal-leyes-especiales.md",
+    "derecho/skills/derecho-argentino/references/penal-parte-general.md",
     "derecho/skills/derecho-argentino/references/penal.md",
     "derecho/skills/derecho-argentino/references/perfiles-heredados.md",
     "derecho/skills/derecho-argentino/references/plazos.md",
@@ -81,6 +87,7 @@
     "derecho/skills/derecho-argentino/references/tributario-caba.md",
     "derecho/skills/derecho-argentino/references/tributario-pba.md",
     "derecho/skills/derecho-argentino/references/tributario.md",
+    "derecho/skills/derecho-argentino/references/violencia-digital.md",
     "derecho/skills/derecho-argentino/scripts/README.md",
     "docs/ARQUITECTURA.md",
     "docs/COBERTURA.md",
@@ -90,12 +97,13 @@
   ],
   "excluidos": {
     "CHANGELOG.md": "Es historia. La entrada de 1.0.0 dice 110 normas y tiene razón: describe lo que había ese día, y sellarla la falsificaría. La entrada ABIERTA es otra cosa —todavía no es historia— y por eso no lleva cifras de inventario: se venció dos veces mientras se trabajaba. Las cifras de una versión se escriben al publicarla, que es lo que ya dice AGENTS.md.",
-    "docs/AUDITORIAS.md": "Auditorias fechadas: trece normas es lo que se revisó ese día, no un inventario vivo.",
     "LICENSE-ABOITIZ.md": "Texto de licencia de otro autor. No se edita.",
     "LICENSE-CC-BY-SA-4.0.md": "Texto de licencia de Creative Commons. No se edita.",
-    "derecho/kb/": "Capa 2, de Cristian Aboitiz. Este script no le escribe: lo vigila frontera_kb.py.",
     "derecho/commands/": "Instrucciones de comando: describen que hacer, no cuanto hay.",
-    "derecho/evals/": "Casos de prueba y sus resultados, no documentación del repositorio. Su README.md tampoco: es una de las cinco excepciones de capa 2 que declara LICENCIAS.md, y esta lo tenía en el alcance. Estuvo sin consecuencia -ninguna ancla apuntaba ahi- pero era la puerta abierta: una ancla nueva y este script reescribía un archivo de otro autor."
+    "derecho/evals/": "Casos de prueba y sus resultados, no documentación del repositorio. Su README.md tampoco: es una de las cinco excepciones de capa 2 que declara LICENCIAS.md, y esta lo tenía en el alcance. Estuvo sin consecuencia -ninguna ancla apuntaba ahi- pero era la puerta abierta: una ancla nueva y este script reescribía un archivo de otro autor.",
+    "derecho/kb/": "Capa 2, de Cristian Aboitiz. Este script no le escribe: lo vigila frontera_kb.py.",
+    "docs/AUDITORIAS.md": "Auditorias fechadas: trece normas es lo que se revisó ese día, no un inventario vivo.",
+    "docs/REVALIDAR.md": "Registro fechado, igual que AUDITORIAS.md: cada fila dice contra qué texto se cotejó un bloque y qué se vio ese día, y la fecha la pone la otra mitad de la tabla, en changelog-normativo.md. Sellarle una cifra convertiría en dato vivo lo que vale por el día en que se midió."
   },
   "capa_2": {
     "_motivo": "Material de Cristian Aboitiz: este script no le escribe ni lo censa. La frontera es la ruta -derecho/kb/- más las cinco excepciones que la ruta no dice. La lista autoritativa está en LICENCIAS.md sección 2 y un test ata las dos.",
@@ -354,19 +362,19 @@
       "archivo": "derecho/fuentes/MANIFIESTO.md",
       "patron": "\\*\\*\\d+ entradas\\*\\*, \\d+ con URL",
       "test": "TestManifiestoDeFuentes",
-      "suite": "derecho/skills/derecho-argentino/scripts/test_scripts.py"
+      "suite": "derecho/skills/derecho-argentino/scripts/test_fuentes.py"
     },
     {
       "archivo": "derecho/fuentes/MANIFIESTO.md",
       "patron": "\\*\\*\\d+ entradas sin URL\\*\\*",
       "test": "TestManifiestoDeFuentes",
-      "suite": "derecho/skills/derecho-argentino/scripts/test_scripts.py"
+      "suite": "derecho/skills/derecho-argentino/scripts/test_fuentes.py"
     },
     {
       "archivo": "derecho/fuentes/MANIFIESTO.md",
       "patron": "\\*\\*\\d+ fallos\\*\\*",
       "test": "TestManifiestoDeFuentes",
-      "suite": "derecho/skills/derecho-argentino/scripts/test_scripts.py"
+      "suite": "derecho/skills/derecho-argentino/scripts/test_fuentes.py"
     },
     {
       "archivo": "derecho/skills/derecho-argentino/scripts/README.md",
@@ -378,7 +386,7 @@
       "archivo": "docs/ARQUITECTURA.md",
       "patron": "\\d+ modelos y \\d+ guías",
       "test": "TestInventarioDeModelos",
-      "suite": "derecho/skills/derecho-argentino/scripts/test_scripts.py"
+      "suite": "derecho/skills/derecho-argentino/scripts/test_contenido.py"
     }
   ]
 }

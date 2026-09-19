@@ -29,6 +29,28 @@ los hechos: **conviven**, porque `rubrica.md` dice en prosa lo que los graders d
 y `resultado.md` es un registro fechado de lo que se vio. Falta decidir la otra: qué pasa con
 los casos heredados de capa 2, que se pueden envolver pero no reescribir.
 
+**Y hay cinco más migrados, elegidos por un criterio y no por orden de lista:** aquellos en los
+que **retener un dato es la respuesta correcta** —`honorarios-nacional-uma-caba-y-art64`,
+`transito-uf-prescripcion-y-art64`, `previsional-compensacion-de-edad-y-pba`,
+`honorarios-pba-jus-y-etapas` y `civil-danos-transito-factor-objetivo-pba`—. Son los que miden lo
+único que hace distinta a esta skill, y lo que primero se cae con un modelo de menor capacidad.
+
+**Sus criterios negativos van todos deterministas, y esa es la decisión de diseño.** Este mismo
+repositorio tiene registrado que un juez chico reprueba respuestas correctas cuando el criterio
+pide que algo NO aparezca, así que «no dio un número» se mide con `match: not_contains` sobre un
+importe en pesos, que es un hecho de la cadena de caracteres. Lo que sí queda en manos de un juez
+son los criterios de fondo, que son afirmaciones sobre derecho y no sobre la forma de la salida.
+
+**Cuidado con prohibir de más.** El grader de `honorarios-pba-jus-y-etapas` excluye con un
+lookahead el capital de sentencia que el propio enunciado trae, porque una respuesta correcta lo
+cita de vuelta: sin esa exclusión, el control reprobaría exactamente lo que quiere premiar.
+**Migrar no es medir, y ahora hay con qué ponerle precio.** De los siete, **uno se corrió**:
+`laboral-despido-tramos-reforma-pba`, dos veces el 18/09/2026 —antes y después de escribir la
+disciplina de lectura—, y la comparación está en `AUDITORIAS.md`. Cada corrida son **tres pasadas
+por brazo** y salió **US$ 8,21**. De los otros seis, tres declaran «Sin correr» en su
+`resultado.md` y tres traen el resultado esperado en prosa, que es otra cosa: describe qué se
+espera, no qué pasó.
+
 ### Los reclamos de faltante que no nombran una norma
 
 **El control cruza el párrafo contra dos catálogos** —normas por número y jurisprudencia por el
@@ -157,6 +179,25 @@ jurisprudencia leída es más caro de lo que parece, y el cuello no es leer sino
 esté conectada. Sin ella el repositorio no pierde nada de lo ya bajado, pero **no puede incorporar
 jurisprudencia nueva** de esas dos fuentes.
 
+**La UMA es de la misma familia, y por eso se carga con navegador.** La consulta oficial de la
+CSJN —`csjn.gov.ar/transparencia/uma`— es un **formulario de búsqueda**: lista las resoluciones
+con su fecha y su número, y **el valor está adentro de cada PDF**, no en la página. Un cliente
+HTTP no llega: con navegador, sí. **La serie está cargada** —22 vigencias, 01/10/2024 a
+01/07/2026, leídas una por una de las resoluciones de la SGA el 18/09/2026— y el procedimiento
+para extenderla está en el encabezado de `derecho/fuentes/datos/uma-csjn.csv`.
+
+**Lo que no se levanta es la automatización:** no hay descargador ni lo va a haber, así que
+mantener esa serie al día es trabajo de persona con navegador, igual que la jurisprudencia.
+
+**Y la UMA porteña tiene una restricción más dura, que sí es definitiva.** Es otra unidad —art. 20
+de la Ley 5.134, 1,5% de la remuneración total de un juez de la Ciudad— y su consulta oficial
+publica **un solo valor, el vigente**, sin tabla ni buscador de resoluciones anteriores. Está
+cargado el que publica, desde el 01/08/2026, y `uma_caba.py` **se planta para cualquier fecha
+anterior**. Eso no es deuda: **la serie histórica no se puede reconstruir desde el organismo que la
+fija**, así que una regulación porteña vieja se expresa en UMA y su equivalente en pesos se pide o
+se marca. Las resoluciones anteriores circulan por el CPACF, que es quien las informa a las
+Cámaras; incorporarlas exigiría cotejar cada una y anotar de dónde salió.
+
 ## El trabajo de fondo
 
 No es un pendiente: es para qué existe el proyecto. Va acá porque ninguna herramienta lo
@@ -209,19 +250,26 @@ Lo que falta bajar para avanzar: el régimen de **notificaciones electrónicas**
 nacional —acordadas de la CSJN— y del Poder Judicial de la Ciudad. Sin eso, desde cuándo corre un
 plazo recursivo va con marcador en el módulo nacional y en el porteño.
 
-### La justicia de paz de PBA, que es lo último del catálogo sin escribir
+### Lo que entra por adentro es un piso, no un techo
 
-De las materias que [`COBERTURA.md`](COBERTURA.md) mapeó y el repositorio no cubría, **queda una
-sola sin nada escrito**. Las demás entraron como sección de un módulo que ya existía, con su norma
-cotejada y su disparador; qué se le exige a una materia frente a un fuero está en
-[`DESARROLLO.md`](DESARROLLO.md), bajo *Una rama entra por módulo o por sección*, y qué sección
-cubre cada una lo lleva `herramientas/ramas-revisadas.json`, que un test verifica.
+**De las materias que [`COBERTURA.md`](COBERTURA.md) mapeó, ya no queda ninguna sin nada escrito.**
+La última era la **Justicia de Paz de PBA**, que entró en septiembre de 2026 como fuero con módulo
+propio —`justicia-de-paz-pba.md` 61—, su norma orgánica y su Código de Faltas cotejados, disparador
+de ruteo y caso de prueba. Las demás habían entrado como sección de un módulo que ya existía; qué
+se le exige a una materia frente a un fuero está en [`DESARROLLO.md`](DESARROLLO.md), bajo *Una
+rama entra por módulo o por sección*, y qué sección cubre cada una lo lleva
+`herramientas/ramas-revisadas.json`, que un test verifica.
 
-**Entrar por adentro es un piso, no un techo.** Una sección no tiene caso de prueba propio ni
+**Pero entrar por adentro sigue siendo un piso.** Una sección no tiene caso de prueba propio ni
 nombre de rama en el ruteo, y su cobertura llega hasta donde llega la sección: cada una lleva su
 marcador diciendo qué articulado no recorrió. Darle módulo propio a alguna sigue siendo una
 decisión abierta, y el costo de hacerlo está más arriba, en *Más derecho del que el plugin
 contiene*.
+
+**Lo que el módulo nuevo deja pendiente, y es del trabajo de fondo:** no hay **ni un fallo bajado**
+de la Justicia de Paz bonaerense ni de sus Cámaras de alzada, y hay dos remisiones a normas
+derogadas —la del art. 61 de la Ley 5.827 al Código Civil y la del art. 144 del Código de Faltas a
+un código procesal anterior— que **ningún precedente cargado resuelve**.
 
 ### Derecho internacional, más allá de los dos primeros capítulos
 
@@ -230,10 +278,17 @@ articulado** —y queda, sobre todo, lo que no está en el CCyCN: los tratados. 
 el problema en su forma más pura, y está anotado en `propiedad-industrial.md` 40.6: **la ley
 aprobatoria no transcribe el acuerdo**, así que tener la ley no es tener el texto.
 
-**Eso vale para toda la materia:** los tratados de derechos humanos del art. 75 inc. 22, los de
-Montevideo, la CIDIP, el Protocolo de Buenos Aires y los convenios de La Haya se citan a diario y
-**ninguno está en `fuentes/`** como articulado. Ampliar derecho internacional es, antes que
-escribir módulos, **resolver de dónde se bajan textos que InfoLEG no publica**.
+**Eso valía para toda la materia, y en septiembre de 2026 dejó de valer para la mitad.** Están
+bajados con su articulado los **Tratados de Montevideo de 1940** —`decreto-ley-7771-1956`, que trae
+los cinco instrumentos—, el **Protocolo de Las Leñas** (Ley 24.578), el **Protocolo de Buenos
+Aires** (Ley 24.669), la **Convención de Viena** sobre compraventa (Ley 22.765), la de **Nueva
+York** sobre reconocimiento de laudos (Ley 23.619) y el **Convenio de La Haya de 1980** sobre
+sustracción de menores (Ley 23.857), cuyo texto va como anexo de la ley aprobatoria.
+
+**Lo que sigue faltando es la CIDIP**, que no tiene ninguna entrada, y **los instrumentos de
+derechos humanos del art. 75 inc. 22**, que tienen su propia restricción más arriba: no hay
+publicación oficial de los once en un solo documento. Para esos dos sigue en pie la pregunta de
+fondo: **de dónde se bajan textos que InfoLEG no publica.**
 
 ---
 Fuera del repo, en `~/develop/derecho-argentino-marca/`, vive el generador de la marca con su

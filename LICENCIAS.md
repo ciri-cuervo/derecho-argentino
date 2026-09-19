@@ -211,11 +211,11 @@ ejecuta, con licencia de código.
 Atribución y **CompartirIgual**: se usa y se adapta libremente, **incluido el uso comercial**, y lo
 que se distribuya adaptado lleva la misma licencia.
 
-- `derecho/skills/derecho-argentino/SKILL.md` y los **61 módulos** de `references/`
+- `derecho/skills/derecho-argentino/SKILL.md` y los **68 módulos** de `references/`
 - `derecho/commands/` — los **8 comandos slash**, que son instrucciones y no programas
-- `derecho/evals/` — los **49 casos** de verificación con su rúbrica y su resultado esperado
+- `derecho/evals/` — los **54 casos** de verificación con su rúbrica y su resultado esperado
 - `derecho/fuentes/MANIFIESTO.md` y `derecho/fuentes/jurisprudencia/INDICE.md`
-- `README.md`, `AGENTS.md`, `CLAUDE.md`, `.claude/rules/`, los **6 documentos** de `docs/`,
+- `README.md`, `AGENTS.md`, `CLAUDE.md`, `.claude/rules/`, los **7 documentos** de `docs/`,
   `CHANGELOG.md`, `assets/marca/README.md` y este archivo
 - `assets/marca/` — el sello, el ícono, las chapitas y el separador, con sus fuentes SVG
 - `assets/logos/` **queda afuera**: son marcas de terceros; ver sección 4
@@ -239,7 +239,7 @@ lo lleven a otro proyecto sin arrastrar nada.
 
 - `derecho/skills/derecho-argentino/scripts/` — los scripts de la skill con su suite de tests
 - `derecho/fuentes/scripts/` — los descargadores y verificadores de la capa de fuente primaria
-- `herramientas/` — las **15 herramientas** de control: frontera de licencia, calidad de OCR,
+- `herramientas/` — las **14 herramientas** de control: frontera de licencia, calidad de OCR,
   auditoría de fechas, cobertura normativa, cifras de la documentación, reformas sin leer,
   verificación de marcadores de una respuesta, mapa de ruteo, ortografía, y sus tests
 - Los `.json` de manifiesto, procedencia y veredicto: `normas.json`, `fallos.json`, los

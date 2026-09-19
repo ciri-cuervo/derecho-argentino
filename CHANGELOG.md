@@ -14,23 +14,27 @@ un renglón por cambio. El detalle de cada uno vive donde se puede verificar:
 | La doctrina de cada precedente | El módulo que la usa; el índice, en `references/fallos-csjn.md` |
 | Si el texto de un fallo se puede transcribir | `herramientas/lecturas-ocr.json` |
 
-## [1.2.0] — 2026-09-17
+## [1.3.0] — 2026-09-18
 
-Se destrabaron los dos registros judiciales que el repositorio daba por inconsultables, y de ahí
-salió casi todo lo demás.
+Siete módulos nuevos, y los dos más grandes partidos por materia.
+
+- **Módulos nuevos:** violencia digital, notarial y **justicia de paz de PBA**.
+- **`laboral.md` y `penal.md` se partieron**: riesgos, licencias, impugnación y parte general
+  salieron con su numeración.
+- **Derecho internacional:** exequátur, inmunidad de jurisdicción, arbitraje, Viena, extradición.
+- **También:** PUAM, historia clínica, boleto de compraventa, interversión del título.
+
+## [1.2.0] — 2026-09-17
 
 - **JUBA y el buscador de sumarios de la CSJN se consultan**, con la cadena escrita en `INDICE.md`.
 - **Dieciséis ramas nuevas** entraron como sección de un módulo que ya existía, con su disparador.
 - **Los textos ordenados de 2025 renumeraron gas y electricidad:** la jurisdicción previa del ente
   pasó del art. 66 al 53 y del art. 72 al 58, y el corrimiento no es parejo.
-- **La LCT no rige a todos:** `liquidacion_lct.py` corta con código 2 ante `--empleador publico`.
 - **Los datos se repiten antes de usarlos** y la skill para si alguno no coincide.
 - **Identidad de los fallos:** el descargador coteja la carátula contra el documento y la registra.
 - **El cotejo del OCR es un dato:** vive en `ocr/correcciones/` y se planta si deja de coincidir.
 - **Políticas de género:** ocho leyes bajadas y escritas en siete módulos.
-- **Normas huérfanas:** herramienta nueva para el texto bajado que ningún módulo usa. Hoy da cero.
 - **Herramientas nuevas:** ortografía con diccionario, mapa de ruteo y verificador de marcadores.
-- **Ninguna fuente oficial bloquea a los descargadores**, y eso ahora se mide antes de suponerlo.
 
 ## [1.1.1] — 2026-09-15
 

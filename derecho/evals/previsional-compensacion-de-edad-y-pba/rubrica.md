@@ -24,8 +24,11 @@ El caso se gana o se pierde en la primera respuesta: **hay una vía y el consult
 - [ ] **Corrige «el haber sería la PBU».** El haber se integra además con la **Prestación
   Compensatoria** (arts. 23 y 24) y la **Prestación Adicional por Permanencia**. Tratar la PBU como
   el haber entero subestima el beneficio.
-- [ ] **Corrige el fuero.** En **PBA** lo previsional **no va por el federal de la seguridad social**:
-  va por el **fuero laboral**. El módulo lo señala y `docs/COBERTURA.md` también.
+- [ ] **Corrige el fuero.** En **PBA** lo previsional **no va por el federal de la seguridad
+  social** ni por el **laboral**: agotada la vía del Decreto-Ley 7.647/70 va al **contencioso
+  administrativo**, donde el **art. 5 inc. b de la Ley 12.008** le da regla de competencia propia
+  —domicilio del interesado o de la demandada, a elección del demandante—. Ver `previsional-pba.md`
+  55 y `contencioso-pba.md` 26.2.
 - [ ] **No da un monto.** La serie de valores no está cargada: corresponde **marcador**, no
   estimación.
 

@@ -310,7 +310,7 @@ subsidiariamente**, en la medida en que no restrinja los derechos que la 13.634 
 
 **"Maldonado"** (CSJN, Fallos 328:4343, 07/12/2005) es el precedente de fondo que atraviesa este
 fuero, y está bajado y verificado en `fuentes/jurisprudencia/`. Se trata en
-`penal.md` 24.7.8 por su holding sobre la escala del art. 44: **la pena del menor declarado
+`penal-parte-general.md` 24.7.8 por su holding sobre la escala del art. 44: **la pena del menor declarado
 responsable se construye sobre la escala reducida de la tentativa**, por remisión del art. 4 de la
 Ley 22.278.
 

@@ -1,6 +1,6 @@
 {
   "_descripcion": "Veredicto de cada reforma que está en el texto consolidado de fuentes/normas/ y ningún módulo nombra. Lo consume herramientas/reformas_no_leidas.py.",
-  "fijado": "2026-09-17",
+  "fijado": "2026-09-18",
   "_criterio": "La capa de fuente primaria se actualiza sola y los módulos no: entre las dos cosas se abre una ventana en la que el repo tiene el artículo nuevo y la skill explica el viejo. El detector reporta candidatos; el veredicto se toma abriendo el módulo.",
   "_vocabulario": {
     "no-toca-el-modulo": "la reforma cambia un artículo que el módulo no cubre: es correcto que no la nombre",
@@ -18,10 +18,6 @@
     },
     "ley-19550:27.444": {
       "motivo": "art. 8, organización del Registro Nacional de Sociedades por Acciones; societario.md 31 cubre contra quién se demanda y la responsabilidad de socios, administradores y directores, no el funcionamiento del registro",
-      "veredicto": "no-toca-el-modulo"
-    },
-    "ley-19550:27.541": {
-      "motivo": "emergencia pública: toca los arts. 94 y 206 -disolución por pérdida del capital-, suspendidos por la emergencia; societario.md 31 cubre responsabilidad, arts. 21 a 26, 54, 55, 59, 60 y 274",
       "veredicto": "no-toca-el-modulo"
     },
     "ley-21526:26.173": {
@@ -64,14 +60,6 @@
       "motivo": "cita al art. 75 de otra ley dentro de una nota; previsional.md 32 tiene absorbidos los arts. 1, 3 a 6, 16, 17, 18 y 20, que son los que usa",
       "veredicto": "no-toca-el-modulo"
     },
-    "ley-26485:27.501": {
-      "veredicto": "absorbida",
-      "motivo": "incorporó al art. 6 la modalidad de violencia contra las mujeres en el espacio público, inc. g; familia.md 18.6 ya enumera el catálogo completo de modalidades incluidas esa y la digital de la Ley 27.736, sin nombrar la ley que introdujo cada una"
-    },
-    "ley-26485:27.533": {
-      "veredicto": "absorbida",
-      "motivo": "incorporó al art. 6 la modalidad de violencia pública-política, inc. h; familia.md 18.6 ya enumera el catálogo completo de modalidades incluidas esa y la digital de la Ley 27.736, sin nombrar la ley que introdujo cada una"
-    },
     "ley-26589:27.222": {
       "motivo": "art. 18, suspensión de la prescripción y la caducidad por la mediación prejudicial nacional; plazos.md 8 ya explica la regla con el texto reformado -dies a quo distinto según sea por acuerdo de partes, por sorteo o a propuesta del requirente- sin nombrar la ley que lo introdujo",
       "veredicto": "absorbida"
@@ -82,6 +70,10 @@
     },
     "ley-27150:27.482": {
       "motivo": "sustituyó la denominación del título de la ley; penal.md 24 la cita por el cronograma de implementación del CPPF por distrito, que el cambio de título no mueve",
+      "veredicto": "no-toca-el-modulo"
+    },
+    "ley-27348:4:27.802": {
+      "motivo": "el art. 154 de la Ley 27.802 no sustituye el art. 4 de la 27.348: INCORPORA un artículo nuevo al Título I que faculta a la SRT a suspender asistencia técnica y financiamiento a la jurisdicción que incumpla, y de paso NOMBRA el art. 4 segundo párrafo. El candidato sale de esa mención. Es apalancamiento federal sobre las provincias, no una regla que cambie lo que hace el trabajador o su abogado. Leído contra fuentes/normas/ley-27348.txt el 18/09/2026",
       "veredicto": "no-toca-el-modulo"
     },
     "lnpa-19549:1:27.742": {
@@ -100,6 +92,10 @@
       "motivo": "art. 51, costas en el proceso contencioso administrativo bonaerense; contencioso-pba.md 26 cubre materia, agotamiento, silencio, plazo, pago previo, cautelares y recursos, y no desarrolla el régimen de costas",
       "veredicto": "no-toca-el-modulo"
     },
+    "pba-ley-12256:3:15.232": {
+      "motivo": "el art. 3 con su texto según Ley 15.232 está cubierto en `ejecucion-penal.md` 24.8.2, que lo cita por su reforma y explica cómo se resuelven las decisiones del juez de ejecución. `penal-leyes-especiales.md` sólo lo NOMBRA al remitir a 24.8: el candidato sale de esa remisión, no de una laguna",
+      "veredicto": "no-toca-el-modulo"
+    },
     "pba-ley-13074:15.520": {
       "motivo": "art. 3, quién se inscribe en el Registro de Deudores Alimentarios Morosos; familia.md 18 ya lo describe con el texto reformado -sentencia firme, convenio homologado o resolución, previa intimación- sin nombrar la ley que lo introdujo",
       "veredicto": "absorbida"
@@ -107,10 +103,6 @@
     "pba-ley-13133:1:15.407": {
       "veredicto": "no-toca-el-modulo",
       "motivo": "el art. 1 de la Ley 13.133 es la cláusula de objeto del régimen provincial de consumo. Quien lo trabaja es consumidor.md; danos-indice-doctrinario.md es el índice de una obra comercial y lo nombra de costado, no explica su articulado"
-    },
-    "pba-ley-13133:3:15.410": {
-      "motivo": "art. 3, objetivos de la acción gubernamental de protección al consumidor -políticas de regulación, acceso, educación y solución de conflictos-. Es programático y ningún módulo lo cubre: de la Ley 13.133 se trabajan los arts. 1, 6, 14, 19, 25, 52, 53 y 55, que son procedimiento y sanciones. El candidato salió de una fila del changelog que nombra «arts. 3, 4, 4 bis y 5» de un acuerdo de la SCBA, no de esta ley",
-      "veredicto": "no-toca-el-modulo"
     },
     "pba-ley-13298:14.537": {
       "motivo": "art. 19, funciones de los Servicios Locales de Protección de Derechos; penal-juvenil-pba.md 36 los describe desde el art. 18 y remite al 19 por sus funciones, con el texto ya bajado",

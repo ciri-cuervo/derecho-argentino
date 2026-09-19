@@ -61,9 +61,9 @@
     "dipr.md :: 35.8 bis": {
       "veredicto": "rama",
       "disparadores": [
-        "buques"
+        "buque"
       ],
-      "nota": "Ley 20.094, Título V: el DIPr de la navegación por agua. NO la detecta la regla -su encabezado no nombra la ley-, está declarada a mano."
+      "nota": "Ley 20.094, Título V: el DIPr de la navegación por agua. NO la detecta la regla —su encabezado no nombra la ley—, está declarada a mano. El disparador es **buque** en singular, que es como lo nombra la fila de ruteo de la sección 16 —«bandera del buque, abordaje, avería, embargo de buque»—: el plural vivía sólo en el `description` y se sacó al compactarlo, porque la materia ya estaba ruteada."
     },
     "empleo-publico.md :: 49.5.2": {
       "veredicto": "rama",
@@ -78,6 +78,13 @@
         "ética pública"
       ],
       "nota": "Ley 25.188, ética pública: régimen paralelo al estatuto, con nulidad absoluta propia."
+    },
+    "justicia-de-paz-pba.md :: 61.4": {
+      "veredicto": "rama",
+      "disparadores": [
+        "faltas provinciales"
+      ],
+      "nota": "Decreto-Ley 8.031/73, Código de Faltas de PBA: cuerpo normativo propio, con sus penas, su prescripción de un año y su recurso. La fila del módulo habla de competencia del Juzgado de Paz, y quien tiene un acta contravencional bonaerense no se reconoce ahí: la fila de la sección 16 nombra las faltas provinciales."
     },
     "laboral-colectivo.md :: 5.17": {
       "veredicto": "rama",
@@ -103,6 +110,13 @@
         "inclusión laboral travesti"
       ],
       "nota": "Ley 27.636 y su reglamentación: la inclusión laboral rige el ingreso en general, no sólo el empleo público."
+    },
+    "penal-impugnacion.md :: 24.5.1 bis": {
+      "veredicto": "rama",
+      "disparadores": [
+        "prueba de origen en inteligencia"
+      ],
+      "nota": "Ley 25.520 con el Decreto 941/2025: cuerpo normativo propio que entra al proceso penal por la vía del art. 4 bis. La fila de causa penal no lo alcanzaba, porque quien consulta no lo nombra como nulidad sino como actuación de un organismo."
     },
     "penal-leyes-especiales.md :: 24.9.1": {
       "veredicto": "rama",
@@ -138,7 +152,7 @@
       "disparadores": [
         "organizaciones criminales"
       ],
-      "nota": "Ley 27.786: dos tipos penales nuevos -arts. 210 ter y quáter CP-, un régimen procesal de excepción atado a una zona declarada y decomiso sin condena. No es el régimen de un delito de los que ya cubre el módulo: es un cuerpo propio."
+      "nota": "Ley 27.786: dos tipos penales nuevos -arts. 210 ter y quater CP-, un régimen procesal de excepción atado a una zona declarada y decomiso sin condena. No es el régimen de un delito de los que ya cubre el módulo: es un cuerpo propio."
     },
     "penal-leyes-especiales.md :: 24.9.6": {
       "veredicto": "rama",
@@ -161,16 +175,23 @@
       ],
       "nota": "Ley 20.655, art. 24: cohecho deportivo, tipo penal fuera del Código."
     },
-    "penal.md :: 24.5.1 bis": {
+    "penal.md :: 24.10": {
       "veredicto": "rama",
       "disparadores": [
-        "prueba de origen en inteligencia"
+        "Extradición"
       ],
-      "nota": "Ley 25.520 con el Decreto 941/2025: cuerpo normativo propio que entra al proceso penal por la vía del art. 4 bis. La fila de causa penal no lo alcanzaba, porque quien consulta no lo nombra como nulidad sino como actuación de un organismo."
+      "nota": "Ley 24.767: extradición y cooperación penal internacional. La fila del módulo hablaba de código procesal, coerción, probation, nulidades y recursos; quien consulta por un pedido de extradición no se reconoce en ninguno de esos. La fila de la sección 16 ahora la nombra."
     },
     "previsional-pba.md :: 55.7": {
       "veredicto": "no-es-rama",
       "nota": "No es una rama escrita: es un hueco DECLARADO. Las Leyes 15.386 y 15.617 están en normas.json y su texto no pudo bajarse, así que la sección dice que el régimen existe y que está fuera de la capa verificada. No hay contenido que rutear."
+    },
+    "previsional.md :: 32.4 bis": {
+      "veredicto": "rama",
+      "disparadores": [
+        "PUAM"
+      ],
+      "nota": "Ley 27.260 art. 13: prestación vitalicia y no contributiva desde los 65 años, con requisitos propios y que NO genera derecho a pensión. La fila del módulo hablaba de jubilación, retiro por invalidez y pensión: quien tiene 65 años y ningún aporte no se reconocía en ninguna de las tres. La fila de la sección 16 ahora la nombra."
     },
     "propiedad-industrial.md :: 40.4": {
       "veredicto": "no-es-rama",

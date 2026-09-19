@@ -125,12 +125,16 @@ efectuado **antes de haber sido citado** a comparecer, **extingue la acción**.
 
 **En tránsito hay un régimen propio y mejor (art. 18 Ley 451, con el art. 13 de la Ley 1.217):**
 
-| Qué hace el presunto infractor | Qué paga |
-| --- | --- |
-| Paga dentro de los **40 días corridos** de notificado | **50% de bonificación** sobre la multa, **y consiente el descuento de puntos** |
-| **Pide la intervención de la UACF dentro de los 40 días** y **es condenado** | **25% de bonificación** |
-| No paga ni pide la UACF dentro de los 40 días, y la sanción se confirma | **75%** de la multa |
-| Deja **vencer** los 40 días y la infracción se confirma | **100%** de la multa |
+| Qué hace el presunto infractor | Qué paga | Norma |
+| --- | --- | --- |
+| Paga dentro de los **40 días corridos** de notificado | **50% de bonificación** sobre la multa, **y consiente el descuento de puntos** | Art. 18 Ley 451 |
+| **Dentro de** los 40 días *"de no acogerse al pago voluntario y/o requerir la intervención"* de la UACF, y la sanción se confirma | **75%** de la multa — o sea, 25% de bonificación | Art. 13 inc. b Ley 1.217 |
+| Deja **vencer** los 40 días y la infracción se confirma | **100%** de la multa | Art. 13 inc. c Ley 1.217 |
+
+> **El eje son los 40 días, no qué se pidió.** El inciso b) está redactado con un *"y/o"* que se
+> puede leer de dos maneras —quien no paga voluntariamente, quien pide la UACF, o las dos—, y por
+> eso se transcribe en vez de parafrasearse. Lo que el artículo sí separa sin ambigüedad es el
+> plazo: **actuar dentro de los 40 días paga 75%; dejarlos vencer paga 100%.**
 
 > **El plazo de la Administración también cuenta.** El art. 13 de la Ley 1.217 le impone notificar
 > **dentro de los 60 días corridos** la existencia de las actas labradas, e intimar a pagar o a
@@ -159,6 +163,21 @@ juzgamiento (art. 26).
 
 **La competencia es del Fuero Penal, Contravencional y de Faltas de CABA y es IMPRORROGABLE**
 (art. 28).
+
+#### Contradicciones nominadas — el perfil manda a un artículo que el consolidado no tiene
+
+El perfil heredado de tránsito trae **el contenido bien y el número mal**, que es la contradicción
+más cara de todas: quien la copia queda con la regla correcta y una cita que el juez no encuentra.
+
+| El perfil dice | Lo correcto |
+| --- | --- |
+| `perfiles/transito-CLAUDE.md`: *"40 días corridos desde la notificación para pagar voluntariamente o requerir la intervención de la UACF (art. 12 bis Ley 1217, incorporado por Ley 6192)"* | **El plazo es ése; el artículo es el 13.** El texto consolidado de la Ley 1.217 —`fuentes/normas/caba-ley-1217.txt`, Juristeca del Poder Judicial de la Ciudad— **no tiene art. 12 bis**: su art. 12 es *"Domicilio"* y la citación y el pago voluntario son el **art. 13**, con los mismos 40 días corridos. Lo mismo vale para los 60 días de la Administración, que el perfil también atribuye al art. 12 bis |
+| `perfiles/transito-CLAUDE.md`: *"Son porcentajes fijados por el art. 12 bis (Ley 6192, B.O. CABA 1/10/2019, vigentes)"* | Los porcentajes del **75%** y el **100%** son los **incisos b) y c) del art. 13**, como está escrito arriba en 56.4 |
+
+**Por qué pasa, y qué se hace con eso.** La reforma existió y el perfil la leyó cuando el artículo
+todavía se numeraba así; la consolidación posterior lo reubicó y el perfil quedó fijo. La regla del
+repositorio no cambia: **la corrección va acá y no allá**, y la cita del perfil se reproduce
+textual para que el error sea reconocible cuando aparezca en un escrito heredado.
 
 ### 56.6 Antes de contestar
 
