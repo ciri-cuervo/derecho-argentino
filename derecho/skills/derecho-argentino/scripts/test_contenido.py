@@ -1206,6 +1206,17 @@ class TestElDescriptionDeLaSkillActivaTodasLasRamas(unittest.TestCase):
                                      skill.read_text(encoding="utf-8")).group(1)
         self.refs = skill.parent / "references"
 
+    def _activa(self, palabra: str) -> bool:
+        """Por palabra completa, no por subcadena: `ART` está adentro de «parte» y daba por
+        activado a `laboral-riesgos.md` sin que el término figurara. Con el tope en 1.024 eso
+        deja de ser teórico — el recorte saca términos, y una rama apagada tiene que verse.
+
+        MUTACIÓN que lo comprueba: sacar `ART` del `description` y este test falla; con la
+        comparación por subcadena, pasaba.
+        """
+        return re.search(r"(?<!\w)" + re.escape(palabra) + r"(?!\w)",
+                         self.descripcion, re.I) is not None
+
     def test_cada_modulo_de_rama_tiene_su_disparador(self):
         # La misma partición que usa `herramientas/pendientes.py`: un módulo de rama describe
         # derecho, uno de infraestructura describe cómo trabaja la skill.
@@ -1221,16 +1232,26 @@ class TestElDescriptionDeLaSkillActivaTodasLasRamas(unittest.TestCase):
                 self.assertIsNotNone(palabras,
                                      f"{modulo} es un módulo de rama y no declara disparador: "
                                      f"agregarlo a DISPARADORES y al description del SKILL.md")
-                if palabras and not any(p.lower() in self.descripcion.lower() for p in palabras):
+                if palabras and not any(self._activa(p) for p in palabras):
                     sin_disparador.append(f"{modulo} ({'/'.join(palabras)})")
         self.assertEqual(sin_disparador, [],
                          "módulos de rama que el description no activa: " +
                          ", ".join(sin_disparador))
 
     def test_el_description_entra_en_el_limite(self):
-        """1.536 caracteres contados junto con `when_to_use`, que esta skill no usa."""
-        self.assertLessEqual(len(self.descripcion), 1536,
-                             "el description pasa el límite y se trunca en el listado")
+        """**Son dos límites distintos y manda el más chico.** Claude Code trunca en 1.536 el
+        `description` junto con `when_to_use` —que esta skill no usa— para ahorrar contexto: ahí
+        pasarse cuesta disparadores. La API de Skills es otra cosa: pide *"description: Maximum
+        1024 characters"* y por esa puerta la skill **no carga**, así que el tope es 1.024 y el
+        1.536 queda como lo que es, una truncación de listado. Medido contra
+        platform.claude.com/docs/en/api/skills-guide el 19/09/2026.
+
+        Es el tope más caro del repositorio: cada carácter que entra es un disparador que no
+        entra, y `test_cada_modulo_de_rama_tiene_su_disparador` es lo que impide que el
+        recorte deje una rama apagada.
+        """
+        self.assertLessEqual(len(self.descripcion), 1024,
+                             "el description pasa el límite de la API de Skills: ahí no carga")
 
 
 if __name__ == "__main__":

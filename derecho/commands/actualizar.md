@@ -2,6 +2,7 @@
 name: actualizar
 description: Vuelve a bajar normas, fallos y series de índices de las fuentes oficiales. Mantenimiento de la capa offline de fuente primaria.
 argument-hint: "[normas|fallos|series]"
+allowed-tools: Bash(python3 ${CLAUDE_PLUGIN_ROOT}/fuentes/scripts/descargar_series.py:*), Bash(python3 ${CLAUDE_PLUGIN_ROOT}/fuentes/scripts/descargar_normas.py:*), Bash(python3 ${CLAUDE_PLUGIN_ROOT}/fuentes/scripts/descargar_jurisprudencia.py:*), Bash(true)
 ---
 
 # Actualizar la capa de fuente primaria
@@ -11,14 +12,14 @@ Argumento recibido: `$ARGUMENTS` (vacío = las tres cosas).
 Series de índices (IPC, RIPTE, CER) — es la que más rápido se desactualiza:
 
 ```!
-python3 ${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/fuentes/scripts/descargar_series.py 2>&1 | tail -20 || true
+python3 ${CLAUDE_PLUGIN_ROOT}/fuentes/scripts/descargar_series.py 2>&1 | tail -20 || true
 ```
 
 Normas y jurisprudencia faltantes (no re-baja lo que ya está, salvo `--forzar`):
 
 ```!
-python3 ${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/fuentes/scripts/descargar_normas.py 2>&1 | tail -30 || true
-python3 ${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/fuentes/scripts/descargar_jurisprudencia.py 2>&1 | tail -20 || true
+python3 ${CLAUDE_PLUGIN_ROOT}/fuentes/scripts/descargar_normas.py 2>&1 | tail -30 || true
+python3 ${CLAUDE_PLUGIN_ROOT}/fuentes/scripts/descargar_jurisprudencia.py 2>&1 | tail -20 || true
 ```
 
 ## Qué informar
@@ -29,7 +30,7 @@ python3 ${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/fuentes/scripts/descargar_ju
    artículos, detectan fichas de InfoLEG en vez del texto, detectan leyes aprobatorias sin su
    anexo—. Un REVISAR quiere decir que el archivo se bajó, pero **puede no ser el texto que
    corresponde**: hay que abrirlo antes de citarlo.
-3. **Si algo falló por red**, sugerí `python3 ${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/fuentes/scripts/diagnostico.py` antes de reintentar. No
+3. **Si algo falló por red**, sugerí `python3 ${CLAUDE_PLUGIN_ROOT}/fuentes/scripts/diagnostico.py` antes de reintentar. No
    reintentes la misma descarga más de una vez.
 
 **Lo que este comando no hace:** no cambia ningún módulo de `references/`. Bajar el texto
@@ -40,4 +41,4 @@ decilo y señalá qué módulo hay que revisar.
 (`datos/jus-scba.csv`) y la **UMA** de la justicia nacional (`datos/uma-csjn.csv`). Los dos
 salen de páginas oficiales que no son tablas descargables, así que se cargan a mano. Correr este
 comando **no los deja al día**, y decir lo contrario es el verde más caro que puede dar: los dos
-son unidades con las que se regula. `python3 ${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/skills/derecho-argentino/scripts/estado.py` dice cuál de los dos está vencido o sin cargar.
+son unidades con las que se regula. `python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/estado.py` dice cuál de los dos está vencido o sin cargar.

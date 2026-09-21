@@ -27,6 +27,85 @@ Lo que va en cada lugar:
 
 ---
 
+## 19/09/2026 - Diez hallazgos de una evaluación del plugin en runtime, verificados uno por uno
+
+La evaluación vino de afuera: otra corrida leyó el plugin instalado y reportó diez problemas.
+**Ninguno se tomó por bueno.** Cada uno se midió con un comando, y **tres no se sostienen como
+estaban dichos**: `verificar_respuesta.py` no aparece «una sola vez» sino seis —lo que sí es
+cierto es que ningún comando lo corre—; de las «tres cifras mal» en `/derecho:verificar` hay
+**una** —el `--help` no dice ninguna, y el «ciento cuarenta y siete» es un docstring que narra
+otra cosa—; y la corrección del conteo de `evals/README.md` **no se puede hacer**: es una de las
+cinco excepciones de capa 2 que declara `LICENCIAS.md`, y ahí no se corrige ni el contenido ni la
+ortografía. La discrepancia se nombra afuera, como cualquier otra de esa frontera.
+
+**Lo que sí estaba, y es lo que más costaba en uso real: la skill se negaba a regular en la
+justicia nacional teniendo el dato.** `uma_csjn.py --fecha 2026-09-01` devuelve el valor y la
+resolución que lo fijó, con la serie cargada desde el 01/10/2024 — y **cuatro** textos decían que
+`uma-csjn.csv` estaba vacío: el párrafo y el marcador enlatado de `/derecho:honorarios`, y dos
+lugares de `honorarios-nacional.md`, uno de ellos cinco renglones arriba de un marcador que ya
+decía lo correcto. **El marcador enlatado es lo peor de los cuatro**: afirmaba un estado falso de
+la propia base, y un marcador que miente sobre la base es peor que no emitirlo. El defecto tenía
+un día: la serie se cargó el 18/09 y la prosa quedó atrás.
+
+**De ahí el guardarraíl, porque la clase se repite:** decir que una serie está vacía es una
+afirmación sobre el disco, y vence sola cuando la serie se carga.
+`TestLoQueLaProsaAfirmaDeLaSerie` cruza `references/` y `commands/` contra los csv de
+`fuentes/datos/` y falla nombrando el archivo y las filas que tiene. No confunde la condicional
+—«si la serie está vacía el script se planta» describe al script, no al disco—, y ese límite lo
+ejercita un test propio.
+
+**`/derecho:estado` informaba verde sin haber medido.** El comando corre la suite con `tail -3`, y
+desde la copia instalada las seis suites se plantan a propósito —falta
+`.claude-plugin/marketplace.json`—. El motivo va en el **primer** renglón de la salida y el
+recorte se lo llevaba: lo único que quedaba a la vista era `OK (skipped=1)`. Comprobado copiando
+el plugin afuera del repo y corriéndolo. Es la alarma que no suena nunca, adentro del comando que
+existe para diagnosticar. Quedó en `tail -6`, con la instrucción de decir *no se midió*, y el test
+no fija el número: corre la suite como la corre el usuario instalado y exige que el motivo
+sobreviva al recorte que el comando escriba.
+
+**Y el censo de cifras estaba apagado justo donde envejeció la cifra.** `cifras.json` excluía
+`derecho/commands/` con el motivo *"describen qué hacer, no cuánto hay"*, y `/derecho:verificar`
+decía «son 55 normas» cuando las normas con URL del manifiesto ya eran varios cientos: la
+exclusión afirmaba algo sobre el contenido y era falso. Entrados los ocho comandos al alcance, el
+censo levantó **exactamente esa** cifra y ninguna otra. Es la misma forma que tuvo `references/`
+cuando entró tarde, y la regla es la de entonces: **una exclusión es una afirmación, y se mide
+como cualquier otra.**
+
+**Los cuatro frentes que abrió esta auditoría, cerrados el mismo día:**
+
+- **La clave de respuestas era legible para el agente evaluado.** `rubrica.md`, `graders/` y
+  `resultado.md` viven al lado del caso, en el repositorio contra el que corre. En las dos trazas
+  que sobrevivían no había ninguna lectura de `evals/`, pero **de la corrida del 18/09 no quedaba
+  ninguna de las seis**: el sandbox se borra y con él la prueba. `herramientas/traza_eval.py` lee
+  el `tracePath` de cada brazo, rompe si se abrió una rúbrica, un `graders/` o el propio caso,
+  avisa si se abrió el `resultado.md` de otro —que 23.8 declara— y **se planta con rc=2 cuando la
+  traza ya no está**: no hay verde por ausencia de instrumento.
+- **`modelos.md` 23.8 afirmaba que el contenido normativo de los evals estaba verificado.** No
+  puede estarlo: un `resultado.md` no tiene fila en `references/changelog-normativo.md` ni en
+  `docs/REVALIDAR.md`, así que ninguna reforma lo va a marcar. Quedó dicho lo que sí son —**la
+  forma**: qué se resuelve antes del fondo, qué marcador va en cada hueco— y que lo normativo sale
+  del módulo y de `fuentes/`. `DESARROLLO.md` decía además que *"ningún módulo rutea a `evals/`"*,
+  que era falso desde que 23.8 existe.
+- **La `description` pasó de 1.463 a 1.016 caracteres**, que es el tope de la API de Skills, no el
+  1.536 de la truncación de Claude Code. Cada carácter que salió es un disparador que salió, así
+  que el recorte se hizo contra el control que exige una activación por rama — y ese control
+  comparaba por **subcadena**: `ART` daba por activado a `laboral-riesgos.md` desde adentro de la
+  palabra «parte». Ahora compara por palabra completa, y fue lo que atrapó la rama de servicios
+  públicos que el recorte había dejado sin «luz».
+- **Las cinco licencias viajan adentro del paquete.** `plugin.json` declaraba `SEE LICENCIAS.md`
+  y el archivo se quedaba en la raíz del repositorio: el plugin distribuye capa 2 y quien lo
+  instala tiene que poder leer bajo qué términos. Son copias byte a byte y un test exige que no se
+  separen — lo comprobó el mismo día, cuando `cifras.py --sellar` reescribió la de la raíz y dejó
+  la copia atrás.
+
+**Lo que sigue abierto:** `evals/README.md` dice que **un** caso está migrado y son siete, y no se
+corrige porque es capa 2; el conteo de `verificar_respuesta.py` sigue sin comando propio ni paso de
+cierre en `escritos.md` 11 —se agregó sólo como paso del procedimiento de evals—; y la herramienta
+de la traza sólo puede medir **pegada** a la corrida, así que la disciplina de correrla es parte
+del procedimiento y no algo que el repositorio pueda comprobar solo.
+
+---
+
 ## 15/09/2026 - Seis normas citadas sin texto, y cómo se cierra ese frente
 
 Entrada trasladada: el registro estaba en el cuerpo de `references/changelog-normativo.md`, que la

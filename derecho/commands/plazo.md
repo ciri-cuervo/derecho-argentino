@@ -2,13 +2,13 @@
 name: plazo
 description: Cómputo de un plazo procesal o administrativo argentino, con ferias, feriados trasladables y plazo de gracia. En PBA verifica primero cuándo se perfeccionó la notificación.
 argument-hint: "[ej: 5 días hábiles desde el 10/09/2026, PBA]"
-allowed-tools: Read, Bash(python3 ${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/skills/derecho-argentino/scripts/plazos.py:*)
+allowed-tools: Read, Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/plazos.py:*)
 ---
 
 Consulta: `$ARGUMENTS`
 
-**Leé `${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/skills/derecho-argentino/references/plazos.md` antes de calcular.** Y si el plazo es bonaerense, leé también
-`${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/skills/derecho-argentino/references/notificaciones-pba.md` sección 22: **el error más caro acá no es la aritmética, es
+**Leé `${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/references/plazos.md` antes de calcular.** Y si el plazo es bonaerense, leé también
+`${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/references/notificaciones-pba.md` sección 22: **el error más caro acá no es la aritmética, es
 arrancar el cómputo el día equivocado.**
 
 ## Orden
@@ -28,7 +28,7 @@ antes de usarlos».
 3. **Corré el script:**
 
    ```sh
-   python3 ${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/skills/derecho-argentino/scripts/plazos.py --tipo {habiles|corridos|meses|anios} --desde AAAA-MM-DD \
+   python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/plazos.py --tipo {habiles|corridos|meses|anios} --desde AAAA-MM-DD \
      [--dias N | --cantidad N] [--fuero {nacional|pba}] [--traza]
    ```
 

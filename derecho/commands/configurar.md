@@ -2,7 +2,7 @@
 name: configurar
 description: Entrevista corta para guardar cómo trabajás - modo, jurisdicción y fueros - de modo que la skill ordene sus preguntas de apertura en vez de repetirlas enteras.
 argument-hint: "[lo que ya quieras adelantar]"
-allowed-tools: Read, Bash(python3 ${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/skills/derecho-argentino/scripts/perfil.py:*), Bash(python3 ${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/skills/derecho-argentino/scripts/configurar.py:*)
+allowed-tools: Read, Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/perfil.py:*), Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/configurar.py:*), Bash(true)
 ---
 
 Lo que el usuario adelantó: `$ARGUMENTS`
@@ -10,9 +10,9 @@ Lo que el usuario adelantó: `$ARGUMENTS`
 Perfil actual y catálogo de valores válidos:
 
 ```!
-python3 ${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/skills/derecho-argentino/scripts/perfil.py 2>&1 || true
+python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/perfil.py 2>&1 || true
 echo "----- OPCIONES -----"
-python3 ${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/skills/derecho-argentino/scripts/perfil.py --opciones 2>&1 || true
+python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/perfil.py --opciones 2>&1 || true
 ```
 
 ## Cómo llevar la entrevista

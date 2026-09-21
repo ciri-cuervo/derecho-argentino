@@ -96,7 +96,7 @@ def main():
             f"({ESCALA_MIN}% a {ESCALA_MAX}%).")
     if a.porcentaje < MEDIA_ESCALA:
         advertencias.append(
-            f"El porcentaje esta por debajo de la media de la escala ({MEDIA_ESCALA}%). "
+            f"El porcentaje está por debajo de la media de la escala ({MEDIA_ESCALA}%). "
             "El art. 16 manda partir de la media para el vencedor y permite disminuir "
             "fundadamente: la resolución debe expresar el fundamento.")
 

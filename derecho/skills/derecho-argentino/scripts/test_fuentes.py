@@ -54,6 +54,67 @@ class TestConteoDeSeries(unittest.TestCase):
                           if l.strip() and not l.lstrip().startswith("#")]
                 _, contadas = estado._ultima_fila_csv(ruta)
                 self.assertEqual(contadas, len(utiles) - 1)
+# Una serie declarada vacía: el nombre del csv y, después, la afirmación. Se cuenta sólo si
+# NO está subordinada a una condición — «si la serie está vacía el script se planta» describe
+# qué hace el script, no el estado del disco. Ese es el límite conocido de la medida y lo
+# ejercita `test_no_confunde_una_condicional_con_una_afirmacion`.
+VACIO = re.compile(r"(?P<archivo>[\w-]+\.csv)(?P<medio>[^.\n]{0,120}?)"
+                   r"est[áa] (?:vací[oa]|sin valores)")
+CONDICION = re.compile(r"(?:^|[\s(«—-])(?i:si|mientras|cuando|en cuanto|hasta que)\s")
+
+
+def _series_declaradas_vacias(texto: str) -> set:
+    vacias = set()
+    for m in VACIO.finditer(texto):
+        oracion = texto[max(0, texto.rfind(".", 0, m.start()) + 1):m.end()]
+        if not CONDICION.search(oracion):
+            vacias.add(m.group("archivo"))
+    return vacias
+
+
+class TestLoQueLaProsaAfirmaDeLaSerie(unittest.TestCase):
+    """Decir que una serie está vacía es una afirmación sobre el disco, y se vence sola: la
+    serie se carga y el texto se queda. Es peor que una cifra vieja, porque no informa de menos
+    sino que **niega el dato que hay**: con veintidós vigencias cargadas, `honorarios-nacional.md`
+    y `/derecho:honorarios` decían en cuatro lugares que `uma-csjn.csv` estaba vacío, el marcador
+    enlatado del comando lo afirmaba también, y la skill se negaba a regular en la justicia
+    nacional teniendo el valor a un comando de distancia. Un marcador que miente sobre la propia
+    base es peor que no emitirlo.
+
+    Mide los dos archivos que viajan en el plugin y que el runtime lee: `references/` y
+    `commands/`.
+
+    MUTACIÓN que lo comprueba: devolverle a cualquiera de esos textos «uma-csjn.csv está sin
+    valores» y este test falla nombrando el archivo y las filas que tiene.
+    """
+
+    def test_ninguna_prosa_declara_vacia_una_serie_cargada(self):
+        import estado
+        raiz = RAIZ_DEL_CHECKOUT
+        datos = raiz / "derecho" / "fuentes" / "datos"
+        carpetas = (raiz / "derecho" / "skills" / "derecho-argentino" / "references",
+                    raiz / "derecho" / "commands")
+        for carpeta in carpetas:
+            for md in sorted(carpeta.glob("*.md")):
+                for nombre in _series_declaradas_vacias(md.read_text(encoding="utf-8")):
+                    serie = datos / nombre
+                    if not serie.is_file():
+                        continue
+                    with self.subTest(f"{md.name} -> {nombre}"):
+                        _, filas = estado._ultima_fila_csv(serie)
+                        self.assertEqual(filas, 0,
+                                         f"{md.name} dice que {nombre} está vacío y tiene "
+                                         f"{filas} filas cargadas")
+
+    def test_no_confunde_una_condicional_con_una_afirmacion(self):
+        """El caso conocido que la medida no puede errar: el texto que describe qué hace el
+        script cuando la serie está vacía no afirma que lo esté."""
+        self.assertEqual(_series_declaradas_vacias(
+            "Si la serie de uma-csjn.csv está vacía el script se planta."), set())
+        self.assertEqual(_series_declaradas_vacias(
+            "El archivo uma-csjn.csv está sin valores."), {"uma-csjn.csv"})
+
+
 class TestManifiestoDeFuentes(unittest.TestCase):
     """`fuentes/MANIFIESTO.md` afirma cuánto hay cargado, y viaja dentro del plugin.
 
