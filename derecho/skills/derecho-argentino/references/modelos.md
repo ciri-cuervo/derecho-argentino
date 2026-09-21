@@ -167,15 +167,22 @@ Más un acápite suelto: `kb/escritos/transito/descargos/modelo-acapite-prescrip
 Distintos de los modelos: son casos resueltos completos, con el razonamiento a la vista. Sirven
 para calibrar el nivel de detalle y el uso de marcadores, no para copiar.
 
-**Los de referencia son los de `derecho/evals/`**, que están en el repo propio, tienen caso,
-rúbrica y resultado esperado, y su contenido normativo sí fue verificado. El `resultado.md` de
-cada uno es el ejemplo de hasta dónde llega un análisis correcto: qué se resuelve antes del
-fondo, qué marcador va en cada hueco y qué hace fallar el caso.
+**Los de referencia son los `resultado.md` de `derecho/evals/`**, y sirven para la FORMA: qué se
+resuelve antes del fondo, qué marcador va en cada hueco, hasta dónde llega el detalle y qué hace
+fallar el caso.
+
+**Para el contenido no mandan, y la razón es de mecanismo:** un `resultado.md` se escribió contra
+el derecho de su fecha y **no tiene fila** en `references/changelog-normativo.md`, así que **no
+puede vencer** — ninguna reforma lo va a marcar. Lo normativo
+sale del módulo de la materia y de `fuentes/`, como siempre; del eval sale la forma.
+
+**Y no se abre la `rubrica.md` ni los `graders/` de ningún caso.** Eso es el criterio con que se
+puntúa una respuesta, no material de consulta: leerlos mientras se trabaja convierte la medición
+en una lectura, y el repositorio lo controla sobre la traza de cada corrida.
 
 Hay siete casos más en `kb/ejemplos/` —laboral, civil, familia, previsional, penal, societario y
 discapacidad—, de los cuales los dos primeros están además como docs del Project. Se usan con la
-advertencia de siempre: consolidados **sin auditoría**, y todo lo normativo que citen se
-verifica antes de apoyarse en ello. Si el eval de la materia existe, mandan los evals.
+misma regla, y con la advertencia de siempre: consolidados **sin auditoría**.
 
 ### 23.9 Qué no hay
 

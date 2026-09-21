@@ -66,10 +66,14 @@ su valor a las cámaras.
 > «UMA» de todos modos y nada en él delata el error. Antes de convertir, resolver qué justicia
 > interviene — 37.9 de este módulo y la puerta de `/derecho:honorarios`.
 
-**El archivo existe y está vacío:** `fuentes/datos/uma-csjn.csv`. El texto de la ley está
-bajado; los **valores** se cargan a mano desde la consulta oficial, porque esa consulta es un
-formulario y no una tabla y por eso no hay descargador. Mientras esté vacío, este módulo explica
-el régimen y **no entrega números** — y `uma_csjn.py` se planta en vez de devolver uno.
+**Los valores están cargados:** `fuentes/datos/uma-csjn.csv` trae las vigencias desde el
+01/10/2024, leídas de las resoluciones de la SGA. Se cargan **a mano** porque la consulta
+oficial es un formulario y no una tabla, y por eso no hay descargador: la serie avanza cuando
+alguien la carga, y `/derecho:estado` avisa cuando se quedó atrás. `uma_csjn.py --fecha` devuelve
+el valor **y la resolución que lo fijó**; para una fecha anterior al arranque de la serie no
+extrapola hacia atrás: emite `[CONFIGURACIÓN INCOMPLETA: ...]` y el valor se pide o se marca.
+Hacia adelante aplica la última vigencia cargada, que es como rige una UMA: hasta que otra
+resolución la cambie.
 
 `[VERIFICAR MONTO ACTUALIZADO: valor de la UMA - lo publica la CSJN por resolución de su Secretaría General de Administración, art. 19 Ley 27.423, y se consulta en csjn.gov.ar/transparencia/uma. El archivo fuentes/datos/uma-csjn.csv trae las vigencias desde el 01/10/2024, leídas de las resoluciones de la SGA: el valor sale de correr scripts/uma_csjn.py --fecha, nunca de memoria. Para una fecha anterior a esa, el script se planta y el valor se pide o se marca]`
 
@@ -169,9 +173,9 @@ gastos.
 
 - **No regula.** No trae escala aplicada ni etapas calculadas: eso se hace leyendo los arts. 21
   y 29 de acá. La calculadora determinista de honorarios existe sólo para PBA.
-- **Y hoy tampoco convierte**, porque la serie está vacía. La cuenta del art. 51 —pesos a UMA a
-  una fecha, y UMA a pesos a la del pago— la hace `scripts/uma_csjn.py` en cuanto haya valores
-  cargados; sin ellos se planta con `[CONFIGURACIÓN INCOMPLETA]` y dice dónde buscarlos.
+- **Convertir sí convierte**: la cuenta del art. 51 —pesos a UMA a una fecha, y UMA a pesos a la
+  del pago— la hace `scripts/uma_csjn.py` con la serie cargada. Fuera del tramo cargado se planta
+  con `[CONFIGURACIÓN INCOMPLETA]` y dice dónde buscar el valor.
 - **No resuelve la aplicación temporal** a procesos iniciados bajo la Ley 21.839: el art. 64 está
   observado y eso va con marcador.
 - **No cubre las leyes arancelarias provinciales** salvo la de PBA, que está en

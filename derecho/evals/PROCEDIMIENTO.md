@@ -61,6 +61,19 @@ Reclama tres cosas que a ojo pasan por buenas: el marcador inventado, el que exi
 escrito distinto —sin tilde, en minúscula, con un espacio de más— y el que la propia tabla de
 `marcadores.md` declara como "no usar". Sale con código 1 si encuentra alguno.
 
+**Y lo otro que se mide sin leer es si el puntaje vale.** Corrido el eval con `claude plugin
+eval`, y antes de mirar el puntaje:
+
+```sh
+python3 herramientas/traza_eval.py
+```
+
+La rúbrica, los `graders/` y el `resultado.md` esperado viven **al lado del caso**, en el
+repositorio contra el que corre el agente evaluado. Si los abrió, lo que se midió es la lectura.
+La traza vive en el sandbox de la corrida y se borra con él, así que esto va **pegado** al eval:
+después, la herramienta se planta y dice que no se midió, que es lo único honesto que se puede
+decir a esa altura.
+
 Los demás obligatorios se leen. Que no sean automáticos no los hace opinables: cada uno se
 contesta mirando la traza, con sí o con no.
 

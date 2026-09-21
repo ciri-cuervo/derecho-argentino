@@ -13,8 +13,8 @@
     // ANCHO DE LÍNEA. Apagada, y no con el tope alto: con 120 y las tablas y el código afuera
     // seguía dando 273 avisos, y una regla que avisa siempre es una regla que nadie mira. Los
     // 273 son de tres clases y ninguna es un defecto: una ruta larga entre backticks --
-    // `${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/skills/...`, que no se puede partir--, los
-    // párrafos sin envolver de `danos-indice-doctrinario.md` -- hasta 537 caracteres, 130 de
+    // `${CLAUDE_PLUGIN_ROOT}/skills/...`, que no se puede partir--, los párrafos sin
+    // envolver de `danos-indice-doctrinario.md` -- hasta 537 caracteres, 130 de
     // los 273 --, y prosa que pasó el margen por unas pocas letras. El ancho de línea es
     // exactamente lo que `test_markdown.py` declara que NO mide: «no opina de estilo».
     "MD013": false,

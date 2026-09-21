@@ -32,6 +32,7 @@ SECURITY.md                         # qué reportar, por dónde, y qué NO subir
 derecho/                          # el plugin
   .claude-plugin/plugin.json        # manifiesto de Claude
   plugin.json                       # manifiesto portable, el que lee Codex
+  LICENCIAS.md + los cuatro textos  # copia byte a byte de la raíz: la licencia viaja con el paquete
   commands/                         # ocho comandos slash
   skills/derecho-argentino/
     SKILL.md                        # núcleo: apertura, integridad, marcadores, ruteo

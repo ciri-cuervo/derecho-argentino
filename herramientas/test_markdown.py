@@ -98,6 +98,35 @@ class TestAmbito(unittest.TestCase):
             self.assertNotIn("derecho/kb/", p.as_posix())
 
 
+class TestInstalacionAMano(unittest.TestCase):
+    """Las instrucciones de copiar la skill a mano nombran una carpeta que existe.
+
+    Es el camino de Codex, donde no hay marketplace que resuelva nada: quien instala copia la
+    línea y la pega. Una carpeta renombrada la deja apuntando al vacío, y el error aparece en la
+    terminal de otro. Las dos líneas —`cp` y `Copy-Item`— se escriben por separado y con
+    separadores distintos, así que se desincronizan sin que se note al leerlas.
+
+    MUTACIÓN que lo comprueba: cambiar `derecho` por `argentina` en cualquiera de las dos líneas
+    de `docs/TERMINAL.md` deja este test en rojo.
+    """
+
+    #: El operando de origen de una copia, contado desde el nombre con el que se clona el repo.
+    COPIA = re.compile(r"^(?:cp -R|Copy-Item -Recurse) +derecho-argentino[/\\](\S+)", re.M)
+
+    def test_toda_ruta_que_se_copia_existe_en_el_repo(self):
+        vistas = 0
+        for p in ARCHIVOS:
+            for m in self.COPIA.finditer(p.read_text(encoding="utf-8")):
+                vistas += 1
+                relativa = m.group(1).replace("\\", "/")
+                with self.subTest(f"{p.relative_to(RAIZ)}: {relativa}"):
+                    self.assertTrue((RAIZ / relativa).exists(),
+                                    f"{p.relative_to(RAIZ)} manda a copiar `{relativa}`, "
+                                    f"que no existe en el repositorio")
+        self.assertGreaterEqual(vistas, 2, "no se encontró ninguna instrucción de copia: "
+                                           "las dos plataformas llevan una")
+
+
 class TestAncla(unittest.TestCase):
     """`ancla()` tiene que reproducir a GitHub, y GitHub tiene tres rarezas.
 

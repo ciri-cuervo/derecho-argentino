@@ -9,7 +9,7 @@
 # Derecho argentino · skill para agentes de IA
 
 <p align="center">
-  <a href="CHANGELOG.md"><img src="assets/marca/chapa-version.png" width="106" height="32" alt="Versión 1.3.0"></a>
+  <a href="CHANGELOG.md"><img src="assets/marca/chapa-version.png" width="105" height="32" alt="Versión 1.3.1"></a>
   <a href="LICENCIAS.md"><img src="assets/marca/chapa-licencia.png" width="168" height="32" alt="Licencias: contenido CC BY-SA 4.0, código MIT"></a>
   <img src="assets/marca/chapa-python.png" width="135" height="32" alt="Requiere Python 3">
   <img src="assets/marca/chapa-agentes.png" width="172" height="32" alt="Corre en Claude y Codex (ChatGPT)">

@@ -47,7 +47,7 @@ cp -R derecho-argentino/derecho/skills/derecho-argentino ~/.agents/skills/
 ```powershell
 git clone https://github.com/ciri-cuervo/derecho-argentino.git
 New-Item -ItemType Directory -Force -Path $HOME\.agents\skills
-Copy-Item -Recurse derecho-argentino\argentina\skills\derecho-argentino $HOME\.agents\skills\
+Copy-Item -Recurse derecho-argentino\derecho\skills\derecho-argentino $HOME\.agents\skills\
 ```
 
 **No borres la carpeta clonada.** Acá se copia la skill sola, y las normas, los fallos y las

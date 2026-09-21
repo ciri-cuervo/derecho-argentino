@@ -114,9 +114,22 @@ class TestRaizDelRepo(unittest.TestCase):
             self.assertTrue(destino.exists(), "el hallazgo no quedo fijado")
             self.assertEqual(json.loads(destino.read_text())["repo"], str(repo))
 
+    #: Cómo el README de `scripts/` nombra las variables del tercer paso del orden de resolución.
+    NOMBRA_VARIABLE = re.compile(r"`([A-Z]+_PLUGIN_ROOT)`")
+
     def test_plugin_root_resuelve_el_repo(self):
-        """Instalada como plugin, la skill no vive en ~/develop: Claude Code define
-        CLAUDE_PLUGIN_ROOT y esa es la respuesta autoritativa, antes que la adivinanza."""
+        """Instalada como plugin, la skill no vive en ~/develop: el agente define la raíz en
+        una variable de entorno y esa es la respuesta autoritativa, antes que la adivinanza.
+
+        **Va por las tres de `ENV_PLUGIN`, no por la de Claude Code sola.** El nombre es lo
+        único que cambia entre un agente y otro, y una sola de las tres ejercitada deja a las
+        demás sin medida: el bucle podría quedar leyendo una y el test no se enteraría.
+
+        MUTACIÓN que lo comprueba: dejar `ENV_PLUGIN = ("CLAUDE_PLUGIN_ROOT",)` en `_raiz.py`
+        deja en rojo a `test_el_orden_nombra_las_variables_que_el_README_declara`, que es el
+        que sostiene el alcance de este; recortar el bucle de acá a una variable, sin tocar
+        `ENV_PLUGIN`, no lo notaría ninguno de los dos por separado.
+        """
         repo, _ = _raiz.raiz_repo()
         with tempfile.TemporaryDirectory() as d:
             entorno = {k: v for k, v in os.environ.items() if k != "DERECHO_AR_REPO"}
@@ -124,16 +137,41 @@ class TestRaizDelRepo(unittest.TestCase):
             guion = (
                 "import sys, _raiz; print(_raiz.raiz_repo()[0]); print(_raiz.raiz_repo()[1])"
             )
-            for raiz_plugin in (repo, pathlib.Path(repo) / "derecho"):
-                with self.subTest(raiz=str(raiz_plugin)):
-                    e = dict(entorno, CLAUDE_PLUGIN_ROOT=str(raiz_plugin))
-                    r = subprocess.run(
-                        [sys.executable, "-c", guion], capture_output=True, text=True,
-                        env=e, cwd=str(pathlib.Path(__file__).parent))
-                    self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
-                    lineas = r.stdout.strip().splitlines()
-                    self.assertEqual(lineas[0], str(repo))
-                    self.assertIn("CLAUDE_PLUGIN_ROOT", lineas[1])
+            for variable in _raiz.ENV_PLUGIN:
+                for raiz_plugin in (repo, pathlib.Path(repo) / "derecho"):
+                    with self.subTest(variable=variable, raiz=str(raiz_plugin)):
+                        e = dict(entorno)
+                        e.pop("CLAUDE_PLUGIN_ROOT", None)
+                        e[variable] = str(raiz_plugin)
+                        r = subprocess.run(
+                            [sys.executable, "-c", guion], capture_output=True, text=True,
+                            env=e, cwd=str(pathlib.Path(__file__).parent))
+                        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+                        lineas = r.stdout.strip().splitlines()
+                        self.assertEqual(lineas[0], str(repo))
+                        self.assertIn(variable, lineas[1])
+
+    def test_el_orden_nombra_las_variables_que_el_README_declara(self):
+        """`ENV_PLUGIN` trae todas las variables que el README de `scripts/` promete leer.
+
+        Sostiene el alcance del test de arriba, que recorre la tupla: sin esto, sacarle un
+        agente a `ENV_PLUGIN` no pondría nada en rojo —el bucle se limitaría a probar uno
+        menos—, y la skill dejaría de resolverse en ese agente con la suite entera en verde.
+        Es la alarma que no suena nunca, y acá el agente que se pierde es el que no usamos
+        para desarrollar: los comandos `/derecho:` son de Claude Code y Codex entra por la
+        skill, así que un Codex roto no se ve corriendo los tests desde Claude Code.
+
+        MUTACIÓN que lo comprueba: dejar `ENV_PLUGIN = ("CLAUDE_PLUGIN_ROOT",)` en `_raiz.py`
+        deja este test en rojo nombrando `CODEX_PLUGIN_ROOT` y `AGENT_PLUGIN_ROOT`.
+        """
+        readme = (pathlib.Path(__file__).parent / "README.md").read_text(encoding="utf-8")
+        parrafo = readme.split("## Ninguna ruta hardcodeada", 1)
+        self.assertEqual(len(parrafo), 2, "el README dejó de traer el orden de resolución")
+        declaradas = set(self.NOMBRA_VARIABLE.findall(parrafo[1].split("\n##", 1)[0]))
+        self.assertTrue(declaradas, "el README dejó de nombrar las variables de plugin")
+        faltan = declaradas - set(_raiz.ENV_PLUGIN)
+        self.assertFalse(faltan, f"el README promete leer {sorted(faltan)} y `ENV_PLUGIN` no "
+                                 f"las trae: en ese agente la skill no encuentra el repo")
 
     def test_el_plugin_instalado_por_el_marketplace_resuelve_solo(self):
         """El caso real de instalación, que el test de arriba no cubre: el marketplace
@@ -800,23 +838,132 @@ class TestLosDosAgentesLeenLoMismo(unittest.TestCase):
                                 f"instrucción: falta en `claudeMdExcludes`")
         self.assertGreater(len(encontrados), 0,
                            "no se encontró ningún CLAUDE.md en kb/: el control quedó vacío")
+class TestLasLicenciasViajanConElPlugin(unittest.TestCase):
+    """`plugin.json` declara `license: SEE LICENCIAS.md`, y lo que se instala es `derecho/`: si
+    el archivo se queda en la raíz del repo, el paquete declara una licencia que no trae. No es
+    una formalidad acá — el plugin **distribuye capa 2**, material de otro autor con uso
+    comercial sujeto a autorización previa, y quien lo instala tiene que poder leer bajo qué
+    términos. `LICENCIAS.md` nombra además los cuatro textos completos, así que viajan los cinco.
+
+    Son copias byte a byte y la fuente de verdad es la raíz: `cifras.json` censa la de la raíz y
+    excluye la copia, y este test es lo que impide que se separen.
+
+    MUTACIÓN que lo comprueba: borrar una copia, o cambiarle un byte, y este test falla nombrando
+    el archivo.
+    """
+
+    LICENCIAS = ("LICENCIAS.md", "LICENSE", "LICENSE-ABOITIZ.md",
+                 "LICENSE-CC-BY-SA-4.0.md", "LICENSE-MIT")
+
+    def test_cada_licencia_de_la_raiz_esta_adentro_del_plugin(self):
+        raiz = RAIZ_DEL_CHECKOUT
+        for nombre in self.LICENCIAS:
+            with self.subTest(nombre):
+                original = (raiz / nombre).read_bytes()
+                copia = raiz / "derecho" / nombre
+                self.assertTrue(copia.is_file(),
+                                f"{nombre} no viaja adentro del plugin: se instala derecho/")
+                # Se comparan los bytes y se informa con `assertTrue`: un `assertEqual` sobre
+                # dieciocho kilobytes escupe el archivo entero en la falla.
+                self.assertTrue(copia.read_bytes() == original,
+                                f"la copia de {nombre} se separó de la de la raíz")
+
+    def test_el_manifiesto_nombra_un_archivo_que_el_paquete_trae(self):
+        raiz = RAIZ_DEL_CHECKOUT
+        for manifiesto in ("derecho/.claude-plugin/plugin.json", "derecho/plugin.json"):
+            licencia = json.loads((raiz / manifiesto).read_text(encoding="utf-8"))["license"]
+            with self.subTest(manifiesto):
+                nombrado = licencia.removeprefix("SEE ").strip()
+                self.assertTrue((raiz / "derecho" / nombrado).is_file(),
+                                f"{manifiesto} declara `{licencia}` y el paquete no lo trae")
+
+
+class TestElBloqueDeTestsDeEstado(unittest.TestCase):
+    """`/derecho:estado` corre la suite y recorta la salida, y el recorte decide qué se lee.
+
+    Desde la copia instalada las seis suites se plantan a propósito —falta
+    `.claude-plugin/marketplace.json`, ver `load_tests` en `_comun_tests.py`— y el motivo va en
+    el PRIMER renglón de la salida, no en el último. Un recorte corto se lo lleva y deja a la
+    vista `OK (skipped=1)`, que se lee como verde; el comando además instruye a mirar las
+    fallas, así que nadie queda buscando el skip. Es la alarma que no suena nunca, adentro del
+    comando que existe para diagnosticar.
+
+    Por eso el test no fija el número de renglones: corre la suite como la corre el usuario
+    instalado y exige que el motivo sobreviva al recorte que el comando escribe hoy.
+
+    MUTACIÓN que lo comprueba: devolverle a `estado.md` el `tail -3` y este test falla.
+    """
+
+    COMANDO = Path(__file__).resolve().parents[3] / "commands" / "estado.md"
+    RECORTE = re.compile(r"test_scripts\.py 2>&1 \| tail -(\d+)")
+
+    def _recorte_del_comando(self) -> int:
+        m = self.RECORTE.search(self.COMANDO.read_text(encoding="utf-8"))
+        self.assertIsNotNone(m, "el comando ya no recorta con `tail`: este test mide otra cosa")
+        return int(m.group(1))
+
+    def _salida_desde_una_copia_instalada(self) -> list:
+        """La copia instalada, simulada por la ruta: `parents[4]` sin el manifiesto del
+        marketplace es exactamente lo que ve el plugin instalado."""
+        d = Path(tempfile.mkdtemp())
+        self.addCleanup(shutil.rmtree, d, True)
+        destino = d / "derecho" / "skills" / "derecho-argentino" / "scripts"
+        destino.mkdir(parents=True)
+        for py in Path(__file__).resolve().parent.glob("*.py"):
+            shutil.copy2(py, destino)
+        hecho = subprocess.run([sys.executable, str(destino / "test_scripts.py")],
+                               capture_output=True, text=True)
+        return (hecho.stdout + hecho.stderr).splitlines()
+
+    def test_el_recorte_conserva_el_motivo_del_skip(self):
+        salida = self._salida_desde_una_copia_instalada()
+        self.assertIn("skipped", salida[-1],
+                      "desde la copia instalada la suite tiene que plantarse, no medir")
+        visible = "\n".join(salida[-self._recorte_del_comando():])
+        self.assertIn("marketplace.json", visible,
+                      "el recorte del comando se lleva el motivo del skip: lo único que queda "
+                      "a la vista es OK, y se lee como verde")
+
+    def test_el_comando_dice_que_un_skip_no_es_verde(self):
+        cuerpo = self.COMANDO.read_text(encoding="utf-8")
+        self.assertIn("skipped", cuerpo,
+                      "el comando instruye qué informar y no nombra el caso del skip")
+
+
 class TestRaizEnLosComandos(unittest.TestCase):
-    """El `allowed-tools` de un comando tiene que nombrar la ruta igual que el cuerpo la invoca.
+    """Un comando nombra la raíz del plugin con una expresión que el agente sepa sustituir.
 
-    Claude Code expande `${CLAUDE_PLUGIN_ROOT}` adentro del `allowed-tools`, pero el permiso se
-    matchea contra el TEXTO LITERAL del comando, antes de que el shell expanda nada. Entonces un
-    patrón que quedó como ruta absoluta no matchea un comando que arranca con
-    `${CODEX_PLUGIN_ROOT:-...}`: el permiso no aplica y la calculadora pide aprobación en cada
-    corrida. No falla ruidosamente —el comando igual corre si el usuario acepta—, así que sin
-    este test la desalineación no la ve nadie.
+    Claude Code reemplaza un juego fijo de `${...}` —`CLAUDE_PLUGIN_ROOT` entre ellas— tanto en
+    el cuerpo del comando como en las reglas `Bash(...)` del `allowed-tools`. Lo que queda afuera
+    de ese juego sobrevive en el texto, y rompe distinto según dónde haya quedado:
 
-    Se exige además que la expresión sea UNA sola en todo el repo y que nombre a los dos
-    agentes: el plugin corre en Claude Code y en Codex, y elegir uno acá recorta por agente.
+    - En un bloque `` ```! ``, que se ejecuta antes de que el comando llegue al modelo, el
+      chequeo de permisos **aborta la invocación** con `Contains expansion`: no decide sobre un
+      comando que todavía no dice qué va a ejecutar. El comando no arranca.
+    - En una regla del `allowed-tools`, la regla conserva la expansión y **no matchea** la ruta
+      que el modelo termina escribiendo, así que la pre-aprobación no se aplica y cada llamada
+      pide permiso.
+
+    Lo segundo no falla ruidosamente, y cotejar el patrón contra el cuerpo tampoco lo ve: si los
+    dos llevan la misma expresión sin sustituir, coinciden.
+
+    **Los comandos son de Claude Code** —en Codex la puerta es la skill y se pide en castellano—,
+    así que acá va `${CLAUDE_PLUGIN_ROOT}` sola. `_raiz.py` sí consulta `CODEX_PLUGIN_ROOT`: ahí
+    es una variable de entorno que lee un proceso, no texto que un chequeo de permisos tenga que
+    resolver antes de correr nada.
+
+    MUTACIÓN que lo comprueba: reponer `${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}` en
+    cualquiera de los comandos deja `test_ninguna_expresion_sobrevive_a_la_sustitucion` en rojo.
     """
 
     COMANDOS = Path(__file__).resolve().parents[3] / "commands"
-    # `${VAR}` o `${VAR:-${VAR2}}`, siempre seguido de la barra de la ruta.
+    # `${VAR}` o `${VAR:-${VAR2}}`, siempre seguido de la barra de la ruta. La segunda forma ya
+    # no se usa y el regex la sigue reconociendo a propósito: si vuelve, el test la compara.
     EXPRESION = re.compile(r"\$\{[A-Z_]+(?::-\$\{[A-Z_]+\})?\}(?=/)")
+    #: Lo que Claude Code sustituye, en el cuerpo del comando y en las reglas del `allowed-tools`.
+    SUSTITUIDAS = frozenset({"CLAUDE_PLUGIN_ROOT", "CLAUDE_PLUGIN_DATA", "CLAUDE_SKILL_DIR",
+                             "CLAUDE_PROJECT_DIR", "CLAUDE_SESSION_ID", "CLAUDE_EFFORT"})
+    LLAVES = re.compile(r"\$\{([^}]*)\}")
     # Hasta el `.py`: la expresión de raíz lleva `:` adentro y cortar ahí la parte al medio.
     PATRON = re.compile(r"Bash\(python3 (\S+\.py)")
 
@@ -829,6 +976,11 @@ class TestRaizEnLosComandos(unittest.TestCase):
         self.assertTrue(texto.startswith("---"), "el comando no abre con frontmatter")
         _, frente, cuerpo = texto.split("---", 2)
         return frente, cuerpo
+
+    @staticmethod
+    def _inyectado(cuerpo: str) -> str:
+        """Lo que corre el shell antes de que el comando llegue al modelo: los bloques ```!"""
+        return "\n".join(re.findall(r"^```!\n(.*?)^```", cuerpo, re.M | re.S))
 
     def test_el_patron_de_permiso_dice_la_misma_ruta_que_el_cuerpo(self):
         revisados = 0
@@ -859,7 +1011,23 @@ class TestRaizEnLosComandos(unittest.TestCase):
         self.assertGreaterEqual(revisados, 4,
                                 "ningún comando declara allowed-tools: el test quedó mirando nada")
 
-    def test_la_expresion_de_raiz_es_una_sola_y_nombra_a_los_dos_agentes(self):
+    def test_ninguna_expresion_sobrevive_a_la_sustitucion(self):
+        vistas = 0
+        for archivo in self.archivos:
+            renglones = archivo.read_text(encoding="utf-8").splitlines()
+            for numero, renglon in enumerate(renglones, 1):
+                for adentro in self.LLAVES.findall(renglon):
+                    vistas += 1
+                    with self.subTest(f"{archivo.name}:{numero}"):
+                        self.assertIn(
+                            adentro, self.SUSTITUIDAS,
+                            f"{archivo.name}:{numero} deja `${{{adentro}}}` sin sustituir. En un "
+                            f"bloque `!` la invocación aborta con «Contains expansion»; en el "
+                            f"allowed-tools, la regla no matchea y no pre-aprueba nada.")
+        self.assertGreaterEqual(vistas, 20,
+                                "los comandos dejaron de nombrar la raíz: el test mira nada")
+
+    def test_la_expresion_de_raiz_es_una_sola(self):
         usadas: dict[str, list[str]] = {}
         for archivo in self.archivos:
             for expresion in self.EXPRESION.findall(archivo.read_text(encoding="utf-8")):
@@ -868,11 +1036,6 @@ class TestRaizEnLosComandos(unittest.TestCase):
         self.assertEqual(len(usadas), 1,
                          "los comandos usan más de una expresión de raíz: "
                          + "; ".join(f"{e} en {sorted(set(a))}" for e, a in sorted(usadas.items())))
-        expresion = next(iter(usadas))
-        for variable in ("CLAUDE_PLUGIN_ROOT", "CODEX_PLUGIN_ROOT"):
-            self.assertIn(variable, expresion,
-                          f"la raíz de los comandos no nombra {variable}: {expresion}. "
-                          f"El plugin corre en los dos agentes.")
 
     def test_todo_script_que_un_patron_pre_aprueba_existe(self):
         nombrados = 0
@@ -888,6 +1051,32 @@ class TestRaizEnLosComandos(unittest.TestCase):
                     self.assertTrue((self.COMANDOS.parent / relativa).exists(),
                                     f"{archivo.name} pre-aprueba un script que no existe: {relativa}")
         self.assertGreaterEqual(nombrados, 5, "los patrones dejaron de nombrar scripts")
+
+    def test_todo_script_de_un_bloque_inyectado_esta_pre_aprobado(self):
+        """Un bloque `` ```! `` corre ANTES de que el comando llegue al modelo, y ahí un permiso
+        que no resuelve en «allow» no abre un prompt: aborta la invocación. El comando no arranca.
+
+        MUTACIÓN que lo comprueba: sacarle la línea `allowed-tools` a `derecho/commands/estado.md`
+        deja este test en rojo nombrando los dos scripts de sus bloques.
+        """
+        con_bloque = 0
+        for archivo in self.archivos:
+            frente, cuerpo = self._partes(archivo.read_text(encoding="utf-8"))
+            corridos = set(re.findall(r"python3 (\S+\.py)", self._inyectado(cuerpo)))
+            if not corridos:
+                continue
+            con_bloque += 1
+            declarado = re.search(r"^allowed-tools:(.*)$", frente, re.M)
+            with self.subTest(archivo.name):
+                self.assertIsNotNone(
+                    declarado, f"{archivo.name} corre {sorted(corridos)} en un bloque `!` y no "
+                               f"declara allowed-tools: la invocación aborta antes de arrancar")
+                faltan = corridos - set(self.PATRON.findall(declarado.group(1)))
+                self.assertFalse(faltan, f"{archivo.name}: el bloque `!` corre {sorted(faltan)} "
+                                         f"y el allowed-tools no lo pre-aprueba")
+        self.assertGreaterEqual(con_bloque, 4,
+                                "ningún comando trae bloque inyectado: el test quedó mirando nada")
+
 class TestElDescriptionDeHonorariosNombraLosDosAranceles(unittest.TestCase):
     """Un pin sobre `honorarios`, NO un control de la clase: los otros comandos no lo tienen.
 
@@ -985,6 +1174,40 @@ class TestManifiestoDeCodex(unittest.TestCase):
                 self.assertNotIn("..", ruta, f"`{campo}` sale de la raíz del plugin")
                 self.assertTrue((self.RAIZ / ruta[2:]).exists(),
                                 f"`{campo}` apunta a {ruta}, que no existe bajo {self.RAIZ.name}/")
+
+    def test_a_codex_no_le_llega_ninguna_expresion_sin_sustituir(self):
+        """Codex no sustituye `${...}`: lo que le llegue con esa forma lo lee literal.
+
+        `${CLAUDE_PLUGIN_ROOT}` lo reemplaza Claude Code antes de que el comando llegue al
+        modelo. Codex no tiene ese paso, así que una expresión en la prosa que él sí lee
+        sería una ruta inexistente escrita en una instrucción, y el modelo la copiaría tal
+        cual a un `python3` que no encuentra nada. La expresión vive sólo en `commands/`, y
+        que `commands/` no le llegue son dos hechos, que se miden acá por separado:
+
+        - **El manifiesto expone `skills/` y ninguna otra carpeta.** Es por donde entraría si
+          el plugin se instalara entero; `commands/` es una convención de Claude Code y el
+          esquema de agent-plugins.org no la tiene.
+        - **La prosa que viaja no trae la forma.** Es la mitad que cubre el otro camino, el
+          de `docs/TERMINAL.md`: ahí se copia `skills/derecho-argentino` a mano, sin
+          manifiesto que filtre nada.
+
+        MUTACIÓN que lo comprueba: agregarle `"commands": "./commands/"` a
+        `derecho/plugin.json`, o escribir `${CLAUDE_PLUGIN_ROOT}/x` en cualquier `.md` de
+        `skills/`, deja este test en rojo por el renglón que corresponda.
+        """
+        expone = {k: v for k, v in self.datos.items()
+                  if isinstance(v, str) and v.startswith("./") and v.endswith("/")}
+        self.assertEqual(set(expone.values()), {"./skills/"},
+                         f"el manifiesto de Codex expone {sorted(expone.items())}: fuera de "
+                         f"`skills/` están los comandos, que llevan `${{CLAUDE_PLUGIN_ROOT}}` "
+                         f"y que Codex no sabría sustituir")
+        prosa = sorted((self.RAIZ / "skills").rglob("*.md"))
+        self.assertGreater(len(prosa), 50, "no se encontró la prosa de la skill: el test mira nada")
+        for archivo in prosa:
+            for numero, renglon in enumerate(archivo.read_text(encoding="utf-8").splitlines(), 1):
+                if "${" in renglon:
+                    self.fail(f"{archivo.relative_to(self.RAIZ)}:{numero} trae una expresión "
+                              f"`${{...}}` y viaja a Codex, que la lee literal")
 
     def test_los_iconos_del_plugin_son_identicos_a_los_de_la_marca(self):
         # El generador de la marca no escribe estas copias y `test_marca.py` no sabe que existen:

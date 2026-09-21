@@ -2,12 +2,12 @@
 name: honorarios
 description: Regulación de honorarios y aportes. Pregunta la jurisdicción antes de calcular: en PBA, Ley 14.967 y el jus de la serie; en la nacional y federal, la Ley 27.423 sin dar número.
 argument-hint: "[monto del proceso, porcentaje]"
-allowed-tools: Read, Bash(python3 ${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/skills/derecho-argentino/scripts/honorarios_pba.py:*), Bash(python3 ${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/skills/derecho-argentino/scripts/uma_csjn.py:*)
+allowed-tools: Read, Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/honorarios_pba.py:*), Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/uma_csjn.py:*)
 ---
 
 Consulta: `$ARGUMENTS`
 
-**Leé `${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/skills/derecho-argentino/references/sede-judicial-pba.md` sección 1.6.6 antes de regular.** Ahí están las cuatro cosas
+**Leé `${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/references/sede-judicial-pba.md` sección 1.6.6 antes de regular.** Ahí están las cuatro cosas
 que hacen nula o mal hecha una regulación bonaerense.
 
 ## Primero: ¿qué justicia interviene?
@@ -25,11 +25,12 @@ por el traspaso de competencias, y no se da por sabido.
 - **Justicia nacional o federal** —incluidos los juzgados nacionales con asiento en CABA—: el
   arancel es la **Ley 27.423** y la unidad es la **UMA**, no el jus. **El texto está bajado y el
   régimen está en `references/honorarios-nacional.md` 37**: la escala del art. 21, las etapas del
-  art. 29, el 40% del procurador y la nulidad del art. 51. **Lo que no hay es el valor de la
-  UMA**: `fuentes/datos/uma-csjn.csv` existe y está vacío, y se llena a mano porque la consulta
-  oficial de la CSJN es un formulario y no una tabla. La conversión del art. 51 la hace
-  `scripts/uma_csjn.py --fecha AAAA-MM-DD`, que **se planta** mientras no haya valores. Hasta
-  entonces se explica el régimen y **no se entrega un número**.
+  art. 29, el 40% del procurador y la nulidad del art. 51. **El valor de la UMA está
+  cargado**: `fuentes/datos/uma-csjn.csv` trae las vigencias desde el 01/10/2024 y se llena a
+  mano, porque la consulta oficial de la CSJN es un formulario y no una tabla. La conversión del
+  art. 51 la hace `scripts/uma_csjn.py --fecha AAAA-MM-DD`, que devuelve el valor **y la
+  resolución que lo fijó**. Para una fecha anterior al arranque de la serie no extrapola: emite
+  `[CONFIGURACIÓN INCOMPLETA: ...]` y ahí el valor se pide o se marca.
 - **Justicia local de la Ciudad de Buenos Aires:** rige la **Ley 5.134**, no la 27.423, aunque el
   juzgado quede a la vuelta de uno nacional. **Y acá está la trampa peor de toda la materia: esa
   ley también llama UMA a su unidad, y no es la misma.** La UMA porteña del art. 20 de la Ley
@@ -43,7 +44,7 @@ por el traspaso de competencias, y no se da por sabido.
   calcula.
 
 ```text
-[VERIFICAR MONTO ACTUALIZADO: valor de la UMA - art. 19 Ley 27.423, se consulta en csjn.gov.ar/transparencia/uma. El archivo fuentes/datos/uma-csjn.csv está sin valores, así que el valor no se toma de memoria ni se estima]
+[VERIFICAR MONTO ACTUALIZADO: valor de la UMA - lo publica la CSJN por resolución de su Secretaría General de Administración, art. 19 Ley 27.423, y se consulta en csjn.gov.ar/transparencia/uma. El valor sale de correr scripts/uma_csjn.py --fecha, nunca de memoria: el archivo fuentes/datos/uma-csjn.csv trae las vigencias desde el 01/10/2024]
 ```
 
 ```text
@@ -73,7 +74,7 @@ plausible. Si alguno no coincide, pará y preguntá. Ver `intake.md`, «Devolver
 antes de usarlos».
 
 ```sh
-python3 ${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/skills/derecho-argentino/scripts/honorarios_pba.py --monto N --porcentaje N \
+python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/honorarios_pba.py --monto N --porcentaje N \
   [--valor-jus N] [--etapas-cumplidas N] [--etapas-totales N] \
   [--con-intereses] [--tipo {contradictorio|voluntario}] [--tasa-justicia N]
 ```

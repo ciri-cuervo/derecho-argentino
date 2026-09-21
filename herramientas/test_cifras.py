@@ -138,6 +138,22 @@ class TestCifrasDelRepo(unittest.TestCase):
                     re.search(entrada["patron"], texto),
                     f"«{entrada['patron']}» ya no está en {entrada['archivo']}")
 
+    def test_los_comandos_se_censan(self):
+        """Una exclusión afirma algo sobre el contenido del archivo, y ésta lo afirmaba mal:
+        decía que los comandos «describen qué hacer, no cuánto hay» mientras
+        `/derecho:verificar` decía «son 55 normas» y ya eran más de doscientas. La cifra pudo
+        envejecer cuatro veces porque la exclusión apagaba el censo justo ahí, y los comandos
+        son lo que el usuario lee en runtime.
+
+        MUTACIÓN que lo comprueba: sacar un comando del alcance de `cifras.json` y este test
+        falla; devolverle al comando la cifra escrita a mano y falla el censo.
+        """
+        for f in sorted((RAIZ / "derecho" / "commands").glob("*.md")):
+            ruta = f.relative_to(RAIZ).as_posix()
+            with self.subTest(ruta):
+                self.assertIn(ruta, self.reg["alcance"],
+                              "los comandos se censan como cualquier otra documentación")
+
     def test_todo_md_esta_en_el_alcance_o_excluido_con_motivo(self):
         """Sin esto, un documento nuevo escapa al censo entero, que es la misma forma del
         agujero que este control viene a tapar."""

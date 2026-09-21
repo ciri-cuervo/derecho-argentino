@@ -587,9 +587,13 @@ corriéndolo, para no volver a averiguarlo:
   con una ruta relativa a la raíz del plugin. Sacarlos a la raíz del repositorio, que es donde
   conceptualmente van —son material de desarrollo—, deja al runner nativo sin nada que correr.
   **Es una restricción de afuera, no una decisión nuestra**, y el precio es chico: medido, son
-  0,5 MB contra los 78,5 MB de la capa offline, y ningún módulo rutea a `evals/`, así que no
-  entran al contexto de una consulta. El esquema del manifiesto **no tiene campo de exclusión**
-  —ni `files` ni `ignore`—, así que tampoco hay forma de dejarlos abajo y fuera de la copia.
+  0,5 MB contra los 78,5 MB de la capa offline. El esquema del manifiesto **no tiene campo de
+  exclusión** —ni `files` ni `ignore`—, así que tampoco hay forma de dejarlos abajo y fuera de
+  la copia.
+- **Y el runtime sí los lee: `modelos.md` 23.8 manda a los `resultado.md`.** Sirven para la forma
+  —qué se resuelve antes del fondo, qué marcador va en cada hueco—; para el contenido no, porque
+  un `resultado.md` no tiene fila en `references/changelog-normativo.md` ni en `docs/REVALIDAR.md`
+  y **no puede vencer**. Eso está escrito en 23.8, que es donde lo lee quien consulta.
 - **Y por eso, adentro de `evals/` sí se nombra `herramientas/`.** Es la excepción a la regla de
   «la skill no nombra lo que no se instala»: el lector de un `PROCEDIMIENTO.md` o de una `rubrica.md`
   es quien escribe evals, que trabaja en el checkout. `TestLaSkillNoNombraLoQueNoSeInstala` mira
@@ -615,6 +619,14 @@ corriéndolo, para no volver a averiguarlo:
   **no se ve leyendo una corrida a ojo**.
 - **Correr siempre con `--keep-temp`.** Sin eso no queda la traza y no se puede diagnosticar por
   qué falló un grader; se paga la corrida dos veces.
+- **Y revisar la traza apenas termina, con `python3 herramientas/traza_eval.py`.** La clave de
+  respuestas está al lado del caso: el agente evaluado corre contra el repositorio vivo, hace
+  `Glob` con la raíz como base y nada le impide abrir la `rubrica.md`, los `graders/` —que dicen
+  textualmente qué puntúa el juez— o el `resultado.md` del caso que está resolviendo. Un puntaje
+  sacado así mide la lectura y no se distingue de uno bueno. **La ventana para comprobarlo es
+  corta:** la traza vive en el sandbox de `/tmp` que nombra `tracePath`, y de la corrida del
+  18/09 no sobrevivía ninguna de las seis. Por eso la herramienta **se planta con rc=2 cuando la
+  traza ya no está**, en vez de informar limpio.
 
 Y antes de escribir sobre un instituto: leer el texto en `derecho/fuentes/normas/`, que está
 consolidado con URL, fecha y hash. El vocabulario de marcadores válido es el de

@@ -2,14 +2,14 @@
 name: liquidacion
 description: Liquidación por extinción del contrato de trabajo (LCT). Calcula con script determinista, después de identificar qué tramo de reforma rige por la fecha del acto extintivo.
 argument-hint: "[datos que ya tengas: ingreso, extinción, mejor remuneración...]"
-allowed-tools: Read, Bash(python3 ${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/skills/derecho-argentino/scripts/liquidacion_lct.py:*)
+allowed-tools: Read, Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/liquidacion_lct.py:*)
 ---
 
 Datos que trae el usuario: `$ARGUMENTS`
 
-**Antes de calcular nada, leé `${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/skills/derecho-argentino/references/laboral.md`**, secciones 5.1 a 5.4 y el protocolo de
+**Antes de calcular nada, leé `${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/references/laboral.md`**, secciones 5.1 a 5.4 y el protocolo de
 liquidación de 5.10. No es opcional: la LCT se reformó en tres tramos y **los regímenes no son
-intercambiables**. Si estás actuando desde el órgano, leé también `${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/skills/derecho-argentino/references/sede-judicial-pba.md`
+intercambiables**. Si estás actuando desde el órgano, leé también `${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/references/sede-judicial-pba.md`
 1.6.4 — ahí no se liquida, se coteja.
 
 ## Orden
@@ -30,7 +30,7 @@ intercambiables**. Si estás actuando desde el órgano, leé también `${CODEX_P
 5. **Corré el script.** No hagas la aritmética a mano:
 
    ```sh
-   python3 ${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/skills/derecho-argentino/scripts/liquidacion_lct.py \
+   python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/liquidacion_lct.py \
      --ingreso AAAA-MM-DD --extincion AAAA-MM-DD \
      --mejor-remuneracion N [--empleador privado] [--remuneracion-ultimo-mes N] [--tope-245 N] \
      [--dias-vacaciones-gozadas N] [--periodo-prueba] [--preaviso-otorgado]
@@ -53,5 +53,5 @@ intercambiables**. Si estás actuando desde el órgano, leé también `${CODEX_P
    corresponden (art. 2 Ley 25.323, art. 80 LCT, estabilidad por embarazo o matrimonio,
    registración) y decilo, con su norma y su recaudo.
 
-Cerrá con el bloque "Estado del escrito" de `${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/skills/derecho-argentino/references/escritos.md` sección 11: marcadores
+Cerrá con el bloque "Estado del escrito" de `${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/references/escritos.md` sección 11: marcadores
 pendientes, normas con verificación pendiente, y decisiones tomadas por defecto.

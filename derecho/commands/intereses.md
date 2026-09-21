@@ -2,14 +2,14 @@
 name: intereses
 description: Actualización e intereses sobre un crédito. Elegir entre índice más interés puro o tasa nominal no es una decisión técnica - depende de qué doctrina rige.
 argument-hint: "[capital, desde, hasta, fuero]"
-allowed-tools: Read, Bash(python3 ${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/skills/derecho-argentino/scripts/intereses.py:*)
+allowed-tools: Read, Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/intereses.py:*)
 ---
 
 Consulta: `$ARGUMENTS`
 
-**Leé antes de calcular:** `${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/skills/derecho-argentino/references/laboral.md` sección 5.5 para el fuero nacional y **5.5 bis**
+**Leé antes de calcular:** `${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/references/laboral.md` sección 5.5 para el fuero nacional y **5.5 bis**
 para PBA, que traen la cadena de precedentes completa. Si actuás desde el órgano,
-`${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/skills/derecho-argentino/references/sede-judicial-pba.md` 1.6.8.
+`${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/references/sede-judicial-pba.md` 1.6.8.
 
 ## Lo que hay que resolver antes de tocar el script
 
@@ -26,7 +26,7 @@ Tres cosas que se equivocan seguido y están en 5.5 bis:
 2. **"Barrios" no alcanza a las prestaciones de la LRT** — "Galarza", L. 132.729, 30/03/2026.
 3. **El segundo párrafo del art. 48 de la Ley 11.653** (tasa activa, texto Ley 14.399) está
    declarado inconstitucional desde "Abraham", L. 108.164. Una liquidación que lo invoque
-   aplica una norma muerta. Ver `${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/skills/derecho-argentino/references/ejecucion.md` 21.2.
+   aplica una norma muerta. Ver `${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/references/ejecucion.md` 21.2.
 
 ## Después
 
@@ -36,9 +36,9 @@ plausible. Si alguno no coincide, pará y preguntá. Ver `intake.md`, «Devolver
 antes de usarlos».
 
 ```sh
-python3 ${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/skills/derecho-argentino/scripts/intereses.py --modo indice --capital N --desde AAAA-MM-DD --hasta AAAA-MM-DD \
+python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/intereses.py --modo indice --capital N --desde AAAA-MM-DD --hasta AAAA-MM-DD \
   --serie {ipc|ripte|cer} --interes-puro N
-python3 ${CODEX_PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT}}/skills/derecho-argentino/scripts/intereses.py --modo tasa --capital N --desde AAAA-MM-DD --hasta AAAA-MM-DD --tna N
+python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/intereses.py --modo tasa --capital N --desde AAAA-MM-DD --hasta AAAA-MM-DD --tna N
 ```
 
 Si la serie no está cargada el script **no estima**: emite el marcador y corta. No lo

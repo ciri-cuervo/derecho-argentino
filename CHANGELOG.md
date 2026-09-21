@@ -14,6 +14,10 @@ un renglón por cambio. El detalle de cada uno vive donde se puede verificar:
 | La doctrina de cada precedente | El módulo que la usa; el índice, en `references/fallos-csjn.md` |
 | Si el texto de un fallo se puede transcribir | `herramientas/lecturas-ocr.json` |
 
+## [1.3.1] — 2026-09-18
+
+Próximamente..
+
 ## [1.3.0] — 2026-09-18
 
 Siete módulos nuevos, y los dos más grandes partidos por materia.
