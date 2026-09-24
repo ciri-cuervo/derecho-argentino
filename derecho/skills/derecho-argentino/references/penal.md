@@ -550,7 +550,7 @@ u ofrecida**.
 requiere legalización**; presentada en forma, hace **presumir la veracidad de su contenido y la
 validez de las actuaciones** (art. 4).
 
-#### Cuándo NO se concede (art. 11)
+### Cuándo NO se concede (art. 11)
 
 Cinco causales, y ninguna es discrecional:
 
@@ -564,7 +564,7 @@ Cinco causales, y ninguna es discrecional:
 - el Estado requirente **no garantiza que computará** el tiempo de privación de libertad que
   demande el trámite de extradición.
 
-#### La opción del nacional argentino (art. 12)
+### La opción del nacional argentino (art. 12)
 
 **Es el punto que decide muchos casos.** Si el requerido para un proceso es nacional argentino,
 **puede optar por ser juzgado acá**, *"a no ser que fuere aplicable al caso un tratado que obligue

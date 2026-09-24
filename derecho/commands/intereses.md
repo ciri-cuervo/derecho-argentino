@@ -2,7 +2,7 @@
 name: intereses
 description: Actualización e intereses sobre un crédito. Elegir entre índice más interés puro o tasa nominal no es una decisión técnica - depende de qué doctrina rige.
 argument-hint: "[capital, desde, hasta, fuero]"
-allowed-tools: Read, Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/intereses.py:*)
+allowed-tools: Read, Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/intereses.py:*), Bash(python ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/intereses.py:*), Bash(py -3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/intereses.py:*)
 ---
 
 Consulta: `$ARGUMENTS`
@@ -47,3 +47,7 @@ completes. Si le falta el último período, decí hasta qué fecha llega la seri
 
 Decí siempre **qué modo usaste, con qué fundamento y con qué serie**, y que el resultado se
 coteja contra el criterio del departamento judicial.
+
+**Si `python3` no responde** —`command not found`, `no se reconoce` o *Python was not
+found*—, el mismo comando se corre con `python` y después con `py -3`, y el que ande se usa
+en el resto. Si ninguno anda, falta Python: ver «Si un script no corre» en el `SKILL.md`.

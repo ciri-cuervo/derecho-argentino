@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="CHANGELOG.md"><img src="assets/marca/chapa-version.png" width="106" height="32" alt="Versión 1.4.2"></a>
+  <a href="CHANGELOG.md"><img src="assets/marca/chapa-version.png" width="106" height="32" alt="Versión 1.4.3"></a>
   <a href="LICENCIAS.md"><img src="assets/marca/chapa-licencia.png" width="168" height="32" alt="Licencias: contenido CC BY-SA 4.0, código MIT"></a>
   <img src="assets/marca/chapa-agentes.png" width="172" height="32" alt="Corre en Claude y Codex (ChatGPT)">
 </p>
@@ -164,9 +164,9 @@ sus datos, qué tiene cargado y cuánto hace que se verificó contra las fuentes
 Code, `/derecho:estado`.
 
 > [!TIP]
-> **Si te dice que no puede hacer un cálculo, le falta Python**, el único programa aparte que
-> necesita y **sólo para las calculadoras**: citar normas, revisar un escrito o contar un plazo
-> funciona igual sin él. En Mac y Linux casi siempre ya viene. Si no, se baja de
+> **Si te dice que no puede hacer un cálculo, le falta Python** —3.9 o posterior—, el único
+> programa aparte que necesita y **sólo para las calculadoras**: citar normas, revisar un escrito
+> o contar un plazo funciona igual sin él. En Mac y Linux casi siempre ya viene. Si no, se baja de
 > **[python.org](https://www.python.org/downloads/)** y se instala con las opciones que trae; en
 > Windows, dejá tildado *"Add python.exe to PATH"*. Después cerrá y volvé a abrir la app.
 

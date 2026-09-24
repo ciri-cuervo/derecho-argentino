@@ -14,6 +14,16 @@ un renglón por cambio. El detalle de cada uno vive donde se puede verificar:
 | La doctrina de cada precedente | El módulo que la usa; el índice, en `references/fallos-csjn.md` |
 | Si el texto de un fallo se puede transcribir | `herramientas/lecturas-ocr.json` |
 
+## [1.4.3] — 2026-09-24
+
+Correcciones: no entran normas ni fallos, y ningún cálculo cambia de resultado.
+
+- **El plugin instalado ya no lee los datos de un clon**: correr una calculadora o la suite desde
+  el repo dejaba el clon fijado en el config. Si los datos no son los de la propia copia, las
+  calculadoras lo avisan, y `/derecho:estado` da el remedio según la causa.
+- **Los scripts corren desde Python 3.9 y en Windows**, donde el comando puede ser `python` o
+  `py -3`: los comandos autorizan los tres. El CI corre cada script en Linux y en Windows.
+
 ## [1.4.2] — 2026-09-24
 
 Correcciones de una reevaluación del plugin instalado: no entran normas ni fallos, y ningún

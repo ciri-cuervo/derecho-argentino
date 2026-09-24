@@ -10,7 +10,12 @@ salida, y lo que queda de plomería del plugin.
 Acá vive sólo lo que las seis necesitan. Nada de esto se duplica: duplicarlo era el camino por el
 que `RAIZ_DEL_CHECKOUT` terminaba apuntando a otro lado en una de las copias.
 """
+from __future__ import annotations
+
+import atexit
 import os
+import shutil
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -19,6 +24,13 @@ from pathlib import Path
 # y un clon distinto, la suite corría contra OTRO repositorio y daba verde. Un test valida el
 # checkout en el que está, no el que diga una configuración de la máquina.
 RAIZ_DEL_CHECKOUT = Path(__file__).resolve().parents[4]
+
+# Y por lo mismo, las suites no tocan el config de la máquina: lo leerían antes que el checkout,
+# y lo que una calculadora deja fijado ahí lo lee después el plugin instalado. Se importa en las
+# seis, así que alcanza con hacerlo una vez acá; los subprocesos heredan la variable.
+CONFIG_AISLADO = tempfile.mkdtemp(prefix="derecho-tests-config-")
+os.environ["XDG_CONFIG_HOME"] = CONFIG_AISLADO
+atexit.register(shutil.rmtree, CONFIG_AISLADO, ignore_errors=True)
 
 MAYUSCULAS = "A-ZÁÉÍÓÚÜÑ"
 LETRAS = "A-Za-zÁÉÍÓÚÜÑáéíóúüñ"

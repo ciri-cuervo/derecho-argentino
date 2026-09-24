@@ -6,6 +6,8 @@ Salió de `test_scripts.py` al partirlo: el original llegó a 6149 renglones, tr
 
     python3 -m unittest discover -s derecho/skills/derecho-argentino/scripts -p "test_*.py"
 """
+from __future__ import annotations
+
 import datetime
 import json
 import os
@@ -21,7 +23,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 
 import _raiz
-from _comun_tests import RAIZ_DEL_CHECKOUT, SEMVER, load_tests, sin_color as _sin_color
+from _comun_tests import (CONFIG_AISLADO, RAIZ_DEL_CHECKOUT, SEMVER, load_tests,
+                          sin_color as _sin_color)
 
 
 class TestRaizDelRepo(unittest.TestCase):
@@ -113,6 +116,58 @@ class TestRaizDelRepo(unittest.TestCase):
             self.assertIn("anotado en", r.stdout)
             self.assertTrue(destino.exists(), "el hallazgo no quedo fijado")
             self.assertEqual(json.loads(destino.read_text())["repo"], str(repo))
+
+    def test_una_corrida_desde_el_clon_no_fija_el_config(self):
+        """El config lo leen todas las copias de la máquina, y va antes que los datos que trae
+        el plugin instalado: fijar el clon ahí dejaba al plugin leyendo la rama del clon.
+
+        MUTACIÓN que lo comprueba: volver a sumar «la skill vive» a los orígenes que
+        `resolver()` persiste deja este test en rojo.
+        """
+        with tempfile.TemporaryDirectory() as d:
+            cfg = pathlib.Path(d) / "cfg"
+            entorno = {k: v for k, v in os.environ.items()
+                       if k not in ("DERECHO_AR_REPO", *_raiz.ENV_PLUGIN)}
+            entorno.update(HOME=d, XDG_CONFIG_HOME=str(cfg))
+            r = subprocess.run(
+                [sys.executable, str(pathlib.Path(__file__).parent / "honorarios_pba.py"),
+                 "--monto", "10000000", "--porcentaje", "20"],
+                capture_output=True, text=True, env=entorno, cwd=d)
+            self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+            self.assertFalse((cfg / "derecho-argentino" / "config.json").exists(),
+                             "correr desde el clon dejó el clon fijado en el config")
+
+    def test_datos_ajenos_a_la_copia_se_avisan(self):
+        """Una variable o un config pueden mandar la skill a los datos de otro clon u otra
+        versión, y la calculadora da un número igual. Lo tiene que decir, y por stderr para
+        no mezclarse con la salida; con sus propios datos, nada.
+
+        MUTACIÓN que lo comprueba: sacar el aviso de `datos()` deja este test en rojo.
+        """
+        with tempfile.TemporaryDirectory() as d:
+            ajena = pathlib.Path(d) / "otra"
+            shutil.copytree(RAIZ_DEL_CHECKOUT / "derecho" / "fuentes" / "datos",
+                            ajena / "fuentes" / "datos")
+            shutil.copy2(RAIZ_DEL_CHECKOUT / "derecho" / _raiz.MARCADOR_BASE,
+                         ajena / "fuentes")
+            base = {k: v for k, v in os.environ.items()
+                    if k not in ("DERECHO_AR_REPO", *_raiz.ENV_PLUGIN)}
+            base.update(HOME=d, XDG_CONFIG_HOME=str(pathlib.Path(d) / "cfg"))
+            for variable, aviso in ((str(ajena), True), (None, False)):
+                entorno = dict(base, DERECHO_AR_REPO=variable) if variable else base
+                with self.subTest(ajena=aviso):
+                    r = subprocess.run(
+                        [sys.executable, str(pathlib.Path(__file__).parent / "honorarios_pba.py"),
+                         "--monto", "10000000", "--porcentaje", "20"],
+                        capture_output=True, text=True, env=entorno, cwd=d)
+                    self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+                    self.assertNotIn("AVISO", r.stdout)
+                    self.assertEqual("AVISO" in r.stderr, aviso, r.stderr)
+
+    def test_las_suites_no_usan_el_config_de_la_maquina(self):
+        """MUTACIÓN que lo comprueba: sacar el `XDG_CONFIG_HOME` de `_comun_tests.py` deja
+        este test en rojo."""
+        self.assertTrue(_raiz.archivo_config().is_relative_to(CONFIG_AISLADO))
 
     #: Cómo el README de `scripts/` nombra las variables del tercer paso del orden de resolución.
     NOMBRA_VARIABLE = re.compile(r"`([A-Z]+_PLUGIN_ROOT)`")
@@ -373,7 +428,7 @@ class TestEstado(unittest.TestCase):
         raíz en la versión anterior que quedó al lado de la nueva.
 
         MUTACIÓN que lo comprueba: sacar el bloque `plugin` de `recolectar()` deja este test
-        en rojo.
+        en rojo; devolver un solo remedio en `arreglo_plugin()`, el subtest del otro origen.
         """
         repo, _ = _raiz.raiz_repo()
         with tempfile.TemporaryDirectory() as d:
@@ -383,16 +438,25 @@ class TestEstado(unittest.TestCase):
             copia = propia / "skills" / "derecho-argentino" / "scripts"
             shutil.copytree(pathlib.Path(__file__).parent, copia,
                             ignore=shutil.ignore_patterns("__pycache__"))
-            e = {k: v for k, v in os.environ.items() if k not in _raiz.ENV_PLUGIN}
-            e.update(HOME=d, XDG_CONFIG_HOME=str(pathlib.Path(d) / "cfg"),
-                     DERECHO_AR_REPO=str(repo))
-            r = subprocess.run([sys.executable, str(copia / "estado.py"), "--json"],
-                               capture_output=True, text=True, env=e, cwd=d)
-            self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
-            bloque = {b["bloque"]: b for b in json.loads(r.stdout)["bloques"]}.get("plugin")
-            self.assertIsNotNone(bloque, "no hay bloque que compare las versiones")
-            self.assertEqual(bloque["estado"], "REVISAR")
-            self.assertIn("0.0.1", bloque["detalle"])
+            cfg = pathlib.Path(d) / "cfg"
+            (cfg / "derecho-argentino").mkdir(parents=True)
+            (cfg / "derecho-argentino" / "config.json").write_text(json.dumps({"repo": str(repo)}))
+            e = {k: v for k, v in os.environ.items()
+                 if k not in ("DERECHO_AR_REPO", *_raiz.ENV_PLUGIN)}
+            e.update(HOME=d, XDG_CONFIG_HOME=str(cfg))
+            # Reinstalar no borra un config ni desarma una variable: el remedio sigue al origen.
+            for variable, remedio in ((str(repo), "DERECHO_AR_REPO"), (None, "configurar.py")):
+                with self.subTest(remedio=remedio):
+                    entorno = dict(e, DERECHO_AR_REPO=variable) if variable else e
+                    r = subprocess.run([sys.executable, str(copia / "estado.py"), "--json"],
+                                       capture_output=True, text=True, env=entorno, cwd=d)
+                    self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
+                    bloque = {b["bloque"]: b for b in json.loads(r.stdout)["bloques"]}.get(
+                        "plugin")
+                    self.assertIsNotNone(bloque, "no hay bloque que compare las versiones")
+                    self.assertEqual(bloque["estado"], "REVISAR")
+                    self.assertIn("0.0.1", bloque["detalle"])
+                    self.assertIn(remedio, bloque["arreglo"])
 
     def test_sin_repo_sale_2_y_no_revienta(self):
         with tempfile.TemporaryDirectory() as d:
@@ -406,6 +470,25 @@ class TestEstado(unittest.TestCase):
                                capture_output=True, text=True, env=e, cwd=d)
             self.assertEqual(r.returncode, 2, r.stdout + r.stderr)
             self.assertIn("NO ENCONTRADO", r.stdout)
+class TestCorreDesdePython39(unittest.TestCase):
+    """Lo que se distribuye corre desde 3.9, el Python de las herramientas de Xcode. La medida
+    real es el CI, que corre estas suites en 3.9 y lanza cada script con ese intérprete; esto
+    adelanta el caso que ya rompió: `X | None` en una anotación, que 3.9 evalúa al importar y
+    revienta con `TypeError` sin la importación de `annotations`.
+
+    No se mide con `ast.parse(feature_version=(3, 9))`: deja pasar los f-strings de 3.12, que
+    3.9 no compila, así que daría verde sobre un caso conocido.
+
+    MUTACIÓN que lo comprueba: sacar la importación de `_comun_tests.py` deja este test en rojo.
+    """
+
+    def test_cada_archivo_distribuido_trae_la_importacion(self):
+        dirs = (Path(__file__).parent, RAIZ_DEL_CHECKOUT / "derecho" / "fuentes" / "scripts")
+        faltan = [str(p.relative_to(RAIZ_DEL_CHECKOUT)) for d in dirs for p in sorted(d.glob("*.py"))
+                  if "from __future__ import annotations" not in p.read_text(encoding="utf-8")]
+        self.assertEqual(faltan, [], "sin `from __future__ import annotations` no corre en 3.9")
+
+
 class TestUnaSolaZonaHoraria(unittest.TestCase):
     """Las fechas del repositorio se escriben en hora argentina, y en UNA sola zona.
 
@@ -1129,6 +1212,40 @@ class TestRaizEnLosComandos(unittest.TestCase):
                                          f"y el allowed-tools no lo pre-aprueba")
         self.assertGreaterEqual(con_bloque, 4,
                                 "ningún comando trae bloque inyectado: el test quedó mirando nada")
+
+class TestElInterpreteTieneTresNombres(unittest.TestCase):
+    """La skill corre en cualquier sistema, y el comando de Python no se llama igual en todos: el
+    instalador de python.org para Windows deja `python` y `py`, no `python3`. Un bloque `!` no
+    puede elegir sin una expansión, que aborta la invocación, así que cada comando dice cómo
+    seguir y pre-aprueba los tres nombres: sin eso, en Windows cada llamada pide permiso.
+
+    MUTACIÓN que lo comprueba: sacarle a `derecho/commands/plazo.md` el `Bash(py -3 ...)` del
+    allowed-tools, o el párrafo «Si `python3` no responde», deja este test en rojo.
+    """
+
+    COMANDOS = Path(__file__).resolve().parents[3] / "commands"
+    NOMBRES = ("python3", "python", "py -3")
+
+    def test_cada_comando_pre_aprueba_los_tres_y_dice_como_seguir(self):
+        revisados = 0
+        for archivo in sorted(self.COMANDOS.glob("*.md")):
+            texto = archivo.read_text(encoding="utf-8")
+            declarado = re.search(r"^allowed-tools:(.*)$", texto, re.M)
+            if not declarado:
+                continue
+            scripts = re.findall(r"Bash\(python3 (\S+\.py)", declarado.group(1))
+            if not scripts:
+                continue
+            revisados += 1
+            with self.subTest(archivo.name):
+                for ruta in scripts:
+                    for nombre in self.NOMBRES:
+                        self.assertIn(f"Bash({nombre} {ruta}", declarado.group(1),
+                                      f"{archivo.name} no pre-aprueba `{nombre}` para {ruta}")
+                self.assertIn("**Si `python3` no responde**", texto,
+                              f"{archivo.name} no dice qué hacer si `python3` no existe")
+        self.assertGreaterEqual(revisados, 5, "los comandos dejaron de correr scripts")
+
 
 class TestElDescriptionDeHonorariosNombraLosDosAranceles(unittest.TestCase):
     """Un pin sobre `honorarios`, NO un control de la clase: los otros comandos no lo tienen.

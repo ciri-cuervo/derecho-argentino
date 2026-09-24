@@ -167,13 +167,12 @@ archivos. **Nada supone un agente en particular**: si algo funciona en uno solo,
 
 **Sólo hace falta resolverla cuando la consulta necesita el repo**: transcribir un artículo,
 citar un fallo, tomar el valor del jus, computar un plazo con ferias, liquidar intereses. Para
-una consulta conceptual, no. La resuelve el primer uso que la necesite, y ese primer uso la deja
-fijada.
+una consulta conceptual, no. La resuelve el primer uso que la necesite.
 
 `_raiz.py` la busca solo, del dato más explícito al más adivinado; **el orden completo, con qué
-variable define cada agente, está en `scripts/README.md`** y no se repite acá. Si aparece por una
-de las dos búsquedas del final, **la ruta queda escrita sola en el config** con un aviso de una
-línea: es lo que hace que la primera vez sea efectivamente una sola vez.
+variable define cada agente, está en `scripts/README.md`** y no se repite acá. Si la encuentra
+adivinando en el home, **la ruta queda escrita sola en el config** con un aviso de una línea. Si
+los datos no son los que trae la skill, cada calculadora lo avisa: ese aviso va en la respuesta.
 
 `python3 scripts/estado.py` informa qué encontró, por qué camino, qué datos hay cargados y
 cuáles quedaron vencidos. `scripts/configurar.py --repo <ruta>` fija la ruta a mano.
@@ -647,7 +646,8 @@ control. Ver `references/intake.md`, «Devolver los datos antes de usarlos».
 
 | Lo que devuelve la consola | Qué pasa | Qué hacer |
 | --- | --- | --- |
-| `command not found: python3` · `'python3' no se reconoce como un comando` · `xcrun: error: invalid active developer path` | **Falta Python en esta computadora.** El script está y los datos están: lo que no hay es con qué ejecutarlo. `estado.py` tampoco corre, así que el diagnóstico sale de acá y no de una corrida | **No calcular.** Emitir el marcador de abajo y explicar cómo se resuelve |
+| `command not found: python3` · `'python3' no se reconoce como un comando` · `Python was not found; run without arguments to install from the Microsoft Store` | **Puede que Python se llame de otra forma.** En Windows, el instalador de python.org deja `python` y `py`, no `python3` | **Probar el mismo comando con `python` y después con `py -3`.** Si uno corre, usarlo en lugar de `python3` por el resto de la conversación. Si ninguno, es la fila de abajo |
+| Lo mismo con los tres nombres · `xcrun: error: invalid active developer path` · un Python anterior a 3.9 | **Falta Python en esta computadora.** El script está y los datos están: lo que no hay es con qué ejecutarlo. `estado.py` tampoco corre, así que el diagnóstico sale de acá y no de una corrida | **No calcular.** Emitir el marcador de abajo y explicar cómo se resuelve |
 | `No such file or directory` sobre la ruta del script | **No hay repo conectado**, o la ruta es otra. Ver sección 0.2 | Pedir la ruta. Si no hay repo, calcular a mano y aplicar la verificación aritmética de cierre de `plazos.md` 8.6, diciendo que se hizo sin el script |
 
     [CONFIGURACIÓN INCOMPLETA: falta Python 3 en esta computadora - sin intérprete no corren las calculadoras deterministas, así que no se entrega ninguna liquidación, plazo, interés ni honorario calculado]

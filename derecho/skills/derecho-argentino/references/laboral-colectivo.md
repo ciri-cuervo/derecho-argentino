@@ -194,7 +194,6 @@ Ley 14.786** (art. 7), que está en 5.18.5.
 
 ---
 
-
 ### 5.18 Asociaciones sindicales, tutela y conflicto colectivo
 
 Articulado cotejado contra `fuentes/normas/ley-23551.txt` (texto actualizado de

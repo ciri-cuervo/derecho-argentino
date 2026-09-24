@@ -33,9 +33,16 @@ dentro del repo; y unas pocas ubicaciones habituales del home. En los dos últim
 marcador `derecho/fuentes/MANIFIESTO.md`: no alcanza con que la carpeta se llame parecido.
 
 Instalar la skill no ejecuta nada, así que no hay dónde preguntar la ruta al instalar. Lo
-resuelve el primer uso que la necesite: si la encuentra subiendo desde la skill o en una
-ubicación habitual del home, **la deja escrita sola en el config** y avisa en una línea. De
-ahí en adelante sale del config y no se vuelve a adivinar.
+resuelve el primer uso que la necesite: si la encuentra en una ubicación habitual del home,
+**la deja escrita sola en el config** y avisa en una línea. De ahí en adelante sale del config y
+no se vuelve a adivinar. Subiendo desde la skill no la escribe: se encuentra igual cada vez, y el
+config lo leen también las otras copias de la máquina, así que un clon fijado ahí dejaría al
+plugin instalado leyendo los datos del clon.
+
+Cuando los datos no son los que viajan con la skill —porque una variable o el config la mandan a
+otro clon u otra versión—, `datos()` lo avisa por stderr en cada calculadora, con la ruta y por
+qué se eligió. Las suites corren con un `XDG_CONFIG_HOME` temporal: ni leen ni escriben el config
+de la máquina.
 
 Para dejarlo fijo a mano:
 
@@ -82,9 +89,17 @@ degradación silenciosa.
 Dos causas, y piden cosas opuestas. La tabla corta está en la sección 16 del `SKILL.md`; acá va
 el porqué.
 
-**Falta Python en esta computadora.** La consola devuelve `command not found: python3`,
-`'python3' no se reconoce como un comando` o `xcrun: error: invalid active developer path`, una
-por plataforma. El script está y los datos están: lo que no hay es con qué ejecutarlo. Y **este
+**Antes, que no se llame de otra forma.** Los scripts corren en macOS, Linux y Windows desde
+Python 3.9, pero el comando no se llama igual en todos: el instalador de python.org para Windows
+deja `python` y `py`, no `python3`, y `python3` cae en un acceso directo de la Microsoft Store que
+responde *"Python was not found"*. Así que el mismo comando se prueba con `python` y con `py -3`
+antes de concluir nada, y el que corra se usa por el resto de la conversación. Los comandos
+`/derecho:` autorizan los tres. En Windows, el CI corre cada script con `python` desde Git Bash
+—`herramientas/humo_scripts.sh`—, que es la terminal de Claude Code ahí.
+
+**Falta Python en esta computadora.** Ninguno de los tres responde: la consola devuelve
+`command not found`, `no se reconoce como un comando` o `xcrun: error: invalid active developer
+path`, una por plataforma, o el Python que hay es anterior a 3.9. El script está y los datos están: lo que no hay es con qué ejecutarlo. Y **este
 diagnóstico no puede salir de un script**: `estado.py` es Python y tampoco corre, así que
 `/derecho:estado` falla igual y por la misma causa. La conclusión se saca de la señal de la
 consola, no de una corrida.
@@ -119,7 +134,7 @@ hizo sin el script.
 
     python3 -m unittest discover -s . -p 'test_*.py' -v
 
-**330 tests**, sin dependencias externas, en dos grupos.
+**335 tests**, sin dependencias externas, en dos grupos.
 
 **Y repartidos en varios archivos, uno por lo que cada suite afirma.** `test_scripts.py` llegó a 6149
 renglones, **tres veces el corte de `Read`** que este repositorio le impone a los módulos, y ese

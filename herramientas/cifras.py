@@ -249,7 +249,8 @@ def censar(reg: dict, veredictos: dict):
             # La clave va con el espacio aplanado. La prosa se envuelve, así que "dos módulos"
             # puede quedar partido en dos renglones: sin aplanar, el veredicto se despegaría
             # cada vez que alguien reacomoda un párrafo.
-            clave = f"{archivo} | {re.sub(r'[ \t]*\n[ \t]*', ' ', m.group(0))}"
+            aplanado = re.sub(r"[ \t]*\n[ \t]*", " ", m.group(0))
+            clave = f"{archivo} | {aplanado}"
             if clave in veredictos:
                 usados.add(clave)
                 continue

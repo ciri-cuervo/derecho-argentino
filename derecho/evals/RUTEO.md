@@ -179,7 +179,6 @@ esperado: `contencioso-pba.md`
 
 Vigila que se lea 26.4 bis además de 26.4: la revocatoria y el jerárquico son de diez días hábiles, el jerárquico contra el acto de un director lo resuelve el Poder Ejecutivo, y el acto dictado con intervención del interesado que deja expedita la acción no necesita jerárquico. Rutear a `tributario-pba.md` solo contesta el fondo y no la vía.
 
-
 ### R76 · Una empleada que trabaja tres veces por semana en una casa de familia de Lanús fue despedida sin causa después de cuatro años, nunca registrada. ¿Qué le corresponde y dónde se reclama?
 
 esperado: `laboral.md`
@@ -205,7 +204,6 @@ Vigila tres cosas del mismo módulo: que el tipo se lea en el **Código Penal** 
 26.842 y no en los arts. 10 y 11 de la ley especial; que el **consentimiento no exime**; y que la
 víctima **no es punible** por el art. 5. Rutear a `penal.md` sería contestar el proceso sin el
 encuadre.
-
 
 ### R61 · Mi cliente tiene condena firme y quiere pedir salidas transitorias. Está alojado en una unidad de PBA. ¿Qué pido y ante quién?
 
@@ -356,7 +354,6 @@ esperado: `sede-judicial.md`, `sede-judicial-pba.md`
 
 Son dos: el modo de trabajo no tiene fuero y la pieza sí. Abrir sólo el segundo saltea qué se
 controla de oficio y qué deja de hacerse; abrir sólo el primero deja la sentencia sin estructura.
-
 
 ### R08 · La empresa que me debe la indemnización se presentó en concurso.
 
@@ -603,7 +600,6 @@ Dos errores de una: el **mínimo del art. 22 de la Ley 14.967 son siete jus** co
 contenido económico, y en la tabla de la SCBA conviven el jus del art. 9 y el **jus arancelario
 del decreto-ley 8904/77**, que no es el de los abogados. Rutear a `honorarios-nacional.md` por la
 palabra «honorarios» es el otro error que esta fila vigila.
-
 
 ### R67 · Tuve un accidente en la obra, la ART me dio el alta y quedé con una limitación en el hombro. ¿Qué hago?
 

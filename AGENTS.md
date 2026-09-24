@@ -51,8 +51,10 @@ lee `CLAUDE.md`, que no es más que un `@AGENTS.md` y lo poco que sí es suyo. L
 Claude Code carga el archivo al abrir la sesión, así que lo que rige siempre va donde lo lee el
 agente que **no** tiene con qué importar.
 
-**El piso es Python 3.13**, que es lo que fija el workflow de `.github/workflows/tests.yml`. No
-hay que escribir para versiones anteriores ni evitar sintaxis nueva por las dudas.
+**Dos pisos de Python, fijados en `.github/workflows/tests.yml`.** Lo que se distribuye —los
+`scripts/` de la skill y de `fuentes/`, con sus suites— corre desde **3.9**, el de las
+herramientas de Xcode: sin `match`, sin f-strings de 3.12 y con `from __future__ import
+annotations` en cada archivo. `herramientas/` no viaja y su piso es **3.13**.
 
 ## Las reglas de `.claude/rules/` son de Claude Code, y en Codex se leen a mano
 

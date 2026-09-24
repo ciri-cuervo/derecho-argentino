@@ -29,14 +29,19 @@ registrados.
 
 ## En qué máquinas corre
 
-Windows, Linux y macOS, con **Python 3 y nada más** para la skill, los descargadores y casi todas
-las herramientas. Tres herramientas de auditoría del repositorio necesitan binarios, y ninguna
-hace falta para usar la skill:
+**La skill corre en cualquier sistema; el repositorio se desarrolla en Linux y macOS.** Lo que
+se distribuye —los scripts de la skill y los descargadores— necesita **Python 3.9 y nada más**, y
+en Windows se invoca como `python` o `py -3`: los comandos pre-aprueban los tres nombres y dicen
+cómo seguir. El CI lo mide con `herramientas/humo_scripts.sh`, que corre cada script una vez: en
+Linux con 3.9 y 3.13 y la salida en cp1252, y en Windows con Git Bash y `python`. Las suites
+de la skill corren desde 3.9 y las de `herramientas/` desde 3.13, y ninguna corre en Windows.
 
-| Herramienta | Necesita | macOS | Linux | Windows |
-| --- | --- | --- | --- | --- |
-| `auditar_fechas_fallos.py` · `calidad_ocr.py` | `pdftotext` | `brew install poppler` | `apt install poppler-utils` | `choco install poppler` |
-| `reocr_jurisprudencia.py` | `pdfinfo`, `pdftoppm`, `tesseract` con español | `brew install poppler tesseract tesseract-lang` | `apt install poppler-utils tesseract-ocr tesseract-ocr-spa` | `choco install poppler tesseract` |
+Tres herramientas de auditoría necesitan binarios, y ninguna hace falta para usar la skill:
+
+| Herramienta | Necesita | macOS | Linux |
+| --- | --- | --- | --- |
+| `auditar_fechas_fallos.py` · `calidad_ocr.py` | `pdftotext` | `brew install poppler` | `apt install poppler-utils` |
+| `reocr_jurisprudencia.py` | `pdfinfo`, `pdftoppm`, `tesseract` con español | `brew install poppler tesseract tesseract-lang` | `apt install poppler-utils tesseract-ocr tesseract-ocr-spa` |
 
 Si falta el binario, la herramienta **se planta y dice qué instalar** (`herramientas/_externos.py`).
 No hay verde por ausencia de instrumento: la regla está en `.claude/rules/herramientas.md`.
