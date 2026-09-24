@@ -775,6 +775,60 @@
       "fecha": "2025-05-22",
       "url": "https://juba.scba.gov.ar/VerTextoCompleto.aspx?idFallo=196264",
       "nota": "Prescripción adquisitiva entre ex cónyuges sobre un bien ganancial. Recoge la doctrina estricta de la SCBA sobre interversión del título y sostiene que se relaja en el contexto intrafamiliar juzgado con perspectiva de género. Voto de Kogan; Soria vota por la negativa con fundamento propio, por conformidad del titular registral. Registrado bajo RS-21-2025."
+    },
+    {
+      "slug": "scba-alliaz-a74006-2019-05-29",
+      "caratula": "Alliaz Argentina Compañía de Seguros S.A. contra Tribunal Fiscal de Apelación de la Provincia de Buenos Aires. Pretensión anulatoria. Recurso extraordinario de inaplicabilidad de ley",
+      "tribunal": "SCBA",
+      "causa": "A. 74.006",
+      "fecha": "2019-05-29",
+      "url": "https://juba.scba.gov.ar/VerTextoCompleto.aspx?idFallo=169769",
+      "nota": "Pago previo del art. 19 del CCA cuando la deuda no estaba determinada al demandar. Mayoría -de Lázzari, Genoud, Kogan, Mancini-: la inadmisibilidad no se declara sin más, hay que intimar el pago bajo apercibimiento. Minoría -Soria, Negri, Pettigiani-: el art. 19 no aplica porque la liquidación posterior no es objeto del pleito y su apelación al TFA suspende la obligación de pago por el art. 117 del Código Fiscal. RSD-93-19. La carátula pública de JUBA escribe «Alliaz» y así se transcribe."
+    },
+    {
+      "slug": "scba-carba-b56707-2008-04-23",
+      "caratula": "Carba S.A. c/Municipalidad de Tandil s/Demanda contencioso administrativa",
+      "tribunal": "SCBA",
+      "causa": "B. 56.707",
+      "fecha": "2008-04-23",
+      "url": "https://juba.scba.gov.ar/VerTextoCompleto.aspx?idFallo=112644",
+      "nota": "Morigeración del solve et repete del art. 19 inc. 3 a de la Ley 12.008 por afectación patrimonial acreditada con pericia contable: la tasa reclamada era «de similar orden de magnitud de los principales rubros del costo». Unánime en la cuestión formal; en el fondo rechaza la demanda por no probarse confiscatoriedad. Sumarios JUBA B94934 y B94937."
+    },
+    {
+      "slug": "cc0102mp-bmv-162513-2016-12-01",
+      "caratula": "B. ,M. V. C/ S. ,G. F. S/ ACCIÓN DE COMPENSACIÓN ECONÓMICA - ART. 250 DEL C.P.C.",
+      "tribunal": "Cámara de Apelación en lo Civil y Comercial de Mar del Plata, Sala II",
+      "causa": "162.513",
+      "fecha": "2016-12-01",
+      "url": "https://juba.scba.gov.ar/VerTextoCompleto.aspx?idFallo=140688",
+      "nota": "Interlocutoria, registro 573-R. Rechaza la cautelar anticipatoria de compensación económica: la compensación no es consecuencia necesaria del divorcio y exige proceso de conocimiento. Fija el método de cuantificación -comparar la situación patrimonial de cada cónyuge al inicio y al fin del matrimonio, «fotografía», y cruzarla con las pautas del art. 442-. No fija monto. Carátula con reserva de identidad, transcripta como la publica JUBA. Voto de Monterisi y Loustaunau."
+    },
+    {
+      "slug": "scba-pho-rc123748-2020-05-27",
+      "caratula": "P., H. O. c/ A., S. M. s/ Acción de calificación del bien",
+      "tribunal": "SCBA",
+      "causa": "Rc 123.748",
+      "fecha": "2020-05-27",
+      "url": "https://juba.scba.gov.ar/VerTextoCompleto.aspx?idFallo=174865",
+      "nota": "Conflicto de competencia entre el Juzgado de Paz Letrado de Veinticinco de Mayo, que tramitó el divorcio, y los Juzgados de Familia de Mercedes y Trenque Lauquen por una acción de calificación de bien del art. 466 CCyC. La Corte declara competente al Juzgado de Familia del último domicilio conyugal -art. 717 CCyC-: la justicia de paz tiene competencia restringida por el art. 61 secc. II inc. d de la Ley 5.827 y en liquidación de la comunidad sólo homologa acuerdos del divorcio que tramitó ante ella. Carátula con reserva de identidad, como la publica JUBA. Firmada bajo el Ac. 3971/20."
+    },
+    {
+      "slug": "scba-smg-ac90725-2004-05-12",
+      "caratula": "S. ,M. G. c/G. ,L. A. s/Alimentos",
+      "tribunal": "SCBA",
+      "causa": "Ac. 90.725",
+      "fecha": "2004-05-12",
+      "url": "https://juba.scba.gov.ar/VerTextoCompleto.aspx?idFallo=10316",
+      "nota": "Alimentos iniciados ante el Juzgado de Paz de Coronel Rosales con divorcio ya firme ante el Tribunal de Familia de Bahía Blanca: no hay conexidad que desplace la competencia del Juzgado de Paz -arts. 6 inc. 3, 828 y 830 CPCC, art. 61 parág. II b Ley 5.827-. Bajo el Código Civil derogado, pero la regla es de competencia y no de fondo. Carátula con reserva de identidad, como la publica JUBA."
+    },
+    {
+      "slug": "cc0001ql-zayas-14882-2014-08-06",
+      "caratula": "Zayas, Ariel c/ Representante Liberty Seguros Argentina s/ cumplimiento de contrato",
+      "tribunal": "Cámara de Apelación en lo Civil y Comercial de Quilmes, Sala I",
+      "causa": "14.882",
+      "fecha": "2014-08-06",
+      "url": "https://juba.scba.gov.ar/VerTextoCompleto.aspx?idFallo=124082",
+      "nota": "Registro 61/14. Robo de automotor: la aseguradora invocó la falta de la cesión de derechos de la Ley 25.761 recién cincuenta días después de vencido el plazo del art. 56 de la Ley 17.418. La Cámara, con cita de la doctrina de la SCBA -Ac. 34.408 y Ac. 37.883-, tiene el silencio por aceptación del derecho del asegurado y fija la mora a los quince días del art. 49 contados desde el vencimiento de los treinta del art. 56. Voto de Señaris con adhesión de Busteros."
     }
   ],
   "_descarga_asp": "En las URLs de descarga.asp de la SCBA el parámetro n= NO es cosmético: el servidor lo usa como nombre de archivo y un n= distinto devuelve 'Archivo no hallado'. Copiar el n= exacto, con los espacios como %20. Por eso 'Vera' y 'Nidera' comparten id=39327 y son archivos distintos.",

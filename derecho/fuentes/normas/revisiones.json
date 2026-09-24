@@ -72,6 +72,20 @@
         "problema": "parece la ley APROBATORIA y no su contenido: solo 19 artículos y el texto remite a un anexo. Buscar una fuente que transcriba el anexo",
         "veredicto": "Falso positivo. El archivo trae las dos cosas. El artículo único de la ley aprueba el Protocolo, y el Protocolo viene transcripto a continuación con sus DIECIOCHO artículos, leídos uno por uno el 18/09/2026: el art. 1 fija el ámbito —contratos internacionales civiles o comerciales entre particulares con domicilio o sede en distintos Estados Partes—, el art. 2 las cinco exclusiones, y los arts. 4 y 5 son los de la prórroga, que es para lo que el módulo lo usa. El detector cuenta artículos de la parte dispositiva y ve «anexo»: acá los diecinueve que contó son el artículo de la ley más los dieciocho del Protocolo."
       }
+    ],
+    "ley-27411": [
+      {
+        "problema": "parece la ley APROBATORIA y no su contenido: solo 8 artículos y el texto remite a un anexo. Buscar una fuente que transcriba el anexo",
+        "veredicto": "Verdadero positivo, y se acepta así a propósito. InfoLEG no transcribe el Convenio de Budapest: el id 304798 trae la ley aprobatoria con el art. 2, que enumera las cinco reservas argentinas, y ésas son lo único que penal-leyes-especiales.md 24.9.10 cita. El texto del Convenio va con [FUENTE NO CARGADA] hasta que se baje de una fuente oficial que lo transcriba.",
+        "fecha": "2026-09-23"
+      }
+    ],
+    "decreto-27-2021": [
+      {
+        "problema": "parece la ley APROBATORIA y no su contenido: solo 22 artículos y el texto remite a un anexo. Buscar una fuente que transcriba el anexo",
+        "veredicto": "Falso positivo. Los 22 artículos son los 3 del decreto más los 19 del anexo, que InfoLEG transcribe entero desde la edición web del Boletín Oficial: la reglamentación de la Ley 27.555 está completa, con los artículos «sin reglamentar» dichos como tales.",
+        "fecha": "2026-09-23"
+      }
     ]
   }
 }

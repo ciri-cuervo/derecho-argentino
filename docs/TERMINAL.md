@@ -9,7 +9,7 @@ biblioteca estándar. Para saber si ya lo tenés: `python3 --version` —en Wind
 `python --version`—. Si responde un número, está.
 
 > [!IMPORTANT]
-> **La descarga son unos 85 MB** y son casi todo normas y fallos, para que la skill pueda
+> **La descarga son unos 87 MB** y son casi todo normas y fallos, para que la skill pueda
 > trabajar sin conexión. Tarda un rato la primera vez y no hay que volver a hacerlo.
 
 ## En Claude Code

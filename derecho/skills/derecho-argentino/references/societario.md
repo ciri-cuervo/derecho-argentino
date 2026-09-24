@@ -125,7 +125,7 @@ pedida sólo por la registración irregular, y su violación abre el recurso de 
 ley. Del lado del actor, marca qué hay que **alegar y probar** además del pago en negro: el
 supuesto del art. 54 tercer párrafo con sus presupuestos, o el art. 274 contra los directores.
 
-`[INSERTAR FALLO VERIFICADO: "Barreto" resuelve el supuesto laboral por la negativa; no hay precedente bajado que APLIQUE el art. 54 tercer párrafo, es decir uno donde los presupuestos se hayan tenido por probados, ni sobre la responsabilidad de los directores del art. 274 - aportar carátula, sala, fuero y año]`
+`[INSERTAR FALLO VERIFICADO: "Barreto" resuelve el supuesto laboral por la negativa; no hay precedente bajado que APLIQUE el art. 54 tercer párrafo, es decir uno donde los presupuestos se hayan tenido por probados, ni sobre la responsabilidad de los directores del art. 274. JUBA consultado el 23/09/2026 por «inoponibilidad personalidad juridica 54 procede»: los cuatro sumarios de la SCBA -«Micciche c/ Glassic», L. 109.949, 10/08/2016; «Calmens», L. 112.851; «De Melo», L. 102.643; «De Luca», L. 95.085- son la misma línea negativa de Barreto, que el empleo no registrado no basta - aportar carátula, sala, fuero y año]`
 
 **Contralor individual (art. 55).** Los socios pueden **examinar los libros y papeles sociales** y
 recabar del administrador los informes que estimen pertinentes.
@@ -254,6 +254,63 @@ aparecen en la práctica: el **crédito mutual** y la **cobertura de salud**.
 > [REVISIÓN NORMATIVA REQUERIDA: Ley 20.321 - el articulado conserva referencias al Código Civil derogado y al Instituto Nacional de Acción Mutual; verificar el régimen vigente del INAES antes de citar la autoridad de aplicación]
 
 `[REVISIÓN NORMATIVA REQUERIDA: este módulo recorre los arts. 1 a 4 de la Ley 20.321. Los órganos, la fiscalización, el régimen de sanciones y la liquidación NO están recorridos, y la reglamentación del INAES no está bajada]`
+
+### 31.3 quinquies Sociedad por acciones simplificada — Ley 27.349, Título III
+
+Cotejada contra `fuentes/normas/ley-27349.txt`, arts. 33 a 62, texto actualizado. Es el tipo
+que hoy eligen la mayoría de las sociedades nuevas, y **no está en la LGS**: la Ley 19.550 es
+supletoria en cuanto se concilie con esta (art. 33). Antes de citar un artículo de la LGS a una
+SAS, se mira si la 27.349 dice otra cosa.
+
+**Constitución y responsabilidad (arts. 34 a 39).** **Una o varias** personas humanas o
+jurídicas, que limitan su responsabilidad a la integración de las acciones, **sin perjuicio de
+la garantía del art. 43**: los socios **garantizan solidaria e ilimitadamente a los terceros la
+integración de los aportes**. Una SAS unipersonal no puede constituir ni participar en otra
+unipersonal (art. 34). Instrumento público o privado con firmas certificadas, o medios
+digitales con firma digital, inscripto en el Registro Público (art. 35). **Límites del art. 39,
+texto Ley 27.444**: no puede estar en los incs. 3, 4 y 5 del art. 299 LGS —economía mixta,
+operaciones de capitalización o ahorro, concesionarias de servicios públicos— ni ser controlada
+por una de ésas ni participar en más del treinta por ciento de su capital; si cae en el
+supuesto, **se transforma en seis meses**, y vencido el plazo sin inscribir la transformación
+**los socios responden solidaria, ilimitada y subsidiariamente**.
+
+**Capital (arts. 40 a 48).** Mínimo **dos salarios mínimos, vitales y móviles** al constituirse
+(art. 40). Aportes en dinero **integrados al menos en un veinticinco por ciento** al suscribir y
+el saldo **en no más de dos años**; en especie, el cien por ciento (art. 41). Las acciones
+pueden ser de distintas clases con derechos distintos (art. 46) y **la transferencia es la que
+fija el instrumento constitutivo**, que puede exigir autorización previa de la reunión de
+socios y **prohibirla hasta diez años** prorrogables por unanimidad; si nada dice, se notifica
+a la sociedad y se inscribe en el Libro de Registro de Acciones para oponerla a terceros, y
+**toda transferencia que no siga el instrumento es de ningún valor** (art. 48).
+
+**Órganos (arts. 49 a 53).** Los socios diseñan la estructura; supletoriamente rigen las normas
+de la **SRL** y las generales de la LGS (art. 49). El socio único ejerce las atribuciones de
+todos los órganos. Administradores y socios **pueden autoconvocarse sin citación previa**, y la
+reunión de socios vale con el cien por ciento del capital presente y el orden del día aprobado
+por unanimidad (art. 49). Administración a cargo de una o más personas humanas, socios o no,
+**con al menos un suplente si no hay órgano de fiscalización**, y designaciones y cesaciones
+inscriptas (art. 50); al menos un administrador con domicilio real en el país y los extranjeros
+con CDI y representante (art. 51); reuniones a distancia con acta firmada por el administrador
+(art. 51). **Deberes y responsabilidad: los del art. 157 LGS**, por remisión del art. 52, que
+además extiende la responsabilidad de administrador a **quien interviene habitualmente en la
+gestión sin serlo**, incluso por los actos en que no participó. El representante legal puede
+celebrar todos los actos del objeto social (art. 51, último párrafo); la reunión de socios
+resuelve por mayorías del instrumento y admite consulta a distancia y declaración escrita
+(art. 53); la fiscalización es optativa (art. 53 in fine).
+
+**Registros y contabilidad (arts. 58 y 59).** Libros digitales —actas, registro de acciones,
+diario, inventario y balances— con los recaudos del registro público (art. 58); estados
+contables con asiento en el libro digital, sin obligación de presentarlos al organismo de
+contralor salvo que la fiscalización externa lo exija (art. 59). Transformación de y hacia
+otros tipos (art. 61) y **oferta pública prohibida**: la SAS que quiera cotizar se transforma.
+
+Frente al tercero que demanda, lo que cambia respecto de la SRL de 31.1 es poco: el
+administrador responde por el art. 157 LGS igual que el gerente, y la inoponibilidad del art.
+54 LGS rige por la supletoriedad del art. 33. Lo que cambia es la **garantía de integración del
+art. 43**, que alcanza a todos los socios y no sólo al aportante, y la prueba de la
+transferencia, que sale del Libro de Registro de Acciones y no del contrato.
+
+`[REVISIÓN NORMATIVA REQUERIDA: este bloque recorre los arts. 33 a 35, 39 a 41, 43, 46, 48 a 53, 58, 59 y 61 de la Ley 27.349. La reglamentación de la IGJ para la Ciudad y de la DPPJ para PBA -que es donde se litigan el modelo tipo, el capital "manifiestamente inadecuado" y el plazo de inscripción- NO está descargada, y la IGJ cambió de criterio sobre la SAS más de una vez desde 2020. Sin fallo cargado]`
 
 ### 31.4 Antes de decidir contra quién se demanda
 

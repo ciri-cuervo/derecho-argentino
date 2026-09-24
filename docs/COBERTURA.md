@@ -61,7 +61,7 @@ enfermedades inculpables y suspensiones, `laboral-riesgos.md` para la Ley 24.557
 `laboral-colectivo.md` para convenios, sindicatos y conflicto),
 penal (`penal.md` para el régimen procesal aplicable y la libertad durante el proceso,
 `penal-impugnacion.md` para nulidades y recursos, `penal-parte-general.md` para el Código Penal y
-la extinción de la acción, `penal-leyes-especiales.md` para los ocho cuerpos que están fuera del
+la extinción de la acción, `penal-leyes-especiales.md` para los cuerpos normativos que están fuera del
 Código y `ejecucion-penal.md` para lo que sigue a la condena firme) y
 responsabilidad penal juvenil (`penal-juvenil-pba.md`, el Título III de la Ley 13.634; el régimen
 de fondo de la **Ley 27.801** está en `penal-leyes-especiales.md`) y **justicia de paz**
@@ -70,9 +70,13 @@ bonaerenses no deja ninguno sin módulo.**
 
 **Fueros nacionales y federales.** Con módulo: civil, criminal y correccional, trabajo, y seguridad
 social por vía de `previsional.md`; comercial queda cubierto en parte entre `societario.md` y
-`concursos.md`. **Sin módulo: contencioso administrativo federal** —`contencioso-pba.md` es
-provincial y no se traslada—, **penal económico**, **civil y comercial federal** y **casación
-penal**. Del **electoral** está cubierta su materia penal y contravencional —delitos y faltas,
+`concursos.md`. Del **contencioso administrativo federal** hay sección y no módulo:
+`administrativo-nacional.md` 46.5 quinquies trae la demanda contra la Nación y las cautelares de
+la Ley 26.854, y 46.5 sexies las contrataciones, con el trámite por `proceso-nacional.md`;
+`contencioso-pba.md` es provincial y no se traslada. Del **penal económico** está el régimen
+aduanero —delitos, infracciones, competencia y recursos— en `penal-leyes-especiales.md` 24.9.11,
+y la **casación penal** va por `penal-impugnacion.md` 24.6, que cubre el recurso federal junto
+con el bonaerense. **Sin módulo: civil y comercial federal.** Del **electoral** está cubierta su materia penal y contravencional —delitos y faltas,
 deber de votar, doble instancia del art. 146— en `penal-leyes-especiales.md` 24.9.7; **lo que no
 tiene módulo es el contencioso electoral**: oficialización de listas, impugnaciones y escrutinio.
 
@@ -125,18 +129,19 @@ Esta tabla es la que explica por qué la vara judicial sola no alcanza: **`trans
 
 Los institutos de los colegios nombran prácticas de alto volumen que ninguna lista estatal
 reconoce como rama, y son justamente las que tocan liquidaciones y plazos todos los días:
-consumidor, daños, salud, **seguros** y **propiedad horizontal**. El repositorio cubre las dos
-primeras; salud está cubierta pero acotada a discapacidad y prepagas.
+consumidor, daños, salud, seguros y propiedad horizontal. Las cinco tienen dónde vivir
+—`consumidor.md`, `civil.md`, `salud-discapacidad.md` con `salud-mental.md`, `seguros.md` y
+`derechos-reales.md` 45.4—; salud está acotada a discapacidad, prepagas y salud mental.
 
 ## Huecos con respaldo cruzado en varias fuentes
 
-- **Derechos reales** y **propiedad horizontal** — UBA y CPACF. El articulado está en casa, en
-  `fuentes/normas/ccycn-26994.txt`: Libro IV y arts. 2037 y siguientes. **No esperan descarga,
-  esperan módulo.**
 - **Los aranceles locales que no son el de PBA, el nacional ni el de CABA.** Están cargados el
   bonaerense (Ley 14.967, con calculadora), el nacional y federal (Ley 27.423) y el de la justicia
-  de la Ciudad (Ley 5.134). Falta el resto de las provincias, y ninguna serie de valores está
-  cargada: ni la del jus porteño ni la de las dos UMA.
+  de la Ciudad (Ley 5.134). Falta el resto de las provincias, y de las series de valores sólo está
+  la UMA nacional: ni el jus porteño ni la UMA porteña anterior a la vigente.
+- **Las leyes notariales y los procesos de familia de las demás provincias**, y la pieza que
+  firma el órgano en el fuero penal y en el de familia: está dicho en la tabla de arriba, y el
+  costo de cada uno en [`PENDIENTES.md`](PENDIENTES.md), bajo *El trabajo de fondo*.
 
 ## Cómo entra una rama nueva
 

@@ -1,0 +1,589 @@
+Ley 13.406 PBA - Procedimiento de apremio para el cobro judicial de créditos fiscales (texto actualizado)
+==============================================================================
+Jurisdicción:     pba
+Fuente:           https://normas.gba.gob.ar/documentos/xAzPYioB.html
+Descargado:       2026-09-23
+SHA-256 (crudo):  229e393135408efdc888c7bbf0f2a8d8a2c2a1d1c5d170ffcc06b5415f482af7
+Charset:          UTF-8
+
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
+el manifiesto `normas.json`.
+==============================================================================
+
+Ley 13406
+
+LEY 13406
+
+
+
+Texto Actualizado con las modificaciones introducidas por Ley 13930, 14333, 14880, 15007, 15016 y 15558.
+
+
+
+EL SENADO Y CÁMARA DE DIPUTADOS DE LA PROVINCIA DE BUENOS AIRES,
+
+
+
+SANCIONAN CON FUERZA DE
+
+
+
+LEY
+
+
+
+ARTÍCULO 1.- (Texto según Ley 15558) El cobro judicial de los créditos fiscales por tributos, sus accesorios y sus multas de la Provincia o municipalidades contra sus deudores y responsables, se hará por el procedimiento de apremio y principios establecidos en la presente Ley.
+
+
+
+ARTÍCULO 2.- (Texto según Ley 15558) A los efectos de la presente Ley será título ejecutivo el o los instrumentos a los que le asigne tal carácter la actora, siempre que resulten autosuficientes de acuerdo a las pautas de habilidad de esta norma y permitan el derecho de defensa abreviado también por esta norma del presunto deudor, tales como:
+
+
+
+1. La liquidación expedida por funcionarios autorizados al efecto y sus complementos correctivos, modificatorios o reliquidaciones expedidos con posterioridad en cualquier soporte, que se podrán incorporar al apremio antes de la intimación de pago. También antes de esta oportunidad el título ejecutivo podrá ser sustituido. La incorporación de instrumentos complementarios o reliquidaciones luego de trabada la litis podrá efectuarse garantizando el derecho de defensa del ejecutado.
+
+
+
+2. El original, testimonio o copia certificada de los instrumentos judiciales o resolución o acto administrativo del que resulte un crédito a favor del Estado. Incluyendo los créditos tributarios excluidos de acuerdos preventivos concursales.
+
+
+
+ARTÍCULO 3.- Serán competentes para entender en las acciones judiciales comprendidas en la presente Ley, a elección del actor, los Juzgados con competencia en la materia, que correspondan:
+
+
+
+1.- al domicilio fiscal del demandado en la Provincia; o,
+
+
+
+2.- al del lugar donde se encuentran los bienes o se desarrolla la actividad vinculados a la obligación que se ejecuta; o,
+
+
+
+3.- al lugar de cumplimiento de la obligación; o,
+
+
+
+4.- al domicilio real o legal del demandado, conforme lo legisla el Código Civil, siempre que se encuentre dentro del territorio de la Provincia; o,
+
+
+
+5.- los juzgados con competencia de la ciudad de La Plata, en los casos que el demandado no tuviere domicilio en la Provincia.
+
+
+
+En ningún caso la facultad que el Fisco confiera a los contribuyentes o responsables para el pago de sus obligaciones fuera de la jurisdicción provincial podrá entenderse como declinación de esta última. En el caso de existir varios créditos contra una misma persona podrán acumularse en una ejecución a elección del actor. No es admisible la recusación sin causa.
+
+
+
+ARTÍCULO 4.- (Texto según Ley 15558) Antes de la notificación de la demanda, la parte actora a su elección, podrá acumular varios créditos en una sola ejecución y efectuar la modificación o ampliación de la demanda y luego de trabada la Litis, en los supuestos y con la garantía establecida en el art 2 inciso 1) de la presente Ley.
+
+
+
+Si vencieren nuevos períodos de una misma obligación con posterioridad a la notificación de la demanda, podrá ampliarse la ejecución con arreglo a lo dispuesto en el Código Procesal Civil y Comercial.
+
+
+
+Si fuesen varios los ejecutados en razón de la misma obligación, el apremio tributario tramitará en un sólo juicio, unificándose la personería en un representante a menos que existan intereses encontrados a criterio del magistrado. Si a la primera intimación las partes no coincidiesen en la elección del representante único, el juez lo designará entre los que intervienen en el apremio y sin recurso alguno. Si alguno de los demandados opusiera excepciones que no sean comunes, se mandará formar incidente por separado.
+
+
+
+ARTÍCULO 5.- Con el escrito de inicio, el actor podrá acompañar los oficios para la traba de las medidas cautelares requeridas.
+
+
+
+Los autos principales deberán ser despachados y los oficios de traba de las medidas cautelares librados, dentro de los cinco (5) días hábiles contados desde el inicio del juicio.
+
+
+
+Las resoluciones de mero trámite o providencias que no causen estado podrán ser suscriptas por el Secretario o el Auxiliar Letrado autorizado por el magistrado interviniente.
+
+
+
+Las cédulas y oficios que se disponga librar deberán confeccionarse por secretaría y suscribirse por el Juez, Secretario o el Auxiliar Letrado autorizado por el magistrado interviniente, según corresponda, dentro de los cinco (5) días de haber sido proveídos.
+
+
+
+ARTÍCULO 6.- Al inicio del juicio de apremio o con posterioridad y en cualquier estado del proceso, la parte actora podrá solicitar toda medida cautelar o modificación de las decretadas con anterioridad, y el juez deberá disponerla, en el término de veinticuatro horas, sin más recaudos ni necesidad de acreditación de peligro en la demora, todo ello bajo responsabilidad del fisco. A tal fin, no resultará de aplicación lo previsto en el artículo 204° del Código Procesal Civil y Comercial.
+
+
+
+Podrá solicitarse, entre otras:
+
+
+
+a) Traba de embargos sobre:
+
+
+
+1) Dinero efectivo o cuentas o activos bancarios y financieros, a diligenciar directamente ante las entidades correspondientes para el supuesto de encontrarse determinadas, caso contrario ante el Banco Central de la República Argentina para que proceda a efectuar las comunicaciones pertinentes a las instituciones donde puedan existir, instruyendo la transferencia a cuenta de autos exclusivamente del monto reclamado con más lo presupuestado para responder a intereses y costas. Para el caso de resultar insuficientes, las cuentas permanecerán embargadas hasta que se acredite y transfiera el monto total por el cual procedió la medida asegurativa del crédito fiscal.
+
+
+
+La entidad requerida deberá informar al Juzgado en el plazo de cinco (5) días hábiles desde la toma de razón, el detalle preciso de las cuentas u operaciones activas a nombre del ejecutado, su saldo y los movimientos registrados durante los tres (3) días previos a la traba de embargo.
+
+
+
+Igualmente deberá precisar si existe en esa entidad caja de seguridad a nombre del ejecutado detallando la numeración precisa que permita individualizarla para un eventual embargo de objetos de valor allí existentes.
+
+
+
+El incumplimiento en el envío de la información requerida, en caso de ausencia de embargo de la totalidad de los fondos requeridos, hará pasible a la entidad solicitada, gerente o responsable de una multa de cincuenta (50) ius por cada día de retardo y el Juez deberá radicar la correspondiente denuncia.
+
+
+
+2) Créditos, efectos, valores y derechos realizables en el acto o a corto plazo.
+
+
+
+3) Sueldos u otras remuneraciones siempre que sean superiores a seis salarios mínimos, en las proporciones que prevé la ley.
+
+
+
+4) Bienes inmuebles y muebles sean o no registrables. Los Registros Públicos deberán informar en forma simultánea la toma de razón de la cautelar y la existencia de cualquier otra restricción, gravamen o derecho real constituido e inscripto con anterioridad.
+
+
+
+En caso de embargo de bienes existentes en caja de seguridad, el Juez ordenará el procedimiento sin más trámite. El oficial de justicia que lleve a cabo la medida y quienes participen en la misma, deberán preservar el derecho a la intimidad del titular de la caja de seguridad, guardando secreto respecto a la existencia de efectos personales no susceptibles de valor económico.
+
+
+
+b) Intervención de caja y embargo de las entradas brutas equivalentes al veinte (20) por ciento y hasta el cuarenta (40) por ciento de las mismas. En estos supuestos, el interventor deberá informar y depositar los importes recaudados dentro de las 24 horas hábiles posteriores, o en el plazo que el Juez fije que no podrá exceder los diez (10) días hábiles, desde que se comenzó a efectivizar la medida. El juez podrá autorizar la realización de transferencias electrónicas.
+
+
+
+c) Inhibición general de bienes e incluso su extensión a los activos bancarios y financieros, pudiendo oficiarse a las entidades bancarias correspondientes o al Banco Central de la República Argentina. En el caso de que la medida se trabe ante el Registro de la Propiedad Inmueble de la Provincia de Buenos Aires, este deberá informar al Juez si existen otras medidas cautelares idénticas trabadas contra el demandado, detallando su origen y vigencia, además deberá informar los bienes de los que resulta titular, aunque sea parcialmente, el accionado y expedirá en caso afirmativo copia de todos esos asientos.
+
+
+
+En todos los casos, las anotaciones y levantamientos de las medidas asegurativas del crédito fiscal como así también las órdenes de transferencia de fondos que tengan como destinatarios los registros públicos, instituciones bancarias o financieras, podrán efectivizarse a través de sistemas y medios de comunicación informáticos.
+
+
+
+El Juez deberá priorizar la traba y mantenimiento de cautelares sobre montos líquidos en lugar de hacerlo sobre bienes realizables, excepto petición o consentimiento expreso de la parte actora.
+
+
+
+Con la información proveniente de cada cautelar, el Juez podrá de oficio o a pedido de parte, previo traslado al actor por cinco (5) días, que será notificado personalmente o por cédula, resolver respecto del levantamiento o reducción de alguna de las medidas cuando resulte evidente la suficiencia de la cautela y pueda ocasionarse un perjuicio al demandado.
+
+
+
+La providencia deberá ser notificada por cédula siendo apelable dentro de los cinco (5) días. El recurso se fundará en el mismo escrito de interposición y se concederá con efecto suspensivo para el supuesto en que el auto ordene el levantamiento o la reducción de alguna de las medidas.
+
+
+
+El mismo procedimiento, en la parte que resulte pertinente, deberá llevarse adelante para evaluar el mantenimiento de las medidas cautelares que se hubieran adoptado en sede administrativa antes del inicio del apremio.
+
+
+
+En todos los casos el Fisco y sus apoderados estarán exentos de dar fianza o caución.
+
+
+
+En los casos de embargos de inmuebles e inhibiciones generales de bienes a trabarse en el Registro de la Propiedad Inmueble de esta Provincia serán decretadas con su reinscripción si así fuera solicitado. El diligenciamiento de ambos oficios podrá efectuarse en el mismo día relacionándolas con el número de expediente judicial.
+
+
+
+(Párrafo incorporado por Ley 15558) La actora podrá solicitar el levantamiento o sustitución de las cautelares en cualquier momento sin que le resulte exigible ningún recaudo previo. Por instrucción de su mandante provincial se exceptuarán de las tasas por servicios registrales de la Ley Nº 10.295 y modificatorias.
+
+
+
+ARTÍCULO 7.- (Texto según Ley 15558) Si el juez encontrara en forma el título ejecutivo, ordenará mandamiento de intimación de pago y embargo por el monto total consignado en el documento cartular y sus eventuales complementos, incluyendo capital e intereses legales liquidados a la fecha de emisión del título, con más el cincuenta por ciento (50%) sin decimales que se presupuesta para responder a intereses, costos y costas, y en el mismo auto citará de remate al deudor para que oponga excepciones en el término de cinco (5) días.
+
+
+
+En el caso de los créditos tributarios provinciales el mandamiento de intimación de pago se librará al domicilio fiscal del art. 32 del Código Fiscal de esta Provincia que tiene el carácter de constituido para las notificaciones judiciales o al domicilio fiscal electrónico a elección de la actora.
+
+
+
+Luego de intimado de pago, deberá constituir nuevo domicilio procesal conforme lo establece el art. 40 del Código Procesal Civil y Comercial, bajo apercibimiento de tenerlo por constituido en los estrados del juzgado conforme lo prescripto por el artículo 41 de dicho cuerpo legal, para todas las notificaciones posteriores sin excepciones.
+
+
+
+La diligencia de intimación de pago es un trámite renunciable y cualquier presentación judicial por parte de los ejecutados, a partir de la providencia judicial a que se refieren los párrafos precedentes, implicará que se notifican de las cautelares dispuestas, de la ejecución en general y que quedan citados de remate, comenzando a correr el término legal para oponer excepciones.
+
+
+
+Si se embargaren bienes muebles se intimará al ejecutado para que manifieste en el mismo término, si los bienes embargados reconocen prenda u otro gravamen, debiendo en este caso denunciar su monto, nombre y domicilio del acreedor, y juzgado interviniente.
+
+
+
+ARTÍCULO 8.- (Texto según Ley 15558)En la diligencia de intimación de pago se notificarán las medidas cautelares dispuestas por el Juez, independientemente de que se hayan trabado o no, supliendo de tal forma lo previsto por el artículo 198 del Código Procesal Civil y Comercial. No habrá ninguna otra notificación de cautelares en este proceso.
+
+
+
+Si el ejecutado se presentare espontáneamente a oponer excepciones o formalizare acogimiento en el marco de regímenes de facilidades de pago se considerará notificado de las medidas cautelares dispuestas.
+
+
+
+ARTÍCULO 9.- Las únicas excepciones oponibles en este procedimiento son las siguientes:
+
+
+
+a) Incompetencia de jurisdicción.
+
+
+
+b) Falta de personería en el ejecutante o sus representantes
+
+
+
+c) Inhabilidad del título ejecutivo, la cual deberá fundarse únicamente sobre las formas extrínsecas. En ningún caso los jueces admitirán en este proceso controversias sobre el origen del crédito ejecutado o legitimidad de la causa.
+
+
+
+Las formas extrínsecas a las que se refiere este inciso son exclusivamente la identificación del legitimado pasivo, la firma del funcionario autorizado, el lugar y fecha de creación, la existencia de la suma total del crédito o de sumas parciales y la identificación del tributo adeudado.
+
+
+
+d) Pago total documentado.
+
+
+
+e) Prescripción.
+
+
+
+f) Plazo concedido expresamente por acto administrativo y documentado.
+
+
+
+g) Pendencia de recursos concedidos con efecto suspensivo.
+
+
+
+h) Litispendencia.
+
+
+
+ARTÍCULO 10.- (Párrafo según Ley 15558) Las excepciones deberán ser opuestas y fundadas por el demandado en el mismo escrito en que se articulen y acompañarse la totalidad de la prueba documental que obre en su poder y ofrecer la restante de la que intente valerse. Se consume el plazo para ejercer su derecho de defensa en esa ocasión sin posibilidad de ampliarlo en posteriores presentaciones.
+
+
+
+El juez desestimará sin sustanciación alguna las excepciones que no fueren autorizadas por esta ley o que no se hubieren opuesto en forma clara y concreta, cualquiera fuere el nombre que el ejecutado les hubiese dado e inmediatamente dictará sentencia de trance y remate.
+
+
+
+Esta sentencia será inapelable.
+
+
+
+Si las defensas opuestas fueren de puro derecho o se fundaren exclusivamente en constancias del expediente judicial o no se hubiere ofrecido prueba, previo traslado al actor, se resolverán las mismas, sin abrir la causa a prueba.
+
+
+
+ARTÍCULO 11.- Opuestas las excepciones en la forma prevista en el artículo anterior, el juez conferirá traslado de las mismas y de la prueba documental acompañada a la parte actora. Esta última deberá contestarlas en el término de veinte (20) días de notificado personalmente o por cédula a su domicilio constituido. Con la réplica deberá acompañar la prueba documental obrante en su poder y ofrecer la restante, incluyendo en esta última las actuaciones administrativas que estime pertinentes.
+
+
+
+Si se estimare que las mismas no son admisibles, el juez dictará sentencia de trance y remate.
+
+
+
+(Párrafo según Ley 15558)En ningún caso, podrán disponerse medidas para mejor proveer que anticipen las posibilidades de defensa a ejercer eventualmente en el proceso de conocimiento posterior al que se refiere el artículo 13 in fine.
+
+
+
+ARTÍCULO 12.- Previo al dictado de la sentencia de trance y remate, de resultar pertinente, se abrirá a prueba el juicio, por el término de diez (10) días improrrogables.
+
+
+
+Las únicas pruebas admisibles serán la documental, la pericial sobre dichos documentos y la de informes a organismos oficiales provinciales o bancarios.
+
+
+
+ARTÍCULO 13.- (Texto según Ley 15558) Cuando se hubieren opuesto excepciones legítimas o se hubiere rechazado total o parcialmente la acción, podrán interponerse contra la sentencia en forma fundada y dentro de los cinco (5) días de notificados personalmente o por cédula, recurso de apelación. La actora podrá apelar siempre que no se acogiera en forma íntegra su pretensión, o en el curso del proceso se declarare inconstitucional algún precepto de la presente norma o se inaplicare el tenor literal de la misma en contravención con sus principios, especialmente el de celeridad. El demandado que no se hubiera presentado quedará notificado ministerio ley en los estrados del juzgado de la sentencia de trance y remate así como de todas las resoluciones sin excepción que a posteriori se dicten en la causa.
+
+
+
+Confirmada por la alzada la sentencia desfavorable al ejecutado luego de este proceso de defensas abreviadas podrá promover, dentro del quinto día de notificado, un proceso de conocimiento pleno que tramitará por la vía sumaria para ampliar su defensa formal ejercida en esta ejecución.
+
+
+
+ARTÍCULO 14.- Al ejecutado que hubiese litigado sin razón valedera u obstruido el curso normal del proceso con defensas o argumentos manifiestamente improcedentes, o que hubieren demorado injustamente el trámite, se le impondrá una multa a favor del ejecutante, cuyo monto oscilará entre el ocho (8) y el quince (15) por ciento del importe de la deuda.
+
+
+
+ARTÍCULO 15.- (Texto según Ley 15558) Encontrándose firme la sentencia de remate todo traslado será por el plazo de dos (2) días hábiles y se notificará exclusivamente en el domicilio electrónico de quienes lo hubieran constituido o en los estrados del juzgado.
+
+
+
+Si no existieren sumas líquidas embargadas la actora, con la sola denuncia del monto actualizado de la deuda, podrá solicitar las medidas ejecutorias que estime pertinentes que se dispondrán sin más trámite.
+
+
+
+Si existieren sumas líquidas embargadas, la actora practicará liquidación de capital e intereses. Aprobada la liquidación y resultando suficientes los montos embargados se transferirán a la cuenta que denuncie la actora. Luego de transferidos los fondos que resulten cancelatorios del crédito ejecutado se regularán honorarios profesionales y se practicará liquidación de las restantes tasas, costos y costas.
+
+
+
+Si las sumas líquidas embargadas fueren insuficientes se procederá a la venta de los bienes embargados del deudor o a embargar nuevos bienes que denuncie la actora conforme se prevé en los artículos 16 y siguientes.
+
+
+
+A los fines de la venta en subasta se designará martillero al que proponga el actor, por auto, que se notificará en la forma prevista en el artículo 133 del Código Procesal Civil y Comercial. El ejecutado sólo podrá recusar con causa al martillero dentro del tercer día de notificada su designación.
+
+
+
+Se exceptúa de lo previsto en el presente artículo y concordantes, la ejecución de sentencias de remate que hubieren sido dictadas en apremios por créditos fiscales provenientes de tributos cuya autoridad de aplicación sea la Agencia de Recaudación de la Provincia de Buenos Aires (ARBA), en cuyo caso, la ejecución de la sentencia podrá ser llevada a cabo, a opción del actor, conforme lo previsto en el Código Fiscal –Ley 10.397 y modificatorias-.
+
+
+
+ARTÍCULO 16.- (Texto según Ley 15558) Si los bienes embargados fueran inmuebles, la actora podrá solicitar se diligencie mandamiento de constatación del inmueble y ocupantes para evaluar la conveniencia de impulsar su venta forzada.
+
+
+
+Habiendo librado o no el mandamiento del párrafo precedente, a solicitud de la actora el juez ordenará la venta en subasta con sólo estos requisitos: a) Informe de dominio y gravámenes emitido por el registro de la propiedad donde se encuentre inscripto; y b) Informe de anotaciones personales de la ejecutada que revistiera el carácter de titular dominial.
+
+
+
+No será necesario para ordenar ni para realizar la venta en subasta del inmueble la agregación del título de propiedad.
+
+
+
+En el auto de venta en remate deberán disponerse los recaudos necesarios para llevarla adelante en la plataforma de subasta judicial electrónica existente en el Poder Judicial, a cuyo fin deberá adaptarse a las pautas de subasta de esta Ley.
+
+
+
+En el mismo auto se dispondrá:
+
+
+
+1) La designación de martillero y perito tasador propuesto por la actora, quien puede haber aceptado el cargo previamente o en cualquier momento y en forma personal o mediante escrito electrónico efectuado desde su casilla virtual o desde la del apoderado de la actora.
+
+
+
+2) La publicación de edictos por parte del martillero designado.
+
+
+
+3) El libramiento de oficios a jueces embargantes e inhibientes.
+
+
+
+4) El cumplimiento por parte del martillero designado de restantes recaudos del art. 568 del Código Procesal Civil y Comercial.
+
+
+
+5) El libramiento de mandamiento de constatación del inmueble, ocupantes y su carácter, por Oficial de Justicia Ad Hoc o de la Oficina de Mandamientos y Notificaciones, con habilitación de días y horas inhábiles y facultad de ingresar al domicilio y requerir el auxilio de la fuerza pública si fuere menester. Para esta diligencia el martillero propuesto será designado también como Oficial de Justicia Ad Hoc para esta constatación y la tasación del primer inciso de este artículo.
+
+
+
+6) La intimación al ejecutado exclusivamente al domicilio electrónico constituido o a los estrados del juzgado (Arts. 40 ó 41 del C.P.C.C.) por cinco (5) días para que presente los títulos de propiedad, bajo apercibimiento de sacarse copia de ellos de los protocolos públicos a su costa, resultando tal gestión gratuita para el Fisco actor y sujeto a recupero con el producido de la subasta.
+
+
+
+Toda la documentación necesaria para llevar adelante las diligencias debe ser librada dentro de los cinco (5) días desde el dictado del auto de venta y diligenciadas por los responsables de efectuarlas dentro de los quince (15) días desde su libramiento. El plazo para practicarlas o evacuar los traslados no podrá superar los quince (15) días.
+
+
+
+El incumplimiento de las diligencias señaladas en los plazos establecidos precedentemente podrá ser considerado en forma desfavorable al momento de regulación de los honorarios de esos profesionales.
+
+
+
+Cumplidos los requisitos indicados precedentemente el martillero denunciará judicialmente la fecha de subasta que fije o su ingreso a subasta electrónica en caso de ser posible.
+
+
+
+Al fijar el martillero las fechas de las subastas el Juez librará oficio a la Jefatura de Policía para que preste la debida colaboración a fin de mantener el orden durante el remate. En dicho oficio se consignará el nombre del martillero, fecha y lugar de la subasta.
+
+
+
+La base para la primera subasta equivaldrá al ochenta (80) por ciento de la tasación realizada por el perito tasador. Si fracasare la primera subasta por falta de postores, se dispondrá otra con la base reducida a un sesenta (60) por ciento de la tasación. Si tampoco existieren postores, la actora podrá proponer realizar la venta sin limitación de precio, o con el que proponga.
+
+
+
+La primer y segunda subasta se ordenarán en un acto único y previéndose su realización con un plazo no mayor a veinte (20) días entre una y otra.
+
+
+
+El adquirente deberá depositar el saldo del precio dentro de los cinco (5) días de la realización de la subasta.
+
+
+
+Realizado el remate el adquirente en subasta podrá manifestar su conformidad con el informe de dominio agregado con lo que resultará innecesaria la agregación del título de propiedad para la aprobación de la venta forzada. Sólo en caso de disconformidad fundada por parte del adquirente en subasta, el remate no resultará aprobado hasta la agregación del título de propiedad o segundo testimonio. En este último supuesto la tramitación se encontrará a cargo y costa del adquirente que no podrá demorar más de veinte (20) días hábiles.
+
+
+
+Aprobado el remate se intimará al comprador para que inscriba o protocolice la venta efectuada en la subasta en un plazo de treinta (30) días hábiles y lo acredite judicialmente bajo apercibimiento de multa equivalente al valor de un Jus Arancelario diario.
+
+
+
+Los fondos deberán ser inmediatamente transferidos a la cuenta que denuncie el actor, si no existieran acreedores con derecho preferente al cobro sobre el producto de la venta y con deducción de los gastos de inscripción directa o protocolización notarial que correspondan al vendedor; impuestos que gravan al bien, deudas por expensas comunes, gastos del remate y eventualmente los que correspondan a la obtención del título a la que se refiere el inciso 6) de este artículo.”
+
+
+
+ARTÍCULO 17.- A los efectos de la subasta de los bienes muebles, el juez dictará el auto de subasta con los requisitos del artículo anterior que fueren pertinentes y designará tasador a quien hubiese sido propuesto por la parte actora, el que podrá aceptar el cargo en el mismo escrito de propuesta.
+
+
+
+Al fijar el martillero la fecha de la subasta el Juez librará oficio a la Jefatura de Policía para que preste la debida colaboración a fin de mantener el orden durante el remate. En dicho oficio se consignará el nombre del martillero, fecha y lugar de la subasta.
+
+
+
+La venta será ordenada con una base equivalente al ochenta (80) por ciento de la tasación.
+
+
+
+En caso de fracasar la subasta por falta de postores, se ordenará una nueva venta con una base disminuida hasta el cincuenta (50) por ciento de la primera, según pedido de la actora.
+
+
+
+ARTÍCULO 18.- (Texto según Ley 15558) Con el auto de subasta ya sea de bienes muebles o inmuebles el Juez ordenará la publicación de edicto en el Boletín Judicial gratuito para la actora y por un sólo día, y cuando el caso lo requiera o lo solicite la actora, sin perjuicio de lo dispuesto por el artículo 560 del Código Procesal Civil y Comercial, deberá efectuarse también, tal publicación, en el diario más apropiado para la publicidad de la subasta. Para ello, deberá tenerse en cuenta la especialización dentro del rubro de los objetos a rematar o su caudal de circulación, con preferencia a los diarios de la localidad.
+
+
+
+Los gastos de publicación en el Boletín Oficial y restante publicidad se abonarán posteriormente con el producido del remate.
+
+
+
+ARTÍCULO 18 BIS: (Artículo Incorporado por Ley 14333) (Texto según Ley 15558) La declaración de caducidad podrá ser pedida en primera instancia, por el demandado; en los incidentes, por el contrario de quien lo hubiere promovido; en los recursos, por la parte recurrida. La petición deberá formularse antes de consentir el solicitante cualquier actuación del juez o tribunal posterior al vencimiento del plazo legal y se sustanciará previa intimación a las partes para que en el término de diez (10) días manifiesten su intención de continuar con la acción y produzcan actividad procesal útil para la prosecución del trámite, bajo apercibimiento en caso de incumplimiento, de decretarse la caducidad de la instancia.
+
+
+
+La caducidad no podrá ser intimada ni declarada de oficio.
+
+
+
+En los juicios de apremio en que el Fisco Provincial sea parte, la solicitud de caducidad de instancia y su resolución deberán ser notificadas al Fiscal de Estado en su despacho sito en la Ciudad de La Plata, y al domicilio constituido en autos.
+
+
+
+ARTÍCULO 19.- (Texto según Ley 14333) Los jueces intervinientes no proveerán escritos en los que se desista de la acción y/o del derecho, o en los que los apoderados fiscales respondan a la intimación del artículo 18 bis, sin que se acompañe a las actuaciones la pertinente instrucción en tal sentido, emanada del Fiscal de Estado o del funcionario a quien éste hubiere delegado esas atribuciones.
+
+
+
+(Párrafo incoriporado por Ley 15558) El desistimiento de la acción y/o del derecho de la actora deberá resultar expreso y no podrá ser ficto o interpretado como consentido por ninguna intimación bajo apercibimiento de desistimiento.
+
+
+
+ARTÍCULO 20.- Las instituciones públicas o privadas evacuarán dentro del término de diez (10) días las solicitudes de informes, antecedentes o certificaciones que les soliciten la Fiscalía de Estado o los abogados representantes del fisco en ejercicio de sus funciones sin intervención del Juzgado actuante. En los oficios deberán constar los autos en que se intenten hacer valer detallando su radicación y si la diligencia será retirada por el propio solicitante, será entregada en el domicilio que éste indique o remitida la Juzgado interviniente. A solicitud de las personas autorizadas para su diligenciamiento, las instituciones públicas o privadas a las que se le remitan oficios librados en juicios de apremio deberán extender constancia escrita de la fecha y hora de su recepción.
+
+
+
+Las instituciones privadas que sin causa justificada no contestaren en el plazo otorgado, se les impondrá una multa de diez (10) jus arancelarios por cada día de retardo. La resolución que imponga la multa será inapelable.
+
+
+
+ARTÍCULO 21.- Los abogados representantes del fisco que intervengan en el proceso podrán solicitar, en cualquier estado del proceso, el expediente judicial en préstamo por tres (3) días bajo su responsabilidad. El préstamo deberá ser concedido en forma inmediata y registrarse en el libro respectivo. Si se denegare el pedido de préstamo solicitado, dicha denegatoria deberá ser fundada en el acto. El retiro del expediente importa automáticamente la ampliación en dos (2) días de cualquier plazo que comience a correr con la notificación tácita.
+
+
+
+ARTÍCULO 22.- (Texto según Ley 15016) Los honorarios de los profesionales se regularán dentro de una escala del seis (6) al dieciocho (18) por ciento, con un mínimo de tres (3) Jus arancelarios calculados conforme a la derogada Ley 8904 para aquellos iniciados antes del 21 de octubre de 2017 y conforme a la Ley vigente para aquellos iniciados a partir del 21 de octubre de 2017 inclusive, considerándose una sola etapa desde el inicio del juicio hasta la sentencia de trance y remate. La base regulatoria y de cálculo de las restantes costas estará constituida por el monto de la sentencia, con excepción del supuesto que el contribuyente o responsable convenga extrajudicialmente el ingreso a un plan de facilidades de pago para deuda en ejecución judicial, en cuyo caso la base regulatoria y de cálculo de las restantes costas estará constituida por el monto reclamado calculado con los beneficios que otorgue el plan de facilidades de pago.
+
+
+
+ARTÍCULO 23.- (Texto según Ley 15558) Tratándose de ejecuciones de créditos fiscales provenientes de tributos o sus accesorios cuya autoridad de aplicación sea la Agencia de Recaudación de la Provincia de Buenos Aires (ARBA), el acuerdo extrajudicial de pago consistente en la aceptación de la deuda por parte del contribuyente, establecimiento de la forma de cancelación de costas y el compromiso de cancelación o acogimiento por parte del mismo a un plan de facilidades de pago, podrá ser presentado judicialmente por cualquiera de las partes, sin que resulte necesario proceder a su homologación.
+
+
+
+Acreditados los pagos de las costas se procederá al archivo del proceso por regularización por el término de veinticuatro (24) meses, vencido dicho período podrá solicitarse se informe si se ha cancelado para archivarlo eventualmente en forma definitiva por cancelación total de la ejecución.
+
+
+
+Para el caso en que no se concrete el acogimiento comprometido, o habiéndose acogido el plan haya caducado, la actora podrá solicitar la homologación del convenio previo a la ejecución del saldo. Para efectuar el reconocimiento de la firma del ejecutado por secretaría se intimará al ejecutado exclusivamente al domicilio procesal que hubiere constituido o al domicilio fiscal contenido en el título ejecutivo, a reconocer la firma bajo apercibimiento de tenerla por reconocida en caso de incomparecencia.
+
+
+
+Si fuere reconocida o se hubiere hecho efectivo el apercibimiento de tenerla por reconocida, el Juez procederá a homologar el acuerdo sin más trámite lo que equivaldrá a la sentencia de remate. Ninguna intimación será requerida si la firma del convenio hubiere sido certificada previamente ante el Secretario del Juzgado o notarialmente.
+
+
+
+El pago que se efectuare de los servicios registrales de traba y levantamiento de cautelares de la Ley 10.295 al valor vigente en esa oportunidad resultará cancelatorio, aunque se concrete en otro momento.
+
+
+
+ARTÍCULO 24.- (Texto según Ley 15007) Las intimaciones de pago que deban practicarse se efectuarán en el domicilio fiscal del deudor conforme lo preceptúa la Ley 10397 y modificatorias.
+
+
+
+En aquellos supuestos en que no se disponga la notificación telemática al domicilio fiscal electrónico, el acta de la diligencia de intimación de pago podrá ser firmada electrónica o digitalmente por el Oficial de Justicia dependiente del Poder Judicial o el Ad Hoc designado.
+
+
+
+El acta citada en el párrafo precedente, como cualquier otra documentación, podrá ser acompañada digitalizada, permaneciendo en custodia del patrocinante o la parte presentante hasta que el juez o la contraparte solicite su presentación física si lo estimara conveniente. En caso de ausencia de presentación física cuando el juez lo requiera se tendrá por no presentada, sin perjuicio de la validez de situaciones consentidas o etapas procesales precluídas.
+
+
+
+En caso de no encontrarse por cualquier motivo al ejecutado se hará entrega del mandamiento a quien allí se domicilie o se fijará en la puerta de acceso al domicilio o en la general del edificio si no se permitiere su ingreso.
+
+
+
+Todas las notificaciones posteriores se harán en el domicilio constituido procesalmente conforme a los artículos 40 o 41 del Código Procesal Civil y Comercial.
+
+
+
+La notificación electrónica se utilizará en todos los casos cuando el receptor de la comunicación posea domicilio fiscal electrónico en autos, por lo que no resultará de aplicación la excepción prevista en el artículo 143 del Código Procesal Civil y Comercial respecto a las notificaciones previstas en los incisos 1 y 12 del artículo 135 de dicho cuerpo normativo, así tampoco respecto del inciso 10 del mismo artículo cuando el tercero posea domicilio fiscal electrónico obligatorio.
+
+
+
+Asimismo, en los supuestos en los que resultare obligatoria la constitución del domicilio electrónico, las notificaciones que allí se dirijan tendrán los mismos efectos que las dirigidas al domicilio real en todos los casos en que corresponda anoticiar personalmente a la demandada.
+
+
+
+A los efectos de cualquier notificación, de practicar embargo, de intimar de pago, efectuar secuestros o intervenciones de caja, el actor podrá proponer oficiales de justicia ad hoc, quienes actuarán con las atribuciones y responsabilidades de los titulares y podrán aceptar el cargo en el mismo escrito en que son propuestos, posteriormente o al momento de retirar la cédula o el mandamiento, tanto en escrito físico con firma ológrafa como en presentación electrónica.
+
+
+
+Los jueces podrán autorizar notificaciones por telegrama colacionado, carta documento o cualquier otro medio fehaciente, a solicitud del actor y en este caso, servirá como suficiente prueba de la notificación al ejecutado el recibo especial que expida la empresa a cargo del servicio público de correos y telecomunicaciones, contándose los términos a partir de la fecha consignada en el mismo.
+
+
+
+ARTÍCULO 24 BIS.- (Texto según Ley 15007) (Artículo Incorporado por Ley 13930). Todos los actos procesales que se efectúen en el marco de la ejecución fiscal -incluida la demanda o cualquier medida preliminar- podrán ser producidos, almacenados, reproducidos, transmitidos y notificados por medios técnicos, electrónicos, informáticos o telemáticos, debiendo utilizarse la firma digital de acuerdo con lo previsto en la Ley Nacional 25506 y la Ley Provincial 13666, y en todas aquellas normas que las sustituyan, complementen o reglamenten.
+
+
+
+La Suprema Corte de Justicia de la Provincia de Buenos Aires determinará la forma, modo y condiciones en que se llevará adelante lo establecido en el párrafo anterior, pudiendo disponer la digitalización del proceso de ejecución en forma parcial o total. Asimismo, podrá disponer la constitución voluntaria u obligatoria de un domicilio procesal electrónico, en el cual se realizarán todas aquellas notificaciones, comunicaciones, apercibimientos, intimaciones, requerimientos y traslados que resulten necesarios, los cuales resultarán válidos y vinculantes, de conformidad con lo previsto en la presente. En estos casos, la recepción de las notificaciones, comunicaciones, apercibimientos, intimaciones, requerimientos y traslados se acreditará mediante las constancias emitidas por el sistema informático respectivo.
+
+
+
+Cuando por desperfectos técnicos no resulte factible realizar el acto procesal que corresponda, por no encontrarse en funcionamiento durante toda la jornada el sistema operativo del Poder Judicial, los plazos quedarán automáticamente prorrogados hasta el primer día hábil posterior a aquel en el cual se hubieren solucionado dichos desperfectos.
+
+
+
+ARTÍCULO 24 TER.- (Texto según Ley 15007) (Artículo Incorporado por Ley 13930) La Suprema Corte de Justicia de la Provincia de Buenos Aires podrá disponer el establecimiento de un boletín judicial electrónico, que estará disponible a través de internet, y que se aplicará en todos aquellos supuestos en los que corresponda aplicar el sistema de notificación por nota previsto en el artículo 133 del Código Procesal Civil y Comercial de la Provincia de Buenos Aires, como así también en aquellos casos en los que la normativa vigente prevea la notificación en los estrados del órgano judicial.
+
+
+
+En todos estos casos, las providencias deberán estar firmadas digitalmente, conforme lo previsto en la Ley 13666, y sus normas modificatorias y reglamentarias.
+
+
+
+Las providencias se considerarán publicadas el primer día hábil siguiente al de su puesta a disposición de los interesados a través del mencionado boletín judicial electrónico, y la notificación se considerará efectuada luego de dicha publicación, en las fechas que correspondan conforme lo previsto en el artículo 133 del Código Procesal Civil y Comercial de la Provincia de Buenos Aires.
+
+
+
+Cuando por desperfectos técnicos, no resulte factible consultar el boletín al que se refiere el presente artículo, por no encontrarse en funcionamiento durante toda la jornada el sistema operativo del Poder Judicial, los plazos quedarán automáticamente prorrogados hasta el primer día hábil posterior a aquel en el cual se hubieren solucionado dichos desperfectos.
+
+
+
+ARTÍCULO 24 QUATER.- (Artículo Incorporado por Ley 15007) La notificación electrónica tanto del mandamiento de intimación de pago como de los demás supuestos en que corresponda dirigir la comunicación al domicilio fiscal se considerará perfeccionada los días martes y viernes inmediatos posteriores a la fecha en que la notificación o comunicación se encontrara disponible en el citado domicilio, o el día siguiente hábil administrativo, si alguno de ellos fuera inhábil.
+
+
+
+En caso de verificarse desperfectos técnicos en el funcionamiento del sitio de internet de la Autoridad de Aplicación, expresamente reconocidos por la misma, el aviso, citación, intimación, notificación y/o comunicación se considerará perfeccionado el primer martes o viernes, o el día hábil inmediato siguiente -en su caso-, posteriores a la fecha de rehabilitación de su funcionamiento.
+
+
+
+Será responsabilidad exclusiva del contribuyente o responsable acceder a su domicilio fiscal electrónico con la periodicidad necesaria para tomar conocimiento de los avisos, citaciones, intimaciones, notificaciones y comunicaciones en general, allí enviados.
+
+
+
+A los fines de facilitar la toma de conocimiento de la notificación, se enviará un mensaje de cortesía -no vinculante- informando la novedad a la casilla de correo personal del demandado, cuando éste la haya denunciado ante la autoridad de aplicación tributaria de acuerdo a la normativa vigente.
+
+
+
+ARTÍCULO 25.- (Texto según Ley 15558) La presente Ley se complementará con las normas procesales contenidas en el Código Fiscal -Ley 10397 y sus modificatorias-.
+
+
+
+El Código Procesal Civil y Comercial de la Provincia de Buenos Aires será de aplicación supletoria en todas las situaciones no previstas en la presente Ley y en el Código Fiscal, resultando preminentes sobre aquel la definición de título ejecutivo y reliquidaciones, los principios de celeridad y economía procesal, notificaciones exclusivas a domicilios constituidos, prioridad de embargos ejecutivos y ejecutorios sobre bienes líquidos, y actuación judicial de oficio establecidos en la presente norma. Tales principios y normas aquí establecidas resultan preminentes sobre las facultades ordenatorias e instructorias otorgadas a los magistrados en el código citado.
+
+
+
+ARTÍCULO 26.- La presente ley entrará en vigencia el día siguiente al de su publicación, incluso para los planteos de incompetencia y excepciones en tratamiento que no cuenten con resolución firme, en cuyo caso las costas serán impuestas por su orden.
+
+
+
+ARTÍCULO 27.- Comuníquese al Poder Ejecutivo.

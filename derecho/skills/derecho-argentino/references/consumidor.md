@@ -817,6 +817,76 @@ quien lo solicite, y **exhibir un cartel visible** avisando que está a disposic
 El régimen se integra con los arts. 1117 a 1122 CCyCN, que agregan el control judicial de las
 cláusulas abusivas y su aprobación administrativa como no eximente.
 
+### 17.11.7 Tarjetas de crédito — Ley 25.065, y lo que el DNU 70/2023 le sacó
+
+Cotejada contra `fuentes/normas/ley-25065.txt`, texto actualizado con las Leyes 26.010, 26.361 y
+27.444 y el **DNU 70/2023 (B.O. 21/12/2023)**, que **derogó los arts. 5, 7, 8, 9 y 54 y los incisos
+c y e del art. 14**, y sustituyó los arts. 1, 2 inc. a, 4, 18, 22 y 25. **Rige la ley, y
+supletoriamente el CCyCN y la LDC** (art. 3): el resto de este módulo entra por esa puerta.
+
+**El sistema (arts. 1 y 2).** Un conjunto de contratos individuales para comprar, obtener préstamos
+y diferir o financiar el pago, entre **emisor** —cualquier entidad que emita tarjetas o haga
+efectivo el pago—, **titular** —responsable de todos los consumos, propios y de los autorizados—,
+**usuario adicional**, y **proveedor adherido**. La tarjeta puede ser **física o virtual** (art. 4,
+texto DNU). Las de **compra** y de **débito** están definidas en el art. 2 y alcanzadas en lo
+pertinente. La relación concluye cuando el titular no recibe la tarjeta renovada o comunica su
+voluntad por medio fehaciente (art. 11).
+
+**El contrato (arts. 6, 13 y 14).** Debe contener plazo, plazo de pago, pago mínimo, límites,
+**tasas compensatoria y punitoria**, cierre contable, cargos discriminados, procedimiento por
+pérdida o robo, seguros, firma —que en instrumento electrónico se satisface por cualquier método
+que asegure la voluntad y la integridad (inc. k, texto Ley 27.444)—, comisiones por retiro y
+consecuencias de la mora (art. 6). El que no se ajuste a la ley es **nulo e inoponible al titular,
+sus fiadores y adherentes** (art. 13). Son **nulas** las cláusulas que importen renuncia a los
+derechos de la ley, las que faculten al emisor a **modificar unilateralmente** las condiciones,
+las que cobren por avisar la pérdida o sustracción, las de **rescisión unilateral incausada**, las
+que impongan representante, **las que habiliten la vía ejecutiva directa** y las que **prorroguen
+la jurisdicción** (art. 14). Los incisos c y e están derogados por el DNU; lo que regulaban los
+arts. 7 a 9 sobre forma y perfeccionamiento ya no está en esta ley, y la forma del contrato de
+adhesión se lee en los arts. 984 a 989 del CCyCN y en 17.11.6.
+
+**Intereses (arts. 16 a 20).** El compensatorio **no puede superar en más del veinticinco por
+ciento** la tasa que el emisor aplica a préstamos personales, o el promedio del sistema que
+publica el BCRA del 1 al 5 de cada mes si el emisor no es bancario, y la tasa se exhibe en todos
+los locales (art. 16). Del punitorio, el texto del DNU sólo dice que **no se capitaliza** (art.
+18), y **no procede si se pagó el mínimo** en fecha (art. 19). El cómputo del compensatorio va por
+el art. 20: sobre el saldo financiado entre vencimientos, desde la extracción de dinero, y desde
+las fechas pactadas hasta el pago.
+
+**El resumen y su impugnación (arts. 22 a 30).** Resumen mensual, preferentemente electrónico
+(art. 22), con el contenido del art. 23 —cada operación con fecha, importe y proveedor, tasas y
+desde cuándo corren, pago mínimo, saldo anterior con **prohibición expresa de capitalizar**, y el
+**plazo para cuestionarlo en lugar visible**—, recibido **al menos cinco días antes del
+vencimiento**, con un canal telefónico de veinticuatro horas para saldo y mínimo si no llegó (art.
+25). El titular lo **cuestiona en treinta días** por nota simple detallando el error (art. 26); el
+emisor **acusa recibo en siete días y corrige o explica en quince**, sesenta en operaciones del
+exterior (art. 27); mientras dura, **no puede impedir el uso** de la tarjeta dentro del límite y
+sólo puede exigir el mínimo de lo no cuestionado (art. 28); el titular tiene **siete días** para
+decir si las explicaciones lo satisfacen, y si las observa el emisor resuelve fundado en **diez
+días hábiles**, tras lo cual queda **expedita la acción judicial para ambas partes** (art. 29);
+**pagar el mínimo no implica aceptar** el resumen (art. 30).
+
+**El cobro (arts. 39 a 42 y 47).** No hay título ejecutivo: el emisor **prepara la vía** con el
+reconocimiento judicial del contrato instrumentado en legal forma y del resumen con todos los
+requisitos legales, y acompaña **dos declaraciones juradas**: que no hubo denuncia de extravío o
+sustracción previa a la mora, ni cuestionamiento fundado previo a la mora (art. 39). La
+preparación **se pierde** si faltan esos requisitos, los contractuales de la ley o los del resumen
+del art. 23, y queda la vía ordinaria (art. 41); los saldos en **cuenta corriente abierta al solo
+fin de la tarjeta no son ejecutables directamente** (art. 42). Prescripción: **un año la acción
+ejecutiva, tres las ordinarias** (art. 47). Competencia: el juez del **domicilio del titular** o
+del fiador (art. 52). El emisor **es ajeno** a las controversias entre titular y proveedor, salvo
+que promueva el producto o al proveedor (art. 43). Autoridad de aplicación: el BCRA en lo
+financiero y la Secretaría de Comercio en lo comercial, con las provincias y la Ciudad como
+autoridades locales (art. 50, texto Ley 26.361). Orden público (art. 57).
+
+> **Las notas del consolidado son parte del texto.** Varios artículos —14, 16, 20, 27 a 29 y 52—
+> fueron **observados por el Decreto 15/99** al promulgar la ley y **confirmados por el Senado** el
+> 01/09/1999: rigen, y la nota lo dice en cada uno. Y el DNU 70/2023 es un decreto de necesidad y
+> urgencia cuya suerte judicial y legislativa no está en `fuentes/`:
+> `[VERIFICAR VIGENCIA: derogaciones y sustituciones del DNU 70/2023 sobre la Ley 25.065 -arts. 1, 2, 4, 5, 7 a 9, 14 incs. c y e, 18, 22, 25 y 54- a la fecha de la consulta, y qué tope de interés punitorio traía el art. 18 antes de la sustitución]`
+
+`[REVISIÓN NORMATIVA REQUERIDA: este bloque recorre los arts. 1 a 4, 6, 11, 13, 14, 16, 18 a 20, 22, 23, 25 a 30, 39 a 43, 47, 50, 52 y 57 de la Ley 25.065. Las operaciones en moneda extranjera, la relación emisor-proveedor -arts. 32 a 38- y las sanciones NO están recorridos, y la reglamentación del BCRA sobre tarjetas no está descargada. Sin fallo cargado sobre el tope de intereses ni sobre la preparación de la vía]`
+
 ---
 
 ## 17.12 · Oferta, publicidad y acción colectiva

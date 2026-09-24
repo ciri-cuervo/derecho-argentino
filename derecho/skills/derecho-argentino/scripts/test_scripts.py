@@ -1270,7 +1270,7 @@ class TestBanderasDeLaAyuda(unittest.TestCase):
             if not declaradas:
                 continue
             con_parser += 1
-            usadas = set(re.findall(r"--[0-9A-Za-zÁÉÍÓÚÑáéíóúñ][-0-9A-Za-zÁÉÍÓÚÑáéíóúñ]*",
+            usadas = set(re.findall(r"--[0-9A-Za-zÁÉÍÓÚÜÑáéíóúüñ][-0-9A-Za-zÁÉÍÓÚÜÑáéíóúüñ]*",
                                     self._docstring(texto)))
             huerfanas = sorted(usadas - declaradas)
             with self.subTest(guion.name):
@@ -1366,13 +1366,157 @@ class TestBanderasDeLaAyuda(unittest.TestCase):
                     continue
                 # Sólo lo que viene DESPUÉS del nombre del script: en
                 # `uv run --with X python3 ruteo.py`, el `--with` es de `uv`.
-                for f in re.findall(r"--[0-9A-Za-zÁÉÍÓÚÑáéíóúñ][-0-9A-Za-zÁÉÍÓÚÑáéíóúñ]*",
+                for f in re.findall(r"--[0-9A-Za-zÁÉÍÓÚÜÑáéíóúüñ][-0-9A-Za-zÁÉÍÓÚÜÑáéíóúüñ]*",
                                     linea[desde:] if desde else linea):
                     if f not in acepta[actual] and f != "--help":
                         huerfanas.append(f"{doc.relative_to(raiz)}:{n} {actual} {f}")
         self.assertEqual(huerfanas, [],
                          "la documentación manda correr banderas que el parser no acepta:\n  "
                          + "\n  ".join(huerfanas))
+
+
+class TestArticulo(unittest.TestCase):
+    """`articulo.py` devuelve un artículo con su procedencia, y sólo ése.
+
+    Existe por el corte de `Read`: 2.000 renglones, sin aviso, sobre normas de 5.000 y 27.000.
+    Lo que se prueba es el corte de artículos —que reconozca las cuatro grafías con que las
+    fuentes abren uno y que NO corte en una transcripción—, la normalización de lo que se pide,
+    y que la salida entre en cp1252, porque en Windows es lo que la consola acepta.
+
+    MUTACIÓN que lo comprueba: vaciar `ANUNCIA_TRANSCRIPCION` —que no mire el renglón
+    anterior— deja en rojo `test_una_transcripcion_no_corta`, porque el «Artículo 145 bis:»
+    citado dentro del art. 10 pasa a ser un encabezado y el art. 10 se corta ahí.
+    """
+
+    FIXTURE = """Ley 99.999 - De prueba (texto actualizado)
+==============================================================================
+Jurisdicción:     nacional
+Fuente:           https://example.invalid/texact.htm
+Descargado:       2026-09-01
+SHA-256 (crudo):  0000000000000000000000000000000000000000000000000000000000000000
+Charset:          utf-8
+
+Texto de prueba.
+==============================================================================
+
+El Senado y Cámara de Diputados sancionan con fuerza de Ley:
+
+ARTICULO 1° — Uno. Primer renglón del uno.
+Segundo renglón del uno.
+
+Art. 2° - Dos, con la grafía del CPCCN.
+
+ARTÍCULO 22 BIS: (Artículo Incorporado por Ley 14543) Tres, con la grafía bonaerense.
+
+ARTICULO 10. — Incorpórase como artículo 145
+bis del Código Penal, el siguiente:
+Artículo 145 bis: El que captare, transportare, será reprimido.
+Sigue el diez.
+
+ARTICULO 145 bis. - Cuatro, con la grafía del Código Penal.
+(Artículo sustituido por art. 25 de la Ley N° 26.842 B.O. 27/12/2012)
+
+Art. 245. —Cinco. Indemnización por antigüedad.
+
+Artículo 300° — Seis, con la grafía de la Ley 24.241.
+
+Artículo 301: Siete, con la grafía de una constitución provincial.
+
+ARTÍCULO 302º Ocho, sin puntuación, con la grafía de la Ley 14.656.
+"""
+
+    @classmethod
+    def setUpClass(cls):
+        import articulo
+        cls.mod = articulo
+        cls.tmp = tempfile.TemporaryDirectory()
+        base = pathlib.Path(cls.tmp.name) / "repo" / "derecho" / "fuentes"
+        (base / "normas").mkdir(parents=True)
+        (base / "MANIFIESTO.md").write_text("marca\n", encoding="utf-8")
+        (base / "normas" / "prueba.txt").write_text(cls.FIXTURE, encoding="utf-8")
+        cls.repo = base.parent.parent
+
+    @classmethod
+    def tearDownClass(cls):
+        cls.tmp.cleanup()
+
+    def _partes(self):
+        return self.mod.partir(self.FIXTURE.splitlines())
+
+    def test_reconoce_las_seis_grafias(self):
+        self.assertEqual(list(self._partes()),
+                         ["1", "2", "22 bis", "10", "145 bis", "245", "300", "301", "302"])
+
+    def test_la_formula_de_sancion_no_tapa_el_articulo_1(self):
+        """«sancionan con fuerza de Ley:» termina en dos puntos y precede al art. 1 de toda ley
+        de InfoLEG. MUTACIÓN: volver `ANUNCIA_TRANSCRIPCION` a un `:\\s*$` a secas deja esto
+        en rojo, y con ello el art. 1 de cada ley bajada."""
+        self.assertIn("1", self._partes())
+        self.assertIn("Primer renglón del uno", "\n".join(self._partes()["1"]))
+
+    def test_el_articulo_llega_entero_y_sin_el_siguiente(self):
+        uno = "\n".join(self._partes()["1"])
+        self.assertIn("Segundo renglón del uno", uno)
+        self.assertNotIn("Dos", uno)
+
+    def test_una_transcripcion_no_corta(self):
+        diez = "\n".join(self._partes()["10"])
+        self.assertIn("Artículo 145 bis: El que captare", diez)
+        self.assertIn("Sigue el diez", diez)
+
+    def test_lo_pedido_se_normaliza(self):
+        for forma in ("245bis", "245 BIS", " 245 bis "):
+            self.assertEqual(self.mod.pedido(forma), "245 bis")
+        self.assertEqual(self.mod.pedido("22 BIS"), "22 bis")
+        with self.assertRaises(ValueError):
+            self.mod.pedido("bis")
+
+    def _correr(self, *args):
+        entorno = dict(os.environ, DERECHO_AR_REPO=str(self.repo),
+                       XDG_CONFIG_HOME=str(pathlib.Path(self.tmp.name) / "cfg"))
+        return subprocess.run(
+            [sys.executable, str(pathlib.Path(__file__).parent / "articulo.py"), *args],
+            capture_output=True, text=True, env=entorno, cwd=self.tmp.name)
+
+    def test_cli_imprime_procedencia_y_el_articulo_pedido(self):
+        r = self._correr("prueba", "245", "22bis")
+        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+        for esperado in ("Ley 99.999 - De prueba", "Fuente:", "Descargado:", "SHA-256",
+                         "--- art. 245 · prueba", "Indemnización por antigüedad",
+                         "--- art. 22 bis · prueba", "grafía bonaerense"):
+            self.assertIn(esperado, r.stdout)
+        self.assertNotIn("Primer renglón del uno", r.stdout)
+        r.stdout.encode("cp1252")
+
+    def test_cli_articulo_inexistente_sale_2_y_lo_dice(self):
+        r = self._correr("prueba", "245", "9999")
+        self.assertEqual(r.returncode, 2)
+        self.assertIn("Indemnización por antigüedad", r.stdout, "lo que sí está se imprime igual")
+        self.assertIn("9999", r.stdout)
+        self.assertIn("no se cita de memoria", r.stdout)
+
+    def test_cli_norma_inexistente_sale_2(self):
+        r = self._correr("no-existe", "1")
+        self.assertEqual(r.returncode, 2)
+        self.assertIn("No existe", r.stdout)
+
+    def test_cli_listar(self):
+        r = self._correr("prueba", "--listar")
+        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+        self.assertIn("9 artículos reconocidos", r.stdout)
+        self.assertIn("22 bis, 10, 145 bis, 245, 300, 301, 302", r.stdout)
+
+    def test_sobre_el_repo_real(self):
+        """Instrumento encendido: el art. 245 de la LCT sale entero y con su hash."""
+        entorno = dict(os.environ, DERECHO_AR_REPO=str(RAIZ_DEL_CHECKOUT),
+                       XDG_CONFIG_HOME=str(pathlib.Path(self.tmp.name) / "cfg"))
+        r = subprocess.run(
+            [sys.executable, str(pathlib.Path(__file__).parent / "articulo.py"),
+             "lct-20744", "245"], capture_output=True, text=True, env=entorno)
+        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+        self.assertIn("Art. 245. —Indemnización por antigüedad o despido.", r.stdout)
+        self.assertIn("SHA-256", r.stdout)
+        self.assertNotIn("Art. 246", r.stdout)
 
 
 if __name__ == "__main__":

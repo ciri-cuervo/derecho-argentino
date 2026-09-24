@@ -382,7 +382,7 @@ class TestSalidaAcentuadaEnTodoElRepo(unittest.TestCase):
 
     @staticmethod
     def _es_prosa(s):
-        if not re.search(r"[a-záéíóúñ] [a-záéíóúñ]", s, re.I):
+        if not re.search(r"[a-záéíóúüñ] [a-záéíóúüñ]", s, re.I):
             return False
         return not re.search(r"\\[dwsWSb]|\(\?|\[\^|%[sdr]\b", s)
 

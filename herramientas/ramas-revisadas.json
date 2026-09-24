@@ -243,6 +243,182 @@
         "régimen provincial de inversiones estratégicas"
       ],
       "nota": "Ley 15.510: régimen promocional con estabilidad fiscal, sanciones propias y procedimiento por el Decreto-Ley 7.647/70, no por los recursos del art. 115 del Código Fiscal. Quien consulta por un cese de beneficios no dice ARBA."
+    },
+    "laboral.md :: 5.17 quinquies": {
+      "veredicto": "rama",
+      "disparadores": [
+        "casas particulares"
+      ],
+      "nota": "Ley 26.844, personal de casas particulares: estatuto especial que desplaza a la LCT. Declarada a mano: la ley se nombra también en 5.19 y el detector no la ve como propia de la sección."
+    },
+    "penal.md :: 24.2.2": {
+      "veredicto": "rama",
+      "disparadores": [
+        "jurados"
+      ],
+      "nota": "Ley 14.543, juicio por jurados en PBA: régimen propio dentro del CPP. Declarada a mano: la ley no está en el catálogo como entrada propia, está incorporada al consolidado pba-ley-11922."
+    },
+    "penal-leyes-especiales.md :: 24.9.9": {
+      "veredicto": "rama",
+      "disparadores": [
+        "trata de personas"
+      ],
+      "nota": "Ley 26.364, trata de personas: noveno cuerpo del módulo. Declarada a mano: el encabezado del módulo la nombra en la lista de cotejados y el detector no la ve como propia."
+    },
+    "contencioso-pba.md :: 26.4 bis": {
+      "veredicto": "rama",
+      "disparadores": [
+        "agotar la vía"
+      ],
+      "nota": "Decreto-Ley 7.647/70, procedimiento administrativo de PBA: cuerpo normativo propio, distinto de la Ley 12.008 que el módulo cubre. Declarada a mano."
+    },
+    "administrativo-nacional.md :: 46.5 quater": {
+      "veredicto": "rama",
+      "disparadores": [
+        "reconsideración"
+      ],
+      "nota": "Decreto 1759/72, reglamento de la LNPA: los recursos viven ahí y no en la ley que el módulo cubre. Declarada a mano."
+    },
+    "empleo-publico.md :: 49.5.4": {
+      "veredicto": "rama",
+      "disparadores": [
+        "empleado público bonaerense"
+      ],
+      "nota": "Leyes 10.430, 14.656 y 10.579: tres estatutos provinciales dentro de un módulo que era sólo nacional. Declarada a mano."
+    },
+    "laboral.md :: 5.17 sexies": {
+      "veredicto": "rama",
+      "disparadores": [
+        "viajante"
+      ],
+      "nota": "Leyes 22.250, 14.546 y 12.981: tres estatutos especiales que desplazan la LCT. Declarada a mano."
+    },
+    "previsional.md :: 32.4 quater": {
+      "veredicto": "rama",
+      "disparadores": [
+        "asignaciones familiares"
+      ],
+      "nota": "Ley 24.714: régimen propio de la seguridad social, distinto del SIPA que el módulo cubre. Declarada a mano."
+    },
+    "consumidor.md :: 17.11.7": {
+      "veredicto": "rama",
+      "disparadores": [
+        "tarjeta de crédito"
+      ],
+      "nota": "Ley 25.065: cuerpo normativo propio dentro de la relación de consumo. Declarada a mano."
+    },
+    "derechos-reales.md :: 45.4": {
+      "veredicto": "rama",
+      "disparadores": [
+        "propiedad horizontal",
+        "expensas"
+      ],
+      "nota": "CCyCN Título V del Libro Cuarto: régimen propio con consorcio, asamblea y título ejecutivo. Declarada a mano."
+    },
+    "derechos-reales.md :: 45.5 bis": {
+      "veredicto": "rama",
+      "disparadores": [
+        "registro de la propiedad inmueble"
+      ],
+      "nota": "Ley 17.801: cuerpo normativo propio, distinto de los derechos reales que el módulo cubre. Declarada a mano."
+    },
+    "familia.md :: 18.10 bis": {
+      "veredicto": "rama",
+      "disparadores": [
+        "unión convivencial"
+      ],
+      "nota": "CCyCN Título III del Libro Segundo: régimen propio, absorbido del perfil heredado. Declarada a mano."
+    },
+    "familia.md :: 18.10 ter": {
+      "veredicto": "rama",
+      "disparadores": [
+        "adopción"
+      ],
+      "nota": "CCyCN Título VI del Libro Segundo: proceso en tres etapas, absorbido del perfil heredado. Declarada a mano."
+    },
+    "familia.md :: 18.10 quater": {
+      "veredicto": "rama",
+      "disparadores": [
+        "medida de abrigo"
+      ],
+      "nota": "Leyes 26.061 y 13.298: sistema administrativo de protección, distinto del proceso de familia que el módulo cubre. Declarada a mano."
+    },
+    "laboral-licencias.md :: 5.14 bis": {
+      "veredicto": "rama",
+      "disparadores": [
+        "teletrabajo"
+      ],
+      "nota": "Ley 27.555: modalidad con reglas propias dentro de la LCT. Declarada a mano."
+    },
+    "laboral.md :: 5.17 septies": {
+      "veredicto": "rama",
+      "disparadores": [
+        "jornada de trabajo"
+      ],
+      "nota": "Ley 11.544: cuerpo normativo propio que la LCT presupone. Declarada a mano."
+    },
+    "societario.md :: 31.3 quinquies": {
+      "veredicto": "rama",
+      "disparadores": [
+        "sas"
+      ],
+      "nota": "Ley 27.349: tipo societario fuera de la LGS. Declarada a mano."
+    },
+    "tributario.md :: 33.3 bis": {
+      "veredicto": "rama",
+      "disparadores": [
+        "monotributo"
+      ],
+      "nota": "Ley 24.977: régimen propio con exclusión y recurso distintos de la Ley 11.683. Declarada a mano."
+    },
+    "tributario-pba.md :: 54.5 ter": {
+      "veredicto": "rama",
+      "disparadores": [
+        "apremio"
+      ],
+      "nota": "Ley 13.406: proceso ejecutivo propio, distinto del recurso ante ARBA que el módulo cubre. Declarada a mano."
+    },
+    "penal-leyes-especiales.md :: 24.9.10": {
+      "veredicto": "rama",
+      "disparadores": [
+        "ciberdelitos"
+      ],
+      "nota": "Leyes 26.388, 26.904 y 27.411: tipos dispersos en el Código Penal con un tratado propio. Declarada a mano."
+    },
+    "penal-leyes-especiales.md :: 24.9.11": {
+      "veredicto": "rama",
+      "disparadores": [
+        "contrabando"
+      ],
+      "nota": "Ley 22.415: régimen penal e infraccional propio con su competencia y sus recursos. Declarada a mano."
+    },
+    "contencioso-pba.md :: 26.9 ter": {
+      "veredicto": "rama",
+      "disparadores": [
+        "contrataciones de la provincia de buenos aires"
+      ],
+      "nota": "Ley 13.981: régimen propio cuyos actos llegan al fuero. Declarada a mano."
+    },
+    "administrativo-nacional.md :: 46.5 quinquies": {
+      "veredicto": "rama",
+      "disparadores": [
+        "cautelar contra el estado nacional"
+      ],
+      "nota": "Leyes 3.952 y 26.854: proceso contra la Nación, distinto del procedimiento administrativo que el módulo cubre. Declarada a mano."
+    },
+    "administrativo-nacional.md :: 46.5 sexies": {
+      "veredicto": "rama",
+      "disparadores": [
+        "contrataciones de la nación"
+      ],
+      "nota": "Decreto 1023/2001: régimen propio de contrataciones. Declarada a mano."
+    },
+    "empleo-publico.md :: 49.5.5": {
+      "veredicto": "rama",
+      "disparadores": [
+        "policía bonaerense"
+      ],
+      "nota": "Ley 13.982: estatuto propio con estado policial, fuera de la Ley 10.430. Declarada a mano."
     }
   }
 }

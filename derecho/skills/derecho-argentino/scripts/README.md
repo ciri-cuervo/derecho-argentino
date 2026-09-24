@@ -16,6 +16,7 @@ cita inventada y bastante más difícil de ver leyendo.
 | `configurar.py` | Deja fija la ruta al repo en esta máquina, una sola vez |
 | `estado.py` | Diagnóstico: qué encontró, qué datos hay cargados y qué quedó vencido |
 | `perfil.py` | Lee y escribe el perfil de trabajo de quien consulta |
+| `articulo.py` | Devuelve un artículo de una norma bajada, con título, URL, fecha de descarga y hash arriba. Es lo que se corre para transcribir: `Read` trunca a 2.000 renglones sin avisar y el CCyCN tiene 27.000 |
 | `verificar_respuesta.py` | Revisa una respuesta ya escrita: que sus marcadores sean del vocabulario y estén verbatim. Mide la FORMA, no si correspondía emitirlos |
 | `_raiz.py` | No se corre solo: resuelve dónde está el repo para todos los demás |
 | `_comun_tests.py` | No se corre solo: la raíz del checkout, el plantón fuera de él y las clases de letras que comparten las seis suites |
@@ -76,6 +77,36 @@ Para completar lo que falte: `python3 derecho/fuentes/scripts/descargar_series.p
 Mientras un archivo esté pendiente, el script correspondiente lo dice en su salida. No hay
 degradación silenciosa.
 
+## Si un script no corre
+
+Dos causas, y piden cosas opuestas. La tabla corta está en la sección 16 del `SKILL.md`; acá va
+el porqué.
+
+**Falta Python en esta computadora.** La consola devuelve `command not found: python3`,
+`'python3' no se reconoce como un comando` o `xcrun: error: invalid active developer path`, una
+por plataforma. El script está y los datos están: lo que no hay es con qué ejecutarlo. Y **este
+diagnóstico no puede salir de un script**: `estado.py` es Python y tampoco corre, así que
+`/derecho:estado` falla igual y por la misma causa. La conclusión se saca de la señal de la
+consola, no de una corrida.
+
+Lo que se emite es el marcador `[CONFIGURACIÓN INCOMPLETA: falta Python 3 ...]` del `SKILL.md`, y
+la explicación en castellano y sin jerga: que **falta Python**, que es el único programa aparte que
+esta herramienta necesita y **sólo para los cálculos** —citar una norma, revisar un escrito o leer
+un módulo funcionan igual sin él—, que se baja de <https://www.python.org/downloads/> y se instala
+con las opciones que vienen por defecto, que **en Windows conviene dejar tildado *"Add python.exe
+to PATH"*** porque si no el comando sigue sin responder, y que después hay que cerrar y volver a
+abrir la aplicación.
+
+**Y lo que no se hace es calcular a mano.** Es la única de las dos causas donde el cálculo manual
+está prohibido, y la razón es la asimetría: acá el usuario **cree que corrió la calculadora**. Un
+número hecho a ojo sale con el mismo tono que uno determinista, así que entregarlo convierte una
+falta de instalación —que se arregla en dos minutos— en un error de liquidación que nadie ve.
+
+**No hay repo conectado, o la ruta es otra.** La consola devuelve `No such file or directory`
+sobre la ruta del script. Se pide la ruta —ver «Ninguna ruta hardcodeada»—. Si no hay repo, ahí sí
+se calcula a mano, con la verificación aritmética de cierre de `plazos.md` 8.6 y diciendo que se
+hizo sin el script.
+
 ## Qué NO hacen
 
 - No deciden el criterio jurídico. `intereses.py` calcula el tramo que se le pide; **cuál
@@ -88,7 +119,7 @@ degradación silenciosa.
 
     python3 -m unittest discover -s . -p 'test_*.py' -v
 
-**311 tests**, sin dependencias externas, en dos grupos.
+**321 tests**, sin dependencias externas, en dos grupos.
 
 **Y repartidos en varios archivos, uno por lo que cada suite afirma.** `test_scripts.py` llegó a 6149
 renglones, **tres veces el corte de `Read`** que este repositorio le impone a los módulos, y ese

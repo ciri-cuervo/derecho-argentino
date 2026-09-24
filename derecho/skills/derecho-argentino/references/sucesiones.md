@@ -203,7 +203,7 @@ aplicación inmediata y no se desplaza por la voluntad de las partes. El desarro
 - **No cubre el impuesto a la transmisión gratuita de bienes** de PBA, que es materia de
   `tributario.md` y de la ley local.
 
-`[INSERTAR FALLO VERIFICADO: el cómputo de los diez años del art. 2459 texto Ley 27.587 - desde cuándo corre la posesión frente al donatario y frente al subadquirente - sigue sin precedente bajado; la exclusión del cónyuge del art. 2437 la cubre 38.4.1 - aportar carátula, sala, expediente, fuero y año]`
+`[INSERTAR FALLO VERIFICADO: el cómputo de los diez años del art. 2459 texto Ley 27.587 - desde cuándo corre la posesión frente al donatario y frente al subadquirente - sigue sin precedente bajado; la exclusión del cónyuge del art. 2437 la cubre 38.4.1. JUBA consultado el 23/09/2026 por «2459 prescripcion adquisitiva donatario»: ningún sumario - aportar carátula, sala, expediente, fuero y año]`
 
 ### 38.11 Qué preguntar antes de contestar
 

@@ -235,15 +235,212 @@ estándar que se opone a una decisión mecánica.
 
 `[REVISIÓN NORMATIVA REQUERIDA: este módulo recorre los arts. 2, 29, 61, 62, 70, 82 y 86 de la Ley 25.871. Las categorías de residencia, el régimen de sanciones a transportistas y la reglamentación NO están recorridos. Este régimen fue objeto de decretos de necesidad y urgencia sucesivos: verificar el texto vigente antes de citar un artículo]`
 
+### 46.5 quater Los recursos que la ley no trae — Decreto 1759/72, texto ordenado 2017
+
+Cotejado contra `fuentes/normas/decreto-1759.txt`, el texto actualizado de InfoLEG
+—**ordenado por el Decreto 894/2017**— con las sustituciones del **Decreto 695/2024 (B.O.
+05/08/2024)**, que lo adaptó a la LNPA reformada por la Ley 27.742. **La ley dice qué acto se
+impugna y cuándo caduca la vía; el reglamento dice con qué recurso, en qué plazo y quién
+resuelve.** Sin él, 46.4 y 46.5 no cierran.
+
+**Presentación y plazo de gracia (art. 25).** Los escritos van por **Trámites a Distancia (TAD)**,
+por mesa de entradas o por correo, y el del correo vale por la fecha de imposición; el que no
+llegó dentro del horario del día del vencimiento **puede presentarse el día hábil siguiente
+dentro de las dos primeras horas**, pero **en TAD no rige el art. 124 CPCCN**: la plataforma carga
+las veinticuatro horas y no hay gracia. Es la diferencia con el plazo de cuatro horas del
+procedimiento bonaerense de `contencioso-pba.md` 26.4 bis.
+
+**Notificaciones (arts. 39 a 44).** Se notifican los actos definitivos y los que impiden seguir,
+los que resuelven incidentes o afectan derechos, emplazamientos, citaciones, vistas y lo dictado
+en ocasión de la prueba (art. 39). Valen la cédula, el telegrama, la carta documento, el oficio
+certificado y **la cuenta de TAD**, donde la notificación **se perfecciona el primer día hábil
+siguiente al de su ingreso** (art. 41). Y la regla que más se pasa por alto: la notificación
+**debe indicar qué recursos proceden, en qué plazo, o si el acto agota la instancia**, y **la
+omisión o el error la invalida** sin perjudicar al interesado (art. 40); lo mismo en los
+procedimientos con recurso judicial directo. La que viola estas normas **carece de validez** (art.
+44).
+
+**Silencio.** La resolución expresa se ajusta al art. 1 bis inc. a de la LNPA (art. 64); el
+**silencio positivo** del art. 10 inc. b LNPA alcanza a las **autorizaciones** —habilitación de
+un derecho preexistente— y **no a los permisos**, que otorgan excepcionalmente un derecho frente
+a una prohibición (art. 65 bis). Para lo que la LNPA dice del silencio, 46.4.
+
+**Recursos, reglas comunes (arts. 71 a 82).** Pueden fundarse en **legitimidad o en
+oportunidad, mérito y conveniencia** (art. 73); los deduce quien alegue un derecho o interés
+jurídicamente tutelado, y el agente público en defensa de un derecho propio (art. 74). **Pedir
+vista suspende el plazo para recurrir** desde la mera presentación del pedido, **y suspende
+también los plazos de los arts. 25 y 25 bis de la LNPA** (art. 76): es la herramienta para no
+perder la caducidad mientras se lee el expediente. La fundamentación **puede ampliarse en
+cualquier momento antes de la resolución**, y ante un defecto formal se intima a subsanar bajo
+apercibimiento de desestimar (art. 77). Se proveen cualquiera sea el nombre que se les dé (art.
+81). Los defectos de trámite y el incumplimiento de plazos ajenos a los recursos van por **queja**
+ante el superior, resuelta en cinco días e **irrecurrible** (art. 71).
+
+| Recurso | Contra qué | Plazo para interponer | Resuelve, y en cuánto | Silencio |
+| --- | --- | --- | --- | --- |
+| **Reconsideración** (arts. 84 a 88) | Definitivos, los que impiden totalmente el trámite, e interlocutorios o de mero trámite que lesionen un derecho | **Veinte días** de notificado, ante el órgano que dictó el acto | El mismo órgano, en **treinta días** | **Denegado sin necesidad de pronto despacho** (art. 87) |
+| **Jerárquico** (arts. 89 a 92) | Definitivos y los que impiden totalmente el trámite. **No requiere reconsideración previa**, y la reconsideración contra esos actos **lo lleva en subsidio** | **Treinta días** de notificado, ante la autoridad que dictó el acto, que **eleva de oficio en cinco días** | El Jefe de Gabinete, el ministro o el secretario de Presidencia; **el Poder Ejecutivo** si el acto es de uno de ellos. **Agota la instancia**. Treinta días, con **dictamen jurídico obligatorio** | Denegado sin pronto despacho (art. 91) |
+| **Alzada** (arts. 94 a 97) | Definitivos del **órgano superior de un ente autárquico** | **A opción**: reconsideración, alzada o **acción judicial**; los plazos, los de los arts. 90 a 92 | El ministro en cuya jurisdicción actúa el ente; sólo por **legitimidad** si al ente lo creó el Congreso | Igual que el jerárquico |
+| **Revisión** (art. 100) | Acto **firme**, por documentos decisivos recobrados, falsedad declarada, cohecho, prevaricato o irregularidad grave | **Treinta días** desde que se recobran los documentos o se comprueban los hechos, ante la última autoridad | Treinta días | — |
+
+**Elegir la vía judicial hace perder la administrativa**, pero el recurso de alzada puede
+desistirse en cualquier estado para demandar (art. 95). Rechazada la reconsideración, expresa o
+por silencio, el expediente se eleva en cinco días y el interesado puede **mejorar o ampliar** los
+fundamentos ante el superior (art. 88). Contra los actos dictados en ejercicio de actividad
+**jurisdiccional**, el control del superior se limita a la arbitrariedad manifiesta, el grave
+error o la gruesa violación de derecho, y el recurso **interrumpe los plazos de los arts. 25 y 25
+bis** (art. 99). Rectificación de errores materiales en cualquier momento (art. 101);
+**aclaratoria en cinco días** de notificado el acto definitivo, resuelta en cinco (art. 102). El
+CPCCN es supletorio (art. 106).
+
+`[REVISIÓN NORMATIVA REQUERIDA: este bloque recorre los arts. 25, 39 a 44, 64, 65, 65 bis, 71 a 77, 81, 82, 84 a 102 y 106 del reglamento. La prueba -arts. 46 a 62-, la vista -art. 38-, el desistimiento -arts. 66 a 70- y las declaraciones juradas -arts. 107 a 110- NO están recorridos, y el texto ordenado 2017 lleva las sustituciones del Decreto 695/2024: verificar que el artículo que se cita no haya sido tocado después de agosto de 2024. Sin fallo cargado sobre el cómputo del plazo del jerárquico ni sobre la suspensión del art. 76]`
+
+### 46.5 quinquies Demandar a la Nación y pedirle una cautelar — Leyes 3.952 y 26.854
+
+Cotejadas contra `fuentes/normas/ley-3952.txt` y `fuentes/normas/ley-26854.txt`. La primera es
+de 1900 y sigue vigente en lo que la Ley 19.549 no reemplazó; la segunda es de 2013 y rige
+**toda cautelar contra el Estado nacional** salvo en el amparo.
+
+**Ley 3.952.** Los tribunales federales conocen de las acciones civiles contra la Nación **sin
+autorización legislativa previa**, con el **reclamo administrativo previo** como condición
+(art. 1, texto Ley 11.634), que hoy es el de los arts. 30 a 32 de la Ley 19.549 de 46.3.
+**Silencio: seis meses desde el reclamo, pronto despacho y otros tres meses**, y la acción queda
+expedita (art. 2). La Nación **contesta en treinta días**, más la ampliación por distancia, y
+opone en ese plazo las dilatorias; resueltas, quince días para contestar (art. 4). Y el art. 7:
+**la sentencia de condena contra la Nación es meramente declaratoria**, se limita al
+reconocimiento del derecho.
+
+**Cómo se cobra una condena, cotejado contra `fuentes/normas/ley-23982.txt` y
+`fuentes/normas/ley-11672.txt`.** El art. 7 de la Ley 3.952 se completa con dos regímenes. La
+**Ley 23.982** consolidó las obligaciones de causa o título anterior al 01/04/1991 —y las
+previsionales hasta el 31/08/1992 por la Ley 24.130— de todo el sector público nacional (arts. 1 y
+2); para ésas, la sentencia, el acto firme, la transacción o el laudo **son meramente
+declarativos y la única vía de cumplimiento es la de la ley** (art. 3): bonos de consolidación o
+pago en efectivo con los recursos que asigne cada presupuesto, en orden cronológico y con la
+prelación del art. 7, que pone primero las diferencias de haberes previsionales hasta un año de
+haberes mínimos (arts. 6 y 7). Para lo **posterior**, el art. 22 manda al Poder Ejecutivo
+comunicar al Congreso los reconocimientos firmes sin crédito presupuestario, y **el acreedor
+queda legitimado para ejecutar desde la clausura del período ordinario de sesiones en que debió
+tratarse el presupuesto que contuviera el crédito**. El **art. 170 de la Ley 11.672**, texto
+ordenado 2014 —que viene del art. 68 de la Ley 26.895— es el régimen vigente de pago: las
+condenas de dar sumas de dinero **se satisfacen dentro de las autorizaciones de gastos del
+presupuesto**, sin perjuicio de las Leyes 23.982 y 25.344; si el ejercicio no tiene crédito, el
+Ejecutivo **las incluye en el ejercicio siguiente**, para lo cual la jurisdicción demandada tiene
+que **tomar conocimiento fehaciente de la condena antes del 31 de julio** del año en que se envía
+el proyecto; y los recursos se afectan **por estricto orden de antigüedad de la notificación
+judicial** hasta agotarse, con el remanente al ejercicio siguiente. De ahí la práctica: notificar
+la sentencia firme al servicio administrativo financiero antes del 31 de julio, o el crédito
+corre un año más.
+
+**Ley 26.854, las cautelares.** Ámbito: toda causa en que el Estado nacional o sus entes
+descentralizados son parte (art. 1). **El juez incompetente no puede dictarlas**, salvo para
+sectores vulnerables, vida digna, salud, derechos alimentarios o ambiente, y aun ahí remite de
+inmediato al competente, que revisa en cinco días (art. 2). **Informe previo obligatorio**: antes
+de resolver, el juez pide a la demandada un informe sobre el interés público comprometido, **en
+cinco días** —**tres** en sumarísimos y amparos—, y sólo ante circunstancias graves e
+impostergables dicta una **medida interina** hasta el informe; los supuestos del art. 2 inc. 2
+pueden decidirse sin informe (art. 4). **Vigencia limitada, bajo pena de nulidad**: no más de
+**seis meses**, **tres** en sumarísimos y amparos, prorrogables por hasta seis con valoración
+del interés público, y si se dictó con la vía administrativa pendiente dura hasta la
+notificación del acto que la agota (art. 5). **Caducidad** de pleno derecho si, agotada la vía,
+no se demanda **dentro de los diez días** de trabada, y a los diez días de notificado el acto
+que agota la vía cuando se dictó durante el trámite; las costas y daños son de quien la pidió
+y no puede reproponerla como previa (art. 8). **Ninguna cautelar puede afectar bienes o
+recursos propios del Estado** ni imponer cargas pecuniarias personales a funcionarios (art. 9).
+**Contracautela real o personal**, y la juratoria sólo en los supuestos del art. 2 inc. 2 (art.
+10). Tres tipos, cada uno con **cinco requisitos concurrentes**: la **suspensión de los efectos
+de una ley, reglamento o acto** (art. 13: perjuicio grave de imposible reparación, verosimilitud
+del derecho, **verosimilitud de la ilegitimidad por indicios serios y graves**, no afectación
+del interés público, efectos no irreversibles), que con la vía pendiente exige haber **pedido
+la suspensión a la Administración y que la niegue o calle cinco días**, y cuya apelación **tiene
+efecto suspensivo si lo suspendido es una ley o un reglamento**; la **medida positiva** (art.
+14: inobservancia clara e incontestable de un deber concreto, fuerte posibilidad del derecho a
+la prestación, perjuicio grave, interés público, irreversibilidad), que rige para toda
+innovativa; y la **de no innovar** (art. 15), para toda conservatoria. El **amparo de la Ley
+16.986 está excluido**, salvo los arts. 4 inc. 2, 5, 7 y 20 (art. 19): en amparo rigen el
+informe de tres días y la vigencia de tres meses, pero no el resto.
+
+`[REVISIÓN NORMATIVA REQUERIDA: este bloque recorre los arts. 1, 2, 4 y 7 de la Ley 3.952, los arts. 1, 2, 4, 5, 8 a 10, 13 a 15 y 19 de la Ley 26.854, los arts. 1 a 3, 6, 7 y 22 de la Ley 23.982 y el art. 170 de la Ley 11.672. Los arts. 3, 6, 7, 11, 12 y 16 a 18 de la 26.854 NO están recorridos, y la línea de la CSJN sobre la constitucionalidad del plazo de vigencia del art. 5 va con marcador. La Ley 25.344 -segunda consolidación, causa o título anterior al 01/01/2000- NO está descargada: para un crédito de esa franja se dice que falta el texto]`
+
+### 46.5 sexies Las contrataciones de la Nación — Decreto 1023/2001
+
+Cotejado contra `fuentes/normas/decreto-1023-2001.txt`, texto actualizado con el Decreto 666/2003,
+las Leyes 26.940 y 27.446 y el Decreto 1091/2024. Es un decreto delegado con jerarquía de ley,
+y rige la compra, la venta, los suministros, los servicios, las locaciones, las consultorías,
+las concesiones de uso y las obras públicas de la Administración nacional (art. 4), **con
+presunción de índole administrativa** de todo contrato salvo que surja lo contrario (art. 1).
+
+**Principios y publicidad (arts. 3, 9 a 11).** Razonabilidad, eficiencia, concurrencia,
+transparencia, publicidad e igualdad (art. 3); publicidad y difusión por internet de todo el
+procedimiento (arts. 9 y 10); y **anticorrupción**: se rechaza la oferta o se rescinde el
+contrato, sin perjuicio de la acción penal, cuando se dieron dádivas o se ejerció influencia
+(art. 10). Los actos que exigen autorización expresa bajo pena de nulidad están en el art. 11.
+
+**Las prerrogativas del art. 12, texto Decreto 666/2003.** Interpretar, **modificar por
+interés público**, decretar la caducidad, rescisión o resolución, con actos que tienen los
+caracteres del **art. 12 de la Ley 19.549**; **aumentar o disminuir hasta el veinte por ciento**
+del monto a los precios pactados; y la regla que decide los reclamos: **la revocación,
+modificación o sustitución por oportunidad, mérito o conveniencia no genera derecho a
+indemnización en concepto de lucro cesante**. Control y dirección, penalidades, ejecución
+directa con los bienes del incumplidor, inspección de libros, y prórroga por una vez y por
+igual plazo, incompatible con el aumento del inc. b.
+
+**Selección (arts. 24 y 25).** Regla general, **licitación o concurso públicos** (art. 24);
+privados —proveedores inscriptos, por debajo del monto reglamentario— y **contratación
+directa** sólo en los casos del art. 25. El inc. d, **texto Decreto 1091/2024** (B.O.
+13/12/2024), la admite por monto menor, obras científicas o artísticas exclusivas, venta
+exclusiva, licitación desierta o fracasada, **urgencia o emergencia** por circunstancias
+objetivas, secreto de Estado, reparaciones de urgencia, entre jurisdicciones estatales y con
+universidades —salvo servicios de seguridad, logística o salud, donde está prohibido
+subcontratar y **no pueden encuadrarse universidades ni casas de estudio**— y la locación de
+inmuebles; en las directas con invitación **también se consideran las ofertas de quienes no
+fueron invitados**. La subasta pública del inc. b **quedó derogada** por la Ley 27.446 y no
+revive.
+
+**Quién no puede contratar, sanciones y garantías (arts. 28, 29 y 31).** No contratan los
+sancionados con suspensión o inhabilitación, los agentes y funcionarios del sector público y
+sus empresas según la Ley 25.188, **los condenados por delitos dolosos por el doble de la
+condena**, los procesados por delitos contra la propiedad, la Administración, la fe pública o
+la Convención Interamericana contra la Corrupción, los incumplidores tributarios y
+previsionales, y **los empleadores en el REPSAL** mientras estén (art. 28). Penalidades
+—pérdida de garantía, **multa por mora**, rescisión por culpa— y sanciones —apercibimiento,
+suspensión, inhabilitación—, éstas aplicadas por el órgano rector sobre los actos firmes que
+le remiten (art. 29). Garantías y contragarantías por anticipos con las formas del reglamento
+(art. 31). El acto que aplica la sanción se recurre por el Decreto 1759/72 de 46.5 quater y,
+agotada la vía, va al fuero contencioso administrativo federal.
+
+**El reglamento: Decreto 1030/2016, cotejado contra `fuentes/normas/decreto-1030-2016.txt`.**
+Excluye el empleo público, las cajas chicas, el crédito público, la obra pública y, desde el
+Decreto 195/2025, la venta de bienes muebles del Estado (art. 3). **La escala del art. 27, texto
+Decreto 963/2018, se expresa en módulos**: compulsa abreviada por monto hasta **mil módulos**,
+licitación o concurso privados hasta **cinco mil**, públicos por encima; y el módulo vale lo que
+fija el art. 28, hoy **cuarenta mil pesos por el Decreto 666/2024**:
+`[VERIFICAR MONTO ACTUALIZADO: valor del módulo del art. 28 del Decreto 1030/2016 a la fecha de
+autorización del procedimiento, que el Jefe de Gabinete actualiza por decreto]`. Lo que decide los
+reclamos: la oferta **se mantiene sesenta días corridos** desde la apertura y **se renueva sola por
+igual lapso** salvo aviso con diez días de antelación (art. 54); el **dictamen de evaluación** sale
+en **cinco días** desde que la comisión recibe las actuaciones (art. 71), se comunica a los
+oferentes **en dos días** (art. 72) y **se impugna en tres días** desde la comunicación —tres desde
+la difusión en el sitio, para quien no es oferente—, **previa garantía del tres por ciento** del
+renglón aconsejado (arts. 73 y 78 inc. d). Garantías: **cinco por ciento** de mantenimiento de
+oferta, **diez** de cumplimiento, contragarantía por el anticipo (art. 78), y **ninguna por
+debajo de mil módulos** (art. 80, texto Decreto 963/2018). El pago, **a treinta días corridos** de
+la factura salvo pliego distinto (art. 91).
+
+`[REVISIÓN NORMATIVA REQUERIDA: este bloque recorre los arts. 1, 3, 4, 9 a 12, 24, 25, 28, 29 y 31 del Decreto 1023/2001 y los arts. 3, 15, 27, 28, 54, 71 a 73, 78, 80 y 91 del Decreto 1030/2016. El Pliego Único de Bases y Condiciones Generales de la Oficina Nacional de Contrataciones y la Ley 13.064 de obras públicas NO están descargados. Sin fallo cargado sobre el lucro cesante del art. 12]`
+
 ### 46.6 Lo que este módulo NO hace
 
-- **No trae el Reglamento de Procedimientos Administrativos** (Decreto 1759/72), que es donde están
-  los recursos de reconsideración, jerárquico y de alzada con sus plazos. **No está bajado**, y sin
-  él no se afirma un plazo de recurso en sede administrativa.
-- **No cubre el proceso contencioso administrativo federal** —el trámite ante el fuero—, que va por
-  el CPCCN: `proceso-nacional.md` 44.
+- **Del Reglamento de Procedimientos Administrativos** (Decreto 1759/72) trae sólo lo que 46.5
+  quater recorre: notificaciones, silencio y recursos. La prueba, la vista y el desistimiento no,
+  y ahí no se afirma un plazo sin abrir `fuentes/normas/decreto-1759.txt`.
+- **Del proceso contencioso administrativo federal trae sólo lo que 46.5 quinquies recorre**: el
+  reclamo previo y el silencio de la Ley 3.952 y las cautelares de la Ley 26.854. El trámite ante
+  el fuero va por el CPCCN, `proceso-nacional.md` 44. De la ejecución de la condena trae la
+  Ley 23.982 y el art. 170 de la Ley 11.672, no la Ley 25.344.
 - **No cubre PBA**, que tiene su Ley 12.008 y su módulo.
-- **No trae el régimen de empleo público** ni el de contrataciones del Estado.
+- **No trae el régimen de empleo público**, que es `empleo-publico.md` 49. De las contrataciones
+  trae el Decreto 1023/2001 y su reglamento en 46.5 sexies, sin la obra pública.
 - **No calcula.** El cómputo de días hábiles judiciales lo hace `scripts/plazos.py`.
 
 `[INSERTAR FALLO VERIFICADO: el cómputo del plazo del art. 25 tras la reforma de la Ley 27.742 sigue sin precedente bajado - el alcance del límite del art. 17 lo cubre 46.3.1 - aportar carátula, sala, expediente, fuero y año]`

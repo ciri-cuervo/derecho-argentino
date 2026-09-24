@@ -1945,6 +1945,270 @@
       "titulo": "Decreto-Ley 8.031/73 PBA - Código de Faltas (texto actualizado)",
       "nota": "Texto ordenado por Decreto 181/87 y consolidado hasta la Ley 15.406. Es la materia de faltas que el art. 61 inc. 4 de la Ley 5.827 le da a los Juzgados de Paz letrados. Vigente con modificaciones: la Ley 15.041 derogó varios artículos, no el cuerpo.",
       "url": "https://normas.gba.gob.ar/documentos/ZBOPDhkV.html"
+    },
+    {
+      "slug": "ley-26844",
+      "titulo": "Ley 26.844 - Régimen Especial de Contrato de Trabajo para el Personal de Casas Particulares (texto actualizado)",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/210000-214999/210489/texact.htm",
+      "prioridad": 2,
+      "nota": "B.O. 12/04/2013, id InfoLEG 210489. Estatuto especial que desplaza a la LCT (art. 2 LCT inc. b): laboral.md 5 la trata como sección propia. Reglamentada por el Decreto 467/2014, que no está declarado."
+    },
+    {
+      "slug": "ley-26364",
+      "titulo": "Ley 26.364 - Prevención y sanción de la trata de personas y asistencia a sus víctimas (texto actualizado)",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/140000-144999/140100/texact.htm",
+      "prioridad": 2,
+      "nota": "B.O. 30/04/2008, id InfoLEG 140100. Texto actualizado con la Ley 26.842 (B.O. 27/12/2012), que reescribió el régimen: sacó el consentimiento de la víctima como eximente y movió los tipos al Código Penal, arts. 145 bis y 145 ter."
+    },
+    {
+      "slug": "ley-22250",
+      "titulo": "Ley 22.250 - Régimen laboral para el personal de la industria de la construcción (texto actualizado)",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/25000-29999/27238/texact.htm",
+      "prioridad": 2,
+      "nota": "B.O. 17/07/1980, id InfoLEG 27238. Estatuto especial: fondo de cese laboral en lugar de la indemnización por antigüedad y del preaviso de la LCT. laboral.md 5 lo trata como sección propia."
+    },
+    {
+      "slug": "ley-14546",
+      "titulo": "Ley 14.546 - Estatuto del viajante de comercio (texto actualizado)",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/95000-99999/96295/texact.htm",
+      "prioridad": 2,
+      "nota": "B.O. 27/10/1958, id InfoLEG 96295. Estatuto especial: indemnización por clientela del art. 14 y libro del art. 10. laboral.md 5 lo trata como sección propia."
+    },
+    {
+      "slug": "ley-12981",
+      "titulo": "Ley 12.981 - Estatuto de los encargados de casas de renta (texto actualizado)",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/45000-49999/45226/texact.htm",
+      "prioridad": 2,
+      "nota": "B.O. 20/05/1947, id InfoLEG 45226. Estatuto especial de encargados y personal de edificios: indemnizaciones y estabilidad propias. laboral.md 5 lo trata como sección propia."
+    },
+    {
+      "slug": "ley-24714",
+      "titulo": "Ley 24.714 - Régimen de asignaciones familiares (texto actualizado)",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/35000-39999/39880/texact.htm",
+      "prioridad": 2,
+      "nota": "B.O. 18/10/1996, id InfoLEG 39880. Subsistema contributivo y no contributivo, AUH y asignación por embarazo. Los montos y los topes de ingreso los fija ANSES por resolución y no están cargados."
+    },
+    {
+      "slug": "ley-25065",
+      "titulo": "Ley 25.065 - Tarjetas de crédito, compra y débito (texto actualizado)",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/55000-59999/55556/texact.htm",
+      "prioridad": 2,
+      "nota": "B.O. 14/01/1999, id InfoLEG 55556. Con las reformas de las Leyes 26.010 (art. 15) y 26.361 (art. 50). consumidor.md 17 la trata como sección propia."
+    },
+    {
+      "slug": "pba-decreto-ley-7647-1970",
+      "titulo": "Decreto-Ley 7.647/70 PBA - Normas de procedimiento administrativo (texto actualizado)",
+      "jurisdiccion": "pba",
+      "url": "https://normas.gba.gob.ar/documentos/rVRy2u5B.html",
+      "prioridad": 1,
+      "nota": "Con las reformas de las Leyes 13.262, 13.708, 14.224, 14.229 y 15.230, según el consolidado. Es la ley del agotamiento de la vía que la Ley 12.008 presupone: contencioso-pba.md 26 la trata como sección propia; previsional-pba.md y tributario-pba.md la citan como supletoria."
+    },
+    {
+      "slug": "pba-ley-10430",
+      "titulo": "Ley 10.430 PBA - Estatuto y escalafón para el personal de la Administración Pública, texto ordenado por Decreto 1869/96 (texto actualizado)",
+      "jurisdiccion": "pba",
+      "url": "https://normas.gba.gob.ar/documentos/VrlKqtOx.html",
+      "prioridad": 2,
+      "nota": "Régimen general del empleado público provincial. La ficha lista como modificatorias del t.o. las Leyes 12.777, 12.950, 13.154, 13.354, 13.414, 13.967, 14.241, 14.579, 14.720, 14.814 y 14.815. Reglamentada por el Decreto 4161/96, que no está declarado."
+    },
+    {
+      "slug": "pba-ley-14656",
+      "titulo": "Ley 14.656 PBA - Estatuto para el personal de las municipalidades (texto actualizado)",
+      "jurisdiccion": "pba",
+      "url": "https://normas.gba.gob.ar/documentos/xqq2dtpx.html",
+      "prioridad": 2,
+      "nota": "Deroga la Ley 11.757. Reglamentada por el Decreto 784/16, que no está declarado."
+    },
+    {
+      "slug": "pba-ley-10579",
+      "titulo": "Ley 10.579 PBA - Estatuto del docente (texto actualizado)",
+      "jurisdiccion": "pba",
+      "url": "https://normas.gba.gob.ar/documentos/xkdoDUAB.html",
+      "prioridad": 2,
+      "nota": "Reemplaza al Decreto-Ley 19.885/57. Reglamentada por el Decreto 2485/92, que no está declarado."
+    },
+    {
+      "slug": "decreto-1759",
+      "titulo": "Decreto 1759/72 - Reglamento de Procedimientos Administrativos, texto ordenado 2017 por Decreto 894/2017 (texto actualizado)",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/20000-24999/21715/texact.htm",
+      "prioridad": 1,
+      "nota": "B.O. 27/04/1972, id InfoLEG 21715; la ficha dice «texto ordenado por Decreto 894/2017, B.O. 02/11/2017». Es donde viven los recursos de reconsideración, jerárquico y de alzada con sus plazos, que la LNPA no trae: administrativo-nacional.md 46 lo trata como sección propia."
+    },
+    {
+      "slug": "ley-11544",
+      "titulo": "Ley 11.544 - Jornada de trabajo (texto actualizado)",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/63368/texact.htm",
+      "prioridad": 1,
+      "nota": "B.O. 17/09/1929, id InfoLEG 63368, con la reforma de la Ley 26.597 al art. 3. Es la ley de la jornada de ocho horas y de las horas extras: laboral.md 5 la trata como sección propia. Reglamentada por el Decreto 16.115/33, que no está declarado."
+    },
+    {
+      "slug": "ley-27349",
+      "titulo": "Ley 27.349 - Apoyo al capital emprendedor: sociedades por acciones simplificadas (texto actualizado)",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/270000-274999/273567/texact.htm",
+      "prioridad": 2,
+      "nota": "B.O. 12/04/2017, id InfoLEG 273567, con las reformas de la Ley 27.444. El Título III crea la SAS: societario.md 31 la trata como sección propia."
+    },
+    {
+      "slug": "ley-24977",
+      "titulo": "Ley 24.977 - Régimen Simplificado para Pequeños Contribuyentes, monotributo (texto actualizado)",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/50000-54999/51609/texact.htm",
+      "prioridad": 2,
+      "nota": "B.O. 06/07/1998, id InfoLEG 51609. El anexo vigente es el que sustituyó la Ley 26.565 y sus reformas posteriores; las categorías y montos los actualiza ARCA y no están cargados. tributario.md 33 lo trata como sección propia."
+    },
+    {
+      "slug": "decreto-1023-2001",
+      "titulo": "Decreto 1023/2001 - Régimen de contrataciones de la Administración nacional (texto actualizado)",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/65000-69999/68396/texact.htm",
+      "prioridad": 2,
+      "nota": "B.O. 16/08/2001, id InfoLEG 68396, decreto delegado; el art. 27 lleva texto del Decreto 105/2025 según la ficha. Reglamentado por el Decreto 1030/2016, bajado como decreto-1030-2016. administrativo-nacional.md 46 lo trata como sección propia."
+    },
+    {
+      "slug": "ley-26854",
+      "titulo": "Ley 26.854 - Medidas cautelares en las causas en que es parte o interviene el Estado nacional",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/210000-214999/212680/norma.htm",
+      "prioridad": 1,
+      "nota": "B.O. 30/04/2013, id InfoLEG 212680. InfoLEG no publica texto actualizado: se bajó el original. administrativo-nacional.md 46 la trata en la sección del proceso contencioso federal."
+    },
+    {
+      "slug": "ley-3952",
+      "titulo": "Ley 3.952 - Demandas contra la Nación (texto actualizado)",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/45000-49999/49258/texact.htm",
+      "prioridad": 1,
+      "nota": "Sancionada el 27/09/1900, id InfoLEG 49258, con la reforma de la Ley 11.634 al art. 1. Su art. 7 es el del carácter declaratorio de las sentencias contra la Nación: administrativo-nacional.md 46 la trata en la sección del proceso contencioso federal."
+    },
+    {
+      "slug": "ley-27411",
+      "titulo": "Ley 27.411 - Aprobación del Convenio sobre Ciberdelito del Consejo de Europa, Budapest 2001",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/300000-304999/304798/norma.htm",
+      "prioridad": 2,
+      "nota": "B.O. 15/12/2017, id InfoLEG 304798, con las reservas argentinas a los arts. 6.1.b, 9.1.d, 9.2.b y 9.2.c del Convenio. penal-leyes-especiales.md 24.9 la trata en la sección de ciberdelitos, junto con los tipos del Código Penal que trajeron las Leyes 26.388 y 26.904."
+    },
+    {
+      "slug": "pba-ley-13406",
+      "titulo": "Ley 13.406 PBA - Procedimiento de apremio para el cobro judicial de créditos fiscales (texto actualizado)",
+      "jurisdiccion": "pba",
+      "url": "https://normas.gba.gob.ar/documentos/xAzPYioB.html",
+      "prioridad": 1,
+      "nota": "B.O. PBA 30/12/2005. La ficha lista como modificatorias las Leyes 13.930, 14.333, 14.880, 15.007, 15.016 y 15.558. Es la ejecución fiscal de ARBA y de los municipios: tributario-pba.md 54 la trata como sección propia."
+    },
+    {
+      "slug": "pba-ley-13982",
+      "titulo": "Ley 13.982 PBA - Personal de las policías de la Provincia de Buenos Aires (texto actualizado)",
+      "jurisdiccion": "pba",
+      "url": "https://normas.gba.gob.ar/documentos/0vlPrFeB.html",
+      "prioridad": 2,
+      "nota": "B.O. PBA 27/04/2009. Estatuto policial: ingreso, estabilidad, régimen disciplinario. empleo-publico.md 49.5.4 lo trata junto con los otros estatutos bonaerenses."
+    },
+    {
+      "slug": "ley-22415-delitos",
+      "titulo": "Ley 22.415 - Código Aduanero, Sección XII Título I: delitos aduaneros, arts. 860 a 891 (texto actualizado)",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/15000-19999/16536/Ley22415_S12_TituloI.htm",
+      "prioridad": 2,
+      "nota": "Ley 22.415, B.O. 23/03/1981, id InfoLEG 16536. InfoLEG publica el Código Aduanero partido por secciones y el texact.htm es sólo el índice: cada parte se declara aparte, con el número del código en el título porque el slug no lo lleva."
+    },
+    {
+      "slug": "ley-22415-infracciones",
+      "titulo": "Ley 22.415 - Código Aduanero, Sección XII Título II: infracciones aduaneras, arts. 892 a 996 (texto actualizado)",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/15000-19999/16536/Ley22415_S12_TituloII.htm",
+      "prioridad": 2,
+      "nota": "Ley 22.415, B.O. 23/03/1981, id InfoLEG 16536. InfoLEG publica el Código Aduanero partido por secciones y el texact.htm es sólo el índice: cada parte se declara aparte, con el número del código en el título porque el slug no lo lleva."
+    },
+    {
+      "slug": "ley-22415-procedimiento",
+      "titulo": "Ley 22.415 - Código Aduanero, Sección XIV Título I: procedimientos, disposiciones generales, arts. 1001 a 1052 (texto actualizado)",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/15000-19999/16536/Ley22415_S14_TituloI.htm",
+      "prioridad": 2,
+      "nota": "Ley 22.415, B.O. 23/03/1981, id InfoLEG 16536. InfoLEG publica el Código Aduanero partido por secciones y el texact.htm es sólo el índice: cada parte se declara aparte, con el número del código en el título porque el slug no lo lleva."
+    },
+    {
+      "slug": "ley-22415-recursos",
+      "titulo": "Ley 22.415 - Código Aduanero, Sección XIV Título III: recursos, arts. 1129 a 1183 (texto actualizado)",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/15000-19999/16536/Ley22415_S14_TituloIII.htm",
+      "prioridad": 2,
+      "nota": "Ley 22.415, B.O. 23/03/1981, id InfoLEG 16536. InfoLEG publica el Código Aduanero partido por secciones y el texact.htm es sólo el índice: cada parte se declara aparte, con el número del código en el título porque el slug no lo lleva."
+    },
+    {
+      "slug": "pba-ley-13981",
+      "titulo": "Ley 13.981 PBA - Subsistema de contrataciones del Estado (texto actualizado)",
+      "jurisdiccion": "pba",
+      "url": "https://normas.gba.gob.ar/documentos/xDZ34hyV.html",
+      "prioridad": 2,
+      "nota": "B.O. PBA 27/04/2009. Reglamentada por el Decreto 59/19, bajado como pba-decreto-59-2019. contencioso-pba.md 26 la trata en la sección de contrataciones bonaerenses."
+    },
+    {
+      "slug": "decreto-1397",
+      "titulo": "Decreto 1397/79 - Reglamentación de la Ley 11.683 de procedimiento tributario (texto actualizado)",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/15000-19999/18807/texact.htm",
+      "prioridad": 2,
+      "nota": "B.O. 25/07/1979, id InfoLEG 18807; el slug va sin año porque el consolidado fecha en formato corto y el control de identidad busca el número del slug en el cuerpo. Su art. 74 es el recurso de apelación ante el director general que el art. 26 del anexo de la Ley 24.977 prevé para la recategorización y la exclusión del monotributo: tributario.md 33.3 bis."
+    },
+    {
+      "slug": "decreto-1030-2016",
+      "titulo": "Decreto 1030/2016 - Reglamento del régimen de contrataciones de la Administración nacional (texto actualizado)",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/265000-269999/265506/texact.htm",
+      "prioridad": 2,
+      "nota": "B.O. 16/09/2016, id InfoLEG 265506. Reglamenta el Decreto 1023/2001 para los contratos del art. 4 inc. a: montos de cada procedimiento, impugnaciones al dictamen de evaluación y garantías. administrativo-nacional.md 46.5 sexies."
+    },
+    {
+      "slug": "decreto-27-2021",
+      "titulo": "Decreto 27/2021 - Reglamentación de la Ley 27.555 de teletrabajo",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/345000-349999/346325/norma.htm",
+      "prioridad": 2,
+      "nota": "B.O. 20/01/2021, id InfoLEG 346325. Reglamenta la reversibilidad, la compensación de gastos y el registro de empresas. laboral-licencias.md 5.14 bis."
+    },
+    {
+      "slug": "ley-23982",
+      "titulo": "Ley 23.982 - Consolidación de deudas del Estado nacional (texto actualizado)",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/0-4999/381/texact.htm",
+      "prioridad": 2,
+      "nota": "B.O. 23/08/1991, id InfoLEG 381. Con la Ley 25.344 y el art. 170 de la Ley 11.672 es el régimen de ejecución de las condenas contra la Nación: administrativo-nacional.md 46.5 quinquies."
+    },
+    {
+      "slug": "ley-11672",
+      "titulo": "Ley 11.672 - Complementaria permanente de presupuesto, texto ordenado 2014 (texto actualizado)",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/20000-24999/24541/texact.htm",
+      "prioridad": 2,
+      "nota": "Texto ordenado por el Decreto 740/2014, B.O. 23/05/2014, id InfoLEG 24541. Su art. 170 rige el pago de las condenas contra la Nación: administrativo-nacional.md 46.5 quinquies."
+    },
+    {
+      "slug": "pba-decreto-59-2019",
+      "titulo": "Decreto 59/2019 PBA - Reglamentación de la Ley 13.981 de contrataciones (texto actualizado)",
+      "jurisdiccion": "pba",
+      "url": "https://normas.gba.gob.ar/documentos/05wD6T5B.html",
+      "prioridad": 2,
+      "nota": "B.O. PBA 08/02/2019. Anexo I: montos de cada procedimiento, trámite de las observaciones e impugnaciones, garantías y penalidades. contencioso-pba.md 26.9 ter."
+    },
+    {
+      "slug": "pba-decreto-1050-2009",
+      "titulo": "Decreto 1050/2009 PBA - Reglamentación de la Ley 13.982 del personal policial (texto actualizado)",
+      "jurisdiccion": "pba",
+      "url": "https://normas.gba.gob.ar/documentos/x61PYtg0.html",
+      "prioridad": 2,
+      "nota": "B.O. PBA 03/07/2009. Tipifica las faltas, fija el procedimiento sumarial y el plazo de los recursos contra el apercibimiento y la suspensión. empleo-publico.md 49.5.5."
     }
   ],
   "_ficha_vs_texto": "En InfoLEG, verNorma.do?id=N devuelve la FICHA de la norma, no el texto. El texto está en anexos/<rango>/<id>/norma.htm (original) o texact.htm (actualizado con modificatorias). Preferir siempre texact.htm cuando exista. El descargador avisa si lo que bajó parece una ficha.",

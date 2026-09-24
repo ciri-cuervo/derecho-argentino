@@ -215,7 +215,7 @@ que se distribuya adaptado lleva la misma licencia.
 - `derecho/commands/` — los **8 comandos slash**, que son instrucciones y no programas
 - `derecho/evals/` — los **54 casos** de verificación con su rúbrica y su resultado esperado
 - `derecho/fuentes/MANIFIESTO.md` y `derecho/fuentes/jurisprudencia/INDICE.md`
-- `README.md`, `AGENTS.md`, `CLAUDE.md`, `.claude/rules/`, los **7 documentos** de `docs/`,
+- `README.md`, `AGENTS.md`, `CLAUDE.md`, `.claude/rules/`, los **9 documentos** de `docs/`,
   `CHANGELOG.md`, `assets/marca/README.md` y este archivo
 - `assets/marca/` — el sello, el ícono, las chapitas y el separador, con sus fuentes SVG
 - `assets/logos/` **queda afuera**: son marcas de terceros; ver sección 4

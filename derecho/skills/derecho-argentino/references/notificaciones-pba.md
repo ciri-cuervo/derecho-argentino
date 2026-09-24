@@ -274,7 +274,7 @@ fue una impugnación de pericia, con el argumento probatorio y no con el reglame
 `[VERIFICAR VIGENCIA]` Es un fallo de cámara: **no hay doctrina legal de la SCBA** que interprete
 directamente el art. 13 del Ac. 4013 t.o. 4039, y en JUBA no está. Antes de afirmar que existe,
 volver a buscar. Si la consulta requiere ese respaldo:
-`[INSERTAR FALLO VERIFICADO: SCBA - interpretación del art. 13 del Ac. 4013 t.o. 4039 sobre perfeccionamiento de la notificación electrónica - lo cargado es de cámara]`.
+`[INSERTAR FALLO VERIFICADO: SCBA - interpretación del art. 13 del Ac. 4013 t.o. 4039 sobre perfeccionamiento de la notificación electrónica - lo cargado es de cámara. JUBA consultado el 23/09/2026 por «notificacion electronica 4013»: el único sumario es el de Bareiro Baez, ya cargado; ninguno de la SCBA]`.
 
 ### 22.8 Cómo se conecta con el cómputo de plazos
 

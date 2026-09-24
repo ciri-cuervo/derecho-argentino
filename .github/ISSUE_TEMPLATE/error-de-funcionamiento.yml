@@ -1,0 +1,37 @@
+name: Error de funcionamiento
+description: Un script que no corre, una instalación que no termina, un comando que falla. Lo que no es derecho.
+title: "[Funcionamiento] "
+labels: ["funcionamiento"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Antes de reportar, en Claude Code corré `/derecho:estado`; en las apps de escritorio pedí *"corré el estado de la skill de derecho argentino"*. Casi siempre dice qué falta.
+  - type: textarea
+    id: que
+    attributes:
+      label: Qué hiciste y qué pasó
+      description: El comando o el pedido, y la salida completa, incluido el error.
+    validations:
+      required: true
+  - type: dropdown
+    id: donde
+    attributes:
+      label: Dónde
+      options:
+        - App de Claude (Chat, Cowork)
+        - Claude Code
+        - Codex (ChatGPT)
+        - Otro
+    validations:
+      required: true
+  - type: input
+    id: sistema
+    attributes:
+      label: Sistema operativo y versión de Python
+      placeholder: "Windows 11, Python 3.13"
+  - type: textarea
+    id: estado
+    attributes:
+      label: Salida de `/derecho:estado`
+      description: Si corrió. Si no corrió, decilo.

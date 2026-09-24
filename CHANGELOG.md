@@ -14,9 +14,52 @@ un renglón por cambio. El detalle de cada uno vive donde se puede verificar:
 | La doctrina de cada precedente | El módulo que la usa; el índice, en `references/fallos-csjn.md` |
 | Si el texto de un fallo se puede transcribir | `herramientas/lecturas-ocr.json` |
 
+## [1.4.0] — 2026-09-23
+
+Veinticuatro materias nuevas cotejadas contra su texto, los reglamentos que faltaban leídos, y la
+documentación del repositorio a la mitad.
+
+- **Materias nuevas, cada una como sección con su norma bajada y su marcador:** casas
+  particulares, construcción, viajantes y encargados, jornada y teletrabajo; jurados en PBA,
+  trata, ciberdelitos y régimen aduanero; propiedad horizontal, registro inmobiliario, uniones
+  convivenciales, adopción y niñez; SAS, monotributo, tarjeta de crédito y asignaciones
+  familiares; procedimiento administrativo, contrataciones y apremio bonaerenses, estatutos del
+  empleo público y de la policía de PBA; recursos, contrataciones, demandas y cautelares contra
+  la Nación.
+- **Siete reglamentos leídos** que las secciones declaraban faltantes: los de contrataciones
+  nacional y bonaerense, el del estatuto policial, el del teletrabajo, el de la Ley 11.683 y las
+  Leyes 23.982 y 11.672 para cobrar una condena contra la Nación.
+- **Jurisprudencia bajada de JUBA y leída del texto completo:** el pago previo en el contencioso
+  bonaerense, el silencio del asegurador, la competencia del Juzgado de Paz tras el divorcio y el
+  método de la compensación económica. Las búsquedas sin resultado quedaron fechadas en su
+  marcador.
+- **`articulo.py`** devuelve un artículo de una norma bajada con su procedencia: `Read` trunca a
+  2.000 renglones sin avisar y el CCyCN tiene 27.000.
+- **El Código Aduanero se baja por títulos**, porque el texto completo de InfoLEG es un índice.
+- **Verificación semanal en CI:** `verificar.yml` vuelve a pedir cada norma los lunes y abre un
+  issue si alguna cambió o no se pudo mirar. Formularios de issue: el error de derecho pide la
+  fuente.
+- **README:** cómo trabaja un turno, una transcripción con el número que no da, y qué hacer si
+  algo no anda. El armado del proyecto, en `docs/PROYECTO.md`.
+- **`docs/` reescrito:** `DESARROLLO.md` queda con las reglas y los comandos; `AUDITORIAS.md`,
+  `BITACORA.md` y `REVALIDAR.md` conservan cada entrada con lo que se cotejó y lo que salió.
+- **`SKILL.md` más corto**, y tres guardarraíles nuevos: los ordinales latinos hasta `decies`, la
+  `Ü` en toda clase de letras, y el sufijo de una sección en la clave de su rama.
+
 ## [1.3.1] — 2026-09-18
 
-Próximamente..
+Menos contexto por conversación y menos decisiones que tomar a ciegas: no entran normas ni fallos.
+
+- **El `description` de la skill entra en el tope de la API** —1.024 caracteres— sin apagar
+  ninguna rama: un test exige un disparador por módulo.
+- **La disciplina de lectura de la sección 16**: un módulo se lee una vez y entero, y abrir otro
+  se decide antes, nombrando qué pregunta contesta.
+- **La serie de la UMA nacional está cargada**, y `uma_csjn.py` devuelve el valor con la
+  resolución que lo fijó; fuera del tramo cargado se planta.
+- **Los comandos invocan por `CLAUDE_PLUGIN_ROOT`**: son sólo de Claude Code y ya no fingen
+  otro agente.
+- **`traza_eval.py`**: lee la traza de una corrida de `claude plugin eval` y dice qué archivos
+  abrió el modelo y en qué orden, que es lo que las rúbricas no ven.
 
 ## [1.3.0] — 2026-09-18
 

@@ -4,16 +4,20 @@
 > entre módulos siguen siendo válidas. **Rigen las reglas de integridad de la sección 2 del
 > SKILL.md.**
 
-**Ocho cuerpos normativos que no comparten nada entre sí** salvo estar fuera del Código Penal.
+**Once cuerpos normativos que no comparten nada entre sí** salvo estar fuera del Código Penal.
 Cada uno trae su propio régimen, y por eso viven acá y no en `penal.md`: ahí está el proceso —qué
 código rige, coerción, nulidades, recursos— y la parte general aplicada, que es lo que se lee
 **antes** de llegar a cualquiera de éstos.
 
 Articulado cotejado contra `fuentes/normas/`: `ley-23098.txt` (hábeas corpus), `ley-23737.txt`
 (estupefacientes), `ley-27372.txt` (derechos de la víctima), `ley-22278.txt` (minoridad),
-`ley-25246.txt` (lavado), `codigo-electoral-19945.txt` y `ley-20655.txt` (deporte).
+`ley-25246.txt` (lavado), `codigo-electoral-19945.txt`, `ley-20655.txt` (deporte) y
+`ley-26364.txt` (trata), con los tipos de ésta en `cp-11179.txt`, `ley-27411.txt` (Budapest, sin
+el anexo) con los ciberdelitos también en `cp-11179.txt`, y `ley-22415-delitos.txt`,
+`ley-22415-infracciones.txt`, `ley-22415-procedimiento.txt` y
+`ley-22415-recursos.txt` (Ley 22.415, por títulos).
 
-**Conserva la numeración de origen**, 24.9 con sus ocho subsecciones, porque las remisiones de
+**Conserva la numeración de origen**, 24.9 con sus once subsecciones, porque las remisiones de
 otros módulos apuntan a esos números y la numeración de este repositorio es global.
 
 ---
@@ -593,3 +597,194 @@ generales del Código Penal.
 > **fueron derogados por el art. 19 de la Ley 24.819**: buscar dopaje en este texto no da nada, y
 > esa ley no está en `fuentes/normas/`.
 > [REVISIÓN NORMATIVA REQUERIDA: régimen de dopaje deportivo - Ley 24.819 y sus modificatorias, sin descargar]
+
+### 24.9.9 Trata de personas — Ley 26.364, con los tipos en el Código Penal
+
+Cotejada contra `fuentes/normas/ley-26364.txt`, texto actualizado con la **Ley 26.842 (B.O.
+27/12/2012)**, que reescribió el régimen, y contra `fuentes/normas/cp-11179.txt` para los tipos.
+
+**La trampa de lectura, primero.** Los arts. 10 y 11 de la Ley 26.364 dicen *"Incorpórase como
+artículo 145 bis del Código Penal, el siguiente"* y transcriben **el texto de 2008**, que exigía
+medios comisivos para las víctimas mayores y separaba mayores de menores. **Ese texto ya no
+rige**: los arts. 25 y 26 de la Ley 26.842 sustituyeron los dos artículos en el Código, y el
+consolidado de la ley especial no lo refleja en su cuerpo. Los tipos se leen **en el Código
+Penal**, nunca en la ley que los creó.
+
+**Qué es trata (art. 2, texto Ley 26.842).** *"El ofrecimiento, la captación, el traslado, la
+recepción o acogida de personas con fines de explotación, ya sea dentro del territorio nacional,
+como desde o hacia otros países."* Explotación es cualquiera de seis supuestos, sin perjuicio de
+que sean delitos autónomos: esclavitud o servidumbre; trabajos o servicios forzados; promover,
+facilitar o comercializar la prostitución ajena u otra oferta de servicios sexuales ajenos; lo
+mismo con la pornografía infantil; **matrimonio o unión de hecho forzados**; extracción forzosa o
+ilegítima de órganos, fluidos o tejidos. **El consentimiento de la víctima no exime** de
+responsabilidad penal, civil ni administrativa: era el punto que la reforma vino a cerrar.
+
+**Los tipos (arts. 145 bis y 145 ter CP, texto Ley 26.842).** El 145 bis reprime con **cuatro a
+ocho años** al que *"ofreciere, captare, trasladare, recibiere o acogiere personas con fines de
+explotación"*, dentro o fuera del país, **aunque mediare el consentimiento de la víctima**. El
+145 ter agrava a **cinco a diez** por los medios —engaño, fraude, violencia, amenaza, abuso de
+autoridad o de una situación de vulnerabilidad, pago a quien tenga autoridad sobre la víctima—,
+por la víctima embarazada, mayor de setenta o que no pueda valerse, por **tres o más víctimas**,
+por **tres o más partícipes**, por el vínculo del autor y por su condición de funcionario o
+miembro de fuerza de seguridad; **ocho a doce** si la explotación se consumó, y **diez a quince**
+si la víctima es menor de dieciocho. La prescripción de estos delitos con víctima menor **se
+suspende** mientras dure la minoridad, por el art. 67 CP: `penal-parte-general.md` 24.4.2.
+
+**La víctima no es punible (art. 5).** Por ningún delito que sea *"resultado directo de haber sido
+objeto de trata"*, y tampoco le alcanzan las sanciones ni los impedimentos migratorios por la
+actividad desplegada durante el ilícito. Es la primera defensa que hay que ver cuando la persona
+imputada aparece explotada.
+
+**Los derechos que el Estado garantiza (art. 6, texto Ley 26.842)**, con prescindencia de que
+denuncie o querelle y hasta la reparación efectiva: información en su idioma, asistencia
+psicológica y médica gratuitas, alojamiento y manutención, **asesoramiento legal integral y
+patrocinio gratuito en todas las instancias**, protección frente a represalias con acceso al
+Programa de Protección de Testigos, **permanecer en el país** con documentación o retornar a su
+origen, testimoniar en condiciones especiales, ser informada y oída, reserva de identidad,
+reinserción educativa, y para la víctima menor un procedimiento que reconozca su condición sin
+restringirle derechos ni privarla de libertad. Si la víctima argentina está en el exterior, los
+representantes diplomáticos deben gestionar su seguridad y repatriación (art. 9).
+
+**Proceso.** Competencia **federal**: el art. 13 puso los arts. 145 bis y 145 ter en el inc. e del
+art. 33 CPPN. Declaraciones: el art. 14 remite a los **arts. 132 bis, 250 bis y 250 ter CPPN**
+—actuación en ajena jurisdicción cuando peligra la vida de la víctima, y entrevista de la víctima
+menor de dieciséis **sólo por psicólogo** en gabinete, con informe para las partes y sin
+interrogatorio directo, extendida a la de dieciséis a dieciocho con riesgo informado—, y el
+**art. 250 quater CPPN** manda que las víctimas de trata declaren, siempre que sea posible,
+entrevistadas por psicólogo y nunca interrogadas en forma directa por las partes. Las
+**denuncias pueden ser anónimas** y la identidad del denunciante se reserva incluso ante las
+fuerzas de seguridad (art. 26). Y la sentencia, la probation, el juicio abreviado y el decomiso
+sin condena **deben ordenar las restituciones económicas** a la víctima, con medidas cautelares
+sobre los activos del imputado desde la primera oportunidad, sin perjuicio de la acción civil
+(art. 28, texto Ley 27.508).
+
+> **Lo que se mueve por decreto.** La composición del Consejo Federal (art. 18) y del Comité
+> Ejecutivo (art. 21) fue reescrita por el **Decreto 195/2024**, y el art. 27 —las partidas
+> presupuestarias— por el **Decreto 575/2025**: son las notas del consolidado y son lo primero que
+> envejece.
+
+`[REVISIÓN NORMATIVA REQUERIDA: la Ley 27.508 -fondo fiduciario de asistencia a víctimas-, el Protocolo de Palermo aprobado por Ley 25.632 y la reglamentación de la Ley 26.364 NO están descargados; y no hay fallo cargado sobre trata: la línea de la CSJN y de la Cámara Federal de Casación sobre vulnerabilidad y consentimiento va con marcador]`
+
+### 24.9.10 Ciberdelitos — Leyes 26.388 y 26.904 en el Código Penal, y el Convenio de Budapest
+
+No hay una ley de ciberdelitos: **hay tipos dentro del Código Penal**, cotejados contra
+`fuentes/normas/cp-11179.txt`, que la Ley 26.388 (B.O. 25/06/2008) insertó o reescribió y otras
+tres leyes ampliaron. Lo que sí es autónomo es el tratado, y **ése no está bajado entero**.
+
+**Los tipos, por bien jurídico.** Contra la integridad sexual: **art. 128, texto Ley 27.436**
+(B.O. 23/04/2018), que reprime con **tres a seis años** producir, financiar, ofrecer,
+comerciar, publicar, facilitar, divulgar o distribuir representaciones de menores de dieciocho
+en actividades sexuales explícitas, la **tenencia simple** con cuatro meses a un año, la
+tenencia **con fines de distribución** con seis meses a dos años, y sube un tercio si la
+víctima es menor de trece; y el **grooming del art. 131, incorporado por la Ley 26.904** (B.O.
+11/12/2013): **seis meses a cuatro años** a quien por comunicaciones electrónicas contacte a un
+menor con el propósito de cometer un delito contra su integridad sexual. Contra la privacidad,
+Capítulo III del Título V: **art. 153** —abrir, acceder, apoderarse, suprimir o desviar una
+comunicación electrónica, e interceptar comunicaciones de un sistema privado o de acceso
+restringido, quince días a seis meses, y hasta un año si se publica—; **art. 153 bis** —acceso
+ilegítimo a un sistema o dato informático de acceso restringido, quince días a seis meses, y de
+un mes a un año si es un sistema estatal o de servicios públicos—; **art. 155** —publicar
+indebidamente una comunicación no destinada a publicidad, multa, con la eximente de proteger
+un interés público—; **art. 157**, la revelación por funcionario; y **art. 157 bis, texto Ley
+27.759** (B.O. 14/10/2024): acceso, revelación o inserción ilegítima en un **banco de datos
+personales**, un mes a dos años, con inhabilitación para el funcionario y con **seis meses a
+cuatro años si son datos genéticos o de ADN**. Contra la propiedad: **art. 173 inc. 16**, la
+**defraudación por manipulación informática** que altere el funcionamiento de un sistema o la
+transmisión de datos, con la pena de la estafa; y **art. 183, segundo párrafo**, el **daño
+informático** —alterar, destruir o inutilizar datos, programas o sistemas, o distribuir
+programas destinados a dañar—, quince días a un año. Contra la seguridad pública y la
+administración: **art. 197**, interrumpir o entorpecer una comunicación telegráfica, telefónica
+o de otra naturaleza, seis meses a dos años; y **art. 255**, sustraer, alterar o inutilizar
+objetos de prueba, registros o documentos confiados a un funcionario, un mes a cuatro años,
+con la forma culposa multada. Las definiciones de *"documento"*, *"firma"* e *"instrumento
+privado"* que hacen que todo esto alcance a lo digital están en el **art. 77** del Código,
+texto de la misma Ley 26.388.
+
+**Competencia y prueba.** Los tipos son de competencia ordinaria salvo que el hecho afecte a
+un sistema federal o cruce jurisdicciones: en PBA, `penal.md` 24.1 para el código que rige, y
+el **art. 153 bis** y el **art. 173 inc. 16** son los que más cuestiones de competencia
+generan por el lugar del acceso y el del perjuicio. La prueba digital —cadena de custodia,
+requisa de dispositivos, datos de tráfico— no tiene régimen propio en el CPP bonaerense ni en
+el federal, y va con marcador.
+
+**El Convenio de Budapest.** Aprobado por **Ley 27.411** (B.O. 15/12/2017), cotejada contra
+`fuentes/normas/ley-27411.txt`, que es **sólo la ley aprobatoria**: el texto del Convenio es
+un anexo que **no está descargado**. Lo que sí está es el art. 2 con las **cinco reservas**
+que la Argentina depositó: al **art. 6.1.b** (dispositivos), a los **arts. 9.1.d, 9.2.b y 9.2.c**
+(pornografía infantil: la definición del "menor que parece" y el material simulado), **reserva
+parcial al art. 9.1.e** (la tenencia sólo en los términos del art. 128 del Código Penal), al
+**art. 22.1.d** (jurisdicción sobre nacionales en el extranjero) y al **art. 29.4** (la doble
+incriminación para la conservación de datos). Se citan **sólo esas reservas**: cualquier
+artículo del Convenio va con `[REVISIÓN NORMATIVA REQUERIDA: el texto del Convenio de Budapest no está en
+fuentes/, sólo la ley aprobatoria y sus reservas]`.
+
+`[REVISIÓN NORMATIVA REQUERIDA: este bloque recorre los arts. 77, 128, 131, 153, 153 bis, 155, 157, 157 bis, 173 inc. 16, 183, 197 y 255 del Código Penal y los arts. 1 y 2 de la Ley 27.411. El anexo del Convenio, el Segundo Protocolo Adicional y la Ley 25.326 de datos personales -que define el banco de datos del art. 157 bis- NO están descargados. Sin fallo cargado sobre competencia en el acceso ilegítimo ni sobre el grooming]`
+
+### 24.9.11 Régimen penal y contravencional aduanero — Ley 22.415, Secciones XII y XIV
+
+Cotejado contra los cuatro títulos del Código Aduanero que están bajados por separado, porque
+el texto completo de InfoLEG es sólo un índice: `ley-22415-delitos.txt` (arts. 860 a
+891), `ley-22415-infracciones.txt` (892 a 996), `ley-22415-procedimiento.txt`
+(1001 a 1052) y `ley-22415-recursos.txt` (1129 a 1183). **El resto del Código —los
+regímenes de importación y exportación, el valor en aduana, los tributos— no está descargado.**
+
+**Delitos (Sección XII, Título I).** El **contrabando** del art. 863 es impedir o dificultar
+**mediante ardid o engaño** el control aduanero sobre importaciones y exportaciones, **dos a
+ocho años**; el art. 864 enumera cinco conductas con la misma pena —importar por lugares u
+horas no habilitados, someter la mercadería a un tratamiento distinto, presentar autorizaciones
+irregulares, ocultar o sustituir mercadería, simular una operación—, ambos con texto de la Ley
+25.986. **Agravado a cuatro a diez años** por el art. 865 —tres o más personas, funcionario
+público, agente aduanero o fuerza de seguridad, violencia, aeronave fuera de ruta, documentos
+falsos, prohibición absoluta, sustancias que afecten la salud, o **valor en plaza igual o
+superior a tres millones de pesos**—; **tres a doce** si son estupefacientes o precursores
+(art. 866, texto Ley 27.302) y **cuatro a doce** si son armas, explosivos o material nuclear
+(art. 867). **La tentativa se pena como el consumado** (arts. 871 y 872), y el encubrimiento
+tiene tipo propio (art. 874). Las **sanciones accesorias del art. 876** son las que hacen caro
+el proceso: comiso de la mercadería y del medio de transporte, **multa de cuatro a veinte veces
+el valor en plaza, solidaria**, pérdida de concesiones, inhabilitación para el comercio de seis
+meses a cinco años, e inhabilitación perpetua para actuar ante la aduana. El valor en plaza se
+fija por el art. 878.
+
+**Infracciones (Sección XII, Título II).** Régimen administrativo con **prescripción de cinco
+años** (art. 934). El **contrabando menor del art. 947, texto Ley 27.430**: los hechos de los
+arts. 863, 864, 865 inc. g, 871 y 873 son infracción y no delito cuando el valor en plaza es
+**menor de quinientos mil pesos**, y **menor de ciento sesenta mil si es tabaco**, con multa de
+dos a diez veces el valor y comiso. `[VERIFICAR MONTO ACTUALIZADO: los umbrales del art. 947 son fijos
+en la ley y no se actualizan; un caso de hoy se encuadra con ese número o con el que una
+reforma posterior haya puesto]`. La **declaración inexacta del art. 954** —la más común—
+multa de **una a cinco veces** el perjuicio fiscal, el valor en aduana si transgrede una
+prohibición, o la diferencia de importe girado, y se aplica la mayor si concurren. Siguen el
+incumplimiento de la importación o exportación temporaria (art. 970: una a cinco veces los
+tributos, mínimo el treinta por ciento del valor), el **equipaje** del viajero (art. 977: una a
+tres veces el valor en aduana), la mercadería sin documentar (arts. 985 a 987) y las tenencias
+injustificadas (arts. 994 y 995).
+
+**Quién juzga (Sección XIV, Título I).** En sede administrativa, **el administrador de la aduana
+donde ocurrieron los hechos** resuelve originariamente las infracciones, las impugnaciones y las
+ejecuciones (art. 1018). Judicialmente, las ejecuciones y las demandas contra sus resoluciones
+van a los **jueces contencioso administrativo federal** en la Capital y a los **federales** en el
+interior, **si la suma cuestionada supera las 1.000 UVA** (art. 1024, texto DNU 70/2023). El
+**Tribunal Fiscal de la Nación** conoce de las apelaciones contra el administrador cuando el
+importe **excede los veinticinco mil pesos** del art. 1025, actualizables por el índice de
+precios mayoristas al 31 de octubre de cada año; `[VERIFICAR MONTO ACTUALIZADO: el umbral vigente del art.
+1025 es el actualizado por el Tribunal Fiscal al año de la consulta]`. Los **delitos** van por
+el art. 1026, **texto Decreto 575/2025** (B.O. 13/08/2025): la pena privativa de libertad y las
+accesorias de los incs. a, b, d, e, h e i del art. 876 se aplican **en sede judicial**, y la
+multa del inc. c, la pérdida de concesiones del g y la inhabilitación del f para quien no sea
+fuerza de seguridad, **ante el administrador**. Competencia originaria de los **tribunales en lo
+penal económico** en la Capital, **que se extiende a los partidos del conurbano que enumera el
+art. 1027**, y de los federales en el resto; las Cámaras del art. 1028.
+
+**Recursos (Sección XIV, Título III).** Revocatoria sólo contra los cinco actos del art. 1129.
+Contra la resolución definitiva del administrador en repetición e infracciones, **opción
+excluyente** entre **apelación ante el Tribunal Fiscal o demanda contenciosa** ante el juez
+(art. 1132), **en quince días** desde la notificación (art. 1133), **con efecto suspensivo**
+(art. 1134); vencido el plazo sin recurrir, **cosa juzgada** (art. 1139). En impugnación de
+tributos sólo hay apelación al Tribunal Fiscal. Ante el Tribunal el apelante expresa todos los
+agravios, opone excepciones y ofrece la prueba **que ya ofreció ante la aduana**, salvo hechos
+nuevos o materia sancionatoria (art. 1145, texto Ley 25.239); traslado a la aduana por
+**treinta días**, prorrogable una vez por otros treinta con conformidad de ambas (art. 1146,
+texto Ley 27.430). Del Tribunal Fiscal, recurso ante la Cámara contencioso administrativo
+federal: `administrativo-nacional.md` 46.5.
+
+`[REVISIÓN NORMATIVA REQUERIDA: este bloque recorre los arts. 862 a 867, 871, 872, 874, 876, 878, 934, 947, 954, 970, 977, 985 a 987, 994, 995, 1018, 1024 a 1028, 1129, 1132 a 1134, 1139, 1145 y 1146 de la Ley 22.415. El resto del Código -en especial el procedimiento para las infracciones, arts. 1080 a 1117, y la ejecución, arts. 1122 a 1128- NO está descargado, y el Decreto 575/2025 que reescribió el art. 1026 es un decreto delegado cuya suerte no está en fuentes/. El valor de la UVA del art. 1024 va con marcador. Sin fallo cargado sobre el "ardid o engaño" del art. 863]`

@@ -1,6 +1,6 @@
 ---
 name: derecho-argentino
-description: Análisis, redacción y revisión bajo derecho argentino, desde una parte o desde el órgano jurisdiccional. Usar ante consultas sobre despido, liquidación, telegramas; accidente, ART; maternidad, suspensión disciplinaria; cesantía; daños, contratos, cláusulas abusivas, consumo, conciliación previa; posición dominante; alimentos, divorcio, violencia familiar y violencia digital; legítima; usucapión; escribano; desalojo; pagaré; seguros; hábeas corpus; convenio colectivo; penales, probation, nulidad, ejecución de la pena, penal juvenil; jubilaciones, pensiones, IPS; prepaga; salud mental; sociedades; quiebras; tributario, ARBA, AGIP; multas de tránsito, contravenciones de CABA; juzgado de paz; hábeas data; firma digital, notificación electrónica; acto administrativo, contencioso administrativa; marcas; ambiental; elemento extranjero; amparo; proceso civil y comercial, caducidad; plazos, prescripción, intereses, honorarios (jus y UMA); prueba pericial, ejecución de sentencia, escritos y veredicto.
+description: Análisis, redacción y revisión bajo derecho argentino, desde una parte o desde el órgano jurisdiccional. Usar ante consultas sobre despido, liquidación, telegramas, casas particulares; accidente, ART; maternidad, suspensión disciplinaria; cesantía; daños, contratos, cláusulas abusivas, consumo, tarjeta de crédito, conciliación previa; posición dominante; alimentos, divorcio, violencia digital; legítima; usucapión; escribano; desalojo; pagaré; seguros; hábeas corpus; convenio colectivo; penales, jurados, trata de personas, probation, nulidad, ejecución de la pena, penal juvenil; jubilaciones, IPS; prepaga; salud mental; sociedades; quiebras; tributario, ARBA, AGIP; tránsito, contravenciones de CABA; juzgado de paz; hábeas data; firma digital, notificación electrónica; acto administrativo, contencioso administrativa; marcas; ambiental; elemento extranjero; amparo; proceso civil y comercial, caducidad; plazos, prescripción, honorarios (jus y UMA); prueba pericial, ejecución de sentencia, escritos y veredicto.
 ---
 
 # Derecho argentino
@@ -135,18 +135,18 @@ lo dice la tabla de ruteo de la sección 16, que es la que decide qué archivo a
 | Cómputo de plazos, cualquier fuero | Profunda |
 | **Transversales** — prueba pericial, ejecución de sentencia, notificaciones y expediente digital PBA | Profunda |
 | **Los fueros propios de CABA** — contravencional y de faltas, contencioso administrativo y tributario | Cubierto: `contravencional-caba.md` 56 y `tributario-caba.md` 57 |
-| **Los fueros propios de CABA** — penal | **Nada cargado.** De CABA están además bajadas la Constitución, la Ley 6.407 -procedimiento de consumo- y la Ley 5.134 -honorarios-. Decirlo y no suplirlo con derecho nacional |
+| **Los fueros propios de CABA** — penal | **En parte.** El CPP de la Ciudad, Ley 2.303, está bajado y cotejado en `penal.md` 24.1.2 bis y 24.3.4 —competencia y libertad durante el proceso—; el juicio, los recursos y la ejecución porteños no, y ahí se dice y no se suple con derecho nacional. De CABA están además bajadas la Constitución, la Ley 6.407 -procedimiento de consumo- y la Ley 5.134 -honorarios- |
 | Modelos de escritos y guías de armado, todas las ramas | Inventario del repo, **sin auditar** |
 | Leading cases de la Corte Suprema | `fallos-csjn.md` es un **índice**: carátula, cita y fecha verificadas contra la sentencia bajada; el holding, sólo donde se leyó el documento |
 | El módulo de la rama no llega al punto consultado, o la materia no tiene módulo | El repo tiene un perfil de área heredado y hay que leerlo: `perfiles-heredados.md` dice, rama por rama, qué cubre el módulo y qué queda en el perfil |
-| Otras materias y otras provincias | Sin perfil |
+| Otras provincias | **Sin módulo.** Lo procesal de otra provincia no se transpola. Para lo contencioso administrativo hay un perfil heredado por provincia, que se abre con la advertencia de `perfiles-heredados.md` y nunca en lugar de la fuente |
 
 **Por qué las tres primeras filas nombran CABA sin tener normas locales bajadas.** En materia
 laboral, civil y comercial lo que se aplica en CABA es derecho nacional, y su procedimiento
 —CPCCN y Ley 18.345— está bajado. En consumo está además la Ley 6.407, que es local. Donde CABA
 sí tiene fuero propio, la cobertura la dicen las dos filas de CABA y no se promedian: el
-contravencional, el de faltas y el contencioso administrativo y tributario están cargados; el
-penal no, y ahí se dice y no se suple.
+contravencional, el de faltas y el contencioso administrativo y tributario están cargados; del
+penal, sólo lo que `penal.md` cotejó, y el resto se dice y no se suple.
 
 `[REVISIÓN NORMATIVA REQUERIDA: el traspaso de competencias de la justicia nacional a CABA es un proceso abierto y avanza por convenios sucesivos. Antes de afirmar qué tribunal entiende en una causa de CABA, verificar el estado del traspaso para esa materia a la fecha de la consulta]`
 
@@ -510,16 +510,24 @@ abierto por las dudas se paga en todos los turnos que siguen.
 | Y la pieza que firma, **según el fuero**: sentencia, interlocutoria, recaudos, costas, honorarios y admisibilidad recursiva | `references/sede-judicial-pba.md` (laboral PBA), `references/sede-judicial-nacional.md` (nacional y federal) o `references/sede-judicial-caba.md` (CAyT de la Ciudad) |
 | Se actúa por una parte: demanda, contestación, audiencia preliminar, estrategia probatoria, recursos y depósito previo | `references/parte.md` |
 | Despido, liquidación, régimen aplicable por fecha del acto extintivo, agravantes, preaviso, período de prueba, intereses laborales, prescripción laboral | `references/laboral.md` |
+| **Empleada de casas particulares**: despido, preaviso, falta de registro, ante qué tribunal | `references/laboral.md` 5.17 quinquies — no se liquida con el script |
+| **Obrero de la construcción, viajante de comercio o encargado de edificio**: fondo de cese, comisiones, indemnización por clientela, cesantía y estabilidad | `references/laboral.md` 5.17 sexies — no se liquida con el script |
+| **Jornada de trabajo y horas extra**: tope diario y semanal, nocturna, insalubre, excepciones, recargos | `references/laboral.md` 5.17 septies |
+| **Teletrabajo**: desconexión digital, reversibilidad, gastos, cuidados, accidente en casa | `references/laboral-licencias.md` 5.14 bis |
 | **Accidente de trabajo o enfermedad profesional**: ART, comisión médica, baremo, incapacidad, ingreso base, la opción del art. 4 de la Ley 26.773 | `references/laboral-riesgos.md` — si además hay despido, también `references/laboral.md` |
 | **El contrato sigue y la prestación se interrumpe**: licencia por maternidad, excedencia, enfermedad inculpable y reserva del puesto, suspensión y poder disciplinario | `references/laboral-licencias.md` |
 | El trabajo es rural o **agrario**, o el reclamo es de **inclusión laboral travesti, transexual y transgénero** | `references/laboral.md` 5.17 quater y 5.17 ter |
 | **Derecho colectivo**: convenio colectivo, paritaria, homologación, ultraactividad, encuadramiento sindical, tutela sindical, conflicto colectivo o medidas de acción directa | `references/laboral-colectivo.md` |
 | Daños, responsabilidad civil, prescripción civil, seguro, accidentes de tránsito, locación, obligaciones en moneda extranjera | `references/civil.md` |
+| **Tarjeta de crédito**: resumen, impugnación, intereses, cierre y ejecución del saldo | `references/consumidor.md` 17.11.7 |
 | Relación de consumo, daño punitivo, cláusulas abusivas, garantía, trato digno, justicia gratuita en consumo | `references/consumidor.md` |
 | Servicios públicos y de red: **gas**, **energía eléctrica**, **telecomunicaciones**, internet, telefonía, facturación excesiva, corte del servicio, y si hay que pasar antes por el ente regulador | `references/consumidor.md` 17.11.5 |
 | **Transporte aéreo**: vuelo cancelado o demorado, equipaje perdido o dañado, y el tope de responsabilidad del transportista | `references/consumidor.md` 17.11.5 ter |
 | Alimentos, cuidado personal, divorcio, filiación, violencia familiar, etapa previa ante el Consejero | `references/familia.md` |
 | **Violencia digital**: difusión de material íntimo sin consentimiento, acoso o extorsión por redes, orden de baja de contenido a una plataforma | `references/violencia-digital.md`, y para el proceso `references/familia.md` |
+| **Unión convivencial**: requisitos, pacto, vivienda, cese, compensación, atribución de la vivienda, bienes al separarse | `references/familia.md` 18.10 bis |
+| **Adopción**: declaración de adoptabilidad, guarda con fines de adopción, entrega directa, plena, simple o de integración | `references/familia.md` 18.10 ter |
+| **Medida de abrigo o medida excepcional de niñez**: Servicio Local, separación del niño de su familia, control judicial, plazos | `references/familia.md` 18.10 quater |
 | Designación, control, impugnación o valoración de una pericia; consultor técnico; estudios complementarios | `references/prueba-pericial.md` |
 | Liquidación, embargo, excepciones en la ejecución, incidente de ejecución parcial, vía ejecutiva laboral | `references/ejecucion.md` |
 | Cuándo quedó notificada una resolución en PBA, cédula electrónica, MEV, presentaciones electrónicas, caída del sistema | `references/notificaciones-pba.md` |
@@ -528,6 +536,8 @@ abierto por las dudas se paga en todos los turnos que siguen.
 | Diagnóstico de un escrito aportado, armado de un escrito desde cero, formato de salida | `references/escritos.md` |
 | Hay que redactar una pieza y conviene ver si el repo ya tiene el modelo | `references/modelos.md` |
 | Hay que mandar o contestar un telegrama, o discutir si uno fue válido | `references/telegramas.md`, **antes** que el modelo |
+| **Agotar la vía en PBA**: qué recurso, en qué plazo, silencio, plazo de gracia, revisión y revocación del acto | `references/contencioso-pba.md` 26.4 bis |
+| **Contrataciones de la Provincia de Buenos Aires**: licitación, contratación directa, impugnación de la adjudicación, sanción al proveedor | `references/contencioso-pba.md` 26.9 ter |
 | Se demanda al Estado provincial, a un municipio o a un ente bonaerense por actuación u omisión administrativa | `references/contencioso-pba.md` |
 | Se reclama cobertura a una obra social o prepaga, o se discute un CUD, una prestación de la Ley 24.901 o una baja; o se invoca la **emergencia sanitaria pediátrica** | `references/salud-discapacidad.md` |
 | Hay que descargar una infracción de tránsito, o discutir la responsabilidad en un accidente | `references/transito.md`, y para el encuadre civil `references/civil.md` 6.5 |
@@ -535,9 +545,13 @@ abierto por las dudas se paga en todos los turnos que siguen.
 | Hay que sacar o corregir un dato de un banco de datos, o el cliente sigue informado como deudor después de pagar | `references/datos-personales.md` |
 | El empleador o demandado es una sociedad y hay que decidir si se extiende la responsabilidad a socios o directores | `references/societario.md` |
 | La persona jurídica no es una sociedad de la Ley 19.550: **cooperativa**, **asociación mutual**, o una sociedad con **oferta pública** bajo la CNV | `references/societario.md` |
+| **SAS**: constitución, capital mínimo, transferencia de acciones, administrador, responsabilidad de los socios | `references/societario.md` 31.3 quinquies |
+| **Asignaciones familiares**: AUH, embarazo, maternidad, prenatal, hijo con discapacidad, topes de ingreso | `references/previsional.md` 32.4 quater |
 | Se reclama una jubilación, un retiro por invalidez o una pensión, o se impugna un dictamen de comisión médica previsional; o se tienen **65 años sin aportes** y se pregunta por la **PUAM** | `references/previsional.md` |
 | Hay que recurrir una determinación, una multa o una clausura de ARCA, o pedir repetición | `references/tributario.md` |
+| **Monotributo**: categorías, recategorización, exclusión de pleno derecho, recurso, sanciones | `references/tributario.md` 33.3 bis |
 | La determinación, la multa o la ejecución es **de ARBA** o de un municipio bonaerense, se discute Ingresos Brutos provincial, o hay un proyecto en el **régimen provincial de inversiones estratégicas** | `references/tributario-pba.md` |
+| **Apremio o ejecución fiscal de ARBA o municipal**: título, embargo, excepciones, plazo para oponerlas, apelación, subasta | `references/tributario-pba.md` 54.5 ter |
 | El beneficio jubilatorio o la pensión los otorga el **IPS** de la Provincia de Buenos Aires, o se reclama reajuste contra él | `references/previsional-pba.md` |
 | Le labraron un **acta** en la Ciudad de Buenos Aires: contravención de la Ley 1.472 o **falta** de la Ley 451, pago voluntario, Controlador de Faltas o pase a la Justicia | `references/contravencional-caba.md` |
 | La determinación, la multa o la ejecución es **de AGIP**, o se impugna un acto de la administración porteña ante el fuero Contencioso Administrativo y Tributario | `references/tributario-caba.md` |
@@ -558,11 +572,18 @@ abierto por las dudas se paga en todos los turnos que siguen.
 | Lo mismo, pero el expediente tramita en la **justicia civil y comercial de la PBA** — y ojo con la caducidad, que allá hay una intimación de cinco días que acá no existe | `references/proceso-pba.md` |
 | **Juzgado de Paz** de la Provincia: si es competente en el partido, alimentos, apremios, medianería, deslinde, informaciones sumarias, rectificación de partidas, certificación de firmas, o **faltas provinciales** | `references/justicia-de-paz-pba.md` 61 |
 | Hay un conflicto por la propiedad o la posesión de una cosa, expensas, un consorcio, una usucapión o una hipoteca | `references/derechos-reales.md` |
+| **Propiedad horizontal**: expensas, certificado de deuda, asamblea, nulidad, mayorías, administrador, obras, consorcio | `references/derechos-reales.md` 45.4 |
+| **Registro de la propiedad inmueble**: inscripción, prioridad, certificado, reserva de prioridad, observación del título | `references/derechos-reales.md` 45.5 bis |
 | **Escritura pública, acta notarial o copia**: qué hace plena fe y hasta dónde, cómo se ataca, segunda copia, y la organización notarial de cada jurisdicción | `references/notarial.md` |
+| **Recurso administrativo nacional**: reconsideración, jerárquico, alzada, notificación por TAD, la vista que suspende los plazos | `references/administrativo-nacional.md` 46.5 quater |
+| **Demandar a la Nación y pedir una cautelar contra el Estado nacional**: reclamo previo, silencio, informe previo, vigencia, caducidad, suspensión del acto | `references/administrativo-nacional.md` 46.5 quinquies |
+| **Contrataciones de la Nación**: licitación, contratación directa, prerrogativas, inhabilitación del proveedor, REPSAL | `references/administrativo-nacional.md` 46.5 sexies |
 | Hay un acto de la Administración nacional que perjudica, y hay que ver si se agotó la vía y si todavía se puede impugnar | `references/administrativo-nacional.md` |
 | **Acceso a la información pública**: pedido, silencio o negativa del organismo; o **expulsión y cancelación de residencia** de una persona extranjera | `references/administrativo-nacional.md` |
 | El reclamo de consumo tramita ante la Justicia en las Relaciones de Consumo de CABA | `references/consumo-caba.md` |
 | Hay un conflicto por un alquiler: falta de pago, ajuste, devolución del depósito, expensas o desalojo | `references/locacion.md` |
+| **Empleado público bonaerense**, provincial, municipal o docente: cesantía, sumario, contratado, disponibilidad y qué recurso | `references/empleo-publico.md` 49.5.4, y `references/contencioso-pba.md` 26 para la demanda |
+| **Policía bonaerense**: estado policial, desafectación del servicio, retención del haber, sumario, cesantía y exoneración | `references/empleo-publico.md` 49.5.5 |
 | Cesaron, sancionaron o no renovaron a un empleado del Estado y hay que ver qué régimen lo rige | `references/empleo-publico.md` |
 | **Ética pública**: incompatibilidad, conflicto de intereses, declaración jurada patrimonial o regalos a un funcionario | `references/empleo-publico.md` |
 | Hay un pagaré o un cheque rechazado para ejecutar, o hay que defenderse de un juicio ejecutivo | `references/titulos-ejecutivos.md` |
@@ -577,6 +598,10 @@ abierto por las dudas se paga en todos los turnos que siguen.
 | Hay **condena firme** y se discute el régimen de ejecución, salidas transitorias, libertad condicional o asistida, o las condiciones de detención | `references/ejecucion-penal.md` |
 | Leyes penales especiales: estupefacientes, **lavado de activos** y el abogado como sujeto obligado, **delitos y faltas electorales**, deber de votar y amparo del elector, **cohecho deportivo**, régimen penal tributario, **organizaciones criminales** | `references/penal-leyes-especiales.md` |
 | **Hábeas corpus**: detención ilegal, agravamiento de las condiciones de detención, desaparición forzada; o los **derechos de la víctima** y del querellante en el proceso penal | `references/penal-leyes-especiales.md` |
+| **Juicio por jurados** en PBA: si corresponde, renuncia, selección, veredicto y qué se recurre | `references/penal.md` 24.2.2, y `references/penal-impugnacion.md` 24.6 para el recurso |
+| **Trata de personas**: encuadre, víctima no punible, competencia federal, restituciones | `references/penal-leyes-especiales.md` 24.9.9 |
+| **Ciberdelitos**: acceso ilegítimo, grooming, pornografía infantil, estafa informática, daño informático, datos personales, Convenio de Budapest | `references/penal-leyes-especiales.md` 24.9.10 |
+| **Contrabando e infracciones aduaneras**: delito o contrabando menor, declaración inexacta, equipaje, Tribunal Fiscal o demanda, penal económico | `references/penal-leyes-especiales.md` 24.9.11 |
 | **El imputado es menor de 18 y el hecho es en PBA**: qué órgano interviene, plazos de la investigación y de la prisión preventiva, medidas del art. 68, niño no punible y conexidad con mayores | `references/penal-juvenil-pba.md`, **con** `penal-leyes-especiales.md` para la Ley 27.801 |
 | El módulo de la rama no llega al punto consultado, o la materia no tiene módulo | `references/perfiles-heredados.md` — el mapa de qué cubre cada módulo y qué queda en el perfil heredado |
 | Si una norma citada sigue vigente y desde cuándo | `references/changelog-normativo.md` |
@@ -599,6 +624,7 @@ scripts en lugar de calcular**, y transcribir su salida:
 | Honorarios en **otra provincia** | Su ley arancelaria local, que **no está cargada**. Decirlo y no calcular con la Ley 14.967 ni con la 27.423 |
 | Diagnóstico: repo, perfil, datos cargados y vencidos | `scripts/estado.py` |
 | Perfil de trabajo del usuario | `scripts/perfil.py` |
+| **Transcribir un artículo** de una norma bajada, con su procedencia | `scripts/articulo.py <slug> <art>` — sale con título, URL, fecha de descarga y hash; `Read` trunca a 2.000 renglones sin avisar |
 | **Revisar los marcadores de la respuesta antes de entregarla** | `scripts/verificar_respuesta.py respuesta.md` — mide la FORMA, no si correspondía emitirlos: su verde no dice que la respuesta esté bien |
 
 Los scripts **no traen montos**: piden como entrada los valores que la sección 2 prohíbe
@@ -614,27 +640,16 @@ control. Ver `references/intake.md`, «Devolver los datos antes de usarlos».
 
 | Lo que devuelve la consola | Qué pasa | Qué hacer |
 | --- | --- | --- |
-| `command not found: python3` · `'python3' no se reconoce como un comando` · `xcrun: error: invalid active developer path` | **Falta Python en esta computadora.** El script está y los datos están: lo que no hay es con qué ejecutarlo | **No calcular.** Emitir el marcador de abajo y explicar cómo se resuelve |
+| `command not found: python3` · `'python3' no se reconoce como un comando` · `xcrun: error: invalid active developer path` | **Falta Python en esta computadora.** El script está y los datos están: lo que no hay es con qué ejecutarlo. `estado.py` tampoco corre, así que el diagnóstico sale de acá y no de una corrida | **No calcular.** Emitir el marcador de abajo y explicar cómo se resuelve |
 | `No such file or directory` sobre la ruta del script | **No hay repo conectado**, o la ruta es otra. Ver sección 0.2 | Pedir la ruta. Si no hay repo, calcular a mano y aplicar la verificación aritmética de cierre de `plazos.md` 8.6, diciendo que se hizo sin el script |
-
-**Este diagnóstico no puede salir de un script.** `estado.py` es Python y tampoco corre, así que
-`/derecho:estado` falla igual y por la misma causa: si la consola devuelve una de esas tres
-señales, la conclusión se saca de acá y no de una corrida.
-
-**Falta Python — qué emitir y qué decir.** El marcador:
 
     [CONFIGURACIÓN INCOMPLETA: falta Python 3 en esta computadora - sin intérprete no corren las calculadoras deterministas, así que no se entrega ninguna liquidación, plazo, interés ni honorario calculado]
 
-Y la explicación, en castellano y sin jerga: que **falta Python**, que es el único programa aparte
-que esta herramienta necesita y **sólo para los cálculos** —citar una norma, revisar un escrito o
-leer un módulo funcionan igual sin él—, que se baja de <https://www.python.org/downloads/> y se
-instala con las opciones que vienen por defecto, que **en Windows conviene dejar tildado *"Add
-python.exe to PATH"*** porque si no el comando sigue sin responder, y que después hay que cerrar y
-volver a abrir la aplicación.
-
-**Y lo que no se hace es calcular a mano.** Es la única de las dos causas donde el cálculo manual
-está prohibido, y la razón es la asimetría: acá el usuario **cree que corrió la calculadora**. Un
-número hecho a ojo sale con el mismo tono que uno determinista, así que entregarlo convierte una
-falta de instalación —que se arregla en dos minutos— en un error de liquidación que nadie ve.
+**Y lo que no se hace es calcular a mano.** Acá el usuario **cree que corrió la calculadora**, y
+un número hecho a ojo sale con el mismo tono que uno determinista. Se explica, en castellano y sin
+jerga, que falta Python, que es el único programa aparte que esto necesita y **sólo para los
+cálculos**, que se baja de <https://www.python.org/downloads/> con las opciones por defecto —en
+Windows, con *"Add python.exe to PATH"* tildado, o el comando sigue sin responder— y que después
+se cierra y se vuelve a abrir la aplicación. El detalle está en `scripts/README.md`, «Si un script no corre».
 
 ---

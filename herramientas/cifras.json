@@ -101,6 +101,7 @@
     "docs/COBERTURA.md",
     "docs/DESARROLLO.md",
     "docs/PENDIENTES.md",
+    "docs/PROYECTO.md",
     "docs/TERMINAL.md"
   ],
   "excluidos": {
@@ -113,7 +114,8 @@
     "derecho/evals/": "Casos de prueba y sus resultados, no documentación del repositorio. Su README.md tampoco: es una de las cinco excepciones de capa 2 que declara LICENCIAS.md, y esta lo tenía en el alcance. Estuvo sin consecuencia -ninguna ancla apuntaba ahi- pero era la puerta abierta: una ancla nueva y este script reescribía un archivo de otro autor.",
     "derecho/kb/": "Capa 2, de Cristian Aboitiz. Este script no le escribe: lo vigila frontera_kb.py.",
     "docs/AUDITORIAS.md": "Auditorias fechadas: trece normas es lo que se revisó ese día, no un inventario vivo.",
-    "docs/REVALIDAR.md": "Registro fechado, igual que AUDITORIAS.md: cada fila dice contra qué texto se cotejó un bloque y qué se vio ese día, y la fecha la pone la otra mitad de la tabla, en changelog-normativo.md. Sellarle una cifra convertiría en dato vivo lo que vale por el día en que se midió."
+    "docs/REVALIDAR.md": "Registro fechado, igual que AUDITORIAS.md: cada fila dice contra qué texto se cotejó un bloque y qué se vio ese día, y la fecha la pone la otra mitad de la tabla, en changelog-normativo.md. Sellarle una cifra convertiría en dato vivo lo que vale por el día en que se midió.",
+    "docs/BITACORA.md": "Registro fechado de estructura, partido de AUDITORIAS.md: cada entrada cuenta lo que se vio ese día, no un inventario vivo."
   },
   "capa_2": {
     "_motivo": "Material de Cristian Aboitiz: este script no le escribe ni lo censa. La frontera es la ruta -derecho/kb/- más las cinco excepciones que la ruta no dice. La lista autoritativa está en LICENCIAS.md sección 2 y un test ata las dos.",

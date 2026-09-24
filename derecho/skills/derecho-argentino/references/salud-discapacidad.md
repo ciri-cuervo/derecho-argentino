@@ -292,7 +292,7 @@ llega al rechazo del soporte vital. Cuál cede en el caso concreto no se afirma 
 
 `[VERIFICAR VIGENCIA: articulación entre el art. 19 inc. 3 de la Ley 17.132 y la autonomía de la voluntad de la Ley 26.529 texto Ley 26.742 - no hay precedente bajado que resuelva el alcance de las excepciones de 1967 frente a la ley posterior]`
 
-`[INSERTAR FALLO VERIFICADO: negativa de entrega de historia clínica resuelta por habeas data del art. 20 de la Ley 26.529 - aportar carátula, fuero, sala y año]`
+`[INSERTAR FALLO VERIFICADO: negativa de entrega de historia clínica resuelta por habeas data del art. 20 de la Ley 26.529 - JUBA consultado el 23/09/2026 por «historia clinica habeas data 26529»: un solo sumario, Cámara Civil y Comercial de San Martín Sala III, «Vallejos c/ Hospital Dr. Alberto Duhau», 06/03/2018, que menciona la acción sin resolverla y no tiene texto completo publicado - aportar carátula, fuero, sala y año]`
 
 **Para la pericia médica sobre esa historia clínica** —quién la controla, cómo se impugna el
 dictamen y con qué se valora— rige `prueba-pericial.md` 20, y **este módulo no la cubre**.

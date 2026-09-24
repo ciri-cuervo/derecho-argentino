@@ -97,6 +97,7 @@ Dos consecuencias de que el historial sea por versión y no por cambio:
 | Versión del plugin | `CHANGELOG.md`, **sólo** al publicar una versión |
 | Contenido normativo | `references/changelog-normativo.md`, con fecha y volatilidad |
 | Auditoría contra fuente primaria | `docs/AUDITORIAS.md` |
+| Un cambio de estructura o de herramienta, con fecha | `docs/BITACORA.md` |
 | Con qué texto se cotejó un bloque, y qué salió | `docs/REVALIDAR.md`; la fecha y la volatilidad van en `references/changelog-normativo.md` |
 | Estado de la capa offline | `derecho/fuentes/MANIFIESTO.md` |
 | Si un fallo se puede transcribir | `herramientas/lecturas-ocr.json` |

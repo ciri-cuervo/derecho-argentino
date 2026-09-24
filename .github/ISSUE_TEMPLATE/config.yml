@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Contar cómo te fue, preguntar o proponer una rama
+    url: https://github.com/ciri-cuervo/derecho-argentino/discussions
+    about: Las experiencias, las preguntas y las ideas van a Discusiones. Los issues son para errores.
+  - name: Algo que preferís no publicar
+    url: https://github.com/ciri-cuervo/derecho-argentino/security/advisories/new
+    about: Reporte privado. Qué va por acá y qué no, en SECURITY.md.
