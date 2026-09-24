@@ -9,6 +9,7 @@ el estado vigente está en el archivo que lo explica, y acá queda cómo se lleg
 
 | Fecha | Entrada |
 | --- | --- |
+| 24/09/2026 | [El escrito sale en texto plano, y la hoja de cada jurisdicción tiene su fuente bajada](#24092026---el-escrito-sale-en-texto-plano-y-la-hoja-de-cada-jurisdicción-tiene-su-fuente-bajada) |
 | 23/09/2026 | [Dieciséis materias entran como sección, y dos cosas que el corte destapó](#23092026---dieciséis-materias-entran-como-sección-y-dos-cosas-que-el-corte-destapó) |
 | 19/09/2026 | [Diez hallazgos de una evaluación en runtime, y lo que cambió](#19092026---diez-hallazgos-de-una-evaluación-en-runtime-y-lo-que-cambió) |
 | 18/09/2026 | [El eval de despido, corrido dos veces: bajaron los turnos y tres rúbricas medían mal](#18092026---el-eval-de-despido-corrido-dos-veces-bajaron-los-turnos-y-tres-rúbricas-medían-mal) |
@@ -16,6 +17,19 @@ el estado vigente está en el archivo que lo explica, y acá queda cómo se lleg
 | 18/09/2026 | [Medicina legal no era un módulo: eran cinco huecos](#18092026---medicina-legal-no-era-un-módulo-eran-cinco-huecos) |
 | 18/09/2026 | [Laboral se parte dos veces: riesgos del trabajo y licencias](#18092026---laboral-se-parte-dos-veces-riesgos-del-trabajo-y-licencias) |
 | 18/09/2026 | [El reparto de OCR y las tres fechas salen de la skill](#18092026---el-reparto-de-ocr-y-las-tres-fechas-salen-de-la-skill) |
+
+---
+
+## 24/09/2026 - El escrito sale en texto plano, y la hoja de cada jurisdicción tiene su fuente bajada
+
+**Qué cambió.** La skill no decía en qué formato entregar un escrito, así que cada agente hacía
+otra cosa. `escritos.md` 11.1 fija la entrega: en el chat, en texto plano y sin markdown; un
+`.docx` o un PDF sólo si el entorno ya puede producirlo, y si no, se dice; "Estado del escrito"
+queda fuera de la pieza. El resumen de la sección 11 del `SKILL.md` lo repite en un renglón.
+
+**La tabla de pautas de 11.2 está atada al catálogo.** `TestElEscritoSeEntregaListoParaPegar`
+mapea cada fuente que la tabla nombra a su slug en `procedencia.json`, y una fila con una fuente
+sin mapear falla. Una pauta de formato es una cifra, y una cifra sin texto bajado no se afirma.
 
 ---
 

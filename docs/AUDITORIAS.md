@@ -14,6 +14,7 @@ el mismo commit y su orden sale de sus referencias internas.
 
 | Fecha | Entrada |
 | --- | --- |
+| 24/09/2026 | [Las pautas de formato de los escritos, en once textos](#24092026---las-pautas-de-formato-de-los-escritos-en-once-textos) |
 | 23/09/2026 | [Siete reglamentos leídos y siete institutos buscados en JUBA](#23092026---siete-reglamentos-leídos-y-siete-institutos-buscados-en-juba) |
 | 18/09/2026 | [La Justicia de Paz bonaerense: competencia por partido y dos remisiones a normas derogadas](#18092026---la-justicia-de-paz-bonaerense-competencia-por-partido-y-dos-remisiones-a-normas-derogadas) |
 | 18/09/2026 | [Barrido por el defecto del art. 245 sobre todos los módulos](#18092026---barrido-por-el-defecto-del-art-245-sobre-todos-los-módulos) |
@@ -40,6 +41,32 @@ el mismo commit y su orden sale de sus referencias internas.
 | Septiembre 2026 | [Ley 15.057, mediación PBA, intereses y art. 245](#septiembre-2026---ley-15057-mediación-pba-intereses-y-art-245) |
 | Septiembre 2026 | [Auditoría cruzada: art. 25 LNPA, art. 256 LCT, SECLO y locaciones](#septiembre-2026---auditoría-cruzada-art-25-lnpa-art-256-lct-seclo-y-locaciones) |
 | Septiembre 2026 | [Fuentes doctrinarias: CCyC Comentado y derecho de daños](#septiembre-2026---fuentes-doctrinarias-ccyc-comentado-y-derecho-de-daños) |
+
+---
+
+## 24/09/2026 - Las pautas de formato de los escritos, en once textos
+
+**Contra qué se cotejó.** Once textos bajados el 24/09/2026 con el descargador, y los arts. 118
+de los dos códigos procesales ya bajados. Dos de los PDF de la SCBA —el Ac. 3975/2020 y la Res.
+Presidencia 3/20— son escaneos sin capa de texto y se leyeron por OCR, sin guardar el resultado:
+lo que entra al módulo son pautas y no una transcripción larga. La fila por fila está en
+`REVALIDAR.md`.
+
+- **No hay regla nacional de tipografía.** El art. 118 CPCCN remite al Reglamento para la
+  Justicia Nacional, y el Reglamento pide tinta negra y encabezado, nada de letra ni márgenes.
+  Las cifras de páginas, renglones y letra son de piezas puntuales: el recurso extraordinario y
+  la queja ante la CSJN, el recurso de inconstitucionalidad y la queja ante el TSJ porteño, los
+  recursos ordinarios en Santa Fe.
+- **La provincia de Buenos Aires es la única relevada que fija la hoja de todo escrito**: A4,
+  1,5 líneas, márgenes de 5 y 1,5 cm a los costados y de 5 y 2 cm arriba y abajo, tres letras
+  admitidas en 12. El Ac. 3975/2020 derogó el Ac. 2514, y los Ac. 4156 y 4160/2024 tocan el
+  art. 6, que es de las resoluciones y no de los escritos de parte.
+- **Dos textos de la SCBA no dicen lo mismo sobre la documental**: la Res. Presidencia 3/20 pide
+  un único PDF y el art. 6 del Ac. 4013 t.o. 4039, uno por documento. Quedó con marcador D3.
+
+**Dos falsos positivos del descargador**, con veredicto en `revisiones.json`: la Acordada 4/2007
+parecía la aprobatoria sin anexo y trae el reglamento entero, y la Acordada 38/2011 resuelve en
+puntos y no en artículos.
 
 ---
 

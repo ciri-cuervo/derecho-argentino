@@ -112,7 +112,7 @@ que hay en disco, y la medición viva la da `estado.py`.
 
 ### Las fuentes viajan con el plugin, y es una decisión
 
-`fuentes/` es casi todo de los 87 MB que se lleva quien instala. No es un descuido — **se
+`fuentes/` es casi todo de los 91 MB que se lleva quien instala. No es un descuido — **se
 prefiere que el primer uso sea offline**. Quien instala el plugin tiene los textos normativos,
 los fallos y el CCyC Comentado desde el minuto cero, sin depender de que InfoLEG esté arriba, de
 que su red llegue, ni de correr nada antes de la primera consulta.

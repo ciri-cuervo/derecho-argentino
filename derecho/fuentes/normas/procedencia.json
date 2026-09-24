@@ -2547,6 +2547,117 @@
       "sha256_archivo": "2101f5399825d34e48b3aa2ab4cafeaf709e8dd9131c5ef974355b2b8803fcf8",
       "content_type": "text/html",
       "descargado": "2026-09-23T21:46:51-03:00"
+    },
+    "caba-res-cm-19-2019": {
+      "titulo": "Res. CM 19/2019 CABA - Reglamento del Expediente Judicial Electrónico (EJE), Anexo I",
+      "url": "https://documentosboletinoficial.buenosaires.gob.ar/publico/PJ-RES-CMCABA-CMCABA-19-19-ANX.pdf",
+      "archivo": "caba-res-cm-19-2019.pdf",
+      "sha256_texto": null,
+      "sha256_archivo": "1931a36c97844e6e8fbd13527da9107153a9a4d05689cba528e761cce0e2ccf4",
+      "content_type": "application/pdf",
+      "descargado": "2026-09-24T14:27:41-03:00"
+    },
+    "caba-tsj-acordada-11-2026-anexo-1": {
+      "titulo": "Acordada 11/2026 TSJ CABA - Anexo I, requisitos del recurso de inconstitucionalidad (art. 27 Ley 402)",
+      "url": "https://documentosboletinoficial.buenosaires.gob.ar/publico/PJ-ACORD-TSJCABA-TSJCABA-11-26-ANX.pdf",
+      "archivo": "caba-tsj-acordada-11-2026-anexo-1.pdf",
+      "sha256_texto": null,
+      "sha256_archivo": "7c9ec6afa171aa1d8b14c4a2f3dc1695599bf90bc4ca06e84d3a5c343bda88a2",
+      "content_type": "application/pdf",
+      "descargado": "2026-09-24T14:27:42-03:00"
+    },
+    "caba-tsj-acordada-11-2026-anexo-2": {
+      "titulo": "Acordada 11/2026 TSJ CABA - Anexo II, requisitos de la queja por recurso denegado (art. 33 Ley 402)",
+      "url": "https://documentosboletinoficial.buenosaires.gob.ar/publico/PJ-ACORD-TSJCABA-TSJCABA-11-26-ANX-1.pdf",
+      "archivo": "caba-tsj-acordada-11-2026-anexo-2.pdf",
+      "sha256_texto": null,
+      "sha256_archivo": "f8cca11433aacd43828e58cfd11150768f116435478fb261f3093c2f740ce187",
+      "content_type": "application/pdf",
+      "descargado": "2026-09-24T14:27:42-03:00"
+    },
+    "csjn-acordada-4-2007": {
+      "titulo": "Acordada 4/2007 CSJN - Reglamento para el recurso extraordinario federal y la queja",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/125000-129999/126562/norma.htm",
+      "archivo": "csjn-acordada-4-2007.txt",
+      "sha256_texto": "303cda986e1b33fbdf87110610b0040dace827d0c201983221ecfd32a420e613",
+      "sha256_archivo": "38ee7c1ca7a0933ec92d5bd8f01b8e3d06c0b16526eb462909591e6ada99fb6f",
+      "content_type": "text/html",
+      "descargado": "2026-09-24T14:28:13-03:00",
+      "revisado": [
+        {
+          "problema": "parece la ley APROBATORIA y no su contenido: solo 9 artículos y el texto remite a un anexo. Buscar una fuente que transcriba el anexo",
+          "veredicto": "Falso positivo. Los artículos que cuenta el detector son los puntos I a IV del acuerdo y los considerandos del voto de Fayt; el reglamento anexo viene transcripto a continuación, del art. 1 al 12, bajo «Reglas para la interposición del recurso extraordinario federal». Se leyó el texto: el art. 1 fija «cuarenta (40) páginas de veintiséis (26) renglones» y letra «no menor de 12», y el art. 12 cierra con las firmas, así que no está truncado."
+        }
+      ]
+    },
+    "csjn-acordada-31-2020-anexo-2": {
+      "titulo": "Acordada 31/2020 CSJN - Anexo II, Protocolo de actuación (presentaciones electrónicas)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/340000-344999/340455/acordada31-2.pdf",
+      "archivo": "csjn-acordada-31-2020-anexo-2.pdf",
+      "sha256_texto": null,
+      "sha256_archivo": "08823b0f9bf552214a2301206547c01a429791ba63a1745295755494027dc355",
+      "content_type": "application/pdf",
+      "descargado": "2026-09-24T14:27:43-03:00"
+    },
+    "reglamento-justicia-nacional": {
+      "titulo": "Reglamento para la Justicia Nacional (Acordada CSJN del 17/12/1952)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/165000-169999/167638/norma.htm",
+      "archivo": "reglamento-justicia-nacional.txt",
+      "sha256_texto": "869ce35b07c1940804eb3f4e1ea8ca76ea08633e988fd21c404d0b9121fc62ec",
+      "sha256_archivo": "5d7e7364ce3c53942c591b247e28254bd03e01c177eb9814d20385f59b636885",
+      "content_type": "text/html",
+      "descargado": "2026-09-24T14:27:43-03:00"
+    },
+    "pba-scba-acuerdo-3975-2020": {
+      "titulo": "Acuerdo 3975/2020 SCBA - Reglamento para los escritos, resoluciones, actuaciones, diligencias y expedientes judiciales",
+      "url": "https://www.scba.gov.ar/includes/descarga.asp?id=45420&n=Ver+Acuerdo+3975-20.pdf",
+      "archivo": "pba-scba-acuerdo-3975-2020.pdf",
+      "sha256_texto": null,
+      "sha256_archivo": "70b086752819de50be8679e8400df426f1e950473ea44e37cbbb3dab5924424b",
+      "content_type": "application/pdf",
+      "descargado": "2026-09-24T14:27:44-03:00"
+    },
+    "santafe-csj-circular-54-2025": {
+      "titulo": "Circular 54/2025 CSJ Santa Fe - Reglas para la interposición de recursos ante los órganos de 1ra y 2da instancia",
+      "url": "https://www.justiciasantafe.gov.ar/index.php/circulares/circular-nro-54-reglas-para-la-interposicion-de-recursos-ante-los-organos-jurisdiccionales-de-1ra-y-2da-instancia-del-poder-judicial-de-santa-fe/",
+      "archivo": "santafe-csj-circular-54-2025.txt",
+      "sha256_texto": "3d7f4502639f9dbd4a5b57b12aabdd5e941172dd2bc67a731ec58b7891bd0822",
+      "sha256_archivo": "7366c596eb1b6ed4650171eeb34649f1d6d5993f8122f51d98bb272c5dea991a",
+      "content_type": "text/html; charset=UTF-8",
+      "descargado": "2026-09-24T14:30:01-03:00"
+    },
+    "tucuman-csj-acordada-835-2025": {
+      "titulo": "Acordada 835/2025 CSJ Tucumán - Sustituye el art. 27 del Reglamento de Expediente Digital (Acordada 1562/22)",
+      "url": "https://www.justucuman.gov.ar/storage/adjuntos/documents/jurisprudencia/leyes/1757604627.pdf",
+      "archivo": "tucuman-csj-acordada-835-2025.pdf",
+      "sha256_texto": null,
+      "sha256_archivo": "63a4e4378f28d7f193b6fe58e03b3d9efda8bd485c8f46601b80d9275613d3fb",
+      "content_type": "application/pdf",
+      "descargado": "2026-09-24T14:30:02-03:00"
+    },
+    "csjn-acordada-38-2011": {
+      "titulo": "Acordada 38/2011 CSJN - Hoja A4 en las presentaciones ante la Corte",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/190000-194999/194296/norma.htm",
+      "archivo": "csjn-acordada-38-2011.txt",
+      "sha256_texto": "1f09551eabe50da697c070dd594082431e582cdd9e78cc0bf6dcef2cbe7b2124",
+      "sha256_archivo": "396df9f2c2ad1bf535e105bebbff1845b855e7545aca877f83ea81505d69378e",
+      "content_type": "text/html",
+      "descargado": "2026-09-24T14:30:30-03:00",
+      "revisado": [
+        {
+          "problema": "no se encontró ni un artículo: esto no es un articulado",
+          "veredicto": "Falso positivo. Es una acordada de la CSJN y resuelve en puntos numerados -1 a 4-, no en artículos. Se leyó el texto: el punto 2 exige hoja A4 en «todas las presentaciones que se realicen ante la Corte Suprema» desde el 01/02/2012, el punto 3 suma ese requisito a la queja de la Acordada 4/07, y cierra con las firmas y el aviso del B.O. del 23/02/2012, así que no está truncado."
+        }
+      ]
+    },
+    "pba-scba-res-presidencia-3-2020": {
+      "titulo": "Res. Presidencia SCBA 3/2020 (SPL) - Reglas de Buenas Prácticas en la creación de archivos PDF",
+      "url": "https://www.scba.gov.ar/includes/descarga.asp?id=45100&n=Res.%20Pte.%20Nro.%203-20.pdf",
+      "archivo": "pba-scba-res-presidencia-3-2020.pdf",
+      "sha256_texto": null,
+      "sha256_archivo": "46e3659748364405cfc400776aefc93c07e08eec21ae6f73e58052c704ff2ab8",
+      "content_type": "application/pdf",
+      "descargado": "2026-09-24T14:30:02-03:00"
     }
   }
 }

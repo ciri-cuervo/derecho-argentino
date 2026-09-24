@@ -86,6 +86,20 @@
         "veredicto": "Falso positivo. Los 22 artículos son los 3 del decreto más los 19 del anexo, que InfoLEG transcribe entero desde la edición web del Boletín Oficial: la reglamentación de la Ley 27.555 está completa, con los artículos «sin reglamentar» dichos como tales.",
         "fecha": "2026-09-23"
       }
+    ],
+    "csjn-acordada-4-2007": [
+      {
+        "problema": "parece la ley APROBATORIA y no su contenido: solo 9 artículos y el texto remite a un anexo. Buscar una fuente que transcriba el anexo",
+        "veredicto": "Falso positivo. Los artículos que cuenta el detector son los puntos I a IV del acuerdo y los considerandos del voto de Fayt; el reglamento anexo viene transcripto a continuación, del art. 1 al 12, bajo «Reglas para la interposición del recurso extraordinario federal». Se leyó el texto: el art. 1 fija «cuarenta (40) páginas de veintiséis (26) renglones» y letra «no menor de 12», y el art. 12 cierra con las firmas, así que no está truncado.",
+        "fecha": "2026-09-24"
+      }
+    ],
+    "csjn-acordada-38-2011": [
+      {
+        "problema": "no se encontró ni un artículo: esto no es un articulado",
+        "veredicto": "Falso positivo. Es una acordada de la CSJN y resuelve en puntos numerados -1 a 4-, no en artículos. Se leyó el texto: el punto 2 exige hoja A4 en «todas las presentaciones que se realicen ante la Corte Suprema» desde el 01/02/2012, el punto 3 suma ese requisito a la queja de la Acordada 4/07, y cierra con las firmas y el aviso del B.O. del 23/02/2012, así que no está truncado.",
+        "fecha": "2026-09-24"
+      }
     ]
   }
 }
