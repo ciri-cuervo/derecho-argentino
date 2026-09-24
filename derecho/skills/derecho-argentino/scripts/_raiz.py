@@ -193,15 +193,17 @@ def raiz_repo(explicita=None):
             continue
         # La variable puede apuntar a la raíz del repo, a derecho/ dentro del repo, o a
         # la copia que instala el marketplace, que es derecho/ renombrada y sin repo
-        # arriba. Se busca primero el repo completo -- en la carpeta y en su madre -- para
-        # que cuando exista sea el que se reporte; recién después se acepta la copia.
+        # arriba. La madre se reporta sólo si es el clon y la variable apunta a su derecho/:
+        # al actualizar, la versión anterior puede quedar al lado con el nombre derecho/, y
+        # tomarla por repo es leer los datos viejos.
         dir_plug = Path(plug).expanduser()
-        for p in (dir_plug, dir_plug.parent):
-            if es_base(p / SUB):
-                return p.resolve(), f"variable {nombre} (plugin instalado)"
-        for p in (dir_plug, dir_plug.parent):
-            if es_base(p):
-                return p.resolve(), f"variable {nombre} (plugin instalado)"
+        if es_clon(dir_plug):
+            return dir_plug.resolve(), f"variable {nombre} (plugin instalado)"
+        if es_base(dir_plug):
+            madre = dir_plug.parent
+            if es_clon(madre) and (madre / SUB).resolve() == dir_plug.resolve():
+                return madre.resolve(), f"variable {nombre} (plugin instalado)"
+            return dir_plug.resolve(), f"variable {nombre} (plugin instalado)"
 
     cfg = leer_config().get("repo")
     if cfg:

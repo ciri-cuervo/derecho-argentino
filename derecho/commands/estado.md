@@ -23,7 +23,8 @@ Resumí la salida en pocas líneas. El informe ya viene ordenado por gravedad y 
 vencido dice con qué comando se arregla; **no repitas la tabla entera**, contá lo que importa:
 
 1. **Si el repo se encontró y por qué camino.** Si dice `CODEX_PLUGIN_ROOT` o `CLAUDE_PLUGIN_ROOT`, está instalado
-   como plugin y no hay nada que configurar.
+   como plugin. **Si el bloque `plugin` no está en `ok`**, los scripts leen datos de otra
+   versión —la anterior, que quedó al lado de la nueva al actualizar— y eso va primero.
 2. **Si hay perfil de trabajo.** Si no lo hay, ofrecé `/derecho:configurar` en una línea —
    sin insistir: preguntar en cada conversación es el comportamiento correcto por defecto.
 3. **Qué está vencido y qué consecuencia tiene.** Traducilo: una serie sin cargar no es un

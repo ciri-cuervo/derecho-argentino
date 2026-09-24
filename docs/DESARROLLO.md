@@ -502,8 +502,9 @@ otra cosa.
 instala.** Todo lo demás corre sobre el repositorio, antes de publicar; sobre lo que el modelo
 escribe en la conversación de un usuario no corre nada, y ahí un modelo chico rompe escribiendo
 `[Verificar Vigencia]` donde el vocabulario dice `[VERIFICAR VIGENCIA]`. Acepta sólo lo que
-`references/marcadores.md` declara y no importa nada de `herramientas/`. Un verde suyo mide la
-forma del marcador: no ve el que faltó emitir.
+`references/marcadores.md` declara y no importa nada de `herramientas/`. La sección 3 del
+`SKILL.md` lo pone como paso antes de entregar, con la respuesta por la entrada estándar (`-`).
+Un verde suyo mide la forma del marcador: no ve el que faltó emitir.
 
 ## La marca
 

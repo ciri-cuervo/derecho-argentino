@@ -32,6 +32,9 @@ aprobación es exactamente el modo de falla que este repositorio persigue.
 Uso:
 
     python3 scripts/verificar_respuesta.py respuesta.md [...]
+    python3 scripts/verificar_respuesta.py - <<'FIN'         # la respuesta, sin archivo
+    ...
+    FIN
     python3 scripts/verificar_respuesta.py --vocabulario     # imprime la lista canónica
 
 Sale con código 1 si encontró un marcador que no pertenece al vocabulario.
@@ -106,7 +109,8 @@ def main(argv: list[str]) -> int:
         formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--vocabulario", action="store_true",
                    help="imprimir la lista canónica y salir")
-    p.add_argument("archivos", nargs="*", metavar="respuesta.md")
+    p.add_argument("archivos", nargs="*", metavar="respuesta.md",
+                   help="una o más respuestas; `-` la lee de la entrada estándar")
     a = p.parse_args(argv)
 
     if not VOCABULARIO.is_file():
@@ -122,30 +126,31 @@ def main(argv: list[str]) -> int:
         return 0
 
     if not a.archivos:
-        print("uso: verificar_respuesta.py <respuesta.md> [...]", file=sys.stderr)
+        print("uso: verificar_respuesta.py <respuesta.md | -> [...]", file=sys.stderr)
         return 2
 
-    roto = 0
+    roto = total = 0
     for ruta in a.archivos:
-        archivo = pathlib.Path(ruta)
-        if not archivo.is_file():
-            print(f"{archivo}: no existe", file=sys.stderr)
-            return 2
-        texto = archivo.read_text(encoding="utf-8")
+        if ruta == "-":
+            etiqueta, texto = "respuesta", sys.stdin.read()
+        else:
+            archivo = pathlib.Path(ruta)
+            if not archivo.is_file():
+                print(f"{archivo}: no existe", file=sys.stderr)
+                return 2
+            etiqueta, texto = archivo, archivo.read_text(encoding="utf-8")
         usados = [n for n in dict.fromkeys(NOMBRE.findall(texto)) if n in canonicos]
         hallazgos = revisar(texto, canonicos, contraejemplos)
-        print(f"{archivo}: {len(usados)} marcadores del vocabulario, {len(hallazgos)} a revisar")
+        print(f"{etiqueta}: {len(usados)} marcadores del vocabulario, {len(hallazgos)} a revisar")
         for clase, nombre in hallazgos:
             print(f"  {clase.upper():12} [{nombre}]")
         roto += len(hallazgos)
+        total += len(usados)
 
     if roto:
         print(f"\n{roto} marcadores fuera del vocabulario. Un marcador se copia tal cual: el")
         print("nombre no se adapta al caso, y si falta uno se agrega a marcadores.md primero.")
         return 1
-    total = sum(len([n for n in dict.fromkeys(NOMBRE.findall(
-        pathlib.Path(r).read_text(encoding="utf-8"))) if n in canonicos])
-        for r in a.archivos)
     if not total:
         print("\nno hay ningún marcador que revisar: esto NO dice que la respuesta esté bien,\ndice que no emitió ninguno")
         return 0

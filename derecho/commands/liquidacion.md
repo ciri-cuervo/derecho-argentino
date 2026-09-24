@@ -18,9 +18,13 @@ intercambiables**. Si estás actuando desde el órgano, leé también `${CLAUDE_
    inclusión: un docente o un empleado provincial o municipal se liquida por su estatuto, no por
    los arts. 245 y siguientes, y la competencia suele ser contencioso administrativa. El script
    corta con código 2 ante `--empleador publico`; transcribí ese marcador y no liquides.
+   **Y aunque rija, un estatuto puede desplazar la liquidación:** casas particulares, construcción,
+   viajantes de comercio y encargados de edificio tienen otro preaviso, otra indemnización o un
+   fondo en su lugar (`laboral.md` 5.17 quinquies y sexies). Con cualquiera de los cuatro,
+   `--regimen` corta con código 2: transcribí el marcador y liquidá a mano con esa sección.
 2. **Fecha del acto extintivo.** Decide el régimen. Sin ella no se calcula. Si cae entre el
    30/12/2023 y el 08/07/2024, rige la advertencia del DNU 70/2023 de la sección 5.1.
-3. **Pedí en una sola tanda lo que falte**, no de a uno: quién era el empleador, fecha de ingreso, fecha de extinción,
+3. **Pedí en una sola tanda lo que falte**, no de a uno: quién era el empleador, qué tareas hacía y dónde, fecha de ingreso, fecha de extinción,
    mejor remuneración mensual normal y habitual del último año, remuneración del último mes,
    días de vacaciones ya gozados en el año, si hubo preaviso otorgado, si estaba en período de
    prueba, y la causal de extinción.
@@ -32,7 +36,8 @@ intercambiables**. Si estás actuando desde el órgano, leé también `${CLAUDE_
    ```sh
    python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/liquidacion_lct.py \
      --ingreso AAAA-MM-DD --extincion AAAA-MM-DD \
-     --mejor-remuneracion N [--empleador privado] [--remuneracion-ultimo-mes N] [--tope-245 N] \
+     --mejor-remuneracion N [--empleador privado] [--regimen lct] \
+     [--remuneracion-ultimo-mes N] [--tope-245 N] \
      [--dias-vacaciones-gozadas N] [--periodo-prueba] [--preaviso-otorgado]
    ```
 

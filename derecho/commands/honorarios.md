@@ -1,6 +1,6 @@
 ---
 name: honorarios
-description: Regulación de honorarios y aportes. Pregunta la jurisdicción antes de calcular: en PBA, Ley 14.967 y el jus de la serie; en la nacional y federal, la Ley 27.423 sin dar número.
+description: Regulación de honorarios y aportes. Pregunta la jurisdicción antes de calcular: en PBA, Ley 14.967 y el jus de la serie; en la nacional y federal, Ley 27.423 y la UMA de la serie de la CSJN.
 argument-hint: "[monto del proceso, porcentaje]"
 allowed-tools: Read, Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/honorarios_pba.py:*), Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/uma_csjn.py:*)
 ---

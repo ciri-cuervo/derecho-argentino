@@ -343,12 +343,34 @@ def version_plugin(raiz: Path):
         return None
 
 
+def bloque_plugin(raiz: Path, version_datos):
+    """Compara la versión de los datos con la de los scripts que están corriendo.
+
+    Al actualizar, la versión anterior puede quedar al lado de la nueva: si la raíz se resolvió
+    en esa, los scripts nuevos leen datos viejos y nada más lo delata.
+    """
+    propia = version_plugin(Path(__file__).resolve().parents[3])
+    if propia is None:
+        return None
+    if propia == version_datos:
+        return {"bloque": "plugin", "estado": "OK", "detalle": f"scripts y datos de la {propia}",
+                "dias": None, "arreglo": None}
+    return {"bloque": "plugin", "estado": "REVISAR",
+            "detalle": f"los scripts son de la {propia} y los datos de "
+                       f"{base(raiz)} son de la {version_datos or '(sin declarar)'}",
+            "dias": None,
+            "arreglo": f"apuntar {ENV} a la carpeta del plugin de la {propia}, o reinstalarlo"}
+
+
 def recolectar():
     raiz, origen = raiz_repo()
+    version = version_plugin(raiz) if raiz else None
+    bloques = revisar(raiz) if raiz else []
+    if raiz and (b := bloque_plugin(raiz, version)):
+        bloques.insert(0, b)
     inf = {"fecha": _hoy().isoformat(), "repo": str(raiz) if raiz else None, "origen": origen,
            "config": str(archivo_config()), "perfil": _perfil.leer(),
-           "version": version_plugin(raiz) if raiz else None,
-           "bloques": revisar(raiz) if raiz else []}
+           "version": version, "bloques": bloques}
     estados = {b["estado"] for b in inf["bloques"]}
     inf["salida"] = 2 if raiz is None else (1 if estados & {"VENCIDO", "FALTA", "REVISAR"} else 0)
     return inf

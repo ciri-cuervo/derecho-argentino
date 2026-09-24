@@ -145,6 +145,22 @@ class TestCLI(unittest.TestCase):
             self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
             self.assertIn("DESCONOCIDO", r.stdout)
 
+    def test_lee_la_respuesta_de_la_entrada_estandar(self):
+        """La respuesta vive en el chat, no en un archivo: con `-` se le pasa por un heredoc y
+        no hay que escribir nada en el disco de quien consulta, que es lo que pide el SKILL.md.
+
+        MUTACIÓN que lo comprueba: sacar la rama de `-` en `main()` deja este test en rojo, con
+        rc=2 por archivo inexistente.
+        """
+        for texto, esperado in (("[VERIFICAR VIGENCIA: Ley 25.358]\n", 0),
+                                ("[VERIFICAR ANTIGÜEDAD: art. 245]\n", 1)):
+            with self.subTest(esperado=esperado):
+                r = subprocess.run([sys.executable, str(HERRAMIENTA), "-"], input=texto,
+                                   capture_output=True, text=True, encoding="utf-8",
+                                   cwd=str(RAIZ))
+                self.assertEqual(r.returncode, esperado, r.stdout + r.stderr)
+                self.assertIn("respuesta:", r.stdout)
+
     def test_los_resultados_de_los_evals_estan_limpios(self):
         """La salida esperada de un eval ensenia la forma correcta: si ahí hay un marcador roto,
         se propaga a cada análisis que se compare contra ella."""
@@ -161,3 +177,22 @@ class TestCLI(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)
+
+
+class TestElSKILLLoExige(unittest.TestCase):
+    """El revisor no sirve si nadie lo corre: la sección 3 del SKILL.md lo pone como paso antes
+    de entregar, con la respuesta por la entrada estándar. Una fila en la tabla de scripts no
+    alcanza, porque esa tabla dice cuándo conviene, no qué es obligatorio.
+
+    MUTACIÓN que lo comprueba: borrar el párrafo «Una respuesta con marcadores pasa por el
+    revisor» de la sección 3 deja este test en rojo.
+    """
+
+    def test_la_seccion_de_marcadores_manda_correrlo(self):
+        skill = (RAIZ / "derecho" / "skills" / "derecho-argentino" / "SKILL.md").read_text(
+            encoding="utf-8")
+        seccion = skill.split("## 3 · Marcadores canónicos", 1)
+        self.assertEqual(len(seccion), 2, "cambió el título de la sección 3 del SKILL.md")
+        seccion = seccion[1].split("\n## ", 1)[0]
+        self.assertIn("verificar_respuesta.py -`", seccion,
+                      "la sección 3 no manda pasar la respuesta por el revisor")

@@ -80,6 +80,7 @@ Ver también `laboral.md`, 5.10, que trae la tabla de marcadores por dato.
 | Dato | Por qué |
 | --- | --- |
 | **Quién era el empleador** | Decide si rige la LCT. El **art. 2 inc. a** excluye a la Administración Pública nacional, provincial, de la CABA o municipal, salvo acto expreso de inclusión en la LCT o en un CCT que los comprenda. Un docente o un empleado provincial se rige por su estatuto, no por los arts. 245 y siguientes |
+| **Qué tareas hacía y dónde** | Decide si rige un estatuto que desplaza la liquidación de la LCT: casas particulares (Ley 26.844), construcción (Ley 22.250), viajantes de comercio (Ley 14.546) y encargados de edificio (Ley 12.981). Con cualquiera de los cuatro, `liquidacion_lct.py --regimen` corta con código 2 y se liquida a mano (`laboral.md` 5.17 quinquies y sexies) |
 | Fecha de ingreso | Antigüedad y multiplicador del art. 245 |
 | **Fecha del acto extintivo** | Decide el tramo de reforma. Es el dato que más veces cambia todo el resultado |
 | Modo de extinción y quién lo dispuso | Decide qué rubros proceden |

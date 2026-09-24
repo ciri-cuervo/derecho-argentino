@@ -14,6 +14,20 @@ un renglón por cambio. El detalle de cada uno vive donde se puede verificar:
 | La doctrina de cada precedente | El módulo que la usa; el índice, en `references/fallos-csjn.md` |
 | Si el texto de un fallo se puede transcribir | `herramientas/lecturas-ocr.json` |
 
+## [1.4.2] — 2026-09-24
+
+Correcciones de una reevaluación del plugin instalado: no entran normas ni fallos, y ningún
+cálculo de la LCT cambia de resultado.
+
+- **Los scripts ya no leen la versión anterior** cuando queda al lado de la nueva después de
+  actualizar. `/derecho:estado` avisa si los datos y los scripts son de versiones distintas.
+- **`liquidacion_lct.py --regimen`** corta con código 2 ante casas particulares, construcción,
+  viajantes y encargados de edificio, que se liquidan por su estatuto.
+- **`verificar_respuesta.py` es paso obligatorio**: lee la respuesta por la entrada estándar y
+  la sección 3 del `SKILL.md` lo exige antes de entregar una respuesta con marcadores.
+- Textos: la descripción de `/derecho:honorarios` nombra la UMA, y el `--help` de
+  `verificar_normas.py` ya no trae una cifra vieja.
+
 ## [1.4.1] — 2026-09-24
 
 Cómo se entrega un escrito, y qué exige cada jurisdicción sobre la hoja.

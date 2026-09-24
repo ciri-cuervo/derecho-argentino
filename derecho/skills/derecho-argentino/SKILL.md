@@ -405,6 +405,10 @@ La definición de los veintiséis marcadores, con su sintaxis y la tabla de form
 está en **`references/marcadores.md`**, y **no hace falta abrirlo si el que se emite está en la
 tabla de arriba**: se abre para una forma que la tabla no trae.
 
+**Una respuesta con marcadores pasa por el revisor antes de entregarse**: `scripts/verificar_respuesta.py -`,
+con la respuesta por un heredoc y sin escribir archivos. Si sale con 1, se corrige y se vuelve a
+pasar; si no se pudo correr, el cierre dice que los marcadores salieron sin revisar.
+
 ---
 
 ## 4 · Nodos bloqueantes — antes del fondo
@@ -628,7 +632,7 @@ scripts en lugar de calcular**, y transcribir su salida:
 | Diagnóstico: repo, perfil, datos cargados y vencidos | `scripts/estado.py` |
 | Perfil de trabajo del usuario | `scripts/perfil.py` |
 | **Transcribir un artículo** de una norma bajada, con su procedencia | `scripts/articulo.py <slug> <art>` — sale con título, URL, fecha de descarga y hash; `Read` trunca a 2.000 renglones sin avisar |
-| **Revisar los marcadores de la respuesta antes de entregarla** | `scripts/verificar_respuesta.py respuesta.md` — mide la FORMA, no si correspondía emitirlos: su verde no dice que la respuesta esté bien |
+| **Revisar los marcadores de la respuesta antes de entregarla** (sección 3) | `scripts/verificar_respuesta.py -`, con la respuesta por la entrada estándar — mide la FORMA, no si correspondía emitirlos: su verde no dice que la respuesta esté bien |
 
 Los scripts **no traen montos**: piden como entrada los valores que la sección 2 prohíbe
 citar de memoria (tope del art. 245, valor del jus, índices) y devuelven el marcador
