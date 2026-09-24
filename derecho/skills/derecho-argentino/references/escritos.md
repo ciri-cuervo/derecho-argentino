@@ -61,7 +61,8 @@ pendientes terminó bien. Uno que cierra inventando el dato falló.
   juega la revisión; el resto va al grano.
 - Guion corto (`-`), nunca guion largo. Comillas rectas. Texto plano con sangría para marcadores.
 
-**Todo escrito cierra con "Estado del escrito":**
+**Todo escrito cierra con "Estado del escrito"**, que va después de la pieza y fuera de ella
+(sección 11.1):
 
 1. Marcadores pendientes — dato concreto que falta para resolver cada uno.
 2. Normas con `[VERIFICAR VIGENCIA]` — listado.
@@ -79,3 +80,65 @@ aplicado y por qué (fecha de la audiencia de vista, si es PBA); control de ofic
 (competencia, caducidad legal, caducidad de instancia); prescripción — si fue opuesta por
 parte y en qué oportunidad, o si no lo fue; y congruencia: rubros pedidos, rubros resueltos y
 rubros detectados pero no reclamados, consignados como observación.
+
+### 11.1 · Qué se entrega
+
+**El escrito se entrega en el chat, en texto plano y sin markdown.** Ni asteriscos, ni
+numerales de título, ni tablas con barras: quien firma copia el texto y lo pega en su
+procesador o en el editor del portal, y cada símbolo de markdown llega al expediente como un
+carácter más. Los títulos del escrito van en mayúsculas y en su propio renglón; las
+enumeraciones, con números o letras seguidos de paréntesis. Es la única salida que funciona
+igual en cualquier agente y en cualquier sistema.
+
+**En la provincia de Buenos Aires, además, es la forma de ingreso.** El escrito no se sube
+como archivo: se escribe en el editor del sistema de gestión, y el PDF queda para la
+documentación que existe en papel (Res. Presidencia SCBA 3/20, Anexo Único, punto 3, que el
+art. 21 del Ac. 4013 t.o. 4039 hace obligatoria). El diseño de la hoja lo pone el sistema
+(Ac. 3975/2020, Anexo Único, art. 2).
+
+**Si se pide un `.docx` o un PDF, se genera sólo si el entorno ya tiene con qué**, y la hoja
+sigue las pautas de la sección 11.2 para la jurisdicción. Si no hay con qué, se dice en una
+línea y se entrega el texto plano: no se promete un archivo que no se puede producir ni se
+pide instalar nada para producirlo.
+
+**"Estado del escrito" no va dentro de la pieza ni del archivo.** Es para quien firma, no para
+el tribunal: va después del escrito, separado por un renglón que diga dónde termina lo que se
+presenta. Si la pieza tiene tope de extensión (sección 11.2), el cierre lo recuerda entre las
+decisiones tomadas por defecto: el texto plano no cuenta páginas ni renglones.
+
+### 11.2 · Lo que exige cada jurisdicción sobre la hoja
+
+**No hay una regla nacional de tipografía.** El art. 118 CPCCN remite al Reglamento para la
+Justicia Nacional, y el Reglamento sólo pide tinta negra, firma aclarada con matrícula y el
+encabezado (arts. 46 y 47). Letra, márgenes e interlineado los fija cada jurisdicción, y
+casi siempre para una pieza en particular. En lo relevado no hay regla sobre símbolos,
+abreviaturas ni imágenes dentro del escrito, y no se inventa una.
+
+| Jurisdicción y pieza | Qué exige | Fuente |
+| --- | --- | --- |
+| PBA, todo escrito | A4; interlineado 1,5 con márgenes simétricos; izquierdo 5 cm y derecho 1,5 cm en el anverso, invertidos en el reverso; superior 5 cm e inferior 2 cm; Arial, Times New Roman o Courier New en 12; notas al pie en la misma letra, en 10 y a espacio sencillo | Ac. SCBA 3975/2020, Anexo Único, art. 2. Si no se cumple, se intima y la presentación se tiene por no efectuada si no se subsana «dentro de los tres (3) días siguientes» (art. 3) |
+| PBA, encabezado | Objeto, nombre, domicilio constituido y carátula (art. 118 inc. 2 CPCC); y además nombre y apellido del profesional, celular, CUIT y condición impositiva, matrícula y datos previsionales, número único, carátula completa, parte y domicilios constituidos | Ac. SCBA 3975/2020, Anexo Único, art. 1 |
+| PBA, documental | PDF escaneado a 200 DPI, en gris de 8 bits o color de 24 bits según el original | Res. Presidencia SCBA 3/20, Anexo Único, puntos 1 y 2. Cuántos archivos, ver debajo de la tabla |
+| Nación, todo escrito | Tinta negra; firma aclarada con tomo y folio o matrícula; encabezado con objeto, nombre, domicilio constituido y carátula | Reglamento para la Justicia Nacional, arts. 46 y 47, por remisión del art. 118 CPCCN |
+| Nación, archivos | Un archivo por escrito; la documental agrupada por tipo; hasta 5 MB por archivo | Ac. CSJN 31/2020, Anexo II, punto III. `[VERIFICAR VIGENCIA: protocolo dictado en la emergencia sanitaria - límite de tamaño del portal a la fecha]` |
+| CSJN, recurso extraordinario federal y su contestación | Hasta 40 páginas de 26 renglones, letra no menor de 12; carátula en hoja aparte con los datos del art. 2 y nada más | Ac. CSJN 4/2007, arts. 1 y 2. El incumplimiento lleva a desestimar «mediante la sola mención de la norma reglamentaria pertinente» (art. 11) |
+| CSJN, queja por recurso extraordinario denegado | Hasta 10 páginas de 26 renglones, letra no menor de 12; carátula del art. 5; copias del art. 7; hoja A4 | Ac. CSJN 4/2007, arts. 4 a 7; el A4, Ac. CSJN 38/2011, puntos 2 y 3, que lo exige en toda presentación ante la Corte |
+| CABA, recurso de inconstitucionalidad ante el TSJ y su contestación | Hasta 40 páginas A4, interlineado 1,5, letra no menor de 12; formulario en hoja aparte | Acordada TSJ 11/2026, Anexo I, puntos 1 y 2. `[VERIFICAR VIGENCIA: desde cuándo son obligatorios los anexos - el art. 4 de la Acordada 11/2026 no está en los anexos bajados]` |
+| CABA, queja ante el TSJ | Hasta 10 páginas A4, interlineado 1,5, letra no menor de 12; formulario en hoja aparte | Acordada TSJ 11/2026, Anexo II, punto 1 |
+| CABA, archivos del expediente electrónico | PDF de hasta 5 MB, escrito y adjuntos | Res. CM 19/2019, Anexo I, art. 27. `[VERIFICAR VIGENCIA: modificatorias del Reglamento EJE posteriores a 2021]` |
+| Santa Fe, apelación y nulidad, y su contestación | Hasta 40 páginas de 26 renglones, letra no menor de 12 | Circular CSJ 54/2025, punto 1. Reposición y queja, hasta 20 páginas (punto 2). Sin subsanar en 2 días hábiles, se tiene por no presentado (punto 3) |
+| Tucumán, toda presentación | Fondo blanco y caracteres negros, Arial o similar en 11 o 12, espaciado hasta 1,5, en PDF; sin archivos embebidos; los hipervínculos y los QR, disponibles el día de la presentación | Acordada CSJ 835/2025, que sustituye el art. 27 del Reglamento de Expediente Digital |
+
+**Cuántos PDF lleva la documental en PBA no está resuelto en el texto.** El punto 4 de la
+Res. Presidencia SCBA 3/20 pide «un único archivo PDF»; el art. 6 del Ac. 4013 t.o. 4039,
+posterior y de mayor rango, pide que cada documento vaya «en un archivo por separado». Se
+sigue el acuerdo, y se avisa:
+
+```text
+[DISCREPANCIA ENTRE FUENTES: la Res. Presidencia SCBA 3/20 pide un único PDF para la documental / el art. 6 del Ac. 4013 t.o. 4039 pide un archivo por documento.
+Verificar directamente en la fuente oficial]
+```
+
+**Una jurisdicción que no está en la tabla no tiene "formato libre": no está relevada.** Para
+Córdoba, Mendoza, Entre Ríos, Neuquén y las demás, el escrito sale en texto plano y la hoja
+lleva `[REVISIÓN NORMATIVA REQUERIDA: pautas de formato de escritos del poder judicial de la jurisdicción - acordada o reglamento del expediente electrónico]`.

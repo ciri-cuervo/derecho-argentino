@@ -98,6 +98,32 @@
       "url_alternativa": "https://www.cedom.gob.ar/legislacion/normas/leyes/RepoLeyes/ley6407.html"
     },
     {
+      "slug": "caba-res-cm-19-2019",
+      "titulo": "Res. CM 19/2019 CABA - Reglamento del Expediente Judicial Electrónico (EJE), Anexo I",
+      "jurisdiccion": "CABA",
+      "url": "https://documentosboletinoficial.buenosaires.gob.ar/publico/PJ-RES-CMCABA-CMCABA-19-19-ANX.pdf",
+      "prioridad": 3,
+      "formato": "pdf",
+      "nota": "Art. 27: escritos y adjuntos del Portal del Litigante en PDF de hasta 5 MB. Separata BOCBA 5577, 14/03/2019. Las modificatorias posteriores no se relevaron todas."
+    },
+    {
+      "slug": "caba-tsj-acordada-11-2026-anexo-1",
+      "titulo": "Acordada 11/2026 TSJ CABA - Anexo I, requisitos del recurso de inconstitucionalidad (art. 27 Ley 402)",
+      "jurisdiccion": "CABA",
+      "url": "https://documentosboletinoficial.buenosaires.gob.ar/publico/PJ-ACORD-TSJCABA-TSJCABA-11-26-ANX.pdf",
+      "prioridad": 3,
+      "formato": "pdf",
+      "nota": "OJO con la URL: -ANX.pdf es el Anexo I y -ANX-1.pdf es el Anexo II. Ficha: boletinoficial.buenosaires.gob.ar/normativaba/norma/853565 (06/05/2026, BOCBA 12/05/2026); según el art. 4, los anexos son orientativos los primeros seis meses."
+    },
+    {
+      "slug": "caba-tsj-acordada-11-2026-anexo-2",
+      "titulo": "Acordada 11/2026 TSJ CABA - Anexo II, requisitos de la queja por recurso denegado (art. 33 Ley 402)",
+      "jurisdiccion": "CABA",
+      "url": "https://documentosboletinoficial.buenosaires.gob.ar/publico/PJ-ACORD-TSJCABA-TSJCABA-11-26-ANX-1.pdf",
+      "prioridad": 3,
+      "formato": "pdf"
+    },
+    {
       "slug": "ccycn-26994",
       "titulo": "Ley 26.994 - Código Civil y Comercial (texto actualizado)",
       "jurisdiccion": "nacional",
@@ -271,6 +297,14 @@
       "prioridad": 3
     },
     {
+      "slug": "santafe-csj-circular-54-2025",
+      "titulo": "Circular 54/2025 CSJ Santa Fe - Reglas para la interposición de recursos ante los órganos de 1ra y 2da instancia",
+      "jurisdiccion": "santafe",
+      "url": "https://www.justiciasantafe.gov.ar/index.php/circulares/circular-nro-54-reglas-para-la-interposicion-de-recursos-ante-los-organos-jurisdiccionales-de-1ra-y-2da-instancia-del-poder-judicial-de-santa-fe/",
+      "prioridad": 3,
+      "nota": "Acta 24 del 01/07/2025; rige desde el 21/07/2025 (punto 4)."
+    },
+    {
       "slug": "constitucion-santiago",
       "titulo": "Constitución de la Provincia de Santiago del Estero (texto actualizado)",
       "jurisdiccion": "santiago",
@@ -292,6 +326,15 @@
       "prioridad": 3
     },
     {
+      "slug": "tucuman-csj-acordada-835-2025",
+      "titulo": "Acordada 835/2025 CSJ Tucumán - Sustituye el art. 27 del Reglamento de Expediente Digital (Acordada 1562/22)",
+      "jurisdiccion": "tucuman",
+      "url": "https://www.justucuman.gov.ar/storage/adjuntos/documents/jurisprudencia/leyes/1757604627.pdf",
+      "prioridad": 3,
+      "formato": "pdf",
+      "nota": "11/09/2025. Formato de las presentaciones: letra, espaciado, PDF, archivos embebidos, hipervínculos y QR."
+    },
+    {
       "slug": "cp-11179",
       "titulo": "Ley 11.179 - Código Penal (t.o. 1984 actualizado)",
       "jurisdiccion": "nacional",
@@ -304,6 +347,39 @@
       "jurisdiccion": "nacional",
       "url": "https://www.argentina.gob.ar/normativa/nacional/ley-17454-16547/actualizacion",
       "prioridad": 3
+    },
+    {
+      "slug": "csjn-acordada-4-2007",
+      "titulo": "Acordada 4/2007 CSJN - Reglamento para el recurso extraordinario federal y la queja",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/125000-129999/126562/norma.htm",
+      "prioridad": 3,
+      "nota": "Extensión, renglones, letra y carátula del REF y de la queja. La Acordada 38/2011 le suma el A4 a la queja."
+    },
+    {
+      "slug": "csjn-acordada-31-2020-anexo-2",
+      "titulo": "Acordada 31/2020 CSJN - Anexo II, Protocolo de actuación (presentaciones electrónicas)",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/340000-344999/340455/acordada31-2.pdf",
+      "prioridad": 3,
+      "formato": "pdf",
+      "nota": "Punto III: archivo único por escrito, documental agrupada, 5 MB por archivo. Protocolo de la pandemia: vigencia actual no constatada."
+    },
+    {
+      "slug": "csjn-acordada-38-2011",
+      "titulo": "Acordada 38/2011 CSJN - Hoja A4 en las presentaciones ante la Corte",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/190000-194999/194296/norma.htm",
+      "prioridad": 3,
+      "url_alternativa": "https://www.argentina.gob.ar/normativa/nacional/norma-194296/texto"
+    },
+    {
+      "slug": "reglamento-justicia-nacional",
+      "titulo": "Reglamento para la Justicia Nacional (Acordada CSJN del 17/12/1952)",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/165000-169999/167638/norma.htm",
+      "prioridad": 3,
+      "nota": "Arts. 46 a 48: tinta negra, firma aclarada, matrícula, encabezamiento y legibilidad. El art. 118 CPCCN remite acá. InfoLEG sirve el texto original: las modificatorias no se leyeron una por una."
     },
     {
       "slug": "cppf-27063",
@@ -1696,6 +1772,24 @@
       "prioridad": 1,
       "formato": "pdf",
       "nota": "Considerandos y Anexo. Es la pieza que define que rige hoy en el fuero"
+    },
+    {
+      "slug": "pba-scba-acuerdo-3975-2020",
+      "titulo": "Acuerdo 3975/2020 SCBA - Reglamento para los escritos, resoluciones, actuaciones, diligencias y expedientes judiciales",
+      "jurisdiccion": "pba",
+      "url": "https://www.scba.gov.ar/includes/descarga.asp?id=45420&n=Ver+Acuerdo+3975-20.pdf",
+      "prioridad": 2,
+      "formato": "pdf",
+      "nota": "PDF escaneado, sin capa de texto. Anexo Único, art. 2: A4, 1,5 líneas, márgenes 5/1,5/5/2 cm, Arial, Times New Roman o Courier New en 12, notas al pie en 10. Deroga el Ac. 2514. El art. 6, sobre resoluciones, lo modificaron los Ac. 4156 y 4160/2024."
+    },
+    {
+      "slug": "pba-scba-res-presidencia-3-2020",
+      "titulo": "Res. Presidencia SCBA 3/2020 (SPL) - Reglas de Buenas Prácticas en la creación de archivos PDF",
+      "jurisdiccion": "pba",
+      "url": "https://www.scba.gov.ar/includes/descarga.asp?id=45100&n=Res.%20Pte.%20Nro.%203-20.pdf",
+      "prioridad": 3,
+      "formato": "pdf",
+      "nota": "PDF escaneado. El art. 21 del Ac. 4013 t.o. 4039 las hace obligatorias. El punto 4 pide un único PDF y el art. 6 del Ac. 4013 texto final, un archivo por documento: la tensión no está resuelta en el texto."
     },
     {
       "slug": "pba-scba-acuerdo-3989-2020",

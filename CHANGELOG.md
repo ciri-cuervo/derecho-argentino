@@ -14,6 +14,15 @@ un renglón por cambio. El detalle de cada uno vive donde se puede verificar:
 | La doctrina de cada precedente | El módulo que la usa; el índice, en `references/fallos-csjn.md` |
 | Si el texto de un fallo se puede transcribir | `herramientas/lecturas-ocr.json` |
 
+## [1.4.1] — 2026-09-24
+
+Cómo se entrega un escrito, y qué exige cada jurisdicción sobre la hoja.
+
+- **El escrito sale en el chat, en texto plano y sin markdown**, listo para pegar; un `.docx` o
+  un PDF, sólo si el entorno puede producirlo. "Estado del escrito" va fuera de la pieza.
+- **Pautas de formato con su fuente bajada**: PBA, Nación, CSJN, TSJ porteño, Santa Fe y
+  Tucumán, en once textos nuevos. Un test ata cada fila de la tabla a su norma descargada.
+
 ## [1.4.0] — 2026-09-23
 
 Veinticuatro materias nuevas cotejadas contra su texto, los reglamentos que faltaban leídos, y la

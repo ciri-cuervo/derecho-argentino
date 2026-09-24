@@ -434,7 +434,10 @@ Detalle completo en `references/escritos.md`.
   revisión; el resto va al grano.
 - Guion corto (`-`), nunca guion largo. Comillas rectas. Texto plano con sangría para
   marcadores.
-- **Todo escrito cierra con un bloque "Estado del escrito"**: marcadores pendientes con el
+- **El escrito se entrega en el chat, en texto plano y sin markdown**, listo para pegar. Un
+  `.docx` o un PDF, sólo si el entorno ya tiene con qué; si no, se dice. Lo que exige cada
+  jurisdicción sobre la hoja está en `references/escritos.md` 11.2.
+- **Todo escrito cierra con un bloque "Estado del escrito"**, fuera de la pieza: marcadores pendientes con el
   dato concreto que falta para resolver cada uno; normas con `[VERIFICAR VIGENCIA]`;
   decisiones estructurales tomadas por defecto. Si una categoría queda vacía: "Ninguno".
   Los ítems adicionales según la rama y el lugar desde el que se actúa están en

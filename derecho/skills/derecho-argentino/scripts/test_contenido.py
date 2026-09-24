@@ -1254,9 +1254,80 @@ class TestElDescriptionDeLaSkillActivaTodasLasRamas(unittest.TestCase):
                              "el description pasa el límite de la API de Skills: ahí no carga")
 
 
-if __name__ == "__main__":
-    unittest.main()
+class TestElEscritoSeEntregaListoParaPegar(unittest.TestCase):
+    """Qué se entrega cuando se arma un escrito, y con qué pautas de hoja.
 
+    **La regla de entrega es lo que hace usable la pieza.** Un escrito con markdown se pega en el
+    editor del portal con los asteriscos adentro, y en PBA el escrito se escribe en ese editor:
+    no se sube como archivo. Prometer un `.docx` que el entorno no puede producir es la otra
+    falla, y la sección 11.1 la cierra diciendo que se avisa en vez de prometer.
+
+    **La tabla de 11.2 sólo vale si cada fila tiene su texto bajado.** Las pautas de hoja son
+    cifras —márgenes, páginas, renglones, letra— y una cifra de formato sin fuente a la vista es
+    exactamente lo que el proyecto no afirma. Cada norma que la tabla cita tiene que estar en
+    `procedencia.json`: si alguien suma una fila de memoria, o si una entrada del catálogo se
+    cae, esto lo dice.
+
+    MUTACIÓN que lo comprueba: sacar «sin markdown» de la sección 11.1 deja en rojo a
+    `test_la_regla_de_entrega_esta_escrita`; cambiar en `FUENTES` un slug por uno que no está
+    bajado, a `test_cada_fuente_de_la_tabla_esta_bajada`; agregar una fila con una fuente que
+    no está en `FUENTES`, a `test_ninguna_fila_cita_una_fuente_sin_mapear`.
+    """
+
+    #: Cómo nombra la tabla a cada fuente, y el slug con que está bajada.
+    FUENTES = {
+        "Ac. SCBA 3975/2020": "pba-scba-acuerdo-3975-2020",
+        "Res. Presidencia SCBA 3/20": "pba-scba-res-presidencia-3-2020",
+        "Reglamento para la Justicia Nacional": "reglamento-justicia-nacional",
+        "Ac. CSJN 31/2020": "csjn-acordada-31-2020-anexo-2",
+        "Ac. CSJN 4/2007": "csjn-acordada-4-2007",
+        "Ac. CSJN 38/2011": "csjn-acordada-38-2011",
+        "Acordada TSJ 11/2026, Anexo I,": "caba-tsj-acordada-11-2026-anexo-1",
+        "Acordada TSJ 11/2026, Anexo II": "caba-tsj-acordada-11-2026-anexo-2",
+        "Res. CM 19/2019": "caba-res-cm-19-2019",
+        "Circular CSJ 54/2025": "santafe-csj-circular-54-2025",
+        "Acordada CSJ 835/2025": "tucuman-csj-acordada-835-2025",
+    }
+
+    def setUp(self):
+        skill = Path(__file__).resolve().parents[1]
+        texto = (skill / "references" / "escritos.md").read_text(encoding="utf-8")
+        self.entrega = texto.split("### 11.1 ")[1].split("### 11.2 ")[0]
+        self.hoja = texto.split("### 11.2 ")[1]
+        self.resumen = (skill / "SKILL.md").read_text(encoding="utf-8") \
+            .split("## 11 · ")[1].split("\n## ")[0]
+        self.filas = [l for l in self.hoja.splitlines()
+                      if l.startswith("| ") and "---" not in l][1:]
+
+    def test_la_regla_de_entrega_esta_escrita(self):
+        for pieza in ("en texto plano y sin markdown",
+                      "sólo si el entorno ya tiene con qué",
+                      "no va dentro de la pieza ni del archivo"):
+            with self.subTest(pieza):
+                self.assertIn(pieza, self.entrega)
+        self.assertIn("sin markdown", self.resumen,
+                      "el resumen de la sección 11 del SKILL.md perdió la regla de entrega")
+        self.assertIn("`references/escritos.md` 11.2", self.resumen)
+
+    def test_cada_fuente_de_la_tabla_esta_bajada(self):
+        normas = RAIZ_DEL_CHECKOUT / "derecho" / "fuentes" / "normas"
+        if not (normas / "procedencia.json").is_file():
+            self.skipTest("no esta la capa de fuentes")
+        bajadas = json.loads((normas / "procedencia.json").read_text(encoding="utf-8"))["normas"]
+        for nombre, slug in self.FUENTES.items():
+            with self.subTest(nombre):
+                self.assertIn(nombre, self.hoja, "la fuente ya no está en la tabla: sacarla de FUENTES")
+                # `assertTrue` y no `assertIn`: el pajar es `procedencia.json` entero.
+                self.assertTrue(slug in bajadas, f"la tabla cita {nombre} y su texto no está bajado")
+
+    def test_ninguna_fila_cita_una_fuente_sin_mapear(self):
+        self.assertGreater(len(self.filas), 8, "no encontró la tabla de 11.2: el control está apagado")
+        for fila in self.filas:
+            fuente = fila.rstrip(" |").rsplit(" | ", 1)[1]
+            with self.subTest(fila[:50]):
+                self.assertTrue(any(nombre in fuente for nombre in self.FUENTES),
+                                "la fila cita una fuente que no está en FUENTES: bajarla con el "
+                                "descargador y mapearla, o no afirmar la pauta")
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)

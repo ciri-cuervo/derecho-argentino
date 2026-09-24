@@ -207,6 +207,7 @@ cotejo anterior.
 | **Demandas y cautelares contra la Nación** | `administrativo-nacional.md` 46.5 quinquies | 23/09/2026 | Media |
 | **Contrataciones de la Nación** | `administrativo-nacional.md` 46.5 sexies | 23/09/2026 | Media |
 | **Personal policial bonaerense** | `empleo-publico.md` 49.5.5 | 23/09/2026 | Media |
+| **Formato de la hoja por jurisdicción** | `escritos.md` 11.2 | 24/09/2026 | Media |
 | Modelos de escritos del repo | `modelos.md` | — | — |
 | Perfiles de otras ramas | `perfiles-heredados.md` | — | — |
 
