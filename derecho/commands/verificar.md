@@ -2,7 +2,7 @@
 name: verificar
 description: Controla si alguna norma del manifiesto cambió en la fuente oficial. Alarma de reforma legislativa - vuelve a pedir cada URL y compara el hash contra la copia local.
 argument-hint: "[--prioridad N]"
-allowed-tools: Bash(python3 ${CLAUDE_PLUGIN_ROOT}/fuentes/scripts/verificar_normas.py:*), Bash(true)
+allowed-tools: Bash(python3 ${CLAUDE_PLUGIN_ROOT}/fuentes/scripts/verificar_normas.py:*), Bash(python ${CLAUDE_PLUGIN_ROOT}/fuentes/scripts/verificar_normas.py:*), Bash(py -3 ${CLAUDE_PLUGIN_ROOT}/fuentes/scripts/verificar_normas.py:*), Bash(true)
 ---
 
 # Verificación de vigencia contra fuente primaria
@@ -33,3 +33,7 @@ El script **no escribe nada**: solo compara el hash de cada norma contra
 
 Si alguna norma cambió y afecta un módulo de `references/`, decí cuál módulo hay que
 revalidar según la tabla de `references/changelog-normativo.md`.
+
+**Si `python3` no responde** —`command not found`, `no se reconoce` o *Python was not
+found*—, el mismo comando se corre con `python` y después con `py -3`, y el que ande se usa
+en el resto. Si ninguno anda, falta Python: ver «Si un script no corre» en el `SKILL.md`.

@@ -16,6 +16,8 @@ además del accidente hay despido, se leen los dos, y el orden lo fija `laboral.
 
 ---
 
+## 5 · Laboral — riesgos del trabajo
+
 ### 5.8 Riesgos del trabajo
 
 > Para el control del dictamen médico —baremo aplicado, estudios complementarios, quién los

@@ -2,7 +2,7 @@
 name: liquidacion
 description: Liquidación por extinción del contrato de trabajo (LCT). Calcula con script determinista, después de identificar qué tramo de reforma rige por la fecha del acto extintivo.
 argument-hint: "[datos que ya tengas: ingreso, extinción, mejor remuneración...]"
-allowed-tools: Read, Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/liquidacion_lct.py:*)
+allowed-tools: Read, Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/liquidacion_lct.py:*), Bash(python ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/liquidacion_lct.py:*), Bash(py -3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/liquidacion_lct.py:*)
 ---
 
 Datos que trae el usuario: `$ARGUMENTS`
@@ -60,3 +60,7 @@ intercambiables**. Si estás actuando desde el órgano, leé también `${CLAUDE_
 
 Cerrá con el bloque "Estado del escrito" de `${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/references/escritos.md` sección 11: marcadores
 pendientes, normas con verificación pendiente, y decisiones tomadas por defecto.
+
+**Si `python3` no responde** —`command not found`, `no se reconoce` o *Python was not
+found*—, el mismo comando se corre con `python` y después con `py -3`, y el que ande se usa
+en el resto. Si ninguno anda, falta Python: ver «Si un script no corre» en el `SKILL.md`.

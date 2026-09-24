@@ -343,7 +343,18 @@ def version_plugin(raiz: Path):
         return None
 
 
-def bloque_plugin(raiz: Path, version_datos):
+def arreglo_plugin(origen: str, propia: str) -> str:
+    """El remedio depende de por dónde se resolvió la raíz: reinstalar no borra un config ni
+    desarma una variable, y mandar a hacerlo deja el problema donde estaba."""
+    if origen.startswith("config"):
+        return (f"correr configurar.py --repo con la ruta que corresponde, o borrar "
+                f"{archivo_config()}")
+    if origen.startswith(f"variable {ENV}"):
+        return f"apuntar {ENV} a la carpeta del plugin de la {propia}, o sacarla del entorno"
+    return f"reinstalar el plugin: la carpeta de la {propia} no es la que se está leyendo"
+
+
+def bloque_plugin(raiz: Path, version_datos, origen: str):
     """Compara la versión de los datos con la de los scripts que están corriendo.
 
     Al actualizar, la versión anterior puede quedar al lado de la nueva: si la raíz se resolvió
@@ -359,14 +370,14 @@ def bloque_plugin(raiz: Path, version_datos):
             "detalle": f"los scripts son de la {propia} y los datos de "
                        f"{base(raiz)} son de la {version_datos or '(sin declarar)'}",
             "dias": None,
-            "arreglo": f"apuntar {ENV} a la carpeta del plugin de la {propia}, o reinstalarlo"}
+            "arreglo": arreglo_plugin(origen, propia)}
 
 
 def recolectar():
     raiz, origen = raiz_repo()
     version = version_plugin(raiz) if raiz else None
     bloques = revisar(raiz) if raiz else []
-    if raiz and (b := bloque_plugin(raiz, version)):
+    if raiz and (b := bloque_plugin(raiz, version, origen)):
         bloques.insert(0, b)
     inf = {"fecha": _hoy().isoformat(), "repo": str(raiz) if raiz else None, "origen": origen,
            "config": str(archivo_config()), "perfil": _perfil.leer(),

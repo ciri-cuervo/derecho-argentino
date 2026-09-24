@@ -9,6 +9,7 @@ el estado vigente está en el archivo que lo explica, y acá queda cómo se lleg
 
 | Fecha | Entrada |
 | --- | --- |
+| 24/09/2026 | [El config que fijaba el clon, y el aviso que las calculadoras no daban](#24092026---el-config-que-fijaba-el-clon-y-el-aviso-que-las-calculadoras-no-daban) |
 | 24/09/2026 | [La versión anterior al lado de la nueva, y los estatutos que el script no frenaba](#24092026---la-versión-anterior-al-lado-de-la-nueva-y-los-estatutos-que-el-script-no-frenaba) |
 | 24/09/2026 | [El escrito sale en texto plano, y la hoja de cada jurisdicción tiene su fuente bajada](#24092026---el-escrito-sale-en-texto-plano-y-la-hoja-de-cada-jurisdicción-tiene-su-fuente-bajada) |
 | 23/09/2026 | [Dieciséis materias entran como sección, y dos cosas que el corte destapó](#23092026---dieciséis-materias-entran-como-sección-y-dos-cosas-que-el-corte-destapó) |
@@ -18,6 +19,43 @@ el estado vigente está en el archivo que lo explica, y acá queda cómo se lleg
 | 18/09/2026 | [Medicina legal no era un módulo: eran cinco huecos](#18092026---medicina-legal-no-era-un-módulo-eran-cinco-huecos) |
 | 18/09/2026 | [Laboral se parte dos veces: riesgos del trabajo y licencias](#18092026---laboral-se-parte-dos-veces-riesgos-del-trabajo-y-licencias) |
 | 18/09/2026 | [El reparto de OCR y las tres fechas salen de la skill](#18092026---el-reparto-de-ocr-y-las-tres-fechas-salen-de-la-skill) |
+
+---
+
+## 24/09/2026 - El config que fijaba el clon, y el aviso que las calculadoras no daban
+
+La verificación de la 1.4.2, esta vez corriendo las suites desde un clon, encontró que dejaban
+escrito `~/.config/derecho-argentino/config.json` apuntando al clon:
+
+- **`resolver()` fijaba en el config lo hallado por «la skill vive dentro del repo».** El config
+  va antes que los datos que trae el plugin instalado, así que una calculadora o la suite corrida
+  desde un clon dejaba al plugin leyendo la rama del clon, sin aviso si la versión coincidía.
+  Ahora se fija sólo lo adivinado en una ubicación habitual: subir desde `__file__` da lo mismo
+  en cada uso. `test_una_corrida_desde_el_clon_no_fija_el_config` lo sostiene.
+- **Las suites usaban el config de la máquina.** `_comun_tests.py` les pone un
+  `XDG_CONFIG_HOME` temporal, que heredan los subprocesos.
+- **Las calculadoras no avisaban.** `datos()` dice por stderr de qué ruta salen los datos cuando
+  no son los que trae esa copia de la skill, y por qué se eligió esa.
+- **El remedio de `estado.py` era uno solo**, reinstalar, que no borra un config ni desarma una
+  variable. Ahora sigue al origen de la raíz.
+
+De paso: `herramientas/cifras.py` saca el `re.sub` del f-string, que con la barra invertida no
+compila antes de Python 3.12, y `markdownlint` queda en cero, con las copias de las licencias bajo
+`derecho/` excluidas igual que las de la raíz. `evals/README.md` no se tocó: es capa 2.
+
+**Y lo que se distribuye pasa a correr desde Python 3.9**, medido con el 3.9.6 de las
+herramientas de Xcode: los scripts ya corrían, y lo único que rompía eran tres módulos de test con
+`X | None` sin la importación de `annotations`. El CI corre las suites de la skill en 3.9 y 3.13;
+`TestCorreDesdePython39` adelanta ese caso, y no se usa `ast.parse(feature_version=...)` porque
+deja pasar los f-strings de 3.12.
+
+**Y en Windows se ejecuta, pero no se desarrolla.** El instalador de python.org deja `python` y
+`py`, no `python3`, y todo invocaba `python3`: la skill habría diagnosticado *falta Python* con
+Python instalado. La fila nueva de «Si un script no corre» prueba los tres nombres, los comandos
+los pre-aprueban y lo dicen, y `TestElInterpreteTieneTresNombres` lo sostiene. Los bloques `!` no
+eligen solos: sin una expansión no se puede, y encadenar con `||` volvería a correr `estado.py`
+cuando sale con 1. `herramientas/humo_scripts.sh` corre cada script una vez, y el CI lo lanza en
+Windows con Git Bash; en Linux, con la salida en cp1252.
 
 ---
 

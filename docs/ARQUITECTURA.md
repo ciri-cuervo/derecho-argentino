@@ -133,8 +133,9 @@ Las series con fecha —valor del jus, días inhábiles, IPC, RIPTE, CER— vive
 **No hay ninguna ruta absoluta en la skill.** Los scripts la resuelven en este orden: el
 argumento `--repo`, la variable `DERECHO_AR_REPO`, la variable `CLAUDE_PLUGIN_ROOT` que define
 Claude Code al instalar el plugin, `~/.config/derecho-argentino/config.json`, subiendo desde la
-ubicación de la skill, y unas pocas ubicaciones habituales bajo el home. El primer hallazgo por
-heurística queda fijado solo. Para fijarlo a mano:
+ubicación de la skill, y unas pocas ubicaciones habituales bajo el home. El primer hallazgo en
+una ubicación habitual queda fijado solo; el que sale de subir desde la skill no, porque el
+config lo leen todas las copias de la máquina. Para fijarlo a mano:
 
 ```sh
 python3 derecho/skills/derecho-argentino/scripts/configurar.py --repo /ruta/al/repo

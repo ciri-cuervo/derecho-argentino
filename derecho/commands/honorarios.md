@@ -2,7 +2,7 @@
 name: honorarios
 description: Regulación de honorarios y aportes. Pregunta la jurisdicción antes de calcular: en PBA, Ley 14.967 y el jus de la serie; en la nacional y federal, Ley 27.423 y la UMA de la serie de la CSJN.
 argument-hint: "[monto del proceso, porcentaje]"
-allowed-tools: Read, Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/honorarios_pba.py:*), Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/uma_csjn.py:*)
+allowed-tools: Read, Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/honorarios_pba.py:*), Bash(python ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/honorarios_pba.py:*), Bash(py -3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/honorarios_pba.py:*), Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/uma_csjn.py:*), Bash(python ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/uma_csjn.py:*), Bash(py -3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/uma_csjn.py:*)
 ---
 
 Consulta: `$ARGUMENTS`
@@ -86,3 +86,7 @@ el marcador es la respuesta.
 
 Informá siempre **el monto en jus y el valor del jus con su fecha**, más los aportes de la Ley
 6.716 art. 12 si corresponden.
+
+**Si `python3` no responde** —`command not found`, `no se reconoce` o *Python was not
+found*—, el mismo comando se corre con `python` y después con `py -3`, y el que ande se usa
+en el resto. Si ninguno anda, falta Python: ver «Si un script no corre» en el `SKILL.md`.

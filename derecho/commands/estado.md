@@ -2,7 +2,7 @@
 name: estado
 description: Diagnóstico del plugin - dónde encontró el repo, cómo está el perfil de trabajo, qué datos tiene cargados y cuáles quedaron vencidos.
 argument-hint: ""
-allowed-tools: Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/estado.py:*), Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/test_scripts.py:*), Bash(true)
+allowed-tools: Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/estado.py:*), Bash(python ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/estado.py:*), Bash(py -3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/estado.py:*), Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/test_scripts.py:*), Bash(python ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/test_scripts.py:*), Bash(py -3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/test_scripts.py:*), Bash(true)
 ---
 
 # Estado del plugin
@@ -39,3 +39,7 @@ vencido dice con qué comando se arregla; **no repitas la tabla entera**, contá
 Cerrá con el comando concreto, uno solo, el más urgente. Si está todo al día, decilo en una
 línea y recordá que lo único que no se puede saber sin red es si una norma cambió en la fuente
 oficial: eso lo contesta `/derecho:verificar`.
+
+**Si `python3` no responde** —`command not found`, `no se reconoce` o *Python was not
+found*—, el mismo comando se corre con `python` y después con `py -3`, y el que ande se usa
+en el resto. Si ninguno anda, falta Python: ver «Si un script no corre» en el `SKILL.md`.

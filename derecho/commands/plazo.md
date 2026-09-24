@@ -2,7 +2,7 @@
 name: plazo
 description: Cómputo de un plazo procesal o administrativo argentino, con ferias, feriados trasladables y plazo de gracia. En PBA verifica primero cuándo se perfeccionó la notificación.
 argument-hint: "[ej: 5 días hábiles desde el 10/09/2026, PBA]"
-allowed-tools: Read, Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/plazos.py:*)
+allowed-tools: Read, Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/plazos.py:*), Bash(python ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/plazos.py:*), Bash(py -3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/plazos.py:*)
 ---
 
 Consulta: `$ARGUMENTS`
@@ -40,3 +40,7 @@ antes de usarlos».
    está discutida: ver 22.5.
 6. **Si el plazo es fatal o de caducidad, decilo con el marcador `[ALERTA PLAZO FATAL: ...]`**,
    con norma, plazo, fecha de inicio y vencimiento.
+
+**Si `python3` no responde** —`command not found`, `no se reconoce` o *Python was not
+found*—, el mismo comando se corre con `python` y después con `py -3`, y el que ande se usa
+en el resto. Si ninguno anda, falta Python: ver «Si un script no corre» en el `SKILL.md`.

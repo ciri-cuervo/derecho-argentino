@@ -2,7 +2,7 @@
 name: configurar
 description: Entrevista corta para guardar cómo trabajás - modo, jurisdicción y fueros - de modo que la skill ordene sus preguntas de apertura en vez de repetirlas enteras.
 argument-hint: "[lo que ya quieras adelantar]"
-allowed-tools: Read, Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/perfil.py:*), Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/configurar.py:*), Bash(true)
+allowed-tools: Read, Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/perfil.py:*), Bash(python ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/perfil.py:*), Bash(py -3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/perfil.py:*), Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/configurar.py:*), Bash(python ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/configurar.py:*), Bash(py -3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/configurar.py:*), Bash(true)
 ---
 
 Lo que el usuario adelantó: `$ARGUMENTS`
@@ -46,3 +46,7 @@ de cartera: surge de lo que las partes invocan y prueban en cada causa. Si el us
 ofrece, explicá por qué no se guarda.
 
 Se cambia cuando quiera con este mismo comando, y se borra con `perfil.py --borrar`.
+
+**Si `python3` no responde** —`command not found`, `no se reconoce` o *Python was not
+found*—, el mismo comando se corre con `python` y después con `py -3`, y el que ande se usa
+en el resto. Si ninguno anda, falta Python: ver «Si un script no corre» en el `SKILL.md`.

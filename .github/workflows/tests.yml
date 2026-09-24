@@ -10,11 +10,17 @@ on:
 jobs:
   suites:
     runs-on: ubuntu-latest
+    # Lo que se distribuye corre desde 3.9, el Python que trae macOS con las herramientas de
+    # Xcode; el resto del repositorio, desde 3.13. Las suites de la skill lanzan cada script con
+    # el mismo interprete, asi que corridas en 3.9 son la medida: nada estatico la reemplaza.
+    strategy:
+      matrix:
+        python-version: ["3.9", "3.13"]
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-python@v7
         with:
-          python-version: "3.13"
+          python-version: ${{ matrix.python-version }}
 
       # poppler trae `pdftotext`, que un test del cotejo de caratulas necesita para distinguir
       # «el PDF no tiene capa de texto» de «falta la herramienta». Sin el binario ese test se
@@ -28,4 +34,24 @@ jobs:
       - name: suites de la skill
         run: python3 -m unittest discover -s derecho/skills/derecho-argentino/scripts -p "test_*.py"
       - name: suites de herramientas
+        if: matrix.python-version == '3.13'
         run: python3 -m unittest discover -s herramientas -p "test_*.py"
+      - name: cada script del plugin, con la salida en cp1252
+        run: PYTHONIOENCODING=cp1252 bash herramientas/humo_scripts.sh python3
+
+  # El desarrollo es en Linux y macOS, asi que las suites no corren en Windows; la skill si, y
+  # esto es lo que ejecuta. Con Git Bash, que es la terminal de Claude Code en Windows, y con
+  # `python`, que es el nombre que deja el instalador de python.org.
+  windows:
+    runs-on: windows-latest
+    strategy:
+      matrix:
+        python-version: ["3.9", "3.13"]
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: cada script del plugin
+        shell: bash
+        run: bash herramientas/humo_scripts.sh python

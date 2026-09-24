@@ -2,7 +2,7 @@
 name: actualizar
 description: Vuelve a bajar normas, fallos y series de índices de las fuentes oficiales. Mantenimiento de la capa offline de fuente primaria.
 argument-hint: "[normas|fallos|series]"
-allowed-tools: Bash(python3 ${CLAUDE_PLUGIN_ROOT}/fuentes/scripts/descargar_series.py:*), Bash(python3 ${CLAUDE_PLUGIN_ROOT}/fuentes/scripts/descargar_normas.py:*), Bash(python3 ${CLAUDE_PLUGIN_ROOT}/fuentes/scripts/descargar_jurisprudencia.py:*), Bash(true)
+allowed-tools: Bash(python3 ${CLAUDE_PLUGIN_ROOT}/fuentes/scripts/descargar_series.py:*), Bash(python ${CLAUDE_PLUGIN_ROOT}/fuentes/scripts/descargar_series.py:*), Bash(py -3 ${CLAUDE_PLUGIN_ROOT}/fuentes/scripts/descargar_series.py:*), Bash(python3 ${CLAUDE_PLUGIN_ROOT}/fuentes/scripts/descargar_normas.py:*), Bash(python ${CLAUDE_PLUGIN_ROOT}/fuentes/scripts/descargar_normas.py:*), Bash(py -3 ${CLAUDE_PLUGIN_ROOT}/fuentes/scripts/descargar_normas.py:*), Bash(python3 ${CLAUDE_PLUGIN_ROOT}/fuentes/scripts/descargar_jurisprudencia.py:*), Bash(python ${CLAUDE_PLUGIN_ROOT}/fuentes/scripts/descargar_jurisprudencia.py:*), Bash(py -3 ${CLAUDE_PLUGIN_ROOT}/fuentes/scripts/descargar_jurisprudencia.py:*), Bash(true)
 ---
 
 # Actualizar la capa de fuente primaria
@@ -42,3 +42,7 @@ decilo y señalá qué módulo hay que revisar.
 salen de páginas oficiales que no son tablas descargables, así que se cargan a mano. Correr este
 comando **no los deja al día**, y decir lo contrario es el verde más caro que puede dar: los dos
 son unidades con las que se regula. `python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/estado.py` dice cuál de los dos está vencido o sin cargar.
+
+**Si `python3` no responde** —`command not found`, `no se reconoce` o *Python was not
+found*—, el mismo comando se corre con `python` y después con `py -3`, y el que ande se usa
+en el resto. Si ninguno anda, falta Python: ver «Si un script no corre» en el `SKILL.md`.

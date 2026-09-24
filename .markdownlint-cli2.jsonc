@@ -77,5 +77,8 @@
               "derecho/evals/README.md",
               "derecho/fuentes/_local/**",
               "LICENSE-ABOITIZ.md",
-              "LICENSE-CC-BY-SA-4.0.md"]
+              "LICENSE-CC-BY-SA-4.0.md",
+              // Las copias que viajan con el plugin: el mismo texto, que tampoco se reformatea.
+              "derecho/LICENSE-ABOITIZ.md",
+              "derecho/LICENSE-CC-BY-SA-4.0.md"]
 }

@@ -39,6 +39,7 @@ from __future__ import annotations
 
 import json
 import os
+import sys
 from pathlib import Path
 
 SUB = "derecho"
@@ -155,13 +156,19 @@ def resolver(explicita=None, fijar=True, avisar=True):
 
     Instalar una skill no ejecuta nada: no hay paso de instalación donde preguntar la ruta.
     Entonces el primer uso que la necesite hace las dos cosas -- la encuentra y la fija --,
-    para que no se resuelva por adivinanza cada vez. Solo se persiste lo que se halló por
-    heurística: si vino de --repo, de la variable de entorno o del propio config, no hay nada
-    que guardar.
+    para que no se resuelva por adivinanza cada vez. Solo se persiste lo que se halló
+    adivinando, en las ubicaciones habituales: si vino de --repo, de una variable o del propio
+    config, no hay nada que guardar.
+
+    Tampoco se persiste «la skill vive dentro del repo», aunque sea heurística: subir desde
+    `__file__` da lo mismo en cada uso, así que fijarlo no ahorra nada, y el config lo leen
+    también las otras copias de la máquina. Un clon del que se corrió una calculadora o la
+    suite dejaba al plugin instalado leyendo los datos del clon, con su rama y su trabajo sin
+    publicar.
     """
     global _aviso_dado
     p, origen = raiz_repo(explicita)
-    if p and fijar and origen.startswith(("ubicación habitual", "la skill vive")):
+    if p and fijar and origen.startswith("ubicación habitual"):
         try:
             destino = guardar_raiz(p)
             origen += " (queda fijada)"
@@ -263,6 +270,16 @@ def datos(explicita=None):
 
     Es la puerta que usan las calculadoras. Pasa por resolver(), así que el primer uso que
     encuentre el repo por heurística lo deja fijado.
+
+    Si los datos no son los que viajan con esta copia de la skill, lo dice por stderr: una
+    variable o un config pueden mandarla a otro clon u otra versión, y el número sale igual,
+    con otra serie. Por stderr, para no mezclarse con la salida que se pega.
     """
-    p, _ = resolver(explicita)
-    return None if p is None else base(p) / "fuentes" / "datos"
+    p, origen = resolver(explicita)
+    if p is None:
+        return None
+    propia = Path(__file__).resolve().parents[3]
+    if es_base(propia) and base(p).resolve() != propia:
+        print(f"  AVISO: los datos salen de {base(p)} ({origen}), no de los que trae esta "
+              f"copia de la skill ({propia}).", file=sys.stderr)
+    return base(p) / "fuentes" / "datos"

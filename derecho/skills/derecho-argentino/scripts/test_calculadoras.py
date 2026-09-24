@@ -6,6 +6,8 @@ Salió de `test_scripts.py` al partirlo: el original llegó a 6149 renglones, tr
 
     python3 -m unittest discover -s derecho/skills/derecho-argentino/scripts -p "test_*.py"
 """
+from __future__ import annotations
+
 import json
 import pathlib
 import re

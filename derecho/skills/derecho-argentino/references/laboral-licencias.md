@@ -18,6 +18,8 @@ plazos están acá; la liquidación y el tramo de reforma aplicable, en `laboral
 
 ---
 
+## 5 · Laboral — licencias y suspensiones
+
 ### 5.13 Maternidad, estabilidad y excedencia (arts. 177 a 186)
 
 Articulado cotejado contra `fuentes/normas/lct-20744.txt`. **Sólo el art. 177 fue
