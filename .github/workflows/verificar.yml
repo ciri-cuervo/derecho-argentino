@@ -1,0 +1,69 @@
+name: verificar fuentes
+
+# La alarma de reforma legislativa, encendida sola. `verificar_normas.py` vuelve a pedir cada
+# norma del manifiesto y compara el hash contra la copia local: hasta acá corría sólo cuando
+# alguien se acordaba. Los lunes a la madrugada de Argentina la corre el workflow y, si algo
+# cambió o no se pudo mirar, abre un issue con la salida entera. No escribe en el repo: qué
+# hacer con un hash que cambió lo decide una persona leyendo la norma.
+#
+# Los tres códigos de salida del script se respetan tal cual, y el 2 también abre issue: «no
+# pude mirar» no es «está bien», y un workflow que sólo avisa cuando algo cambió da verde con
+# el instrumento apagado.
+on:
+  schedule:
+    - cron: "17 6 * * 1"     # lunes 03:17 en Argentina (-03:00)
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - name: verificar_normas.py
+        id: verificar
+        # `set +e` porque el código de salida ES el resultado: 0 nada cambió, 1 cambió, 2 no
+        # se pudo verificar. El paso no falla; el issue lo decide el paso siguiente.
+        run: |
+          set +e
+          python3 derecho/fuentes/scripts/verificar_normas.py --timeout 120 --reintentos 2 > salida.txt 2>&1
+          echo "codigo=$?" >> "$GITHUB_OUTPUT"
+          cat salida.txt
+
+      - name: abrir o actualizar el issue
+        if: steps.verificar.outputs.codigo != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CODIGO: ${{ steps.verificar.outputs.codigo }}
+        run: |
+          if [ "$CODIGO" = "1" ]; then
+            titulo="Verificación de fuentes: alguna norma cambió en el sitio oficial"
+            etiqueta="norma-cambiada"
+          else
+            titulo="Verificación de fuentes: alguna norma no se pudo verificar"
+            etiqueta="fuente-sin-verificar"
+          fi
+          gh label create "$etiqueta" --force --color "B60205" --description "Lo abre el workflow verificar.yml" >/dev/null
+          {
+            echo "Corrida del workflow \`verificar.yml\` del $(date -u +%Y-%m-%d) (UTC), código de salida **$CODIGO**."
+            echo
+            echo "Un hash que cambió no siempre es una reforma: las bases oficiales tocan la maquetación. Lo que esto dice es *hay que mirar esta norma*, y se mira con \`python3 derecho/fuentes/scripts/verificar_normas.py --slug <slug> --verboso\` antes de decidir nada."
+            echo
+            echo '```text'
+            tail -c 60000 salida.txt
+            echo '```'
+          } > cuerpo.md
+          existente=$(gh issue list --label "$etiqueta" --state open --json number --jq '.[0].number')
+          if [ -n "$existente" ]; then
+            gh issue comment "$existente" --body-file cuerpo.md
+          else
+            gh issue create --title "$titulo" --label "$etiqueta" --body-file cuerpo.md
+          fi

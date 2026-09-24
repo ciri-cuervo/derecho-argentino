@@ -47,6 +47,14 @@ class TestLaClaveDeUnaSeccion(unittest.TestCase):
         self.assertEqual(self.h.clave("penal.md", "24.9.6 Prevención del lavado"),
                          "penal.md :: 24.9.6")
 
+    def test_los_ordinales_altos_tambien_entran(self):
+        """MUTACIÓN VIVIDA: `ORDINAL` terminaba en `sexies`, y `5.17 septies Jornada` daba la
+        clave `laboral.md :: 5.17`: el veredicto declarado con su ordinal no enganchaba y la
+        sección salía como SIN VEREDICTO con el veredicto escrito. Corrida el 23/09/2026."""
+        self.assertEqual(self.h.clave("laboral.md", "5.17 septies Jornada de trabajo"),
+                         "laboral.md :: 5.17 septies")
+        self.assertEqual(self.h.clave("x.md", "1.1 octies A"), "x.md :: 1.1 octies")
+
 
 class TestDondeSeBuscaElDisparador(unittest.TestCase):
     """Las dos capas: la tabla de ruteo decide qué módulo abrir, el description activa la skill.

@@ -44,12 +44,10 @@ son los criterios de fondo, que son afirmaciones sobre derecho y no sobre la for
 **Cuidado con prohibir de más.** El grader de `honorarios-pba-jus-y-etapas` excluye con un
 lookahead el capital de sentencia que el propio enunciado trae, porque una respuesta correcta lo
 cita de vuelta: sin esa exclusión, el control reprobaría exactamente lo que quiere premiar.
-**Migrar no es medir, y ahora hay con qué ponerle precio.** De los siete, **uno se corrió**:
-`laboral-despido-tramos-reforma-pba`, dos veces el 18/09/2026 —antes y después de escribir la
-disciplina de lectura—, y la comparación está en `AUDITORIAS.md`. Cada corrida son **tres pasadas
-por brazo** y salió **US$ 8,21**. De los otros seis, tres declaran «Sin correr» en su
-`resultado.md` y tres traen el resultado esperado en prosa, que es otra cosa: describe qué se
-espera, no qué pasó.
+**Migrar no es medir.** De los siete, uno se corrió —`laboral-despido-tramos-reforma-pba`, con
+la comparación en `BITACORA.md`— y el precio está ahí: tres pasadas por brazo y del orden de diez
+dólares por corrida. De los otros seis, tres declaran «Sin correr» en su `resultado.md` y tres
+traen el resultado esperado en prosa, que describe qué se espera y no qué pasó.
 
 ### Los reclamos de faltante que no nombran una norma
 
@@ -63,13 +61,10 @@ reglamentación del BCRA"—. Lo que falta es un conjunto abierto, no una pieza,
 existe una entrada de catálogo que nombrar**. Se lee. Por lo mismo no pide una convención nueva
 en `references/marcadores.md`: nombrar el slug no sirve cuando no hay un slug.
 
-**Las series de `fuentes/datos/` se midieron y la medida se descartó.** Derivar el índice de los
-nombres de archivo dispara cuatro veces sobre el árbol y **las cuatro equivocado**: «la serie de
-la UMA porteña no está cargada» engancha con `uma-csjn.csv`, que es la nacional, y «acordadas de
-la CSJN» engancha con el `csjn` de ese mismo archivo. Y no alcanza a ninguno de los tres
-reclamos de serie que sí existen, porque dicen "la serie de valores" sin nombrarla. Medido el
-17/09/2026. Una medida que se equivoca sobre un caso conocido no sirve para los desconocidos: se
-descarta, no se calibra.
+**Las series de `fuentes/datos/` no se cruzan, y la medida está descartada.** Derivar el índice
+de los nombres de archivo engancha la UMA porteña con `uma-csjn.csv` y las acordadas de la CSJN
+con el `csjn` del mismo archivo, y no alcanza a los reclamos que dicen "la serie de valores" sin
+nombrarla. Una medida que se equivoca sobre un caso conocido se descarta, no se calibra.
 
 **Y hay tres límites del cruce de fallos que se declaran en vez de calibrarse.** Un apellido que
 comparten varios fallos no los separa: en `fallos-csjn.md` conviven un "Bianchi" penal, que está
@@ -252,13 +247,11 @@ plazo recursivo va con marcador en el módulo nacional y en el porteño.
 
 ### Lo que entra por adentro es un piso, no un techo
 
-**De las materias que [`COBERTURA.md`](COBERTURA.md) mapeó, ya no queda ninguna sin nada escrito.**
-La última era la **Justicia de Paz de PBA**, que entró en septiembre de 2026 como fuero con módulo
-propio —`justicia-de-paz-pba.md` 61—, su norma orgánica y su Código de Faltas cotejados, disparador
-de ruteo y caso de prueba. Las demás habían entrado como sección de un módulo que ya existía; qué
-se le exige a una materia frente a un fuero está en [`DESARROLLO.md`](DESARROLLO.md), bajo *Una
-rama entra por módulo o por sección*, y qué sección cubre cada una lo lleva
-`herramientas/ramas-revisadas.json`, que un test verifica.
+**De las materias que [`COBERTURA.md`](COBERTURA.md) mapeó, no queda ninguna sin nada escrito.**
+Los fueros entraron con módulo propio; la mayoría de las materias, como sección de un módulo que
+ya existía. Qué se le exige a una materia frente a un fuero está en
+[`DESARROLLO.md`](DESARROLLO.md), bajo *Una rama entra por módulo o por sección*, y qué sección
+cubre cada una lo lleva `herramientas/ramas-revisadas.json`, que un test verifica.
 
 **Pero entrar por adentro sigue siendo un piso.** Una sección no tiene caso de prueba propio ni
 nombre de rama en el ruteo, y su cobertura llega hasta donde llega la sección: cada una lleva su
@@ -266,10 +259,11 @@ marcador diciendo qué articulado no recorrió. Darle módulo propio a alguna si
 decisión abierta, y el costo de hacerlo está más arriba, en *Más derecho del que el plugin
 contiene*.
 
-**Lo que el módulo nuevo deja pendiente, y es del trabajo de fondo:** no hay **ni un fallo bajado**
-de la Justicia de Paz bonaerense ni de sus Cámaras de alzada, y hay dos remisiones a normas
-derogadas —la del art. 61 de la Ley 5.827 al Código Civil y la del art. 144 del Código de Faltas a
-un código procesal anterior— que **ningún precedente cargado resuelve**.
+**Y las secciones nuevas comparten un hueco que es del trabajo de fondo: ninguna cita un fallo.**
+Traen el texto de la norma cotejado, no su interpretación consolidada, y cada una lo dice en su
+marcador de cierre. De la Justicia de Paz bonaerense no hay ni un fallo bajado, y sus dos
+remisiones a normas derogadas —el art. 61 de la Ley 5.827 y el art. 144 del Código de Faltas—
+no las resuelve ningún precedente cargado.
 
 ### Derecho internacional, más allá de los dos primeros capítulos
 

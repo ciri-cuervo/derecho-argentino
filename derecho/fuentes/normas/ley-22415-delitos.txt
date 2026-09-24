@@ -1,0 +1,439 @@
+Ley 22.415 - Código Aduanero, Sección XII Título I: delitos aduaneros, arts. 860 a 891 (texto actualizado)
+==============================================================================
+Jurisdicción:     nacional
+Fuente:           https://servicios.infoleg.gob.ar/infolegInternet/anexos/15000-19999/16536/Ley22415_S12_TituloI.htm
+Descargado:       2026-09-23
+SHA-256 (crudo):  5acc0486f2fe7b224c10c56fa01046e31192602264561b7fffc6411b73a829ce
+Charset:          windows-1252
+
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
+el manifiesto `normas.json`.
+==============================================================================
+
+SECCION XII
+
+SECCION XII
+
+DISPOSICIONES PENALES
+
+ARTICULO 860. – Las disposiciones de
+esta Sección rigen respecto de los hechos que en este código se prevén
+como delitos e infracciones aduaneros.
+
+ARTICULO 861. – Siempre que no fueren
+expresa o tácitamente excluidas, son aplicables a esta Sección las
+disposiciones generales del Código Penal.
+
+TITULO I
+
+DELITOS ADUANEROS
+
+ARTICULO 862. – Se consideran delitos
+aduaneros los actos u omisiones que en este Título se reprimen por
+transgredir las disposiciones de este código.
+
+Capítulo Primero
+
+Contrabando
+
+ARTICULO 863. – Será reprimido con
+prisión de DOS (2) a OCHO (8) años el que, por cualquier acto u
+omisión, impidiere o dificultare, mediante ardid o engaño, el adecuado
+ejercicio de las funciones que las leyes acuerdan al servicio aduanero
+para el control sobre las importaciones y las exportaciones.
+
+(Artículo sustituido por art. 1° de la Ley N° 25.986 B.O. 5/1/2005.)
+
+ARTICULO 864. – Será reprimido con prisión de DOS (2) a OCHO (8) años el que:
+
+a) Importare o exportare mercadería en horas o por
+lugares no habilitados al efecto, la desviare de las rutas señaladas
+para la importación o la exportación o de cualquier modo la sustrajere
+al control que corresponde ejercer al servicio aduanero sobre tales
+actos;
+
+b) Realizare cualquier acción u omisión que
+impidiere o dificultare el control del servicio aduanero con el
+propósito de someter a la mercadería a un tratamiento aduanero o fiscal
+distinto al que correspondiere, a los fines de su importación o de su
+exportación;
+
+c) Presentare ante el servicio aduanero una
+autorización especial, una licencia arancelaria o una certificación
+expedida contraviniendo las disposiciones legales y específicas que
+regularen su otorgamiento, destinada a obtener, respecto de la
+mercadería que se importare o se exportare, un tratamiento aduanero o
+fiscal más favorable al que correspondiere;
+
+d) Ocultare, disimulare, sustituyere o desviare,
+total o parcialmente, mercadería sometida o que debiere someterse a
+control aduanero, con motivo de su importación o de su exportación;
+
+e) Simulare ante el servicio aduanero, total o
+parcialmente, una operación o una destinación aduanera de importación o
+de exportación, con la finalidad de obtener un beneficio económico.
+
+(Artículo sustituido por art. 24 de la Ley N° 25.986 B.O. 5/1/2005.)
+
+ARTICULO 865. – Se impondrá prisión de CUATRO (4) a DIEZ (10) años en cualquiera de los supuestos previstos en los artículos 863 y 864 cuando:
+
+a) Intervinieren en el hecho TRES (3) o más personas en calidad de autor, instigador o cómplice;
+
+b) Interviniere en el hecho en calidad de autor,
+instigador o cómplice un funcionario o empleado público en ejercicio o
+en ocasión de sus funciones o con abuso de su cargo;
+
+c) Interviniere en el hecho en calidad de autor,
+instigador o cómplice un funcionario o empleado del servicio aduanero o
+un integrante de las fuerzas de seguridad a las que este Código les
+confiere la función de autoridad de prevención de los delitos aduaneros;
+
+d) Se cometiere mediante violencia física o moral en
+las personas, fuerza sobre las cosas o la comisión de otro delito o su
+tentativa;
+
+e) Se realizare empleando un medio de transporte
+aéreo, que se apartare de las rutas autorizadas o aterrizare en lugares
+clandestinos o no habilitados por el servicio aduanero para el tráfico
+de mercadería;
+
+f) Se cometiere mediante la presentación ante el
+servicio aduanero de documentos adulterados o falsos, necesarios para
+cumplimentar la operación aduanera;
+
+g) Se tratare de mercadería cuya importación o exportación estuviere sujeta a una prohibición absoluta;
+
+h) Se tratare de sustancias o elementos no
+comprendidos en el artículo 866 que por su naturaleza, cantidad o
+características, pudieren afectar la salud pública;
+
+i) El valor de la mercadería en plaza o la sumatoria
+del conjunto cuando formare parte de una cantidad mayor, sea
+equivalente a una suma igual o superior a PESOS TRES MILLONES ($
+3.000.000).
+
+(Artículo sustituido por art. 25 de la Ley N° 25.986 B.O. 5/1/2005.)
+
+ARTICULO 866. – Se impondrá prisión de tres (3) a doce (12) años en
+cualquiera de los supuestos previstos en los artículos 863 y 864 cuando
+se tratare de estupefacientes en cualquier etapa de su elaboración o
+precursores químicos.
+
+Estas penas serán aumentadas en un tercio del máximo y en la mitad del
+mínimo cuando concurriere alguna de las circunstancias previstas en los
+incisos a), b), c), d) y e) del artículo 865, o cuando se tratare de
+estupefacientes elaborados o semielaborados o precursores químicos, que
+por su cantidad estuviesen inequívocamente destinados a ser
+comercializados dentro o fuera del territorio nacional.
+
+(Artículo sustituido por art. 10 de la Ley N° 27.302 B.O. 8/11/2016)
+
+ARTICULO 867. – Se impondrá prisión de
+cuatro (4) a doce años en cualquiera de los supuestos previstos en los
+arts. 863 y 864 cuando se tratare de elementos nucleares, explosivos,
+agresivos químicos o materiales afines, armas, municiones o materiales
+que fueren considerados de guerra o sustancias o elementos que por su
+naturaleza, cantidad o características pudieren afectar la seguridad
+común salvo que el hecho configure delito al que correspondiere una
+pena mayor.
+
+(Artículo sustituido por art. 2° de la Ley N° 23.353 B.O. 10/9/1986.)
+
+Capítulo Segundo
+
+Actos culposos que posibilitan el contrabando y uso indebido de documentos
+
+ARTICULO 868. – Será reprimido con multa de PESOS CINCO MIL ($ 5.000) a PESOS CINCUENTA MIL ($ 50.000):
+
+a) El funcionario o empleado aduanero que ejercitare
+indebidamente las funciones de verificación, valoración, clasificación,
+inspección o cualquier otra función fiscal o de control a su cargo,
+siempre que en tales actos u omisiones mediare negligencia manifiesta
+que hubiere posibilitado la comisión del contrabando o su tentativa;
+
+b) El funcionario o empleado administrativo que por
+ejercer indebidamente las funciones a su cargo, librare o posibilitare
+el libramiento de autorización especial, licencia arancelaria o
+certificación que fuere presentada ante el servicio aduanero destinada
+a obtener un tratamiento aduanero o fiscal más favorable al que
+correspondiere, siempre que en el otorgamiento de tales documentos
+hubiere mediado grave inobservancia de las disposiciones legales
+específicas que lo regularen.
+
+(Artículo sustituido por art. 26 de la Ley N° 25.986 B.O. 5/1/2005.)
+
+ARTICULO 869. – Será reprimido con
+multa de PESOS CINCO MIL ($ 5.000) a PESOS CINCUENTA MIL ($ 50.000)
+quien resultare responsable de la presentación ante el servicio
+aduanero de una autorización especial, licencia arancelaria o
+certificación que pudiere provocar un tratamiento aduanero o fiscal más
+favorable al que correspondiere o de algún documento adulterado o falso
+necesario para cumplimentar una operación aduanera, siempre que se
+tratare de un despachante de aduana, un agente de transporte aduanero,
+un importador, un exportador o cualquier otro que por su calidad,
+actividad u oficio no pudiere desconocer tal circunstancia y no hubiere
+actuado dolosamente.
+
+(Artículo sustituido por art. 27 de la Ley N° 25.986 B.O. 5/1/2005.)
+
+ARTICULO 870. – Los importes previstos
+en la escala penal de los artículos 868 y 869 se actualizarán
+anualmente, en forma automática, al 31 de octubre de cada año, de
+conformidad con la variación de los índices de precios al por mayor
+(nivel general)elaborados por el Instituto Nacional de Estadística y
+Censos o por el organismo oficial que cumpliere sus funciones. Esta
+actualización surtirá efectos a partir del primero de enero siguiente.
+
+Capítulo Tercero
+
+Tentativa de contrabando
+
+ARTICULO 871. – Incurre en tentativa
+de contrabando el que, con el fin de cometer el delito de contrabando,
+comienza su ejecución pero no lo consuma por circunstancias ajenas a su
+voluntad.
+
+ARTICULO 872. – La tentativa de contrabando será reprimida con las mismas penas que correspondan al delito consumado.
+
+ARTICULO 873. – Se considera supuesto
+especial de tentativa de contrabando la introducción a recintos
+sometidos a control aduanero de bultos que, individualmente o
+integrando una partida, contuvieren en su interior otro u otros bultos,
+con marcas, números o signos de identificación iguales o idóneos para
+producir confusión con los que ostentare el envase exterior u otros
+envases comprendidos en la misma partida. El responsable será reprimido
+con la pena que correspondiere al supuesto de contrabando que se
+configurare.
+
+Capítulo Cuarto
+
+Encubrimiento de contrabando
+
+ARTICULO 874. – 1. Incurre en encubrimiento de contrabando el que, sin promesa anterior al delito de contrabando, después de su ejecución:
+
+a) ayudare a alguien a eludir las investigaciones
+que por contrabando efectúe la autoridad o a sustraerse a la acción de
+la misma;
+
+b) omitiere denunciar el hecho estando obligado a hacerlo;
+
+c) procurare o ayudare a alguien a procurar la
+desaparición, ocultación o alteración de los rastros, pruebas o
+instrumentos del contrabando;
+
+d) adquiriere, recibiere o interviniere de algún
+modo en la adquisición o recepción de cualquier mercadería que de
+acuerdo a las circunstancias debía presumir proveniente de contrabando.
+
+2. El encubrimiento de contrabando será reprimido
+con prisión de SEIS (6) meses a TRES (3) años, sin perjuicio de
+aplicarse las demás sanciones contempladas en el artículo 876.
+
+3. La pena privativa de libertad prevista en el apartado 2 de este artículo se elevará en un tercio cuando:
+
+a) el encubridor fuera un funcionario o empleado público o un integrante de las fuerzas armadas o de seguridad;
+
+b) los actos mencionados en el inciso d) del apartado 1 de este artículo constituyeren una actividad habitual.
+
+ARTICULO 875. – 1. Estarán exentos de
+pena los que hubieren ejecutado un hecho de los previstos en los
+incisos a), b) y c) del apartado 1, del artículo 874, a favor del
+cónyuge, de un pariente dentro del cuarto grado de consanguinidad, o el
+segundo de afinidad, de un amigo íntimo o de una persona a la que
+debieren especial gratitud.
+
+2. Cuando se encubriere con la finalidad de obtener
+un beneficio económico o de asegurar el producto o el provecho del
+contrabando, no se aplicará la excención de pena prevista en el
+apartado 1 de este capítulo.
+
+Capítulo Quinto
+
+Disposiciones comunes
+
+Penas
+
+ARTICULO 876. – 1. En los supuestos
+previstos en los artículos 863, 864, 865, 866, 871, 873 y 874, además
+de las penas privativas de la libertad, se aplicarán las siguientes
+sanciones:
+
+a) el comiso de las mercadería objeto del delito.
+Cuando el titular o quien tuviere la disponibilidad jurídica de la
+mercadería no debiere responder por la sanción o la mercadería no
+pudiere aprehenderse, el comiso se sustituirá por una multa igual a su
+valor en plaza, que se impondrá en forma solidaria;
+
+b) el comiso del medio de transporte y de los demás
+instrumentos empleados para la comisión del delito, salvo que
+pertenecieren a una persona ajena al hecho y que las circunstancias del
+caso determinaren que no podía conocer tal empleo ilícito;
+
+c) una multa de CUATRO (4) a VEINTE (20) veces el
+valor en plaza de la mercadería objeto del delito, que se impondrá en
+forma solidaria;
+
+d) la pérdida de las concesiones, regímenes especiales, privilegios y prerrogativas de que gozaren;
+
+e) la inhabilitación especial de SEIS (6) meses a CINCO (5) años para el ejercicio del comercio;
+
+f) la inhabilitación especial perpetua para
+desempeñarse como funcionario o empleado aduanero, miembro de la
+policía auxiliar aduanera o de las fuerzas de seguridad, despachante de
+aduana, agente de transporte aduanero o proveedor de a bordo de
+cualquier medio de transporte internacional y como apoderado o
+dependiente de cualquiera de estos tres últimos;
+
+g) la inhabilitación especial de TRES (3) a QUINCE
+(15) años para ejercer actividades de importación o de exportación.
+Tanto en el supuesto contemplado en este inciso como en el previsto en
+el precedente inciso f), cuando una persona de existencia ideal fuere
+responsable del delito, la inhabilitación especial prevista en ellos se
+hará extensiva a sus directores, administradores y socios
+ilimitadamente responsables. No responderá quien acreditare haber sido
+ajeno al acto o haberse opuesto a su realización;
+
+h) la inhabilitación absoluta por doble tiempo que el de la condena para desempeñarse como funcionario o empleado público;
+
+i) el retiro de la personería jurídica y, en su
+caso, la cancelación de la inscripción en el Registro Público de
+Comercio, cuando se tratare de personas de existencia ideal.
+
+2. Cuando se tratare de los supuestos previstos en
+los artículos 868 y 869, además de la pena de multa se aplicarán las
+sanciones establecidas en los incisos d), e), f),g) e i) del apartado
+1, de este artículo. En el supuesto del inciso f) la inhabilitación
+especial será por QUINCE (15) años.
+
+ARTICULO 877. – Cuando debiere
+determinarse el valor de la mercadería par la aplicación de las penas
+previstas en este Título, se estará al que tuviere en la fecha de
+comisión del delito o, en caso de no poder precisarse ésta, en la de su
+constatación.
+
+ARTICULO 878. – Para la aplicación de las penas establecidas en este Título, se entenderá por valor en plaza:
+
+a) el valor en aduana, determinado conforme a lo
+dispuesto en el artículo 642, con más los gastos de despacho y los
+tributos que gravaren la importación para consumo de la mercadería de
+que se tratare, si el delito se hubiere cometido en relación con una
+importación;
+
+b) el valor imponible previsto en el artículo 735,
+con más los tributos interiores que no fueren aplicables con motivo de
+la exportación, si el delito se hubiere cometido en relación con una
+exportación.
+
+ARTICULO 879. – El valor en plaza de
+la mercaderías debiere tomarse en consideración a los efectos de la
+aplicación de penas será fijado por el servicio aduanero de conformidad
+con lo previsto en los artículos 877 y 878.
+
+ARTICULO 880. – Cuando no fuere
+posible aprehender la mercadería objeto del delito y su valor no
+pudiere determinarse por otros medios, se considerará que la misma
+tiene los siguientes valores:
+
+a) PESOS QUINIENTOS ($ 500) por cada caja o bulto;
+
+b) PESOS QUINIENTOS ($ 500) por tonelada o fracción de tonelada, cuando se tratare de mercaderías a granel;
+
+c) PESOS CINCO MIL ($ 5.000) por cada contenedor de
+VEINTE (20) pies y PESOS DIEZ MIL ($ 10.000) por cada contenedor de
+CUARENTA (40) pies, sin perjuicio de la aplicación del inciso a) o del
+inciso b), según el caso, respecto de la mercadería en él contenida.
+
+(Artículo sustituido por art. 28 de la Ley N° 25.986 B.O. 5/1/2005.)
+
+ARTICULO 881. – Cuando por falta no
+pudiere verificarse la mercadería objeto del delito, ésta se
+clasificará por la posición arancelaria aplicable a la categoría más
+fuertemente gravada que correspondiere a su naturaleza en el arancel
+general. En caso de igualdad de tributos de varias categorías posibles,
+se tomará aquella cuyo número de orden en el arancel fuere mayor.
+
+ARTICULO 882. – Vencido el plazo de
+QUINCE (15) días, contado desde que quedare firme la sentencia o
+resolución que impusiere pena de multa sin que su importe hubiera sido
+pagado, el condenado debe pagar juntamente con el mismo un interés
+sobre la cantidad no ingresada en dicho plazo, incluida en su caso la
+actualización respectiva, cuya tasa será la que fijare la Secretaría de
+Estado de Hacienda de conformidad con lo dispuesto en el artículo 794.
+
+ARTICULO 883. – 1. Los intereses
+previstos en el artículo 882 se devengarán hasta el momento del pago o
+de la interposición de demanda de ejecución fiscal.
+
+2. En el supuesto de interponerse demanda de
+ejecución fiscal, la multa adeudada, actualizada en su caso, y los
+intereses devengados hasta ese momento devengarán, a su vez, un interés
+punitorio cuya tasa será la que fijare la Secretaría de Estado de
+Hacienda, de conformidad con lo dispuesto en el artículo 797.
+
+ARTICULO 884. – La pena de multa será
+fijada sobre la base de los valores (perjuicio fiscal, valor en plaza,
+valor en aduana o valor imponible, según correspondiere) o de los
+importes vigentes en la fecha de configuración del delito o, en caso de
+no poder precisársela, en la de su constatación, actualizados de
+acuerdo a la variación del índice de precios al por mayor (nivel
+general) elaborado por el Instituto Nacional de Estadísticas y Censos o
+por el organismo oficial que cumpliere sus funciones, desde el mes en
+que se hubiere configurado o constatado el delito hasta el penúltimo
+mes anterior a aquél en que se efectuare el pago.
+
+ARTICULO 885. – El importe de las
+multas aduaneras así como el producido de la venta de la mercadería
+comisada ingresará a rentas generales, previa deducción de los
+honorarios regulados judicialmente a favor de los profesionales
+fiscales y de los servicios de almacenaje.
+
+Responsabilidad
+
+ARTICULO 886. – 1. Se aplicarán las
+penas previstas para el autor del delito de contrabando, de su
+tentativa o de su encubrimiento, según el caso, a quien hubiere
+determinado directamente a otro a cometerlo o al que tomare parte en la
+ejecución del hecho o prestare al autor o autores un auxilio o
+cooperación sin los cuales no habría podido cometerse.
+
+2. El que cooperare de cualquier otro modo a la
+ejecución del hecho y el que prestare una ayuda posterior cumpliendo
+promesas anteriores al mismo, serán reprimidos con la pena
+correspondiente al delito, disminuida de un tercio a la mitad.
+
+ARTICULO 887. – Las personas de
+existencia visible o ideal son responsables en forma solidaria con sus
+dependientes por las penas pecuniarias que correspondieren a éstos por
+los delitos aduaneros que cometieren en ejercicio o con ocasión de sus
+funciones.
+
+ARTICULO 888. – Cuando una persona de
+existencia ideal fuere condenada por algún delito aduanero e intimada
+al pago de las penas pecuniarias que se le hubieren impuesto no fuera
+satisfecho su importe, sus directores, administradores y socios
+ilimitadamente responsables responderán patrimonialmente y en forma
+solidaria con aquélla por el pago del importe de dichas penas, salvo
+que probaren que a la fecha de la comisión del hecho no desempeñaban
+dichas funciones o no revestían tal condición.
+
+ARTICULO 889. – Cuando una persona que
+gozare de inmunidad de jurisdicción penal en razón de su función
+diplomática o consular cometiere un delito aduanero y no mediare
+renuncia hábil a dicha inmunidad por parte del Estado acreditante, el
+hecho se considerará exclusivamente a su respecto infracción aduanera y
+solamente se le impondrán las penas establecidas en el artículo 876,
+inciso a),b) y c).
+
+Extinción de acciones y penas
+
+ARTICULO 890. – La extinción de las
+acciones para imponer y para hacer efectivas las penas por los delitos
+aduaneros, se rige por las disposiciones del Código Penal.
+
+ARTICULO 891. – Sin perjuicio de lo
+dispuesto en el artículo 890, la prescripción de la pena de multa
+impuesta por los delitos aduaneros se suspende durante la sustanciación
+de la ejecución judicial y se interrumpe por los actos de ejecución en
+sede administrativa o judicial tendiente a obtener su cumplimiento.

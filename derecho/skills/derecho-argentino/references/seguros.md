@@ -25,6 +25,19 @@ La materia se litiga sobre plazos cortos, y perder uno cambia el resultado enter
 Si el asegurador dejó correr los treinta días sin declinar cobertura, la declinación posterior
 llega tarde. Antes de discutir el fondo, hay que reconstruir esa cronología.
 
+**Cómo lo aplica un tribunal bonaerense, leído de JUBA.** En *"Zayas, Ariel c/ Representante
+Liberty Seguros Argentina s/ cumplimiento de contrato"*, causa 14.882, 06/08/2014, la Cámara Civil y
+Comercial de Quilmes, Sala I, tenía un robo de automotor con la documentación entregada el
+13/09/2005 y una carta documento de la aseguradora, pidiendo levantar una inhibición del
+cotitular, recién el 02/11/2005: **el plazo del art. 56 había vencido el 13/10/2005**, y con ese
+silencio la defensa fundada en el incumplimiento del asegurado *"se desvanece"*. La Cámara toma la
+doctrina de la SCBA que cita —Ac. 34.408 y Ac. 37.883—: la carga de pronunciarse *"no es meramente
+formal, sino substancial"*, y el silencio *"se traduce en la aceptación del derecho del asegurado"*
+sin distinciones por la naturaleza del incumplimiento invocado. Y fija desde cuándo corre la
+mora: **a los quince días del art. 49, contados desde el vencimiento de los treinta del art. 56**,
+no desde el siniestro. Los precedentes de la Corte provincial que cita no están bajados: se citan
+por el fallo de Quilmes, no por sí.
+
 **Y el año del art. 58 es más corto que cualquier prescripción del CCyCN**, así que el cruce con
 la acción de daños contra el responsable no es simétrico: puede estar viva la acción contra el
 autor y muerta la del contrato.
@@ -151,7 +164,7 @@ su texto. [VERIFICAR PRECEDENTE: "Flores" Fallos 340:765 - confirmar que no haya
 
 `[VERIFICAR MONTO ACTUALIZADO: sumas aseguradas mínimas y franquicias las fija la Superintendencia de Seguros de la Nación por resolución, y esa reglamentación no está en fuentes/. No se estima: se pide o se marca]`
 
-`[INSERTAR FALLO VERIFICADO: la oponibilidad del límite de cobertura la cubre "Flores" en 39.6.1; siguen sin precedente bajado el efecto del silencio del art. 56 y los fallos de franquicia del transporte público - aportar carátula, sala, expediente, fuero y año]`
+`[INSERTAR FALLO VERIFICADO: la oponibilidad del límite de cobertura la cubre "Flores" en 39.6.1; el efecto del silencio del art. 56 lo cubre "Zayas" en 39.1; siguen sin precedente bajado los fallos de franquicia del transporte público - aportar carátula, sala, expediente, fuero y año]`
 
 ### 39.8 Qué preguntar antes de contestar
 

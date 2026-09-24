@@ -270,7 +270,65 @@ Cámara: https://www.scba.gov.ar/includes/descarga.asp?id=30941&n=Ver%20sentenci
 
 ---
 
+## Tributario y contencioso administrativo PBA
+
+### "Carba" — SCBA, B. 56.707, 23/04/2008
+
+*Carba S.A. c/Municipalidad de Tandil s/Demanda contencioso administrativa.*
+
+Pago previo del art. 19 de la Ley 12.008: **no exigible** cuando la pericia acredita que el
+tributo reclamado es *"de similar orden de magnitud de los principales rubros del costo"*, porque
+la desproporción con la capacidad económica del actor torna ilusorio el derecho (art. 15 de la
+Constitución provincial). Unánime en lo formal; en el fondo rechaza la demanda por no probarse la
+confiscatoriedad de la tasa. Leído del texto completo de JUBA, `idFallo=112644`.
+
+### "Alliaz Argentina" — SCBA, A. 74.006, 29/05/2019 (RSD-93-19)
+
+*Alliaz Argentina Compañía de Seguros S.A. contra Tribunal Fiscal de Apelación de la Provincia
+de Buenos Aires. Pretensión anulatoria. Recurso extraordinario de inaplicabilidad de ley.*
+
+Deuda no determinada al demandar y liquidada cuatro años después. Mayoría: la inadmisibilidad
+por falta de pago previo **no se declara sin intimar antes**, bajo apercibimiento (*in dubio pro
+actione*). Minoría de Soria, Negri y Pettigiani: el art. 19 no aplica porque la liquidación
+posterior no es objeto del pleito y su apelación al TFA suspende el pago por el art. 117 del
+Código Fiscal. La carátula pública escribe «Alliaz» y así se transcribe. Leído del texto completo
+de JUBA, `idFallo=169769`.
+
+## Seguros
+
+### "Zayas" — CC Quilmes Sala I, 14.882, 06/08/2014 (61/14)
+
+*Zayas, Ariel c/ Representante Liberty Seguros Argentina s/ cumplimiento de contrato.*
+
+Silencio del asegurador vencido el plazo del art. 56 de la Ley 17.418: importa aceptación del
+derecho del asegurado y la defensa posterior llega tarde; la mora corre a los quince días del art.
+49 desde el vencimiento de los treinta. Cita la doctrina de la SCBA en Ac. 34.408 y Ac. 37.883,
+que no están bajados. Leído del texto completo de JUBA, `idFallo=124082`.
+
 ## Familia
+
+### "B., M. V. c/ S., G. F." — CC MdP Sala II, 162.513, 01/12/2016 (573-R)
+
+*B. ,M. V. C/ S. ,G. F. S/ ACCIÓN DE COMPENSACIÓN ECONÓMICA - ART. 250 DEL C.P.C.*, carátula con
+reserva de identidad tal como la publica JUBA.
+
+Interlocutoria que rechaza la cautelar anticipatoria de compensación económica: la compensación
+no es consecuencia necesaria del divorcio y exige proceso de conocimiento. Deja escrito el
+método —fotografía patrimonial de cada cónyuge al inicio y al fin del matrimonio, cruzada con las
+pautas del art. 442— y no fija monto. Leído del texto completo de JUBA, `idFallo=140688`.
+
+### "P., H. O. c/ A., S. M." — SCBA, Rc 123.748, 27/05/2020
+
+Competencia del Juzgado de Paz Letrado después del divorcio tramitado ante él: la calificación
+de un bien como propio desborda su ámbito, porque el art. 61 secc. II inc. d de la Ley 5.827 sólo
+le permite homologar acuerdos de liquidación; va al Juzgado de Familia del último domicilio
+conyugal, art. 717 CCyCN. Leído del texto completo de JUBA, `idFallo=174865`.
+
+### "S., M. G. c/ G., L. A." — SCBA, Ac. 90.725, 12/05/2004
+
+Alimentos ante el Juzgado de Paz con divorcio firme ante el Tribunal de Familia: no hay conexidad
+que desplace la competencia del inc. II b del art. 61. Leído del texto completo de JUBA,
+`idFallo=10316`.
 
 ### SCBA, C. 127.266, 19/02/2024 — violencia familiar, competencia
 

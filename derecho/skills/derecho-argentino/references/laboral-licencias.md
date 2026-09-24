@@ -267,6 +267,69 @@ tolerancia de meses anteriores no purga el actual.
 
 ---
 
+### 5.14 bis Teletrabajo — Ley 27.555 y el art. 102 bis LCT
+
+Cotejada contra `fuentes/normas/ley-27555.txt`. La ley fija **presupuestos mínimos** y deja lo
+específico a la negociación colectiva (art. 1); su art. 2 incorporó a la LCT el **Capítulo VI del
+Título III, el contrato de teletrabajo del art. 102 bis**, así que la modalidad está adentro de
+la LCT y esta ley le pone las reglas. Vigente desde el **01/04/2021**, por la Resolución 54/2021
+del Ministerio de Trabajo que fijó el fin del aislamiento del art. 19.
+
+**Lo que no cambia y lo que sí.** Mismos derechos y obligaciones que el presencial, y **la
+remuneración no puede ser inferior** a la que se percibía o percibiría presencialmente (art. 3).
+La jornada **se pacta por escrito** y las plataformas del empleador deben **impedir la conexión
+fuera de ella** (art. 4). **Desconexión digital**: derecho a no ser contactado fuera de la jornada
+y de las licencias, sin sanción por ejercerlo, y el empleador **no puede exigir tareas ni
+remitir comunicaciones** fuera de la jornada por ningún medio (art. 5). Quien acredite el cuidado
+de menores de trece años, personas con discapacidad o adultos mayores convivientes tiene derecho a
+**horarios compatibles y a interrumpir la jornada**, y toda represalia **se presume
+discriminatoria** con la Ley 23.592 (art. 6).
+
+**Voluntariedad y reversibilidad, que es donde se litiga.** Pasar del presencial al teletrabajo
+es **voluntario y por escrito**, salvo fuerza mayor acreditada (art. 7). El consentimiento **se
+revoca en cualquier momento**, y el empleador debe dar tareas en el establecimiento anterior o en
+el más cercano al domicilio, salvo imposibilidad fundada; la negativa viola el art. 78 LCT y da
+derecho a **considerarse despedido** o a accionar por el restablecimiento (art. 8). Si el contrato
+nació como teletrabajo, el cambio a presencial va por el convenio.
+
+**Costos y control.** El empleador provee equipamiento, herramientas y soporte, o **compensa** el
+uso de los propios, y el desperfecto no afecta la remuneración (art. 9); la **compensación por
+mayores gastos** de conectividad y servicios va por convenio y **está exenta de ganancias** (art.
+10). Los sistemas de control llevan **participación sindical** para resguardar la intimidad y el
+domicilio (art. 15), y no puede usarse **software de vigilancia** que la viole (art. 16). Los
+accidentes en el lugar, jornada y ocasión del teletrabajo **se presumen accidentes de trabajo**
+del art. 6 inc. 1 de la Ley 24.557, y la autoridad debe incluir las enfermedades de esta modalidad
+en el listado (art. 14): `laboral-riesgos.md` 5.8. Derechos colectivos plenos y representación por
+el sindicato de la actividad, anexando al teletrabajador a un centro de trabajo (arts. 12 y 13).
+En las prestaciones transnacionales rige la ley del lugar de ejecución o la del domicilio del
+empleador, **la más favorable** (art. 17). Las empresas se registran ante el Ministerio con el
+software y la nómina, y **toda inspección en el domicilio requiere autorización previa del
+trabajador** (art. 18).
+
+**El reglamento: Decreto 27/2021, cotejado contra `fuentes/normas/decreto-27-2021.txt`.** La ley
+**no se aplica** cuando la prestación se cumple en los establecimientos de los clientes a los que
+el empleador presta servicios de manera regular, ni cuando el trabajo en el domicilio es
+**esporádico y ocasional** (art. 1 regl.). Sobre la desconexión: si la empresa opera en distintos
+husos horarios o hay razón objetiva, **se admite remitir comunicaciones fuera de la jornada, pero
+el trabajador no está obligado a responder hasta el inicio de la suya**, salvo los supuestos del
+art. 203 LCT, y **no puede haber incentivos condicionados a no ejercer el derecho**; los recargos
+por horas suplementarias no son incentivo (art. 5 regl.). Quien interrumpe por cuidados **comunica
+en forma virtual y con precisión cuándo empieza y termina la inactividad**, y la reducción de
+jornada se acuerda por convenio (art. 6 regl.). **La reversibilidad tiene plazo**: pedida con una
+motivación razonable y sobreviniente, el empleador cumple en el menor plazo que permita la
+situación del establecimiento y **nunca en más de treinta días**, y para evaluar la imposibilidad
+se mira cuánto tiempo pasó desde el cambio a teletrabajo; **quien pactó teletrabajo desde el
+inicio de la relación no puede revocar ni exigir tareas presenciales**, salvo convenio o contrato
+(art. 8 regl.). **Los elementos de trabajo y la compensación de gastos, aun sin comprobantes, no
+son remuneratorios** y no integran la base de ningún rubro ni de los aportes (arts. 9 y 10
+regl.): no entran en la base del art. 245. La anexión sindical es al establecimiento donde se
+prestaban servicios presenciales, y si el teletrabajo se pactó desde el inicio, previa consulta
+al sindicato (art. 13 regl.); el control se hace por **auditorías conjuntas** de técnicos del
+sindicato y de la empresa (art. 15 regl.); el registro del art. 18 puede delegarse en las
+autoridades locales y **no alcanza a datos del giro comercial**.
+
+`[REVISIÓN NORMATIVA REQUERIDA: este bloque recorre los arts. 1 a 18 de la Ley 27.555 y los arts. 1, 5, 6, 8 a 10, 13, 15, 18 y 19 de su reglamentación por Decreto 27/2021. Los convenios colectivos que fijan la compensación de gastos y la Resolución 54/2021 que fijó la vigencia NO están descargados. Sin fallo cargado sobre la reversibilidad del art. 8]`
+
 ### 5.15 Suspensiones y poder disciplinario (arts. 67 a 69 y 218 a 224)
 
 Articulado cotejado contra `fuentes/normas/lct-20744.txt`. **Sólo el art. 68 fue sustituido**,

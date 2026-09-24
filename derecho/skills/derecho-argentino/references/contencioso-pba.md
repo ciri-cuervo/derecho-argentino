@@ -102,6 +102,89 @@ vías independientes y conviene decirlo expresamente en la demanda.
 agotamiento se rige por **las disposiciones de sus propios procedimientos**; este Código es
 supletorio. No aplicar el art. 14 sin mirar antes el régimen específico.
 
+### 26.4 bis El procedimiento que hay que agotar — Decreto-Ley 7.647/70
+
+Cotejado contra `fuentes/normas/pba-decreto-ley-7647-1970.txt`, texto actualizado con las Leyes
+13.262, 13.708, 14.224, 14.229 y 15.230, según el consolidado. **El art. 14 de la Ley 12.008 dice
+que hay que agotar la vía; cómo se agota lo dice esta ley**, que rige el procedimiento para
+obtener una decisión de la Administración bonaerense y es **supletoria de los regímenes
+especiales** (art. 1): el empleado público, el contribuyente ante ARBA y el jubilado del IPS
+tienen su procedimiento propio, y ésta llena lo que aquél no dice.
+
+**Quién es parte y cómo se entra (arts. 10 y 33).** Actúa quien tenga *"derecho o interés
+legítimo"*; el que peticiona en materia de facultades potestativas **no es parte** y se le hace
+saber. El escrito inicial lleva identidad y domicilio real, **domicilio constituido**, hechos y
+norma, petición concreta, **ofrecimiento de toda la prueba** con la documental acompañada, y
+firma. Lo que no se ofreció ahí se ofrece después, porque los plazos del administrado no son
+perentorios (art. 72), pero el trámite no retrocede.
+
+**Notificaciones (arts. 62 a 67).** Llevan la **motivación y el texto íntegro de la parte
+resolutiva**; se hacen en el expediente, por cédula, telegrama colacionado o cualquier medio con
+constancia de recepción, fecha e identidad del acto, al domicilio constituido; **se notifican
+sólo** las resoluciones definitivas, emplazamientos, citaciones, apertura a prueba, vistas y
+traslados. La hecha en contravención **es nula**, salvo que del expediente resulte en forma
+indudable que el interesado conoció la providencia, y desde entonces surte efectos. El
+**domicilio electrónico** es hoy **obligatorio y sustitutivo del real** por la Ley 15.230, que
+el consolidado anota y no transcribe.
+`[REVISIÓN NORMATIVA REQUERIDA: Ley 15.230 de PBA -domicilio electrónico y audiencias virtuales- y su reglamentación, sin descargar: desde cuándo se tiene por notificado un acto en el domicilio electrónico sale de ahí]`
+
+**Plazos (arts. 68 a 79).** Se cuentan *"por días hábiles salvo expresa disposición legal o
+habilitación"* y *"a partir del día siguiente de la notificación"* (art. 68). Hay **plazo de gracia: las cuatro primeras horas** del
+horario de atención del día hábil siguiente (art. 69, texto Ley 13.708), que no es el de dos
+horas del reglamento nacional. Los plazos del administrado **no son perentorios** salvo los de los
+recursos (arts. 72 y 74); los recursos vencidos hacen perder el derecho, **pero el recurso tardío
+se sustancia como denuncia de ilegitimidad** y el superior puede revocar o anular (art. 74,
+segundo párrafo). La interposición de un recurso interrumpe los términos aunque esté mal
+calificado o presentado ante órgano incompetente por error justificable (art. 75). Cuando no hay
+plazo especial, citaciones e intimaciones son de **diez días** (art. 76), y la Administración
+tiene **treinta días** para decidir la petición y **diez** para resolver un jerárquico, desde que
+recibe las actuaciones con los dictámenes finales (art. 77 inc. g).
+
+**Silencio (art. 79).** Vencido el plazo del art. 77 inc. g, el interesado **pide pronto despacho
+y, pasados treinta días, se presume la denegatoria**. Es el mismo mecanismo que el art. 16 de la
+Ley 12.008 en 26.5, y por eso el pronto despacho no es opcional: sin él no corre nada.
+
+**Los recursos (arts. 86 a 102).** Es impugnable toda decisión final, interlocutoria o de mero
+trámite que lesione un derecho o interés legítimo (art. 86); no lo son los dictámenes, informes y
+vistas aunque sean vinculantes (art. 87); y se resuelven cualquiera sea el nombre que el
+interesado les dé (art. 88).
+
+| Recurso | Contra qué | Plazo y ante quién | Quién resuelve |
+| --- | --- | --- | --- |
+| **Revocatoria** (arts. 89 a 91) | Toda decisión del art. 86 | **Diez días**, fundado, ante el órgano que dictó el acto | El mismo órgano, sin sustanciación; sólo se deniega si no está fundado o si es de las del art. 87 |
+| **Jerárquico** (arts. 91, 92, 99 y 100) | Actos finales y los que resuelven peticiones, no las providencias de mero trámite | **Diez días** ante la autoridad que emitió el acto, que eleva. **Va implícito en la revocatoria** contra esos actos, y rechazada ésta hay **48 horas** desde que el superior recibe el expediente para ampliar fundamentos | El superior si el acto es de órgano inferior a director; **el Poder Ejecutivo, definitivamente**, si es de director o equivalente |
+| **Apelación** (art. 94) | Decisiones finales de **entes autárquicos** que no dejen abierta la acción contenciosa | Las formalidades del art. 92 | El Poder Ejecutivo, **limitado a la legitimidad**: anula, no modifica ni sustituye, y devuelve para nuevo acto |
+| **Contra actos generales** (art. 95) | Medida general que perjudica derechos | **Treinta días** desde la última publicación en el Boletín Oficial o la notificación, ante la misma autoridad | Esa autoridad |
+
+Y tres reglas que deciden si hace falta recurrir: contra los actos **del Gobernador** de los arts.
+95 y 96 sólo procede la revocatoria, y su decisión **causa estado** (art. 96); el jerárquico y la
+apelación **no proceden** contra los actos definitivos dictados con audiencia o intervención del
+interesado **que dejen expedita la acción contencioso administrativa**, incluidos los de los
+ministros en competencia propia o delegada (art. 97 inc. b), ni contra el **mérito** de los actos
+de entes autárquicos (inc. c); y si la Administración calla sobre la revocatoria, el interesado
+**puede ir directamente al superior** para que se aboque (art. 93). La interposición **interrumpe
+el plazo del art. 92**, faculta a suspender la ejecución por interés público o perjuicio
+irreparable invocado, e impulsa el procedimiento (art. 98). El jerárquico y la apelación se
+sustancian con **dictamen del Asesor General de Gobierno y vista del Fiscal de Estado** (art.
+101), y estos recursos rigen para los agentes públicos **supletoriamente** de su estatuto (art.
+102): el empleado va primero por `empleo-publico.md` 49.5.4.
+
+**El acto y su revisión (arts. 108 a 130).** Todo acto final que decida sobre derechos subjetivos,
+resuelva recursos o se aparte de un dictamen **debe ser motivado** (art. 108). El acto es
+ejecutivo desde que se dicta, salvo que dependa de notificación, publicación o aprobación (art.
+110). La Administración puede anular, revocar o sustituir sus actos **antes de notificarlos**
+(art. 113), y **no puede revocar un acto regular ya notificado que dé lugar a la acción
+contencioso administrativa** (art. 114): la estabilidad del acto bonaerense está ahí.
+Rectificación de errores materiales en cualquier momento (art. 115); **aclaratoria en cuarenta y
+ocho horas** (art. 116); revisión de decisiones firmes por error de hecho manifiesto,
+prevaricato, cohecho o documentos decisivos recobrados (art. 118); caducidad del acto sujeto a
+condición, previa interpelación con **diez días** adicionales (art. 119). Y la **caducidad del
+procedimiento**: seis meses de paralización imputable al interesado, declarada de oficio y
+recurrible, **con los expedientes de previsión social exceptuados**, sin interrumpir plazos y con
+derecho a reiniciar en nuevo expediente (arts. 127 a 130).
+
+`[REVISIÓN NORMATIVA REQUERIDA: este bloque recorre los arts. 1, 10, 33, 56, 62 a 79, 86 a 119 y 127 a 130 del Decreto-Ley 7.647/70. La competencia y los conflictos -arts. 2 a 9-, la representación y los expedientes -arts. 11 a 55-, la denuncia -arts. 81 a 85- y los actos de carácter general -arts. 120 a 126- NO están recorridos. Sin fallo cargado de la SCBA sobre el agotamiento ni sobre el art. 74: lo que la Corte provincial exige para tener por agotada la vía va con marcador]`
+
 ### 26.5 Silencio administrativo (art. 16)
 
 Vencido el plazo que el ente tenía para resolver un recurso, reclamo o petición, el interesado
@@ -249,6 +332,75 @@ Provincia perciba de sus reclamos contra la Nación, **incluidas las causas que 
 CSJN**. Es asignación presupuestaria, no un derecho invocable por un tercero.
 
 `[VERIFICAR VIGENCIA: prórroga o ampliación de la emergencia de la Ley 15.557 PBA más allá del 31/03/2027, y leyes posteriores que sí afecten la ejecución de sentencias contra la Provincia]`
+
+### 26.9 ter Las contrataciones de la Provincia — Ley 13.981, lo que llega al fuero
+
+Cotejada contra `fuentes/normas/pba-ley-13981.txt`, texto actualizado con las Leyes 14.815,
+15.078, 15.165 y 15.480. Es el subsistema de contrataciones de la Ley 13.767 de administración
+financiera, y rige para todos los poderes, órganos, entes y fondos fiduciarios de sus arts. 8
+incs. a y c y 11, salvo régimen especial (art. 2, texto Ley 14.815). **No comprende** el
+empleo público, los contratos con Estados extranjeros u organismos multilaterales, el crédito
+público, **la obra pública y las concesiones de obra y de servicios públicos** —que tienen la
+Ley 6.021 y sus propias normas, de las que ésta es subsidiaria, art. 27— ni las cajas chicas
+(art. 4).
+
+**Las prerrogativas del art. 7, que son lo que se impugna.** Interpretar el contrato,
+**revocarlo por interés público**, suspenderlo o rescindirlo con culpa del proveedor, o de
+común acuerdo (inc. a, texto Ley 15.480); **aumentar o disminuir hasta el treinta y cinco por
+ciento** del objeto, por única vez, antes del vencimiento y a los precios pactados (inc. b,
+texto Ley 15.165); controlar y dirigir; imponer penalidades; **ejecutar directamente** por sí o
+por terceros con los bienes del incumplidor; prorrogar los servicios por una vez y por igual
+plazo si el pliego lo previó; y fijar en el pliego una **cláusula de redeterminación de
+precios** (inc. g, texto Ley 15.480). Los actos que ejercen esas prerrogativas son actos
+administrativos, y se recurren por el Decreto-Ley 7.647/70 de 26.4 bis.
+
+**Selección (arts. 17 y 18).** La regla es la **licitación o el remate público**; por debajo de
+los montos que fija la reglamentación, licitación privada o contratación directa (art. 17). La
+**contratación directa del art. 18, texto Ley 15.078**, procede hasta el monto reglamentario y,
+**excepcionalmente**, en los diecinueve supuestos de su inc. 2: entre reparticiones, licitación
+desierta o sin ofertas admisibles, **urgencia o emergencia por circunstancias objetivas**,
+bienes exclusivos —**la marca por sí no es causal**—, compras en el exterior, escasez notoria,
+artistas y técnicos, reparaciones, secreto, publicidad oficial, inmuebles y leasing, ensayos,
+productos perecederos, precios fijados por el Estado, rezagos a entidades de bien público,
+talleres protegidos, bienes a cuenta de precio y **servicios básicos**. Todas **deben fundarse en
+causales objetivamente justificadas y acreditadas en el expediente**: la que no lo está es el
+vicio que el oferente desplazado alega.
+
+**Notificaciones, impugnaciones y sanciones (arts. 12, 20 y 24).** Las notificaciones del
+procedimiento **se tienen por hechas el día hábil siguiente a la publicación del acto en el
+Sistema de Compras y Contrataciones**, y **no rige el Capítulo X del Decreto-Ley 7.647/70**
+(art. 12): el plazo para impugnar corre desde esa publicación, no desde una cédula. Las
+observaciones e impugnaciones son las que prevé la reglamentación, **ninguna tiene efecto
+suspensivo** y tramitan por el mismo medio que la contratación; **los recursos administrativos
+sí van por el Decreto-Ley 7.647/70** (art. 20). Penalidades —pérdida de garantía, multa,
+rescisión— y sanciones —apercibimiento, suspensión, inhabilitación o eliminación del Registro
+de Proveedores—, más la **suspensión preventiva** por interés público (art. 24). La sanción que
+inhabilita es la que abre el proceso de 26.2 contra el acto que la impone, agotada la vía.
+
+**El reglamento: Decreto 59/2019, cotejado contra `fuentes/normas/pba-decreto-59-2019.txt`.**
+Los montos se expresan en **unidades de contratación**: `[VERIFICAR MONTO ACTUALIZADO: valor de
+la UC al año de la contratación, que fija la ley de presupuesto de la Provincia]`. La **licitación
+privada** procede hasta un presupuesto oficial de **300.000 UC** (art. 17 regl.); la **contratación
+directa por monto** hasta **100.000 UC**, en tres formas: **factura conformada** hasta 10.000,
+**procedimiento abreviado** de 10.000 a 50.000 y **contratación menor** de 50.000 a 100.000 (art.
+18 regl.). Los niveles de decisión, también en UC, son el Anexo II del decreto, texto Decreto
+205/2024. **Garantías** (art. 19 regl.): mantenimiento de oferta **no menos del cinco por
+ciento**, cumplimiento **no menos del diez**, acreditada **dentro de los siete días** de
+notificada la adjudicación, contragarantía del **cien por ciento** del anticipo, y garantía para
+impugnar: **del uno al tres por ciento** del presupuesto oficial contra el pliego —dos si el
+pliego calla— y **del uno al cinco** del renglón contra la preadjudicación —tres si calla—.
+**Impugnaciones** (art. 20 regl.): el pliego se impugna desde el día siguiente a su publicación
+**hasta el día anterior a la apertura**, ante la mesa de entradas del organismo, **sin suspender
+nada**; la Comisión de Preadjudicación dictamina **en cinco días** desde la apertura —plazo que se
+suspende por informes técnicos o intimación a subsanar—, su dictamen **no es vinculante**, se
+notifica a los oferentes con el derecho a tomar vista y **a impugnar en tres días**, y las
+impugnaciones **se resuelven en el mismo acto de adjudicación**, que se notifica con sus
+fundamentos **dentro de los siete días**. **Penalidades** (art. 24 regl.): multa por mora del
+**0,3 por ciento por día hábil** de lo entregado fuera de término, con tope en el valor
+contractual; **cinco por ciento** de lo no provisto en una provisión periódica, más la diferencia
+de precio por la provisión por un tercero.
+
+`[REVISIÓN NORMATIVA REQUERIDA: este bloque recorre los arts. 2, 4, 7, 12, 17, 18, 20, 24 y 27 de la Ley 13.981 y los arts. 4 y 5 del Decreto 59/2019 con los arts. 17 a 20 y 24 de su Anexo I. El Anexo II de niveles de decisión, texto Decreto 205/2024, el valor de la UC y la Ley 6.021 de obras públicas NO están recorridos. Sin fallo cargado de la SCBA sobre la contratación directa por urgencia]`
 
 ### 26.10 Antes de demandar
 

@@ -14,7 +14,10 @@ Tres capas, en este orden. Bajar a la siguiente sólo cuando la anterior no tien
 literal sin truncar:
 
 - `derecho/fuentes/normas/<slug>.txt` — texto consolidado con procedencia y hash. De acá se
-  transcribe un artículo a un escrito.
+  transcribe un artículo a un escrito, **y se saca con `scripts/articulo.py <slug> <art>`**, no
+  abriendo el archivo: `Read` trunca a 2.000 renglones sin avisar y el CCyCN tiene 27.000. El
+  script imprime arriba el título, la URL, la fecha de descarga y el hash, que es lo que la cita
+  necesita, y se planta si el artículo no está.
 - `derecho/fuentes/jurisprudencia/INDICE.md` — precedentes verificados, con enlace a la
   sentencia oficial y las sentencias descargadas al lado.
 - `derecho/fuentes/datos/` — valor del jus, inhábiles, series de índices.

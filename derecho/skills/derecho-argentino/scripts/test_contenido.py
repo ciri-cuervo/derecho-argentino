@@ -408,7 +408,7 @@ class TestElPresupuestoDeSKILL(unittest.TestCase):
     """
 
     PROSA = 500        # el tope documentado por Claude Code
-    TABLA = 145        # trinquete: las filas de hoy con margen para módulos nuevos
+    TABLA = 180        # trinquete: las filas de hoy con margen para módulos nuevos
 
     def setUp(self):
         self.archivo = (RAIZ_DEL_CHECKOUT / "derecho" / "skills" / "derecho-argentino"
@@ -606,7 +606,7 @@ class TestLasRemisionesApuntanAUnaSeccionQueExiste(unittest.TestCase):
     deja en rojo.
     """
 
-    ORDINAL = "bis|ter|quater|quinquies|sexies"
+    ORDINAL = "bis|ter|quater|quinquies|sexies|septies|octies|nonies|decies"
     ENCABEZADO = re.compile(rf"^#{{2,4}} (\d+(?:\.\d+)*(?:\s+(?:{ORDINAL}))?)\b", re.M)
     #: `modulo.md 42`, `modulo.md, 42` y `modulo.md sección 42` son la misma remisión. La palabra
     #: intermedia estaba afuera del patrón y con ella se colaban diez remisiones a una sección que
@@ -740,7 +740,7 @@ class TestNingunNumeroDeSeccionEstaEnDosModulos(unittest.TestCase):
     OTRO_ESPACIO = {"danos-indice-doctrinario.md"}
     #: El ordinal puede llevar subsecciones detrás —`5.2 bis.1`—, y sin el tramo final el regex
     #: cortaba en «5.2 bis» y daba por repetido lo que es la sección y su hija.
-    H = re.compile(r"^#{2,4} (\d+(?:\.\d+)*(?:\s+(?:bis|ter|quater|quinquies|sexies))?"
+    H = re.compile(r"^#{2,4} (\d+(?:\.\d+)*(?:\s+(?:bis|ter|quater|quinquies|sexies|septies|octies|nonies|decies))?"
                    r"(?:\.\d+)*)\b([^\n]*)", re.M)
     #: La forma que declara un stub de reenvío, y de paso dice a dónde manda.
     STUB = re.compile(r"—\s*est[áa]\s+en\s+`[\w\-]+\.md`")

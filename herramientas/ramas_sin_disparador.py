@@ -124,7 +124,8 @@ def disparadores() -> str:
     return tabla + "\n" + (m.group(1) if m else "")
 
 
-ORDINAL = re.compile(r"^(\S+(?:\s+(?:bis|ter|quater|quinquies|sexies))?)", re.I)
+ORDINAL = re.compile(
+    r"^(\S+(?:\s+(?:bis|ter|quater|quinquies|sexies|septies|octies|nonies|decies))?)", re.I)
 
 
 def clave(modulo: str, encabezado: str) -> str:

@@ -134,22 +134,97 @@ comunidad, ese mismo módulo.
 
 `[VERIFICAR PRECEDENTE: SCBA C. 125.685, 22/05/2025 - confirmar que no haya doctrina posterior de la propia Corte sobre interversión del título en contexto intrafamiliar]`
 
-### 45.4 Propiedad horizontal
+### 45.4 Propiedad horizontal — el consorcio, las expensas y la asamblea, arts. 2037 a 2072
 
-**Concepto (art. 2037):** derecho real sobre inmueble propio con facultades sobre **partes
-privativas y partes comunes**, conforme el Título y **el respectivo reglamento**.
+Cotejado contra `fuentes/normas/ccycn-26994.txt`, Título V del Libro Cuarto, artículo por artículo.
+Es la materia de mayor volumen de la práctica civil que ninguna lista estatal reconoce como rama,
+y el Código la resuelve remitiendo al **reglamento** en cada punto: antes de opinar sobre una
+asamblea, una expensa o una obra, **se lee el reglamento de ese edificio**.
 
-**El consorcio es persona jurídica (art. 2044)**, con domicilio en el inmueble y tres órganos:
-**asamblea, consejo de propietarios y administrador**. Que sea persona jurídica es lo que permite
-demandarlo y lo que lo hace titular de un patrimonio propio.
+**Qué es y cómo nace (arts. 2037 a 2044).** Derecho real sobre inmueble propio con facultades
+sobre **partes privativas y partes comunes**, interdependientes y no escindibles (art. 2037). Nace
+con el **reglamento de propiedad horizontal por escritura pública inscripta**, que se integra al
+título de cada unidad (art. 2038). La **unidad funcional** son pisos, departamentos o locales con
+independencia funcional y salida a la vía pública, y comprende la parte indivisa del terreno y de
+lo común (art. 2039). **Lo que no tiene uso determinado se presume común** (art. 2040); las
+necesariamente comunes del art. 2041 —terreno, pasillos, techos, estructura, cañerías hasta la
+unidad, ascensores, muros exteriores y divisorios, la vivienda del encargado— y las no
+indispensables del art. 2042 —pileta, gimnasio, salón— son listas **enunciativas**; las propias
+son las del volumen limitado por las estructuras divisorias, tabiques no portantes, puertas,
+ventanas y revestimientos, balcones incluidos (art. 2043). **El consorcio es persona jurídica**
+con domicilio en el inmueble y tres órganos: asamblea, consejo de propietarios y administrador
+(art. 2044).
 
-**Expensas (art. 2048):** cada propietario atiende su unidad y **debe pagar las expensas comunes
-ordinarias** de administración, reparación o sustitución de cosas y partes comunes necesarias para
-mantener el edificio. La obligación sigue a la unidad, no a la persona: es una deuda del inmueble.
+**Expensas (arts. 2046 a 2050), que es lo que más se litiga.** El propietario debe pagar las
+ordinarias y las extraordinarias en proporción a su parte indivisa, integrar el fondo de reserva
+si lo hay y **permitir el acceso** para reparar partes comunes y verificar cosas riesgosas (art.
+2046). Las ordinarias son las de administración y de reparación de lo común, más las de
+accesibilidad y vías de evacuación; las extraordinarias, las que dispone la asamblea (art. 2048).
+**El certificado de deuda expedido por el administrador y aprobado por el consejo de
+propietarios, si existe, es título ejecutivo** (art. 2048, último párrafo): la ejecución va por
+`titulos-ejecutivos.md`. Las defensas están cerradas por el art. 2049: no libera la renuncia al uso
+de los servicios, la enajenación ni el abandono de la unidad, **ni se oponen defensas fundadas en
+derechos contra el consorcio, salvo compensación**; el reglamento puede eximir parcialmente a las
+unidades sin acceso a un servicio. Y **los poseedores por cualquier título están obligados**
+junto con el propietario, sin liberarlo (art. 2050).
 
-**El reglamento tiene contenido obligatorio (art. 2056)**, con trece incisos que van del terreno y
-las unidades a la proporción de cada una. Antes de discutir una asamblea o una expensa, se lee el
-reglamento: el Código remite a él en cada punto.
+**Obras y prohibiciones (arts. 2047 y 2051 a 2055).** Está prohibido el uso contrario al
+reglamento o a la moral, perturbar más allá de la normal tolerancia, comprometer la seguridad y
+depositar cosas peligrosas (art. 2047). Mejora u obra nueva sobre partes comunes: **mayoría, con
+informe técnico previo**, y el que la pidió o la minoría afectada tienen **acción judicial** para
+dejar sin efecto la decisión; el juez mira costo excesivo, reglamento, seguridad, salubridad,
+destino y aspecto, y **la resolución de la mayoría no se suspende sin orden judicial expresa**
+(art. 2051). **Unanimidad** si la obra gravita sobre la estructura de manera sustancial o beneficia
+sólo a un propietario (art. 2052), que la paga y carga con la modificación del reglamento (art.
+2053). Cualquier propietario hace reparaciones urgentes como gestor de negocios si faltan el
+administrador y el consejo, a riesgo de que no se le reintegre (art. 2054). Grave deterioro o
+destrucción: decide la **mayoría que represente más de la mitad del valor**, y la minoría no
+puede ser obligada a reconstruir (art. 2055).
+
+**El reglamento y la asamblea (arts. 2056 a 2063).** El reglamento tiene **veintiún incisos de
+contenido obligatorio**, del terreno a las mayorías y al plazo del administrador (art. 2056), y
+**se modifica con dos tercios de la totalidad de los propietarios** (art. 2057). La asamblea se
+convoca según el reglamento **con transcripción del orden del día, preciso y completo**: es
+**nulo** tratar otro tema salvo que estén todos y lo acuerden por unanimidad; puede
+autoconvocarse con dos tercios de la totalidad, y vale la decisión unánime de todos aunque no sea
+en asamblea (art. 2059). Las decisiones se toman por **mayoría absoluta sobre la totalidad de los
+propietarios, con doble cómputo** de unidades y de partes indivisas; la mayoría de los presentes
+puede proponer decisiones que se comunican por medio fehaciente a los ausentes y **se tienen por
+aprobadas a los quince días** sin oposición suficiente; y **la acción de nulidad de la asamblea
+caduca a los treinta días** de celebrada (art. 2060). Suprimir o limitar derechos de una unidad
+más allá del funcionamiento cotidiano exige la **conformidad expresa de su titular** (art. 2061).
+Libro de actas y de registro de firmas obligatorios, acta con resumen y decisiones, firmada por el
+presidente y dos propietarios, con constancia de las comunicaciones a ausentes (art. 2062). Si el
+administrador y el consejo no convocan, **el diez por ciento** pide **asamblea judicial**, que
+resuelve por mayoría simple de presentes y, si no decide, decide el juez en forma sumarísima, con
+cautelares para regularizar el consorcio (art. 2063).
+
+**Consejo y administrador (arts. 2064 a 2067).** El consejo convoca si el administrador omite,
+controla lo económico, autoriza el uso del fondo de reserva y administra en la vacancia, **sin
+sustituir al administrador** (art. 2064). El administrador es **representante legal y
+mandatario**, propietario o tercero, persona humana o jurídica (art. 2065); el designado en el
+reglamento **cesa en la primera asamblea si no es ratificado**, y los sucesivos son nombrados y
+**removidos sin expresión de causa** por la asamblea, sin reformar el reglamento (art. 2066). Sus
+deberes del art. 2067 tienen plazo: **rendir cuenta documentada dentro de los sesenta días** del
+cierre del ejercicio, mantener el **seguro integral de consorcios**, **entregar activos, libros y
+documentos dentro de los quince días hábiles** de la renuncia o remoción, **notificar a todos los
+propietarios los reclamos administrativos o judiciales dentro de las cuarenta y ocho horas
+hábiles**, y expedir **en tres días hábiles** el certificado de deudas y créditos con constancia
+de reclamos y seguros. Nombra y despide al personal **con acuerdo de la asamblea**: el encargado
+es un trabajador de la Ley 12.981, `laboral.md` 5.17 sexies.
+
+**Subconsorcios, infracciones y prehorizontalidad (arts. 2068 a 2072).** El reglamento puede
+prever sectores con subasamblea y subadministrador, pero **frente a terceros responde todo el
+consorcio** (art. 2068). Contra el propietario u ocupante que viola las prohibiciones, el
+consorcio o cualquier propietario afectado tiene **acción para hacer cesar la infracción por la
+vía más breve del ordenamiento local**, y el ocupante no propietario **puede ser desalojado** si
+reincide (art. 2069). Los contratos sobre unidades anteriores a la constitución del régimen
+quedan bajo la prehorizontalidad (art. 2070), y el seguro a favor del adquirente **es hoy
+facultativo**: el art. 2071, texto **Decreto 1017/2024 (B.O. 13/11/2024)**, dice que el titular
+*"podrá constituir un seguro"* donde antes había un deber. Un boleto sobre unidad a construir se
+lee con ese texto y no con el original.
+
+`[REVISIÓN NORMATIVA REQUERIDA: este bloque recorre los arts. 2037 a 2072 del CCyCN. La reglamentación local del administrador -en la Ciudad, la Ley 941 y su registro- y las ordenanzas sobre consorcios NO están descargadas, y el Decreto 1017/2024 que reescribió el art. 2071 es un decreto de necesidad y urgencia cuya suerte no está en fuentes/. Sin fallo cargado sobre expensas, nulidad de asamblea ni remoción del administrador]`
 
 ### 45.5 Hipoteca
 
@@ -160,6 +235,49 @@ cobrar sobre su producido.
 Los tres rasgos que la definen y que se preguntan siempre: **convencional, de constitución
 registral y especial** en cuanto al objeto y al crédito. La ejecución del crédito hipotecario y su
 cruce procesal está en `ejecucion.md` 21.
+
+### 45.5 bis El registro inmobiliario — Ley 17.801, prioridad y certificados
+
+Cotejada contra `fuentes/normas/ley-17801.txt`, texto actualizado con la Ley 26.994. Rige los
+registros de la propiedad inmueble **de cada provincia y de la Capital** (art. 1), y es lo que
+decide si el derecho real que 45.2 dice adquirido **es oponible a terceros**.
+
+**Qué se inscribe y con qué (arts. 2 y 3).** Los documentos que constituyan, transmitan,
+declaren, modifiquen o extingan derechos reales, los embargos, inhibiciones y cautelares, y lo
+que otras leyes manden. Tienen que ser **escritura notarial o resolución judicial o
+administrativa**, auténticos y suficientes por sí; los instrumentos privados sólo en los casos de
+excepción de ley, con firma certificada. El Registro examina **sólo la legalidad de las formas
+extrínsecas** (art. 8): rechaza el documento con nulidad absoluta y manifiesta, y si el defecto es
+subsanable lo devuelve **dentro de los treinta días** e inscribe **provisionalmente por ciento
+ochenta días**, prorrogables; contra la observación no rectificada va el recurso de la ley local,
+y la provisional se mantiene mientras se sustancia (art. 9).
+
+**La prioridad, que es donde se gana o se pierde el inmueble (arts. 5, 17 a 20 y 22 a 25).** La
+escritura presentada **dentro de los cuarenta y cinco días de otorgada se considera registrada a
+la fecha de su instrumentación** (art. 5). Inscripto un documento, **no puede registrarse otro de
+igual o anterior fecha que se le oponga**, salvo que el segundo se haya otorgado durante la
+vigencia de la certificación y se presente dentro de los cuarenta y cinco días (art. 17). Entre
+dos inscripciones sobre el mismo inmueble decide **la fecha y el número de presentación**, salvo
+que las partes pacten otro orden (art. 19). Y las partes, sus herederos, el escribano y los
+testigos **no pueden prevalerse de la falta de inscripción**: para ellos el derecho documentado
+se considera registrado (art. 20). El mecanismo que protege al comprador es la **certificación**:
+la plenitud del derecho y la libertad de disposición sólo se acreditan frente a terceros con
+ella (art. 22), **ningún escribano puede autorizar una transmisión sin el título inscripto a la
+vista y sin certificado** (art. 23), que vale **quince, veinticinco o treinta días desde la cero
+hora de su expedición** según el escribano esté en la ciudad del Registro, en el interior o fuera
+de la provincia (art. 24), y **produce efectos de anotación preventiva** a favor de quien pida en
+plazo la inscripción del documento para el que se lo solicitó: el Registro no da otro certificado
+sobre el mismo inmueble sin advertir el anterior (art. 25). Lo que sale de ahí es la **reserva de
+prioridad**: el título otorgado con certificado vigente e inscripto en término gana al embargo
+que se anotó en el medio.
+
+**Matrícula y notas (arts. 12, 28 y 29).** Cada inmueble tiene su folio con ubicación, medidas,
+nomenclatura catastral, plano, titulares y el encadenamiento del dominio (art. 12); todo
+documento inscripto vuelve con la **nota** de fecha, especie y número de la registración, y los
+segundos testimonios la reproducen (art. 28); el asiento prueba la existencia del documento que
+lo originó (art. 29).
+
+`[REVISIÓN NORMATIVA REQUERIDA: este bloque recorre los arts. 1 a 3, 5, 6, 8, 9, 12, 17 a 20, 22 a 25, 28 y 29 de la Ley 17.801. El tracto sucesivo y el tracto abreviado -arts. 14 a 16-, las anotaciones personales -arts. 30 a 32- y la reglamentación de cada registro NO están recorridos: el plazo de los recursos contra una observación es local. Sin fallo cargado sobre la reserva de prioridad frente al embargo]`
 
 ### 45.6 Cómo se defiende un derecho real
 
@@ -187,10 +305,9 @@ quién se dirige la demanda cuando el ocupante dice tener la cosa por otro.
 - **No cubre el dominio y el condominio en detalle** —Títulos III y IV—, ni conjuntos inmobiliarios,
   tiempo compartido y cementerio privado, ni superficie, usufructo, uso, habitación, servidumbre,
   anticresis y prenda más allá de la enumeración.
-- **No desarrolla el régimen registral inmobiliario.** El texto de la Ley 17.801 **está bajado**
-  en `fuentes/normas/ley-17801.txt` y de él dependen los efectos de la inscripción que el art. 1890
-  remite al registro respectivo, pero este módulo no lo recorre: prioridad, reserva del art. 25,
-  tracto abreviado y publicidad registral quedan sin cubrir.
+- **Del régimen registral inmobiliario trae sólo lo que 45.5 bis recorre**: qué se inscribe, la
+  calificación, la prioridad y la certificación de la Ley 17.801. El tracto abreviado y las
+  anotaciones personales no, y la reglamentación de cada registro es local.
 - **No cubre el proceso de usucapión**, que es procesal y va por la jurisdicción que corresponda:
   `proceso-nacional.md` 44 o `sede-judicial-pba.md`.
 - **No calcula.** No hay calculadora de esta materia.

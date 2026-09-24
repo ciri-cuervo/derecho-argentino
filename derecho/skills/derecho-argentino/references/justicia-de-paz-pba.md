@@ -101,8 +101,21 @@ derogado**.
   sigue teniendo objeto es ésa.
 - **El asentimiento conyugal es hoy el art. 470 CCyCN**, sobre bienes gananciales, no el 1277.
 
-`[VERIFICAR CRITERIO DEL FUERO: si el art. 61 inc. II a) de la Ley 5.827 mantiene la competencia del Juzgado de Paz en el divorcio del art. 437 CCyCN, dado que su remisión es a institutos del Código derogado - departamento judicial y Cámara actuante]`
-`[INSERTAR FALLO VERIFICADO: competencia del Juzgado de Paz Letrado en divorcio bajo el CCyCN, y en la conversión de la norma complementaria Primera del art. 8 de la Ley 26.994 - aportar carátula, Cámara, departamento judicial y año]`
+**Dos resoluciones de la SCBA sobre competencia, leídas de JUBA.** En *"P., H. O. c/ A., S. M.
+s/ acción de calificación del bien"*, Rc 123.748, 27/05/2020, el divorcio **había tramitado ante el
+Juzgado de Paz Letrado de Veinticinco de Mayo** bajo el Código vigente, y lo que se discutía era
+quién calificaba un bien como propio: la Corte declaró competente al Juzgado de Familia del último
+domicilio conyugal por el art. 717 CCyCN, porque *"la justicia de paz letrada posee una competencia
+restringida en tal materia"* y el art. 61 secc. II inc. d **sólo le permite, en liquidación de la
+comunidad, homologar acuerdos del divorcio que tramitó ante ella**; sin acuerdo, la calificación
+*"desborda el ámbito jurisdiccional del órgano de Paz"*. Es la regla que decide la mayoría de las
+consultas: **el divorcio sí, la liquidación contenciosa no**. En *"S., M. G. c/ G., L. A. s/
+alimentos"*, Ac. 90.725, 12/05/2004, la Corte mantuvo en el Juzgado de Paz de Coronel Rosales los
+alimentos iniciados ahí **con el divorcio ya firme** ante el Tribunal de Familia: sin proceso de
+divorcio en trámite **no hay conexidad que desplace la competencia** del inc. II b. Es anterior al
+CCyCN, y la regla es procesal.
+
+`[VERIFICAR CRITERIO DEL FUERO: la conversión de la norma complementaria Primera del art. 8 de la Ley 26.994 ante el Juzgado de Paz - Rc 123.748 muestra un divorcio del art. 437 tramitado en Paz, pero ningún precedente cargado resuelve la conversión ni la Cámara del departamento - aportar carátula, Cámara, departamento judicial y año]`
 
 ### 61.4 Faltas — el Decreto-Ley 8.031/73
 

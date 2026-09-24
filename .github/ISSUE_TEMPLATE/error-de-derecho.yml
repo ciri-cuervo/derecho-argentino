@@ -1,0 +1,57 @@
+name: Error de derecho
+description: Una norma vencida, un fallo mal citado, un plazo o un monto equivocado. Con la fuente, se corrige y queda un caso de prueba.
+title: "[Derecho] "
+labels: ["error-de-derecho"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Nunca pegues datos de un expediente real**: ni carátulas, ni partes, ni montos, ni piezas. Esto es público y queda indexado. Para mostrar el problema alcanza con inventar el caso.
+
+        Sin la fuente, el reporte se convierte en una discusión de opiniones, que es justo lo que la herramienta existe para evitar.
+  - type: textarea
+    id: consulta
+    attributes:
+      label: Qué le preguntaste
+      description: La consulta, con el caso inventado. Si usaste un comando, cuál.
+      placeholder: "Liquidación por despido sin causa: ingresó el 03/03/2019, despido el 10/08/2026..."
+    validations:
+      required: true
+  - type: textarea
+    id: respuesta
+    attributes:
+      label: Qué contestó la skill
+      description: El fragmento con el error, copiado tal cual. Si emitió un marcador `[VERIFICAR ...]`, incluilo.
+    validations:
+      required: true
+  - type: textarea
+    id: correcto
+    attributes:
+      label: Qué debería haber contestado
+    validations:
+      required: true
+  - type: textarea
+    id: fuente
+    attributes:
+      label: La fuente
+      description: Artículo y ley con su texto vigente, fallo con carátula, tribunal y fecha, o la página del Boletín Oficial. Con enlace a InfoLEG, SAIJ, normas.gba.gob.ar, la SCBA o el registro que corresponda.
+      placeholder: "Art. 245 LCT, texto según Ley 27.802, B.O. 06/03/2026: https://servicios.infoleg.gob.ar/..."
+    validations:
+      required: true
+  - type: dropdown
+    id: donde
+    attributes:
+      label: Dónde la usaste
+      options:
+        - App de Claude (Chat, Cowork)
+        - Claude Code
+        - Codex (ChatGPT)
+        - Otro
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Versión del plugin
+      description: La dice `/derecho:estado`, o el estado pedido en castellano.
+      placeholder: "1.4.0"

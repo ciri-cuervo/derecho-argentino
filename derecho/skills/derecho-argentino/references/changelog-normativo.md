@@ -182,6 +182,31 @@ cotejo anterior.
 | **Extradición y cooperación penal internacional** | `penal.md` 24.10 | 18/09/2026 | Media |
 | **Historia clínica, consentimiento informado y deberes del profesional** | `salud-discapacidad.md` 27.4 bis | 18/09/2026 | Media |
 | **PUAM y la instancia judicial previsional** | `previsional.md` 32.4 bis y 32.4 ter | 18/09/2026 | Media |
+| **Personal de casas particulares** | `laboral.md` 5.17 quinquies | 23/09/2026 | **Alta** |
+| **Juicio por jurados en PBA** | `penal.md` 24.2.2 | 23/09/2026 | Media |
+| **Trata de personas** | `penal-leyes-especiales.md` 24.9.9 | 23/09/2026 | Media |
+| **Procedimiento administrativo de PBA** | `contencioso-pba.md` 26.4 bis | 23/09/2026 | Media |
+| **Reglamento de procedimientos administrativos nacional** | `administrativo-nacional.md` 46.5 quater | 23/09/2026 | **Alta** |
+| **Empleo público bonaerense: provincial, municipal y docente** | `empleo-publico.md` 49.5.4 | 23/09/2026 | Media |
+| **Estatutos: construcción, viajantes y encargados** | `laboral.md` 5.17 sexies | 23/09/2026 | Media |
+| **Asignaciones familiares** | `previsional.md` 32.4 quater | 23/09/2026 | **Alta** |
+| **Tarjetas de crédito** | `consumidor.md` 17.11.7 | 23/09/2026 | **Alta** |
+| **Propiedad horizontal** | `derechos-reales.md` 45.4 | 23/09/2026 | Baja |
+| **Registro inmobiliario** | `derechos-reales.md` 45.5 bis | 23/09/2026 | Baja |
+| **Uniones convivenciales** | `familia.md` 18.10 bis | 23/09/2026 | Baja |
+| **Adopción** | `familia.md` 18.10 ter | 23/09/2026 | Baja |
+| **Niñez: protección integral** | `familia.md` 18.10 quater | 23/09/2026 | Media |
+| **Teletrabajo** | `laboral-licencias.md` 5.14 bis | 23/09/2026 | Media |
+| **Jornada de trabajo** | `laboral.md` 5.17 septies | 23/09/2026 | Media |
+| **Sociedad por acciones simplificada** | `societario.md` 31.3 quinquies | 23/09/2026 | Media |
+| **Monotributo** | `tributario.md` 33.3 bis | 23/09/2026 | Alta |
+| **Apremio bonaerense** | `tributario-pba.md` 54.5 ter | 23/09/2026 | Media |
+| **Ciberdelitos** | `penal-leyes-especiales.md` 24.9.10 | 23/09/2026 | Media |
+| **Régimen penal y contravencional aduanero** | `penal-leyes-especiales.md` 24.9.11 | 23/09/2026 | Alta |
+| **Contrataciones de la Provincia** | `contencioso-pba.md` 26.9 ter | 23/09/2026 | Media |
+| **Demandas y cautelares contra la Nación** | `administrativo-nacional.md` 46.5 quinquies | 23/09/2026 | Media |
+| **Contrataciones de la Nación** | `administrativo-nacional.md` 46.5 sexies | 23/09/2026 | Media |
+| **Personal policial bonaerense** | `empleo-publico.md` 49.5.5 | 23/09/2026 | Media |
 | Modelos de escritos del repo | `modelos.md` | — | — |
 | Perfiles de otras ramas | `perfiles-heredados.md` | — | — |
 

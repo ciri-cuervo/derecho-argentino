@@ -2238,6 +2238,315 @@
       "sha256_archivo": "f78a8bbb457ebfcda87ea426f732877dc248cad75be0e79d7e480c13a8227b6c",
       "content_type": "text/html",
       "descargado": "2026-09-18T23:26:58-03:00"
+    },
+    "ley-26844": {
+      "titulo": "Ley 26.844 - Régimen Especial de Contrato de Trabajo para el Personal de Casas Particulares (texto actualizado)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/210000-214999/210489/texact.htm",
+      "archivo": "ley-26844.txt",
+      "sha256_texto": "b18c5a364d72a9f7cb157247a71a68b8207de77e033a59796926a7a6a7567869",
+      "sha256_archivo": "7b6ee21af0cb3726cf0bb23a68d0867df1f7f54f6b7220d2ac86c0f0ffd2a583",
+      "content_type": "text/html",
+      "descargado": "2026-09-23T12:34:42-03:00"
+    },
+    "ley-26364": {
+      "titulo": "Ley 26.364 - Prevención y sanción de la trata de personas y asistencia a sus víctimas (texto actualizado)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/140000-144999/140100/texact.htm",
+      "archivo": "ley-26364.txt",
+      "sha256_texto": "f1fd01439b91e35823786a36a4d3987077700cc4f010c9267f44e72616af453c",
+      "sha256_archivo": "78b95526905a04685dd4f7ab17d2f1f8d6e7251ee0cb3beb0547d122f8ecec51",
+      "content_type": "text/html",
+      "descargado": "2026-09-23T12:34:43-03:00"
+    },
+    "ley-22250": {
+      "titulo": "Ley 22.250 - Régimen laboral para el personal de la industria de la construcción (texto actualizado)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/25000-29999/27238/texact.htm",
+      "archivo": "ley-22250.txt",
+      "sha256_texto": "6a6e7c202132bafa78d936c84a2a255429559b4bfd49321c7b233ce623eda1d3",
+      "sha256_archivo": "814f054eb6fc1974317a4da01ccc2ca63ba074f2ee4492d5a9e1aaa9601f565c",
+      "content_type": "text/html",
+      "descargado": "2026-09-23T19:17:04-03:00"
+    },
+    "ley-14546": {
+      "titulo": "Ley 14.546 - Estatuto del viajante de comercio (texto actualizado)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/95000-99999/96295/texact.htm",
+      "archivo": "ley-14546.txt",
+      "sha256_texto": "c519551e02c629fa35ed437552eafa322a71196533eb9691754cc730d13898f1",
+      "sha256_archivo": "1b183f75622bad1eca9c3906d0c820781796006e0e4b183c760ef8ada8d7c5fb",
+      "content_type": "text/html",
+      "descargado": "2026-09-23T19:17:04-03:00"
+    },
+    "ley-12981": {
+      "titulo": "Ley 12.981 - Estatuto de los encargados de casas de renta (texto actualizado)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/45000-49999/45226/texact.htm",
+      "archivo": "ley-12981.txt",
+      "sha256_texto": "782bc508883c6260c134498dcc83fda8ba3231ee1109dae7e8b9af88784501f0",
+      "sha256_archivo": "dc6b533de1897c94ed31508785b954420e7ad558bb7c5f54fd483af80ae7fe69",
+      "content_type": "text/html",
+      "descargado": "2026-09-23T19:17:05-03:00"
+    },
+    "ley-24714": {
+      "titulo": "Ley 24.714 - Régimen de asignaciones familiares (texto actualizado)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/35000-39999/39880/texact.htm",
+      "archivo": "ley-24714.txt",
+      "sha256_texto": "21593ff6ba3ffc26b76ed65533be20538e2dfe0e34890cd23f24a41b1c0e0f71",
+      "sha256_archivo": "20ed03bce604f5251f0a32e456cc941e51ab6ee6979c98b96a4b93bfff8c130d",
+      "content_type": "text/html",
+      "descargado": "2026-09-23T19:17:05-03:00"
+    },
+    "ley-25065": {
+      "titulo": "Ley 25.065 - Tarjetas de crédito, compra y débito (texto actualizado)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/55000-59999/55556/texact.htm",
+      "archivo": "ley-25065.txt",
+      "sha256_texto": "df414c0863dd9283f271d11f23ccbec9a4903a07a86594ae226952f6cefd220f",
+      "sha256_archivo": "cb2c4d59f066cbdc2d3ea978244871bdd40408313eb2f19635ecff6d4847f229",
+      "content_type": "text/html",
+      "descargado": "2026-09-23T19:17:06-03:00"
+    },
+    "pba-decreto-ley-7647-1970": {
+      "titulo": "Decreto-Ley 7.647/70 PBA - Normas de procedimiento administrativo (texto actualizado)",
+      "url": "https://normas.gba.gob.ar/documentos/rVRy2u5B.html",
+      "archivo": "pba-decreto-ley-7647-1970.txt",
+      "sha256_texto": "894d6f3cd36c71c3fe56c8c4f3086702ba05f8ad3ff56b2cd10c9ac4c29037de",
+      "sha256_archivo": "fa64c724c8db1d7ed5a19eb54b30fe3a8f6cf251a539ccfb0059984e437346f4",
+      "content_type": "text/html",
+      "descargado": "2026-09-23T19:17:06-03:00"
+    },
+    "pba-ley-10430": {
+      "titulo": "Ley 10.430 PBA - Estatuto y escalafón para el personal de la Administración Pública, texto ordenado por Decreto 1869/96 (texto actualizado)",
+      "url": "https://normas.gba.gob.ar/documentos/VrlKqtOx.html",
+      "archivo": "pba-ley-10430.txt",
+      "sha256_texto": "2da2d0d514042467df3667da7ac364af587d473e97b2fa9144e15b6f67cc285f",
+      "sha256_archivo": "270d74b1a9ca35f29331ae5092fdf9d70ca290062c4a058ea4c65ad9d7cfd3d3",
+      "content_type": "text/html",
+      "descargado": "2026-09-23T19:17:06-03:00"
+    },
+    "pba-ley-14656": {
+      "titulo": "Ley 14.656 PBA - Estatuto para el personal de las municipalidades (texto actualizado)",
+      "url": "https://normas.gba.gob.ar/documentos/xqq2dtpx.html",
+      "archivo": "pba-ley-14656.txt",
+      "sha256_texto": "e9dbd32e7a07eb9874871ebad2d4d247438b3b0daa107da5d62789fbeb76c660",
+      "sha256_archivo": "2f13875cfe3df23e34b182e2d3f8f3b54844023ef136e45bf7a1b098cd7e14b0",
+      "content_type": "text/html",
+      "descargado": "2026-09-23T19:17:07-03:00"
+    },
+    "pba-ley-10579": {
+      "titulo": "Ley 10.579 PBA - Estatuto del docente (texto actualizado)",
+      "url": "https://normas.gba.gob.ar/documentos/xkdoDUAB.html",
+      "archivo": "pba-ley-10579.txt",
+      "sha256_texto": "16bea283ada5486824b71d1fce1d860e118a7ca70921ad7a4be7952a19e10c3e",
+      "sha256_archivo": "71e1a6efa45f19114fb4bfc88c9d95451b8635a8f0cf92914fe16397fc80de81",
+      "content_type": "text/html",
+      "descargado": "2026-09-23T19:17:07-03:00"
+    },
+    "decreto-1759": {
+      "titulo": "Decreto 1759/72 - Reglamento de Procedimientos Administrativos, texto ordenado 2017 por Decreto 894/2017 (texto actualizado)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/20000-24999/21715/texact.htm",
+      "archivo": "decreto-1759.txt",
+      "sha256_texto": "fc51d9474a06f3a9713cd9cf7955f81d5ce0e53918ea92ef3b31b0591399f5fd",
+      "sha256_archivo": "0b6a2c6faf925c8a7dd968423c34a8cc5b5a8ad4ea0ea3117bac89294a209ade",
+      "content_type": "text/html",
+      "descargado": "2026-09-23T19:34:54-03:00"
+    },
+    "ley-11544": {
+      "titulo": "Ley 11.544 - Jornada de trabajo (texto actualizado)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/63368/texact.htm",
+      "archivo": "ley-11544.txt",
+      "sha256_texto": "6cc5f194840be349983defd8ae602385cd6ca95b1cb3243f31f66b2292fc11fd",
+      "sha256_archivo": "e87898334955fd63d18f680f37f79875e08c575800e6e0cee5973b745cc46fea",
+      "content_type": "text/html",
+      "descargado": "2026-09-23T19:51:37-03:00"
+    },
+    "ley-27349": {
+      "titulo": "Ley 27.349 - Apoyo al capital emprendedor: sociedades por acciones simplificadas (texto actualizado)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/270000-274999/273567/texact.htm",
+      "archivo": "ley-27349.txt",
+      "sha256_texto": "ab5853206ffb4202823d99500f08f6c97de3bdababef862bf3d63a7e48070802",
+      "sha256_archivo": "a556310143a672e13134355410d6b4abad7930ba368c0421ec877a7fa9e3c18e",
+      "content_type": "text/html",
+      "descargado": "2026-09-23T19:51:37-03:00"
+    },
+    "ley-24977": {
+      "titulo": "Ley 24.977 - Régimen Simplificado para Pequeños Contribuyentes, monotributo (texto actualizado)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/50000-54999/51609/texact.htm",
+      "archivo": "ley-24977.txt",
+      "sha256_texto": "4662cae820bcc1208b576119a10a9f9ca91e5984711ac3b6a36c7e668940ccae",
+      "sha256_archivo": "177ee9cfe9f81a06e8af08250f70e6657b506b4c6bbbeadf949b2d0308cc0a5e",
+      "content_type": "text/html",
+      "descargado": "2026-09-23T19:51:38-03:00"
+    },
+    "decreto-1023-2001": {
+      "titulo": "Decreto 1023/2001 - Régimen de contrataciones de la Administración nacional (texto actualizado)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/65000-69999/68396/texact.htm",
+      "archivo": "decreto-1023-2001.txt",
+      "sha256_texto": "4dbd81d840cb65113cbd08210d0bc5f329f7c38b4942d7ae6996b8b583a70511",
+      "sha256_archivo": "a246fdeb920146960153da99f25a714f443320926016bc02a1daf889c92afe0c",
+      "content_type": "text/html",
+      "descargado": "2026-09-23T19:51:38-03:00"
+    },
+    "ley-26854": {
+      "titulo": "Ley 26.854 - Medidas cautelares en las causas en que es parte o interviene el Estado nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/210000-214999/212680/norma.htm",
+      "archivo": "ley-26854.txt",
+      "sha256_texto": "b9f22c4273abc002fd31cb127ce8d01f5e1f7213e35ba0be64b8fb987443b010",
+      "sha256_archivo": "55677862ef4ff9b970cddd9219b6265c3caf11285799e817f57b6596a3c01da3",
+      "content_type": "text/html",
+      "descargado": "2026-09-23T19:51:39-03:00"
+    },
+    "ley-3952": {
+      "titulo": "Ley 3.952 - Demandas contra la Nación (texto actualizado)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/45000-49999/49258/texact.htm",
+      "archivo": "ley-3952.txt",
+      "sha256_texto": "5f13e9f06d874be0b49b96518aa109098ba47b33ef6ac5ace5a9b94b6fe96b9d",
+      "sha256_archivo": "1f9c227601b842880087cebfcb1ee4b73eddb5aac159764d957d53c59b999f47",
+      "content_type": "text/html",
+      "descargado": "2026-09-23T19:51:39-03:00"
+    },
+    "ley-27411": {
+      "titulo": "Ley 27.411 - Aprobación del Convenio sobre Ciberdelito del Consejo de Europa, Budapest 2001",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/300000-304999/304798/norma.htm",
+      "archivo": "ley-27411.txt",
+      "sha256_texto": "e870af8c55bc6a7b71acd87125e3ad8889f3fd6a5c1ab9cc1299e4b461655fd5",
+      "sha256_archivo": "656fd13a784fb7e4a4a2098f4a5ff021a90b7912b5aae994ef8b97710a27922c",
+      "content_type": "text/html",
+      "descargado": "2026-09-23T20:35:07-03:00",
+      "revisado": [
+        {
+          "problema": "parece la ley APROBATORIA y no su contenido: solo 8 artículos y el texto remite a un anexo. Buscar una fuente que transcriba el anexo",
+          "veredicto": "Verdadero positivo, y se acepta así a propósito. InfoLEG no transcribe el Convenio de Budapest: el id 304798 trae la ley aprobatoria con el art. 2, que enumera las cinco reservas argentinas, y ésas son lo único que penal-leyes-especiales.md 24.9.10 cita. El texto del Convenio va con [FUENTE NO CARGADA] hasta que se baje de una fuente oficial que lo transcriba."
+        }
+      ]
+    },
+    "pba-ley-13406": {
+      "titulo": "Ley 13.406 PBA - Procedimiento de apremio para el cobro judicial de créditos fiscales (texto actualizado)",
+      "url": "https://normas.gba.gob.ar/documentos/xAzPYioB.html",
+      "archivo": "pba-ley-13406.txt",
+      "sha256_texto": "181013b938b0ae0ed9683653c5a3125c3aa808632b304474c35a74052d788c99",
+      "sha256_archivo": "c69584d886857a58b14a326ffe003bd83b2c8f7e5fee87a35f397931e46a8858",
+      "content_type": "text/html",
+      "descargado": "2026-09-23T19:51:40-03:00"
+    },
+    "pba-ley-13982": {
+      "titulo": "Ley 13.982 PBA - Personal de las policías de la Provincia de Buenos Aires (texto actualizado)",
+      "url": "https://normas.gba.gob.ar/documentos/0vlPrFeB.html",
+      "archivo": "pba-ley-13982.txt",
+      "sha256_texto": "cda4f03ef5d1484ac3225efa818f0013104bbe74238ee1a4e01733671d7674b8",
+      "sha256_archivo": "5e850f9821d5df6fdcfb59ee6a075a447ecbe3263a00ec727041b3976399862b",
+      "content_type": "text/html",
+      "descargado": "2026-09-23T19:51:40-03:00"
+    },
+    "ley-22415-delitos": {
+      "titulo": "Ley 22.415 - Código Aduanero, Sección XII Título I: delitos aduaneros, arts. 860 a 891 (texto actualizado)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/15000-19999/16536/Ley22415_S12_TituloI.htm",
+      "archivo": "ley-22415-delitos.txt",
+      "sha256_texto": "119bfb00133cce48c8bb584eb846f886ded09fee21b5d0581459c1832811ecca",
+      "sha256_archivo": "fc3f7fea873344d738fe74293f99e654b260435383e2071f321f8cb64efa2657",
+      "content_type": "text/html",
+      "descargado": "2026-09-23T19:53:26-03:00"
+    },
+    "ley-22415-infracciones": {
+      "titulo": "Ley 22.415 - Código Aduanero, Sección XII Título II: infracciones aduaneras, arts. 892 a 996 (texto actualizado)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/15000-19999/16536/Ley22415_S12_TituloII.htm",
+      "archivo": "ley-22415-infracciones.txt",
+      "sha256_texto": "48e336d7d3f9dbfc8681320e8e3c677b07d2e639b7337d199c0879ffdf2d9dd6",
+      "sha256_archivo": "db0495e58534e63437ab6100857873bde940d44853945a6b70b188996eed31a3",
+      "content_type": "text/html",
+      "descargado": "2026-09-23T19:53:27-03:00"
+    },
+    "ley-22415-procedimiento": {
+      "titulo": "Ley 22.415 - Código Aduanero, Sección XIV Título I: procedimientos, disposiciones generales, arts. 1001 a 1052 (texto actualizado)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/15000-19999/16536/Ley22415_S14_TituloI.htm",
+      "archivo": "ley-22415-procedimiento.txt",
+      "sha256_texto": "579eef9b100cc2f2f79dacb1d33e3db2b345f3f38d107cf9bcc77c6d5d430786",
+      "sha256_archivo": "4a1f32dc22c6b24e339d68e1b518d765bde29d126ceef90b63c893c0f71d037e",
+      "content_type": "text/html",
+      "descargado": "2026-09-23T19:53:28-03:00"
+    },
+    "ley-22415-recursos": {
+      "titulo": "Ley 22.415 - Código Aduanero, Sección XIV Título III: recursos, arts. 1129 a 1183 (texto actualizado)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/15000-19999/16536/Ley22415_S14_TituloIII.htm",
+      "archivo": "ley-22415-recursos.txt",
+      "sha256_texto": "04a6479005486ffec0bc4f8f8ec262d69590ba04c473ba03709c0c3807306815",
+      "sha256_archivo": "65b012d06c9c82a626a240fb742cf7452b4edfbe31fed93a6276e80365a9dfb5",
+      "content_type": "text/html",
+      "descargado": "2026-09-23T19:53:28-03:00"
+    },
+    "pba-ley-13981": {
+      "titulo": "Ley 13.981 PBA - Subsistema de contrataciones del Estado (texto actualizado)",
+      "url": "https://normas.gba.gob.ar/documentos/xDZ34hyV.html",
+      "archivo": "pba-ley-13981.txt",
+      "sha256_texto": "a1c30ee1420d4b6df1912ba2884810f13a80b8a148bf6ec46ab3c9bb7a8a69e2",
+      "sha256_archivo": "c8836422bbfaf71e887d5c46333670d986903aeb996a10aebf48b23169c95991",
+      "content_type": "text/html",
+      "descargado": "2026-09-23T19:53:29-03:00"
+    },
+    "decreto-1397": {
+      "titulo": "Decreto 1397/79 - Reglamentación de la Ley 11.683 de procedimiento tributario (texto actualizado)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/15000-19999/18807/texact.htm",
+      "archivo": "decreto-1397.txt",
+      "sha256_texto": "7d6255fa67ccd1946719c15679bfb9376f5e052cf5312c2c702e229708287ee6",
+      "sha256_archivo": "f194c64d37474738328e43cfbf533b6a5652d1ca648dffdc1ef433ffa1442faf",
+      "content_type": "text/html",
+      "descargado": "2026-09-23T21:46:49-03:00"
+    },
+    "decreto-1030-2016": {
+      "titulo": "Decreto 1030/2016 - Reglamento del régimen de contrataciones de la Administración nacional (texto actualizado)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/265000-269999/265506/texact.htm",
+      "archivo": "decreto-1030-2016.txt",
+      "sha256_texto": "605fe3f99987d77fa3b9dfe5c149ab1260477eb9520a86fd16c3117636ac6e21",
+      "sha256_archivo": "97e7e37b4225393e66e86e416e154d0c1cc28e6043e2bb24fc6cbcfe83f08843",
+      "content_type": "text/html",
+      "descargado": "2026-09-23T21:46:50-03:00"
+    },
+    "decreto-27-2021": {
+      "titulo": "Decreto 27/2021 - Reglamentación de la Ley 27.555 de teletrabajo",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/345000-349999/346325/norma.htm",
+      "archivo": "decreto-27-2021.txt",
+      "sha256_texto": "a152e4b4beec037e3bcdc9c660ced55585e4570012e08aef513774cc7ea1cb1a",
+      "sha256_archivo": "8cca0a9c28c8f4b9aa535cb0bc59dc3815914756e275b6dc79a07d0e1fbb5ec0",
+      "content_type": "text/html",
+      "descargado": "2026-09-23T21:48:18-03:00",
+      "revisado": [
+        {
+          "problema": "parece la ley APROBATORIA y no su contenido: solo 22 artículos y el texto remite a un anexo. Buscar una fuente que transcriba el anexo",
+          "veredicto": "Falso positivo. Los 22 artículos son los 3 del decreto más los 19 del anexo, que InfoLEG transcribe entero desde la edición web del Boletín Oficial: la reglamentación de la Ley 27.555 está completa, con los artículos «sin reglamentar» dichos como tales."
+        }
+      ]
+    },
+    "ley-23982": {
+      "titulo": "Ley 23.982 - Consolidación de deudas del Estado nacional (texto actualizado)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/0-4999/381/texact.htm",
+      "archivo": "ley-23982.txt",
+      "sha256_texto": "cca9e721089de0e7a106319026272ce11d8fb61938690932f97bf735dcdc4f0b",
+      "sha256_archivo": "7aa4cc57ab6148f0d39262e122494c544ae9b41e3e07108d45e5142a3ed6f6fd",
+      "content_type": "text/html",
+      "descargado": "2026-09-23T21:46:50-03:00"
+    },
+    "ley-11672": {
+      "titulo": "Ley 11.672 - Complementaria permanente de presupuesto, texto ordenado 2014 (texto actualizado)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/20000-24999/24541/texact.htm",
+      "archivo": "ley-11672.txt",
+      "sha256_texto": "5707540e4aa41c3ffe824b70ffc74bc1e854144bb6b3a52a9d3cbf37246a7f1e",
+      "sha256_archivo": "87d54f047ec32d85ee81e273c1d7781e28cfffce1ecb15643350dca3c86365e3",
+      "content_type": "text/html",
+      "descargado": "2026-09-23T21:46:50-03:00"
+    },
+    "pba-decreto-59-2019": {
+      "titulo": "Decreto 59/2019 PBA - Reglamentación de la Ley 13.981 de contrataciones (texto actualizado)",
+      "url": "https://normas.gba.gob.ar/documentos/05wD6T5B.html",
+      "archivo": "pba-decreto-59-2019.txt",
+      "sha256_texto": "2e9b9cb6ecd98ca3630da872540ea18ba78bd4b6da7acde412f817c611de4df4",
+      "sha256_archivo": "718443c90443b5a6ec29f4ff2e8096e371b77cbe696b3837b135ee8108192f1a",
+      "content_type": "text/html",
+      "descargado": "2026-09-23T21:46:51-03:00"
+    },
+    "pba-decreto-1050-2009": {
+      "titulo": "Decreto 1050/2009 PBA - Reglamentación de la Ley 13.982 del personal policial (texto actualizado)",
+      "url": "https://normas.gba.gob.ar/documentos/x61PYtg0.html",
+      "archivo": "pba-decreto-1050-2009.txt",
+      "sha256_texto": "b08c5ffe8b027578f60e78f05a293b760e05159f963a1da802a0317211fb0558",
+      "sha256_archivo": "2101f5399825d34e48b3aa2ab4cafeaf709e8dd9131c5ef974355b2b8803fcf8",
+      "content_type": "text/html",
+      "descargado": "2026-09-23T21:46:51-03:00"
     }
   }
 }

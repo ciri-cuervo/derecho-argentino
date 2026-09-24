@@ -1,0 +1,3278 @@
+Decreto 59/2019 PBA - Reglamentación de la Ley 13.981 de contrataciones (texto actualizado)
+==============================================================================
+Jurisdicción:     pba
+Fuente:           https://normas.gba.gob.ar/documentos/05wD6T5B.html
+Descargado:       2026-09-23
+SHA-256 (crudo):  7d8bdcbc8be3531f9c729ce87c6735061db5c97b206ee81ab2780aa0699e7b06
+Charset:          UTF-8
+
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
+el manifiesto `normas.json`.
+==============================================================================
+
+Decreto 59/2019
+
+DECRETO 59/2019
+
+
+
+La Plata, 4 de febrero de 2019
+
+
+
+Texto actualizado con las modificaciones introducidas por Decretos 669/19, 605/20,1314/22, 648/23 y 205/24
+
+
+
+
+
+
+
+
+
+Nota: - Decreto 669/2019, artículo 4°, crea el REGISTRO ABIERTO Y PERMANENTE DE PROVEEDORES DE SERVICIOS DE ENLACE DE DATOS (RAPPSED)
+
+
+
+- Resolución 148/2026del Organismo Provincial de Contrataciones: Reglamentación del Procedimiento de Contratación bajo la modalidad de Convenio Marco de Compras prevista en el inciso f) del apartado 3 del artículo 17 del Anexo I del presente.
+
+
+
+VISTO el expediente EX-2018-06109229-GDEBA-DGTYAMJGM, la Ley N° 13.981, y
+
+
+
+CONSIDERANDO:
+
+
+
+Que por Ley N° 13.981 se procedió a regular el Subsistema de Contrataciones del Estado Provincial, incorporándolo al Sistema de Administración Financiera del Sector Público de la Provincia de Buenos Aires previsto en la Ley N° 13.767;
+
+
+
+Que dicha Ley entró en vigencia a los diez (10) días de la publicación en el Boletín Oficial de su norma reglamentaria (Decreto N° 1.300/16 del 19 de octubre de 2016);
+
+
+
+Que el referido decreto tuvo por objeto instrumentar medidas tendientes a la modernización de los procesos administrativos de adquisición de bienes y servicios, así como su adecuación a las nuevas tecnologías, a fin de dar cumplimiento al mandato constitucional de promover el bienestar general;
+
+
+
+Que si bien el dictado del Decreto N°1.300/16 ha posibilitado dotar a los procedimientos de compras del Estado Provincial de mayor celeridad, tecnicismo y transparencia, la dinámica actual impuesta a la gestión de gobierno, la experiencia recogida en el transcurso del tiempo de su vigencia y determinados cambios en las estructuras orgánicas de las jurisdicciones provinciales, exigen la necesidad de una readecuación normativa al respecto;
+
+
+
+Que, en dicho sentido, y en línea con la ineludible obligación estatal de propiciar permanentes procesos de mejora continua de la calidad de los servicios que se brindan a sus ciudadanos, se considera oportuno y conveniente en esta instancia proceder a modificar la referida norma con la finalidad de adaptarla a las presentes exigencias del interés público;
+
+
+
+Que han tomado la intervención de su competencia Asesoría General de Gobierno,
+
+
+
+Contaduría General de la Provincia y Fiscalía de Estado;
+
+
+
+Que la presente medida se dicta en uso de las atribuciones contenidas por el artículo 144 inciso 2° de la Constitución de la Provincia de Buenos Aires;
+
+
+
+Por ello,
+
+
+
+LA GOBERNADORA DE LA PROVINCIA DE BUENOS AIRES
+
+
+
+DECRETA
+
+
+
+ARTÍCULO 1°. Aprobar la reglamentación de la Ley N° 13.981 que como Anexo I (IF-2019-02530802- GDEBA-SSCAMJGM) forma parte integrante del presente.
+
+
+
+ARTÍCULO 2°. (Texto según Decreto 1314/22) Determinar que la Autoridad de Aplicación de la Ley N° 13.981, en el marco de la Ley N ° 13.767, será el Organismo Provincial de Contrataciones.
+
+
+
+ARTÍCULO 3°. Autorizar a la Autoridad de Aplicación a dictar la normativa relativa al uso de medios electrónicos en el marco de la Ley N° 13.981.
+
+
+
+ARTÍCULO 4°. (Texto según Decreto 205/24) Aprobar los Niveles de decisión y cuadro de competencias para los procedimientos de selección de contratación de bienes y servicios (expresado en Unidad de Contratación) encuadrados en la Ley N° 13.981 y su reglamentación, que como Anexo II (IF-2024-04990663-GDEBA-SSCPOPCGP) forma parte integrante del presente.
+
+
+
+ARTÍCULO 5°. Determinar que las Direcciones Generales de Administración de las diferentes jurisdicciones de la Administración Pública Provincial, u oficinas que hagan sus veces, serán las Autoridades Administrativas a las que se refiere el artículo 7 de la Ley N° 13.981 y la presente reglamentación.
+
+
+
+ARTÍCULO 6°. Invitar al Poder Legislativo, al Poder Judicial y a los Municipios de la provincia de Buenos Aires a adherir a las disposiciones del presente Decreto.
+
+
+
+ARTÍCULO 7°. Derogar, a partir de la entrada en vigencia del presente, el Decreto N° 1.300/16.
+
+
+
+ARTÍCULO 8°. Disponer que el presente Decreto entrará en vigencia a partir del día siguiente al de su publicación en el Boletín Oficial de la provincia de Buenos Aires y se aplicará a todos los procedimientos en trámite que a ese momento no cuenten con el dictado del respectivo acto administrativo de autorización del llamado y aprobación de los Pliegos de Bases y Condiciones Particulares de la contratación.
+
+
+
+ARTÍCULO 9°. El presente Decreto será refrendado por el Ministro Secretario en el Departamento de Jefatura de Gabinete de Ministros.
+
+
+
+ARTÍCULO 10°. Registrar, notificar al Fiscal de Estado, comunicar, publicar, dar al Boletín Oficial y al SINBA. Cumplido, archivar.
+
+
+
+ANEXO I
+
+
+
+TÍTULO I: DISPOSICIONES COMUNES
+
+
+
+CAPÍTULO I: REGLAS GENERALES
+
+
+
+
+
+
+ARTÍCULO 1°. OBJETO.
+
+
+
+Sin reglamentar.
+
+
+
+ARTÍCULO 2°. AMBITO.
+
+
+
+Sin reglamentar.
+
+
+
+ARTÍCULO 3°. PRINCIPIOS GENERALES.
+
+
+
+Se entiende como contenido normal de los principios generales aplicables a las contrataciones:
+
+
+
+Principio de Razonabilidad: Refiere a la estrecha vinculación entre el objeto de la contratación y el interés público comprometido. El principio de razonabilidad implica, en lo sustancial la adecuación entre medios utilizados y fines perseguidos.
+
+
+
+Principio de Publicidad y Difusión: La publicidad de los llamados es el presupuesto necesario para asegurar la libertad de concurrencia suscitando en cada caso la máxima competencia posible.
+
+
+
+Principio de Concurrencia: La concurrencia a los procesos licitatorios del Estado Provincial es libre. Todo oferente de bienes y/o servicios que cumpla con los requerimientos normativos y quiera contratar con las entidades y jurisdicciones, debe poder hacerlo.
+
+
+
+Principio de Igualdad: Todo oferente de bienes y/o servicios debe participar en los procesos de Compras y Contrataciones públicos en las mismas condiciones que los demás, estando prohibida la existencia de privilegios, ventajas o prerrogativas, salvo las excepciones previstas por las leyes.
+
+
+
+Principio de Libre Competencia: Se asegura la más amplia, objetiva e imparcial concurrencia, debiendo las regulaciones fomentar la pluralidad y la mayor participación de oferentes potenciales.
+
+
+
+Principio de Economía: Son de aplicación en las etapas de los procesos de selección y en las resoluciones que en ellos recaigan, los criterios de simplicidad, austeridad, concentración, eficiencia y ahorro en el uso de los recursos,
+
+
+
+debiéndose evitar exigencias y formalidades costosas e innecesarias.
+
+
+
+Principio de Transparencia: Todas las etapas de la contratación se desarrollarán en un contexto de transparencia, basado en la publicidad y difusión de las actuaciones, en la utilización de tecnologías informáticas que permitan facilitar el acceso de la sociedad a la información relativa a la gestión en materia de contrataciones y en la participación real y efectiva de la comunidad.
+
+
+
+La instrumentación e implementación de los principios enumerados se basará en la armonía y equilibrio de sus alcances, sin orden de prioridad entre ellos.
+
+
+
+ARTÍCULO 4°. CONTRATOS NO COMPRENDIDOS.
+
+
+
+Sin reglamentar.
+
+
+
+ARTÍCULO 5°. PROGRAMACIÓN DE LAS CONTRATACIONES.
+
+
+
+Cada jurisdicción o entidad elaborará sus “Programas Anuales de Contratación de Bienes y Servicios”, que deberá remitir a la Autoridad de Aplicación antes del 31 de agosto de cada año.
+
+
+
+La Autoridad de Aplicación analizará la planificación de las contrataciones y hará las recomendaciones que considere pertinentes, en el marco de la eficiencia del uso de los recursos públicos.
+
+
+
+ARTÍCULO 6°. PROHIBICIÓN DE DESDOBLAMIENTO.
+
+
+
+Se presumirá que existe desdoblamiento en los términos del artículo 6° de la Ley, cuando dentro de un lapso de tres (3) meses, contados a partir del primer día de una convocatoria, se realicen otra u otras convocatorias para adquirir bienes o contratar servicios respecto de un mismo destino pertenecientes a renglones afines o de un mismo rubro comercial, respondiendo a necesidades de carácter habitual, regular y no contingente, sin que se documenten las razones que lo justifiquen.
+
+
+
+En este sentido, se considerarán afines los renglones que pertenezcan a un mismo grupo de bienes o servicios, con independencia del nivel de agregación que adopte la Autoridad de Aplicación para la clasificación de los rubros comerciales a otros efectos.
+
+
+
+Será entendido como primer día de la convocatoria el primer día de publicación del llamado cuando se trate de una Licitación Pública, una Licitación Privada,
+
+
+
+una Contratación Menor o un Procedimiento Abreviado. En el caso de Factura Conformada, el lapso comenzará a regir a partir de la recepción del remito o certificación de servicios correspondiente por parte de la repartición contratante.
+
+
+
+Para el supuesto de Factura Conformada de tracto sucesivo, los términos se contarán a partir del día subsiguiente al dictado del acto administrativo de autorización y aprobación del gasto. Cuando se trate de los supuestos de Contratación Directa encuadrados en el Artículo 18º Apartado 2 del presente Reglamento, se tomará como pauta el día subsiguiente al dictado del acto administrativo de autorización.
+
+
+
+Se exceptúan de lo dispuesto las compras de bienes perecederos.
+
+
+
+Serán responsables los funcionarios que autoricen y aprueben los ulteriores procedimientos de selección para el caso de la Licitación Pública, Licitación Privada, Contratación Directa por causales de excepción, Contratación Menor o Procedimiento Abreviado y Factura Conformada de tracto sucesivo. En el caso de Factura Conformada serán responsables los funcionarios propiciantes de la solicitud de adquisición.
+
+
+
+ARTÍCULO 7°. FACULTADES Y OBLIGACIONES DE LA AUTORIDAD ADMINISTRATIVA.
+
+
+
+a) FACULTAD DE INTERPRETAR, REVOCAR, SUSPENDER Y RESCINDIR LOS CONTRATOS: La autoridad con competencia para interpretar, revocar por razones de interés público, suspender o rescindir será la que haya aprobado el contrato administrativo que se interpreta, revoca, suspende o rescinde, o bien, la autoridad en la que se hubiese delegado tal facultad.
+
+
+
+b) FACULTAD DE AUMENTAR O DISMINUIR: El aumento o disminución del monto total adjudicado deberá justificarse y será facultad unilateral de la Autoridad Administrativa, hasta el límite del veinte por ciento (20%).(*)
+
+
+
+(*)Ver Ley 13981, ref: establece treinta y cinco por porciento (35%)
+
+
+
+En los casos que resulte imprescindible para la Autoridad Administrativa y el Pliego de Bases y Condiciones Particulares lo contemple, el aumento o disminución podrá superar el veinte por ciento (20%), debiéndose requerir la conformidad del cocontratante. El Pliego de Bases y Condiciones Particulares deberá prever las causales que habilitan el ejercicio de la facultad y el límite máximo del aumento o disminución, que no podrá ser superior al cien por ciento
+
+
+
+(100%) en los aumentos y al cincuenta por ciento (50%) en las disminuciones.
+
+
+
+Las modificaciones mencionadas deberán realizarse sin variar las condiciones y los precios unitarios y, en el caso de contratos de provisión de bienes, con la adecuación proporcional de los plazos respectivos.
+
+
+
+Los aumentos o disminuciones podrán incidir sobre uno, varios o el total de los renglones de la orden de compra o contrato. En ningún caso el aumento o la disminución podrá exceder los porcentajes antes citados del importe de los renglones sobre los cuales recaiga el aumento o disminución.
+
+
+
+La decisión de aumentar o disminuir la prestación deberá notificarse al cocontratante con una antelación no menor a cinco (5) días corridos de la finalización del plazo de ejecución contractual (incluida su eventual prórroga) y deberá perfeccionarse, mediante la notificación de la respectiva orden de compra o suscripción del contrato, hasta treinta (30) días corridos posteriores a la terminación del plazo aludido, previa renovación de la garantía de cumplimiento de contrato. Los efectos del perfeccionamiento no podrán retrotraerse más allá
+
+
+
+del dictado del acto administrativo que apruebe el aumento o disminución.
+
+
+
+En el caso que se requiera la conformidad del cocontratante, éste deberá manifestarla dentro del plazo de cinco (5) días corridos de notificada la solicitud.
+
+
+
+Vencido dicho plazo sin que medie respuesta se entenderá que el requerimiento no ha sido aceptado, lo que no generará al proveedor ningún tipo de responsabilidad, penalidad o sanción.
+
+
+
+En el caso de aumentarse o disminuirse y prorrogarse, conjuntamente, la misma contratación, los efectos del perfeccionamiento podrán retrotraerse hasta la finalización del plazo inicial del contrato.
+
+
+
+Superado el plazo de treinta (30) días corridos, el perfeccionamiento del aumento o disminución requerirá nueva conformidad del cocontratante.
+
+
+
+El acto administrativo que autorice el aumento o disminución de hasta un veinte por ciento (20%) del objeto del contrato, será suscripto por el mismo órgano que dictó el acto administrativo de adjudicación, o bien, por el órgano al que se le hubiese delegado dicha competencia en el referido acto administrativo.
+
+
+
+Para establecer la competencia del órgano que establezca una ampliación o disminución global superior al veinte por ciento (20%), se tomará en consideración el monto total resultante del ejercicio de las facultades de prórroga, aumento o disminución, o la suma de dichos conceptos, de acuerdo a los Niveles de Decisión y Cuadro de Competencias del presente Decreto. En cualquier caso, el órgano competente no podrá ser inferior a aquél que dictó el acto
+
+
+
+administrativo de adjudicación de la contratación original.
+
+
+
+c) PODER DE CONTROL E INSPECCIÓN: Sin reglamentar.
+
+
+
+d) PENALIDADES Y SANCIONES: Sin reglamentar.
+
+
+
+e) PRERROGATIVA DE EJECUCIÓN DEL CONTRATO POR SÍ: En forma previa a proceder a la ejecución directa de la prestación, la autoridad administrativa intimará el cumplimiento al cocontratante en el plazo que expresamente indicará y bajo apercibimiento de lo dispuesto en el inciso que se reglamenta. Vencido el plazo sin verificarse el cumplimiento, y aún en el caso de que se hubiera formulado descargo por el obligado, la autoridad se encuentra habilitada para la ejecución del objeto del contrato, por sí o a través de un tercero, y para solicitar las medidas judiciales que se requieran cuando el cocontratante
+
+
+
+no ponga a disposición los medios que le fueran solicitados.
+
+
+
+La utilización de materiales y equipos del cocontratante será valuada y computada a los fines de la liquidación final de la contratación rescindida. Esta prerrogativa sólo será admitida en cuestiones de urgencia, que no puedan ser resueltas por otros medios, circunstancia que deberá ser debidamente fundamentada.
+
+
+
+f) FACULTAD DE PRORROGAR: Los Pliegos de Bases y Condiciones Particulares podrán prever la opción de prórroga a favor de la autoridad administrativa, cuando se trate de contratos de prestación de servicios, ya sea que incluya o no un aumento o disminución en la cantidad o nivel de prestaciones contratadas.
+
+
+
+La decisión de prorrogar el contrato, debidamente justificada, deberá notificarse al cocontratante con una anterioridad no menor a cinco (5) días corridos de la finalización del plazo de ejecución contractual y deberá perfeccionarse, mediante la notificación de la respectiva orden de compra o suscripción del contrato, hasta treinta (30) días corridos posteriores a la terminación del plazo aludido, previa renovación de la garantía de cumplimiento de contrato. Los efectos del perfeccionamiento se producirán desde la finalización del plazo inicial del contrato.
+
+
+
+Superado el plazo de treinta (30) días corridos, el perfeccionamiento de la prórroga requerirá nueva conformidad del contratante.
+
+
+
+Se podrá hacer uso de esta opción, por única vez, y por un plazo igual o menor al del contrato inicial. Cuando el contrato fuere plurianual, no podrá prorrogarse más allá de un año adicional.
+
+
+
+El acto administrativo que autorice la prórroga será suscripto por el mismo órgano que dictó el acto administrativo de adjudicación, o bien, por el órgano al que se le hubiese delegado dicha competencia en el referido acto administrativo.
+
+
+
+Asimismo, para el caso de prorrogarse y, conjuntamente, aumentarse o disminuirse globalmente en más de un veinte por ciento (20%) el objeto del contrato, la competencia del órgano se determinará en la forma y modo dispuesto en el último párrafo del inciso b) del presente artículo.
+
+
+
+g) (Texto según Decreto 1314/22) REDETERMINACIÓN DE PRECIOS: Las cláusulas de redeterminación de precios que se incluyan en los Pliegos de Bases y Condiciones deberán ajustarse a los siguientes principios generales:
+
+
+
+1.- Los precios de los contratos podrán ser redeterminados siempre que medie solicitud del contratista, presentada ante la autoridad administrativa de la contratación, cuando los costos de los factores principales que componen la estructura de costos estimada, reflejen una variación promedio ponderada superior en un cinco por ciento (5%) a los del contrato o al surgido de la última redeterminación de precios, según corresponda. El precio de contrato es el surgido de la oferta económica adjudicada y se entiende expresado a valores de la fecha de apertura de ofertas, excepto que los Pliegos de Bases y Condiciones establezcan otro momento. En los procesos de selección de etapa múltiple se considerará que el precio se encuentra expresado a valores de la fecha de apertura del sobre N° 1.
+
+
+
+2.- El porcentaje de la variación promedio ponderada necesaria para habilitar el procedimiento permanecerá vigente y será aplicable hasta tanto se publique uno posterior. El nuevo porcentaje sólo será aplicable a las ofertas que se presenten con posterioridad a la entrada en vigencia de la norma que lo establezca.
+
+
+
+3.- Los precios de los contratos se redeterminarán a partir del primer día del mes en que los costos de los factores principales que los componen hayan adquirido la variación de referencia promedio que supere el límite indicado en el punto 1.- y sólo sobre la parte del contrato no cumplido a esa fecha.
+
+
+
+4.- La estructura de costos estimada se determinará ponderando los siguientes factores según su probada incidencia en el precio total de la prestación:
+
+
+
+a) El precio de los insumos incorporados al servicio;
+
+
+
+b) El costo de la mano de obra;
+
+
+
+c) La amortización de equipos y sus reparaciones y repuestos; y
+
+
+
+d) Todo otro elemento que resulte significativo a criterio del comitente.
+
+
+
+5.- Los precios o índices a utilizar para el procedimiento de redeterminación serán los informados por el INSTITUTO NACIONAL DE ESTADÍSTICA Y CENSOS, los que surjan de los convenios colectivos de trabajo aplicables a la actividad y/o de organismos públicos, o privados en caso de especificidad o ausencia de índices públicos, que la Autoridad de Aplicación determine. En todos los casos se tomarán los índices publicados u homologados para el mismo período de la solicitud.
+
+
+
+6.- Los Pliegos de Bases y Condiciones deberán incluir:
+
+
+
+a) El procedimiento específico de Redeterminación de Precios que corresponda aplicar al contrato.
+
+
+
+b) La estructura de costos estimada, correspondiente al servicio que se contrata y las fuentes de información de los precios o índices correspondientes.
+
+
+
+c) La obligación de los oferentes de presentar juntamente con la oferta la documentación que se indica a continuación: c.1.- La oferta desagregada por renglón, indicando cantidades y precios unitarios. c.2.- La estructura de costos del precio unitario de cada renglón, desagregado en todos sus componentes, incluyendo cargas sociales y tributarias, cuando la misma no esté prevista en el Pliego de Bases y Condiciones Particulares. c.3.- Los precios de referencia o índices asociados a cada insumo incluido en la estructura de costos, de conformidad con lo establecido en el punto 5.-
+
+
+
+La falta de presentación de alguno de los elementos señalados precedentemente podrá ser subsanada con carácter previo a la preadjudicación.
+
+
+
+7.- Cuando se trate de contratos de provisión de bienes, cuyo plazo de entrega supere el mes, los Pliegos de Bases y Condiciones podrán establecer la metodología a aplicar para la revisión de sus precios, la que deberá ajustarse a los principios de razonabilidad, economía, transparencia y sustentabilidad.
+
+
+
+8.- Serán redeterminados cada uno de los precios unitarios de los renglones que componen el contrato. A tal fin se utilizará el mecanismo previsto en el Pliego de Bases y Condiciones Particulares o las estructuras de costos presentadas en la oferta, según corresponda, las que no podrán ser modificadas durante la vigencia del contrato. Los precios o índices de referencia a utilizar para determinar la variación de cada uno de los componentes del costo que conforman el precio unitario del renglón, serán los aprobados por el comitente al momento de la adjudicación.
+
+
+
+9.- Las solicitudes de redeterminación de precios podrán ser efectuadas, hasta los noventa (90) días corridos posteriores a la fecha de finalización del contrato, entendiéndose como tal la del contrato original más las prórrogas aprobadas.
+
+
+
+10.- En los contratos donde se haya previsto el pago de anticipos financieros, los montos abonados por dicho concepto no estarán sujetos al “Régimen de Redeterminación de Precios” a partir de la fecha de su efectivo pago.
+
+
+
+11.- Los precios correspondientes a obligaciones que no se hayan cumplido en el momento previsto contractualmente, por causas imputables al contratista, se liquidarán con los precios correspondientes a la fecha en que debieron haberse cumplido, sin perjuicio de las penalidades aplicables.
+
+
+
+12.- Los aumentos de las alícuotas impositivas, aduaneras o de cargas sociales, trasladables al consumidor final, serán reconocidos en el precio a pagar a los contratistas a partir del momento en que entren en vigencia las normas que los dispongan, en su correcta incidencia. Las reducciones de las alícuotas impositivas, aduaneras o de cargas sociales trasladables al consumidor final, serán deducidas del precio a pagar. A tal efecto, y para que los cambios puedan ser reconocidos, dichas alícuotas deberán hallarse debidamente discriminadas, en la estructura de costos presentada en la oferta.
+
+
+
+13.- El procedimiento de redeterminación de precios de los contratos culmina con la suscripción del Acta de Redeterminación de Precios, la que será suscripta por el/la Subsecretario/a Técnico/a, Administrativo/a y Legal o funcionario/a con responsabilidad equivalente, y el contratista, previa intervención de la Autoridad de Aplicación. El Acta deberá contener como mínimo:
+
+
+
+a) La solicitud del contratista.
+
+
+
+b) Los precios redeterminados del contrato, con indicación del mes a partir del cual rigen dichos precios.
+
+
+
+c) El incremento del precio del servicio, en monto y en porcentaje.
+
+
+
+d) La estructura de costos, como así también los precios o índices de referencia utilizados.
+
+
+
+e) La renuncia de la contratista a todo reclamo interpuesto o a interponer, en sede administrativa o judicial, por mayores costos, compensaciones y gastos o supuestos perjuicios de cualquier naturaleza resultantes del proceso de redeterminación de precios. El acto administrativo que apruebe el Acta de Redeterminación de Precios será dictado por la autoridad que aprobó la adjudicación.
+
+
+
+14.- La Autoridad de Aplicación dictará las normas interpretativas, aclaratorias, complementarias y operativas necesarias a los fines de la aplicación del Régimen de Redeterminación de Precios a los contratos de bienes y de servicios
+
+
+
+ARTÍCULO 8°. FACULTADES Y OBLIGACIONES DE LOS COCONTRATANTES.
+
+
+
+a) RECOMPOSICIÓN DEL CONTRATO: Sin reglamentar.
+
+
+
+b) EJECUCIÓN DEL CONTRATO POR SÍ: Sin reglamentar.
+
+
+
+c) CASO FORTUITO O FUERZA MAYOR: El caso fortuito o fuerza mayor deberá ser puesto en conocimiento del organismo contratante dentro de los diez (10) días de producido. Si el vencimiento fijado para el cumplimiento de la obligación fuera inferior a dicho plazo, la comunicación deberá efectuarse antes de las veinticuatro (24) horas del vencimiento. La documentación probatoria de los hechos que se aleguen deberá presentarse al organismo contratante dentro de los diez (10) días siguientes a la fecha en que se puso en conocimiento la existencia del caso fortuito o fuerza mayor. Cuando el impedimento le conste, el funcionario que haya aprobado la contratación o la Autoridad de Aplicación, en caso que el procedimiento de selección se haya instrumentado de forma centralizada, podrá eximir al proveedor de la obligación de cumplir las prestaciones. Transcurridos los plazos mencionados caducará todo derecho al respecto.
+
+
+
+ARTÍCULO 9°. ANTICORRUPCIÓN.
+
+
+
+Sin reglamentar.
+
+
+
+ARTÍCULO 9° BIS.
+
+
+
+Sin reglamentar.
+
+
+
+CAPÍTULO II: CONTRATACIONES ELECTRÓNICAS
+
+
+
+ARTÍCULO 10. COMPRAS Y CONTRATACIONES POR MEDIOS ELECTRÓNICOS.
+
+
+
+La Autoridad de Aplicación del Sistema de Compras Electrónicas de la Provincia de Buenos Aires dictará las normas que establezcan la regulación integral de las contrataciones informatizadas, según su competencia.
+
+
+
+A partir del momento en que un procedimiento deba realizarse mediante la utilización del medio electrónico no resultarán aplicables las disposiciones relativas a actos materiales o presenciales cuya realización se traduzca en operaciones virtuales en el sistema electrónico, las que quedarán sujetas a la normativa que dicte la Autoridad de Aplicación.
+
+
+
+ARTÍCULO 11. SISTEMA DE COMPRAS Y CONTRATACIONES.
+
+
+
+El Sistema de Compras y Contrataciones se organiza en función de los criterios de centralización normativa y descentralización operativa. Estará integrado por una Autoridad de Aplicación que tiene a su cargo el Sistema de Compras Electrónicas de la Provincia de Buenos Aires y las Autoridades Administrativas que tienen a su cargo las áreas operativas de contrataciones y adquisiciones en cada una de las jurisdicciones.
+
+
+
+La Autoridad de Aplicación podrá gestionar procedimientos de modo centralizado, fundado en la existencia de razones de economía o de eficiencia o eficacia de los procedimientos que justifiquen tal modalidad de gestión.
+
+
+
+Apartado 1 (Texto según Decreto 648/23). Funciones de la Autoridad de Aplicación:
+
+
+
+a. Proponer políticas de compras y contrataciones.
+
+
+
+b. Proponer el dictado de normas reglamentarias, aclaratorias, interpretativas y complementarias en la materia.
+
+
+
+c. Recopilar, ordenar y mantener actualizada la normativa vigente sobre las contrataciones.
+
+
+
+d. Diseñar, implementar y administrar un sistema informático de acceso web para el seguimiento y la gestión de todas las adquisiciones.
+
+
+
+e. Administrar el funcionamiento del Registro Informatizado de Bienes y Servicios.
+
+
+
+f. Administrar el sitio de internet de la Provincia de Buenos Aires, vinculado con el Sistema de Compras y Contrataciones, destinado a la publicidad de las contrataciones de bienes y servicios.
+
+
+
+g. Proponer manuales de normas y procedimientos.
+
+
+
+h. Recopilar el Programa Anual de Contrataciones.
+
+
+
+i. Elaborar y aprobar el Pliego Único de Bases y Condiciones Generales.
+
+
+
+j. Dictar las cláusulas modelo de redeterminación de precios para los Pliegos de Condiciones Particulares, correspondientes a contrataciones de bienes y servicios que deban contenerlas. A requerimiento de la jurisdicción de origen podrá intervenir, previo a la aprobación del Pliego respectivo, a fin de verificar aquellas cláusulas que difieran alas vigentes aprobadas por la Autoridad de Aplicación, en virtud de las particularidades que presenta la prestación del servicio o el bien a adquirir.
+
+
+
+k. Dictar las normas interpretativas, aclaratorias, complementarias y operativas necesarias a los fines aplicar el Régimen de Redeterminación de Precios a los contratos de bienes y servicios.
+
+
+
+l. Intervenir en los procesos de redeterminación de precios en aquellos contratos en que se encuentre prevista, de conformidad a lo dispuesto en el presente Reglamento, los Pliegos de Bases y Condiciones Particulares y las normas que dicte.
+
+
+
+m. Brindar, junto con el Instituto Provincial de Administración Pública, capacitación a las oficinas que tengan a su cargo las áreas operativas de contrataciones.
+
+
+
+n. Solicitar opinión y/o colaboración a organismos técnicos públicos o privados especializados en la materia de que se trate.
+
+
+
+o. Elaborar y aprobar Pliegos Tipo cuando la demanda de los bienes o servicios a contratar fuera reiterativa y estandarizable.
+
+
+
+p. Establecer las metodologías para el análisis de la razonabilidad de precios que deban efectuar las jurisdicciones al momento de la evaluación de las ofertas, fijando los precios de referencia para las contrataciones y pudiendo dictar las normas interpretativas o aclaratorias a tales fines, sin perjuicio de los controles que corresponda realizar a los organismos de asesoramiento y control.
+
+
+
+q. Realizar los procesos de contratación de Convenios Marco, de compra unificada y de compras consideradas estratégicas en virtud de su objeto, por el Poder Ejecutivo o por la Autoridad de Aplicación.
+
+
+
+r. Llevar adelante el Registro Único de Proveedores y Licitadores y ejecutar los procedimientos sancionatorios conforme lo establecido en el presente reglamento.
+
+
+
+Apartado 2. Funciones de la Autoridad Administrativa:
+
+
+
+a) Confeccionar el programa anual de contrataciones.
+
+
+
+b) Proporcionar a la Dirección Provincial de Presupuesto Público toda la información necesaria para que ésta realice la coordinación del Sistema presupuestario con el sistema de contrataciones.
+
+
+
+c) Planificar las adquisiciones mediante la confección de un Programa Anual de Contrataciones e informarlas a la Autoridad de Aplicación.
+
+
+
+d) Elaborar los Pliegos de Bases y Condiciones Particulares.
+
+
+
+e) Informar a la Autoridad de Aplicación sobre la evolución de la gestión de las adquisiciones bajo su responsabilidad, suministrando todos los datos al respecto a fin de integrarlos en el Sistema de Información.
+
+
+
+f) (Texto según Decreto 1314/22) Aplicar las penalidades contractuales previstas en la Ley que se reglamenta e informar de ello a la Autoridad de Aplicación y a la Contaduría General de la Provincia.
+
+
+
+g) Ejecutar los procesos de selección de cocontratantes para aquellas contrataciones que le correspondieren.
+
+
+
+h) Coordinar, agrupar y/o centralizar las contrataciones a su cargo cuando ello resulte conveniente.
+
+
+
+i) Proporcionar a la Autoridad de Aplicación toda la información necesaria para el cumplimiento de sus funciones.
+
+
+
+Apartado 3 (Texto según Decreto 648/23).Subsistemas del procedimiento de Compras y Contrataciones
+
+
+
+I.- REGISTRO ÚNICO DE PROVEEDORES Y LICITADORES
+
+
+
+Inscripción. Recaudos.
+
+
+
+El Registro Único de Proveedores y Licitadores es administrado por la Autoridad de Aplicación y tiene a su cargo inscribir a los proveedores de bienes y servicios que deseen contratar con el Estado Provincial. El procedimiento de inscripción debe ser simple y gratuito. La tramitación se inicia con la solicitud que el interesado envía en forma electrónica y queda concluido con la aceptación de la totalidad de la documentación aportada.
+
+
+
+La Autoridad de Aplicación determina la documentación que los interesados deben presentar en el Registro para su inscripción, conforme la personería y rubros licitatorios, como así también la forma en que debe ser presentada, la regularidad de su actualización, el procedimiento para la inscripción y actualización y los plazos máximos a los que deben ajustarse dichos procedimientos.
+
+
+
+Finalizado el trámite previsto y aprobada la documentación aportada, el Registro extiende el pertinente certificado de inscripción.
+
+
+
+En el Registro Único de Proveedores y Licitadores, se registran las sanciones y penalidades en las que hubieran incurrido los inscriptos.
+
+
+
+La información se organiza mediante legajos individuales con los datos que permitan conocer los antecedentes de cada proveedor y las actividades para las que se encuentra habilitado como tal.
+
+
+
+Nómina de entes públicos.
+
+
+
+La Autoridad de Aplicación llevará la nómina actualizada de todos los organismos y entidades públicas y entes con participación estatal, nacional, provincial y municipal, que puedan efectuar provisiones o prestar servicios a los Organismos de la Administración Provincial, manteniendo relación permanente sobre posibilidades de comerciar en artículos, maquinarias y servicios, que redunden en beneficio fiscal.
+
+
+
+Ofertas por no inscriptos.
+
+
+
+Podrán ser adjudicadas ofertas de proponentes no inscriptos en los siguientes casos:
+
+
+
+a. Si las ofertas provienen de firmas extranjeras, sin agente o representante en el país;
+
+
+
+b. Cuando se trate de locar, arrendar o comprar inmuebles;
+
+
+
+c. En las ventas de bienes de todo tipo, arrendamientos y locación de inmuebles del Estado;
+
+
+
+d. Cuando se trate de contrataciones directas a que se refiere el artículo 18, inciso 2°, apartados a), e), f), h), j), k), p), q) y s) de la Ley N° 13.981; mientras que, si resultaren encuadrables el artículo 18, inciso 1°, apartado c) del presente Reglamento y en el artículo 18, inciso 2°, apartados b), d), g) y m) de la Ley N° 13.981, se exceptuarán siempre que no fueren proveedores habituales. Se entiende por proveedor habitual, aquel que haya celebrado por lo menos dos (2) contratos con las jurisdicciones y entidades previstas en el artículo 2° de la Ley N° 13.981, en los seis (6) meses anteriores al requerimiento;
+
+
+
+e. Cuando lo autorice expresamente el Poder Ejecutivo.
+
+
+
+II.- REGISTRO DE BIENES Y SERVICIOS
+
+
+
+El Registro de Bienes y Servicios depende de la Autoridad de Aplicación y contiene todos los bienes y servicios que pretendan adquirir o contratar los Organismos del Sector Público de la Provincia de Buenos Aires, clasificados, denominados y codificados de manera uniforme, como así también la indicación de las normas técnicas aceptadas o vigentes que deba cumplimentar cada bien que se adquiera o servicio que se contrate.
+
+
+
+Es de uso obligatorio en todos los procedimientos de selección teniendo como objetivo que la descripción del bien o servicio sea claro, preciso e inconfundible.
+
+
+
+El Registro de Bienes y Servicios es la base para la identificación de los rubros licitatorios a ser utilizados por los eventuales oferentes en su inscripción en el Registro de Proveedores y Licitadores, como así también por los distintos Organismos en sus respectivas solicitudes de adquisición o servicios.
+
+
+
+III.- REGISTRO DE INFORMACION DE CONTRATACIONES
+
+
+
+Este Registro centraliza toda la información de compras, ventas, locaciones y contrataciones de bienes y servicios del sector público de la Provincia.
+
+
+
+Los órganos comprendidos en la presente Ley deben al registro toda la información derivada de los procedimientos de contrataciones que lleven a cabo conforme al presente régimen, que como mínimo debe contener respecto de cada convocatoria: los actos administrativos, la convocatoria, los Pliegos de Bases y Condiciones, las circulares aclaratorias, ampliatorias o modificatorias de dichos pliegos, los cuadros comparativos de ofertas, la preselección, el dictamen de evaluación, las órdenes de compra, órdenes de venta, contratos, partes de recepción definitiva; todo ello, conforme el procedimiento que establezca la Autoridad de Aplicación.
+
+
+
+La información que se suministre al sistema, no debe entenderse como sustitutiva del procedimiento previsto en el presente Reglamento, para cada uno de los procesos contemplados.
+
+
+
+ARTÍCULO 12. NOTIFICACIONES.
+
+
+
+Los avisos, citaciones, notificaciones, intimaciones, así como cualquier tipo de comunicaciones que efectúe la Autoridad Administrativa en el marco de la Ley N° 13.981 serán practicados digitalmente en el domicilio electrónico establecido en el Registro de Proveedores y Licitadores.
+
+
+
+El domicilio electrónico estará conformado por un perfil de usuario específico y único, asociado a la CUIT, CUIL o CDI de la empresa o responsable al que se accederá con la clave de acceso otorgada.
+
+
+
+El domicilio electrónico gozará de plena validez y eficacia jurídica y producirá en el ámbito administrativo los efectos del domicilio constituido, siendo válidos y vinculantes los avisos, citaciones, notificaciones, intimaciones y comunicaciones en general que allí se practiquen.
+
+
+
+TÍTULO II: PROCEDIMIENTO
+
+
+
+CAPÍTULO I: DISPOSICIONES BÁSICAS
+
+
+
+ARTÍCULO 13. PROCEDIMIENTO.
+
+
+
+Apartado 1. Solicitud de adquisición.
+
+
+
+Toda contratación se inicia a través del pedido generado por la repartición contratante a la dependencia que tenga a su cargo la gestión de las Compras y Contrataciones según la Jurisdicción.
+
+
+
+CARACTERÍSTICAS DE LA SOLICITUD El pedido debe contener como mínimo
+
+
+
+los siguientes requisitos:
+
+
+
+a. Cantidades y características de los bienes o servicios a los que se refiera la prestación indicando, en su caso, si los elementos deben ser nuevos, usados, reacondicionados o reciclados.
+
+
+
+b. Cuando corresponda: calidad exigida, estándares normalizados de aplicación, tolerancias permitidas y criterios de sustentabilidad, que deben cumplir los bienes o servicios o satisfacer los proveedores.
+
+
+
+c. Exponer las razones que justifiquen la solicitud de bienes o servicios que difieran de los estándares comunes o que signifiquen restringir la concurrencia de oferentes.
+
+
+
+d. Estimar su costo de acuerdo con las cotizaciones de plaza. La estimación contendrá un informe describiendo el mercado analizado, el cual podrá ser nacional, regional e internacional, según el caso. Se podrá utilizar asimismo información provista por organismos públicos, cámaras empresarias, otras entidades financieras públicas o privadas, instituciones especializadas, publicaciones, entre otros medios de información. Toda la documentación podrá agregarse a las actuaciones bajo exclusiva responsabilidad del área requirente de la contratación.
+
+
+
+AGRUPAMIENTO DE LOS ÍTEMS: Los pedidos se agrupan por renglones afines o de un mismo rubro comercial, sin incluir en un mismo renglón elementos o equipos que no configuren una unidad funcional indivisible, por razones de funcionamiento, adaptación, ensamble, estilo y/o características similares que exija la inclusión.
+
+
+
+SOLICITUD PREVENTIVA DEL GASTO: Luego se realiza la reserva preventiva
+
+
+
+del gasto y se incorpora a los actuados.
+
+
+
+CONFECCIÓN DE LOS PLIEGOS DE BASES Y CONDICIONES
+
+
+
+PARTICULARES: La modalidad y procedimiento de selección de proveedores se determinan en función de las características de la contratación propiciada y se proyectan en consecuencia los Pliegos de Bases y Condiciones Particulares y de Especificaciones Técnicas, de corresponder.
+
+
+
+Apartado 2. Aprobación del proceso de selección
+
+
+
+APROBACIÓN DE LOS PLIEGOS: Deberá ser dispuesta por los funcionarios
+
+
+
+que resulten competentes de acuerdo con los Niveles de Decisión y Cuadro de
+
+
+
+Competencias del artículo 4 del presente Decreto.
+
+
+
+AUTORIZACIÓN DEL LLAMADO: El llamado podrá ser delegado en la Autoridad Administrativa o en la Autoridad de Aplicación del Sistema de Compras y Contrataciones cuando el procedimiento de selección se haya instrumentado de forma centralizada o realizado a solicitud del organismo comitente.
+
+
+
+Apartado 3. Comunicaciones
+
+
+
+COMUNICACIONES: Toda comunicación efectuada entre la Autoridad Administrativa y los oferentes y/o proveedores deberá efectuarse conforme lo previsto en el artículo 12 de la Ley y la presente reglamentación.
+
+
+
+Apartado 4. Cómputo de plazos
+
+
+
+Todos los plazos deben computarse en días hábiles administrativos, salvo que se establezca lo contrario.
+
+
+
+Apartado 5. Intervención de los Organismos de Asesoramiento y Control
+
+
+
+Las Autoridades Administrativas de las diferentes jurisdicciones estarán obligadas a dar intervención a los Organismos de Asesoramiento y Control en los casos que se detallan en este apartado.
+
+
+
+Las referidas intervenciones podrán ser sucesivas o simultáneas, debiendo los organismos expedirse en el plazo máximo de diez (10) días corridos, sin perjuicio de lo establecido en el artículo 78 del Decreto-Ley N° 7.647/70.
+
+
+
+PREVIO A LA APROBACIÓN DEL PLIEGO Y LA AUTORIZACIÓN DEL LLAMADO.
+
+
+
+Los Organismos de Asesoramiento y Control intervendrán en todos los casos en los que el presupuesto de la contratación iguale o supere el monto previsto para las contrataciones encuadradas en el artículo 18 inciso 1) del presente Reglamento, a menos que se trate de Pliegos Tipo aprobados por la Autoridad de Aplicación en donde la remisión de las actuaciones no resultará obligatoria para las entidades contratantes.
+
+
+
+PREVIO AL ACTO ADMINISTRATIVO DE ADJUDICACIÓN
+
+
+
+Los Organismos de Asesoramiento y Control intervendrán en los proyectos de acto administrativo cuando el valor a adjudicar iguale o supere el monto previsto para las contrataciones encuadradas en el artículo 18 inciso 1) del presente Reglamento.
+
+
+
+Además, la remisión de las actuaciones será obligatoria cuando se diera alguno de los siguientes supuestos:
+
+
+
+a. Hubiere impugnaciones al Pliego de Bases y Condiciones o al Dictamen de la Comisión de Preadjudicación.
+
+
+
+b. Hubiere rechazo de ofertas por causas formales, a partir de las 50.000UC.
+
+
+
+c. Si el proceso fuera encuadrado en una licitación pública internacional.
+
+
+
+Las contrataciones cuyo monto adjudicado no iguale ni supere el monto previsto para las contrataciones encuadradas en el artículo 18 inciso 1) del presente Reglamento, deberán contar con la intervención de la Contaduría General de la Provincia con anterioridad a la notificación de la orden de compra o suscripción del contrato.
+
+
+
+ARTÍCULO 14. PLIEGOS DE BASES Y CONDICIONES GENERALES.
+
+
+
+La Autoridad de Aplicación elaborará y aprobará el “Pliego de Bases y Condiciones Generales para la Contratación de Bienes y Servicios” que será de uso obligatorio para todos los procesos de contratación, sin modificación alguna y bajo pena de nulidad.
+
+
+
+PLIEGOS DE BASES Y CONDICIONES PARTICULARES: Los Pliegos de Bases y Condiciones Particulares deberán contener los requisitos mínimos que indica el Pliego de Bases y Condiciones Generales para la Contratación de Bienes y Servicios e incluirán, si la complejidad técnica lo requiere, las especificaciones técnicas.
+
+
+
+ARANCEL DE LOS PLIEGOS: Los Pliegos de Bases y Condiciones se suministrarán en forma gratuita, salvo en aquellos casos en que fundadamente y por sus características el organismo contratante determine que, para ofertar, sea requerido el pago de una suma que será establecida en el acto administrative que autoriza el llamado y que no podrá superar el medio por ciento (0,50%) del monto estimado de la contratación. La suma abonada en tal concepto no será devuelta al adquirente en ningún caso.
+
+
+
+ETAPA PREVIA A LA CONVOCATORIA PARA LA FORMULACIÓN DE SUGERENCIAS Y OBSERVACIONES AL PROYECTO DE PLIEGO DE BASES Y CONDICIONES: Cuando la Autoridad Administrativa lo crea conveniente y necesario, podrá recurrir a una etapa previa de convocatoria para la formulación de sugerencias y observaciones a los proyectos de Pliegos de Bases y Condiciones.
+
+
+
+Esta etapa se regirá por las siguientes pautas:
+
+
+
+El acto administrativo que establece la apertura de la instancia a formular sugerencias y observaciones al proyecto de Pliego de Bases y Condiciones deberá contener mínimamente: i) la fundamentación del encuadre conforme algunos de los supuestos previstos en la Ley; ii) la autorización de la difusión del proyecto de pliego, indicación del organismo licitante, medio de difusión, plazo,
+
+
+
+condiciones y modo de formulación de las observaciones.
+
+
+
+El acto será suscripto por el funcionario de quien dependa funcionalmente la Autoridad Administrativa en materia de compras y contrataciones.
+
+
+
+La difusión del anteproyecto de pliego se efectúa mediante la publicación de un aviso en el Sitio Web de la Provincia de Buenos Aires por un plazo mínimo de cinco (5) días, pudiendo disponerse además la difusión por otro medio de publicidad.
+
+
+
+El organismo licitante podrá convocar a reuniones, para recibir observaciones al proyecto de pliego, o promover el debate entre los interesados acerca del contenido del mismo.
+
+
+
+De los temas tratados en ellas, y con las propuestas recibidas, se labrará un acta que firman los funcionarios intervinientes, y aquellos asistentes que quisieren hacerlo.
+
+
+
+Finalizada la etapa de observaciones y sugerencias se elabora un informe donde conste el resultado de la misma. No se realizará ninguna gestión, debate o intercambio de opiniones entre funcionarios de la jurisdicción o entidad contratante e interesados en participar en la contratación, fuera de los mecanismos expresamente previstos, a los que tendrán igual acceso todos los interesados. En los procedimientos en los que hubiera existido la instancia de observaciones al proyecto de pliego, la Autoridad Administrativa confecciona el Pliego de Bases y Condiciones Particulares definitivo, tomando en cuenta las opiniones vertidas por los interesados en la medida en que se consideren pertinentes, no siendo bajo ninguna circunstancia vinculantes.
+
+
+
+Apartado 1. Contenido mínimo de las Condiciones Particulares.
+
+
+
+Los Pliegos de Bases y Condiciones Particulares deben establecer:
+
+
+
+a. El lugar, día y hora donde se presentarán y abrirán las ofertas.
+
+
+
+b. El plazo de mantenimiento de las ofertas cuando sea distinto al establecido en el presente Reglamento.
+
+
+
+c. Los términos para formular las impugnaciones.
+
+
+
+d. El criterio de evaluación y selección de las ofertas y la determinación de los parámetros que se contemplarán para dichos fines.
+
+
+
+e. El lugar, forma de entrega y de recepción de lo adjudicado. La entrega se efectuará en el lugar de destino indicado, corriendo el flete y descarga por cuenta del adjudicatario.
+
+
+
+En caso de que no se fije el lugar de entrega, se entiende que el mismo es en la sede de la Autoridad Administrativa de la jurisdicción.
+
+
+
+Para circunstancias donde se acredite la necesidad y conveniencia, se podrá requerir la estiba en los depósitos que se le indique a través de la Autoridad Administrativa de la jurisdicción y será por cuenta del adjudicatario.
+
+
+
+f. En caso de que los elementos que se adquieren requieran instalación deberá indicarse si ésta debe ser realizada por el adjudicatario y el plazo para hacerlo.
+
+
+
+g. El plazo de entrega. De no fijarse plazo de entrega, se entiende que el cumplimiento debe operar en un plazo de diez (10) días corridos. Los plazos se computarán a partir del día siguiente de la recepción de la orden de compra o de la suscripción del contrato, según corresponda.
+
+
+
+h. La definición del objeto, consignando en forma clara, precisa e inconfundible las características y calidades mínimas de los productos, procesos y servicios que se liciten, evitando la transcripción detallada de textos extraídos de folletos, catálogos o presupuestos informativos.
+
+
+
+i. Las especificaciones deben precisar las características y calidades mínimas esenciales. Las tolerancias, o la no aceptación de tolerancias, deben ser consignadas expresamente en las Cláusulas Particulares. Para los artículos con tipificación y catalogación aprobadas, será indicación suficiente el número de código.
+
+
+
+j. Salvo por razones científicas, técnicas o de probada conveniencia del servicio, no deberá pedirse marca determinada, debiendo entenderse que tal mención es al efecto de señalar características del objeto, sin que ello implique que no puedan proponerse artículos similares o de marcas diferentes. Aun cuando se requiera marca determinada, pueden ofertarse productos de otras marcas. Pueden solicitarse insumos y repuestos denominados originales para la dquisición y reparación de aparatos, máquinas o motores.
+
+
+
+k. Cuando resulte dificultosa la determinación de ciertas características del elemento requerido, podrá solicitarse la presentación de muestras por parte del oferente. Las muestras deben ser presentadas en el lugar indicado para hacerlo y hasta el momento fijado que deberá ser previo a la preadjudicación. Se otorgará un recibo por su entrega. También podrá indicarse la consulta a una muestra patrón, señalando lugar, día y hora de visita, de la que se entregará certificado.
+
+
+
+l. Plazo de cumplimiento del contrato: las contrataciones para la provisión de bienes podrán estar sujetas a plazos diversos y prever entregas parciales conforme lo demande la necesidad a satisfacer, debiendo fijarse en las cláusulas particulares la modalidad del requerimiento y cada plazo de cumplimiento.
+
+
+
+m. La documentación a presentar que acredite la obtención de las autorizaciones estatales exigidas para el cumplimiento del contrato.
+
+
+
+n. La jurisdicción, área, oficina, dependencia o instancia competente, responsable de actuar como contraparte para la administración de la relación contractual.
+
+
+
+ñ. Las consultas relacionadas con los distintos procesos de contratación se realizan ante la Autoridad Administrativa de la jurisdicción hasta el plazo que se determine en las Condiciones Particulares, respetándose una anticipación razonable a la fecha establecida para la apertura de ofertas para que ésta puedan ser respondidas. A los efectos del cómputo del plazo que se fije, no se tendrá en cuenta el día de la apertura de ofertas. El organismo contratante podrá elaborar circulares aclaratorias y/o modificatorias al Pliego de Bases y Condiciones Particulares de oficio o como respuesta a consultas.
+
+
+
+DE LAS ESPECIFICACIONES TÉCNICAS: Deben consignar en forma clara, precisa e inconfundible las características de los productos, procesos y servicios los cuales deben cumplir con los estándares definidos por las normas correspondientes y contar con la certificación expedida por la entidad rectora en la materia.
+
+
+
+No se deben formular especificaciones cuyo cumplimiento solo sea factible para determinadas empresas o productos ni transcribirse detalladamente textos extraídos de folletos, catálogos o presupuestos informativos.
+
+
+
+PLIEGOS DE CONDICIONES PARTICULARES PARA VENTA: Los pliegos para la venta de bienes contendrán, como mínimo, los siguientes datos:
+
+
+
+a) Lugar, día y hora de recepción de las ofertas.
+
+
+
+b) Martillero u oficina interviniente y lugar y días de exhibición de los elementos a vender.
+
+
+
+c) Importe de la base de los elementos, cuando la hubiere.
+
+
+
+d) Tiempo y forma en que deberán pagarse los elementos rematados, como así
+
+
+
+también comisión y otros gastos a cargo del comprador si los hubiere.
+
+
+
+e) Plazo para retirar los elementos rematados, toma de posesión y/o transferencia de dominio según corresponda, al igual que las penalidades por incumplimiento.
+
+
+
+Cuando la venta se realice por remates públicos, estos datos se incluirán en la publicidad que se efectúe.
+
+
+
+Apartado 2. Aprobación de los pliegos y documentación anexa.
+
+
+
+La aprobación de los Pliegos de Bases y Condiciones Particulares y de Especificaciones Técnicas y la autorización del llamado a selección del cocontratante son realizados por autoridad competente mediante acto administrativo, el que debe contener en todos los casos:
+
+
+
+a. Indicación del encuadre legal.
+
+
+
+b. Descripción del objeto de la contratación.
+
+
+
+c. Fundamentación de la modalidad y procedimiento de selección elegido.
+
+
+
+d. Pliegos de Bases y Condiciones Particulares y de Especificaciones Técnicas y sitio web donde se pueden consultar.
+
+
+
+e. Fijación del lugar, día y hora de apertura o delegación para que sea fijada por el funcionario titular de la Autoridad Administrativa del organismo licitante.
+
+
+
+f. Monto estimado de la contratación.
+
+
+
+g. Valor del pliego.
+
+
+
+ARTÍCULO 15. PUBLICIDAD.
+
+
+
+Apartado 1. ACTO ADMINISTRATIVO DE APROBACION DE LOS PLIEGOS
+
+
+
+DE BASES Y CONDICIONES Y DE AUTORIZACION DEL LLAMADO.
+
+
+
+La publicidad de la aprobación de los pliegos y de la autorización de llamado de la contratación se efectúa mediante aviso que contenga, como mínimo, los siguientes datos:
+
+
+
+a. Identificación del organismo contratante;
+
+
+
+b. Clase, tipo, número y objeto del procedimiento de selección;
+
+
+
+c. Número del expediente;
+
+
+
+d. Valor del pliego, lugar, plazo y horario donde puede consultarse, retirarse y/o
+
+
+
+adquirirse;
+
+
+
+e. Lugar, día y hora del acto de apertura de ofertas;
+
+
+
+f. Identificación del acto administrativo de autorización del llamado.
+
+
+
+La Autoridad Administrativa instrumentará la difusión del contenido de los actos administrativos enumerados en este Apartado en el Boletín Oficial y en el sitio de internet de la Provincia de Buenos Aires.
+
+
+
+En las actuaciones correspondientes se adjuntará constancia fehaciente de la/s publicación/es efectuada/s.
+
+
+
+Cuando se trate de llamados a contratación y remates internacionales deberá disponerse además la publicación de avisos en el sitio Web de las Naciones Unidas denominado UN Development Business, o en el que en el futuro lo reemplace o publicaciones en los países correspondientes en las condiciones establecidas en la normativa vigente.
+
+
+
+La cantidad de días de publicación y el plazo de antelación tendrán relación con el tipo de contratación y los montos presupuestados.
+
+
+
+
+
+
+
+
+
+A los efectos del cálculo, los días de publicación se consideran comprendidos dentro de los días de antelación. Los plazos establecidos y los medios de publicidad deben ser considerados como mínimos, pudiendo ampliarse de acuerdo con la complejidad, importancia u otras características de la
+
+
+
+contratación.
+
+
+
+Cuando se decida publicidad adicional en un medio gráfico y/o digital, éste debe ser de una entidad que garantice una amplia difusión.
+
+
+
+Excepcionalmente, los términos de anticipación podrán ser reducidos cuando la urgencia o interés del servicio así lo requiera, debiendo constar los motivos en el acto administrativo del llamado.
+
+
+
+*A los efectos de la publicación de las modalidades de selección previstas en el artículo 18, inciso 1, puntos a) y b) (Contratación Menor y Procedimiento abreviado) regirán los plazos mínimos de publicación allí establecidos.
+
+
+
+Apartado 2. ACTO ADMINISTRATIVO DE ADJUDICACION.
+
+
+
+La Autoridad Administrativa instrumentará la difusión de los actos administrativos
+
+
+
+enumerados en este apartado en el sitio de internet de la Provincia de Buenos Aires por el plazo de un (1) día. La publicidad de la adjudicación de la
+
+
+
+contratación se efectúa mediante aviso que contenga, como mínimo, los siguientes datos:
+
+
+
+a. Identificación del organismo contratante;
+
+
+
+b. Clase, tipo, número y objeto del procedimiento de selección;
+
+
+
+c. Número del expediente;
+
+
+
+d. Monto adjudicado;
+
+
+
+e. Razón Social y CUIT del adjudicatario;
+
+
+
+f. Fecha de dictado del acto administrativo de adjudicación;
+
+
+
+g. Identificación del acto administrativo de adjudicación.
+
+
+
+ARTÍCULO 16. INVITACIONES.
+
+
+
+I. INVITACIONES Y COMUNICACIONES.
+
+
+
+Por razones de economía y celeridad, las invitaciones se cursarán del mismo modo en que se prevén las notificaciones del artículo 12 de la Ley.
+
+
+
+INVITACIONES EN LA LICITACIÓN PÚBLICA: La Autoridad Administrativa debe invitar a todos los proveedores registrados en el Registro de Proveedores y Licitadores de la Provincia, en el rubro objeto de la licitación.
+
+
+
+INVITACIÓN EN LA LICITACIÓN o CONCURSO PRIVADO: La Autoridad Administrativa debe invitar a –al menos- cuatro (4) proveedores del rubro objeto de la contratación.
+
+
+
+INVITACIÓN EN LA CONTRATACIÓN MENOR: La Autoridad Administrativa debe invitar a –al menos- tres (3) proveedores del rubro objeto de la contratación.
+
+
+
+INVITACIÓN EN EL PROCEDIMIENTO ABREVIADO: La Autoridad Administrativa debe invitar a –al menos- dos (2) proveedores del rubro objeto de
+
+
+
+la contratación.
+
+
+
+Cuando el número de proveedores inscriptos en el rubro objeto de la contratación no alcance el mínimo exigido en cada caso, deberá dejarse constancia en las actuaciones.
+
+
+
+Además de las invitaciones, en la licitación pública y la licitación privada, la Autoridad Administrativa comunicará el llamado a la Unión Argentina de
+
+
+
+Proveedores del Estado (UAPE), a la Cámara Argentina de Comercio y a la Federación de Mayoristas y Proveedores del Estado de la Provincia de Buenos Aires (FEMAPE); adicionalmente, podrá comunicar a las Cámaras Empresarias del rubro a licitar.
+
+
+
+Las invitaciones y comunicaciones se notificarán con la misma antelación prevista para las publicaciones.
+
+
+
+Las comunicaciones se extenderán también a los Organismos de Asesoramiento y Control a los efectos del artículo 17, apartado 5, del presente Reglamento.
+
+
+
+II. PERSONAS HABILITADAS PARA CONTRATAR.
+
+
+
+Se encuentran habilitadas para ofertar las personas humanas o jurídicas con capacidad para obligarse que hayan iniciado el trámite de inscripción en el Registro de Proveedores y Licitadores al momento de la apertura de ofertas.
+
+
+
+Es condición para la adjudicación que el proveedor acredite en las actuaciones administrativas respectivas que se encuentra inscripto en el Registro de Proveedores y Licitadores en el rubro correspondiente al objeto de la contratación y con credencial vigente expedida por la referida autoridad. Si se trata de licitaciones o concursos de etapa múltiple, el proveedor también debe acreditar estar inscripto con carácter previo a la adjudicación.
+
+
+
+Admisibilidad de ofertas de proponentes no inscriptos:
+
+
+
+Podrán ser admitidas ofertas de proponentes no inscriptos en los casos previstos en el último párrafo del punto I, del apartado 3, del artículo 11 del presente Reglamento.
+
+
+
+III. PERSONAS NO HABILITADAS PARA CONTRATAR.
+
+
+
+No pueden presentarse en los procedimientos de selección:
+
+
+
+1) Los que no puedan ejercer el comercio de acuerdo a la legislación vigente.
+
+
+
+2) Las sociedades cuyos directores, representantes, socios, síndicos, gerentes registren condena firme por la comisión de delitos penales económicos y contra la Administración Pública. En todos los casos hasta diez (10) años de cumplida la condena.
+
+
+
+3) Las sociedades integradas por personas humanas y/o jurídicas cuyos miembros del Directorio, Consejo de Vigilancia, Síndicos, Gerentes, Socios, Representantes o apoderados sean agentes y/o funcionarios, bajo cualquier forma de modalidad contractual, de la Administración Pública Nacional, Provincial o Municipal.
+
+
+
+4) Las sociedades de la Sección IV de la Ley General de Sociedades N° 19.550, excepto para el caso de contrataciones encuadradas en el artículo 18, inciso 1) de la Ley.
+
+
+
+5) Las sociedades que se encuentren suspendidas o inhabilitadas en el Registro Proveedores de la Provincia de Buenos Aires.
+
+
+
+6) Las personas jurídicas e individualmente sus socios o miembros del Directorio, según el caso, que hayan sido sancionadas con suspensión o inhabilitación por parte de alguno de los Poderes Ejecutivo, Legislativo o Judicial, los órganos creados por la Provincia de Buenos Aires o las empresas y sociedades del Estado, mientras dichas sanciones sigan vigentes.
+
+
+
+7) Las personas humanas que hayan sido sancionadas con suspensión o inhabilitación por parte de alguno de los Poderes Ejecutivo, Legislativo y Judicial, los órganos creados por la Provincia de Buenos Aires o las empresas y sociedades del Estado, mientras dichas sanciones sigan vigentes.
+
+
+
+8) Las personas humanas o jurídicas en estado de quiebra o liquidación.
+
+
+
+9) Los evasores en el orden nacional o provincial con sentencia firme y los deudores morosos previsionales o alimentarios declarados tales por autoridad competente.
+
+
+
+10) Las personas humanas y los miembros del Directorio, Consejo de Vigilancia, Síndicos, Gerentes, Socios, Representantes o apoderados de sociedades que tengan parentesco hasta dentro del cuarto grado de consanguinidad o segundo de afinidad con funcionarios de la administración provincial centralizada o descentralizada que tengan la facultad de decidir sobre el proceso de selección del oferente. Los Pliegos de Bases y Condiciones Particulares deberán establecer detalladamente quiénes son los funcionarios con facultades decisorias en el proceso de selección a los efectos de evaluar esta inhabilidad. El término decidir, a los fines del presente Reglamento, alcanza siempre a la máxima autoridad jerárquica de la respectiva jurisdicción, a su Autoridad Administrativa, a los miembros de la Comisión de Preadjudicación, a los eventuales miembros de la Comisión Técnica y a todos aquellos funcionarios que intervengan en el procedimiento de selección en alguna de las siguientes formas: i) elevando el requerimiento de adquisición; ii) elaborando los Pliegos de Bases y Condiciones Particulares y las Especificaciones Técnicas; iii) aprobando los Pliegos de Bases y Condiciones Particulares y las Especificaciones Técnicas; iv) autorizando el respectivo llamado a contratación; v) respondiendo consultas aclaratorias o modificatorias de los Pliegos de Bases y Condiciones en cualquier instancia del procedimiento de selección (sea en etapa previa a la convocatoria para la formulación de sugerencias y observaciones o con posterioridad a la aprobación de los referidos instrumentos); vi) adjudicando las contrataciones a la oferta más conveniente.
+
+
+
+11) Las personas humanas o jurídicas que no se encuentren al día en el pago de sus obligaciones fiscales por los impuestos sobre los Ingresos Brutos, Inmobiliario y a los Automotores, correspondientes a los períodos no prescriptos al momento de la adquisición del Pliego de Bases y Condiciones Particulares o al de la formalización de la oferta, según el caso. El cumplimiento de dichas obligaciones deberá acreditarse conforme lo determine la Agencia de Recaudación de la Provincia de Buenos Aires.
+
+
+
+Las personas que deseen presentarse en un procedimiento de selección deben presentar conjuntamente con la oferta una declaración jurada en la que conste expresamente que no se encuentran incursas en ninguna de las inhabilidades previstas. Sin perjuicio de lo expuesto, la Comisión de Preadjudicación podrá verificar la veracidad de los datos en cualquier etapa del procedimiento.
+
+
+
+La falsedad de los datos implicará la pérdida de las garantías y la suspensión del oferente por el plazo máximo previsto en el presente régimen. Si la falsedad fuera detectada durante el plazo de cumplimiento del contrato, el adjudicatario se hará pasible de la aplicación de las sanciones previstas para la rescisión del contrato por causas imputables al contratista.
+
+
+
+ARTÍCULO 17. SELECCIÓN DEL COCONTRATANTE.
+
+
+
+PROCEDIMIENTOS DE SELECCIÓN.
+
+
+
+Apartado 1. Enumeración.
+
+
+
+Los procedimientos de selección del cocontratante son la licitación pública, la licitación privada, el remate público y la contratación directa.
+
+
+
+LICITACIÓN PÚBLICA: Es el procedimiento de selección cuando el llamado se publicita principalmente de manera general, dirigido a una cantidad
+
+
+
+indeterminada de posibles oferentes con capacidad para obligarse con base en el cumplimiento de los requisitos que exija el Pliego de Bases y Condiciones.
+
+
+
+LICITACIÓN PRIVADA: Es el procedimiento de selección en el cual la convocatoria está basada principalmente en la invitación directa a oferente acreditados en el rubro, sin perjuicio de considerarse todas las ofertas que se presenten.
+
+
+
+En la licitación privada el monto del presupuesto oficial no debe superar las 300.000UC.
+
+
+
+REMATE PÚBLICO: El remate público es un procedimiento de venta que se realiza con intervención de un martillero público, con un precio base previamente establecido y en el cual la adjudicación recae en el mejor postor. Los remates públicos serán realizados preferentemente por oficinas especializadas, sean nacionales, provinciales o municipales y las condiciones en que actuarán serán convenidas y aprobadas por el titular de la repartición contratante. En caso de realizarse por martilleros de la matrícula respectiva, deberán estar inscriptos en el Registro de Proveedores y Licitadores y su designación se efectuará por sorteo. Si el Fisco debiera abonar comisión, ésta será deducida del monto que tenga a percibir por la venta.
+
+
+
+Apartado 2. Tipología
+
+
+
+Los procesos de selección pueden ser:
+
+
+
+a) De etapa única o múltiple.
+
+
+
+Las licitaciones pueden realizarse mediante etapa única o múltiple. Son de etapa única cuando la comparación de las ofertas en sus aspectos económicos, de calidad o técnicos, se efectúa en un mismo acto y mediante la presentación de un sobre único.
+
+
+
+Son de etapa múltiple cuando la comparación y evaluación de antecedents empresariales y técnicos, capacidad económica financiera, garantías, características de la prestación y análisis de los componentes económicos de las ofertas se realizan mediante preselecciones o precalificaciones sucesivas, por la presentación de más de un sobre.
+
+
+
+En este caso, la recepción de los sobres debe ser simultánea para todas las propuestas, en la fecha y hora fijada para la apertura del sobre número uno (1).
+
+
+
+El sobre correspondiente a la oferta económica sólo se abrirá si el oferente fuere seleccionado en las etapas previas; caso contrario, se procederá a la devolución de los sobres sin abrir.
+
+
+
+Respecto a la garantía de mantenimiento de oferta, la misma deberá presentarse de acuerdo a lo establecido en el Artículo 19 Apartado 1 Inciso A del presente Reglamento.
+
+
+
+b) Nacional, regional o internacional.
+
+
+
+NACIONAL: Es nacional cuando, por las características del objeto o la complejidad de la prestación, la convocatoria está dirigida a oferentes cuyo domicilio o sede principal de sus negocios se encuentran en el país o que tengan sucursal en el país debidamente inscripta.
+
+
+
+REGIONAL: Es regional cuando, por las características del objeto o la complejidad de la prestación, la convocatoria se extiende a interesados y oferentes cuyo domicilio o sede principal de sus negocios se encuentra en los países pertenecientes a América del Sur, preferentemente aquellos que conforman el MERCOSUR.
+
+
+
+INTERNACIONAL: Es internacional cuando, por las características del objeto o la complejidad de la prestación, la convocatoria se extiende a interesados y oferentes del exterior; revisten tal carácter aquellos cuya sede principal de negocios se encuentra en el extranjero y no tienen sucursal en el país debidamente inscripta.
+
+
+
+c) De proyectos integrales.
+
+
+
+Puede realizarse el concurso de proyectos integrales cuando en función del objeto de la contratación el organismo contratante requiera propuestas para obtener la solución más satisfactoria de sus necesidades.
+
+
+
+En tales casos, se debe cumplir con los siguientes requisitos:
+
+
+
+- Consignar previamente los factores que han de considerarse para la evaluación de las propuestas y determinar el coeficiente de ponderación relativa que se asigna a cada factor y la manera de considerarlo.
+
+
+
+- Efectuar la selección del cocontratante, tanto en función de la conveniencia técnica de la propuesta como de su precio.
+
+
+
+Apartado 3. Modalidades
+
+
+
+Los procedimientos de selección se realizan de acuerdo a las siguientes modalidades o combinaciones entre ellas:
+
+
+
+a) Con orden de compra abierta: La contratación con orden de compra abierta procede en el caso que la cantidad de bienes o servicios sólo se hubiera prefijado aproximadamente en el contrato, de manera tal que el organismo contratante pueda realizar los requerimientos de acuerdo con sus necesidades durante el lapso de duración previsto y al precio unitario adjudicado hasta el límite del monto fijado en el presupuesto correspondiente.
+
+
+
+En este supuesto la selección del contratista deberá realizarse siempre por licitación pública excepto que los bienes o servicios objeto del proceso licitatorio se encontrasen alcanzados por el artículo 18 inciso d) de la Ley.
+
+
+
+APLICACIÓN: La contratación con orden de compra abierta es de aplicación a la contratación de bienes o servicios homogéneos estandarizados o afines a un rubro o actividad y/o en los casos en que no se pueda determinar con precision la cantidad de unidades de los bienes y servicios a adquirir por el/los organismo/s interesados durante la vigencia del contrato.
+
+
+
+Asimismo, podrá ser utilizada la modalidad de contratación con orden de compra abierta para las contrataciones unificadas o centralizadas.
+
+
+
+ORDEN DE COMPRA ABIERTA CON BLOQUEO DE ÍTEMS: Durante el período de vigencia de la contratación centralizada con orden de compra abierta efectuada por la Autoridad de Aplicación, sólo se podrán adquirir los bienes o servicios comprendidos en dicha orden de compra abierta, no pudiendo contratar con terceros la provisión de los mismos. La Autoridad de Aplicación podrá establecer un régimen de excepción a lo dispuesto en el presente párrafo.
+
+
+
+PLAZO Y CANTIDAD: Cuando se utilice el procedimiento con orden de compra abierta, se podrá establecer la cantidad máxima aproximada a requerirse durante la vigencia del contrato sin que exista obligación de asegurar una cantidad mínima a contratar durante la vigencia del mismo.
+
+
+
+El lapso de duración del contrato ejecutado con la modalidad de orden de compra abierta será de hasta veinticuatro (24) meses. Los Pliegos de Bases y Condiciones Particulares podrán contemplar la posibilidad de prorrogar los contratos, de acuerdo a lo dispuesto en el artículo 7 inciso f) de la Ley N° 13.981.
+
+
+
+AFECTACIÓN PRESUPUESTARIA: Cuando la contratación supere el final del ejercicio fiscal, deberá constar en el expediente un informe, suscripto por la Dirección Provincial de Presupuesto Público, que dé cuenta de la disponibilidad de los créditos necesarios para hacer frente a la respectiva erogación presupuestaria.
+
+
+
+La afectación preventiva del crédito y el compromiso definitivo se efectuarán en forma conjunta en el momento de la emisión de cada solicitud de provisión y solamente por el monto de la misma.
+
+
+
+ORDENES DE PROVISIÓN: Los Pliegos de Bases y Condiciones Particulares podrán establecer un límite a la cantidad de solicitudes de provisión mensuales para cada una de las jurisdicciones, así como fijar el monto mínimo y el monto máximo de cada solicitud de provisión.
+
+
+
+La no emisión de solicitudes de provisión durante el lapso de vigencia del contrato o la emisión de solicitudes por una cantidad inferior a la establecida como máxima en una orden de compra, no generará ninguna responsabilidad para la entidad contratante y no dará lugar a reclamo ni a indemnización alguna a favor del o de los adjudicatarios. La Autoridad de Aplicación podrá modificar el monto máximo y mínimo de las solicitudes de provisión que se establezcan en cada caso, como también establecer excepciones a la cantidad de las mismas cuando situaciones de necesidad, urgencia, mérito y/u oportunidad lo ameriten.
+
+
+
+b) Compra diferida: Se utiliza la compra diferida cuando, habiéndose fijado la cantidad de bienes o servicios en el contrato, se desea establecer diferentes plazos de entrega. Los Pliegos de Bases y Condiciones Particulares deben explicar dichos plazos o la forma en que los mismos se deben comunicar al adjudicatario.
+
+
+
+c) Compra unificada: Se utiliza la compra unificada cuando dos o más reparticiones requieren la adquisición de un mismo tipo de bien o servicio y se presume que el costo total a pagar por la Administración será menor si se tramitan en forma conjunta. La Autoridad de Aplicación puede tomar la decision de agrupar contrataciones. La compra unificada puede realizarse centralizadamente.
+
+
+
+d) Con precio máximo: Las contrataciones son con precio máximo cuando el llamado a participar indique el precio más alto que puede pagarse por los bienes o servicios requeridos. Se debe dejar constancia en el expediente de la Fuente utilizada para la determinación del precio máximo.
+
+
+
+e) Llave en mano: Las contrataciones llave en mano se efectúan cuando se estime conveniente para el interés público concentrar en un único proveedor la responsabilidad de la realización integral de un proyecto.
+
+
+
+Se aplica esta modalidad cuando la contratación tiene por objeto la provisión de elementos o sistemas complejos a entregar instalados o cuando comprenda, además de la provisión, la prestación de servicios vinculados con la puesta en marcha, operación, capacitación, coordinación o funcionamiento de dichos bienes o sistemas entre sí o con otros existentes, mediante el uso de tecnologías específicas.
+
+
+
+Los Pliegos de Bases y Condiciones Particulares deben prever que los oferentes acompañen la información acerca del financiamiento del proyecto, se hagan cargo de la provisión de repuestos, ofrezcan garantía de calidad y vigencia apropiadas, detallen los trabajos de mantenimiento a realizar y todo otro requisite que resulte conducente al buen resultado de la contratación.
+
+
+
+f) Convenio Marco de Compras: es una modalidad de contratación mediante la cual se selecciona a uno o más proveedores para procurar el suministro directo de bienes y servicios, en la forma, plazo y demás condiciones establecidas en dicho convenio.
+
+
+
+Esta modalidad en la selección del cocontratante es prerrogativa exclusiva de la Autoridad de Aplicación.
+
+
+
+Durante la vigencia del Convenio Marco sólo se podrán adquirir los bienes o servicios comprendidos en el mismo. Previo expresa autorización de la Autoridad de Aplicación, la jurisdicción contratante podrá instar procesos de selección por bienes o servicios incluidos en un Convenio Marco en caso de condiciones más ventajosas que sean objetivas, sustanciales y demostrables.
+
+
+
+g) Subasta Inversa: es una modalidad de selección por la cual se adquieren bienes o se contratan servicios a través de una licitación o concurso público o privado o contratación directa que se adjudica al precio más bajo o a la oferta económica más ventajosa, luego de efectuada una compulsa interactiva de precios.
+
+
+
+La Autoridad de Aplicación establecerá el procedimiento al que deberá ajustarse esta modalidad de selección.
+
+
+
+h) La modalidad por defecto será la orden de compra cerrada.
+
+
+
+Asimismo, la Autoridad de Aplicación podrá reglamentar la incorporación de otras modalidades de contratación conforme con su naturaleza y objeto, las cuales deberán respetar los principios generales de la contratación pública.
+
+
+
+En todos los procedimientos de selección del contratante en que la invitación a participar se realizare a un determinado número de personas humanas o jurídicas, se deben considerar y evaluar las ofertas presentadas por quienes no fueron convocados, los cuales deben cumplir con todos los requisites establecidos en la presente.
+
+
+
+Apartado 4. Ofertas
+
+
+
+PRESENTACIÓN
+
+
+
+Las ofertas se presentan en sobre común, con o sin membrete del oferente, o en cajas o paquetes si son voluminosas, perfectamente cerrados y por duplicado o cantidad de copias adicionales que establezcan las Cláusulas Particulares, debiendo contener en su frente o cubierta la indicación de:
+
+
+
+- Organismo contratante y domicilio;
+
+
+
+- Número de expediente;
+
+
+
+- Tipo y número que identifica la contratación.
+
+
+
+Las ofertas serán admitidas hasta el día y hora fijados para el acto de apertura.
+
+
+
+La presentación de ofertas implica el conocimiento y aceptación de los Pliegos de Bases y Condiciones, el sometimiento a todas sus disposiciones, a las de la Ley N° 13.981 y de este Reglamento.
+
+
+
+Las propuestas se presentarán preferentemente en cualquier forma impresa y cada hoja será firmada por el proponente o su representante legal.
+
+
+
+Las enmiendas y raspaduras en partes esenciales de la oferta, deben ser debidamente salvadas.
+
+
+
+CONTENIDO
+
+
+
+La propuesta deberá contener:
+
+
+
+- La indicación de los domicilios real, legal (en la Provincia de Buenos Aires) y electrónico del oferente.
+
+
+
+- El número de inscripción en el Registro de Proveedores y Licitadores o la constancia de haber iniciado el trámite.
+
+
+
+- La oferta económica, la que debe especificar el precio unitario, el total por renglón y el total general, expresándose éste último también en letras. Se debe consignar el precio neto, es decir, con sus descuentos e incluyendo impuestos.
+
+
+
+- Si se trata de productos de producción nacional o extranjera; si no se indica, resulta inaplicable todo beneficio relativo al origen del bien.
+
+
+
+- Si el producto tiene envase especial, si el precio cotizado lo incluye o si debe devolverse y en qué plazo; en este último caso, el flete y acarreo corre por cuenta del adjudicatario.
+
+
+
+Cuando se adquieran elementos a instalar y recibir en funcionamiento, el oferente debe consignar los plazos para dar cumplimiento a estas obligaciones, si el pliego no los contempla.
+
+
+
+En el caso en que el total de cada renglón no responda al precio unitario del mismo, se tomará como base este último y la correcta suma de los renglones así calculados se utilizará para determinar el total de la propuesta, si hubiere discordancia.
+
+
+
+El error evidente puede ser corregido de oficio por la Comisión de Preadjudicación antes de notificar su dictamen y por el oferente hasta el mismo momento.
+
+
+
+Todo otro tipo de error en la cotización importa la desestimación de la oferta o la aplicación de las penalidades previstas para la deserción, en su caso.
+
+
+
+Los pliegos podrán establecer la posibilidad de efectuar ofertas por todos o algunos de los renglones objeto del llamado. Excepcionalmente se admitirán ofertas por parte de renglón.
+
+
+
+No se puede ofertar el pago en moneda distinta de la establecida en el Pliego de Bases y Condiciones Particulares.
+
+
+
+Salvo que las Condiciones Particulares dispongan otra cosa, las ofertas se formularán en pesos.
+
+
+
+La facturación, las retenciones impositivas y los pagos se regirán por las reglas que establezca la Contaduría General de la Provincia, teniendo en cuenta las restantes disposiciones nacionales y provinciales de aplicación.
+
+
+
+ELEMENTOS A IMPORTAR
+
+
+
+Cuando se hubiere previsto la oferta de elementos a importar, la autorización a cotizar en moneda extranjera puede referirse al país de origen de los bienes u otras monedas usuales en el comercio internacional y según condición de Incoterms prevista en el pliego.
+
+
+
+En caso de que el pliego nada diga en este último aspecto, se entiende que la oferta ha sido requerida en condición CIF, Puerto de Buenos Aires.
+
+
+
+Los seguros para las ofertas en condición CIF deben siempre cotizarse separadamente del valor de la mercadería.
+
+
+
+Esta cláusula se toma en cuenta para la comparación de precios y cómputo de los beneficios por aplicación de los principios de prioridad de contratación, incluyendo también aranceles y derechos de nacionalización y todo otro gravamen que corresponda hasta la efectiva entrega.
+
+
+
+La gestión para obtener la liberación de recargos, derechos aduaneros y otros gravámenes correspondientes al elemento adjudicado, está a cargo de la Autoridad Administrativa y debe ser tramitada y obtenida antes de la apertura de la carta de crédito, entendiéndose que, si el beneficio previsto no pudiera obtenerse por aspectos no considerados, el contrato puede ser rescindido sin responsabilidad alguna.
+
+
+
+DOCUMENTOS A ACOMPAÑAR
+
+
+
+A cada oferta se acompañará:
+
+
+
+- El documento de garantía pertinente, cuando corresponda;
+
+
+
+- Descripción del objeto o servicio ofertado y el catálogo en su caso;
+
+
+
+- El recibo de la muestra cuando se la presente por separado;
+
+
+
+- El comprobante de pago del pliego cuando así esté previsto;
+
+
+
+- La documentación que acredite los extremos legales, cuando se pretenda la aplicación de las preferencias previstas por el Artículo 22º de la Ley que se reglamenta.
+
+
+
+- La documentación legal y económico-financiera requerida en las Cláusulas
+
+
+
+Particulares.
+
+
+
+Las exigencias en relación a esta información se adecuarán al monto de la contratación.
+
+
+
+SUBSANACIÓN DE DEFICIENCIAS
+
+
+
+El principio de concurrencia de ofertas no debe ser restringido por medio de recaudos excesivos o mediante exclusiones no reparables.
+
+
+
+En todos los casos serán subsanables:
+
+
+
+a) La insuficiencia de la garantía de mantenimiento de oferta de hasta un diez por ciento (10%);
+
+
+
+b) Las omisiones insustanciales, debiendo la Comisión de Preadjudicación requerir a los oferentes las aclaraciones que sean necesarias a fin de subsanar deficiencias, siempre que ello no contravenga los principios generals establecidos en el artículo 3° de la Ley.
+
+
+
+En ningún supuesto, será subsanable la omisión de presentar la cotización debidamente formulada y suscripta, ni la falta de presentación de la garantía de mantenimiento de oferta, ni las ofertas condicionadas y apartadas de los Pliegos de Bases y Condiciones.
+
+
+
+MUESTRAS
+
+
+
+Las muestras de ofertas pueden ser presentadas hasta el momento y lugar que indiquen las Cláusulas Particulares.
+
+
+
+En caso de que las muestras no fueran agregadas a la propuesta, debe indicarse en parte visible, la contratación a la cual corresponden y el día y hora establecidos para la apertura de las ofertas a las que se encuentran destinadas.
+
+
+
+Debe otorgarse recibo de las muestras entregadas personalmente.
+
+
+
+Las muestras serán devueltas a los oferentes no adjudicatarios, salvo que para su examen sean sometidas a un proceso destructivo.
+
+
+
+Las correspondientes a los artículos adjudicados quedarán en poder de la autoridad contratante para control de los que sean provistos, a excepción de los casos en que por sus características o valor se haya previsto su devolución.
+
+
+
+Las retenidas serán devueltas una vez cumplido el contrato, en el plazo que se comunicará junto con la puesta a disposición.
+
+
+
+Vencido ese plazo sin que se retire la muestra, la repartición contratante queda facultada para disponer su uso, venta o destrucción.
+
+
+
+Muestra Patrón: Si la repartición tuviere muestra-patrón, y así se estableciera en el Pliego de Bases y Condiciones Particulares, bastará al oferente manifestar en su propuesta que lo ofertado se ajusta a aquella.
+
+
+
+PLAZO DE MANTENIMIENTO Y RENOVACIÓN
+
+
+
+Salvo disposición en contrario del Pliego de Bases y Condiciones Particulares, la oferta formulada tiene un plazo de vigencia de treinta (30) días.
+
+
+
+Si el oferente no manifestara en forma fehaciente su voluntad de no renovar la garantía de mantenimiento de oferta con una antelación mínima de diez (10) días anteriores al vencimiento del plazo, aquélla se considera tácitamente mantenida por un lapso igual al inicial, salvo que el Pliego en sus Condiciones Particulares isponga algo distinto.
+
+
+
+Manifestado el retiro de la oferta, ésta pierde vigencia al completarse el plazo que se encuentre corriendo.
+
+
+
+El desistimiento en otras condiciones, se encuentra sujeto a las penalidades previstas en esta reglamentación.
+
+
+
+Apartado 5. Apertura
+
+
+
+En el lugar, día y hora fijados para realizar el acto, se procede a abrir las propuestas en presencia de las autoridades de la repartición contratante y de todos aquellos que deseen presenciarlo.
+
+
+
+Los Organismos de Asesoramiento y Control pueden destacar asistentes.
+
+
+
+Se labra acta que debe contener:
+
+
+
+a) Fecha, hora e identificación de la contratación y de los presentes.
+
+
+
+b) Número de orden asignado a cada oferta;
+
+
+
+c) Monto de cada oferta y sus variantes y descuentos;
+
+
+
+d) Nombre del oferente y número de C.U.I.T.;
+
+
+
+e) Monto y forma de la garantía cuando corresponda su presentación;
+
+
+
+f) Observaciones que se hicieran en el acto de apertura.
+
+
+
+El acta se firma por los funcionarios intervinientes y por los asistentes que deseen hacerlo y se incorpora al expediente.
+
+
+
+Los originales de las ofertas foliados y rubricados por el funcionario que presida el acto, también se agregan al expediente.
+
+
+
+Ninguna oferta puede ser desestimada en el acto de la apertura.
+
+
+
+ARTÍCULO 18. CONTRATACIÓN DIRECTA.
+
+
+
+1) La contratación directa por monto (Inciso 1 del artículo 18 de la Ley N° 13.981) es aquel procedimiento de Contratación Directa que se aplica cuando el monto total de la contratación no supere la suma de 100.000UC.
+
+
+
+a) CONTRATACIÓN MENOR: Si la erogación supera las 50.000UC y hasta las 100.000UC, las actuaciones se inician con el pedido efectuado por la repartición a la Autoridad Administrativa, la que debe incorporar la afectación preventiva del gasto. La aprobación del pliego y autorización del llamado deberá hacerse según los Niveles de Decisión y Cuadro de Competencias del Anexo II del presente.
+
+
+
+La Autoridad Administrativa o quien haga sus veces deberá publicar el llamado en el sitio web de la Provincia, con por lo menos dos (2) días de antelación a la fecha límite fijada para la recepción de las propuestas.
+
+
+
+Deberán invitarse a, por lo menos, tres (3) proveedores del rubro objeto de la contratación por los medios dispuestos en el artículo 12 del presente
+
+
+
+Reglamento. Las invitaciones deberán efectuarse con una antelación igual a la establecida para publicación en el sitio web.
+
+
+
+Podrá prescindirse de la conformación de la Comisión de Preadjudicación. El acto de apertura deberá ser público y conforme lo previsto en esta normativa.
+
+
+
+La Autoridad Administrativa confeccionará el Cuadro Comparativo de Ofertas y, sin más trámite, la autoridad competente de acuerdo con el Anexo II emitirá el acto administrativo por el que concluye el procedimiento.
+
+
+
+b) PROCEDIMIENTO ABREVIADO: Si la erogación supera las 10.000UC y no supera la suma de 50.000UC las actuaciones se inician con el pedido efectuado por la repartición a la Autoridad Administrativa, la que debe incorporar la afectación preventiva del gasto.
+
+
+
+La aprobación del pliego y autorización del llamado deberá hacerse según los Niveles de Decisión y Cuadro de Competencias del Anexo II del presente.
+
+
+
+La Autoridad Administrativa o quien haga sus veces deberá publicar el llamado en el sitio web de la Provincia, con por lo menos un (1) día de antelación a la fecha límite fijada para la recepción de las propuestas.
+
+
+
+Deberán invitarse a, por lo menos, dos (2) proveedores del rubro objeto de la contratación por los medios dispuestos en el artículo 12 del presente
+
+
+
+Reglamento. Las invitaciones deberán efectuarse con una antelación igual a la establecida para publicación en el sitio web.
+
+
+
+Podrá prescindirse de la conformación de la Comisión de Preadjudicación. El acto de apertura deberá ser público y conforme lo previsto en esta normativa.
+
+
+
+La Autoridad Administrativa confeccionará el Cuadro Comparativo de Ofertas y, sin más trámite, la autoridad competente de acuerdo con el Anexo II emitirá el acto administrativo por el que concluye el procedimiento.
+
+
+
+c) FACTURA CONFORMADA: Si la erogación no supera la suma de 10.000UC se verificará la disponibilidad presupuestaria para afrontar el gasto y registrar en el sistema respectivo, prestándose conformidad con la firma del funcionario autorizado en la factura, lo cual implicará la certificación de cumplimiento de las exigencias relativas al agotamiento de medios al alcance para la selección del precio más conveniente de plaza a la fecha de contratación.
+
+
+
+No debe emitirse orden de compra, salvo cuando la contratación sea de tracto sucesivo.
+
+
+
+En estos casos, no será exigible la aplicación del Pliego de Bases y Condiciones Generales aprobado por la Autoridad de Aplicación, ni se requerirá inscripción en el Registro de Proveedores y Licitadores, a menos que se trate de proveedores habituales, conforme lo estipulado en el inciso d), del punto I), apartado 3), del artículo 11 del presente Reglamento.
+
+
+
+Deberá dictarse un acto administrativo que autorice la contratación, apruebe el gasto y encuadre el procedimiento, salvo que la factura sea conformada por la autoridad competente de acuerdo a los Niveles de Decisión y Cuadro de Competencias del Anexo II del presente Reglamento.
+
+
+
+2) Las contrataciones directas encuadradas en este inciso serán regidas por las normas contenidas en el presente Reglamento, con las particularidades que se señalan a continuación y limitándose la publicidad y las invitaciones a lo establecido en cada caso.
+
+
+
+A) Entre reparticiones oficiales, nacionales, provinciales o municipales y entidades en las que dichos Estados tengan participación mayoritaria. En este caso rigen las siguientes particularidades:
+
+
+
+I. No se requieren invitaciones ni intervención de la Comisión de Preadjudicación.
+
+
+
+II. No se requiere inscripción en el Registro de Proveedores y Licitadores.
+
+
+
+III. Cuando se prescinda del uso de pliegos, puede procederse al pedido de oferta por escrito, fijando una fecha para recibir la propuesta y dictarse un único acto administrativo que autorice el procedimiento y adjudique la contratación.
+
+
+
+IV. Deben acompañarse los estatutos y la documentación que acredite la personería de los firmantes, cuando resulte necesario.
+
+
+
+V. Cuando por el procedimiento aplicable no se expida orden de compra, la contratación queda perfeccionada con la suscripción del contrato.
+
+
+
+VI. No se requieren garantías de mantenimiento de oferta y cumplimiento de contrato.
+
+
+
+VII. Las contrataciones deberán recaer sobre la actividad principal de la repartición o entidad, de acuerdo con su competencia u objeto estatutario, estando expresamente prohibida la subcontratación del objeto principal del contrato o acuerdo; en caso contrario, el contrato o acuerdo será nulo de nulidad absoluta.
+
+
+
+VIII. La contratación será publicada en cualquier caso en el sitio de Internet de la Provincia de Buenos Aires, conforme lo estipulado en el artículo 15 Apartado 2) del presente Reglamento.
+
+
+
+IX. Las Universidades Nacionales con asiento en el territorio de la Provincia de Buenos tienen el carácter de Cuerpos Consultores y Asesores Preferenciales para las contrataciones enmarcadas en este inciso.
+
+
+
+Consecuentemente, cuando el objeto de la contratación consista en un servicio de consultoría o afín, deberá requerirse previamente al Registro de Servicios de Consultoría, que llevará la Autoridad de Aplicación, que informe acerca de la posibilidad concreta de llevar adelante la contratación propiciada con algunas de dichas entidades. En caso de respuesta negativa, o habiendo transcurrido diez (10) días corridos de formulada la solicitud, podrá proseguirse con el procedimiento regulado en el presente.
+
+
+
+B) Por procesos licitatorios o de remate desiertos o sin ofertas válidas admisibles o convenientes. En este caso rigen las siguientes particularidades:
+
+
+
+I. Debe utilizarse el mismo Pliego de Bases y Condiciones Particulares del proceso licitatorio fallido.
+
+
+
+II. Siempre que sea posible, la autorización para la nueva convocatoria debe incluirse en el mismo acto que declara desierta o fracasada la anterior.
+
+
+
+III. Si la situación, además, reviste urgencia, corresponde su encuadre en el inciso siguiente.
+
+
+
+IV. La Autoridad Administrativa de la jurisdicción efectúa las invitaciones a cotizar a por lo menos tres (3) proveedores del rubro objeto de la contratación inscriptos en el Registro de Proveedores y Licitadores, si los hubiere. Caso contrario, se invitan a potenciales oferentes del rubro a contratar, hasta completar el mínimo exigido. Las invitaciones a cotizar deben ser efectuadas al menos con tres (3) días de antelación a la fecha límite fijada para la recepción de las propuestas.
+
+
+
+V. Se difunde la contratación en el sitio de Internet del Gobierno de la Provincia de Buenos Aires, a partir del día en que se cursen las invitaciones a cotizar y con igual antelación.
+
+
+
+VI. La adjudicación de la contratación será publicada en cualquier caso en el sitio de Internet de la Provincia de Buenos Aires, conforme lo estipulado en el artículo 15 Apartado 2) del presente Reglamento.
+
+
+
+C) Por probadas razones de urgencia o emergencia que respondan a circunstancias objetivas que impidan la realización de otro procedimiento de selección en tiempo oportuno. En este caso rigen las siguientes particularidades
+
+
+
+I. Se entenderá por razones de urgencia a las necesidades apremiantes y objetivas que impidan el normal y oportuno cumplimiento de las actividades esenciales de la jurisdicción o entidad contratante.
+
+
+
+II. Se entenderá por casos de emergencia a los accidentes, fenómenos meteorológicos u otros sucesos que creen una situación de peligro o desastre que requiera una acción inmediata y que comprometan la vida,
+
+
+
+la integridad física, la salud, la seguridad de la población o las funciones esenciales del Estado Provincial.
+
+
+
+III. En las contrataciones encuadradas en el presente inciso, cuando se invoquen razones de urgencia o emergencia y se tratare de una situación previsible, deberán establecerse, mediante el procedimiento pertinente de acuerdo al régimen disciplinario que corresponda aplicar, las
+
+
+
+responsabilidades emergentes de la falta de contratación mediante un procedimiento competitivo en tiempo oportuno.
+
+
+
+IV. En el acto administrativo de autorización, deberán incluirse todos los fundamentos y argumentos que impiden la realización de otro procedimiento de selección en tiempo oportuno.
+
+
+
+V. La Autoridad Administrativa de la jurisdicción efectúa las invitaciones a cotizar a por lo menos tres (3) proveedores del rubro objeto de la contratación inscriptos en el Registro de Proveedores y Licitadores. Las invitaciones a cotizar deben ser efectuadas al menos con tres (3) días de antelación a la fecha límite fijada para la recepción de las propuestas.
+
+
+
+VI. Se difunde la contratación en el sitio de Internet del Gobierno de la Provincia de Buenos Aires, a partir del día en que se cursen las invitaciones a cotizar y con igual antelación.
+
+
+
+VII. La adjudicación de la contratación será publicada en cualquier caso en el sitio de Internet de la Provincia de Buenos Aires, conforme lo estipulado en el artículo 15 Apartado 2) del presente Reglamento.
+
+
+
+VIII. Si las razones de urgencia o emergencia impiden efectuar invitaciones, esta circunstancia y los motivos de elección del cocontratante deben ser fundamentadas en forma expresa en el mismo acto administrativo, prescindiéndose consecuentemente del acto de apertura de ofertas y de la intervención de la Comisión de Preadjudicación; en estos casos, puede dictarse un único acto administrativo que autorice el procedimiento, apruebe el Pliego de Bases y Condiciones Particulares y demás documentación si los hubiere y adjudique la contratación.
+
+
+
+D) Adquisición de bienes cuya fabricación o propiedad sea exclusiva de quienes tienen privilegio para ello o que sólo posee una determinada persona o entidad y no existe sustituto conveniente, no siendo la marca por sí causal de exclusividad. En este caso rigen las siguientes particularidades:
+
+
+
+I. La repartición solicitante adjuntará con su pedido un informe técnico sobre la inexistencia de sustitutos convenientes, así como la documentación con la que se acredite la exclusividad del bien o servicio objeto de la contratación.
+
+
+
+II. No hay invitaciones; en su lugar, se efectúa el pedido de oferta por escrito, fijando una fecha para recibir la propuesta.
+
+
+
+III. Puede prescindirse de pliegos en función de las características de la operación, lo que se fundará en el acto administrativo que se dicte.
+
+
+
+IV. No hay acto de apertura de ofertas ni intervención de la Comisión de Preadjudicación.
+
+
+
+V. Se dicta un único acto administrativo que autoriza el procedimiento, aprueba la documentación aplicable y adjudica la contratación.
+
+
+
+VI. Puede procederse, de modo opcional, al dictado sucesivo de los actos administrativos de autorización y aprobación de pliegos y posterior acto de adjudicación, si las características de la contratación así lo aconsejan.
+
+
+
+VII. La contratación será publicada en cualquier caso en el sitio de Internet de la Provincia de Buenos Aires, conforme lo estipulado en el artículo 15 Apartado 2) del presente Reglamento.
+
+
+
+E) Las compras y locaciones que sean menester efectuar en países extranjeros, siempre que no sea posible realizar en ellos la licitación: Sin reglamentar.
+
+
+
+F) La compra de bienes por selección o en remate público previa fijación del monto máximo a abonarse en la operación: Sin reglamentar.
+
+
+
+G) Cuando hubiere notoria escasez de los elementos a adquirir. En este caso rigen las siguientes particularidades:
+
+
+
+I. La repartición solicitante adjuntará con su pedido un informe que justifique y acredite la notoria escasez de los elementos a adquirir, lo que deberá quedar plasmado en el acto administrativo.
+
+
+
+II. Puede prescindirse del Pliego de Bases y Condiciones en función de las características de la operación, lo que se fundará en el acto administrative que se dicte.
+
+
+
+III. No hay acto de apertura de ofertas ni intervención de la Comisión de Preadjudicación.
+
+
+
+IV. Se dicta un único acto administrativo que autoriza el procedimiento, aprueba la documentación aplicable y adjudica la contratación.
+
+
+
+V. La contratación será publicada en cualquier caso en el sitio de Internet de la Provincia de Buenos Aires, conforme lo estipulado en el artículo 15 Apartado 2) del presente Reglamento.
+
+
+
+H) La contratación de artistas, técnicos o sus obras.
+
+
+
+En este caso rigen las siguientes particularidades:
+
+
+
+I. La repartición solicitante adjuntará con su pedido los antecedentes que acrediten la idoneidad, competencia y especialidad científica, técnica, tecnológica, profesional o artística de las empresas, personas o artistas a quienes se propone encomendar la ejecución de la prestación, sin que se requiera inscripción en el Registro de Proveedores y Licitadores.
+
+
+
+II. No hay invitaciones, acto de apertura de ofertas ni intervención de la Comisión de Preadjudicación.
+
+
+
+III. Con la solicitud y documentación de la repartición requirente, puede procederse al dictado de un único acto administrativo que autorice el procedimiento y adjudique la contratación.
+
+
+
+IV. Puede procederse, de modo opcional y cuando las características de la contratación así lo aconsejen, en base al procedimiento previsto en forma general, con invitaciones, aunque no necesariamente a proveedores inscriptos; en esos casos, se dictará un primer acto administrativo de autorización y aprobación de los pliegos y uno posterior de adjudicación.
+
+
+
+V. Las Universidades Nacionales con asiento en el territorio de la Provincia de Buenos tienen el carácter de Cuerpos Consultores y Asesores Preferenciales para las contrataciones enmarcadas en este inciso.
+
+
+
+Consecuentemente, cuando el objeto de la contratación consista en un servicio de consultoría o afín, deberá requerirse previamente al Registro de Servicios de Consultoría, que llevará la Autoridad de Aplicación, que informe acerca de la posibilidad concreta de llevar adelante la
+
+
+
+contratación propiciada con algunas de dichas entidades. En caso de respuesta negativa, o habiendo transcurrido diez (10) días corridos de formulada la solicitud, podrá proseguirse con el procedimiento regulado en el presente.
+
+
+
+VI. La contratación será publicada en cualquier caso en el sitio de Internet de la Provincia de Buenos Aires, conforme lo estipulado en el artículo 15 Apartado 2) del presente Reglamento.
+
+
+
+I) Reparación de motores, aparatos, máquinas y vehículos. En este caso rigen las siguientes particularidades:
+
+
+
+I. La repartición solicitante adjuntará con su pedido un informe que justifique que para la reparación resulta imprescindible el desarme, traslado o examen previo del objeto, proponiéndose al proveedor con el que se requiere perfeccionar el contrato y acreditará la mayor onerosidad de adoptar otro procedimiento.
+
+
+
+II. No hay invitaciones; en su lugar, se efectúa el pedido de oferta por escrito, fijando una fecha para recibir la propuesta.
+
+
+
+III. Puede prescindirse de pliegos en función de las características de la operación, lo que se fundará en el acto administrativo que se dicte.
+
+
+
+IV. No hay acto de apertura de ofertas ni intervención de la Comisión de Preadjudicación.
+
+
+
+V. Se dicta un único acto administrativo que autoriza el procedimiento, aprueba la documentación aplicable y adjudica la contratación VI. Puede procederse de modo opcional en base al dictado sucesivo de los actos administrativos de autorización y aprobación de pliegos y posterior acto de adjudicación, si las características de la contratación así lo aconsejan.
+
+
+
+VII. La contratación será publicada en cualquier caso en el sitio de Internet de la Provincia de Buenos Aires, conforme lo estipulado en el artículo 15
+
+
+
+Apartado 2) del presente Reglamento.
+
+
+
+J) Cuando las circunstancias exijan que las operaciones del Gobierno se mantengan secretas. En este caso rigen las siguientes particularidades:
+
+
+
+I. Las actuaciones se inician con el pedido de la Autoridad Administrativa de la Jurisdicción, donde consten las cantidades y características de los bienes y servicios requeridos, con el fundamento del encuadre legal.
+
+
+
+Asimismo, deberá constar un Informe Técnico que fundamente el carácter secreto.
+
+
+
+II. La declaración del carácter secreto de una contratación será facultad excepcional e indelegable del Poder Ejecutivo. Sólo podrá fundarse en razones de seguridad o justificada conveniencia provincial, las que deberán hallarse debidamente motivadas atento a las particularidades que presenta el bien o servicio a contratar.
+
+
+
+III. Efectuada la referida declaración, se efectuará el pedido de oferta por escrito, fijando una fecha para recibir la propuesta.
+
+
+
+IV. Puede prescindirse de Pliegos en función de las características de la operación, lo que se fundará en el acto administrativo que se dicte.
+
+
+
+V. Se dicta un único acto administrativo que autoriza el procedimiento, aprueba la documentación aplicable y adjudica la contratación, de acuerdo a los Niveles de Decisión y Cuadro de Competencias aprobado en el artículo 4° del presente Decreto.
+
+
+
+K) La publicidad oficial. Reglamentado por el Decreto N° 2.147/16 y el Decreto N° 1.251/18.
+
+
+
+L) La compra, locación, arrendamiento y los contratos de locación financiera con opción acordada de compra (leasing) de inmuebles. En este caso rigen las siguientes particularidades:
+
+
+
+Compra de inmuebles:
+
+
+
+I. La repartición solicitante deberá confeccionar un Programa de Necesidades que acompañará a la solicitud de adquisición, donde se determinarán las características necesarias del bien inmueble que se pretende comprar, tales como superficie, ubicación geográfica,
+
+
+
+dependencias, sanitarios, seguridad, iluminación, y todas aquellas que permitan su mejor individualización.
+
+
+
+II. Se deberá dar intervención a la Dirección de Recursos Inmobiliarios Fiscales del Ministerio de Economía, o la que en el futuro la reemplace, a fin de constatar la disponibilidad de bienes inmuebles fiscales que cumplan con las necesidades de la repartición solicitante.
+
+
+
+III. En caso que no haya disponibilidad de bienes inmuebles fiscales de acuerdo a la intervención de la Dirección de Recursos Inmobiliarios Fiscales, o la que en el futuro la reemplace, la repartición solicitante deberá confeccionar un presupuesto oficial que refleje todas las características del bien inmueble.
+
+
+
+IV. Pedido Público de Ofertas: Se llamará a un pedido público de ofertas a fin de convocar a la mayor cantidad de oferentes, estableciéndose día y horario para la presentación de ofertas y apertura de sobres.
+
+
+
+V. La publicidad del pedido público de ofertas se efectuará de conformidad con lo establecido en el Artículo 15º del presente Decreto. Asimismo, se deberá publicar en al menos dos (2) medios gráficos y/o digitales de amplia difusión.
+
+
+
+VI. No se podrá prescindir de la Comisión de Preadjudicación.
+
+
+
+VII. Con carácter previo al dictamen de la Comisión de Preadjudicación, se deberá dar intervención a la Agencia de Recaudación de la Provincia de Buenos Aires (A.R.B.A.) y a Fiscalía de Estado, en su carácter de organismos técnicos en la materia, o las que en el futuro los reemplacen, a fin de que procedan a tasar cada uno de los inmuebles propuestos por los oferentes.
+
+
+
+VIII. En el supuesto que alguna de las ofertas supere los valores informados por encima del diez por ciento (10%) respecto a la tasación de los organismos técnicos en la materia, la Comisión de Preadjudicación podrá solicitar una mejora de oferta, de conformidad con el Artículo 20º Apartado 5 del presente Decreto.
+
+
+
+IX. Si no tuviera lugar la recepción de ninguna mejora de oferta, o éstas no se adecuaren a la tasación de los organismos técnicos, la autoridad competente podrá adjudicar la contratación, pero deberá fundar y explicitar en el acto administrativo pertinente las razones de oportunidad, mérito y conveniencia que especialmente pondera para continuar con el trámite no obstante el mayor precio.
+
+
+
+X. En todos los casos, de forma previa a la adjudicación se deberá dar intervención a los Organismos de Asesoramiento y Control, acompañando proyecto del mencionado acto, sin importar el monto de la contratación.
+
+
+
+XI. El presente no será aplicable en los regímenes especiales de compras de tierras e inmuebles con finalidad social y/o habitacional, tales como los previstos en los Decretos N° 778/05 y N° 188/07, o cualquier otro que se instrumente en el futuro con objetivos similares.
+
+
+
+Locación de inmuebles:
+
+
+
+I. En todos los casos en que se efectúe la locación de un inmueble, se tendrán como elementos de juicio para fijar el canon locativo, las valuaciones efectuadas por los organismos técnicos competentes (Fiscalía de Estado y Agencia de Recaudación de la Provincia de Buenos
+
+
+
+Aires). En caso de existir marcadas diferencias entre las pretensions económicas de la parte locadora y la tasación efectuada por ellos, se deberá fundamentar debidamente la aprobación de la locación con intervención de las áreas anteriormente citadas, ponderando también las
+
+
+
+tasaciones externas obtenidas.
+
+
+
+II. En ningún caso se incluirán en los contratos cláusulas que obliguen al Estado al pago de impuestos, tasas o gravámenes de cualquier naturaleza que fueren existentes o futuros, que incidan sobre el bien locado, los que serán por cuenta exclusiva de su propietario, a cuyo cargo estarán los gastos necesarios para mantener el inmueble en buen estado de conservación. Los gravámenes que se apliquen al inmueble, por razones del uso que le diere la Repartición locataria, estarán a cargo de ésta.
+
+
+
+III. Locatario. A los efectos del contrato, el locatario será el funcionario competente de acuerdo al cuadro de competencias de la Jurisdicción del cual depende el Organismo interesado. Consecuentemente, podrá utilizer el bien para cualquier Repartición de su dependencia, durante la vigencia de aquél.
+
+
+
+IV. Rescisión. Los contratos podrán rescindirse, sin lugar a reclamo de indemnización alguna por parte del locador, cuando la Autoridad Administrativa de la Jurisdicción respectiva hubiere dispuesto su desocupación efectiva. La rescisión se operará a partir del último día del mes en que ella se hubiere decidido y comunicado, pero será requisite indispensable la entrega o consignación de las llaves del inmueble al locador, acto del que se dejará constancia mediante acta que labrará la repartición que utilice el bien locado y que será suscripta por la Autoridad Administrativa de la Jurisdicción (o por quien esta designe) y por el locador o quien lo represente.
+
+
+
+V. Documentación obligatoria. En todos los casos en que se sustancie la locación de un inmueble, se acumularán como elementos de juicio, la valuación fiscal fijada a los efectos del impuesto inmobiliario, el título que justifique la calidad de locador y un informe de dominio.
+
+
+
+VI. Opción de prórroga. En los contratos de locación se establecerá la opción para su prórroga por períodos determinados, hallándose de conformidad las partes. En ningún caso, la prórroga podrá ser superior a un (1) año calendario.
+
+
+
+VII. Puede prescindirse del Pliego de Bases y Condiciones en función de las características de la operación.
+
+
+
+VIII. Se dicta un único acto administrativo que autorice el procedimiento, aprueba la documentación aplicable y adjudica la contratación, cuyos efectos se retrotraerán al momento de la efectiva ocupación del inmueble.
+
+
+
+M) Cuando los bienes o servicios sean limitados a experimentación, investigación o simple ensayo: Sin reglamentar.
+
+
+
+N) La venta de productos perecederos y los destinados al fomento económico o la satisfacción de necesidades sanitarias, siempre que la misma se efectúe directamente a los usuarios: Sin reglamentar.
+
+
+
+O) Cuando se trate de bienes cuyos precios sean determinados por el Estado Nacional o Provincial. En este caso rigen las siguientes particularidades:
+
+
+
+I. La Autoridad Administrativa deberá acompañar a las actuaciones la documentación pública de la cual surja el precio oficial determinado por el Estado Nacional o Provincial.
+
+
+
+II. Se dicta un único acto administrativo que autoriza el procedimiento, aprueba la documentación aplicable y adjudica la contratación.
+
+
+
+P) La venta de bienes en condición de rezago a instituciones de bien público reconocidas por organismos dependientes del Estado Nacional, Provincial o Municipal: Sin reglamentar.
+
+
+
+Q) (Texto según Decreto 1314/22) La compra de bienes o contratación de servicios producidos o prestados por Talleres Protegidos y toda otra instancia protegida de producción debidamente habilitada, registrada y supervisada por el Instituto Nacional de Asociativismo y Economía Social (INAES) y en el Registro Provincial de Cooperativas o en el que en el futuro lo reemplace (conforme al Decreto 54/2020 y a la Disposición 200/2021 de la Dirección Provincial de Acción Cooperativa) En este caso rigen las siguientes particularidades:
+
+
+
+I. Se requiere el envío de invitaciones a por lo menos TRES (3) proveedores o Talleres Protegidos con domicilio en la Provincia de Buenos Aires que se encuentren inscriptos en el INAES o en el Registro Provincial de Cooperativas, con un mínimo de TRES (3) días hábiles de antelación a la fecha de apertura de las ofertas, o para la presentación de muestras, la que suceda primero. Las invitaciones deberán contener las condiciones mínimas de contratación y/o el pliego respectivo.
+
+
+
+II. No hay intervención de la Comisión de Preadjudicación.
+
+
+
+III. Se dictará un único acto administrativo que autorice el procedimiento y adjudique la contratación. Cuando por el procedimiento aplicable no se emita orden de compra, la contratación queda perfeccionada con la notificación del acto administrativo que apruebe el instrumento que la sustituya.
+
+
+
+IV. El objeto de las contrataciones deberá guardar relación con el objeto estatutario de la entidad. Queda expresamente prohibida la subcontratación.
+
+
+
+V. La contratación será publicada en cualquier caso en el sitio de Internet de la Provincia de Buenos Aires, conforme lo estipulado en el artículo 15 Apartado 2) del presente Reglamento. La Autoridad de Aplicación dictará las normas interpretativas, aclaratorias, complementarias y operativas que considere pertinentes
+
+
+
+R) Cuando se entreguen bienes muebles o semovientes a cuenta de precio: Sin reglamentar.
+
+
+
+S) (Texto según Decreto 669/2019) Los servicios básicos de electricidad, telefonía fija o móvil, gas, agua potable, internet, así como cualquier otro servicio de telecomunicaciones de las actuales o futuras tecnologías disponibles, cuya prestación se encuentra a cargo de empresas públicas o privadas. En este caso rigen las siguientes particularidades:
+
+
+
+I. Se exceptúa a este supuesto de contratación directa de la presentación de remito o de certificación de servicios.
+
+
+
+II. En el supuesto de los servicios de telecomunicaciones de las actuales o futuras tecnologías disponibles, el órgano rector en materia de telecomunicaciones del Poder Ejecutivo será el encargado de definir en cada caso particular si el objeto de la contratación propiciada encuadra o no dentro del concepto de servicio de telecomunicaciones.
+
+
+
+CAPÍTULO III: GARANTÍAS. ADJUDICACIÓN. PREFERENCIAS,
+
+
+
+PERFECIONAMIENTO DEL CONTRATO.
+
+
+
+ARTÍCULO 19. GARANTÍAS.
+
+
+
+Apartado 1. Constitución de garantías: supuestos.
+
+
+
+Deben constituirse las siguientes garantías:
+
+
+
+a. De mantenimiento de oferta: sin perjuicio de lo que en más pueda establecer el Pliego de Condiciones Particulares, no será inferior al cinco por ciento (5%) del valor total de la oferta. En caso de licitaciones o concursos de etapa múltiple el mencionado porcentaje se calcula sobre el presupuesto oficial o monto estimado de la compra y debe acompañarse con la oferta en el sobre número uno (1). En caso de resultar adjudicada, esta garantía se mantendrá vigente hasta la constitución de la de cumplimiento del contrato.
+
+
+
+b. De cumplimiento del contrato: sin perjuicio de lo que en más pueda establecer el Pliego de Bases y Condiciones Particulares, no será inferior al diez por ciento (10%) del valor total de la adjudicación. Debe acreditarse dentro de los siete (7) días posteriores a la notificación del acto administrativo de adjudicación.
+
+
+
+c. Contragarantía: cuando el Pliego de Bases y Condiciones Particulares prevea la posibilidad de percibir anticipo financiero, deberá previamente constituirse garantía por el cien por ciento (100%) del monto que se reciba en esa calidad. Esta garantía será también requerida en las contrataciones del inciso 1), apartados a), b) y c) del artículo 18 del presente Reglamento.
+
+
+
+d. De impugnación al Pliego de Bases y Condiciones Particulares: entre el uno por ciento (1%) y el tres por ciento (3%) del presupuesto oficial o monto estimado de la compra. En el caso de no establecer el Pliego de Bases y Condiciones Particulares el porcentaje de la garantía, el mismo será del dos por ciento (2%) del presupuesto oficial o monto estimado de la contratación.
+
+
+
+e. De impugnación a la preselección/precalificación para el caso de licitaciones de etapa múltiple: entre el uno por ciento (1%) y el tres por ciento (3%) del presupuesto oficial o monto estimado de la compra.
+
+
+
+f. De impugnación a la preadjudicación de las ofertas: entre el uno por ciento (1%) y el cinco por ciento (5%) del monto de la oferta del renglón o los renglones impugnados; en el caso de no establecer el Pliego de Bases y Condiciones Particulares el porcentaje de la garantía, el mismo será del tres por ciento (3%). Si el Dictamen de Preadjudicación no aconsejare la aceptación de ninguna oferta, el importe de la garantía de impugnación se calculará sobre la base del monto ofertado por el impugnante por el renglón o renglones cuestionados.
+
+
+
+g. Los Pliegos de Bases y Condiciones Particulares podrán fijar otras garantías tomando en cuenta las características y naturaleza de las obligaciones que emanen de la respectiva contratación.
+
+
+
+Las garantías de impugnación serán reintegradas al impugnante si la impugnación es resuelta favorablemente.
+
+
+
+Apartado 2. Formas de constitución.
+
+
+
+Las garantías pueden constituirse de las siguientes formas o combinaciones de ellas:
+
+
+
+1. En efectivo, mediante depósito bancario en la cuenta que a tal efecto destine la Tesorería General de la Provincia.
+
+
+
+2. Mediante pagaré a la vista, suscripto por quienes ejerzan la representación de la persona jurídica o cuenten con poder suficiente para su libramiento en su caso, únicamente cuando la contratación supere las 10.000 UC y hasta las 100.000 UC. Los pagarés deberán contener la cláusula “sin protesto” y consignar como lugar de pago el del domicilio del organismo contratante, debiendo el librador fijar el mismo domicilio que el legal constituido en la oferta.
+
+
+
+3. Mediante aval bancario u otra fianza a satisfacción del organismo contratante, constituyéndose el fiador en deudor solidario, principal pagador, en los términos del artículo 1.591 del Código Civil y Comercial de la Nación.
+
+
+
+4. Mediante seguro de caución a través de pólizas emitidas por compañías de seguros autorizadas por la Superintendencia de Seguros de la Nación, extendidas a favor del organismo contratante.
+
+
+
+5. Mediante títulos públicos emitidos por la Provincia de Buenos Aires, que deben ser depositados en el Banco de la Provincia de Buenos Aires a la orden del organismo contratante, identificándose el procedimiento de selección de que se trate. El monto se debe calcular tomando la cotización de los títulos al cierre del penúltimo día hábil anterior a la constitución de la garantía, lo que debe ser certificado por las autoridades bancarias al recibir dicho depósito. En caso de liquidación de los valores a que se refiere este inciso, se formulará el cargo por los gastos que ello ocasione. El eventual excedente queda sujeto a las disposiciones que rigen para la devolución de garantías. Los intereses de los títulos pertenecen al propietario y no acrecentarán la garantía.
+
+
+
+6. Afectación de créditos que el oferente o adjudicatario tenga liquidados, firmes y a disposición para su cobro en organismos de la Administración de la Provincia de Buenos Aires, conforme el procedimiento que establezca la Tesorería General de la Provincia.
+
+
+
+Si nada se expresa en el Pliego de Bases y Condiciones Particulares respecto de la presentación de algún tipo en especial, el proveedor tiene la elección de la forma de garantía. En el caso de los incisos d), e) y f) del Apartado 1 de este artículo, estará prohibido exigir en los Pliegos de Bases y Condiciones Particulares la constitución de garantías en dinero en efectivo.
+
+
+
+Las garantías deben constituirse a entera satisfacción del organismo contratante. Podrán ser sustituidas por otras de igual magnitud, a pedido del impugnante, oferente o adjudicatario, previa aprobación por parte del organismo.
+
+
+
+Si el adjudicatario no integra la garantía de cumplimiento del contrato dentro del plazo establecido, se lo intimará en forma fehaciente. Vencido el plazo sin que se haya cumplido, se revocará la adjudicación y se aplicarán en el mismo acto las penalidades pertinentes.
+
+
+
+Cuando el llamado se efectúe en moneda extranjera, el importe de las garantías se calculará en base al tipo de cambio al cierre del día anterior al que se extienda, según el tipo de cambio vendedor del Banco Nación.
+
+
+
+Apartado 3. Garantías por importes menores.
+
+
+
+Las ofertas y adjudicaciones menores a 100.000UC y mayores a 10.000UC no requieren garantía de mantenimiento de oferta, pero sí de cumplimiento de contrato y, de existir anticipo financiero, también contragarantía. Las ofertas y adjudicaciones menores a 10.000UC no requieren garantías, a menos que exista anticipo financiero, en cuyo caso se exigirá contragarantía.
+
+
+
+Apartado 4. Contingencias posteriores. Resuelta la adjudicación, se procederá a devolver las garantías a quienes no resultaron adjudicatarios.
+
+
+
+Del mismo modo, cumplido el contrato sin observaciones, se devolverán de oficio las garantías a los adjudicatarios.
+
+
+
+Dependiendo de las formas de entrega o prestación de servicios establecidas, podrán contemplarse cláusulas de liberación mensual de las sumas afianzadas en proporción directa al cumplimiento del contrato.
+
+
+
+En la ejecución de una garantía constituida por títulos, del importe de su venta se tomará el importe necesario para cubrir el monto afianzado más penalidades y gastos, restituyendo el sobrante al proveedor.
+
+
+
+Cuando el producido de la garantía resultara insuficiente, el adjudicatario integrará la diferencia en los plazos que determine la autoridad contratante.
+
+
+
+ARTÍCULO 20. OBSERVACIONES E IMPUGNACIONES.
+
+
+
+Apartado 1. Impugnación al Pliego de Bases y Condiciones.
+
+
+
+El Pliego de Bases y Condiciones podrá ser impugnado a partir del día siguiente a su publicación, y hasta el día inmediatamente anterior a la apertura de ofertas.
+
+
+
+La impugnación deberá ser presentada ante la Mesa de Entradas del Organismo que propicia la contratación, el que podrá expedirse al respecto. La misma tramitará como alcance al expediente principal, y en ningún caso suspenderá el procedimiento. De la impugnación articulada se dará intervención a los Organismos de Asesoramiento y Control en forma simultánea, quienes se expedirán en un plazo máximo de diez (10) días. La impugnación será resuelta en el acto por el que se apruebe el procedimiento, o se deje sin efecto.
+
+
+
+Apartado 2. Cuestiones previas a la preadjudicación.
+
+
+
+Para el examen de las propuestas presentadas se confeccionará un Cuadro Comparativo de Ofertas.
+
+
+
+Cuando la cotización se efectúe en moneda extranjera, a los efectos de la comparación de precios, se convertirá en base al tipo de cambio vendedor, vigente en el Banco de la Nación Argentina al día anterior al de la apertura de sobres.
+
+
+
+Apartado 3. Comisión de Preadjudicación.
+
+
+
+La evaluación de las ofertas estará a cargo de la Comisión de Preadjudicación, su integración será determinada por el funcionario competente para emitir el acto administrativo de autorización del llamado. La misma estará integrada por tres (3) miembros como mínimo. Podrá preverse la existencia de suplentes, quienes reemplazarán de manera automática a los titulares en caso de ausencia o imposibilidad.
+
+
+
+En ningún caso, la Comisión podrá ser integrada por funcionarios en quienes se delegare la autorización y aprobación de las contrataciones.
+
+
+
+Cuando para la evaluación se requieran conocimientos especializados ajenos a todos los miembros de la Comisión, ésta deberá solicitar a otros organismos estatales o privados competentes todos los informes que estime necesario.
+
+
+
+Asimismo, cuando la complejidad de la contratación lo amerite y siempre que se encuentre establecido en el Pliego de Bases y Condiciones Particulares, podrá constituirse una Comisión Técnica, determinada por el funcionario competente para emitir el acto administrativo de autorización del llamado. Dicha Comisión estará integrada por tres (3) miembros como mínimo, idóneos en el objeto de la contratación y con antecedentes académicos o profesionales en la materia. El dictamen de esta Comisión, de carácter no vinculante, será previo al realizado por la Comisión de Preadjudicación y en él se evaluarán los aspectos técnicos ofertados por cada uno de los oferentes.
+
+
+
+Por su parte, el dictamen de la Comisión de Preadjudicación debe proporcionar a la autoridad competente para adjudicar los fundamentos para el dictado del acto administrativo y no tendrá carácter vinculante.
+
+
+
+Incluirá el examen de cumplimiento de los requisitos exigidos por la Ley, este Reglamento y los respectivos pliegos, la aptitud de los oferentes para contratar, la evaluación de las ofertas y la recomendación sobre la resolución a adoptar para concluir el procedimiento.
+
+
+
+Al evaluar las ofertas indicará si las hay inadmisibles, explicando los motivos y disposiciones aplicables, siguiendo igual procedimiento en caso de ofertas manifiestamente inconvenientes. Se dejará constancia de la evaluación de las observaciones que se hayan efectuado y se consignarán los fundamentos normativos de la recomendación aconsejada en el dictamen.
+
+
+
+La preadjudicación puede hacerse por el total licitado o por renglón.
+
+
+
+La preadjudicación por parte de renglón sólo corresponderá cuando se encuentre expresamente prevista en el Pliego de Bases y Condiciones Particulares El dictamen adopta la forma de acta de la reunión de los miembros y puede incluir disidencias.
+
+
+
+Debe emitirse dentro de los cinco (5) días contados desde la fecha de apertura de las propuestas o el que se fije en el pliego en función de la complejidad de la contratación. El plazo se suspenderá por el requerimiento de informes técnicos o por la intimación a subsanar defectos formales cursada a los oferentes. Si no se cumpliera el plazo establecido, la Comisión deberá justificar en forma fundada los motivos de tal circunstancia.
+
+
+
+La Comisión deberá intimar al oferente, bajo apercibimiento de desestimar la oferta, a subsanar sus deficiencias insustanciales dentro del término que se fije en la intimación.
+
+
+
+Las propuestas de personas físicas o jurídicas que participen con más de una oferta dentro de una misma contratación, serán eliminadas del concurso, ya sea que lo hagan por sí solas o como integrantes de un grupo, asociación o persona jurídica.
+
+
+
+Apartado 4. Empate técnico de ofertas.
+
+
+
+Se considerará que existe empate técnico de ofertas cuando la diferencia entre las ofertas más convenientes (por precio unitario de renglón o monto global, según corresponda) no sea superior al dos por ciento (2%).
+
+
+
+En este caso, la preadjudicación corresponde a la propuesta que ofrezca mayor cantidad de elementos de origen nacional. De subsistir el empate, se solicitará a los proponentes que, por escrito y dentro de los tres (3) días, formulen una mejora de precios.
+
+
+
+Las nuevas propuestas que se presenten, son abiertas en el lugar, día y hora establecidos en el requerimiento, labrándose el Acta pertinente.
+
+
+
+El silencio del oferente invitado a desempatar, se entiende como mantenimiento de la propuesta sin modificación.
+
+
+
+De mantenerse el empate, se analizará la posibilidad de adjudicar en base a otras ventajas como: mayor cantidad de criterios sustentables incorporados a la oferta, mayor cantidad de elementos de mejor calidad o características diferenciales similares.
+
+
+
+Si ninguno de estos criterios resultara de aplicación, se preadjudicará finalmente a la oferta económica más baja.
+
+
+
+En caso que exista paridad exacta de ofertas, es decir, sin ningún tipo de diferencia numérica entre las propuestas más convenientes, se seguirán los pasos previstos para el empate técnico, con la salvedad que agotadas todas las instancias de desempate (esto es: i) constatación de mayor cantidad de elementos de origen nacional, ii) pedido de mejora de precios, iii) análisis de otras ventajas tales como criterios sustentables, mayor cantidad de elementos de mejor calidad o características diferenciales) se procederá al sorteo público de las ofertas empatadas. Para ello, deberá fijarse día, hora y lugar del sorteo público y notificarse a los oferentes llamados a desempatar.
+
+
+
+Apartado 5. Mejora de oferta.
+
+
+
+Cuando se considere que el precio de la mejor oferta presentada resulta excesivo con relación al monto estimado de la contratación, podrá solicitarse una mejora a los fines de conseguir la oferta más conveniente a los intereses fiscales. Ante la negativa a mejorar el precio, la Comisión de Preadjudicación aconsejará proseguir con la preadjudicación o declarar la inconveniencia de todas las propuestas, exponiendo los fundamentos de su dictamen.
+
+
+
+Apartado 6. Notificación de la preadjudicación y trámite.
+
+
+
+El dictamen de preadjudicación se notifica a los oferentes haciéndoles saber el derecho a tomar vista de las actuaciones y a formular impugnaciones dentro del plazo de tres (3) días desde la notificación.
+
+
+
+Cumplido ese plazo, la autoridad contratante dicta el acto administrativo de adjudicación, según lo dispuesto en el artículo 21 de la Ley. Si se han formulado impugnaciones, éstas son resueltas en el mismo acto, previa vista y Nuevo dictamen de la Comisión de Preadjudicación, el que no se sustancia.
+
+
+
+ARTÍCULO 21. ADJUDICACIÓN.
+
+
+
+La adjudicación debe realizarse a favor de la oferta más conveniente, teniendo en cuenta para ello el precio, la calidad, la idoneidad del oferente, los costos asociados de uso y mantenimiento presentes y futuros y demás condiciones de la oferta.
+
+
+
+Antes de resolver la adjudicación, la repartición contratante deberá acreditar la razonabilidad del precio a pagar, de conformidad a los valores que establezca la Autoridad de Aplicación, en virtud de lo previsto en el artículo 11, apartado 1), inciso q) del presente Reglamento.
+
+
+
+Previa vista o intervención de los Organismos de Asesoramiento y Control, de acuerdo con lo previsto en la reglamentación del artículo 13, se dictará el acto administrativo de adjudicación que se notificará, con sus fundamentos, dentro de los siete (7) días de emitido, al adjudicatario, a quienes hayan efectuado impugnaciones o deducido pretensiones que se resuelvan en ese acto administrativo y a todos aquellos que sean parte del procedimiento administrative en trámite.
+
+
+
+Puede adjudicarse aun cuando se haya presentado una sola oferta.
+
+
+
+El organismo contratante puede dejar sin efecto el procedimiento de contratación en cualquier momento anterior al perfeccionamiento del contrato, sin lugar a indemnización alguna en favor de los interesados u oferentes.
+
+
+
+Obstará a la adjudicación toda distorsión significativa de la oferta en relación con precios de mercado del producto, bien o servicio ofrecido.
+
+
+
+Se consideran incluidos en esta previsión todos los ocultamientos, incorrecciones y modificaciones injustificadas de los elementos y circunstancias que hacen a la aplicabilidad de las preferencias para contratación prioritaria, contempladas por el artículo 22 de la Ley que se reglamenta.
+
+
+
+Podrán habilitarse, en particular para cada llamado o cuando la naturaleza del objeto de la prestación así lo justifique, métodos que posibiliten concluir la existencia de distorsiones significativas en las ofertas, que las hagan desestimables por evidenciar la imposibilidad de cumplimiento contractual.
+
+
+
+ARTÍCULO 22. PREFERENCIAS.
+
+
+
+Sin reglamentar.
+
+
+
+ARTÍCULO 23. PERFECCIONAMIENTO DEL CONTRATO.
+
+
+
+I) ORDEN DE COMPRA.
+
+
+
+Apartado 1. Emisión.
+
+
+
+Resuelta la adjudicación por la autoridad competente, la orden de compra deberá emitirse y perfeccionarse en el marco de la programación presupuestaría dispuesta por el Poder Ejecutivo, sobre la base de los preceptos establecidos por la normativa vigente en la materia y no más allá de los treinta (30) días corridos de dictado el acto administrativo. De la recepción de la orden de compra, deberá quedar constancia en las actuaciones.
+
+
+
+Superado el plazo de treinta (30) días corridos, podrá perfeccionarse igualmente el contrato, pero se requerirá nueva conformidad del cocontratante y la consecuente renovación de la garantía de mantenimiento de oferta, en caso de corresponder.
+
+
+
+En el caso de contratos de tracto sucesivo y dentro del límite temporal previsto en el primer párrafo del presente apartado, los efectos de su perfeccionamiento no podrán retrotraerse más allá del día de dictado del acto administrativo de adjudicación de la contratación.
+
+
+
+Apartado 2. Forma.
+
+
+
+La Orden de Compra debe ajustarse en su forma y contenido al modelo uniforme que determine la Autoridad de Aplicación y contener las estipulaciones básicas de la contratación.
+
+
+
+Es autorizada por el funcionario competente para aprobar y adjudicar los procedimientos de selección o por aquél en quien se delegue expresamente tal facultad.
+
+
+
+Apartado 3. Contenido, diferencias e integración.
+
+
+
+La orden de compra no deberá contener estipulaciones distintas o no previstas en la documentación que diera origen al contrato. Todos los documentos que integran el contrato se consideran recíprocamente explicativos, pero en caso de existir discrepancias se seguirá el siguiente orden de prelación:
+
+
+
+a) La Ley N°13.981;
+
+
+
+b) Las disposiciones de este Reglamento;
+
+
+
+c) El Pliego Único de Bases y Condiciones Generales;
+
+
+
+d) El Pliego de Bases y Condiciones Particulares;
+
+
+
+e) La oferta y las muestras que se hubieren acompañado;
+
+
+
+f) La adjudicación;
+
+
+
+g) La orden de compra.
+
+
+
+Los errores u omisiones en la Orden de Compra deben ser salvados en el momento en que se los advierta, sin perjuicio de cumplirla conforme con las cláusulas de la contratación.
+
+
+
+II) CUMPLIMIENTO DEL CONTRATO.
+
+
+
+Apartado 1. Pautas generales.
+
+
+
+Los adjudicatarios deben cumplir la obligación en la forma, fecha o plazos, lugar y demás condiciones establecidas en los pliegos de bases y condiciones.
+
+
+
+Cuando en la contratación no se hubiera dispuesto otra cosa, queda entendido que los efectos deben ser nuevos, sin uso y de primera calidad.
+
+
+
+Si no se ha fijado un plazo expreso de entrega, ésta debe ser inmediata.
+
+
+
+Se entiende por entrega inmediata, la que debe cumplirse dentro de los diez (10) días corridos de recibida la orden de compra por el adjudicatario.
+
+
+
+Apartado 2. Recepción.
+
+
+
+La recepción de los bienes y servicios tiene carácter provisional, sujeta a verificación posterior, y los recibos o remitos que se firmen requieren de la recepción definitiva.
+
+
+
+Cada organismo debe designar el o los responsables o la Comisión que, con carácter permanente o especial, tenga a su cargo el recibo de los elementos o servicios contratados y certifique la recepción definitiva.
+
+
+
+Cuando ello no ocurra, la recepción estará a cargo de los jefes de las oficinas o depósitos destinatarios. Los funcionarios o empleados receptores serán responsables por las aceptaciones en que intervengan.
+
+
+
+A los efectos de la conformidad definitiva, debe procederse previamente a la confrontación de la prestación con las especificaciones del pedido, con la muestra patrón o la presentada por el adjudicatario y, en su caso, con los resultados de la prueba que fuere necesario realizar.
+
+
+
+El certificado de recepción definitiva se entregará por duplicado al proveedor, agregándose además copia autenticada en la actuación de la contratación. Es imprescindible su presentación junto con la respectiva factura a los fines del trámite de cobro de la prestación.
+
+
+
+Apartado 3. Plazos.
+
+
+
+La recepción definitiva será resuelta en un plazo no mayor a cinco (5) días desde la fecha de entrega.
+
+
+
+Cuando deban efectuarse análisis o pruebas especiales, deberá estarse al plazo establecido en el Pliego de Bases y Condiciones Particulares. En caso de silencio, el plazo no podrá ser mayor a treinta (30) días corridos.
+
+
+
+Vencidos los plazos, el adjudicatario puede intimar el pronunciamiento sobre el rechazo o la conformidad definitiva; esta última se tiene por acordada si no se notifica manifestación contraria en los cinco (5) días de recibida la intimación.
+
+
+
+Los días insumidos en resolver el rechazo o la aceptación definitiva no se computan para el cálculo de la multa por mora que pueda corresponder.
+
+
+
+Apartado 4. Divergencias.
+
+
+
+Cuando los responsables de las recepciones informen deficiencias en el cumplimiento del contrato, la repartición intimará la inmediata corrección de las mismas, no pudiendo darse por recibida la prestación hasta que se ajuste a las condiciones convenidas.
+
+
+
+Si se trata de cantidades recibidas en menos, el requerimiento al proveedor se realiza directamente por los responsables de las recepciones.
+
+
+
+Apartado 5. Vicios redhibitorios.
+
+
+
+La recepción definitiva no libera al adjudicatario de la responsabilidad por defectos de origen o vicios de fabricación que se adviertan con motivo del uso de los elementos entregados, durante el plazo de un (1) año contado a partir de la recepción, salvo que por la índole de la contratación se fijara en las Cláusulas Particulares un término diferente.
+
+
+
+Apartado 6. Efectos rechazados.
+
+
+
+El adjudicatario queda obligado a la reposición o reparación de los elementos rechazados en el plazo y lugar que se le indique.
+
+
+
+Debe retirar los elementos rechazados en el plazo de treinta (30) días corridos a contar de la fecha de la comunicación del mismo. Vencido ese plazo sin que se los retire, la repartición contratante queda facultada para disponer su uso, venta o destrucción.
+
+
+
+III) FACTURAS Y PAGO.
+
+
+
+Apartado 1. Presentación de facturas.
+
+
+
+Las facturas serán presentadas por los proveedores en original y confeccionadas de acuerdo con las normas establecidas por la AFIP, en la repartición contratante o en la dependencia que al efecto se indique. Deben contener la identificación de la orden de compra o acto que haga sus veces. Se acompañarán con el certificado de recepción definitiva de los insumos o servicios.
+
+
+
+La documentación necesaria a los efectos del pago deberá ser ingresada en la Contaduría General de la Provincia con una antelación mínima de cuatro (4) días a su vencimiento.
+
+
+
+Apartado 2. Plazo de pago.
+
+
+
+Los pagos por las contrataciones de bienes y servicios se efectuarán dentro de los treinta (30) días de la presentación de la factura y documentación requerida, excepto que en las Condiciones Particulares o en otras normas específicas se establezca un plazo distinto.
+
+
+
+El término se interrumpe hasta la subsanación del vicio si existen observaciones sobre la documentación presentada u otros trámites a cumplir imputables al acreedor.
+
+
+
+La Contaduría General de la Provincia deberá expedir sus observaciones en el plazo de diez (10) días de ingresadas las actuaciones.
+
+
+
+Apartado 3. Forma de pago.
+
+
+
+Salvo norma específica en contrario, los pagos se efectivizarán, cualquiera fuere la fuente de financiamiento, mediante pago electrónico a través de interdepósitos o transferencias bancarias sobre la cuenta en moneda nacional que los proveedores deberán tener operativa en el Banco de la Provincia de Buenos Aires o bancos especialmente habilitados por el Ministerio de Economía.
+
+
+
+Estos recaudos no serán aplicables cuando los pagos deban disponerse a favor de terceros cesionarios u otros titulares eventuales, en tanto no revistan habitualidad en esa condición, librándose en tales casos cheques “no a la orden”.
+
+
+
+Los oferentes deberán informar al momento de presentar su oferta o en forma previa a la adjudicación y como requisito sustancial para ello, el número de sucursal y de cuenta corriente o caja de ahorro de la cual fueren titulares.
+
+
+
+Cuando en la contratación se haya previsto la cotización en moneda extranjera, a los efectos del pago, se convertirá en base al tipo de cambio vendedor, vigente en el Banco de la Nación Argentina al día anterior a la emisión de la orden de pago, sin perjuicio del derecho del contratista de reclamar ulteriormente la diferencia cambiaria que surja entre dicho momento y la acreditación bancaria correspondiente.
+
+
+
+Apartado 4. Mora.
+
+
+
+Si el pago no se realizara en el plazo estipulado, se devengarán intereses por pago fuera de término, a la tasa de interés promedio que pague el Banco de la Provincia de Buenos Aires en operaciones a treinta (30) días, que se calcularán entre el día siguiente al vencimiento y hasta la puesta a disposición de los fondos.
+
+
+
+El acreedor deberá presentar su reclamo o reserva por intereses dentro de los treinta (30) días corridos posteriores de transferidos los fondos a su cuenta. Si el pago se realiza mediante cheque, el reclamo debe realizarse dentro del mismo día de la recepción o retiro del mismo. Vencidos los plazos indicados, perderá todo derecho al respecto.
+
+
+
+La Contaduría General de la Provincia evaluará si la demora en la tramitación resulta justificada o si corresponde el inicio de actuaciones sumariales por el perjuicio fiscal ocasionado en el pago de intereses moratorios.
+
+
+
+TÍTULO III: PENALIDADES Y SANCIONES
+
+
+
+CAPÍTULO ÚNICO
+
+
+
+ARTÍCULO 24. PENALIDADES Y SANCIONES.
+
+
+
+Apartado 1. Rescisión.
+
+
+
+El incumplimiento de la prestación comprometida por el proveedor se constatará mediante certificación de la dependencia a cargo de la recepción de los bienes o servicios, que se agregará a las actuaciones, pudiendo dictarse sin más trámite el acto administrativo que disponga la rescisión de la contratación por culpa del cocontratante y aplique las penalidades contractuales que correspondan.
+
+
+
+Cuando sea posible admitir el cumplimiento de las prestaciones fuera de término, la autoridad contratante está facultada para intimar previamente el cumplimiento bajo apercibimiento de rescisión y sin perjuicio de la aplicación de las penalidades por mora.
+
+
+
+Los Pliegos de Bases y Condiciones Particulares preverán las condiciones en que corresponde la rescisión en los casos de prestaciones de tracto sucesivo.
+
+
+
+Apartado 2. Penalidades pre-contractuales y contractuales.
+
+
+
+El incumplimiento de las obligaciones contraídas por los proponentes, preadjudicatarios o adjudicatarios, dará lugar a la aplicación de las penalidades que a continuación se indican:
+
+
+
+1. Oferentes: Por desistimiento parcial o total de la oferta fuera de los casos en que se encuentra permitido: pérdida proporcional o total de la garantía y pago de la diferencia de precio entre su propuesta y las que resulten adjudicadas en la misma contratación.
+
+
+
+2. Preadjudicatarios: Por desistimiento parcial o total de la oferta fuera de los casos en que se encuentra permitido: pérdida proporcional o total de la garantía y pago de la diferencia de precio entre su propuesta y las que resulten adjudicadas en la misma contratación o en la nueva contratación a realizar con un tercero. En ese último supuesto, la diferencia de precios se calcula actualizando la oferta
+
+
+
+incorrectamente desistida hasta la fecha de la nueva cotización, mediante la fórmula de ajuste que se encuentre prevista.
+
+
+
+3. Adjudicatarios:
+
+
+
+a) Por entrega fuera de término: multa por mora del cero coma tres por ciento (0,3%) del valor de lo satisfecho fuera de término, por cada día hábil de atraso. La penalidad no podrá superar el valor contractual convenido. La mora se considerará producida por el simple vencimiento del plazo contractual sin necesidad de interpelación judicial o extrajudicial. Las multas serán de aplicación automática, sin necesidad de pronunciamiento expreso. Estas penalidades y todo otro cargo por incumplimiento, afectarán a las facturas emergentes del contrato u otras que estén al cobro o en trámite y luego a la garantía de cumplimiento, en ese orden.
+
+
+
+b) Por incumplimiento parcial o total del contrato o por no afianzarlo en los términos de la Ley: pérdida proporcional o total de la garantía y pago de la diferencia de precio por la ejecución del contrato por un tercero, la que se calcula actualizando la oferta incumplida a la fecha de la nueva cotización, mediante la fórmula de ajuste que se encuentre prevista. La nueva contratación se gestiona sin aguardar la firmeza del acto que resuelva el contrato primitivo, en la forma prevista en la reglamentación del artículo 18, apartado 2), inciso b).
+
+
+
+c) Por incumplimiento en una provisión periódica: multa del cinco por ciento (5%) sobre el importe de lo que dejara de proveer y diferencia de precio por la provision por un tercero, calculada de acuerdo a lo establecido en el punto anterior. La reincidencia en el período de ejecución del contrato habilitará la rescisión.
+
+
+
+d) Por transferencia del contrato sin conocimiento de la autoridad competente: pérdida de la garantía sin perjuicios de las demás acciones a que hubiere lugar.
+
+
+
+e) El adjudicatario por venta que no retirara los elementos adquiridos abonará, sin que se requiera intimación previa, una multa automática diaria del uno por ciento (1%) del valor de los efectos no retirados. Treinta (30) días después de vencido el plazo fijado para el retiro, perderá todo derecho sobre los elementos, con pérdida total de la garantía y del importe pagado.
+
+
+
+Los Pliegos de Bases y Condiciones Particulares podrán fijar penalidades especiales en adición de las precedentes.
+
+
+
+Las penalidades se aplicarán sobre valores ajustados conforme con lo previsto en el contrato y sin perjuicio de la rescisión, cuando correspondiera.
+
+
+
+Apartado 3. (Texto según Decreto 648/2023) Régimen de sanciones del Registro Único de Proveedores y Licitadores
+
+
+
+a) Será pasible de la sanción de apercibimiento:
+
+
+
+1.- El oferente que retire su oferta sin cumplir con los plazos de mantenimiento.
+
+
+
+2.- El oferente a quien se le desestime la oferta por no subsanar una deficiencia luego de haber sido intimado para ello.
+
+
+
+3.- El adjudicatario que efectúe entregas fuera de término en forma reiterada, entendiéndose por reiteradas cuando fueran más de cuatro (4) dentro del período de un año, cualquiera sea la Repartición adquirente.
+
+
+
+4.- El adjudicatario que transfiera el contrato sin autorización de la autoridad competente.
+
+
+
+5.- La comisión de incorrecciones que no lleguen a constituir hechos dolosos y no tengan prevista una sanción registral más grave.
+
+
+
+La Autoridad de Aplicación analizará previamente los antecedentes del proveedor, tales como concurrencia a las licitaciones, cumplimiento de otros contratos, su conducta en general, y demás elementos de juicio de que disponga, a fin de evaluar la procedencia del apercibimiento o desestimar el cargo en caso contrario.
+
+
+
+b.Será pasible de la sanción de suspensión para contratar no mayor de tres (3) meses, el proveedor que habiendo sido sancionado con dos (2) apercibimientos firmes incurra en alguno de los incumplimientos del inciso a) dentro del año inmediato siguiente a contar desde la aplicación del apercibimiento más antiguo.
+
+
+
+c.Será pasible de la sanción de suspensión para contratar por un plazo de entre tres (3) meses y hasta un (1) año:
+
+
+
+1.- El proveedor a quien se le rescinda totalmente un contrato por causas que le fueren imputables, cuando el monto de dicho contrato no supere la suma de hasta doscientas cincuenta mil (250.000) UC.
+
+
+
+2.- El oferente, adjudicatario o contratante que, intimado para que deposite en la cuenta de la jurisdicción o entidad contratante el valor de la penalidad aplicada, no hubiese efectuado el pago en el plazo fijado al efecto.
+
+
+
+d.Será pasible de la sanción de suspensión para contratar por un plazo de entre uno (1) y dos (2) años:
+
+
+
+1.- El proveedor a quien se le rescinda totalmente un contrato por causas que le fueren imputables, cuando el monto de dicho contrato supere la suma de doscientas cincuenta mil (250.000) UC.
+
+
+
+2.- Cuando se constate que el oferente, adjudicatario o cocontratante haya presentado documentación o información falsa o adulterada o incurra en otras conductas dolosas en perjuicio de la Administración no previstas en otra parte.
+
+
+
+e.Será pasible de la eliminación del Registro como sanción el proveedor al que corresponda aplicarle una tercera sanción de suspensión en el lapso de cinco (5) años a contar desde la firmeza de la primera y hasta el momento de dictarse el acto administrativo sancionatorio por el que correspondería la aplicación de la tercera; en estos casos, la tercera suspensión será convertida en eliminación del Registro.
+
+
+
+La Autoridad de Aplicación, por sí o por comunicación de las Autoridades Administrativas o dependencia que haga sus veces, al tomar conocimiento de los hechos que puedan dar lugar a las sanciones previstas en los incisos previos de este apartado, encuadrará la conducta del proveedor en base a tales previsiones y le dará vista para que formule el descargo a que se considere con derecho, en el término de diez (10) días. Si se ofrecen pruebas, las declaradas admisibles serán proveídas fijándose el plazo de su producción. Una vez formulado el descargo o vencido el término para hacerlo, producidas las pruebas ofrecidas o vencido el término para hacerlo, seguirán las actuaciones a dictamen del Asesor General de Gobierno y vista del Fiscal de Estado. Cumplido, la Autoridad de Aplicación dictará resolución aplicando la sanción o absolviendo del cargo formulado.
+
+
+
+La graduación de las sanciones será efectuada de acuerdo con las particulares circunstancias atenuantes y agravantes de cada caso. A tales fines tendrá en cuenta, entre otros elementos: los antecedentes generales del proveedor, la opinión que al respecto informe la repartición de origen, la previa aplicación de otras sanciones firmes, la extensión del daño causado al normal funcionamiento de la Administración, los motivos que determinaron el incumplimiento y la conducta observada en el caso.
+
+
+
+Cuando concurra más de una causal de suspensión, las que se apliquen se cumplirán ininterrumpidamente en forma sucesiva.
+
+
+
+Una vez firme la sanción de suspensión, ella no impedirá el cumplimiento de los contratos que el proveedor tenga adjudicados ni sus ampliaciones o prórrogas, pero no podrán adjudicársele nuevos contratos desde el inicio de la vigencia de la sanción y hasta su extinción.
+
+
+
+Las sanciones aplicadas, una vez firmes, alcanzarán a las firmas proveedoras e individualmente a sus componentes y tendrán efecto en toda la Administración Provincial.
+
+
+
+La Autoridad de Aplicación deberá publicitar de inmediato la nómina de las firmas a las que se le hubiere aplicado sanciones firmes. La falta de inscripción del proveedor sumariado no obstará a la aplicación de las sanciones previstas, con los mismos alcances que a los debidamente inscriptos.
+
+
+
+f) Se podrá disponer la suspensión preventiva para contratar con el Estado cuando se encuentre comprometido el interés público. En este caso, cuando concurra el referido requisito y, además, de los antecedentes resulte que la sanción a aplicar pueda ser de suspensión o eliminación del Registro Único de Proveedores y Licitadores, y sin perjuicio de la prosecución del trámite tendiente a la aplicación de la sanción definitiva que correspondiere, los proveedores inscriptos deberán ser suspendidos preventivamente del Registro. Dicha medida será adoptada por la Autoridad de Aplicación, a requerimiento de las Autoridades Administrativas o dependencia que haga sus veces, previo dictamen de la Asesoría General de Gobierno y no podrá durar más de un (1) año.
+
+
+
+ARTÍCULO 25. LIQUIDACIÓN DE MAYORES DAÑOS.
+
+
+
+Facultar a la Contaduría General de la Provincia a reglamentar el procedimiento
+
+
+
+para dar cumplimiento a lo dispuesto en el presente artículo.
+
+
+
+TÍTULO IV: DISPOSICIONES FINALES Y TRANSITORIAS
+
+
+
+CAPÍTULO ÚNICO
+
+
+
+ARTÍCULO 26. GESTIÓN DE BIENES.
+
+
+
+Sin reglamentar.
+
+
+
+ARTÍCULO 27. APLICACIÓN SUBSIDIARIA.
+
+
+
+Sin reglamentar.
+
+
+
+ARTÍCULO 28. REGLAMENTACIÓN.
+
+
+
+Sin reglamentar.
+
+
+
+ARTÍCULO 29. VIGENCIA DE LOS PROCEDIMIENTOS ELECTRÓNICOS DE COMPRAS.
+
+
+
+Sin reglamentar.
+
+
+
+ARTÍCULO 30. CONTRATACIONES EN TRÁMITE.
+
+
+
+Sin reglamentar.
+
+
+
+ARTÍCULO 31. BANCO PROVINCIA DE BUENOS AIRES.
+
+
+
+Sin reglamentar.
+
+
+
+ARTÍCULO 32. VIGENCIA.
+
+
+
+Sin reglamentar.
+
+
+
+ARTÍCULO 33. DEROGACIÓN.
+
+
+
+Sin reglamentar.
+
+
+
+ARTÍCULO 34. INVITACIÓN A MUNICIPIOS.
+
+
+
+Sin reglamentar.
+
+
+
+ARTÍCULO 35.
+
+
+
+Sin reglamentar.
+
+
+
+
+
+
+ANEXO II
+
+
+
+(Anexo reemplazado por Decreto 205/2024)
+
+
+
+Niveles de Decisión y Cuadro de Competencias para los procedimientos de selección de contratación de bienes y servicios (Expresado en Unidad de Contratación)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Contrataciones directas por causales específidas del artículo 18 ccc

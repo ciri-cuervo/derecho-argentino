@@ -8,6 +8,7 @@ siempre, y es esto. Un extractor que se deja afuera medio archivo no da error: d
 hallazgos, y menos hallazgos se lee como que el repositorio está mejor.
 """
 import importlib.util
+import re
 import shutil
 import subprocess
 import tempfile
@@ -302,6 +303,39 @@ class TestCapa2(unittest.TestCase):
         for c in self.o.CAPA_2:
             with self.subTest(c):
                 self.assertTrue((RAIZ / c).exists(), f"{c} no está en el árbol")
+
+
+class TestLasClasesDeLetrasTraenLaDieresis(unittest.TestCase):
+    """Una clase de letras que enumera las cinco vocales acentuadas y olvida la `Ü` deja afuera
+    «antigüedad», «desagües» y «bilingüe» sin que nada avise: el patrón sigue matcheando, corta
+    la palabra en la `ü` y reporta menos. `herramientas.md` lo cuenta como el caso vivido, con
+    `[VERIFICAR ANTIGÜEDAD: ...]` fuera del alcance de un control que daba verde.
+
+    Se revisan las clases de todos los `.py` del repositorio: si traen `ÁÉÍÓÚ` o `áéíóú`
+    completas, tienen que traer también la `Ü` o la `ü` de esa misma caja. Las alternancias de
+    una sola vocal —`[óo]` en «notificaci[óo]n»— no enumeran el alfabeto y quedan afuera.
+
+    MUTACIÓN que lo comprueba: sacar la `Ü` de la clase de `pendientes.py` deja esto en rojo.
+    """
+
+    CLASE = re.compile(r"\[(?:[^\]\\]|\\.)*\]")
+
+    def test_ninguna_clase_enumera_las_vocales_sin_la_u_con_dieresis(self):
+        faltantes = []
+        vistas = 0
+        for f in sorted(RAIZ.rglob("*.py")):
+            if ".git" in f.parts:
+                continue
+            for n, linea in enumerate(f.read_text(encoding="utf-8").splitlines(), 1):
+                for m in self.CLASE.finditer(linea):
+                    c = m.group(0)
+                    for vocales, dieresis in (("ÁÉÍÓÚ", "Ü"), ("áéíóú", "ü")):
+                        if all(v in c for v in vocales):
+                            vistas += 1
+                            if dieresis not in c:
+                                faltantes.append(f"{f.relative_to(RAIZ)}:{n} {c[:50]}")
+        self.assertGreater(vistas, 10, "no se encontraron clases de letras: ¿está leyendo los .py?")
+        self.assertEqual(faltantes, [], "clases de letras sin la diéresis:\n  " + "\n  ".join(faltantes))
 
 
 if __name__ == "__main__":

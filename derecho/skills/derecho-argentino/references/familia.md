@@ -346,7 +346,7 @@ del ciclo lectivo**, con adaptación por cada comunidad educativa. Está bajada 
 > repositorio del MPD, no del registro del tribunal: autoridad débil, y así están marcadas en
 > `fallos.json` con su campo `origen`.
 >
-> `[INSERTAR FALLO VERIFICADO: supresión de contenidos digitales en violencia familiar resuelta por CÁMARA o por la SCBA - lo verificado es todo de primera instancia, y no hay nada de alzada en el registro oficial]`
+> `[INSERTAR FALLO VERIFICADO: supresión de contenidos digitales en violencia familiar resuelta por CÁMARA o por la SCBA - lo verificado es todo de primera instancia, y no hay nada de alzada en el registro oficial. JUBA consultado el 23/09/2026 por «violencia digital supresion contenidos»: ningún sumario]`
 >
 > **Verificado el 15/09/2026, y el resultado refuerza el punto: la emergencia está vencida.**
 > La 14.407 corre **dos años desde su sanción, el 18/10/2012** —su art. 1 dice "a partir de la
@@ -458,12 +458,12 @@ se verifica antes de usarlo.
 | **Compensación económica** (arts. 441-442 y 524-525 CCyCN) | **18.9 de este módulo**. Absorbido: ya no se rutea al perfil para el fondo | **18.9.1** — SCBA C. 124.589 (naturaleza objetiva y disponible; caducidad del art. 525) y CC San Martín Sala III 76208 (carga probatoria del desequilibrio). Los dos leídos contra el documento |
 | **Caducidades y prescripciones** (arts. 442, 525, 526, 590, 591, 593, 2562 inc. c) | `plazos.md` **8.5 bis**. Absorbido: ya no se rutea al perfil | — |
 | Régimen patrimonial del matrimonio | `kb/perfiles/familia-CLAUDE.md` § Régimen patrimonial | — |
-| Unión convivencial | `kb/perfiles/familia-CLAUDE.md` § Unión convivencial | — |
+| **Unión convivencial** (arts. 509 a 528 CCyCN) | **18.10 bis de este módulo**. Absorbido: ya no se rutea al perfil | — |
 | Responsabilidad parental y **cuidado personal compartido** | `kb/perfiles/familia-CLAUDE.md` § Responsabilidad parental | `fallos-csjn.md` 34.5 — "S., D. c/ R., L. M. s/ reintegro de hijo y alimentos", Fallos 336:849 |
 | Alimentos — fondo y cuantificación | `kb/perfiles/familia-CLAUDE.md` § Alimentos | `fallos-csjn.md` 34.5 — Fallos 336:849, que es de reintegro **y alimentos** |
 | Régimen comunicacional | `kb/perfiles/familia-CLAUDE.md` § Régimen comunicacional | — |
 | **Filiación, TRHA y gestación por sustitución** | **18.10 de este módulo** para gestación por sustitución. El resto sigue en `kb/perfiles/familia-CLAUDE.md` § Filiación, sin auditar | **18.10** — CSJN "S., I. N. c/ A., C. L." (22/10/2024) y Juzgado de Familia N° 8 de La Plata, expte. 80155/2019 (27/04/2020). Los dos leídos contra el documento |
-| Adopción, guarda con fines de adopción, entrega directa | `kb/perfiles/familia-CLAUDE.md` § Adopción | `fallos-csjn.md` 34.5 — "D., H. C. y otros s/ guarda con fines de adopción", Fallos 346:287 |
+| **Adopción, guarda con fines de adopción, entrega directa** (arts. 594 a 637 CCyCN) | **18.10 ter de este módulo**. Absorbido: ya no se rutea al perfil | `fallos-csjn.md` 34.5 — "D., H. C. y otros s/ guarda con fines de adopción", Fallos 346:287 |
 | Violencia familiar y de género | 18.6 de este módulo | `fallos-csjn.md` 34.5 — "Winteker", Fallos 329:5514, **pero es una decisión de competencia y nada más**: leer la nota de 34.5 antes de citarla |
 | **Sustracción internacional de menores** (La Haya 1980, Ley 23.857; Convención Interamericana, Ley 25.358) | **`fallos-csjn.md` 34.5**, con los holdings leídos contra el documento. `kb/perfiles/familia-CLAUDE.md` § Sustracción internacional queda como complemento **sin auditar** | `fallos-csjn.md` 34.5 — cuatro con holding escrito: Fallos 336:849 (voluntad cualificada y umbral del grave riesgo), 344:3078 (oposición del niño), 345:358 (violencia de género como especie del grave riesgo) y 347:1234 |
 | Interés superior, derecho a ser oído, autonomía progresiva | 18.4 de este módulo | `fallos-csjn.md` 34.5 — Fallos 346:287, cons. 6º (el interés superior "no puede ser aprehendido ni entenderse satisfecho sino en la medida de las circunstancias comprobadas en cada asunto") y cons. 11 (escuchar al niño: arts. 12 CDN y 707 CCyCN). Para **autonomía progresiva** en particular, **18.7.1** — SCBA C. 123.064 (30/08/2021), leído contra el documento |
@@ -605,12 +605,25 @@ Y una frase que cierra la discusión de naturaleza jurídica: la compensación *
 contenido asistencial, así como de la noción de culpa/inocencia"**, porque el divorcio **"no es un
 evento generador de daños"**.
 
-**Lo que sigue sin resolverse.** No hay fórmula legal de cuantificación: las pautas de los arts.
-442 y 525 son circunstancias a ponderar, no una cuenta, y ninguno de los dos fallos fija método.
-Tampoco hay precedente cargado sobre **compensación en especie** ni sobre cuantificación en
-módulos del SMVM.
+**El método, en un fallo de cámara leído de JUBA.** La Cámara Civil y Comercial de Mar del
+Plata, Sala II, en *"B., M. V. c/ S., G. F. s/ acción de compensación económica"*, causa 162.513,
+01/12/2016, registro 573-R, rechazó una **cautelar anticipatoria** de compensación —una cuota
+mensual a cuenta— porque la compensación *"no es una consecuencia necesaria del divorcio"* y su
+aplicación *"tiene el carácter de excepcional"*: exige proceso de conocimiento, y sin él no hay
+verosimilitud del derecho. De paso fija el orden de la cuantificación: quien reclama **prueba la
+relación causal entre el matrimonio, su ruptura y el empeoramiento**; el juez **compara la
+situación patrimonial de cada cónyuge al inicio y al fin del matrimonio** —una *"fotografía"*—
+y **cruza ese desequilibrio con las pautas del art. 442** —dedicación a la familia, edad y salud,
+capacitación y acceso al empleo, colaboración en la actividad del otro, atribución de la
+vivienda—, que funcionan **como pautas de cuantificación** después de haber servido para la
+procedencia. Los procesos conexos de liquidación de la comunidad y de atribución del hogar
+**pesan en la cuenta** y no la obstan. Lo que el fallo no trae es un número.
 
-`[INSERTAR FALLO VERIFICADO: cuantificación de la compensación económica - método y monto, arts. 442 y 525 CCyCN - los dos precedentes cargados resuelven procedencia y caducidad, no cuánto]`
+**Lo que sigue sin resolverse.** No hay fórmula legal de cuantificación: las pautas de los arts.
+442 y 525 son circunstancias a ponderar, no una cuenta. Tampoco hay precedente cargado sobre
+**compensación en especie** ni sobre cuantificación en módulos del SMVM.
+
+`[INSERTAR FALLO VERIFICADO: monto de la compensación económica, arts. 442 y 525 CCyCN - un fallo que fije la cuantía y explique cómo la calculó; lo cargado resuelve procedencia, caducidad y el método de Mar del Plata, no cuánto. JUBA consultado el 23/09/2026 por «compensacion economica fijacion pautas»: un solo sumario, el de Mar del Plata]`
 
 Para la doctrina y los criterios de cuantificación que circulan, `kb/perfiles/familia-CLAUDE.md`
 § Divorcio y § Unión convivencial siguen sirviendo **como complemento sin auditar**, con la
@@ -681,6 +694,178 @@ al lado es el error a evitar.
 | Código Procesal de Familias PBA | Hubo un anteproyecto en discusión; no consta sanción |
 
 ---
+
+## 18.10 bis · Uniones convivenciales — arts. 509 a 528, el fondo
+
+Cotejado contra `fuentes/normas/ccycn-26994.txt`, Título III del Libro Segundo. **Lo primero
+que decide todo es si hay unión en los términos del Código**: relación afectiva **singular,
+pública, notoria, estable y permanente**, de dos personas que conviven y comparten un proyecto
+de vida, del mismo o de distinto sexo (art. 509), y **los cinco requisitos del art. 510**: mayores
+de edad, sin parentesco en línea recta ni colateral hasta el segundo grado, sin afinidad en línea
+recta, **sin impedimento de ligamen ni otra convivencia registrada**, y **convivencia no inferior
+a dos años**. Sin eso no hay compensación ni atribución de vivienda: hay, a lo sumo,
+enriquecimiento sin causa.
+
+**Registración y prueba (arts. 511 y 512).** La inscripción en el registro local es **sólo a los
+fines probatorios**, la piden los dos, y no procede una nueva sin cancelar la anterior; la unión
+**se prueba por cualquier medio** y la inscripción es prueba suficiente. Pero **dos efectos
+dependen de que esté inscripta**: la protección de la vivienda y su inejecutabilidad (art. 522).
+
+**Pactos (arts. 513 a 517).** El régimen del Título rige **salvo pacto en contrario**, escrito,
+que **no puede dejar sin efecto** la asistencia, la contribución a los gastos, la responsabilidad
+solidaria por deudas del hogar ni la protección de la vivienda (arts. 519 a 522). Pueden regular
+la contribución a las cargas, la atribución del hogar en la ruptura y la división de los bienes
+obtenidos por esfuerzo común (art. 514); no pueden ser contrarios al orden público, a la igualdad
+ni a los derechos fundamentales (art. 515); se modifican y rescinden de común acuerdo, y **el cese
+de la convivencia los extingue de pleno derecho hacia el futuro** (art. 516); son oponibles a
+terceros **desde su inscripción** en el registro de uniones y en los de los bienes (art. 517).
+
+**Durante la convivencia (arts. 518 a 522).** Sin pacto, **cada uno administra y dispone
+libremente de lo suyo** (art. 518), con tres deberes que no se pactan en contra: asistencia (art.
+519), contribución a los gastos del hogar según el art. 455 (art. 520) y **solidaridad** por las
+deudas que uno contrae para las necesidades ordinarias del hogar y el sostenimiento de los hijos,
+por remisión al art. 461 (art. 521). Si la unión está inscripta, **ninguno dispone de la vivienda
+familiar ni de sus muebles indispensables sin el asentimiento del otro**; la nulidad del acto
+caduca a los **seis meses** de conocido, y sólo mientras siga la convivencia; y **la vivienda no
+puede ser ejecutada por deudas posteriores a la inscripción** salvo que las hayan contraído los
+dos o uno con asentimiento del otro (art. 522).
+
+**Cese y sus efectos (arts. 523 a 528).** Causas del art. 523: muerte, ausencia con presunción de
+fallecimiento, matrimonio o nueva unión de uno, matrimonio entre ellos, mutuo acuerdo, **voluntad
+unilateral notificada fehacientemente** y cese de la convivencia, que no se interrumpe por
+motivos laborales si queda la voluntad de vida en común. La **compensación económica** de los
+arts. 524 y 525 es la de 18.9, con dos diferencias frente al matrimonio: la renta **no puede
+durar más que la unión**, y la acción **caduca a los seis meses** de cualquiera de las causas del
+art. 523, que es lo primero que se computa. La **atribución de la vivienda** (art. 526) procede si
+uno tiene a cargo hijos menores, con capacidad restringida o con discapacidad, o acredita extrema
+necesidad, **por un plazo que no excede de dos años desde el cese**, con renta compensatoria e
+indisponibilidad a pedido de parte; el conviviente no locatario sigue en la locación hasta su
+vencimiento. Muerto uno, el supérstite sin vivienda tiene **habitación gratuita por dos años**
+sobre el último hogar, inoponible a los acreedores del causante (art. 527). Y la regla que
+decide la mayoría de los pleitos: **a falta de pacto, los bienes quedan en el patrimonio al que
+ingresaron**, sin perjuicio del enriquecimiento sin causa y la interposición de personas (art.
+528). Las caducidades van a `plazos.md` 8.5 bis.
+
+`[REVISIÓN NORMATIVA REQUERIDA: este bloque recorre los arts. 509 a 528 del CCyCN. El registro local de uniones convivenciales de PBA y su reglamentación NO están descargados. Sin fallo cargado sobre el art. 528, que es el más litigado: enriquecimiento sin causa y sociedad de hecho entre convivientes van con marcador]`
+
+## 18.10 ter · Adopción — arts. 594 a 637: tres etapas, tres tipos y una prohibición
+
+Cotejado contra `fuentes/normas/ccycn-26994.txt`, Título VI del Libro Segundo. La adopción
+**se otorga sólo por sentencia** y emplaza en el estado de hijo (art. 594), bajo seis principios
+del art. 595, dos de los cuales deciden expedientes: el **agotamiento de las posibilidades de
+permanencia en la familia de origen o ampliada**, y el **consentimiento obligatorio del niño desde
+los diez años**.
+
+**Quién puede (arts. 597 a 603).** Adoptables: los menores no emancipados **declarados en
+situación de adoptabilidad** o cuyos padres fueron privados de la responsabilidad parental; el
+mayor sólo si es hijo del cónyuge o conviviente o hubo posesión de estado de hijo (art. 597).
+Adoptantes: un matrimonio, **los dos integrantes de una unión convivencial** o una persona sola,
+con **dieciséis años más que el adoptado** salvo adopción de integración (art. 599); con **cinco
+años de residencia** salvo argentinos o naturalizados, e **inscriptos en el registro de
+adoptantes** (art. 600); no antes de los **veinticinco años** salvo que el cónyuge o conviviente los
+cumpla, ni el ascendiente al descendiente ni entre hermanos (art. 601). Casados y convivientes
+adoptan **conjuntamente**, salvo incapacidad del otro o separación de hecho (arts. 602 y 603).
+
+**Etapa uno: la declaración judicial de adoptabilidad (arts. 607 a 609).** Procede en tres
+supuestos: sin filiación o padres fallecidos, agotada la búsqueda de familiares **en treinta
+días** prorrogables una vez; **decisión libre e informada de los padres, válida sólo después de
+los cuarenta y cinco días del nacimiento**; o **medidas excepcionales que no dieron resultado en
+ciento ochenta días**, con dictamen del organismo administrativo comunicado al juez en
+veinticuatro horas. **No se dicta si un familiar o referente afectivo ofrece la guarda** y es
+adecuado, y el juez **resuelve en noventa días** (art. 607). Son parte el niño con asistencia
+letrada si tiene edad y madurez, los padres, el organismo y el Ministerio Público (art. 608);
+tramita ante el juez que controló las medidas excepcionales, con **entrevista personal
+obligatoria** con padres y niño, y la sentencia manda remitir en diez días los legajos del
+registro de adoptantes (art. 609).
+
+**La prohibición (art. 611).** **Queda prohibida la entrega directa en guarda**, por escritura,
+acto administrativo o por los propios progenitores; el juez puede separar al niño del pretenso
+guardador, salvo parentesco comprobado; y **ni la guarda de hecho ni la guarda judicial ni la
+delegación de la responsabilidad parental se consideran a los fines de la adopción**.
+
+**Etapa dos: la guarda con fines de adopción (arts. 612 a 614).** La discierne **el mismo juez**
+que declaró la adoptabilidad, eligiendo entre los legajos del registro con las pautas del art. 613
+y **citando al niño**, y **no puede exceder los seis meses** (art. 614).
+
+**Etapa tres: el juicio (arts. 615 a 618).** Competente el juez de la guarda o, a elección de los
+pretensos adoptantes, el del centro de vida del niño; lo inicia el juez de oficio o a pedido de
+parte cumplida la guarda; son parte los adoptantes y el adoptado, con abogado si tiene madurez;
+el juez **lo oye personalmente**, intervienen el Ministerio Público y el organismo, el **mayor de
+diez años consiente expresamente**, y las audiencias son privadas y el expediente reservado (art.
+617). La sentencia **retrotrae sus efectos a la fecha de la guarda**, y en la adopción de
+integración a la promoción de la acción (art. 618).
+
+**Tres tipos (arts. 619 a 631).** La **plena** extingue los vínculos con la familia de origen,
+salvo impedimentos matrimoniales, y es **irrevocable**, aunque la acción de filiación contra los
+progenitores queda abierta a los solos fines alimentarios y sucesorios (arts. 620 y 624). La
+**simple** confiere el estado de hijo sin crear vínculo con los parientes del adoptante:
+transfiere la responsabilidad parental, conserva el derecho de comunicación de la familia de
+origen y los alimentos subsidiarios contra ella, y admite mantener el apellido de origen (art.
+627). La **de integración** —el hijo del cónyuge o conviviente— **siempre mantiene el vínculo con
+el progenitor de origen** (art. 630), y con el adoptante produce efectos de plena si el adoptado
+tenía un solo vínculo filial, o los que el juez fije si tenía dos (art. 631). El juez elige plena
+o simple por el interés superior y **puede mantener vínculos con parientes de origen en la plena
+o crearlos en la simple**, a pedido de parte y por motivos fundados (art. 621).
+
+**Nulidades (arts. 634 y 635).** Absolutas: edad del adoptado, diferencia de edad, hecho ilícito
+antecedente, adopción simultánea por más de una persona que no sean cónyuges o convivientes,
+de descendientes, entre hermanos, **sin declaración de adoptabilidad**, **sin inscripción en el
+registro** y sin consentimiento del mayor de diez años a su pedido. Relativas: edad mínima del
+adoptante, vicios del consentimiento y derecho a ser oído.
+
+El precedente de la Corte sobre guarda con fines de adopción, *"D., H. C. y otros"*, Fallos
+346:287, está leído en `fallos-csjn.md` 34.5, y el interés superior de 18.4 rige todo el trámite.
+
+`[REVISIÓN NORMATIVA REQUERIDA: este bloque recorre los arts. 594 a 603, 607 a 609, 611 a 621, 624, 627, 630, 631, 634 y 635 del CCyCN. El registro de adoptantes de PBA -su ley y su reglamentación-, los arts. 604 a 606 y 622 a 623 y el proceso local ante el fuero de familia NO están recorridos. Sin fallo cargado de la SCBA sobre entrega directa ni sobre el plazo de la guarda]`
+
+## 18.10 quater · Niñez: el sistema de protección y las medidas — Leyes 26.061 y 13.298
+
+Cotejadas contra `fuentes/normas/ley-26061.txt` y `fuentes/normas/pba-ley-13298.txt`. Son dos
+capas que se leen juntas: la ley nacional fija los principios y el diseño del sistema, y la
+provincial pone los órganos que actúan en cada municipio.
+
+**La ley nacional (26.061).** Protección integral de los derechos de niñas, niños y adolescentes,
+con la **Convención sobre los Derechos del Niño de aplicación obligatoria** en todo acto que los
+afecte hasta los dieciocho años, y derechos de orden público, irrenunciables e intransigibles
+(arts. 1 y 2). El **interés superior** es la máxima satisfacción integral y simultánea de sus
+derechos, con el **centro de vida** —donde transcurrió legítimamente la mayor parte de su
+existencia— como criterio, y prevalece ante otros intereses igualmente legítimos (art. 3). Cuatro
+reglas que deciden expedientes: **la falta de recursos materiales de la familia no autoriza la
+separación ni la institucionalización** (art. 33); en todo procedimiento el niño tiene derecho a
+**ser oído, a que su opinión se tenga primordialmente en cuenta, a un abogado preferentemente
+especializado —de oficio si carece de recursos—, a participar y a recurrir** (art. 27); los
+establecimientos educativos y de salud y todo funcionario **deben comunicar** la vulneración de
+derechos a la autoridad administrativa (art. 30); y **ninguna medida puede consistir en privación
+de la libertad** (arts. 36 y 41 inc. e). Las **medidas de protección** del art. 37 son las que
+preservan la convivencia familiar —becas, programas de apoyo, tratamiento, asistencia económica—,
+y se aplican primero (art. 35). Las **medidas excepcionales** del art. 39 —separar al niño de su
+medio familiar— proceden sólo agotadas aquéllas, las decide la autoridad administrativa local por
+acto fundado, **se notifican dentro de las veinticuatro horas al juez de familia**, que **resuelve
+su legalidad en setenta y dos horas** con citación de los representantes legales (art. 40); son
+limitadas en el tiempo, priorizan la familia ampliada, preservan la convivencia de hermanos y
+**no pueden fundarse en la falta de recursos del organismo** (art. 41).
+
+**La ley bonaerense (13.298).** Alcanza a las personas desde la concepción hasta los dieciocho
+años (art. 2), con la contención en el núcleo familiar como objetivo (art. 3) y el interés
+superior definido igual (art. 4). El sistema funciona por **Servicios Locales de Protección de
+Derechos en cada municipio** (art. 18), que buscan la alternativa que evite separar al niño de
+su familia. Las **medidas de protección** las disponen esos Servicios ante la amenaza o violación
+de derechos (art. 32); son **limitadas en el tiempo, se revisan periódicamente**, **nunca
+privan de la libertad ambulatoria** y **el abandono del programa por el niño no se sanciona ni
+admite coerción** (art. 33, texto Ley 13.634; art. 36). El catálogo del art. 35, texto **Ley
+14.537**, va del apoyo a la familia a la asistencia económica, e incluye en el inc. l la
+**permanencia temporal, excepcional y provisional, en ámbitos familiares alternativos o
+entidades**, que es la medida de abrigo y remite *"al artículo siguiente"*. El procedimiento es
+administrativo: el pedido ante el Servicio Local, la denuncia policial que se le comunica de
+inmediato (art. 37), la **audiencia con el equipo técnico** donde se explican el sistema, los
+programas y el carácter consensuado de la decisión (art. 38), y el **acta** con la solución
+propuesta y el plan de seguimiento, firmada por todos (art. 39). El art. 40, que preveía el fuero
+del niño, está **derogado por la Ley 13.634**, que es la del fuero y del proceso: para el menor
+imputado, `penal-juvenil-pba.md` 36. El puente con la adopción está en 18.10 ter: las medidas
+excepcionales que no dan resultado en **ciento ochenta días** abren la declaración de
+adoptabilidad del art. 607 inc. c del CCyCN.
+
+`[REVISIÓN NORMATIVA REQUERIDA: este bloque recorre los arts. 1 a 3, 7, 27, 30, 32 a 42 de la Ley 26.061 y los arts. 1 a 5, 14, 18, 32 a 40 de la Ley 13.298. El art. 35 bis de la Ley 13.298 -la medida de abrigo, texto Ley 14.537-, el Decreto 300/05 reglamentario y la Ley 13.634 en su parte de familia NO están recorridos: el plazo de la medida de abrigo y su control judicial salen de ahí. Sin fallo cargado]`
 
 ## 18.11 · Lo que este módulo NO hace
 

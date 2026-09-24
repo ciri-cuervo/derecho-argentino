@@ -47,6 +47,166 @@ mapa; estas consultas miden el manejo.
 
 ---
 
+### R98 · Soy oficial de la Bonaerense, me desafectaron por un sumario y me descuentan la mitad del sueldo. ¿Es legal y cuándo lo recupero?
+
+esperado: `empleo-publico.md`
+
+Vigila que se lea 49.5.5 y no 49.5.4: la Ley 13.982 -arts. 19 a 22- retiene el cincuenta por ciento y lo devuelve de oficio si el sumario termina en amonestación, suspensión de hasta treinta días, sobreseimiento o absolución. Rutear a la Ley 10.430 contestaría con el estatuto equivocado.
+
+### R97 · Una empresa fue sancionada con inhabilitación por un organismo nacional por incumplir una orden de compra. ¿Cómo la impugna?
+
+esperado: `administrativo-nacional.md`
+
+Vigila que se lea 46.5 sexies con 46.5 quater: la sanción del art. 29 del Decreto 1023/2001 se recurre por el Decreto 1759/72 y, agotada la vía, va al fuero contencioso administrativo federal. Rutear a `contencioso-pba.md` sería el error: el organismo es nacional.
+
+### R96 · Le reclamé a un ministerio nacional hace ocho meses y no contestan. ¿Ya puedo demandar? ¿Y una cautelar para que me paguen mientras tanto?
+
+esperado: `administrativo-nacional.md`
+
+Vigila que se lea 46.5 quinquies: seis meses más pronto despacho y otros tres -art. 2 de la Ley 3.952-, y la cautelar de pago choca con el art. 9 de la Ley 26.854 y con los cinco requisitos de la medida positiva del art. 14. Rutear sólo a 46.3 dejaría la cautelar sin su ley.
+
+### R95 · Perdí una licitación del Ministerio de Salud de la Provincia y la adjudicación salió publicada en el sistema de compras el viernes. ¿Cuándo vence el plazo para impugnar?
+
+esperado: `contencioso-pba.md`
+
+Vigila que se lea 26.9 ter: la notificación se tiene por hecha el día hábil siguiente a la publicación -art. 12- y no rige el Capítulo X del Decreto-Ley 7.647/70; la impugnación no suspende, el recurso administrativo sí va por la 7.647. Rutear sólo a 26.4 bis contestaría con la cédula que acá no existe.
+
+### R94 · Me pararon en Ezeiza con tres celulares sin declarar que valen unos ochocientos mil pesos. ¿Es delito o multa?
+
+esperado: `penal-leyes-especiales.md`
+
+Vigila que se lea 24.9.11: por encima de quinientos mil de valor en plaza el hecho es contrabando y no la infracción del art. 947, y las accesorias del art. 876 se aplican en sede judicial o administrativa según el art. 1026. Rutear a `penal.md` a secas contestaría sin el umbral.
+
+### R93 · Alguien entró a mi cuenta de correo, sacó fotos privadas y me amenaza con publicarlas. ¿Qué delitos son y dónde denuncio?
+
+esperado: `penal-leyes-especiales.md`
+
+Vigila que se lea 24.9.10: acceso indebido a una comunicación electrónica -art. 153- o a un sistema -art. 153 bis-, y la amenaza va por el Código. Rutear a `violencia-de-genero.md` puede corresponder además, no en lugar de: la fila mide que se abra el tipo penal.
+
+### R92 · Me llegó un mandamiento de ARBA por ingresos brutos de 2016 con embargo de la cuenta. ¿Tengo cinco días? ¿Puedo decir que está prescripto?
+
+esperado: `tributario-pba.md`
+
+Vigila que se lea 54.5 ter y no `titulos-ejecutivos.md`: cinco días para oponer excepciones, la prescripción está en la lista taxativa del art. 9, y el embargo se dispuso en veinticuatro horas sin caución. El cómputo de la prescripción va al Código Fiscal en 54.3.
+
+### R91 · ARCA me sacó del monotributo por depósitos bancarios que no coinciden con lo que facturo. ¿Cómo lo discuto y cuándo puedo volver?
+
+esperado: `tributario.md`
+
+Vigila que se lea 33.3 bis: la exclusión opera desde la cero hora de la causal, el recurso es el del art. 74 del Decreto 1397/79 y no el del art. 76 de la 11.683, y el reingreso espera tres años calendario. Los montos de las categorías no se citan.
+
+### R90 · Quiero armar una SAS unipersonal con mi hermano como director. ¿Cuánto capital necesito y de qué respondo?
+
+esperado: `societario.md`
+
+Vigila que se lea 31.3 quinquies y no 31.1: dos salarios mínimos de capital, veinticinco por ciento integrado al suscribir, y la garantía solidaria por la integración del art. 43. Rutear sólo a la LGS contestaría con un tipo que no es.
+
+### R89 · Hago doce horas por día en una fábrica, seis días por semana, y me pagan todo como jornal simple. ¿Qué me deben?
+
+esperado: `laboral.md`
+
+Vigila que se lea 5.17 septies junto con 5.4: ocho y cuarenta y ocho son el tope de la Ley 11.544, el recargo es del cincuenta por ciento y del cien en feriados, y las excepciones del art. 3 tienen el texto de la Ley 27.802. La liquidación va al script con el valor hora que aporte el usuario.
+
+### R88 · Trabajo desde casa desde la pandemia y ahora me exigen volver a la oficina de un día para otro. ¿Pueden?
+
+esperado: `laboral-licencias.md`
+
+Vigila que se lea 5.14 bis y no sólo el ius variandi de `laboral.md`: si el contrato empezó presencial y pasó a teletrabajo, la reversión es un derecho del trabajador -art. 8-, y si nació como teletrabajo el cambio va por el convenio. La fecha de inicio es lo primero que hay que preguntar.
+
+### R87 · El Servicio Local se llevó a mi hijo a un hogar hace tres días y no me dijeron por cuánto tiempo. ¿Qué puedo hacer?
+
+esperado: `familia.md`
+
+Vigila que se lea 18.10 quater: la medida excepcional se notifica al juez en veinticuatro horas y éste revisa la legalidad en setenta y dos -art. 40 de la Ley 26.061-, y el plazo de abrigo del art. 35 bis va con marcador. Rutear a `penal-juvenil-pba.md` sería el error: no hay imputado.
+
+### R86 · Una vecina me dio a su bebé para que lo críe y quiero adoptarlo. ¿Cómo se hace?
+
+esperado: `familia.md`
+
+Vigila que se lea 18.10 ter: la entrega directa está prohibida por el art. 611 y la guarda de hecho no se considera para adoptar, salvo parentesco. Una respuesta que explique el trámite sin decir eso primero reprueba aunque cite bien las tres etapas.
+
+### R85 · Conviví seis años con mi pareja sin casarnos, la casa está a su nombre y nos separamos. ¿Tengo derecho a algo?
+
+esperado: `familia.md`
+
+Vigila que se lea 18.10 bis y no 18.9: sin pacto los bienes quedan en el patrimonio de cada uno -art. 528-, la compensación caduca a los seis meses y la vivienda se atribuye por hasta dos años. Rutear al perfil heredado sería el error: la fila está absorbida.
+
+### R84 · Firmé un boleto de compraventa y me dicen que el escribano pidió el certificado el lunes y hay un embargo anotado el miércoles. ¿Quién gana?
+
+esperado: `derechos-reales.md`
+
+Vigila que se lea 45.5 bis: la reserva de prioridad del art. 25 depende de que la escritura se otorgue dentro de la vigencia del certificado y se presente en cuarenta y cinco días. Rutear a `contratos.md` contestaría el boleto donde la pregunta es registral.
+
+### R83 · Soy administrador de un consorcio de Quilmes y un propietario debe ocho meses de expensas. ¿Con qué le inicio la ejecución y qué me puede oponer?
+
+esperado: `derechos-reales.md`
+
+Vigila que se lea 45.4 y no sólo `titulos-ejecutivos.md`: el certificado del art. 2048 con aprobación del consejo es el título, y el art. 2049 cierra las defensas salvo compensación. Rutear sólo a `procesos-especiales.md` sería el error de esta fila.
+
+### R82 · Me llegó el resumen de la tarjeta con dos compras que no hice y vence en cuatro días. ¿Qué hago y hasta cuándo?
+
+esperado: `consumidor.md`
+
+Vigila que se lea 17.11.7 y no sólo la LDC: treinta días para impugnar por nota simple, el emisor no puede bloquear la tarjeta mientras tanto, y pagar el mínimo no es aceptar. Rutear a `titulos-ejecutivos.md` sería el error de esta fila: el saldo de tarjeta no es título ejecutivo.
+
+### R81 · Cobro la AUH por mis dos hijos y me la suspendieron porque el más chico no tiene el control del año. ¿Es así?
+
+esperado: `previsional.md`
+
+Vigila que se lea 32.4 quater: hasta los cuatro años los controles sanitarios condicionan el veinte por ciento reservado, no el ochenta mensual, y los montos no salen de la ley. Rutear a `salud-discapacidad.md` sería contestar cobertura donde la pregunta es la asignación.
+
+### R80 · Un oficial albañil trabajó dos años para una constructora de Berazategui, lo echaron ayer y no le dieron la libreta. ¿Qué le corresponde?
+
+esperado: `laboral.md`
+
+Vigila que se lea 5.17 sexies y no se liquide con el art. 245: hay fondo de cese y no indemnización, la libreta se entrega en cuarenta y ocho horas, y la intimación de dos días hábiles abre la indemnización de treinta a noventa días. Correr `liquidacion_lct.py` sería el error de esta fila.
+
+### R79 · Soy empleado municipal de Quilmes con ocho años de planta y me dejaron cesante por inasistencias sin sumario. ¿Qué recurso tengo y cuánto plazo?
+
+esperado: `empleo-publico.md`
+
+Vigila que se lea 49.5.4 y no la Ley 25.164: rige la Ley 14.656, la cesantía exige sumario previo, el recurso es revocatoria o jerárquico ante quien sancionó, y la prescripción disciplinaria municipal es de doce meses. Rutear a `laboral.md` sería contestar con la LCT, que el art. 2 inc. a excluye.
+
+### R78 · Me notificaron por TAD que rechazaron mi pedido en un organismo nacional y la notificación no dice qué recurso tengo. ¿Qué hago?
+
+esperado: `administrativo-nacional.md`
+
+Vigila que se lea 46.5 quater: la notificación que no indica el recurso y el plazo es inválida por el art. 40 del reglamento, la reconsideración son veinte días y el jerárquico treinta, y pedir vista suspende los plazos. Rutear sólo a la LNPA de 46.4 deja la pregunta sin contestar.
+
+### R77 · ARBA me rechazó un reclamo por resolución de un director y quiero llegar a la justicia. ¿Tengo que recurrir antes, y en qué plazo?
+
+esperado: `contencioso-pba.md`
+
+Vigila que se lea 26.4 bis además de 26.4: la revocatoria y el jerárquico son de diez días hábiles, el jerárquico contra el acto de un director lo resuelve el Poder Ejecutivo, y el acto dictado con intervención del interesado que deja expedita la acción no necesita jerárquico. Rutear a `tributario-pba.md` solo contesta el fondo y no la vía.
+
+
+### R76 · Una empleada que trabaja tres veces por semana en una casa de familia de Lanús fue despedida sin causa después de cuatro años, nunca registrada. ¿Qué le corresponde y dónde se reclama?
+
+esperado: `laboral.md`
+
+Vigila que el módulo se lea hasta 5.17 quinquies y no se conteste con el art. 245: el preaviso,
+la integración y la indemnización son los de la Ley 26.844, **no hay multas de las Leyes 24.013,
+25.323 ni 25.345**, el art. 50 está derogado, y el Tribunal del Título XII es de Capital Federal.
+Rutear a `liquidacion_lct.py` sería el error de esta fila.
+
+### R75 · Mi defendido está imputado por homicidio agravado en Lomas de Zamora y el fiscal ya pidió la elevación a juicio. ¿Puedo evitar el jurado?
+
+esperado: `penal.md`
+
+Vigila la ventana del art. 22 bis: la renuncia se hace en el plazo del art. 336 y **firme la
+requisitoria ya no se puede**, bajo pena de nulidad. Rutear sólo a `penal-impugnacion.md` sería
+contestar sobre el recurso cuando la pregunta es sobre la etapa.
+
+### R74 · Rescataron a una mujer de un departamento donde la obligaban a prostituirse; ella dice que había aceptado venir a trabajar. ¿Qué delito es, quién investiga y qué pasa con lo que ella hizo mientras estaba ahí?
+
+esperado: `penal-leyes-especiales.md`
+
+Vigila tres cosas del mismo módulo: que el tipo se lea en el **Código Penal** con texto de la Ley
+26.842 y no en los arts. 10 y 11 de la ley especial; que el **consentimiento no exime**; y que la
+víctima **no es punible** por el art. 5. Rutear a `penal.md` sería contestar el proceso sin el
+encuadre.
+
+
 ### R61 · Mi cliente tiene condena firme y quiere pedir salidas transitorias. Está alojado en una unidad de PBA. ¿Qué pido y ante quién?
 
 esperado: `ejecucion-penal.md`

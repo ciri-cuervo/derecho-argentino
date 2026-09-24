@@ -6,199 +6,181 @@
   </picture>
 </p>
 
-# Derecho argentino · skill para agentes de IA
+<h1 align="center">Derecho argentino</h1>
 
 <p align="center">
-  <a href="CHANGELOG.md"><img src="assets/marca/chapa-version.png" width="105" height="32" alt="Versión 1.3.1"></a>
+  <b>Un asistente jurídico para Claude y ChatGPT que no inventa:<br>
+  cuando no puede verificar un dato, te lo dice.</b>
+</p>
+
+<p align="center">
+  <a href="CHANGELOG.md"><img src="assets/marca/chapa-version.png" width="106" height="32" alt="Versión 1.4.0"></a>
   <a href="LICENCIAS.md"><img src="assets/marca/chapa-licencia.png" width="168" height="32" alt="Licencias: contenido CC BY-SA 4.0, código MIT"></a>
-  <img src="assets/marca/chapa-python.png" width="135" height="32" alt="Requiere Python 3">
   <img src="assets/marca/chapa-agentes.png" width="172" height="32" alt="Corre en Claude y Codex (ChatGPT)">
 </p>
 
-Skill de análisis, redacción y revisión jurídica bajo **derecho argentino**, para trabajar tanto
-**desde una parte** como **desde el órgano jurisdiccional**.
-
-**Lo que la define es lo que se niega a hacer.** Cuando le falta un dato **lo dice y se planta**,
-en vez de entregar el dato plausible que nadie va a revisar — que es la forma en que un asistente
-jurídico hace daño de verdad. Abajo está, punto por punto, con qué lo sostiene.
-
-> [!NOTE]
-> **Está en desarrollo temprano.** Lo que hay son **68 módulos**, y cada uno lleva su propia
-> **fecha de verificación contra fuente primaria**. Donde todavía no hay módulo auditado, la skill
-> abre el material heredado del repositorio y **avisa cada vez que ese material no pasó
-> auditoría** — no lo presenta como verificado. La cobertura crece módulo por módulo; lo que no
-> cambia es la regla de decir de dónde sale cada cosa.
->
-> **Qué ramas hay cubiertas y cuáles no**, cruzado contra una taxonomía traída de afuera y con su
-> fecha de relevamiento: [`docs/COBERTURA.md`](docs/COBERTURA.md). Es un mapa para decidir por
-> dónde crece, no un enunciado de alcance: **el alcance es el derecho argentino**.
-
-[Qué hace distinto](#-qué-hace-distinto) · [Instalar](#-instalar) · [Armar el proyecto](#-armar-el-proyecto) · [Usar](#-usar) ·
-[Comandos](#comandos) · [Contar cómo te fue](#-contar-cómo-te-fue) ·
-[Cómo está armado](docs/ARQUITECTURA.md) · [Desarrollar](docs/DESARROLLO.md)
+<p align="center">
+  <a href="#-instalar"><b>Instalar</b></a> ·
+  <a href="#-qué-le-podés-pedir">Qué le podés pedir</a> ·
+  <a href="#-así-se-ve">Un ejemplo</a> ·
+  <a href="#-si-algo-no-anda">Si algo no anda</a> ·
+  <a href="#-contar-cómo-te-fue">Contar cómo te fue</a>
+</p>
 
 <img src="assets/marca/separador.png" width="100%" alt="">
 
-## 🔍 Qué hace distinto
+**Para abogados, jueces y personal de tribunales.** Se instala en la app de Claude o en la de
+ChatGPT, y después se le habla como a un colega: le contás el caso y te devuelve la norma
+aplicable, el cálculo o el borrador, **con la fuente de cada cosa a la vista**. No hace falta saber
+programar ni configurar nada.
 
-**No inventa.** Ninguna cita de fallo sin carátula, causa y fecha verificadas. Ningún monto de
-memoria. Cuando falta un dato sale un **marcador canónico** que dice exactamente qué falta para
-resolverlo, en vez de una estimación plausible.
+**Lo que lo distingue es lo que se niega a hacer.** No cita un fallo que no tenga verificado, no
+completa un monto de memoria y no da por sentado desde dónde consultás. Cuando le falta algo, lo
+deja marcado y te dice qué falta, en vez de entregarte un dato plausible que nadie va a revisar.
 
-**Pregunta antes de asumir.** No hay rol por defecto —puede estar preguntando un abogado de parte,
-un juez, un empleado de un tribunal— ni régimen por defecto: en el fuero laboral bonaerense
-conviven la Ley 11.653 y la Ley 15.057 según la fecha de la audiencia de vista, y la skill
-pregunta esa fecha antes de citar un código procesal.
+## 🧭 Qué le podés pedir
 
-**Fuente primaria offline.** `derecho/fuentes/` guarda el texto consolidado de **236 normas** y
-**93 fallos**, cada uno con su URL, su fecha de descarga y su hash SHA-256. `verificar_normas.py`
-vuelve a pedirlos y sale con código 1 si alguno cambió: es una alarma de reforma legislativa, no
-un backup.
+| Le pedís… | Y te devuelve… |
+| --- | --- |
+| 💼 **Liquidar un despido** | El régimen que rige según la fecha, cada rubro con su artículo, y el tope que falta cargar marcado como tal |
+| 📅 **Contar un plazo** | El vencimiento con ferias, feriados y plazo de gracia, y cuándo quedó notificado en PBA |
+| 💰 **Actualizar un crédito o regular honorarios** | La cuenta hecha con la serie oficial —jus, UMA, IPC— y el criterio que la sostiene |
+| 📚 **Qué dice la ley hoy** | El artículo vigente, la reforma que lo cambió y desde cuándo |
+| ✍️ **Revisar o armar un escrito** | Lo que falta, lo que se cita mal y lo que conviene preguntar antes de presentar |
+| ⚖️ **Trabajar desde el juzgado** | La sentencia o el proveído del lado del órgano: qué se controla de oficio y qué no se construye |
 
-**Aritmética con scripts, no a ojo.** Liquidación por extinción, cómputo de plazos hábiles con
-ferias y feriados trasladables, intereses, honorarios y aportes en PBA, y la conversión entre pesos
-y UMA que el art. 51 de la Ley 27.423 exige en la justicia nacional. Los scripts **no traen
-montos**: piden el tope del art. 245, el valor del jus o el índice, y antes que inventar un número
-salen con código 2.
+El alcance es el **derecho argentino**, y lo que ya está auditado crece versión a versión: hoy son
+**68 módulos**, cada uno con su fecha de verificación contra el texto oficial. Donde todavía no hay
+módulo, la skill abre material de apoyo y **avisa cada vez que ese material no está auditado**. El
+mapa de lo cubierto está en [`docs/COBERTURA.md`](docs/COBERTURA.md).
+
+## 🛡️ Por qué podés confiar en lo que te dice
+
+**📜 Trabaja con los textos oficiales, sin conexión.** Trae guardado el texto consolidado de
+**269 normas** y **99 fallos**, bajados de InfoLEG, el Boletín Oficial, `normas.gba.gob.ar`, SAIJ y
+JUBA, cada uno con su dirección de origen y su fecha. Una vez por semana se vuelve a comparar
+cada norma contra el sitio oficial para detectar una reforma.
+
+**🔢 Las cuentas las hace una calculadora, no el modelo.** La liquidación, los plazos, los
+intereses y los honorarios salen de programas que siempre dan el mismo resultado con los mismos
+datos. Si falta un valor —el tope del art. 245, el jus del mes— la calculadora no lo inventa: se
+detiene y lo pide.
+
+**🙋 Pregunta antes de asumir.** No da por sentado si consultás por una parte o desde un
+tribunal, ni qué régimen rige: en el fuero laboral bonaerense conviven dos códigos procesales según
+la fecha de la audiencia de vista, y la skill pregunta esa fecha antes de citar uno.
+
+**🏷️ Marca lo que no pudo verificar.** Un dato que no se pudo confirmar sale como
+`[VERIFICAR ...]`, con lo que falta para resolverlo. Es una señal para vos, no un error: se completa
+antes de presentar.
+
+## 👀 Así se ve
+
+Caso inventado. Lo que importa está al final: el número que **no** da.
+
+```text
+Vos:    Liquidación por despido sin causa. Ingresó el 03/03/2019, la despidieron el
+        10/08/2026, mejor remuneración $1.450.000. Fábrica en Quilmes.
+
+Skill:  Antes de liquidar, dos cosas que no asumo: ¿consultás por la trabajadora, por la
+        empleadora o desde un tribunal? ¿Y el reclamo va por el fuero laboral bonaerense?
+
+Vos:    Por la trabajadora. Laboral PBA.
+
+Skill:  Acto extintivo del 10/08/2026: rige la LCT con la Ley 27.802. Corrí la calculadora
+        y transcribo su salida; antes del resultado, los datos que tomó:
+          fecha ingreso 2019-03-03 · fecha extinción 2026-08-10 · antigüedad 7 años y 5 meses
+          Indemnización por antigüedad   11.600.000,00   Art. 245 LCT   base 1.450.000 x 8
+          Indemnización sustitutiva de preaviso   2.900.000,00   Arts. 232 y 231 LCT
+          [...]
+        Sin tope informado: la base del art. 245 se calculó SIN tope y el resultado no es
+        definitivo hasta cargar el tope del CCT del período. No lo cito de memoria:
+          [VERIFICAR MONTO ACTUALIZADO: tope art. 245 LCT - CCT aplicable, resolución del MTEySS del período del acto extintivo]
+          [VERIFICAR CCT APLICABLE: actividad del empleador - tope art. 245 y escalas salariales del período]
+        Los agravantes de las Leyes 24.013 y 25.323 están derogados para esta fecha: no van.
+```
 
 <img src="assets/marca/separador.png" width="100%" alt="">
 
 ## 📥 Instalar
 
-**No hay que saber programar ni configurar nada.** Se instala por menú, como cualquier programa, y
-después se le habla en castellano: la skill se activa sola cuando le preguntás algo de derecho
-argentino.
-
-**Funciona en las dos apps de escritorio —Claude y Codex (ChatGPT)— y en las dos consolas**, en
-Windows, Linux y macOS. Todos los caminos llevan al mismo lugar y **alcanza con hacer uno**. Si no
-sabés cuál, andá al de la app de Claude: es el más corto y el que menos cosas pide.
+Se instala por menú, como cualquier programa, y **alcanza con hacerlo una vez**. Si no sabés qué
+camino elegir, usá la app de Claude: es el más corto.
 
 > [!IMPORTANT]
-> **La descarga son unos 85 MB** y son casi todo normas y fallos, para que la skill pueda
-> trabajar sin conexión. Tarda un rato la primera vez y no hay que volver a hacerlo.
+> **La descarga son unos 87 MB**, casi todo normas y fallos, para que funcione sin conexión. La
+> primera vez tarda un rato.
 
-### Desde la app de escritorio
-
-Es el camino sin consola: todo por menú. En las dos apps, en algún momento te va a pedir una
-dirección. **Es siempre esta, y es lo único que hay que copiar y pegar:**
+En algún momento la app te va a pedir una dirección. **Es siempre esta, y es lo único que hay que
+copiar y pegar:**
 
 ```text
 ciri-cuervo/derecho-argentino
 ```
 
-#### <img src="assets/logos/claude.svg" height="20" alt=""> En la app de Claude
+### <img src="assets/logos/claude.svg" height="20" alt=""> En la app de Claude
 
-**1 · Instalá la app.** Bajá [Claude](https://claude.com/download) para tu sistema —Windows, Mac o
-Linux—, instalalo y abrilo. La primera vez pide iniciar sesión.
+1. **Bajá la app** desde [claude.com/download](https://claude.com/download), instalala y abrila.
+   La primera vez pide iniciar sesión.
+2. **Agregá el catálogo.** En la barra lateral: **Personalizar** → pestaña **Plugins** →
+   **Agregar** → *Agregar marketplace* → *Agregar desde un repositorio*, y en *URL* pegá la
+   dirección de arriba.
+3. **Instalá el plugin.** En la lista aparece **Derecho argentino**, bajo *Nuevo*. Tocá el **+**
+   de su tarjeta; cuando se convierte en una tilde, quedó instalado.
 
-**2 · Agregá el marketplace.** En la barra lateral, **Personalizar** → pestaña **Plugins** →
-botón **Agregar** → *Agregar marketplace* → *Agregar desde un repositorio*, y en *URL* pegá `ciri-cuervo/derecho-argentino`
-o la dirección web de este sitio.
+Queda disponible en los modos **Chat y Cowork** y **Code** de la app.
 
-**3 · Instalá el plugin.** En la lista aparece **Derecho argentino**, bajo *Nuevo*. Click en el
-**+** de su tarjeta. Cuando el `+` se convierte en una tilde, quedó instalado.
+<details>
+<summary><b>En la app de Codex / ChatGPT</b></summary>
 
-Queda disponible en los dos modos de la app, **Chat y Cowork** y **Code**.
+<br>
 
-#### <picture><source media="(prefers-color-scheme: dark)" srcset="assets/logos/codex-oscuro.svg"><img src="assets/logos/codex-claro.svg" height="20" alt=""></picture> En la app de Codex / ChatGPT
+1. **Bajá la app** desde [openai.com/es-419/codex](https://openai.com/es-419/codex/) —es el agente
+   de ChatGPT para computadora—, instalala y abrila. La primera vez pide iniciar sesión.
+2. **Agregá el catálogo.** En **Complementos** → **Agregar** → *Agregar marketplace*. En *Origen*
+   pegá la dirección de arriba; *Referencia de Git* y *Rutas dispersas* quedan vacíos.
+3. **Instalá el plugin.** No aparece en la pestaña *Público*: está en **Personal**, bajo
+   *Derecho argentino*. Tocá el **+** de la fila `derecho`.
 
-**1 · Instalá la app.** Bajá [Codex](https://openai.com/es-419/codex/) —es el mismo agente de
-codificación, dentro de ChatGPT—, instalalo y abrilo. La primera vez pide iniciar sesión.
+</details>
 
-**2 · Agregá el marketplace.** En **Complementos** → botón **Agregar** → *Agregar marketplace*.
-En *Origen* pegá `ciri-cuervo/derecho-argentino` o la dirección web de este sitio; en *Referencia de Git* y
-*Rutas dispersas* dejá vacío.
+<details>
+<summary><b>Desde la terminal</b>, si ya la usás</summary>
 
-**3 · Instalá el plugin.** Este es el paso que no se adivina: el plugin **no aparece en la
-pestaña *Público*** junto a los conectores conocidos. Está en la pestaña **Personal**, bajo el
-título *Derecho argentino*. Click en el **+** de la fila `derecho`.
+<br>
 
-**Y con eso ya está: no hay nada que abrir ni configurar.** Por cualquiera de los dos caminos la
-skill se activa sola en cuanto le hacés una consulta jurídica argentina — describile un caso como
-se lo contarías a un colega y arrancá. Hay ejemplos en [Usar](#-usar). Si preferís confirmar
-primero que quedó bien instalada, seguí acá abajo.
+Claude Code por marketplace y Codex a mano, con los comandos para macOS, Linux y Windows:
+**[Instalar desde la terminal](docs/TERMINAL.md)**.
 
-### Desde la terminal
+</details>
 
-Si ya vivís en la consola, hay dos caminos más —**Claude Code** por marketplace y **Codex a
-mano**—, con los comandos para macOS, Linux y Windows:
-
-**→ [Instalar desde la terminal](docs/TERMINAL.md)**
+**Y con eso ya está.** La skill se activa sola en cuanto le hacés una consulta jurídica argentina:
+describile un caso como se lo contarías a un colega.
 
 ### Comprobar que quedó bien
 
-En las apps de escritorio, la de Claude y la de Codex (ChatGPT), pedíselo en castellano: *"corré
-el estado de la skill de derecho argentino"*. En Claude Code, `/derecho:estado`. En los dos casos
-informa si encontró el repositorio y por qué camino, qué datos tiene cargados, cuántos días
-pasaron desde la última verificación contra fuente primaria y si los tests pasan.
+Pedíselo en castellano: *"corré el estado de la skill de derecho argentino"*. Te dice si encontró
+sus datos, qué tiene cargado y cuánto hace que se verificó contra las fuentes oficiales. En Claude
+Code, `/derecho:estado`.
 
 > [!TIP]
-> **Si te dice que no puede hacer un cálculo, le falta Python.** Es el único programa aparte que
-> esto necesita, y **sólo para las calculadoras**: todo lo demás —citar normas, revisar un escrito,
-> contar un plazo— funciona igual sin él. En Mac y en Linux casi siempre ya viene. Si hace falta, se
-> baja de **[python.org](https://www.python.org/downloads/)** y se instala con las opciones que
-> vienen por defecto; en Windows, si el instalador ofrece *"Add python.exe to PATH"*, dejalo
-> tildado. Después se cierra y se vuelve a abrir la app, y no hay nada más que configurar.
+> **Si te dice que no puede hacer un cálculo, le falta Python**, el único programa aparte que
+> necesita y **sólo para las calculadoras**: citar normas, revisar un escrito o contar un plazo
+> funciona igual sin él. En Mac y Linux casi siempre ya viene. Si no, se baja de
+> **[python.org](https://www.python.org/downloads/)** y se instala con las opciones que trae; en
+> Windows, dejá tildado *"Add python.exe to PATH"*. Después cerrá y volvé a abrir la app.
 
 > [!IMPORTANT]
-> **Los datos vienen con fecha de corte: septiembre de 2026.** Normas, fallos y series quedaron como
-> estaban entonces, y el repositorio no se actualiza solo. Si lo instalás más adelante, el valor
-> del jus, el IPC, el RIPTE, el CER y los días inhábiles ya quedaron atrás, y de esos números
-> salen las liquidaciones y los vencimientos. **El primer día, pedile que actualice**: en Claude
-> Code, `/derecho:estado` y después `/derecho:actualizar`; en las apps de escritorio, *"actualizá
-> las series y las fuentes"*. Algunas fuentes oficiales rechazan a los agentes, así que esos
-> descargadores se corren desde tu terminal — la skill te dice cuáles y te pasa el comando.
-
-<img src="assets/marca/separador.png" width="100%" alt="">
-
-## 🗂️ Armar el proyecto
-
-Un **proyecto** es una carpeta de trabajo con instrucciones propias: sirve para que el agente
-sepa de entrada cómo trabajás, sin que se lo expliques en cada conversación. **No es
-obligatorio** —la skill funciona igual sin él— pero si vas a usarla seguido, ahorra una vuelta.
-
-**Cómo se crea.** En la **app de Claude**, "Nuevo proyecto" en la barra lateral: trae sus
-propios campos de nombre, descripción e instrucciones. En **Claude Code** desde la terminal,
-alcanza con abrir Claude parado en una carpeta y poner las instrucciones en un archivo
-`CLAUDE.md` adentro. En **Codex (ChatGPT)**, lo mismo con un archivo `AGENTS.md`. En todos los
-casos el contenido es texto común y es lo que sigue.
-
-**Nombre.** Algo que distinga la cartera, no la herramienta. *Estudio · laboral y civil*,
-*Juzgado Civil y Comercial 5*, *Consultas de familia*.
-
-**Descripción** (opcional). Una línea sobre qué entra ahí. Sirve para acordarte dentro de seis
-meses por qué lo creaste.
-
-**Instrucciones.** Es lo único que cambia de verdad el resultado. **No repitas lo que la skill ya
-sabe** —el derecho aplicable, los plazos, las fórmulas—: poné lo que la skill **no puede
-adivinar** de vos. Tres cosas alcanzan:
-
-```text
-Desde dónde consulto: abogado de parte, habitualmente por el trabajador.
-Fueros y jurisdicción: laboral y civil, Provincia de Buenos Aires, Departamento
-Judicial de La Plata; ocasionalmente fuero laboral nacional.
-Cómo quiero las respuestas: al grano, sin resúmenes de lo que ya dije.
-```
-
-**Las dos primeras son las que más rinden**, porque son exactamente lo que la skill pregunta al
-abrir cada conversación: desde dónde consultás y en qué fuero. Con eso escrito, deja de
-preguntarlo.
-
-> [!NOTE]
-> **Si no ponés instrucciones, no se rompe nada: la skill pregunta.** En el primer turno, antes de
-> analizar, pide el rol y el fuero, y si hace falta el repositorio. Y si no querés contestar,
-> trabaja igual **en modo neutro** y lo dice: expone el derecho aplicable y las posiciones en
-> juego, sin construir estrategia para ninguna parte ni controlar de oficio nada.
-
-**Lo que NO conviene poner.** Datos de expedientes reales en las instrucciones del proyecto: van
-en la conversación, donde corresponden. Y ninguna instrucción que le pida dar por buenos montos,
-plazos o fallos sin verificarlos — es justo lo que la skill está hecha para no hacer.
+> **Los datos vienen con fecha de corte: septiembre de 2026.** El jus, el IPC, el RIPTE, el CER y
+> los días inhábiles cambian todos los meses, y de ellos salen las liquidaciones y los
+> vencimientos. **El primer día, pedile que se actualice:** *"actualizá las series y las fuentes"*.
+> Si alguna fuente oficial no le deja bajar, te dice cuál y cómo hacerlo.
 
 <img src="assets/marca/separador.png" width="100%" alt="">
 
 ## 💬 Usar
 
-No hay sintaxis que aprender: se describe el caso con los datos que haya.
+No hay palabras especiales que aprender: se describe el caso con los datos que tengas.
 
 ```text
 Liquidación por despido sin causa: ingresó el 03/03/2019, despido el 10/08/2026,
@@ -209,95 +191,148 @@ mejor remuneración $1.450.000, no le pagaron nada. Trabajaba en La Plata.
 Me notificaron la demanda el viernes 11/9. ¿Cuándo vence para contestar en PBA?
 ```
 
-Va a preguntar lo que falte —si sos la parte o el juzgado, qué fuero, qué fecha— porque de eso
-depende la respuesta, y va a decir de dónde saca cada norma que cita. Cuando un dato no lo puede
-verificar, lo deja marcado en vez de completarlo por su cuenta.
+```text
+Soy empleado de un juzgado civil de la Ciudad. Revisame este proyecto de sentencia.
+```
+
+Te va a preguntar lo que falte —si sos la parte o el juzgado, qué fuero, qué fecha— porque de eso
+depende la respuesta.
+
+**Si lo vas a usar seguido, armá un proyecto.** Son tres líneas de instrucciones —desde dónde
+consultás, en qué fueros, cómo querés las respuestas— y deja de preguntarlo en cada conversación.
+Cómo se hace en cada app: **[Armar el proyecto, paso a paso](docs/PROYECTO.md)**.
 
 > [!WARNING]
-> **Esto es trabajo profesional.** La herramienta ayuda a redactar y calcular; no reemplaza el
-> criterio de quien firma. Lo que salga con un marcador `[VERIFICAR ...]` está avisando que ese
-> dato todavía no está confirmado: se resuelve antes de presentar.
+> **Es una herramienta de trabajo profesional.** Ayuda a redactar, calcular y verificar; no
+> reemplaza el criterio de quien firma. Lo que salga marcado con `[VERIFICAR ...]` se resuelve
+> antes de presentar.
 
-### Comandos
+<details>
+<summary><b>Atajos para Claude Code</b>, la versión de consola</summary>
 
-Si preferís ir directo al cálculo hay **ocho comandos**, aunque todo se alcanza igual
-preguntando en lenguaje natural.
+<br>
 
-> [!NOTE]
-> **Los comandos que empiezan con `/` son de Claude Code, la consola.** En las apps de
-> escritorio —Chat o Cowork en la de Claude, y la de Codex (ChatGPT)— la skill funciona igual, pero
-> se le pide en castellano: en vez de `/derecho:liquidacion`, *"liquidame este despido"*; en vez de
-> `/derecho:plazo`, *"calculame el vencimiento"*.
-> **No se pierde nada**: los comandos son atajos a lo mismo que la skill hace
-> cuando se lo pedís con palabras.
+En la consola hay **ocho comandos** que van directo a cada tarea. En las apps de escritorio no
+hacen falta: se pide lo mismo con palabras —*"liquidame este despido"*, *"calculame el
+vencimiento"*— y el resultado es el mismo.
 
 | Comando | Qué hace |
 | --- | --- |
-| `/derecho:estado` | Diagnóstico: repo, perfil, datos cargados, qué quedó vencido y cómo arreglarlo |
-| `/derecho:verificar` | Vuelve a pedir cada norma del manifiesto y avisa si alguna cambió en la fuente oficial |
-| `/derecho:actualizar` | Baja normas, fallos y series de índices que falten |
 | `/derecho:liquidacion` | Liquidación por extinción del contrato de trabajo |
 | `/derecho:plazo` | Cómputo de un plazo, con ferias, feriados trasladables y gracia |
 | `/derecho:intereses` | Actualización e intereses sobre un crédito |
-| `/derecho:honorarios` | Honorarios y aportes en PBA (Ley 14.967) |
-| `/derecho:configurar` | Entrevista corta: guarda cómo trabajás para que la skill ordene sus preguntas |
+| `/derecho:honorarios` | Honorarios y aportes, según la jurisdicción |
+| `/derecho:configurar` | Guarda cómo trabajás para que la skill no lo pregunte cada vez |
+| `/derecho:estado` | Diagnóstico: qué datos tiene y qué quedó vencido |
+| `/derecho:actualizar` | Baja normas, fallos y series de índices que falten |
+| `/derecho:verificar` | Compara cada norma contra el sitio oficial y avisa si alguna cambió |
 
-Los cuatro de cálculo **no son atajos al script**: identifican primero qué régimen rige, piden los
-datos que faltan y recién después calculan.
+Los de cálculo no van derecho a la cuenta: primero identifican qué régimen rige y piden los datos
+que faltan.
 
-## ⚠️ Advertencias
-
-**No reemplaza el criterio profesional.** Es un asistente que verifica, ordena y marca lo que
-falta; la responsabilidad por lo que se presenta es de quien firma.
-
-**Los perfiles de área** (`*-CLAUDE.md`) y los **modelos de escritos** se consolidaron en 2026 y
-**no pasaron la auditoría contra fuente primaria** que sí pasaron los módulos de `references/`. La
-precedencia ante conflicto es: fuente primaria → la skill y sus módulos → docs del Project →
-perfiles del repo.
-
-**Un cálculo con una serie vencida da un número plausible y equivocado**, que es justo lo que esta
-herramienta existe para evitar. `/derecho:estado` avisa qué quedó atrás y `/derecho:actualizar` lo
-trae de la fuente oficial. `/derecho:verificar` es lo otro, y es distinto: vuelve a pedir cada
-norma del manifiesto y compara el hash, para detectar una reforma legislativa.
-
-**El repositorio es público y es solo base de conocimiento.**
-`derecho/fuentes/_local/` está en `.gitignore`: es donde el abogado deja ejemplares de obras
-comerciales con derechos reservados. No commitear nada de ahí, ni piezas, liquidaciones o datos de
-expedientes.
+</details>
 
 <img src="assets/marca/separador.png" width="100%" alt="">
 
+## 🧰 Si algo no anda
+
+<details>
+<summary><b>Dice que no puede hacer un cálculo</b></summary>
+
+<br>
+
+Falta Python, y sólo lo necesitan las calculadoras. Está explicado arriba, en
+[Comprobar que quedó bien](#comprobar-que-quedó-bien).
+
+</details>
+
+<details>
+<summary><b>En ChatGPT / Codex no aparece el plugin</b></summary>
+
+<br>
+
+No está en la pestaña *Público*: está en **Personal**, bajo *Derecho argentino*, y se instala con
+el `+` de la fila `derecho`.
+
+</details>
+
+<details>
+<summary><b>Avisa que los datos están vencidos</b></summary>
+
+<br>
+
+Es lo esperado si lo instalaste después de la fecha de corte. Pedile *"actualizá las series y las
+fuentes"*; en Claude Code, `/derecho:actualizar`. Si una fuente oficial no le deja bajar, te pasa
+el comando para correrlo vos.
+
+</details>
+
+<details>
+<summary><b>Dice que no encuentra sus datos</b></summary>
+
+<br>
+
+Pasa si instalaste a mano en Codex y después moviste la carpeta. Pedile *"configurá la ruta del
+repositorio de derecho argentino"*; la ruta queda guardada.
+
+</details>
+
+<details>
+<summary><b>Me devolvió un <code>[VERIFICAR ...]</code> y no sé qué hacer</b></summary>
+
+<br>
+
+Es la respuesta correcta ante un dato que no pudo confirmar, y dice exactamente qué falta. Se
+resuelve aportando el dato o cotejando la fuente que nombra.
+
+</details>
+
+<details>
+<summary><b>Contestó algo que está mal en derecho</b></summary>
+
+<br>
+
+Es lo más valioso que podés reportar. Cómo hacerlo, justo acá abajo.
+
+</details>
+
 ## 🗣️ Contar cómo te fue
 
-**El uso real es lo que más falta.** El repositorio tiene tests, verificación contra fuente
-primaria y guardarraíles, y ninguna de esas cosas dice si la skill sirve en una cartera de verdad.
-Eso sólo lo sabe quien la usa.
+**El uso real es lo que más falta.** Los controles automáticos dicen si una norma cambió o si una
+cuenta da; ninguno dice si esto te sirve en tu trabajo. Eso sólo lo sabés vos.
 
 | Qué querés hacer | Dónde |
 | --- | --- |
-| **Contar cómo te fue**, para qué la usaste, qué te resultó y qué no | [Discusiones · Experiencias](../../discussions) |
-| **Preguntar** cómo se hace algo, o por qué la skill contestó lo que contestó | [Discusiones · Preguntas](../../discussions) |
+| **Contar cómo te fue**, para qué lo usaste, qué te resultó y qué no | [Discusiones · Experiencias](../../discussions) |
+| **Preguntar** cómo se hace algo, o por qué contestó lo que contestó | [Discusiones · Preguntas](../../discussions) |
 | **Proponer** un fuero, un instituto o un cálculo que falte | [Discusiones · Ideas](../../discussions) |
-| **Reportar un error de derecho** —una norma vencida, un fallo mal citado, un plazo equivocado— | [Issues](../../issues) |
+| **Reportar un error de derecho** —una norma vencida, un fallo mal citado, un plazo equivocado— | [Issues](../../issues/new/choose), con el formulario que pide la fuente |
 | Algo que preferís no publicar | Ver [`SECURITY.md`](SECURITY.md) |
 
-> [!IMPORTANT]
-> **Nunca pegues datos de un expediente real** — ni carátulas, ni partes, ni montos, ni piezas.
-> Esto es público y queda indexado. Para mostrar un problema alcanza con inventar el caso: es
-> exactamente lo que hace este repositorio en sus propios [casos de prueba](derecho/evals/).
+**Para reportar un error, lo que más ayuda son tres cosas:** qué te contestó, qué debería haber
+contestado, y **la fuente** —artículo, fallo con carátula y fecha, o Boletín Oficial—. Con eso se
+corrige y queda un caso de prueba para que no vuelva.
 
-**Si vas a reportar un error de derecho, lo que más ayuda son tres cosas:** qué te contestó la
-skill, qué debería haber contestado, y **la fuente** —artículo, fallo con carátula y fecha, o el
-Boletín Oficial—. Con eso el error se corrige y además queda un caso de prueba que evita que
-vuelva. Sin la fuente, se convierte en una discusión de opiniones, que es justo lo que la
-herramienta existe para evitar.
+> [!CAUTION]
+> **Nunca pegues datos de un expediente real** —ni carátulas, ni partes, ni montos, ni piezas—.
+> Este sitio es público y queda indexado. Para mostrar un problema alcanza con inventar el caso,
+> que es lo que hacen los propios [casos de prueba](derecho/evals/).
 
 <img src="assets/marca/separador.png" width="100%" alt="">
 
 ## ⚖️ Licencias
 
-Cuatro capas de autoría con licencias distintas. El mapa completo, con qué archivo cae en cuál,
-está en **[`LICENCIAS.md`](LICENCIAS.md)**. En resumen:
+**Usarlo en un estudio no requiere permiso de nadie.** El contenido de este proyecto es
+**CC BY-SA 4.0**: se usa y se adapta libremente, incluido el uso comercial, atribuyendo y
+publicando con la misma licencia lo que se distribuya adaptado. El código es **MIT**.
+
+**La excepción son los perfiles de área heredados**, bajo `derecho/kb/`: **su uso comercial
+requiere autorización de su autor**. La skill los abre como complemento y avisa cada vez.
+
+<details>
+<summary>Las cuatro capas de autoría, en detalle</summary>
+
+<br>
 
 | Capa | Licencia |
 | --- | --- |
@@ -307,14 +342,9 @@ está en **[`LICENCIAS.md`](LICENCIAS.md)**. En resumen:
 | **Código** de este fork — los scripts de la skill, los descargadores y las herramientas | **MIT** — `LICENSE-MIT` |
 | Textos normativos, jurisprudencia y CCyC Comentado (SAIJ-INFOJUS) | Libre reproducción |
 
-**Usarlo en un estudio no requiere permiso de nadie.** El contenido es CC BY-SA: se usa y se adapta
-libremente, **incluido el uso comercial**, con dos condiciones —atribuir, y publicar con la misma
-licencia lo que se distribuya adaptado—. El código es MIT, sin condiciones más allá del aviso de
-copyright.
+El mapa completo, archivo por archivo, está en **[`LICENCIAS.md`](LICENCIAS.md)**.
 
-**La excepción son los perfiles de área heredados**, bajo `derecho/kb/`: **su uso comercial
-requiere autorización de su autor**. La skill los abre como complemento y avisa cada vez. Antes de
-usarlos comercialmente, leé [`LICENCIAS.md`](LICENCIAS.md).
+</details>
 
 > Basado en contribuciones originales de Cristian Aboitiz
 > ([Probanza-ar](https://github.com/Probanza-ar)), publicadas bajo licencia dual. El código base
@@ -322,8 +352,26 @@ usarlos comercialmente, leé [`LICENCIAS.md`](LICENCIAS.md).
 
 ---
 
+<details>
+<summary><b>Para quien quiera ver cómo está hecho</b></summary>
+
+<br>
+
+<p>
+  <a href="https://github.com/ciri-cuervo/derecho-argentino/actions/workflows/tests.yml"><img src="https://img.shields.io/github/actions/workflow/status/ciri-cuervo/derecho-argentino/tests.yml?branch=main&style=flat-square&label=tests" alt="Estado de las suites de tests en main"></a>
+  <a href="https://github.com/ciri-cuervo/derecho-argentino/actions/workflows/verificar.yml"><img src="https://img.shields.io/github/actions/workflow/status/ciri-cuervo/derecho-argentino/verificar.yml?branch=main&style=flat-square&label=fuentes%20verificadas" alt="Última verificación semanal de las normas contra los sitios oficiales"></a>
+  <a href="derecho/.claude-plugin/plugin.json"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fciri-cuervo%2Fderecho-argentino%2Fmain%2Fderecho%2F.claude-plugin%2Fplugin.json&query=%24.version&label=manifiesto&style=flat-square" alt="Versión que declara el manifiesto del plugin"></a>
+  <img src="assets/marca/chapa-python.png" width="135" height="32" alt="Requiere Python 3">
+</p>
+
+Cada norma guardada lleva su huella SHA-256, y `verificar_normas.py` la vuelve a comparar contra el
+sitio oficial: si cambió, es una reforma. Las calculadoras son scripts de Python sin dependencias,
+y salen con error antes que completar un valor que no tienen. El material heredado de
+`derecho/kb/` no pasó la auditoría contra fuente primaria que sí pasaron los módulos; ante un
+conflicto, manda la fuente primaria, después la skill y sus módulos, y al final los perfiles.
+
 **[Cómo está armado](docs/ARQUITECTURA.md)** · **[Desarrollar el plugin](docs/DESARROLLO.md)** ·
-[Instalar desde la terminal](docs/TERMINAL.md) ·
 [Auditorías contra fuente primaria](docs/AUDITORIAS.md) · [Qué ramas cubre](docs/COBERTURA.md) ·
-[Mapa de licencias](LICENCIAS.md) ·
 [Versiones](CHANGELOG.md) · [Seguridad y reportes](SECURITY.md)
+
+</details>

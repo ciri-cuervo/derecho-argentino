@@ -14,7 +14,6 @@
   "nota": "Estado inicial, del censo de los 15 archivos del alcance. Diecisiete veredictos: doce de la primera lectura, dos que aparecieron al hacer que el censo cruce los saltos de renglón, y tres que salieron de documentar el control en docs/DESARROLLO.md, donde se citan las cifras viejas para explicar el error. Cuatro veredictos más al ampliar el censo con `archivos`, todos sobre la forma de una pieza y no sobre el inventario. Veinte veredictos: el de `derecho/evals/README.md` se fue con el archivo, que salió del alcance por ser una de las cinco excepciones de capa 2 -material de otro autor, ni el contenido ni la ortografía se corrigen-.",
   "cifras": {
     "LICENCIAS.md | Cuatro casos": "congelada — son los cuatro evals que venían del fork de Cristian Aboitiz, y por eso son capa 2. Es un hecho de licencia sobre un commit del 23/07/2026: no crece con los evals nuevos, que son diecisiete y están sellados por el ancla de `**{n} casos**` en el mismo archivo.",
-    "README.md | dos casos": "locucion — «en los dos casos» cierra una oración sobre dos caminos de instalación, no cuenta nada del repositorio.",
     "derecho/evals/RUTEO.md | dos módulos": "estructura — los dos que la consulta exige, que la propia fila de esperados enumera. No cuenta cuántos módulos hay.",
     "derecho/fuentes/MANIFIESTO.md | 116 normas": "congelada — medición de una redescarga completa del 14/09/2026, con su fecha al lado. Actualizarla convertiría un dato medido en un dato inventado.",
     "derecho/fuentes/ccyc-comentado/INDICE.md | 6 tomos": "de-terceros — es la identificación bibliográfica de la obra: los tomos que tiene el CCyC Comentado publicado por SAIJ-INFOJUS. Si el repositorio tuviera bajados cinco, la obra seguiría teniendo seis. Los que hay en disco los sella `tomos_ccyc`.",
@@ -41,9 +40,7 @@
     "derecho/skills/derecho-argentino/references/fallos-csjn.md | cuatro casos": "subconjunto — los cuatro casos vivos en los que la cita viaja dentro de un fallo verificado.",
     "derecho/skills/derecho-argentino/references/fallos-csjn.md | dos fallos": "subconjunto — el par que sostiene esa fila de la tabla de doctrina.",
     "derecho/skills/derecho-argentino/references/familia.md | dos documentos": "subconjunto — los dos fallos de ese punto que están bajados.",
-    "derecho/skills/derecho-argentino/references/familia.md | dos fallos": "subconjunto — los dos que el punto discute sobre cuantificación.",
     "derecho/skills/derecho-argentino/references/familia.md | dos institutos": "subconjunto — compensación económica y alimentos, que el punto separa porque se confunden.",
-    "derecho/skills/derecho-argentino/references/familia.md | dos precedentes": "subconjunto — los que el marcador pide verificar antes de citar.",
     "derecho/skills/derecho-argentino/references/familia.md | seis fallos": "subconjunto — los de la Corte que este módulo rutea a `fallos-csjn.md` 34.5, no los del repositorio.",
     "derecho/skills/derecho-argentino/references/laboral-colectivo.md | dos normas": "subconjunto — el art. 8 de la Ley 14.250 y el art. 7 de la LCT, que el punto enfrenta.",
     "derecho/skills/derecho-argentino/references/modelos.md | siete casos": "de-terceros — los ejemplos resueltos de `kb/ejemplos/`, que son de la capa 2 y los fija `frontera_kb.py` por hash.",
@@ -67,14 +64,8 @@
     "derecho/skills/derecho-argentino/scripts/README.md | Cuatro calculadoras": "editorial — parte en dos la tabla de scripts de ese mismo README. Que ningún script falte en esa tabla ya lo mide TestREADMEDeScripts, que es el control que importa.",
     "derecho/skills/derecho-argentino/scripts/README.md | tres utilitarios": "editorial — la otra mitad del rótulo anterior, con el mismo control detrás.",
     "docs/ARQUITECTURA.md | dos archivos": "locucion — describe que una pieza vive en dos archivos, no cuenta el inventario.",
-    "docs/ARQUITECTURA.md | dos documentos": "locucion — es justamente la frase que advierte que «repetirla en dos documentos garantiza que uno de los dos mienta». Sellarla sería cómico.",
-    "docs/DESARROLLO.md | 2 documentos": "cita — es lo que LICENCIAS.md declaraba cuando `docs/` ya tenía cuatro archivos. Es el ejemplo con el que la sección explica para qué existe el control: sellarlo a 4 borra el error que se está contando.",
-    "docs/DESARROLLO.md | 24 marcadores": "cita — reproduce el «24 marcadores» que marcadores.md decía mal frente a los veintidós del SKILL.md. Sellarla borraría el ejemplo.",
-    "docs/DESARROLLO.md | 9 scripts": "cita — lo que decía LICENCIAS.md antes de sacarle la cifra. El ejemplo es justamente que no estaba vencida sino indefinida: ocho sin contar la suite de tests, nueve contándola.",
     "docs/DESARROLLO.md | Tres herramientas": "subconjunto — nombra las herramientas que necesitan binarios que no son de Python, no el inventario de `herramientas/`. Ese total lo sella el ancla de `**{n} herramientas**` en LICENCIAS.md.",
-    "docs/DESARROLLO.md | cinco modelos": "cita — reproduce el «treinta y cinco modelos» que escritos.md decía mal, para que se vea contra qué se contradecía modelos.md. Sellarla borraría el ejemplo.",
-    "docs/DESARROLLO.md | dos archivos": "locucion — «repetir una cifra en dos archivos garantiza que uno de los dos mienta» es la regla de prosa.md citada, no un conteo.",
-    "docs/DESARROLLO.md | dos casos": "locucion — «ninguno de los dos casos podía disparar» cierra una oración sobre los dos ejemplos del motivo viejo, no cuenta casos de prueba.",
-    "docs/DESARROLLO.md | seis tomos": "cita — el segundo «seis tomos» de MANIFIESTO.md, el que se sacó porque la cifra estaba escrita dos veces en el mismo archivo. Se nombra para explicar la regla de unicidad de las anclas."
+    "derecho/skills/derecho-argentino/references/tributario-pba.md | dos fallos": "locucion — «los dos fallos reiteran el piso» habla de Carba y Alliaz, los dos leídos en 54.3; no cuenta el catálogo",
+    "derecho/skills/derecho-argentino/references/tributario-pba.md | dos precedentes": "locucion — el marcador dice «los dos precedentes de 54.3», que son Carba y Alliaz; no es inventario"
   }
 }

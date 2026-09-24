@@ -120,6 +120,68 @@ excesivo** respecto del que la ley le impone.
 > queda fijado el material del pleito. Es el mismo efecto que el art. 243 LCT tiene sobre el
 > telegrama (25.1).
 
+### 33.3 bis Monotributo — Ley 24.977, el anexo y sus exclusiones
+
+Cotejado contra `fuentes/normas/ley-24977.txt`, que trae la ley aprobatoria y **el anexo con el
+Régimen Simplificado para Pequeños Contribuyentes**, texto actualizado con las Leyes 27.430,
+27.618 y 27.743. Los artículos de abajo son los **del anexo**, que tiene numeración propia:
+`scripts/articulo.py` devuelve el de la ley aprobatoria cuando el número coincide, así que los
+arts. 1 a 4 del anexo se leen en el archivo.
+
+**Qué sustituye y a quién.** Un impuesto integrado que reemplaza ganancias e IVA, más las
+cotizaciones previsionales fijas (arts. 1, 6 y 11). Pequeño contribuyente es la persona humana
+que vende cosas muebles, presta servicios, ejecuta obras o loca bienes, el integrante de una
+cooperativa de trabajo y la sucesión indivisa continuadora, **con hasta tres actividades o tres
+unidades de explotación**, y con ingresos brutos, superficie, energía, alquileres y precio
+unitario de venta dentro de los parámetros de la **categoría K** (art. 2). Las categorías
+**A a K** salen de la tabla del art. 8, cuyos montos vienen de la Ley 27.743 y **se
+actualizan por semestre**: `[VERIFICAR MONTO ACTUALIZADO: los ingresos brutos y el precio unitario máximo
+de cada categoría son los vigentes al semestre de la consulta, publicados por ARCA; no se citan
+de memoria]`. La **recategorización es semestral** y obligatoria (art. 9); la opción se ejerce
+por adhesión y produce efectos desde el mes siguiente (art. 17).
+
+**La exclusión de pleno derecho, que es lo que se litiga (arts. 20 y 21).** Once causales en el
+art. 20, y las tres que más se discuten son ésas: **ingresos de los últimos doce meses que
+superan la categoría K** (inc. a); **gastos o adquisiciones personales incompatibles** con lo
+declarado y **depósitos bancarios depurados** incompatibles (incs. d y e); y **compras más
+gastos de la actividad iguales o superiores al ochenta por ciento** de los ingresos máximos de
+K en venta de bienes **o al cuarenta por ciento** en servicios (inc. j). También excluye estar
+en el **REPSAL** como reincidente firme (inc. k). Cuando d, e y j no alcanzan para excluir,
+habilitan la **recategorización de oficio**. La exclusión opera **desde la cero hora del día en
+que se verifica la causal**, sin acto del organismo; si es ARCA quien la constata, labra acta y
+la comunica, y el contribuyente pasa al régimen general **sin poder reingresar hasta después de
+tres años calendario** posteriores al de la exclusión; el impuesto integrado pagado desde la
+causal es pago a cuenta del régimen general (art. 21). El artículo sin número que sigue —texto
+Ley 27.618— trae un **procedimiento permanente de transición al régimen general**, por única
+vez, con reducciones en el IVA y ganancias del primer tramo.
+
+**Sanciones y recursos (art. 26).** Rige la Ley 11.683 salvo lo que este artículo dice: clausura
+de uno a cinco días por las conductas del art. 40 de la 11.683 o por operaciones sin respaldo
+documental (inc. a); **multa del cincuenta por ciento** del impuesto integrado y la cotización
+previsional omitidos por no recategorizar o por declaración inexacta (inc. b); y
+**recategorización de oficio** con la deuda y la multa (inc. c), recurrible por el **recurso de
+apelación del art. 74 del Decreto 1397/79** ante el director general —no el del art. 76 de la
+11.683, que no está previsto—, con la multa **reducida a la mitad si se acepta en quince días**
+y eximida si el contribuyente se recategoriza antes de la notificación de la deuda. La
+exclusión de pleno derecho comunicada por ARCA se discute por la misma vía.
+
+**El recurso del art. 74, cotejado contra `fuentes/normas/decreto-1397.txt`.** Es el recurso
+residual del reglamento de la Ley 11.683: contra el acto de alcance individual sin procedimiento
+recursivo especial, **recurso de apelación fundado para ante el Director General, dentro de los
+quince días de notificado**, presentado ante el funcionario que dictó el acto. El Director
+General **resuelve sin sustanciación, previo dictamen jurídico, en no más de sesenta días**, y su
+acto **es definitivo: sólo se impugna por la vía del art. 23 de la Ley 19.549** —texto Ley 27.742,
+que hace optativos los recursos contra el acto que agota la vía—, o sea la demanda de 33.3 sin
+pasar por el Tribunal Fiscal. En todos los casos rige el art. 12 de la LNPA: la
+interposición **no suspende** la ejecutoriedad, y la exclusión comunicada sigue produciendo
+efectos mientras se discute, salvo suspensión pedida y concedida.
+
+**Aportes (art. 39).** El pequeño contribuyente ingresa la cotización previsional fija al SIPA y
+la de obra social, con los importes que fija la ley y se actualizan con las categorías; el que
+también es empleado en relación de dependencia o jubilado queda eximido de parte de ellas.
+
+`[REVISIÓN NORMATIVA REQUERIDA: este bloque recorre los arts. 1, 2, 6, 8, 9, 11, 17, 20, 21, el artículo sin número que sigue al 21, 26 y 39 del anexo de la Ley 24.977. El Decreto 1/2010 reglamentario del régimen y las resoluciones de ARCA sobre la exclusión de oficio por sistemas informáticos -que es como hoy se comunica- NO están descargados; el art. 74 del Decreto 1397/79 sí. Sin fallo cargado sobre la exclusión de pleno derecho]`
+
 ### 33.4 Antes de recurrir
 
 1. **Qué plazo corre**: quince días del art. 76, o **cinco** si es clausura o suspensión de
@@ -144,10 +206,9 @@ excesivo** respecto del que la ley le impone.
 > ruteo de `perfiles-heredados.md` sección 19, **con su advertencia**. El Régimen Penal Tributario
 > está en `penal-leyes-especiales.md` 24.9.5.
 >
-> **Y el procedimiento tributario provincial no lo cubre nadie, ni acá ni allá.** El Código Fiscal
-> de PBA (Ley 10.397) **está bajado** en `fuentes/normas/pba-ley-10397.txt` y **ningún módulo lo
-> recorre**; el perfil heredado tampoco, porque **no nombra a ARBA ni una vez**: sólo instruye a
-> mirar el código fiscal de cada provincia. Ante una determinación, una multa o una ejecución
-> fiscal provincial, **se dice que la materia no está cubierta y se va al texto**, que está a
-> mano. No se contesta con el procedimiento nacional: los plazos, los recursos y el órgano son
+> **Y el procedimiento tributario provincial no es de acá:** la determinación, los recursos ante
+> ARBA y el Tribunal Fiscal de Apelación son `tributario-pba.md` 54, y el apremio de la Ley
+> 13.406, 54.5 ter. El perfil heredado tampoco sirve para eso, porque **no nombra a ARBA ni una
+> vez**: sólo instruye a mirar el código fiscal de cada provincia. No se contesta una ejecución
+> fiscal provincial con el procedimiento nacional: los plazos, los recursos y el órgano son
 > otros.

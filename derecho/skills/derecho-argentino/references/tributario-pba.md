@@ -94,6 +94,26 @@ forma—.
 > 12.008 que trata `contencioso-pba.md` 26.7 — donde también están las excepciones que la
 > jurisprudencia admite y el modo de plantearlas.
 
+**Lo que la SCBA dice del pago previo, leído en dos sentencias bajadas de JUBA.** En *"Carba S.A.
+c/ Municipalidad de Tandil"*, B. 56.707, 23/04/2008, la Corte rechazó por unanimidad la oposición
+formal del municipio: acreditado con pericia contable que la tasa reclamada era *"de similar
+orden de magnitud de los principales rubros del costo"*, la desproporción con la capacidad
+económica del actor **torna ilusorio su derecho** y el pago previo **no resulta exigible** (art.
+19 inc. 3 a, Ley 12.008, texto Ley 13.101; art. 15 de la Constitución provincial). El voto de
+Soria fija la vara: la alegación no alcanza, hace falta **prueba de la afectación patrimonial
+concreta**, y el Pacto de San José no agrega nada a esa excepción cuando quien la invoca es una
+persona jurídica. En *"Alliaz Argentina Compañía de Seguros S.A. c/ Tribunal Fiscal de
+Apelación"*, A. 74.006, 29/05/2019, la deuda **no estaba determinada al demandar** —el TFA había
+ordenado reliquidar— y ARBA la liquidó casi cuatro años después: la mayoría (de Lázzari, Genoud,
+Kogan y Mancini) revocó la inadmisibilidad declarada por la Cámara porque **el pago previo no
+puede exigirse sobre una suma que no existía al promover la demanda, y la inadmisibilidad no se
+declara sin intimar antes el pago** bajo apercibimiento, por el principio *in dubio pro actione*
+(doctr. B. 65.727, *"Kel Ediciones"*); la minoría (Soria, Negri y Pettigiani) fue más lejos: el
+art. 19 **no aplica** porque la liquidación posterior no es objeto del pleito y su apelación ante
+el TFA **suspende la obligación de pago por el art. 117 del Código Fiscal**. Los dos fallos
+reiteran el piso: el pago previo **es constitucional en sí** y la excepción exige **imposibilidad
+de pago inculpable o desproporción probada**, con los precedentes de la Corte nacional que citan.
+
 **Si se eligió el Tribunal Fiscal (arts. 120 a 123):** el recurso se interpone **por escrito
 expresando punto por punto los agravios**, con **domicilio constituido en La Plata** y
 **representación o patrocinio de abogado o contador público matriculado en la Provincia** — el
@@ -227,6 +247,65 @@ sigue sufriendo retenciones sobre actividad exenta tiene ahí la norma que lo re
 
 `[VERIFICAR MONTO ACTUALIZADO: montos de inversión del art. 7 y escala de beneficios del art. 15 de la Ley 15.510 PBA - la tabla del art. 15 no se transcribe acá porque sus valores y plazos dependen del tramo, y hay que leerla en el texto para el proyecto concreto]`
 
+### 54.5 ter El apremio — Ley 13.406, la ejecución fiscal bonaerense
+
+Cotejada contra `fuentes/normas/pba-ley-13406.txt`, texto actualizado con las Leyes 14.333,
+15.007, 15.016 y 15.558. Es el proceso por el que ARBA, los municipios y los demás entes
+provinciales cobran judicialmente sus créditos, y **no es la ejecución fiscal del art. 92 de
+la Ley 11.683 ni el juicio ejecutivo del CPCCBA**: éste es supletorio (art. 25), después del
+Código Fiscal.
+
+**Título y juez (arts. 2 y 3).** Título ejecutivo es **el instrumento al que la actora le asigne
+ese carácter**, siempre que sea autosuficiente: la liquidación de deuda expedida por funcionario
+autorizado y sus reliquidaciones, que **pueden incorporarse al apremio antes de la intimación de
+pago**, y el testimonio de la resolución o acto del que resulte el crédito (art. 2, texto Ley
+15.558). Competente, **a elección del actor**, el juez del domicilio fiscal, del lugar de los
+bienes o de la actividad, del cumplimiento de la obligación, del domicilio real o legal en la
+Provincia, o el de La Plata si el demandado no tiene domicilio en ella (art. 3).
+
+**Cautelares en veinticuatro horas (art. 6).** Pedida una medida al inicio o en cualquier
+estado, **el juez debe disponerla en veinticuatro horas, sin exigir peligro en la demora ni
+verosimilitud**: embargo de cuentas diligenciado ante el banco o el BCRA, con informe en cinco
+días hábiles y multa de cincuenta ius por día de retardo; de sueldos superiores a seis salarios
+mínimos; de inmuebles y muebles; intervención de caja del veinte al cuarenta por ciento;
+inhibición general. El Fisco **está exento de caución**, el juez debe **priorizar los montos
+líquidos** sobre los bienes realizables, y el ejecutado puede pedir el levantamiento o la
+reducción por exceso con traslado de cinco días al actor, providencia **apelable en cinco días**
+y con efecto suspensivo si levanta o reduce.
+
+**Mandamiento y excepciones (arts. 7, 9 y 10).** Hallado en forma el título, el juez manda
+intimar de pago y embargar **por el monto del título más el cincuenta por ciento** para
+intereses y costas, y cita de remate **para oponer excepciones en cinco días** (art. 7). El
+mandamiento va **al domicilio fiscal del art. 32 del Código Fiscal o al domicilio fiscal
+electrónico, a elección de la actora**, y cualquier presentación del ejecutado lo tiene por
+notificado de las cautelares; después debe constituir domicilio procesal, bajo apercibimiento
+de los estrados. Las excepciones son **taxativas** (art. 9): incompetencia, falta de
+personería, **inhabilidad de título sólo por las formas extrínsecas** —legitimado pasivo, firma,
+lugar y fecha, suma— y **nunca por el origen o la causa del crédito**, pago total documentado,
+prescripción, plazo concedido por acto administrativo documentado, recurso pendiente con efecto
+suspensivo y litispendencia. Se oponen y fundan **en el mismo escrito, con toda la prueba
+documental**; **el juez desestima sin sustanciación las que no están autorizadas, por sentencia
+inapelable**, y resuelve sin abrir a prueba las de puro derecho (art. 10).
+
+**Sentencia, apelación y el juicio de después (art. 13).** Opuestas excepciones legítimas o
+rechazada la acción, la sentencia se apela **fundada y dentro de los cinco días**; confirmada
+la desfavorable al ejecutado, puede promover **dentro del quinto día un proceso de conocimiento
+pleno por la vía sumaria**, que es donde entra lo que la ejecución no admite —la causa del
+crédito— y **no suspende la ejecución**. La notificación electrónica al domicilio fiscal **se
+perfecciona los martes y viernes** siguientes a su puesta a disposición (art. 24 quater, texto
+Ley 15.007).
+
+**Subasta, caducidad y honorarios (arts. 16, 18 bis y 22).** El remate del inmueble sale
+**sin agregar el título de propiedad**, con informe de dominio, tasación y edictos, en la
+plataforma electrónica del Poder Judicial; **base del ochenta por ciento de la tasación, y del
+sesenta si fracasa la primera** (art. 16, texto Ley 15.558). **La caducidad de instancia no se declara de oficio**,
+la pide el demandado antes de consentir el acto posterior, y con el Fisco provincial se
+notifica al Fiscal de Estado (art. 18 bis, texto Ley 15.558). Honorarios **entre el seis y el
+dieciocho por ciento**, con mínimo de tres ius (art. 22, texto Ley 15.016): `honorarios-pba.md`
+para la escala general, que acá no rige.
+
+`[REVISIÓN NORMATIVA REQUERIDA: este bloque recorre los arts. 2, 3, 6, 7, 9, 10, 13, 16, 18 bis, 22, 24 quater y 25 de la Ley 13.406. Los arts. 4, 5, 8, 11, 12, 14, 15, 17 a 21, 23 y 24 a 24 ter -sentencia de trance y remate, liquidación, tercerías, boleto de deuda municipal- NO están recorridos, y el art. 32 del Código Fiscal sobre domicilio fiscal se lee en pba-ley-10397.txt. Sin fallo cargado de la SCBA sobre la inhabilidad de título ni sobre la prescripción como excepción]`
+
 ### 54.6 Antes de contestar
 
 1. **Qué acto es y de qué fecha**, porque los 15 días del art. 115 corren desde la notificación y
@@ -245,4 +324,4 @@ sigue sufriendo retenciones sobre actividad exenta tiene ahí la norma que lo re
 
 `[VERIFICAR VIGENCIA: Convenio Multilateral y las resoluciones de la Comisión Arbitral - no están cargados en fuentes/ y gobiernan la atribución de base imponible del contribuyente multijurisdiccional]`
 
-`[INSERTAR FALLO VERIFICADO: criterio de la SCBA sobre el pago previo del art. 119 del Código Fiscal como requisito de admisibilidad de la demanda, y sus excepciones. No hay precedente bajado sobre este artículo]`
+`[INSERTAR FALLO VERIFICADO: los dos precedentes de 54.3 -Carba y Alliaz- resuelven el pago previo del art. 19 del CCA sobre tributos municipales y sobre una deuda no liquidada; sigue sin precedente bajado la aplicación del art. 119 del Código Fiscal a una determinación de ARBA con multa incluida, donde el propio artículo excluye la sanción del pago previo - aportar carátula, causa y fecha]`

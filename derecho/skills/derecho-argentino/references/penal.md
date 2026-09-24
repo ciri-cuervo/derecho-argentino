@@ -218,6 +218,82 @@ constitucionalidad frente al art. 18 CN y al derecho a ser oído es materia abie
     [INSERTAR FALLO VERIFICADO: constitucionalidad del juicio en ausencia de la Ley 27.784 frente
     al art. 18 CN - aportar carátula, sala, fuero y año]
 
+### 24.2.2 Juicio por jurados en PBA — Ley 14.543, incorporada al CPP
+
+Cotejado contra `fuentes/normas/pba-ley-11922.txt`, texto actualizado: los artículos de jurados
+llevan la nota *"Incorporado por Ley 14543"* y algunos la reforma de la **Ley 14.589**. **Es la
+regla y no la excepción en los delitos graves**, y lo primero que hay que resolver es si el caso
+cae adentro.
+
+**Cuándo hay jurado (art. 22 bis).** Cuando la **pena máxima en abstracto excede los quince años**
+de prisión o reclusión, o en un concurso alguno de los delitos la supera. **El imputado puede
+renunciar** en el plazo del art. 336 —los quince días para oponerse al requerimiento de elevación
+a juicio—, personalmente o por su defensor, y la renuncia se **ratifica ante el juez**, que le
+informa las consecuencias y verifica que sea libre; **firme la requisitoria de elevación a juicio
+ya no se puede renunciar, bajo pena de nulidad**. Con pluralidad de imputados, la renuncia de uno
+lleva la causa al tribunal del art. 22. Es la decisión de estrategia más cara del proceso y tiene
+ventana: la pregunta de intake es en qué etapa está la causa.
+
+**Quiénes lo integran (art. 338 bis, texto Ley 14.589).** Un juez que preside, **doce jurados
+titulares y seis suplentes**. Es carga pública; requisitos: argentino nativo o naturalizado, entre
+21 y 75 años. Impedidos: los cargos electivos y los funcionarios con rango de director o superior,
+los empleados judiciales, los integrantes activos o retirados de fuerzas de seguridad, defensa,
+servicio penitenciario y seguridad privada, los exonerados de la administración, **los abogados,
+escribanos y procuradores**, los alcanzados por el art. 47, los condenados por delito doloso
+dentro del plazo del art. 51 CP y los imputados en proceso en trámite.
+
+**Listas y sorteo (art. 338 ter).** El Ministerio de Justicia sortea anualmente del padrón
+electoral, por departamento judicial y por sexo, a razón de **un jurado por cada mil electores**;
+la lista definitiva se publica en el Boletín Oficial y vale hasta el 31 de diciembre del año
+siguiente. Dentro de los **cuarenta días hábiles anteriores al juicio** la oficina judicial
+sortea **cuarenta y ocho personas** en acto público; las partes lo presencian pero **no conocen
+la identidad hasta la audiencia de debate**.
+
+**Audiencia de selección (art. 338 quater).** El día fijado, con el juez y las partes: primero
+impedimentos, después excusaciones —haber sido jurado en los tres años anteriores, o motivo
+legítimo apreciado con criterio restrictivo—, después **recusación con causa**, con examen de
+los candidatos **bajo las reglas del examen y contraexamen de testigos**; el juez resuelve en el
+acto y sólo cabe reposición, que vale como protesta para el recurso. Después, **recusación sin
+causa: hasta cuatro por parte, alternadas, empezando por la acusación**; con pluralidad de
+acusados o acusadores, cuatro colectivas y dos más por cada uno. Ninguna recusación puede
+fundarse en motivos discriminatorios.
+
+**El debate cambia de reglas (art. 342 bis).** Juramento solemne de los jurados bajo pena de
+nulidad; los suplentes presentes hasta que el titular se retira a deliberar; testigos y peritos
+en **examen directo sin preguntas sugestivas** y **contraexamen donde sí se admiten**, con
+objeciones resueltas en el acto; las declaraciones previas sirven para confrontar contradicciones
+o refrescar memoria y **nunca se presentan como prueba material**. Y la valoración es por
+**íntima convicción** (art. 210, texto Ley 14.543), no por la convicción sincera con razones
+escritas que rige en todo lo demás.
+
+**Instrucciones, deliberación y veredicto (arts. 371 bis a 371 quater).** Clausurado el debate,
+el juez celebra con los abogados una audiencia para armar las **instrucciones**, en lenguaje claro
+y sencillo; las partes dejan constancia de sus disidencias, y esas incidencias constan en acta o
+registro **bajo pena de nulidad**, porque son la base de la impugnación. **El jurado no valora
+subsunción jurídica, sólo hechos.** Las instrucciones son, por el art. 106, *"plena y suficiente
+motivación del veredicto"*. Deliberación **secreta y continua, no más de dos días prorrogables por
+igual término**, votación secreta. El veredicto responde, por cada hecho y cada acusado, si el
+hecho existió y si el imputado participó. **Culpabilidad: diez votos como mínimo; unanimidad si
+la pena prevista es perpetua.** Jurado estancado: se vota hasta tres veces; sin el número, el
+veredicto es de no culpabilidad **salvo que haya más de ocho votos afirmativos**, y entonces el
+fiscal decide si sigue con la acusación; si no sigue, absolución, salvo que el particular
+damnificado la sostenga; si sigue y el jurado vuelve a estancarse, nuevo jurado, y si ése
+también se estanca, no culpabilidad. La no culpabilidad manda la **libertad inmediata**.
+
+**Sentencia y recurso (arts. 375 bis, 448 bis, 450 y 452).** La sentencia transcribe el veredicto
+y las instrucciones. **El juez puede anular un veredicto de culpabilidad manifiestamente contrario
+a la prueba**, por resolución fundada e **irrecurrible**, y ordenar nuevo debate con otro
+tribunal; con pedido de parte puede además agravar la coerción. La condena se recurre en casación
+por los motivos comunes y por cuatro **motivos especiales**: reglas de constitución, recusación y
+capacidad del jurado; arbitrariedad en el rechazo de prueba que condicionó al jurado;
+instrucciones cuestionadas que pudieron condicionar la decisión; veredicto de culpabilidad
+manifiestamente apartado de la prueba. Y la asimetría que decide la estrategia del acusador: **en
+el juicio por jurados el Ministerio Público Fiscal carece de legitimación para recurrir** (art.
+452, último párrafo). El régimen recursivo y "Canales" —la CSJN sobre la competencia provincial
+para instituir el jurado— están en `penal-impugnacion.md` 24.6.4.
+
+`[REVISIÓN NORMATIVA REQUERIDA: este bloque recorre los arts. 22 bis, 106, 210, 338 bis a 338 quater, 342 bis, 371 bis a 371 quater, 375 bis, 448 bis, 450 y 452 del CPP PBA. NO recorre las acordadas de la SCBA que reglamentan las listas y la oficina judicial, ni la jurisprudencia del Tribunal de Casación sobre instrucciones y veredicto: sin fallo bonaerense cargado sobre este régimen]`
+
 ---
 
 ## 24.3 · Medidas de coerción y libertad durante el proceso

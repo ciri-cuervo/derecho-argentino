@@ -1,0 +1,1002 @@
+Ley 22.415 - Código Aduanero, Sección XII Título II: infracciones aduaneras, arts. 892 a 996 (texto actualizado)
+==============================================================================
+Jurisdicción:     nacional
+Fuente:           https://servicios.infoleg.gob.ar/infolegInternet/anexos/15000-19999/16536/Ley22415_S12_TituloII.htm
+Descargado:       2026-09-23
+SHA-256 (crudo):  7a98f39ade069c1e511a4f52e329cdf9f6904dbf18071c1697089a8f8a70cb6c
+Charset:          windows-1252
+
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
+el manifiesto `normas.json`.
+==============================================================================
+
+TITULO II
+
+TITULO II
+
+INFRACCIONES ADUANERAS
+
+ARTICULO 892. – A los efectos de este código, el término infracción se equipara al de contravención.
+
+ARTICULO 893. – Se consideran
+infracciones aduaneras los hechos, actos u omisiones que este Título
+reprime por transgredir las disposiciones de la legislación aduanera.
+Las disposiciones generales de este Título también se aplicarán a los
+supuestos que este código reprime con multas automáticas.
+
+DISPOSICIONES GENERALES
+
+ARTICULO 894. – La calificación de un hecho
+como infracción aduanera requiere que, previamente a su realización, se
+encuentre previsto como tal en las disposiciones de este código.
+
+ARTICULO 895. – En materia de infracciones aduaneras no cabe la incriminación por analogía.
+
+ARTICULO 896. – La norma que rige específicamente el caso desplaza a la que lo pudiera comprender en forma genérica.
+
+ARTICULO 897. – Nadie puede ser condenado sino una sola vez por un mismo hecho previsto como infracción.
+
+ARTICULO 898. – Salvo disposición especial en contrario, en caso de duda deberá estarse a lo que fuere más favorable al imputado.
+
+ARTICULO 899. – Si la norma penal
+vigente al tiempo de cometerse la infracción fuere distinta de la que
+estuviere vigente al pronunciarse el fallo o en el tiempo intermedio,
+se aplicará la que resultare más benigna al imputado. No surtirá ese
+efecto la que modificare el tratamiento aduanero o fiscal de la
+mercadería.
+
+ARTICULO 900. – Para establecer cual
+es la norma penal más benigna se debe comparar la totalidad del
+contenido de las normas penales de las leyes cuya aplicación
+correspondiere.
+
+ARTICULO 901. – Los efectos de la
+norma penal más benigna se operarán de pleno derecho, pero no
+alcanzarán a aquellos supuestos en que la resolución condenatoria se
+encontrare firme, aún cuando no se hubiere cumplido la pena.
+
+Capítulo Primero
+
+Responsabilidad
+
+ARTICULO 902. – 1. No se aplicará sanción a
+quien hubiere cumplido con todos los deberes inherentes al régimen,
+operación, destinación o a cualquier otro acto o situación en que
+interviniere o se encontrare, salvo los supuestos de responsabilidad
+por hecho de otro previsto en este código.
+
+2. La ignorancia o el error de hecho o de derecho no
+constituyen eximentes de sanción, salvo las excepciones expresamente
+previstas en este código.
+
+ARTICULO 903. – Las personas de
+existencia visible o ideal son responsables en forma solidaria con sus
+dependientes por las infracciones aduaneras que éstos cometieren en
+ejercicio o con ocasión de sus funciones.
+
+ARTICULO 904. – Cuando una persona de
+existencia ideal fuere condenada por alguna infracción e intimada al
+pago de las penas pecuniarias que se le hubieren impuesto no fuere
+satisfecho su importe, sus directores, administradores y socios
+ilimitadamente responsables responderán solidariamente con aquélla por
+el pago del importe de dichas penas, salvo que probaren a la fecha de
+la comisión del hecho no desempeñaban dichas funciones o no revestían
+tal condición.
+
+ARTICULO 905. – Cuando un menor que no
+hubiere cumplido 14 años de edad cometiere un hecho que constituyere
+infracción aduanera no será personalmente responsable. En este
+supuesto, responderá aquél a cuya guarda o cuidado se encontrare el
+menor al momento de cometerse la infracción.
+
+ARTICULO 906. – Cuando un menor que
+fuere mayor de 14 y no hubiere cumplido 18 años de edad cometiere un
+hecho que constituyere infracción aduanera responderá solidariamente
+con aquél a cuya guarda o cuidado se encontrare al momento de cometerse
+la infracción, sin perjuicio del derecho de este último a repetir del
+menor el importe pagado.
+
+ARTICULO 907. – El importador o el
+exportador será responsable por toda infracción aduanera que el
+despachante de aduana, sus apoderados o dependientes cometieren en
+ejercicio o con ocasión de sus funciones, en forma solidaria con éstos.
+
+ARTICULO 908. – El despachante de
+aduana que cometiere una infracción aduanera en ejercicio de las
+funciones previstas en el artículo 36, apartado 1, es responsable de
+las sanciones correspondientes, salvo que probare haber cumplido con
+las obligaciones a su cargo. En este último supuesto, la persona
+representada será responsable por la infracción aduanera cometida.
+
+ARTICULO 909. – En toda infracción
+aduanera cometida por el transportista o por las personas por las
+cuales debiere responder el mismo, el servicio aduanero podrá dirigir
+la acción respectiva contra el agente de transporte aduanero que lo
+representare. En este último supuesto si el agente de transporte
+aduanero fuere una persona de existencia ideal no se aplicará a su
+respecto lo previsto en el artículo 904.
+
+ARTICULO 910. – Salvo el Estado
+nacional, las provincias, las municipalidades y sus respectivas
+reparticiones centralizadas, las entidades estatales, cualquiera fuere
+la forma jurídica que adoptaren, no gozan de inmunidad alguna en
+materia de responsabilidad por infracciones aduaneras.
+
+Capítulo Segundo
+
+Concurso
+
+ARTICULO 911. – Cuando un mismo hecho
+constituyere más de una infracción aduanera, se acumularán las penas
+correspondientes a los diversos hechos punibles. La suma de estas penas
+no podrá exceder el máximo de la mayor de la especie de pena de que se
+tratare.
+
+ARTICULO 912. – Cuando concurrieren
+varios hechos independientes, constitutivos de DOS (2) o más
+infracciones aduaneras, se impondrán las penas correspondientes a todas
+las figuras involucradas, salvo disposición especial en contrario.
+
+ARTICULO 913. – Salvo disposición
+especial en contrario, cuando un mismo hecho configurare
+simultáneamente una infracción aduanera y un delito, se impondrán las
+penas previstas para el delito.
+
+ARTICULO 914. – Cuando concurrieren
+varios hechos que configuraren independientemente una infracción
+aduanera y un delito, se impondrán separadamente las penas previstas
+para cada uno de ellos.
+
+Capítulo Tercero
+
+Penas
+
+ARTICULO 915. – Las penas serán graduadas en
+cada caso según las circunstancias, la naturaleza y la gravedad de las
+infracciones y los antecedentes del infractor.
+
+ARTICULO 916. – Cuando mediaren
+motivos suficientes de atenuación se podrá reducir la pena a aplicar
+por debajo de los topes mínimos previstos en este Título, con sujeción
+a lo establecido en el artículo 1115.
+
+ARTICULO 917. – 1.- El importe mínimo
+de la multa que correspondiere en una infracción aduanera se reducirá
+en un SETENTA Y CINCO POR CIENTO (75%) y, sin necesidad de proceder a
+la apertura del sumario, aplicará dicha sanción y se dispondrá la
+pertinente rectificación, cuando el responsable comunicare por escrito
+la existencia de la misma ante el servicio aduanero con anterioridad a
+que:
+
+a) Este por cualquier medio lo hubiere advertido; o
+
+b) En el trámite del despacho se hubiera dado a
+conocer que la declaración debiera someterse al control documental o a
+la verificación de la mercadería.
+
+2.- La reducción de pena procederá aun cuando la
+comunicación se hiciera con posterioridad al libramiento de la
+mercadería, siempre que no hubiere en curso un proceso de inspección
+aduanera o impositiva y el servicio aduanero pudiere constatar la
+inexactitud, en los plazos y con las formalidades que establezca la
+reglamentación.
+
+3.- La reducción de pena no procederá en los
+supuestos en los cuales la infracción consistiera en el mero
+incumplimiento de los plazos acordados para la realización de
+determinadas destinaciones u operaciones.
+
+(Artículo sustituido por art. 29 de la Ley N° 25.986 B.O. 5/1/2005.)
+
+ARTICULO 918. – Salvo disposición
+especial en contrario, cuando debiere determinarse el valor de la
+mercadería para la aplicación de las penas previstas en este Título, se
+estará al que tuviere en la fecha de la comisión de la infracción o, en
+caso de no poder precisarse ésta, en la de su constatación.
+
+ARTICULO 919. – Con la salvedad
+prevista respecto al elemento momento a tomarse en consideración en el
+artículo 918, cuando debiere aplicarse una multa establecida en este
+Título igual al valor en aduana o al valor en plaza de la mercadería en
+infracción o considerarse tales valores a los efectos de la graduación
+de las penas, se entenderá por:
+
+a) valor en aduana, el precio normal determinado
+conforme a lo dispuesto en el artículo 642 o el valor imponible
+previsto en el artículo 735, según que la infracción se hubiere
+cometido en relación con una importación o con una exportación,
+respectivamente;
+
+b) valor en plaza:
+
+1°) el valor en aduana, con más los gastos de
+despacho y los tributos que gravaren la importación para consumo de la
+mercadería de que se tratare, si la infracción se hubiere cometido en
+relación con una importación;
+
+2°) el valor imponible, con más los tributos
+interiores que no fueren aplicables con motivo de la exportación, si la
+infracción se hubiere cometido en relación con una exportación.
+
+ARTICULO 920. – Cuando no fuere
+posible aprehender la mercadería objeto de la infracción y su valor no
+pudiere determinarse por otros medios, se considerará que la misma
+tiene los siguientes valores:
+
+a) PESOS QUINIENTOS ($ 500) por cada caja o bulto;
+
+b) PESOS QUINIENTOS ($ 500) por tonelada o fracción de tonelada, cuando se tratare de mercaderías a granel;
+
+c) PESOS CINCO MIL ($ 5.000) por cada contenedor de
+VEINTE (20) pies y PESOS DIEZ MIL ($ 10.000) por cada contenedor de
+CUARENTA (40) pies, sin perjuicio de la aplicación del inciso a) o del
+inciso b), según el caso, respecto de la mercadería en él contenida.
+
+(Artículo sustituido por art. 30 de la Ley N° 25.986 B.O. 5/1/2005.)
+
+ARTICULO 921. – Cuando por faltar no
+pudiere verificarse la mercadería objeto de la infracción, ésta se
+clasificará por la posición arancelaria aplicable a la categoría más
+fuertemente gravada que correspondiere a su naturaleza, en el arancel
+general.
+
+En caso de igualdad de tributos de varias categorías posibles, se tomará aquélla cuyo número de orden en el arancel fuere mayor.
+
+ARTICULO 922. – Cuando se tratare de
+comiso y el titular o quien tuviere la disponibilidad jurídica de la
+mercadería no debiere responder por la sanción o la mercadería no
+pudiera aprehenderse, dicha pena se sustituirá por una multa igual a su
+valor en plaza.
+
+Cuando la mercadería no se encontrare en un ámbito
+sometido a la soberanía de la Nación Argentina se considerará que la
+mercadería no puede aprehenderse.
+
+ARTICULO 923. – Cualquiera fuere la
+especie de valor que debiere tomarse en consideración a los efectos de
+la aplicación de penas, éste será fijada por el servicio aduanero, de
+conformidad con lo previsto en los artículos 918 y 919.
+
+ARTICULO 924. – Vencido el plazo de
+QUINCE (15) días contado desde que quedare firme la resolución que
+impusiere pena de multa sin que su importe hubiere sido pagado, el
+condenado debe pagar juntamente con el mismo un interés sobre la
+cantidad no ingresada en dicho plazo, incluida en su caso la
+actualización respectiva, cuya tasa será la que fijare la Secretaría de
+Estado de Hacienda de conformidad con lo dispuesto en el artículo 794.
+
+ARTICULO 925. – 1. Los intereses
+previstos en el artículo 924 se devengarán hasta el momento del pago o
+de la interposición de demanda de ejecución fiscal.
+
+2. En el supuesto de interponerse demanda de
+ejecución fiscal la multa adeudada, actualizada en su caso, y los
+intereses devengados hasta el momento, devengarán, a su vez, un interés
+punitorio cuya tasa será la que fijare la Secretaría de Estado de
+Hacienda, de conformidad con lo dispuesto en el artículo 797.
+
+ARTICULO 926. – La pena de multa será
+fijada sobre la base de los valores (perjuicio fiscal, valor en plaza,
+valor en aduana o valor imponible, según correspondiere) o de los
+importes vigentes en la fecha de configuración de la infracción o, en
+caso de no poder precisársela, en la de su constatación, actualizados
+de acuerdo a la variación del índice de precios al por mayor (nivel
+general) elaborado por el Instituto Nacional de Estadística y censos o
+por el organismo oficial que cumpliere sus funciones, desde el mes en
+que se hubiere configurado o constatado la infracción hasta el
+penúltimo mes anterior a aquél en que se efectuare el pago.
+
+Capítulo Cuarto
+
+Reincidencia
+
+ARTICULO 927. – Será considerado reincidente,
+a los efectos de este Título, el que habiendo sido condenado por
+resolución firme por una infracción o un delito aduanero cometiere una
+nueva infracción aduanera.
+
+ARTICULO 928. – La condena anterior no se tendrá en cuenta a los efectos de considerar al imputado como reincidente cuando:
+
+a) se tratare de una infracción aduanera y hubieren
+transcurrido CINCO (5) años a partir de la fecha en que quedare firme
+la resolución definitiva que impuso aquélla;
+
+b) se tratare de un delito aduanero y hubiere
+transcurrido otro plazo igual al de la condena. Este plazo ni podrá
+exceder de DIEZ (10) años ni ser inferior a CINCO (5).
+
+Capítulo Quinto
+
+Extinción de acciones y penas
+
+ARTICULO 929. – La acción para imponer penas por las infracciones aduaneras se extingue por:
+
+a) amnistía;
+
+b) muerte del imputado;
+
+c) prescripción.
+
+ARTICULO 930. – La acción penal en las
+infracciones aduaneras reprimidas únicamente con pena de multa también
+se extingue por el pago voluntario del mínimo de la multa que pudiere
+corresponder por el hecho de que se tratare.
+
+ARTICULO 931. – 1. En los supuestos en
+que las infracciones aduaneras fueren reprimidas con pena de multa y
+comiso, la acción penal también se extingue por el pago voluntario del
+mínimo de la multa que pudiere corresponder por el hecho de que se
+tratare y por el abandono a favor del Estado de la mercadería en
+cuestión, con la entrega de ésta en zona primaria aduanera.
+
+2. Si de conformidad a lo previsto en el artículo
+985, apartado 2, procediere la sustitución del comiso por multa, la
+acción se extingue por el pago voluntario del importe del valor en
+plaza de la mercadería en cuestión.
+
+ARTICULO 932. – Los supuestos
+previstos en los artículos 930 y 931 sólo surtirán efecto extintivo de
+la acción penal si los pagos voluntarios y el abandono se efectuaren
+antes de vencido el plazo previsto en el artículo 1101. En estos casos,
+el antecedente no será registrado.
+
+ARTICULO 933. – El régimen de
+extinción de la acción penal previsto en los artículos 930 a 932 no
+será aplicable a la infracción de contrabando menor.
+
+ARTICULO 934. – La acción para imponer penas por las infracciones aduaneras prescribe por el transcurso de CINCO (5) años.
+
+ARTICULO 935. – La prescripción de la
+acción a que se refiere el artículo 934, comienza a correr el primero
+de enero del año siguiente al de la fecha en que se hubiera cometido la
+infracción o, en caso de no poder precisársela, en la de su
+constatación.
+
+ARTICULO 936. – La prescripción de la
+acción para imponer penas por las infracciones aduaneras se suspende
+desde la interposición del recurso de apelación ante el Tribunal Fiscal
+o la demanda contenciosa en sede judicial deducidos contra la
+resolución aduanera condenatoria, hasta que recayere decisión firme en
+la causa.
+
+ARTICULO 937. – La prescripción de la acción para imponer penas por las infracciones aduaneras se interrumpe por:
+
+a) el dictado del auto por el cual se ordenare la apertura del sumario;
+
+b) la comisión de otra infracción aduanera;
+
+c) la comisión de un delito aduanero;
+
+d) el dictado de la resolución condenatoria en sede aduanera.
+
+ARTICULO 938. – 1. Para que la
+comisión de otra infracción o de un delito aduanero tengan efecto
+interrumpido debe mediar, a su respecto, resolución o sentencia
+condenatoria firme.
+
+2. Cuando surgiere la existencia de una infracción o
+de un delito aduanero, que se hubiere cometido con posterioridad a la
+infracción investigada y no mediare a su respecto resolución o
+sentencia firme, la prescripción no podrá resolverse y su término se
+suspenderá hasta tanto no se dictare aquélla.
+
+ARTICULO 939. – La acción para hacer efectivas las penas por infracciones aduaneras se extingue por:
+
+a) amnistía;
+
+b) indulto;
+
+c) prescripción;
+
+d) muerte del condenado.
+
+ARTICULO 940. – La acción para hacer efectivas las penas por infracciones aduaneras prescribe por el transcurso de CINCO (5) años.
+
+ARTICULO 941. – La prescripción a que
+hace referencia el artículo 940, comenzará a correr el primero de enero
+del año siguiente al de la fecha en que quedare firme la condena.
+
+ARTICULO 942. – La prescripción de la
+acción para hacer efectivas las penas se suspende durante la
+sustanciación de la acción judicial promovida para hacerlas efectivas.
+
+ARTICULO 943. – La prescripción de la acción para hacer efectivas las penas se interrumpe por:
+
+a) la comisión de una nueva infracción o de un delito aduaneros;
+
+b) los actos de ejecución en sede administrativa tendientes a hacerlas efectivas;
+
+c) la iniciación de la acción judicial promovida para hacerlas efectivas.
+
+ARTICULO 944. – 1. Para que la
+comisión de otra infracción o de un delito aduaneros tenga el efecto
+interruptivo que se prevé en el artículo 943, inciso a) debe mediar a
+su respecto resolución o sentencia condenatoria firme.
+
+2. Cuando surgiere la existencia de una infracción o
+de un delito aduaneros, que se hubieren cometido con posterioridad a la
+imposición de la pena de cuya ejecución se tratare y no mediare a su
+respecto resolución o sentencia firme, la prescripción no podrá
+resolverse y su término se suspenderá hasta tanto no se dictare aquélla.
+
+ARTICULO 945. – Si la acción judicial
+promovida o sustanciada para hacer efectivas las penas por infracciones
+aduaneras se desistiere o, en su caso, se declarare la caducidad de la
+instancia, la misma no tendrá los efectos suspensivos ni interruptivos
+de la prescripción que se prevén en los artículos 942 y 943, inciso c),
+respectivamente.
+
+ARTICULO 946. – La prescripción de las
+acciones para imponer y para hacer efectivas las penas por infracciones
+aduaneras corre, se suspende y se interrumpe separadamente para cada
+uno de los imputados o responsables.
+
+DISPOSICIONES ESPECIALES
+
+Capítulo Sexto
+
+Contrabando menor
+
+ARTICULO 947. – En los supuestos previstos en los artículos 863, 864,
+865 inciso g), 871 y 873, cuando el valor en plaza de la mercadería
+objeto de contrabando o su tentativa, fuere menor de pesos quinientos
+mil ($500.000), el hecho se considerará infracción aduanera de
+contrabando menor y se aplicará exclusivamente una multa de dos (2) a
+diez (10) veces el valor en plaza de la mercadería y el comiso de ésta.
+
+Cuando se trate de tabaco o sus derivados el hecho se considerará
+infracción aduanera de contrabando menor cuando el valor en plaza de la
+mercadería objeto de contrabando o su tentativa, fuere menor de pesos
+ciento sesenta mil ($160.000).
+
+Cuando se trate de las mercaderías enunciadas en el párrafo anterior,
+el servicio aduanero procederá a su decomiso y destrucción.
+
+(Artículo sustituido por art. 250 de la Ley
+N° 27430 B.O. 29/12/2017. Vigencia: a partir del día siguiente al de su publicación en el Boletín Oficial)
+
+ARTICULO 948. – En los supuestos
+contemplados en el artículo 947 cuando no se aprehendiere la
+mercadería, el comiso se sustituirá por una multa igual a su valor en
+plaza.
+
+ARTICULO 949. – No obstante que el valor en plaza de la mercadería
+objeto de contrabando o su tentativa fuere menor de pesos quinientos
+mil ($500.000) o de pesos ciento sesenta mil ($160.000) en el supuesto
+que se trate de tabaco o sus derivados, el hecho constituirá delito y
+no infracción de contrabando menor, en cualquiera de los siguientes
+supuestos:
+
+a) Cuando la mercadería formare parte de una cantidad mayor, si el
+conjunto superare ese valor;
+
+b) Cuando el imputado hubiera sido condenado por sentencia firme por
+cualquiera de los delitos previstos en los artículos 863, 864, 865,
+866, 871 y 873 o por la infracción de contrabando menor.
+
+(Artículo sustituido por art. 251 de la Ley
+N° 27430 B.O. 29/12/2017. Vigencia: a partir del día siguiente al de su publicación en el Boletín Oficial)
+
+ARTICULO 950. – Las penas previstas en
+el artículo 947 para el autor del contrabando menor también se
+aplicarán a quien hubiere determinado directamente a otro a cometerlo,
+al que cooperare de cualquier modo a su ejecución o al que prestare una
+ayuda posterior cumpliendo promesas anteriores a la comisión de la
+infracción.
+
+ARTICULO 951. – En la infracción de contrabando menor el sumario será instruido y resuelto por la autoridad aduanera.
+
+ARTICULO 952. – A los fines de
+considerar al hecho como infracción o delito, en todos los casos, el
+valor en plaza de la mercadería será el que fije la autoridad aduanera
+con relación al momento de la constatación del ilícito.
+
+ARTICULO 953. – El límite monetario
+indicado en los artículos 947 y 949 se actualizará anualmente en forma
+automática al 31 de octubre de cada año, de conformidad con la
+variación de los índices de precios al por mayor (nivel general)
+elaborados por el Instituto Nacional de Estadísticas y Censos o por el
+organismo oficial que cumpliere sus funciones. Esta actualización
+surtirá efectos a partir del 1 de enero del año siguiente.
+
+Capítulo Séptimo
+
+Declaraciones inexactas y otras diferencias injustificadas
+
+ARTICULO 954. – 1. El que, para cumplir
+cualquiera de las operaciones o destinaciones de importación o de
+exportación, efectuare ante el servicio aduanero una declaración que
+difiera con lo que resultare de la comprobación y que, en caso de pasar
+inadvertida, produjere o hubiere podido producir:
+
+a) un perjuicio fiscal, será sancionado con una multa de UNO (1) a CINCO (5) veces el importe de dicho perjuicio;
+
+b) una transgresión a una prohibición a la
+importación o a la exportación, será sancionado con una multa de UNO
+(1) a CINCO (5) veces el valor en aduana de la mercadería en infracción;
+
+c) el ingreso o el egreso desde o hacia el exterior
+de un importe pagado o por pagar distinto del que efectivamente
+correspondiere, será sancionado con una multa de UNO (1) a CINCO (5)
+veces el importe de la diferencia.
+
+2. Si el hecho encuadrare simultáneamente en más de
+uno de los supuestos previstos en el apartado 1, se aplicará la pena
+que resultare mayor.
+
+ARTICULO 955. – A los efectos de lo
+previsto en el artículo 954, en el supuesto de mercadería faltante,
+cuando no pudiere determinarse si la diferencia produjo o hubiere
+podido producir alguna de las consecuencias previstas en cualquiera de
+los incisos a), b) y c) del artículo indicado precedentemente, se
+impondrá una multa de PESOS QUINIENTOS ($ 500) por bulto faltante o si
+se tratare de mercadería a granel por tonelada faltante o fracción de
+ella.
+
+(Artículo sustituido por art. 33 de la Ley N° 25.986 B.O. 5/1/2005.)
+
+ARTICULO 956. – A los fines de la aplicación de lo dispuesto en el artículo 954:
+
+a) las declaraciones relativas a operaciones o
+destinaciones de importación se consideran como si fueran de
+importación para consumo y las relativas a operaciones o destinaciones
+de exportación como si fueran de exportación para consumo, con
+excepción de la declaración relativa a la operación de reembarco que se
+considera como de importación para consumo. En este último supuesto, si
+de la comprobación resultare menor cantidad de mercadería que la
+declarada en la solicitud de reembarco, se considerará como si hubiera
+resultado mayor cantidad que la declarada;
+
+b) se entiende por perjuicio fiscal la falta de
+ingreso al servicio aduanero del importe que correspondiere por
+tributos cuya percepción le estuviere encomendada, el ingreso de un
+importe menor al que correspondiere por tal concepto o el pago por el
+Fisco de un importe que no correspondiere por estímulos a la
+exportación;
+
+c) la presentación del manifiesto general de la
+carga, del rancho, de la pacotilla y de la relación de la carga
+equivale a efectuar una declaración relativa a lo expresado en los
+mismos.
+
+ARTICULO 957. – (Artículo derogado por art. 47 de la Ley N° 25.986 B.O. 5/1/2005.)
+
+ARTICULO 958. – Salvo disposición
+especial en contrario, en los supuestos en que este código hubiere
+previsto la dispensa del pago de tributos por las causales de
+siniestro, caso fortuito, fuerza mayor o en el supuesto de
+rectificación de declaración debidamente justificada, las diferencias
+que fueren consecuencia directa de dichas causales no serán tomadas en
+consideración a los efectos punibles.
+
+(Artículo sustituido por art. 34 de la Ley N° 25.986 B.O. 5/1/2005.)
+
+ARTICULO 959. – En cualquiera de las
+operaciones o de las destinaciones de importación o de exportación, no
+será sancionado el que hubiere presentado una declaración inexacta
+siempre que mediare alguno de los siguientes supuestos:
+
+a).- la inexactitud fuere comprobable de la simple
+lectura de la propia declaración o la circunstancia o el elemento en el
+cual ella recayera hubiera sido objeto de las opciones a la que aluden
+los artículos 234 apartado 3 ó 332 apartado 3 de este Código.; (Inciso sustituido por art. 35 de la Ley N° 25.986 B.O. 5/1/2005.)
+
+b) la diferencia resultante de la inexactitud
+únicamente causare o pudiere causar un perjuicio fiscal y su importe
+fuere menor de Australes 581.000. En caso de que la diferencia causare
+o pudiere causar además alguna de las consecuencias previstas en los
+incisos b) y c) del artículo 954, la eximición de pena contemplada en
+este inciso no será aplicable. El mencionado importe se actualizará
+anualmente en forma automática al 31 de octubre de cada año, de
+conformidad con la variación de los índices de precios al por mayor
+(nivel general) elaborados por el Instituto Nacional de Estadísticas y
+Censos o por el organismo oficial que cumpliere sus funciones. Esta
+actualización surtirá efectos a partir del primero de enero siguiente; (Monto sustituido por art. 1° de la Resolución N° 2344/1991 de la Administración Nacional de Aduanas B.O. 10/12/1991)
+
+(Nota Infoleg: En relación al monto mencionado en Australes, ver la Ley N° 23.928 B.O. 28/03/1991 y el Decreto N° 2128/1991
+B.O. 17/10/1991 por los que se declara la convertibilidad del Austral a
+partir del 1° de enero de 1992, estableciéndose la paridad de UN PESO
+($1) equivalente a DIEZ MIL AUSTRALES (A 10.000).)
+
+c) la diferencia de cantidad de mercadería de una
+misma posición arancelaria no excediere del DOS (2%) por ciento sobre
+la unidad de medida que correspondiere a la misma. La reglamentación
+podrá aumentar este porcentaje hasta un SEIS (6%) por ciento, en
+atención a la naturaleza de la mercadería de que se tratare. Esta
+eximición no alcanza a las sanciones que pudieren corresponder por
+otras diferencias.
+
+ARTICULO 960. – Cuando en cualquier destinación de importación o de
+exportación se declarare una mercadería en forma supeditada, en los
+términos previstos en los artículos 227 y 324, respectivamente, la
+eventual declaración inexacta efectuada en la declaración supeditada no
+será punible.
+
+(Artículo sustituido por art. 149 del Decreto N° 70/2023 B.O. 21/12/2023.)
+
+ARTICULO 961. – La norma dictada con
+posterioridad a la configuración de la infracción que modificare el
+tratamiento aduanero o fiscal de la mercadería no surtirá efectos como
+norma penal más benigna a los fines de la aplicación de las sanciones
+contempladas en este Capítulo.
+
+Capítulo Octavo
+
+Mercadería a bordo sin declarar
+
+ARTICULO 962. – Cuando en un medio de
+transporte se hallare mercadería oculta o en lugares de acceso
+reservado a la tripulación o en poder de algún tripulante, que no
+hubiere sido oportunamente declarada ante el servicio aduanero,
+corresponderá el comiso de la mercadería en infracción y se aplicará al
+transportista una multa igual a su valor en plaza.
+
+ARTICULO 963. – En el supuesto
+previsto en el artículo 962, si la importación o la exportación de la
+mercadería en infracción estuviere sujeta a una prohibición, la multa
+podrá elevarse hasta DOS (2) veces su valor en plaza.
+
+ARTICULO 964. – En los supuestos previstos en el artículo 962 no será aplicable lo dispuesto en el artículo 954.
+
+Capítulo Noveno
+
+Transgresión de las obligaciones impuestas como condición de un beneficio
+
+ARTICULO 965. – El que no cumpliere con la obligación que hubiera condicionado el otorgamiento de:
+
+a) una excepción a una prohibición a la importación
+para consumo a la exportación para consumo, será sancionado con el
+comiso de la mercadería en infracción;
+
+b) una exención total o parcial de tributos que
+gravaren la importación para consumo o la exportación para consumo,
+será sancionado con una multa de UNO (1) a CINCO (5) veces el importe
+actualizado de los tributos dispensados;
+
+c) un estímulo a la exportación para consumo, será
+sancionado con una multa de UNO (1) a CINCO (5) veces el importe
+actualizado del estímulo acordado.
+
+ARTICULO 966. – Todo el que por
+cualquier título tuviere en su poder con fines comerciales o
+industriales mercadería importada para consumo en excepción a una
+prohibición o con exención total o parcial de tributos respecto de la
+cual no se hubiere cumplido la obligación que hubiera condicionado el
+otorgamiento del beneficio, será sancionado en forma solidaria con el
+autor de la transgresión prevista en el artículo 965, incisos a) o b),
+según correspondiere, con las penas allí establecidas.
+
+ARTICULO 967. – La actualización a que
+se refiere el artículo 965 se efectuará desde el momento en que se
+hubiere librado la mercadería o se hubiere percibido el importe
+correspondiente al estímulo a la exportación, según el caso, hasta el
+momento de la comisión de la infracción o, en caso de no poder
+precisárselo, en el de su constatación, sin perjuicio de los dispuesto
+en el artículo 926. Dicha actualización se efectuará de conformidad con
+la variación que hubieren experimentado los índices de precios al por
+mayor (nivel general) elaborados por el Instituto Nacional de
+Estadística y Censos o por el organismo oficial que cumpliere sus
+funciones.
+
+ARTICULO 968. – Cuando el
+incumplimiento de la obligación que hubiere condicionado el beneficio
+no afectare la finalidad que motivara su otorgamiento:
+
+a) el responsable de las transgresiones previstas en
+los incisos a) y b) del artículo 965, será sancionado con una multa del
+UNO (1%) al DIEZ (10%) por ciento del valor en aduana de la mercadería
+en infracción;
+
+b) el que tuviere en su poder la mercadería en las condiciones previstas en el artículo 966, no será sancionado.
+
+ARTICULO 969. – Cuando el exportador
+que hubiere optado por el régimen previsto en el artículo 729 no
+cumpliere con la exportación en los plazos, forma y condiciones
+contempladas en el artículo 730 sin mediar las causales previstas en el
+artículo 731 será sancionado con una multa del DIEZ (10%) al VEINTE
+(20%) por ciento del valor en aduana de la cantidad, peso o volumen de
+la mercadería no exportada.
+
+Capítulo Décimo
+
+Transgresiones a los regímenes de destinación suspensiva
+
+ARTICULO 970. – 1. El que no cumpliere con
+las obligaciones asumidas como consecuencia del otorgamiento del
+régimen de importación temporaria o del exportación temporaria, según
+el caso, será sancionado con una multa de UNO (1) a CINCO (5) veces el
+importe de los tributos que gravaren la importación para consumo o la
+exportación para consumo, según el caso, de la mercadería en
+infracción, multa que no podrá ser inferior al TREINTA (30%) por ciento
+del valor en aduana de la mercadería, aun cuando ésta no estuviere
+gravada.
+
+2. En el supuesto previsto en el apartado 1, si la
+importación para consumo o la exportación para consumo, según el caso,
+de la mercadería en infracción se encontrare prohibida se aplicará
+además su comiso.
+
+ARTICULO 971. – Todo el que por
+cualquier título tuviere en su poder con fines comerciales o
+industriales mercadería importada temporariamente, a cuyo respecto no
+se hubiere cumplido la obligación asumida como consecuencia del
+otorgamiento del régimen, será sancionado en forma solidaria con el
+autor de la transgresión prevista en el artículo 970, con las penas
+allí establecidas para cada caso.
+
+ARTICULO 972. – 1. Cuando el
+incumplimiento de la obligación no afectare la finalidad que motivara
+el otorgamiento de la importación temporaria o de la exportación
+temporaria, según el caso:
+
+a) el responsable de las transgresiones previstas en
+el artículo 970, será sancionado con una multa del UNO (1%) por ciento
+del valor en aduana de la mercadería en infracción;
+
+b) el que tuviere en su poder la mercadería, en las condiciones previstas en el artículo 971, no será sancionado.
+
+2. A los fines de este código, se considera que el
+cumplimiento de la obligación de reexportar o de reimportar dentro del
+plazo acordado afecta la finalidad tenida en cuenta para el
+otorgamiento del régimen respectivo, no aplicándose lo previsto en el
+apartado 1.
+
+ARTICULO 973. – Transcurrido el plazo
+de UN (1) mes contado a partir del vencimiento del que hubiere sido
+acordado para el cumplimiento del transporte efectuado bajo el régimen
+de tránsito de importación o el de removido, sin que el medio de
+transporte que traslada la mercadería arribare a la aduana de salida o
+de destino, según correspondiere, el transportista será sancionado:
+
+a) cuando se tratare de tránsito de importación, con
+una multa de UNO (1) a CINCO (5) veces el importe de los tributos que
+gravaren la importación para consumo, Esta multa no podrá ser inferior
+al TREINTA (30%) por ciento del valor en aduana de la mercadería, aun
+cuando ésta no estuviere gravada. Si la importación para consumo se
+encontrare prohibida se aplicará además el comiso de la mercadería en
+infracción;
+
+b) cuando se tratare de removido, con una multa de
+UNO (1) a CINCO (5) veces el importe de los tributos que gravaren la
+exportación para consumo. Esta multa no podrá ser inferior al TREINTA
+(30%) por ciento del valor en aduana de la mercadería, aun cuando ésta
+no estuviere gravada. Si la exportación para consumo se encontrare
+prohibida se aplicará además el comiso de la mercadería en infracción.
+
+ARTICULO 974. – El importador o el exportador, según correspondiere, responderán solidariamente por las sanciones previstas en el artículo 973.
+
+ARTICULO 975. – En los supuestos previstos en el artículo 973, no será aplicable lo dispuesto en el artículo 954.
+
+ARTICULO 976. – La norma dictada con
+posterioridad a la configuración de la infracción que modificare al
+tratamiento aduanero o fiscal de la mercadería no surtirá efectos como
+norma penal más benigna a los fines de la aplicación de las sanciones
+contempladas en este Capítulo.
+
+Capítulo Décimo Primero
+
+Transgresiones a los regímenes de equipaje, pacotilla y franquicias diplomáticas
+
+ARTICULO 977. – 1. El viajero de cualquier
+categoría, el tripulante o cualquier persona que introdujere o
+pretendiere introducir al territorio aduanero por vía de equipaje o de
+pacotilla, según el caso mercadería que no fuere de la admitida en tal
+carácter por las respectivas reglamentaciones, será sancionado con una
+multa de UNO (1) a TRES (3) veces el valor en aduana de la mercadería
+en infracción.
+
+2. En el supuesto previsto en el apartado 1, si la
+importación para consumo de la mercadería en infracción estuviere
+prohibida se aplicará además su comiso.
+
+ARTICULO 978. – El viajero de
+cualquier categoría, el tripulante o cualquier persona que introdujere
+o pretendiere introducir al territorio aduanero como equipaje o como
+pacotilla, según el caso, mercadería cuya introducción en tal carácter
+fuere admitida en las respectivas reglamentaciones pero omitiere su
+declaración aduanera cuando ésta fuere exigible o incurriere en
+falsedad en su declaración, será sancionado con una multa de la mitad a
+DOS (2) veces el valor en aduana de la mercadería en infracción. Esta
+multa nunca podrá ser inferior al importe de los tributos que gravaren
+la importación para consumo de la mercadería de que se tratare.
+
+ARTICULO 979. – 1. El viajero de
+cualquier categoría, el tripulante o cualquier persona que extrajere o
+pretendiere extraer del territorio aduanero por vía de equipaje o de
+pacotilla, según el caso, mercadería que no fuere de la admitida en tal
+carácter por las respectivas reglamentaciones, será sancionado con una
+multa de UNO (1) a TRES (3) veces el valor en aduana de la mercadería
+en infracción.
+
+2. En el supuesto previsto en el apartado 1, si la
+exportación para consumo de la mercadería en infracción estuviere
+prohibida se aplicará además su comiso.
+
+ARTICULO 980. – Lo dispuesto en los
+artículos 977 y 979, será también aplicable a la importación y a la
+exportación, según el caso, de mercadería bajo el régimen de
+franquicias diplomáticas cuando la misma no estuviere amparada por tal
+régimen.
+
+ARTICULO 981. – El que transfiere la
+propiedad, posesión o tenencia de mercadería que hubiere sido importada
+bajo los regímenes de equipaje, pacotilla o franquicias diplomáticas en
+transgresión a lo previsto en los mismos, será sancionado con una multa
+de UNO (1) a TRES (3) veces el valor en aduana de la mercadería en
+infracción.
+
+ARTICULO 982. – 1. Todo el que por
+cualquier título tuviere en su poder con fines comerciales o
+industriales mercadería importada bajo los regímenes de equipaje,
+pacotilla o franquicias diplomáticas cuya propiedad, posesión o
+tenencia hubiera sido transferida en transgresión a los previsto en
+dichos regímenes, será sancionado, en forma solidaria con el autor de
+la transgresión contemplada en el artículo 981, con la pena allí
+establecida.
+
+2. Si la mercadería de que se tratare constituyere
+un automotor, el tenedor será sancionado en forma solidaria con el
+autor de la transgresión aun cuando no la tuviere con fines comerciales
+o industriales.
+
+Capítulo Décimo Segundo
+
+Transgresiones al régimen de envíos postales
+
+ARTICULO 983. – 1. El que se presentare al
+servicio aduanero al de correos para tomar intervención en la
+verificación y despacho de una mercadería recibida en carácter de envío
+postal, será sancionado con el comiso de la mercadería en infracción
+cuando de la verificación efectuada con su previa conformidad resultare
+que la mercadería:
+
+a) fuere de aquella que debe llevar la etiqueta
+verde u otro medio de identificación que indicare la necesidad de
+control aduanero y no tuviere tal identificación;
+
+b) no fuere de la admitida en carácter de envío postal.
+
+2. En el supuesto previsto en el apartado 1, el
+comiso podrá ser reemplazado a pedido del interesado por una multa
+igual al valor en plaza de la mercadería, salvo que se tratare de
+mercadería cuya importación estuviere prohibida.
+
+ARTICULO 984. – Cuando se incurriere
+en una declaración inexacta efectuada ante el servicio aduanero con
+motivo del despacho de un envío postal con fines comerciales o
+industriales, será de aplicación lo dispuesto en el artículo 954.
+
+Capítulo Décimo Tercero
+
+Tenencia injustificada de mercadería de origen extranjero con fines comerciales o industriales
+
+ARTICULO 985. – El que por cualquier título
+tuviere en su poder con fines comerciales o industriales mercadería de
+origen extranjero, sujeta al pago de impuesto internos, que no
+presentare aplicado el respectivo instrumento fiscal, conforme lo
+exigieren las disposiciones en vigencia, será sancionado con el comiso
+de la mercadería de que se tratare y con una multa de UNO (1) a CINCO
+(5) veces su valor en plaza.
+
+ARTICULO 986. – El que por cualquier
+título tuviere en su poder con fines comerciales o industriales
+mercadería de origen extranjero, que no presentare debidamente
+aplicados los medios de identificación que para ella hubiere
+establecido la Administración Nacional de Aduanas, será sancionado con
+el comiso de la mercadería de que se tratare y con una multa de UNO (1)
+a CINCO (5) veces su valor en plaza.
+
+ARTICULO 987. – El que por cualquier
+título tuviere en su poder con fines comerciales o industriales
+mercadería de origen extranjero y no probare, ante el requerimiento del
+servicio aduanero, que aquélla fue librada lícitamente a plaza, será
+sancionado con el comiso de la mercadería de que se tratare y con una
+multa de UNO (1) a CINCO (5) veces su valor en plaza. A los efectos de
+la comprobación a que se refiere este artículo, sólo se admitirá la
+documentación aduanera habilitante de la respectiva importación. No
+será de aplicación lo dispuesto en este artículo cuando el hecho
+encuadrare en cualquiera de los supuestos previstos en los artículos
+985 y 986.
+
+ARTICULO 988. – Además de las
+sanciones previstas en los artículos 955, 986 y 987, podrá disponerse,
+con carácter de pena, la clausura del local o comercio donde la
+mercadería se encontrare y sus dependencias anexas o depósitos, por un
+plazo de hasta UN (1) año, sin perjuicio del derecho que pudiere
+asistir a terceros. En caso de segunda reincidencia la clausura se
+dispondrá por el plazo mínimo de SEIS (6) meses hasta un máximo de DOS
+(2) años, sin perjuicio del derecho que pudiera asistir a terceros, y
+además la inhabilitación para ejercer el comercio por igual tiempo.
+
+ARTICULO 989. – 1. En los supuestos de
+los artículos 985 y 986, comprobada prima facie la infracción, la
+primera autoridad que interviniere dispondrá, desde ese momento, el
+secuestro de la mercadería en infracción y su remisión inmediata a la
+autoridad aduanera pertinente o su depósito en los lugares señalados
+por ésta, así como la clausura provisional del correspondiente local o
+comercio y sus anexos.
+
+2. La clausura provisional no se llevará a cabo
+siempre que el interesado en el mismo acto ofreciere bienes a embargo
+suficientes para cubrir el máximo de la pena prevista en el artículo
+985 o en el 986, según correspondiere, en cuyo caso la autoridad
+interviniente lo constituirá en depositario de los bienes embargados.
+
+ARTICULO 990. – 1. La clausura provisional podrá levantarse por:
+
+a) el otorgamiento de garantía suficiente para
+cubrir las eventuales multas que pudieren resultar aplicables. La
+garantía deberá prestarse en las condiciones previstas en la Sección V,
+Título III, de este código;
+
+b) el transcurso del plazo máximo de la pena de clausura que pudiere corresponder;
+
+c) el pago de las multas impuestas;
+
+d) la desestimación de la denuncia, el sobreseimiento o la absolución.
+
+2. El período cumplido de clausura provisional se computará para reducir el plazo de la clausura que se impusiere como sanción.
+
+ARTICULO 991. – El que hubiere
+transferido por cualquier título, con fines comerciales o industriales,
+mercadería de origen extranjero que no presentare aplicado el
+respectivo instrumento fiscal, que no llevare los medios de
+identificación en la forma prevista en las reglamentaciones pertinentes
+o que efectuare dicha transmisión sin cumplir los requisitos que se
+hubieren establecido al efecto, será sancionado con una multa de UNO
+(1) a CINCO (5) veces el valor en plaza de la mercadería en infracción.
+Esta sanción es independiente de las que correspondiere aplicar al
+tenedor de la mercadería en infracción.
+
+ARTICULO 992. – Toda transgresión a
+las normas reglamentarias del régimen a que se refiere el presente
+Capítulo, siempre que no constituyere un hecho más severamente penado,
+será sancionado con multa de PESOS QUINIENTOS ($ 500) a PESOS DIEZ MIL
+($ 10.000).
+
+(Artículo sustituido por art. 36 de la Ley N° 25.986 B.O. 5/1/2005.)
+
+ARTICULO 993. – Los importes previstos
+en el artículo 992 se actualizarán anualmente, en forma automática, al
+31 de octubre de cada año, de conformidad con la variación de los
+índices de precios al por mayor (nivel general) elaborados por el
+Instituto Nacional de Estadística y Censos o por el organismo oficial
+que cumpliere sus funciones. Esta actualización surtirá efectos a
+partir del primero de enero siguiente.
+
+Capítulo Décimo Cuarto
+
+Otras transgresiones
+
+ARTICULO 994. – Sin perjuicio de la
+aplicación de las medidas disciplinarias que pudieren corresponder,
+será sancionado con una multa de PESOS QUINIENTOS ($ 500) a PESOS DIEZ
+MIL ($ 10.000) el que:
+
+a) Suministrare informes inexactos o falsos al servicio aduanero;
+
+b) Se negare a suministrar los informes o documentos que le requiriere el servicio aduanero;
+
+c) Impidiere o entorpeciere la acción del servicio aduanero.
+
+(Artículo sustituido por art. 37 de la Ley N° 25.986 B.O. 5/1/2005.)
+
+ARTICULO 995. – El que transgrediere
+los deberes impuestos en este Código o en la reglamentación que en su
+consecuencia se dictare, será sancionado con una multa de PESOS UN MIL
+($ 1.000) a PESOS DIEZ MIL ($ 10.000) cuando el hecho no tuviere
+prevista una sanción específica en este Código y produjere o hubiere
+podido producir un perjuicio fiscal o afectare o hubiere podido afectar
+el control aduanero.
+
+(Artículo sustituido por art. 38 de la Ley N° 25.986 B.O. 5/1/2005.)
+
+ARTICULO 996. – Los importes previstos
+en las escalas penales de los artículos 994 y 995 se actualizarán
+anualmente, en forma automática, al 31 de octubre de cada año, de
+conformidad con la variación de los índices de precios al por mayor
+(nivel general) elaborados por el Instituto Nacional de Estadística y
+Censos o por el organismo oficial que cumpliere sus funciones. Esta
+actualización surtirá efectos a partir del primero de enero siguiente.

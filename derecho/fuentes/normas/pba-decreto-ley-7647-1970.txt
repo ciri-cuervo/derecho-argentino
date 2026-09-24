@@ -1,0 +1,1096 @@
+Decreto-Ley 7.647/70 PBA - Normas de procedimiento administrativo (texto actualizado)
+==============================================================================
+Jurisdicción:     pba
+Fuente:           https://normas.gba.gob.ar/documentos/rVRy2u5B.html
+Descargado:       2026-09-23
+SHA-256 (crudo):  447a9971ff14b93087520dd576d93de31726526bba2d8a8d5352e0c791baf225
+Charset:          UTF-8
+
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
+el manifiesto `normas.json`.
+==============================================================================
+
+Decreto-ley 7647/1970
+
+DECRETO-LEY 7647/70
+
+
+
+Normas de Procedimiento Administrativo
+
+
+
+Texto Actualizado con las modificaciones introducidas por la Ley 13262, 13708, 14224 y 14229.
+
+
+
+Nota: Ver Ley 15230. Implementación de los sistemas de domicilio electrónico y audiencias virtuales - pautas - validéz.
+
+
+
+
+
+
+LA PLATA, 3 de noviembre de 1970.
+
+
+
+VISTA la autorización del Gobierno Nacional concedida por Decreto 1585/70, en ejercicio de las facultades legislativas que le confiere el artículo 9º del Estatuto de la Revolución Argentina,
+
+
+
+EL GOBERNADOR DE LA PROVINCIA DE BUENOS AIRES,
+
+
+
+SANCIONA Y PROMULGA CON FUERZA DE
+
+
+
+LEY
+
+
+
+I. AMBITO DE APLICACIÓN
+
+
+
+ARTÍCULO 1°: Se regulará por las normas de esta Ley el procedimiento para obtener una decisión o una prestación de la Administración Pública de Buenos Aires y el de producción de sus actos administrativos. Será de aplicación supletoria en las tramitaciones administrativas con regímenes especiales.
+
+
+
+II. COMPETENCIA DEL ORGANO ADMINISTRATIVO
+
+
+
+ARTÍCULO 2°: Las actuaciones cuya resolución corresponda a la Administración Pública, deberán ser iniciadas ante el órgano administrativo competente.
+
+
+
+ARTÍCULO 3°: La competencia de los órganos de la Administración Pública se determinará por la Constitución de la Provincia, las leyes orgánicas administrativas y los reglamentos que dicten el Poder Ejecutivo y las entidades autárquicas. La competencia es irrenunciable y se ejercerá precisamente por los órganos administrativos que la tengan atribuida como propia, salvo los casos de delegación, sustitución o avocación previstos por las leyes.
+
+
+
+ARTÍCULO 4°: Cuando se produzca un conflicto interno de competencia entre autoridades u organismos administrativos, será resuelto por el ministro de que dependan.
+
+
+
+Los conflictos de competencia interministeriales o entre las dependencias de los ministerios y las entidades autárquicas o de éstas entre sí serán resueltos por el Poder Ejecutivo.
+
+
+
+ARTÍCULO 5°: En los conflictos de competencia se observarán las siguientes reglas:
+
+
+
+1.- Cuando dos autoridades se encuentren entendiendo en el mismo asunto, cualquiera de ellas de oficio o a petición de partes, se dirigirá a la otra reclamando para si el conocimiento del asunto. Si la autoridad requerida mantiene su competencia, elevará sin más trámite las actuaciones al órgano administrativo que corresponda resolver quien decidirá la cuestión sin otra sustanciación, que dictamen de la Asesoría General de Gobierno.
+
+
+
+2.- Cuando dos ministerios o entidades autárquicas rehusaren conocer en el asunto, el último que lo hubiere recibido deberá elevarlo al Poder Ejecutivo, quien decidirá previo dictamen del Asesor General de Gobierno.
+
+
+
+III. RECUSACION Y EXCUSACION
+
+
+
+ARTÍCULO 6°: Ningún funcionario o empleado es recusable, salvo cuando normas especiales así lo determinen. Son causales de obligatoria excusación para los funcionarios o empleados que tengan facultad de decisión o que sea su misión dictaminar o asesorar:
+
+
+
+a) Tener parentesco con el interesado por consanguinidad dentro del cuarto grado o por afinidad hasta el segundo grado.
+
+
+
+b) Tener interés en el asunto o amistad intima o enemistad manifiesta con el actuante.
+
+
+
+El funcionario que resolviera excusarse deberá elevar las actuaciones al superior jerárquico, quien considerará su procedencia o improcedencia. En el primer caso designará el funcionario sustituto o resolverá por sí. En el segundo, devolverá las actuaciones al
+
+
+
+inferior para que continúe entendiendo. En ambos casos la decisión causará ejecutoria.
+
+
+
+IV. POTESTAD DISCIPLINARIA
+
+
+
+ARTÍCULO 7°: La autoridad administrativa a la que corresponda la dirección de las actuaciones, adoptará la medidas necesarias para la celeridad, economía y eficacia del trámite.
+
+
+
+ARTÍCULO 8°: Velará también por el decoro y buen orden de las actuaciones, pudiendo al efecto aplicar sanciones a los interesados intervinientes por las faltas que cometieren, ya sea obstruyendo el curso de las mismas o contra la dignidad y respeto de la Administración, o por falta de lealtad a probidad en la tramitación de los asuntos.
+
+
+
+La potestad disciplinaria respecto de las faltas cometidas por los agentes de la Administración se regirán por sus leyes especiales.
+
+
+
+ARTÍCULO 9°: Las sanciones que según la gravedad de las faltas, podrán aplicarse a los interesados intervinientes, son:
+
+
+
+1. Llamado de atención.
+
+
+
+2. Apercibimiento.
+
+
+
+3. Multa, que no excederá de veinte pesos.
+
+
+
+Contra la sanción de multa, se podrá interponer recurso jerárquico dentro de los tres días.
+
+
+
+V. INTERESADOS, REPRESENTANTES Y TERCERO
+
+
+
+ARTÍCULO 10: La actuación administrativa puede iniciarse de oficio o a petición de cualquier persona o entidad pública o privada, que tenga derecho o interés legitimo.
+
+
+
+El que instare ante la Administración Pública un procedimiento relacionado con obras o servicios públicos, o el que peticionare con el objeto de lograr una decisión de la Administración, comprendida en las facultades potestativas no será tenido por parte en el procedimiento; lo que se le hará saber.
+
+
+
+ARTÍCULO 11: (Texto según Ley 14229) La parte interesada, su apoderado o letrado patrocinante, tendrán acceso al expediente durante todo su trámite, pudiendo, a su cargo, copiar o fotocopiar todas sus partes. El pedido de vista podrá hacerse verbalmente y se concederá sin necesidad de resolución expresa al efecto, en la oficina en que se encuentre el expediente, aunque no sea la mesa de entradas o receptoría.
+
+
+
+El párrafo anterior del presente artículo será exhibido en todas las reparticiones de la Administración centralizada, descentralizada y entes autárquicos al público.
+
+
+
+ARTÍCULO 12: Si durante el curso de las actuaciones falleciese o se incapacitare el interesado que las hubiera promovido, se suspenderá el procedimiento.
+
+
+
+ARTÍCULO 13: La persona que se presente en las actuaciones administrativas por un derecho o interés que no sea propio, aunque le competa ejercerlo en virtud de representación legal, deberá acompañar con el primer escrito los documentos que acrediten la calidad invocada.
+
+
+
+Sin embargo, los padres que comparezcan en representación de sus hijos y el marido que lo haga en nombre de su mujer, no tendrán obligación de presentar las partidas correspondientes, salvo que fundadamente les fueran requeridas.
+
+
+
+ARTÍCULO 14: Los representantes o apoderados acreditarán su personería desde la primera intervención que hagan a nombre de sus mandantes, con el instrumento público correspondiente, o con carta-poder con firma autenticada por la Justicia de Paz, o por escribano público.
+
+
+
+En caso de encontrarse agregado a otro expediente que tramite la misma repartición bastará la certificación correspondiente.
+
+
+
+ARTÍCULO 15: El mandato también podrá otorgarse por acta ante la autoridad administrativa, la que contendrá una simple relación de la identidad y domicilio del compareciente, designación de la persona del mandatario, mención de la facultad de percibir sumas de dinero, u otro especial que se le confiera.
+
+
+
+Cuando se faculte a percibir sumas mayores de quinientos pesos, se requerirá poder otorgado ante escribano público.
+
+
+
+ARTÍCULO 16: Cesará la representación en las actuaciones:
+
+
+
+1. Por revocación del poder. La intervención del interesado en el procedimiento no importa revocación, si al tomarla no lo declara expresamente.
+
+
+
+2. Por renuncia, después de vencido el término del emplazamiento al poderdante o de la comparecencia del mismo en el expediente.
+
+
+
+Este emplazamiento deberá hacerse en el domicilio real del interesado bajo apercibimiento de continuar los trámites sin su intervención.
+
+
+
+3. Por muerte o inhabilidad del mandatario. Este hecho suspende el trámite administrativo hasta la comparecencia del mandante, a quien se le intimará bajo apercibimiento de continuar el trámite sin su intervención o disponerse el archivo del expediente, según corresponda.
+
+
+
+ARTÍCULO 17: Desde el momento en que el poder se presenta a la autoridad administrativa y ésta admita la personería, el representante asume todas las responsabilidades que las leyes le imponen y sus actos obligan al mandante como si personalmente los practicare. Está obligado a continuar la gestión mientras no haya cesado legalmente en su mandato, y con él se entenderán los emplazamientos, citaciones y notificaciones, incluso las de las decisiones de carácter definitivo, salvo las actuaciones que la Ley disponga se notifique al mismo poderdante o que tengan por objeto su comparendo personal.
+
+
+
+ARTÍCULO 18: Cuando a criterio de la autoridad administrativa un mandatario entorpeciera el trámite administrativo, formulare falsas denuncias, tergiversare hechos y procediera en el desempeño de su cometido con manifiesta inconducta, podrá ser separado de las actuaciones intimándose por cédula al mandante que intervenga directamente o por nuevo apoderado, bajo apercibimiento de continuarse el trámite sin su intervención. Durante el emplazamiento para que el mandante instituya nuevo apoderado, se suspenderá el trámite administrativo.
+
+
+
+ARTÍCULO 19: Cuando varias personas se presenten formulando un petitorio del que no surjan intereses encontrados, la autoridad administrativa podrá exigir la unificación de la representación, dando para ello un plazo de diez días, bajo apercibimiento de designar un apoderado común, de entre los peticionantes. La unificación de representación también podrá pedirse por las partes en cualquier estado del trámite. Con el representante común se entenderán los emplazamientos, citaciones y notificaciones, incluso las de la decisión definitiva, salvo las actuaciones que la Ley disponga se notifiquen directamente al interesado o las que tengan por objeto su comparendo personal.
+
+
+
+ARTÍCULO 20: Una vez hecho por los peticionarios o por la autoridad administrativa el nombramiento del mandatario común, podrá revocarse por acuerdo unánime de aquellos. Cualesquiera de los interesados podrá revocar su mandato cesando para él la representación común.
+
+
+
+ARTÍCULO 21: Cuando se invoque el uso de una firma social deberá acreditarse la existencia de la sociedad acompañándose el contrato respectivo, o copia certificada por escribano público o autoridad administrativa. Cuando se tratare de sociedades irregulares o de hecho, la presentación deberán firmarla todos los socios a nombre individual, indicando cuál de ellos continuará vinculado a su trámite.
+
+
+
+ARTÍCULO 22: Cuando se actúe en nombre de una persona jurídica, que requiera autorización del Estado para funcionar, se mencionará la disposición que acordó el reconocimiento, declarándose bajo juramento la vigencia del mandato de las autoridades peticionantes. Podrá exigirse la presentación de la documentación pertinente, cuando la autoridad administrativa lo considere necesario. Las asociaciones que fueren sujetos de derecho de acuerdo con el artículo 46 del Código Civil (Ley 17711), acreditarán su constitución y designación de autoridades con la escritura pública o instrumento privado autenticado.
+
+
+
+ARTÍCULO 23: Cuando de la presentación del interesado o de los antecedentes agregados al expediente sugiera que alguna persona o entidad, pudiera tener interés directo en la gestión, se le notificará de la existencia del expediente al solo efecto de que tome intervención en el estado en que se encuentren las actuaciones, sin retrotraer el curso del procedimiento.
+
+
+
+VI. CONSTITUCION Y DENUNCIA DE DOMICILIOS
+
+
+
+ARTÍCULO 24: Toda persona que comparezca ante la autoridad administrativa, sea por sí o en representación de terceros, constituirá en el primer escrito o acto en que intervenga un domicilio dentro del radio urbano del asiento de aquélla.
+
+
+
+El interesado deberá además manifestar su domicilio real. Si no lo hiciere o no denunciare el cambio, las resoluciones que deban notificarse en el domicilio real se notificarán en el domicilio constituido. El domicilio constituido podrá ser el mismo que el real.
+
+
+
+
+Por Ley 15230, se implementa el domicilio electrónico, con carácter obligatorio y sustitutivo del domicilio real.
+
+
+
+
+ARTÍCULO 25: La constitución del domicilio se hará en forma clara y precisa, indicando calle y número, o piso, número o letra del escritorio o departamento. No podrá constituirse domicilio en las oficinas públicas.
+
+
+
+ARTÍCULO 26: Si el domicilio no se constituyera conforme a lo dispuesto en el artículo anterior, o si el que se constituyera no existiera o desapareciera el local o edificio elegido o la numeración del mismo, se intimará al interesado en su domicilio real para que constituya nuevo domicilio, bajo apercibimiento de continuar el trámite sin su intervención o disponer su archivo según corresponda.
+
+
+
+ARTÍCULO 27: El domicilio constituido producirá todos su efectos, sin necesidad de resolución y se reputará subsistente mientras no se designe otro.
+
+
+
+ARTÍCULO 28: Los apoderados y representantes tienen la obligación de denunciar en el primer escrito o presentación personal, el domicilio real de sus mandantes. Si no lo hicieren se les intimará para que subsanen la omisión.
+
+
+
+VII. FORMALIDADES DE LOS ESCRITOS
+
+
+
+ARTÍCULO 29: Los escritos serán redactados a máquina o manuscritos en tinta en idioma nacional, y en forma legible, salvándose toda testadura, enmienda o palabras interlineadas. Llevarán en la parte superior una suma o resumen del petitorio.
+
+
+
+Serán suscriptos por los interesados, representantes o apoderados. En el encabezamiento de todo escrito, sin más excepción que el que iniciare una gestión, debe indicarse numeración y año del expediente a que corresponde y en su caso, contendrá la indicación precisa de la presentación que se ejerza. Se empleará el sellado de ley cuando corresponda o papel tipo oficio u otra similar, repuesto con estampillas fiscales. Podrá emplearse el medio telegráfico para contestar traslados o vistas e interponer recursos.
+
+
+
+ARTÍCULO 30: Podrá acumularse en un solo escrito más de una petición, siempre que fueran asuntos conexos que se puedan tramitar y resolver conjuntamente. Si a juicio de la autoridad administrativa no existe la conexión implícita o explícitamente alegada por el interesado o trajere entorpecimiento a la tramitación de los asuntos, lo emplazara para que presente las peticiones por separado, bajo apercibimiento de sustanciarse solamente aquélla por la que opte la Administración si fuesen separables, o en su defecto disponerse el archivo.
+
+
+
+ARTÍCULO 31: Cuando un escrito sea suscripto a ruego por no poder o no saber hacerlo el interesado la autoridad administrativa lo hará constar, así como el nombre del firmante y también que fue autorizado en su presencia o se ratificó ante él la autorización, exigiéndose la acreditación de la identidad personal de los que intervinieren.
+
+
+
+Si no hubiere quien pueda firmar a ruego del interesado, el funcionario procederá a darle lectura y certificará que éste conoce el texto del escrito y ha estampado la impresión digital en su presencia.
+
+
+
+ARTÍCULO 32: En caso de duda sobre la autenticidad de una firma, podrá la autoridad administrativa llamar al interesado para que en su presencia y previa justificación de su identidad, ratifique la firma o el contenido del escrito.
+
+
+
+Si el citado negare el escrito, se rehusare a contestar o citado personalmente por segunda vez no compareciere, se tendrá al escrito por no presentado.
+
+
+
+ARTÍCULO 33: Todo escrito por el cual se promueva la iniciación de una gestión ante la Administración Pública deberá contener los siguientes recaudos:
+
+
+
+a) Nombres, apellido indicación de identidad y domicilio real del interesado.
+
+
+
+b) Domicilio constituido de acuerdo con el artículo 24.
+
+
+
+c) Relación de los hechos, y si se considera pertinente indicará la norma en que funde su derecho.
+
+
+
+d) La petición concretada en términos claros y precisos.
+
+
+
+e) Ofrecimiento de toda la prueba de que ha de valerse, acompañando la documentación en que funde su derecho el peticionante o en su defecto su mención con la individualización posible, expresando lo que de ella resulte y designando el archivo, oficina pública o lugar donde se encuentren los originales.
+
+
+
+f) Firma del interesado o apoderado.
+
+
+
+ARTÍCULO 34: Todo escrito inicial deberá presentarse en Mesa de Entradas o receptorias o podrá remitirse por correo. Los escritos posteriores podrán presentarse igualmente donde se encuentre el expediente. La autoridad administrativa deberá dejar constancia en cada escrito de la fecha en que fuere presentado o recibido, poniendo al efecto el cargo pertinente o sello fechador; debiendo darle el trámite que corresponda en el día de la recepción.
+
+
+
+Si el escrito recibido por correo correspondiere a traslados, recursos, vistas o cualquier presentación sujeta a plazo, se tendrá como válido el día de su despacho por la oficina de correos, a cuyos efectos se agregará el sobre sin destruir un sello de expedición.
+
+
+
+De toda actuación que se inicie en Mesa de Entradas se dará una constancia con la numeración del expediente que se origine.
+
+
+
+ARTÍCULO 35: Podrá la autoridad administrativa mandar testar las expresiones ofensivas de cualquier índole, que se consignasen en los escritos, sin perjuicio de la aplicación de las demás medidas disciplinarias que correspondan.
+
+
+
+ARTÍCULO 36: Los documentos que se acompañan a los escritos o aquéllos cuya agregación se solicite a titulo de prueba, podrán presentarse en su original o en testimonio expedidos por oficial público o autoridad competente.
+
+
+
+Podrá solicitarse la reserva de cualquier documento, libro o comprobante que se presente, en cuyo caso se procederá a su guarda bajo constancia.
+
+
+
+ARTÍCULO 37: Los documentos expedidos por autoridad extraña a la jurisdicción de la Provincia deberán presentarse debidamente legalizados. Los redactados en idioma extranjero deberán acompañarse con su correspondiente traducción hecha por traductor matriculado.
+
+
+
+ARTÍCULO 38: Los documentos y planos que se presenten, excepto los croquis, deberán ser firmados por profesionales inscriptos en la matrícula, cuando así lo exija la ley de reglamentación de las profesiones correspondientes.
+
+
+
+ARTÍCULO 39: Todo interesado que haga entrega de un documento o escrito, podrá solicitar verbalmente y en el acto, que se le entregue una constancia de ello.
+
+
+
+Podrá para tal fin entregar una copia de los mismos para que al pie o al dorso de ella se certifique la entrega. La autoridad administrativa lo hará así, estableciendo en dicha constancia que el interesado ha hecho entrega en la oficina de un documento o escrito bajo manifestación de ser el original de la copia suscripta.
+
+
+
+VIII. ORDENAMIENTO DE LOS EXPEDIENTES
+
+
+
+ARTÍCULO 40: El número con que se inicia un expediente será conservado a través de las actuaciones sucesivas, cualesquiera sean los organismos que intervengan en su trámite. Queda prohibido el asentar en el expediente ningún otro número o sistema de identificación que no sea el asignado por el organismo iniciador del expediente.
+
+
+
+ARTÍCULO 41: Los expedientes serán compaginados en cuerpos que no excedan de doscientas fojas salvo los casos en que tal límite obligara a dividir escritos o documentos que constituyan un solo texto.
+
+
+
+ARTÍCULO 42: Todas las actuaciones deberán foliarse por orden correlativo, incluso cuando se integren con más de un cuerpo de expediente. Las copias de notas, informes o disposiciones que se agreguen a un expediente juntamente con su original, se foliarán por orden correlativo, dejándose constancia en cada una de ellas el número de copia que le corresponde.
+
+
+
+ARTÍCULO 43: Cuando los expedientes vayan acompañados de antecedentes que por su volumen no pueden ser incorporados, se confeccionarán anexos.
+
+
+
+ARTÍCULO 44: Cuando se reciba en Mesa de Entradas un escrito que se refiera a un expediente en trámite en dependencias internas, debe registrarse como “Alcance”.
+
+
+
+ARTÍCULO 45: Toda acumulación de expediente o alcances importa la incorporación a otro expediente. La reglamentación fijará el procedimiento de foliación en estos casos. Los expedientes que se solicitan al solo efecto informativo, deberán acumularse sin incorporar.
+
+
+
+ARTÍCULO 46: Todo desglose se hará bajo constancia.
+
+
+
+ARTÍCULO 47: Cuando se inicien expediente y trámites internos con fojas desglosadas, éstas serán precedidas de una constancia con la mención de las actuaciones del cual proceden, de la cantidad de fojas con que se inicia el nuevo y las razones que haya habido para hacerlo.
+
+
+
+IX. DEL IMPULSO PROCESAL
+
+
+
+ARTÍCULO 48: El procedimiento se impulsará de oficio en todos sus trámites, guardándose riguroso orden en el despacho de los asuntos de igual naturaleza.
+
+
+
+ARTÍCULO 49: Se proveerán en un sólo acto todos los trámites que, por su naturaleza, admitan una impulsión simultánea y no estén entre sí, sucesivamente, subordinados en su cumplimiento.
+
+
+
+ARTÍCULO 50: La autoridad administrativa que tuviere en su cargo el despacho o sustanciación de los asuntos, será responsable de su tramitación y adoptará las medidas oportunas para que no sufran retraso.
+
+
+
+ARTÍCULO 51: La comunicación entre los órganos administrativos desde nivel de dirección o equivalente, según corresponda por la competencia para sustanciar el trámite, se efectuará siempre directamente, proscribiéndose toda providencia que sea de mera elevación fuera de los niveles indicados.
+
+
+
+ARTÍCULO 52: Los órganos administrativos evacuarán sus informes y se pasarán unos y otros las actuaciones de acuerdo al orden establecido en la providencia inicial, dando aviso a la Mesa de Entradas General.
+
+
+
+En caso de duda, o de estimarse necesario un procedimiento previo, devolverán el expediente a la oficina de origen. Una vez cumplido el trámite, la última dependencia informante remitirá las actuaciones al órgano de origen.
+
+
+
+ARTÍCULO 53: El organismo administrativo que necesitare datos de otros para poder sustanciar las actuaciones o informes, podrá solicitarlos directamente mediante oficio, del que se dejará copia en el expediente. A tal efecto las dependencias de la Administración Provincial, cualquiera sea su situación jerárquica, quedan obligadas a las colaboración permanente y recíproca que impone esta Ley. El expediente se remitirá cuando corresponda dictaminar o lo requiera el procedimiento.
+
+
+
+ARTÍCULO 54: La Administración realizará de oficio, o petición del interesado los actos de instrucción adecuados para la determinación, conocimiento y comprobación de los hechos o datos, en virtud de los cuales deba dictarse resolución.
+
+
+
+ARTÍCULO 55: Los hechos relevantes para la decisión de un procedimiento podrán acreditarse por cualquier medio de prueba.
+
+
+
+Cuando la Administración no tenga por ciertos los hechos alegados por los interesados, o la naturaleza del procedimiento lo exija, la autoridad administrativa, acordará la apertura de un periodo de prueba por un plazo no superior a treinta días ni inferior a diez, a fin de que puedan practicarse cuantas juzgue pertinentes.
+
+
+
+ARTÍCULO 56: Producida la prueba, se dará vista por el plazo de diez días al interesado, para que alegue sobre el mérito de la misma. Vencido el plazo sin que el interesado haya hecho uso de su derecho, podrá dársele por decaído prosiguiéndose el trámite.
+
+
+
+ARTÍCULO 57: Sustanciadas las actuaciones, el órgano o ente que deba dictar resolución final o en su caso el ministro correspondiente, solicitará dictamen del Asesor General de Gobierno y dará vista al Fiscal de Estado cuando corresponda de acuerdo con su Ley Orgánica, luego de lo cual no se admitirán nuevas presentaciones.
+
+
+
+ARTÍCULO 58: La prueba se apreciará con razonable criterio de libre convicción.
+
+
+
+ARTÍCULO 59: El Poder Ejecutivo, de oficio, podrá abocar el conocimiento y decisión de las actuaciones administrativas que tramiten ante los órganos de la Administración Pública centralizada.
+
+
+
+ARTÍCULO 60: El desistimiento del interesado no obliga a la Administración.
+
+
+
+ARTÍCULO 61: Se practicará liquidación del sellado pendiente de reposición y de los gastos postales realizados y previstos, cuyo pago será intimado en el plazo de diez días. Una vez resuelta las actuaciones y antes de disponerse su archivo, la Administración podrá iniciar las acciones para el cobro de la liquidación aprobada.
+
+
+
+X. DE LAS NOTIFICACIONES
+
+
+
+ARTÍCULO 62: Las notificaciones ordenadas en actuaciones administrativas deberán contener la pertinente motivación del acto y el texto íntegro de su parte resolutiva, con la expresión de la carátula y numeración del expediente correspondiente.
+
+
+
+ARTÍCULO 63: Las notificaciones se realizarán personalmente en el expediente, firmando el interesado ante la autoridad administrativa, previa justificación de identidad o mediante cédula, telegrama colacionado o certificado, recomendado o cualquier otro medio que permita tener constancia de la recepción, de fecha y de identidad del acto notificado y se dirigirá al domicilio constituido por el interesado o en su defecto, a su domicilio real.
+
+
+
+ARTÍCULO 64: Se notificarán solamente las resoluciones de carácter definitivo, los emplazamientos, citaciones, apertura a prueba y las providencias que confieran vista o traslado o decidan alguna cuestión planteada por el interesado.
+
+
+
+ARTÍCULO 65: Si la notificación se hiciere en el domicilio del recurrente, el empleado designado a tal efecto llevará por duplicado una cédula en que esté transcripta la resolución que deba notificarse. Una de las copias la entregará a la persona a la cual deba notificar o en su defecto, a cualquiera de la casa. En la otra copia destinada a ser agregada al expediente, se pondrá constancia del día, hora y lugar de la entrega requiriendo la firma de la persona que manifieste ser de la casa, o poniendo constancia de que se negó a firmar.
+
+
+
+Cuando el empleado no encontrase la persona a la cual va a notificar y ninguna de las otras personas de la casa quiera recibirla, la fijará en la puerta de la misma, dejando constancia en el ejemplar destinado a ser agregado en el expediente.
+
+
+
+Cuando la notificación se efectúe por medio de telegrama, servirá de suficiente constancia de la misma el recibo de entrega de la oficina telegráfica, que deberá agregarse al expediente.
+
+
+
+ARTÍCULO 66: El emplazamiento o citación de personas inciertas o cuyo domicilio se ignore, se hará por edictos publicados en el “Boletín Oficial” y por la radiodifusora oficial durante cinco días seguidos. El emplazamiento o citación se tendrá por efectuado cinco días después y se proseguirá el trámite en el estado en que se hallen las actuaciones.
+
+
+
+La publicación del edicto y su radiodifusión se acreditarán con los comprobantes emanados de los organismos respectivos.
+
+
+
+ARTÍCULO 67: Toda notificación que se hiciere en contravención de las normas prescriptas será nula y el empleado notificador responderá por los perjuicios que cause al interesado o a la Administración. Sin embargo, si del expediente resulta en forma indudable que el interesado ha tenido conocimiento de la providencia, la notificación o citación surtirá desde entonces todos sus efectos.
+
+
+
+XI. DE LOS PLAZOS
+
+
+
+ARTÍCULO 68: Todos los plazos administrativos se cuentan por días hábiles salvo expresa disposición legal o habilitación y se computan a partir del día siguiente de la notificación.
+
+
+
+ARTÍCULO 69: (Texto según Ley 13708) Para determinar si un escrito presentado personalmente en las oficinas administrativas lo ha sido en término, se tomará en cuenta la fecha indicada en el cargo o sello fechador. En caso de duda, deberá estarse a la fecha enunciada en el escrito y si éste a su vez no la tuviere, se considerará que ha sido presentado en término.
+
+
+
+El escrito no presentado dentro del horario administrativo del día en que venciere el plazo, podrá ser entregado válidamente el día hábil inmediato y dentro de las cuatro (4) primeras horas del horario de atención.
+
+
+
+ARTÍCULO 70: En los escritos enviados por carta el plazo se contará a partir de la fecha de emisión que conste en el sello fechador del correo en los casos del artículo 34°, y en las restantes presentaciones desde la fecha de recepción. En el caso de los telegramas se contará a partir de la fecha de emisión que en ellos conste como tal.
+
+
+
+ARTÍCULO 71: Los plazos administrativos obligan por igual y sin necesidad de intimación alguna a las autoridades administrativas, a los funcionarios públicos personalmente, y a los interesados en el procedimiento.
+
+
+
+ARTÍCULO 72: El vencimiento de los plazos que en esta Ley se acuerda a los administrados durante el procedimiento, no hace decaer el derecho a efectuar las presentaciones del caso con posterioridad, debiendo continuarse el trámite según su estado, sin retrotraer sus etapas.
+
+
+
+ARTÍCULO 73: Si los interesados lo solicitan antes de su vencimiento, la autoridad administrativa interviniente podrá conceder una prórroga de los plazos establecidos en esta Ley o en otras disposiciones administrativas, siempre que con ello no se perjudiquen derechos de terceros.
+
+
+
+ARTÍCULO 74: Exceptúase de lo dispuesto en los artículos anteriores los plazos establecidos para interponer recursos administrativos, los que una vez vencidos hacen perder el derecho de interponerlos.
+
+
+
+No obstante, todo recurso interpuesto fuera de término será considerado por el órgano superior y si importa una denuncia de ilegitimidad se sustanciará, pudiendo éste revocar o anular el acto impugnado.
+
+
+
+ARTÍCULO 75: Los términos se interrumpen por la interposición de recursos administrativos, incluso cuando hayan sido mal calificados técnicamente por el interesado o adolezcan de otros defectos formales de importancia secundaria o hayan sido presentados ante órgano incompetente por error justificable.
+
+
+
+ARTÍCULO 76: Cuando no se haya establecido un plazo especial para las citaciones, intimaciones y emplazamientos, éste será de diez días.
+
+
+
+ARTÍCULO 77: Toda vez que para un determinado trámite no exista un plazo expresamente establecido por leyes especiales o por ésta y sus disposiciones complementarias, deberá ser producido dentro del plazo máximo que a continuación se determina:
+
+
+
+a) Registro de Resoluciones, de expedientes y sus pases a oficinas que proveen el trámite: dos días
+
+
+
+b) Providencias de mero trámite administrativo: tres días
+
+
+
+c) Notificaciones: tres días contados a partir de la recepción de las actuaciones por la oficina notificadora.
+
+
+
+d) Informes Administrativos no técnicos: cinco días
+
+
+
+e) Dictámenes pericios o informes técnicos: diez días. Este plazo se ampliará hasta un máximo de treinta días si la diligencia requiere el traslado del agente fuera del lugar de sus funciones.
+
+
+
+f) Decisiones relativas a peticiones del interesado referidas al trámite del expediente y sobre recursos de revocatoria: cinco días.
+
+
+
+g) Decisiones definitivas sobre la petición o reclamación del interesado: diez días para resolver recursos jerárquicos y en los demás casos treinta días contados a partir desde la fecha, en que las actuaciones se reciban con los dictámenes legales finales
+
+
+
+ARTÍCULO 78: Estos plazos se cuentan a partir del día siguiente al de la recepción del expediente por el órgano respectivo. En caso de que éste, para poder producir el dictamen, pericia o informe de que se trate, o para decidir la cuestión, deba requerir nuevos informes o dictámenes de otros órganos, quedarán suspendidos hasta tanto los mismos sean contestados o venzan los plazos para hacerlo.
+
+
+
+ARTÍCULO 79: Vencidos los plazos previstos por el artículo 77, inciso g), el interesado podrá solicitar pronto despacho y, transcurridos treinta días desde esta reclamación, se presumirá la existencia de resoluciones denegatoria.
+
+
+
+ARTÍCULO 80: El incumplimiento injustificado de los términos o plazos previstos para el despacho de los asuntos administrativos, genera responsabilidad, imputable a los agentes directamente a cargo del trámite o diligencia y a los superiores jerárquicos obligados a su dirección y fiscalización. Según el caso, la gravedad o reiteración de la anomalía, serán aplicables las sanciones previstas en los respectivos estatutos del personal de la Administración Pública.
+
+
+
+XII. DE LAS DENUNCIAS
+
+
+
+ARTÍCULO 81: Toda persona que tuviere conocimiento de la violación de leyes, decretos o resoluciones administrativas, por parte de órganos de la Administración, podrá denunciarlo a la autoridad administrativa.
+
+
+
+ARTÍCULO 82: La denuncia podrá hacerse por escrito o verbalmente, personalmente, por representante o mandatario. La denuncia escrita deberá ser firmada; cuando sea verbal se labrará acta y en ambos casos el funcionario interviniente comprobará y hará constar la identidad del denunciante.
+
+
+
+ARTÍCULO 83: La denuncia deberá contener de un modo claro, en cuando sea posible, la relación del hecho, con la circunstancia del lugar, tiempo y modo de ejecución y la indicación de sus autores y partícipes, damnificados, testigos y demás elementos que puedan conducir a su comprobación.
+
+
+
+ARTÍCULO 84: El denunciante no es parte en las actuaciones, salvo cuando por la denuncia se pretenda a reclame algún derecho.
+
+
+
+ARTÍCULO 85: Presentada una denuncia, el funcionario que la reciba la elevará de inmediato a la autoridad superior de la dependencia, si no hubiera sido radicada directamente ante la misma, y ésta deberá practicar las diligencias preventivas necesarias dando oportuna intervención al órgano administrativo competente.
+
+
+
+XIII. DE LOS RECURSOS
+
+
+
+a) Decisiones recurribles.
+
+
+
+ARTÍCULO 86: Toda decisión administrativa final, interlocutoria o de mero trámite que lesione un derecho o interés legítimo de un administrado o importe una transgresión de normas legales o reglamentarias o adolezca de vicios que la invalidan, es impugnable mediante los recursos establecidos en este capítulo.
+
+
+
+ARTÍCULO 87: Las medidas preparatorias de decisiones administrativas, los informes, dictámenes y vistas, aunque sean obligatorios y vinculantes para el órgano administrativo, no son recurribles.
+
+
+
+ARTÍCULO 88: Los recursos deberán proveerse y resolverse cualquiera sea la denominación que el interesado les dé, cuando resulte indudable su impugnación o disconformidad con el acto administrativo
+
+
+
+b) Recurso de revocatoria y jerárquico en subsidio.
+
+
+
+ARTÍCULO 89: El recurso de revocatoria procederá contra todas la decisiones administrativas que reúnan los requisitos establecidos en el artículo 86°. Deberá ser fundado por escrito e interpuesto dentro del plazo de diez días directamente ante la autoridad administrativa de la que emane el acto impugnado.
+
+
+
+ARTÍCULO 90: El recurso de revocatoria deberá resolverse sin sustanciación por el órgano que produjo el acto, salvo medidas para mejor proveer.
+
+
+
+Sólo podrá denegarse si no hubiese sido fundado, o si la resolución fuere de las previstas en el artículo 87 y, en este caso, en la duda se estará en favor de su admisión.
+
+
+
+ARTÍCULO 91: El recurso de revocatoria lleva implícito el jerárquico en subsidio, únicamente en los casos de las decisiones referidas en el artículo 92°. Cuando hubiese sido rechazada la revocatoria, deberán elevarse las actuaciones, y dentro de las 48 horas de recibido el expediente por el superior, el interesado podrá mejorar o ampliar los fundamentos de su recurso.
+
+
+
+c) Recurso jerárquico.
+
+
+
+ARTÍCULO 92: El recurso jerárquico procederá contra los actos administrativos finales y los que resuelvan las peticiones del interesado, excepto las que originen providencias de mero trámite. Deberá ser fundado por escrito cuando no se hubiere deducido recurso de revocatoria e interponerse dentro del plazo de diez días ante la autoridad que emitió el acto impugnado, elevándose las actuaciones al superior.
+
+
+
+ARTÍCULO 93: Cuando hubiere vencido el plazo establecido para resolver la revocatoria y la Administración guardare silencio, el interesado podrá recurrir directamente ante el órgano superior para que se aboque al conocimiento y decisión del recurso.
+
+
+
+d) Recurso de apelación.
+
+
+
+ARTÍCULO 94: Contra las decisiones finales de los entes autárquicos, que no dejen abierta la acción contencioso administrativa, procederá un recurso de apelación con las formalidades establecidas en el artículo 92°. El conocimiento de este recurso por el Poder Ejecutivo está limitado al control de la legitimidad del acto, el que podrá anular, pero no modificar o sustituir. Anulado el acto procederá la devolución de las actuaciones para que el ente autárquico dicte nuevo acto administrativo ajustado a derecho.
+
+
+
+e) Recursos contra actos generales.
+
+
+
+ARTÍCULO 95: En caso de que, por una medida de carácter general, la autoridad administrativa perjudicase derechos privados o de otra administración pública, deberá acudirse individualmente a la misma autoridad que dictó la medida general, reclamando de ella, y solicitando se deje sin efecto la disposición en cuanto al interés a que perjudica o al derecho que vulnera dentro del plazo de 30 días a partir de la última publicación en el “Boletín Oficial” o de su notificación.
+
+
+
+f) Recursos contra actos de oficio.
+
+
+
+ARTÍCULO 96: Cuando el recurso se deduzca contra actos dictados de oficio, comprendiendo los que rescindan, modifiquen o interpreten contratos administrativos, podrá ofrecerse prueba de acuerdo con los artículos 55 y 56.
+
+
+
+Si los actos referidos en los artículos 95 y el presente emanaren del Gobernador de la Provincia, sólo procederá el recurso de revocatoria, cuya decisión será definitiva y causará estado.
+
+
+
+g) Exclusiones
+
+
+
+ARTÍCULO 97: Los recursos jerárquicos y de apelación no proceden:
+
+
+
+a) Cuando una Ley haya reglado de modo expreso la tramitación de las cuestiones administrativas que su aplicación origine, siempre que dicha Ley prevea un recurso de análoga naturaleza.
+
+
+
+b) Contra los actos administrativos definitivos, dictados con audiencia o intervención del interesado y que dejen expedita la acción contencioso administrativa.
+
+
+
+Quedan comprendidas las decisiones de los ministros en ejercicio de competencia propia o delegada.
+
+
+
+c) Contra los actos de los entes autárquicos cuando se cuestione el mérito de los mismos.
+
+
+
+h) Efectos
+
+
+
+ARTÍCULO 98: La interposición del recurso tiene por efecto:
+
+
+
+1. Interrumpir el plazo del artículo 92° aunque haya sido deducido con defectos formales o ante órgano incompetente.
+
+
+
+2. Facultar a la Administración a suspender la ejecución del acto impugnado cuando el interés público lo aconseje o la petición del interesado invoque fundadamente perjuicio irreparable.
+
+
+
+3. Impulsar el procedimiento, haciendo nacer los plazos que los funcionarios públicos tienen para proveerlo y tramitarlo.
+
+
+
+i) Trámite y decisión.
+
+
+
+ARTÍCULO 99: Cuando el acto emane de un órgano inferior a director o equivalente, el recurso jerárquico será resuelto por el superior.
+
+
+
+ARTÍCULO 100: Emanando el acto de un funcionario de nivel de director o equivalente, el recurso jerárquico será resuelto definitivamente por el Poder Ejecutivo.
+
+
+
+ARTÍCULO 101: Los recursos de revocatoria previstos por los artículos 95 y 96, jerárquico y de apelación, se sustanciarán con dictamen del Asesor General de Gobierno y vista del Fiscal de Estado cuando corresponda su intervención de acuerdo con su Ley Orgánica. La autoridad administrativa podrá disponer de oficio y para mejor proveer o por requerimiento de estos funcionarios, las diligencias que estime conducentes al esclarecimiento de la cuestión planteada.
+
+
+
+j) Agentes públicos.
+
+
+
+ARTÍCULO 102: Los recursos reglados en este capítulo rigen para los agentes administrativos, por la relación de empleo público, supletoriamente de los establecidos en la legislación específica.
+
+
+
+XIV. DE LOS ACTOS ADMINISTRATIVOS
+
+
+
+a) Forma
+
+
+
+ARTÍCULO 103: Los actos administrativos se producirán por el órgano competente mediante el procedimiento que en su caso estuviere establecido.
+
+
+
+El contenido de los actos se ajustará a lo dispuesto en el ordenamiento jurídico y será adecuado a los fines de aquellos.
+
+
+
+
+
+
+ARTÍCULO 104: Los actos administrativos se producirán o consignarán por escrito cuando su naturaleza o circunstancias no exijan o permitan otra forma más adecuada de expresión y constancia.
+
+
+
+En los casos en que los órganos administrativos ejerzan su competencia en forma verbal, y no se trate de resoluciones, la constancia escrita del acto, cuando sea necesaria, se efectuará y firmará por el órgano inferior que la reciba oralmente, expresando en la comunicación del mismo la autoridad de que procede, mediante la fórmula “Por orden de ...”.
+
+
+
+Si se tratara de resoluciones, el titular de la competencia deberá autorizar con su firma una relación de las que haya dictado en forma verbal, con expresión de su contenido.
+
+
+
+ARTÍCULO 105: Cuando deba dictarse una serie de actos administrativos de la misma naturaleza, tales como nombramientos, concesiones, licencias, podrán redactarse en un único documento que especificará las personas u otras circunstancias que individualicen cada uno de los actos.
+
+
+
+ARTÍCULO 106: Los actos que emanen del Gobernador de la Provincia, adoptarán la forma de decreto, cuando dispongan sobre situaciones particulares o se trate de reglamentos, que produzcan efectos jurídicos dentro y fuera de la Administración.
+
+
+
+Cuando su eficacia sea para la administración interna, podrán producirse en forma de resoluciones, disposiciones circulares, instrucciones u órdenes.
+
+
+
+ARTÍCULO 107: Los de organismos de la Constitución, los de la Administración centralizada y entes autárquicos, se producirán en todos los casos, en la forma de resolución o disposición o la que la ley especial les haya fijado.
+
+
+
+ARTÍCULO 108: Todo acto administrativo final deberá ser motivado y contendrá una relación de hechos y fundamentos de derecho cuando:
+
+
+
+a) Decida sobre derechos subjetivos.
+
+
+
+b) Resuelva recursos.
+
+
+
+c) Se separe del criterio seguido en actuaciones precedentes o del dictamen de órganos consultivos.
+
+
+
+b) Ejecución
+
+
+
+ARTÍCULO 109: La Administración Pública no iniciará ninguna actuación material que limite derechos de los particulares sin que previamente haya sido adoptada la decisión que le sirva de fundamento jurídico.
+
+
+
+ARTÍCULO 110: Los actos administrativos tienen la eficacia obligatoria propia de su ejecutividad y acuerdan la posibilidad de una acción directa coactiva como medio de asegurar su cumplimiento. Producirán efectos desde la fecha en que se dicten, salvo que en ellos se disponga otra cosa.
+
+
+
+La eficacia quedará demorada cuando así lo exija el contenido del acto o esté supeditada a su notificación, publicación o aprobación superior.
+
+
+
+c) Retroactividad.
+
+
+
+ARTÍCULO 111: Excepcionalmente podrá otorgarse eficacia retroactiva a los actos cuando se dicten en sustitución de actos anulados y produzcan efectos favorables al interesado, siempre que los supuestos de hecho necesarios existieran ya en la fecha a que se retrotraiga la eficacia del acto y ésta no lesione derechos o intereses legítimos de terceros.
+
+
+
+d) Publicación.
+
+
+
+ARTÍCULO 112: Los actos de la Administración se publicarán en los casos y con las modalidades establecidas por las normas que les sean aplicables.
+
+
+
+Los actos administrativos que tengan por destinatario una pluralidad indeterminada de sujetos, y aquellos para los que no fuere exigible la notificación personal, no producirán efectos respecto de los mismos en tanto no sean publicados legalmente.
+
+
+
+La publicación se efectuará una vez terminado el procedimiento y será independiente de la que se hubiere efectuado con anterioridad a los fines de información pública.
+
+
+
+e) Revisión.
+
+
+
+ARTÍCULO 113: La autoridad administrativa podrá anular, revocar, modificar o sustituir de oficio sus propias resoluciones, antes de su notificación a los interesados. La anulación estará fundada en razones de legalidad, por vicios que afectan el acto administrativo, y la revocación, en circunstancias de oportunidad basadas en el interés público.
+
+
+
+ARTÍCULO 114: La Administración no podrá revocar sus propias resoluciones notificadas a los interesados y que den lugar a la acción contencioso administrativa, cuando el acto sea formalmente perfecto y no adolezca de vicios que lo hagan anulable.
+
+
+
+ARTÍCULO 115: En cualquier momento podrán rectificarse los errores materiales o de hecho y los aritméticos.
+
+
+
+ARTÍCULO 116: Dentro del plazo de cuarenta y ocho horas podrá pedirse aclaratoria cuando exista contradicción entre la motivación del acto y sus partes dispositivas o para suplir cualquier omisión del mismo sobre algunas de las peticiones o cuestiones planteadas.
+
+
+
+ARTÍCULO 117: Las facultades de anulación y revocación no podrán ser ejercitadas cuando por prescripción de acciones, por el tiempo transcurrido u otras circunstancias, su ejercicio resultase contrario a la equidad, al derecho de los particulares o a las leyes.
+
+
+
+ARTÍCULO 118: Podrá pedirse la revisión de las decisiones definitivas firmes, cuando:
+
+
+
+a) Se hubiera incurrido en manifiesto error de hecho que resulte de las propias constancias del expediente administrativo.
+
+
+
+b) Se hubiera dictado el acto administrativo como consecuencia de prevaricato, cohecho, violencia o cualquier otra maquinación fraudulenta, o graves irregularidades comprobadas administrativamente.
+
+
+
+c) La parte interesada afectada por dicho acto, hallare o recobrare documentos decisivos ignorados, extraviados o detenidos por fuerza mayor o por obra de un tercero.
+
+
+
+f) Caducidad del acto.
+
+
+
+ARTÍCULO 119: Se producirá la caducidad del acto administrativo, cuando habiendo sido impuestas por el mismo determinadas condiciones que debe cumplir el beneficiario, éste no las satisface dentro del plazo fijado y previa interpelación para que lo haga dentro del plazo adicional y perentorio de diez días.
+
+
+
+XV. DE LOS ACTOS DE CARACTER GENERAL
+
+
+
+ARTÍCULO 120: La elaboración de actos de carácter general, reglamentos administrativos y de anteproyectos de ley, se iniciarán por el ente u órgano de la Administración que disponga el Poder Ejecutivo.
+
+
+
+ARTÍCULO 121: El órgano delegado realizará los estudios y obtendrá los informes previos que garanticen la legalidad, acierto y oportunidad de la iniciativa, acumulando los dictámenes y consultas evacuadas, las observaciones y enmiendas que se formulen y cuantos datos y documentos ofrezcan interés para conocer el proceso de elaboración de la norma o puedan facilitar su interpretación.
+
+
+
+ARTÍCULO 122: Toda iniciativa que modifique o tienda a sustituir normas legales o reglamentarias, deberá ser acompañada de una relación de las disposiciones vigentes sobre la misma materia y establecerá expresamente las que han de quedar total o parcialmente derogadas.
+
+
+
+Cuando la reforma afecte la sistemática o estructura del texto, éste se reordenará íntegramente.
+
+
+
+ARTÍCULO 123: Los proyectos de actos de carácter general serán sometidos como trámite final, al dictamen jurídico del Asesor General de Gobierno y la vista del fiscal de Estado.
+
+
+
+ARTÍCULO 124: La iniciativa podrá ser sometida a información pública por disposición y plazo que señale el Poder Ejecutivo.
+
+
+
+En este caso, podrá concederse a las organizaciones profesionales y gremiales, y demás entidades que ostenten la representación de intereses de carácter general, la oportunidad de exponer su parecer en razonado informe.
+
+
+
+Igualmente, se podrá requerir informes a sociedades o personas ajenas a la Administración.
+
+
+
+ARTÍCULO 125: Los reglamentos administrativos producirán efectos jurídicos a partir del día siguiente al de su publicación en el “Boletín Oficial” de la Provincia, si en ellos no se dispusiere la publicación por otro medio.
+
+
+
+ARTÍCULO 126: Exceptúanse de lo dispuesto en el artículo anterior, los reglamentos que se refieren a la estructura orgánica de la Administración, normas o instrucciones de procedimiento interno, que entrarán en vigencia sin necesidad de aquella publicación.
+
+
+
+XVI. CADUCIDAD DEL PROCEDIMIENTO
+
+
+
+ARTÍCULO 127: Transcurridos seis meses desde que un procedimiento promovido por un interesado se paralice por causa imputable al mismo, se producirá su caducidad procediéndose al archivo de las actuaciones; se exceptúan los expedientes de Previsión Social.
+
+
+
+ARTÍCULO 128: La caducidad se declarará de oficio al vencimiento del plazo y podrá recurrirse por el interesado.
+
+
+
+ARTÍCULO 129: Los procedimientos caducados no interrumpirán los plazos legales o reglamentarios.
+
+
+
+ARTÍCULO 130: Operada la caducidad, los interesados podrán reiniciar las actuaciones en nuevo expediente; no podrán valerse de las anteriores, sin perjuicio del desglose de documentos que hubieren incorporado:
+
+
+
+XVII. RECONSTRUCCION DE EXPEDIENTES
+
+
+
+ARTÍCULO 131: Comprobada la pérdida o extravío de un expediente, se ordenara su reconstrucción incorporándose las copias de escritos y documentación que aporte el interesado, haciéndose constar el trámite registrado. Se reproducirán los informes, dictámenes y vistas legales y si hubo resolución se glosará copia auténtica de la misma, que será notificada.
+
+
+
+ARTÍCULO 132: Si la pérdida o extravío es imputable a la acción u omisión de agentes administrativos, separadamente se instruirá el sumario pertinente para determinar la responsabilidad correspondiente.
+
+
+
+XVIII. NORMAS COMPLEMENTARIAS Y REGIMENES ESPECIALES
+
+
+
+ARTÍCULO 133: El Poder Ejecutivo determinará los órganos para la fiscalización del cumplimiento de esta ley y especialmente:
+
+
+
+a) Tomar conocimiento de todas las denuncias o quejas de los administrados contra las decisiones irregulares o defectuosamente realizadas por agentes de la Administración Pública.
+
+
+
+b) Tomar conocimiento de todo incumplimiento de la presente ley, por denuncia o por información de funcionarios públicos sobre irregularidades comprobadas en los expedientes.
+
+
+
+c) Tomar conocimiento de las reclamaciones administrativas promovidas contra la Administración Pública y sus agentes.
+
+
+
+d) Realizar las investigaciones necesarias de los hechos a los que se refieren los incisos precedentes o las que de oficio se promuevan.
+
+
+
+e) Realizar los estudios necesarios para la racionalización, ordenación y aceleración de las actuaciones administrativas.
+
+
+
+f) Recopilar las interpretaciones sobre procedimientos administrativos a fin de organizar el repertorio de decisiones de la Administración, que deberá publicarse periódicamente.
+
+
+
+ARTÍCULO 134: El Poder Ejecutivo reglamentará la aplicación de la presente ley con disposiciones complementarias y asimismo fijará el procedimiento correspondiente a las prestaciones de servicios que por su especialidad no estén comprendidos en las normas de actuación de esta ley. Igualmente, determinará la calificación y trámite de actuaciones reservadas o secretas y el régimen de incineración o reducción de expedientes y documentos archivados.
+
+
+
+ARTÍCULO 135: El Poder Ejecutivo queda facultado para sustituir los recursos administrativos de otras leyes y reglamentaciones, por el de la presente, y a ampliar fundadamente otros tipos de actuaciones exceptuadas de la caducidad.
+
+
+
+ARTÍCULO 136: Derógase el artículo 29 de la Ley 7268 y toda otra disposición que se oponga a la libertad de representación asegurada por las normas del Capítulo V.
+
+
+
+ARTÍCULO 137: La presente Ley comenzará a regir a partir de los sesenta días de su promulgación.
+
+
+
+ARTÍCULO 138: Cúmplase, comuníquese, publíquese, dése al Registro y “Boletín Oficial” y archívese.
+
+
+
+RIVARA.
+
+
+
+J.de San Martín. R. Lumi,
+
+
+
+C.A. Benavides, J.H.R. Qüesta,
+
+
+
+A.G.Tagliabúe, O.E.Blasco.
+
+
+
+
+
+
+Registrada bajo el número siete mil seiscientos cuarenta y siete (7647).
+
+
+
+J. de San Martín.

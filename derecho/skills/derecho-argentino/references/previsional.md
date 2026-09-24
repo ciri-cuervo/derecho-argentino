@@ -240,6 +240,49 @@ modificado, no se resuelve de memoria:
 
 `[VERIFICAR VIGENCIA: subsistencia del proceso sumario del CPCCN al que remite el art. 15 de la Ley 24.463 - las reformas al CPCCN posteriores a 1996 no están cotejadas en fuentes/normas/]`
 
+### 32.4 quater Asignaciones familiares — Ley 24.714, y por qué los montos no están acá
+
+Cotejada contra `fuentes/normas/ley-24714.txt`, texto actualizado. Es un régimen **nacional y
+obligatorio** con **tres subsistemas** (art. 1): el **contributivo**, para los trabajadores en
+relación de dependencia de la actividad privada cualquiera sea la modalidad, los beneficiarios de
+la Ley de Riesgos del Trabajo y los del seguro de desempleo, y también los **monotributistas**
+(inc. a'); el **no contributivo** de los beneficiarios del SIPA, de las pensiones no contributivas
+por invalidez y de la **PUAM** (inc. b); y el de la **Asignación Universal por Hijo** y la
+**Asignación por Embarazo** para Protección Social, para grupos familiares desocupados o de la
+economía informal (inc. c). Al personal de casas particulares le alcanzan **sólo** la AUH, la
+asignación por embarazo y la de maternidad (art. 2, texto Ley 26.844; `laboral.md` 5.17
+quinquies).
+
+**Qué se paga (art. 6).** Hijo, hijo con discapacidad —sin límite de edad, con la discapacidad del
+art. 2 de la Ley 22.431— (arts. 7 y 8), **prenatal** desde la concepción, acreditado entre el
+tercer y cuarto mes y con **tres meses de antigüedad** (art. 9), ayuda escolar anual, **maternidad**
+—*"una suma igual a la remuneración que la trabajadora hubiera debido percibir"* durante la
+licencia legal, con tres meses de antigüedad— (art. 11), nacimiento, adopción, matrimonio, AUH,
+embarazo y cuidado de salud integral (Ley 27.611). La remuneración que se computa es la del SIPA
+**sin horas extras ni SAC** (art. 4); el financiamiento contributivo es la contribución patronal
+del **nueve por ciento** (art. 5).
+
+**La AUH (arts. 14 bis y 14 ter, texto Decreto 840/2020).** Se paga a **uno solo** de los padres,
+tutor, curador o pariente hasta el tercer grado, por cada menor de dieciocho años o persona con
+discapacidad a cargo, mientras el titular no esté empleado ni perciba otra prestación de la ley.
+Requisitos: nacionalidad o **dos años de residencia legal** de la niña o niño y del titular si son
+extranjeros, DNI, cargo acreditado según el CCyCN, y **controles sanitarios y vacunación hasta los
+cuatro años, más escolaridad pública obligatoria de los cinco a los dieciocho**. Se liquida el
+**ochenta por ciento** mensual y el **veinte** queda reservado hasta acreditar esos controles; sin
+acreditación se pierde (art. 18 inc. k). La **asignación por embarazo** se pide **desde la semana
+doce** y no excede de nueve mensualidades (art. 14 quater, texto Ley 27.611).
+
+**Lo que la ley no dice más.** Los topes de remuneración del art. 3 y los montos del art. 18 que
+trae el consolidado **son los de 2007** —cuatro mil pesos con un centavo— y la propia nota de
+InfoLEG remite a las normas complementarias: **los rangos, topes y montos vigentes los fija
+ANSES** por resolución y no están cargados.
+`[VERIFICAR MONTO ACTUALIZADO: rangos de ingreso del grupo familiar, topes y montos de cada asignación de la Ley 24.714 al mes que se liquida - resoluciones de ANSES, no cargadas]`
+Las asignaciones **son inembargables, no son remuneración** y no se computan para el SAC ni para
+las indemnizaciones por despido (art. 23, texto Decreto 516/2017), y el sector público y las
+pensiones no contributivas se rigen por sus montos y topes (art. 24).
+
+`[REVISIÓN NORMATIVA REQUERIDA: este bloque recorre los arts. 1 a 9, 11, 12, 14 bis a 14 quater, 18, 23 y 24 de la Ley 24.714. Los arts. 10, 13, 14 quinquies a 14 octies, 15 a 17 y 19 a 22 NO están recorridos; y el régimen se mueve por decreto -840/2020, 516/2017, 1039/2024- y por resolución de ANSES: verificar el texto vigente del artículo antes de citarlo. Sin fallo cargado]`
+
 ### 32.5 Antes de reclamar
 
 1. **Qué prestación se pide** y si sus requisitos son los de la PBU, que operan como base para la

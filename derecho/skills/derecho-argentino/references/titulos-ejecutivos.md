@@ -108,7 +108,7 @@ tiene sumario—.
 
 `[VERIFICAR MONTO ACTUALIZADO: las multas por rechazo de cheque y los montos operativos los fija el BCRA por comunicación y esa reglamentación no está en fuentes/. No se estima: se pide o se marca]`
 
-`[INSERTAR FALLO VERIFICADO: la competencia del art. 36 LDC y su efecto sobre la abstracción cambiaria los cubre "Ahumada" en 50.4.1; siguen sin precedente bajado la integración del pagaré incompleto y la inoponibilidad del cheque posdatado del art. 23 - aportar carátula, sala, expediente, fuero y año]`
+`[INSERTAR FALLO VERIFICADO: la competencia del art. 36 LDC y su efecto sobre la abstracción cambiaria los cubre "Ahumada" en 50.4.1; siguen sin precedente bajado la integración del pagaré incompleto y la inoponibilidad del cheque posdatado del art. 23. JUBA consultado el 23/09/2026 por «cheque posdatado inoponible tercero 23»: ningún sumario - aportar carátula, sala, expediente, fuero y año]`
 
 ### 50.6 Qué preguntar antes de contestar
 

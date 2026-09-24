@@ -1,0 +1,550 @@
+Ley 22.415 - Código Aduanero, Sección XIV Título I: procedimientos, disposiciones generales, arts. 1001 a 1052 (texto actualizado)
+==============================================================================
+Jurisdicción:     nacional
+Fuente:           https://servicios.infoleg.gob.ar/infolegInternet/anexos/15000-19999/16536/Ley22415_S14_TituloI.htm
+Descargado:       2026-09-23
+SHA-256 (crudo):  0e801b4ce967cfa26defa87e332f6b38fba04629507062e7cc5b3f0df64ac502
+Charset:          windows-1252
+
+Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
+NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
+Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, está anotado en
+el manifiesto `normas.json`.
+==============================================================================
+
+SECCION XIV
+
+SECCION XIV
+
+PROCEDIMIENTOS
+
+TITULO I
+
+DISPOSICIONES GENERALES
+
+Capítulo Primero
+
+Disposiciones comunes a todos los procedimientos ante el servicio aduanero
+
+ARTICULO 1001. – Toda persona que compareciere ante el servicio
+aduanero deberá, en su primera presentación, constituir domicilio
+dentro del radio urbano en que la oficina aduanera respectiva tuviere
+su asiento o bien mediante alguno de los medios electrónicos que
+estableciere la reglamentación.
+
+(Artículo sustituido por art. 252 de la Ley
+N° 27430 B.O. 29/12/2017. Vigencia: a partir del día siguiente al de su publicación en el Boletín Oficial)
+
+ARTICULO 1002. – Siempre que estuviere
+ubicado dentro del radio urbano de la oficina aduanera en que tramitare
+la actuación, el domicilio registrado en dicha oficina será considerado
+como constituido mientras el interesado no constituyere otro en la
+actuación mencionada.
+
+ARTICULO 1003. – Siempre que el
+interesado no hubiere constituido domicilio, el registrado ante el
+servicio aduanero, que estuviere ubicado fuera del radio urbano de la
+oficina aduanera en que tramitare la actuación, será considerado como
+domicilio constituido al solo efecto de practicar la primera
+notificación. En ella se le advertirá que debe constituir domicilio en
+la forma prescripta en el artículo 1001 dentro del plazo de DIEZ (10)
+días, bajo apercibimiento de lo previsto en el artículo 1004.
+
+ARTICULO 1004. – Cuando debidamente
+notificado el interesado no constituyere o no tuviere registrado
+domicilio en el radio urbano de la oficina aduanera respectiva, se
+considerará que ha constituido domicilio, a los efectos de la actuación
+de que se tratare, en la oficina aduanera en que tramitare la misma, en
+donde quedarán notificadas de pleno derecho todas las providencias o
+resoluciones que se dictaren, en la forma prevista en el artículo 1013,
+inciso g).
+
+ARTICULO 1005. – Si el domicilio
+constituido resultare no existir o desapareciere, se alterare o
+suprimiere su numeración y no se hubiere constituido un nuevo domicilio
+en la forma prevista en el artículo 1001, se lo considerará
+automáticamente constituido en la oficina aduanera en que tramitare la
+actuación, en donde quedarán notificadas de pleno derecho todas las
+providencias o resoluciones que se dictaren, en la forma prevista en el
+artículo 1013, inciso g).
+
+ARTICULO 1006. – En las actuaciones en sede aduanera los plazos son perentorios.
+
+ARTICULO 1007. – Salvo disposición en
+contrario, se computan por días hábiles administrativos los plazos que
+no excedieren de TREINTA (30) días y, cualquiera fuere su extensión,
+los de carácter procesal.
+
+ARTICULO 1008. – Cuando un plazo venciere en día inhábil administrativo, se reputará que vence el primer día hábil inmediato siguiente.
+
+ARTICULO 1009. – Las presentaciones no
+efectuadas en el horario hábil administrativo del día en que venciere
+el plazo se podrán efectuar válidamente dentro de las DOS (2) primeras
+horas hábiles administrativas del día siguiente al de vencimiento.
+
+ARTICULO 1010. – Las actuaciones y diligencias del procedimiento en sede aduanera deberán practicarse en días y horas hábiles administrativos.
+
+ARTICULO 1011. – Cuando lo considerare
+necesario, el servicio aduanero podrá habilitar días y horas para
+cumplir alguna actuación o diligencia determinada.
+
+ARTICULO 1012. – Sin perjuicio de los
+actos cuya notificación estuviere expresamente prevista en los
+procedimientos regulados en este código, deberán ser notificados:
+
+a) los actos administrativos de alcance individual
+que tuvieren carácter definitivo y los que, sin serlo, obstaren a la
+prosecución de los trámites;
+
+b) los que resolvieren un incidente planteado o que, en alguna medida, afectaren derechos subjetivos o intereses legítimos;
+
+c) los que ordenaren emplazamientos, intimaciones, citaciones, vistas o traslados;
+
+d) los demás que la autoridad dispusiere.
+
+ARTICULO 1013. – Los actos enumerados en el artículo 1012 como así
+también aquellos cuya notificación se dispusiere en los procedimientos
+regulados en este código, deberán ser notificados por alguno de los
+siguientes medios:
+
+a) en forma personal, dejándose constancia en las actuaciones mediante
+acta firmada por el interesado, en la cual se indicarán sus datos de
+identidad;
+
+b) por presentación espontánea del interesado, de la que resultare su
+conocimiento del acto respectivo;
+
+c) por cédula, que se diligenciará en la forma prevista en los
+artículos 1014 y 1015;
+
+d) por alguno de los medios electrónicos que determinare la
+reglamentación;
+
+e) por telegrama colacionado o bien copiado o certificado con aviso de
+entrega;
+
+f) por oficio despachado como certificado expreso con aviso de
+recepción. En este caso, el oficio y los documentos anexos deberán
+exhibirse antes del despacho en sobre abierto al agente postal
+habilitado, quien lo sellará juntamente con las copias que se agregarán
+a la actuación;
+
+g) por otro medio postal que permitiere acreditar la recepción de la
+comunicación del acto de que se tratare;
+
+h) en forma automática, los días martes y viernes, o el día siguiente
+hábil si alguno de ellos fuere feriado, para aquellos cuyo domicilio
+hubiere quedado constituido en una oficina aduanera en virtud de lo
+dispuesto por los artículos 1004 y 1005. A tales efectos, el servicio
+aduanero facilitará la concurrencia de los interesados .a dicha oficina
+así como la exhibición de las actuaciones de que se tratare en los días
+indicados;
+
+i) por edicto a publicarse por un (1) día en el Boletín Oficial, cuando
+se tratare de personas inciertas o cuyo domicilio se ignorare;
+
+j) por aviso a publicarse por un (1) día en el Boletín de la
+repartición aduanera cuando se tratare de notificar a los administrados
+que se encuentran a su disposición los importes que les correspondieren
+percibir en concepto de estímulos a la exportación.
+
+(Artículo sustituido por art. 253 de la Ley
+N° 27430 B.O. 29/12/2017. Vigencia: a partir del día siguiente al de su publicación en el Boletín Oficial)
+
+ARTICULO 1014. – Si la notificación se
+hiciere por cédula en el domicilio, el funcionario o empleado encargado
+de practicarla dejará al interesado copia de la cédula, haciendo
+constar, con su firma, el día y la hora de la entrega. El original se
+agregará al expediente con nota de lo actuado, lugar, día y hora de la
+diligencia, suscripta por el notificador y el interesado, salvo que
+éste se negare o no pudiere firmar, de lo cual se dejará constancia.
+
+ARTICULO 1015. – Cuando el notificador
+no encontrare a la persona a quien debiere notificar, entregará la
+cédula a otra persona de la casa, departamento u oficina o al encargado
+del edificio y procederá en la forma dispuesta en el artículo 1014. Si
+no pudiere entregarla, la fijará en la puerta de acceso correspondiente
+a esos lugares.
+
+ARTICULO 1016. – Los informes
+periciales se encomendarán a funcionarios u organismos oficiales.
+Cuando no existieren funcionarios u organismos oficiales especializados
+en las cuestiones respecto de las cuales se requiriere dictamen, la
+designación de perito se sujetará a lo siguiente:
+
+a) si la profesión estuviere reglamentada, los
+peritos deberán poseer título habilitante en la ciencia, arte,
+industria o actividad técnica especializada a que pertenezcan las
+cuestiones acerca de las cuales debieren expedirse;
+
+b) si la profesión no estuviere reglamentada o
+cuando no hubiere peritos en el lugar en que se sustanciaren las
+actuaciones, podrá ser nombrada cualquier persona idónea, aun cuando
+careciere de título.
+
+ARTICULO 1017. – 1. Las disposiciones
+de la Ley Nacional de Procedimientos Administrativos se aplicarán
+supletoriamente en los procedimientos que se cumplieren ante el
+servicio aduanero.
+
+2. Cuando se tratare de los procedimientos por
+infracciones y por delitos aduaneros, se aplicarán supletoriamente las
+disposiciones del Código de Procedimientos en lo Criminal la Justicia
+Federal y los Tribunales de la Capital y Territorios Nacionales, las
+que prevalecerán sobre las indicadas en el apartado 1.
+
+Capítulo Segundo
+
+Jurisdicción y competencia
+
+ARTICULO 1018. – 1. En los procedimientos por
+infracciones, de impugnación y de ejecución en sede administrativa,
+corresponderá conocer y decidir en forma originaria al administrador de
+la aduana en cuya jurisdicción se hubieren producido los hechos.
+
+2. Cuando se tratare de liquidaciones suplementarias
+de tributos, también corresponderá conocer y decidir en forma
+originaria al jefe de la dependencia de la Administración Nacional de
+Aduanas encargada de la revisión de los documentos aduaneros cancelados.
+
+ARTICULO 1019. – Cuando el acto
+impugnado proviniere de la Administración Nacional de Aduanas,
+corresponderá al Administrador Nacional conocer y decidir en forma
+originaria en el procedimiento de impugnación.
+
+ARTICULO 1020. – En el procedimiento de repetición corresponderá conocer y decidir en forma originaria al Administrador Nacional de Aduanas.
+
+ARTICULO 1021. – Las competencias
+atribuidas en este Título no obstan al ejercicio de la facultad de
+avocación conferida al Administrador Nacional de Aduanas en el artículo
+23, inciso m).
+
+ARTICULO 1022. – Las cuestiones de
+competencia que se suscitaren entre las aduanas serán resueltas por el
+Administrador Nacional de Aduanas, cuya decisión será irrecurrible.
+
+ARTICULO 1023. – A los fines de esta
+Sección, el vocablo administrador comprende al funcionario que
+resultare competente para resolver en sede aduanera en el procedimiento
+de que se tratare o a quien lo sustituyere por ausencia o impedimento,
+conforme a las normas en vigor.
+
+ARTICULO 1024. – Corresponderá conocer y decidir en forma originaria en
+el procedimiento de ejecución en sede judicial y en las demandas
+contenciosas que se interpusieren contra las resoluciones definitivas
+dictadas por el administrador en los procedimientos de repetición y
+para las infracciones, así como en el supuesto de retardo por no
+dictarse resolución en estos dos últimos procedimientos dentro de los
+plazos señalados al efecto en este Código, y en los previstos en el
+artículo 463, en la Capital Federal a los jueces nacionales en lo
+contencioso administrativo federal y en el interior del país a los
+jueces federales, dentro de sus respectivas competencias territoriales
+siempre que se cuestionare una suma mayor de 1.000 UVA.
+
+(Artículo sustituido por art. 150 del Decreto N° 70/2023 B.O. 21/12/2023.)
+
+ARTICULO 1025. – 1. Corresponderá conocer y decidir al Tribunal Fiscal de la Nación, creado por la ley 15.265:
+
+a) de los recursos de apelación contra las
+resoluciones del administrador en el procedimiento de impugnación, con
+excepción de los supuestos previstos en el artículo 1053, inciso f). La
+apelación sólo procederá cuando el importe controvertido excediere de
+PESOS VEINTICINCO MIL ($25.000); (Importe sustituido por art. 76 de la Ley N° 26.784 B.O. 05/11/2012)
+
+b) de los recursos de apelación contra las
+resoluciones del administrador en el procedimiento para las
+infracciones, cuando la condena implicare un importe que excediere de
+PESOS VEINTICINCO MIL ($25.000); (Importe sustituido por art. 76 de la Ley N° 26.784 B.O. 05/11/2012)
+
+c) de los recursos de apelación contra las
+resoluciones del administrador en el procedimiento de repetición,
+cuando se reclamare un importe que excediere de PESOS VEINTICINCO MIL
+($25.000); (Importe sustituido por art. 76 de la Ley N° 26.784 B.O. 05/11/2012)
+
+d) de los recursos por retardo en el dictado de la
+resolución definitiva que correspondiere en los procedimientos de
+impugnación, de repetición y para las infracciones, cuando los importes
+controvertidos o reclamados y/o la imputación infraccional excedieren
+y/o implicare un importe que excediere, dePESOS VEINTICINCO MIL ($25.000); (Importe sustituido por art. 76 de la Ley N° 26.784 B.O. 05/11/2012) (Inciso sustituido por art. 19 inc. 2) de la Ley N° 25.239 B.O. 31/12/1999. Vigencia: a partir del 1° de enero de 2000.)
+
+e) del recurso de amparo previsto en los artículos 1160 y 1161, excepto en las causas por delitos aduaneros.
+
+f) de los recursos de apelación previstos en el artículo 463. (Inciso incorporado por art. 151 del Decreto N° 70/2023 B.O. 21/12/2023.)
+
+Si la determinación tributaria y la imposición de
+sanción se decidieran conjuntamente, la resolución íntegra podrá
+apelarse cuando ambos conceptos en conjunto superen el importe mínimo
+previsto en el párrafo anterior, sin perjuicio de que el interesado
+pueda recurrir sólo por uno de esos conceptos pero siempre que éste
+supere dicho importe mínimo. (Párrafo incorporado por art. 19 inc. 3) de la Ley N° 25.239 B.O. 31/12/1999. Vigencia: a partir del 1° de enero de 2000.)
+
+2. Los importes previstos en el apartado 1 se
+actualizarán anualmente, en forma automática al 31 de octubre de cada
+año, de conformidad con la variación de los índices de precios al por
+mayor (nivel general) elaborados por el Instituto Nacional de
+Estadística y Censos u organismo oficial que cumpliere sus funciones.
+Esta actualización surtirá efectos a partir del primero de enero del
+año siguiente. Si la determinación tributaria y la imposición de
+sanción se decidieran conjuntamente, la resolución íntegra podrá
+apelarse cuando ambos conceptos en conjunto superen el importe mínimo
+previsto en el párrafo anterior, sin perjuicio de que el interesado
+pueda recurrir sólo por uno de esos conceptos pero siempre que éste
+supere dicho importe mínimo.
+
+ARTICULO 1026. – Las causas que correspondiere instruir por los delitos
+previstos en la Sección XII, Título I, de este Código serán
+sustanciadas:
+
+a) en sede judicial, en cuanto se refiere a la aplicación de las penas
+privativas de la libertad y las previstas en los artículos 868, 869 y
+876, apartado 1, en sus incisos a), b), d), e), h) e i), así como
+también en el f) exclusivamente en cuanto se refiere a las fuerzas de
+seguridad;
+
+b) ante el administrador de la Aduana en cuya jurisdicción se hubiere
+producido el hecho, en cuanto se refiere a la aplicación de las penas
+previstas en el artículo 876, apartado 1, en sus incisos c) y g), así
+como también en el f) excepto en lo que se refiere a las fuerzas de
+seguridad.
+
+(Artículo sustituido por art. 11 del Decreto Nº 575/2025 B.O. 13/8/2025.)
+
+ARTICULO 1027. – 1.- En las causas que
+deban tramitar en sede judicial corresponderá conocer y decidir en
+forma originaria a los tribunales nacionales en lo penal económico y a
+los tribunales federales del interior del país, dentro de sus
+respectivas competencias territoriales.
+
+2.- La competencia atribuida en el apartado 1º a los
+tribunales nacionales en lo penal económico comprenderá, además del
+territorio de la Capital Federal, los siguientes partidos de la
+provincia de Buenos Aires: Almirante Brown, Avellaneda, Esteban
+Echeverría, Ezeiza, Florencio Varela, General Rodríguez, General San
+Martín, Hurlingham, Ituzaingó, José C. Paz, La Matanza, Lanús, Lomas de
+Zamora, Marcos Paz, Malvinas Argentinas, Merlo, Moreno, Morón, Pilar,
+Presidente Perón, Quilmes, San Fernando, San Isidro, San Miguel, San
+Vicente, Tigre, Tres de Febrero y Vicente López.
+
+(Artículo sustituido por art. 4° de la Ley N° 25.815 B.O. 1/12/2003.)
+
+ARTICULO 1028. – 1. Las Cámaras
+Federales, dentro de sus respectivas competencias territoriales y, en
+su caso, de la sede del Tribunal Fiscal interviniente o la delegación
+permanente o móvil del mismo, según donde se hubiere radicado la causa,
+entenderán:
+
+a) de los recursos de apelación que se interpusieren
+contra las resoluciones del administrador en el procedimiento por
+delitos. En la Capital Federal y en los Partidos de la Provincia de
+Buenos Aires que se mencionan en el artículo 1027, apartado 2, será
+competente para conocer en estos recursos la Cámara Nacional de
+Apelaciones en lo Penal Económico de la Capital Federal;
+
+b) de los recursos de apelación que se interpusieren
+contra las resoluciones definitivas de los jueces en lo contencioso
+administrativo y de los jueces federales del interior del país, en los
+procedimientos de repetición, para las infracciones y de ejecución en
+sede judicial, siempre que se tratare de una suma que excediere de
+CIENTO DOS MIL AUSTRALES (A 102.000); (Monto sustituido por art. 1° de la Resolución N° 2344/1991 de la Administración Nacional de Aduanas B.O.10/12/1991. Vigencia: surtirá efecto a partir del 1 de enero de 1992.) (Nota Infoleg: En relación al monto mencionado en Australes, ver la Ley N° 23.928 B.O. 28/03/1991 y el Decreto N° 2128/1991 B.O.
+17/10/1991 por los que se declara la convertibilidad del Austral a
+partir del 1° de enero de 1992, estableciéndose la paridad de UN PESO
+($1) equivalente a DIEZ MIL AUSTRALES (A 10.000).)
+
+c) de los recursos de apelación que se interpusieren
+contra las resoluciones dictadas por el Tribunal Fiscal en los
+procedimientos de impugnación, de repetición y por infracciones;
+
+d) de los recursos por retardo de justicia en el
+dictado de la resolución definitiva del Tribunal Fiscal en los
+procedimientos mencionados en el inciso c);
+
+e) de los recursos de apelación que se interpusieren
+contra las resoluciones dictadas por el Tribunal Fiscal en el recurso
+de amparo previsto en el artículo 1025, inciso e).
+
+2. Los importes previstos en el apartado 1 se
+actualizarán anualmente, en forma automática al 31 de octubre de cada
+año, de conformidad con la variación de los índices de precios al por
+mayor (nivel general) elaborados por el Instituto Nacional de
+Estadística y Censos u organismo oficial que cumpliere sus funciones.
+Esta actualización surtirá efectos a partir del primero de enero del
+año siguiente.
+
+ARTICULO 1029. – La Cámara Nacional de
+Apelaciones en lo Penal Económico y las Cámaras federales del interior
+del país, dentro de sus respectivas competencias territoriales,
+entenderán en los recursos que se interpusieren contra las resoluciones
+dictadas por los respectivos jueces de primera instancia en las causas
+a que se refiere el artículo 1026, inciso a).
+
+Capítulo Tercero
+
+Disposiciones especiales para los procedimientos de impugnación, de repetición y por infracciones
+
+ARTICULO 1030. – En los procedimientos a que
+se refiere este Capítulo, sólo podrán presentarse, por un derecho o un
+interés que no fuere propio, las personas que ejercieren una
+representación legal y aquellas que se encontraren inscriptas en la
+matrícula de procuradores o de abogados para actuar ante la justicia
+federal.
+
+ARTICULO 1031. – 1. En el supuesto
+previsto en el artículo 1030, el representante deberá acompañar con su
+primera presentación los documentos que acreditaren su personería.
+
+2. Cuando se invocare un poder general o especial
+para varios actos se lo acreditará con la agregación de una copia
+íntegra firmada por el abogado patrocinante o por el apoderado. En este
+supuesto, el administrador podrá intimar la presentación del testimonio
+original para acreditar la autenticidad de la copia acompañada.
+
+ARTICULO 1032. – No obstante lo
+dispuesto en el artículo 1031, el administrador podrá exceptuar de la
+obligación de presentar las partidas correspondientes a los padres que
+comparecieren en representación de sus hijos menores y al marido o a la
+mujer que lo hicieren en representación de su cónyuge incapaz.
+
+ARTICULO 1033. – El representante que
+no acreditare su personería en la forma prevista en los artículos 1031
+o 1032 será intimado a hacerlo dentro del plazo de DIEZ (10) días, que
+en casos debidamente fundados podrá extenderse hasta SESENTA (60) días
+bajo apercibimiento de tenerlo por no presentado en caso de
+incumplimiento. En este último supuesto, se procederá al desglose y
+devolución de los escritos y documentos que hubiere presentado, de lo
+que se dejará constancia en las actuaciones.
+
+ARTICULO 1034. – En todas las presentaciones en que se planteen o debatan cuestiones jurídicas será obligatorio el patrocinio letrado.
+
+ARTICULO 1035. – Los plazos procesales comienzan a correr desde el día siguiente hábil administrativo al de la notificación.
+
+ARTICULO 1036. – Para toda diligencia
+que debiere practicarse dentro de la República y fuera del lugar del
+asiento de la oficina aduanera en que tramitare la actuación, quedarán
+ampliados los plazos a razón de UN (1) día por cada DOSCIENTOS (200)
+kilómetros o fracción no inferior de CIEN 100).
+
+ARTICULO 1037. – Deberán ser notificados por alguno de los medios previstos en el artículo 1013 los siguientes actos:
+
+a) los enumerados en el artículo 1053;
+
+b) los que hicieren saber que se ha trabado una medida cautelar o decretado su levantamiento;
+
+c) los que decidieren sobre la falta de legitimación para actuar;
+
+d) los que dispusieren la citación para prestar declaración indagatoria o testimonial;
+
+e) los que decretaren el auto de sobreseimiento;
+
+f) los que confirieren la vista para presentar la defensa en el procedimiento para las infracciones;
+
+g) Los que declaren la rebeldía;
+
+h) los que decretaren la apertura de la causa a
+prueba, la denegación de medidas probatorias y la denegación de plazo
+extraordinario de prueba;
+
+i) los que pusieren el expediente a disposición de las partes para alegar;
+
+j) los que resolvieren las causas en forma definitiva;
+
+k) los que concedieren o denegaren la apelación;
+
+l) los que dispusieren la venta prevista en el artículo 1124.
+
+m) el dictado del auto por el cual se ordenare la apertura del sumario; (Inciso incorporado por art. 152 del Decreto N° 70/2023 B.O. 21/12/2023.)
+
+n) el dictado de la resolución condenatoria en sede aduanera. (Inciso incorporado por art. 152 del Decreto N° 70/2023 B.O. 21/12/2023.)
+
+ARTICULO 1038. – Todo aquél que fuere
+citado a prestar declaración indagatoria o testimonial está obligado a
+comparecer. Si no lo hiciere y no justificare satisfactoriamente su
+inasistencia, podrá ser obligado a comparecer por la fuerza pública a
+una segunda audiencia que se fijará al efecto.
+
+ARTICULO 1039. – El administrador al
+proveer la producción de la prueba dispondrá cuales medidas probatorias
+deben ser producidas por el interesado, fijándole al efecto un plazo
+prudencial, bajo apercibimiento de darle por decaído el derecho a
+producirlas.
+
+ARTICULO 1040. – Cuando el
+administrador no fuere abogado, antes de dictar resolución definitiva,
+deberá producirse en las actuaciones dictamen jurídico.
+
+ARTICULO 1041. – Dictada la resolución
+definitiva, el administrador no podrá sustituirla o modificarla. Sin
+embargo, de oficio o a pedido de parte y sin alterar lo sustancial de
+la decisión, podrá corregir cualquier error material, aclarar algún
+concepto oscuro y suplir cualquier omisión en que hubiese incurrido
+sobre alguna de las situaciones cuestionadas. La petición deberá
+formularse dentro de los CINCO (5) días de la notificación e
+interrumpirá el plazo para apelar.
+
+ARTICULO 1042. – 1. Cuando en los
+procedimientos para las infracciones, para los delitos o de impugnación
+se desestimare la denuncia, se sobreseyere o se absolviere respecto del
+ilícito imputado o se hiciere lugar a la impugnación del interesado, no
+se tributará tasa de almacenaje por la mercadería que se encontrare en
+depósitos fiscales afectada a tales procedimientos, desde la fecha de
+iniciación del procedimiento hasta DIEZ (10) días después de la fecha
+en que quedare ejecutoriada la aludida resolución.
+
+2. Si la resolución definitiva fuere condenatoria o
+rechazare la impugnación del interesado, la tasa aplicable se calculará
+sobre la base de la escala mínima correspondiente a la mercadería de
+que se tratare, durante la sustanciación del procedimiento y hasta DIEZ
+(10) días después de la fecha en que quedare ejecutoriada la aludida
+resolución.
+
+Incidentes
+
+ARTICULO 1043. – Tramitará en pieza separada
+el pedido de libramiento con garantía de mercadería detenida durante la
+sustanciación de un procedimiento aduanero, así como toda otra cuestión
+que tuviere relación con el objeto principal que se debatiere y que no
+estuviere sometida a un procedimiento especial.
+
+ARTICULO 1044. – El incidente no
+suspenderá la tramitación del procedimiento principal, salvo resolución
+en contrario del administrador, fundada en la imposibilidad de
+continuar el trámite del principal sin la previa resolución del
+incidente.
+
+ARTICULO 1045. – Con el escrito de
+promoción del incidente deberá ofrecerse toda la prueba y acompañarse
+la documental que estuviere en poder del interesado. Si no estuviere en
+su poder la prueba documental, la individualizará indicando su
+contenido, el lugar y la persona en cuyo poder se encontrare.
+
+ARTICULO 1046. – El administrador
+rechazará las pruebas que no se refirieren a los hechos invocados en el
+escrito de promoción del incidente, así como también las que fueren
+inconducentes, superfluas o meramente dilatorias.
+
+ARTICULO 1047. – Si no hubiere mérito para recibir el incidente a prueba, el administrador lo resolverá dentro de los DIEZ (10) días.
+
+ARTICULO 1048. – En cualquier estado
+del procedimiento, el administrador podrá disponer las diligencias que
+considerare necesarias para mejor proveer.
+
+ARTICULO 1049. – Producida la prueba
+y, en su caso, cumplidas las diligencias que para mejor proveer se
+hubieran dispuesto, el administrador deberá resolver el incidente
+dentro de los DIEZ (10) días.
+
+Nulidades de procedimiento
+
+ARTICULO 1050. – No se podrá declarar la
+nulidad de un acto de procedimiento si el mismo, no obstante su
+irregularidad, hubiere logrado la finalidad a que estaba destinado.
+
+ARTICULO 1051. – 1. La nulidad no
+podrá ser declarada cuando el acto hubiere sido consentido, aunque
+fuere tácitamente, por la parte interesada en la declaración.
+
+2. Salvo disposición especial que fijare un plazo
+mayor, se entenderá que media consentimiento tácito cuando no se
+promoviere incidente de nulidad dentro de los CINCO (5) días
+subsiguientes al conocimiento del acto.
+
+ARTICULO 1052. – El incidente de nulidad tramitará en la forma prevista en los artículos 1043 a 1049.

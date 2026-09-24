@@ -282,10 +282,166 @@ costumbre diplomática los reglamenta la autoridad de aplicación.
 
 `[REVISIÓN NORMATIVA REQUERIDA: este módulo recorre los arts. 1, 2, 4, 5, 8, 13 a 15, 17 y 18 de la Ley 25.188. El régimen de la Comisión Nacional de Ética Pública, los antecedentes penales y el resto del articulado NO están recorridos, y la reglamentación no está bajada]`
 
+### 49.5.4 El empleo público bonaerense — tres estatutos, y ninguno es la Ley 25.164
+
+Cotejados contra `fuentes/normas/pba-ley-10430.txt` —texto ordenado por Decreto 1869/96—,
+`fuentes/normas/pba-ley-14656.txt` y `fuentes/normas/pba-ley-10579.txt`. **Lo primero es cuál de
+los tres rige**, porque no comparten plazos: la **Ley 10.430** es el régimen general del personal
+del Poder Ejecutivo provincial, y de los otros poderes sólo por adhesión expresa, con excepción de
+los funcionarios políticos y del *"personal amparado por regímenes especiales"* (art. 1); la
+**Ley 14.656** rige a los trabajadores de las **municipalidades**, y es un piso de orden público
+que las ordenanzas y los convenios colectivos completan (art. 1); la **Ley 10.579** es el
+**estatuto del docente** de la Dirección General de Cultura y Educación. El conflicto va al fuero
+contencioso administrativo por `contencioso-pba.md` 26, y el procedimiento que hay que agotar es
+el del estatuto, con el Decreto-Ley 7.647/70 de 26.4 bis como supletorio (art. 102 de esa ley;
+art. 41 de la Ley 14.656).
+
+**Ley 10.430 — el provincial.**
+
+| Instituto | Regla | Artículo |
+| --- | --- | --- |
+| Estabilidad | Todo nombramiento es provisional; la estabilidad se adquiere a los **seis meses** de servicio efectivo, sin oposición fundada notificada | 6 |
+| Plantas | Permanente, con y sin estabilidad; temporaria: gabinete, secretarios privados, **contratados** y **transitorios** | 15 y 111 |
+| Cese | Por las causas del art. 14: entre ellas no cumplir la admisibilidad en un año, renuncia, agotar la licencia por enfermedad, supresión del cargo, jubilación, cesantía o exoneración, y calificaciones insuficientes reiteradas | 14 |
+| Disponibilidad absoluta | Reestructuración que suprime el cargo: **no menos de doce meses** en disponibilidad, y después cese con indemnización | 11 y 30 |
+| Indemnización por supresión del cargo | **Un mes por año o fracción mayor de tres meses**, base la mejor remuneración mensual, normal y habitual del último año, con **tope de tres y media veces el básico de la categoría uno** y **piso de dos meses**; no alcanza a quien está en condiciones de jubilarse | 30 inc. b |
+| Sanciones | Correctivas —apercibimiento y suspensión hasta **sesenta días**— y expulsivas —cesantía y exoneración—, por las causales de los arts. 82 a 84; **tres inasistencias consecutivas** con intimación previa son abandono de cargo y cesantía sin sumario | 81 a 85 |
+| Sin sumario | Suspensión de hasta **diez días** por funcionario no inferior a director, con descargo en **tres días** | 87 |
+| Prescripción disciplinaria | **Un año** para las correctivas, **tres** para las expulsivas, la del delito si el hecho lo es | 90 |
+| Sumario | Ordenado por director provincial o general; con **dictamen de la Asesoría General de Gobierno** si la sanción puede ser expulsiva; suspensión preventiva o disponibilidad relativa por **sesenta días**, prorrogables por el Poder Ejecutivo; acto final en **cinco días** de recibidas las actuaciones | 92, 95, 97 y 100 |
+| Haberes de la preventiva | Se computan a la sanción correctiva y el exceso se paga; con sanción expulsiva no se pagan; absuelto o sobreseído, se pagan íntegros | 98 y 103 |
+| **Recurso** | **Revocatoria con jerárquico en subsidio, en diez días** de notificada la sanción, **fundado bajo pena de rechazo sin más trámite**; revisión en cualquier tiempo por hechos nuevos con prueba documental | 104 y 105 |
+| Plazos | Perentorios y por **días hábiles** de la Administración | 106 |
+| Contratado | *"Se rige exclusivamente por las cláusulas del contrato de locación de servicios"*, para tareas profesionales o técnicas que el personal permanente no pueda cumplir | 115 y 116 |
+| Transitorio | Servicios eventuales o estacionales; baja *"cuando razones de servicios así lo aconsejen"* | 117 y 121 |
+
+**Ley 14.656 — el municipal.** El ingreso es por **concurso público abierto** o selección
+especial, por la categoría inferior (art. 2); la estabilidad se adquiere a los **doce meses**
+(art. 4), y con ella los derechos del art. 6, entre ellos el debido proceso en los sumarios.
+**Ninguna suspensión de más de diez días ni sanción mayor sin sumario previo** (art. 24); la
+prescripción disciplinaria es la más corta de las tres: **seis meses** para las correctivas y
+**doce** para la cesantía, desde la comisión de la falta (art. 26); suspensión preventiva sólo si
+la permanencia dificulta el trámite, y **nunca más de sesenta días** (art. 33); acto final en diez
+días (art. 35). **Recurso: revocatoria ante quien sancionó o jerárquico ante el superior**, hasta
+agotar la instancia, con el legajo completo agregado, y la Ley 7.647 supletoria (art. 41);
+revisión en cualquier tiempo (art. 42). Los **contratados** son locación de servicios *"para
+realizar trabajos o servicios extraordinarios en el campo de la ciencia o las artes"* (art. 45).
+Si el municipio no dictó ordenanza ni firmó convenio en ciento ochenta días, rige el **régimen
+supletorio** de la Sección III (art. 65): ahí la planta temporaria **no puede superar el veinte
+por ciento** de la permanente y **cualquier infracción convierte al trabajador en permanente desde
+su ingreso** (art. 70), la renuncia se tiene por aceptada a los **treinta días** sin acto expreso
+(art. 98 inc. b), las sanciones van hasta treinta días de suspensión y cesantía (art. 105), y
+**cinco inasistencias** consecutivas son abandono, con intimación de un día hábil (art. 108). La
+Ley 11.757 está derogada, con ultraactividad de sus condiciones hasta que haya ordenanza, convenio
+o régimen supletorio (art. 64).
+`[VERIFICAR VIGENCIA: si el municipio dictó la ordenanza de empleo o suscribió convenio colectivo -art. 65 de la Ley 14.656-, porque de eso depende que rija la Sección III o el régimen local; la Ley 14.807 postergó la vigencia de esa sección por 180 días desde el 14/01/2016]`
+
+**Ley 10.579 — el docente.** Cuatro situaciones que no se confunden: **titular**, titular
+interino, **provisional** —cubre una vacante— y **suplente** —reemplaza a un ausente— (arts. 107 y
+127). Sólo el titular tiene **estabilidad** en cargo, categoría, jerarquía y destino (arts. 7 inc.
+a y 17), que se pierde por jubilación máxima, dos calificaciones bajas en cinco años, agotar la
+disponibilidad, sanción expulsiva o nombramiento antiestatutario (art. 18); el provisional **no
+adquiere derecho a permanecer** y cesa cuando el cargo se cubre con un titular (arts. 109 y 111),
+y el suplente cesa cuando el ausente vuelve (art. 110). La disponibilidad dura hasta **cinco
+años**, el primero con haberes (art. 22). Sanciones del titular por faltas leves y graves, hasta
+exoneración (art. 132), y del provisional y suplente con **exclusión de los listados** (art. 133);
+las leves las aplica el superior jerárquico y se recurren por revocatoria con jerárquico implícito
+(art. 135); las graves van a **sumario** que ordena la Subsecretaría e instruye la Dirección de
+Sumarios, con suspensión preventiva y **noventa días** para resolverlo, y si hay causa penal con
+procesamiento se está a la sentencia (arts. 139 y 140); **cinco inasistencias** consecutivas son
+presunto abandono con dos días para retomar (art. 125). Prescripción: **un año** las correctivas,
+**tres** las expulsivas (art. 144). **Todos los recursos se interponen en diez días hábiles** desde
+la notificación (arts. 161 y 165), la revocatoria lleva el jerárquico implícito (art. 158) y la
+revisión de una falta grave se pide **una sola vez dentro de los dos años** de firme, con hechos
+nuevos (art. 159). El contratado se rige por su contrato, para programas y misiones especiales
+(arts. 166 y 168).
+
+**Lo que los tres comparten con "Ramos" (49.3.1), y lo que no.** Los tres dicen que el contratado
+se rige por el contrato y que el transitorio se da de baja por razones de servicio; lo que ninguno
+dice es qué pasa con el contratado **prolongado**, y ahí la doctrina de la Corte se invoca por
+analogía, no por norma.
+`[VERIFICAR CRITERIO DEL FUERO: recepción de "Ramos" por la SCBA para el contratado provincial o municipal en relaciones prolongadas - sin fallo bonaerense cargado]`
+
+`[REVISIÓN NORMATIVA REQUERIDA: este bloque recorre de la Ley 10.430 los arts. 1, 6, 7, 11 a 15, 20, 21, 30, 66, 80 a 107, 111 y 115 a 121; de la Ley 14.656 los arts. 1, 2, 4, 6 a 8, 23 a 28, 33, 35, 41 a 46, 63 a 70, 98, 101 y 105 a 119; y de la Ley 10.579 los arts. 4 a 8, 17 a 22, 100, 107 a 112, 125 a 145 y 156 a 168. Los escalafones, las licencias y las retribuciones NO están recorridos, y ni las reglamentaciones -Decretos 4161/96, 784/16 y 2485/92- ni las ordenanzas municipales están descargadas]`
+
+### 49.5.5 El personal policial bonaerense — Ley 13.982, estado policial y disciplina
+
+Cotejada contra `fuentes/normas/pba-ley-13982.txt`. Es el cuarto estatuto de PBA y no entra en
+la Ley 10.430 de 49.5.4: el personal de las Policías de la Provincia tiene **estado policial**,
+que es la situación jurídica del conjunto de derechos y deberes de quien ocupa un lugar en las
+escalas jerárquicas, y comprende sólo a ése (art. 2).
+
+**Estabilidad y su pérdida (arts. 7 y 8).** Se adquiere **a los doce meses de servicio
+efectivo**, con todos los derechos y deberes mientras tanto (art. 7). Se pierde por **condena
+firme a pena privativa de libertad por delito doloso**, por **inhabilitación firme** para la
+función pública, por **cesantía o exoneración firmes en sumario**, por resolución en información
+sumaria que compruebe **disminución de aptitudes** que impidan la función, o por baja en las
+demás condiciones de la ley (art. 8).
+
+**Situaciones de revista (arts. 13 a 22).** Siete: servicio activo, disponibilidad,
+desafectación del servicio, inactividad, actividad limitada, retiro y convocado (art. 13). La
+**desafectación** es la que se litiga: procede para el **imputado de delito no excarcelable
+mientras dure la detención** y para el **sometido a sumario por hechos que puedan dar lugar a
+cesantía, exoneración o suspensión de más de treinta días** (art. 19). Suspende los derechos
+del art. 10 que el art. 20 enumera, retira credencial, uniforme y armamento, y **retiene el
+cincuenta por ciento del haber**, salvo asignaciones familiares, con los aportes calculados
+sobre el cien por ciento (art. 20). Lo retenido **se reintegra de oficio** si el sumario termina
+en amonestación, suspensión de hasta treinta días, sobreseimiento o absolución (art. 22), y **se
+pierde** con condena o inhabilitación, y con cesantía, exoneración o suspensión mayor de treinta
+días (art. 21); el tiempo en desafectación **no cuenta para el ascenso**, y en el abandono de
+servicio tampoco para la antigüedad.
+
+**Disciplina (arts. 53 a 56).** Régimen disciplinario propio, sin perjuicio de la pena y de la
+indemnización al Estado (art. 53). Cuatro sanciones: apercibimiento, suspensión sin goce de
+haberes, cesantía y exoneración (art. 54). **La ley delega en el Poder Ejecutivo** la
+tipificación de las faltas simples, leves y graves y sus sanciones (art. 55), y ahí está lo
+que decide el caso: **suspensión de más de diez días, cesantía y exoneración sólo previo
+sumario administrativo**; apercibimiento y suspensión se recurren ante la autoridad que fije
+el reglamento; **cesantía y exoneración se impugnan por acción judicial, previo agotamiento de
+la vía administrativa**, que es el proceso de `contencioso-pba.md` 26.2 con el plazo del art.
+18 del CCA. La potestad disciplinaria **prescribe a los dos años** de cometida o conocida la
+falta cuando sólo hay responsabilidad disciplinaria, y **por el Código Penal** cuando el hecho
+también es delito (art. 56 inc. c); se extingue por muerte y por desvinculación, salvo que la
+sanción pueda cambiar la causal del cese.
+
+**El reglamento: Decreto 1050/09, cotejado contra `fuentes/normas/pba-decreto-1050-2009.txt`.**
+Es el que dice qué falta es qué y cuántos días hay para recurrir. **Cuatro clases** (art. 190
+regl.): **simples**, apercibimiento, de aplicación directa; **leves**, apercibimiento o
+suspensión **de hasta diez días**, de aplicación directa por el superior (art. 210); **graves**,
+suspensión **de hasta cuarenta y cinco días**, por resolución del Comisario General **en
+actuación sumarial** (art. 211); y **graves de competencia originaria de la Auditoría General de
+Asuntos Internos**, que dan lugar a **exoneración, cesantía o suspensión de hasta sesenta días**,
+por resolución del Auditor General **en investigación sumarial administrativa** (art. 212). Las
+listas de faltas por bien afectado van de los arts. 191 a 208. La **desafectación no puede
+exceder los sesenta días corridos**, prorrogables por igual término una sola vez y por acto fundado
+(art. 240). Las actuaciones sumariales **se resuelven en sesenta días** desde su inicio, ampliables
+en treinta (art. 252); las investigaciones ante Asuntos Internos **en noventa**, prorrogables por
+otros noventa (art. 253); los plazos son **hábiles administrativos** (art. 251). **Los recursos**
+se presentan ante quien dictó el acto, motivados, y **su interposición en término suspende la
+ejecución de la sanción** (arts. 270 y 271): contra el **apercibimiento**, reconsideración **al
+día siguiente** de la notificación (art. 272); contra la **suspensión directa**, reconsideración
+**en dos días** y, denegada, apelación ante el jefe directo de quien sancionó (art. 273); contra
+la suspensión **mayor de diez días** impuesta en sumario, reconsideración **en tres días** y,
+denegada, apelación ante el Auditor General **en cinco** (art. 274); contra las sanciones no
+expulsivas del Auditor General, sólo reconsideración en cinco días (art. 275); y contra la
+**cesantía y la exoneración**, reconsideración o **apelación ante el Ministro de Seguridad en
+cinco días**, con apelación en subsidio o directa (art. 276). Ése es el agotamiento de la vía que
+el art. 55 de la ley exige antes de la acción judicial. La prescripción del art. 56 corre desde
+que la falta se cometió o conoció, o desde que cesó si es continua, y **la interrumpen la nueva
+falta y los actos del procedimiento** que el art. 185 enumera (arts. 184 y 185).
+
+**Baja (arts. 61 y siguientes).** Es la exclusión definitiva de los cuadros y la pérdida del
+estado policial, sin perjuicio de los derechos previsionales (art. 61). El retiro y el haber de
+retiro son de la Caja de Retiros, Jubilaciones y Pensiones de las Policías, cuya ley **no está
+descargada**: `previsional.md` no la cubre.
+
+`[REVISIÓN NORMATIVA REQUERIDA: este bloque recorre los arts. 2, 7, 8, 13, 15, 19 a 22, 53 a 56 y 61 de la Ley 13.982 y los arts. 183 a 185, 190, 210 a 212, 240, 251 a 253 y 268 a 276 del Decreto 1050/09. El Anexo del decreto con la potestad disciplinaria de cada grado -art. 210-, las listas de faltas de los arts. 191 a 208 y la Ley 13.482 de organización de las policías NO están recorridos. Sin fallo cargado de la SCBA sobre la desafectación]`
+
 ### 49.6 Lo que este módulo NO hace
 
-- **No trae el estatuto de PBA ni los municipales.** El empleo público bonaerense tiene su propio
-  régimen y **no está bajado**: no se le transpolan los plazos de esta ley.
+- **De los estatutos bonaerenses trae sólo lo que 49.5.4 recorre**: estabilidad, cese, sumario,
+  recursos y personal no permanente de las Leyes 10.430, 14.656 y 10.579. Los de las demás
+  provincias no están bajados, y no se les transpolan los plazos de ninguna.
 - **No trae la reglamentación** de la Ley 25.164 ni el SINEP, de donde salen el escalafón, las
   categorías y el procedimiento sumarial concreto.
 - **No cubre la negociación colectiva del sector público.** El texto de la Ley 24.185 **está
@@ -293,7 +449,7 @@ costumbre diplomática los reglamenta la autoridad de aplicación.
   de la Ley 25.164 mande adecuar el régimen por esa vía.
 - **No calcula.** No hay calculadora de empleo público, y la de LCT no se usa acá.
 
-`[CONFIGURACIÓN INCOMPLETA: el empleado es público provincial o municipal y su estatuto no está en fuentes/ - sin ese texto no se resuelve la estabilidad ni la extinción: la Ley 25.164 es NACIONAL y no rige en las provincias]`
+`[CONFIGURACIÓN INCOMPLETA: el empleado es público de una provincia distinta de Buenos Aires, o municipal fuera de ella, y su estatuto no está en fuentes/ - sin ese texto no se resuelve la estabilidad ni la extinción: la Ley 25.164 es NACIONAL y no rige en las provincias]`
 
 `[INSERTAR FALLO VERIFICADO: el efecto de la opción del art. 39 sigue sin precedente bajado - el contratado por tiempo determinado en relaciones prolongadas lo cubre 49.3.1 - aportar carátula, sala, expediente, fuero y año]`
 

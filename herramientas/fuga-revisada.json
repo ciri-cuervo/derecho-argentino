@@ -1,9 +1,10 @@
 {
   "_descripcion": "Secuencias de nueve palabras compartidas con kb/ que ya se leyeron y se aceptaron. Lo consume herramientas/fuga_textual.py.",
-  "fijado": "2026-09-18",
+  "fijado": "2026-09-23",
   "_criterio": "El detector reporta CANDIDATOS, no culpables. Una secuencia entra a la base cuando se leyó y es texto legal, una carátula o un dato -que no son obra de nadie-, o cuando es el texto de un marcador declarado en references/marcadores.md: ese vocabulario es capa 2 heredada, marcadores.md ya está exceptuado en LICENCIAS.md, y un módulo que emite el marcador reproduce esa cadena por diseño. Reescribirla ahí rompería la coincidencia verbatim que un test exige contra kb/. Fuera de esos casos, si es prosa de kb/ no se acepta: se reescribe el módulo. La trampa no es copiar, es CONDENSAR: dos resúmenes de la misma fuente convergen sin que nadie lea al otro.",
   "nota": "Línea de base sobre SKILL.md y los 63 módulos de references/. La anterior cubría 30: los 33 que entraron después nunca se habían cruzado contra kb/, y al hacerlo aparecieron cinco pasajes. Dos eran defecto propio y se corrigieron -una tabla de contravencional-caba.md repetía una fila con la condición mal escrita, y dos pasajes de penal-leyes-especiales.md condensaban articulado que ahora se cita textual-. Los tres que quedan son convergencia de dos resúmenes de la misma ley: arts. 41 a 43 de la Ley 27.801 y una frase de sintaxis legal común, cotejados contra fuentes/normas/ el 18/09/2026. Y el 18/09/2026 entraron las de `violencia-digital.md`, módulo nuevo escrito contra ley-26485.txt y ley-27736.txt: sus 48 coincidencias con kb/ son el articulado que las dos capas citan, 46 reconocidas como cita y 2 que cruzan el cierre de una cita hacia el «**Art.» del renglón siguiente, o sea artefacto del aplanado. Y el 18/09/2026 se cruzaron por primera vez los evals, que están fuera del checklist: las 12 secuencias nuevas salen de tres pasajes, los tres cotejados contra el texto bajado. El plazo de pago voluntario de faltas de CABA —`caba-ley-1217.txt` **art. 13**, 40 días corridos para pagar o comparecer ante la UACF— donde además el perfil heredado lo ubica en un art. 12 bis que el consolidado no tiene; el plazo del art. 7 de la Ley 189, que dice textual «desde el día siguiente al de la notificación de la decisión que agota la instancia administrativa» —`caba-ley-189.txt`—; y el nombre del fuero Contencioso Administrativo y Tributario, que es una designación institucional.",
   "secuencias": [
+    "061 protección integral de los derechos de niñas niños",
     "1 año por cct en empresas de hasta 5",
     "1 marcadores pendientes dato concreto que falta para resolver",
     "10 al 5 el aporte adicional sobre la tasa",
@@ -35,6 +36,7 @@
     "2541 ccycn suspensión por interpelación fehaciente por una sola",
     "256 lct 2 años desde que cada crédito es",
     "2560 la imprescriptibilidad de las acciones civiles derivadas de",
+    "26 061 protección integral de los derechos de niñas",
     "27 802 créditos nuevos actualización por ipc nivel general",
     "27 802 depósito en cuenta sueldo tope de costas",
     "27 802 el texto legal adopta el criterio de",
@@ -163,6 +165,7 @@
     "cierra cuando para cada afirmación normativa fáctica o jurisprudencial",
     "civil norma derogada hoy reconducida al art 2541 ccycn",
     "civil y comercial de la nación comentado saij infojus",
+    "civil y comercial de mar del plata sala ii",
     "civil y comercial tribunal colegiado de familia según departamento",
     "clausura del procedimiento conciliatorio art 7 ley 24 635",
     "cláusulas normativas hasta que entre en vigencia un nuevo",
