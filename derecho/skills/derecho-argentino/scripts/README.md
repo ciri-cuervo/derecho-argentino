@@ -17,7 +17,7 @@ cita inventada y bastante más difícil de ver leyendo.
 | `estado.py` | Diagnóstico: qué encontró, qué datos hay cargados y qué quedó vencido |
 | `perfil.py` | Lee y escribe el perfil de trabajo de quien consulta |
 | `articulo.py` | Devuelve un artículo de una norma bajada, con título, URL, fecha de descarga y hash arriba. Es lo que se corre para transcribir: `Read` trunca a 2.000 renglones sin avisar y el CCyCN tiene 27.000 |
-| `verificar_respuesta.py` | Revisa una respuesta ya escrita: que sus marcadores sean del vocabulario y estén verbatim. Mide la FORMA, no si correspondía emitirlos |
+| `verificar_respuesta.py` | Revisa una respuesta ya escrita, de un archivo o de la entrada estándar con `-`: que sus marcadores sean del vocabulario y estén verbatim. Mide la FORMA, no si correspondía emitirlos |
 | `_raiz.py` | No se corre solo: resuelve dónde está el repo para todos los demás |
 | `_comun_tests.py` | No se corre solo: la raíz del checkout, el plantón fuera de él y las clases de letras que comparten las seis suites |
 
@@ -119,7 +119,7 @@ hizo sin el script.
 
     python3 -m unittest discover -s . -p 'test_*.py' -v
 
-**324 tests**, sin dependencias externas, en dos grupos.
+**330 tests**, sin dependencias externas, en dos grupos.
 
 **Y repartidos en varios archivos, uno por lo que cada suite afirma.** `test_scripts.py` llegó a 6149
 renglones, **tres veces el corte de `Read`** que este repositorio le impone a los módulos, y ese

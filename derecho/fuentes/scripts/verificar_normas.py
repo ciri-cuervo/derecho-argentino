@@ -84,7 +84,7 @@ def main():
     p = argparse.ArgumentParser(description=__doc__,
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--prioridad", type=int, default=None)
-    p.add_argument("--slug", action="append", default=[], help="Verificar sólo estas normas. Sin esto se piden las 147 al sitio oficial")
+    p.add_argument("--slug", action="append", default=[], help="Verificar sólo estas normas. Sin esto se piden todas las del manifiesto al sitio oficial")
     p.add_argument("--timeout", type=int, default=180, help="Segundos por intento (default 180). Subirlo si el sitio es lento")
     p.add_argument("--reintentos", type=int, default=3)
     p.add_argument("--verboso", action="store_true", help="Muestra tamaño y tiempo de cada intento")

@@ -1515,4 +1515,5 @@ hora que el usuario aporta.
 - **No trae montos.** Tope del art. 245, SMVM, topes de la LRT y tasas van con su marcador.
 - **No liquida los estatutos con el script.** `liquidacion_lct.py` es de la LCT; casas
   particulares (5.17 quinquies), construcción, viajantes y encargados (5.17 sexies) tienen
-  otro preaviso, otra indemnización o un fondo en su lugar, y ninguna calculadora.
+  otro preaviso, otra indemnización o un fondo en su lugar, y ninguna calculadora. Corrido con
+  `--regimen` y cualquiera de los cuatro, el script corta con código 2.

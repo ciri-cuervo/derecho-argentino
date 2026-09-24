@@ -54,4 +54,4 @@ body:
     attributes:
       label: Versión del plugin
       description: La dice `/derecho:estado`, o el estado pedido en castellano.
-      placeholder: "1.4.1"
+      placeholder: "1.4.2"

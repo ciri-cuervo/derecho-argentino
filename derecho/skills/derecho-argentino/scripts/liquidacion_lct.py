@@ -20,6 +20,8 @@ se convierte en el que rearma la tabla: ahí se pierde una advertencia sin que n
 La LCT no rige todo trabajo dependiente: `--empleador publico` corta con código 2 y emite el
 marcador, porque el art. 2 inc. a excluye a la Administración Pública salvo acto expreso de
 inclusión. Sin el dato calcula igual, suponiendo empleo privado, y lo dice con un marcador.
+`--regimen` hace lo mismo con los estatutos que desplazan la liquidación: casas particulares,
+construcción, viajantes y encargados de edificio cortan con código 2.
 
 Fórmulas y su norma en `FORMULAS.md` de esta carpeta. Toda salida debe cotejarse contra el
 texto vigente del artículo: ver `references/laboral.md`, secciones 5.1 a 5.4 y 5.10.
@@ -117,6 +119,52 @@ AMBITO = {
 }
 
 
+REGIMEN = {
+    "lct": None,
+    "casas-particulares": (
+        "[ARG SIN NORMA: liquidar por los arts. 232, 233 y 245 LCT a personal de casas "
+        "particulares, que el art. 2 inc. b LCT excluye - norma que correspondería citar: "
+        "Ley 26.844, arts. 42 a 44 (preaviso e integración) y 48 (indemnización, sin el tope "
+        "del art. 245). Se liquida a mano: laboral.md 5.17 quinquies]"),
+    "construccion": (
+        "[ARG SIN NORMA: liquidar por los arts. 232, 233 y 245 LCT a un trabajador de la "
+        "construcción - norma que correspondería citar: Ley 22.250, art. 15 (el fondo de cese "
+        "laboral reemplaza el preaviso y el despido de la LCT) y arts. 17 a 19. Se liquida a "
+        "mano: laboral.md 5.17 sexies]"),
+    "viajantes": (
+        "[ARG SIN NORMA: liquidar por la LCT sola a un viajante de comercio - norma que "
+        "correspondería citar: Ley 14.546, art. 14 (indemnización por clientela, 25% de la de "
+        "despido cualquiera sea la causa) y arts. 5 a 7 (base a comisión). Se liquida a mano: "
+        "laboral.md 5.17 sexies]"),
+    "encargados": (
+        "[ARG SIN NORMA: liquidar por los arts. 232, 233 y 245 LCT a un encargado de edificio - "
+        "norma que correspondería citar: Ley 12.981, art. 6 (tres meses de preaviso y un mes "
+        "por año o fracción) y art. 22. Se liquida a mano: laboral.md 5.17 sexies]"),
+}
+
+
+def _cortar(datos, corte, como_json):
+    if como_json:
+        print(json.dumps({"datos": datos, "rubros": [], "total": None,
+                          "advertencias": [], "marcadores": [corte]},
+                         ensure_ascii=False, indent=2))
+    else:
+        print(corte)
+    raise SystemExit(2)
+
+
+def exigir_regimen(regimen, como_json=False):
+    """Los estatutos especiales cortan antes de calcular, por lo mismo que el empleo público:
+    el resultado entero sería de otro cuerpo legal y nada en el número lo delata. Lo
+    desconocido corta, como en `exigir_ambito()`."""
+    if regimen in (None, ""):
+        return
+    corte = REGIMEN.get(regimen, f"[ARG SIN NORMA: régimen {regimen} - norma que "
+                                 f"correspondería citar: indeterminada]")
+    if corte:
+        _cortar({"estatuto": regimen}, corte, como_json)
+
+
 def exigir_ambito(empleador, como_json=False):
     """La LCT no se aplica a todo trabajo dependiente, y esto corta antes de calcular.
 
@@ -132,18 +180,13 @@ def exigir_ambito(empleador, como_json=False):
     # formalidad que depende de escribir bien el valor.
     corte = AMBITO.get(empleador, AMBITO["publico"])
     if corte:
-        if como_json:
-            print(json.dumps({"datos": {"empleador": empleador}, "rubros": [], "total": None,
-                              "advertencias": [], "marcadores": [corte]},
-                             ensure_ascii=False, indent=2))
-        else:
-            print(corte)
-        raise SystemExit(2)
+        _cortar({"empleador": empleador}, corte, como_json)
 
 
 def liquidar(a) -> Resultado:
     r = Resultado()
     exigir_ambito(getattr(a, "empleador", None), getattr(a, "json", False))
+    exigir_regimen(getattr(a, "regimen", None), getattr(a, "json", False))
     ingreso, extincion = a.ingreso, a.extincion
     clave, nombre, _, _ = tramo_de(extincion)
     anios, meses, mult = antiguedad(ingreso, extincion)
@@ -156,6 +199,7 @@ def liquidar(a) -> Resultado:
         "antigüedad": f"{plural(anios, 'año')} y {plural(meses, 'mes', 'meses')}",
         "multiplicador_art_245": mult,
         "empleador": getattr(a, "empleador", None) or "sin declarar",
+        "estatuto": getattr(a, "regimen", None) or "sin declarar",
     }
 
     if not getattr(a, "empleador", None):
@@ -163,6 +207,12 @@ def liquidar(a) -> Resultado:
             "[VACÍO PROBATORIO: naturaleza del empleador - la LCT no rige el empleo público "
             "(art. 2 inc. a) y esta liquidación se hizo suponiendo empleo privado; confirmarlo "
             "antes de usarla]")
+
+    if not getattr(a, "regimen", None):
+        r.marcadores.append(
+            "[VACÍO PROBATORIO: régimen de la relación - tareas y ámbito de la prestación: "
+            "casas particulares, construcción, viajantes y encargados de edificio tienen "
+            "estatuto propio y esta liquidación supone la LCT general]")
 
     if clave == "dnu70":
         r.marcadores.append(
@@ -351,6 +401,9 @@ def main():
     p.add_argument("--empleador", choices=sorted(AMBITO), default=None,
                    help="a quién le prestaba servicios. La LCT no rige el empleo público "
                         "(art. 2 inc. a): sin este dato la liquidación sale con su marcador")
+    p.add_argument("--regimen", choices=sorted(REGIMEN), default=None,
+                   help="estatuto de la relación. Casas particulares, construcción, viajantes "
+                        "y encargados no se liquidan acá: cortan con código 2")
     p.add_argument("--dias-vacaciones-gozadas", type=Decimal, default=Decimal("0"))
     p.add_argument("--periodo-prueba", action="store_true")
     p.add_argument("--preaviso-otorgado", action="store_true")

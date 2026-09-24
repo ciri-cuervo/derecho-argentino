@@ -222,6 +222,32 @@ class TestRaizDelRepo(unittest.TestCase):
             # no se fija en config: la ruta de la copia instalada cambia al actualizar
             self.assertNotIn("anotado en", r.stdout)
 
+    def test_la_version_anterior_al_lado_no_le_gana_a_la_propia(self):
+        """Al actualizar, la copia nueva puede quedar al lado de la anterior —`derecho/` y
+        `derecho~g2/` en la misma carpeta—, y las dos tienen la forma de una base de datos.
+        La variable apunta a la nueva: la madre sólo cuenta si es un clon del repo.
+
+        MUTACIÓN que lo comprueba: volver a probar `es_base(madre / SUB)` antes que
+        `es_base(dir_plug)` en el bucle de `ENV_PLUGIN` devuelve la madre, y con ella los datos
+        de la versión anterior.
+        """
+        with tempfile.TemporaryDirectory() as d:
+            sincronizados = pathlib.Path(d) / "plugins" / "synced"
+            for nombre in ("derecho", "derecho~g2"):
+                (sincronizados / nombre / "fuentes").mkdir(parents=True)
+                (sincronizados / nombre / _raiz.MARCADOR_BASE).write_text(nombre)
+            nueva = sincronizados / "derecho~g2"
+            entorno = {k: v for k, v in os.environ.items()
+                       if k not in ("DERECHO_AR_REPO", *_raiz.ENV_PLUGIN)}
+            entorno.update(HOME=d, XDG_CONFIG_HOME=str(pathlib.Path(d) / "cfg"),
+                           CLAUDE_PLUGIN_ROOT=str(nueva))
+            r = subprocess.run(
+                [sys.executable, "-c", "import _raiz; print(_raiz.raiz_repo()[0])"],
+                capture_output=True, text=True, env=entorno,
+                cwd=str(pathlib.Path(__file__).parent))
+            self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+            self.assertEqual(r.stdout.strip(), str(nueva.resolve()))
+
     def test_base_distingue_las_dos_disposiciones(self):
         repo, _ = _raiz.raiz_repo()
         self.assertEqual(_raiz.base(repo), pathlib.Path(repo) / "derecho")
@@ -340,6 +366,33 @@ class TestEstado(unittest.TestCase):
             self.assertIn(b["estado"], ("OK", "VENCIDO", "REVISAR", "FALTA"))
             if b["estado"] != "OK":
                 self.assertTrue(b["arreglo"], f"{b['bloque']} vencido sin decir cómo arreglarlo")
+
+    def test_datos_de_otra_version_que_los_scripts_se_marcan(self):
+        """Si los datos salen de una copia con otra versión que la de los scripts que corren,
+        el informe no puede decir que está todo instalado: es el síntoma de haber resuelto la
+        raíz en la versión anterior que quedó al lado de la nueva.
+
+        MUTACIÓN que lo comprueba: sacar el bloque `plugin` de `recolectar()` deja este test
+        en rojo.
+        """
+        repo, _ = _raiz.raiz_repo()
+        with tempfile.TemporaryDirectory() as d:
+            propia = pathlib.Path(d) / "plugins" / "derecho~g2"
+            (propia / ".claude-plugin").mkdir(parents=True)
+            (propia / ".claude-plugin" / "plugin.json").write_text('{"version": "0.0.1"}')
+            copia = propia / "skills" / "derecho-argentino" / "scripts"
+            shutil.copytree(pathlib.Path(__file__).parent, copia,
+                            ignore=shutil.ignore_patterns("__pycache__"))
+            e = {k: v for k, v in os.environ.items() if k not in _raiz.ENV_PLUGIN}
+            e.update(HOME=d, XDG_CONFIG_HOME=str(pathlib.Path(d) / "cfg"),
+                     DERECHO_AR_REPO=str(repo))
+            r = subprocess.run([sys.executable, str(copia / "estado.py"), "--json"],
+                               capture_output=True, text=True, env=e, cwd=d)
+            self.assertEqual(r.returncode, 1, r.stdout + r.stderr)
+            bloque = {b["bloque"]: b for b in json.loads(r.stdout)["bloques"]}.get("plugin")
+            self.assertIsNotNone(bloque, "no hay bloque que compare las versiones")
+            self.assertEqual(bloque["estado"], "REVISAR")
+            self.assertIn("0.0.1", bloque["detalle"])
 
     def test_sin_repo_sale_2_y_no_revienta(self):
         with tempfile.TemporaryDirectory() as d:
@@ -1082,7 +1135,7 @@ class TestElDescriptionDeHonorariosNombraLosDosAranceles(unittest.TestCase):
 
     El `description` es lo que se lee antes de decidir si se invoca el comando, y el cuerpo de
     `honorarios` atiende tres jurisdicciones: PBA calcula por la Ley 14.967, la nacional y federal
-    explica la Ley 27.423 sin dar número, y el resto ni se explica. **Anunciar una sola es peor
+    convierte por la Ley 27.423 con la UMA de la serie, y el resto ni se explica. **Anunciar una sola es peor
     que no anunciar ninguna**: quien tiene una causa federal lee "Buenos Aires", no invoca el
     comando y contesta de memoria — el error que la puerta del cuerpo existe para atajar,
     salteado antes de llegar a ella.

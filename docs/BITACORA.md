@@ -9,6 +9,7 @@ el estado vigente está en el archivo que lo explica, y acá queda cómo se lleg
 
 | Fecha | Entrada |
 | --- | --- |
+| 24/09/2026 | [La versión anterior al lado de la nueva, y los estatutos que el script no frenaba](#24092026---la-versión-anterior-al-lado-de-la-nueva-y-los-estatutos-que-el-script-no-frenaba) |
 | 24/09/2026 | [El escrito sale en texto plano, y la hoja de cada jurisdicción tiene su fuente bajada](#24092026---el-escrito-sale-en-texto-plano-y-la-hoja-de-cada-jurisdicción-tiene-su-fuente-bajada) |
 | 23/09/2026 | [Dieciséis materias entran como sección, y dos cosas que el corte destapó](#23092026---dieciséis-materias-entran-como-sección-y-dos-cosas-que-el-corte-destapó) |
 | 19/09/2026 | [Diez hallazgos de una evaluación en runtime, y lo que cambió](#19092026---diez-hallazgos-de-una-evaluación-en-runtime-y-lo-que-cambió) |
@@ -17,6 +18,33 @@ el estado vigente está en el archivo que lo explica, y acá queda cómo se lleg
 | 18/09/2026 | [Medicina legal no era un módulo: eran cinco huecos](#18092026---medicina-legal-no-era-un-módulo-eran-cinco-huecos) |
 | 18/09/2026 | [Laboral se parte dos veces: riesgos del trabajo y licencias](#18092026---laboral-se-parte-dos-veces-riesgos-del-trabajo-y-licencias) |
 | 18/09/2026 | [El reparto de OCR y las tres fechas salen de la skill](#18092026---el-reparto-de-ocr-y-las-tres-fechas-salen-de-la-skill) |
+
+---
+
+## 24/09/2026 - La versión anterior al lado de la nueva, y los estatutos que el script no frenaba
+
+Una reevaluación del plugin instalado, de la 1.3.0 a la 1.4.1, encontró cuatro cosas que se
+sostuvieron medidas:
+
+- **`_raiz.py` leía los datos de la versión anterior.** Al actualizar, la copia nueva
+  (`derecho~g2/`) quedó al lado de la vieja (`derecho/`), y con `CLAUDE_PLUGIN_ROOT` definida el
+  bucle de `ENV_PLUGIN` miraba primero la carpeta madre, encontraba ahí un `derecho/` con forma de
+  base y lo devolvía. Ahora la madre se reporta sólo si es un clon (`es_clon()`) y la variable
+  apunta a su `derecho/`. `test_la_version_anterior_al_lado_no_le_gana_a_la_propia` lo reproduce.
+- **`/derecho:estado` no lo podía ver.** Suma el bloque `plugin`, que compara la versión de los
+  datos con la de los scripts que corren y da `REVISAR` si difieren; el comando ya no dice que con
+  la variable definida no hay nada que revisar.
+- **`liquidacion_lct.py` liquidaba estatutos como LCT.** `--regimen` corta con código 2 ante
+  casas particulares, construcción, viajantes y encargados, igual que `--empleador publico`, y sin
+  el dato la liquidación sale con su marcador. `intake.md` lo pide entre los datos que bloquean.
+- **`verificar_respuesta.py` se instalaba y no lo corría nadie.** Estaba en una fila de la tabla
+  de scripts y sólo leía archivos, cuando la respuesta vive en el chat. Ahora lee la entrada
+  estándar con `-`, y la sección 3 del `SKILL.md` lo pone como paso antes de entregar una
+  respuesta con marcadores. `TestElSKILLLoExige` sostiene el paso.
+
+Tres no se tocaron: `evals/README.md` es capa 2; la diferencia entre los dos `plugin.json` es a
+propósito y tiene test; y la interfaz de Codex no declara comandos, porque los `/derecho:` son
+de Claude Code y Codex entra por la skill.
 
 ---
 

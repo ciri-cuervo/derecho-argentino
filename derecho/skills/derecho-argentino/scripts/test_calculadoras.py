@@ -707,6 +707,65 @@ class TestAmbitoDeLaLCT(unittest.TestCase):
         self.assertIn("empleador", bloquean,
                       "intake.md no pide quién era el empleador entre los datos que bloquean")
         self.assertIn("art. 2 inc. a", bloquean, "intake.md no dice por qué bloquea")
+
+
+class TestLosEstatutosNoSeLiquidanComoLCT(unittest.TestCase):
+    """Casas particulares, construcción, viajantes y encargados de edificio tienen estatuto
+    propio (`laboral.md` 5.17 quinquies y sexies), y el script liquida la LCT: sin el corte,
+    devuelve preaviso, integración y art. 245 con aspecto de correctos para una relación que
+    no los tiene. Es la misma falla que `TestAmbitoDeLaLCT` y el mismo remedio.
+
+    MUTACIÓN que lo comprueba: dejar `REGIMEN` con todos los valores en `None` pone en rojo a
+    `test_cada_estatuto_corta_y_no_liquida`.
+    """
+
+    GUION = Path(__file__).parent / "liquidacion_lct.py"
+    BASE = ["--ingreso", "2024-08-15", "--extincion", "2026-08-14",
+            "--mejor-remuneracion", "1000000", "--tope-245", "800000", "--empleador", "privado"]
+    NORMA = {"casas-particulares": "Ley 26.844", "construccion": "Ley 22.250",
+             "viajantes": "Ley 14.546", "encargados": "Ley 12.981"}
+
+    def _correr(self, *extra):
+        return subprocess.run([sys.executable, str(self.GUION), *self.BASE, *extra],
+                              capture_output=True, text=True, encoding="utf-8")
+
+    def test_cada_estatuto_corta_y_no_liquida(self):
+        sys.path.insert(0, str(Path(__file__).parent))
+        import liquidacion_lct as liq
+        self.assertEqual(set(self.NORMA), {k for k, v in liq.REGIMEN.items() if v},
+                         "los estatutos que cortan no son los de laboral.md 5.17")
+        for regimen, norma in self.NORMA.items():
+            with self.subTest(regimen):
+                r = self._correr("--regimen", regimen)
+                self.assertEqual(r.returncode, 2, r.stdout + r.stderr)
+                self.assertIn("[ARG SIN NORMA:", r.stdout)
+                self.assertIn(norma, r.stdout)
+                self.assertNotIn("TOTAL", r.stdout)
+                j = self._correr("--regimen", regimen, "--json")
+                self.assertEqual(j.returncode, 2)
+                self.assertIsNone(json.loads(j.stdout)["total"])
+
+    def test_la_lct_liquida_sin_el_marcador_de_regimen(self):
+        r = self._correr("--regimen", "lct")
+        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+        self.assertIn("TOTAL", r.stdout)
+        self.assertNotIn("régimen de la relación", r.stdout)
+
+    def test_sin_el_dato_liquida_pero_lo_dice_con_marcador(self):
+        r = self._correr()
+        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+        self.assertIn("[VACÍO PROBATORIO: régimen de la relación", r.stdout)
+
+    def test_el_intake_lo_pide_como_dato_que_bloquea(self):
+        intake = (RAIZ_DEL_CHECKOUT / "derecho" / "skills" / "derecho-argentino" / "references"
+                  / "intake.md").read_text(encoding="utf-8")
+        bloque = re.search(r"## Laboral · liquidación.*?\n(?=## )", intake, re.S)
+        bloquean = bloque.group(0).split("**Se marcan y no bloquean:**")[0]
+        for norma in self.NORMA.values():
+            self.assertIn(norma, bloquean, f"intake.md no pide el dato que decide la {norma}")
+        self.assertIn("--regimen", bloquean)
+
+
 class TestLasCalculadorasDevuelvenSusEntradas(unittest.TestCase):
     """`intake.md` manda abrir con el bloque de datos tomados, copiado de la salida de la
     herramienta. Esa instrucción sólo se puede cumplir si la herramienta devuelve lo que se le
