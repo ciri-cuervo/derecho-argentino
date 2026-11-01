@@ -1,6 +1,6 @@
 {
   "_descripcion": "Veredicto de cada reforma que está en el texto consolidado de fuentes/normas/ y ningún módulo nombra. Lo consume herramientas/reformas_no_leidas.py.",
-  "fijado": "2026-09-23",
+  "fijado": "2026-11-01",
   "_criterio": "La capa de fuente primaria se actualiza sola y los módulos no: entre las dos cosas se abre una ventana en la que el repo tiene el artículo nuevo y la skill explica el viejo. El detector reporta candidatos; el veredicto se toma abriendo el módulo.",
   "_vocabulario": {
     "no-toca-el-modulo": "la reforma cambia un artículo que el módulo no cubre: es correcto que no la nombre",
@@ -127,6 +127,10 @@
     "pba-ley-13406:16:15.558": {
       "veredicto": "no-toca-el-modulo",
       "motivo": "tributario.md nombra la Ley 13.406 sólo en su borde, para rutear el apremio a tributario-pba.md 54.5 ter; ese módulo sí cubre el art. 16 y le atribuye el texto de la Ley 15.558"
+    },
+    "ley-11683:2:27.739": {
+      "motivo": "tributario.md 33.1 bis cita el art. 2 de la Ley 24.467 y el de la Ley 27.826, no el art. 2 de la Ley 11.683",
+      "veredicto": "no-toca-el-modulo"
     }
   }
 }

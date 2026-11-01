@@ -12,7 +12,7 @@
 #   resoluciones anteriores, así que la serie histórica no se puede reconstruir desde el
 #   organismo que la fija. Las resoluciones viejas circulan por el CPACF, que es quien las
 #   informa; usarlas exige cotejar cada una y anotar de dónde salió.
-# verificado: 2026-09-18
+# verificado: 2026-11-01
 # La línea de arriba la lee `estado.py` y su forma es contrato: `# verificado: AAAA-MM-DD`,
 #   la fecha en que alguien ABRIÓ la consulta oficial. Lo que vence no es el valor, es la
 #   mirada: el Consejo publica mensualmente y esta página se sobreescribe.
@@ -27,5 +27,10 @@
 # NO SE EXTRAPOLA HACIA ATRÁS: una fecha anterior a la primera vigencia cargada se reporta
 #   como faltante. Con un solo valor, eso significa que sólo se contesta de esa fecha en
 #   adelante, y antes se marca. Es correcto: el valor anterior no lo sabemos.
+# La Res. SAGyP 500/2026 fija dos valores y su art. 2 pone el segundo "a partir del 1° de mayo
+#   de 2026". Es un error material: los considerandos lo calculan para agosto, sobre el
+#   aumento del 4,5% "a partir del 1° de agosto de 2026", y mayo sería anterior al de julio que
+#   fija el art. 1. Se carga en agosto, que es como lo publica la consulta oficial.
 vigencia_desde,uma,resolucion,fuente
+2026-07-01,168221,Res. SAGyP 500/2026 art. 1,https://www.cpacf.org.ar/uploads/files/com/28072613_uma%20ciudad%20julio-agosto.pdf
 2026-08-01,175791,Res. SAGyP 500/2026,https://consejo.jusbaires.gob.ar/servicios/uma/

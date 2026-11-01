@@ -2658,6 +2658,72 @@
       "sha256_archivo": "46e3659748364405cfc400776aefc93c07e08eec21ae6f73e58052c704ff2ab8",
       "content_type": "application/pdf",
       "descargado": "2026-09-24T14:30:02-03:00"
+    },
+    "decreto-1228-2026": {
+      "titulo": "Decreto 1228/2026 - Fondo de Asistencia Laboral: vigencia y carencia",
+      "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/349294/20261020",
+      "archivo": "decreto-1228-2026.txt",
+      "sha256_texto": "31f7ce032dfedb5ae765f83306f03ddafdf3efaa46f9d08678839993df46285e",
+      "sha256_archivo": "f859ce7481dfd5035b64518130f90b50d378e65e4580f72841bac34609798d83",
+      "content_type": "text/html; charset=UTF-8",
+      "descargado": "2026-11-01T15:39:55-03:00"
+    },
+    "decreto-875-2026": {
+      "titulo": "Decreto 875/2026 - Reglamentación del Régimen Penal Juvenil",
+      "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/346953/20260907",
+      "archivo": "decreto-875-2026.txt",
+      "sha256_texto": "9f7cc15520d262dd52bb2a537e165037390eb07cc6c919a5ef33ac3c68833bde",
+      "sha256_archivo": "81edccf09b329b8467cc8a84fb1d7f3add85e86eb4f749af68c4d52c6a5ac57e",
+      "content_type": "text/html; charset=UTF-8",
+      "descargado": "2026-11-01T15:39:56-03:00",
+      "revisar": [
+        "parece la ley APROBATORIA y no su contenido: solo 22 artículos y el texto remite a un anexo. Buscar una fuente que transcriba el anexo"
+      ]
+    },
+    "ley-27826": {
+      "titulo": "Ley 27.826 - Inocencia Fiscal II: procedimiento tributario, régimen penal tributario y multas",
+      "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/348757/20261009",
+      "archivo": "ley-27826.txt",
+      "sha256_texto": "6f2b326cc877e84142c78d98a65c589e343b9d153630d4e99b3fcc98d44dfffd",
+      "sha256_archivo": "db174ba6b4784a99ca7987850ce6e2fdceb25ec09d7a6e1b30c4d4789591efac",
+      "content_type": "text/html; charset=UTF-8",
+      "descargado": "2026-11-01T15:39:56-03:00"
+    },
+    "pba-ley-14432": {
+      "titulo": "Ley 14.432 PBA - Protección de la vivienda única (texto actualizado)",
+      "url": "https://normas.gba.gob.ar/documentos/xp6Zph3V.html",
+      "archivo": "pba-ley-14432.txt",
+      "sha256_texto": "7bc1b2793ae47a19aeb2921cfe7d59a2032cd25713fe71761f0da2fccc18df40",
+      "sha256_archivo": "a08a1ba353bb561560e3434e42dac2eb79c5db7ba4490937162447110844b2bc",
+      "content_type": "text/html",
+      "descargado": "2026-11-01T15:35:02-03:00"
+    },
+    "pba-ley-15638": {
+      "titulo": "Ley 15.638 PBA - Vivienda única: reforma del régimen de protección",
+      "url": "https://normas.gba.gob.ar/documentos/0nQY8KFM.html",
+      "archivo": "pba-ley-15638.txt",
+      "sha256_texto": "08e3066d2f67c09b3bc06cbfa907ac54470c4af33ac4fbe3c8d72bbc6e6d9a57",
+      "sha256_archivo": "b4f3c9449a28e5a3344bd65cac8cd4904ecb0f0a413df4fb21a0c6fceff11903",
+      "content_type": "text/html",
+      "descargado": "2026-11-01T15:39:56-03:00"
+    },
+    "pba-ley-15657": {
+      "titulo": "Ley 15.657 PBA - Prioridad de paso en el Código de Tránsito",
+      "url": "https://normas.gba.gob.ar/documentos/V92yGqTP.html",
+      "archivo": "pba-ley-15657.txt",
+      "sha256_texto": "e98f3b8e308f7cfa432a15df474ccf09ac112e56dde257c7416268206a458b23",
+      "sha256_archivo": "833c893db49ebbb36d9af5832f74c21dfa8ac58570e2e92e1eca2456cc3c27b5",
+      "content_type": "text/html",
+      "descargado": "2026-11-01T15:39:56-03:00"
+    },
+    "decreto-1103-2026": {
+      "titulo": "Decreto 1103/2026 - Feriados por la visita del papa León XIV",
+      "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/348022/20260928",
+      "archivo": "decreto-1103-2026.txt",
+      "sha256_texto": "8059eb7231d059f842dadf8aa2e7c36df60035a072f60ee27751d222461ebdbe",
+      "sha256_archivo": "a203b870a8fde555910d6ddc6be3471df9bf633bbfed70ac7c4d2a101bae5c61",
+      "content_type": "text/html; charset=UTF-8",
+      "descargado": "2026-11-01T16:10:39-03:00"
     }
   }
 }

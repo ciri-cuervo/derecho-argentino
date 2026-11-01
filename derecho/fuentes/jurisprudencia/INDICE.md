@@ -23,7 +23,8 @@ Para descargarlos: `python3 ../scripts/descargar_jurisprudencia.py`
 La cadena completa, en orden cronológico: **Ginossi/Ponce** (2009, tasa pasiva) →
 **Cabrera/Trofe** (2016, tasa pasiva *más alta*) → **Vera/Nidera** (2018, 6% puro hasta la
 cuantificación y pasiva más alta después) → **Barrios** (2024, valorismo: índice más 6% de
-techo) → **Galarza** (2026, "Barrios" no alcanza a la LRT).
+techo) → **Galarza** y **Vera** (2026, "Barrios" no alcanza a la LRT) → **Fernández** (2026, el
+art. 55 de la Ley 27.802 es constitucional y rige los juicios en trámite).
 
 ### "Barrios" — SCBA, C. 124.096, 17/04/2024
 
@@ -56,6 +57,45 @@ créditos laborales comunes (indemnizaciones de la LCT, salarios), donde no hay 
 equivalente, **no está resuelta**.
 
 Sentencia: https://www.scba.gov.ar/includes/descarga.asp?id=58585&n=Ver+sentencia+(causa+L.132.729).pdf
+
+### "Vera" — SCBA, L. 139.012, 24/09/2026
+
+*Vera, Carlos Issac c/ Empleador Autoasegurado Gobernación de la Provincia de Buenos Aires s/
+Acción de revisión resolución Comisión Médica Jurisdiccional.* **No confundir** con "Vera",
+C. 120.536, de 2018, que es de intereses en daños.
+
+Reproduce "Galarza" para una prestación de la LRT: el tribunal de grado había actualizado el
+ingreso base por **RIPTE** con **tasa activa del Banco de la Nación** según el art. 11 de la Ley
+27.348, y con eso *"quedó desplazada la eventual aplicación del criterio plasmado en el
+precedente 'Barrios'"*. Rechaza el recurso de la actora, con costas.
+
+Sentencia: https://www.scba.gov.ar/includes/descarga.asp?id=60174&n=Ver%20sentencia%20(causa%20L.139.012).pdf
+
+### "Fernández" — SCBA, L. 130.895, 21/10/2026
+
+*Fernández, Hilda Noemí c/ Ozuna, José Antonio s/ Despido.* Sentencia registrada el 21/10/2026
+bajo el n.° RS-117-2026; votan Kogan, Torres, Soria y Budiño.
+
+Es el primer pronunciamiento de la SCBA sobre el **art. 55 de la Ley 27.802**, y lo convalida:
+*"se desestima el planteo de inconstitucionalidad del art. 55 de la ley 27.802 y se dispone su
+aplicación al caso de autos"*. Tres puntos del voto de Kogan, al que adhieren los demás:
+
+- **El planteo contra el art. 7 de la Ley 23.928 se vuelve abstracto**, por "Barrios": cuando
+  *"la ley sea portadora de un método o sistema de actualización, como sucede en autos,
+  corresponde —por regla— dirimir la problemática conforme sus prescripciones"*.
+- **Cómo opera el art. 55:** los créditos de los juicios en trámite *"quedan sujetos al mecanismo
+  de actualización dispuesto en el inc. 'a', con el límite o tope previsto en el inc. 'b', y el
+  piso mínimo descripto en el inc. 'c'"*, y la norma tiene *"proyección temporal hacia el pasado
+  (art. 7 segundo párr., Cód. Civ. y Com.) y carácter transitorio"*.
+- **La diferencia con el art. 276 LCT no es discriminatoria**: los arts. 54 y 55 *"establecen un
+  diferente régimen aplicable en función del ámbito material y temporal"*. El piso del 67% se
+  apoya en el porcentaje que aceptaron "Vizzoti" y "Bravo Elizondo".
+
+Lo que **no** resuelve: el art. 56, porque el planteo no tenía desarrollo, y la deuda de valor,
+por tardía. Costas por su orden, *"en atención a la novedad del tema resuelto"*. Soria y Budiño
+dejan a salvo que en "Galarza" votaron por la insuficiencia del recurso.
+
+Sentencia: https://www.scba.gov.ar/includes/descarga.asp?id=60337&n=Ver%20sentencia%20(causa%20L.%20130.895).pdf
 
 ### "Cabrera" — SCBA, C. 119.176, 15/06/2016 · "Trofe" — SCBA, L. 118.587, 15/06/2016
 

@@ -23,12 +23,12 @@ Este script NO regula: no trae la escala del art. 21 ni las etapas del art. 29. 
 from __future__ import annotations
 
 import argparse
-import csv
 import sys
 from datetime import date
 from decimal import Decimal, ROUND_HALF_UP
 
 from _raiz import datos
+from _tablas import TablaInvalida, leer_tabla
 
 CENT = Decimal("0.01")
 MILESIMA = Decimal("0.001")
@@ -43,13 +43,13 @@ def _filas(repo=None):
     cand = d / ARCHIVO
     if not cand.is_file():
         return None, f"no existe {cand}"
-    lineas = [l for l in cand.read_text(encoding="utf-8").splitlines()
-              if l.strip() and not l.lstrip().startswith("#")]
-    filas = [f for f in csv.DictReader(lineas) if (f.get("uma") or "").strip()]
+    try:
+        filas = leer_tabla(cand, "vigencia_desde", "uma")
+    except TablaInvalida as e:
+        return None, f"{e}: corregir la tabla antes de convertir"
     if not filas:
         return None, (f"{cand} no tiene ningún valor cargado. La serie se carga a mano desde "
                       f"https://www.csjn.gov.ar/transparencia/uma - sin eso no hay número")
-    filas.sort(key=lambda f: f["vigencia_desde"])
     return filas, ""
 
 
@@ -68,7 +68,7 @@ def uma_a_fecha(fecha: date, repo=None):
         return None, None, (f"la serie arranca el {filas[0]['vigencia_desde']} y se pidió "
                             f"{fecha.isoformat()}: no se extrapola hacia atrás")
     u = previas[-1]
-    return Decimal(u["uma"]), u, ""
+    return u["valor"], u, ""
 
 
 def uma_del_repo(repo=None):
@@ -77,7 +77,7 @@ def uma_del_repo(repo=None):
     if filas is None:
         return None, None, motivo
     u = filas[-1]
-    return Decimal(u["uma"]), u["vigencia_desde"], u.get("fuente") or ""
+    return u["valor"], u["vigencia_desde"], u.get("fuente") or ""
 
 
 def main():

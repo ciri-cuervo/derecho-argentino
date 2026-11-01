@@ -8,6 +8,8 @@ Salió de `test_scripts.py` al partirlo: el original llegó a 6149 renglones, tr
 """
 from __future__ import annotations
 
+import contextlib
+import io
 import json
 import pathlib
 import re
@@ -38,6 +40,22 @@ class TestAntiguedad(unittest.TestCase):
         anios, meses, mult = liq.antiguedad(date(2015, 3, 10), date(2026, 6, 10))
         self.assertEqual((anios, meses), (11, 3))
         self.assertEqual(mult, 11)
+
+    def test_tres_meses_y_dias_se_marcan_y_no_se_deciden(self):
+        """MUTACIÓN que lo comprueba: devolver siempre False en
+        `fraccion_de_tres_meses_y_dias` deja en rojo este test."""
+        self.assertTrue(liq.fraccion_de_tres_meses_y_dias(date(2020, 1, 1), date(2025, 4, 2)))
+        self.assertFalse(liq.fraccion_de_tres_meses_y_dias(date(2020, 1, 1), date(2025, 4, 1)))
+        self.assertFalse(liq.fraccion_de_tres_meses_y_dias(date(2020, 1, 1), date(2025, 5, 2)))
+        self.assertTrue(liq.fraccion_de_tres_meses_y_dias(date(2020, 11, 30), date(2026, 3, 1)))
+        args = type("A", (), dict(
+            ingreso=date(2020, 1, 1), extincion=date(2025, 4, 2),
+            mejor_remuneracion=Decimal("1000000"), remuneracion_ultimo_mes=None,
+            tope_245=Decimal("2000000"), dias_vacaciones_gozadas=Decimal("0"),
+            periodo_prueba=False, preaviso_otorgado=False, empleador="privado"))
+        r = liq.liquidar(args)
+        self.assertEqual(r.datos["multiplicador_art_245"], 5)
+        self.assertTrue(any("fracción mayor de tres meses" in m for m in r.marcadores))
 
     def test_minimo_un_mes(self):
         _, _, mult = liq.antiguedad(date(2026, 1, 10), date(2026, 2, 10))
@@ -214,9 +232,10 @@ class TestInhabilesCargados(unittest.TestCase):
     """El calendario de 2026 está cargado y verificado: estos casos lo comprueban."""
 
     def test_bloque_2026_pba_verificado(self):
+        # La fecha de la mirada avanza con cada carga: se controla la forma, no un día fijo.
         _, _, meta = plazos.cargar_datos(2026, "pba")
         self.assertEqual(meta["estado"], "OK")
-        self.assertEqual(meta["verificado"], "2026-09-13")
+        self.assertGreaterEqual(date.fromisoformat(meta["verificado"]), date(2026, 9, 13))
 
     def test_descuenta_la_feria_de_invierno(self):
         # notificación el 16/07/2026: 17/7 es asueto y del 20 al 31/7 hay feria
@@ -235,10 +254,15 @@ class TestInhabilesCargados(unittest.TestCase):
         self.assertEqual(verificados, calculados)
 
     def test_asuetos_distritales_no_se_descuentan(self):
+        # Lo descontado es exactamente la lista general: un distrital puede coincidir con un día
+        # que ya es inhábil en toda la provincia —el 11/11/2026—, pero nunca suma uno por sí.
         extra, _, meta = plazos.cargar_datos(2026, "pba")
         self.assertTrue(meta["distritales"], "deberia haber al menos un asueto distrital")
-        for d in meta["distritales"]:
-            self.assertNotIn(date.fromisoformat(d["fecha"]), extra)
+        crudo = json.loads((RAIZ_DEL_CHECKOUT / "derecho" / "fuentes" / "datos" / "inhabiles.json")
+                           .read_text(encoding="utf-8"))
+        general = {date.fromisoformat(x)
+                   for x in crudo["anios"]["2026"]["pba"]["puentes_y_asuetos"]}
+        self.assertEqual(extra, general)
 
     def test_trasladable_en_fin_de_semana_se_reporta(self):
         # 20/11/2027 cae sábado: ubicación indeterminada por el Decreto 614/2025
@@ -249,11 +273,20 @@ class TestInhabilesCargados(unittest.TestCase):
         _, _, meta = plazos.cargar_datos(2027, "pba")
         self.assertTrue(meta["pendientes"])
 class TestJusCargado(unittest.TestCase):
-    def test_ultimo_jus_es_el_de_agosto_2026(self):
+    def test_el_jus_del_repo_es_la_ultima_fila_de_la_serie(self):
+        # Contra el archivo y no contra un valor fijo: la serie se carga cada vez que la SCBA
+        # publica, y un test que fijara agosto se pondría rojo por una mejora.
+        import csv
         import honorarios_pba
         valor, fecha, _ = honorarios_pba.jus_del_repo()
-        self.assertEqual(fecha, "2026-08-01")
-        self.assertEqual(valor, Decimal("53232"))
+        ruta = RAIZ_DEL_CHECKOUT / "derecho" / "fuentes" / "datos" / "jus-scba.csv"
+        filas = [f for f in csv.DictReader(l for l in ruta.read_text(encoding="utf-8").splitlines()
+                                           if l.strip() and not l.startswith("#"))
+                 if f["jus_ley_14967"]]
+        ultima = max(filas, key=lambda f: f["vigencia_desde"])
+        self.assertEqual(fecha, ultima["vigencia_desde"])
+        self.assertEqual(valor, Decimal(ultima["jus_ley_14967"]))
+        self.assertGreaterEqual(date.fromisoformat(fecha), date(2026, 8, 1))
 class TestHonorariosCLI(unittest.TestCase):
     def _run(self, *args):
         return subprocess.run(
@@ -690,9 +723,11 @@ class TestAmbitoDeLaLCT(unittest.TestCase):
 
         for valor in ("publico", "Publico", "PUBLICO", "municipal", "provincial", "estatal"):
             with self.subTest(valor):
-                with self.assertRaises(SystemExit) as cm:
+                salida = io.StringIO()
+                with self.assertRaises(SystemExit) as cm, contextlib.redirect_stdout(salida):
                     liq.liquidar(args(empleador=valor))
                 self.assertEqual(cm.exception.code, 2)
+                self.assertIn("ARG SIN NORMA", salida.getvalue())
         for valor in ("privado", "publico-incluido"):
             with self.subTest(valor):
                 self.assertTrue(liq.liquidar(args(empleador=valor)).rubros)
@@ -983,6 +1018,223 @@ class TestFaltaElInterprete(unittest.TestCase):
                               f"{archivo} no lleva el link de descarga de Python")
                 self.assertIn("Add python.exe to PATH", texto,
                               f"{archivo} no avisa del tilde de PATH, que en Windows decide")
+
+
+class TestUmbralesDeAntiguedadDeLaLCT(unittest.TestCase):
+    """«No exceda de cinco años» (arts. 150 y 231 LCT) se mide con la fecha, no con los años
+    enteros cumplidos: cinco años y seis meses ya exceden.
+
+    MUTACIÓN que lo comprueba: volver a `1 if anios <= 5 else 2` en el preaviso deja en rojo
+    `test_cinco_anios_y_seis_meses_son_dos_meses`; volver a `if anios < 5` en las vacaciones,
+    `test_vacaciones_con_la_antiguedad_al_31_de_diciembre`; volver a `extincion.day` en los
+    días trabajados, `test_dias_trabajados_desde_el_ingreso_del_mismo_mes`.
+    """
+
+    def _args(self, ingreso, extincion):
+        return type("A", (), dict(
+            ingreso=ingreso, extincion=extincion,
+            mejor_remuneracion=Decimal("1000000"), remuneracion_ultimo_mes=None,
+            tope_245=Decimal("2000000"), dias_vacaciones_gozadas=Decimal("0"),
+            periodo_prueba=False, preaviso_otorgado=False, empleador="privado"))
+
+    def _rubro(self, r, empieza):
+        return next(x for x in r.rubros if x["concepto"].startswith(empieza))
+
+    def test_excede_anios(self):
+        self.assertFalse(liq.excede_anios(date(2020, 1, 1), date(2025, 1, 1), 5))
+        self.assertTrue(liq.excede_anios(date(2020, 1, 1), date(2025, 1, 2), 5))
+        self.assertTrue(liq.excede_anios(date(2020, 2, 29), date(2025, 3, 1), 5))
+        self.assertFalse(liq.excede_anios(date(2020, 2, 29), date(2025, 2, 28), 5))
+
+    def test_cinco_anios_y_seis_meses_son_dos_meses(self):
+        r = liq.liquidar(self._args(date(2020, 1, 1), date(2025, 7, 15)))
+        self.assertAlmostEqual(
+            self._rubro(r, "Indemnización sustitutiva de preaviso")["importe"], 2000000.0, 2)
+
+    def test_cinco_anios_justos_son_un_mes(self):
+        r = liq.liquidar(self._args(date(2020, 1, 1), date(2025, 1, 1)))
+        self.assertAlmostEqual(
+            self._rubro(r, "Indemnización sustitutiva de preaviso")["importe"], 1000000.0, 2)
+
+    def test_vacaciones_con_la_antiguedad_al_31_de_diciembre(self):
+        # Al 15/03/2025 lleva cuatro años y ocho meses; al 31/12/2025 excede los cinco: 21 días.
+        r = liq.liquidar(self._args(date(2020, 7, 1), date(2025, 3, 15)))
+        vac = self._rubro(r, "Vacaciones no gozadas proporcionales")
+        dias = (date(2025, 3, 15) - date(2025, 1, 1)).days + 1
+        self.assertAlmostEqual(vac["importe"], 1000000 / 25 * 21 * dias / 365, places=2)
+
+    def test_dias_trabajados_desde_el_ingreso_del_mismo_mes(self):
+        r = liq.liquidar(self._args(date(2026, 4, 10), date(2026, 4, 20)))
+        dias = self._rubro(r, "Días trabajados del mes")
+        self.assertIn("11/30", dias["detalle"])
+        self.assertAlmostEqual(dias["importe"], 1000000 * 11 / 30, places=2)
+
+
+class TestPlazosLargosYTrasladablesVerificados(unittest.TestCase):
+    """MUTACIÓN que lo comprueba: sacar el `del feriados[f]` de `_calendario_del_anio` deja en
+    rojo `test_el_verificado_reemplaza_al_calculado`; volver a cargar sólo `desde.year` y el
+    siguiente, `test_un_plazo_que_llega_dos_anios_despues_descuenta_sus_feriados`."""
+
+    def test_el_verificado_reemplaza_al_calculado(self):
+        calculados = sorted(f.isoformat() for f, n in plazos.feriados_ley_27399(2026).items()
+                            if n.endswith("(trasladable)"))
+        self.assertIn("2026-08-17", calculados)
+        verificados = [d for d in calculados if d != "2026-08-17"] + ["2026-08-14"]
+        original = plazos.cargar_datos
+
+        def falso(anio, jurisdiccion, repo=None):
+            extra, ferias, meta = original(anio, jurisdiccion, repo)
+            if anio == 2026:
+                meta = dict(meta, trasladables_verificados=verificados)
+            return extra, ferias, meta
+
+        plazos.cargar_datos = falso
+        try:
+            venc, _, metas = plazos.computar_habiles(date(2026, 8, 13), 1, "pba")
+        finally:
+            plazos.cargar_datos = original
+        self.assertEqual(venc, date(2026, 8, 17))
+        self.assertTrue(any(m.get("divergencia_trasladables") for m in metas))
+
+    def test_un_plazo_que_llega_dos_anios_despues_descuenta_sus_feriados(self):
+        venc, traza, metas = plazos.computar_habiles(date(2026, 12, 30), 300, "pba")
+        self.assertEqual(venc.year, 2028)
+        self.assertIn(2028, {m["anio"] for m in metas})
+        self.assertTrue(any(t.startswith("2028-") and "Carnaval" in t for t in traza))
+
+    def test_dias_no_positivos(self):
+        with self.assertRaises(ValueError):
+            plazos.computar_habiles(date(2026, 9, 10), 0, "pba")
+        for tipo, flag in (("habiles", "--dias"), ("corridos", "--dias"),
+                           ("meses", "--cantidad")):
+            r = subprocess.run([sys.executable, str(Path(__file__).parent / "plazos.py"),
+                                "--tipo", tipo, flag, "-5", "--desde", "2026-09-10"],
+                               capture_output=True, text=True)
+            self.assertNotEqual(r.returncode, 0, tipo)
+            self.assertIn("positiv", r.stderr, tipo)
+
+
+class TestEtapasDeHonorarios(unittest.TestCase):
+    """MUTACIÓN que lo comprueba: volver a `if a.etapas_cumplidas and a.etapas_totales:` deja
+    en rojo los dos casos: el honorario entero sale con returncode 0."""
+
+    def _run(self, *args):
+        return subprocess.run(
+            [sys.executable, str(Path(__file__).parent / "honorarios_pba.py"),
+             "--monto", "10000000", "--porcentaje", "20", "--valor-jus", "50000", *args],
+            capture_output=True, text=True)
+
+    def test_cero_etapas_cumplidas_corta(self):
+        r = self._run("--etapas-cumplidas", "0", "--etapas-totales", "3")
+        self.assertNotEqual(r.returncode, 0)
+        self.assertIn("positivas", r.stderr)
+
+    def test_una_sola_bandera_corta(self):
+        r = self._run("--etapas-cumplidas", "2")
+        self.assertNotEqual(r.returncode, 0)
+        self.assertIn("van juntas", r.stderr)
+
+    def test_proporciona_con_las_dos(self):
+        r = self._run("--etapas-cumplidas", "2", "--etapas-totales", "3")
+        self.assertEqual(r.returncode, 0, r.stderr)
+        self.assertIn("2/3 etapas", r.stdout)
+
+
+
+class TestLasTablasDeDatosSeValidan(unittest.TestCase):
+    """MUTACIÓN que lo comprueba: sacar cualquiera de los tres controles de `leer_tabla()` —la
+    fecha con `date.fromisoformat`, el `valor <= 0`, el `clave in vistas`— deja en rojo el caso
+    que le corresponde."""
+
+    def _tabla(self, texto):
+        import _tablas
+        d = tempfile.mkdtemp(prefix="tabla-")
+        self.addCleanup(shutil.rmtree, d, ignore_errors=True)
+        ruta = Path(d) / "t.csv"
+        ruta.write_text(texto, encoding="utf-8")
+        return _tablas, ruta
+
+    def test_lee_ordena_y_saltea_los_valores_vacios(self):
+        t, ruta = self._tabla("# c\nvigencia_desde,uma\n2026-10-01,20\n2026-09-01,10\n"
+                              "2026-11-01,\n")
+        filas = t.leer_tabla(ruta, "vigencia_desde", "uma")
+        self.assertEqual([f["vigencia_desde"] for f in filas], ["2026-09-01", "2026-10-01"])
+        self.assertEqual(filas[1]["valor"], Decimal("20"))
+
+    def test_corta_lo_que_daria_un_numero_con_cara_de_correcto(self):
+        casos = {
+            "fecha": "vigencia_desde,uma\n2026-9-1,10\n",
+            "cero": "vigencia_desde,uma\n2026-09-01,0\n",
+            "texto": "vigencia_desde,uma\n2026-09-01,diez\n",
+            "repetido": "vigencia_desde,uma\n2026-09-01,10\n2026-09-01,11\n",
+        }
+        for nombre, texto in casos.items():
+            with self.subTest(nombre):
+                t, ruta = self._tabla(texto)
+                with self.assertRaises(t.TablaInvalida) as cm:
+                    t.leer_tabla(ruta, "vigencia_desde", "uma")
+                self.assertIn("renglón", str(cm.exception))
+
+    def test_periodo(self):
+        t, ruta = self._tabla("periodo,indice\n2026-13,1\n")
+        with self.assertRaises(t.TablaInvalida):
+            t.leer_tabla(ruta, "periodo", "indice", formato="periodo")
+
+    def test_las_tablas_versionadas_pasan(self):
+        import _tablas
+        d = RAIZ_DEL_CHECKOUT / "derecho" / "fuentes" / "datos"
+        for archivo, clave, valor, formato in (
+                ("jus-scba.csv", "vigencia_desde", "jus_ley_14967", "fecha"),
+                ("uma-csjn.csv", "vigencia_desde", "uma", "fecha"),
+                ("uma-caba.csv", "vigencia_desde", "uma", "fecha"),
+                ("serie-ipc.csv", "periodo", "indice", "periodo"),
+                ("serie-ripte.csv", "periodo", "indice", "periodo"),
+                ("serie-cer.csv", "periodo", "indice", "periodo")):
+            with self.subTest(archivo):
+                self.assertTrue(_tablas.leer_tabla(d / archivo, clave, valor, formato))
+
+    def test_los_importes_no_pasan_por_float(self):
+        r = subprocess.run(
+            [sys.executable, str(Path(__file__).parent / "intereses.py"), "--modo", "tasa",
+             "--capital", "123456789012345.57", "--desde", "2026-01-01",
+             "--hasta", "2026-01-01", "--tna", "10"],
+            capture_output=True, text=True)
+        self.assertEqual(r.returncode, 0, r.stderr)
+        lineas = [l for l in r.stdout.splitlines() if "Capital" in l or "TOTAL" in l]
+        self.assertEqual(len(lineas), 2, r.stdout)
+        for linea in lineas:
+            self.assertIn("123,456,789,012,345.57", linea)
+
+
+
+class TestLosAsuetosDistritalesQueSeInforman(unittest.TestCase):
+    """Se informan sólo los que caen dentro del plazo.
+
+    MUTACIÓN que lo comprueba: devolver `meta["distritales"]` entero en
+    `distritales_en_el_plazo()` deja este test en rojo."""
+
+    def test_solo_los_del_plazo(self):
+        meta = {"distritales": [{"fecha": "2026-10-13"}, {"fecha": "2026-10-15"},
+                                {"fecha": "2026-10-16"}, {"fecha": "2026-11-19"}]}
+        dentro = plazos.distritales_en_el_plazo(meta, date(2026, 10, 13), date(2026, 10, 16))
+        self.assertEqual([d["fecha"] for d in dentro], ["2026-10-15", "2026-10-16"])
+
+
+
+class TestLosFeriadosDeLaVisitaPapal(unittest.TestCase):
+    """Decreto 1103/2026: el 9/11 es nacional, el 10/11 sólo Córdoba y la Ciudad, el 11/11 sólo PBA.
+    Lo territorial se descuenta donde alcanza a toda la jurisdicción y se informa donde no."""
+
+    def test_pba_salta_el_9_y_el_11(self):
+        venc, _, _ = plazos.computar_habiles(date(2026, 11, 6), 3, "pba")
+        self.assertEqual(venc, date(2026, 11, 13))
+
+    def test_nacional_salta_el_9_e_informa_el_10_y_el_11(self):
+        venc, _, metas = plazos.computar_habiles(date(2026, 11, 6), 3, "nacional")
+        self.assertEqual(venc, date(2026, 11, 12))
+        m = next(x for x in metas if x["anio"] == 2026)
+        informados = {d["fecha"] for d in plazos.distritales_en_el_plazo(m, date(2026, 11, 6), venc)}
+        self.assertLessEqual({"2026-11-10", "2026-11-11"}, informados)
 
 
 if __name__ == "__main__":

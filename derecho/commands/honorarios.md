@@ -2,10 +2,14 @@
 name: honorarios
 description: Regulación de honorarios y aportes. Pregunta la jurisdicción antes de calcular: en PBA, Ley 14.967 y el jus de la serie; en la nacional y federal, Ley 27.423 y la UMA de la serie de la CSJN.
 argument-hint: "[monto del proceso, porcentaje]"
-allowed-tools: Read, Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/honorarios_pba.py:*), Bash(python ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/honorarios_pba.py:*), Bash(py -3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/honorarios_pba.py:*), Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/uma_csjn.py:*), Bash(python ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/uma_csjn.py:*), Bash(py -3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/uma_csjn.py:*)
+allowed-tools: Read, Glob, Grep, Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/honorarios_pba.py:*), Bash(python ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/honorarios_pba.py:*), Bash(py -3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/honorarios_pba.py:*), Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/uma_csjn.py:*), Bash(python ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/uma_csjn.py:*), Bash(py -3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/uma_csjn.py:*)
 ---
 
 Consulta: `$ARGUMENTS`
+
+**Los marcadores son los de `${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/references/marcadores.md`**, y se copian tal
+cual: leelo antes de emitir el primero. Un comando no carga el `SKILL.md`, así que el vocabulario
+no está a la vista si no se abre, y un marcador inventado no lo reconoce nadie que lea la pieza.
 
 **Leé `${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/references/sede-judicial-pba.md` sección 1.6.6 antes de regular.** Ahí están las cuatro cosas
 que hacen nula o mal hecha una regulación bonaerense.

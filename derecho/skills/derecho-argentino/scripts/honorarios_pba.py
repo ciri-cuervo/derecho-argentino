@@ -21,10 +21,10 @@ laborales), art. 51 (regulación de oficio y diferimiento si hay intereses). Apo
 from __future__ import annotations
 
 import argparse
-import csv
 from decimal import Decimal, ROUND_HALF_UP
 
 from _raiz import datos
+from _tablas import TablaInvalida, leer_tabla
 
 CENT = Decimal("0.01")
 MINIMO_JUS = Decimal("7")      # art. 22
@@ -45,14 +45,14 @@ def jus_del_repo(repo=None):
     cand = d / "jus-scba.csv"
     if not cand.is_file():
         return None, None, f"no existe {cand}"
-    lineas = [l for l in cand.read_text(encoding="utf-8").splitlines()
-              if l.strip() and not l.lstrip().startswith("#")]
-    filas = [f for f in csv.DictReader(lineas) if f.get("jus_ley_14967")]
+    try:
+        filas = leer_tabla(cand, "vigencia_desde", "jus_ley_14967")
+    except TablaInvalida as e:
+        return None, None, f"{e}: corregir la tabla antes de regular"
     if not filas:
         return None, None, f"{cand} está vacío"
-    filas.sort(key=lambda f: f["vigencia_desde"])
     u = filas[-1]
-    return Decimal(u["jus_ley_14967"]), u["vigencia_desde"], u.get("fuente") or ""
+    return u["valor"], u["vigencia_desde"], u.get("fuente") or ""
 
 
 def main():
@@ -102,7 +102,13 @@ def main():
 
     bruto = a.monto * a.porcentaje / 100
     detalle_etapas = "sin proporción por etapas"
-    if a.etapas_cumplidas and a.etapas_totales:
+    if (a.etapas_cumplidas is None) != (a.etapas_totales is None):
+        raise SystemExit("--etapas-cumplidas y --etapas-totales van juntas: con una sola no "
+                         "se puede proporcionar por etapas.")
+    if a.etapas_totales is not None:
+        if a.etapas_totales <= 0 or a.etapas_cumplidas <= 0:
+            raise SystemExit("Las etapas cumplidas y las totales tienen que ser positivas: "
+                             "sin ninguna etapa cumplida no hay qué proporcionar.")
         if a.etapas_cumplidas > a.etapas_totales:
             raise SystemExit("Las etapas cumplidas no pueden superar las totales.")
         bruto = bruto * a.etapas_cumplidas / a.etapas_totales
@@ -126,28 +132,28 @@ def main():
     aporte_obligado = honorarios * pct_obligado
 
     print("REGULACIÓN DE HONORARIOS - Ley 14.967 (PBA)\n")
-    print(f"  Monto del proceso (art. 23)      {float(q(a.monto)):>18,.2f}")
-    print(f"  Porcentaje aplicado (art. 21)    {float(a.porcentaje):>18,.2f} %")
+    print(f"  Monto del proceso (art. 23)      {q(a.monto):>18,.2f}")
+    print(f"  Porcentaje aplicado (art. 21)    {a.porcentaje:>18,.2f} %")
     print(f"  {detalle_etapas}")
-    print(f"  Valor del jus utilizado          {float(q(valor_jus)):>18,.2f}   "
+    print(f"  Valor del jus utilizado          {q(valor_jus):>18,.2f}   "
           f"(vigencia: {jus_fecha})")
     if jus_fuente:
         print(f"  Fuente del jus                   {jus_fuente}")
-    print(f"  Mínimo del art. 22 (7 jus)       {float(q(minimo)):>18,.2f}")
+    print(f"  Mínimo del art. 22 (7 jus)       {q(minimo):>18,.2f}")
     print()
-    print(f"  HONORARIOS                       {float(q(honorarios)):>18,.2f}")
-    print(f"  Expresado en jus (art. 15)       {float(en_jus):>18,.2f} jus")
+    print(f"  HONORARIOS                       {q(honorarios):>18,.2f}")
+    print(f"  Expresado en jus (art. 15)       {en_jus:>18,.2f} jus")
     if aplico_minimo:
         print("  -> se aplicó el mínimo del art. 22; la escala arrojaba "
-              f"{float(q(bruto)):,.2f}")
+              f"{q(bruto):,.2f}")
     print()
     print("  APORTES Y CONTRIBUCIONES - Ley 6.716, art. 12")
-    print(f"  inc. a) 10% a cargo del profesional        {float(q(aporte_afiliado)):>14,.2f}")
+    print(f"  inc. a) 10% a cargo del profesional        {q(aporte_afiliado):>14,.2f}")
     print(f"  inc. a) {int(pct_obligado*100)}% a cargo del obligado al pago  "
-          f"{float(q(aporte_obligado)):>14,.2f}   ({a.tipo})")
+          f"{q(aporte_obligado):>14,.2f}   ({a.tipo})")
     if a.tasa_justicia is not None:
         contrib = a.tasa_justicia * Decimal("0.05")
-        print(f"  inc. g) 5% sobre la tasa de justicia       {float(q(contrib)):>14,.2f}")
+        print(f"  inc. g) 5% sobre la tasa de justicia       {q(contrib):>14,.2f}")
         print("          (era 10% hasta la Ley 15.563, B.O. 23/12/2025)")
     else:
         marcadores.append(

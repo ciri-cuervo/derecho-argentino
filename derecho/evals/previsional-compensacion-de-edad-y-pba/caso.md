@@ -1,9 +1,9 @@
 ---
-titulo: Le faltan aportes para jubilarse - la compensación de exceso de edad del art. 19 que hay que pedir, y el fuero que en PBA no es el federal
+titulo: Le faltan aportes para jubilarse - la compensación de exceso de edad del art. 19 que hay que pedir, y el fuero federal con asiento en la provincia
 area: previsional
 perfil: derecho-argentino / references/previsional.md
-fuero: Seguridad social en Nación; en PBA la vía es el fuero laboral
-problema: "riesgo de dar por imposible la jubilación por faltar años de aportes sin usar la compensación de exceso de edad del art. 19 de la Ley 24.241, que exige pedirla expresamente; riesgo de olvidar que la mujer puede optar por continuar la actividad hasta los 65 con la escala del art. 128; riesgo de tratar la PBU como el haber entero, ignorando la compensatoria y la adicional por permanencia; riesgo de suponer que todo lo previsional tramita en el fuero federal de la seguridad social cuando en PBA va por el laboral; riesgo de dar un monto de haber sin la serie de valores cargada"
+fuero: Federal de la seguridad social en la Capital; en PBA, el juzgado federal con asiento en la provincia
+problema: "riesgo de dar por imposible la jubilación por faltar años de aportes sin usar la compensación de exceso de edad del art. 19 de la Ley 24.241, que exige pedirla expresamente; riesgo de olvidar que la mujer puede optar por continuar la actividad hasta los 65 con la escala del art. 128; riesgo de tratar la PBU como el haber entero, ignorando la compensatoria y la adicional por permanencia; riesgo de suponer que el fuero federal de la seguridad social de la Capital conoce en todo el país, cuando en las provincias la demanda contra ANSES va ante los juzgados federales con asiento en ellas, y de olvidar que un beneficio del IPS cambia de régimen y de fuero; riesgo de dar un monto de haber sin la serie de valores cargada"
 ---
 
 # Caso · Cumplió la edad pero le faltan años de aportes

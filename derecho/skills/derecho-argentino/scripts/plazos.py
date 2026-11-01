@@ -150,31 +150,53 @@ def es_habil(f: date, feriados: dict, extra: set, ferias: list) -> tuple:
     return True, ""
 
 
-def computar_habiles(desde: date, dias: int, jurisdiccion: str, repo=None):
-    feriados, extra, ferias, metas = {}, set(), [], []
-    for anio in {desde.year, desde.year + 1}:
-        feriados.update(feriados_ley_27399(anio))
-        e, fr, meta = cargar_datos(anio, jurisdiccion, repo)
-        extra |= e
-        ferias += fr
-        metas.append({"anio": anio, **meta})
-    # Control cruzado: el cálculo del art. 6 contra la ubicación verificada del año.
-    for m in metas:
-        verificados = {date.fromisoformat(d) for d in m.get("trasladables_verificados", [])}
-        if not verificados:
-            continue
-        calculados = {f for f, n in feriados_ley_27399(m["anio"]).items()
-                      if n.endswith("(trasladable)")}
+def _calendario_del_anio(anio: int, jurisdiccion: str, repo=None):
+    """Feriados, inhábiles extra, ferias y meta de un año.
+
+    Si el año tiene la ubicación verificada de los trasladables, reemplaza a la calculada por
+    el art. 6: sumarla sin sacar la calculada dejaba inhábiles los dos días cuando divergían."""
+    feriados = feriados_ley_27399(anio)
+    extra, ferias, meta = cargar_datos(anio, jurisdiccion, repo)
+    meta = {"anio": anio, **meta}
+    verificados = {date.fromisoformat(d) for d in meta.get("trasladables_verificados", [])}
+    if verificados:
+        calculados = {f for f, n in feriados.items() if n.endswith("(trasladable)")}
         if verificados != calculados:
-            m["divergencia_trasladables"] = (
+            meta["divergencia_trasladables"] = (
                 f"calculado {sorted(d.isoformat() for d in calculados)} vs verificado "
                 f"{sorted(d.isoformat() for d in verificados)}")
+        for f in calculados:
+            del feriados[f]
         for f in verificados:
-            feriados[f] = "Feriado trasladable (verificado)"
+            feriados.setdefault(f, "Feriado trasladable (verificado)")
+    return feriados, extra, ferias, meta
+
+
+def computar_habiles(desde: date, dias: int, jurisdiccion: str, repo=None):
+    """Los años se cargan a medida que el cómputo los atraviesa, así que un plazo largo que
+    cae dos años después también descuenta los feriados y las ferias de ese año."""
+    if dias <= 0:
+        raise ValueError("el plazo en días hábiles tiene que ser positivo")
+    feriados, extra, ferias, metas = {}, set(), [], []
+
+    def cargar(anio):
+        f, e, fr, meta = _calendario_del_anio(anio, jurisdiccion, repo)
+        feriados.update(f)
+        extra.update(e)
+        ferias.extend(fr)
+        metas.append(meta)
+
+    cargados = set()
+    for anio in (desde.year, desde.year + 1):
+        cargar(anio)
+        cargados.add(anio)
 
     cur, contados, traza = desde, 0, []
     while contados < dias:
         cur += timedelta(days=1)
+        if cur.year not in cargados:
+            cargar(cur.year)
+            cargados.add(cur.year)
         habil, motivo = es_habil(cur, feriados, extra, ferias)
         if habil:
             contados += 1
@@ -184,6 +206,12 @@ def computar_habiles(desde: date, dias: int, jurisdiccion: str, repo=None):
         if (cur - desde).days > 3000:
             raise SystemExit("Cómputo desbordado: revisar los datos de inhábiles.")
     return cur, traza, metas
+
+
+def distritales_en_el_plazo(meta: dict, desde: date, venc: date) -> list:
+    """Los asuetos distritales del año que caen entre el día siguiente a `desde` y `venc`."""
+    return [d for d in meta.get("distritales", [])
+            if desde < date.fromisoformat(d["fecha"]) <= venc]
 
 
 def sumar_meses(f: date, cantidad: int) -> date:
@@ -217,8 +245,8 @@ def main():
     marcadores = []
 
     if a.tipo == "habiles":
-        if not a.dias:
-            raise SystemExit("--dias es obligatorio para --tipo habiles")
+        if a.dias is None or a.dias <= 0:
+            raise SystemExit("--dias es obligatorio para --tipo habiles y tiene que ser positivo")
         venc, traza, metas = computar_habiles(a.desde, a.dias, a.fuero, a.repo)
         atravesados = set(range(a.desde.year, venc.year + 1))
         metas = [m for m in metas if m["anio"] in atravesados]
@@ -239,7 +267,9 @@ def main():
                     "NO lo descuenta]")
             for x in m.get("pendientes", []):
                 marcadores.append(f"[VERIFICAR PLAZO: {a.fuero} {m['anio']} - {x}]")
-            for d in m.get("distritales", []):
+            # Sólo los que caen dentro del plazo: listar los del año entero tapaba el resultado
+            # con decenas de partidos que no tocan el cómputo.
+            for d in distritales_en_el_plazo(m, a.desde, venc):
                 print(f"  Asueto distrital {m['anio']}: {d['fecha']} - {d['alcance']} "
                       f"({d.get('norma','')}). NO descontado: verificar si alcanza a la causa.")
             if m["estado"] != "OK":
@@ -254,15 +284,16 @@ def main():
             for t in traza:
                 print(f"    {t}")
     elif a.tipo == "corridos":
-        if not a.dias:
-            raise SystemExit("--dias es obligatorio para --tipo corridos")
+        if a.dias is None or a.dias <= 0:
+            raise SystemExit("--dias es obligatorio para --tipo corridos y tiene que ser positivo")
         venc = a.desde + timedelta(days=a.dias)
         print(f"  Plazo: {a.dias} días corridos (art. 6 CCyCN)")
         print(f"  VENCIMIENTO: {venc.isoformat()} ({DIAS_DE_LA_SEMANA[venc.weekday()]})")
         print("  Sin traslado por vencimiento en inhábil, salvo norma expresa.")
     else:
-        if not a.cantidad:
-            raise SystemExit("--cantidad es obligatorio para --tipo meses o anios")
+        if a.cantidad is None or a.cantidad <= 0:
+            raise SystemExit("--cantidad es obligatorio para --tipo meses o anios y tiene que "
+                             "ser positiva")
         n = a.cantidad * (12 if a.tipo == "anios" else 1)
         venc = sumar_meses(a.desde, n)
         print(f"  Plazo: {a.cantidad} {a.tipo} (arts. 6 y 7 CCyCN, de fecha a fecha)")

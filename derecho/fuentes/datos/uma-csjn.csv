@@ -8,7 +8,7 @@
 # NO HAY DESCARGADOR, y no lo va a haber: esa página es un FORMULARIO de búsqueda, no una
 #   tabla. Es la pared que docs/PENDIENTES.md anota en el punto 7 - los registros judiciales
 #   se abren, no se buscan. Los valores se cargan a mano, leídos de la consulta oficial.
-# verificado: 2026-09-18
+# verificado: 2026-11-01
 # La línea de arriba la lee `estado.py` y su forma es contrato: `# verificado: AAAA-MM-DD`,
 #   la fecha en que alguien ABRIÓ la consulta oficial. Vacía significa que nadie la abrió
 #   todavía, y estado.py lo reporta como SIN CARGAR: no hay verde por ausencia de dato.
@@ -63,3 +63,5 @@ vigencia_desde,uma,resolucion,fuente
 2026-05-01,100173,Res. SGA 1718/2026,https://www.csjn.gov.ar/transparencia/uma
 2026-06-01,102076,Res. SGA 1785/2026,https://www.csjn.gov.ar/transparencia/uma
 2026-07-01,104220,Res. SGA 1930/2026,https://www.csjn.gov.ar/transparencia/uma
+2026-08-01,105991,Res. SGA 2372/2026,https://www.csjn.gov.ar/novedades/detalle/14865
+2026-09-01,108005,Res. SGA 2622/2026,https://www.csjn.gov.ar/novedades/detalle/15242

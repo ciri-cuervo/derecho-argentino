@@ -201,6 +201,41 @@ La Ley 23.789, cotejada (`fuentes/normas/ley-23789.txt`), establece el servicio 
 - **Arts. 501-502**: liquidación y vista, ya vistos en 21.2.
 - **Arts. 504-505**: excepciones y su rigor probatorio, ya vistos en 21.5.
 
+### 21.8 bis La vivienda frente al embargo: el CCyCN y la Ley 14.432 de PBA
+
+**Son dos regímenes, y no protegen lo mismo.** El del Código **exige un acto**: la afectación
+del **art. 244 CCyCN**, que *"se inscribe en el registro de la propiedad inmueble"*, y su efecto
+corre desde la inscripción: *"es inoponible a los acreedores de causa anterior a esa afectación"*
+(art. 249). El bonaerense **no exige ninguno**: por el **art. 2 de la Ley 14.432**, *"Todo inmueble
+ubicado en la Provincia de Buenos Aires destinado a vivienda única, y de ocupación permanente,
+es inembargable e inejecutable, salvo en caso de renuncia expresa del titular"*, sin inscripción
+y sin distinguir la fecha de la deuda.
+
+| | CCyCN, arts. 244 a 256 | Ley 14.432 PBA |
+| --- | --- | --- |
+| **Cómo nace** | Afectación inscripta en el registro (art. 244) | De pleno derecho: vivienda única y de ocupación permanente (arts. 2 y 3) |
+| **Contra qué deudas** | Las posteriores a la inscripción (art. 249) | Todas, salvo las del art. 5 |
+| **Excepciones** | Expensas y tributos del inmueble, garantía real del art. 250, construcción o mejoras, alimentos a hijos menores, incapaces o con capacidad restringida (art. 249) | Alimentos; precio de compra, construcción o mejoras; tributos y expensas del inmueble; garantía real constituida para adquirir, construir o mejorar (art. 5) |
+| **Beneficiarios** | Constituyente, cónyuge, conviviente, ascendientes, descendientes y, en su defecto, colaterales hasta el tercer grado que convivan (art. 246) | El grupo familiar del titular, *"aun en el caso de fallecimiento del mismo, siempre que habiten la vivienda con carácter permanente"* (art. 4) |
+| **Renuncia o desafectación** | Desafectación con asentimiento del cónyuge o conviviente (art. 255) | Renuncia por escritura o acta notarial, con asentimiento del cónyuge o conviviente y venia judicial supletoria (art. 9) |
+
+**Los arts. 4 y 9 son los de la Ley 15.638** (B.O. 21/10/2026), que también reescribió el art. 1
+para fundar la ley en el art. 36 de la Constitución provincial y en *"las facultades previstas en el
+artículo 125 de la Constitución Nacional"*. El art. 9 exige además *"información veraz, cabal y
+detallada sobre el alcance de la renuncia"*, de la que el notario deja constancia, y topea su
+honorario en el 1% de la valuación fiscal o del monto del acto, el menor.
+
+**Y la pregunta que el art. 1 contesta no está cerrada.** Inembargabilidad es materia de derecho
+de fondo, que el art. 75 inc. 12 CN reserva al Congreso, y una ley provincial que la amplía choca
+con eso. Antes de oponerla en una ejecución, o de pedir el embargo de una vivienda bonaerense:
+
+`[VERIFICAR CRITERIO DEL FUERO: validez de la Ley 14.432 PBA frente al art. 75 inc. 12 CN, como protección de la vivienda más amplia que la de los arts. 244 a 256 CCyCN - fuero y sala que intervienen]`
+
+`[INSERTAR FALLO VERIFICADO: constitucionalidad de la Ley 14.432 PBA o de una ley provincial de inembargabilidad de la vivienda - aportar carátula, tribunal y fecha]`
+
+Cotejado contra `fuentes/normas/pba-ley-14432.txt` —texto actualizado, que ya incorpora la Ley
+15.638—, `pba-ley-15638.txt` y `ccycn-26994.txt`, arts. 244 a 256.
+
 ### 21.9 Cierre — verificar antes de responder
 
 1. ¿Está identificado el régimen de ejecución aplicable (21.1)?
@@ -218,3 +253,5 @@ La Ley 23.789, cotejada (`fuentes/normas/ley-23789.txt`), establece el servicio 
    comprendido en el recurso?
 9. Si se afirma que la denegatoria del incidente es apelable, ¿la causa se rige por la 15.057?
 10. ¿Cada monto de la liquidación tiene respaldo verificable, o lleva marcador?
+11. Si se embarga un inmueble, ¿es la vivienda del deudor, y está afectada por el CCyCN o
+    protegida por la Ley 14.432 (21.8 bis)?

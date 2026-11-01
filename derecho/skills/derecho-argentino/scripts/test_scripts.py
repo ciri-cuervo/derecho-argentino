@@ -1118,6 +1118,37 @@ class TestRaizEnLosComandos(unittest.TestCase):
         """Lo que corre el shell antes de que el comando llegue al modelo: los bloques ```!"""
         return "\n".join(re.findall(r"^```!\n(.*?)^```", cuerpo, re.M | re.S))
 
+    def test_los_comandos_de_calculo_remiten_al_vocabulario(self):
+        """Un comando no carga el `SKILL.md`, y con él el vocabulario de marcadores no está en
+        contexto: las corridas de eval que entraron por `/derecho:honorarios` emitieron
+        `[DATO FALTANTE]`, que no existe. Los cuatro comandos que calculan tienen que mandar a
+        `marcadores.md`.
+
+        MUTACIÓN que lo comprueba: sacar la remisión de `honorarios.md` deja este test en rojo."""
+        for nombre in ("honorarios", "intereses", "liquidacion", "plazo"):
+            with self.subTest(nombre):
+                texto = (self.COMANDOS / f"{nombre}.md").read_text(encoding="utf-8")
+                self.assertIn("references/marcadores.md", texto)
+
+    def test_el_comando_que_lee_tambien_puede_buscar(self):
+        """Los comandos nombran los módulos y las series con ruta relativa a la skill
+        —`references/honorarios-nacional.md`—, así que el modelo los ubica con Glob o Grep antes
+        de leerlos. Con `allowed-tools: Read` sólo, en un modo sin preguntas esas dos herramientas
+        se deniegan y el comando contesta sin abrir nada: lo mostró la traza de un eval de
+        honorarios, que respondió «no pude abrir los archivos de la skill».
+
+        MUTACIÓN que lo comprueba: sacar `Glob, Grep` del `allowed-tools` de `honorarios.md`
+        deja este test en rojo."""
+        for archivo in self.archivos:
+            frente, _ = self._partes(archivo.read_text(encoding="utf-8"))
+            declarado = re.search(r"^allowed-tools:(.*)$", frente, re.M)
+            if not declarado:
+                continue
+            herramientas = {h.strip() for h in declarado.group(1).split(",")}
+            if "Read" in herramientas:
+                with self.subTest(archivo.name):
+                    self.assertLessEqual({"Glob", "Grep"}, herramientas)
+
     def test_el_patron_de_permiso_dice_la_misma_ruta_que_el_cuerpo(self):
         revisados = 0
         for archivo in self.archivos:
@@ -1687,6 +1718,157 @@ ARTÍCULO 302º Ocho, sin puntuación, con la grafía de la Ley 14.656.
         self.assertIn("Art. 245. —Indemnización por antigüedad o despido.", r.stdout)
         self.assertIn("SHA-256", r.stdout)
         self.assertNotIn("Art. 246", r.stdout)
+
+
+class TestElConfigIlegibleNoSePisa(unittest.TestCase):
+    """MUTACIÓN que lo comprueba: devolver `{}` también con `para_escribir=True` deja en rojo
+    `test_guardar_sobre_un_config_roto_corta`, y el archivo roto queda reemplazado."""
+
+    def setUp(self):
+        self.dir = tempfile.mkdtemp(prefix="derecho-cfg-")
+        self.addCleanup(shutil.rmtree, self.dir, ignore_errors=True)
+        viejo = os.environ.get("XDG_CONFIG_HOME")
+        os.environ["XDG_CONFIG_HOME"] = self.dir
+        self.addCleanup(os.environ.__setitem__, "XDG_CONFIG_HOME", viejo)
+        self.cfg = _raiz.archivo_config()
+        self.cfg.parent.mkdir(parents=True)
+
+    def test_leer_un_config_roto_da_vacio(self):
+        self.cfg.write_text("{roto", encoding="utf-8")
+        self.assertEqual(_raiz.leer_config(), {})
+        self.cfg.write_text("[1, 2]", encoding="utf-8")
+        self.assertEqual(_raiz.leer_config(), {})
+
+    def test_guardar_sobre_un_config_roto_corta(self):
+        import perfil
+        self.cfg.write_text('{"repo": "/x",', encoding="utf-8")
+        with self.assertRaises(SystemExit):
+            perfil.guardar(dict(perfil.VACIO))
+        self.assertEqual(self.cfg.read_text(encoding="utf-8"), '{"repo": "/x",')
+
+    def test_un_perfil_con_valores_desconocidos_se_describe(self):
+        import perfil
+        p = dict(perfil.VACIO, modo="otro", rol="otro")
+        self.assertIn("valor desconocido", perfil.describir(p))
+        self.cfg.write_text('{"perfil": [1]}', encoding="utf-8")
+        self.assertIsNone(perfil.leer()["modo"])
+
+
+class TestEntradaYSalidaFueraDeUTF8(unittest.TestCase):
+    """Lo que pasa en una consola de Windows, simulado con `PYTHONIOENCODING=cp1252`.
+
+    MUTACIÓN que lo comprueba: volver a `sys.stdin.read()` en `verificar_respuesta.py` deja en
+    rojo `test_stdin_se_lee_como_utf8` con un UnicodeDecodeError; sacar el `reconfigure` de
+    `articulo.py`, `test_un_articulo_con_caracteres_fuera_de_cp1252`."""
+
+    def _run(self, script, *args, entrada=None):
+        return subprocess.run(
+            [sys.executable, str(Path(__file__).parent / script), *args],
+            input=entrada, capture_output=True,
+            env=dict(os.environ, PYTHONIOENCODING="cp1252"))
+
+    def test_stdin_se_lee_como_utf8(self):
+        r = self._run("verificar_respuesta.py", "-",
+                      entrada="[VACÍO PROBATORIO: fecha del despido]\n".encode("utf-8"))
+        self.assertEqual(r.returncode, 0, r.stderr.decode("cp1252", "replace"))
+        self.assertIn(b"0 a revisar", r.stdout)
+
+    def test_un_articulo_con_caracteres_fuera_de_cp1252(self):
+        r = self._run("articulo.py", "decreto-659-1996", "3",
+                      "--repo", str(RAIZ_DEL_CHECKOUT))
+        self.assertEqual(r.returncode, 0, r.stderr.decode("cp1252", "replace"))
+        self.assertIn(b"\\u", r.stdout)
+
+
+
+class TestElDiagnosticoNoMuereConUnArchivoDeOtraForma(unittest.TestCase):
+    """JSON válido con otra forma —una entrada sin `slug`, un manifiesto que es una lista— se
+    reporta FALTA en su bloque y los demás bloques se siguen informando.
+
+    MUTACIÓN que lo comprueba: volver a `except (OSError, ValueError)` en el bloque de fallos,
+    o al `else:` que dejaba el recorrido afuera del `try`, deja este test en rojo con KeyError."""
+
+    def test_un_fallo_sin_slug_y_un_manifiesto_que_es_lista(self):
+        import estado
+        d = Path(tempfile.mkdtemp(prefix="estado-"))
+        self.addCleanup(shutil.rmtree, d, ignore_errors=True)
+        F = d / _raiz.SUB / "fuentes"
+        for sub in ("normas", "jurisprudencia", "datos"):
+            (F / sub).mkdir(parents=True)
+        (F / "normas" / "normas.json").write_text("[1, 2]", encoding="utf-8")
+        (F / "jurisprudencia" / "fallos.json").write_text(
+            '{"fallos": [{"caratula": "sin slug"}]}', encoding="utf-8")
+        (F / "jurisprudencia" / "procedencia.json").write_text('{"fallos": {}}',
+                                                               encoding="utf-8")
+        bloques = {b["bloque"]: b["estado"] for b in estado.revisar(d)}
+        self.assertEqual(bloques["normas"], "FALTA")
+        self.assertEqual(bloques["fallos"], "FALTA")
+        self.assertIn("inhabiles", bloques)
+
+
+
+class TestLosAnexosDeUnaLeyAprobatoria(unittest.TestCase):
+    """Una ley que aprueba un tratado o un código trae dos numeraciones, y el corte principal se
+    queda con la primera aparición de cada número: el art. 6 del Protocolo de Buenos Aires no se
+    podía pedir, y el art. 1 de `ccycn-26994` es el de la Ley 26.994 y no el del Código.
+
+    MUTACIÓN que lo comprueba: sacar el `|\\s*$` de `ENCABEZADO_ANEXO` deja en rojo
+    `test_el_articulo_del_tratado_sale_con_anexo`; sacar el aviso «OJO», `test_avisa_el_numero_repetido`."""
+
+    def _run(self, *args):
+        return subprocess.run(
+            [sys.executable, str(Path(__file__).parent / "articulo.py"), *args,
+             "--repo", str(RAIZ_DEL_CHECKOUT)], capture_output=True, text=True)
+
+    def test_el_articulo_del_tratado_sale_con_anexo(self):
+        r = self._run("ley-24669", "6", "--anexo", "1")
+        self.assertEqual(r.returncode, 0, r.stdout)
+        self.assertIn("positiva y no ficta", r.stdout)
+        self.assertNotEqual(self._run("ley-24669", "6").returncode, 0)
+
+    def test_avisa_el_numero_repetido(self):
+        r = self._run("ccycn-26994", "1")
+        self.assertIn("OJO", r.stdout)
+        self.assertIn("--anexo 1", r.stdout)
+        codigo = self._run("ccycn-26994", "1", "--anexo", "1")
+        self.assertIn("Fuentes y aplicación", codigo.stdout)
+        self.assertNotIn("OJO", self._run("lct-20744", "245").stdout)
+
+    def test_el_corte_principal_no_cambia(self):
+        import articulo
+        texto = (RAIZ_DEL_CHECKOUT / "derecho" / "fuentes" / "normas" / "ccycn-26994.txt"
+                 ).read_text(encoding="utf-8").splitlines()
+        principal, numeraciones = articulo.partir(texto), articulo.anexos(texto)
+        self.assertIn("2594", principal)
+        self.assertNotEqual(principal["1"], numeraciones[1]["1"])
+
+
+
+class TestElCorteDeRespaldo(unittest.TestCase):
+    """Seis textos bajados daban cero artículos, entre ellos el Reglamento para la Justicia
+    Nacional, que fija los días hábiles de toda la justicia nacional. El respaldo corre sólo si el
+    corte principal no encuentra nada.
+
+    MUTACIÓN que lo comprueba: sacar el `if not articulos:` con su segundo intento de `partir()`
+    deja en rojo `test_los_formatos_que_el_principal_no_lee`."""
+
+    def _arts(self, slug):
+        import articulo
+        ruta = RAIZ_DEL_CHECKOUT / "derecho" / "fuentes" / "normas" / f"{slug}.txt"
+        return articulo.partir(ruta.read_text(encoding="utf-8").splitlines())
+
+    def test_los_formatos_que_el_principal_no_lee(self):
+        rjn = self._arts("reglamento-justicia-nacional")
+        self.assertIn("por disposición del Congreso o del Poder Ejecutivo", " ".join(rjn["2"]))
+        self.assertIn("El asueto no inhabilita el día", " ".join(rjn["3"]))
+        self.assertIn("administración financiera", " ".join(self._arts("ley-24156")["1"]))
+        self.assertIn("1", self._arts("scba-acuerdo-4000-2020"))
+
+    def test_en_memoria(self):
+        import articulo
+        self.assertEqual(list(articulo.partir(["ARTICULO", "1º.- La ley.", "ARTICULO",
+                                               "2º.- Otra."])), ["1", "2"])
+        self.assertEqual(list(articulo.partir(["1º — Uno.", "2º — Dos."])), ["1", "2"])
 
 
 if __name__ == "__main__":

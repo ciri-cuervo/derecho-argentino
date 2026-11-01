@@ -1473,7 +1473,7 @@
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/420000-424999/423722/norma.htm",
       "prioridad": 1,
-      "nota": "B.O. 09/03/2026, id InfoLEG 423722. Su art. 48 deroga la Ley 22.278 y sus modificatorias, y el art. 52 difiere la vigencia a los 180 días de la publicación: rige desde el 05/09/2026. Para hechos anteriores sigue gobernando la 22.278 si resulta más benigna (art. 2 CP), y por eso ley-22278.txt no se da de baja. Falta el decreto reglamentario.",
+      "nota": "B.O. 09/03/2026, id InfoLEG 423722. Su art. 48 deroga la Ley 22.278 y sus modificatorias, y el art. 52 difiere la vigencia a los 180 días de la publicación: rige desde el 05/09/2026. Para hechos anteriores sigue gobernando la 22.278 si resulta más benigna (art. 2 CP), y por eso ley-22278.txt no se da de baja. La reglamenta el Decreto 875/2026 (B.O. 07/09/2026), slug decreto-875-2026.",
       "url_alternativa": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339193/20260309"
     },
     {
@@ -2303,6 +2303,62 @@
       "url": "https://normas.gba.gob.ar/documentos/x61PYtg0.html",
       "prioridad": 2,
       "nota": "B.O. PBA 03/07/2009. Tipifica las faltas, fija el procedimiento sumarial y el plazo de los recursos contra el apercibimiento y la suspensión. empleo-publico.md 49.5.5."
+    },
+    {
+      "slug": "decreto-1228-2026",
+      "titulo": "Decreto 1228/2026 - Fondo de Asistencia Laboral: vigencia y carencia",
+      "jurisdiccion": "nacional",
+      "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/349294/20261020",
+      "prioridad": 2,
+      "nota": "B.O. 20/10/2026. Corre al 01/12/2026 la vigencia del Título II de la Ley 27.802 y lleva la carencia a doce períodos mensuales consecutivos. VERIFICAR contra el texto bajado qué artículos del Decreto 408/2026 sustituye."
+    },
+    {
+      "slug": "decreto-875-2026",
+      "titulo": "Decreto 875/2026 - Reglamentación del Régimen Penal Juvenil",
+      "jurisdiccion": "nacional",
+      "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/346953/20260907",
+      "prioridad": 2,
+      "nota": "B.O. 07/09/2026. El aviso trae el articulado propio (15 artículos: autoridad de aplicación, registro de supervisores, comités, vigencia conjunta con la ley) y NO el Anexo I, que es la reglamentación artículo por artículo: el Boletín Oficial lo publica como imagen en la edición web. La marca REVISAR del descargador es real."
+    },
+    {
+      "slug": "ley-27826",
+      "titulo": "Ley 27.826 - Inocencia Fiscal II: procedimiento tributario, régimen penal tributario y multas",
+      "jurisdiccion": "nacional",
+      "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/348757/20261009",
+      "prioridad": 1,
+      "nota": "B.O. 09/10/2026, promulgada por Decreto 1160/2026. VERIFICAR contra el texto bajado qué artículos de cada ley sustituye o incorpora y los plazos de reglamentación."
+    },
+    {
+      "slug": "pba-ley-14432",
+      "titulo": "Ley 14.432 PBA - Protección de la vivienda única (texto actualizado)",
+      "jurisdiccion": "pba",
+      "url": "https://normas.gba.gob.ar/documentos/xp6Zph3V.html",
+      "prioridad": 2,
+      "nota": "B.O. 08/01/2013. Sus arts. 1, 4 y 9 los sustituye la Ley 15.638 (B.O. 21/10/2026): verificar que el texto actualizado ya la incorpore."
+    },
+    {
+      "slug": "pba-ley-15638",
+      "titulo": "Ley 15.638 PBA - Vivienda única: reforma del régimen de protección",
+      "jurisdiccion": "pba",
+      "url": "https://normas.gba.gob.ar/documentos/0nQY8KFM.html",
+      "prioridad": 3,
+      "nota": "B.O. 21/10/2026, n.° 30346."
+    },
+    {
+      "slug": "pba-ley-15657",
+      "titulo": "Ley 15.657 PBA - Prioridad de paso en el Código de Tránsito",
+      "jurisdiccion": "pba",
+      "url": "https://normas.gba.gob.ar/documentos/V92yGqTP.html",
+      "prioridad": 3,
+      "nota": "B.O. 30/10/2026, n.° 30353."
+    },
+    {
+      "slug": "decreto-1103-2026",
+      "titulo": "Decreto 1103/2026 - Feriados por la visita del papa León XIV",
+      "jurisdiccion": "nacional",
+      "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/348022/20260928",
+      "prioridad": 2,
+      "nota": "B.O. 28/09/2026. Fija feriados con alcance distinto según la jurisdicción: verificar contra el texto bajado qué día rige dónde."
     }
   ],
   "_ficha_vs_texto": "En InfoLEG, verNorma.do?id=N devuelve la FICHA de la norma, no el texto. El texto está en anexos/<rango>/<id>/norma.htm (original) o texact.htm (actualizado con modificatorias). Preferir siempre texact.htm cuando exista. El descargador avisa si lo que bajó parece una ficha.",

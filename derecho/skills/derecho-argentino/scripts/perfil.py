@@ -96,14 +96,16 @@ def _clave(k):
 
 def leer() -> dict:
     p = dict(VACIO)
-    p.update(leer_config().get("perfil") or {})
+    guardado = leer_config().get("perfil")
+    if isinstance(guardado, dict):
+        p.update(guardado)
     return p
 
 
 def guardar(perfil: dict):
     f = archivo_config()
     f.parent.mkdir(parents=True, exist_ok=True)
-    cfg = leer_config()
+    cfg = leer_config(para_escribir=True)
     perfil["version"] = VERSION_PERFIL
     perfil["actualizado"] = hoy().isoformat()
     cfg["perfil"] = perfil
@@ -159,9 +161,10 @@ def describir(perfil: dict) -> str:
     m = perfil.get("modo")
     L.append(f"    modo             {m or '(sin definir)'}")
     if m:
-        L.append(f"                     {MODOS[m]}")
+        L.append(f"                     {MODOS.get(m, '(valor desconocido)')}")
     r = perfil.get("rol")
-    L.append(f"    rol habitual     {ROLES[r] if r else '(sin definir)'}"
+    rol = ROLES.get(r, f"{r} (valor desconocido)") if r else "(sin definir)"
+    L.append(f"    rol habitual     {rol}"
              + ("  [FIJO: no se vuelve a preguntar]" if perfil.get("rol_fijo") and r
                 else "  (se pregunta igual; el perfil solo ordena las opciones)" if r else ""))
     for k, cat in (("jurisdicciones", JURISDICCIONES), ("fueros", FUEROS)):

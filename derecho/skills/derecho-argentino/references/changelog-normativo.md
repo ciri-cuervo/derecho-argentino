@@ -10,6 +10,19 @@
 
 Normas posteriores a la última consolidación del perfil, a verificar antes de usar montos:
 
+- **Decreto 1103/2026** (BO 28/09/2026): feriados por la visita del papa León XIV, el 9/11 en todo
+  el país, el 10/11 en Córdoba y la Ciudad y el 11/11 en PBA. Ver `plazos.md` 8.3.
+- **Decreto 1228/2026** (BO 20/10/2026): el Fondo de Asistencia Laboral de la Ley 27.802 rige
+  desde el **01/12/2026** y la carencia pasa a doce períodos mensuales. Ver `laboral.md` 5.9.
+- **SCBA, "Fernández", L. 130.895** (21/10/2026): convalida el art. 55 de la Ley 27.802 para los
+  juicios en trámite. Ver `laboral.md` 5.5 bis.
+- **Ley 27.826** (BO 09/10/2026): modifica la Ley 11.683 y la Ley 27.799. Ver `tributario.md`.
+- **Decreto 875/2026** (BO 07/09/2026): reglamenta la Ley 27.801, régimen penal juvenil.
+- **PBA — Ley 15.638** (BO 21/10/2026): modifica la Ley 14.432 de vivienda única. Ver
+  `ejecucion.md`.
+- **PBA — Ley 15.657** (BO 30/10/2026): prioridad de paso, art. 28 quater de la Ley 13.927. Ver
+  `transito.md`.
+
 - **Res. 4/2026 del Consejo Nacional del Empleo** (BO 02/09/2026): nuevo SMVM y prestación por
   desempleo.
 - **Res. SRT 39/2026** (BO 02/09/2026): montos RIPTE de las prestaciones de la LRT.
@@ -43,13 +56,13 @@ cotejo anterior.
 | **Juicio en ausencia** | `penal.md` 24.2.1 | 14/09/2026 | Media |
 | **Asociación ilícita y participación** | `penal-parte-general.md` 24.7.3 | 14/09/2026 | Baja |
 | **Actualización de créditos: la excepción legal** | `laboral.md` 5.5 | 14/09/2026 | Media |
-| **Derecho internacional privado, capítulos 1 y 2** | `dipr.md` 35 | 18/09/2026 | Media |
+| **Derecho internacional privado, capítulos 1 y 2** | `dipr.md` 35 | 01/11/2026 | Media |
 | **Procesos de familia, arts. 705 a 723** | `familia.md` 18.4 | 17/09/2026 | Media |
 | **Filiación y gestación por sustitución** | `familia.md` 18.10 | 15/09/2026 | **Alta** |
 | **Violencia digital en PBA** | `familia.md` 18.6 | 15/09/2026 | Media |
 | **Compensación económica** | `familia.md` 18.9 y 18.9.1 | 15/09/2026 | Media |
 | **Familia: violencia y restitución internacional** | `familia.md` 18.6 y 18.8 | 14/09/2026 | Media |
-| **Régimen procesal penal federal** | `penal.md` 24.1 | 13/09/2026 | **Alta** |
+| **Régimen procesal penal federal** | `penal.md` 24.1 | 01/11/2026 | **Alta** |
 | **Coerción y excarcelación** | `penal.md` 24.3 | 13/09/2026 | Media |
 | **Extinción, prescripción y probation** | `penal-parte-general.md` 24.4 | 13/09/2026 | Baja |
 | **Nulidades y prueba prohibida** | `penal-impugnacion.md` 24.5 | 14/09/2026 | Baja |
@@ -60,18 +73,18 @@ cotejo anterior.
 | **Riesgos del trabajo** | `laboral-riesgos.md` 5.8 | 13/09/2026 | **Alta** |
 | Tramos de reforma laboral y art. 245 | `laboral.md` 5.1-5.4 | 18/09/2026 | Media |
 | **Art. 245 y 245 bis LCT** | `laboral.md` 5.2 · 5.2.1 · 5.2 bis | 18/09/2026 | **Alta** |
-| **Proceso laboral nacional — Ley 27.802** | `laboral.md` 5.9 · `plazos.md` 8.5 | 18/09/2026 | **Alta** |
+| **Proceso laboral nacional — Ley 27.802** | `laboral.md` 5.9 · `plazos.md` 8.5 | 01/11/2026 | **Alta** |
 | **Registro laboral: el plazo huérfano** | `laboral.md` 5.3 | 13/09/2026 | **Alta** |
 | **Telegramas: reglas del acto** | `telegramas.md` 25 | 13/09/2026 | **Alta** |
 | **Contencioso administrativo PBA** | `contencioso-pba.md` 26 | 13/09/2026 | Media |
 | **Áreas con fuente bajada y sin absorber** | `perfiles-heredados.md` | 13/09/2026 | Media |
 | **Salud y discapacidad** | `salud-discapacidad.md` 27 | 13/09/2026 | **Alta** |
-| **Tránsito** | `transito.md` 28 | 14/09/2026 | **Alta** |
+| **Tránsito** | `transito.md` 28 | 01/11/2026 | **Alta** |
 | **Concursos: el cruce laboral** | `concursos.md` 29 | 13/09/2026 | Media |
 | **Datos personales** | `datos-personales.md` 30 | 13/09/2026 | Media |
 | **Societario: responsabilidad** | `societario.md` 31 | 17/09/2026 | Baja |
 | **Previsional** | `previsional.md` 32 | 13/09/2026 | **Alta** |
-| **Tributario: procedimiento** | `tributario.md` 33 | 13/09/2026 | **Alta** |
+| **Tributario: procedimiento** | `tributario.md` 33 | 01/11/2026 | **Alta** |
 | **Despido discriminatorio y Ley 23.592** | `laboral.md` 5.2 bis.1 | 17/09/2026 | **Alta** |
 | **Salario mínimo, vital y móvil** | `laboral.md` 5.12 bis | 15/09/2026 | **Alta** |
 | **Modos de extinción** | `laboral.md` 5.12 | 13/09/2026 | Media |
@@ -87,9 +100,9 @@ cotejo anterior.
 | **Institutos de fondo LDC** | `consumidor.md` 17.11 | 13/09/2026 | Media |
 | **Oferta, publicidad y colectiva** | `consumidor.md` 17.12 | 13/09/2026 | Baja |
 | Intereses fuero nacional | `laboral.md` 5.5 | 13/09/2026 | **Alta** |
-| Intereses PBA | `laboral.md` 5.5 bis | 13/09/2026 | **Alta** |
+| Intereses PBA | `laboral.md` 5.5 bis | 01/11/2026 | **Alta** |
 | **Sentencia en la justicia nacional y federal** | `sede-judicial-nacional.md` 1.8 | 18/09/2026 | Baja |
-| **Sentencia en el fuero CAyT de la Ciudad** | `sede-judicial-caba.md` 1.9 | 18/09/2026 | Baja |
+| **Sentencia en el fuero CAyT de la Ciudad** | `sede-judicial-caba.md` 1.9 | 01/11/2026 | Baja |
 | Régimen procesal laboral PBA | `sede-judicial-pba.md` 1.6.1-1.6.2 | 13/09/2026 | Media |
 | **Justicia de Paz de PBA** | `justicia-de-paz-pba.md` 61 | 18/09/2026 | Media |
 | Honorarios y aportes PBA | `honorarios-pba.md` 1.6.6 | 13/09/2026 | **Alta** |
@@ -152,7 +165,7 @@ cotejo anterior.
 | **Organizaciones criminales** | `penal-leyes-especiales.md` 24.9.5 bis | 18/09/2026 | Media |
 | **Inteligencia y prueba penal** | `penal-impugnacion.md` 24.5.1 bis | 18/09/2026 | **Alta** |
 | **Régimen penal tributario** | `penal-leyes-especiales.md` 24.9.5 · `tributario.md` 33 · `civil.md` 6.3 | 18/09/2026 | **Alta** |
-| **Régimen penal juvenil** | `penal-leyes-especiales.md` 24.9.4 · `penal-juvenil-pba.md` 36 · `penal-parte-general.md` 24.7.8 | 18/09/2026 | **Alta** |
+| **Régimen penal juvenil** | `penal-leyes-especiales.md` 24.9.4 · `penal-juvenil-pba.md` 36 · `penal-parte-general.md` 24.7.8 | 01/11/2026 | **Alta** |
 | **Hábeas corpus** | `penal-leyes-especiales.md` 24.9.1 | 17/09/2026 | Media |
 | **Delitos y faltas electorales** | `penal-leyes-especiales.md` 24.9.7 | 17/09/2026 | Media |
 | **Cohecho deportivo** | `penal-leyes-especiales.md` 24.9.8 | 17/09/2026 | Baja |
@@ -173,9 +186,9 @@ cotejo anterior.
 | **Salud: alcance de la cobertura** | `fallos-csjn.md` 34.6 · `salud-discapacidad.md` 27.2 | 14/09/2026 | Media |
 | **Estupefacientes y art. 19 CN** | `fallos-csjn.md` 34.2 · `penal-leyes-especiales.md` 24.9.2 | 14/09/2026 | Media |
 | **Familia: restitución internacional y adopción** | `fallos-csjn.md` 34.5 | 14/09/2026 | Media |
-| Plazos y ferias | `plazos.md` | 13/09/2026 | **Alta** |
+| Plazos y ferias | `plazos.md` | 01/11/2026 | **Alta** |
 | **Prueba pericial** | `prueba-pericial.md` | 13/09/2026 | Baja |
-| **Ejecución de sentencia** | `ejecucion.md` | 13/09/2026 | Media |
+| **Ejecución de sentencia** | `ejecucion.md` | 01/11/2026 | Media |
 | **Notificaciones y expediente digital PBA** | `notificaciones-pba.md` | 17/09/2026 | **Alta** |
 | **Función notarial y documento notarial** | `notarial.md` 60 | 18/09/2026 | Baja |
 | **Exequátur, inmunidad, arbitraje internacional y Viena** | `dipr.md` 35.8 ter a 35.8 sexies | 18/09/2026 | Media |

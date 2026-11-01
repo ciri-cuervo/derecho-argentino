@@ -9,11 +9,15 @@ on:
 
 jobs:
   suites:
-    runs-on: ubuntu-latest
+    # Fijado en 24.04 y no `ubuntu-latest`: desde el 19/10/2026 esa etiqueta es Ubuntu 26.04, y
+    # setup-python no publica 3.9 para esa imagen. El job moría antes de correr un solo test.
+    runs-on: ubuntu-24.04
     # Lo que se distribuye corre desde 3.9, el Python que trae macOS con las herramientas de
     # Xcode; el resto del repositorio, desde 3.13. Las suites de la skill lanzan cada script con
     # el mismo interprete, asi que corridas en 3.9 son la medida: nada estatico la reemplaza.
     strategy:
+      # Sin cancelar en cascada: que falle un intérprete no tiene que esconder el resultado del otro.
+      fail-fast: false
       matrix:
         python-version: ["3.9", "3.13"]
     steps:

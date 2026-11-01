@@ -25,7 +25,7 @@ import json
 import sys
 
 from _comun import (RAIZ, ATexto, bajar, cargar_manifiesto, cargar_procedencia,
-                    decodificar, exigir_slugs_conocidos, hoy, sha256, sha256_texto)
+                    decodificar, escribir_json, exigir_slugs_conocidos, hoy, sha256, sha256_texto)
 
 
 def comparar(registro: dict, crudo: bytes, charset: str | None) -> tuple[str, str]:
@@ -166,7 +166,7 @@ def main():
                 print(f"  no se pudo sellar {ruta.name}: {type(e).__name__}")
                 return 2
             m["verificado"] = fecha
-            ruta.write_text(json.dumps(m, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            escribir_json(ruta, m)
             print(f"  sellado {ruta.name}: verificado = {fecha}")
             print("  fallos.json NO se sella acá: este script no verifica jurisprudencia.")
             print("\n  estado.py deja de marcar vencidas las normas.")

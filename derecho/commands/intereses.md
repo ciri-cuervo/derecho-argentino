@@ -2,10 +2,14 @@
 name: intereses
 description: Actualización e intereses sobre un crédito. Elegir entre índice más interés puro o tasa nominal no es una decisión técnica - depende de qué doctrina rige.
 argument-hint: "[capital, desde, hasta, fuero]"
-allowed-tools: Read, Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/intereses.py:*), Bash(python ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/intereses.py:*), Bash(py -3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/intereses.py:*)
+allowed-tools: Read, Glob, Grep, Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/intereses.py:*), Bash(python ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/intereses.py:*), Bash(py -3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/intereses.py:*)
 ---
 
 Consulta: `$ARGUMENTS`
+
+**Los marcadores son los de `${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/references/marcadores.md`**, y se copian tal
+cual: leelo antes de emitir el primero. Un comando no carga el `SKILL.md`, así que el vocabulario
+no está a la vista si no se abre, y un marcador inventado no lo reconoce nadie que lea la pieza.
 
 **Leé antes de calcular:** `${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/references/laboral.md` sección 5.5 para el fuero nacional y **5.5 bis**
 para PBA, que traen la cadena de precedentes completa. Si actuás desde el órgano,

@@ -25,7 +25,7 @@ import urllib.parse
 
 from _comun import (NORMAS, bajar, cargar_manifiesto, cargar_procedencia,
                     ahora, cargar_revisiones, decodificar, exigir_slugs_conocidos, hoy,
-                    guardar_procedencia, plano, revisar_texto, sha256, sha256_archivo,
+                    escribir_texto, guardar_procedencia, plano, revisar_texto, sha256, sha256_archivo,
                     sha256_texto, ATexto)
 
 # Este encabezado ya está escrito en los .txt bajados, así que la plantilla y el corpus son el
@@ -204,7 +204,7 @@ def main():
                                     jurisdiccion=n["jurisdiccion"], url=url,
                                     fecha=hoy(), hash=h,
                                     charset=charset or "no declarado")
-            destino.write_text(cab + cuerpo + "\n", encoding="utf-8")
+            escribir_texto(destino, cab + cuerpo + "\n")
             h_texto = sha256_texto(cuerpo + "\n")
             problemas += revisar_texto(cuerpo)
         proc["normas"][slug] = {

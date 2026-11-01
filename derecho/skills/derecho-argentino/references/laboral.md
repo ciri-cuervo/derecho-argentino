@@ -442,7 +442,8 @@ está armada una liquidación que llega al Tribunal:
 | 2016 | **"Cabrera"** (C. 119.176) y **"Trofe"** (L. 118.587), ambos del **15/06/2016** | Tasa pasiva **más alta** del Banco Provincia a 30 días, sólo sobre el capital |
 | 2018 | **"Vera"** (C. 120.536, 18/04/2018) y **"Nidera"** (C. 121.134, 03/05/2018) | Si la deuda se cuantifica a valores actuales: 6% puro hasta la cuantificación, pasiva más alta después |
 | 2024 | **"Barrios"** (C. 124.096, 17/04/2024) | Valorismo: índice oficial más interés puro, techo 6% |
-| 2026 | **"Galarza"** (L. 132.729, 30/03/2026) | "Barrios" no alcanza a las prestaciones de la LRT |
+| 2026 | **"Galarza"** (L. 132.729, 30/03/2026) y **"Vera"** (L. 139.012, 24/09/2026) | "Barrios" no alcanza a las prestaciones de la LRT |
+| 2026 | **"Fernández"** (L. 130.895, 21/10/2026) | El art. 55 de la Ley 27.802 es constitucional y rige los juicios en trámite |
 
 "Trofe" es del **15/06/2016**, no de 2017: el "2017" que circula viene de una errata de la
 memoria de la Secretaría Laboral de la SCBA. Es el par laboral de "Cabrera", del mismo día.
@@ -459,17 +460,30 @@ accidente. El fundamento es que ahí ya hay un mecanismo legal de actualización
 se abre la inconstitucionalidad del art. 7 de la Ley 23.928.
 
 **Regla operativa:** en **prestaciones dinerarias de la LRT con fórmula legal propia**,
-"Barrios" no se traslada — rige "Galarza". **Fuera de la LRT** (indemnizaciones de la LCT,
-salarios, diferencias), donde no hay mecanismo legal equivalente, el alcance de "Galarza" no
-está resuelto. No afirmar que "Barrios" quedó dejado sin efecto para todo el fuero laboral.
+"Barrios" no se traslada — rige "Galarza", que la SCBA reiteró en **"Vera"** (L. 139.012,
+24/09/2026; no confundir con "Vera" C. 120.536, de 2018). **Para los créditos de la LCT**, el
+mecanismo legal ahora existe: el art. 55 de la Ley 27.802 en los juicios en trámite y el art. 276
+LCT en los nuevos —ver Capa 3—. No afirmar que "Barrios" quedó dejado sin efecto para todo el
+fuero laboral: "Fernández" lo aplica, y es por "Barrios" que la ley con método propio desplaza
+la inconstitucionalidad.
 
 **Capa 3 — Art. 55 de la Ley 27.802.** Norma nacional, declarada de orden público, para los
 juicios en trámite al 06/03/2026: tasa pasiva del BCRA, con techo de IPC + 3% anual y piso del
 67% de ese cálculo. Para créditos nuevos rige el art. 276 LCT (texto art. 54 Ley 27.802): IPC
 Nivel General del INDEC + 3% anual. Ver 5.5.
 
-**Estado de la discusión en PBA a septiembre de 2026** — el art. 55 está siendo inaplicado
-por inconstitucionalidad en primera instancia, con criterios divergentes:
+**La SCBA convalidó el art. 55 en "Fernández"** —L. 130.895, sentencia registrada el
+21/10/2026—: *"se desestima el planteo de inconstitucionalidad del art. 55 de la ley 27.802 y se
+dispone su aplicación al caso de autos"*. El planteo contra el art. 7 de la Ley 23.928 lo declara
+abstracto por "Barrios", porque la ley trae su propio método, y describe cómo opera el artículo:
+los créditos *"quedan sujetos al mecanismo de actualización dispuesto en el inc. 'a', con el
+límite o tope previsto en el inc. 'b', y el piso mínimo descripto en el inc. 'c'"*. El art. 56
+no lo trató. El detalle, con los votos, en `derecho/fuentes/jurisprudencia/INDICE.md`.
+
+    [VERIFICAR PRECEDENTE: "Fernández, Hilda Noemí c/ Ozuna, José Antonio s/ Despido", SCBA L. 130.895 - confirmar que no fue dejado sin efecto ni superado antes de citar]
+
+**Antes de "Fernández", el art. 55 se inaplicó en primera instancia** con criterios
+divergentes, y esos fallos quedan como lo contrario de la doctrina de la SCBA:
 
 - Tribunal del Trabajo N° 2 de La Plata, *"Burguera c/ Peterlana"*, marzo de 2026: declaró
   inconstitucional el art. 55 y aplicó IPC + tasa pura del 6% anual.
@@ -477,9 +491,6 @@ por inconstitucionalidad en primera instancia, con criterios divergentes:
   art. 276 LCT según Ley 27.802.
 - La Procuración General de la Nación dictaminó que el art. 55 es de orden público y debe
   aplicarse.
-- **La SCBA no se pronunció sobre el art. 55.** Y no hay pronunciamiento que articule el
-  art. 55 (ley nacional de orden público) con "Barrios" (doctrina legal provincial fundada en
-  la inconstitucionalidad del art. 7 de la Ley 23.928). **Esa es la cuestión abierta.**
 
 Estos fallos de primera instancia se citan acá como **estado de la discusión, no como
 precedentes utilizables**: sus datos de causa y fecha no están cerrados contra la sentencia.
@@ -489,7 +500,7 @@ Antes de invocar cualquiera de ellos en una resolución:
 
 **Al fijar o controlar intereses, emitir siempre:**
 
-    [VERIFICAR TASA VIGENTE: fuero laboral PBA - determinar si el crédito cae bajo el art. 12 LRT texto Ley 27.348 ("Galarza"), bajo el art. 55 de la Ley 27.802, o bajo la doctrina "Barrios"; y verificar si la SCBA se pronunció después de septiembre de 2026]
+    [VERIFICAR TASA VIGENTE: fuero laboral PBA - determinar si el crédito cae bajo el art. 12 LRT texto Ley 27.348 ("Galarza", "Vera"), bajo el art. 55 de la Ley 27.802 (juicio en trámite al 06/03/2026, "Fernández") o bajo el art. 276 LCT (crédito nuevo); y verificar si la CSJN se pronunció sobre el art. 55]
 
     [VERIFICAR MONTO ACTUALIZADO: serie del índice aplicado (IPC, RIPTE o CER) y tasa del período - INDEC / BCRA / Banco Provincia a la fecha del cálculo]
 
@@ -570,8 +581,12 @@ siguen siendo esas secciones, allá. Si el caso cruza accidente y despido, se le
 > pendiente de resolución**. Donde ya quedó firme, no se remite.
 >
 > Cotejado contra `fuentes/normas/ley-27802.txt`, arts. 93, 94 y 217. El art. 217 fija la vigencia
-> general en la publicación, y su nota agrega que el **art. 27 del Decreto 408/2026** prorrogó al
-> **01/11/2026** la del Título II, Fondo de Asistencia Laboral.
+> general en la publicación, y la del Título II, Fondo de Asistencia Laboral, la fija el **art. 27
+> del Decreto 408/2026** en el texto del **Decreto 1228/2026** (B.O. 20/10/2026): *"Prorrógase al
+> 1° de diciembre de 2026"*. El mismo decreto sustituye el art. 15 y lleva la carencia a **doce
+> períodos mensuales** completos y consecutivos, contados *"desde el mes calendario en que se
+> registre en [...] ARCA la efectiva integración de la primera contribución del empleador"*.
+> Cotejado contra `fuentes/normas/decreto-1228-2026.txt`.
 
 ---
 

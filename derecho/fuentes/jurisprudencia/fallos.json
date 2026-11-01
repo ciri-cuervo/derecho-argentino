@@ -829,6 +829,22 @@
       "fecha": "2014-08-06",
       "url": "https://juba.scba.gov.ar/VerTextoCompleto.aspx?idFallo=124082",
       "nota": "Registro 61/14. Robo de automotor: la aseguradora invocó la falta de la cesión de derechos de la Ley 25.761 recién cincuenta días después de vencido el plazo del art. 56 de la Ley 17.418. La Cámara, con cita de la doctrina de la SCBA -Ac. 34.408 y Ac. 37.883-, tiene el silencio por aceptación del derecho del asegurado y fija la mora a los quince días del art. 49 contados desde el vencimiento de los treinta del art. 56. Voto de Señaris con adhesión de Busteros."
+    },
+    {
+      "slug": "scba-fernandez-l130895-2026-10-21",
+      "caratula": "Fernández, Hilda Noemí c/ Ozuna, José Antonio s/ Despido",
+      "tribunal": "SCBA",
+      "causa": "L. 130.895",
+      "fecha": "2026-10-21",
+      "url": "https://www.scba.gov.ar/includes/descarga.asp?id=60337&n=Ver%20sentencia%20(causa%20L.%20130.895).pdf"
+    },
+    {
+      "slug": "scba-vera-l139012-2026-09-24",
+      "caratula": "Vera, Carlos Issac c/ Empleador Autoasegurado Gobernación de la Provincia de Buenos Aires s/ Acción de revisión resolución Comisión Médica Jurisdiccional",
+      "tribunal": "SCBA",
+      "causa": "L. 139.012",
+      "fecha": "2026-09-24",
+      "url": "https://www.scba.gov.ar/includes/descarga.asp?id=60174&n=Ver%20sentencia%20(causa%20L.139.012).pdf"
     }
   ],
   "_descarga_asp": "En las URLs de descarga.asp de la SCBA el parámetro n= NO es cosmético: el servidor lo usa como nombre de archivo y un n= distinto devuelve 'Archivo no hallado'. Copiar el n= exacto, con los espacios como %20. Por eso 'Vera' y 'Nidera' comparten id=39327 y son archivos distintos.",

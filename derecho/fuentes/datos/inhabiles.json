@@ -16,7 +16,7 @@
   "anios": {
     "2026": {
       "nacional": {
-        "verificado": "2026-09-13",
+        "verificado": "2026-11-01",
         "fuente": "https://www.csjn.gov.ar/novedades/detalle/13582",
         "ferias": [
           {
@@ -33,9 +33,26 @@
         "puentes_y_asuetos": [
           "2026-03-23",
           "2026-07-10",
+          "2026-10-20",
+          "2026-11-09",
           "2026-12-07"
         ],
-        "asuetos_distritales": [],
+        "asuetos_distritales": [
+          {
+            "fecha": "2026-11-10",
+            "alcance": "tribunales nacionales y federales con asiento en la Ciudad de Buenos Aires y en la Provincia de Córdoba",
+            "motivo": "visita del papa León XIV",
+            "norma": "art. 3 del Decreto 1103/2026 (B.O. 28/09/2026)",
+            "efecto": "feriado en ese territorio; inhábil para los tribunales con asiento en ese territorio: el art. 2 del Reglamento para la Justicia Nacional los cierra «los que por disposición del Congreso o del Poder Ejecutivo no sean laborables», y a los del interior «los días señalados no laborables por los respectivos gobiernos». No se descuenta en el bloque nacional porque no alcanza a los tribunales de otras provincias: si la causa tramita ahí, el día no corre"
+          },
+          {
+            "fecha": "2026-11-11",
+            "alcance": "tribunales nacionales y federales con asiento en la Provincia de Buenos Aires",
+            "motivo": "visita del papa León XIV",
+            "norma": "art. 4 del Decreto 1103/2026 (B.O. 28/09/2026)",
+            "efecto": "feriado en ese territorio; inhábil para los tribunales con asiento en ese territorio: el art. 2 del Reglamento para la Justicia Nacional los cierra «los que por disposición del Congreso o del Poder Ejecutivo no sean laborables», y a los del interior «los días señalados no laborables por los respectivos gobiernos». No se descuenta en el bloque nacional porque no alcanza a los tribunales de otras provincias: si la causa tramita ahí, el día no corre"
+          }
+        ],
         "trasladables_verificados": [
           "2026-06-15",
           "2026-08-17",
@@ -45,11 +62,13 @@
         "pendientes": [],
         "notas": [
           "Puentes fijados por Resolución 164/2025 de la Jefatura de Gabinete (BO 26/12/2025): https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-164-2025-421799/texto",
-          "La Acordada CSJN 11/2026 instruye a las Cámaras Federales del interior a fijar sus propios diez días hábiles conforme Acordada 30/1984: en el interior las fechas pueden diferir"
+          "La Acordada CSJN 11/2026 instruye a las Cámaras Federales del interior a fijar sus propios diez días hábiles conforme Acordada 30/1984: en el interior las fechas pueden diferir",
+          "2026-10-20 inhábil para los tribunales nacionales y federales por la elección de los abogados al Consejo de la Magistratura: Acordada CSJN 26/2026, del 24/09/2026, sin perjuicio de la validez de los actos cumplidos: https://www.csjn.gov.ar/documentos/descargar?ID=182348",
+          "2026-11-09: feriado nacional en todo el territorio por la visita del papa León XIV, art. 2 del Decreto 1103/2026 (B.O. 28/09/2026), en fuentes/normas/decreto-1103-2026.txt. Si la visita se suspende, el feriado sigue mientras otra norma no modifique el decreto."
         ]
       },
       "pba": {
-        "verificado": "2026-09-13",
+        "verificado": "2026-11-01",
         "fuente": "https://www.scba.gov.ar/institucional/nota.asp?id=59013&veradjuntos=no",
         "ferias": [
           {
@@ -66,8 +85,10 @@
         "puentes_y_asuetos": [
           "2026-03-23",
           "2026-07-10",
-          "2026-12-07",
-          "2026-07-17"
+          "2026-07-17",
+          "2026-11-09",
+          "2026-11-11",
+          "2026-12-07"
         ],
         "asuetos_distritales": [
           {
@@ -75,6 +96,377 @@
             "alcance": "Partido de Laprida, Departamento Judicial de Azul",
             "motivo": "aniversario fundacional",
             "norma": "Res. RP 1140/26 SCBA",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-10-01",
+            "alcance": "HENDERSON, organismos y dependencias con sede ahí",
+            "motivo": "patronal",
+            "norma": "Res. RP 1324/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-10-04",
+            "alcance": "ROJAS, organismos y dependencias con sede ahí",
+            "motivo": "patronal",
+            "norma": "Res. RP 1324/26 SCBA, art. 2",
+            "efecto": "suspensión de términos, sin asueto"
+          },
+          {
+            "fecha": "2026-10-05",
+            "alcance": "DARREGUERIA, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1324/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-10-05",
+            "alcance": "MORON, organismos y dependencias con sede ahí",
+            "motivo": "patronal y aniversario fundacional",
+            "norma": "Res. RP 1324/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-10-07",
+            "alcance": "25 DE MAYO, organismos y dependencias con sede ahí",
+            "motivo": "patronal",
+            "norma": "Res. RP 1324/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-10-07",
+            "alcance": "ARRECIFES, organismos y dependencias con sede ahí",
+            "motivo": "patronal",
+            "norma": "Res. RP 1324/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-10-07",
+            "alcance": "MAIPU, organismos y dependencias con sede ahí",
+            "motivo": "patronal",
+            "norma": "Res. RP 1324/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-10-07",
+            "alcance": "MORENO, organismos y dependencias con sede ahí",
+            "motivo": "patronal",
+            "norma": "Res. RP 1324/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-10-08",
+            "alcance": "SAN ANDRES DE GILES, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1324/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-10-09",
+            "alcance": "ESCOBAR, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1324/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-10-12",
+            "alcance": "DEL PILAR, organismos y dependencias con sede ahí",
+            "motivo": "patronal",
+            "norma": "Res. RP 1324/26 SCBA, art. 2",
+            "efecto": "suspensión de términos, sin asueto"
+          },
+          {
+            "fecha": "2026-10-12",
+            "alcance": "NECOCHEA (CIUDAD), organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1324/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-10-15",
+            "alcance": "TRES DE FEBRERO, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1324/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-10-17",
+            "alcance": "LUJAN, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1324/26 SCBA, art. 2",
+            "efecto": "suspensión de términos, sin asueto"
+          },
+          {
+            "fecha": "2026-10-20",
+            "alcance": "EZEIZA, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1324/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-10-20",
+            "alcance": "JOSE C. PAZ, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1495/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-10-21",
+            "alcance": "BRANDSEN, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1324/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-10-22",
+            "alcance": "CHIVILCOY, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1324/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-10-23",
+            "alcance": "GENERAL PINTO, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1324/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-10-23",
+            "alcance": "SAN ANTONIO DE ARECO, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1324/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-10-24",
+            "alcance": "ITUZAINGÓ, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1324/26 SCBA, art. 2",
+            "efecto": "suspensión de términos, sin asueto"
+          },
+          {
+            "fecha": "2026-10-25",
+            "alcance": "GENERAL RODRIGUEZ, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1324/26 SCBA, art. 2",
+            "efecto": "suspensión de términos, sin asueto"
+          },
+          {
+            "fecha": "2026-10-25",
+            "alcance": "MORENO, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1324/26 SCBA, art. 2",
+            "efecto": "suspensión de términos, sin asueto"
+          },
+          {
+            "fecha": "2026-10-25",
+            "alcance": "PUNTA INDIO, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1324/26 SCBA, art. 2",
+            "efecto": "suspensión de términos, sin asueto"
+          },
+          {
+            "fecha": "2026-10-26",
+            "alcance": "GENERAL LAS HERAS, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1495/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-10-26",
+            "alcance": "MARCOS PAZ, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1324/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-10-26",
+            "alcance": "SUIPACHA, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1324/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-10-27",
+            "alcance": "ALBERTI, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1324/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-10-27",
+            "alcance": "NUEVE DE JULIO (CIUDAD), organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1324/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-10-28",
+            "alcance": "LEANDRO N ALEM, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1324/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-10-31",
+            "alcance": "BENITO JUAREZ, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1324/26 SCBA, art. 2",
+            "efecto": "suspensión de términos, sin asueto"
+          },
+          {
+            "fecha": "2026-11-01",
+            "alcance": "F. AMEGHINO, organismos y dependencias con sede ahí",
+            "motivo": "patronal",
+            "norma": "Res. RP 1553/26 SCBA, art. 2",
+            "efecto": "suspensión de términos, sin asueto"
+          },
+          {
+            "fecha": "2026-11-02",
+            "alcance": "LOS TOLDOS, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1553/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-11-04",
+            "alcance": "BERAZATEGUI, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1553/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-11-04",
+            "alcance": "BOLIVAR, organismos y dependencias con sede ahí",
+            "motivo": "patronal",
+            "norma": "Res. RP 1553/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-11-04",
+            "alcance": "CAPITAN SARMIENTO, organismos y dependencias con sede ahí",
+            "motivo": "patronal",
+            "norma": "Res. RP 1553/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-11-04",
+            "alcance": "TORNQUIST, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1553/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-11-07",
+            "alcance": "TAPALQUÉ, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1553/26 SCBA, art. 2",
+            "efecto": "suspensión de términos, sin asueto"
+          },
+          {
+            "fecha": "2026-11-08",
+            "alcance": "VEINTICINCODE MAYO, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1553/26 SCBA, art. 2",
+            "efecto": "suspensión de términos, sin asueto"
+          },
+          {
+            "fecha": "2026-11-10",
+            "alcance": "BORDENAVE, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1553/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-11-10",
+            "alcance": "GRAL SAN MARTIN, organismos y dependencias con sede ahí",
+            "motivo": "Ciudad de la Tradición",
+            "norma": "Res. RP 1553/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-11-11",
+            "alcance": "L.N. ALEM, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1553/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-11-13",
+            "alcance": "SALLIQUELÓ, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1553/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-11-16",
+            "alcance": "HENDERSON, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1553/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-11-18",
+            "alcance": "MONTE, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1553/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-11-19",
+            "alcance": "LA PLATA, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1553/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-11-20",
+            "alcance": "MAGDALENA, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1553/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-11-22",
+            "alcance": "GRAL PUEYRREDON, organismos y dependencias con sede ahí",
+            "motivo": "patronal",
+            "norma": "Res. RP 1553/26 SCBA, art. 2",
+            "efecto": "suspensión de términos, sin asueto"
+          },
+          {
+            "fecha": "2026-11-25",
+            "alcance": "OLAVARRIA, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1553/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-11-25",
+            "alcance": "PRESIDENTE PERÓN, organismos y dependencias con sede ahí",
+            "motivo": "aniversario fundacional",
+            "norma": "Res. RP 1553/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-11-27",
+            "alcance": "MONTE HERMOSO, organismos y dependencias con sede ahí",
+            "motivo": "patronal",
+            "norma": "Res. RP 1553/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-11-30",
+            "alcance": "MIRAMAR, organismos y dependencias con sede ahí",
+            "motivo": "patronal",
+            "norma": "Res. RP 1553/26 SCBA, art. 1",
+            "efecto": "asueto judicial con suspensión de términos"
+          },
+          {
+            "fecha": "2026-11-30",
+            "alcance": "SAN ANDRES DE GILES, organismos y dependencias con sede ahí",
+            "motivo": "patronal",
+            "norma": "Res. RP 1553/26 SCBA, art. 1",
             "efecto": "asueto judicial con suspensión de términos"
           }
         ],
@@ -85,13 +477,17 @@
           "2026-11-23"
         ],
         "pendientes": [
-          "Asuetos distritales de octubre a diciembre de 2026: la SCBA los publica mes a mes por resolución de Presidencia y a septiembre de 2026 no estaban dictados",
+          "Asuetos distritales de diciembre de 2026: la SCBA los publica mes a mes por resolución de Presidencia y a 01/11/2026 no estaban dictados",
           "Asuetos distritales de enero, marzo, abril, mayo y julio de 2026 (Res. RP 1605/25, 99/26, 297/26, 446/26, 493/26, 779/26 y 857/26): publicados como PDF escaneados sin capa de texto, no se pudieron leer. Podría figurar Tandil, aniversario fundacional del 4 de abril"
         ],
         "notas": [
           "El 17/07/2026 hubo suspensión de términos en todo el ámbito del Poder Judicial de PBA por contingencia del Centro de Datos (Res. RP 863/26): https://www.scba.gov.ar/institucional/nota.asp?id=59590&veradjuntos=no",
           "Las ferias de PBA y de la Nación coincidieron en 2026, pero por acordadas distintas y autónomas. No presumir coincidencia en otros años",
-          "Resoluciones de asuetos: https://www.scba.gov.ar/actualidad.asp?expre=asueto"
+          "Resoluciones de asuetos: https://www.scba.gov.ar/actualidad.asp?expre=asueto",
+          "Asuetos de noviembre de 2026: Res. RP 1553/26 SCBA, del 28/10/2026, con los partidos escritos como los escribe la resolución: https://www.scba.gov.ar/includes/descarga.asp?id=60390&n=Ver%20Resolucion_1553-26.pdf",
+          "Asuetos de octubre de 2026: Res. RP 1324/26 (30/09/2026) y RP 1495/26 SCBA, publicadas como PDF escaneados sin capa de texto y leídas en la imagen el 01/11/2026: https://www.scba.gob.ar/institucional/nota.asp?id=60198",
+          "2026-11-09: feriado nacional en todo el territorio por la visita del papa León XIV, art. 2 del Decreto 1103/2026 (B.O. 28/09/2026), en fuentes/normas/decreto-1103-2026.txt. Si la visita se suspende, el feriado sigue mientras otra norma no modifique el decreto.",
+          "2026-11-11: feriado en toda la Provincia de Buenos Aires por el art. 4 del Decreto 1103/2026 (B.O. 28/09/2026). Es inhábil por el art. 152 CPCCBA, que exceptúa de los días hábiles «los de fiestas aceptadas por la Nación» y «los que especialmente decrete el Poder Ejecutivo»: no hace falta resolución de la SCBA."
         ]
       }
     },

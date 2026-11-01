@@ -481,8 +481,8 @@ class TestDescargadorDeNormas(unittest.TestCase):
         """Las URLs de `diagnostico.py` duplican las de `normas.json`, y una copia se vence.
 
         Si el manifiesto cambia una URL, el diagnóstico sigue probando la vieja e informa que el
-        sitio anda sobre una dirección que nadie usa. La excepción es la API de series, que no es
-        una norma y por eso no está en ese catálogo.
+        sitio anda sobre una dirección que nadie usa. Las excepciones son las tres fuentes de
+        series, que no son normas y por eso no están en ese catálogo.
         """
         import diagnostico
         catalogo = json.loads((RAIZ_DEL_CHECKOUT / "derecho" / "fuentes" / "normas"
@@ -490,7 +490,8 @@ class TestDescargadorDeNormas(unittest.TestCase):
         urls = {n.get("url") for n in catalogo}
         for nombre, url in diagnostico.SITIOS:
             with self.subTest(nombre):
-                if "apis.datos.gob.ar" in url:
+                if any(api in url for api in ("apis.datos.gob.ar", "api.bcra.gob.ar",
+                                              "indec.gob.ar")):
                     continue
                 self.assertIn(url, urls,
                               f"{nombre} prueba una URL que ya no está en normas.json")
@@ -891,6 +892,208 @@ class TestDescargadorDeNormas(unittest.TestCase):
             fila = next(f for f in estado.revisar(Path(d)) if f["bloque"] == "sentencias")
             self.assertEqual(fila["estado"], "OK")
             self.assertNotIn("faltan", fila["detalle"])
+
+
+class TestBajarReintentaLoQueEsTransitorio(unittest.TestCase):
+    """MUTACIÓN que lo comprueba: volver a leer el cuerpo en el `else:` del `try` deja en rojo
+    `test_un_corte_a_mitad_del_cuerpo_se_reintenta`; volver a cortar ante todo `HTTPError`,
+    `test_un_503_se_reintenta`; volver a tragar el `zlib.error`,
+    `test_deflate_ilegible_no_pasa_como_texto`."""
+
+    @classmethod
+    def setUpClass(cls):
+        d = Path(__file__).resolve().parents[3] / "fuentes" / "scripts"
+        if not d.exists():
+            raise unittest.SkipTest("no esta la capa de fuentes")
+        sys.path.insert(0, str(d))
+
+    def _con_respuestas(self, *respuestas):
+        import io
+        import urllib.error
+        import _comun
+        cola = list(respuestas)
+
+        class Resp:
+            def __init__(self, cuerpo, falla=None):
+                self.cuerpo, self.falla, self.headers = cuerpo, falla, {}
+
+            def read(self):
+                if self.falla:
+                    raise self.falla
+                return self.cuerpo
+
+            def __enter__(self):
+                return self
+
+            def __exit__(self, *e):
+                return False
+
+        def falso(req, timeout=None, context=None):
+            r = cola.pop(0)
+            if isinstance(r, int):
+                raise urllib.error.HTTPError(req.full_url, r, "x", {}, io.BytesIO())
+            if isinstance(r, Exception):
+                return Resp(b"", r)
+            return Resp(r)
+
+        orig = (_comun.urllib.request.urlopen, _comun.time.sleep)
+        _comun.urllib.request.urlopen, _comun.time.sleep = falso, lambda s: None
+        self.addCleanup(setattr, _comun.urllib.request, "urlopen", orig[0])
+        self.addCleanup(setattr, _comun.time, "sleep", orig[1])
+        return _comun
+
+    def test_un_corte_a_mitad_del_cuerpo_se_reintenta(self):
+        c = self._con_respuestas(ConnectionResetError("corte"), b"<html>ok</html>")
+        self.assertEqual(c.bajar("https://x.gob.ar", reintentos=2)[0], b"<html>ok</html>")
+
+    def test_un_503_se_reintenta(self):
+        c = self._con_respuestas(503, b"ok")
+        self.assertEqual(c.bajar("https://x.gob.ar", reintentos=2)[0], b"ok")
+
+    def test_un_404_no_se_reintenta(self):
+        c = self._con_respuestas(404, b"ok")
+        with self.assertRaises(c.ErrorDeDescarga):
+            c.bajar("https://x.gob.ar", reintentos=2)
+
+    def test_deflate_con_y_sin_encabezado(self):
+        import zlib
+        import _comun
+        crudo = zlib.compressobj(wbits=-zlib.MAX_WBITS)
+        sin = crudo.compress(b"texto") + crudo.flush()
+        self.assertEqual(_comun._descomprimir(zlib.compress(b"texto"), "deflate"), b"texto")
+        self.assertEqual(_comun._descomprimir(sin, "deflate"), b"texto")
+
+    def test_deflate_ilegible_no_pasa_como_texto(self):
+        import _comun
+        with self.assertRaises(_comun.ErrorDeDescarga):
+            _comun._descomprimir(b"no es deflate", "deflate")
+
+
+class TestEscribirTextoNoTraduceSaltos(unittest.TestCase):
+    """El hash del archivo no puede depender de la máquina que bajó.
+
+    MUTACIÓN que lo comprueba: sacar el `newline=""` de `escribir_texto` deja esto en rojo
+    sólo en Windows, que es donde se traduce: el job de Windows de CI corre los scripts, no
+    esta suite, así que lo que se fija acá es el contrato y no la plataforma."""
+
+    def test_los_bytes_son_los_del_texto(self):
+        sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "fuentes" / "scripts"))
+        import _comun
+        with tempfile.TemporaryDirectory() as d:
+            ruta = Path(d) / "x.txt"
+            _comun.escribir_texto(ruta, "a\r\nb\nc")
+            self.assertEqual(ruta.read_bytes(), "a\r\nb\nc".encode("utf-8"))
+
+
+class TestElCERDelBCRA(unittest.TestCase):
+    """El CER se colapsa al último día de cada mes, y un mes sin ese día no entra.
+
+    MUTACIÓN que lo comprueba: cambiar el `if dia == calendar.monthrange(...)` por quedarse con
+    el último día disponible del mes deja en rojo `test_el_mes_en_curso_no_entra`; cortar la
+    paginación después de la primera página, `test_pagina_hasta_el_final`."""
+
+    @classmethod
+    def setUpClass(cls):
+        sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "fuentes" / "scripts"))
+
+    def _con_dias(self, dias, pagina=None):
+        import descargar_series as ds
+        pedidos = []
+
+        def falso(url, **kw):
+            pedidos.append(url)
+            offset = int(url.rsplit("offset=", 1)[1])
+            tam = pagina or ds.PAGINA_BCRA
+            lote = [{"fecha": f, "valor": v} for f, v in dias[offset:offset + tam]]
+            return json.dumps({"results": [{"detalle": lote}]}).encode(), "utf-8", ""
+
+        orig_bajar, orig_pagina = ds.bajar, ds.PAGINA_BCRA
+        ds.bajar = falso
+        if pagina:
+            ds.PAGINA_BCRA = pagina
+        self.addCleanup(setattr, ds, "bajar", orig_bajar)
+        self.addCleanup(setattr, ds, "PAGINA_BCRA", orig_pagina)
+        return ds, pedidos
+
+    def test_el_mes_en_curso_no_entra(self):
+        dias = [("2026-09-29", 1.0), ("2026-09-30", 2.0), ("2026-10-15", 3.0)]
+        ds, _ = self._con_dias(dias)
+        filas = ds.pedir_bcra(ds.SERIES["cer"], "2026-09", hasta="2026-10-15")
+        self.assertEqual(filas, [["2026-09-30", "2.0"]])
+
+    def test_pagina_hasta_el_final(self):
+        dias = [("2026-01-31", 1.0), ("2026-02-28", 2.0), ("2026-03-31", 3.0)]
+        ds, pedidos = self._con_dias(dias, pagina=2)
+        filas = ds.pedir_bcra(ds.SERIES["cer"], "2026-01", hasta="2026-04-01")
+        self.assertEqual([f[0][:7] for f in filas], ["2026-01", "2026-02", "2026-03"])
+        self.assertEqual(len(pedidos), 2)
+
+
+
+class TestElRIPTEDeLaPaginaOficial(unittest.TestCase):
+    """La API estatal dejó de servir el RIPTE y la página del organismo lo publica en una tabla.
+    Los meses nuevos entran sólo si los comunes coinciden al centavo con el archivo.
+
+    MUTACIÓN que lo comprueba: sacar el control `abs(previos[p] - v) > 0.005` de `completar()`
+    deja en rojo `test_una_diferencia_en_un_mes_comun_no_se_acepta`; aceptar sin meses comunes,
+    `test_sin_solapamiento_no_se_agrega`."""
+
+    @classmethod
+    def setUpClass(cls):
+        sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "fuentes" / "scripts"))
+
+    HTML = ("<table><tr><th>Mes</th><th>Monto</th></tr>"
+            "<tr><td data-label=x>Agosto2026</td><td>$ 1.982.518,19</td><td>1,9%</td></tr>"
+            "<tr><td>Julio2026</td><td>$ 1.946.028,12</td></tr>"
+            "<tr><td>Febrero/2025</td><td>$ 1.310.357,80</td></tr></table>")
+
+    def test_lee_las_dos_formas_del_mes(self):
+        import descargar_series as ds
+        self.assertEqual(ds.leer_tabla_ripte(self.HTML),
+                         [("2025-02", 1310357.80), ("2026-07", 1946028.12),
+                          ("2026-08", 1982518.19)])
+
+    def test_completa_cuando_los_meses_comunes_coinciden(self):
+        import descargar_series as ds
+        unidos, motivo = ds.completar([("2026-06", 1.0), ("2026-07", 1946028.12)],
+                                      [("2026-07", 1946028.12), ("2026-08", 1982518.19)])
+        self.assertIsNone(motivo)
+        self.assertEqual([p for p, _ in unidos], ["2026-06", "2026-07", "2026-08"])
+
+    def test_una_diferencia_en_un_mes_comun_no_se_acepta(self):
+        import descargar_series as ds
+        unidos, motivo = ds.completar([("2026-07", 1946028.12)],
+                                      [("2026-07", 1946028.13), ("2026-08", 1982518.19)])
+        self.assertIsNone(unidos)
+        self.assertIn("2026-07", motivo)
+
+    def test_sin_solapamiento_no_se_agrega(self):
+        import descargar_series as ds
+        unidos, motivo = ds.completar([("2026-05", 1.0)], [("2026-08", 2.0)])
+        self.assertIsNone(unidos)
+
+
+
+class TestElIPCDelINDEC(unittest.TestCase):
+    """El CSV del INDEC trae todas las regiones y divisiones juntas: el filtro es lo que separa el
+    nivel general nacional de otra serie con el mismo formato.
+
+    MUTACIÓN que lo comprueba: sacar la condición sobre `Region` en `leer_ipc_indec()` deja en
+    rojo `test_toma_solo_el_nivel_general_nacional`."""
+
+    CSV = ("Codigo;Descripcion;Clasificador;Periodo;Indice_IPC;v_m_IPC;v_i_a_IPC;Region\n"
+           "0;NIVEL GENERAL;Nivel general;201612;100;NA;NA;GBA\n"
+           "0;NIVEL GENERAL;Nivel general;201612;100;NA;NA;Nacional\n"
+           "0;NIVEL GENERAL;Nivel general;202609;12514,1508;1,9;30;Nacional\n"
+           "0;NIVEL GENERAL;Nivel general;202609;12600,5;2;31;GBA\n"
+           "01;Alimentos;Division;202609;13000;2;31;Nacional\n")
+
+    def test_toma_solo_el_nivel_general_nacional(self):
+        sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "fuentes" / "scripts"))
+        import descargar_series as ds
+        self.assertEqual(ds.leer_ipc_indec(self.CSV, "2016-12"),
+                         [["2016-12-01", "100"], ["2026-09-01", "12514.1508"]])
+        self.assertEqual(ds.leer_ipc_indec(self.CSV, "2026-01"), [["2026-09-01", "12514.1508"]])
 
 
 if __name__ == "__main__":

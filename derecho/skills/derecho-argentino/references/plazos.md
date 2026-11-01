@@ -59,6 +59,24 @@ las nacionales.** Verificar las fechas del año en curso. Durante la feria los p
 suspendidos; la habilitación no es automática. Feriados trasladables (Ley 27.399): verificar
 el día de la semana en el año del cómputo antes de descontarlos.
 
+**Qué días no corren, según la ley de cada fuero.** No es lo mismo un feriado, un día no laborable
+y un asueto:
+
+| | Justicia nacional y federal | PBA |
+| --- | --- | --- |
+| **Regla** | Art. 152 CPCCN: hábiles todos, *"con excepción de los que determine el Reglamento para la Justicia Nacional"* | Art. 152 CPCCBA: hábiles todos, *"con excepción de los de fiestas aceptadas por la Nación; los previstos por la ley provincial; los que especialmente decrete el Poder Ejecutivo"* y la feria |
+| **No corren** | Art. 2 RJN: los días *"que por disposición del Congreso o del Poder Ejecutivo no sean laborables"*, los que la Corte declare feriados judiciales y, en el interior, *"los días señalados no laborables por los respectivos gobiernos"* | Los de la regla, más los asuetos que la SCBA disponga *"cuando un acontecimiento extraordinario así lo exija"* |
+| **El asueto** | Art. 3 RJN: *"El asueto no inhabilita el día"*. Corre, salvo que la Corte lo declare inhábil, como hizo con el 20/10/2026 en la Acordada 26/2026 | Depende de la resolución: la SCBA distingue el asueto **con** suspensión de términos de la suspensión sin asueto |
+
+**Un feriado de alcance territorial no es nacional.** El Decreto 1103/2026, por la visita del papa
+León XIV, fijó el **9/11/2026 feriado nacional** (art. 2), el **10/11 sólo en Córdoba y la Ciudad**
+(art. 3) y el **11/11 sólo en PBA** (art. 4). El 10/11 no corre para los tribunales nacionales y
+federales **con asiento en la Ciudad o en Córdoba**, y corre para los demás; el 11/11 no corre en
+toda la justicia bonaerense ni en los tribunales federales con asiento en la provincia.
+`scripts/plazos.py` descuenta lo que alcanza a toda la jurisdicción y **informa sin descontar** lo
+que depende de dónde tramita la causa. Cotejado contra `fuentes/normas/decreto-1103-2026.txt`,
+`reglamento-justicia-nacional.txt`, `cpccn-17454.txt` y `pba-cpccba-7425.txt`, art. 152.
+
 ### 8.4 Suspensión por conciliación o mediación — los regímenes NO son equivalentes
 
 | Régimen | Norma | Efecto |

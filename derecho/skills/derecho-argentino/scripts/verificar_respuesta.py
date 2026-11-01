@@ -132,7 +132,14 @@ def main(argv: list[str]) -> int:
     roto = total = 0
     for ruta in a.archivos:
         if ruta == "-":
-            etiqueta, texto = "respuesta", sys.stdin.read()
+            # En bytes y como UTF-8: `sys.stdin.read()` decodifica con el locale, que en
+            # Windows es cp1252, y `VACÍO PROBATORIO` llegaría roto y como desconocido.
+            try:
+                texto = sys.stdin.buffer.read().decode("utf-8-sig")
+            except UnicodeDecodeError as e:
+                print(f"la entrada no es UTF-8: {e}", file=sys.stderr)
+                return 2
+            etiqueta = "respuesta"
         else:
             archivo = pathlib.Path(ruta)
             if not archivo.is_file():

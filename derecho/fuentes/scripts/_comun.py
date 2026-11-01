@@ -4,6 +4,7 @@ from __future__ import annotations
 import gzip
 import hashlib
 import html
+import http.client
 import json
 import re
 from datetime import datetime, timedelta, timezone
@@ -111,13 +112,20 @@ def _descomprimir(crudo: bytes, encoding: str) -> bytes:
     """Algunos sitios oficiales sirven HTML grande comprimido. Pedirlo así baja mucho el
     tiempo de transferencia en enlaces lentos, que es donde aparecen los timeouts."""
     encoding = (encoding or "").lower()
-    try:
-        if "gzip" in encoding:
+    if "gzip" in encoding:
+        try:
             return gzip.decompress(crudo)
-        if "deflate" in encoding:
-            return zlib.decompress(crudo, -zlib.MAX_WBITS)
-    except (OSError, zlib.error):
-        pass
+        except (OSError, EOFError, zlib.error) as e:
+            raise ErrorDeDescarga(
+                f"el cuerpo declarado gzip no se pudo descomprimir: {e}") from e
+    if "deflate" in encoding:
+        # El RFC dice zlib con encabezado; varios servidores mandan deflate crudo.
+        for wbits in (zlib.MAX_WBITS, -zlib.MAX_WBITS):
+            try:
+                return zlib.decompress(crudo, wbits)
+            except zlib.error:
+                continue
+        raise ErrorDeDescarga("el cuerpo declarado deflate no se pudo descomprimir")
     return crudo
 
 
@@ -230,8 +238,9 @@ def fragmento_div(crudo: bytes, clase: str) -> bytes | None:
 def bajar(url: str, timeout: int = 180, reintentos: int = 3, verboso: bool = False):
     """Devuelve (bytes_crudos, charset_declarado, content_type).
 
-    Reintenta ante timeout y errores de red transitorios, con espera creciente. No reintenta
-    ante un 404 ni ante un error de certificado: eso no se arregla insistiendo.
+    Reintenta ante timeout, errores de red transitorios —también a mitad del cuerpo— y las
+    respuestas HTTP 429 y 5xx, con espera creciente. No reintenta ante otro código HTTP ni
+    ante un error de certificado: eso no se arregla insistiendo.
 
     Nunca desactiva la verificación TLS: si el certificado no valida, el problema se informa
     con la solución. Bajar una norma sin verificar de donde viene contradice el sentido de
@@ -248,9 +257,15 @@ def bajar(url: str, timeout: int = 180, reintentos: int = 3, verboso: bool = Fal
     for intento in range(1, reintentos + 1):
         t0 = time.monotonic()
         try:
-            r = urllib.request.urlopen(req, timeout=timeout, context=contexto_ssl())
+            with urllib.request.urlopen(req, timeout=timeout, context=contexto_ssl()) as r:
+                crudo = r.read()
+                ctype = r.headers.get("Content-Type", "")
+                cenc = r.headers.get("Content-Encoding", "")
         except urllib.error.HTTPError as e:
-            raise ErrorDeDescarga(f"HTTP {e.code} {e.reason}") from e
+            e.close()
+            if e.code != 429 and e.code < 500:
+                raise ErrorDeDescarga(f"HTTP {e.code} {e.reason}") from e
+            ultimo = f"HTTP {e.code} {e.reason}"
         except urllib.error.URLError as e:
             motivo = getattr(e, "reason", e)
             if isinstance(motivo, ssl.SSLCertVerificationError):
@@ -262,13 +277,9 @@ def bajar(url: str, timeout: int = 180, reintentos: int = 3, verboso: bool = Fal
             ultimo = f"{type(motivo).__name__}: {motivo}"
         except (socket.timeout, TimeoutError):
             ultimo = f"TimeoutError tras {timeout}s"
-        except OSError as e:
+        except (OSError, http.client.HTTPException) as e:
             ultimo = f"{type(e).__name__}: {e}"
         else:
-            with r:
-                crudo = r.read()
-                ctype = r.headers.get("Content-Type", "")
-                cenc = r.headers.get("Content-Encoding", "")
             crudo = _descomprimir(crudo, cenc)
             if verboso:
                 print(f"              (intento {intento}: {len(crudo):,} bytes en "
@@ -401,9 +412,20 @@ def cargar_revisiones() -> dict:
             for slug, vs in crudo.items()}
 
 
+def escribir_texto(ruta, texto: str) -> None:
+    """UTF-8 sin traducir saltos de línea. `write_text` en Windows convierte cada `\n` en
+    `\r\n` —y un `\r\n` del original en `\r\r\n`—, así que el mismo texto daría otro
+    `sha256_archivo` según la máquina que bajó."""
+    with open(ruta, "w", encoding="utf-8", newline="") as fh:
+        fh.write(texto)
+
+
+def escribir_json(ruta, datos) -> None:
+    escribir_texto(ruta, json.dumps(datos, ensure_ascii=False, indent=2) + "\n")
+
+
 def guardar_procedencia(p: dict) -> None:
-    PROCEDENCIA.write_text(json.dumps(p, ensure_ascii=False, indent=2) + "\n",
-                           encoding="utf-8")
+    escribir_json(PROCEDENCIA, p)
 
 
 # --- Controles de sanidad de lo descargado ------------------------------------------

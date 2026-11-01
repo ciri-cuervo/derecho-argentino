@@ -1,5 +1,5 @@
 ---
-titulo: DIPr - prórroga tácita ya operada, jurisdicción exclusiva sobre inmueble y arraigo al extranjero
+titulo: DIPr - la prórroga tácita, que el Código da por operada y el tratado no, jurisdicción exclusiva sobre inmueble y arraigo al extranjero
 ---
 ## Rúbrica · dipr-prorroga-tacita-y-jurisdiccion-exclusiva
 
@@ -14,22 +14,32 @@ contra `fuentes/normas/ccycn-26994.txt`. Lo que este módulo **no** cubre es la 
   Código hay que descartar un instrumento internacional aplicable. **El Código es
   subsidiario.**
 
-- [ ] **No transcribe articulado de ningún tratado.** El texto de los instrumentos del
-  Mercosur sobre jurisdicción contractual **no está en `fuentes/normas/`** —lo que hay son
-  las Leyes 23.857 y 25.358, de restitución internacional—, así que la remisión va con
-  marcador. **Citar artículos concretos de un tratado no bajado se computa como ERROR.**
+- [ ] **Cita los tratados contra el texto bajado.** Están en `fuentes/normas/` el **Protocolo de
+  Buenos Aires** (`ley-24669.txt`) y los **Tratados de Montevideo de 1940**
+  (`decreto-ley-7771-1956.txt`), y `dipr.md` 35.1 bis los trae. Lo que no está cargado es
+  **qué Estados siguen vinculados** por cada uno, y eso va con marcador. **Atribuirle a un
+  tratado un contenido que su texto no tiene, o citar el articulado de un instrumento que no
+  está bajado, se computa como ERROR.** Este punto **se lee, no tiene grader**: un juez que no
+  tiene el texto del tratado no puede saber si una cita es fiel, y el que hubo reprobó dos
+  respuestas que citaban bien los arts. 6 y 13 del Protocolo. Se coteja con
+  `articulo.py ley-24669 <art> --anexo 1`.
 
-- [ ] **Determina que la jurisdicción argentina ya quedó prorrogada tácitamente** y que la
-  cláusula 14 no sirve para llevar el pleito a Montevideo. Funda en el **art. 2607**: para el
-  demandado la prórroga opera cuando contesta la demanda, **deja de hacerlo**, u **opone
-  excepciones previas sin articular la declinatoria**. Oponer defecto legal y falta de
-  personería sin declinatoria es exactamente ese supuesto. Que la cláusula cumpla los
-  requisitos del art. 2605 —patrimonial, internacional, por escrito— es cierto y no alcanza:
-  la oportunidad se consumió.
+- [ ] **Condiciona la pregunta 1 al régimen aplicable, y no la cierra en ningún sentido.**
+  **Bajo el Código** la jurisdicción argentina ya quedó prorrogada: el **art. 2607** la da por
+  operada cuando el demandado **opone excepciones previas sin articular la declinatoria**, que
+  es lo que pasó. **Bajo el Protocolo de Buenos Aires** —sociedades con sede en Argentina y en
+  Uruguay, contrato comercial, art. 1 inc. a—, el **art. 6** sólo prorroga a favor del Estado
+  donde se promovió la acción *"cuando el demandado después de interpuesta ésta la admita
+  voluntariamente, en forma positiva y no ficta"*, y el **art. 4** da competencia al foro
+  elegido por escrito. Si oponer defecto legal y falta de personería es una admisión positiva
+  no está resuelto en el repositorio: va con marcador. **Montevideo 1940** corta distinto: su
+  **art. 56** no admite la prórroga pactada antes del litigio, así que concluir que bajo ese
+  tratado la cláusula 14 no sirve es correcto. Que la cláusula cumpla los requisitos del art. 2605 es cierto y
+  no decide nada.
 
 - [ ] **Separa la ejecución hipotecaria del pleito contractual.** El inmueble está en Tigre,
   así que la ejecución es materia de **jurisdicción exclusiva argentina** por el **art. 2609
-  inc. a)** —derechos reales sobre inmuebles situados en la República— y donde hay
+  inc. a)** —y el **art. 2 inc. 9** del Protocolo excluye los derechos reales de su ámbito— —derechos reales sobre inmuebles situados en la República— y donde hay
   jurisdicción exclusiva **no hay prórroga posible** (art. 2605). La cláusula 14 es inválida
   para ese tramo con independencia de lo que pasó con las excepciones, y una sentencia
   uruguaya sobre esa materia no sería reconocible acá.
@@ -55,8 +65,8 @@ contra `fuentes/normas/ccycn-26994.txt`. Lo que este módulo **no** cubre es la 
   argentino**. **Presentarlo como un hecho que la parte pierde si no prueba se computa como
   ERROR.**
 
-- [ ] **Emite marcadores** por lo que no puede verificar: el instrumento del Mercosur que no
-  está bajado, la ausencia de precedente propio sobre prórroga tácita y jurisdicción exclusiva
+- [ ] **Emite marcadores** por lo que no puede verificar: qué Estados siguen vinculados por el
+  Protocolo y por Montevideo 1940, si las excepciones opuestas son admisión positiva, la ausencia de precedente propio sobre prórroga tácita y jurisdicción exclusiva
   —declarada en `dipr.md` 35.9— y el contenido del derecho uruguayo, que el cliente no aporta.
 
 ### Deseables (suman, no bloquean)
@@ -73,11 +83,11 @@ contra `fuentes/normas/ccycn-26994.txt`. Lo que este módulo **no** cubre es la 
 
 ### Errores que hacen fallar el caso
 
-1. Dar por viva la cláusula 14 para la acción contractual, sin ver la prórroga tácita del art.
-   2607.
+1. Cerrar la pregunta 1 por el Código sin considerar el tratado, o por el tratado sin decir que
+   bajo el art. 2607 la prórroga ya operó.
 2. Mandar la ejecución hipotecaria a Montevideo.
 3. Aconsejar el arraigo por el domicilio en el exterior.
 4. Ofrecer reenvío o cláusula de excepción contra el derecho pactado.
 5. Poner la prueba del derecho extranjero como carga de la parte, so pena de perder.
-6. Transcribir articulado de un tratado que no está en `fuentes/`.
+6. Atribuirle a un tratado un contenido que su texto bajado no tiene, o citar uno que no está en `fuentes/`.
 7. Empezar por el art. 2650 o por la jurisdicción del Código sin descartar antes el tratado.
