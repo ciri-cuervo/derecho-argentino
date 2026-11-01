@@ -27,8 +27,11 @@
 | **Penal, Contravencional y de Faltas** | **Ley 2.303** (CPP CABA), **Ley 1.472**, **Ley 451** y **Ley 1.217** [VERIFICAR VIGENCIA] | El procedimiento, en `contravencional-caba.md` 56. Las normas están bajadas; **lo que no hay es módulo de la pieza que firma el juez penal porteño** |
 | **Relaciones de Consumo** | **Ley 6.407** [VERIFICAR VIGENCIA] | El proceso, en `consumo-caba.md` 47 |
 | Civil y comercial general | **No existe código local.** Tramita en la justicia nacional, por CPCCN | `sede-judicial-nacional.md` 1.8 |
+| **Del Trabajo** | **En formación.** La Legislatura aprobó el acuerdo de *"Transferencia de la Función Judicial en Materia Laboral del Ámbito Nacional"* a la Justicia del Trabajo de la Ciudad, firmado el 09/02/2026: **Res. 451/LCABA/26**, sancionada el 27/08/2026 y publicada el 31/08/2026 | **Sin módulo.** Mientras el fuero porteño no funcione, la causa laboral de la Ciudad es de la justicia nacional del trabajo y va por `laboral.md` y `sede-judicial-nacional.md` |
 
 `[REVISIÓN NORMATIVA REQUERIDA: el traspaso de competencias de la justicia nacional a CABA es un proceso abierto y avanza por convenios sucesivos. Antes de afirmar qué tribunal entiende en una causa de CABA, verificar el estado del traspaso para esa materia a la fecha de la consulta]`
+
+`[VERIFICAR VIGENCIA: fecha en que empieza a funcionar la Justicia del Trabajo de la Ciudad y qué causas recibe - el acuerdo aprobado por la Res. 451/LCABA/26 está en su Anexo I, que no está cargado en fuentes/; hasta esa fecha la causa laboral porteña sigue en la justicia nacional]`
 
 ### 1.9.2 Qué tiene que contener la sentencia definitiva — art. 147 CCAyT
 

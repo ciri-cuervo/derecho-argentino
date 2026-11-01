@@ -104,6 +104,12 @@ def _periodo_a_fecha(p):
         return None
 
 
+# Un archivo de datos editado a mano puede ser JSON válido con otra forma: una entrada sin
+# `slug`, un registro que no es objeto. El diagnóstico lo reporta como ilegible en su bloque, en
+# vez de morir con un traceback y no informar ninguno de los demás.
+ILEGIBLE = (OSError, ValueError, KeyError, TypeError, AttributeError)
+
+
 def revisar(raiz: Path) -> list[dict]:
     """Un dict por bloque de datos: nombre, estado, detalle, días, arreglo."""
     F = base(raiz) / "fuentes"
@@ -119,7 +125,9 @@ def revisar(raiz: Path) -> list[dict]:
     ruta = F / "normas" / "normas.json"
     try:
         m = json.loads(ruta.read_text(encoding="utf-8"))
-    except (OSError, ValueError):
+        if not isinstance(m, dict):
+            raise ValueError("normas.json no es un objeto")
+    except ILEGIBLE:
         add("normas", "FALTA", f"no se pudo leer {ruta.name}",
             arreglo="revisar la instalación del plugin")
     else:
@@ -150,15 +158,15 @@ def revisar(raiz: Path) -> list[dict]:
     try:
         mj = json.loads((F / "jurisprudencia" / "fallos.json").read_text(encoding="utf-8"))
         pj = json.loads((F / "jurisprudencia" / "procedencia.json").read_text(encoding="utf-8"))
-    except (OSError, ValueError):
-        add("fallos", "FALTA", "no se pudo leer fallos.json o su procedencia",
-            arreglo="revisar la instalación del plugin")
-    else:
         regj = pj.get("fallos", {})
         censo = {"cotejado": 0, "no aplica": 0, "revisar": 0, "sin cotejo": 0}
         for f in mj.get("fallos", []):
             estado = str(regj.get(f["slug"], {}).get("cotejo", "")).split(":")[0].strip()
             censo[estado if estado in censo else "sin cotejo"] += 1
+    except ILEGIBLE:
+        add("fallos", "FALTA", "no se pudo leer fallos.json o su procedencia",
+            arreglo="revisar la instalación del plugin")
+    else:
         total = sum(censo.values())
         pendiente = censo["revisar"] + censo["sin cotejo"]
         add("fallos", "REVISAR" if pendiente else "OK",
@@ -185,7 +193,7 @@ def revisar(raiz: Path) -> list[dict]:
             f"{bajadas} de {declaradas} normas con URL están descargadas"
             + (f"; faltan {faltan}" if faltan > 0 else ""),
             arreglo="/derecho:actualizar" if faltan > 0 else None)
-    except (OSError, ValueError):
+    except ILEGIBLE:
         add("descargas", "FALTA", "no se pudo leer procedencia.json",
             arreglo="/derecho:actualizar")
 
@@ -204,7 +212,7 @@ def revisar(raiz: Path) -> list[dict]:
             f"{len(con_url_j) - len(pend_j)} de {len(con_url_j)} fallos con URL están descargados"
             + (f"; faltan {len(pend_j)}" if pend_j else ""),
             arreglo="/derecho:actualizar" if pend_j else None)
-    except (OSError, ValueError):
+    except ILEGIBLE:
         add("sentencias", "FALTA", "no se pudo leer jurisprudencia/procedencia.json",
             arreglo="/derecho:actualizar")
 
@@ -329,7 +337,7 @@ def revisar(raiz: Path) -> list[dict]:
             + (f"; falta cargar {', '.join(faltan)}" if faltan else ""),
             arreglo=("cargar las acordadas de feria en fuentes/datos/inhabiles.json"
                      if faltan else None))
-    except (OSError, ValueError):
+    except ILEGIBLE:
         add("inhabiles", "FALTA", "no se pudo leer inhábiles.json",
             arreglo="revisar la instalación del plugin")
     return out

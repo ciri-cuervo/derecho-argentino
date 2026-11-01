@@ -21,11 +21,11 @@ técnica: depende de qué norma o doctrina rige el crédito. Ver `references/lab
 from __future__ import annotations
 
 import argparse
-import csv
 from datetime import date
 from decimal import Decimal, ROUND_HALF_UP
 
 from _raiz import datos
+from _tablas import TablaInvalida, leer_tabla
 
 CENT = Decimal("0.01")
 
@@ -41,12 +41,12 @@ def cargar_serie(nombre: str, repo=None):
     cand = d / f"serie-{nombre}.csv"
     if not cand.is_file():
         return {}, None
-    lineas = [l for l in cand.read_text(encoding="utf-8").splitlines()
-              if l.strip() and not l.lstrip().startswith("#")]
-    filas = [f for f in csv.DictReader(lineas) if f.get("indice")]
+    try:
+        filas = leer_tabla(cand, "periodo", "indice", formato="periodo")
+    except TablaInvalida as e:
+        raise SystemExit(f"{e}: corregir la serie antes de actualizar.")
     raiz = cand.parents[3]
-    return ({f["periodo"]: Decimal(f["indice"]) for f in filas},
-            str(cand.relative_to(raiz)))
+    return {f["periodo"]: f["valor"] for f in filas}, str(cand.relative_to(raiz))
 
 
 def main():
@@ -56,7 +56,7 @@ def main():
     p.add_argument("--capital", required=True, type=Decimal)
     p.add_argument("--desde", required=True, type=date.fromisoformat)
     p.add_argument("--hasta", required=True, type=date.fromisoformat)
-    p.add_argument("--serie", default="ipc", help="Nombre de la serie: ipc, ripte, cer")
+    p.add_argument("--serie", default="ipc", choices=["ipc", "ripte", "cer"])
     p.add_argument("--interes-puro", type=Decimal, default=Decimal("6"),
                    help="Interés puro anual. 'Barrios' fija un TECHO del 6%%, no una tasa fija")
     p.add_argument("--tna", type=Decimal, default=None, help="Tasa nominal anual, modo tasa")
@@ -70,7 +70,7 @@ def main():
     marcadores = []
 
     print("ACTUALIZACIÓN E INTERESES\n")
-    print(f"  Capital           {float(q(a.capital)):>18,.2f}")
+    print(f"  Capital           {q(a.capital):>18,.2f}")
     print(f"  Período           {a.desde.isoformat()} a {a.hasta.isoformat()}  ({dias} días)")
 
     if a.modo == "indice":
@@ -94,14 +94,14 @@ def main():
         actualizado = a.capital * coef
         puro = actualizado * a.interes_puro / 100 * Decimal(dias) / Decimal(365)
         print(f"  Serie             {a.serie.upper()}  ({ruta})")
-        print(f"  Índice {p0}    {float(serie[p0]):>18,.4f}")
-        print(f"  Índice {p1}    {float(serie[p1]):>18,.4f}")
-        print(f"  Coeficiente       {float(coef):>18,.6f}")
+        print(f"  Índice {p0}    {serie[p0]:>18,.4f}")
+        print(f"  Índice {p1}    {serie[p1]:>18,.4f}")
+        print(f"  Coeficiente       {coef:>18,.6f}")
         print()
-        print(f"  Capital actualizado          {float(q(actualizado)):>18,.2f}")
+        print(f"  Capital actualizado          {q(actualizado):>18,.2f}")
         print(f"  Interés puro {float(a.interes_puro)}% anual      "
-              f"{float(q(puro)):>18,.2f}")
-        print(f"  TOTAL                        {float(q(actualizado + puro)):>18,.2f}")
+              f"{q(puro):>18,.2f}")
+        print(f"  TOTAL                        {q(actualizado + puro):>18,.2f}")
         marcadores.append(
             "[VERIFICAR MONTO ACTUALIZADO: valores de la serie utilizada - contrastar contra "
             "la publicación oficial del organismo a la fecha del cálculo]")
@@ -113,11 +113,11 @@ def main():
         if a.tna is None:
             raise SystemExit("--tna es obligatorio en modo tasa")
         interes = a.capital * a.tna / 100 * Decimal(dias) / Decimal(365)
-        print(f"  TNA               {float(a.tna):>18,.2f} %")
+        print(f"  TNA               {a.tna:>18,.2f} %")
         print("  Base de cálculo   días/365, sobre capital nominal, sin capitalización")
         print()
-        print(f"  Interés                      {float(q(interes)):>18,.2f}")
-        print(f"  TOTAL                        {float(q(a.capital + interes)):>18,.2f}")
+        print(f"  Interés                      {q(interes):>18,.2f}")
+        print(f"  TOTAL                        {q(a.capital + interes):>18,.2f}")
         marcadores.append(
             "[VERIFICAR TASA VIGENTE: fuero - instrumento que fija la tasa y su valor para "
             "cada tramo del período; este cálculo usa una tasa única y sin capitalización]")

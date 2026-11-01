@@ -4,11 +4,11 @@
 #   otras profesiones (peritos contadores, entre otras). NO usar para abogados.
 # Tabla oficial vigente: https://www.scba.gov.ar/paginas.asp?id=41320
 # Serie histórica (dic-2017 a nov-2023): https://www.scba.gov.ar/paginas.asp?id=46792
-# verificado: 2026-09-18
+# verificado: 2026-11-01
 # La línea de arriba la lee `estado.py` y su forma es contrato: `# verificado: AAAA-MM-DD`,
 # la fecha en que alguien abrió la tabla oficial. La SCBA publica con rezago, así que el
 # valor puede tener meses sin que falte cargar nada; lo que vence no es el valor, es la
-# mirada. Al 17/09/2026 el último publicado sigue siendo el del 01/08/2026, RP-873/2026.
+# mirada. Al 01/11/2026 el último publicado es el del 01/11/2026, RP-1517/2026.
 vigencia_desde,jus_ley_14967,jus_dl_8904,norma,fuente
 2024-01-01,19546,13357,,https://www.scba.gov.ar/paginas.asp?id=41320
 2024-02-01,23143,15815,,https://www.scba.gov.ar/paginas.asp?id=41320
@@ -33,3 +33,5 @@ vigencia_desde,jus_ley_14967,jus_dl_8904,norma,fuente
 2026-04-01,49750,,,https://www.scba.gov.ar/paginas.asp?id=41320
 2026-07-01,52237,35698,,https://www.scba.gov.ar/paginas.asp?id=41320
 2026-08-01,53232,36378,RP-873/2026 (04/08/2026),https://www.scba.gov.ar/informacion/jus%20-%20documentos/IUS%20agosto%2026.pdf
+2026-10-01,54829,37469,RP-1517/2026 (23/10/2026),https://www.scba.gov.ar/includes/descarga.asp?id=60353&n=Resolucion%20RP%201517.pdf
+2026-11-01,56426,38561,RP-1517/2026 (23/10/2026),https://www.scba.gov.ar/includes/descarga.asp?id=60353&n=Resolucion%20RP%201517.pdf

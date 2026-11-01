@@ -33,13 +33,17 @@ Tres capas que no están articuladas entre sí:
 - **"Barrios"**: doctrina legal provincial fundada en la inconstitucionalidad del art. 7 de la
   Ley 23.928.
 
-Estado real: el art. 55 está siendo inaplicado por inconstitucionalidad en primera instancia,
-con criterios divergentes entre tribunales; la Procuración General de la Nación dictaminó que
-es de orden público y debe aplicarse; y **la SCBA no se pronunció**. Tampoco hay
-pronunciamiento que resuelva la relación entre el art. 55 y "Barrios".
+Estado: **la SCBA convalidó el art. 55 en "Fernández"** (L. 130.895, sentencia registrada el
+21/10/2026): *"se desestima el planteo de inconstitucionalidad del art. 55 de la ley 27.802 y se
+dispone su aplicación al caso de autos"*. El planteo contra el art. 7 de la Ley 23.928 lo declaró
+abstracto por "Barrios", porque la ley trae su método, y con eso queda resuelta la relación entre
+los dos en la provincia. Los fallos de primera instancia que lo inaplicaron son anteriores y
+quedan en contra de esa doctrina.
 
-Lo que el análisis debe entregar es eso: el mapa de la discusión y las opciones fundadas, no
-una respuesta cerrada presentada como si estuviera resuelta.
+    [VERIFICAR PRECEDENTE: "Fernández, Hilda Noemí c/ Ozuna, José Antonio s/ Despido", SCBA L. 130.895 - confirmar que no fue dejado sin efecto ni superado antes de citar]
+
+Lo que el análisis debe entregar es la aplicación del art. 55 con su tope y su piso, y que la
+cuestión federal sigue abierta mientras la CSJN no se pronuncie.
 
 ## Pregunta 3 — el fallo invocado no se cita
 

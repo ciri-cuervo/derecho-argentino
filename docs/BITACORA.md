@@ -9,6 +9,9 @@ el estado vigente está en el archivo que lo explica, y acá queda cómo se lleg
 
 | Fecha | Entrada |
 | --- | --- |
+| 01/11/2026 | [Las series que las calculadoras usaban atrasadas, y el RIPTE desde la página oficial](#01112026---las-series-que-las-calculadoras-usaban-atrasadas-y-el-ripte-desde-la-página-oficial) |
+| 01/11/2026 | [Seis evals corridos por primera vez, y lo que reprobaban sin razón](#01112026---seis-evals-corridos-por-primera-vez-y-lo-que-reprobaban-sin-razón) |
+| 01/11/2026 | [Una revisión de los scripts: el preaviso, los días trabajados y lo que Windows rompía](#01112026---una-revisión-de-los-scripts-el-preaviso-los-días-trabajados-y-lo-que-windows-rompía) |
 | 24/09/2026 | [El config que fijaba el clon, y el aviso que las calculadoras no daban](#24092026---el-config-que-fijaba-el-clon-y-el-aviso-que-las-calculadoras-no-daban) |
 | 24/09/2026 | [La versión anterior al lado de la nueva, y los estatutos que el script no frenaba](#24092026---la-versión-anterior-al-lado-de-la-nueva-y-los-estatutos-que-el-script-no-frenaba) |
 | 24/09/2026 | [El escrito sale en texto plano, y la hoja de cada jurisdicción tiene su fuente bajada](#24092026---el-escrito-sale-en-texto-plano-y-la-hoja-de-cada-jurisdicción-tiene-su-fuente-bajada) |
@@ -19,6 +22,115 @@ el estado vigente está en el archivo que lo explica, y acá queda cómo se lleg
 | 18/09/2026 | [Medicina legal no era un módulo: eran cinco huecos](#18092026---medicina-legal-no-era-un-módulo-eran-cinco-huecos) |
 | 18/09/2026 | [Laboral se parte dos veces: riesgos del trabajo y licencias](#18092026---laboral-se-parte-dos-veces-riesgos-del-trabajo-y-licencias) |
 | 18/09/2026 | [El reparto de OCR y las tres fechas salen de la skill](#18092026---el-reparto-de-ocr-y-las-tres-fechas-salen-de-la-skill) |
+
+---
+
+## 01/11/2026 - Las series que las calculadoras usaban atrasadas, y el RIPTE desde la página oficial
+
+Cargados contra el documento de cada valor: el **jus** de octubre y noviembre (RP-1517/2026), las
+**UMA nacionales** de agosto y septiembre (Res. SGA 2372 y 2622/2026), la **UMA porteña** de julio
+(Res. SAGyP 500/2026, cuyo art. 2 dice «mayo» por error material, anotado en el CSV), los
+**asuetos de noviembre** de PBA (RP-1553/2026) y el **20/10/2026 inhábil** nacional (Acordada CSJN
+26/2026). `honorarios_pba.py` y `uma_csjn.py` regulaban con valores de dos meses atrás.
+
+**El RIPTE se completa con la página del organismo** cuando la API no lo trae, y sólo si los meses
+comunes coinciden al centavo; lo cubren cuatro tests nuevos, y las dos mutaciones del cotejo se
+vieron fallar. **El IPC pasó al CSV del INDEC** (`serie_ipc_divisiones.csv`, nivel general
+nacional), que trae septiembre: sobre los 117 meses comunes con la serie anterior, la diferencia
+máxima es 5e-4, el redondeo de la API. Un test fija el filtro por región y división.
+
+**Los asuetos de octubre de PBA** (RP-1324 y RP-1495/2026) están escaneados sin capa de texto y se
+leyeron en la imagen. **Los feriados de la visita del papa León XIV** (Decreto 1103/2026) se cargaron según
+el alcance de cada uno: el 9/11 se descuenta en los dos fueros; el 11/11, en PBA, por el art. 152
+CPCCBA; y el 10/11 y el 11/11 se informan sin descontar en el bloque nacional, porque alcanzan sólo
+a los tribunales con asiento en esas jurisdicciones (art. 2 RJN).
+
+**`articulo.py` no leía seis textos bajados**, entre ellos el Reglamento para la Justicia Nacional
+y la Ley 24.156: numeran `2º —`, `Artículo 1o:` o parten `ARTICULO` en dos renglones. Un corte de
+respaldo corre sólo cuando el principal no encuentra nada; la foto de las 280 normas antes y
+después muestra que cambiaron esos seis y ninguno más. Con los de noviembre, `plazos.py` imprimía los 54 asuetos distritales del
+año en cada cómputo; ahora informa sólo los que caen dentro del plazo.
+
+Dos tests fijaban el estado del corpus —el jus «de agosto» y la fecha de verificación de
+inhábiles— y se pusieron rojos por cargar datos nuevos. Ahora comparan contra el archivo.
+
+---
+
+## 01/11/2026 - Seis evals corridos por primera vez, y lo que reprobaban sin razón
+
+Los seis casos migrados al formato de `claude plugin eval` que nunca se habían corrido, con una
+pasada por brazo y con Sonnet: los procesos hijos no tenían acceso a Opus. Las doce trazas,
+revisadas con `traza_eval.py`: ninguna corrida abrió rúbricas ni graders. Costo total de las dos
+tandas y la repetición de `dipr`, del orden de cinco dólares.
+
+| Caso | Primera corrida, con / sin | Después de corregir |
+| --- | --- | --- |
+| `civil-danos-transito-factor-objetivo-pba` | 1,00 / 0,20 | — |
+| `transito-uf-prescripcion-y-art64` | 1,00 / 0,60 | — |
+| `previsional-compensacion-de-edad-y-pba` | 0,75 / 0,25 | 1,00 / 0,50 |
+| `honorarios-nacional-uma-caba-y-art64` | 0,67 / 0,50 | 1,00 / 0,67 |
+| `honorarios-pba-jus-y-etapas` | 0,80 / 0,80 | 1,00 / 0,60 |
+| `dipr-prorroga-tacita-y-jurisdiccion-exclusiva` | 0,80 / 0,70 | 0,85 / 0,65, dos pasadas |
+
+**De las cuatro fallas, tres eran del caso y no de la skill**, y se vieron leyendo la respuesta
+antes que el puntaje:
+
+- **`previsional`** exigía el contencioso bonaerense para un beneficio del SIPA; ver
+  `AUDITORIAS.md`.
+- **`dipr`** había quedado atrás del módulo: daba por no bajado un tratado que está en
+  `fuentes/` y exigía cerrar la prórroga por el Código; ver `AUDITORIAS.md`.
+- **`honorarios-pba`** reprobaba cualquier importe, y la respuesta citaba el jus de la serie con
+  su resolución y el marcador, que es lo que pide la rúbrica. El grader exige ahora el marcador
+  y no la ausencia de números.
+
+**Y dos defectos de la skill que sólo se vieron en la traza**, los dos al entrar por un comando
+en vez de por la skill:
+
+- **El `allowed-tools` de los comandos daba Read y no Glob ni Grep**, y los comandos nombran los
+  módulos con ruta relativa: en un modo sin preguntas, `/derecho:honorarios` contestó sin abrir
+  nada. Los cinco comandos que leen dan ahora las tres.
+- **Un comando no carga el `SKILL.md`**, y las corridas que entraron por `/derecho:honorarios`
+  emitieron `[DATO FALTANTE]`, que no existe. Los cuatro comandos de cálculo mandan ahora a
+  `marcadores.md`.
+
+---
+
+## 01/11/2026 - Una revisión de los scripts: el preaviso, los días trabajados y lo que Windows rompía
+
+Una revisión del código que se distribuye encontró defectos que las suites no veían: ninguna
+fixture cruzaba el umbral. Cada uno tiene ahora su test, y cada test se vio fallar contra el
+código anterior: 19 de los 22 nuevos fallaban; los otros tres fijan lo que ya estaba bien.
+
+- **El preaviso de cinco años y seis meses salía de un mes.** El art. 231 inc. b LCT dice «que
+  no exceda de cinco (5) años», y el script comparaba años enteros cumplidos. Lo mismo en las
+  vacaciones, que además se medían a la extinción y no al 31 de diciembre que fija el art. 150
+  in fine. Los dos usan ahora `excede_anios()`.
+- **«Días trabajados del mes» ignoraba el ingreso** dentro del mismo mes, y pagaba desde el día 1.
+- **`plazos.py` contaba dos veces un trasladable divergente** —el calculado y el verificado— y
+  sólo cargaba el año de inicio y el siguiente. Los años se cargan ahora a medida que el
+  cómputo los atraviesa, y un plazo no positivo corta.
+- **`honorarios_pba.py` ignoraba `--etapas-cumplidas 0`** y una bandera de etapas sin la otra.
+- **`bajar()` no reintentaba** un corte a mitad del cuerpo ni un 429 o 5xx, y un `deflate`
+  ilegible pasaba como texto.
+- **En Windows**: `write_text` traducía los saltos y cambiaba `sha256_archivo` —ahora
+  `escribir_texto()`—; `verificar_respuesta.py -` leía stdin en cp1252; y `articulo.py` cortaba
+  con los textos que traen caracteres fuera de cp1252, que se midieron en 12 normas bajadas.
+- **Un `config.json` ilegible** se leía como vacío y se reescribía encima. Para escribir, ahora
+  corta.
+- **Las tablas de `fuentes/datos/` se leían sin validar** en cuatro lectores copiados: una
+  vigencia `2026-9-1` se ordenaba como texto, un cero dividía y un período repetido pisaba al
+  anterior. Las lee ahora `_tablas.py`, que corta con el archivo y el renglón. Los importes de
+  `intereses.py` y `honorarios_pba.py` ya no pasan por `float`, que corría el centavo de un
+  importe de quince cifras.
+- **El CER pasó a bajarse del BCRA.** La copia de datos.gob.ar quedó congelada en octubre de 2024
+  y la del RIPTE devolvía la serie vacía; el descargador no pisó nada porque la descarga traía
+  menos períodos que el archivo. Sobre los 117 meses comunes, las dos fuentes difieren en menos
+  de 5e-5.
+
+Queda abierta una cuestión que no es de código: `antiguedad()` cuenta meses enteros, así que
+cinco años, tres meses y un día dan multiplicador 5. Si eso es «fracción mayor de tres (3)
+meses» del art. 245 se decide con el texto y la jurisprudencia, no en el script. Hasta entonces
+el cálculo no lo decide: emite `[VERIFICAR CRITERIO DEL FUERO: ...]` exactamente en ese caso.
 
 ---
 

@@ -2,7 +2,9 @@
 # Organismo: Secretaría de Trabajo, Empleo y Seguridad Social - frecuencia: mensual
 # serie_id: 158.1_REPTE_0_0_5
 # Fuente: https://apis.datos.gob.ar/series/api/series/?ids=158.1_REPTE_0_0_5&format=csv&start_date=1994-07
-# Descargado: 2026-09-17  (385 períodos, 1994-07 a 2026-07)
+# Complemento: https://www.argentina.gob.ar/trabajo/seguridadsocial/ripte (meses posteriores al último de la API,
+#   aceptados porque los meses comunes coinciden al centavo)
+# Descargado: 2026-11-01  (386 períodos, 1994-07 a 2026-08)
 # Pesos corrientes. Es la serie que usa el art. 12 LRT texto Ley 27.348.
 periodo,indice
 1994-07,874.87
@@ -390,3 +392,4 @@ periodo,indice
 2026-05,1849727.96
 2026-06,1915878.76
 2026-07,1946028.12
+2026-08,1982518.19

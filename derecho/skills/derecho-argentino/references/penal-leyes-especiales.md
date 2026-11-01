@@ -324,7 +324,12 @@ Título III de la Ley 13.634, en `penal-juvenil-pba.md` 36. Y el proceso, en el 
 federal, se rige por el **sistema acusatorio del CPPF** conforme al cronograma de la Ley 27.150
 (art. 47), que es el de 24.1.
 
-`[VERIFICAR VIGENCIA: reglamentación de la Ley 27.801 - la ley es de marzo de 2026 y su implementación depende de la autoridad de aplicación que designe el PEN (art. 50). Confirmar qué decreto reglamentario rige a la fecha de la consulta: no está cargado en fuentes/]`
+**La reglamenta el Decreto 875/2026** (B.O. 07/09/2026), en `fuentes/normas/decreto-875-2026.txt`:
+su art. 2 designa al **Ministerio de Justicia** autoridad de aplicación en el ámbito nacional y
+federal, y su art. 14 lo hace regir *"conjuntamente con la Ley N° 27.801"*. La reglamentación
+artículo por artículo es su **Anexo I**, y el Boletín Oficial no la transcribe en el aviso:
+
+`[VERIFICAR VIGENCIA: Anexo I del Decreto 875/2026, reglamentación de la Ley 27.801 artículo por artículo - no está transcripto en el aviso del Boletín Oficial ni cargado en fuentes/]`
 
 `[VERIFICAR VIGENCIA: fecha del hecho contra el 05/09/2026 - un hecho anterior cometido por alguien de 14 o 15 años era no punible bajo el art. 1 de la Ley 22.278, y el art. 2 CP manda aplicar la más benigna. El texto derogado sigue cargado en fuentes/normas/ley-22278.txt, que es lo que permite cotejar de qué lado cae el caso]`
 

@@ -19,8 +19,8 @@ import sys
 import unicodedata
 from pathlib import Path
 
-from _comun import (RAIZ, ATexto, ahora, bajar, decodificar, exigir_slugs_conocidos,
-                    fragmento_div, sha256_archivo)
+from _comun import (RAIZ, ATexto, ahora, bajar, decodificar, escribir_json,
+                    exigir_slugs_conocidos, fragmento_div, sha256_archivo)
 from descargar_normas import avisar_intento, es_pdf_real, limpiar_aviso
 
 # Los separadores que parten una carátula argentina. `s/` es el más común de todos -"Fulano
@@ -308,12 +308,10 @@ def main():
             print(f"  {marca:9} {f['slug']:42} {len(crudo):>9,} bytes")
             if estado != "cotejado":
                 print(f"              -> {detalle}")
-        PROCEDENCIA.write_text(json.dumps(proc, ensure_ascii=False, indent=2) + "\n",
-                               encoding="utf-8")
+        escribir_json(PROCEDENCIA, proc)
         ok += 1
 
-    PROCEDENCIA.write_text(json.dumps(proc, ensure_ascii=False, indent=2) + "\n",
-                           encoding="utf-8")
+    escribir_json(PROCEDENCIA, proc)
     print(f"\n  {ok} bajados, {salteados} ya estaban, {fallo_n} con error"
           + (f", {avisados} guardados como .html por no ser PDF." if avisados else "."))
     if dudosos:

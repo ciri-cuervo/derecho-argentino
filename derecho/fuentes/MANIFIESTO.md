@@ -223,7 +223,7 @@ parte de la norma y cuya desaparición es justo lo que hay que detectar. Donde e
 algo a propósito. Hay tests que lo fijan, incluido el que comprueba que una fecha suelta, sin esos
 rótulos, no se toca.
 
-## Estado a septiembre de 2026
+## Estado a noviembre de 2026
 
 Esta tabla es una foto, y las fotos se vencen. La medición viva la da
 `python3 derecho/skills/derecho-argentino/scripts/estado.py`, que lee los archivos en vez de
@@ -233,20 +233,20 @@ números y los compara contra lo que hay: si alguno deja de coincidir, los tests
 | Pieza | Estado |
 | --- | --- |
 | `ccyc-comentado/` | Completo, con índice de ruteo |
-| `normas/normas.json` | **289 entradas**, 285 con URL verificada |
-| `normas/*.txt` | **273 descargadas**; `procedencia.json` registra **286 textos con hash** |
-| `jurisprudencia/fallos.json` | **99 fallos**, todos con URL |
-| `jurisprudencia/*.pdf` | **82 descargados**; los de JUBA vienen en `.html`, que es lo que ese sitio sirve |
-| `datos/jus-scba.csv` | **23 filas**, 01/01/2024 a 01/08/2026 — **toda la tabla oficial vigente**. Es la serie entera y no tiene huecos: la SCBA publica un período **sólo cuando el valor cambia**, así que los meses ausentes no faltan, heredan el valor anterior |
-| `datos/uma-csjn.csv` | **22 vigencias**, 01/10/2024 a 01/07/2026, leídas una por una de las resoluciones de la SGA. No hay descargador: la consulta oficial es un formulario |
-| `datos/uma-caba.csv` | **1 vigencia**, desde el 01/08/2026. Es la UMA de la Ley 5.134, **otra unidad** que la de la CSJN. La consulta oficial del Consejo de la Magistratura porteño publica sólo el valor vigente: no hay serie histórica que cargar desde el organismo que la fija |
+| `normas/normas.json` | **296 entradas**, 292 con URL verificada |
+| `normas/*.txt` | **280 descargadas**; `procedencia.json` registra **293 textos con hash** |
+| `jurisprudencia/fallos.json` | **101 fallos**, todos con URL |
+| `jurisprudencia/*.pdf` | **84 descargados**; los de JUBA vienen en `.html`, que es lo que ese sitio sirve |
+| `datos/jus-scba.csv` | **25 filas**, 01/01/2024 a 01/11/2026 — **toda la tabla oficial vigente**. Es la serie entera y no tiene huecos: la SCBA publica un período **sólo cuando el valor cambia**, así que los meses ausentes no faltan, heredan el valor anterior |
+| `datos/uma-csjn.csv` | **24 vigencias**, 01/10/2024 a 01/09/2026, leídas una por una de las resoluciones de la SGA. No hay descargador: la consulta oficial es un formulario |
+| `datos/uma-caba.csv` | **2 vigencias**, desde el 01/07/2026. Es la UMA de la Ley 5.134, **otra unidad** que la de la CSJN. La consulta oficial del Consejo de la Magistratura porteño publica sólo el valor vigente: no hay serie histórica que cargar desde el organismo que la fija |
 | `datos/inhabiles.json` | Cargado: 2026 completo para Nación y PBA; 2027 sólo la feria de enero |
-| `datos/serie-ipc.csv` | **Completa**: 117 períodos, 2016-12 a 2026-08 |
-| `datos/serie-ripte.csv` | **Completa**: 385 períodos, 1994-07 a 2026-07 |
-| `datos/serie-cer.csv` | **Completa**: 117 períodos, 2016-12 a 2026-08 |
+| `datos/serie-ipc.csv` | **Completa**: 118 períodos, 2016-12 a 2026-09, del CSV del INDEC |
+| `datos/serie-ripte.csv` | **Completa**: 386 períodos, 1994-07 a 2026-08. La API estatal dejó de servirla y el último mes sale de la página oficial, cotejada contra el archivo |
+| `datos/serie-cer.csv` | **Completa**: 119 períodos, 2016-12 a 2026-10 |
 
-Los tres números de `normas/` cuentan cosas distintas y no tienen por qué coincidir: **289** es lo
-que la skill espera encontrar, **286** es lo que tiene texto bajado con hash registrado, y **273**
+Los tres números de `normas/` cuentan cosas distintas y no tienen por qué coincidir: **296** es lo
+que la skill espera encontrar, **293** es lo que tiene texto bajado con hash registrado, y **280**
 son los `.txt` en disco, porque los **13** restantes son PDF.
 
 **Las entradas declaradas sin texto son estructurales, y están todas acá.** La **Ley 13.478** es

@@ -3,7 +3,7 @@ titulo: Intereses en sede - art. 55 Ley 27.802, "Barrios" y el límite de "Galar
 area: laboral
 perfil: derecho-argentino / references/laboral.md 5.5 bis
 fuero: Tribunal del Trabajo PBA
-problema: "riesgo de trasladar al fuero laboral bonaerense el criterio de la CNAT; riesgo de aplicar 'Barrios' automáticamente a una prestación de la LRT con fórmula legal propia, contra 'Galarza'; riesgo de dar por resuelta la inconstitucionalidad del art. 55 de la Ley 27.802 cuando la SCBA no se pronunció; riesgo de citar fallos de primera instancia sin datos de causa verificados; riesgo de tomar valores de índices de memoria"
+problema: "riesgo de trasladar al fuero laboral bonaerense el criterio de la CNAT; riesgo de aplicar 'Barrios' automáticamente a una prestación de la LRT con fórmula legal propia, contra 'Galarza'; riesgo de seguir el fallo de primera instancia que declaró inconstitucional el art. 55 de la Ley 27.802 sin ver que la SCBA lo convalidó en 'Fernández' (L. 130.895, 21/10/2026); riesgo de citar fallos de primera instancia sin datos de causa verificados; riesgo de tomar valores de índices de memoria"
 ---
 
 # Caso · Dos liquidaciones a verificar

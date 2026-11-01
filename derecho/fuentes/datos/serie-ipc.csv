@@ -1,9 +1,11 @@
 # IPC INDEC - Nivel General Nacional, índice, base diciembre 2016 = 100
-# Organismo: INDEC - frecuencia: mensual
-# serie_id: 145.3_INGNACNAL_DICI_M_15
-# Fuente: https://apis.datos.gob.ar/series/api/series/?ids=145.3_INGNACNAL_DICI_M_15&format=csv&start_date=2016-12
-# Descargado: 2026-09-17  (117 períodos, 2016-12 a 2026-08)
-# NO confundir con 145.3_INGNACUAL_DICI_M_38, que es la variación mensual y no el índice.
+# Organismo: INDEC, serie de divisiones - frecuencia: mensual
+# serie_id: serie_ipc_divisiones.csv, `Codigo` 0, `Region` Nacional
+# Fuente: https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv
+# Descargado: 2026-11-01  (118 períodos, 2016-12 a 2026-09)
+# Sale del CSV que publica el INDEC: la copia de datos.gob.ar (145.3_INGNACNAL_DICI_M_15) dejó
+# de traer los meses nuevos. En ese CSV la columna `Indice_IPC` es el índice y `v_m_IPC` la
+# variación mensual: se toma la primera, del `Codigo` 0 y la `Region` Nacional.
 periodo,indice
 2016-12,100.0
 2017-01,101.5859
@@ -93,14 +95,14 @@ periodo,indice
 2024-01,4261.5324
 2024-02,4825.7881
 2024-03,5357.0929
-2024-04,5830.2271
-2024-05,6073.7165
-2024-06,6351.7145
-2024-07,6607.7479
-2024-08,6883.4412
-2024-09,7122.2421
-2024-10,7313.9542
-2024-11,7491.4314
+2024-04,5830.227
+2024-05,6073.717
+2024-06,6351.715
+2024-07,6607.748
+2024-08,6883.441
+2024-09,7122.242
+2024-10,7313.954
+2024-11,7491.431
 2024-12,7694.0075
 2025-01,7864.1257
 2025-02,8052.9927
@@ -122,3 +124,4 @@ periodo,indice
 2026-06,11826.4103
 2026-07,12076.3937
 2026-08,12276.766
+2026-09,12514.1508

@@ -1,13 +1,13 @@
 ---
-titulo: DIPr - prórroga tácita ya operada, jurisdicción exclusiva sobre inmueble y arraigo al extranjero
+titulo: DIPr - la prórroga tácita, que el Código da por operada y el tratado no, jurisdicción exclusiva sobre inmueble y arraigo al extranjero
 ---
 # Resultado esperado · dipr-prorroga-tacita-y-jurisdiccion-exclusiva
 
 Criterios mínimos de aprobación. No es un análisis de referencia cerrado: cualquier análisis
 que cumpla estos criterios se considera válido.
 
-Todo el articulado que se cita acá está cotejado contra `fuentes/normas/ccycn-26994.txt` y
-escrito en `references/dipr.md` 35.1 a 35.8.
+Todo el articulado que se cita acá está cotejado contra `fuentes/normas/ccycn-26994.txt`,
+`ley-24669.txt` y `decreto-ley-7771-1956.txt`, y escrito en `references/dipr.md` 35.1 a 35.8.
 
 ## 1. Nodo bloqueante, antes del fondo: ¿hay tratado?
 
@@ -16,20 +16,19 @@ aplicables se determinan por los tratados y convenciones internacionales vigente
 aplicación en el caso y, **en defecto de normas de fuente internacional**, por el DIPr
 argentino de fuente interna. **El Código es subsidiario.**
 
-Las dos partes tienen domicilio en Estados del Mercosur, así que el paso no es formal. Y acá
-se planta: **el texto de los instrumentos del Mercosur sobre jurisdicción internacional en
-materia contractual no está en `derecho/fuentes/normas/`.** Lo que hay bajado, de fuente
-internacional, son las Leyes 23.857 y 25.358, que son de restitución internacional de niños y
-no vienen al caso.
+Las dos partes tienen sede en Estados del Mercosur, así que el paso no es formal. Están bajados
+los dos cuerpos que hay que descartar —`dipr.md` 35.1 bis—: el **Protocolo de Buenos Aires**
+sobre jurisdicción internacional en materia contractual (`ley-24669.txt`), cuyo **art. 1 inc. a**
+lo aplica a los contratos civiles o comerciales entre particulares con sede en distintos Estados
+Partes, y los **Tratados de Montevideo de 1940** (`decreto-ley-7771-1956.txt`). Lo que no está
+cargado es el estado de ratificaciones y denuncias, y eso se marca:
 
-Entonces la respuesta correcta **remite y marca**, no transcribe:
+    [VERIFICAR VIGENCIA: qué Estados están hoy vinculados con Argentina por cada uno de los Tratados de Montevideo de 1889 y de 1940, y por el Protocolo de Buenos Aires - el estado de ratificaciones y denuncias no está cargado en fuentes/]
 
-    [VERIFICAR VIGENCIA: instrumento del Mercosur sobre jurisdicción internacional en materia contractual aplicable entre Argentina y Uruguay - no está cargado en fuentes/, hay que cotejarlo antes de apoyarse en su articulado]
+Atribuirle a un tratado un contenido que su texto bajado no tiene hace fallar el caso. Es la
+sección 2 de la skill.
 
-Citar artículos concretos de ese instrumento, o su ley aprobatoria, sin tenerlo a la vista,
-hace fallar el caso. Es la sección 2 de la skill.
-
-## 2. La cláusula 14 ya no sirve para la acción contractual
+## 2. La cláusula 14: bajo el Código ya no sirve; bajo el tratado, depende
 
 Los requisitos del **art. 2605** están cumplidos —materia patrimonial e internacional, y se
 puede prorrogar en jueces de fuera de la República— y la **forma del art. 2607** también: el
@@ -42,12 +41,29 @@ articular la declinatoria"**. LA PROVEEDORA opuso **defecto legal y falta de per
 son excepciones previas, **sin declinatoria**. La jurisdicción argentina quedó prorrogada, y la
 cláusula 14 no se puede invocar ahora para desplazar el pleito a Montevideo.
 
+**Pero si rige el tratado, la respuesta puede ser la contraria.** El **art. 6** del Protocolo
+sólo prorroga a favor del Estado donde se promovió la acción *"cuando el demandado después de
+interpuesta ésta la admita voluntariamente, en forma positiva y no ficta"*, y el **art. 4** da
+competencia a los tribunales que las partes eligieron por escrito. Si oponer defecto legal y
+falta de personería es una admisión positiva es criterio del tribunal, y no hay precedente
+bajado:
+
+    [VERIFICAR CRITERIO DEL FUERO: si oponer excepciones previas sin declinatoria es admitir la jurisdicción "en forma positiva y no ficta", art. 6 del Protocolo de Buenos Aires - Cámara Nacional de Apelaciones en lo Comercial]
+
+**Montevideo 1940 corta distinto que los dos.** Su **art. 56** sólo admite la prórroga territorial
+si el demandado la acepta después de promovida la acción, en forma positiva y no ficta: una
+cláusula pactada de antemano **no** prorroga. Bajo ese tratado la cláusula 14 tampoco lleva el
+pleito a Montevideo, aunque por otra razón que bajo el Código.
+
+La respuesta correcta a la pregunta 1 es condicional: por el Código, la cláusula ya no sirve; por
+el Protocolo, todavía puede servir; por Montevideo, no sirve como cláusula.
+
 Lo que sí hay que decirle al cliente es qué habría producido invocarla en tiempo: por el **art.
 2606**, el juez elegido tiene competencia **exclusiva** salvo que las partes hayan dicho
 expresamente lo contrario. La elección no es concurrente por defecto.
 
-**El silencio prorroga.** No contestar la demanda opera igual que contestarla, y oponer
-excepciones previas sin declinatoria también. Si se quiere discutir la jurisdicción
+**Bajo el Código, el silencio prorroga.** No contestar la demanda opera igual que contestarla,
+y oponer excepciones previas sin declinatoria también. Bajo el tratado, no. Si se quiere discutir la jurisdicción
 internacional, la declinatoria va **en ese acto**.
 
 ## 3. La hipoteca no sigue la suerte del contrato

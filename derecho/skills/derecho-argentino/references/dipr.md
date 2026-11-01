@@ -55,9 +55,19 @@ tribunales del Estado Parte que las partes acordaron **por escrito**, *"siempre 
 haya sido obtenido en forma abusiva"*, y admite prorrogar a favor de tribunales arbitrales; su
 **art. 5** permite el acuerdo *"en el momento de la celebración del contrato, durante su vigencia o
 una vez surgido el litigio"*, y manda aplicar **el derecho más favorable a la validez del acuerdo**.
+Su **art. 6** es el de la prórroga tácita, y coincide con Montevideo y no con el Código: la
+jurisdicción *"se entenderá prorrogada en favor del Estado Parte donde se promoviera la acción
+cuando el demandado después de interpuesta ésta la admita voluntariamente, en forma positiva y no
+ficta"*. Oponer excepciones previas sin declinatoria prorroga por el art. 2607; si también es
+admisión positiva bajo el art. 6 es criterio del tribunal:
+
+`[VERIFICAR CRITERIO DEL FUERO: si oponer excepciones previas sin declinatoria es admitir la jurisdicción "en forma positiva y no ficta", art. 6 del Protocolo de Buenos Aires - fuero y sala que intervienen]`
+
 Su ámbito es el del **art. 1**: contratos internacionales civiles o comerciales entre particulares
-con domicilio o sede en distintos Estados Partes; y el **art. 2** excluye cinco materias, entre
-ellas **familia y sucesiones**, los concursos y la seguridad social.
+con domicilio o sede en distintos Estados Partes; y el **art. 2** excluye nueve materias: los
+concursos y procedimientos análogos, **familia y sucesiones**, la seguridad social, los contratos
+administrativos, **los laborales**, **la venta al consumidor**, el transporte, **los seguros** y **los
+derechos reales**.
 
 #### Un punto donde coinciden, y conviene saberlo
 

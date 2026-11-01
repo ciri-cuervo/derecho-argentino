@@ -34,6 +34,8 @@ SITIOS = [
     ("normas.gba.gob.ar (CPCCBA)", "https://normas.gba.gob.ar/documentos/VrQlgSOB.html"),
     ("SCBA", "https://www.scba.gov.ar/includes/descarga.asp?id=54872&n=Ver+Resolucion+SC1840.pdf"),
     ("API series de tiempo", "https://apis.datos.gob.ar/series/api/series/?ids=145.3_INGNACNAL_DICI_M_15&format=csv&limit=1"),
+    ("API del BCRA (CER)", "https://api.bcra.gob.ar/estadisticas/v4.0/Monetarias/30?limit=1"),
+    ("INDEC (IPC)", "https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv"),
 ]
 
 

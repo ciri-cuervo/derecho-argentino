@@ -63,7 +63,7 @@ una vez.
 | Cám. Fed. **Bahía Blanca** | 29/09/2025 | Res. MJ 377/2024 art. 2, diferida por Res. MJ 233/2025 |
 | Cám. Fed. **Corrientes** | 01/12/2025 | Res. MJ 143/2025 art. 3 |
 | Cám. Fed. **Resistencia** | 01/12/2025 | Res. MJ 143/2025 art. 4 |
-| Cám. Fed. **Posadas** | 24/06/2026 | Res. MJ 530/2025 art. 3, diferida por Res. MJ 1/2026 art. 2 |
+| Cám. Fed. **Posadas** | 24/08/2026 | Res. MJ 530/2025 art. 3, diferida por Res. MJ 1/2026 art. 2 |
 | Cám. Fed. **La Plata** | 21/09/2026 | Res. MJ 275/2026 |
 | Cám. Fed. **Paraná** | 30/11/2026 | Res. MJ 417/2026 |
 | Cám. Fed. en lo Penal de **CABA** | **15/02/2027** | Res. MJ 143/2025 art. 1, diferida por Res. MJ 530/2025, 1034/2025 y 186/2026 |

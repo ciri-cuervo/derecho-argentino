@@ -13,6 +13,7 @@ Uso:
     python3 articulo.py lct-20744 245 245bis 232       # varios de una vez
     python3 articulo.py cp-11179 "145 bis"
     python3 articulo.py ccycn-26994 --listar           # qué artículos reconoce el corte
+    python3 articulo.py ley-24669 6 --anexo 1          # el art. 6 del tratado que aprueba
 
 Reconoce los encabezados con que las fuentes oficiales abren un artículo —`ARTICULO 1° —`,
 `ARTÍCULO 22 BIS:`, `Art. 245. —`, `Artículo 1° —`, `ARTÍCULO 1º Las...`— y **sólo al principio
@@ -23,6 +24,14 @@ renglón que termina en dos puntos anunciando la transcripción, y un encabezado
 No corrige nada del texto: lo que sale es lo que está en el `.txt`, con las notas de InfoLEG
 sobre sustituciones y derogaciones, que son parte de lo que hay que leer antes de citar. Y no
 sabe si el artículo está vigente: eso lo dice la nota que trae, o `changelog-normativo.md`.
+
+**Una ley aprobatoria trae dos numeraciones**: la suya —«Apruébase el Protocolo...»— y la del
+texto anexo, que vuelve a empezar en 1. Sin `--anexo`, el corte de siempre: los números que
+se repiten se quedan con su primera aparición, así que en `ccycn-26994` los arts. 1 a 8 son los
+de la Ley 26.994 y del 9 en adelante los del Código, y en `ley-24669` no hay art. 6 que pedir.
+Con `--anexo N` sale sólo la numeración N, contada desde cada vez que el texto vuelve al art. 1,
+y ahí también cuenta el encabezado que es el número solo en su renglón —`Artículo 6`—, que es
+como vienen los tratados en InfoLEG.
 
 Códigos de salida: 0 encontró todo lo pedido; 2 no hay repo, no existe la norma o falta un
 artículo, y en los tres casos dice cuál.
@@ -59,6 +68,10 @@ ANUNCIA_TRANSCRIPCION = re.compile(
 
 PROCEDENCIA = ("Fuente:", "Descargado:", "SHA-256")
 
+# Sólo para los anexos: además, el número solo en su renglón. No entra al corte principal porque
+# en él ese renglón partía artículos de más de cuarenta normas que hoy se citan bien.
+ENCABEZADO_ANEXO = re.compile(ENCABEZADO.pattern[:-1] + r"|\s*$)")
+
 
 def clave(numero: str, sufijo: str | None) -> str:
     s = (sufijo or "").lower().replace("á", "a")
@@ -74,13 +87,43 @@ def pedido(texto: str) -> str:
     return clave(m.group(1), m.group(2))
 
 
+# Respaldo para los textos donde el corte principal no encuentra ningún artículo: el número solo
+# con su raya —`2º —`, el Reglamento para la Justicia Nacional—, el ordinal escrito con la letra
+# o —`Artículo 1o:`— y el encabezado partido en dos renglones —`ARTICULO` y abajo `1º.- La`—.
+# Corre únicamente si el principal devuelve vacío, así que no toca ningún texto que ya se lea.
+ENCABEZADO_RESPALDO = re.compile(
+    r"^(?:(?:ART[IÍ]CULO|Art\.|Artículo)\s*)?(?P<numero>\d+)\s*(?:[°º]|o(?=\s*[.:\-—–]))?\s*"
+    r"(?:(?P<sufijo>(?i:bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|nonies|decies))\b)?"
+    r"\s*[.:\-—–]+\s")
+
+
+def _unir_encabezados_partidos(cuerpo: list[str]) -> list[str]:
+    out, i = [], 0
+    while i < len(cuerpo):
+        if (re.fullmatch(r"\s*ART[IÍ]CULO\s*", cuerpo[i], re.I) and i + 1 < len(cuerpo)
+                and re.match(r"\s*\d", cuerpo[i + 1])):
+            out.append(cuerpo[i].strip() + " " + cuerpo[i + 1].strip())
+            i += 2
+            continue
+        out.append(cuerpo[i])
+        i += 1
+    return out
+
+
 def partir(cuerpo: list[str]) -> dict[str, list[str]]:
     """Cada artículo con sus renglones, en orden de aparición. Lo anterior al primero se descarta."""
+    articulos = _partir(cuerpo, ENCABEZADO)
+    if not articulos:
+        articulos = _partir(_unir_encabezados_partidos(cuerpo), ENCABEZADO_RESPALDO)
+    return articulos
+
+
+def _partir(cuerpo: list[str], encabezado_re) -> dict[str, list[str]]:
     articulos: dict[str, list[str]] = {}
     actual = None
     anterior = ""
     for linea in cuerpo:
-        m = ENCABEZADO.match(linea)
+        m = encabezado_re.match(linea)
         if m and ANUNCIA_TRANSCRIPCION.search(anterior):
             m = None
         if linea.strip():
@@ -101,6 +144,37 @@ def partir(cuerpo: list[str]) -> dict[str, list[str]]:
     return articulos
 
 
+def anexos(cuerpo: list[str]) -> list[dict[str, list[str]]]:
+    """Cada numeración del texto por separado: la 0 es la de la norma y la N, la del anexo N.
+
+    Una numeración nueva empieza cuando vuelve el art. 1 ya visto; otro número repetido es el
+    consolidado intercalando texto viejo, y se queda el primero."""
+    bloques: list[dict[str, list[str]]] = [{}]
+    actual = None
+    anterior = ""
+    for linea in cuerpo:
+        m = ENCABEZADO_ANEXO.match(linea)
+        if m and ANUNCIA_TRANSCRIPCION.search(anterior):
+            m = None
+        if linea.strip():
+            anterior = linea
+        if m:
+            actual = clave(m.group("numero"), m.group("sufijo"))
+            if actual in bloques[-1]:
+                if actual != "1":
+                    actual = None
+                    continue
+                bloques.append({})
+            bloques[-1][actual] = [linea]
+        elif actual is not None:
+            bloques[-1][actual].append(linea)
+    for articulos in bloques:
+        for ls in articulos.values():
+            while ls and not ls[-1].strip():
+                ls.pop()
+    return bloques
+
+
 def encabezado(lineas: list[str]) -> list[str]:
     """Título y procedencia, que son las primeras líneas del `.txt` que escribe el descargador."""
     salida = [lineas[0].rstrip()] if lineas else []
@@ -116,12 +190,19 @@ def carpeta_normas(repo=None) -> Path | None:
 
 
 def main(argv=None) -> int:
+    # Hay textos bajados con caracteres que cp1252 no tiene (■, ✓, №). Escaparlos deja la cita
+    # visiblemente marcada; sin esto la consola de Windows corta con UnicodeEncodeError.
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(errors="backslashreplace")
     p = argparse.ArgumentParser(description=__doc__,
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("norma", help="slug del texto en fuentes/normas/, sin .txt: lct-20744")
     p.add_argument("articulo", nargs="*", help="245, 245bis, «145 bis»")
     p.add_argument("--listar", action="store_true",
                    help="lista los artículos que reconoce en vez de imprimir uno")
+    p.add_argument("--anexo", type=int, default=0,
+                   help="numeración del texto anexo: 1 es el tratado o el código que la ley "
+                        "aprueba")
     p.add_argument("--repo", help="ruta al repo, si no está configurada")
     a = p.parse_args(argv)
 
@@ -135,15 +216,29 @@ def main(argv=None) -> int:
               f"están en {normas}.")
         return 2
     lineas = archivo.read_text(encoding="utf-8").splitlines()
-    articulos = partir(lineas)
+    if a.anexo:
+        bloques = anexos(lineas)
+        if not 0 < a.anexo < len(bloques):
+            print(f"{archivo.name} no tiene anexo {a.anexo}: tiene {len(bloques) - 1} con "
+                  f"numeración propia.")
+            return 2
+        articulos = bloques[a.anexo]
+        donde = f"{a.norma}, anexo {a.anexo}"
+    else:
+        articulos = partir(lineas)
+        donde = a.norma
+        bloques = anexos(lineas)
 
     for l in encabezado(lineas):
         print(l)
     print()
 
     if a.listar:
-        print(f"{len(articulos)} artículos reconocidos en {archivo.name}:")
+        print(f"{len(articulos)} artículos reconocidos en {donde}:")
         print("  " + ", ".join(articulos))
+        otros = len(anexos(lineas)) - 1
+        if otros and not a.anexo:
+            print(f"\nTiene {otros} anexo(s) con numeración propia: ver --anexo 1.")
         return 0
     if not a.articulo:
         print("Falta decir qué artículo: por ejemplo 245, o --listar para ver cuáles hay.")
@@ -162,9 +257,18 @@ def main(argv=None) -> int:
                   f"otra forma, o el corte no lo reconoce. Ver --listar.")
             faltan.append(pedido_)
             continue
-        print(f"--- art. {k} · {a.norma}")
+        print(f"--- art. {k} · {donde}")
         print("\n".join(articulos[k]))
         print()
+        if not a.anexo and articulos[k] == bloques[0].get(k):
+            con_el_mismo = [str(n) for n, b in enumerate(bloques[1:], 1) if k in b]
+            if con_el_mismo:
+                lista = " y ".join(con_el_mismo)
+                print(f"  OJO: este es el art. {k} de la norma. También hay un art. {k} en "
+                      f"{'el anexo' if len(con_el_mismo) == 1 else 'los anexos'} {lista}: si se "
+                      f"busca el del texto aprobado —el código o el tratado—, repetir con "
+                      f"--anexo {con_el_mismo[0]}.")
+                print()
     if faltan:
         print(f"Sin encontrar: {', '.join(faltan)}. Lo que no salió de acá no se cita de memoria.")
         return 2

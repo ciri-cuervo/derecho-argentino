@@ -2,10 +2,14 @@
 name: liquidacion
 description: Liquidación por extinción del contrato de trabajo (LCT). Calcula con script determinista, después de identificar qué tramo de reforma rige por la fecha del acto extintivo.
 argument-hint: "[datos que ya tengas: ingreso, extinción, mejor remuneración...]"
-allowed-tools: Read, Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/liquidacion_lct.py:*), Bash(python ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/liquidacion_lct.py:*), Bash(py -3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/liquidacion_lct.py:*)
+allowed-tools: Read, Glob, Grep, Bash(python3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/liquidacion_lct.py:*), Bash(python ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/liquidacion_lct.py:*), Bash(py -3 ${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/scripts/liquidacion_lct.py:*)
 ---
 
 Datos que trae el usuario: `$ARGUMENTS`
+
+**Los marcadores son los de `${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/references/marcadores.md`**, y se copian tal
+cual: leelo antes de emitir el primero. Un comando no carga el `SKILL.md`, así que el vocabulario
+no está a la vista si no se abre, y un marcador inventado no lo reconoce nadie que lea la pieza.
 
 **Antes de calcular nada, leé `${CLAUDE_PLUGIN_ROOT}/skills/derecho-argentino/references/laboral.md`**, secciones 5.1 a 5.4 y el protocolo de
 liquidación de 5.10. No es opcional: la LCT se reformó en tres tramos y **los regímenes no son

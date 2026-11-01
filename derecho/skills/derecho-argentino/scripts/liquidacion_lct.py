@@ -89,6 +89,32 @@ def antiguedad(ingreso: date, extincion: date):
     return anios, meses, max(multiplicador, 1)
 
 
+def fraccion_de_tres_meses_y_dias(ingreso: date, extincion: date) -> bool:
+    """Si la fracción del último año es de tres meses y algunos días.
+
+    Es el único caso en que «fracción mayor de tres (3) meses» del art. 245 admite dos
+    lecturas: `antiguedad()` cuenta meses enteros y no suma el año, y quien lea los días como
+    exceso lo sumaría. El cálculo no lo decide: lo marca."""
+    anios, meses, _ = antiguedad(ingreso, extincion)
+    if meses != 3:
+        return False
+    total = ingreso.month - 1 + anios * 12 + 3
+    anio, mes = ingreso.year + total // 12, total % 12 + 1
+    tres_meses = date(anio, mes, min(ingreso.day, calendar.monthrange(anio, mes)[1]))
+    return extincion > tres_meses
+
+
+def excede_anios(ingreso: date, fecha: date, n: int) -> bool:
+    """Si a `fecha` la antigüedad supera los `n` años, que es como lo dicen los arts. 150 y
+    231 LCT: «no exceda de cinco años» incluye los cinco años justos y nada más. Comparar
+    los años enteros cumplidos dejaba afuera los cinco años y seis meses."""
+    try:
+        aniversario = ingreso.replace(year=ingreso.year + n)
+    except ValueError:
+        aniversario = date(ingreso.year + n, 2, 28)
+    return fecha > aniversario
+
+
 @dataclass
 class Resultado:
     datos: dict = field(default_factory=dict)
@@ -201,6 +227,11 @@ def liquidar(a) -> Resultado:
         "empleador": getattr(a, "empleador", None) or "sin declarar",
         "estatuto": getattr(a, "regimen", None) or "sin declarar",
     }
+    if fraccion_de_tres_meses_y_dias(ingreso, extincion):
+        r.marcadores.append(
+            "[VERIFICAR CRITERIO DEL FUERO: fracción mayor de tres meses del art. 245 LCT - la "
+            "antigüedad excede los tres meses por días y el multiplicador no los suma; con la "
+            "lectura que los cuenta, el multiplicador es uno más]")
 
     if not getattr(a, "empleador", None):
         r.marcadores.append(
@@ -288,7 +319,7 @@ def liquidar(a) -> Resultado:
             "[VACÍO PROBATORIO: vigencia del período de prueba a la fecha de la extinción - "
             "si ya había vencido, corresponden todos los derechos del despido sin causa]")
     else:
-        meses_preaviso = 1 if anios <= 5 else 2
+        meses_preaviso = 2 if excede_anios(ingreso, extincion, 5) else 1
         preaviso = rem_mes * meses_preaviso
     if preaviso:
         r.add("Indemnización sustitutiva de preaviso", preaviso,
@@ -310,7 +341,7 @@ def liquidar(a) -> Resultado:
         r.add("SAC sobre integración", integracion / 12, "Art. 121 y 123 LCT", "un doceavo")
 
     # --- Liquidación final ---------------------------------------------------------------
-    dias_trabajados_mes = extincion.day
+    dias_trabajados_mes = (extincion - max(extincion.replace(day=1), ingreso)).days + 1
     r.add("Días trabajados del mes", rem_mes * dias_trabajados_mes / dias_mes,
           "Art. 103 LCT", f"{dias_trabajados_mes}/{dias_mes} días")
 
@@ -323,11 +354,13 @@ def liquidar(a) -> Resultado:
           f"{dias_sem_trab}/{dias_sem} días del semestre, sobre la mejor remuneración")
 
     # --- Vacaciones no gozadas -----------------------------------------------------------
-    if anios < 5:
+    # Art. 150 in fine: la extensión se mide con la antigüedad al 31 de diciembre del año.
+    al_31_12 = date(extincion.year, 12, 31)
+    if not excede_anios(ingreso, al_31_12, 5):
         dias_vac = 14
-    elif anios < 10:
+    elif not excede_anios(ingreso, al_31_12, 10):
         dias_vac = 21
-    elif anios < 20:
+    elif not excede_anios(ingreso, al_31_12, 20):
         dias_vac = 28
     else:
         dias_vac = 35
@@ -378,7 +411,7 @@ def render(r: Resultado) -> str:
     for x in r.rubros:
         out.append(f"  {x['concepto']:<{ancho}}  {x['importe']:>16,.2f}   {x['norma']}")
         out.append(f"  {'':<{ancho}}  {x['detalle']}")
-    out += ["", f"  {'TOTAL':<{ancho}}  {float(r.total):>16,.2f}", ""]
+    out += ["", f"  {'TOTAL':<{ancho}}  {r.total:>16,.2f}", ""]
     if r.advertencias:
         out += ["ADVERTENCIAS", ""] + [f"  - {x}" for x in r.advertencias] + [""]
     out += ["MARCADORES", ""] + [f"  {x}" for x in r.marcadores] + [""]

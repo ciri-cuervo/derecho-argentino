@@ -39,17 +39,17 @@ determinar y exigir el pago, y para aplicar y hacer efectivas multas y clausuras
 > conducta del Fisco**: que no impugne por discrepancia significativa. No es automática: se alega
 > y se sostiene con las constancias de presentación.
 
-**Qué es "discrepancia significativa"** (artículo sin número a continuación del 56). Basta **una**
-de estas condiciones:
+**Qué es "discrepancia significativa"** (artículo sin número a continuación del 56, **texto del art. 1
+de la Ley 27.826**, B.O. 09/10/2026). Basta **una** de estas condiciones:
 
-1. Que de la impugnación resulte un **incremento de saldos a favor del Fisco** —o una reducción
-   de quebrantos o de saldos a favor del contribuyente— **de al menos el 15%** respecto de lo
-   declarado.
-2. Que la diferencia entre el impuesto declarado y el que resulte de la impugnación **supere la
-   suma del art. 1 del Régimen Penal Tributario** del Título IX de la Ley 27.430.
-3. Que la impugnación se origine en la **utilización de facturas u otros documentos apócrifos** y
-   de ella resulte un incremento del saldo a favor del Fisco o una reducción de quebrantos o
-   saldos a favor.
+1. Que de la impugnación resulte *"un incremento del impuesto determinado o, en su caso, una
+   reducción de los quebrantos impositivos por un porcentaje no inferior al quince por ciento
+   (15%)"* respecto de lo declarado.
+2. Que ese incremento o esa reducción **supere la suma del art. 1 del Régimen Penal Tributario**
+   del Título IX de la Ley 27.430.
+3. Que la impugnación se origine en *"la utilización de facturas u otros documentos apócrifos, o
+   ingresos directos computados improcedentemente –incluidas las retenciones, percepciones, pagos
+   a cuenta y anticipos–"*. Los ingresos directos son el agregado de la Ley 27.826.
 
 **Ese umbral es el del art. 1 del Régimen Penal Tributario y hoy son cien millones de pesos**
 —$100.000.000, texto según el art. 1 de la Ley 27.799, cotejado contra el consolidado de
@@ -57,6 +57,40 @@ de estas condiciones:
 `penal-leyes-especiales.md` 24.9.5 y no se repite acá.
 
 `[VERIFICAR MONTO ACTUALIZADO: umbral del art. 1 del Régimen Penal Tributario para períodos posteriores al 01/01/2027 - el art. 43 de la Ley 27.799 lo ajusta anualmente por UVA y ARCA publica el importe vigente cada año]`
+
+### 33.1 bis Multas: la reducción permanente y la transitoria de la Ley 27.826
+
+**Reducción permanente, art. 49 bis de la Ley 11.683** (art. 2 de la Ley 27.826). Las multas de
+los **arts. 38, 39** y de los artículos sin número que los siguen —las formales— *"se reducirán de
+pleno derecho en un veinticinco por ciento (25%)"* cuando el infractor es **MiPyME** según el art. 2
+de la Ley 24.467, **persona humana**, **sucesión indivisa** o **entidad sin fines de lucro**, y no es
+Gran Contribuyente Nacional. De pleno derecho: no se pide, se controla que el acto la aplique.
+
+**Reducción transitoria, art. 17 de la Ley 27.826.** Para los mismos sujetos, el **50%** de las
+multas formales de esos artículos por infracciones **anteriores al 09/10/2026**, de obligaciones
+vencidas desde la vigencia de la Ley 27.799, **no firmes** o firmes sin cancelar. Tiene tres
+condiciones que cambian la estrategia:
+
+- cumplir la obligación formal omitida *"de manera previa o simultánea"*;
+- el acogimiento implica *"el allanamiento incondicional a la pretensión fiscal por la porción no
+  reducida y la renuncia a toda acción y derecho"*, aunque la multa esté en discusión
+  administrativa o judicial;
+- las costas y gastos causídicos quedan a cargo del contribuyente.
+
+ARCA tiene **treinta días** desde la publicación para reglamentarlo (art. 18):
+
+`[VERIFICAR VIGENCIA: resolución general de ARCA que reglamenta el art. 17 de la Ley 27.826 - el art. 18 le da treinta días desde el 09/10/2026; confirmar que se dictó y qué exige antes de aconsejar el acogimiento]`
+
+**Y el régimen simplificado de Ganancias de la Ley 27.799 también cambió** (arts. 3 a 13 de la Ley
+27.826): la **carga de la prueba** de la discrepancia significativa recae *"exclusivamente, sobre la
+Agencia de Recaudación y Control Aduanero"*; no hay discrepancia por la diferencia con una
+rectificativa presentada dentro de **quince días hábiles** de notificada la liquidación del art. 14
+o la determinación del art. 17 de la Ley 11.683, si se paga o regulariza el saldo; y en la
+modalidad simplificada no corre la discrepancia del 15% cuando la diferencia no supera el **5%**
+del umbral del art. 1 del Régimen Penal Tributario. Rige para los períodos fiscales iniciados
+desde el 01/01/2025 (art. 13).
+
+Cotejado contra `fuentes/normas/ley-27826.txt`.
 
 ### 33.2 Los recursos del art. 76 — la opción que cierra puertas
 

@@ -419,6 +419,17 @@
         "policía bonaerense"
       ],
       "nota": "Ley 13.982: estatuto propio con estado policial, fuera de la Ley 10.430. Declarada a mano."
+    },
+    "laboral.md :: 5.9": {
+      "veredicto": "no-es-rama",
+      "nota": "Proceso laboral nacional de la Ley 27.802. El Decreto 1228/2026 entra sólo como la fecha de vigencia y la carencia del Fondo de Asistencia Laboral, citadas en la nota del art. 217: la fila de laboral ya alcanza la sección."
+    },
+    "ejecucion.md :: 21.8 bis": {
+      "veredicto": "rama",
+      "disparadores": [
+        "vivienda única"
+      ],
+      "nota": "Protección de la vivienda: arts. 244 a 256 CCyCN y Ley 14.432 PBA texto Ley 15.638. Ningún módulo la cubría."
     }
   }
 }

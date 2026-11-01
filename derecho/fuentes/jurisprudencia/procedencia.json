@@ -1187,6 +1187,30 @@
       "descargado": "2026-09-23T22:11:14-03:00",
       "sha256_archivo": "6347b372c22e4a558db8b739b7376f5828e894d6edfedb001e5795119e5a6aed",
       "cotejo": "cotejado: el apellido de la carátula aparece en el texto del documento"
+    },
+    "scba-fernandez-l130895-2026-10-21": {
+      "archivo": "scba-fernandez-l130895-2026-10-21.pdf",
+      "caratula": "Fernández, Hilda Noemí c/ Ozuna, José Antonio s/ Despido",
+      "tribunal": "SCBA",
+      "causa": "L. 130.895",
+      "fecha": "2026-10-21",
+      "url": "https://www.scba.gov.ar/includes/descarga.asp?id=60337&n=Ver%20sentencia%20(causa%20L.%20130.895).pdf",
+      "content_type": "application/pdf",
+      "descargado": "2026-11-01T15:32:07-03:00",
+      "sha256_archivo": "d123ce0ce52a151639ac299dd4ff24fb36b0f116d37a68b56d1de3265c5472cb",
+      "cotejo": "cotejado: el apellido de la carátula aparece en el texto del documento"
+    },
+    "scba-vera-l139012-2026-09-24": {
+      "archivo": "scba-vera-l139012-2026-09-24.pdf",
+      "caratula": "Vera, Carlos Issac c/ Empleador Autoasegurado Gobernación de la Provincia de Buenos Aires s/ Acción de revisión resolución Comisión Médica Jurisdiccional",
+      "tribunal": "SCBA",
+      "causa": "L. 139.012",
+      "fecha": "2026-09-24",
+      "url": "https://www.scba.gov.ar/includes/descarga.asp?id=60174&n=Ver%20sentencia%20(causa%20L.139.012).pdf",
+      "content_type": "application/pdf",
+      "descargado": "2026-11-01T15:32:09-03:00",
+      "sha256_archivo": "0c3cad1c6f599e13569bdc463d252c18c4263ff263c943ed4db672b08945cdd5",
+      "cotejo": "cotejado: el apellido de la carátula aparece en el texto del documento"
     }
   },
   "_descripcion": "Procedencia de las sentencias bajadas: de dónde salió cada una, cuándo, y el hash del archivo tal como quedó en disco. `cotejo` dice si la carátula se pudo cotejar contra el texto del documento; `revisar` marca lo que no se pudo dar por cotejado y hay que mirar."

@@ -16,9 +16,10 @@ cita inventada y bastante más difícil de ver leyendo.
 | `configurar.py` | Deja fija la ruta al repo en esta máquina, una sola vez |
 | `estado.py` | Diagnóstico: qué encontró, qué datos hay cargados y qué quedó vencido |
 | `perfil.py` | Lee y escribe el perfil de trabajo de quien consulta |
-| `articulo.py` | Devuelve un artículo de una norma bajada, con título, URL, fecha de descarga y hash arriba. Es lo que se corre para transcribir: `Read` trunca a 2.000 renglones sin avisar y el CCyCN tiene 27.000 |
+| `articulo.py` | Devuelve un artículo de una norma bajada, con título, URL, fecha de descarga y hash arriba. Es lo que se corre para transcribir: `Read` trunca a 2.000 renglones sin avisar y el CCyCN tiene 27.000. Con `--anexo 1`, el artículo del tratado o del código que la ley aprueba |
 | `verificar_respuesta.py` | Revisa una respuesta ya escrita, de un archivo o de la entrada estándar con `-`: que sus marcadores sean del vocabulario y estén verbatim. Mide la FORMA, no si correspondía emitirlos |
 | `_raiz.py` | No se corre solo: resuelve dónde está el repo para todos los demás |
+| `_tablas.py` | No se corre solo: lee las tablas de `fuentes/datos/` que usan las calculadoras y corta ante una fecha ilegible, un valor no positivo o un período repetido |
 | `_comun_tests.py` | No se corre solo: la raíz del checkout, el plantón fuera de él y las clases de letras que comparten las seis suites |
 
 ## Ninguna ruta hardcodeada
@@ -134,7 +135,7 @@ hizo sin el script.
 
     python3 -m unittest discover -s . -p 'test_*.py' -v
 
-**335 tests**, sin dependencias externas, en dos grupos.
+**381 tests**, sin dependencias externas, en dos grupos.
 
 **Y repartidos en varios archivos, uno por lo que cada suite afirma.** `test_scripts.py` llegó a 6149
 renglones, **tres veces el corte de `Read`** que este repositorio le impone a los módulos, y ese

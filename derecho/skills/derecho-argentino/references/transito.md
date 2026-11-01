@@ -35,6 +35,27 @@ voluntariamente, no lo hicieron**.
 **El peatón goza del beneficio de la duda y de presunciones a su favor**, mientras no incurra en
 **graves** violaciones a las reglas del tránsito.
 
+**En PBA la prioridad de paso tiene texto propio: el art. 28 quater de la Ley 13.927**, que
+incorporó la **Ley 15.657** (B.O. 30/10/2026). Mantiene la regla de ceder el paso *"al vehículo
+que circula desde su derecha hacia su izquierda"*, pero no la llama absoluta como el art. 41 de la
+Ley 24.449, y sus excepciones no son las mismas:
+
+- **Inc. d):** pierde la prioridad frente a *"vehículos por una vía de mayor jerarquía:
+  autopistas, semiautopistas, rutas, carreteras, avenidas"*. El art. 41 inc. d) sólo nombra la
+  semiautopista: en una avenida bonaerense, quien viene por la derecha desde la calle no tiene
+  prioridad.
+- **Inc. h):** la pierde quien *"detiene completamente la marcha antes de ingresar a la
+  encrucijada y otro vehículo llega en movimiento"*.
+- **Inc. i):** la pierde quien *"realice un giro hacia una vía pública transversal"*, frente a los
+  que circulan por ella.
+
+Como el art. 64 presume responsable a quien carecía de prioridad, en un siniestro bonaerense el
+artículo que la define cambia la presunción. La ley no fija fecha de vigencia propia:
+
+`[VERIFICAR VIGENCIA: art. 28 quater Ley 13.927 texto Ley 15.657 - publicada el 30/10/2026 y sin fecha de vigencia propia; para un hecho cercano a esa fecha, determinar desde cuándo rige antes de aplicar sus incisos d), h) e i)]`
+
+Cotejado contra `fuentes/normas/pba-ley-15657.txt` y `ley-24449.txt`, art. 41.
+
 > **El art. 64 es régimen probatorio, no factor de atribución.** La responsabilidad objetiva del
 > dueño y guardián sale de los **arts. 1757-1758 CCyCN**, no de acá. Citar el art. 64 como fuente
 > de responsabilidad objetiva es un error que se ve seguido; el encuadre civil está en

@@ -22,9 +22,12 @@ Cada punto es binario.
   "Barrios": el fallo lo fija como **techo del 6%**, no como tasa fija. Detecta el exceso
   aunque la doctrina no fuera aplicable.
 
-- [ ] **Causa B**: no da la cuestión por resuelta. Consigna que **la SCBA no se pronunció**
-  sobre el art. 55 de la Ley 27.802 y que **no hay pronunciamiento que articule** el art. 55
-  (ley nacional de orden público) con "Barrios" (doctrina legal provincial).
+- [ ] **Causa B**: dice que **la SCBA convalidó el art. 55** en **"Fernández"** (L. 130.895,
+  sentencia registrada el 21/10/2026): desestimó el planteo de inconstitucionalidad, dispuso su
+  aplicación y declaró abstracto el planteo contra el art. 7 de la Ley 23.928 por "Barrios",
+  porque la ley trae su propio método. Lo cita con `[VERIFICAR PRECEDENTE: ...]` y no da por
+  cerrada la cuestión federal: la CSJN no se pronunció. **Presentar el art. 55 como de
+  constitucionalidad abierta en PBA, sin nombrar "Fernández", se computa como ERROR.**
 
 - [ ] Describe el art. 55 correctamente: régimen transitorio para juicios en trámite al
   06/03/2026, tasa pasiva del BCRA con **techo** de IPC + 3% anual y **piso** del 67% de ese

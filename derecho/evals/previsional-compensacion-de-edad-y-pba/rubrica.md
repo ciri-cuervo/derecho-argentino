@@ -1,5 +1,5 @@
 ---
-titulo: Le faltan aportes para jubilarse - la compensación de exceso de edad del art. 19 que hay que pedir, y el fuero que en PBA no es el federal
+titulo: Le faltan aportes para jubilarse - la compensación de exceso de edad del art. 19 que hay que pedir, y el fuero federal con asiento en la provincia
 ---
 ## Rúbrica · previsional-compensacion-de-edad-y-pba
 
@@ -24,11 +24,14 @@ El caso se gana o se pierde en la primera respuesta: **hay una vía y el consult
 - [ ] **Corrige «el haber sería la PBU».** El haber se integra además con la **Prestación
   Compensatoria** (arts. 23 y 24) y la **Prestación Adicional por Permanencia**. Tratar la PBU como
   el haber entero subestima el beneficio.
-- [ ] **Corrige el fuero.** En **PBA** lo previsional **no va por el federal de la seguridad
-  social** ni por el **laboral**: agotada la vía del Decreto-Ley 7.647/70 va al **contencioso
-  administrativo**, donde el **art. 5 inc. b de la Ley 12.008** le da regla de competencia propia
-  —domicilio del interesado o de la demandada, a elección del demandante—. Ver `previsional-pba.md`
-  55 y `contencioso-pba.md` 26.2.
+- [ ] **Corrige el fuero.** El beneficio del caso es del **SIPA** —art. 19 de la Ley 24.241, PBU,
+  ANSES—, así que la demanda es **federal**, pero no ante el fuero de la Capital: el **art. 15 de la
+  Ley 24.463** manda impugnar las resoluciones de ANSES ante los Juzgados Federales de Primera
+  Instancia de la Seguridad Social **de la Capital Federal** «y ante los **juzgados federales con
+  asiento en las provincias**». Domiciliada en PBA, va al juzgado federal con asiento en la
+  provincia. Ver `previsional.md`. **Si aportó al IPS**, el régimen es otro y el fuero es el
+  **contencioso administrativo** bonaerense, art. 5 inc. b de la Ley 12.008 —`previsional-pba.md`
+  55—: decirlo como alternativa suma, darlo por el fuero del caso no.
 - [ ] **No da un monto.** La serie de valores no está cargada: corresponde **marcador**, no
   estimación.
 
@@ -44,5 +47,5 @@ El caso se gana o se pierde en la primera respuesta: **hay una vía y el consult
 - Dice que no hay vía sin nombrar la compensación del art. 19.
 - Promete que la compensación alcanza sin hacer la cuenta.
 - Trata la PBU como el haber completo.
-- Manda el caso al fuero federal estando en PBA.
+- Manda el caso del SIPA al fuero laboral o al contencioso administrativo bonaerense.
 - Da un monto de haber.

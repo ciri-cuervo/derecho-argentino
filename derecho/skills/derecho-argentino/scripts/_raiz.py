@@ -125,13 +125,25 @@ def base(raiz: Path) -> Path:
     return sub if sub.is_dir() else raiz
 
 
-def leer_config() -> dict:
+def leer_config(para_escribir: bool = False) -> dict:
+    """El config de la máquina, o `{}` si no existe.
+
+    Para leer, uno ilegible vale como vacío: la skill sigue y pregunta. Para escribir, corta:
+    reescribirlo sobre `{}` borraría en silencio lo que tuviera de válido."""
     f = archivo_config()
-    if f.is_file():
-        try:
-            return json.loads(f.read_text(encoding="utf-8"))
-        except (ValueError, OSError):
-            return {}
+    if not f.is_file():
+        return {}
+    try:
+        cfg = json.loads(f.read_text(encoding="utf-8"))
+    except (ValueError, OSError) as e:
+        cfg, motivo = None, str(e)
+    else:
+        motivo = "no es un objeto JSON"
+    if isinstance(cfg, dict):
+        return cfg
+    if para_escribir:
+        raise SystemExit(f"{f} no se pudo leer ({motivo}): corregilo o borralo antes de "
+                         "guardar, para no pisar lo que tenga.")
     return {}
 
 
@@ -142,7 +154,7 @@ def guardar_raiz(p: Path) -> Path:
         raise SystemExit(f"{p} no parece el repo: falta {MARCADOR}")
     f = archivo_config()
     f.parent.mkdir(parents=True, exist_ok=True)
-    cfg = leer_config()
+    cfg = leer_config(para_escribir=True)
     cfg["repo"] = str(p)
     f.write_text(json.dumps(cfg, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return f

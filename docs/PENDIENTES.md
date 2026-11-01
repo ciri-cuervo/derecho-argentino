@@ -44,10 +44,12 @@ son los criterios de fondo, que son afirmaciones sobre derecho y no sobre la for
 **Cuidado con prohibir de más.** El grader de `honorarios-pba-jus-y-etapas` excluye con un
 lookahead el capital de sentencia que el propio enunciado trae, porque una respuesta correcta lo
 cita de vuelta: sin esa exclusión, el control reprobaría exactamente lo que quiere premiar.
-**Migrar no es medir.** De los siete, uno se corrió —`laboral-despido-tramos-reforma-pba`, con
-la comparación en `BITACORA.md`— y el precio está ahí: tres pasadas por brazo y del orden de diez
-dólares por corrida. De los otros seis, tres declaran «Sin correr» en su `resultado.md` y tres
-traen el resultado esperado en prosa, que describe qué se espera y no qué pasó.
+**Migrar no es medir, y los siete se midieron.** `laboral-despido-tramos-reforma-pba` se corrió
+en septiembre de 2026, a tres pasadas por brazo; los otros seis el 01/11/2026, a una, con Sonnet
+porque los procesos hijos no tenían acceso a Opus. El resultado y lo que destapó está en
+`BITACORA.md`. Una pasada mide que el caso se pueda resolver y que el grader no repruebe lo
+correcto, no la varianza: para eso hacen falta tres, y el precio de una corrida de los siete a
+una pasada fue del orden de dos dólares.
 
 ### Los reclamos de faltante que no nombran una norma
 

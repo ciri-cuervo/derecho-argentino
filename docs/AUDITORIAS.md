@@ -14,6 +14,9 @@ el mismo commit y su orden sale de sus referencias internas.
 
 | Fecha | Entrada |
 | --- | --- |
+| 01/11/2026 | [Tres meses de normas y fallos: lo que el repositorio decía mal](#01112026---tres-meses-de-normas-y-fallos-lo-que-el-repositorio-decía-mal) |
+| 01/11/2026 | [El Protocolo de Buenos Aires: nueve exclusiones y la prórroga tácita del art. 6](#01112026---el-protocolo-de-buenos-aires-nueve-exclusiones-y-la-prórroga-tácita-del-art-6) |
+| 01/11/2026 | [El eval previsional mandaba un reclamo del SIPA al contencioso bonaerense](#01112026---el-eval-previsional-mandaba-un-reclamo-del-sipa-al-contencioso-bonaerense) |
 | 24/09/2026 | [Las pautas de formato de los escritos, en once textos](#24092026---las-pautas-de-formato-de-los-escritos-en-once-textos) |
 | 23/09/2026 | [Siete reglamentos leídos y siete institutos buscados en JUBA](#23092026---siete-reglamentos-leídos-y-siete-institutos-buscados-en-juba) |
 | 18/09/2026 | [La Justicia de Paz bonaerense: competencia por partido y dos remisiones a normas derogadas](#18092026---la-justicia-de-paz-bonaerense-competencia-por-partido-y-dos-remisiones-a-normas-derogadas) |
@@ -41,6 +44,84 @@ el mismo commit y su orden sale de sus referencias internas.
 | Septiembre 2026 | [Ley 15.057, mediación PBA, intereses y art. 245](#septiembre-2026---ley-15057-mediación-pba-intereses-y-art-245) |
 | Septiembre 2026 | [Auditoría cruzada: art. 25 LNPA, art. 256 LCT, SECLO y locaciones](#septiembre-2026---auditoría-cruzada-art-25-lnpa-art-256-lct-seclo-y-locaciones) |
 | Septiembre 2026 | [Fuentes doctrinarias: CCyC Comentado y derecho de daños](#septiembre-2026---fuentes-doctrinarias-ccyc-comentado-y-derecho-de-daños) |
+
+---
+
+## 01/11/2026 - Tres meses de normas y fallos: lo que el repositorio decía mal
+
+Un relevamiento de lo publicado entre agosto y octubre de 2026, cruzado contra el repositorio.
+Cada norma entró por su descargador y cada fallo se leyó entero antes de escribirlo.
+
+- **`laboral.md` 5.5 bis decía que la SCBA no se había pronunciado sobre el art. 55 de la Ley
+  27.802.** Lo convalidó en **"Fernández", L. 130.895**, registrada el 21/10/2026, y declaró
+  abstracto el planteo contra el art. 7 de la Ley 23.928 por "Barrios". **"Vera", L. 139.012**,
+  del 24/09/2026, reitera "Galarza" para la LRT. Las dos sentencias están en
+  `fuentes/jurisprudencia/`. El eval `laboral-sede-intereses-art55` premiaba la respuesta vieja y
+  se corrigió.
+- **El Fondo de Asistencia Laboral rige desde el 01/12/2026**, no el 01/11: Decreto 1228/2026
+  (B.O. 20/10/2026), que además lleva la carencia a doce períodos.
+- **El CPPF rige en Posadas desde el 24/08/2026**: la tabla de `penal.md` 24.1 decía 24/06,
+  citando la misma Res. MJ 1/2026 cuyo art. 2 dice agosto.
+- **La Ley 27.801 está reglamentada** por el Decreto 875/2026; su Anexo I no está transcripto en
+  el aviso del Boletín Oficial, y eso queda marcado.
+- **La Ley 27.826** (B.O. 09/10/2026) reescribió la discrepancia significativa del art. 56 de la
+  Ley 11.683 e incorporó reducciones de multas: entró a `tributario.md` 33.1 y 33.1 bis.
+- **Ningún módulo cubría la protección de la vivienda.** Entró a `ejecucion.md` 21.8 bis con los
+  arts. 244 a 256 CCyCN y la Ley 14.432 PBA en el texto de la Ley 15.638 (B.O. 21/10/2026).
+- **La prioridad de paso bonaerense tiene texto propio desde la Ley 15.657** (B.O. 30/10/2026),
+  distinto del art. 41 de la Ley 24.449: entró a `transito.md` 28.1.
+- **La Justicia del Trabajo de la Ciudad está en formación**: Res. 451/LCABA/26, leída en el
+  Boletín porteño. Entró a `sede-judicial-caba.md` con marcador sobre la fecha de apertura.
+
+**Lo que no se escribió por no tener fuente primaria a la vista:** el fallo «Encina c/ ART
+Interacción», que la prensa atribuye a la CSJN, y el de la CNAT Sala I en «Mendiguren».
+
+---
+
+## 01/11/2026 - El Protocolo de Buenos Aires: nueve exclusiones y la prórroga tácita del art. 6
+
+**Contra qué se cotejó.** `ley-24669.txt`, arts. 1, 2, 4, 5 y 6 del Protocolo anexo.
+
+- **`dipr.md` 35.1 bis decía que el art. 2 excluye «cinco materias».** Son nueve: concursos,
+  familia y sucesiones, seguridad social, contratos administrativos, laborales, venta al
+  consumidor, transporte, seguros y derechos reales. Las cuatro que faltaban deciden casos
+  —un contrato de trabajo o de consumo con elemento Mercosur no entra al Protocolo—.
+- **El módulo no traía el art. 6**, que es la prórroga tácita del Protocolo y coincide con el
+  art. 56 de Montevideo: sólo prorroga la admisión *"en forma positiva y no ficta"* posterior a
+  la demanda. Entró con el marcador de criterio, porque si oponer excepciones previas sin
+  declinatoria es esa admisión no tiene precedente bajado.
+- **El eval `dipr-prorroga-tacita-y-jurisdiccion-exclusiva` había quedado atrás del módulo.** Su
+  rúbrica decía que ningún instrumento del Mercosur estaba bajado —la Ley 24.669 se bajó el
+  18/09/2026— y exigía cerrar la pregunta 1 por el art. 2607. Con sociedades con sede en
+  Argentina y Uruguay, el tratado puede invertir esa respuesta. La corrida del 01/11/2026 citó
+  bien los arts. 1 y 2 del Protocolo y el grader la reprobó por citar un tratado. Corregidos la
+  rúbrica, el `resultado.md` y el `caso.md`; el grader de la prórroga pasó a
+  `prorroga-segun-el-regimen`, y el de las citas de tratados se sacó: reprobó dos respuestas que
+  citaban bien los arts. 6 y 13, porque el juez no tiene el texto contra el cual comparar. Ese
+  punto de la rúbrica se lee.
+
+---
+
+## 01/11/2026 - El eval previsional mandaba un reclamo del SIPA al contencioso bonaerense
+
+**Contra qué se cotejó.** `ley-24463.txt`, art. 15, y `pba-ley-12008.txt`, art. 5.
+
+El caso `evals/previsional-compensacion-de-edad-y-pba` es del **SIPA**: lo resuelve el art. 19 de
+la Ley 24.241, habla de la PBU y de ANSES, y no dice que la consultante haya aportado al IPS. Su
+rúbrica y su grader exigían, sin embargo, el **contencioso administrativo** bonaerense por el art.
+5 inc. b de la Ley 12.008. Ese inciso reparte la competencia territorial **dentro** del fuero
+provincial, para las prestaciones previsionales provinciales; no alcanza a una demanda contra un
+organismo nacional. El art. 15 de la Ley 24.463 manda impugnar las resoluciones de ANSES *"ante
+los Juzgados Federales de Primera Instancia de la Seguridad Social de la Capital Federal, y ante
+los juzgados federales con asiento en las provincias"*.
+
+La corrección del 18/09/2026 sacó el fuero laboral y puso el contencioso, cotejando la Ley 12.008
+pero no la pregunta previa: de qué régimen es el beneficio. Lo destapó la corrida del 01/11/2026,
+que contestó juzgado federal con asiento en la provincia —y el IPS como alternativa— y el grader
+reprobó por unanimidad. **Los módulos lo tenían bien**: `previsional.md` manda el SIPA al fuero
+federal y `previsional-pba.md` 55 manda el IPS al contencioso. Corregidos la rúbrica, el
+`resultado.md`, el `caso.md` y el grader, que pasó a llamarse
+`el-fuero-es-el-federal-con-asiento-en-la-provincia`.
 
 ---
 

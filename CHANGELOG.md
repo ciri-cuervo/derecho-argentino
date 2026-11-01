@@ -14,6 +14,34 @@ un renglón por cambio. El detalle de cada uno vive donde se puede verificar:
 | La doctrina de cada precedente | El módulo que la usa; el índice, en `references/fallos-csjn.md` |
 | Si el texto de un fallo se puede transcribir | `herramientas/lecturas-ocr.json` |
 
+## [1.4.4] — 2026-11-01
+
+Normas y fallos de agosto a octubre de 2026, datos al día y calculadoras corregidas: varios
+resultados cambian.
+
+- **Calculadoras**: el preaviso de más de cinco años sale de dos meses, las vacaciones se miden al
+  31 de diciembre y los días trabajados desde el ingreso; `plazos.py` deja de contar dos veces un
+  trasladable y carga los años que atraviesa; `honorarios_pba.py` corta con etapas en cero.
+- **Datos**: jus de noviembre, UMA nacional de septiembre, UMA porteña de julio, CER al
+  2026-10, RIPTE al 2026-08 e IPC al 2026-09, con las fuentes nuevas del BCRA, del INDEC y del
+  organismo del RIPTE; asuetos de octubre y noviembre de PBA, el 20/10 inhábil nacional y los
+  feriados de la visita papal.
+- **"Fernández" (SCBA, L. 130.895)** convalida el art. 55 de la Ley 27.802; **"Vera"** reitera
+  "Galarza" en la LRT.
+- **Normas nuevas**: Ley 27.826, Decretos 1103, 1228 y 875/2026, Leyes 15.638 y 15.657 de PBA.
+  El FAL rige desde el 01/12/2026 y el CPPF en Posadas desde el 24/08/2026.
+- **Cobertura nueva**: la vivienda única frente al embargo, la prioridad de paso bonaerense, la
+  Justicia del Trabajo de la Ciudad y qué días no corren en cada fuero.
+- **DIPr**: el Protocolo de Buenos Aires excluye nueve materias y su art. 6 rige la prórroga
+  tácita.
+- **`articulo.py --anexo`** devuelve el artículo de un tratado o código aprobado por ley, y lee
+  seis textos que antes daban cero artículos, entre ellos el Reglamento para la Justicia Nacional.
+- **Los comandos** pueden buscar los módulos que nombran y mandan al vocabulario de marcadores.
+- **Descargadores y Windows**: reintentos a mitad de descarga y ante 5xx, hashes que no dependen
+  de la máquina, entrada y salida que no se rompen en cp1252.
+- **Evals**: los seis migrados se corrieron por primera vez; tres casos premiaban o
+  reprobaban lo que no correspondía y se corrigieron contra la fuente.
+
 ## [1.4.3] — 2026-09-24
 
 Correcciones: no entran normas ni fallos, y ningún cálculo cambia de resultado.

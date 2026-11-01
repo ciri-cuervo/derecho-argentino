@@ -535,7 +535,7 @@ abierto por las dudas se paga en todos los turnos que siguen.
 | **Adopción**: declaración de adoptabilidad, guarda con fines de adopción, entrega directa, plena, simple o de integración | `references/familia.md` 18.10 ter |
 | **Medida de abrigo o medida excepcional de niñez**: Servicio Local, separación del niño de su familia, control judicial, plazos | `references/familia.md` 18.10 quater |
 | Designación, control, impugnación o valoración de una pericia; consultor técnico; estudios complementarios | `references/prueba-pericial.md` |
-| Liquidación, embargo, excepciones en la ejecución, incidente de ejecución parcial, vía ejecutiva laboral | `references/ejecucion.md` |
+| Liquidación, embargo, excepciones en la ejecución, incidente de ejecución parcial, vía ejecutiva laboral, vivienda única inembargable | `references/ejecucion.md` |
 | Cuándo quedó notificada una resolución en PBA, cédula electrónica, MEV, presentaciones electrónicas, caída del sistema | `references/notificaciones-pba.md` |
 | Un contrato aportado en sesión, o redacción de un contrato nuevo | `references/contratos.md` (el análisis de red-flags se dispara solo, ver sección 7) |
 | Cómputo de un plazo, feria, plazo de gracia, suspensión por mediación o conciliación | `references/plazos.md` |
@@ -630,7 +630,7 @@ scripts en lugar de calcular**, y transcribir su salida:
 | Honorarios en **otra provincia** | Su ley arancelaria local, que **no está cargada**. Decirlo y no calcular con la Ley 14.967 ni con la 27.423 |
 | Diagnóstico: repo, perfil, datos cargados y vencidos | `scripts/estado.py` |
 | Perfil de trabajo del usuario | `scripts/perfil.py` |
-| **Transcribir un artículo** de una norma bajada, con su procedencia | `scripts/articulo.py <slug> <art>` — sale con título, URL, fecha de descarga y hash; `Read` trunca a 2.000 renglones sin avisar |
+| **Transcribir un artículo** de una norma bajada, con su procedencia | `scripts/articulo.py <slug> <art>` — sale con título, URL, fecha de descarga y hash; `Read` trunca a 2.000 renglones sin avisar. El de un tratado o código que una ley aprueba, con `--anexo 1` |
 | **Revisar los marcadores de la respuesta antes de entregarla** (sección 3) | `scripts/verificar_respuesta.py -`, con la respuesta por la entrada estándar — mide la FORMA, no si correspondía emitirlos: su verde no dice que la respuesta esté bien |
 
 Los scripts **no traen montos**: piden como entrada los valores que la sección 2 prohíbe
