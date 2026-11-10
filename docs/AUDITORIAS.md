@@ -14,6 +14,7 @@ el mismo commit y su orden sale de sus referencias internas.
 
 | Fecha | Entrada |
 | --- | --- |
+| 10/11/2026 | [La prioridad de paso bonaerense, cotejada inciso por inciso](#10112026---la-prioridad-de-paso-bonaerense-cotejada-inciso-por-inciso) |
 | 01/11/2026 | [Tres meses de normas y fallos: lo que el repositorio decía mal](#01112026---tres-meses-de-normas-y-fallos-lo-que-el-repositorio-decía-mal) |
 | 01/11/2026 | [El Protocolo de Buenos Aires: nueve exclusiones y la prórroga tácita del art. 6](#01112026---el-protocolo-de-buenos-aires-nueve-exclusiones-y-la-prórroga-tácita-del-art-6) |
 | 01/11/2026 | [El eval previsional mandaba un reclamo del SIPA al contencioso bonaerense](#01112026---el-eval-previsional-mandaba-un-reclamo-del-sipa-al-contencioso-bonaerense) |
@@ -44,6 +45,37 @@ el mismo commit y su orden sale de sus referencias internas.
 | Septiembre 2026 | [Ley 15.057, mediación PBA, intereses y art. 245](#septiembre-2026---ley-15057-mediación-pba-intereses-y-art-245) |
 | Septiembre 2026 | [Auditoría cruzada: art. 25 LNPA, art. 256 LCT, SECLO y locaciones](#septiembre-2026---auditoría-cruzada-art-25-lnpa-art-256-lct-seclo-y-locaciones) |
 | Septiembre 2026 | [Fuentes doctrinarias: CCyC Comentado y derecho de daños](#septiembre-2026---fuentes-doctrinarias-ccyc-comentado-y-derecho-de-daños) |
+
+---
+
+## 10/11/2026 - La prioridad de paso bonaerense, cotejada inciso por inciso
+
+**Contra qué se cotejó.** `pba-ley-15657.txt`, art. 28 quater completo, contra `ley-24449.txt`,
+art. 41, con `articulo.py --comparar`; `pba-decreto-532-2009.txt`, Anexo V art. 19; y
+`ccycn-26994.txt`, anexo 1, arts. 5 y 6.
+
+- **`transito.md` 28.1 daba los incs. h) e i) del 28 quater como excepciones que el art. 41 no
+  tiene.** Las dos tienen antecedente en su inc. g) 3: *"Se haya detenido la marcha o se vaya a
+  girar para ingresar a otra vía"*. Lo nuevo de fondo es el inc. d) —cede ante cualquier vía de
+  mayor jerarquía, avenidas incluidas, y no sólo ante la semiautopista—, y son nuevos el j) —paso
+  alternado entre filas lentas— y la regla rural para peatones, ciclistas y jinetes. El h) acota
+  el antecedente: sólo frente a otro vehículo que llega en movimiento. El módulo tampoco
+  registraba lo que el 28 quater no trae: el g) 2 y el g) 4 nacionales, y *"Para cualquier otra
+  maniobra, goza de prioridad quien conserva su derecha"*. Está ahora en una tabla inciso por
+  inciso.
+- **El inc. c) también cambia**: los vehículos de urgencia desplazan la prioridad sólo si
+  *"realicen las señales de advertencia"*; el art. 41 pide que actúen *"en cumplimiento de su
+  misión"*.
+- **`civil.md` 6.5 explicaba la presunción del art. 64 sin decir que en PBA la prioridad ya no es
+  la del art. 41**, y el índice doctrinario remitía a una obra de 2015 que trabaja sobre el art.
+  41. Los dos derivan ahora a 28.1.
+- **El art. 19 del Anexo V sanciona los incs. a) a g) del art. 41.** Qué escala corresponde a los
+  incisos del 28 quater sin par en el art. 41 quedó con marcador en 28.5 ter.
+- **Vigencia**: la Ley 15.657 no fija fecha propia y no se condiciona a reglamentación; por los
+  arts. 5 y 6 CCyCN rige desde el 08/11/2026, con marcador sobre la regla provincial.
+- **El consolidado de la Ley 13.927 bajado el 17/09/2026 no traía el 28 quater.** Vuelto a bajar
+  el 10/11/2026, lo trae con el mismo texto que la Ley 15.657, y declara trece leyes
+  modificatorias y no doce: `transito.md` 28.5 lo dice así.
 
 ---
 

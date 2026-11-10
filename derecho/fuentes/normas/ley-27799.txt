@@ -2,7 +2,7 @@ Ley 27.799 - Régimen Penal Tributario (inocencia fiscal)
 ==============================================================================
 Jurisdicción:     nacional
 Fuente:           https://servicios.infoleg.gob.ar/infolegInternet/anexos/420000-424999/422008/norma.htm
-Descargado:       2026-09-18
+Descargado:       2026-11-10
 SHA-256 (crudo):  207db7b4afea7f4f849549e07ad82cefa94f46c00ddf37d4255fd23f29783239
 Charset:          ISO-8859-1
 

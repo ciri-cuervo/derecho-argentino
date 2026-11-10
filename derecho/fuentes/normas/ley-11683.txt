@@ -2,8 +2,8 @@ Ley 11.683 - Procedimiento tributario, t.o. 1998 por Decreto 821/98 (texto actua
 ==============================================================================
 Jurisdicción:     nacional
 Fuente:           https://servicios.infoleg.gob.ar/infolegInternet/anexos/15000-19999/18771/texact.htm
-Descargado:       2026-09-17
-SHA-256 (crudo):  e0c68307751298f3fd94b673ea35131216da6b0fbc9b1a099c8def4a827b1330
+Descargado:       2026-11-10
+SHA-256 (crudo):  bff3e41ba34051cf462a5e573ff7db7edff05df7e4aaa420ff4cd46f3f17f2f6
 Charset:          windows-1252
 
 Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
@@ -1801,6 +1801,13 @@ En los casos de apelación ante el TRIBUNAL FISCAL DE LA NACION los intereses de
 
 Infracciones formales - Sanciones
 
+(Nota Infoleg: Ver arts. 17 y 18 de la Ley Nº 27.826 B.O. 9/10/2026 -
+Régimen Especial de Reducción de Multas-, (referencia: importe de
+las multas por infracciones formales previstas en los artículos 38, 39
+y en los artículos sin número incorporados a continuación de estos de
+la ley 11.683 (t.o. en 1998 y sus modificaciones). Vigencia: a partir del día de su publicación en el Boletín Oficial de la República
+Argentina y surtirán efectos a partir de esa fecha.)
+
 ARTICULO 38 — Cuando existiere la obligación de
 presentar declaraciones juradas, la omisión de hacerlo dentro de los
 plazos generales que establezca la ADMINISTRACION FEDERAL DE INGRESOS
@@ -1840,7 +1847,9 @@ información propia del contribuyente o responsable, o de información de
 terceros, establecidos mediante resolución general de la Administración
 Federal de Ingresos Públicos, dentro de los plazos establecidos al
 efecto, será sancionada —sin necesidad de requerimiento previo— con una
-multa de hasta pesos cinco millones ($5.000.000), la que se elevará hasta pesos diez millones ($10.000.000) si se tratare de sociedades, empresas,
+multa de hasta pesos cinco millones ($5.000.000), la que se elevará
+hasta pesos diez millones ($10.000.000) si se tratare de sociedades,
+empresas,
 fideicomisos, asociaciones o entidades de cualquier clase constituidas
 en el país, o de establecimientos organizados en forma de empresas
 estables —de cualquier naturaleza u objeto— pertenecientes a personas
@@ -1885,7 +1894,9 @@ jurídicas o cualquier otro tipo de entidad domiciliada, constituida o
 ubicada en el exterior, la omisión de hacerlo dentro de los plazos
 generales que establezca la Administración Federal de Ingresos
 Públicos, será sancionada, sin necesidad de requerimiento previo, con
-una multa de pesos once millones ($11.000.000), la que se elevará a pesos veintidós millones ($22.000.000) si se tratare de sociedades, fideicomisos,
+una multa de pesos once millones ($11.000.000), la que se elevará a
+pesos veintidós millones ($22.000.000) si se tratare de sociedades,
+fideicomisos,
 asociaciones o entidades de cualquier clase constituidas en el país o
 de establecimientos organizados en forma de empresas estables —de
 cualquier naturaleza u objeto— pertenecientes a personas de existencia
@@ -2473,6 +2484,19 @@ día siguiente al de su publicación en el Boletín Oficial y surtirán
 efecto de conformidad con lo previsto en cada uno de los Títulos que la
 componen. Ver art. 247 de la Ley de referencia)
 
+ARTICULO 49 bis — Régimen reducción para MiPyMEs y personas humanas.
+Cuando el infractor califique como micro, pequeña o mediana empresa en
+los términos del artículo 2° de la ley 24.467 y sus modificatorias, o
+se trate de una persona humana, sucesión indivisa o entidad sin fines
+de lucro que no califiquen como Grandes Contribuyentes Nacionales de
+conformidad con la normativa dictada por la Agencia de Recaudación y
+Control Aduanero, los importes de las multas previstas en los artículos
+38, 39 y en los artículos sin número incorporados a continuación de
+estos, se reducirán de pleno derecho en un veinticinco por ciento (25%).
+
+(Artículo incorporado por art. 2° de la Ley Nº 27.826 B.O. 9/10/2026. Vigencia: a partir del día de su publicación en el Boletín Oficial de la República
+Argentina y surtirán efectos a partir de esa fecha.)
+
 ARTICULO 50 — Si en la primera oportunidad de
 defensa en la sustanciación de un sumario por infracción al artículo 39
 o en la audiencia que marca el artículo 41, el titular o representante
@@ -2670,25 +2694,28 @@ anterior, se considerará que existe una discrepancia significativa
 cuando se verifique, al menos, una de las siguientes condiciones:
 
 i) Si de la impugnación realizada por la Agencia de Recaudación y
-Control Aduanero resultare un incremento de los saldos de impuestos a
-favor del organismo o, en su caso, una reducción de los quebrantos
-impositivos o de los saldos a favor de los contribuyentes o
-responsables, por un porcentaje no inferior al quince por ciento (15%)
-respecto de lo que hubiera declarado el contribuyente.
+Control Aduanero resultare un incremento del impuesto determinado o, en
+su caso, una reducción de los quebrantos impositivos por un porcentaje
+no inferior al quince por ciento (15%) respecto de lo que hubiera
+declarado el contribuyente;
 
-ii) Si la diferencia entre el impuesto declarado y el impuesto que
-resulte como consecuencia de la impugnación realizada por la Agencia de
-Recaudación y Control Aduanero supere la suma fijada en el artículo 1°
-del Régimen Penal Tributario, establecido por el título IX de la ley
-27.430.
+ii) Si de la impugnación realizada por la Agencia de Recaudación y
+Control Aduanero resultare un incremento del impuesto determinado o, en
+su caso, una reducción de los quebrantos impositivos, que supere la
+suma fijada en el artículo 1° del Régimen Penal Tributario, establecido
+por el título IX de la ley 27.430;
 
 iii) Si de la impugnación realizada por el organismo recaudador con
-motivo de la utilización de facturas y otros documentos apócrifos,
-resulta un incremento del saldo de impuesto a favor del Fisco o, en su
-caso, una reducción de los quebrantos impositivos o de los saldos a
-favor de los contribuyentes o responsables.
+motivo de la utilización de facturas u otros documentos apócrifos, o
+ingresos directos computados improcedentemente –incluidas las
+retenciones, percepciones, pagos a cuenta y anticipos–, resulta un
+incremento del saldo de impuesto determinado o a favor del fisco o, en
+su caso, una reducción de los quebrantos impositivos o de los saldos a
+favor, de los contribuyentes o responsables.
 
-(Artículo s/nª incorporado por art. 31 de la Ley Nº 27.799 B.O. 2/1/2026. Vigencia: a partir del día de su publicación en el Boletín Oficial.)
+(Artículo s/nª a continuación del
+artículo 56 sustituido por art. 1° de la Ley Nº 27.826 B.O. 9/10/2026. Vigencia: a partir del día de su publicación en el Boletín Oficial de la República
+Argentina y surtirán efectos a partir de esa fecha.)
 
 Prescripción de impuestos
 
@@ -7547,6 +7574,9 @@ Ley Nº 20.626, artículo 10.
 185
 
 Antecedentes Normativos
+
+- Artículo s/nª a continuación del
+artículo 56, incorporado por art. 31 de la Ley Nº 27.799 B.O. 2/1/2026. Vigencia: a partir del día de su publicación en el Boletín Oficial;
 
 - Artículo 56, párrafo incorporado por art. 206 de la Ley
 N° 27430 B.O. 29/12/2017. Vigencia: el

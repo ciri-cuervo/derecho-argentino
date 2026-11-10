@@ -166,8 +166,8 @@ prescripción. Con denuncia penal, la suspensión va **hasta la sentencia firme*
 > **art. 2560 CCyCN** y dispuso que **en materia de tributos de las provincias, CABA y los
 > municipios el término de la prescripción se rige por la Ley 11.683** o la norma que la
 > sustituya. El art. 56 de la Ley 11.683, también reescrito por esa ley, fija **cinco años** que
-> **bajan a tres** para el contribuyente inscripto cumplidor sin discrepancia significativa
-> —`tributario.md` 33.1—.
+> **bajan a tres** para el contribuyente inscripto cumplidor sin discrepancia significativa, en
+> el texto que le dio la Ley 27.826 —`tributario.md` 33.1—.
 >
 > El plazo general coincide en cinco años, así que **el choque no está en el número sino en todo
 > lo demás**: la reducción a tres años, la suspensión del cómputo del art. 159 mientras el hecho

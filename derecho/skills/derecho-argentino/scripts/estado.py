@@ -25,8 +25,9 @@ import re
 from datetime import date
 from pathlib import Path
 
+import _modificatorias
 import perfil as _perfil
-from _raiz import ENV, ENV_PLUGIN, archivo_config, base, raiz_repo
+from _raiz import ENV, ENV_PLUGIN, archivo_config, base, es_base, raiz_repo
 
 # Cada cuántos días se considera vencido cada bloque. La volatilidad manda: el valor del jus
 # cambia todos los meses y las acordadas de feria una vez al año.
@@ -141,6 +142,28 @@ def revisar(raiz: Path) -> list[dict]:
             add("normas", "VENCIDO" if venc else "OK",
                 f"{total} en el manifiesto, verificados hace {d} días",
                 d, "/derecho:verificar" if venc else None)
+
+    # -- consolidados: que el texto de una norma mencione a cada modificatoria que el catálogo
+    # le declara. Un hash igual no lo dice -el sitio oficial puede no haber recorrido la reforma
+    # todavía- y la consecuencia es concreta: el art. 28 quater de la Ley 13.927 no está en su
+    # consolidado y sí en la Ley 15.657. Mencionar no es incorporar, así que esto atrapa el
+    # atraso evidente y nada más: ver `_modificatorias.py`.
+    try:
+        atrasados = _modificatorias.atrasados(F / "normas")
+    except ILEGIBLE:
+        add("consolidados", "FALTA", "no se pudo leer normas.json",
+            arreglo="revisar la instalación del plugin")
+    else:
+        if atrasados:
+            lista = ", ".join(f"{b['slug']} (falta {_modificatorias.nombre(m)})"
+                              for b, m in atrasados)
+            add("consolidados", "REVISAR",
+                f"{len(atrasados)} sin mencionar una modificatoria declarada: {lista}",
+                arreglo="volver a bajarlos con descargar_normas.py --slug <slug> --forzar; "
+                        "mientras la fuente oficial no la incorpore, articulo.py manda a la "
+                        "modificatoria")
+        else:
+            add("consolidados", "OK", "todos mencionan sus modificatorias declaradas")
 
     # -- fallos: acá NO va una fecha de verificación, y es lo que arregla este bloque.
     #
@@ -368,10 +391,20 @@ def bloque_plugin(raiz: Path, version_datos, origen: str):
     Al actualizar, la versión anterior puede quedar al lado de la nueva: si la raíz se resolvió
     en esa, los scripts nuevos leen datos viejos y nada más lo delata.
     """
-    propia = version_plugin(Path(__file__).resolve().parents[3])
+    carpeta = Path(__file__).resolve().parents[3]
+    propia = version_plugin(carpeta)
     if propia is None:
         return None
     if propia == version_datos:
+        # La misma versión no alcanza: un config o una variable pueden mandar a otra copia con
+        # el mismo número —un clon, con su rama y su trabajo sin publicar—. Las calculadoras ya
+        # lo avisan en cada corrida; el diagnóstico no puede decir menos que ellas. MUTACIÓN:
+        # sacar esta comparación deja en rojo `test_otra_copia_de_la_misma_version_se_reporta`.
+        if es_base(carpeta) and base(raiz).resolve() != carpeta:
+            return {"bloque": "plugin", "estado": "REVISAR",
+                    "detalle": f"los datos salen de {base(raiz)}, no de los que trae esta "
+                               f"copia; las dos son de la {propia}",
+                    "dias": None, "arreglo": arreglo_plugin(origen, propia)}
         return {"bloque": "plugin", "estado": "OK", "detalle": f"scripts y datos de la {propia}",
                 "dias": None, "arreglo": None}
     return {"bloque": "plugin", "estado": "REVISAR",

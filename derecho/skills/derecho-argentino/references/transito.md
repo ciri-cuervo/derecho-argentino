@@ -36,25 +36,45 @@ voluntariamente, no lo hicieron**.
 **graves** violaciones a las reglas del tránsito.
 
 **En PBA la prioridad de paso tiene texto propio: el art. 28 quater de la Ley 13.927**, que
-incorporó la **Ley 15.657** (B.O. 30/10/2026). Mantiene la regla de ceder el paso *"al vehículo
-que circula desde su derecha hacia su izquierda"*, pero no la llama absoluta como el art. 41 de la
-Ley 24.449, y sus excepciones no son las mismas:
+incorporó la **Ley 15.657** (B.O. 30/10/2026) como Título IX ter. La regla general es la misma
+—ceder el paso *"al vehículo que circula desde su derecha hacia su izquierda"*— y la ley la
+repite al cerrar: *"En ausencia de las excepciones anteriores se mantiene la prioridad de paso
+para el vehículo que se aproxima por la derecha."* No la llama *"absoluta"* como el art. 41 de la
+Ley 24.449, pero obliga a ceder *"en toda circunstancia"*, así que no se ablanda: lo que cambia
+son las excepciones.
 
-- **Inc. d):** pierde la prioridad frente a *"vehículos por una vía de mayor jerarquía:
-  autopistas, semiautopistas, rutas, carreteras, avenidas"*. El art. 41 inc. d) sólo nombra la
-  semiautopista: en una avenida bonaerense, quien viene por la derecha desde la calle no tiene
-  prioridad.
-- **Inc. h):** la pierde quien *"detiene completamente la marcha antes de ingresar a la
-  encrucijada y otro vehículo llega en movimiento"*.
-- **Inc. i):** la pierde quien *"realice un giro hacia una vía pública transversal"*, frente a los
-  que circulan por ella.
+Cotejo inciso por inciso contra el art. 41, con los dos textos de `fuentes/normas/` a la vista
+(`articulo.py --comparar ley-24449:41 "pba-ley-15657:28 quater"`). **La letra del inciso no dice
+la regla**: el h) y el i) bonaerenses no tienen inciso con esa letra en el art. 41, pero sí
+antecedente en su inc. g) 3.
+
+| Art. 28 quater | Art. 41 | Qué cambia |
+| --- | --- | --- |
+| a) señalización en contrario | a) | Nada de fondo |
+| b) vehículos ferroviarios | b) | Nada de fondo |
+| c) vehículos públicos de urgencia | c) | Desplazan la prioridad sólo si *"realicen las señales de advertencia especificadas por el presente Código"*; al art. 41 le alcanza con que actúen *"en cumplimiento de su misión"* |
+| d) *"vía de mayor jerarquía: autopistas, semiautopistas, rutas, carreteras, avenidas"* | d) sólo *"semiautopista"* | **El cambio de fondo.** En una avenida bonaerense, quien sale de la calle pierde la prioridad aunque venga por la derecha |
+| e) peatones que *"crucen o estén por cruzar lícitamente por la senda peatonal o cruce habilitado"* | e) los que *"cruzan"*, por la senda *"o en zona peligrosa señalizada"* | Suma al peatón que está por cruzar y el cruce habilitado. No trae la zona peligrosa señalizada ni el deber de detenerse si se pone en peligro al peatón |
+| f) ceder a los que ya circulan en la rotonda | f) *"Las reglas especiales para rotondas"* | Escribe la regla en vez de remitir |
+| g) calle de tierra frente a vía pavimentada | g) 1 | Nada de fondo |
+| h) pierde la prioridad quien *"detiene completamente la marcha antes de ingresar a la encrucijada y otro vehículo llega en movimiento"* | g) 3, primera parte: *"Se haya detenido la marcha"* | La acota: sólo frente a otro que llega en movimiento |
+| i) quien gira hacia una vía transversal cede a los que circulan por ella | g) 3, segunda parte: *"se vaya a girar para ingresar a otra vía"* | Nada de fondo |
+| j) filas lentas en las dos vías: *"un orden de paso alternativo de un vehículo por vez para cada transversal"* | — | **Nuevo** |
+| — | g) 2: al costado de vías férreas, respecto del que sale del paso a nivel | No está |
+| — | g) 4: animales o vehículos de tracción a sangre | No está |
+| Zona rural: *"los peatones, ciclistas y jinetes, deben ceder el paso a los demás vehículos"*, salvo zona señalizada | — | **Nuevo** |
+| Cuesta estrecha: retrocede el que desciende *"salvo que lleve acoplado o remolque"* | *"salvo que éste lleve acoplado y el que asciende no"* | Suma el remolque, y sale la condición de que el que asciende no lleve acoplado: con acoplado de los dos lados, el que desciende ya no retrocede |
+| — | *"Para cualquier otra maniobra, goza de prioridad quien conserva su derecha"* | No está |
 
 Como el art. 64 presume responsable a quien carecía de prioridad, en un siniestro bonaerense el
-artículo que la define cambia la presunción. La ley no fija fecha de vigencia propia:
+artículo que la define cambia la presunción, y la fecha del hecho decide cuál de los dos rige.
+La Ley 15.657 no fija fecha de vigencia propia: por el art. 5 CCyCN rige desde el **08/11/2026**
+(`vigencia.py --bo 2026-10-30 --jurisdiccion pba`), y para un hecho anterior sigue el art. 41.
 
-`[VERIFICAR VIGENCIA: art. 28 quater Ley 13.927 texto Ley 15.657 - publicada el 30/10/2026 y sin fecha de vigencia propia; para un hecho cercano a esa fecha, determinar desde cuándo rige antes de aplicar sus incisos d), h) e i)]`
+`[VERIFICAR VIGENCIA: art. 28 quater Ley 13.927 texto Ley 15.657 - rige desde el 08/11/2026 por el art. 5 CCyCN si la Provincia no tiene regla propia de entrada en vigencia; para un hecho anterior rige el art. 41 de la Ley 24.449]`
 
-Cotejado contra `fuentes/normas/pba-ley-15657.txt` y `ley-24449.txt`, art. 41.
+Cotejado contra `fuentes/normas/pba-ley-15657.txt` y `ley-24449.txt`, art. 41. El consolidado de la
+Ley 13.927 ya lo trae, con el mismo texto: `articulo.py pba-ley-13927 "28 quater"`.
 
 > **El art. 64 es régimen probatorio, no factor de atribución.** La responsabilidad objetiva del
 > dueño y guardián sale de los **arts. 1757-1758 CCyCN**, no de acá. Citar el art. 64 como fuente
@@ -143,7 +163,7 @@ dentro de un descargo por infracción. Se invoca con el art. 90, que es lo que l
 ### 28.5 PBA — el procedimiento de la Ley 13.927
 
 Verificado contra el texto consolidado de la **Ley 13.927** en `fuentes/normas/pba-ley-13927.txt`,
-que declara incorporadas las modificaciones de doce leyes, la última la **15.613**.
+que declara incorporadas las modificaciones de trece leyes, la última la **15.657**.
 
 **Órganos de juzgamiento (arts. 29, 32 y 33).** La **Justicia Administrativa de Infracciones de
 Tránsito Provincial**, creada en la órbita del Ministerio de Jefatura de Gabinete y Gobierno,
@@ -410,6 +430,15 @@ por materia: están los 40 artículos.
 | Vehículo de emergencia en infracción | art. 32 | art. 61 | 300 a 1.000 |
 | Maquinaria especial en infracción | art. 33 | art. 62 | 300 a 1.000 |
 | Transportar escolares o menores de 14 en infracción | art. 30 | art. 55 | 300 a 1.000 |
+
+> **La prioridad de paso en PBA: el art. 19 del Anexo V sanciona el art. 41 nacional, no el 28
+> quater.** Dice *"Por no ceder el paso el conductor en las encrucijadas al que cruza desde su
+> derecha"* y *"Por no respetar el conductor las prioridades a que se refieren los incisos a) al
+> g)"*, las dos de 50 a 100 U.F., y el decreto es de 2009. La regla general del 28 quater cae en
+> el primer supuesto, y la de la cuesta estrecha en el tercero: *"Por no retroceder el conductor
+> del vehículo que desciende en las cuestas estrechas"*, de 300 a 1.000 U.F. Lo que el Anexo V no resuelve son los incisos que el art. 41 no tiene, o
+> tiene con otra letra: el d) en avenidas, rutas y carreteras, el h), el i) y el j) (28.1).
+> `[REVISIÓN NORMATIVA REQUERIDA: qué escala del Anexo V del Decreto 532/2009 corresponde a la violación de los incs. d) -en una vía de mayor jerarquía que no sea semiautopista-, h), i) y j) del art. 28 quater de la Ley 13.927, texto Ley 15.657, si el art. 19 del Anexo V remite a los incisos a) al g) del art. 41 de la Ley 24.449]`
 
 > **Cuidado y prevención (art. 17, reglamenta el art. 39): hay dos escalas.** No circular con
 > cuidado y prevención, maniobrar sin precaución, no circular por la derecha en el sentido de la

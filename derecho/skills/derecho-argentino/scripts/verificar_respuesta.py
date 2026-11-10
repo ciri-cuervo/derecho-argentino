@@ -48,6 +48,12 @@ import re
 import sys
 import unicodedata
 
+# Cargado por ruta desde otro árbol -las suites de herramientas/ lo hacen-, el directorio del
+# script no está en sys.path y `_piso` no se encontraría.
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+
+import _piso  # noqa: F401 - el piso de Python, que corta al importarse
+
 # El vocabulario vive al lado, en el mismo árbol instalable. Es la razón por la que este script
 # PUEDE vivir adentro del plugin: no importa nada de `herramientas/` y lo único que lee viaja con
 # él. Ver `docs/DESARROLLO.md`, «La skill no nombra lo que no se instala».

@@ -590,7 +590,8 @@ Para la parte especial rige el ruteo de `perfiles-heredados.md` sección 19, **c
 - **Parte especial del CP**: los tipos penales concretos. Entre este módulo y los que salieron
   de él está el régimen procesal, la parte general, la impugnación, la ejecución y las leyes
   especiales, pero no los delitos en particular.
-- Umbrales y montos del Título IX de la Ley 27.430, que no están cargados en `fuentes/`.
+- **El Régimen Penal Tributario** —Título IX de la Ley 27.430— no está acá: sus tipos y sus umbrales,
+  con el texto de la Ley 27.799, están en `penal-leyes-especiales.md` 24.9.5.
 - Jurisprudencia: **hay veinte fallos penales de la CSJN bajados y verificados**, indexados
   en `fallos-csjn.md` sección 34.2 con carátula oficial, cita de Fallos y fecha del registro de
   la Secretaría de Jurisprudencia, y **los veinte tienen el holding escrito contra el

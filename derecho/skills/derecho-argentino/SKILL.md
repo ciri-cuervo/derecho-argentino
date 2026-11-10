@@ -509,7 +509,8 @@ quien consulta lo corra: el cálculo a mano no lo reemplaza.
 | Honorarios en **otra provincia** | Su ley arancelaria local, que **no está cargada**. Decirlo y no calcular con la Ley 14.967 ni con la 27.423 |
 | Diagnóstico: repo, perfil, datos cargados y vencidos | `scripts/estado.py` |
 | Perfil de trabajo del usuario | `scripts/perfil.py` |
-| **Transcribir un artículo** de una norma bajada, con su procedencia | `scripts/articulo.py <slug> <art>` — sale con título, URL, fecha de descarga y hash; `Read` trunca a 2.000 renglones sin avisar. El de un tratado o código que una ley aprueba, con `--anexo 1` |
+| **Transcribir un artículo** de una norma bajada, con su procedencia | `scripts/articulo.py <slug> <art>` — sale con título, URL, fecha de descarga y hash; `Read` trunca a 2.000 renglones sin avisar. El de un tratado o código que una ley aprueba, con `--anexo 1`. Si el consolidado todavía no trae una reforma, dice en qué modificatoria está. `--comparar norma:art norma:art` pone dos artículos uno al lado del otro, **por la letra del inciso y no por lo que dice** |
+| **Desde cuándo rige** una norma, por su fecha de publicación | `scripts/vigencia.py --bo AAAA-MM-DD` — los arts. 5 y 6 CCyCN leídos de `fuentes/`, con marcador si la norma es local o no es una ley; si fija su propia fecha, `--desde` |
 | **Revisar los marcadores de la respuesta antes de entregarla** (sección 3) | `scripts/verificar_respuesta.py -`, con la respuesta por la entrada estándar — mide la FORMA, no si correspondía emitirlos: su verde no dice que la respuesta esté bien |
 
 Los scripts **no traen montos**: piden los valores que la sección 2 prohíbe citar de memoria y
@@ -522,7 +523,7 @@ plausible. Ver `references/intake.md`, «Devolver los datos antes de usarlos».
 | Lo que devuelve la consola | Qué pasa | Qué hacer |
 | --- | --- | --- |
 | `command not found: python3` · `'python3' no se reconoce como un comando` · `Python was not found; run without arguments to install from the Microsoft Store` | **Puede que Python se llame de otra forma.** En Windows, el instalador de python.org deja `python` y `py`, no `python3` | **Probar el mismo comando con `python` y después con `py -3`.** Si uno corre, usarlo en lugar de `python3` por el resto de la conversación. Si ninguno, es la fila de abajo |
-| Lo mismo con los tres nombres · `xcrun: error: invalid active developer path` · un Python anterior a 3.9 | **Falta Python en esta computadora.** El script está y los datos están: lo que no hay es con qué ejecutarlo. `estado.py` tampoco corre, así que el diagnóstico sale de acá y no de una corrida | **No calcular.** Emitir el marcador de abajo y explicar cómo se resuelve |
+| Lo mismo con los tres nombres · `xcrun: error: invalid active developer path` · `Este script necesita Python 3.9 o posterior` · `future feature annotations is not defined` | **Falta Python en esta computadora.** El script está y los datos están: lo que no hay es con qué ejecutarlo. `estado.py` tampoco corre, así que el diagnóstico sale de acá y no de una corrida | **No calcular.** Emitir el marcador de abajo y explicar cómo se resuelve |
 | `No such file or directory` sobre la ruta del script | **No hay repo conectado**, o la ruta es otra. Ver sección 0.2 | Pedir la ruta. Si no hay repo, calcular a mano y aplicar la verificación aritmética de cierre de `plazos.md` 8.6, diciendo que se hizo sin el script |
 
     [CONFIGURACIÓN INCOMPLETA: falta Python 3 en esta computadora - sin intérprete no corren las calculadoras deterministas, así que no se entrega ninguna liquidación, plazo, interés ni honorario calculado]

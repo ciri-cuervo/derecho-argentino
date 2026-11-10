@@ -322,6 +322,24 @@ la clave es exacta y no por subcadena. Y el detector de cobertura lee **el slug*
 está declarado: una norma bajada por partes lleva su número en cada slug, como
 `ley-22415-delitos`, o aparece citada y sin bajar teniendo el texto.
 
+### Una reforma se declara con lo que modifica y con sus temas
+
+Al bajar una modificatoria, su entrada en `normas.json` lleva `modifica` —los slugs que cambia— y,
+si entra a «Cambios recientes», `temas`: las frases con que un módulo nombra lo que cambió, escritas
+mirando cómo lo dicen los módulos y no cómo lo dice la ley. Se escriben con la reforma leída
+entera, artículo por artículo: una ley ómnibus toca normas que su título no anuncia, y la que no
+está en el catálogo no puede ir en `modifica`, así que va nombrada en la `nota`.
+`TestUnaReformaLlegaATodosLosModulos` exige que todo módulo que use un tema nombre la reforma o
+diga en `temas_no_aplica` por qué no, y su trinquete `SIN_TEMAS` no deja entrar una reforma
+reciente sin temas. Es un piso: un módulo que trate el asunto con otras palabras no aparece.
+**Y mide por módulo**: un módulo que nombra la reforma en una sección da por leída la de otra.
+Bajarlo de grano se midió el 10/11/2026 y se descartó: por sección no ve el caso que lo motivó
+—la derogación de los viajantes, tapada por el marcador de la misma sección—, y por bloque o por
+párrafo lo marca igual con el bloque ya corregido, porque la reforma se nombra una vez por tema y
+el tema se repite alrededor. Lo que cubre ese hueco es leer la reforma entera al declararla.
+Para cotejar el texto nuevo contra el anterior, `articulo.py --comparar`, que alinea por la letra
+del inciso: el contenido se compara leyendo.
+
 ### `SKILL.md` se paga en cada conversación, y los módulos no
 
 El cuerpo del `SKILL.md` entra completo al activarse la skill; los `references/` entran cuando el

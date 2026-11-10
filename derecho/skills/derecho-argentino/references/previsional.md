@@ -254,7 +254,8 @@ asignación por embarazo y la de maternidad (art. 2, texto Ley 26.844; `laboral.
 quinquies).
 
 **Qué se paga (art. 6).** Hijo, hijo con discapacidad —sin límite de edad, con la discapacidad del
-art. 2 de la Ley 22.431— (arts. 7 y 8), **prenatal** desde la concepción, acreditado entre el
+art. 2 de la Ley 22.431, que desde la **Ley 27.793** la define *"en los términos de la Convención
+sobre los Derechos de las Personas con Discapacidad"*— (arts. 7 y 8), **prenatal** desde la concepción, acreditado entre el
 tercer y cuarto mes y con **tres meses de antigüedad** (art. 9), ayuda escolar anual, **maternidad**
 —*"una suma igual a la remuneración que la trabajadora hubiera debido percibir"* durante la
 licencia legal, con tres meses de antigüedad— (art. 11), nacimiento, adopción, matrimonio, AUH,

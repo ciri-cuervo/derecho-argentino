@@ -2,8 +2,8 @@ Decreto 1397/79 - Reglamentación de la Ley 11.683 de procedimiento tributario (
 ==============================================================================
 Jurisdicción:     nacional
 Fuente:           https://servicios.infoleg.gob.ar/infolegInternet/anexos/15000-19999/18807/texact.htm
-Descargado:       2026-09-23
-SHA-256 (crudo):  cbdf959d498a0a3152b788ac8f5a741553260d70b6e444443bdaadb965e81a76
+Descargado:       2026-11-10
+SHA-256 (crudo):  ff4f7cb8db8f3703e1ceab73556af0cceba551620ab2f2b68bed84c6652b67b8
 Charset:          windows-1252
 
 Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
@@ -661,33 +661,38 @@ la ley se considerará configurada respecto del período fiscal de que se
 trate cuando la AGENCIA DE RECAUDACIÓN Y CONTROL ADUANERO (ARCA)
 verifique:
 
-a. un incremento del saldo del impuesto a favor del organismo fiscal o,
-en su caso, una reducción del quebranto impositivo o de los saldos a
-favor de los contribuyentes o responsables, por un porcentaje no
-inferior al QUINCE POR CIENTO (15 %) respecto del declarado en ese
-período por el contribuyente; o
+a. un incremento del impuesto determinado o, en su caso, una reducción
+del quebranto impositivo por un porcentaje no inferior al QUINCE POR
+CIENTO (15 %) respecto del declarado en ese período por el
+contribuyente; o
 
-b. una diferencia entre el impuesto declarado y/o ingresado por el
-contribuyente en ese período y el determinado por el organismo fiscal,
-que supere el importe -vigente en el período fiscal en que venza la
-declaración jurada- del artículo 1° del Régimen Penal Tributario
-establecido en el Título IX de la Ley N° 27.430 y sus modificaciones.
+b. un incremento del impuesto determinado o, en su caso, una reducción
+de los quebrantos impositivos que supere el importe -vigente en el
+período fiscal en que venza la declaración jurada- del artículo 1° del
+Régimen Penal Tributario establecido en el Título IX de la Ley N°
+27.430 y sus modificaciones.
 
-Asimismo, cuando el referido ajuste se practique como consecuencia de
-haberse detectado la utilización de facturas u otros documentos que
-resultaren apócrifos, la discrepancia significativa quedará configurada
-con independencia del importe que arroje la determinación efectuada por
-la AGENCIA DE RECAUDACIÓN Y CONTROL ADUANERO (ARCA).
+Cuando el ajuste se practique como consecuencia de haberse detectado la
+utilización de facturas u otros documentos que resultaren apócrifos o
+ingresos directos computados improcedentemente -incluidas las
+retenciones, percepciones, pagos a cuenta y anticipos-, la discrepancia
+significativa quedará configurada con independencia del importe que
+arroje la determinación efectuada por la AGENCIA DE RECAUDACIÓN Y
+CONTROL ADUANERO (ARCA).
 
 A los fines de la determinación de la existencia de una discrepancia
 significativa, en los términos de los párrafos precedentes, no se
 considerará la diferencia que se produzca entre la declaración jurada
-original y la rectificativa espontánea efectuada por el contribuyente
-respecto del período fiscal de que se trate, con anterioridad a la
-notificación de la orden de intervención formulada por la AGENCIA DE
-RECAUDACIÓN Y CONTROL ADUANERO (ARCA).
+original y la rectificativa, en la medida en que esta última sea
+presentada por el contribuyente en un plazo no mayor a los QUINCE (15)
+días hábiles de notificada la liquidación administrativa del artículo
+14 o la resolución de determinación de oficio a que hace referencia el
+artículo 17, ambos de la Ley N° 11.683, texto ordenado en 1998 y sus
+modificaciones, y los saldos de impuesto que surjan de esa declaración
+jurada rectificativa, con más sus intereses, sean debidamente
+cancelados y/o regularizados.
 
-(Artículo s/n incorporado por art. 2º del Decreto Nº 93/2026 B.O. 9/2/2026. Vigencia: a partir de su dictado.)
+(Artículo s/n sustituido por art. 2° del Decreto N° 1253/2026 B.O. 23/10/2026. Vigencia: a partir del día de su publicación en el BOLETÍN OFICIAL.)
 
 Sumarios
 
@@ -1285,6 +1290,9 @@ tributos a su cargo.
 Art. 90 - Derógase el Decreto Nº 1.160 del 17 de octubre de 1.974.
 
 Antecedentes Normativos
+
+- Segundo artículo sin número incorporado a
+continuación del artículo 53 por art. 2º del Decreto Nº 93/2026 B.O. 9/2/2026. Vigencia: a partir de su dictado;
 
 - Artículo 61 sustituido por art. 11 del Decreto N° 1005/2001 B.O. 10/8/2001;
 

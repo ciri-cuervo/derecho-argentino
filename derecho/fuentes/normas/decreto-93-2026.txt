@@ -2,7 +2,7 @@ Decreto 93/2026 - reglamentación de la Ley 27.799
 ==============================================================================
 Jurisdicción:     nacional
 Fuente:           https://servicios.infoleg.gob.ar/infolegInternet/anexos/420000-424999/423013/norma.htm
-Descargado:       2026-09-18
+Descargado:       2026-11-10
 SHA-256 (crudo):  e9a1a38a33920ab07a8bdf3944f1a8e4a3a13f8b474c9b291105f45722c51d86
 Charset:          ISO-8859-1
 

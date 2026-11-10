@@ -90,6 +90,23 @@ que discute la validez del decreto: es materia abierta.
 
     [VERIFICAR VIGENCIA: baremo aplicable - el Anexo I del Decreto 659/96 rige según el Decreto 549/2025 desde el 02/02/2026 y se aplica a toda valoración no dictada; verificar si en la causa se planteó su inconstitucionalidad]
 
+**Y en una jurisdicción adherida, aplicarlo es una obligación de ley.** El **art. 4 bis de la Ley
+27.348**, incorporado por el art. 154 de la **Ley 27.802**, dice que las jurisdicciones que
+adhirieron *"están obligadas al cumplimiento íntegro de las condiciones allí establecidas, entre
+ellas, la estricta aplicación de la Tabla de Evaluación de Incapacidades Laborales, aprobada por el
+Decreto 659/96 y sus modificatorios"*. PBA es una, por la Ley 14.997. Donde no haya peritos médicos
+en las condiciones del art. 2, cada jurisdicción debe constituir **cuerpos médicos forenses** o
+entidades equivalentes, e implementar los entornos digitales de la SRT para el cálculo de las
+incapacidades, en **noventa días** desde la vigencia de la Ley 27.802 para las ya adheridas: con la
+ley vigente desde el 06/03/2026 (art. 217), el plazo venció el **04/06/2026** (`plazos.py --tipo
+corridos`). La consecuencia que el artículo prevé para el incumplimiento recae sobre la
+jurisdicción: la SRT puede suspenderle la asistencia técnica o el financiamiento específico.
+
+`[VERIFICAR CRITERIO DEL FUERO: alcance del art. 4 bis de la Ley 27.348, texto Ley 27.802, sobre la valoración judicial de la incapacidad en una jurisdicción adherida - si obliga al juez a la Tabla del Decreto 659/96 o se dirige a la provincia; y si la PBA constituyó el cuerpo médico forense que exige su inc. a)]`
+
+Los honorarios del perito en la justicia nacional ya no siguen el porcentaje de incapacidad: art.
+61 bis de la Ley 27.423, en `honorarios-nacional.md` 37.
+
 **Factores de ponderación:** tipo de actividad y posibilidades de reubicación laboral —que se
 evalúan conjuntamente— y edad, por tabla de rangos. No se suman en puntos de incapacidad: su
 suma opera como **incremento porcentual sobre el valor de la lesión**.

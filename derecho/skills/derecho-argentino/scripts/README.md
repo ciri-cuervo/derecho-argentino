@@ -1,7 +1,7 @@
 # Scripts de la skill `derecho-argentino`
 
-Cuatro calculadoras deterministas y tres utilitarios, sin dependencias fuera de la biblioteca
-estándar de Python 3. Las calculadoras están para lo mismo: **sacar la aritmética de la cabeza
+Calculadoras deterministas y utilitarios, sin dependencias fuera de la biblioteca estándar de
+Python 3. Las calculadoras están para lo mismo: **sacar la aritmética de la cabeza
 del modelo**. Un error de cálculo en una liquidación o en un vencimiento es tan grave como una
 cita inventada y bastante más difícil de ver leyendo.
 
@@ -13,12 +13,15 @@ cita inventada y bastante más difícil de ver leyendo.
 | `honorarios_pba.py` | Regulación de honorarios y aportes bajo la Ley 14.967 |
 | `uma_csjn.py` | Valor de la UMA **nacional** y conversión pesos ↔ UMA, art. 51 de la Ley 27.423 |
 | `uma_caba.py` | Valor de la UMA **de la Ciudad** y conversión, art. 20 de la Ley 5.134. Otra unidad y otra ley que la de `uma_csjn.py` |
+| `vigencia.py` | Desde cuándo rige una norma, por la fecha de su publicación oficial: los arts. 5 y 6 CCyCN, leídos de `fuentes/`, o la fecha que fije la propia norma con `--desde` |
 | `configurar.py` | Deja fija la ruta al repo en esta máquina, una sola vez |
 | `estado.py` | Diagnóstico: qué encontró, qué datos hay cargados y qué quedó vencido |
 | `perfil.py` | Lee y escribe el perfil de trabajo de quien consulta |
-| `articulo.py` | Devuelve un artículo de una norma bajada, con título, URL, fecha de descarga y hash arriba. Es lo que se corre para transcribir: `Read` trunca a 2.000 renglones sin avisar y el CCyCN tiene 27.000. Con `--anexo 1`, el artículo del tratado o del código que la ley aprueba |
+| `articulo.py` | Devuelve un artículo de una norma bajada, con título, URL, fecha de descarga y hash arriba. Es lo que se corre para transcribir: `Read` trunca a 2.000 renglones sin avisar y el CCyCN tiene 27.000. Con `--anexo 1`, el artículo del tratado o del código que la ley aprueba. Si el consolidado no trae el artículo —o la norma no tiene texto bajado—, lo busca en las modificatorias que `normas.json` le declara, también transcripto adentro de uno de sus artículos, y avisa cuando el consolidado no menciona una. Con `--comparar`, dos artículos uno al lado del otro por la letra del inciso |
 | `verificar_respuesta.py` | Revisa una respuesta ya escrita, de un archivo o de la entrada estándar con `-`: que sus marcadores sean del vocabulario y estén verbatim. Mide la FORMA, no si correspondía emitirlos |
 | `_raiz.py` | No se corre solo: resuelve dónde está el repo para todos los demás |
+| `_piso.py` | No se corre solo: corta con código 2 y un aviso en castellano si el Python es anterior a 3.9. Lo importan todos, directo o por `_raiz.py` |
+| `_modificatorias.py` | No se corre solo: qué norma modifica a cuál según `normas.json`, y si el consolidado ya la menciona. Lo usan `articulo.py` y `estado.py` |
 | `_tablas.py` | No se corre solo: lee las tablas de `fuentes/datos/` que usan las calculadoras y corta ante una fecha ilegible, un valor no positivo o un período repetido |
 | `_comun_tests.py` | No se corre solo: la raíz del checkout, el plantón fuera de él y las clases de letras que comparten las seis suites |
 
@@ -100,7 +103,9 @@ antes de concluir nada, y el que corra se usa por el resto de la conversación. 
 
 **Falta Python en esta computadora.** Ninguno de los tres responde: la consola devuelve
 `command not found`, `no se reconoce como un comando` o `xcrun: error: invalid active developer
-path`, una por plataforma, o el Python que hay es anterior a 3.9. El script está y los datos están: lo que no hay es con qué ejecutarlo. Y **este
+path`, una por plataforma; o el Python que hay es anterior a 3.9, y entonces el script corta con
+código 2 diciendo *"Este script necesita Python 3.9 o posterior"* —`_piso.py`—, o, debajo de 3.7,
+*"future feature annotations is not defined"*. El script está y los datos están: lo que no hay es con qué ejecutarlo. Y **este
 diagnóstico no puede salir de un script**: `estado.py` es Python y tampoco corre, así que
 `/derecho:estado` falla igual y por la misma causa. La conclusión se saca de la señal de la
 consola, no de una corrida.
@@ -135,7 +140,7 @@ hizo sin el script.
 
     python3 -m unittest discover -s . -p 'test_*.py' -v
 
-**387 tests**, sin dependencias externas, en dos grupos.
+**417 tests**, sin dependencias externas, en dos grupos.
 
 **Y repartidos en varios archivos, uno por lo que cada suite afirma.** `test_scripts.py` llegó a 6149
 renglones, **tres veces el corte de `Read`** que este repositorio le impone a los módulos, y ese

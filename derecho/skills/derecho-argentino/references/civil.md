@@ -103,7 +103,10 @@ están en `transito.md` sección 28)**:** la responsabilidad objetiva del dueño
 **arts. 1757-1758 CCyCN**. El **art. 64 de la Ley 24.449 es una norma de *presunciones***
 —así se titula— que establece presunciones *iuris tantum*: se presume responsable a quien
 carecía de prioridad de paso o cometió una infracción relacionada con la causa, con el
-beneficio de la duda a favor del peatón. Es régimen probatorio, no factor de atribución: no
+beneficio de la duda a favor del peatón. **En PBA, quién tiene prioridad lo dice el art. 28
+quater de la Ley 13.927, texto Ley 15.657**, y no el art. 41 de la Ley 24.449, para los hechos
+desde su vigencia: quien viene por la derecha pierde la prioridad ante una avenida o una ruta,
+entre otras excepciones que el art. 41 no trae (`transito.md` 28.1). Es régimen probatorio, no factor de atribución: no
 citarlo como fuente de responsabilidad objetiva. Eximentes: hecho de la víctima, hecho de un
 tercero por quien no se debe responder, caso fortuito ajeno al riesgo de la cosa.
 
@@ -158,8 +161,8 @@ viene la regla.
 
 > **La tercera es nueva y manda a otro módulo.** Un crédito tributario provincial, de CABA o
 > municipal no prescribe por el art. 2560: prescribe por la Ley 11.683, cuyo art. 56 **también** lo
-> reescribió la Ley 27.799 —bajó el plazo a tres años e incorporó la discrepancia significativa—.
-> Eso está auditado en `references/tributario.md` 33, y es ahí donde hay que ir.
+> reescribió la Ley 27.799 —bajó el plazo a tres años e incorporó la discrepancia significativa,
+> que después redefinió la Ley 27.826—. Eso está auditado en `references/tributario.md` 33, y es ahí donde hay que ir.
 
 `[VERIFICAR VIGENCIA: si los arts. 2537 y 2561 fueron alcanzados por la Ley 27.586 - el consolidado de InfoLEG NO trae nota de reforma para ninguno de los dos, a diferencia del art. 2560, y por eso esa parte no se afirma acá]`
 

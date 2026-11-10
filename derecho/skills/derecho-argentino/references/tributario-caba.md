@@ -103,6 +103,23 @@ Mismo plazo de 180 días para la acción del **art. 24 inc. b del Convenio Multi
 **sólo si el contribuyente no usó los recursos** y notificó a AGIP en los términos de la Ordenanza
 Procesal de la Comisión Arbitral.
 
+> **La colisión, y no la resuelve este módulo.** El **art. 34 de la Ley 27.799** sustituyó el
+> **art. 2560 CCyCN**: *"En materia de tributos establecidos por las provincias, la Ciudad Autónoma
+> de Buenos Aires y/o los municipios, el término de la prescripción se regirá por lo dispuesto en
+> la ley 11.683, texto ordenado en 1998 y sus modificaciones, o en la norma que en el futuro la
+> sustituya."* El art. 56 de la Ley 11.683 fija **cinco años** que **bajan a tres** para el
+> inscripto cumplidor sin discrepancia significativa, en el texto que le dio la Ley 27.826
+> —`tributario.md` 33.1—.
+>
+> El plazo general coincide, así que **el choque está en lo demás**: la reducción a tres años, el
+> cómputo desde que AGIP pudo conocer el hecho imponible y su tope de diez años (art. 75), las
+> suspensiones de los arts. 81, 83 y 84 y la interrupción del art. 86. Es la misma discusión
+> que en PBA —`tributario-pba.md` 54.4—, con la pregunta previa de si el Congreso puede legislar
+> sobre la prescripción de los tributos locales. **No se afirma ninguna de las dos posiciones sin
+> fallo a la vista.**
+
+`[REVISIÓN NORMATIVA REQUERIDA: prelación entre los arts. 74 a 86 del Código Fiscal de la Ciudad, T.O. 2026, y el art. 2560 CCyCN texto Ley 27.799, que remite la prescripción de tributos locales a la Ley 11.683 - la discusión alcanza la reducción a tres años, el cómputo desde el conocimiento del hecho imponible y las causales de interrupción y suspensión. Sin precedente posterior a enero de 2026 cargado]`
+
 ### 57.4 La vía judicial — Ley 189, y acá está la diferencia grande
 
 **El plazo para demandar es de noventa (90) días perentorios e improrrogables**, contados **desde

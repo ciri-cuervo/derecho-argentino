@@ -2,8 +2,8 @@ Ley 13.927 PBA - Código de Tránsito (texto actualizado)
 ==============================================================================
 Jurisdicción:     pba
 Fuente:           https://normas.gba.gob.ar/documentos/0YqDnfd0.html
-Descargado:       2026-09-17
-SHA-256 (crudo):  abb24a2ceb2b9ddb36e71d1c0364deb8661282dccb123c33b2fe0930a551ef95
+Descargado:       2026-11-10
+SHA-256 (crudo):  049b531c2eba3294b49e7e371bdb6db822dd84282c32e1012f0bf402b7346ca9
 Charset:          UTF-8
 
 Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
@@ -18,7 +18,7 @@ LEY 13927
 
 
 
-Texto actualizado con las modificaciones introducidas por las Leyes 14246, 14331, 14393, 14774, 15002, 15078, 15139, 15143, 15225, 15321, 15402 y 15613
+Texto actualizado con las modificaciones introducidas por las Leyes 14246, 14331, 14393, 14774, 15002, 15078, 15139, 15143, 15225, 15321, 15402, 15613 y 15657
 
 
 
@@ -485,7 +485,7 @@ TÍTULO IX BIS
 
 
 
-(Titulo incorporado por Ley 15.402)
+(Título incorporado por Ley 15.402)
 
 
 
@@ -497,7 +497,7 @@ PROHIBICIÓN DE CONDUCIR
 
 
 
-ARTÍCULO 28 TER.- (Articulo incorporado por Ley 15.402) PROHIBICIÓN DE CONDUCIR. Queda prohibido conducir cualquier tipo de vehículo con motor a quien registre una alcoholemia superior a 0 (cero) miligramos de alcohol por litro de sangre. Así también está prohibido conducir a quienes hubiesen consumido medicamentos, estupefacientes, psicotrópicos, estimulantes o sustancias que la Autoridad de Aplicación, con intervención del Ministerio de Salud, determine como capaces de disminuir la aptitud para conducir.
+ARTÍCULO 28 TER.- (Artículo incorporado por Ley 15.402) PROHIBICIÓN DE CONDUCIR. Queda prohibido conducir cualquier tipo de vehículo con motor a quien registre una alcoholemia superior a 0 (cero) miligramos de alcohol por litro de sangre. Así también está prohibido conducir a quienes hubiesen consumido medicamentos, estupefacientes, psicotrópicos, estimulantes o sustancias que la Autoridad de Aplicación, con intervención del Ministerio de Salud, determine como capaces de disminuir la aptitud para conducir.
 
 
 
@@ -510,6 +510,81 @@ Todo instrumento o sistema a utilizar para los controles contemplados en este ar
 
 
 En cuanto no se opongan a las disposiciones del presente artículo serán aplicables las pautas generales para control de infracciones establecidas en el artículo 28.
+
+
+
+
+
+
+TÍTULO IX TER
+
+
+
+(Titulo incorporado por Ley 15657)
+
+
+
+PRIORIDAD DE PASO
+
+
+
+ARTÍCULO 28 Quater (Incorporado por Ley 15657) El conductor que llegue a una bocacalle o encrucijada debe en toda circunstancia ceder el paso al vehículo que circula desde su derecha hacia su izquierda, por una vía pública transversal. Esta prioridad se pierde en los siguientes casos:
+
+
+
+a) Cuando exista señalización específica en contrario.
+
+
+
+b) Frente a vehículos ferroviarios.
+
+
+
+c) Cuando los vehículos públicos de urgencia en cumplimiento de sus funciones realicen las señales de advertencia especificadas por el presente Código.
+
+
+
+d) Cuando circulen vehículos por una vía de mayor jerarquía: autopistas, semiautopistas, rutas, carreteras, avenidas. Antes de ingresar o cruzarla se debe siempre detener.
+
+
+
+e) Cuando se debe ceder el paso a los peatones que crucen o estén por cruzar lícitamente por la senda peatonal o cruce habilitado.
+
+
+
+f) Cuando se va a ingresar a una rotonda se debe ceder el paso a los vehículos que ya circulan dentro de la misma.
+
+
+
+g) Cuando el conductor que circule por una calle de tierra debe ceder el paso a los vehículos que circulan por una vía pavimentada.
+
+
+
+h) Cuando el conductor pierde su prioridad si detiene completamente la marcha antes de ingresar a la encrucijada y otro vehículo llega en movimiento.
+
+
+
+i) Cuando el conductor que realice un giro hacia una vía pública transversal debe ceder el paso a los vehículos que circulan por dicha vía.
+
+
+
+j) Cuando en una bocacalle existan filas de vehículos con circulación lenta en sendas vías en espera de su cruce, se establecerá un orden de paso alternativo de un vehículo por vez para cada transversal.
+
+
+
+En las zonas rurales los peatones, ciclistas y jinetes, deben ceder el paso a los demás vehículos, a menos que atraviesen por zonas específicamente señalizadas que les habilite su prioridad de paso.
+
+
+
+Si se dan varias excepciones, se debe respetar el orden de prioridades establecido precedentemente.
+
+
+
+En las cuestas estrechas debe retroceder el que desciende, salvo que lleve acoplado o remolque.
+
+
+
+En ausencia de las excepciones anteriores se mantiene la prioridad de paso para el vehículo que se aproxima por la derecha.
 
 
 

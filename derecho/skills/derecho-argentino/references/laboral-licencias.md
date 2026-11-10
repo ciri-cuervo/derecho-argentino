@@ -277,6 +277,13 @@ Título III, el contrato de teletrabajo del art. 102 bis**, así que la modalida
 la LCT y esta ley le pone las reglas. Vigente desde el **01/04/2021**, por la Resolución 54/2021
 del Ministerio de Trabajo que fijó el fin del aislamiento del art. 19.
 
+> **Y se deroga el 01/01/2027.** Art. 199 de la Ley 27.802: *"Derógase la ley 27.555 y su
+> modificatoria, a partir del 1º de enero de 2027."* Lo que sigue rige hasta el 31/12/2026. La
+> derogación no nombra el art. 102 bis LCT, que la propia 27.555 incorporó a la LCT, y la 27.802
+> no trae un régimen de teletrabajo que la reemplace.
+
+`[VERIFICAR VIGENCIA: régimen del teletrabajo desde el 01/01/2027 - el art. 199 de la Ley 27.802 deroga la Ley 27.555 sin nombrar el art. 102 bis LCT que ella incorporó; determinar si el art. 102 bis subsiste y qué reglas de esta sección siguen en pie]`
+
 **Lo que no cambia y lo que sí.** Mismos derechos y obligaciones que el presencial, y **la
 remuneración no puede ser inferior** a la que se percibía o percibiría presencialmente (art. 3).
 La jornada **se pacta por escrito** y las plataformas del empleador deben **impedir la conexión

@@ -1,6 +1,6 @@
 {
   "_descripcion": "Veredicto de cada reforma que está en el texto consolidado de fuentes/normas/ y ningún módulo nombra. Lo consume herramientas/reformas_no_leidas.py.",
-  "fijado": "2026-11-01",
+  "fijado": "2026-11-10",
   "_criterio": "La capa de fuente primaria se actualiza sola y los módulos no: entre las dos cosas se abre una ventana en la que el repo tiene el artículo nuevo y la skill explica el viejo. El detector reporta candidatos; el veredicto se toma abriendo el módulo.",
   "_vocabulario": {
     "no-toca-el-modulo": "la reforma cambia un artículo que el módulo no cubre: es correcto que no la nombre",
@@ -70,10 +70,6 @@
     },
     "ley-27150:27.482": {
       "motivo": "sustituyó la denominación del título de la ley; penal.md 24 la cita por el cronograma de implementación del CPPF por distrito, que el cambio de título no mueve",
-      "veredicto": "no-toca-el-modulo"
-    },
-    "ley-27348:4:27.802": {
-      "motivo": "el art. 154 de la Ley 27.802 no sustituye el art. 4 de la 27.348: INCORPORA un artículo nuevo al Título I que faculta a la SRT a suspender asistencia técnica y financiamiento a la jurisdicción que incumpla, y de paso NOMBRA el art. 4 segundo párrafo. El candidato sale de esa mención. Es apalancamiento federal sobre las provincias, no una regla que cambie lo que hace el trabajador o su abogado. Leído contra fuentes/normas/ley-27348.txt el 18/09/2026",
       "veredicto": "no-toca-el-modulo"
     },
     "pba-ley-10397:15.558": {
