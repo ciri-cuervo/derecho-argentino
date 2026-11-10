@@ -59,7 +59,19 @@ cosecha.
 negociación colectiva conforme las Leyes 14.250 y 23.546, **con homologación posterior**. Sin
 acuerdo vigente para la actividad, se aplican las generales.
 
-`[REVISIÓN NORMATIVA REQUERIDA: este módulo recorre el Título I -ámbito y fuentes-, el III -modalidades- y los arts. 12, 20 y 32. Los Títulos IV a XIII -vivienda y alimentación, jornada, licencias, trabajo adolescente, seguridad social y los órganos tripartitos, incluido el RENATRE- NO están recorridos, y ahí viven obligaciones propias del empleador rural]`
+**Las multas por no registrar al trabajador rural (art. 15 de la Ley 25.191, texto art. 14 de la
+Ley 27.826).** No inscribirse en el RENATRE y la falta u omisión de registración del contrato se
+sancionan por trabajador afectado, o por establecimiento si no se lo puede individualizar, en tres
+escalas: declaración **inconsistente**, de $120.000 a $187.500; declaración **falsa**, de $375.000 a
+$1.500.000; **omisión total**, de $1.500.000 a $7.500.000. La reincidencia en cinco años puede
+subir el tope de las muy graves hasta un 50%. Esos montos rigen para las infracciones **constatadas
+desde el 09/10/2026** (art. 16 de la Ley 27.826). Desde el 01/01/2027 se ajustan cada año por UVA y
+el RENATRE publica la tabla; **para cancelar se toma el monto vigente al cancelar** (art. 15 bis).
+Cotejado contra `fuentes/normas/ley-25191.txt`.
+
+`[VERIFICAR MONTO ACTUALIZADO: escalas del art. 15 de la Ley 25.191 para actas labradas desde el 01/01/2027 - el art. 15 bis las ajusta por UVA y el RENATRE publica la tabla de cada año]`
+
+`[REVISIÓN NORMATIVA REQUERIDA: este módulo recorre el Título I -ámbito y fuentes-, el III -modalidades- y los arts. 12, 20 y 32. Los Títulos IV a XIII -vivienda y alimentación, jornada, licencias, trabajo adolescente, seguridad social y los órganos tripartitos, incluido el RENATRE- NO están recorridos, y ahí viven obligaciones propias del empleador rural. De la Ley 25.191 —libreta y RENATRE— este módulo recorre sólo los arts. 15 y 15 bis]`
 
 ### 5.17 quinquies Personal de casas particulares — Ley 26.844, y por qué `liquidacion_lct.py` no sirve acá
 
@@ -234,6 +246,13 @@ fija la **prescripción en cinco años**:
 `[VERIFICAR CRITERIO DEL FUERO: si la prescripción quinquenal del art. 4 de la Ley 14.546 subsiste frente a los dos años del art. 256 LCT, posterior y general - sin fallo cargado]`.
 Las remisiones del texto al Código de Comercio y a las Leyes 9.688, 11.719 y 14.455 están
 **derogadas**, y el consolidado lo anota artículo por artículo.
+
+> **La Ley 14.546 entera se deroga el 01/01/2027.** Art. 198 de la Ley 27.802: *"Derógase la ley
+> 14.546 y sus modificatorias, a partir del 1º de enero de 2027."* Hasta el 31/12/2026 rige todo lo
+> de arriba. La Ley 27.802 no trae un régimen que la reemplace, y el consolidado de InfoLEG,
+> vuelto a bajar el 10/11/2026, todavía no anota la derogación: leer la 14.546 sola no lo avisa.
+
+`[VERIFICAR VIGENCIA: régimen del viajante de comercio desde el 01/01/2027 - el art. 198 de la Ley 27.802 deroga la Ley 14.546 sin régimen sustituto; para una relación vigente a esa fecha, determinar qué rige la comisión, la indemnización por clientela del art. 14 y la prescripción, y si hay derechos ya devengados]`
 
 **Encargados de casas de renta — Ley 12.981.** Rige a los empleados y obreros de edificios
 destinados a producir renta y, por la Ley 14.095, a los de **propiedad horizontal** (art. 1); es

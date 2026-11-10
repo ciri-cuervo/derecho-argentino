@@ -80,8 +80,8 @@ cotejo anterior.
 | **Telegramas: reglas del acto** | `telegramas.md` 25 | 13/09/2026 | **Alta** |
 | **Contencioso administrativo PBA** | `contencioso-pba.md` 26 | 13/09/2026 | Media |
 | **Áreas con fuente bajada y sin absorber** | `perfiles-heredados.md` | 13/09/2026 | Media |
-| **Salud y discapacidad** | `salud-discapacidad.md` 27 | 13/09/2026 | **Alta** |
-| **Tránsito** | `transito.md` 28 | 01/11/2026 | **Alta** |
+| **Salud y discapacidad** | `salud-discapacidad.md` 27 | 10/11/2026 | **Alta** |
+| **Tránsito** | `transito.md` 28 | 10/11/2026 | **Alta** |
 | **Concursos: el cruce laboral** | `concursos.md` 29 | 13/09/2026 | Media |
 | **Datos personales** | `datos-personales.md` 30 | 13/09/2026 | Media |
 | **Societario: responsabilidad** | `societario.md` 31 | 17/09/2026 | Baja |
@@ -140,13 +140,13 @@ cotejo anterior.
 | **Amparo: el art. 2 inc. d sigue vigente** | `amparo.md` 43.6.1 | 17/09/2026 | Baja |
 | **Honorarios: el mínimo del art. 48** | `honorarios-nacional.md` 37.8.1 | 17/09/2026 | Media |
 | **Títulos ejecutivos: art. 36 LDC y abstracción** | `titulos-ejecutivos.md` 50.4.1 | 17/09/2026 | Baja |
-| **Baremo y listado de enfermedades** | `laboral-riesgos.md` 5.8.3 | 17/09/2026 | **Alta** |
+| **Baremo y listado de enfermedades** | `laboral-riesgos.md` 5.8.3 | 10/11/2026 | **Alta** |
 | **Movilidad jubilatoria** | `previsional.md` 32 · `salud-discapacidad.md` 27 | 17/09/2026 | **Alta** |
 | **Firma digital de la SCBA y fecha del fallo** | `notificaciones-pba.md` 22 · `consumidor.md` 17.3 | 17/09/2026 | Baja |
 | **Energía eléctrica: marco regulatorio** | `consumidor-sectores.md` 17.11.5 quater | 17/09/2026 | **Alta** |
 | **Servicios TIC** | `consumidor-sectores.md` 17.11.5 quinquies | 17/09/2026 | **Alta** |
 | **Asociaciones mutuales** | `societario.md` 31.3 quater | 17/09/2026 | Baja |
-| **Trabajo agrario** | `laboral-estatutos.md` 5.17 quater | 17/09/2026 | **Alta** |
+| **Trabajo agrario** | `laboral-estatutos.md` 5.17 quater | 10/11/2026 | **Alta** |
 | **Ética pública** | `empleo-publico.md` 49.5.3 | 17/09/2026 | Media |
 | **Cooperativas** | `societario.md` 31.3 bis | 17/09/2026 | Baja |
 | **Mercado de capitales** | `societario.md` 31.3 ter | 17/09/2026 | **Alta** |
@@ -157,13 +157,13 @@ cotejo anterior.
 | **Transporte aéreo** | `consumidor-sectores.md` 17.11.5 ter | 17/09/2026 | Media |
 | **Navegación por agua: DIPr y competencia** | `dipr.md` 35.8 bis | 17/09/2026 | Baja |
 | **Penal de CABA: competencia y proceso** | `penal.md` 24.1.2 bis · 24.3.4 · `penal-impugnacion.md` 24.6.5 | 18/09/2026 | **Alta** |
-| **Tributario y contencioso administrativo de CABA** | `tributario-caba.md` 57 | 18/09/2026 | **Alta** |
+| **Tributario y contencioso administrativo de CABA** | `tributario-caba.md` 57 | 10/11/2026 | **Alta** |
 | **Contravencional y faltas de CABA** | `contravencional-caba.md` 56 | 18/09/2026 | **Alta** |
 | **Previsional de PBA (IPS)** | `previsional-pba.md` 55 | 18/09/2026 | Media |
 | **Tributario de PBA: procedimiento** | `tributario-pba.md` 54 | 18/09/2026 | **Alta** |
 | **Inversiones estratégicas PBA** | `tributario-pba.md` 54.5 bis | 18/09/2026 | Media |
 | **Emergencia económica PBA** | `contencioso-pba.md` 26.9 bis | 18/09/2026 | Media |
-| **Emergencia sanitaria pediátrica** | `salud-discapacidad.md` 27.2 ter | 18/09/2026 | **Alta** |
+| **Emergencia sanitaria pediátrica** | `salud-discapacidad.md` 27.2 ter | 10/11/2026 | **Alta** |
 | **Organizaciones criminales** | `penal-leyes-especiales.md` 24.9.5 bis | 18/09/2026 | Media |
 | **Inteligencia y prueba penal** | `penal-impugnacion.md` 24.5.1 bis | 18/09/2026 | **Alta** |
 | **Régimen penal tributario** | `penal-leyes-especiales.md` 24.9.5 · `tributario.md` 33 · `civil.md` 6.3 | 18/09/2026 | **Alta** |
@@ -174,7 +174,7 @@ cotejo anterior.
 | **Inclusión laboral travesti, transexual y transgénero** | `laboral.md` 5.17 ter · `empleo-publico.md` 49.5.2 | 17/09/2026 | Media |
 | **Reproducción asistida e interrupción voluntaria del embarazo** | `salud-discapacidad.md` 27.2 bis | 17/09/2026 | **Alta** |
 | **Reparación para hijos de víctimas de femicidio y ESI** | `familia.md` 18.6 | 17/09/2026 | Media |
-| **Honorarios en la justicia nacional y federal** | `honorarios-nacional.md` 37 | 17/09/2026 | Media |
+| **Honorarios en la justicia nacional y federal** | `honorarios-nacional.md` 37 | 10/11/2026 | Media |
 | **Honorarios en la justicia de la Ciudad** | `honorarios-caba.md` 42 | 17/09/2026 | Media |
 | **Ambiental** | `ambiental.md` 41 | 17/09/2026 | **Alta** |
 | **Propiedad industrial e intelectual** | `propiedad-industrial.md` 40 | 17/09/2026 | Media |
@@ -203,15 +203,15 @@ cotejo anterior.
 | **Procedimiento administrativo de PBA** | `contencioso-pba.md` 26.4 bis | 23/09/2026 | Media |
 | **Reglamento de procedimientos administrativos nacional** | `administrativo-nacional.md` 46.5 quater | 23/09/2026 | **Alta** |
 | **Empleo público bonaerense: provincial, municipal y docente** | `empleo-publico.md` 49.5.4 | 23/09/2026 | Media |
-| **Estatutos: construcción, viajantes y encargados** | `laboral-estatutos.md` 5.17 sexies | 23/09/2026 | Media |
-| **Asignaciones familiares** | `previsional.md` 32.4 quater | 23/09/2026 | **Alta** |
+| **Estatutos: construcción, viajantes y encargados** | `laboral-estatutos.md` 5.17 sexies | 10/11/2026 | Media |
+| **Asignaciones familiares** | `previsional.md` 32.4 quater | 10/11/2026 | **Alta** |
 | **Tarjetas de crédito** | `consumidor-sectores.md` 17.11.7 | 23/09/2026 | **Alta** |
 | **Propiedad horizontal** | `derechos-reales.md` 45.4 | 23/09/2026 | Baja |
 | **Registro inmobiliario** | `derechos-reales.md` 45.5 bis | 23/09/2026 | Baja |
 | **Uniones convivenciales** | `familia.md` 18.10 bis | 23/09/2026 | Baja |
 | **Adopción** | `familia-ninez.md` 18.10 ter | 23/09/2026 | Baja |
 | **Niñez: protección integral** | `familia-ninez.md` 18.10 quater | 23/09/2026 | Media |
-| **Teletrabajo** | `laboral-licencias.md` 5.14 bis | 23/09/2026 | Media |
+| **Teletrabajo** | `laboral-licencias.md` 5.14 bis | 10/11/2026 | Media |
 | **Jornada de trabajo** | `laboral.md` 5.17 septies | 23/09/2026 | Media |
 | **Sociedad por acciones simplificada** | `societario.md` 31.3 quinquies | 23/09/2026 | Media |
 | **Monotributo** | `tributario.md` 33.3 bis | 23/09/2026 | Alta |

@@ -61,8 +61,6 @@
     "derecho/skills/derecho-argentino/references/sede-judicial-pba.md | Tres módulos": "subconjunto — los tres transversales que completan el de sede judicial.",
     "derecho/skills/derecho-argentino/references/sede-judicial-pba.md | dos institutos": "subconjunto — imposición de costas y regulación de honorarios, que el punto separa porque se rigen por artículos distintos.",
     "derecho/skills/derecho-argentino/references/transito.md | siete modelos": "de-terceros — los mismos siete modelos de descargo de `kb/`, capa 2.",
-    "derecho/skills/derecho-argentino/scripts/README.md | Cuatro calculadoras": "editorial — parte en dos la tabla de scripts de ese mismo README. Que ningún script falte en esa tabla ya lo mide TestREADMEDeScripts, que es el control que importa.",
-    "derecho/skills/derecho-argentino/scripts/README.md | tres utilitarios": "editorial — la otra mitad del rótulo anterior, con el mismo control detrás.",
     "docs/ARQUITECTURA.md | dos archivos": "locucion — describe que una pieza vive en dos archivos, no cuenta el inventario.",
     "docs/DESARROLLO.md | Tres herramientas": "subconjunto — nombra las herramientas que necesitan binarios que no son de Python, no el inventario de `herramientas/`. Ese total lo sella el ancla de `**{n} herramientas**` en LICENCIAS.md.",
     "derecho/skills/derecho-argentino/references/tributario-pba.md | dos fallos": "locucion — «los dos fallos reiteran el piso» habla de Carba y Alliaz, los dos leídos en 54.3; no cuenta el catálogo",

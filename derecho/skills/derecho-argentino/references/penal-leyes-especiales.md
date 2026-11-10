@@ -409,7 +409,7 @@ del contribuyente: **se construyen antes del conflicto**, no se invocan después
 **Y la acción penal no prosigue si prescribieron las facultades del fisco** (segundo artículo sin
 número a continuación del art. 16): la prescripción tributaria arrastra a la penal. El plazo del
 art. 56 de la Ley 11.683 —cinco años, que bajan a **tres** para el contribuyente cumplidor sin
-discrepancia significativa— está en `tributario.md` 33, y **es donde hay que ir antes de discutir
+discrepancia significativa, que la Ley 27.826 redefinió— está en `tributario.md` 33, y **es donde hay que ir antes de discutir
 el tipo**.
 
 **Lo que sigue abierto: la probation.** El art. 76 bis último párrafo CP excluye los ilícitos

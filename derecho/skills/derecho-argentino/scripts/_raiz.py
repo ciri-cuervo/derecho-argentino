@@ -42,6 +42,8 @@ import os
 import sys
 from pathlib import Path
 
+import _piso  # noqa: F401 - el piso de Python, que corta al importarse
+
 SUB = "derecho"
 MARCADOR_BASE = Path("fuentes") / "MANIFIESTO.md"
 MARCADOR = Path(SUB) / MARCADOR_BASE
@@ -277,6 +279,9 @@ def exigir_raiz(explicita=None, silencioso=False):
     return p
 
 
+_avisos_dados: set[str] = set()
+
+
 def datos(explicita=None):
     """Carpeta de datos del repo, o None si no hay repo configurado.
 
@@ -292,6 +297,13 @@ def datos(explicita=None):
         return None
     propia = Path(__file__).resolve().parents[3]
     if es_base(propia) and base(p).resolve() != propia:
-        print(f"  AVISO: los datos salen de {base(p)} ({origen}), no de los que trae esta "
-              f"copia de la skill ({propia}).", file=sys.stderr)
+        aviso = (f"  AVISO: los datos salen de {base(p)} ({origen}), no de los que trae esta "
+                 f"copia de la skill ({propia}).")
+        # Una vez por corrida: una calculadora que pide los datos dos veces -plazos.py, para el
+        # calendario y para los feriados- lo imprimía dos veces, y un aviso repetido se lee como
+        # ruido. MUTACIÓN: sacar el registro deja en rojo
+        # `test_el_aviso_de_datos_ajenos_sale_una_sola_vez`.
+        if aviso not in _avisos_dados:
+            _avisos_dados.add(aviso)
+            print(aviso, file=sys.stderr)
     return base(p) / "fuentes" / "datos"

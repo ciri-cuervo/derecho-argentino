@@ -345,7 +345,12 @@ de arca.gob.ar si ya están a disposición** — si lo están, la intimación ca
   que entre en vigencia un nuevo convenio. No describir el efecto como fin liso y llano de la
   ultraactividad: el punto es discutible y la contraria lo va a discutir.
 - **Teletrabajo.** Ley 27.555 abrogada por el art. 199 de la Ley 27.802, **con vigencia
-  diferida al 01/01/2027**. Durante 2026 sigue rigiendo.
+  diferida al 01/01/2027**. Durante 2026 sigue rigiendo. Ver `laboral-licencias.md` 5.14 bis.
+- **Viajantes de comercio.** Ley 14.546 derogada por el art. 198 de la Ley 27.802, también desde el
+  **01/01/2027** y sin régimen sustituto: `laboral-estatutos.md`. Con la misma fecha caen las Leyes
+  12.908, 12.867, 23.947 y 23.472 y los Decretos-Ley 13.839/46 y 14.954/46 (arts. 197, 200, 201,
+  205, 212 y 213), y sin fecha diferida las Leyes 23.759, 24.493 y 20.657 (arts. 202 a 204). Ninguna
+  de esas está bajada: lo que regulaban no se afirma desde acá.
 - **Banco de horas (art. 197 bis, texto Ley 27.802).** Admite acuerdo **individual** escrito,
   voluntario, con control fehaciente de horas y respeto de la pausa de 12 horas.
 

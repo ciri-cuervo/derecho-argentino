@@ -355,6 +355,14 @@
     "13482": {
       "veredicto": "no-hace-falta",
       "motivo": "Ley 13.482 PBA, organización de las policías: empleo-publico.md 49.5.5 la nombra en el marcador sólo para decir que NO está descargada. No se le atribuye ninguna regla"
+    },
+    "13839": {
+      "motivo": "Decreto-Ley 13.839/46: laboral.md 5.4 la nombra sólo como derogada por la Ley 27.802, que está bajada, y dice expresamente que lo que regulaba no se afirma desde ahí. Mención de derogación diferida al 01/01/2027 (art. 212).",
+      "veredicto": "no-hace-falta"
+    },
+    "23759": {
+      "motivo": "Ley 23.759: laboral.md 5.4 la nombra sólo como derogada por la Ley 27.802, que está bajada, y dice expresamente que lo que regulaba no se afirma desde ahí. Mención de derogación (art. 202).",
+      "veredicto": "no-hace-falta"
     }
   }
 }

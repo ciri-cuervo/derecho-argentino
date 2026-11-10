@@ -123,6 +123,25 @@ la salvedad de labores altamente complejas o extensas, que por auto fundado admi
 mayor. Los **peritos de parte y consultores técnicos** se rigen igual que los peritos de oficio,
 salvo lo del art. 478 CPCCN.
 
+**Los peritos tienen reglas propias desde la Ley 27.802** (B.O. 06/03/2026, vigentes desde la
+publicación), que sustituyó los arts. 60 y 61 e incorporó el 61 bis (sus arts. 95 a 97). El piso es
+de **dos UMA**: sin apreciación pecuniaria, con las pautas del art. 16 y *"siendo suficiente para
+la fijación de los honorarios mínimos, la aceptación del cargo conferido"* (art. 60); con
+apreciación pecuniaria, por la primera instancia hasta la sentencia, *"conforme lo establece el
+artículo 32"* (art. 61). Y el art. 61 bis: *"Los honorarios de los peritos que intervengan en las
+controversias judiciales, no estarán vinculados a la cuantía del respectivo juicio, ni al
+porcentaje de incapacidad que se dictamine en caso de producirse una pericia médica."* Se regulan
+por la labor técnica *"y su relevancia; calidad y extensión en lo concreto"*, con **dos UMA por
+pericia** como mínimo, y **un cuarto de UMA** si el proceso termina por transacción, avenimiento o
+conciliación antes de presentada la pericia, con el cargo aceptado.
+
+> **El 5% a 10% del art. 21 ya no se le aplica al perito sin más.** El párrafo de los auxiliares
+> del art. 21 no fue tocado, pero el 61 bis desvincula al perito de la cuantía, y el 61 remite al
+> art. 32, cuyas escalas son las del administrador, el interventor, el liquidador y el árbitro.
+> La ley no dice cómo conviven las tres reglas.
+
+`[VERIFICAR CRITERIO DEL FUERO: regulación de los honorarios del perito en la justicia nacional y federal después de la Ley 27.802 - el art. 61 bis los desvincula de la cuantía y del porcentaje de incapacidad, el art. 61 remite al art. 32 y el art. 21 conserva el 5% a 10% del monto para los auxiliares de la Justicia; sin fallo cargado]`
+
 **Sin apreciación pecuniaria** se aplican las pautas de valoración del **art. 16**: monto,
 valor/motivo/extensión y calidad jurídica de la labor, complejidad y novedad, responsabilidad,
 resultado obtenido, trascendencia de la resolución para futuros casos, y trascendencia económica y

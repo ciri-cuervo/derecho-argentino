@@ -47,6 +47,8 @@ correr 2   "$S/liquidacion_lct.py" --ingreso 2020-03-02 --extincion 2026-06-30 \
 correr 0   "$S/plazos.py" --tipo habiles --desde 2026-09-01 --dias 5 --fuero pba
 correr 0   "$S/intereses.py" --modo tasa --capital 1000000 --desde 2025-01-01 --hasta 2025-12-31 --tna 50
 correr 0   "$S/articulo.py" lct-20744 245
+correr 0   "$S/articulo.py" --comparar ley-24449:41 "pba-ley-15657:28 quater"
+correr 0   "$S/vigencia.py" --bo 2026-10-30 --jurisdiccion pba
 correr 0   "$S/verificar_respuesta.py" --vocabulario
 correr 0   "$F/verificar_normas.py" --help
 correr 0   "$F/descargar_normas.py" --help

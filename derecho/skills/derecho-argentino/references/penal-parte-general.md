@@ -215,7 +215,7 @@ fiscal es requisito legal expreso, no una opinión más del expediente.
    delito.
 2. Respecto de los delitos reprimidos con **pena de inhabilitación**.
 3. Respecto de los ilícitos de la **Ley 22.415** (Código Aduanero).
-4. Respecto de los ilícitos de la **Ley 24.769**. `[VERIFICAR VIGENCIA: alcance de la exclusión del art. 76 bis último párrafo tras la derogación de la Ley 24.769 por la Ley 27.430, cuyo Título IX contiene el Régimen Penal Tributario vigente]`
+4. Respecto de los ilícitos de la **Ley 24.769**. `[VERIFICAR VIGENCIA: alcance de la exclusión del art. 76 bis último párrafo tras la derogación de la Ley 24.769 por la Ley 27.430, cuyo Título IX contiene el Régimen Penal Tributario vigente, con los umbrales y el art. 16 que reescribió la Ley 27.799 - ver penal-leyes-especiales.md 24.9.5]`
 
 **Plazo y reglas (art. 76 ter).** El tribunal fija la suspensión **entre uno y tres años** según
 la gravedad, y establece las **reglas de conducta del art. 27 bis**. **Durante ese tiempo se

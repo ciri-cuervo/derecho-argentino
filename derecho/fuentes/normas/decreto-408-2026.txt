@@ -2,7 +2,7 @@ Decreto 408/2026 - Reglamentación del Título II de la Ley 27.802 (Fondo de Asi
 ==============================================================================
 Jurisdicción:     nacional
 Fuente:           https://servicios.infoleg.gob.ar/infolegInternet/anexos/425000-429999/426272/norma.htm
-Descargado:       2026-09-17
+Descargado:       2026-11-10
 SHA-256 (crudo):  fc338986373ebfcce921eac661df920024f5b9a97d9b9108bdd16a30c0d6c037
 Charset:          ISO-8859-1
 

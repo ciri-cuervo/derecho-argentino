@@ -164,6 +164,28 @@ class TestRaizDelRepo(unittest.TestCase):
                     self.assertNotIn("AVISO", r.stdout)
                     self.assertEqual("AVISO" in r.stderr, aviso, r.stderr)
 
+    def test_el_aviso_de_datos_ajenos_sale_una_sola_vez(self):
+        """`plazos.py` pide los datos dos veces en una corrida bonaerense —el calendario y los
+        feriados— y el aviso salía repetido. Un aviso repetido se lee como ruido.
+
+        MUTACIÓN que lo comprueba: sacar el registro `_avisos_dados` de `datos()` deja este test
+        en rojo con dos avisos.
+        """
+        with tempfile.TemporaryDirectory() as d:
+            ajena = pathlib.Path(d) / "otra"
+            shutil.copytree(RAIZ_DEL_CHECKOUT / "derecho" / "fuentes" / "datos",
+                            ajena / "fuentes" / "datos")
+            shutil.copy2(RAIZ_DEL_CHECKOUT / "derecho" / _raiz.MARCADOR_BASE, ajena / "fuentes")
+            entorno = {k: v for k, v in os.environ.items() if k not in _raiz.ENV_PLUGIN}
+            entorno.update(HOME=d, XDG_CONFIG_HOME=str(pathlib.Path(d) / "cfg"),
+                           DERECHO_AR_REPO=str(ajena))
+            r = subprocess.run(
+                [sys.executable, str(pathlib.Path(__file__).parent / "plazos.py"), "--tipo",
+                 "habiles", "--desde", "2026-09-01", "--dias", "5", "--fuero", "pba"],
+                capture_output=True, text=True, env=entorno, cwd=d)
+            self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+            self.assertEqual(r.stderr.count("AVISO"), 1, r.stderr)
+
     def test_las_suites_no_usan_el_config_de_la_maquina(self):
         """MUTACIÓN que lo comprueba: sacar el `XDG_CONFIG_HOME` de `_comun_tests.py` deja
         este test en rojo."""
@@ -458,6 +480,37 @@ class TestEstado(unittest.TestCase):
                     self.assertIn("0.0.1", bloque["detalle"])
                     self.assertIn(remedio, bloque["arreglo"])
 
+    def test_otra_copia_de_la_misma_version_se_reporta(self):
+        """Un config puede mandar al plugin instalado a un clon con el mismo número de versión
+        —su rama, su trabajo sin publicar—. Las calculadoras lo avisan en cada corrida, y el
+        diagnóstico decía `ok` porque comparaba sólo la versión.
+
+        MUTACIÓN que lo comprueba: sacar la comparación de carpetas de `bloque_plugin()` deja este
+        test en rojo con `OK`.
+        """
+        repo, _ = _raiz.raiz_repo()
+        version = json.loads((repo / "derecho" / ".claude-plugin" / "plugin.json")
+                             .read_text(encoding="utf-8"))["version"]
+        with tempfile.TemporaryDirectory() as d:
+            propia = pathlib.Path(d) / "plugins" / "derecho~g2"
+            (propia / ".claude-plugin").mkdir(parents=True)
+            (propia / ".claude-plugin" / "plugin.json").write_text(json.dumps({"version": version}))
+            (propia / "fuentes").mkdir()
+            shutil.copy2(repo / "derecho" / _raiz.MARCADOR_BASE, propia / "fuentes")
+            copia = propia / "skills" / "derecho-argentino" / "scripts"
+            shutil.copytree(pathlib.Path(__file__).parent, copia,
+                            ignore=shutil.ignore_patterns("__pycache__"))
+            e = {k: v for k, v in os.environ.items()
+                 if k not in ("DERECHO_AR_REPO", *_raiz.ENV_PLUGIN)}
+            e.update(HOME=d, XDG_CONFIG_HOME=str(pathlib.Path(d) / "cfg"),
+                     DERECHO_AR_REPO=str(repo))
+            r = subprocess.run([sys.executable, str(copia / "estado.py"), "--json"],
+                               capture_output=True, text=True, env=e, cwd=d)
+            bloque = {b["bloque"]: b for b in json.loads(r.stdout)["bloques"]}["plugin"]
+            self.assertEqual(bloque["estado"], "REVISAR", bloque)
+            self.assertIn("no de los que trae esta copia", bloque["detalle"])
+            self.assertIn("DERECHO_AR_REPO", bloque["arreglo"])
+
     def test_sin_repo_sale_2_y_no_revienta(self):
         with tempfile.TemporaryDirectory() as d:
             e = {k: v for k, v in os.environ.items() if k != "DERECHO_AR_REPO"}
@@ -546,6 +599,55 @@ class TestUnaSolaZonaHoraria(unittest.TestCase):
                         sueltos.append(f"{arbol.as_posix()}/{guion.name}:{numero} {linea.strip()}")
         self.assertEqual(sueltos, [],
                          "hay relojes que no pasan por ARGENTINA: usar hoy() o ahora()")
+
+
+class TestElPisoDePython(unittest.TestCase):
+    """Debajo de 3.9 nadie corrió los scripts, y la sección 16 del `SKILL.md` lo trata como falta
+    de Python. Para que esa regla se pueda aplicar tiene que haber una señal: `_piso.py` corta
+    con un mensaje en castellano, y todo script que se distribuye tiene que pasar por él.
+
+    MUTACIÓN que lo comprueba: sacar `import _piso` de `liquidacion_lct.py` deja en rojo
+    `test_todo_script_pasa_por_el_piso`, que es el único de los dos que no importa `_raiz`.
+    """
+
+    def test_debajo_del_piso_corta_y_lo_dice(self):
+        import contextlib
+        import io
+        import _piso
+        err = io.StringIO()
+        with self.assertRaises(SystemExit) as c, contextlib.redirect_stderr(err):
+            _piso.exigir((3, 8, 20))
+        self.assertEqual(c.exception.code, 2)
+        self.assertIn("Python 3.9 o posterior", err.getvalue())
+        self.assertIn("3.8.20", err.getvalue())
+        for version in ((3, 9, 0), (3, 13, 5)):
+            self.assertIsNone(_piso.mensaje(version))
+            _piso.exigir(version)
+
+    def test_todo_script_pasa_por_el_piso(self):
+        import ast
+        aqui = Path(__file__).parent
+        modulos = {p.stem: p for p in aqui.glob("*.py")}
+
+        def alcanza(nombre, vistos):
+            if nombre == "_piso":
+                return True
+            if nombre in vistos or nombre not in modulos:
+                return False
+            vistos.add(nombre)
+            arbol = ast.parse(modulos[nombre].read_text(encoding="utf-8"))
+            importados = {a.name for n in ast.walk(arbol) if isinstance(n, ast.Import)
+                          for a in n.names}
+            importados |= {n.module for n in ast.walk(arbol)
+                           if isinstance(n, ast.ImportFrom) and n.module}
+            return any(alcanza(m, vistos) for m in importados)
+
+        guiones = [n for n in modulos if not n.startswith(("_", "test_"))]
+        self.assertGreater(len(guiones), 8, "no encontró los scripts: el control está apagado")
+        sueltos = [n for n in guiones if not alcanza(n, set())]
+        self.assertEqual(sueltos, [], "scripts que no pasan por el piso de Python")
+
+
 class TestREADMEDeScripts(unittest.TestCase):
     """El README de `scripts/` describe la suite y las series, y eso se vence solo.
 
@@ -684,7 +786,9 @@ class TestElBloqueDeImportsNoSeCopia(unittest.TestCase):
 
     #: `load_tests` se importa para que `unittest` lo encuentre por nombre y `annotations` es una
     #: directiva del compilador: los dos son imports que por definición nadie escribe después.
-    POR_PROTOCOLO = {"load_tests", "annotations"}
+    #: `_piso` corta el programa al importarse si el Python está debajo del piso, así que
+    #: también es un import que se usa importándolo: `TestElPisoDePython`.
+    POR_PROTOCOLO = {"load_tests", "annotations", "_piso"}
 
     def test_cada_suite_importa_solo_lo_que_usa(self):
         import ast
@@ -1584,150 +1688,6 @@ class TestBanderasDeLaAyuda(unittest.TestCase):
         self.assertEqual(huerfanas, [],
                          "la documentación manda correr banderas que el parser no acepta:\n  "
                          + "\n  ".join(huerfanas))
-
-
-class TestArticulo(unittest.TestCase):
-    """`articulo.py` devuelve un artículo con su procedencia, y sólo ése.
-
-    Existe por el corte de `Read`: 2.000 renglones, sin aviso, sobre normas de 5.000 y 27.000.
-    Lo que se prueba es el corte de artículos —que reconozca las cuatro grafías con que las
-    fuentes abren uno y que NO corte en una transcripción—, la normalización de lo que se pide,
-    y que la salida entre en cp1252, porque en Windows es lo que la consola acepta.
-
-    MUTACIÓN que lo comprueba: vaciar `ANUNCIA_TRANSCRIPCION` —que no mire el renglón
-    anterior— deja en rojo `test_una_transcripcion_no_corta`, porque el «Artículo 145 bis:»
-    citado dentro del art. 10 pasa a ser un encabezado y el art. 10 se corta ahí.
-    """
-
-    FIXTURE = """Ley 99.999 - De prueba (texto actualizado)
-==============================================================================
-Jurisdicción:     nacional
-Fuente:           https://example.invalid/texact.htm
-Descargado:       2026-09-01
-SHA-256 (crudo):  0000000000000000000000000000000000000000000000000000000000000000
-Charset:          utf-8
-
-Texto de prueba.
-==============================================================================
-
-El Senado y Cámara de Diputados sancionan con fuerza de Ley:
-
-ARTICULO 1° — Uno. Primer renglón del uno.
-Segundo renglón del uno.
-
-Art. 2° - Dos, con la grafía del CPCCN.
-
-ARTÍCULO 22 BIS: (Artículo Incorporado por Ley 14543) Tres, con la grafía bonaerense.
-
-ARTICULO 10. — Incorpórase como artículo 145
-bis del Código Penal, el siguiente:
-Artículo 145 bis: El que captare, transportare, será reprimido.
-Sigue el diez.
-
-ARTICULO 145 bis. - Cuatro, con la grafía del Código Penal.
-(Artículo sustituido por art. 25 de la Ley N° 26.842 B.O. 27/12/2012)
-
-Art. 245. —Cinco. Indemnización por antigüedad.
-
-Artículo 300° — Seis, con la grafía de la Ley 24.241.
-
-Artículo 301: Siete, con la grafía de una constitución provincial.
-
-ARTÍCULO 302º Ocho, sin puntuación, con la grafía de la Ley 14.656.
-"""
-
-    @classmethod
-    def setUpClass(cls):
-        import articulo
-        cls.mod = articulo
-        cls.tmp = tempfile.TemporaryDirectory()
-        base = pathlib.Path(cls.tmp.name) / "repo" / "derecho" / "fuentes"
-        (base / "normas").mkdir(parents=True)
-        (base / "MANIFIESTO.md").write_text("marca\n", encoding="utf-8")
-        (base / "normas" / "prueba.txt").write_text(cls.FIXTURE, encoding="utf-8")
-        cls.repo = base.parent.parent
-
-    @classmethod
-    def tearDownClass(cls):
-        cls.tmp.cleanup()
-
-    def _partes(self):
-        return self.mod.partir(self.FIXTURE.splitlines())
-
-    def test_reconoce_las_seis_grafias(self):
-        self.assertEqual(list(self._partes()),
-                         ["1", "2", "22 bis", "10", "145 bis", "245", "300", "301", "302"])
-
-    def test_la_formula_de_sancion_no_tapa_el_articulo_1(self):
-        """«sancionan con fuerza de Ley:» termina en dos puntos y precede al art. 1 de toda ley
-        de InfoLEG. MUTACIÓN: volver `ANUNCIA_TRANSCRIPCION` a un `:\\s*$` a secas deja esto
-        en rojo, y con ello el art. 1 de cada ley bajada."""
-        self.assertIn("1", self._partes())
-        self.assertIn("Primer renglón del uno", "\n".join(self._partes()["1"]))
-
-    def test_el_articulo_llega_entero_y_sin_el_siguiente(self):
-        uno = "\n".join(self._partes()["1"])
-        self.assertIn("Segundo renglón del uno", uno)
-        self.assertNotIn("Dos", uno)
-
-    def test_una_transcripcion_no_corta(self):
-        diez = "\n".join(self._partes()["10"])
-        self.assertIn("Artículo 145 bis: El que captare", diez)
-        self.assertIn("Sigue el diez", diez)
-
-    def test_lo_pedido_se_normaliza(self):
-        for forma in ("245bis", "245 BIS", " 245 bis "):
-            self.assertEqual(self.mod.pedido(forma), "245 bis")
-        self.assertEqual(self.mod.pedido("22 BIS"), "22 bis")
-        with self.assertRaises(ValueError):
-            self.mod.pedido("bis")
-
-    def _correr(self, *args):
-        entorno = dict(os.environ, DERECHO_AR_REPO=str(self.repo),
-                       XDG_CONFIG_HOME=str(pathlib.Path(self.tmp.name) / "cfg"))
-        return subprocess.run(
-            [sys.executable, str(pathlib.Path(__file__).parent / "articulo.py"), *args],
-            capture_output=True, text=True, env=entorno, cwd=self.tmp.name)
-
-    def test_cli_imprime_procedencia_y_el_articulo_pedido(self):
-        r = self._correr("prueba", "245", "22bis")
-        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
-        for esperado in ("Ley 99.999 - De prueba", "Fuente:", "Descargado:", "SHA-256",
-                         "--- art. 245 · prueba", "Indemnización por antigüedad",
-                         "--- art. 22 bis · prueba", "grafía bonaerense"):
-            self.assertIn(esperado, r.stdout)
-        self.assertNotIn("Primer renglón del uno", r.stdout)
-        r.stdout.encode("cp1252")
-
-    def test_cli_articulo_inexistente_sale_2_y_lo_dice(self):
-        r = self._correr("prueba", "245", "9999")
-        self.assertEqual(r.returncode, 2)
-        self.assertIn("Indemnización por antigüedad", r.stdout, "lo que sí está se imprime igual")
-        self.assertIn("9999", r.stdout)
-        self.assertIn("no se cita de memoria", r.stdout)
-
-    def test_cli_norma_inexistente_sale_2(self):
-        r = self._correr("no-existe", "1")
-        self.assertEqual(r.returncode, 2)
-        self.assertIn("No existe", r.stdout)
-
-    def test_cli_listar(self):
-        r = self._correr("prueba", "--listar")
-        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
-        self.assertIn("9 artículos reconocidos", r.stdout)
-        self.assertIn("22 bis, 10, 145 bis, 245, 300, 301, 302", r.stdout)
-
-    def test_sobre_el_repo_real(self):
-        """Instrumento encendido: el art. 245 de la LCT sale entero y con su hash."""
-        entorno = dict(os.environ, DERECHO_AR_REPO=str(RAIZ_DEL_CHECKOUT),
-                       XDG_CONFIG_HOME=str(pathlib.Path(self.tmp.name) / "cfg"))
-        r = subprocess.run(
-            [sys.executable, str(pathlib.Path(__file__).parent / "articulo.py"),
-             "lct-20744", "245"], capture_output=True, text=True, env=entorno)
-        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
-        self.assertIn("Art. 245. —Indemnización por antigüedad o despido.", r.stdout)
-        self.assertIn("SHA-256", r.stdout)
-        self.assertNotIn("Art. 246", r.stdout)
 
 
 class TestElConfigIlegibleNoSePisa(unittest.TestCase):

@@ -11,6 +11,7 @@ from __future__ import annotations
 import contextlib
 import io
 import json
+import os
 import pathlib
 import re
 import shutil
@@ -1235,6 +1236,350 @@ class TestLosFeriadosDeLaVisitaPapal(unittest.TestCase):
         m = next(x for x in metas if x["anio"] == 2026)
         informados = {d["fecha"] for d in plazos.distritales_en_el_plazo(m, date(2026, 11, 6), venc)}
         self.assertLessEqual({"2026-11-10", "2026-11-11"}, informados)
+
+
+
+class TestArticulo(unittest.TestCase):
+    """`articulo.py` devuelve un artículo con su procedencia, y sólo ése.
+
+    Existe por el corte de `Read`: 2.000 renglones, sin aviso, sobre normas de 5.000 y 27.000.
+    Lo que se prueba es el corte de artículos —que reconozca las cuatro grafías con que las
+    fuentes abren uno y que NO corte en una transcripción—, la normalización de lo que se pide,
+    y que la salida entre en cp1252, porque en Windows es lo que la consola acepta.
+
+    MUTACIÓN que lo comprueba: vaciar `ANUNCIA_TRANSCRIPCION` —que no mire el renglón
+    anterior— deja en rojo `test_una_transcripcion_no_corta`, porque el «Artículo 145 bis:»
+    citado dentro del art. 10 pasa a ser un encabezado y el art. 10 se corta ahí.
+    """
+
+    FIXTURE = """Ley 99.999 - De prueba (texto actualizado)
+==============================================================================
+Jurisdicción:     nacional
+Fuente:           https://example.invalid/texact.htm
+Descargado:       2026-09-01
+SHA-256 (crudo):  0000000000000000000000000000000000000000000000000000000000000000
+Charset:          utf-8
+
+Texto de prueba.
+==============================================================================
+
+El Senado y Cámara de Diputados sancionan con fuerza de Ley:
+
+ARTICULO 1° — Uno. Primer renglón del uno.
+Segundo renglón del uno.
+
+Art. 2° - Dos, con la grafía del CPCCN.
+
+ARTÍCULO 22 BIS: (Artículo Incorporado por Ley 14543) Tres, con la grafía bonaerense.
+
+ARTICULO 10. — Incorpórase como artículo 145
+bis del Código Penal, el siguiente:
+Artículo 145 bis: El que captare, transportare, será reprimido.
+Sigue el diez.
+
+ARTICULO 145 bis. - Cuatro, con la grafía del Código Penal.
+(Artículo sustituido por art. 25 de la Ley N° 26.842 B.O. 27/12/2012)
+
+Art. 245. —Cinco. Indemnización por antigüedad.
+
+Artículo 300° — Seis, con la grafía de la Ley 24.241.
+
+Artículo 301: Siete, con la grafía de una constitución provincial.
+
+ARTÍCULO 302º Ocho, sin puntuación, con la grafía de la Ley 14.656.
+"""
+
+    @classmethod
+    def setUpClass(cls):
+        import articulo
+        cls.mod = articulo
+        cls.tmp = tempfile.TemporaryDirectory()
+        base = pathlib.Path(cls.tmp.name) / "repo" / "derecho" / "fuentes"
+        (base / "normas").mkdir(parents=True)
+        (base / "MANIFIESTO.md").write_text("marca\n", encoding="utf-8")
+        (base / "normas" / "prueba.txt").write_text(cls.FIXTURE, encoding="utf-8")
+        cls.repo = base.parent.parent
+
+    @classmethod
+    def tearDownClass(cls):
+        cls.tmp.cleanup()
+
+    def _partes(self):
+        return self.mod.partir(self.FIXTURE.splitlines())
+
+    def test_reconoce_las_seis_grafias(self):
+        self.assertEqual(list(self._partes()),
+                         ["1", "2", "22 bis", "10", "145 bis", "245", "300", "301", "302"])
+
+    def test_la_formula_de_sancion_no_tapa_el_articulo_1(self):
+        """«sancionan con fuerza de Ley:» termina en dos puntos y precede al art. 1 de toda ley
+        de InfoLEG. MUTACIÓN: volver `ANUNCIA_TRANSCRIPCION` a un `:\\s*$` a secas deja esto
+        en rojo, y con ello el art. 1 de cada ley bajada."""
+        self.assertIn("1", self._partes())
+        self.assertIn("Primer renglón del uno", "\n".join(self._partes()["1"]))
+
+    def test_el_articulo_llega_entero_y_sin_el_siguiente(self):
+        uno = "\n".join(self._partes()["1"])
+        self.assertIn("Segundo renglón del uno", uno)
+        self.assertNotIn("Dos", uno)
+
+    def test_una_transcripcion_no_corta(self):
+        diez = "\n".join(self._partes()["10"])
+        self.assertIn("Artículo 145 bis: El que captare", diez)
+        self.assertIn("Sigue el diez", diez)
+
+    def test_lo_pedido_se_normaliza(self):
+        for forma in ("245bis", "245 BIS", " 245 bis "):
+            self.assertEqual(self.mod.pedido(forma), "245 bis")
+        self.assertEqual(self.mod.pedido("22 BIS"), "22 bis")
+        with self.assertRaises(ValueError):
+            self.mod.pedido("bis")
+
+    def _correr(self, *args):
+        entorno = dict(os.environ, DERECHO_AR_REPO=str(self.repo),
+                       XDG_CONFIG_HOME=str(pathlib.Path(self.tmp.name) / "cfg"))
+        return subprocess.run(
+            [sys.executable, str(pathlib.Path(__file__).parent / "articulo.py"), *args],
+            capture_output=True, text=True, env=entorno, cwd=self.tmp.name)
+
+    def test_cli_imprime_procedencia_y_el_articulo_pedido(self):
+        r = self._correr("prueba", "245", "22bis")
+        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+        for esperado in ("Ley 99.999 - De prueba", "Fuente:", "Descargado:", "SHA-256",
+                         "--- art. 245 · prueba", "Indemnización por antigüedad",
+                         "--- art. 22 bis · prueba", "grafía bonaerense"):
+            self.assertIn(esperado, r.stdout)
+        self.assertNotIn("Primer renglón del uno", r.stdout)
+        r.stdout.encode("cp1252")
+
+    def test_cli_articulo_inexistente_sale_2_y_lo_dice(self):
+        r = self._correr("prueba", "245", "9999")
+        self.assertEqual(r.returncode, 2)
+        self.assertIn("Indemnización por antigüedad", r.stdout, "lo que sí está se imprime igual")
+        self.assertIn("9999", r.stdout)
+        self.assertIn("no se cita de memoria", r.stdout)
+
+    def test_cli_norma_inexistente_sale_2(self):
+        r = self._correr("no-existe", "1")
+        self.assertEqual(r.returncode, 2)
+        self.assertIn("No existe", r.stdout)
+
+    def test_cli_listar(self):
+        r = self._correr("prueba", "--listar")
+        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+        self.assertIn("9 artículos reconocidos", r.stdout)
+        self.assertIn("22 bis, 10, 145 bis, 245, 300, 301, 302", r.stdout)
+
+    def test_sobre_el_repo_real(self):
+        """Instrumento encendido: el art. 245 de la LCT sale entero y con su hash."""
+        entorno = dict(os.environ, DERECHO_AR_REPO=str(RAIZ_DEL_CHECKOUT),
+                       XDG_CONFIG_HOME=str(pathlib.Path(self.tmp.name) / "cfg"))
+        r = subprocess.run(
+            [sys.executable, str(pathlib.Path(__file__).parent / "articulo.py"),
+             "lct-20744", "245"], capture_output=True, text=True, env=entorno)
+        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+        self.assertIn("Art. 245. —Indemnización por antigüedad o despido.", r.stdout)
+        self.assertIn("SHA-256", r.stdout)
+        self.assertNotIn("Art. 246", r.stdout)
+
+
+
+class TestElArticuloNoArrastraLaDivisionSiguiente(unittest.TestCase):
+    """El encabezado de la división que sigue —«TÍTULO X», «CAPITULO 3»— no es del artículo.
+
+    Las tres condiciones de `_sin_division_siguiente()` salieron de casos reales, y se prueban
+    sobre esos casos y no sólo sobre un fixture: el corte se mide contra `fuentes/`.
+
+    MUTACIÓN que lo comprueba: devolver `ls` sin tocar en `_sin_division_siguiente()` deja en rojo
+    `test_el_28_quater_termina_en_su_texto`; sacar la condición del renglón en blanco,
+    `test_una_oracion_partida_no_es_encabezado`; sacar la de los dos puntos,
+    `test_lo_que_el_articulo_transcribe_queda`; volver a exigir un blanco arriba de cada renglón de
+    subtítulo, `test_un_subtitulo_partido_en_dos_renglones_tambien_sale`.
+    """
+
+    def setUp(self):
+        import articulo
+        self.mod = articulo
+        self.normas = RAIZ_DEL_CHECKOUT / "derecho" / "fuentes" / "normas"
+
+    def _art(self, slug, k, anexo=0):
+        lineas = (self.normas / f"{slug}.txt").read_text(encoding="utf-8").splitlines()
+        arts = self.mod.anexos(lineas)[anexo] if anexo else self.mod.partir(lineas)
+        return [l.strip() for l in arts[k] if l.strip()]
+
+    def test_el_28_quater_termina_en_su_texto(self):
+        art = self._art("pba-ley-13927", "28 quater")
+        self.assertTrue(art[-1].startswith("En ausencia de las excepciones anteriores"), art[-3:])
+
+    def test_una_oracion_partida_no_es_encabezado(self):
+        self.assertEqual(self._art("ccycn-26994", "566", anexo=1)[-1],
+                         "Capítulo 2 de este Titulo.")
+
+    def test_lo_que_el_articulo_transcribe_queda(self):
+        self.assertEqual(self._art("ley-27430", "279")[-1], "Título I - Delitos Tributarios")
+
+    def test_un_subtitulo_partido_en_dos_renglones_tambien_sale(self):
+        """«Sistema Integral de Prestaciones por / Desempleo» cuelga del art. 15 bis de la Ley
+        25.191. MUTACIÓN: exigir un blanco arriba de cada renglón de subtítulo —la regla de antes—
+        deja este test en rojo."""
+        art = self._art("ley-25191", "15 bis")
+        self.assertTrue(art[-1].endswith("Argentina.)"), art[-4:])
+
+    def test_el_subtitulo_entre_blancos_tambien_sale(self):
+        art = ["ARTICULO 9.- Texto del nueve.", "", "TITULO VIII", "", "Del financiamiento", "",
+               "Capítulo 1"]
+        self.assertEqual(self.mod._sin_division_siguiente(art), ["ARTICULO 9.- Texto del nueve."])
+        pegado = ["ARTICULO 9.- Texto que sigue en el", "Capítulo 1 de esta ley"]
+        self.assertEqual(self.mod._sin_division_siguiente(pegado), pegado)
+
+
+class TestCompararIncisos(unittest.TestCase):
+    """`articulo.py --comparar` alinea dos artículos por la LETRA del inciso, y lo dice.
+
+    Se probó emparejar por contenido y sobre el caso conocido —el art. 41 de la Ley 24.449 contra
+    el 28 quater bonaerense— se equivocó en cuatro de diez incisos, justo los que importaban: dejó
+    sin par el g) 3 nacional, que es el antecedente del h) y del i). Se descartó, y lo que queda es
+    una herramienta de lectura: los dos textos enteros, uno al lado del otro.
+
+    MUTACIÓN que lo comprueba: sacar la advertencia de `comparar()` deja en rojo
+    `test_la_salida_advierte_que_la_letra_no_es_el_contenido`; no unir la continuación en
+    `unidades()`, `test_un_parrafo_entre_incisos_es_continuacion`.
+    """
+
+    ART_A = ["ARTICULO 9. — EPÍGRAFE. Regla general del artículo,", "en dos renglones. Excepciones:",
+             "", "a) Primera;", "", "b) Segunda;", "", "Sigue la segunda.", "",
+             "c) Tercera, cuando:", "", "1. Subinciso uno;", "", "2. Subinciso dos.", "",
+             "Párrafo final. Otra oración."]
+    ART_B = ["ARTÍCULO 9 bis: Regla general nueva:", "", "a) Primera;", "", "d) Nueva.", "",
+             "Párrafo final."]
+
+    def setUp(self):
+        import articulo
+        self.mod = articulo
+
+    def test_rotulos_y_bloques(self):
+        antes, incisos, despues = self.mod.unidades(self.ART_A)
+        self.assertEqual(antes, ["EPÍGRAFE. Regla general del artículo, en dos renglones. "
+                                 "Excepciones:"])
+        self.assertEqual([r for r, _ in incisos], ["a)", "b)", "c)", "c) 1.", "c) 2."])
+        self.assertEqual(despues, ["Párrafo final. Otra oración."])
+
+    def test_un_parrafo_entre_incisos_es_continuacion(self):
+        incisos = dict(self.mod.unidades(self.ART_A)[1])
+        self.assertEqual(incisos["b)"], "Segunda; Sigue la segunda.")
+
+    def _correr(self, *args):
+        return subprocess.run(
+            [sys.executable, str(pathlib.Path(__file__).parent / "articulo.py"), *args,
+             "--repo", str(RAIZ_DEL_CHECKOUT)], capture_output=True, text=True)
+
+    def test_la_salida_advierte_que_la_letra_no_es_el_contenido(self):
+        """Instrumento encendido sobre el caso que motivó la herramienta."""
+        r = self._correr("--comparar", "ley-24449:41", "pba-ley-15657:28 quater")
+        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+        self.assertIn("por la letra del inciso y no por lo que dice", r.stdout)
+        self.assertIn("Incisos sólo en A: g) 1., g) 2., g) 3., g) 4.", r.stdout)
+        self.assertIn("Incisos sólo en B: h), i), j)", r.stdout)
+        self.assertIn("A | Se haya detenido la marcha o se vaya a girar", r.stdout)
+        self.assertIn("B | Cuando circulen vehículos por una vía de mayor jerarquía", r.stdout)
+        r.stdout.encode("cp1252")
+
+    def test_lo_que_no_esta_sale_2(self):
+        r = self._correr("--comparar", "ley-24449:999", "pba-ley-15657:28 quater")
+        self.assertEqual(r.returncode, 2)
+        self.assertIn("no se cita de memoria", r.stdout)
+        r = self._correr("lct-20744", "--comparar", "a:1", "b:2")
+        self.assertEqual(r.returncode, 2)
+
+    def test_un_anexo_que_no_existe_o_no_es_numero_sale_2_en_castellano(self):
+        """MUTACIÓN: sacar los dos controles de `_cargar_articulo()` deja un IndexError con
+        traceback para el primero y el mensaje de `int()` en inglés para el segundo."""
+        for spec, dice in (("ccycn-26994:5:9", "no tiene anexo 9"),
+                           ("ccycn-26994:5:x", "el anexo va en número")):
+            with self.subTest(spec=spec):
+                r = self._correr("--comparar", "ley-24449:41", spec)
+                self.assertEqual(r.returncode, 2, r.stderr)
+                self.assertIn(dice, r.stdout)
+                self.assertNotIn("Traceback", r.stderr)
+
+
+class TestVigencia(unittest.TestCase):
+    """`vigencia.py` aplica el art. 5 CCyCN —«después del octavo día de su publicación
+    oficial»— con el cómputo del art. 6: el día de la publicación no cuenta.
+
+    MUTACIÓN que lo comprueba: contar el día de la publicación —`PLAZO_SUPLETORIO = 7`— deja en
+    rojo `test_publicada_un_viernes`; sacar el marcador de jurisdicción local,
+    `test_una_ley_provincial_lleva_su_marcador`; dejar de exigir las oraciones de `COMPUTO`,
+    `test_sin_la_oracion_del_art_6_se_planta`.
+    """
+
+    def setUp(self):
+        import vigencia
+        self.mod = vigencia
+
+    def test_publicada_un_viernes(self):
+        r = self.mod.calcular(date(2026, 10, 30))
+        self.assertEqual(r["octavo"], date(2026, 11, 7))
+        self.assertEqual(r["rige"], date(2026, 11, 8))
+
+    def test_cruza_un_febrero_bisiesto(self):
+        self.assertEqual(self.mod.calcular(date(2028, 2, 25))["rige"], date(2028, 3, 5))
+
+    def test_la_fecha_propia_manda(self):
+        self.assertEqual(self.mod.calcular(date(2026, 3, 9), date(2026, 9, 5))["rige"],
+                         date(2026, 9, 5))
+
+    def _correr(self, *args, repo=RAIZ_DEL_CHECKOUT):
+        return subprocess.run(
+            [sys.executable, str(pathlib.Path(__file__).parent / "vigencia.py"), *args,
+             "--repo", str(repo)], capture_output=True, text=True)
+
+    def test_una_ley_provincial_lleva_su_marcador(self):
+        r = self._correr("--bo", "2026-10-30", "--jurisdiccion", "pba")
+        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+        self.assertIn("RIGE DESDE                 2026-11-08 (domingo)", r.stdout)
+        self.assertIn("Las leyes rigen después del octavo día", r.stdout,
+                      "la regla tiene que salir de fuentes/, no de memoria")
+        self.assertIn("art. 6, anexo 1 · «En los plazos fijados en días, a contar de uno "
+                      "determinado, queda éste excluido del cómputo", r.stdout)
+        self.assertIn("no se excluyen los días inhábiles o no laborables.»", r.stdout)
+        self.assertIn("[VERIFICAR VIGENCIA: entrada en vigencia de una norma local", r.stdout)
+        self.assertNotIn("de un reglamento", r.stdout)
+        r.stdout.encode("cp1252")
+        revisor = subprocess.run(
+            [sys.executable, str(pathlib.Path(__file__).parent / "verificar_respuesta.py"), "-"],
+            input=r.stdout, capture_output=True, text=True)
+        self.assertEqual(revisor.returncode, 0, revisor.stdout)
+
+    def _repo_falso(self, d, ccycn=None):
+        base = pathlib.Path(d) / "derecho" / "fuentes"
+        (base / "normas").mkdir(parents=True)
+        (base / "datos").mkdir()
+        (base / "MANIFIESTO.md").write_text("marca\n", encoding="utf-8")
+        if ccycn is not None:
+            (base / "normas" / "ccycn-26994.txt").write_text(ccycn, encoding="utf-8")
+
+    def test_sin_el_texto_del_art_5_se_planta(self):
+        with tempfile.TemporaryDirectory() as d:
+            self._repo_falso(d)
+            r = self._correr("--bo", "2026-10-30", repo=d)
+        self.assertEqual(r.returncode, 2, r.stdout + r.stderr)
+        self.assertIn("[CONFIGURACIÓN INCOMPLETA: texto de los arts. 5 y 6 del CCyCN", r.stdout)
+        self.assertNotIn("RIGE DESDE", r.stdout)
+
+    def test_sin_la_oracion_del_art_6_se_planta(self):
+        """Un art. 6 que no dice que el día inicial se excluye no alcanza para la cuenta."""
+        ley = "\n".join(["Ley 26.994", "", "ARTICULO 1°.- Apruébase el Código.", "",
+                         "ANEXO I", "", "ARTICULO 1°.- Casos.", "",
+                         "ARTICULO 5°.- Vigencia. Las leyes rigen después del octavo día.", "",
+                         "ARTICULO 6°.- Modo de contar. Día es el intervalo de medianoche a "
+                         "medianoche.", ""])
+        with tempfile.TemporaryDirectory() as d:
+            self._repo_falso(d, ley)
+            self.assertIsNone(self.mod.leer_regla(d))
+            r = self._correr("--bo", "2026-10-30", repo=d)
+        self.assertEqual(r.returncode, 2, r.stdout + r.stderr)
+        self.assertNotIn("RIGE DESDE", r.stdout)
 
 
 if __name__ == "__main__":

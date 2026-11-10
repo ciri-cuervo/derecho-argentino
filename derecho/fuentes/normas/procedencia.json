@@ -348,9 +348,9 @@
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/425000-429999/426272/norma.htm",
       "archivo": "decreto-408-2026.txt",
       "sha256_texto": "d32ee5cceee05a4e25cc700012be5d18eea092ac2af9dd99f040492b2b5f7375",
-      "sha256_archivo": "2bd1e8ed30d17a1d2e28255c6074b418ae8c53eb1017f6570e3d2caa3e86bdab",
+      "sha256_archivo": "06082fb83845375bec59fc7e4e95a4da75351d88f39fe3f7fc33198307076ee5",
       "content_type": "text/html",
-      "descargado": "2026-09-17T12:52:46-03:00"
+      "descargado": "2026-11-10T09:55:06-03:00"
     },
     "decreto-409-2026": {
       "titulo": "Decreto 409/2026 - Régimen de Promoción del Empleo Registrado (Título XXII de la Ley 27.802)",
@@ -527,10 +527,10 @@
       "titulo": "Ley 11.683 - Procedimiento tributario, t.o. 1998 por Decreto 821/98 (texto actualizado)",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/15000-19999/18771/texact.htm",
       "archivo": "ley-11683.txt",
-      "sha256_texto": "b1535ba4b2d83bc702fe55a12040e7431a91360492229ef9fa14d16a77544d76",
-      "sha256_archivo": "9d3c85fcc1df11fb8c90f35824089379179a75705b12e411ac047dfb1e73c0bc",
+      "sha256_texto": "a6f617b2e539596dab736344de93f150506805a811866245801b21bcce995cfa",
+      "sha256_archivo": "c844e31967343f5d24949e9e17b53e4efcf6607805b1cd9566780064154c3512",
       "content_type": "text/html",
-      "descargado": "2026-09-17T12:52:50-03:00"
+      "descargado": "2026-11-10T09:55:07-03:00"
     },
     "ley-11723": {
       "titulo": "Ley 11.723 - Propiedad intelectual, régimen legal (texto actualizado)",
@@ -1577,10 +1577,10 @@
       "titulo": "Ley 13.927 PBA - Código de Tránsito (texto actualizado)",
       "url": "https://normas.gba.gob.ar/documentos/0YqDnfd0.html",
       "archivo": "pba-ley-13927.txt",
-      "sha256_texto": "11acd6564e0e5b3d88052160534323156d6e1e6b12db185baf51c91569500c25",
-      "sha256_archivo": "783e3f8fdd1e1263df884bc99a5b3ca07796b70e8d5027be8634f34217dbc7a1",
+      "sha256_texto": "d69b384d8b61290c81972af3bc54ae21d40edafd07e54a61651be8e9e2c12f63",
+      "sha256_archivo": "d9425042d0a80589dd746cec1d1ef078bd2078822761c6688db2997f3a5c6090",
       "content_type": "text/html",
-      "descargado": "2026-09-17T12:53:14-03:00"
+      "descargado": "2026-11-10T09:55:07-03:00"
     },
     "pba-ley-13951": {
       "titulo": "Ley 13.951 - Mediación prejudicial (PBA)",
@@ -1896,18 +1896,18 @@
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/420000-424999/423013/norma.htm",
       "archivo": "decreto-93-2026.txt",
       "sha256_texto": "2327c7be1f833832d9c90e4e42bc744036692beedf905ba96907bc999138215b",
-      "sha256_archivo": "7f29127ae9099992528c1d2535530d48661d53ade42c1bf9f91520550fde6060",
+      "sha256_archivo": "203688fdb680919bc3665397a6d934698f5071639ff634a8142b6123741b9f87",
       "content_type": "text/html",
-      "descargado": "2026-09-18T00:05:38-03:00"
+      "descargado": "2026-11-10T09:55:07-03:00"
     },
     "ley-27799": {
       "titulo": "Ley 27.799 - Régimen Penal Tributario (inocencia fiscal)",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/420000-424999/422008/norma.htm",
       "archivo": "ley-27799.txt",
       "sha256_texto": "df66355c9d46aff454c25fa35704d89792988bd5dceb41cffbdcb33c047b2064",
-      "sha256_archivo": "f00783e9474d9ea4626c528ccea8af99bf73b11a7361825e75f541ed4f4be1ac",
+      "sha256_archivo": "38b2640274adbb262505addb1fb67b45b4fd132a1a1f5f5b57debf937cd2add9",
       "content_type": "text/html",
-      "descargado": "2026-09-18T00:05:38-03:00"
+      "descargado": "2026-11-10T09:55:07-03:00"
     },
     "decreto-941-2025": {
       "titulo": "Decreto 941/2025 - modificación de la Ley 25.520 de Inteligencia Nacional",
@@ -2271,9 +2271,9 @@
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/95000-99999/96295/texact.htm",
       "archivo": "ley-14546.txt",
       "sha256_texto": "c519551e02c629fa35ed437552eafa322a71196533eb9691754cc730d13898f1",
-      "sha256_archivo": "1b183f75622bad1eca9c3906d0c820781796006e0e4b183c760ef8ada8d7c5fb",
+      "sha256_archivo": "e9aa66af4cbeceb7f0876b543885b62adfa0d6dfd13d190963143b06e0198580",
       "content_type": "text/html",
-      "descargado": "2026-09-23T19:17:04-03:00"
+      "descargado": "2026-11-10T10:43:07-03:00"
     },
     "ley-12981": {
       "titulo": "Ley 12.981 - Estatuto de los encargados de casas de renta (texto actualizado)",
@@ -2483,10 +2483,10 @@
       "titulo": "Decreto 1397/79 - Reglamentación de la Ley 11.683 de procedimiento tributario (texto actualizado)",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/15000-19999/18807/texact.htm",
       "archivo": "decreto-1397.txt",
-      "sha256_texto": "7d6255fa67ccd1946719c15679bfb9376f5e052cf5312c2c702e229708287ee6",
-      "sha256_archivo": "f194c64d37474738328e43cfbf533b6a5652d1ca648dffdc1ef433ffa1442faf",
+      "sha256_texto": "2ea25832ff1da966d1073153c0e4413020fba651fa527e559190b2dcd2c3a7e6",
+      "sha256_archivo": "2658c470b53f68abb1c03868b58ce75f23e11a71a61d8519db365cea6e7b416b",
       "content_type": "text/html",
-      "descargado": "2026-09-23T21:46:49-03:00"
+      "descargado": "2026-11-10T09:55:07-03:00"
     },
     "decreto-1030-2016": {
       "titulo": "Decreto 1030/2016 - Reglamento del régimen de contrataciones de la Administración nacional (texto actualizado)",
@@ -2739,6 +2739,15 @@
       "sha256_archivo": "782b8d392b2e32dcefffe7708909d63b5172e95a9bc5d20cff88d1d92fe9217b",
       "content_type": "text/html",
       "descargado": "2026-11-09T20:29:10-03:00"
+    },
+    "ley-25191": {
+      "titulo": "Ley 25.191 - Trabajadores rurales: libreta y RENATRE (texto actualizado)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/61181/texact.htm",
+      "archivo": "ley-25191.txt",
+      "sha256_texto": "98ff03c7300e89f778050ac076c83d779cf32d847687205f90595e17ef59a9f6",
+      "sha256_archivo": "00ed673d63471eaeceb70e2c10f03e987d242919abdbbacfb4a087f2bd608fd8",
+      "content_type": "text/html",
+      "descargado": "2026-11-10T11:21:03-03:00"
     }
   }
 }

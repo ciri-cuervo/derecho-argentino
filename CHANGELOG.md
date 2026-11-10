@@ -14,6 +14,40 @@ un renglón por cambio. El detalle de cada uno vive donde se puede verificar:
 | La doctrina de cada precedente | El módulo que la usa; el índice, en `references/fallos-csjn.md` |
 | Si el texto de un fallo se puede transcribir | `herramientas/lecturas-ocr.json` |
 
+## [1.4.6] — 2026-11-10
+
+Las reformas llegan a donde hacen falta: cinco leyes leídas enteras contra cada módulo que las
+usa, el artículo que el consolidado todavía no trae se encuentra, y la prioridad de paso
+bonaerense se cotejó inciso por inciso.
+
+- **Prioridad de paso en PBA**: `transito.md` 28.1 compara el art. 28 quater de la Ley 13.927 con
+  el art. 41 de la Ley 24.449 inciso por inciso, y `civil.md` 6.5 deriva ahí; la escala del Anexo V
+  para los incisos nuevos queda con marcador.
+- **`articulo.py`** busca en las modificatorias el artículo que el consolidado no trae —o que la
+  norma, sin texto bajado, sólo tiene transcripto en su reforma—, avisa cuando el consolidado no
+  menciona una, compara dos artículos con `--comparar`, y ya no le suma al artículo el encabezado
+  del título o capítulo que sigue.
+- **Las derogaciones diferidas de la Ley 27.802 llegan a sus bloques**: viajantes
+  (`laboral-estatutos.md`) y teletrabajo (`laboral-licencias.md`) dejan de regir el 01/01/2027, y
+  los honorarios del perito nacional ya no siguen la cuantía (`honorarios-nacional.md` 37, art. 61
+  bis de la Ley 27.423).
+- **Riesgos del trabajo**: la jurisdicción adherida debe aplicar la Tabla del Decreto 659/96 por el
+  art. 4 bis de la Ley 27.348 (`laboral-riesgos.md` 5.8.3); la asignación por hijo con discapacidad
+  remite a la definición de la Convención (`previsional.md`).
+- **La emergencia sanitaria pediátrica** (Ley 27.796) se da por agotada el 22/10/2026 salvo prórroga,
+  que InfoLEG no registra (`salud-discapacidad.md` 27.2 ter).
+- **La prescripción de los tributos porteños** nombra la remisión del art. 2560 CCyCN a la Ley
+  11.683 (`tributario-caba.md` 57.3), y `penal.md` manda el Régimen Penal Tributario a donde está.
+- **`estado.py`** reporta los consolidados atrasados y los datos que salen de otra copia de la misma
+  versión.
+- **`vigencia.py`**: desde cuándo rige una norma, por los arts. 5 y 6 CCyCN o por su fecha propia.
+- **Una reforma con temas declarados** tiene que llegar a cada módulo que los use, y las cinco
+  reformas recientes los declaran: la Ley 27.826 llega a `civil.md`, `penal-leyes-especiales.md`
+  y `tributario-pba.md`, y la Ley 25.191 —sanciones del RENATRE, que la 27.826 reformó— entra al
+  catálogo con sus arts. 15 y 15 bis en `laboral-estatutos.md`.
+- **Debajo de Python 3.9 los scripts cortan** con un aviso en castellano, y el aviso de datos ajenos
+  sale una sola vez.
+
 ## [1.4.5] — 2026-11-09
 
 Ruteo en dos niveles, módulos partidos por materia y treinta evals corridos: cada consulta carga

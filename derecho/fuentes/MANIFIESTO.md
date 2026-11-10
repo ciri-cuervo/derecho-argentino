@@ -233,8 +233,8 @@ números y los compara contra lo que hay: si alguno deja de coincidir, los tests
 | Pieza | Estado |
 | --- | --- |
 | `ccyc-comentado/` | Completo, con índice de ruteo |
-| `normas/normas.json` | **298 entradas**, 294 con URL verificada |
-| `normas/*.txt` | **282 descargadas**; `procedencia.json` registra **295 textos con hash** |
+| `normas/normas.json` | **299 entradas**, 295 con URL verificada |
+| `normas/*.txt` | **283 descargadas**; `procedencia.json` registra **296 textos con hash** |
 | `jurisprudencia/fallos.json` | **101 fallos**, todos con URL |
 | `jurisprudencia/*.pdf` | **84 descargados**; los de JUBA vienen en `.html`, que es lo que ese sitio sirve |
 | `datos/jus-scba.csv` | **25 filas**, 01/01/2024 a 01/11/2026 — **toda la tabla oficial vigente**. Es la serie entera y no tiene huecos: la SCBA publica un período **sólo cuando el valor cambia**, así que los meses ausentes no faltan, heredan el valor anterior |
@@ -245,8 +245,8 @@ números y los compara contra lo que hay: si alguno deja de coincidir, los tests
 | `datos/serie-ripte.csv` | **Completa**: 386 períodos, 1994-07 a 2026-08. La API estatal dejó de servirla y el último mes sale de la página oficial, cotejada contra el archivo |
 | `datos/serie-cer.csv` | **Completa**: 119 períodos, 2016-12 a 2026-10 |
 
-Los tres números de `normas/` cuentan cosas distintas y no tienen por qué coincidir: **298** es lo
-que la skill espera encontrar, **295** es lo que tiene texto bajado con hash registrado, y **282**
+Los tres números de `normas/` cuentan cosas distintas y no tienen por qué coincidir: **299** es lo
+que la skill espera encontrar, **296** es lo que tiene texto bajado con hash registrado, y **283**
 son los `.txt` en disco, porque los **13** restantes son PDF.
 
 **Las entradas declaradas sin texto son estructurales, y están todas acá.** La **Ley 13.478** es
@@ -256,6 +256,13 @@ de 1948 y ninguna base oficial publica normas de esa época. Las **Leyes 15.386 
 a devolver la misma página para las dos leyes, byte a byte. Están en el catálogo para que se vea
 que faltan, y `estado.py` las reporta como `faltan`. La nota de cada una dice qué se probó y
 cuándo.
+
+**Una modificatoria declara qué modifica.** En `normas.json`, la norma que llega después lleva
+`modifica` con los slugs de las que cambia. Con eso `articulo.py` busca en ella el artículo que
+el consolidado todavía no trae, y `estado.py` reporta en el bloque `consolidados` cada texto que
+no menciona a una modificatoria declarada: es la señal de volver a bajarlo. Mencionar no es
+incorporar, así que la medida atrapa el atraso evidente y nada más. Si además lleva `temas`, cada
+módulo que los use tiene que nombrarla: ver `scripts/_modificatorias.py` y el test que lo exige.
 
 **Sin URL no es lo mismo que sin texto.** `cn-tratados-ddhh` no tiene URL y **sí tiene texto** —es uno de
 los PDF que cuenta el párrafo anterior, aportado por el usuario— y lo que le falta es una fuente oficial que lo sirva, así

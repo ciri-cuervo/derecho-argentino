@@ -127,10 +127,12 @@ sanitaria de la salud pediátrica y de las residencias nacionales en salud **por
 año**, y el art. 11 la pone en vigencia al día siguiente de la publicación en el B.O., que fue el
 **21/10/2025**. Articulado cotejado contra `fuentes/normas/ley-27796.txt`.
 
-> **Antes de invocarla, mirar el calendario.** Un plazo de un año contado desde su vigencia la
-> deja **agotada alrededor del 22/10/2026**, salvo prórroga. Una emergencia vencida no fundamenta
-> nada, y es el error más fácil de cometer con este tipo de norma: se cita por su contenido y no
-> por su plazo.
+> **Antes de invocarla, mirar el calendario.** El año se cuenta de fecha a fecha (art. 6 CCyCN)
+> desde su vigencia, así que **se agotó el 22/10/2026** (`plazos.py --tipo anios`), salvo
+> prórroga. Al 10/11/2026 InfoLEG no registra ninguna: la ficha de la ley sólo vincula el Decreto
+> 760/2025, que la promulga, y la Resolución 542/2026 del Ministerio de Salud, reglamento de
+> residencias. Una emergencia vencida no fundamenta nada, y es el error más fácil de cometer con
+> este tipo de norma: se cita por su contenido y no por su plazo.
 
 **Nació por insistencia, y eso importa.** Fue **observada en su totalidad** por el Poder
 Ejecutivo, y las dos cámaras confirmaron su sanción anterior **con dos tercios de los votos**, de
@@ -160,7 +162,7 @@ sanitarias. La autoridad de aplicación es el **Ministerio de Salud** (art. 6).
 informes trimestrales públicos** sobre el cumplimiento de la ley. Un informe que constata
 incumplimiento es prueba documental de acceso público.
 
-`[VERIFICAR VIGENCIA: plazo de la emergencia de la Ley 27.796 - se declaró por un año desde el 22/10/2025 y no se da por vigente sin confirmar prórroga. Tampoco está cargada su reglamentación del Ministerio de Salud]`
+`[VERIFICAR VIGENCIA: plazo de la emergencia de la Ley 27.796 - se declaró por un año desde el 22/10/2025, se agotó el 22/10/2026 y InfoLEG no registraba prórroga al 10/11/2026; no se da por vigente sin confirmarla. Tampoco está cargada su reglamentación del Ministerio de Salud]`
 
 `[VERIFICAR CRITERIO DEL FUERO: amparo de salud pediátrica - si los arts. 8 y 9 de la Ley 27.796 se leen como fuente de una obligación exigible o sólo como pauta de asignación presupuestaria. No hay precedente bajado sobre esta ley]`
 
@@ -388,7 +390,8 @@ cadena y aparecen en casos reales:
 
 ---
 
-> **Lo que este módulo no cubre:** el contenido concreto del PMO y sus resoluciones, el régimen de
-> pensiones no contributivas por invalidez, el sistema de apoyos y el régimen de capacidad
+> **Lo que este módulo no cubre:** el contenido concreto del PMO y sus resoluciones, la **Pensión
+> no Contributiva por Discapacidad para Protección Social** —arts. 5 y 6 de la Ley 27.793, que
+> reescribió el art. 9 de la Ley 13.478; `articulo.py ley-13478 9` manda al texto—, el sistema de apoyos y el régimen de capacidad
 > jurídica del CCyCN, y el cupo laboral. Para eso rige el ruteo de `perfiles-heredados.md` sección 19,
 > **con su advertencia**.

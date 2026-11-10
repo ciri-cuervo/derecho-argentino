@@ -1111,5 +1111,141 @@ class TestVeredictosDeRevisionSiguenVivos(unittest.TestCase):
                          + "\n  ".join(huerfanos))
 
 
+
+class TestModificatorias(unittest.TestCase):
+    """Una modificatoria declarada en `normas.json` lleva al artículo que el consolidado todavía
+    no trae, y el consolidado que no la menciona se reporta.
+
+    Lo motivó un caso: el art. 28 quater de la Ley 13.927 lo incorporó la Ley 15.657, el
+    consolidado bajado no lo traía, y `articulo.py` contestaba «no se encontró» sin decir dónde
+    estaba.
+
+    MUTACIÓN que lo comprueba: sacar la llamada a `_buscar_en_modificatorias()` de `articulo.py`
+    deja en rojo `test_el_articulo_que_falta_manda_a_la_modificatoria`; hacer que `menciona()`
+    devuelva siempre True, `test_el_consolidado_que_no_la_menciona_se_avisa` y
+    `test_estado_reporta_el_consolidado_atrasado`.
+    """
+
+    BASE = ("Ley 111.111 - Base de prueba (texto actualizado)\n"
+            "Fuente:           https://example.invalid/base\n"
+            "Descargado:       2026-09-01\n"
+            "SHA-256 (crudo):  " + "0" * 64 + "\n\n"
+            "ARTICULO 1° — Uno de la base.\n\nARTICULO 2° — Dos de la base.\n")
+    MODIFICATORIA = ("Ley 222.222 - Reforma de prueba\n"
+                     "Fuente:           https://example.invalid/reforma\n"
+                     "Descargado:       2026-11-01\n"
+                     "SHA-256 (crudo):  " + "1" * 64 + "\n\n"
+                     "ARTÍCULO 1°.- Incorpórase el artículo 1 bis a la Ley 111.111, el que "
+                     "quedará redactado de la siguiente manera:\n\n“TÍTULO NUEVO\n\n"
+                     "ARTÍCULO 1 bis: Texto incorporado.”\n\nARTÍCULO 2°.- Comuníquese.\n")
+
+    def setUp(self):
+        self.tmp = Path(tempfile.mkdtemp())
+        self.addCleanup(shutil.rmtree, self.tmp, True)
+        self.normas = self.tmp / "derecho" / "fuentes" / "normas"
+        self.normas.mkdir(parents=True)
+        (self.tmp / "derecho" / "fuentes" / "datos").mkdir()
+        (self.tmp / "derecho" / "fuentes" / "MANIFIESTO.md").write_text("marca\n",
+                                                                        encoding="utf-8")
+        (self.normas / "normas.json").write_text(json.dumps({"normas": [
+            {"slug": "ley-111111", "titulo": "Ley 111.111 - Base de prueba"},
+            {"slug": "ley-222222", "titulo": "Ley 222.222 - Reforma de prueba",
+             "modifica": ["ley-111111"]}]}), encoding="utf-8")
+        (self.normas / "ley-111111.txt").write_text(self.BASE, encoding="utf-8")
+        (self.normas / "ley-222222.txt").write_text(self.MODIFICATORIA, encoding="utf-8")
+
+    def _articulo(self, *args):
+        import subprocess
+        return subprocess.run([sys.executable, str(Path(__file__).parent / "articulo.py"), *args,
+                               "--repo", str(self.tmp)], capture_output=True, text=True)
+
+    def test_mencionar_se_mide_con_la_clase_y_el_numero(self):
+        import _modificatorias as m
+        titulo = "Ley 15.657 PBA - Prioridad de paso"
+        self.assertTrue(m.menciona("(Texto según Ley 15.657)", titulo))
+        self.assertTrue(m.menciona("Leyes 14.879, 15.613 y 15657", titulo))
+        self.assertFalse(m.menciona("art. 15.657 de nada", titulo), "sin la clase no cuenta")
+        self.assertFalse(m.menciona("Ley 115.657", titulo))
+        self.assertIsNone(m.menciona("Res. 7", "Res. SRT 7/2026 - Montos"),
+                          "con menos de tres cifras no se mide")
+
+    def test_el_articulo_que_falta_manda_a_la_modificatoria(self):
+        r = self._articulo("ley-111111", "1 bis")
+        self.assertEqual(r.returncode, 2, r.stdout + r.stderr)
+        self.assertIn('Lo trae Ley 222.222, que modifica esta norma: python3 articulo.py '
+                      'ley-222222 "1 bis"', r.stdout)
+
+    def test_sin_texto_propio_manda_al_articulo_que_lo_transcribe(self):
+        """La Ley 13.478 no tiene texto oficial descargable, y su art. 9 vigente lo transcribe el
+        art. 5 de la Ley 27.793. El número no alcanza para encontrarlo: la misma modificatoria
+        tiene su propio art. 9, y otro artículo suyo transcribe el art. 9 de una tercera ley.
+
+        MUTACIÓN que lo comprueba: quitar el `menciona()` de `transcriben` agrega la pista falsa
+        del art. 3; buscar por `k in propios` en vez de por transcripción manda al art. 2 propio.
+        """
+        catalogo = json.loads((self.normas / "normas.json").read_text(encoding="utf-8"))
+        catalogo["normas"] += [
+            {"slug": "ley-333333", "titulo": "Ley 333.333 - Sin texto bajado"},
+            {"slug": "ley-444444", "titulo": "Ley 444.444 - Reforma que transcribe",
+             "modifica": ["ley-333333"]}]
+        (self.normas / "normas.json").write_text(json.dumps(catalogo), encoding="utf-8")
+        (self.normas / "ley-444444.txt").write_text(
+            "Ley 444.444 - Reforma que transcribe\n\n"
+            "Artículo 1°- Modifíquese el artículo 2º de la ley 333.333, el que quedará redactado "
+            "de la siguiente forma:\n\nArtículo 2º: Texto vigente del dos.\n\n"
+            "Artículo 2°- Artículo propio de la reforma.\n\n"
+            "Artículo 3°- Modifíquese el artículo 2º de la ley 555.555, el que quedará redactado "
+            "de la siguiente forma:\n\nArtículo 2º: Otra ley.\n", encoding="utf-8")
+        r = self._articulo("ley-333333", "2")
+        self.assertEqual(r.returncode, 2, r.stdout + r.stderr)
+        self.assertIn('Lo transcribe el art. 1 de Ley 444.444, que modifica esta norma: '
+                      'python3 articulo.py ley-444444 "1"', r.stdout)
+        self.assertNotIn('ley-444444 "2"', r.stdout)
+        self.assertNotIn('ley-444444 "3"', r.stdout)
+
+    def test_el_consolidado_que_no_la_menciona_se_avisa(self):
+        r = self._articulo("ley-111111", "2")
+        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+        self.assertIn("OJO: Ley 222.222 (ley-222222) modifica esta norma", r.stdout)
+        (self.normas / "ley-111111.txt").write_text(
+            self.BASE + "\n(Texto según Ley 222.222)\n", encoding="utf-8")
+        self.assertNotIn("OJO", self._articulo("ley-111111", "2").stdout)
+
+    def test_estado_reporta_el_consolidado_atrasado(self):
+        import _modificatorias as m
+        self.assertEqual([(b["slug"], x["slug"]) for b, x in m.atrasados(self.normas)],
+                         [("ley-111111", "ley-222222")])
+
+    def test_un_texto_original_no_se_reporta_como_atrasado(self):
+        """`norma.htm` de InfoLEG es el texto como se publicó: no va a mencionar nunca a su
+        modificatoria, y reportarlo es una alarma que suena siempre. Pasó al encender el control:
+        tres de los seis atrasados eran originales y volver a bajarlos no cambió nada.
+
+        MUTACIÓN que lo comprueba: sacar `es_original()` de `atrasados()` deja este test en rojo.
+        """
+        import _modificatorias as m
+        catalogo = json.loads((self.normas / "normas.json").read_text(encoding="utf-8"))
+        catalogo["normas"][0]["url"] = ("https://servicios.infoleg.gob.ar/infolegInternet/"
+                                        "anexos/1-1/1/norma.htm")
+        (self.normas / "normas.json").write_text(json.dumps(catalogo), encoding="utf-8")
+        self.assertEqual(m.atrasados(self.normas), [])
+        r = self._articulo("ley-111111", "2")
+        self.assertIn("OJO: éste es el texto original y Ley 222.222", r.stdout,
+                      "el que lee el original igual tiene que saber que lo modificaron")
+
+    def test_lo_declarado_en_el_catalogo_existe(self):
+        """Una modificatoria que apunta a un slug que no existe no avisa nada, en silencio."""
+        normas = json.loads((RAIZ_DEL_CHECKOUT / "derecho" / "fuentes" / "normas" / "normas.json")
+                            .read_text(encoding="utf-8"))["normas"]
+        slugs = {n["slug"] for n in normas}
+        declaradas = [n for n in normas if "modifica" in n]
+        self.assertGreater(len(declaradas), 5, "no hay modificatorias declaradas: control apagado")
+        for n in declaradas:
+            with self.subTest(n["slug"]):
+                self.assertIsInstance(n["modifica"], list)
+                self.assertTrue(n["modifica"], "una lista vacía no declara nada")
+                self.assertEqual(sorted(set(n["modifica"]) - slugs), [])
+                self.assertNotIn(n["slug"], n["modifica"])
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

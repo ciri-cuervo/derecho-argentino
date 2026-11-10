@@ -32,9 +32,17 @@ from __future__ import annotations
 import argparse
 import calendar
 import json
+import sys
 from dataclasses import dataclass, field
 from datetime import date
 from decimal import Decimal, ROUND_HALF_UP
+from pathlib import Path
+
+# Cargado por ruta desde otro árbol -las suites de herramientas/ lo hacen-, el directorio del
+# script no está en sys.path y `_piso` no se encontraría.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+import _piso  # noqa: F401 - el piso de Python, que corta al importarse
 
 # --- Tramos de reforma. Ver references/laboral.md, 5.1 ---------------------------------
 TRAMOS = [

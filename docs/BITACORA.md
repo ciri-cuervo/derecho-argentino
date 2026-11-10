@@ -9,6 +9,7 @@ el estado vigente está en el archivo que lo explica, y acá queda cómo se lleg
 
 | Fecha | Entrada |
 | --- | --- |
+| 10/11/2026 | [Las reformas que el consolidado no trae y los módulos que no se enteran](#10112026---las-reformas-que-el-consolidado-no-trae-y-los-módulos-que-no-se-enteran) |
 | 09/11/2026 | [Cuatro módulos partidos, treinta evals corridos y las rutas que no se encontraban](#09112026---cuatro-módulos-partidos-treinta-evals-corridos-y-las-rutas-que-no-se-encontraban) |
 | 01/11/2026 | [Las series que las calculadoras usaban atrasadas, y el RIPTE desde la página oficial](#01112026---las-series-que-las-calculadoras-usaban-atrasadas-y-el-ripte-desde-la-página-oficial) |
 | 01/11/2026 | [Seis evals corridos por primera vez, y lo que reprobaban sin razón](#01112026---seis-evals-corridos-por-primera-vez-y-lo-que-reprobaban-sin-razón) |
@@ -23,6 +24,99 @@ el estado vigente está en el archivo que lo explica, y acá queda cómo se lleg
 | 18/09/2026 | [Medicina legal no era un módulo: eran cinco huecos](#18092026---medicina-legal-no-era-un-módulo-eran-cinco-huecos) |
 | 18/09/2026 | [Laboral se parte dos veces: riesgos del trabajo y licencias](#18092026---laboral-se-parte-dos-veces-riesgos-del-trabajo-y-licencias) |
 | 18/09/2026 | [El reparto de OCR y las tres fechas salen de la skill](#18092026---el-reparto-de-ocr-y-las-tres-fechas-salen-de-la-skill) |
+
+---
+
+## 10/11/2026 - Las reformas que el consolidado no trae y los módulos que no se enteran
+
+El cotejo de la Ley 15.657 —`AUDITORIAS.md`, misma fecha— dejó cinco defectos de herramienta,
+y cada uno tiene ahora su control:
+
+- **`articulo.py` contestaba «no se encontró» para un artículo que el repositorio tenía en otro
+  archivo.** `normas.json` declara en cada modificatoria qué norma modifica (`modifica`), y
+  `_modificatorias.py` lo lee: si el artículo no está en el consolidado, se busca en sus
+  modificatorias y se dice dónde está; si está pero el consolidado no menciona una modificatoria
+  declarada, sale un `OJO`. `estado.py` suma el bloque `consolidados` con la misma medida. Al
+  encenderla aparecieron seis textos atrasados, no uno. Vueltos a bajar, tres se pusieron al día
+  —la 13.927, la 11.683 y el Decreto 1397/79— y tres no se movieron: la 27.799 y los Decretos
+  93/2026 y 408/2026 se bajan de `norma.htm`, que es el texto como se publicó y no se actualiza
+  nunca. Reportarlos era una alarma que suena siempre, así que `atrasados()` deja afuera los
+  originales; `articulo.py` igual avisa al leerlos. Se declararon catorce modificatorias, todas
+  leídas en una `nota` del catálogo o en `REVALIDAR.md`.
+- **Una reforma se registraba en un módulo y los demás seguían con la regla vieja.**
+  `TestUnaReformaLlegaATodosLosModulos`: la modificatoria declara sus `temas` y todo módulo que
+  los use la nombra o dice por qué no, y una reforma de «Cambios recientes» no entra sin temas.
+  Las cinco los declaran. Con los suyos, la 27.826 mostró tres módulos —`civil.md`,
+  `penal-leyes-especiales.md` y `tributario-pba.md`— que usaban *discrepancia significativa* sin
+  nombrarla, y ahora la nombran. Leerla entera para escribir sus temas mostró además que sustituye
+  el art. 15 de la Ley 25.191, las sanciones del RENATRE. La 25.191 entró al catálogo y se bajó,
+  y `laboral-estatutos.md` 5.17 quater recorre sus arts. 15 y 15 bis.
+- **La comparación entre dos artículos se hacía a ojo.** `articulo.py --comparar` los alinea por
+  la letra del inciso y lo advierte. Se probó alinear por contenido, con una medida de palabras en
+  común: sobre el 41 contra el 28 quater se equivocó en cuatro de diez incisos, y en los que
+  importaban —dejó sin par el g) 3, antecedente del h) y del i)—. Se descartó.
+- **La vigencia de la Ley 15.657 quedó abierta cuando se podía calcular.** `vigencia.py` aplica
+  los arts. 5 y 6 CCyCN, leídos de `fuentes/` —del 6, las dos oraciones que hacen la cuenta—, o
+  la fecha propia de la norma.
+- **El corte de artículos arrastraba el encabezado de la división siguiente**: el 28 quater del
+  consolidado terminaba en «TÍTULO X BASES PARA EL PROCEDIMIENTO», y `--comparar` lo mostraba como
+  un párrafo más. Medido sobre `fuentes/`, pasaba en 3.791 de 29.648 artículos. La regla tiene
+  tres condiciones y cada una salió de un caso que se equivocaba sin ella: la palabra en minúscula
+  es prosa; un «Capítulo 2 de este Titulo.» pegado al renglón anterior es una oración partida
+  (art. 566 CCyCN); y un encabezado después de dos puntos es lo que el artículo transcribe (art.
+  279 de la Ley 27.430, que aprueba el Régimen Penal Tributario).
+
+**Y la misma medida, corrida sobre todo el catálogo, encontró dos bloques que explicaban como
+vigente una ley que la 27.802 deroga.** La pregunta fue qué módulos citan una norma reformada sin
+nombrar la reforma. Leída entera, la 27.802 toca bastante más que la LCT, la 18.345 y la 27.348
+que declaraba. Deroga desde el 01/01/2027 la Ley 14.546 de viajantes y la 27.555 de teletrabajo,
+y `laboral-estatutos.md` y `laboral-licencias.md` las explicaban sin decirlo. Además desvincula los
+honorarios del perito nacional de la cuantía (art. 61 bis de la 27.423), y `honorarios-nacional.md`
+le seguía aplicando el 5% a 10% del art. 21. **El test no lo veía, y no por un error: mide por
+módulo.** Los dos módulos laborales nombran la 27.802 en otras secciones, así que una reforma que
+llega al módulo y no al bloque da verde. Para una ley ómnibus el control es un piso más bajo que
+para una reforma puntual, y lo que lo cubre es leer la ley entera al declararla. El `modifica` de
+la 27.802 suma doce normas del catálogo. La 14.546 queda en la `nota` y no en `modifica`: InfoLEG
+no anota una derogación diferida, y `estado.py` la reportaría atrasada hasta 2027.
+
+**La 27.799 dio dos más.** `tributario-caba.md` 57.3 explicaba la prescripción del Código Fiscal
+porteño sin la remisión del art. 2560 CCyCN a la Ley 11.683, que `tributario-pba.md` sí nombra:
+ahora la nombra con la misma reserva. Y `penal.md` 24.11 daba por ausentes de `fuentes/` los
+umbrales del Régimen Penal Tributario, que están bajados y desarrollados en
+`penal-leyes-especiales.md` 24.9.5. **`deuda_vencida.py` lo había detectado, y el reclamo estaba
+aceptado en la línea de base desde la 1.2.0**, en contra de su propio criterio: si la norma se
+bajó, se corrige el renglón y no se acepta. Corregido el renglón, la entrada se purgó.
+
+**Y la 27.793 mostró un caso que la herramienta no resolvía.** La Ley 13.478 no tiene texto oficial
+descargable, y su art. 9 vigente —la pensión no contributiva— lo transcribe entero el art. 5 de la
+27.793, que está bajada. `articulo.py ley-13478 9` cortaba en «No existe». Ahora busca la
+transcripción, y el número no alcanzaba: la 27.793 tiene su propio art. 9, y su art. 15 transcribe
+otro «Artículo 9º», el de la 24.901. La pista sale sólo del artículo que nombra a la norma pedida
+antes de transcribir. `previsional.md` 32.4 quater remitía al art. 2 de la 22.431 sin decir que
+la 27.793 cambió su definición, y ahora lo dice.
+
+**Y la 27.348 cerró la tabla.** El art. 4 bis que le incorporó la 27.802 obliga a la jurisdicción
+adherida a la *"estricta aplicación"* de la Tabla del Decreto 659/96 y a constituir cuerpos médicos
+forenses en noventa días. `laboral-riesgos.md` 5.8.3 trataba el baremo sin decirlo, y ahora lo
+dice, con el plazo calculado por `plazos.py` y la duda sobre a quién obliga en un marcador.
+
+**El control por sección se midió y se descartó.** Llevar `TestUnaReformaLlegaATodosLosModulos`
+de módulo a sección, a bloque temático y a párrafo dio 14, 34 y 44 candidatos. Ninguno separa el
+caso que lo motivó: por sección, el marcador de cierre de 5.17 sexies nombra la 27.802 y tapa el
+bloque de viajantes; por bloque y por párrafo, ese bloque sale marcado también después de
+corregido, porque la derogación va en el aviso de abajo. Una medida que no distingue el caso
+conocido no se calibra. La regla quedó en `DESARROLLO.md`.
+
+**Y la relectura de la línea de base de deuda no encontró otro error como el de `penal.md`.** Las
+44 aceptaciones que nombran una sola norma reclaman otra cosa: reglamentación, adhesiones,
+fallos citados a través de otro o decretos sin bajar. Sí dejó un vencimiento a la vista: la
+emergencia pediátrica de la Ley 27.796 se agotó el 22/10/2026, e InfoLEG no registra prórroga;
+`salud-discapacidad.md` 27.2 ter lo dice con la fecha calculada.
+
+Y tres de la verificación anterior: `_piso.py` corta con código 2 debajo de Python 3.9 —antes
+corría en 3.8 sin medida detrás, y la regla del `SKILL.md` no tenía señal que leer—; `estado.py`
+compara la carpeta de los datos además de la versión, como ya hacían las calculadoras; y el aviso
+de datos ajenos sale una vez por corrida.
 
 ---
 

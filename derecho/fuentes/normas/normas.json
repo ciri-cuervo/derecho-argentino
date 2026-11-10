@@ -580,7 +580,14 @@
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/430000-434999/431528/norma.htm",
       "prioridad": 2,
-      "nota": "B.O. 23/10/2026, id InfoLEG 431528. Sustituye la reglamentación del régimen simplificado de Ganancias que había aprobado el Decreto 93/2026: tributario.md 33.1 bis."
+      "nota": "B.O. 23/10/2026, id InfoLEG 431528. Sustituye la reglamentación del régimen simplificado de Ganancias que había aprobado el Decreto 93/2026: tributario.md 33.1 bis.",
+      "modifica": [
+        "decreto-93-2026",
+        "decreto-1397"
+      ],
+      "temas": [
+        "simplificado de Ganancias"
+      ]
     },
     {
       "slug": "decreto-941-2025",
@@ -589,7 +596,10 @@
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/420000-424999/422011/norma.htm",
       "prioridad": 2,
       "nota": "Dictado el 31/12/2025, B.O. 02/01/2026, id InfoLEG 422011.",
-      "url_alternativa": "https://www.boletinoficial.gob.ar/detalleAviso/primera/337032/20260102"
+      "url_alternativa": "https://www.boletinoficial.gob.ar/detalleAviso/primera/337032/20260102",
+      "modifica": [
+        "ley-25520"
+      ]
     },
     {
       "slug": "decreto-ley-5965-1963",
@@ -643,7 +653,7 @@
       "jurisdiccion": "nacional",
       "url": null,
       "prioridad": 1,
-      "nota": "SIN URL OFICIAL, y no por falta de búsqueda: es de 1948 e InfoLEG no publica normas de esa época. Buscada el 14/09/2026 en InfoLEG, argentina.gob.ar y SAIJ; solo aparecen fuentes secundarias y la Ley 18.910 -id InfoLEG 158845-, que la modifica y sí está publicada. Su art. 9 se cita en fallos-csjn.md 34.6: cotejar contra el Boletín Oficial de 1948 o contra el texto transcripto en el propio fallo, no contra una fuente secundaria."
+      "nota": "SIN URL OFICIAL, y no por falta de búsqueda: es de 1948 e InfoLEG no publica normas de esa época. Buscada el 14/09/2026 en InfoLEG, argentina.gob.ar y SAIJ; solo aparecen fuentes secundarias y la Ley 18.910 -id InfoLEG 158845-, que la modifica y sí está publicada. Su art. 9 se cita en fallos-csjn.md 34.6: cotejar contra el Boletín Oficial de 1948 o contra el texto transcripto en el propio fallo, no contra una fuente secundaria. El art. 9 vigente lo transcribe entero el art. 5 de la Ley 27.793, que está bajada: articulo.py ley-13478 9 manda ahí."
     },
     {
       "slug": "ley-14250",
@@ -1138,7 +1148,10 @@
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/115000-119999/115424/norma.htm",
       "prioridad": 2,
-      "nota": "Modifica la Ley 24.522, que está bajada consolidada. Se declara aparte porque concursos.md la cita con articulado propio."
+      "nota": "Modifica la Ley 24.522, que está bajada consolidada. Se declara aparte porque concursos.md la cita con articulado propio.",
+      "modifica": [
+        "ley-24522"
+      ]
     },
     {
       "slug": "ley-26122",
@@ -1334,13 +1347,31 @@
       "nota": "Cruza administrativo-nacional.md 46 y datos-personales.md 30: la misma Agencia es autoridad de aplicación de las dos materias"
     },
     {
+      "slug": "ley-25191",
+      "titulo": "Ley 25.191 - Trabajadores rurales: libreta y RENATRE (texto actualizado)",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/61181/texact.htm",
+      "prioridad": 2,
+      "nota": "B.O. 30/11/1999, id InfoLEG 61181. Los arts. 15 y 15 bis, las sanciones por no inscribirse en el RENATRE, son texto de los arts. 14 y 15 de la Ley 27.826: laboral-estatutos.md 5.17 quater."
+    },
+    {
       "slug": "ley-27348",
       "titulo": "Ley 27.348 - Comisiones médicas",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/270000-274999/272119/texact.htm",
       "nota": "Texto actualizado; incorpora el art. 4 bis agregado por art. 154 de la Ley 27.802. Su art. 11 sustituyó el art. 12 LRT: el texto vigente de ese artículo se lee en el texact de la 24.557.",
       "url_alternativa": "https://www.argentina.gob.ar/normativa/nacional/ley-27348-272119/actualizacion",
-      "prioridad": 2
+      "prioridad": 2,
+      "modifica": [
+        "ley-24557"
+      ],
+      "temas": [
+        "comisión médica",
+        "comisiones médicas"
+      ],
+      "temas_no_aplica": {
+        "previsional.md": "la comisión médica que nombra es la del retiro por invalidez de los arts. 48 y 49 de la Ley 24.241, otro sistema, que la Ley 27.348 no toca."
+      }
     },
     {
       "slug": "ley-27372",
@@ -1429,7 +1460,11 @@
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/400000-404999/401266/norma.htm",
       "url_alternativa": "https://www.argentina.gob.ar/normativa/nacional/ley-27742-401266/texto",
       "nota": "verNorma.do devolvía la ficha, no el texto. No existe texact.htm: es ley modificatoria y InfoLEG publica solo el texto original.",
-      "prioridad": 1
+      "prioridad": 1,
+      "modifica": [
+        "lct-20744",
+        "ley-24013"
+      ]
     },
     {
       "slug": "ley-27786",
@@ -1447,7 +1482,23 @@
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/415000-419999/417788/norma.htm",
       "prioridad": 2,
       "nota": "B.O. 22/09/2025. No tiene texto actualizado: la ficha sólo ofrece norma.htm. Sus arts. 10 y 11 modifican los arts. 2 y 3 de la Ley 22.431; el 14 incorpora el art. 7 bis y el 15 sustituye el art. 9 de la Ley 24.901. OJO: la ficha de InfoLEG registra sanción el 04/09/2025 y el cuerpo del texto cierra el 10/07/2025; esa discrepancia NO está verificada.",
-      "url_alternativa": "https://www.boletinoficial.gob.ar/detalleAviso/primera/331706/20250922"
+      "url_alternativa": "https://www.boletinoficial.gob.ar/detalleAviso/primera/331706/20250922",
+      "modifica": [
+        "ley-22431",
+        "ley-24901",
+        "ley-24013",
+        "ley-13478"
+      ],
+      "temas": [
+        "22.431",
+        "24.901",
+        "pensiones no contributivas"
+      ],
+      "temas_no_aplica": {
+        "consumidor.md": "nombra la Ley 24.901 para mandar la cobertura por discapacidad a salud-discapacidad.md, que trae la reforma.",
+        "fallos-csjn.md": "cita la Ley 24.901 dentro del holding de un fallo de la CSJN, que se transcribe como lo dijo el tribunal.",
+        "danos-indice-doctrinario.md": "es el índice de una obra de 2015: nombra la Ley 22.431 en su lista de normas, y no explica la regla."
+      }
     },
     {
       "slug": "ley-27796",
@@ -1473,7 +1524,21 @@
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/420000-424999/422008/norma.htm",
       "prioridad": 1,
       "nota": "B.O. 02/01/2026, id InfoLEG 422008, promulgada por Decreto 933/2025. Modifica los umbrales del Título IX de la Ley 27.430 y el régimen de prescripción. VERIFICAR contra el texto bajado qué artículos sustituye y si los montos se actualizan por UVA.",
-      "url_alternativa": "https://www.boletinoficial.gob.ar/detalleAviso/primera/337029/20260102"
+      "url_alternativa": "https://www.boletinoficial.gob.ar/detalleAviso/primera/337029/20260102",
+      "modifica": [
+        "ley-27430",
+        "ley-11683",
+        "ccycn-26994"
+      ],
+      "temas": [
+        "Régimen Penal Tributario",
+        "2560"
+      ],
+      "temas_no_aplica": {
+        "consumidor.md": "usa el plazo genérico de cinco años del art. 2560, que el texto de la Ley 27.799 conserva: lo que agregó es la remisión de los tributos locales a la Ley 11.683, que este módulo no trata. Ver civil.md 6.3.",
+        "danos-indice-doctrinario.md": "usa el plazo genérico de cinco años del art. 2560, que el texto de la Ley 27.799 conserva: lo que agregó es la remisión de los tributos locales a la Ley 11.683, que este módulo no trata. Ver civil.md 6.3.",
+        "plazos.md": "usa el plazo genérico de cinco años del art. 2560, que el texto de la Ley 27.799 conserva: lo que agregó es la remisión de los tributos locales a la Ley 11.683, que este módulo no trata. Ver civil.md 6.3."
+      }
     },
     {
       "slug": "ley-27801",
@@ -1489,7 +1554,31 @@
       "titulo": "Ley 27.802 - Modernización Laboral",
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/420000-424999/423680/norma.htm",
-      "prioridad": 1
+      "prioridad": 1,
+      "modifica": [
+        "lct-20744",
+        "ley-18345",
+        "ley-27348",
+        "ley-27423",
+        "ley-27555",
+        "ley-26727",
+        "ley-26844",
+        "ley-24660",
+        "ley-14250",
+        "ley-23551",
+        "ley-23546",
+        "ley-24013",
+        "ley-11544",
+        "ley-23660",
+        "ley-11672"
+      ],
+      "temas": [
+        "auxiliares de la Justicia",
+        "teletrabajo",
+        "viajantes de comercio",
+        "Tabla de Evaluación de Incapacidades"
+      ],
+      "nota": "Leída entera el 10/11/2026 para declarar `modifica`: además de la LCT, la 18.345 y la 27.348, toca las normas de esa lista. La Ley 14.546, que deroga desde el 01/01/2027 (art. 198), no va en `modifica` porque su consolidado de InfoLEG, vuelto a bajar el 10/11/2026, no anota la derogación diferida y la medida de `estado.py` sonaría hasta entonces: lo dice `laboral-estatutos.md`. Fuera del catálogo quedan las Leyes 24.467, 12.713, 25.877, 12.908, 12.867, 23.947, 23.472, 23.759, 24.493 y 20.657, y los Decretos-Ley 13.839/46 y 14.954/46."
     },
     {
       "slug": "lnpa-19549",
@@ -1755,7 +1844,10 @@
       "url": null,
       "prioridad": 3,
       "nota": "Sancionada el 13/07/2026, registrada el 30/07/2026. Da texto a los arts. 2 y 3 de la Ley 15.386; el consolidado de aquélla ya los trae, así que se lee ahí. SAIJ la publica y la sirve CONSOLIDADA, pero **sólo a un navegador**: probado el 18/09/2026, esa misma URL devuelve a cualquier cliente HTTP una cáscara de 66.105 bytes —la misma para cualquier ley, byte a byte—. Por eso queda sin URL de descarga: el texto no puede entrar a fuentes/ con encabezado, hash y fecha, que es la única forma en que este repositorio incorpora una norma. Se lee en el navegador y se cita con su fecha de lectura. También se probaron el buscador de la Cámara de Diputados de PBA, el PDF del IPS -no responde-, su refleg -404- y argentina.gob.ar -ficha con la sección Norma vacía-.",
-      "url_alternativa": "https://www.saij.gob.ar/15386-local-buenos-aires-establecen-regimen-previsional-especial-para-suboficiales-oficiales-combatientes-fuerzas-armadas-seguridad-lpb0015386-2022-10-27/123456789-0abc-defg-683-5100bvorpyel"
+      "url_alternativa": "https://www.saij.gob.ar/15386-local-buenos-aires-establecen-regimen-previsional-especial-para-suboficiales-oficiales-combatientes-fuerzas-armadas-seguridad-lpb0015386-2022-10-27/123456789-0abc-defg-683-5100bvorpyel",
+      "modifica": [
+        "pba-ley-15386"
+      ]
     },
     {
       "slug": "pba-ley-5827",
@@ -2038,7 +2130,10 @@
       "titulo": "Decreto de Necesidad y Urgencia 366/2025 - reforma de la Ley de Migraciones 25.871",
       "nota": "B.O. 29/05/2025, vigencia desde la publicación. Sustituye treinta y un artículos de la Ley 25.871 -entre ellos los arts. 8, 29, 61, 62, 70 y 86- y deroga otros tres. Es un DNU que reforma una ley del Congreso: su trámite ante la Comisión Bicameral del art. 99 inc. 3 CN no está verificado en este repositorio.",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/410000-414999/413297/norma.htm",
-      "url_alternativa": "https://www.argentina.gob.ar/normativa/nacional/decreto-366-2025-413297"
+      "url_alternativa": "https://www.argentina.gob.ar/normativa/nacional/decreto-366-2025-413297",
+      "modifica": [
+        "ley-25871"
+      ]
     },
     {
       "jurisdiccion": "pba",
@@ -2326,7 +2421,13 @@
       "jurisdiccion": "nacional",
       "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/349294/20261020",
       "prioridad": 2,
-      "nota": "B.O. 20/10/2026. Corre al 01/12/2026 la vigencia del Título II de la Ley 27.802 y lleva la carencia a doce períodos mensuales consecutivos. VERIFICAR contra el texto bajado qué artículos del Decreto 408/2026 sustituye."
+      "nota": "B.O. 20/10/2026. Leído contra el texto bajado el 10/11/2026: sustituye los arts. 15 —carencia de doce períodos mensuales— y 27 —el Fondo de Asistencia Laboral de la Ley 27.802 rige desde el 01/12/2026— del Decreto 408/2026.",
+      "modifica": [
+        "decreto-408-2026"
+      ],
+      "temas": [
+        "Fondo de Asistencia Laboral"
+      ]
     },
     {
       "slug": "decreto-875-2026",
@@ -2343,7 +2444,17 @@
       "jurisdiccion": "nacional",
       "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/348757/20261009",
       "prioridad": 1,
-      "nota": "B.O. 09/10/2026, promulgada por Decreto 1160/2026. VERIFICAR contra el texto bajado qué artículos de cada ley sustituye o incorpora y los plazos de reglamentación."
+      "nota": "B.O. 09/10/2026, promulgada por Decreto 1160/2026. Leída contra el texto bajado el 10/11/2026: sustituye el artículo sin número a continuación del art. 56 de la Ley 11.683 —discrepancia significativa— e incorpora su art. 49 bis (arts. 1 y 2); sustituye o incorpora los arts. 38, 38 bis, 40, 40 bis, 41, 42 bis y 42 ter de la Ley 27.799 —modalidad simplificada de Ganancias— (arts. 3 a 13); sustituye el art. 15 de la Ley 25.191 e incorpora su art. 15 bis —sanciones del RENATRE— (arts. 14 a 16); reduce transitoriamente las multas formales (art. 17) y da a ARCA treinta días para reglamentar (art. 18).",
+      "modifica": [
+        "ley-11683",
+        "ley-27799",
+        "ley-25191"
+      ],
+      "temas": [
+        "discrepancia significativa",
+        "simplificado de Ganancias",
+        "multas formales"
+      ]
     },
     {
       "slug": "pba-ley-14432",
@@ -2359,7 +2470,14 @@
       "jurisdiccion": "pba",
       "url": "https://normas.gba.gob.ar/documentos/0nQY8KFM.html",
       "prioridad": 3,
-      "nota": "B.O. 21/10/2026, n.° 30346."
+      "nota": "B.O. 21/10/2026, n.° 30346.",
+      "modifica": [
+        "pba-ley-14432"
+      ],
+      "temas": [
+        "14.432",
+        "vivienda única"
+      ]
     },
     {
       "slug": "pba-ley-15657",
@@ -2367,7 +2485,13 @@
       "jurisdiccion": "pba",
       "url": "https://normas.gba.gob.ar/documentos/V92yGqTP.html",
       "prioridad": 3,
-      "nota": "B.O. 30/10/2026, n.° 30353."
+      "nota": "B.O. 30/10/2026, n.° 30353.",
+      "modifica": [
+        "pba-ley-13927"
+      ],
+      "temas": [
+        "prioridad de paso"
+      ]
     },
     {
       "slug": "decreto-1103-2026",
@@ -2379,5 +2503,7 @@
     }
   ],
   "_ficha_vs_texto": "En InfoLEG, verNorma.do?id=N devuelve la FICHA de la norma, no el texto. El texto está en anexos/<rango>/<id>/norma.htm (original) o texact.htm (actualizado con modificatorias). Preferir siempre texact.htm cuando exista. El descargador avisa si lo que bajó parece una ficha.",
+  "_modifica": "En la norma que modifica, la lista de slugs que modifica: sustituye, incorpora o deroga artículos de ellas. Va en la modificatoria porque es la que llega después. articulo.py la usa para buscar un artículo que el consolidado todavía no trae y para avisar cuando el consolidado no menciona a quien lo modifica; estado.py reporta esos consolidados. Ver scripts/_modificatorias.py.",
+  "_temas": "En una modificatoria, las frases que nombran lo que la reforma cambia, tal como las escribe un módulo. Todo módulo de references/ que use una de ellas tiene que nombrar la modificatoria, o decir en temas_no_aplica por qué no: es TestUnaReformaLlegaATodosLosModulos. Una reforma registrada en un solo módulo deja a los demás explicando la regla vieja.",
   "_normas_gba": "normas.gba.gob.ar responde a clientes HTTP planos, sin captcha ni JavaScript: si el descargador falla ahí es por la cadena TLS del sitio o por el proxy, no por bloqueo. Ver scripts/README.md. Los PDF que ofrecen esas fichas son del texto ORIGINAL: el .html es el consolidado. Y ojo con las dos formas de URL: `/legislacion/legislacion/l-NNNNN.html` devuelve la FICHA -menú del portal, resumen y enlaces- y no el articulado; el texto vive en `/documentos/<id>.html`, que es el enlace «Ver texto actualizado» de esa misma ficha. El descargador guardó la ficha de la Ley 14.997 sin que nada lo dijera hasta que `revisar_texto()` no encontró ni un artículo."
 }

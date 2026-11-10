@@ -1383,5 +1383,90 @@ class TestElEscritoSeEntregaListoParaPegar(unittest.TestCase):
                                 "la fila cita una fuente que no está en FUENTES: bajarla con el "
                                 "descargador y mapearla, o no afirmar la pauta")
 
+
+class TestUnaReformaLlegaATodosLosModulos(unittest.TestCase):
+    """Una reforma registrada en un solo módulo deja a los demás explicando la regla vieja.
+
+    Pasó con la Ley 15.657: `transito.md` 28.1 la desarrollaba, y `civil.md` 6.5 —donde llega
+    quien arma una demanda por un choque— seguía explicando la presunción del art. 64 sin decir
+    que en PBA la prioridad de paso ya no es la del art. 41. Ningún control lo veía, porque
+    `civil.md` no cita la Ley 13.927 por artículo: comparte el TEMA, no la norma.
+
+    La regla: la modificatoria declara en `normas.json` sus `temas` —las frases con que un módulo
+    nombra lo que cambió— y todo módulo de `references/` que use una de ellas nombra la reforma o
+    dice en `temas_no_aplica` por qué no. Las tablas de `references/ruteo/` quedan afuera: rutean,
+    no explican.
+
+    **Es un piso.** Un módulo que trate el tema con otras palabras no aparece; por eso los temas
+    se escriben mirando cómo lo dicen los módulos, y `_temas` en `normas.json` lo pide.
+
+    MUTACIÓN que lo comprueba: sacar la mención de la Ley 15.657 de `civil.md` deja en rojo
+    `test_cada_modulo_que_usa_el_tema_nombra_la_reforma`; declarar `modifica` en una norma nueva
+    de «Cambios recientes» sin `temas`, `test_las_reformas_recientes_declaran_sus_temas`.
+    """
+
+    REFERENCES = RAIZ_DEL_CHECKOUT / "derecho" / "skills" / "derecho-argentino" / "references"
+    #: Deuda, no excepción: reformas de «Cambios recientes» que todavía no declaran temas. Está
+    #: vacía; agregar una acá es lo que este test existe para impedir.
+    SIN_TEMAS: set = set()
+
+    @staticmethod
+    def _plano(texto: str) -> str:
+        import unicodedata
+        return "".join(c for c in unicodedata.normalize("NFKD", texto.lower())
+                       if not unicodedata.combining(c))
+
+    def setUp(self):
+        import _modificatorias
+        self.mod = _modificatorias
+        self.normas = json.loads((RAIZ_DEL_CHECKOUT / "derecho" / "fuentes" / "normas"
+                                  / "normas.json").read_text(encoding="utf-8"))["normas"]
+        self.modulos = {f.name: f.read_text(encoding="utf-8")
+                        for f in sorted(self.REFERENCES.glob("*.md"))}
+        self.con_temas = [n for n in self.normas if n.get("temas")]
+
+    def _sin_nombrarla(self, norma):
+        temas = [self._plano(x) for x in norma["temas"]]
+        return sorted(nombre for nombre, texto in self.modulos.items()
+                      if any(x in self._plano(texto) for x in temas)
+                      and self.mod.menciona(texto, norma["titulo"]) is False)
+
+    def test_cada_modulo_que_usa_el_tema_nombra_la_reforma(self):
+        self.assertTrue(self.con_temas, "ninguna norma declara temas: el control está apagado")
+        faltan = []
+        for n in self.con_temas:
+            self.assertIsNotNone(self.mod.designacion(n["titulo"]),
+                                 f"{n['slug']}: su título no tiene una designación medible")
+            exentos = n.get("temas_no_aplica", {})
+            faltan += [f"{m} usa «{'» o «'.join(n['temas'])}» y no nombra {n['slug']}"
+                       for m in self._sin_nombrarla(n) if m not in exentos]
+        self.assertEqual(faltan, [], "módulos que siguen explicando la regla anterior")
+
+    def test_un_no_aplica_tiene_motivo_y_sigue_haciendo_falta(self):
+        for n in self.con_temas:
+            for modulo, motivo in n.get("temas_no_aplica", {}).items():
+                with self.subTest(norma=n["slug"], modulo=modulo):
+                    self.assertTrue(motivo.strip(), "una exención sin motivo no se revisa")
+                    self.assertIn(modulo, self._sin_nombrarla(n),
+                                  "el módulo ya nombra la reforma o dejó de usar el tema: "
+                                  "la exención sobra")
+
+    def test_las_reformas_recientes_declaran_sus_temas(self):
+        texto = self.modulos["changelog-normativo.md"]
+        seccion = texto.split(TestNormasDeCambiosRecientes.SECCION)[1].split("\n---")[0]
+        cabezas = re.findall(r"^- \*\*(.+?)\*\*", seccion, re.M)
+        claves = {TestNormasDeCambiosRecientes._clave(x) for c in cabezas
+                  for x in TestNormasDeCambiosRecientes._normas_de(c)}
+        recientes = {n["slug"] for n in self.normas if n.get("modifica")
+                     and TestNormasDeCambiosRecientes._clave_de_slug(n["slug"]) in claves}
+        self.assertIn("pba-ley-15657", recientes, "el lector de la sección dejó de funcionar")
+        sin = {s for s in recientes if not next(n for n in self.normas if n["slug"] == s)
+               .get("temas")}
+        self.assertEqual(sorted(sin - self.SIN_TEMAS), [],
+                         "reformas recientes que no declaran temas en normas.json")
+        self.assertEqual(sorted(self.SIN_TEMAS - sin), [],
+                         "ya declaran temas o salieron de la sección: sacarlas de SIN_TEMAS")
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

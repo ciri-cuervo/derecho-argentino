@@ -2,7 +2,7 @@ Ley 14.546 - Estatuto del viajante de comercio (texto actualizado)
 ==============================================================================
 Jurisdicción:     nacional
 Fuente:           https://servicios.infoleg.gob.ar/infolegInternet/anexos/95000-99999/96295/texact.htm
-Descargado:       2026-09-23
+Descargado:       2026-11-10
 SHA-256 (crudo):  c8ac659e0c764796ccb838fe2bbf3d963bcdd833904954849dccacc7f5ed8c05
 Charset:          windows-1252
 
