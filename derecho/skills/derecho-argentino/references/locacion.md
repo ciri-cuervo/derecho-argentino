@@ -43,8 +43,29 @@ la cosa, puede pedir **la rescisión** o **la cesación del pago** por el tiempo
 
 **Cargas y expensas (art. 1209):** el locatario paga las cargas y contribuciones **que se originen
 en el destino que da a la cosa**; **no** las que graven la cosa ni las **expensas comunes
-extraordinarias**. Sólo pueden ponerse a su cargo las expensas que deriven de gastos habituales.
+extraordinarias**. Y el pacto tiene techo: *"Solo puede establecerse que estén a cargo del
+locatario aquellas expensas que deriven de gastos habituales, entendiéndose por tales aquellos que
+se vinculan a los servicios normales y permanentes a disposición del locatario, independientemente
+de que sean considerados como expensas comunes ordinarias o extraordinarias"*. **Lo que decide es
+el gasto, no la etiqueta que le pone la liquidación del consorcio**: una ordinaria que no es gasto
+habitual no se le pasa al locatario, y una extraordinaria que sí lo es, puede pactarse.
 Se cruza con `derechos-reales.md` 45.4, donde está el régimen de expensas del consorcio.
+
+**De qué texto es esa redacción.** El consolidado bajado trae el art. 1209 **sustituido por el
+art. 8 de la Ley 27.551** y, en la misma nota, *"Ley N° 27.551 abrogada por art. 249 del Decreto
+N° 70/2023"*. El DNU no sustituyó el art. 1209 —no está en la tabla de 48.2—, y **el texto bajado
+no dice si derogar la ley que lo sustituyó deja en pie esta redacción o restituye la anterior**. La
+nota de vigencia de la 27.551 dice además que sus reformas *"serán aplicables para los contratos
+que se celebren a partir de su entrada en vigencia"*, así que la fecha de celebración (48.1, y la
+primera pregunta de 48.6) vuelve a decidir. Para un contrato en curso, el art. 7 CCyCN fija el
+criterio general: *"Las nuevas leyes supletorias no son aplicables a los contratos en curso de
+ejecución, con excepción de las normas más favorables al consumidor en las relaciones de
+consumo."* **Esa regla es para las supletorias**, y el techo del pacto del art. 1209 está escrito
+como límite (*"Solo puede establecerse"*); para lo que no es supletorio, el primer párrafo del
+mismo art. 7 aplica la ley nueva *"a las consecuencias de las relaciones y situaciones jurídicas
+existentes"*.
+
+`[REVISIÓN NORMATIVA REQUERIDA: texto del art. 1209 CCyCN que rige el contrato - el consolidado lo trae según la Ley 27.551 con la nota de que esa ley fue derogada por el art. 249 del DNU 70/2023, y no resuelve si la derogación mantiene esa redacción o restituye la original; cotejar con la fecha de celebración del contrato]`
 
 ### 48.4 Desalojo: la intimación previa es un requisito
 

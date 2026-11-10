@@ -54,10 +54,11 @@ lo más cercano que los colegios publican como taxonomía por materia.
 
 ## El cruce judicial, que es el test chico y honesto
 
-**Fueros de la Provincia de Buenos Aires.** Con módulo: civil y comercial (`civil.md`),
-contencioso administrativo (`contencioso-pba.md`), familia (`familia.md`, con `violencia-digital.md` para la modalidad digital de la Ley 26.485), laboral
+**Fueros de la Provincia de Buenos Aires.** Con módulo: civil y comercial (`civil.md`, con `civil-contratos.md` para saneamiento, obra y servicios y vicios del consentimiento, y `proceso-pba.md` para las cautelares),
+contencioso administrativo (`contencioso-pba.md`), familia (`familia.md`, con `familia-ninez.md` para la gestación por sustitución, la adopción y las medidas de protección, y `violencia-digital.md` para la modalidad digital de la Ley 26.485), laboral
 (`laboral.md` para el contrato y su extinción, `laboral-licencias.md` para las licencias,
-enfermedades inculpables y suspensiones, `laboral-riesgos.md` para la Ley 24.557 y
+enfermedades inculpables y suspensiones, `laboral-estatutos.md` para el trabajo agrario, casas particulares,
+construcción, viajantes y encargados de edificio, `laboral-riesgos.md` para la Ley 24.557 y
 `laboral-colectivo.md` para convenios, sindicatos y conflicto),
 penal (`penal.md` para el régimen procesal aplicable y la libertad durante el proceso,
 `penal-impugnacion.md` para nulidades y recursos, `penal-parte-general.md` para el Código Penal y
@@ -92,7 +93,7 @@ tiene desarrollo propio que ninguna taxonomía judicial muestra:
 | Tránsito | `transito.md` | Faltas, y el encuadre civil del accidente |
 | Tributario | `tributario.md` | Contencioso administrativo y penal económico |
 | Tributario de la Provincia de Buenos Aires | `tributario-pba.md` | Tribunal Fiscal de Apelación de PBA, y contencioso administrativo bonaerense con pago previo |
-| Consumidor | `consumidor.md` | Civil y comercial, y sede administrativa |
+| Consumidor | `consumidor.md`, `consumidor-sectores.md` | Civil y comercial, y sede administrativa |
 | Concursos | `concursos.md` | Comercial, con el cruce laboral |
 | Societario | `societario.md` | Comercial |
 | Previsional | `previsional.md` | Seguridad social en Nación |

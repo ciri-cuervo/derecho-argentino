@@ -75,7 +75,9 @@ class TestDondeSeBuscaElDisparador(unittest.TestCase):
         el campo esté y traiga materias, no cómo arranca.
         """
         t = self.h.disparadores().lower()
-        self.assertIn("references/laboral.md", t, "falta la tabla de ruteo de la sección 16")
+        self.assertIn("references/ruteo/laboral.md", t, "falta la tabla de ruteo de la sección 16")
+        self.assertIn("references/laboral.md", t,
+                      "faltan las tablas de área, que son el segundo nivel del ruteo")
         self.assertIn("derecho argentino, desde una parte o desde el órgano jurisdiccional", t,
                       "falta el description: es el campo que activa la skill")
         self.assertIn("usar ante consultas sobre", t, "el description perdió su enumeración")

@@ -116,12 +116,15 @@ def candidatos() -> list[tuple[str, str, list[str]]]:
 
 
 def disparadores() -> str:
-    """El texto donde una materia tiene que figurar para ser alcanzable: ruteo y description."""
+    """El texto donde una materia tiene que figurar para ser alcanzable: el ruteo —la sección 16 y
+    las tablas de área de `references/ruteo/`, que son su segundo nivel— y el description."""
     t = SKILL.read_text(encoding="utf-8")
     fin = t.index("\n## 17") if "\n## 17" in t else len(t)
     tabla = t[t.index("\n## 16"):fin] if "\n## 16" in t else ""
+    areas = [p.read_text(encoding="utf-8")
+             for p in sorted((SKILL.parent / "references" / "ruteo").glob("*.md"))]
     m = re.search(r"^description:\s*(.*?)(?=\n[a-z_]+:|\n---)", t, re.S | re.M)
-    return tabla + "\n" + (m.group(1) if m else "")
+    return "\n".join([tabla, *areas, m.group(1) if m else ""])
 
 
 ORDINAL = re.compile(

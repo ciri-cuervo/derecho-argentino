@@ -233,8 +233,8 @@ números y los compara contra lo que hay: si alguno deja de coincidir, los tests
 | Pieza | Estado |
 | --- | --- |
 | `ccyc-comentado/` | Completo, con índice de ruteo |
-| `normas/normas.json` | **296 entradas**, 292 con URL verificada |
-| `normas/*.txt` | **280 descargadas**; `procedencia.json` registra **293 textos con hash** |
+| `normas/normas.json` | **298 entradas**, 294 con URL verificada |
+| `normas/*.txt` | **282 descargadas**; `procedencia.json` registra **295 textos con hash** |
 | `jurisprudencia/fallos.json` | **101 fallos**, todos con URL |
 | `jurisprudencia/*.pdf` | **84 descargados**; los de JUBA vienen en `.html`, que es lo que ese sitio sirve |
 | `datos/jus-scba.csv` | **25 filas**, 01/01/2024 a 01/11/2026 — **toda la tabla oficial vigente**. Es la serie entera y no tiene huecos: la SCBA publica un período **sólo cuando el valor cambia**, así que los meses ausentes no faltan, heredan el valor anterior |
@@ -245,8 +245,8 @@ números y los compara contra lo que hay: si alguno deja de coincidir, los tests
 | `datos/serie-ripte.csv` | **Completa**: 386 períodos, 1994-07 a 2026-08. La API estatal dejó de servirla y el último mes sale de la página oficial, cotejada contra el archivo |
 | `datos/serie-cer.csv` | **Completa**: 119 períodos, 2016-12 a 2026-10 |
 
-Los tres números de `normas/` cuentan cosas distintas y no tienen por qué coincidir: **296** es lo
-que la skill espera encontrar, **293** es lo que tiene texto bajado con hash registrado, y **280**
+Los tres números de `normas/` cuentan cosas distintas y no tienen por qué coincidir: **298** es lo
+que la skill espera encontrar, **295** es lo que tiene texto bajado con hash registrado, y **282**
 son los `.txt` en disco, porque los **13** restantes son PDF.
 
 **Las entradas declaradas sin texto son estructurales, y están todas acá.** La **Ley 13.478** es

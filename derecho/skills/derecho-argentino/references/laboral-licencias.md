@@ -387,7 +387,7 @@ los fusiona en una sola línea y se pierden las dos mitades.
 **Art. 67 · qué pasa con la sanción.** El empleador puede aplicar medidas disciplinarias
 **proporcionadas** a las faltas o incumplimientos **demostrados**. Dentro de los **treinta (30)
 días corridos** de notificada la medida el trabajador puede cuestionar su procedencia y el tipo
-o extensión, para que se la **suprima, sustituya por otra o límite**. Vencido el término, **se
+o extensión, para que se la **suprima, sustituya por otra o limite**. Vencido el término, **se
 tiene por consentida la sanción**.
 
 Tres precisiones sobre ese plazo: son **corridos**, no hábiles; corren desde la **notificación**
@@ -395,12 +395,18 @@ de la medida, no desde que termina de cumplirse; y lo que se pierde al vencer no
 —la sanción queda consentida y sirve de antecedente para el despido con causa de 5.12.3—.
 
 **Art. 223 · qué pasa con el salario.** Cuando el empleador no observa las prescripciones de
-los arts. 218 a 221 sobre **causas, plazo y notificación**, el trabajador tiene derecho a
-percibir la remuneración por todo el tiempo que estuvo suspendido **si hubiere impugnado la
-suspensión**, haya o no ejercido el derecho del art. 222.
+los arts. 218 a 221 sobre **causas, plazo y notificación**, *"en el caso de sanciones
+disciplinarias, el trabajador tendrá derecho a percibir la remuneración por todo el tiempo que
+estuviere suspendido si hubiere impugnado la suspensión"*, haya o no ejercido el derecho del
+art. 222.
 
 De modo que la impugnación no es un trámite: es la **condición** del crédito salarial. Y el
 crédito nace del vicio formal o causal, no de que la falta no haya existido.
+
+**La regla es sólo para la suspensión disciplinaria.** El texto la acota con *"en el caso de
+sanciones disciplinarias"*, así que los días suspendidos por **falta o disminución de trabajo**
+o por **fuerza mayor** (arts. 219 y 221) no entran en ella: ni la impugnación los condiciona
+ni este artículo es el que los paga.
 
 **Proporcionalidad y progresividad no son lo mismo.** La **proporcionalidad** está en el texto
 del art. 67. La **progresividad** —la idea de que hay que escalonar las sanciones antes de

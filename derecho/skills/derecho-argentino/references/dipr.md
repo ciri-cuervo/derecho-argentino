@@ -87,6 +87,10 @@ Tres reglas, y la primera invierte lo que muchos suponen:
   pertenece"*, sin perjuicio de que las partes puedan alegar y probar. No es un hecho que la parte
   deba probar so pena de perder: es un deber del tribunal. Y trae su propia salida: **"si el
   contenido del derecho extranjero no puede ser establecido se aplica el derecho argentino"**.
+  **La salida es para cuando el contenido «no puede ser establecido», no para cuando las partes
+  no lo prueban.** Como el deber de establecerlo es del juez, que la parte no alegue ni aporte el
+  texto extranjero no habilita por sí solo a pasar al derecho argentino: antes el tribunal tiene
+  que haber intentado establecerlo.
 - **Inc. b) — Estados con varios sistemas covigentes.** Se resuelve por las reglas internas de ese
   Estado y, en su defecto, por el sistema *"que presente los vínculos más estrechos"*.
 - **Inc. c) — armonización.** Si a una misma situación se aplican derechos distintos, *"esos

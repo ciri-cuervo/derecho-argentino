@@ -329,6 +329,7 @@ La regulación es **contenido obligatorio de la sentencia** (art. 57 inc. 8 de l
 ni la 11.653 ni la 15.057 tienen régimen arancelario propio: rige la **Ley 14.967**
 [VERIFICAR VIGENCIA], que es de toda la justicia bonaerense y no sólo de este fuero. **Está en
 `honorarios-pba.md`**, con la escala, el jus, las etapas, los aportes y el pacto de cuota litis.
+Para el cálculo, usar `scripts/honorarios_pba.py` en lugar de operar a mano.
 
 ---
 

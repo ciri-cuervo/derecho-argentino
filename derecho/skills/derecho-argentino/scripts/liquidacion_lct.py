@@ -151,21 +151,21 @@ REGIMEN = {
         "[ARG SIN NORMA: liquidar por los arts. 232, 233 y 245 LCT a personal de casas "
         "particulares, que el art. 2 inc. b LCT excluye - norma que correspondería citar: "
         "Ley 26.844, arts. 42 a 44 (preaviso e integración) y 48 (indemnización, sin el tope "
-        "del art. 245). Se liquida a mano: laboral.md 5.17 quinquies]"),
+        "del art. 245). Se liquida a mano: laboral-estatutos.md 5.17 quinquies]"),
     "construccion": (
         "[ARG SIN NORMA: liquidar por los arts. 232, 233 y 245 LCT a un trabajador de la "
         "construcción - norma que correspondería citar: Ley 22.250, art. 15 (el fondo de cese "
         "laboral reemplaza el preaviso y el despido de la LCT) y arts. 17 a 19. Se liquida a "
-        "mano: laboral.md 5.17 sexies]"),
+        "mano: laboral-estatutos.md 5.17 sexies]"),
     "viajantes": (
         "[ARG SIN NORMA: liquidar por la LCT sola a un viajante de comercio - norma que "
         "correspondería citar: Ley 14.546, art. 14 (indemnización por clientela, 25% de la de "
         "despido cualquiera sea la causa) y arts. 5 a 7 (base a comisión). Se liquida a mano: "
-        "laboral.md 5.17 sexies]"),
+        "laboral-estatutos.md 5.17 sexies]"),
     "encargados": (
         "[ARG SIN NORMA: liquidar por los arts. 232, 233 y 245 LCT a un encargado de edificio - "
         "norma que correspondería citar: Ley 12.981, art. 6 (tres meses de preaviso y un mes "
-        "por año o fracción) y art. 22. Se liquida a mano: laboral.md 5.17 sexies]"),
+        "por año o fracción) y art. 22. Se liquida a mano: laboral-estatutos.md 5.17 sexies]"),
 }
 
 

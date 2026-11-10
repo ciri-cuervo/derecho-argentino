@@ -99,7 +99,7 @@ universidades.
 > **Lo que decide un amparo de cobertura acá suele ser la reglamentación, no la ley.** El **Decreto
 > 956/2013** y las resoluciones posteriores fijan cantidad de intentos, edades y condiciones, y
 > **no están bajados**. La ley da el piso subjetivo —quién cubre— y no el cuantitativo.
-> La filiación derivada de estas técnicas es otra cosa y está en `familia.md` 18.10.
+> La filiación derivada de estas técnicas es otra cosa y está en `familia-ninez.md` 18.10.
 
 **Interrupción voluntaria del embarazo — Ley 27.610**, cotejada contra
 `fuentes/normas/ley-27610.txt`. Veintiún artículos con numeración propia.

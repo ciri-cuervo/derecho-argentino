@@ -801,7 +801,7 @@ instituto no exista.
 
 | Módulo | Frase exacta | Qué salió |
 | --- | --- | --- |
-| `consumidor.md` 17.11.5 bis | *"entes reguladores"* | 25 sumarios. El que sirve es **"Y.P.F. S.A. c/ resolución 575/12 - ENARGAS"**, Y. 18. L. ROR, 29/09/2015: la competencia jurisdiccional del ente se interpreta estrictamente. **Cargado** |
+| `consumidor-sectores.md` 17.11.5 bis | *"entes reguladores"* | 25 sumarios. El que sirve es **"Y.P.F. S.A. c/ resolución 575/12 - ENARGAS"**, Y. 18. L. ROR, 29/09/2015: la competencia jurisdiccional del ente se interpreta estrictamente. **Cargado** |
 | `seguros.md` 39.6.1 | *"oponible al damnificado"* | 9 sumarios, y entre ellos el fundante: **"Flores"**, F. 678. XLIX. REX, 06/06/2017, Fallos 340:765. **Cargado**. Los otros ocho remiten a él |
 | `ambiental.md` 41.6.1 | *"recomposicion del ambiente"* | 12 sumarios. **"Majul"**, CSJ 000714/2016/RH001, 11/07/2019, Fallos 342:1203. **Cargado**. Los dos primeros son de competencia local, no del alcance de la recomposición |
 | `amparo.md` 43.6.1 | *"mayor amplitud de debate"* | 55 sumarios, y el primero es de 2025: **"Defensor del Pueblo de la Nación"**, D. 85. XLV. RHE, 26/08/2025, Fallos 348:895. **Cargado** |

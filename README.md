@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="CHANGELOG.md"><img src="assets/marca/chapa-version.png" width="106" height="32" alt="Versión 1.4.4"></a>
+  <a href="CHANGELOG.md"><img src="assets/marca/chapa-version.png" width="106" height="32" alt="Versión 1.4.5"></a>
   <a href="LICENCIAS.md"><img src="assets/marca/chapa-licencia.png" width="168" height="32" alt="Licencias: contenido CC BY-SA 4.0, código MIT"></a>
   <img src="assets/marca/chapa-agentes.png" width="172" height="32" alt="Corre en Claude y Codex (ChatGPT)">
 </p>
@@ -50,14 +50,14 @@ deja marcado y te dice qué falta, en vez de entregarte un dato plausible que na
 | ⚖️ **Trabajar desde el juzgado** | La sentencia o el proveído del lado del órgano: qué se controla de oficio y qué no se construye |
 
 El alcance es el **derecho argentino**, y lo que ya está auditado crece versión a versión: hoy son
-**68 módulos**, cada uno con su fecha de verificación contra el texto oficial. Donde todavía no hay
+**72 módulos**, cada uno con su fecha de verificación contra el texto oficial. Donde todavía no hay
 módulo, la skill abre material de apoyo y **avisa cada vez que ese material no está auditado**. El
 mapa de lo cubierto está en [`docs/COBERTURA.md`](docs/COBERTURA.md).
 
 ## 🛡️ Por qué podés confiar en lo que te dice
 
 **📜 Trabaja con los textos oficiales, sin conexión.** Trae guardado el texto consolidado de
-**280 normas** y **101 fallos**, bajados de InfoLEG, el Boletín Oficial, `normas.gba.gob.ar`, SAIJ y
+**282 normas** y **101 fallos**, bajados de InfoLEG, el Boletín Oficial, `normas.gba.gob.ar`, SAIJ y
 JUBA, cada uno con su dirección de origen y su fecha. Una vez por semana se vuelve a comparar
 cada norma contra el sitio oficial para detectar una reforma.
 

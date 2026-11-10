@@ -162,11 +162,15 @@ si lo hay y **permitir el acceso** para reparar partes comunes y verificar cosas
 accesibilidad y vías de evacuación; las extraordinarias, las que dispone la asamblea (art. 2048).
 **El certificado de deuda expedido por el administrador y aprobado por el consejo de
 propietarios, si existe, es título ejecutivo** (art. 2048, último párrafo): la ejecución va por
-`titulos-ejecutivos.md`. Las defensas están cerradas por el art. 2049: no libera la renuncia al uso
-de los servicios, la enajenación ni el abandono de la unidad, **ni se oponen defensas fundadas en
-derechos contra el consorcio, salvo compensación**; el reglamento puede eximir parcialmente a las
-unidades sin acceso a un servicio. Y **los poseedores por cualquier título están obligados**
-junto con el propietario, sin liberarlo (art. 2050).
+`titulos-ejecutivos.md`. Las defensas están cerradas por el art. 2049: los propietarios no pueden
+liberarse de ninguna expensa *"aun con respecto a las devengadas antes de su adquisición"*, ni por
+la renuncia al uso de los servicios, la enajenación o el abandono de la unidad, **ni se oponen
+defensas fundadas en derechos contra el consorcio, salvo compensación**; el reglamento puede eximir
+parcialmente a las unidades sin acceso a un servicio. **Quien compra una unidad con deuda responde
+por la deuda anterior a su compra**: es la cláusula que decide la defensa de «eso no es mío». Y el
+art. 2050 suma obligados: *"Además del propietario, y sin implicar liberación de éste, están
+obligados al pago de los gastos y contribuciones de la propiedad horizontal los que sean
+poseedores por cualquier título."*
 
 **Obras y prohibiciones (arts. 2047 y 2051 a 2055).** Está prohibido el uso contrario al
 reglamento o a la moral, perturbar más allá de la normal tolerancia, comprometer la seguridad y
@@ -211,7 +215,7 @@ documentos dentro de los quince días hábiles** de la renuncia o remoción, **n
 propietarios los reclamos administrativos o judiciales dentro de las cuarenta y ocho horas
 hábiles**, y expedir **en tres días hábiles** el certificado de deudas y créditos con constancia
 de reclamos y seguros. Nombra y despide al personal **con acuerdo de la asamblea**: el encargado
-es un trabajador de la Ley 12.981, `laboral.md` 5.17 sexies.
+es un trabajador de la Ley 12.981, `laboral-estatutos.md` 5.17 sexies.
 
 **Subconsorcios, infracciones y prehorizontalidad (arts. 2068 a 2072).** El reglamento puede
 prever sectores con subasamblea y subadministrador, pero **frente a terceros responde todo el
@@ -297,7 +301,10 @@ y son cuatro: **reivindicatoria, confesoria, negatoria y de deslinde**.
 
 **Legitimación pasiva de la reivindicatoria (art. 2255):** va contra **el poseedor o el tenedor**,
 aunque lo tenga a nombre del reivindicante. **El tenedor a nombre de un tercero se libera si
-individualiza al poseedor**; si no lo individualiza, queda alcanzado. Es la regla que decide contra
+individualiza al poseedor**; si no lo individualiza, *"queda alcanzado por los efectos de la
+acción, pero la sentencia no hace cosa juzgada contra el poseedor"*. **Ganarle al tenedor no es
+ganarle al poseedor**: si el poseedor existe y no fue demandado, la sentencia no lo obliga, y de
+ahí que convenga identificarlo y traerlo antes. Es la regla que decide contra
 quién se dirige la demanda cuando el ocupante dice tener la cosa por otro.
 
 ### 45.7 Lo que este módulo NO hace

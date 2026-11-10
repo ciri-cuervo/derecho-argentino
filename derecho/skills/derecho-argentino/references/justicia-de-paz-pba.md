@@ -99,6 +99,12 @@ derogado**.
   separación **o** el del domicilio de cualquiera de los peticionantes, a su opción, y **se
   resuelve sin trámite alguno**, homologando la petición. Así que la porción del inciso II a) que
   sigue teniendo objeto es ésa.
+- **Si la pide uno solo, cambian el juez y el trámite.** El párrafo siguiente de la misma norma:
+  *"Si se solicita unilateralmente, es competente el juez que intervino en la separación o el del
+  domicilio del ex cónyuge que no peticiona la conversión; el juez decide previa vista por tres
+  (3) días."* El domicilio que cuenta es el del otro, no el de quien pide, y hay vista antes de
+  resolver. La resolución, pedida de común acuerdo o por uno solo, *"debe anotarse en el
+  registro que tomó nota de la separación"*.
 - **El asentimiento conyugal es hoy el art. 470 CCyCN**, sobre bienes gananciales, no el 1277.
 
 **Dos resoluciones de la SCBA sobre competencia, leídas de JUBA.** En *"P., H. O. c/ A., S. M.

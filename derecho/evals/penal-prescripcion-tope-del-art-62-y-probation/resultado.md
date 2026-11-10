@@ -3,12 +3,11 @@ titulo: Una causa de nueve años y una probation que no procede - el tope del ar
 ---
 # Resultado · penal-prescripcion-tope-del-art-62-y-probation
 
-**Sin correr.** El caso se escribió en septiembre de 2026 junto con la partición que sacó la parte
-general de `penal.md` a su propio módulo, y todavía nadie lo pasó por el sistema. Este archivo vale
-por su fecha: mientras diga esto, **no hay medición**.
-
-Se anota igual, y no vacío, porque un eval sin resultado es una promesa: el archivo dice qué falta
-hacer y desde cuándo.
+**Corrido el 09/11/2026**, con Sonnet y a una pasada, en dos tandas. La primera, con juez Haiku:
+0,82 con la skill y 0,82 sin ella; la segunda, con los graders corregidos y juez Sonnet, 1,00, sin
+graders reprobados. Cómo se leyó cada falla —el juez, el grader, el módulo o el modelo— y qué se
+corrigió está en `docs/BITACORA.md`, entrada del 09/11/2026. Una pasada mide que el caso se
+resuelva, no la varianza.
 
 **Qué mide que otro no.** Es el primer caso donde **la regla equivocada llega al resultado
 correcto**: el consultante trae que "a los veinte años recién prescribe" y la conclusión —que no

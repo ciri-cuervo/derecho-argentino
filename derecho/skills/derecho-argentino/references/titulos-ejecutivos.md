@@ -46,9 +46,23 @@ sin ella no hay título completo.
 **Art. 101** enumera los requisitos: la cláusula **"a la orden"** o la denominación del título en el
 texto y en el idioma de redacción; la **promesa pura y simple** de pagar una suma determinada; el
 **plazo de pago**; el **lugar de pago**; el nombre de aquél a quien o a cuya orden debe pagarse; y
-los demás que el artículo detalla.
+los demás que el artículo detalla. **Lo primero son dos opciones y no dos requisitos:** el inc. a
+pide *"La cláusula "a la orden" o la denominación del título inserta en el texto del mismo"*; con
+una de las dos alcanza.
 
-**Faltando un requisito el papel no es pagaré**, y lo que queda es a lo sumo un instrumento privado
+**Faltando un requisito el papel no es pagaré, salvo en los casos que la ley suple.** El art. 102
+dice que el título *"no es válido como pagaré, salvo en los casos determinados a continuación"*, y
+los casos son estos:
+
+- **Sin plazo:** *"El vale o pagaré en el cual no se ha indicado el plazo para el pago se
+  considera pagable a la vista."*
+- **Sin lugar de pago, y sin domicilio del suscriptor:** *"A falta de indicación especial, el
+  lugar de creación del título se considera lugar de pago y, también, domicilio del suscriptor."*
+
+**El texto bajado del art. 102 no suple el lugar de creación**: sin él, la regla del segundo caso
+no tiene de dónde tomar el lugar de pago. Ninguna otra falta se salva.
+
+Fuera de esos casos, lo que queda es a lo sumo un instrumento privado
 que habrá que preparar por otra vía. Es lo primero que se controla antes de demandar y lo primero
 que se opone al contestar.
 

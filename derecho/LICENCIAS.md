@@ -211,7 +211,7 @@ ejecuta, con licencia de código.
 Atribución y **CompartirIgual**: se usa y se adapta libremente, **incluido el uso comercial**, y lo
 que se distribuya adaptado lleva la misma licencia.
 
-- `derecho/skills/derecho-argentino/SKILL.md` y los **68 módulos** de `references/`
+- `derecho/skills/derecho-argentino/SKILL.md` y los **72 módulos** de `references/`
 - `derecho/commands/` — los **8 comandos slash**, que son instrucciones y no programas
 - `derecho/evals/` — los **54 casos** de verificación con su rúbrica y su resultado esperado
 - `derecho/fuentes/MANIFIESTO.md` y `derecho/fuentes/jurisprudencia/INDICE.md`

@@ -9,6 +9,7 @@ el estado vigente está en el archivo que lo explica, y acá queda cómo se lleg
 
 | Fecha | Entrada |
 | --- | --- |
+| 09/11/2026 | [Cuatro módulos partidos, treinta evals corridos y las rutas que no se encontraban](#09112026---cuatro-módulos-partidos-treinta-evals-corridos-y-las-rutas-que-no-se-encontraban) |
 | 01/11/2026 | [Las series que las calculadoras usaban atrasadas, y el RIPTE desde la página oficial](#01112026---las-series-que-las-calculadoras-usaban-atrasadas-y-el-ripte-desde-la-página-oficial) |
 | 01/11/2026 | [Seis evals corridos por primera vez, y lo que reprobaban sin razón](#01112026---seis-evals-corridos-por-primera-vez-y-lo-que-reprobaban-sin-razón) |
 | 01/11/2026 | [Una revisión de los scripts: el preaviso, los días trabajados y lo que Windows rompía](#01112026---una-revisión-de-los-scripts-el-preaviso-los-días-trabajados-y-lo-que-windows-rompía) |
@@ -22,6 +23,81 @@ el estado vigente está en el archivo que lo explica, y acá queda cómo se lleg
 | 18/09/2026 | [Medicina legal no era un módulo: eran cinco huecos](#18092026---medicina-legal-no-era-un-módulo-eran-cinco-huecos) |
 | 18/09/2026 | [Laboral se parte dos veces: riesgos del trabajo y licencias](#18092026---laboral-se-parte-dos-veces-riesgos-del-trabajo-y-licencias) |
 | 18/09/2026 | [El reparto de OCR y las tres fechas salen de la skill](#18092026---el-reparto-de-ocr-y-las-tres-fechas-salen-de-la-skill) |
+
+---
+
+## 09/11/2026 - Cuatro módulos partidos, treinta evals corridos y las rutas que no se encontraban
+
+**Cuatro módulos se partieron por materia**, con el criterio de `DESARROLLO.md` —se parte cuando
+el bloque que sale no lo necesita el que se queda— y conservando la numeración:
+
+| Módulo | Salió | Va a |
+| --- | --- | --- |
+| `laboral.md` | 5.17 quater, quinquies y sexies | `laboral-estatutos.md` |
+| `civil.md` | 6.6, 6.7 y 6.8 | `civil-contratos.md` |
+| `civil.md` | 6.9, cautelares del CPCCBA | `proceso-pba.md`, que es lo procesal local |
+| `consumidor.md` | 17.11.5 bis a quinquies y 17.11.7 | `consumidor-sectores.md` |
+| `familia.md` | 18.10, 18.10 ter y 18.10 quater | `familia-ninez.md` |
+
+Una consulta de daños deja de cargar 42 KB, una de despido 21, una de consumo 22 y una de
+alimentos 15. El `SKILL.md` bajó de 58 a 54 KB sin tocar lo que sus tests fijan. Para el
+disparador de `familia-ninez.md` entró «adopción» al `description` y salió «jurados», que ya
+cubren «penales» y su fila de ruteo.
+
+**Veintitrés evals pasaron al formato de `claude plugin eval`** y se corrieron los treinta, con
+Sonnet y a una pasada. La primera tanda, con juez Haiku y los dos brazos, costó 17,54 dólares; la
+segunda, sólo con plugin y juez Sonnet, 16,65, y cortó por el techo de costo: **cuatro casos
+—sucesiones, títulos, tránsito y tributario— quedaron con los graders `llm` sin juzgar** y su
+puntaje no es una medición; violencia digital no llegó a lanzarse. Las dos trazas, limpias con `traza_eval.py`.
+
+**Lo que destapó la traza y no el puntaje: las rutas.** En la primera tanda, 36 de 79 `Glob`
+volvieron vacíos, en 21 casos, porque `**/laboral.md` se resuelve desde el directorio de trabajo y
+no desde el de la skill; en dos casos la respuesta salió sin abrir ningún módulo. El `SKILL.md`
+dice ahora que las rutas son del directorio base y que los módulos no se buscan con `Glob`, y en la
+segunda tanda hubo 12 `Glob` y 3 vacíos. Entraron además dos reglas: no se responde el fondo sin
+abrir el módulo de la fila, y sin shell el script se nombra con el comando armado.
+
+**De las fallas de la primera tanda, las clases fueron cuatro**, leídas una por una contra la
+respuesta, el módulo y la norma bajada:
+
+- **El juez**: respuestas que cumplían, reprobadas por Haiku. Es la clase más grande, y la que
+  explica buena parte de la mejora de la segunda tanda: el cambio de juez y el de contenido no se
+  separan en esta medición.
+- **El grader afirmaba más que la norma**: la opción del art. 4 de la Ley 26.773 como
+  «irrevocable», el art. 2654 CCyCN —que es de jurisdicción internacional— para una prórroga
+  interna, cuarenta y seis días bajo un art. 223 LCT que rige sólo para las sanciones
+  disciplinarias, la Ley 22.278 ya derogada por la 27.801. Varios venían de la rúbrica, que se
+  corrigió igual.
+- **El módulo parafraseaba y dejaba afuera la cláusula que decide**: arts. 2049, 2255 y 1209
+  CCyCN, 102 del Decreto-Ley 5965/63, 40 de la Ley 25.164, 223 LCT y el art. 3 de la Ley 15.057,
+  que no estaba en ningún módulo. Van ahora textuales.
+- **El modelo ignoró lo que el módulo decía**: queda como está, porque el módulo está bien.
+
+**El ruteo pasó a dos niveles.** La sección 16 del `SKILL.md` trae una fila por área y las
+transversales, y cada área tiene su tabla en `references/ruteo/` con las filas de antes, sin
+reescribir. El `SKILL.md` bajó de 55 a 40 KB, y una consulta lee además la tabla de su área, de 2
+a 4 KB. `ruteo.py` y `ramas_sin_disparador.py` leen las tablas de área como parte del router: sin
+eso, casi todos los módulos quedaban a distancia 2, alcanzados por `intake.md`, y el control daba
+verde sin medir el ruteo. Lo sostienen dos tests de `test_ruteo`, con su mutación.
+**El ruteo nuevo se probó con diez consultas cortas de `evals/RUTEO.md`**, una por área y una que
+cruza dos, con Sonnet, a una pasada y cortadas en cinco turnos: 1,96 dólares. Las diez activaron
+la skill, abrieron la tabla del área antes que el módulo y llegaron al módulo principal esperado.
+Las dos que cruzan áreas abrieron uno solo de los dos módulos esperados, y en una abrió las dos
+tablas. No hay medición del ruteo de un nivel con la que comparar. Corridas de nuevo, las dos
+contestaron con un solo módulo porque la pregunta no pedía más: lo que `RUTEO.md` exigía de R08 y
+R46 era más de lo que esas consultas usan, contra su propia regla de que el esperado es «el que la
+consulta exige». Las dos esperan ahora un módulo, con la nota de cuándo entra el segundo, y R101
+es la consulta que sí exige dos —un pronto pago que hay que filtrar por `laboral.md` 5.3 y topear
+con 5.12 bis—. Corrida una vez, R101 abrió las dos tablas y los dos módulos, y la respuesta
+filtró las multas derogadas por fecha y topeó cada pago con el SMVM. Las cuatro pruebas costaron
+2,85 dólares. El `description` quedó por temas, en su tope de 1.024 caracteres,
+porque las palabras que `DISPARADORES` exige por módulo ocupan ya la mayor parte.
+
+**El manifiesto de Claude declara `icon`**, que el validador del directorio de plugins pedía y
+toma una sola vez: es `assets/icono.png`, el mismo logo del manifiesto portable.
+
+`articulo.py` no encontraba el art. 102 del Decreto-Ley 5965/63: InfoLEG parte el encabezado en
+`Art.` y `102. –`. Se unen antes del corte principal, con su test y su mutación.
 
 ---
 

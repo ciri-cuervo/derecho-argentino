@@ -47,6 +47,28 @@ mapa; estas consultas miden el manejo.
 
 ---
 
+### R101 · Me despidieron en marzo de 2025 y la empresa está en concurso. Quiero pedir pronto pago de la indemnización y de las multas por trabajo en negro. ¿Qué entra y cuánto me pueden pagar por mes?
+
+esperado: `concursos.md`, `laboral.md`
+
+La consulta que exige los dos módulos. `concursos.md` 29 da el pronto pago y el tope de cada pago
+—cuatro SMVM—, y remite a `laboral.md` para las dos cosas que lo deciden: 5.3, porque para una
+extinción posterior al 09/07/2024 las multas de las Leyes 24.013 y 25.323 no existen aunque el art.
+16 las enumere, y 5.12 bis para el SMVM de cada tramo. Abrir sólo `concursos.md` deja el tope sin
+valor y los rubros sin filtrar.
+
+### R100 · Pedí un embargo preventivo en un juicio civil en La Plata y el juez me exige contracautela. ¿Puedo evitarla?
+
+esperado: `proceso-pba.md`
+
+Vigila que se lea 6.9 y no sólo 58.5: el embargo preventivo es el art. 209 del CPCCBA, no el 212, que cubre los supuestos durante un proceso ya pendiente, la contracautela es la del art. 199 y las exenciones son las del art. 200.
+
+### R99 · Compré un auto usado a un particular y a los dos meses apareció una falla de motor que el vendedor ocultó. ¿Qué puedo reclamar?
+
+esperado: `civil-contratos.md`
+
+Vigila que se lea 6.6 y no sólo la responsabilidad civil de `civil.md`: es la garantía por vicios ocultos de los arts. 1051 a 1058 CCyCN, con la carga de denunciar el defecto en sesenta días del art. 1054 y la caducidad del art. 1055, que corren mucho antes que la prescripción.
+
 ### R98 · Soy oficial de la Bonaerense, me desafectaron por un sumario y me descuentan la mitad del sueldo. ¿Es legal y cuándo lo recupero?
 
 esperado: `empleo-publico.md`
@@ -115,13 +137,13 @@ Vigila que se lea 5.14 bis y no sólo el ius variandi de `laboral.md`: si el con
 
 ### R87 · El Servicio Local se llevó a mi hijo a un hogar hace tres días y no me dijeron por cuánto tiempo. ¿Qué puedo hacer?
 
-esperado: `familia.md`
+esperado: `familia-ninez.md`
 
 Vigila que se lea 18.10 quater: la medida excepcional se notifica al juez en veinticuatro horas y éste revisa la legalidad en setenta y dos -art. 40 de la Ley 26.061-, y el plazo de abrigo del art. 35 bis va con marcador. Rutear a `penal-juvenil-pba.md` sería el error: no hay imputado.
 
 ### R86 · Una vecina me dio a su bebé para que lo críe y quiero adoptarlo. ¿Cómo se hace?
 
-esperado: `familia.md`
+esperado: `familia-ninez.md`
 
 Vigila que se lea 18.10 ter: la entrega directa está prohibida por el art. 611 y la guarda de hecho no se considera para adoptar, salvo parentesco. Una respuesta que explique el trámite sin decir eso primero reprueba aunque cite bien las tres etapas.
 
@@ -145,7 +167,7 @@ Vigila que se lea 45.4 y no sólo `titulos-ejecutivos.md`: el certificado del ar
 
 ### R82 · Me llegó el resumen de la tarjeta con dos compras que no hice y vence en cuatro días. ¿Qué hago y hasta cuándo?
 
-esperado: `consumidor.md`
+esperado: `consumidor-sectores.md`
 
 Vigila que se lea 17.11.7 y no sólo la LDC: treinta días para impugnar por nota simple, el emisor no puede bloquear la tarjeta mientras tanto, y pagar el mínimo no es aceptar. Rutear a `titulos-ejecutivos.md` sería el error de esta fila: el saldo de tarjeta no es título ejecutivo.
 
@@ -157,7 +179,7 @@ Vigila que se lea 32.4 quater: hasta los cuatro años los controles sanitarios c
 
 ### R80 · Un oficial albañil trabajó dos años para una constructora de Berazategui, lo echaron ayer y no le dieron la libreta. ¿Qué le corresponde?
 
-esperado: `laboral.md`
+esperado: `laboral-estatutos.md`
 
 Vigila que se lea 5.17 sexies y no se liquide con el art. 245: hay fondo de cese y no indemnización, la libreta se entrega en cuarenta y ocho horas, y la intimación de dos días hábiles abre la indemnización de treinta a noventa días. Correr `liquidacion_lct.py` sería el error de esta fila.
 
@@ -181,9 +203,9 @@ Vigila que se lea 26.4 bis además de 26.4: la revocatoria y el jerárquico son 
 
 ### R76 · Una empleada que trabaja tres veces por semana en una casa de familia de Lanús fue despedida sin causa después de cuatro años, nunca registrada. ¿Qué le corresponde y dónde se reclama?
 
-esperado: `laboral.md`
+esperado: `laboral-estatutos.md`
 
-Vigila que el módulo se lea hasta 5.17 quinquies y no se conteste con el art. 245: el preaviso,
+Vigila que se lea 5.17 quinquies y no se conteste con el art. 245 de `laboral.md`: el preaviso,
 la integración y la indemnización son los de la Ley 26.844, **no hay multas de las Leyes 24.013,
 25.323 ni 25.345**, el art. 50 está derogado, y el Tribunal del Título XII es de Capital Federal.
 Rutear a `liquidacion_lct.py` sería el error de esta fila.
@@ -268,14 +290,14 @@ liquidación individual, acá el convenio.
 
 ### R47 · Me cortaron el gas por una deuda que no reconozco y la distribuidora dice que tengo que reclamar primero ante el ente. ¿Es así?
 
-esperado: `consumidor.md`
+esperado: `consumidor.md`, `consumidor-sectores.md`
 
 Vigila la rama que entró como sección: 17.11.5 bis. El art. 53 de la Ley 24.076 sí impone
 instancia previa, pero el art. 25 LDC deja al usuario elegir dónde reclamar, y los dos conviven.
 
 ### R48 · Misma pregunta pero con la luz: ¿tengo que ir al ente antes de demandar?
 
-esperado: `consumidor.md`
+esperado: `consumidor.md`, `consumidor-sectores.md`
 
 La respuesta es la contraria a la de R47 y por eso la consulta está separada: el art. 58 de la
 Ley 24.065 hace **facultativa** la instancia previa para el usuario. Si las dos rutean igual y se
@@ -283,7 +305,7 @@ contestan igual, el ruteo funcionó y el contenido no.
 
 ### R49 · La aerolínea me perdió la valija en un vuelo a Salta. ¿Qué me tienen que pagar?
 
-esperado: `consumidor.md`
+esperado: `consumidor-sectores.md`
 
 El art. 63 LDC manda al Código Aeronáutico y la LDC queda supletoria: 17.11.5 ter. Abrir el módulo civil por la
 palabra «daños» sería el error.
@@ -357,7 +379,12 @@ controla de oficio y qué deja de hacerse; abrir sólo el primero deja la senten
 
 ### R08 · La empresa que me debe la indemnización se presentó en concurso.
 
-esperado: `concursos.md`, `laboral.md`
+esperado: `concursos.md`
+
+Vigila que se lea la sección 29 y se distinga el proceso: en el concurso preventivo el juicio
+laboral queda fuera del fuero de atracción (art. 21 inc. 1) y en la quiebra queda dentro, y en los
+dos está el pronto pago del art. 16. `laboral.md` entra cuando
+hay que calcular o filtrar los rubros de un pronto pago concreto, que es lo que pide R101.
 
 ### R09 · El banco me informó como moroso en el Veraz por una deuda que ya pagué.
 
@@ -445,9 +472,10 @@ esperado: `honorarios-nacional.md`
 
 ### R46 · Tres empresas del rubro se pusieron de acuerdo para subir los precios y mi negocio se fundió. ¿Tengo que denunciar primero?
 
-esperado: `competencia.md`, `civil.md`
+esperado: `competencia.md`
 
-El art. 62 habilita la acción de daños por derecho común ante el juez civil sin esperar a la autoridad, y el acuerdo entre competidores del art. 2 presume el perjuicio al interés económico general. Contestar que primero hay que agotar la vía administrativa es el error que esta fila vigila.
+`civil.md` entra cuando se arma la demanda de daños, no para contestar si hay que denunciar antes:
+eso está en `competencia.md` 53.4. El art. 62 habilita la acción de daños por derecho común ante el juez civil sin esperar a la autoridad, y el acuerdo entre competidores del art. 2 presume el perjuicio al interés económico general. Contestar que primero hay que agotar la vía administrativa es el error que esta fila vigila.
 
 ### R45 · Quiero acompañar como prueba unos mails y un PDF firmado con una imagen de mi firma.
 

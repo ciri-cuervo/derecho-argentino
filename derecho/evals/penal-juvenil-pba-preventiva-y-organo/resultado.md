@@ -3,12 +3,11 @@ titulo: Detención de un menor de 16 en PBA - qué órgano interviene, tope del 
 ---
 # Resultado · penal-juvenil-pba-preventiva-y-organo
 
-**Sin correr.** El caso se escribió en septiembre de 2026, junto con el módulo
-`penal-juvenil-pba.md`, y todavía nadie lo pasó por el sistema. Este archivo vale por su fecha:
-mientras diga esto, **no hay medición** de cómo rutea ni de qué contesta.
-
-Se anota igual, y no vacío, porque un eval sin resultado es una promesa: el archivo dice qué
-falta hacer y desde cuándo.
+**Corrido el 09/11/2026**, con Sonnet y a una pasada, en dos tandas. La primera, con juez Haiku:
+0,64 con la skill y 0,18 sin ella; la segunda, con los graders corregidos y juez Sonnet, 0,83;
+reprobó `revision-trimestral-observada`, `umbral-de-la-22278`. Cómo se leyó cada falla —el juez, el
+grader, el módulo o el modelo— y qué se corrigió está en `docs/BITACORA.md`, entrada del
+09/11/2026. Una pasada mide que el caso se resuelva, no la varianza.
 
 ## Por qué este caso, y qué mide que otro no
 

@@ -328,10 +328,17 @@ El cuerpo del `SKILL.md` entra completo al activarse la skill; los `references/`
 modelo los abre. La documentación de Claude Code fija el objetivo en
 [menos de 500 renglones](https://code.claude.com/docs/en/skills.md). `TestElPresupuestoDeSKILL`
 mide la prosa contra ese objetivo y las filas de tabla contra un **trinquete**: lo que se queda
-arriba son las dos tablas que no pueden mudarse, el ruteo de la sección 16 y el vocabulario de
-marcadores que el modelo transcribe exacto. Todo lo demás va a `references/`, y la duplicación
+arriba es el vocabulario de marcadores, que el modelo transcribe exacto, y el primer nivel del
+ruteo. Todo lo demás va a `references/`, y la duplicación
 entre el `SKILL.md` y un módulo se busca antes de escribir: cuando aparece, la copia del
 `SKILL.md` es la que nadie actualiza.
+
+**El ruteo tiene dos niveles.** La sección 16 trae una fila por área y las transversales —intake,
+sede judicial, plazos, escritos, fuentes—; cada área tiene su tabla en `references/ruteo/`, que
+nombra el módulo y la sección. Así la tabla entera no se paga en cada conversación: se paga la del
+área. Las tablas de área **no son módulos** y por eso viven en su carpeta: no cuentan como
+módulo, no llevan disparador, y `ruteo.py` y `ramas_sin_disparador.py` las leen como parte del
+router. Una tabla de área que la sección 16 no nombra la reclama `test_ruteo`.
 
 **0.1 bis dice hasta dónde llega; la sección 16 dice qué abrir.** Son dos tablas de materia
 contra módulo, y `TestLaCoberturaNoRepiteElRuteo` las separa con dos reglas: una fila por materia
@@ -366,7 +373,7 @@ controla de oficio, qué significa cada marcador— no tiene fuero y vive en `se
 **la pieza que firma** es de cada fuero y va en el suyo, 1.8 y 1.9 y no subsecciones de 1.6
 porque 1.6.1 a 1.6.10 ya eran de PBA. Qué fuero hereda el código de otro se lee, no se deduce.
 
-**Partir arrastra nueve cosas**, y la suite reclama ocho: la fila de ruteo, `DISPARADORES` en el
+**Partir arrastra nueve cosas**, y la suite reclama ocho: la fila de ruteo en la tabla de su área, `DISPARADORES` en el
 test de activación, el `description` del `SKILL.md`, una consulta en `evals/RUTEO.md`, el veredicto
 de `ramas-revisadas.json`, las filas de la tabla de verificación, `docs/COBERTURA.md` y las cifras
 de módulos. La novena son las remisiones cruzadas desde otros módulos, y se busca a mano:

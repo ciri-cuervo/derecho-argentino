@@ -48,6 +48,25 @@ class TestElMapa(unittest.TestCase):
                          "estos módulos existen y ningún camino de ruteo los nombra: "
                          + ", ".join(huerfanos))
 
+    def test_las_tablas_de_area_son_parte_del_router(self):
+        """El ruteo tiene dos niveles, y el segundo cuenta como router: un módulo que sólo nombra
+        una tabla de `references/ruteo/` está a distancia 1, no 2.
+
+        MUTACIÓN que lo comprueba: devolver sólo `seccion_16()` en `seccion_de_ruteo()` deja casi
+        todos los módulos a distancia 2 —alcanzados por `intake.md`, que nombra casi todo— y este
+        test en rojo. Es la alarma que no suena: sin él, ese verde no medía el ruteo."""
+        dist = self.r.distancias()
+        self.assertGreater(len(self.r.tablas_de_area()), 5, "no encontró las tablas de área")
+        self.assertEqual(dist.get("laboral-estatutos.md"), 1,
+                         "un módulo que nombra una tabla de área no quedó a distancia 1")
+        lejos = sorted(m for m, d in dist.items() if d > 1)
+        self.assertLess(len(lejos), 5, "demasiados módulos a distancia 2: " + ", ".join(lejos))
+
+    def test_toda_tabla_de_area_tiene_su_fila(self):
+        """Una tabla de área que la sección 16 no nombra no se abre nunca.
+        MUTACIÓN: borrar de la sección 16 la fila de un área deja este test en rojo."""
+        self.assertEqual(self.r.areas_sin_fila(), [])
+
     def test_ningun_modulo_queda_a_distancia_tres(self):
         """A distancia tres un módulo existe y nadie lo abre: para llegar hay que haber leído
         antes otros dos que no venían al caso."""

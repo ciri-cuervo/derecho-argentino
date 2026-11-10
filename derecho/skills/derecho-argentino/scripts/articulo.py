@@ -110,9 +110,25 @@ def _unir_encabezados_partidos(cuerpo: list[str]) -> list[str]:
     return out
 
 
+# `Art.` solo en su renglón y abajo `102. – El título...`: el Decreto-Ley 5965/63 de InfoLEG parte
+# así dos encabezados, y sin unirlos el artículo queda pegado al anterior y no se encuentra. Va
+# antes del corte principal porque un renglón que es sólo `Art.` no puede ser otra cosa.
+def _unir_art_partido(cuerpo: list[str]) -> list[str]:
+    out, i = [], 0
+    while i < len(cuerpo):
+        if (cuerpo[i].strip() == "Art." and i + 1 < len(cuerpo)
+                and re.match(r"\s*\d+\s*[°º]?\s*\.\s*[\-—–]", cuerpo[i + 1])):
+            out.append("Art. " + cuerpo[i + 1].strip())
+            i += 2
+            continue
+        out.append(cuerpo[i])
+        i += 1
+    return out
+
+
 def partir(cuerpo: list[str]) -> dict[str, list[str]]:
     """Cada artículo con sus renglones, en orden de aparición. Lo anterior al primero se descarta."""
-    articulos = _partir(cuerpo, ENCABEZADO)
+    articulos = _partir(_unir_art_partido(cuerpo), ENCABEZADO)
     if not articulos:
         articulos = _partir(_unir_encabezados_partidos(cuerpo), ENCABEZADO_RESPALDO)
     return articulos

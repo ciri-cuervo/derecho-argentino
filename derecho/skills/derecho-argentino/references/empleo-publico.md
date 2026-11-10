@@ -131,18 +131,21 @@ previa intimación en los términos del artículo.
 
 ### 49.5 La impugnación de la sanción: hay opción, y el plazo es de noventa días
 
-**Art. 39 — el agente con estabilidad puede optar:**
+**Art. 39 — el agente con estabilidad puede optar.** La opción es sólo contra las sanciones
+aplicadas *"al personal amparado por la estabilidad prevista en este régimen"*: quien no la tiene
+no entra en este artículo. Ese agente puede:
 
 1. **Impugnar por la vía administrativa común** y, agotada ésta, ir a sede judicial; **o**
 2. **Recurrir directamente** ante el tribunal que el artículo indica.
 
 **Art. 40:** el **recurso judicial directo se interpone dentro de los noventa días de notificada la
 sanción**, y la autoridad debe remitir el expediente con el legajo **dentro de los diez días** de
-requerido.
+requerido. Los noventa días no son corridos: el artículo cierra con *"Todos los términos fijados
+en el presente artículo se computarán en días hábiles judiciales."*
 
-**Elegir una vía cierra la otra**, y el plazo de noventa días no se suspende por intentar después
-la administrativa. Es la decisión que hay que tomar temprano y con la fecha de notificación a la
-vista.
+**Elegir una vía cierra la otra:** *"La opción formulada es excluyente e inhibe la utilización de
+cualquier otra vía o acción"* (art. 39). Es la decisión que hay que tomar temprano y con la fecha
+de notificación a la vista.
 
 **El procedimiento disciplinario debe garantizar la defensa en juicio** y establecer **plazos
 perentorios e improrrogables** para resolver (art. 38), pero su detalle sale de la reglamentación.

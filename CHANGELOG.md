@@ -14,6 +14,32 @@ un renglón por cambio. El detalle de cada uno vive donde se puede verificar:
 | La doctrina de cada precedente | El módulo que la usa; el índice, en `references/fallos-csjn.md` |
 | Si el texto de un fallo se puede transcribir | `herramientas/lecturas-ocr.json` |
 
+## [1.4.5] — 2026-11-09
+
+Ruteo en dos niveles, módulos partidos por materia y treinta evals corridos: cada consulta carga
+menos contexto, y los módulos que parafraseaban la norma la citan textual.
+
+- **Ruteo en dos niveles**: la sección 16 del `SKILL.md` manda a una tabla por área en
+  `references/ruteo/`, y el `SKILL.md` baja de 58 a 40 KB.
+- **Cuatro módulos partidos por materia**: `laboral-estatutos.md`, `civil-contratos.md`,
+  `consumidor-sectores.md` y `familia-ninez.md`; las cautelares del CPCCBA pasan a
+  `proceso-pba.md`.
+- **Las rutas de la skill** se resuelven desde su directorio base y los módulos no se buscan con
+  `Glob`, que desde el directorio de quien consulta volvía vacío.
+- **Dos reglas nuevas**: no sale una respuesta de fondo sin abrir el módulo de su fila, y sin shell
+  el script se nombra con el comando armado.
+- **Cotejado textual** donde el módulo dejaba afuera la cláusula que decide: arts. 1209, 2049,
+  2050 y 2255 CCyCN, 101 y 102 del Decreto-Ley 5965/63, 223 LCT, 39 y 40 de la Ley 25.164, 118 de
+  la Ley 17.418, 1 y 19 de la Ley 26.485, y el art. 3 de la Ley 15.057, que hace improrrogable la
+  competencia territorial del fuero laboral bonaerense. El art. 2654 CCyCN queda para la
+  jurisdicción internacional.
+- **Normas nuevas**: Decretos 93 y 1253/2026 —el régimen simplificado de Ganancias—, la Ley
+  25.344 y el Anexo I del Decreto 875/2026, que se baja de InfoLEG.
+- **Evals**: veintitrés casos más en el formato de `claude plugin eval`, treinta corridos, y
+  graders y rúbricas corregidos donde afirmaban más que la norma.
+- **`articulo.py`** encuentra el artículo cuyo encabezado viene partido en dos renglones.
+- **El manifiesto declara su ícono.**
+
 ## [1.4.4] — 2026-11-01
 
 Normas y fallos de agosto a octubre de 2026, datos al día y calculadoras corregidas: varios

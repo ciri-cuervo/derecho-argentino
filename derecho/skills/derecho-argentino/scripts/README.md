@@ -135,7 +135,7 @@ hizo sin el script.
 
     python3 -m unittest discover -s . -p 'test_*.py' -v
 
-**381 tests**, sin dependencias externas, en dos grupos.
+**387 tests**, sin dependencias externas, en dos grupos.
 
 **Y repartidos en varios archivos, uno por lo que cada suite afirma.** `test_scripts.py` llegó a 6149
 renglones, **tres veces el corte de `Read`** que este repositorio le impone a los módulos, y ese
