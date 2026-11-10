@@ -36,7 +36,8 @@ derecho/                          # el plugin
   commands/                         # ocho comandos slash
   skills/derecho-argentino/
     SKILL.md                        # núcleo: apertura, integridad, marcadores, ruteo
-    references/                     # 68 módulos, numeración global estable, carga bajo demanda
+    references/                     # 72 módulos, numeración global estable, carga bajo demanda
+      ruteo/                        # segundo nivel del ruteo: una tabla por área
     scripts/                        # calculadoras, perfil, diagnóstico y tests
   fuentes/                          # capa de fuente primaria offline
     MANIFIESTO.md                   # qué hay bajado, de dónde y con qué fecha

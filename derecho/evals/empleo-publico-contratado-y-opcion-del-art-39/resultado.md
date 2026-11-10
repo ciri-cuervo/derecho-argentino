@@ -3,12 +3,11 @@ titulo: Doce años de contratos en el Estado - por qué no hay art. 245 y la opc
 ---
 # Resultado · empleo-publico-contratado-y-opcion-del-art-39
 
-**Sin correr.** El caso se escribió en septiembre de 2026 junto con el módulo que ejercita, y
-todavía nadie lo pasó por el sistema. Este archivo vale por su fecha: mientras diga esto, **no hay
-medición**.
-
-Se anota igual, y no vacío, porque un eval sin resultado es una promesa: el archivo dice qué falta
-hacer y desde cuándo.
+**Corrido el 09/11/2026**, con Sonnet y a una pasada, en dos tandas. La primera, con juez Haiku:
+0,88 con la skill y 0,50 sin ella; la segunda, con los graders corregidos y juez Sonnet, 1,00, sin
+graders reprobados. Cómo se leyó cada falla —el juez, el grader, el módulo o el modelo— y qué se
+corrigió está en `docs/BITACORA.md`, entrada del 09/11/2026. Una pasada mide que el caso se
+resuelva, no la varianza.
 
 ## Por qué este caso, y qué mide que otro no
 

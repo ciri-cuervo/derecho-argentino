@@ -360,7 +360,7 @@ innovativa; y la **de no innovar** (art. 15), para toda conservatoria. El **ampa
 16.986 está excluido**, salvo los arts. 4 inc. 2, 5, 7 y 20 (art. 19): en amparo rigen el
 informe de tres días y la vigencia de tres meses, pero no el resto.
 
-`[REVISIÓN NORMATIVA REQUERIDA: este bloque recorre los arts. 1, 2, 4 y 7 de la Ley 3.952, los arts. 1, 2, 4, 5, 8 a 10, 13 a 15 y 19 de la Ley 26.854, los arts. 1 a 3, 6, 7 y 22 de la Ley 23.982 y el art. 170 de la Ley 11.672. Los arts. 3, 6, 7, 11, 12 y 16 a 18 de la 26.854 NO están recorridos, y la línea de la CSJN sobre la constitucionalidad del plazo de vigencia del art. 5 va con marcador. La Ley 25.344 -segunda consolidación, causa o título anterior al 01/01/2000- NO está descargada: para un crédito de esa franja se dice que falta el texto]`
+`[REVISIÓN NORMATIVA REQUERIDA: este bloque recorre los arts. 1, 2, 4 y 7 de la Ley 3.952, los arts. 1, 2, 4, 5, 8 a 10, 13 a 15 y 19 de la Ley 26.854, los arts. 1 a 3, 6, 7 y 22 de la Ley 23.982 y el art. 170 de la Ley 11.672. Los arts. 3, 6, 7, 11, 12 y 16 a 18 de la 26.854 NO están recorridos, y la línea de la CSJN sobre la constitucionalidad del plazo de vigencia del art. 5 va con marcador. La Ley 25.344 -segunda consolidación, art. 13: obligaciones de causa o título posterior al 31/03/1991 y anterior al 01/01/2000- está bajada en fuentes/normas/ley-25344.txt y NO está recorrida acá: para un crédito de esa franja se abre su texto antes de afirmar cómo se cobra]`
 
 ### 46.5 sexies Las contrataciones de la Nación — Decreto 1023/2001
 
@@ -437,7 +437,7 @@ la factura salvo pliego distinto (art. 91).
 - **Del proceso contencioso administrativo federal trae sólo lo que 46.5 quinquies recorre**: el
   reclamo previo y el silencio de la Ley 3.952 y las cautelares de la Ley 26.854. El trámite ante
   el fuero va por el CPCCN, `proceso-nacional.md` 44. De la ejecución de la condena trae la
-  Ley 23.982 y el art. 170 de la Ley 11.672, no la Ley 25.344.
+  Ley 23.982 y el art. 170 de la Ley 11.672; la Ley 25.344 está bajada y sin recorrer.
 - **No cubre PBA**, que tiene su Ley 12.008 y su módulo.
 - **No trae el régimen de empleo público**, que es `empleo-publico.md` 49. De las contrataciones
   trae el Decreto 1023/2001 y su reglamento en 46.5 sexies, sin la obra pública.

@@ -85,7 +85,14 @@ pedir lo que el artículo excluye.
 1. **Privilegio y citación en garantía (art. 118).** El crédito del damnificado tiene **privilegio
    sobre la suma asegurada**, con preferencia sobre el asegurado y sus acreedores, **aun en quiebra
    o concurso**. Y el damnificado puede **citar en garantía al asegurador hasta que se reciba la
-   causa a prueba** — vencida esa etapa, no.
+   causa a prueba** — vencida esa etapa, no. **El asegurado demandado también puede, y por el
+   mismo artículo:** el último párrafo dice *"También el asegurado puede citar en garantía al
+   asegurador en el mismo plazo y con idénticos efectos"*. La cita del asegurado **no depende del
+   art. 94 CPCCBA**, que es la intervención obligada genérica y le da al demandado un plazo más
+   corto: *"dentro del plazo para oponer excepciones previas o para contestar la demanda"*. Por el texto
+   del art. 118, al asegurado que dejó pasar ese plazo todavía le queda hasta que se reciba la
+   causa a prueba; cómo lo lee el tribunal es lo que dice el marcador.
+   `[VERIFICAR CRITERIO DEL FUERO: si la citación del asegurador por el asegurado demandado se rige por el plazo del art. 118 de la Ley 17.418 o por el del art. 94 CPCCBA - fuero civil y comercial del departamento judicial]`
 2. **Dolo o culpa grave (art. 114).** El asegurado no tiene derecho a ser indemnizado cuando
    provoca el hecho dolosamente o por culpa grave.
 3. **No reconocer ni transar sin la aseguradora (art. 116).** El asegurado no puede reconocer su

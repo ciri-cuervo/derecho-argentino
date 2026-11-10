@@ -845,6 +845,16 @@ class TestLosDosManifiestosDicenLoMismo(unittest.TestCase):
             "Análisis, redacción y revisión jurídica bajo derecho argentino"),
             "las tres fichas dejaron de abrir con la misma frase")
 
+    def test_el_icono_existe_y_es_el_del_portable(self):
+        """El validador del directorio de plugins busca `icon` y lo toma una sola vez.
+        MUTACIÓN: apuntarlo a un archivo que no existe deja este test en rojo."""
+        icono = self.plugin.get("icon")
+        self.assertIsNotNone(icono, "el manifiesto de Claude no declara `icon`")
+        self.assertTrue((RAIZ_DEL_CHECKOUT / "derecho" / icono).is_file(), f"no existe {icono}")
+        portable = json.loads((RAIZ_DEL_CHECKOUT / "derecho" / "plugin.json")
+                              .read_text(encoding="utf-8"))
+        self.assertEqual(icono, portable["interface"]["logo"], "los manifiestos muestran íconos distintos")
+
     def test_las_keywords_no_llevan_acento(self):
         """Se comparan y se tipean: van en ASCII, como cualquier identificador."""
         for k in self.plugin["keywords"]:
@@ -1863,6 +1873,17 @@ class TestElCorteDeRespaldo(unittest.TestCase):
         self.assertIn("El asueto no inhabilita el día", " ".join(rjn["3"]))
         self.assertIn("administración financiera", " ".join(self._arts("ley-24156")["1"]))
         self.assertIn("1", self._arts("scba-acuerdo-4000-2020"))
+
+    def test_el_encabezado_partido_tambien_en_el_corte_principal(self):
+        """`Art.` solo en un renglón y el número abajo: el art. 102 del Decreto-Ley 5965/63 no
+        salía, porque el texto tiene otros cien artículos y el respaldo no corre.
+
+        MUTACIÓN que lo comprueba: devolver `cuerpo` sin tocar en `_unir_art_partido` deja en
+        rojo este test."""
+        arts = self._arts("decreto-ley-5965-1963")
+        self.assertIn("no es válido como pagaré", " ".join(arts["102"]))
+        self.assertIn("no se presentara para el pago", " ".join(arts["45"]))
+        self.assertNotIn("no es válido como pagaré", " ".join(arts["101"]))
 
     def test_en_memoria(self):
         import articulo

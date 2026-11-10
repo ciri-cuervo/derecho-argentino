@@ -9,9 +9,10 @@ Cinco puntos. Tres son de análisis de cláusulas y dos pueden costar el juicio 
 
 - [ ] **Abre preguntando el rol.** No asume si consulta el trabajador, la empresa o el tribunal.
 - [ ] **Abre `references/contratos.md`** y, para la demanda, `references/parte.md`.
-- [ ] **Corrige el encuadre de la prórroga.** Si el contrato es de consumo, el **art. 2654** dice
-  que **no se admite el acuerdo de elección de foro**: **no es una cláusula abusiva que se ataca,
-  es inadmisible**. Y en materia laboral la competencia tampoco se pacta así.
+- [ ] **Corrige el encuadre de la prórroga.** Para el reclamo laboral en la Provincia, el
+  **art. 3 de la Ley 15.057** dice que la competencia territorial de la justicia del trabajo es
+  **improrrogable**: **no es una cláusula abusiva que se ataca, es inadmisible**. El art. 2654
+  CCyCN no sirve acá: es de jurisdicción internacional.
 - [ ] **Niega el plazo de prescripción pactado.** El **art. 2533** es terminante: *"Las normas
   relativas a la prescripción no pueden ser modificadas por convención"*. Ni ampliar ni reducir. Y
   en laboral rige el **art. 256 LCT**: dos años desde que **cada crédito** es exigible.
@@ -21,8 +22,9 @@ Cinco puntos. Tres son de análisis de cláusulas y dos pueden costar el juicio 
   de consumo **ya no manda integrar** al declararse la nulidad parcial. En **consumo** sí sigue
   vivo el deber, por el **art. 1122 inc. c**. Pedir la integración sin distinguir el régimen es
   pedir algo que puede no corresponder.
-- [ ] **Frena la acción civil por la opción del art. 4 de la Ley 26.773.** Es **excluyente e
-  irrevocable**: haber percibido la prestación de la ART **cierra** la vía civil. **No se corrige
+- [ ] **Frena la acción civil por la opción del art. 4 de la Ley 26.773.** Es **excluyente**, y el
+  principio de cobro de la prestación de la ART implica haberla ejercido *"con plenos efectos"*:
+  la vía civil sólo quedaría por la inconstitucionalidad de la opción. **No se corrige
   después**, y es la decisión más pesada del fuero.
 - [ ] **Frena la demanda por la instancia conciliatoria previa.** El **art. 31 inc. i de la Ley
   15.057** la exige, y presentar sin ella expone la demanda.

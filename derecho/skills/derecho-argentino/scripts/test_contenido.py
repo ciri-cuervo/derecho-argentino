@@ -51,7 +51,8 @@ class TestLaSkillNoNombraLoQueNoSeInstala(unittest.TestCase):
 
     def test_ningun_modulo_manda_a_una_ruta_del_repositorio(self):
         skill = RAIZ_DEL_CHECKOUT / "derecho" / "skills" / "derecho-argentino"
-        archivos = [skill / "SKILL.md"] + sorted((skill / "references").glob("*.md"))
+        archivos = ([skill / "SKILL.md"] + sorted((skill / "references").glob("*.md"))
+                    + sorted((skill / "references" / "ruteo").glob("*.md")))
         rotas = []
         for a in archivos:
             for n, linea in enumerate(a.read_text(encoding="utf-8").splitlines(), 1):
@@ -116,6 +117,7 @@ class TestVocabularioDeMarcadores(unittest.TestCase):
         archivos = [self.skill / "SKILL.md"]
         archivos += [p for p in sorted((self.skill / "references").glob("*.md"))
                      if p.name != "marcadores.md"]
+        archivos += sorted((self.skill / "references" / "ruteo").glob("*.md"))
         archivos += sorted(self.skill.parent.parent.glob("evals/**/*.md"))
         return archivos
 
@@ -317,7 +319,8 @@ class TestRutasCitadasPorLaSkill(unittest.TestCase):
         self.skill = raiz / "derecho" / "skills" / "derecho-argentino"
 
     def test_las_rutas_que_citan_los_modulos_existen(self):
-        archivos = [self.skill / "SKILL.md"] + sorted((self.skill / "references").glob("*.md"))
+        archivos = ([self.skill / "SKILL.md"] + sorted((self.skill / "references").glob("*.md"))
+                    + sorted((self.skill / "references" / "ruteo").glob("*.md")))
         citadas = 0
         for archivo in archivos:
             for numero, linea in enumerate(archivo.read_text(encoding="utf-8").splitlines(), 1):
@@ -359,6 +362,9 @@ class TestLaDisciplinaDeLectura(unittest.TestCase):
         skill = Path(__file__).resolve().parents[1] / "SKILL.md"
         self.texto = skill.read_text(encoding="utf-8")
         self.ruteo = self.texto.split("## 16 · Ruteo")[1]
+        # El segundo nivel del ruteo: las filas que nombran sección viven en las tablas de área.
+        self.areas = "\n".join(p.read_text(encoding="utf-8") for p in
+                               sorted((skill.parent / "references" / "ruteo").glob("*.md")))
 
     def test_la_regla_de_leer_una_vez_esta_escrita(self):
         for pieza in ("se lee UNA vez y ENTERO",
@@ -373,7 +379,8 @@ class TestLaDisciplinaDeLectura(unittest.TestCase):
                                 f"cada turno que queda")
 
     def test_las_filas_que_nombran_seccion_no_bajan(self):
-        filas = [l for l in self.ruteo.split("\n") if l.startswith("| ") and "---" not in l]
+        filas = [l for l in (self.ruteo + "\n" + self.areas).split("\n")
+                 if l.startswith("| ") and "---" not in l]
         self.assertGreater(len(filas), 50, "no encontró la tabla de ruteo: el control está apagado")
         con = [l for l in filas
                if re.search(r"`(?:references/)?[a-z0-9-]+\.md`\s+\d", l)]
@@ -395,11 +402,11 @@ class TestElPresupuestoDeSKILL(unittest.TestCase):
 
     **Se miden dos cosas distintas y por eso hay dos topes.** Los 500 documentados se aplican a la
     **prosa**, que es lo que se infla: explicaciones que ya están en un módulo, estados anteriores,
-    la misma regla dicha dos veces. Las **filas de tabla** son otra cosa —el ruteo de la sección 16
-    y el vocabulario de marcadores de la sección 3—, y son justamente lo que la documentación manda
-    dejar acá: navegación, y un vocabulario que el modelo transcribe **exacto** en cada respuesta y
-    no va a abrir un módulo para copiar un corchete. Un módulo nuevo agrega una fila y eso es
-    cobertura, no deuda.
+    la misma regla dicha dos veces. Las **filas de tabla** son otra cosa —el primer nivel del ruteo
+    de la sección 16 y el vocabulario de marcadores de la sección 3—, y son justamente lo que la
+    documentación manda dejar acá: navegación, y un vocabulario que el modelo transcribe **exacto**
+    en cada respuesta y no va a abrir un módulo para copiar un corchete. Un módulo nuevo agrega su
+    fila a la tabla de su área en `references/ruteo/`, no acá.
 
     **Contarlas juntas rompía el control en la dirección equivocada:** un módulo nuevo ponía el
     suite en rojo y lo que se aprendía era a subir el número. Separadas, la prosa tiene el tope
@@ -410,7 +417,7 @@ class TestElPresupuestoDeSKILL(unittest.TestCase):
     """
 
     PROSA = 500        # el tope documentado por Claude Code
-    TABLA = 180        # trinquete: las filas de hoy con margen para módulos nuevos
+    TABLA = 100        # trinquete: las de hoy con margen; un módulo nuevo va a la tabla de su área
 
     def setUp(self):
         self.archivo = (RAIZ_DEL_CHECKOUT / "derecho" / "skills" / "derecho-argentino"
@@ -429,13 +436,53 @@ class TestElPresupuestoDeSKILL(unittest.TestCase):
     def test_las_tablas_no_explotan(self):
         self.assertLessEqual(
             len(self.filas), self.TABLA,
-            f"{len(self.filas)} filas de tabla contra un trinquete de {self.TABLA}. Una fila por "
-            f"módulo nuevo es esperable; veinte de golpe es una tabla que se copió de un módulo.")
+            f"{len(self.filas)} filas de tabla contra un trinquete de {self.TABLA}. La fila de un "
+            f"módulo nuevo va a la tabla de su área en references/ruteo/, no al SKILL.md.")
 
     def test_el_control_mira_el_archivo_que_cree(self):
         """Instrumento encendido: si la ruta o el formato cambiaran, los topes no medirían nada."""
         self.assertGreater(self.prosa, 300, "midió menos prosa de la posible: ¿está leyendo el archivo?")
-        self.assertGreater(len(self.filas), 80, "no encontró las tablas de ruteo y de marcadores")
+        self.assertGreater(len(self.filas), 60, "no encontró las tablas de ruteo y de marcadores")
+class TestLasRutasSonDelDirectorioBase(unittest.TestCase):
+    """Las rutas `references/` y `scripts/` de la skill son relativas a su directorio base, no
+    al de trabajo, y el `SKILL.md` lo tiene que decir.
+
+    La corrida de evals del 09/11/2026 lo midió en las trazas: 36 de 79 `Glob` volvieron vacíos,
+    en 21 casos, porque `**/laboral.md` se resuelve desde el directorio de trabajo, que es el de
+    quien consulta. En dos casos la respuesta salió sin abrir ningún módulo.
+
+    MUTACIÓN que lo comprueba: borrar del `SKILL.md` el párrafo «Toda ruta `references/` o
+    `scripts/`» deja en rojo a los dos tests.
+    """
+
+    def setUp(self):
+        texto = self.texto = (RAIZ_DEL_CHECKOUT / "derecho" / "skills" / "derecho-argentino"
+                              / "SKILL.md").read_text(encoding="utf-8")
+        self.organizacion = re.sub(r"\s+", " ", texto.split("## Cómo está organizada")[1]
+                                   .split("\n## ")[0])
+
+    def test_dice_desde_donde_se_resuelven(self):
+        self.assertIn("es relativa a su directorio base", self.organizacion,
+                      "«Cómo está organizada» dejó de decir que las rutas son del directorio base")
+
+    def test_no_se_responde_el_fondo_sin_abrir_el_modulo(self):
+        """Dos corridas del 09/11/2026 contestaron sin un solo `Read`, y las dos perdieron justo lo
+        que el módulo traía. MUTACIÓN: borrar la frase de la sección 16 lo deja en rojo."""
+        ruteo = re.sub(r"\s+", " ", self.texto.split("## 16 · Ruteo")[1])
+        self.assertIn("Una respuesta de fondo sin haber abierto el módulo de su fila no sale", ruteo)
+
+    def test_sin_shell_el_script_se_nombra(self):
+        """Sin shell, una corrida no nombró `honorarios_pba.py` y dejó al abogado sin salida.
+        MUTACIÓN: borrar la frase de «Scripts» lo deja en rojo."""
+        scripts = re.sub(r"\s+", " ", self.texto.split("### Scripts")[1])
+        self.assertIn("el script se nombra igual, con el comando armado con los datos del caso",
+                      scripts)
+
+    def test_prohibe_buscar_los_modulos_con_glob(self):
+        self.assertIn("No se buscan con `Glob`", self.organizacion,
+                      "«Cómo está organizada» dejó de prohibir el Glob relativo para los módulos")
+
+
 class TestLaCoberturaNoRepiteElRuteo(unittest.TestCase):
     """0.1 bis dice **hasta dónde llega** cada materia; la sección 16 dice **qué módulo abrir**.
 
@@ -625,6 +672,7 @@ class TestLasRemisionesApuntanAUnaSeccionQueExiste(unittest.TestCase):
                      for m in self.ENCABEZADO.finditer(p.read_text(encoding="utf-8"))}
             for p in sorted(self.refs.glob("*.md"))}
         self.archivos = ([skill / "SKILL.md"] + sorted(self.refs.glob("*.md"))
+                         + sorted((self.refs / "ruteo").glob("*.md"))
                          + sorted((raiz / "docs").glob("*.md"))
                          + [raiz / "AGENTS.md", raiz / "README.md", raiz / "LICENCIAS.md"])
 
@@ -1145,6 +1193,8 @@ class TestElDescriptionDeLaSkillActivaTodasLasRamas(unittest.TestCase):
         "consumidor.md": ("consumidor", "abusivas"),
         "contencioso-pba.md": ("contencioso administrativa",),
         "contratos.md": ("contratos",),
+        "consumidor-sectores.md": ("tarjeta de crédito",),
+        "civil-contratos.md": ("contratos",),
         "datos-personales.md": ("datos personales", "hábeas data"),
         "derechos-reales.md": ("derechos reales", "usucapión", "propiedad horizontal"),
         "dipr.md": ("elemento extranjero", "jurisdicción internacional"),
@@ -1152,6 +1202,7 @@ class TestElDescriptionDeLaSkillActivaTodasLasRamas(unittest.TestCase):
         "ejecucion.md": ("ejecución de sentencia",),
         "firma-digital.md": ("firma digital", "documento electrónico"),
         "familia.md": ("alimentos", "divorcio"),
+        "familia-ninez.md": ("adopción",),
         "honorarios-caba.md": ("UMA",),
         "honorarios-nacional.md": ("UMA",),
         "honorarios-pba.md": ("jus",),
@@ -1159,6 +1210,7 @@ class TestElDescriptionDeLaSkillActivaTodasLasRamas(unittest.TestCase):
         "laboral-riesgos.md": ("accidente de trabajo", "ART"),
         "violencia-digital.md": ("violencia digital", "difusión de material íntimo"),
         "laboral-licencias.md": ("licencia por maternidad", "suspensión disciplinaria"),
+        "laboral-estatutos.md": ("casas particulares",),
         "laboral.md": ("despido", "liquidación"),
         "laboral-colectivo.md": ("convenio colectivo",),
         "penal-leyes-especiales.md": ("hábeas corpus", "estupefacientes"),

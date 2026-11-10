@@ -748,7 +748,7 @@ class TestAmbitoDeLaLCT(unittest.TestCase):
 
 class TestLosEstatutosNoSeLiquidanComoLCT(unittest.TestCase):
     """Casas particulares, construcción, viajantes y encargados de edificio tienen estatuto
-    propio (`laboral.md` 5.17 quinquies y sexies), y el script liquida la LCT: sin el corte,
+    propio (`laboral-estatutos.md` 5.17 quinquies y sexies), y el script liquida la LCT: sin el corte,
     devuelve preaviso, integración y art. 245 con aspecto de correctos para una relación que
     no los tiene. Es la misma falla que `TestAmbitoDeLaLCT` y el mismo remedio.
 

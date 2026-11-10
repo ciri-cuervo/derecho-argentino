@@ -107,6 +107,31 @@ por la Ley 14.731 — el detalle y su cómputo están en `familia.md` 18.6.
 
 `[VERIFICAR VIGENCIA: alcance en PBA de los apartados a.8 y a.9 del art. 26 de la Ley 26.485 texto Ley 27.736 - la adhesión provincial es a la ley nacional y no a la reforma de 2023; confirmar si el departamento judicial las aplica directamente o exige norma provincial]`
 
+**Por qué la pregunta existe: el art. 26 es procesal, y lo procesal no rige solo en todo el
+país.** El art. 1 de la Ley 26.485 dice que sus disposiciones *"son de orden público y de
+aplicación en todo el territorio de la República, con excepción de las disposiciones de carácter
+procesal establecidas en el Capítulo II del Título III de la presente"*. Ese capítulo es
+«Procedimiento», arts. 19 a 40, y el art. 26 está adentro. El art. 19 dice qué hacen las
+provincias con él: *"dictarán sus normas de procedimiento o adherirán al régimen procesal previsto
+en la presente ley"*. **Así que el ap. a.9 rige en PBA por la adhesión o no rige**, y la adhesión
+de la Ley 14.407 es una de las bases de una emergencia con plazo (art. 1 inc. a: *"Adherir e
+implementar la Ley Nacional 26.485"*). El marcador de arriba **queda abierto**: ni el texto de la
+26.485 ni el de la 14.407 dicen que la medida no rija en PBA, y tampoco que rija.
+
+**Mientras no esté verificado, se pide igual, y con subsidio:**
+
+1. **La supresión del art. 26 ap. a.9**, invocando la adhesión de la Ley 14.407, con la URL
+   específica de cada contenido, que es lo que el apartado exige identificar en la orden.
+2. **En subsidio, las medidas del art. 7 de la Ley 12.569**: el inc. a, *"Ordenar al presunto
+   agresor el cese de los actos de perturbación o intimidación contra la o las víctimas"*, y el
+   inc. n, *"Toda otra medida urgente que estime oportuna para asegurar la custodia y protección de
+   la víctima"*. **La 12.569 no trae una orden de supresión dirigida a la plataforma**: el inc. n
+   es la puerta, no la medida. **Y sólo alcanza la violencia en el ámbito del grupo familiar**
+   (art. 1); fuera de él el subsidio no está.
+
+**Un «no rige» no se escribe** sobre esta base: es cerrar lo que la fuente deja abierto, y deja
+a la víctima sin pedir la única medida que nombra a la plataforma.
+
 `[INSERTAR FALLO VERIFICADO: no hay precedente bajado sobre la orden de supresión del art. 26 ap. a.9 - en particular sobre qué grado de identificación de la URL se exige y sobre el alcance del emplazamiento por el art. 122 de la Ley 19.550 a una plataforma del exterior - aportar carátula, sala, fuero y año]`
 
 ## 59.6 Lo que este módulo NO hace

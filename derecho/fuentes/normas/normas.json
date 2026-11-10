@@ -460,7 +460,7 @@
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/410000-414999/414802/norma.htm",
       "prioridad": 2,
-      "nota": "B.O. 07/07/2025, hermano del Decreto 451/2025 que ordenó la Ley 24.076 del gas. Además del texto ordenado -ANEXO II- introduce adecuaciones de fondo, así que no es sólo renumeración: consumidor.md 17.11.5 quater."
+      "nota": "B.O. 07/07/2025, hermano del Decreto 451/2025 que ordenó la Ley 24.076 del gas. Además del texto ordenado -ANEXO II- introduce adecuaciones de fondo, así que no es sólo renumeración: consumidor-sectores.md 17.11.5 quater."
     },
     {
       "slug": "decreto-451-2025",
@@ -468,7 +468,7 @@
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/410000-414999/414810/norma.htm",
       "prioridad": 2,
-      "nota": "B.O. 07/07/2025. Es el acto del que sale la RENUMERACIÓN del marco regulatorio del gas: la jurisdicción previa del ente pasó del art. 66 al 53, y el corrimiento no es parejo -los arts. 9 y 14 conservan su número-. Lo pide consumidor.md 17.11.5 bis, donde toda cita anterior a julio de 2025 usa la numeración vieja."
+      "nota": "B.O. 07/07/2025. Es el acto del que sale la RENUMERACIÓN del marco regulatorio del gas: la jurisdicción previa del ente pasó del art. 66 al 53, y el corrimiento no es parejo -los arts. 9 y 14 conservan su número-. Lo pide consumidor-sectores.md 17.11.5 bis, donde toda cita anterior a julio de 2025 usa la numeración vieja."
     },
     {
       "slug": "decreto-467-1988",
@@ -514,7 +514,7 @@
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/135000-139999/139253/norma.htm",
       "prioridad": 1,
-      "nota": "Su art. 1° dice, textual, 'Obsérvase el Artículo 32 del Proyecto de ley registrado bajo el N° 26.361'. Ese art. 32 derogaba el art. 63 LDC, así que del veto depende que el Código Aeronáutico siga desplazando a la LDC en transporte aéreo: consumidor.md 17.11.5 ter. Ficha InfoLEG id 139253, decreto del 3/4/2008; la ficha registra una resolución posterior del 28/10/2009 que declaró su validez",
+      "nota": "Su art. 1° dice, textual, 'Obsérvase el Artículo 32 del Proyecto de ley registrado bajo el N° 26.361'. Ese art. 32 derogaba el art. 63 LDC, así que del veto depende que el Código Aeronáutico siga desplazando a la LDC en transporte aéreo: consumidor-sectores.md 17.11.5 ter. Ficha InfoLEG id 139253, decreto del 3/4/2008; la ficha registra una resolución posterior del 28/10/2009 que declaró su validez",
       "url_alternativa": "https://www.argentina.gob.ar/normativa/nacional/decreto-565-2008-139253/texto"
     },
     {
@@ -573,6 +573,14 @@
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/420000-424999/423013/norma.htm",
       "prioridad": 2,
       "nota": "Reglamenta la Ley 27.799. Las resoluciones generales de ARCA que la completan NO están cargadas y se citan por su número."
+    },
+    {
+      "slug": "decreto-1253-2026",
+      "titulo": "Decreto 1253/2026 - sustituye la reglamentación del Capítulo III del Título II de la Ley 27.799",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/430000-434999/431528/norma.htm",
+      "prioridad": 2,
+      "nota": "B.O. 23/10/2026, id InfoLEG 431528. Sustituye la reglamentación del régimen simplificado de Ganancias que había aprobado el Decreto 93/2026: tributario.md 33.1 bis."
     },
     {
       "slug": "decreto-941-2025",
@@ -879,7 +887,7 @@
       "jurisdiccion": "nacional",
       "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/0-4999/464/texact.htm",
       "prioridad": 2,
-      "nota": "Gemela de la Ley 24.076: el Decreto 450/2025 aprobó su TEXTO ORDENADO el mismo día que el 451/2025 aprobó el del gas. Antes de citar un artículo hay que mirar de qué texto sale, igual que en consumidor.md 17.11.5 bis."
+      "nota": "Gemela de la Ley 24.076: el Decreto 450/2025 aprobó su TEXTO ORDENADO el mismo día que el 451/2025 aprobó el del gas. Antes de citar un artículo hay que mirar de qué texto sale, igual que en consumidor-sectores.md 17.11.5 bis."
     },
     {
       "slug": "ley-24076",
@@ -2273,6 +2281,14 @@
       "nota": "B.O. 20/01/2021, id InfoLEG 346325. Reglamenta la reversibilidad, la compensación de gastos y el registro de empresas. laboral-licencias.md 5.14 bis."
     },
     {
+      "slug": "ley-25344",
+      "titulo": "Ley 25.344 - Emergencia económico-financiera y segunda consolidación de deudas del Estado nacional (texto actualizado)",
+      "jurisdiccion": "nacional",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/65000-69999/65053/texact.htm",
+      "prioridad": 2,
+      "nota": "B.O. 21/11/2000, id InfoLEG 65053. Con la Ley 23.982 y el art. 170 de la Ley 11.672 es el régimen de ejecución de las condenas contra la Nación. Su art. 13 consolida las obligaciones vencidas o de causa o título posterior al 31/03/1991 y anterior al 01/01/2000 -las previsionales del régimen general, posterior al 31/08/1992-, con fecha de consolidación el 31/12/1999: administrativo-nacional.md 46.5 quinquies."
+    },
+    {
       "slug": "ley-23982",
       "titulo": "Ley 23.982 - Consolidación de deudas del Estado nacional (texto actualizado)",
       "jurisdiccion": "nacional",
@@ -2316,9 +2332,10 @@
       "slug": "decreto-875-2026",
       "titulo": "Decreto 875/2026 - Reglamentación del Régimen Penal Juvenil",
       "jurisdiccion": "nacional",
-      "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/346953/20260907",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/425000-429999/429701/norma.htm",
       "prioridad": 2,
-      "nota": "B.O. 07/09/2026. El aviso trae el articulado propio (15 artículos: autoridad de aplicación, registro de supervisores, comités, vigencia conjunta con la ley) y NO el Anexo I, que es la reglamentación artículo por artículo: el Boletín Oficial lo publica como imagen en la edición web. La marca REVISAR del descargador es real."
+      "nota": "B.O. 07/09/2026, id InfoLEG 429701. Se baja de InfoLEG y no del aviso del Boletín Oficial porque el Boletín publica el Anexo I -la reglamentación artículo por artículo- como imagen, y InfoLEG lo transcribe: 15 artículos del decreto y 19 del anexo.",
+      "url_alternativa": "https://www.boletinoficial.gob.ar/detalleAviso/primera/346953/20260907"
     },
     {
       "slug": "ley-27826",

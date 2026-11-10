@@ -3,12 +3,11 @@ titulo: Difusión de material íntimo - la orden de baja del art. 26 ap. a.9 y l
 ---
 # Resultado · violencia-digital-baja-de-contenido-y-prueba
 
-**Sin correr.** El caso se escribió en septiembre de 2026 junto con el módulo que ejercita, y
-todavía nadie lo pasó por el sistema. Este archivo vale por su fecha: mientras diga esto, **no hay
-medición**.
-
-Se anota igual, y no vacío, porque un eval sin resultado es una promesa: el archivo dice qué falta
-hacer y desde cuándo.
+**Corrido el 09/11/2026**, con Sonnet y a una pasada, una sola vez: con juez Haiku, 0,50 con la
+skill y 0,50 sin ella. La segunda tanda cortó por el techo de costo antes de lanzarlo. Cómo se leyó
+cada falla —el juez, el grader, el módulo o el modelo— y qué se corrigió está en
+`docs/BITACORA.md`, entrada del 09/11/2026. Una pasada mide que el caso se resuelva, no la
+varianza.
 
 **Qué mide que otro no.** Es el primer caso donde **la respuesta correcta se pierde por lo que no
 se pide**: la baja del contenido es lo que el consultante viene a buscar, y pedirla sola borra la

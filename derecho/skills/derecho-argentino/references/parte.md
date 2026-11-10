@@ -62,6 +62,29 @@ demanda vuelve por el art. 32.
 **Competencia.** Ante duda, resolver primero: es una de las cuatro excepciones previas
 admisibles y una demanda mal radicada cuesta tiempo con la prescripción corriendo.
 
+**La territorial no se pacta, y la regla depende del régimen.** El art. 3 de la Ley 15.057
+deja al trabajador elegir entre el juzgado del domicilio del demandado, el del lugar de
+prestación y el de celebración del contrato, obliga al empleador a demandar en el del domicilio
+del trabajador, y cierra: *"La competencia territorial de la Justicia Provincial del Trabajo es
+improrrogable."* El artículo está replicado en el Anexo de la Res. SC 1840/2024, así que opera.
+Una cláusula de prórroga de jurisdicción en un contrato de trabajo para PBA queda alcanzada: no
+puede llevar el pleito a otro departamento judicial ni sacar al trabajador de las opciones del
+artículo.
+
+El art. 3 de la **Ley 11.653**, que sigue rigiendo por ultraactividad las causas con audiencia
+de vista celebrada (`sede-judicial-pba.md`, 1.6.1), trae las mismas opciones y la misma carga
+para el empleador, pero **no tiene esa frase final**. En ese régimen la prórroga queda librada
+al CPCCBA supletorio (art. 63 de la Ley 11.653, *"en cuanto concuerden con el sistema de la
+presente ley"*), cuyo art. 1 exceptúa de la improrrogabilidad *"la competencia territorial en
+los asuntos exclusivamente patrimoniales, que podrá ser prorrogada de conformidad de partes"*.
+`[VERIFICAR CRITERIO DEL FUERO: si bajo la Ley 11.653 la competencia territorial del Tribunal del Trabajo admitía prórroga por el art. 1 del CPCCBA, o la excluía el sistema protectorio de la ley - Tribunal del Trabajo actuante]`
+
+En los dos regímenes el art. 6, después de la inhibición de oficio por la materia, agrega que
+*"una vez contestada la demanda o perdido el derecho de hacerlo sin objetarse la competencia,
+ésta quedará fijada definitivamente"*. El texto no dice si eso alcanza a la territorial que la
+Ley 15.057 declara improrrogable.
+`[VERIFICAR CRITERIO DEL FUERO: si el art. 6, segundo párrafo, alcanza a la competencia territorial declarada improrrogable por el art. 3 de la Ley 15.057, o sólo a la material del primer párrafo - Tribunal del Trabajo actuante]`
+
 **Régimen aplicable.** La fecha del acto extintivo decide el tramo de reforma (5.1) y la
 fecha de la audiencia de vista decide el código procesal (`sede-judicial-pba.md`, 1.6.1). Los
 dos se determinan antes de escribir, no mientras se escribe.

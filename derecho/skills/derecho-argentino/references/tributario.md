@@ -92,6 +92,36 @@ desde el 01/01/2025 (art. 13).
 
 Cotejado contra `fuentes/normas/ley-27826.txt`.
 
+**La reglamentación vigente es la del Decreto 1253/2026** (B.O. 23/10/2026, vigente desde su
+publicación, art. 7), que **sustituyó** la que había aprobado el **Decreto 93/2026** (B.O.
+09/02/2026) y la adaptó a la Ley 27.826. Los dos están en `fuentes/normas/`: `decreto-1253-2026.txt`
+y `decreto-93-2026.txt`. Lo que cambia el consejo:
+
+- **Discrepancia significativa** (art. 2, que sustituye el segundo artículo sin número a
+  continuación del art. 53 del Decreto 1397/79): un incremento del impuesto determinado o una
+  reducción del quebranto **no inferior al quince por ciento**, o que **supere el importe del art. 1
+  del Régimen Penal Tributario** vigente al vencimiento de la declaración. Con **facturas apócrifas**
+  o con ingresos directos computados improcedentemente *"la discrepancia significativa quedará
+  configurada con independencia del importe"*. Y no cuenta la rectificativa presentada **dentro de
+  quince días hábiles** de notificada la liquidación del art. 14 o la determinación del art. 17 de
+  la Ley 11.683, si el saldo se cancela o regulariza.
+- **Saldo regularizado** es el cancelado en su totalidad o incluido en un plan de facilidades de
+  ARCA **dentro del plazo de vencimiento** (art. 2 del Decreto 93/2026, primer artículo sin número
+  a continuación del art. 53 del Decreto 1397/79, que el 1253 no tocó).
+- **La reducción de multas formales** de los arts. 49 bis de la Ley 11.683 y 17 de la Ley 27.826
+  rige de pleno derecho para mipymes, personas humanas, sucesiones indivisas y entidades sin fines
+  de lucro que no sean Grandes Contribuyentes Nacionales (arts. 3 y 4 del 1253).
+- **Período 2025 presentado por el régimen general**: se puede pasar al simplificado rectificando
+  hasta el vencimiento de la declaración simplificada, si se cumplen los requisitos con la reforma
+  de la Ley 27.826 (art. 5 del 1253).
+- **Regla intertemporal** (art. 6 del Decreto 93/2026): las multas formales anteriores a la Ley
+  27.799 se cancelan con el importe vigente al incumplimiento, y las posteriores con el vigente al
+  cancelar; para los delitos del Régimen Penal Tributario, a los hechos anteriores se les aplican
+  los importes del Título I de la Ley 27.799, y a los posteriores el vigente al momento de la
+  comisión.
+
+`[VERIFICAR VIGENCIA: resoluciones generales de ARCA que dicta el art. 6 del Decreto 1253/2026 para el régimen simplificado y la reducción de multas - no están cargadas; confirmar las condiciones antes de aconsejar la adhesión]`
+
 ### 33.2 Los recursos del art. 76 — la opción que cierra puertas
 
 **Contra qué procede.** Resoluciones que **impongan sanciones**, que **determinen tributos y

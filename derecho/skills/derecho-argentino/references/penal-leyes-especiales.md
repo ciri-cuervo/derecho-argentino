@@ -327,9 +327,14 @@ federal, se rige por el **sistema acusatorio del CPPF** conforme al cronograma d
 **La reglamenta el Decreto 875/2026** (B.O. 07/09/2026), en `fuentes/normas/decreto-875-2026.txt`:
 su art. 2 designa al **Ministerio de Justicia** autoridad de aplicación en el ámbito nacional y
 federal, y su art. 14 lo hace regir *"conjuntamente con la Ley N° 27.801"*. La reglamentación
-artículo por artículo es su **Anexo I**, y el Boletín Oficial no la transcribe en el aviso:
+es su **Anexo I**, que el archivo trae transcripto desde InfoLEG: diecinueve artículos en cuatro
+capítulos —atención a las víctimas, el supervisor, convenios y capacitación, y la comunicación al
+Registro Nacional de Reincidencia—. **No reglamenta la ley artículo por artículo**, y el capítulo
+del supervisor dice su alcance: *"Las disposiciones del presente Capítulo se aplican a los
+supervisores que actúen en procesos de competencia nacional ordinaria y federal"* (art. 3 del
+Anexo). Para un proceso provincial, el supervisor no sale de este decreto.
 
-`[VERIFICAR VIGENCIA: Anexo I del Decreto 875/2026, reglamentación de la Ley 27.801 artículo por artículo - no está transcripto en el aviso del Boletín Oficial ni cargado en fuentes/]`
+`[VERIFICAR VIGENCIA: Anexo I del Decreto 875/2026 - cargado en fuentes/normas/decreto-875-2026.txt y no recorrido en este módulo; abrir el artículo que corresponda antes de afirmar qué reglamenta]`
 
 `[VERIFICAR VIGENCIA: fecha del hecho contra el 05/09/2026 - un hecho anterior cometido por alguien de 14 o 15 años era no punible bajo el art. 1 de la Ley 22.278, y el art. 2 CP manda aplicar la más benigna. El texto derogado sigue cargado en fuentes/normas/ley-22278.txt, que es lo que permite cotejar de qué lado cae el caso]`
 

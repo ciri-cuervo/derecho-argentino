@@ -1,10 +1,10 @@
 Decreto 875/2026 - Reglamentación del Régimen Penal Juvenil
 ==============================================================================
 Jurisdicción:     nacional
-Fuente:           https://www.boletinoficial.gob.ar/detalleAviso/primera/346953/20260907
-Descargado:       2026-11-01
-SHA-256 (crudo):  905cae105099255061a0663cf91e3885267a2eeafe5871e462f3d0b9c2291e11
-Charset:          UTF-8
+Fuente:           https://servicios.infoleg.gob.ar/infolegInternet/anexos/425000-429999/429701/norma.htm
+Descargado:       2026-11-09
+SHA-256 (crudo):  1bfd32d20eb26a2b5683ce7911382ab5020754d52d271df02fcaa733f860a55c
+Charset:          ISO-8859-1
 
 Texto consolidado automáticamente desde la fuente oficial. Reproducción de norma jurídica.
 NO es publicación oficial: para transcribir un artículo en un escrito, cotejar contra el
@@ -12,69 +12,7 @@ Boletín Oficial. Si el texto aparece truncado o con acentuación degradada, est
 el manifiesto `normas.json`.
 ==============================================================================
 
-BOLETIN OFICIAL REPUBLICA ARGENTINA - PODER EJECUTIVO - Decreto 875/2026
-
-Toggle navigation
-
-Boletín Oficial de la República Argentina
-
-Institucional
-
-Productos y servicios
-
-Preguntas Frecuentes
-
-Contacto
-
-×
-
-Edición del
-
-[fecha del portal, no es parte de la norma]
-
-Ediciones Anteriores
-
-Búsqueda avanzada
-
-Secciones
-
-Búsqueda
-
-Cantidad de resultados
-
-Búsqueda avanzada
-
-Legislación y Avisos Oficiales
-
-Primera Sección
-
-Sociedades y Avisos Judiciales
-
-Segunda Sección
-
-Contrataciones
-
-Tercera Sección
-
-Volver
-
-Legislación y Avisos Oficiales
-
-Primera sección
-
-Primera
-
-Decretos
-
-Detalle
-
-|
-
-|
-
-Ver páginas publicadas
-
-Ver texto del aviso
+InfoLEG - Ministerio de Justicia y Derechos Humanos - Argentina
 
 PODER EJECUTIVO
 
@@ -84,49 +22,153 @@ DECTO-2026-875-APN-PTE - Apruébase la Reglamentación de la Ley del Régimen Pe
 
 Ciudad de Buenos Aires, 04/09/2026
 
-VISTO el Expediente N° EX-2026-79910499-APN-DGDYD#MJ, la Ley de Ministerios (texto ordenado por Decreto N° 438 del 12 de marzo de 1992) y sus modificatorias, las Leyes Nros. 22.117 y sus modificatorias, 26.657 y 27.801, y
+VISTO el Expediente N° EX-2026-79910499-APN-DGDYD#MJ, la Ley de
+Ministerios (texto ordenado por Decreto N° 438 del 12 de marzo de 1992)
+y sus modificatorias, las Leyes Nros. 22.117 y sus modificatorias,
+26.657 y 27.801, y
 
 CONSIDERANDO:
 
-Que por la Ley N° 27.801 se estableció el Régimen Penal Juvenil aplicable a las personas adolescentes desde los CATORCE (14) años de edad hasta las CERO (0) horas del día en que cumplan DIECIOCHO (18) años de edad, y se fijó como finalidad del régimen fomentar en el adolescente imputado el sentido de la responsabilidad legal por sus actos y lograr su educación, resocialización e integración social.
+Que por la Ley N° 27.801 se estableció el Régimen Penal Juvenil
+aplicable a las personas adolescentes desde los CATORCE (14) años de
+edad hasta las CERO (0) horas del día en que cumplan DIECIOCHO (18)
+años de edad, y se fijó como finalidad del régimen fomentar en el
+adolescente imputado el sentido de la responsabilidad legal por sus
+actos y lograr su educación, resocialización e integración social.
 
-Que, a fin de lograr una implementación integral y coordinada de dicha ley en el ámbito de la justicia nacional y federal resulta necesario su reglamentación, teniendo en particular consideración los siguientes aspectos: la figura del supervisor; la atención integral de las víctimas; la implementación de medidas complementarias y penas alternativas; la formación especializada de los operadores del sistema; los dispositivos de articulación interministerial e interjurisdiccional y los mecanismos de comunicación al REGISTRO NACIONAL DE REINCIDENCIA dependiente del MINISTERIO DE JUSTICIA.
+Que, a fin de lograr una implementación integral y coordinada de dicha
+ley en el ámbito de la justicia nacional y federal resulta necesario su
+reglamentación, teniendo en particular consideración los siguientes
+aspectos: la figura del supervisor; la atención integral de las
+víctimas; la implementación de medidas complementarias y penas
+alternativas; la formación especializada de los operadores del sistema;
+los dispositivos de articulación interministerial e interjurisdiccional
+y los mecanismos de comunicación al REGISTRO NACIONAL DE REINCIDENCIA
+dependiente del MINISTERIO DE JUSTICIA.
 
-Que por el artículo 50 de la referida Ley N° 27.801 se dispone que el control de su implementación está a cargo del PODER EJECUTIVO NACIONAL a través de la Autoridad de Aplicación que se determine, debiéndose promover el trabajo coordinado con otras áreas y el desarrollo de intervenciones basadas en evidencia con el objetivo de reducir la reincidencia delictual.
+Que por el artículo 50 de la referida Ley N° 27.801 se dispone que el
+control de su implementación está a cargo del PODER EJECUTIVO NACIONAL
+a través de la Autoridad de Aplicación que se determine, debiéndose
+promover el trabajo coordinado con otras áreas y el desarrollo de
+intervenciones basadas en evidencia con el objetivo de reducir la
+reincidencia delictual.
 
-Que en virtud de lo expresado en el considerando que precede corresponde designar al MINISTERIO DE JUSTICIA como Autoridad de Aplicación de la ley en la esfera de la justicia nacional y federal, conforme a las competencias atribuidas a dicha jurisdicción ministerial por el artículo 22 de la Ley de Ministerios (texto ordenado por Decreto N° 438 del 12 de marzo de 1992) y sus modificatorias.
+Que en virtud de lo expresado en el considerando que precede
+corresponde designar al MINISTERIO DE JUSTICIA como Autoridad de
+Aplicación de la ley en la esfera de la justicia nacional y federal,
+conforme a las competencias atribuidas a dicha jurisdicción ministerial
+por el artículo 22 de la Ley de Ministerios (texto ordenado por Decreto
+N° 438 del 12 de marzo de 1992) y sus modificatorias.
 
-Que la puesta en marcha del régimen requiere también precisar los principios rectores que orientarán la actuación de los operadores del sistema, así como habilitar a la Autoridad de Aplicación a celebrar convenios de colaboración y cooperación con las jurisdicciones locales, universidades, organismos públicos estatales y no estatales, organizaciones de la sociedad civil y otras entidades públicas o privadas.
+Que la puesta en marcha del régimen requiere también precisar los
+principios rectores que orientarán la actuación de los operadores del
+sistema, así como habilitar a la Autoridad de Aplicación a celebrar
+convenios de colaboración y cooperación con las jurisdicciones locales,
+universidades, organismos públicos estatales y no estatales,
+organizaciones de la sociedad civil y otras entidades públicas o
+privadas.
 
-Que la aplicación de las medidas complementarias y la imposición de las penas previstas, respectivamente, en los artículos 8° y 12 de la Ley N° 27.801, requiere la articulación interinstitucional con los sistemas de salud, educativos, de seguridad y de protección de los derechos de niños, niñas, y adolescentes, y con los programas sociales, culturales y laborales existentes, por lo que corresponde que los aspectos específicos de su implementación sean dispuestos por la Autoridad de Aplicación.
+Que la aplicación de las medidas complementarias y la imposición de las
+penas previstas, respectivamente, en los artículos 8° y 12 de la Ley N°
+27.801, requiere la articulación interinstitucional con los sistemas de
+salud, educativos, de seguridad y de protección de los derechos de
+niños, niñas, y adolescentes, y con los programas sociales, culturales
+y laborales existentes, por lo que corresponde que los aspectos
+específicos de su implementación sean dispuestos por la Autoridad de
+Aplicación.
 
-Que la Ley N° 27.801 reconoce la centralidad de las víctimas en el proceso y, en tal sentido, en los artículos 6°, 7° y 40 de dicha norma legal se reconocen derechos específicos de tutela efectiva, asistencia especializada y patrocinio jurídico gratuito, los que requieren el dictado de una norma reglamentaria a fin de garantizar su efectividad.
+Que la Ley N° 27.801 reconoce la centralidad de las víctimas en el
+proceso y, en tal sentido, en los artículos 6°, 7° y 40 de dicha norma
+legal se reconocen derechos específicos de tutela efectiva, asistencia
+especializada y patrocinio jurídico gratuito, los que requieren el
+dictado de una norma reglamentaria a fin de garantizar su efectividad.
 
-Que por el artículo 23 de la ley mencionada se instituyó la figura del supervisor especializado, a cargo del seguimiento, la asistencia y el control del adolescente imputado.
+Que por el artículo 23 de la ley mencionada se instituyó la figura del
+supervisor especializado, a cargo del seguimiento, la asistencia y el
+control del adolescente imputado.
 
-Que en el artículo 46 de la citada Ley N° 27.801 -integrante del “Capítulo X Normas especiales para la competencia nacional ordinaria y federal”-, se dispone que el referido supervisor deberá ser designado entre una lista de profesionales del MINISTERIO DE JUSTICIA y contar con conocimientos y formación académica en alguna de las siguientes especialidades: educación, pedagogía infantojuvenil, psicología, adicciones o trabajo social, por lo que corresponde precisar el dispositivo institucional que regule a dichos profesionales.
+Que en el artículo 46 de la citada Ley N° 27.801 -integrante del
+“Capítulo X Normas especiales para la competencia nacional ordinaria y
+federal”-, se dispone que el referido supervisor deberá ser designado
+entre una lista de profesionales del MINISTERIO DE JUSTICIA y contar
+con conocimientos y formación académica en alguna de las siguientes
+especialidades: educación, pedagogía infantojuvenil, psicología,
+adicciones o trabajo social, por lo que corresponde precisar el
+dispositivo institucional que regule a dichos profesionales.
 
-Que en el tercer párrafo del artículo 23 y en el artículo 46 de la Ley N° 27.801 se prevé el perfil profesional del supervisor, por lo que corresponde garantizar la idoneidad técnica del profesional designado y la especialización exigida por la materia.
+Que en el tercer párrafo del artículo 23 y en el artículo 46 de la Ley
+N° 27.801 se prevé el perfil profesional del supervisor, por lo que
+corresponde garantizar la idoneidad técnica del profesional designado y
+la especialización exigida por la materia.
 
-Que resulta fundamental que se regule un régimen de suplencia del supervisor para los supuestos en que, por cualquier causa, se vea impedido de ejercer sus funciones de manera transitoria o definitiva.
+Que resulta fundamental que se regule un régimen de suplencia del
+supervisor para los supuestos en que, por cualquier causa, se vea
+impedido de ejercer sus funciones de manera transitoria o definitiva.
 
-Que el adecuado funcionamiento del cuerpo de supervisores requiere asegurar actividades de capacitación en forma continua y una retribución acorde a la complejidad técnica de la función, por lo que corresponde fijar los criterios generales y delegar en la Autoridad de Aplicación la determinación de los aspectos operativos.
+Que el adecuado funcionamiento del cuerpo de supervisores requiere
+asegurar actividades de capacitación en forma continua y una
+retribución acorde a la complejidad técnica de la función, por lo que
+corresponde fijar los criterios generales y delegar en la Autoridad de
+Aplicación la determinación de los aspectos operativos.
 
-Que el régimen exige dotar al cuerpo de supervisores de un soporte institucional estable, por lo que corresponde crear, en el ámbito del MINISTERIO DE JUSTICIA, el REGISTRO DE SUPERVISORES DEL RÉGIMEN PENAL JUVENIL, cuyos aspectos operativos serán diseñados por la Autoridad de Aplicación; ello a fin de propiciar una correcta gestión integral del cuerpo de supervisores.
+Que el régimen exige dotar al cuerpo de supervisores de un soporte
+institucional estable, por lo que corresponde crear, en el ámbito del
+MINISTERIO DE JUSTICIA, el REGISTRO DE SUPERVISORES DEL RÉGIMEN PENAL
+JUVENIL, cuyos aspectos operativos serán diseñados por la Autoridad de
+Aplicación; ello a fin de propiciar una correcta gestión integral del
+cuerpo de supervisores.
 
-Que con el propósito de lograr la correcta implementación del Registro definitivo, resulta imperioso establecer un régimen transitorio de designaciones por un plazo máximo de CIENTO OCHENTA (180) días, y hasta tanto se sustancie la primera convocatoria pública, de modo tal que se garantice la prestación ininterrumpida del servicio de justicia penal juvenil.
+Que con el propósito de lograr la correcta implementación del Registro
+definitivo, resulta imperioso establecer un régimen transitorio de
+designaciones por un plazo máximo de CIENTO OCHENTA (180) días, y hasta
+tanto se sustancie la primera convocatoria pública, de modo tal que se
+garantice la prestación ininterrumpida del servicio de justicia penal
+juvenil.
 
-Que se requiere asegurar la formación especializada de los magistrados, fiscales, defensores y demás operadores del sistema de justicia penal juvenil, conforme a lo dispuesto en el artículo 38 de la Ley N° 27.801, por lo que corresponde que el MINISTERIO DE JUSTICIA lleve a cabo actividades de capacitación destinadas a los operadores que se desempeñan en el ámbito de la justicia nacional ordinaria y federal, sin perjuicio de las que implementen las provincias, la CIUDAD AUTÓNOMA DE BUENOS AIRES y los demás organismos con competencia en la materia en sus respectivos ámbitos.
+Que se requiere asegurar la formación especializada de los magistrados,
+fiscales, defensores y demás operadores del sistema de justicia penal
+juvenil, conforme a lo dispuesto en el artículo 38 de la Ley N° 27.801,
+por lo que corresponde que el MINISTERIO DE JUSTICIA lleve a cabo
+actividades de capacitación destinadas a los operadores que se
+desempeñan en el ámbito de la justicia nacional ordinaria y federal,
+sin perjuicio de las que implementen las provincias, la CIUDAD AUTÓNOMA
+DE BUENOS AIRES y los demás organismos con competencia en la materia en
+sus respectivos ámbitos.
 
-Que la operatividad integral del régimen legal requiere la coordinación de los Ministerios dependientes del PODER EJECUTIVO NACIONAL con competencia en la materia, dado que los aspectos vinculados con la seguridad pública, el tratamiento penitenciario, la protección integral especializada de los derechos de niños, niñas, y adolescentes, las medidas socioeducativas, la salud y el abordaje del consumo problemático exceden la competencia exclusiva de la Autoridad de Aplicación, por lo que se dispone la creación, en el ámbito del MINISTERIO DE JUSTICIA, del COMITÉ INTERMINISTERIAL DEL RÉGIMEN PENAL JUVENIL como instancia permanente de articulación interministerial.
+Que la operatividad integral del régimen legal requiere la coordinación
+de los Ministerios dependientes del PODER EJECUTIVO NACIONAL con
+competencia en la materia, dado que los aspectos vinculados con la
+seguridad pública, el tratamiento penitenciario, la protección integral
+especializada de los derechos de niños, niñas, y adolescentes, las
+medidas socioeducativas, la salud y el abordaje del consumo
+problemático exceden la competencia exclusiva de la Autoridad de
+Aplicación, por lo que se dispone la creación, en el ámbito del
+MINISTERIO DE JUSTICIA, del COMITÉ INTERMINISTERIAL DEL RÉGIMEN PENAL
+JUVENIL como instancia permanente de articulación interministerial.
 
-Que si bien la Ley N° 27.801 es de carácter nacional y de aplicación obligatoria en todo el territorio de la REPÚBLICA ARGENTINA, su implementación efectiva requiere la actuación coordinada con las jurisdicciones provinciales y con la CIUDAD AUTÓNOMA DE BUENOS AIRES, por lo que corresponde crear en el ámbito del MINISTERIO DE JUSTICIA la MESA FEDERAL DEL RÉGIMEN PENAL JUVENIL como ámbito permanente y voluntario de diálogo, intercambio de experiencias y armonización de criterios entre las jurisdicciones.
+Que si bien la Ley N° 27.801 es de carácter nacional y de aplicación
+obligatoria en todo el territorio de la REPÚBLICA ARGENTINA, su
+implementación efectiva requiere la actuación coordinada con las
+jurisdicciones provinciales y con la CIUDAD AUTÓNOMA DE BUENOS AIRES,
+por lo que corresponde crear en el ámbito del MINISTERIO DE JUSTICIA la
+MESA FEDERAL DEL RÉGIMEN PENAL JUVENIL como ámbito permanente y
+voluntario de diálogo, intercambio de experiencias y armonización de
+criterios entre las jurisdicciones.
 
-Que el seguimiento de los adolescentes alcanzados por el régimen legal aludido, así como la disponibilidad de información actualizada para los operadores autorizados del sistema de justicia, constituyen herramientas esenciales para el diseño de políticas basadas en evidencia y para la decisión judicial individualizada, por lo que es necesario establecer un mecanismo de comunicación al mencionado REGISTRO NACIONAL DE REINCIDENCIA, en los términos de la Ley N° 22.117 y sus modificatorias, que respete la reserva del proceso establecida en el inciso i) del artículo 5° de la Ley N° 27.801.
+Que el seguimiento de los adolescentes alcanzados por el régimen legal
+aludido, así como la disponibilidad de información actualizada para los
+operadores autorizados del sistema de justicia, constituyen
+herramientas esenciales para el diseño de políticas basadas en
+evidencia y para la decisión judicial individualizada, por lo que es
+necesario establecer un mecanismo de comunicación al mencionado
+REGISTRO NACIONAL DE REINCIDENCIA, en los términos de la Ley N° 22.117
+y sus modificatorias, que respete la reserva del proceso establecida en
+el inciso i) del artículo 5° de la Ley N° 27.801.
 
 Que el servicio permanente de asesoramiento jurídico del MINISTERIO DE JUSTICIA ha tomado la intervención que le compete.
 
-Que el presente decreto se dicta en uso de las atribuciones conferidas por el artículo 99, incisos 1 y 2 de la CONSTITUCIÓN NACIONAL.
+Que el presente decreto se dicta en uso de las atribuciones conferidas
+por el artículo 99, incisos 1 y 2 de la CONSTITUCIÓN NACIONAL.
 
 Por ello,
 
@@ -134,23 +176,55 @@ EL PRESIDENTE DE LA NACIÓN ARGENTINA
 
 DECRETA:
 
-ARTÍCULO 1°.- Apruébase la “Reglamentación de la Ley del Régimen Penal Juvenil N° 27.801”, que como ANEXO I (IF-2026-82933974-APN-SSPC#MJ) forma parte integrante del presente.
+ARTÍCULO 1°.- Apruébase la “Reglamentación de la Ley del Régimen Penal
+Juvenil N° 27.801”, que como ANEXO I (IF-2026-82933974-APN-SSPC#MJ)
+forma parte integrante del presente.
 
-ARTÍCULO 2°.- Desígnase al MINISTERIO DE JUSTICIA como Autoridad de Aplicación de la Ley N° 27.801, el que tendrá a su cargo la implementación y coordinación del Régimen Penal Juvenil en el ámbito nacional y federal.
+ARTÍCULO 2°.- Desígnase al MINISTERIO DE JUSTICIA como Autoridad de
+Aplicación de la Ley N° 27.801, el que tendrá a su cargo la
+implementación y coordinación del Régimen Penal Juvenil en el ámbito
+nacional y federal.
 
-ARTÍCULO 3°.- Encomiéndase a la Autoridad de Aplicación la elaboración, mediante acto fundado, de un listado provisorio de profesionales que reúnan los requisitos establecidos en el artículo 5° del ANEXO I del presente decreto, hasta tanto se sustancie la primera convocatoria pública para la conformación del REGISTRO DE SUPERVISORES DEL RÉGIMEN PENAL JUVENIL, la que deberá concretarse en un plazo máximo de CIENTO OCHENTA (180) días desde la entrada en vigencia del presente.
+ARTÍCULO 3°.- Encomiéndase a la Autoridad de Aplicación la elaboración,
+mediante acto fundado, de un listado provisorio de profesionales que
+reúnan los requisitos establecidos en el artículo 5° del ANEXO I del
+presente decreto, hasta tanto se sustancie la primera convocatoria
+pública para la conformación del REGISTRO DE SUPERVISORES DEL RÉGIMEN
+PENAL JUVENIL, la que deberá concretarse en un plazo máximo de CIENTO
+OCHENTA (180) días desde la entrada en vigencia del presente.
 
-Los jueces competentes designarán al supervisor en cada caso concreto entre los profesionales que integren dicho listado provisorio.
+Los jueces competentes designarán al supervisor en cada caso concreto
+entre los profesionales que integren dicho listado provisorio.
 
-La inscripción de los profesionales en el listado provisorio caducará de pleno derecho al integrarse el REGISTRO DE SUPERVISORES DEL RÉGIMEN PENAL JUVENIL definitivo. Los profesionales que, cumplidos los requisitos de la convocatoria pública, se incorporen al Registro definitivo continuarán ejerciendo sin interrupción las funciones de supervisor en las causas en que hubieran sido designados.
+La inscripción de los profesionales en el listado provisorio caducará
+de pleno derecho al integrarse el REGISTRO DE SUPERVISORES DEL RÉGIMEN
+PENAL JUVENIL definitivo. Los profesionales que, cumplidos los
+requisitos de la convocatoria pública, se incorporen al Registro
+definitivo continuarán ejerciendo sin interrupción las funciones de
+supervisor en las causas en que hubieran sido designados.
 
-Respecto de los profesionales que no se incorporen al Registro definitivo, la caducidad de su inscripción provisoria importará la imposibilidad de ser designados en futuros casos, circunstancia que el Registro notificará al juez competente de cada causa donde dichos profesionales actúen, a fin de que este analice la procedencia de su continuidad como supervisor en cada una de ellas. En el supuesto de que el juez disponga el cese del supervisor designado sobre la base del listado provisorio, designará a la brevedad un nuevo supervisor entre los profesionales inscriptos en el Registro definitivo, adoptando los recaudos necesarios para preservar, en la mayor medida posible, la continuidad del seguimiento del adolescente.
+Respecto de los profesionales que no se incorporen al Registro
+definitivo, la caducidad de su inscripción provisoria importará la
+imposibilidad de ser designados en futuros casos, circunstancia que el
+Registro notificará al juez competente de cada causa donde dichos
+profesionales actúen, a fin de que este analice la procedencia de su
+continuidad como supervisor en cada una de ellas. En el supuesto de que
+el juez disponga el cese del supervisor designado sobre la base del
+listado provisorio, designará a la brevedad un nuevo supervisor entre
+los profesionales inscriptos en el Registro definitivo, adoptando los
+recaudos necesarios para preservar, en la mayor medida posible, la
+continuidad del seguimiento del adolescente.
 
-ARTÍCULO 4°.- Créase, en el ámbito del MINISTERIO DE JUSTICIA, el COMITÉ INTERMINISTERIAL DEL RÉGIMEN PENAL JUVENIL como dispositivo permanente de articulación interministerial para la implementación de la Ley N° 27.801.
+ARTÍCULO 4°.- Créase, en el ámbito del MINISTERIO DE JUSTICIA, el
+COMITÉ INTERMINISTERIAL DEL RÉGIMEN PENAL JUVENIL como dispositivo
+permanente de articulación interministerial para la implementación de
+la Ley N° 27.801.
 
 ARTÍCULO 5°.- El COMITÉ INTERMINISTERIAL DEL RÉGIMEN PENAL JUVENIL tendrá las siguientes funciones:
 
-a) coordinar la actuación de los Ministerios enumerados en el artículo 6° del presente decreto, en los temas que requieran intervención conjunta;
+a) coordinar la actuación de los Ministerios enumerados en el artículo
+6° del presente decreto, en los temas que requieran intervención
+conjunta;
 
 b) elaborar lineamientos comunes en materia de prevención, abordaje y reinserción de los adolescentes alcanzados por el régimen;
 
@@ -158,7 +232,10 @@ c) promover el intercambio de información estadística y técnica entre las car
 
 d) emitir recomendaciones no vinculantes a la Autoridad de Aplicación sobre los aspectos transversales del régimen; y
 
-e) instrumentar la articulación interinstitucional necesaria para la ejecución de las penas previstas en el artículo 12 de la Ley N° 27.801, en los aspectos administrativos y operativos que resulten de competencia de los Ministerios que integran el Comité.
+e) instrumentar la articulación interinstitucional necesaria para la
+ejecución de las penas previstas en el artículo 12 de la Ley N° 27.801,
+en los aspectos administrativos y operativos que resulten de
+competencia de los Ministerios que integran el Comité.
 
 ARTÍCULO 6°.- El COMITÉ INTERMINISTERIAL DEL RÉGIMEN PENAL JUVENIL estará integrado por:
 
@@ -170,13 +247,31 @@ c) UN (1) representante del MINISTERIO DE CAPITAL HUMANO; y
 
 d) UN (1) representante del MINISTERIO DE SALUD.
 
-Cada cartera designará a su representante titular y a UN (1) suplente, los que deberán contar con jerarquía no inferior a la de Director Nacional o equivalente.
+Cada cartera designará a su representante titular y a UN (1) suplente,
+los que deberán contar con jerarquía no inferior a la de Director
+Nacional o equivalente.
 
-El Comité podrá invitar a participar de sus reuniones, en carácter de colaboradores, a representantes de la SECRETARÍA NACIONAL DE NIÑEZ, ADOLESCENCIA Y FAMILIA del MINISTERIO DE CAPITAL HUMANO, de la SECRETARÍA DE POLÍTICAS INTEGRALES SOBRE DROGAS DE LA NACIÓN ARGENTINA del MINISTERIO DE SALUD, de la PROCURACIÓN GENERAL DE LA NACIÓN, de la DEFENSORÍA GENERAL DE LA NACIÓN y de otros organismos especializados del PODER JUDICIAL DE LA NACIÓN, cuando la materia a tratar así lo amerite.
+El Comité podrá invitar a participar de sus reuniones, en carácter de
+colaboradores, a representantes de la SECRETARÍA NACIONAL DE NIÑEZ,
+ADOLESCENCIA Y FAMILIA del MINISTERIO DE CAPITAL HUMANO, de la
+SECRETARÍA DE POLÍTICAS INTEGRALES SOBRE DROGAS DE LA NACIÓN ARGENTINA
+del MINISTERIO DE SALUD, de la PROCURACIÓN GENERAL DE LA NACIÓN, de la
+DEFENSORÍA GENERAL DE LA NACIÓN y de otros organismos especializados
+del PODER JUDICIAL DE LA NACIÓN, cuando la materia a tratar así lo
+amerite.
 
-ARTÍCULO 7°.- El COMITÉ INTERMINISTERIAL DEL RÉGIMEN PENAL JUVENIL dictará sus normas de funcionamiento, las que comprenderán, entre otros, los siguientes aspectos: la frecuencia y modalidad de las reuniones, los procedimientos de adopción de recomendaciones, los mecanismos de difusión a utilizarse y los criterios de articulación con la MESA FEDERAL DEL RÉGIMEN PENAL JUVENIL y con los demás dispositivos previstos en este decreto.
+ARTÍCULO 7°.- El COMITÉ INTERMINISTERIAL DEL RÉGIMEN PENAL JUVENIL
+dictará sus normas de funcionamiento, las que comprenderán, entre
+otros, los siguientes aspectos: la frecuencia y modalidad de las
+reuniones, los procedimientos de adopción de recomendaciones, los
+mecanismos de difusión a utilizarse y los criterios de articulación con
+la MESA FEDERAL DEL RÉGIMEN PENAL JUVENIL y con los demás dispositivos
+previstos en este decreto.
 
-ARTÍCULO 8°.- Créase, en el ámbito del MINISTERIO DE JUSTICIA, la MESA FEDERAL DEL RÉGIMEN PENAL JUVENIL como espacio permanente de articulación entre el orden nacional, las jurisdicciones provinciales y la CIUDAD AUTÓNOMA DE BUENOS AIRES.
+ARTÍCULO 8°.- Créase, en el ámbito del MINISTERIO DE JUSTICIA, la MESA
+FEDERAL DEL RÉGIMEN PENAL JUVENIL como espacio permanente de
+articulación entre el orden nacional, las jurisdicciones provinciales y
+la CIUDAD AUTÓNOMA DE BUENOS AIRES.
 
 ARTÍCULO 9°.- La MESA FEDERAL DEL RÉGIMEN PENAL JUVENIL tendrá las siguientes funciones:
 
@@ -184,7 +279,9 @@ a) promover la armonización de criterios técnicos y procesales entre las juris
 
 b) intercambiar experiencias y buenas prácticas en la implementación del régimen;
 
-c) facilitar la suscripción de los convenios de colaboración y cooperación referidos en el artículo 17 del ANEXO I del presente decreto; y
+c) facilitar la suscripción de los convenios de colaboración y
+cooperación referidos en el artículo 17 del ANEXO I del presente
+decreto; y
 
 d) elaborar recomendaciones no vinculantes en materia de implementación.
 
@@ -194,13 +291,26 @@ a) UN (1) representante de la Autoridad de Aplicación, que ejercerá la coordin
 
 b) los representantes que designen las provincias y la CIUDAD AUTÓNOMA DE BUENOS AIRES, UNO (1) por cada jurisdicción; y
 
-c) los representantes que, en su caso, designen la CORTE SUPREMA DE JUSTICIA DE LA NACIÓN, la PROCURACIÓN GENERAL DE LA NACIÓN y la DEFENSORÍA GENERAL DE LA NACIÓN, UNO (1) por cada una de ellas.
+c) los representantes que, en su caso, designen la CORTE SUPREMA DE
+JUSTICIA DE LA NACIÓN, la PROCURACIÓN GENERAL DE LA NACIÓN y la
+DEFENSORÍA GENERAL DE LA NACIÓN, UNO (1) por cada una de ellas.
 
-ARTÍCULO 11.- La MESA FEDERAL DEL RÉGIMEN PENAL JUVENIL establecerá los siguientes aspectos operativos concernientes a su funcionamiento: la frecuencia de las reuniones, las modalidades de adhesión de las jurisdicciones, los procedimientos de adopción de las recomendaciones que eventualmente se efectúen y los mecanismos de articulación con el COMITÉ INTERMINISTERIAL DEL RÉGIMEN PENAL JUVENIL.
+ARTÍCULO 11.- La MESA FEDERAL DEL RÉGIMEN PENAL JUVENIL establecerá los
+siguientes aspectos operativos concernientes a su funcionamiento: la
+frecuencia de las reuniones, las modalidades de adhesión de las
+jurisdicciones, los procedimientos de adopción de las recomendaciones
+que eventualmente se efectúen y los mecanismos de articulación con el
+COMITÉ INTERMINISTERIAL DEL RÉGIMEN PENAL JUVENIL.
 
-ARTÍCULO 12.- Invítase a las provincias, a la CIUDAD AUTÓNOMA DE BUENOS AIRES, a la CORTE SUPREMA DE JUSTICIA DE LA NACIÓN, a la PROCURACIÓN GENERAL DE LA NACIÓN y a la DEFENSORÍA GENERAL DE LA NACIÓN a designar representantes para participar de la MESA FEDERAL DEL RÉGIMEN PENAL JUVENIL.
+ARTÍCULO 12.- Invítase a las provincias, a la CIUDAD AUTÓNOMA DE BUENOS
+AIRES, a la CORTE SUPREMA DE JUSTICIA DE LA NACIÓN, a la PROCURACIÓN
+GENERAL DE LA NACIÓN y a la DEFENSORÍA GENERAL DE LA NACIÓN a designar
+representantes para participar de la MESA FEDERAL DEL RÉGIMEN PENAL
+JUVENIL.
 
-ARTÍCULO 13.- Facúltase a la Autoridad de Aplicación para dictar las normas complementarias y aclaratorias que resulten necesarias para la implementación de este decreto.
+ARTÍCULO 13.- Facúltase a la Autoridad de Aplicación para dictar las
+normas complementarias y aclaratorias que resulten necesarias para la
+implementación de este decreto.
 
 ARTÍCULO 14.- El presente decreto entrará en vigencia conjuntamente con la Ley N° 27.801.
 
@@ -212,114 +322,367 @@ NOTA: El/los Anexo/s que integra/n este(a) Decreto se publican en la edición we
 
 e. 07/09/2026 N° 64018/26 v. 07/09/2026
 
-Fecha de publicación 07/09/2026
+(Nota
+Infoleg:
+Los anexos referenciados en la presente norma han sido extraídos de la
+edición web de Boletín Oficial)
 
-Anexo - 1
+.ANEXO I
 
-Compartir por email
+REGLAMENTACIÓN DE LA LEY DE RÉGIMEN PENAL JUVENIL N° 27.801
 
-×
+Capítulo I
 
-Para:
+Derechos y atención integral a las víctimas
 
-Asunto:
+ARTÍCULO 1°.- Equipos interdisciplinarios.
+La Autoridad de Aplicación pondrá a disposición de las víctimas un
+equipo interdisciplinario conformado por psicólogos y trabajadores
+sociales, en el marco de lo previsto en el inciso a) del artículo 40 de
+la Ley N° 27.801.
 
-Aviso:
+ARTÍCULO 2°.- Patrocinio gratuito.
+La Autoridad de Aplicación establecerá mecanismos de coordinación y
+derivación con la DEFENSORÍA GENERAL DE LA NACIÓN a fin de garantizar
+el patrocinio jurídico gratuito previsto en el inciso b) del artículo
+40 de la Ley N° 27.801.
 
-Cerrar
+Capítulo II
 
-Enviar
+Supervisor
 
-×
+ARTÍCULO 3°.- Ámbito de aplicación.
+Las disposiciones del presente Capítulo se aplican a los supervisores
+que actúen en procesos de competencia nacional ordinaria y federal.
 
-Biblioteca de Normativas
+ARTÍCULO 4°.- Registro de Supervisores del Régimen Penal Juvenil.
+Créase el REGISTRO DE SUPERVISORES DEL RÉGIMEN PENAL JUVENIL en el
+ámbito de la DIRECCIÓN NACIONAL DE POLÍTICA CRIMINAL EN MATERIA DE
+JUSTICIA Y LEGISLACIÓN PENAL de la SUBSECRETARÍA DE POLÍTICA CRIMINAL
+de la SECRETARÍA DE JUSTICIA del MINISTERIO DE JUSTICIA, en el que se
+deben inscribir los profesionales habilitados para ser designados como
+supervisores en los términos de los artículos 23 y 46 de la Ley N°
+27.801.
 
-Al hacer clic en este enlace usted está siendo dirigido a la página https://www.argentina.gob.ar/normativa.
+La Autoridad de Aplicación tiene a su cargo la gestión integral del
+registro y del cuerpo de supervisores, lo que comprende la inscripción,
+el seguimiento de su desempeño, la capacitación, la suspensión, el cese
+por remoción o por otra causa y el legajo personal de cada profesional.
 
-Cerrar
+ARTÍCULO 5°.- Requisitos. Para integrar el Registro creado por el artículo 4°, los profesionales deben reunir los siguientes requisitos:
 
-Ir a Biblioteca de Normativas
+a) contar con título terciario o de grado
+universitario en alguna de las siguientes disciplinas: educación,
+pedagogía infantojuvenil, psicología o trabajo social, o formación
+académica específica en el campo de las adicciones, conforme a los
+criterios que establezca la Autoridad de Aplicación;
 
-Institucional
+b) tener una antigüedad mínima de DOS (2) años en el ejercicio profesional;
 
-Misión, Visión e Historia
+c) aprobar la capacitación inicial obligatoria en
+justicia penal juvenil, derechos de niñas, niños y adolescentes y
+supervisión de medidas, conforme al Programa que apruebe la Autoridad
+de Aplicación;
 
-Sitios de Interés
+d) no registrar procesamiento o acto procesal
+equivalente, o una condena penal por la comisión de delitos dolosos o
+por la comisión de delitos culposos cuya escala penal tenga prevista
+una pena máxima de prisión superior a TRES (3) años, ni encontrarse
+inscriptos en registros de violencia contra mujeres o contra niñas,
+niños y adolescentes.
 
-Red de Boletines Oficiales de la R. A.
+ARTÍCULO 6°.- Funcionamiento del Registro. La
+Autoridad de Aplicación dictará las normas complementarias sobre el
+REGISTRO DE SUPERVISORES DEL RÉGIMEN PENAL JUVENIL relativas a:
 
-BFA Blockchain Federal Argentina
+a) los procedimientos de convocatoria pública, inscripción, evaluación y selección;
 
-Productos y Servicios
+b) la acreditación de antecedentes y de la capacitación inicial;
 
-Tarifas de Publicación
+c) el plazo de vigencia y las condiciones de renovación de la inscripción;
 
-Autenticaciones
+d) la conformación y custodia del legajo personal;
 
-BFA Repositorio recibos
+e) los criterios de asignación de casos, el régimen
+de evaluación periódica del desempeño, y el procedimiento de suspensión
+y remoción;
 
-BFA Verificación
+f) los mecanismos de articulación con las
+jurisdicciones locales que adhieran al sistema o cuenten con registros
+concordantes;
 
-Firma digital
+g) las demás normas necesarias para el funcionamiento del Registro.
 
-Faq y Tutoriales
+La convocatoria pública para la incorporación al Registro se regirá por
+los principios de transparencia, igualdad de oportunidades, idoneidad y
+especialización, y la inscripción no generará derecho a designación
+automática.
 
-Preguntas Frecuentes
+ARTÍCULO 7°.- Cese de la inscripción en el Registro. Son causales de cese de la inscripción en el REGISTRO DE SUPERVISORES DEL RÉGIMEN PENAL JUVENIL las siguientes:
 
-Contacto
+a) renuncia del profesional;
 
-Institucional
+b) fallecimiento del profesional;
 
-Misión, Visión e Historia
+c) declaración judicial de incapacidad del
+profesional o de restricción de su capacidad que resulte incompatible
+con el ejercicio de la función de supervisor;
 
-Productos y Servicios
+d) remoción del profesional.
 
-Tarifas de Publicación
+La Autoridad de Aplicación debe comunicar el cese dentro de las
+VEINTICUATRO (24) horas al juez interviniente en las causas en que el
+profesional se encontrare designado, a fin de que, en caso de
+corresponder, disponga el cese de la intervención del supervisor y
+designe uno nuevo entre los profesionales inscriptos en el REGISTRO DE
+SUPERVISORES DEL RÉGIMEN PENAL JUVENIL.
 
-Sitios de Interés
+En el supuesto del inciso d), la Autoridad de Aplicación debe proceder
+de conformidad con lo previsto en el artículo 8°, último párrafo.
 
-Red de Boletines Oficiales de la R. A.
+ARTÍCULO 8°.- Causales de remoción. Son causales de remoción del REGISTRO DE SUPERVISORES DEL RÉGIMEN PENAL JUVENIL las siguientes:
 
-BFA Blockchain Federal Argentina
+a) el incumplimiento grave o reiterado de las
+funciones previstas en el artículo 23 de la Ley N° 27.801 y en esta
+reglamentación;
 
-Autenticaciones
+b) la pérdida o suspensión de la habilitación o
+matriculación profesional, o el incumplimiento sobreviniente de los
+criterios de formación académica específica en el campo de las
+adicciones previstos en el inciso a) del artículo 5° de esta
+reglamentación;
 
-BFA Repositorio recibos
+c) la inclusión sobreviniente del profesional en
+registros de violencia contra mujeres o contra niñas, niños y
+adolescentes prevista en el inciso d) del artículo 5° de esta
+reglamentación;
 
-BFA Verificación
+d) la condena firme por delito doloso o por delito
+culposo cuya escala penal tenga prevista una pena máxima de prisión
+superior a TRES (3) años, o la sanción disciplinaria firme vinculada al
+ejercicio profesional con niñas, niños o adolescentes;
 
-Firma digital
+e) la falta de acreditación de la capacitación
+continua exigida en el artículo 11 de esta reglamentación, transcurrido
+el plazo de regularización que fije la Autoridad de Aplicación;
 
-Faq y Tutoriales
+f) el impedimento de carácter permanente para ejercer las funciones de supervisor.
 
-Preguntas Frecuentes
+La Autoridad de Aplicación establecerá el procedimiento de remoción, el
+que debe asegurar el derecho de defensa y la adecuada participación del
+supervisor sujeto a tal procedimiento, de conformidad con los
+principios establecidos en el artículo 1° bis de la Ley de
+Procedimientos Administrativos N° 19.549 y sus modificatorias.
 
-Contacto
+La Autoridad de Aplicación debe comunicar la remoción, dentro de las
+VEINTICUATRO (24) horas, al juez interviniente en las causas en que el
+profesional removido se encontrare designado. Comunicada la remoción,
+el juez competente podrá disponer el cese de su intervención en tales
+causas y procederá a la designación de un nuevo supervisor entre los
+profesionales inscriptos en el REGISTRO DE SUPERVISORES DEL RÉGIMEN
+PENAL JUVENIL.
 
-Secretaría
+ARTÍCULO 9°.- Suspensión preventiva. La
+Autoridad de Aplicación dispondrá la suspensión preventiva de la
+inscripción en el REGISTRO DE SUPERVISORES DEL RÉGIMEN PENAL JUVENIL
+cuando el profesional registrare un procesamiento o acto procesal
+equivalente por la comisión de delitos dolosos o por la comisión de
+delitos culposos cuya escala penal tenga prevista una pena máxima de
+prisión superior a TRES (3) años, o cuando se encontrare en trámite un
+proceso disciplinario vinculado al ejercicio profesional con niñas,
+niños o adolescentes.
 
-Legal y Técnica
+Asimismo, dispondrá la suspensión preventiva cuando existieren
+elementos objetivos y suficientes que permitan considerar, con carácter
+provisional, que la permanencia del profesional en el ejercicio de sus
+funciones podría comprometer seriamente la integridad de los
+adolescentes, aun cuando no mediare causa penal en trámite.
 
-Boletín Oficial
+La Autoridad de Aplicación debe comunicar la suspensión preventiva,
+dentro de las VEINTICUATRO (24) horas, al juez interviniente en las
+causas en que el profesional suspendido se encontrare designado.
+Comunicada la suspensión, el juez podrá disponer el cese provisorio de
+su intervención y procederá a la designación de un suplente conforme el
+mecanismo previsto en el artículo 12 de esta reglamentación. Mientras
+dure la suspensión, el profesional no podrá ser designado en nuevas
+causas. Levantada la suspensión, el juez podrá restituir al profesional
+en las causas en que hubiera intervenido, si lo estimare conveniente
+para la continuidad del seguimiento del adolescente.
 
-de la República Argentina
+ARTÍCULO 10.- Incompatibilidades.
+Los profesionales inscriptos en el REGISTRO DE SUPERVISORES DEL RÉGIMEN
+PENAL JUVENIL no serán designados como supervisores de un adolescente
+respecto del cual:
 
-TELÉFONOS: 5218-8400 - 0810-345-BORA (2672)
+a) hubieren intervenido en su proceso penal como
+magistrados, funcionarios o empleados del PODER JUDICIAL DE LA NACIÓN o
+del MINISTERIO PÚBLICO FISCAL o del MINISTERIO PÚBLICO DE LA DEFENSA o
+de organismos análogos locales;
 
-SEDE CENTRAL: Suipacha 767, C.A.B.A. (C1008AAO)
+b) hubieren asistido o representado profesionalmente al adolescente, a la víctima o a sus familiares;
 
-Secretaría Legal y Técnica |
-Dra. María Ibarzabal Murphy - Secretaria
+c) tuvieren con el adolescente o con la víctima
+vínculos de parentesco, en línea recta o colateral, hasta el cuarto
+grado inclusive, o vínculos de parentesco por afinidad, en línea recta
+o colateral, hasta el segundo grado inclusive;
 
-Dirección Nacional del Registro Oficial |
-Dr. Walter Rubén Gonzalez - Director Nacional
+d) desempeñaren funciones de dirección o tratamiento
+en el instituto de detención en el que el adolescente se encuentre
+alojado.
 
-×
+La Autoridad de Aplicación podrá establecer otras incompatibilidades
+funcionales cuando ello resulte necesario para preservar la objetividad
+e idoneidad en el desempeño del cargo.
 
-Red de Boletines Provinciales
+ARTÍCULO 11.- Capacitación continua.
+Los supervisores deben acreditar, anualmente, la realización de
+actividades de capacitación continua en las materias propias de su
+función, organizadas o convalidadas por la Autoridad de Aplicación.
 
-Al hacer clic en este enlace usted acepta ser dirigido fuera de nuestro sitio a la página http://www.reddeboletines.gob.ar cuya información es proporcionada por la Dirección Nacional del Sistema Argentino de Información Jurídica (SAIJ) dependiente del Ministerio de Justicia y Derechos Humanos de la Nación.
+La Autoridad de Aplicación establecerá los contenidos mínimos de dicha
+capacitación, las modalidades de acreditación y el plazo y
+procedimiento para la regularización de su incumplimiento.
 
-Cerrar
+ARTÍCULO 12.- Suplencia del supervisor.
+En los supuestos en que el supervisor designado se vea impedido de
+ejercer sus funciones de manera transitoria, el juez competente
+designará un suplente entre los profesionales inscriptos en el REGISTRO
+DE SUPERVISORES DEL RÉGIMEN PENAL JUVENIL, de manera de preservar la
+continuidad del seguimiento del adolescente.
 
-Ir a Red de Boletines Provinciales
+Durante el tiempo en el cual el supervisor se vea impedido de ejercer
+sus funciones, no le corresponderá derecho alguno al cobro de
+honorarios.
+
+Cuando circunstancias de urgencia, debidamente motivadas, tornen
+imposible designar en tiempo oportuno un suplente del Registro, ya sea
+por imposibilidad de localizar o contactar al supervisor designado, o
+por inexistencia de suplente disponible en la jurisdicción, el juez
+competente podrá designar de manera inmediata y provisoria, entre los
+profesionales inscriptos en el REGISTRO DE SUPERVISORES DEL RÉGIMEN
+PENAL JUVENIL, a quien deba asumir la suplencia, aun cuando no se
+encontrare disponible en esa jurisdicción, a cuyo efecto se priorizará
+la mayor proximidad territorial posible.
+
+Dicha designación deberá ser comunicada dentro de las VEINTICUATRO (24) horas a la Autoridad de Aplicación.
+
+Cuando no existieren profesionales disponibles en el Registro que
+pudieran asumir la suplencia en tiempo oportuno, el juez competente lo
+comunicará de inmediato a la Autoridad de Aplicación, la que podrá,
+mediante acto fundado y con carácter excepcional y transitorio,
+incorporar al Registro a UNO (1) o más profesionales que reúnan los
+requisitos previstos en el artículo 5° de esta reglamentación, a los
+exclusivos fines de asegurar la continuidad de la supervisión.
+Efectuada dicha incorporación, el juez procederá a la designación
+correspondiente en el carácter de supervisor.
+
+Cuando la designación o habilitación de emergencia obedezca a la
+inexistencia de suplente disponible en la jurisdicción o en el
+Registro, la Autoridad de Aplicación arbitrará los medios a su alcance
+para regularizar la cobertura de supervisores, y la designación de
+emergencia mantendrá su vigencia mientras dicha regularización no se
+hubiera concretado, conforme a lo que disponga el juez competente.
+
+Cuando obedezca a la imposibilidad transitoria de localizar o contactar
+al supervisor designado, la suplencia de emergencia cesará cuando este
+último se encuentre en condiciones de reasumir sus funciones, conforme
+a lo que disponga el juez competente.
+
+ARTÍCULO 13.- Honorarios. Los supervisores recibirán por su gestión un honorario que se liquidará en función de los casos asignados.
+
+Institúyese la unidad de medida “MÓDULO DE SUPERVISIÓN” (MOSU), cuyo
+valor será equivalente a TREINTA Y SIETE (37) Unidades Retributivas del
+valor establecido por el artículo 79 del Convenio Colectivo de Trabajo
+Sectorial del SISTEMA NACIONAL DE EMPLEO PÚBLICO (SINEP), homologado
+por el Decreto N° 2098 del 3 de diciembre de 2008 y sus modificatorios.
+UN (1) MOSU equivaldrá a UNA (1) hora de labor profesional. El valor
+del MOSU se actualizará automáticamente ante cada variación del valor
+de la Unidad Retributiva del SISTEMA NACIONAL DE EMPLEO PÚBLICO
+(SINEP), a cuyo efecto la Autoridad de Aplicación publicará el nuevo
+valor resultante.
+
+Los honorarios de los supervisores se liquidarán y abonarán durante el
+tiempo que demande su actuación, según la duración y complejidad de la
+actuación, conforme a los criterios generales y objetivos que fije la
+Autoridad de Aplicación, previa intervención de la SECRETARÍA DE
+HACIENDA del MINISTERIO DE ECONOMÍA. Ningún supervisor podrá percibir,
+por la totalidad de los casos que tuviere asignados en forma
+simultánea, más de OCHENTA (80) MOSU mensuales.
+
+La Autoridad de Aplicación fijará, mediante actos de alcance general,
+las fechas de pago y los mecanismos uniformes de liquidación,
+rendición, aprobación y forma de pago.
+
+ARTÍCULO 14.- Articulación con el equipo interdisciplinario.
+El supervisor debe trabajar, cuando corresponda, en forma coordinada
+con el equipo interdisciplinario previsto en el inciso a) del artículo
+8° de la Ley N° 27.801, de manera de evitar la superposición de
+intervenciones y de propiciar la complementariedad técnica.
+
+ARTÍCULO 15.- Articulación con organismos de protección y de salud.
+El supervisor debe articular su tarea, según corresponda, con los
+organismos de protección de derechos de niñas, niños y adolescentes,
+los equipos de salud comprendidos en la Ley Nacional de Salud Mental N°
+26.657, la SECRETARÍA DE POLÍTICAS INTEGRALES SOBRE DROGAS DE LA NACIÓN
+ARGENTINA del MINISTERIO DE SALUD, las instituciones educativas y los
+programas de capacitación laboral, a los fines del seguimiento y
+cumplimiento de las medidas o penas dispuestas.
+
+Dicha articulación no implicará el acceso del supervisor a información
+sujeta a confidencialidad conforme a la Ley N° 26.657 y demás normativa
+aplicable en materia de salud, sin perjuicio de los intercambios de
+información que resulten necesarios para el cumplimiento de sus
+funciones, con resguardo del secreto profesional y en la medida que
+esté autorizado por la normativa vigente.
+
+ARTÍCULO 16.- Supervisión de la tarea.
+La Autoridad de Aplicación realizará la supervisión periódica de la
+tarea de los supervisores inscriptos en el REGISTRO DE SUPERVISORES DEL
+RÉGIMEN PENAL JUVENIL mediante mecanismos de evaluación de desempeño
+basados en criterios objetivos, indicadores de calidad y registros
+sistematizados. Los resultados de las evaluaciones se incorporarán al
+legajo del profesional.
+
+Capítulo III
+
+Convenios de colaboración y cooperación. Capacitación de magistrados, funcionarios y demás operadores
+
+ARTÍCULO 17.- Convenios de colaboración y cooperación.
+La Autoridad de Aplicación podrá celebrar convenios de colaboración y
+cooperación con las provincias, la CIUDAD AUTÓNOMA DE BUENOS AIRES,
+universidades, organismos públicos estatales y no estatales,
+organizaciones de la sociedad civil y otras entidades públicas o
+privadas, con el objeto de fortalecer la implementación del régimen, el
+desarrollo de dispositivos especializados, la capacitación de los
+operadores y la producción de evidencia para la toma de decisiones.
+
+ARTÍCULO 18.- Capacitación de los operadores de la justicia nacional ordinaria y federal. La
+Autoridad de Aplicación llevará a cabo actividades de capacitación
+destinadas a los magistrados, funcionarios y demás operadores del
+sistema de justicia penal juvenil que se desempeñen en el ámbito de la
+justicia nacional ordinaria y federal, sin perjuicio de las actividades
+de capacitación que implementen las provincias y la CIUDAD AUTÓNOMA DE
+BUENOS AIRES en sus respectivas jurisdicciones, así como los demás
+organismos con competencia en la materia, según lo dispuesto en el
+artículo 38 de la Ley N° 27.801.
+
+Capítulo IV
+
+Comunicación al Registro Nacional de Reincidencia
+
+ARTÍCULO 19.- Comunicación al Registro Nacional de Reincidencia. Cuando
+se imponga a un adolescente una pena en el marco de lo establecido en
+la Ley N° 27.801, el juez competente comunicará dicha circunstancia al
+REGISTRO NACIONAL DE REINCIDENCIA dependiente del MINISTERIO DE
+JUSTICIA en los términos de la Ley N° 22.117 y sus modificatorias.
+
+El REGISTRO NACIONAL DE REINCIDENCIA llevará una sección especial
+relativa a los adolescentes alcanzados por la Ley N° 27.801, en la que
+se asentarán los datos de las sentencias y resoluciones firmes, así
+como sus modificaciones, sustituciones, suspensiones, revocaciones y
+extinciones, con cobertura nacional y federal.
+
+El acceso a la información contenida en dicha sección debe quedar
+reservado a quienes se encuentren autorizados a tal efecto conforme la
+Ley N° 22.117 y sus modificatorias y el artículo 5°, inciso i), de la
+Ley N° 27.801.

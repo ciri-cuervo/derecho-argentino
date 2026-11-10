@@ -180,7 +180,8 @@ class TestElArbolRealEntero(unittest.TestCase):
 
     def test_ningun_modulo_queda_afuera_del_cruce(self):
         skill = RAIZ / "derecho" / "skills" / "derecho-argentino"
-        archivos = [str(skill / "SKILL.md")] + [str(p) for p in sorted((skill / "references").glob("*.md"))]
+        archivos = ([str(skill / "SKILL.md")] + [str(p) for p in sorted((skill / "references").glob("*.md"))]
+                    + [str(p) for p in sorted((skill / "references" / "ruteo").glob("*.md"))])
         self.assertGreater(len(archivos), 60, "no encontró los módulos: el control está apagado")
         self._cruzar(archivos, "SKILL.md y los módulos")
 

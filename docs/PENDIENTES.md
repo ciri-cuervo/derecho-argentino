@@ -22,34 +22,32 @@ Se cierran decidiendo. Ninguna espera una herramienta nueva: esperan un criterio
 **Los casos de prueba están en un formato propio y `claude plugin eval` lee otro.** El nativo es
 `prompt.md` con `graders/*.md` —o `case.yaml`— y lo corre el comando con arm de ablación sin
 plugin; el nuestro es la terna `caso.md`, `rubrica.md` y `resultado.md`, que se lee a mano. El
-manifiesto ya declara `experimental.evals`, y hay **dos migrados** que sirven de molde:
-`laboral-despido-tramos-reforma-pba` y `dipr-prorroga-tacita-y-jurisdiccion-exclusiva`. Los dos
-conservan la terna además del formato nativo, así que la primera pregunta quedó contestada en
-los hechos: **conviven**, porque `rubrica.md` dice en prosa lo que los graders dicen ejecutable
-y `resultado.md` es un registro fechado de lo que se vio. Falta decidir la otra: qué pasa con
-los casos heredados de capa 2, que se pueden envolver pero no reescribir.
+manifiesto declara `experimental.evals`. **Conviven**: los casos migrados conservan la terna
+además del formato nativo, porque `rubrica.md` dice en prosa lo que los graders dicen ejecutable y
+`resultado.md` es un registro fechado de lo que se vio. Cuáles tienen formato nativo lo dice el
+disco —`ls derecho/evals/*/prompt.md`—, y lo que se midió con cada corrida, `BITACORA.md`.
 
-**Y hay cinco más migrados, elegidos por un criterio y no por orden de lista:** aquellos en los
-que **retener un dato es la respuesta correcta** —`honorarios-nacional-uma-caba-y-art64`,
-`transito-uf-prescripcion-y-art64`, `previsional-compensacion-de-edad-y-pba`,
-`honorarios-pba-jus-y-etapas` y `civil-danos-transito-factor-objetivo-pba`—. Son los que miden lo
-único que hace distinta a esta skill, y lo que primero se cae con un modelo de menor capacidad.
+**Falta decidir una sola cosa: qué pasa con los casos heredados de capa 2**, que se pueden envolver
+pero no reescribir. Son las excepciones que nombra `AGENTS.md`.
 
-**Sus criterios negativos van todos deterministas, y esa es la decisión de diseño.** Este mismo
-repositorio tiene registrado que un juez chico reprueba respuestas correctas cuando el criterio
-pide que algo NO aparezca, así que «no dio un número» se mide con `match: not_contains` sobre un
-importe en pesos, que es un hecho de la cadena de caracteres. Lo que sí queda en manos de un juez
-son los criterios de fondo, que son afirmaciones sobre derecho y no sobre la forma de la salida.
+**Los criterios negativos van todos deterministas, y esa es la decisión de diseño.** Un juez chico
+reprueba respuestas correctas cuando el criterio pide que algo NO aparezca, así que «no dio un
+número» se mide con `match: not_contains` sobre un importe en pesos, que es un hecho de la cadena
+de caracteres. Lo que queda en manos de un juez son los criterios de fondo.
 
 **Cuidado con prohibir de más.** El grader de `honorarios-pba-jus-y-etapas` excluye con un
 lookahead el capital de sentencia que el propio enunciado trae, porque una respuesta correcta lo
 cita de vuelta: sin esa exclusión, el control reprobaría exactamente lo que quiere premiar.
-**Migrar no es medir, y los siete se midieron.** `laboral-despido-tramos-reforma-pba` se corrió
-en septiembre de 2026, a tres pasadas por brazo; los otros seis el 01/11/2026, a una, con Sonnet
-porque los procesos hijos no tenían acceso a Opus. El resultado y lo que destapó está en
-`BITACORA.md`. Una pasada mide que el caso se pueda resolver y que el grader no repruebe lo
-correcto, no la varianza: para eso hacen falta tres, y el precio de una corrida de los siete a
-una pasada fue del orden de dos dólares.
+
+**Un grader no afirma más que la norma bajada**, y vale para la rúbrica de la que sale: se coteja
+con `articulo.py` antes de escribirlo. Y un criterio `llm` mide un hecho: con varios, falla por el
+más débil.
+
+**Una pasada mide que el caso se pueda resolver y que el grader no repruebe lo correcto, no la
+varianza**: para eso hacen falta tres. El juez por defecto es Haiku y es inestable sobre respuestas
+que condicionan o marcan; con `--judge-model sonnet` el juicio cuesta más, y el techo de
+`--max-cost-usd` corta los graders `llm` sin avisar en el puntaje: un caso cortado se lee en el
+JSON como `skipped: cost ceiling`, no como reprobado.
 
 ### Los reclamos de faltante que no nombran una norma
 
@@ -143,6 +141,23 @@ decidir cómo se rutea entre las dos.
 **Lo que sí está claro y vale para cualquiera de las dos:** el marco legal de lo que se negocia
 —homologación, cosa juzgada, irrenunciabilidad del art. 12 LCT, el SECLO y la mediación previa—
 **ya está en los módulos** y no se duplica.
+
+### El `description` por temas y el contrato de `DISPARADORES`
+
+**El `description` de la skill está en su tope de caracteres, y lo que lo llena es un contrato.**
+`DISPARADORES`, en `test_contenido.py`, exige que cada módulo de rama tenga una palabra suya en el
+`description`, y esas palabras ya ocupan casi todo el campo. Cada rama nueva tiene que sacar otra
+para entrar, así que el techo lo pone el test y no la redacción.
+
+**El ruteo ya está por áreas** —la sección 16 manda a `references/ruteo/`—, y la salida natural es
+que el contrato también lo esté: una palabra por área y no por módulo, con el `description`
+escrito por áreas y unos pocos términos de alta señal.
+
+**Lo que hay que decidir no es la redacción sino el riesgo**: una consulta corta que nombra un
+instituto —«usucapión», «hábeas corpus»— puede dejar de activar la skill si su palabra sale del
+campo. Eso no se razona, se mide: las consultas cortas de `evals/RUTEO.md` son el instrumento,
+corridas con el `description` de hoy y con el nuevo, mirando sólo si se dispara la skill. Hasta
+decidirlo, el contrato queda como está.
 
 ## Restricciones que no se levantan
 

@@ -262,7 +262,7 @@
     "csjn-sin-civ86767-2024-10-22": {
       "estado": "layout",
       "fecha": "2026-09-15",
-      "nota": "PDF de la CSJN, 2161 renglones con -layout. Sin -layout la doble columna del membrete se mezcla con el cuerpo. Los cuatro votos se leen enteros y se transcribieron considerandos 13 y 14 del voto que abre en familia.md 18.10."
+      "nota": "PDF de la CSJN, 2161 renglones con -layout. Sin -layout la doble columna del membrete se mezcla con el cuerpo. Los cuatro votos se leen enteros y se transcribieron considerandos 13 y 14 del voto que abre en familia-ninez.md 18.10."
     },
     "csjn-talleresnavalesdarsena-fallos-341-1679": {
       "estado": "layout",
@@ -433,6 +433,16 @@
       "estado": "limpio",
       "fecha": "2026-09-18",
       "nota": "PDF generado digitalmente, no escaneado: se lee entero con y sin -layout, con acentos y comillas correctos. Lo único espurio es el sello de firma digital, que repite una secuencia de caracteres sueltos en el encabezado de cada carilla —mismo patrón que jfam8lp-dje— y no se copia. De acá salió el holding de derechos-reales.md 45."
+    },
+    "scba-fernandez-l130895-2026-10-21": {
+      "estado": "limpio",
+      "fecha": "2026-11-09",
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
+    },
+    "scba-vera-l139012-2026-09-24": {
+      "estado": "limpio",
+      "fecha": "2026-11-09",
+      "nota": "leído con -layout, cabecera y una franja del medio: acentos correctos y sin sustituciones"
     }
   }
 }

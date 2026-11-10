@@ -24,7 +24,8 @@ despido. Cada punto es binario: el sistema lo identifica o no.
 - [ ] **Los salarios caídos del art. 223 exigen haber impugnado, y no se impugnó.** Es la
   respuesta incómoda del caso: la suspensión es inválida **y aun así** el crédito salarial está
   comprometido, porque el art. 223 pone la impugnación como **condición**. Un análisis que
-  liquide los 46 días como si el vicio bastara reprueba.
+  liquide los veintiséis días disciplinarios como si el vicio bastara reprueba: el art. 223
+  rige *"en el caso de sanciones disciplinarias"*.
 
 - [ ] **El plazo del art. 67 son treinta días CORRIDOS desde la notificación**, y venció. La
   sanción quedó **consentida** y sirve de antecedente disciplinario. No se confunde con el
@@ -57,6 +58,6 @@ despido. Cada punto es binario: el sistema lo identifica o no.
 
 - Discutir si la investigación interna justificaba la suspensión, cuando el plazo fijo ya la
   invalidó.
-- Dar por cobrables los 46 días de salarios caídos sin mirar el art. 223.
+- Dar por cobrables los veintiséis días de suspensión disciplinaria sin mirar el art. 223.
 - Presentar el art. 182 como una opción frente al art. 245.
 - Rutear a `laboral.md` por la palabra «despido» y perder los arts. 178, 218 y 220.

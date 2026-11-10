@@ -48,8 +48,8 @@ conteste el fondo sin corregirlas está incompleto, aunque lo que diga del fondo
 - [ ] **Señala la revisión de oficio del art. 67.** Hay un mayor coimputado: si resulta absuelto o
   condenado a pena inferior a la aplicada a T., procede la **revisión de oficio** del proceso.
 - [ ] **Distingue qué ley pone el umbral de punibilidad.** Que T. tenga 16 años cumplidos lo hace
-  punible por la **Ley 22.278**, que es nacional, no por la 13.634. El art. 32 de la 13.634 se
-  remite a la legislación nacional. Ver `penal.md` 24.9.4.
+  punible por la ley nacional —hoy la **Ley 27.801**, que derogó la 22.278—, no por la 13.634. El art. 32 de la 13.634 se
+  remite a la legislación nacional. Ver `penal-leyes-especiales.md` 24.9.4.
 - [ ] **Pide la comprobación de la edad.** No hay partida acompañada. El art. 34 la comprueba con
   títulos de estado y, a falta de ellos, con dictamen pericial en **48 horas**.
 

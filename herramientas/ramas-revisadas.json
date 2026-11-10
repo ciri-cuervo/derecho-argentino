@@ -26,28 +26,28 @@
       "veredicto": "no-es-rama",
       "nota": "Es la competencia federal de la propia Ley 27.442, que el módulo cubre entero: la fila de defensa de la competencia ya lo alcanza. Cita la LDC por contraste, no como materia nueva."
     },
-    "consumidor.md :: 17.11.5 bis": {
+    "consumidor-sectores.md :: 17.11.5 bis": {
       "veredicto": "rama",
       "disparadores": [
         "gas"
       ],
       "nota": "Ley 24.076, marco regulatorio del gas: servicio público con ente propio, entra por el art. 25 LDC."
     },
-    "consumidor.md :: 17.11.5 quater": {
+    "consumidor-sectores.md :: 17.11.5 quater": {
       "veredicto": "rama",
       "disparadores": [
         "energía eléctrica"
       ],
       "nota": "Ley 24.065, energía eléctrica: gemela del gas y con la instancia previa al revés."
     },
-    "consumidor.md :: 17.11.5 quinquies": {
+    "consumidor-sectores.md :: 17.11.5 quinquies": {
       "veredicto": "rama",
       "disparadores": [
         "telecomunicaciones"
       ],
       "nota": "Ley 27.078, servicios TIC: sólo el básico telefónico quedó siendo servicio público."
     },
-    "consumidor.md :: 17.11.5 ter": {
+    "consumidor-sectores.md :: 17.11.5 ter": {
       "veredicto": "rama",
       "disparadores": [
         "vuelo cancelado"
@@ -97,7 +97,7 @@
       "veredicto": "no-es-rama",
       "nota": "Régimen de Incentivo a la Formalización Laboral: es un régimen de la misma materia que el módulo cubre -liquidación y registración-, alcanzado por su fila."
     },
-    "laboral.md :: 5.17 quater": {
+    "laboral-estatutos.md :: 5.17 quater": {
       "veredicto": "rama",
       "disparadores": [
         "agrario"
@@ -244,7 +244,7 @@
       ],
       "nota": "Ley 15.510: régimen promocional con estabilidad fiscal, sanciones propias y procedimiento por el Decreto-Ley 7.647/70, no por los recursos del art. 115 del Código Fiscal. Quien consulta por un cese de beneficios no dice ARBA."
     },
-    "laboral.md :: 5.17 quinquies": {
+    "laboral-estatutos.md :: 5.17 quinquies": {
       "veredicto": "rama",
       "disparadores": [
         "casas particulares"
@@ -286,7 +286,7 @@
       ],
       "nota": "Leyes 10.430, 14.656 y 10.579: tres estatutos provinciales dentro de un módulo que era sólo nacional. Declarada a mano."
     },
-    "laboral.md :: 5.17 sexies": {
+    "laboral-estatutos.md :: 5.17 sexies": {
       "veredicto": "rama",
       "disparadores": [
         "viajante"
@@ -300,7 +300,7 @@
       ],
       "nota": "Ley 24.714: régimen propio de la seguridad social, distinto del SIPA que el módulo cubre. Declarada a mano."
     },
-    "consumidor.md :: 17.11.7": {
+    "consumidor-sectores.md :: 17.11.7": {
       "veredicto": "rama",
       "disparadores": [
         "tarjeta de crédito"
@@ -329,14 +329,14 @@
       ],
       "nota": "CCyCN Título III del Libro Segundo: régimen propio, absorbido del perfil heredado. Declarada a mano."
     },
-    "familia.md :: 18.10 ter": {
+    "familia-ninez.md :: 18.10 ter": {
       "veredicto": "rama",
       "disparadores": [
         "adopción"
       ],
       "nota": "CCyCN Título VI del Libro Segundo: proceso en tres etapas, absorbido del perfil heredado. Declarada a mano."
     },
-    "familia.md :: 18.10 quater": {
+    "familia-ninez.md :: 18.10 quater": {
       "veredicto": "rama",
       "disparadores": [
         "medida de abrigo"
@@ -430,6 +430,10 @@
         "vivienda única"
       ],
       "nota": "Protección de la vivienda: arts. 244 a 256 CCyCN y Ley 14.432 PBA texto Ley 15.638. Ningún módulo la cubría."
+    },
+    "tributario.md :: 33.1 bis": {
+      "veredicto": "no-es-rama",
+      "nota": "Multas de la Ley 11.683 y el régimen simplificado de Ganancias de la Ley 27.799 con su reglamentación -Decretos 93 y 1253/2026-: procedimiento tributario nacional, que la fila de ARCA ya alcanza. Los decretos reglamentan leyes que el módulo cubre, no traen materia nueva."
     }
   }
 }

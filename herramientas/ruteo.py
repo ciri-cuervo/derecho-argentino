@@ -44,6 +44,7 @@ import sys
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 SKILL = RAIZ / "derecho" / "skills" / "derecho-argentino"
 REFS = SKILL / "references"
+AREAS = REFS / "ruteo"
 COMANDOS = RAIZ / "derecho" / "commands"
 CONSULTAS = RAIZ / "derecho" / "evals" / "RUTEO.md"
 
@@ -57,7 +58,12 @@ def modulos() -> set[str]:
     return {p.name for p in REFS.glob("*.md")}
 
 
-def seccion_de_ruteo() -> str:
+def tablas_de_area() -> dict[str, str]:
+    """Las tablas de `references/ruteo/`, que son el segundo nivel del router y no módulos."""
+    return {p.name: p.read_text(encoding="utf-8") for p in sorted(AREAS.glob("*.md"))}
+
+
+def seccion_16() -> str:
     texto = (SKILL / "SKILL.md").read_text(encoding="utf-8")
     arranca = re.search(r"^## 16 ·", texto, re.M)
     if not arranca:
@@ -65,6 +71,23 @@ def seccion_de_ruteo() -> str:
     resto = texto[arranca.start():]
     corta = re.search(r"^## 17 ", resto, re.M)
     return resto[:corta.start()] if corta else resto
+
+
+def seccion_de_ruteo() -> str:
+    """El router entero: la sección 16 y las tablas de área a las que manda.
+
+    Las tablas de área cuentan como router, no como un módulo más: un módulo que sólo nombra una
+    tabla de área está a distancia 1. Sin ellas, casi todo quedaba a distancia 2, y no porque el
+    ruteo lo alcanzara sino porque `intake.md` y otros transversales nombran casi todo: un verde
+    que no medía el ruteo.
+    """
+    return "\n".join([seccion_16(), *tablas_de_area().values()])
+
+
+def areas_sin_fila() -> list[str]:
+    """Una tabla de área que la sección 16 no nombra es invisible: nadie la va a abrir."""
+    s16 = seccion_16()
+    return [a for a in tablas_de_area() if f"references/ruteo/{a}" not in s16]
 
 
 def nombrados(texto: str, universo: set[str]) -> set[str]:
@@ -137,7 +160,8 @@ def main(argv: list[str]) -> int:
     por_distancia: dict[int, list[str]] = {}
     for m, d in dist.items():
         por_distancia.setdefault(d, []).append(m)
-    print(f"\n  Módulos: {len(universo)}. Desde la tabla de ruteo de la sección 16:")
+    print(f"\n  Módulos: {len(universo)}. Desde la sección 16 y sus "
+          f"{len(tablas_de_area())} tablas de área:")
     for d in sorted(por_distancia):
         print(f"    distancia {d}: {len(por_distancia[d])}")
         if a.todo:
@@ -154,6 +178,12 @@ def main(argv: list[str]) -> int:
         print(f"\n  A DISTANCIA 3 O MÁS ({len(lejos)}) — existen y prácticamente no se abren:")
         for m in lejos:
             print(f"    {m}  (distancia {dist[m]})")
+
+    sin_fila = areas_sin_fila()
+    if sin_fila:
+        print(f"\n  TABLAS DE ÁREA SIN FILA EN LA SECCIÓN 16 ({len(sin_fila)}) — nadie las abre:")
+        for t in sin_fila:
+            print(f"    references/ruteo/{t}")
 
     if inalcanzables:
         print(f"\n  INALCANZABLES ({len(inalcanzables)}) — ningún camino los nombra:")
@@ -193,7 +223,7 @@ def main(argv: list[str]) -> int:
     print("\n  Esto mide el MAPA, no el manejo: que desde el router se pueda llegar a cada")
     print("  módulo, no que se llegue. Lo segundo se contesta corriendo las consultas contra")
     print("  el sistema y anotando qué abrió.")
-    return 1 if (inalcanzables or rotas) else 0
+    return 1 if (inalcanzables or rotas or sin_fila) else 0
 
 
 if __name__ == "__main__":

@@ -2670,15 +2670,12 @@
     },
     "decreto-875-2026": {
       "titulo": "Decreto 875/2026 - Reglamentación del Régimen Penal Juvenil",
-      "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/346953/20260907",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/425000-429999/429701/norma.htm",
       "archivo": "decreto-875-2026.txt",
-      "sha256_texto": "9f7cc15520d262dd52bb2a537e165037390eb07cc6c919a5ef33ac3c68833bde",
-      "sha256_archivo": "81edccf09b329b8467cc8a84fb1d7f3add85e86eb4f749af68c4d52c6a5ac57e",
-      "content_type": "text/html; charset=UTF-8",
-      "descargado": "2026-11-01T15:39:56-03:00",
-      "revisar": [
-        "parece la ley APROBATORIA y no su contenido: solo 22 artículos y el texto remite a un anexo. Buscar una fuente que transcriba el anexo"
-      ]
+      "sha256_texto": "15283049a5253a23133c532c681174838c6b1ea79867aaad86eb857f09da0c9b",
+      "sha256_archivo": "a5fa0fd23681055bf32b5adf17411af2fd069df584455ce7e8c11471578560af",
+      "content_type": "text/html",
+      "descargado": "2026-11-09T20:27:38-03:00"
     },
     "ley-27826": {
       "titulo": "Ley 27.826 - Inocencia Fiscal II: procedimiento tributario, régimen penal tributario y multas",
@@ -2724,6 +2721,24 @@
       "sha256_archivo": "a203b870a8fde555910d6ddc6be3471df9bf633bbfed70ac7c4d2a101bae5c61",
       "content_type": "text/html; charset=UTF-8",
       "descargado": "2026-11-01T16:10:39-03:00"
+    },
+    "ley-25344": {
+      "titulo": "Ley 25.344 - Emergencia económico-financiera y segunda consolidación de deudas del Estado nacional (texto actualizado)",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/65000-69999/65053/texact.htm",
+      "archivo": "ley-25344.txt",
+      "sha256_texto": "75d300e4413f6c32115596b5b9453b6de4c9706f31b6d89cf72a7121b1ced02c",
+      "sha256_archivo": "c5bfeec6e5c35bccc20b7da9ecffc6d8dd3bb32c17975592da2909a5f121cfdd",
+      "content_type": "text/html",
+      "descargado": "2026-11-09T20:27:38-03:00"
+    },
+    "decreto-1253-2026": {
+      "titulo": "Decreto 1253/2026 - sustituye la reglamentación del Capítulo III del Título II de la Ley 27.799",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/430000-434999/431528/norma.htm",
+      "archivo": "decreto-1253-2026.txt",
+      "sha256_texto": "7df8934ecbd6d9d1b8521bdd6d9d79119313f6c5cd3a1fbd5a73fabbdb466324",
+      "sha256_archivo": "782b8d392b2e32dcefffe7708909d63b5172e95a9bc5d20cff88d1d92fe9217b",
+      "content_type": "text/html",
+      "descargado": "2026-11-09T20:29:10-03:00"
     }
   }
 }
